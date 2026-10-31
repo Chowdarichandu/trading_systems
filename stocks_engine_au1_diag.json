@@ -1,0 +1,130 @@
+{
+ "anchor_ok": true,
+ "aug_trades": 34,
+ "aug_net": -1484.26,
+ "f4_aug_s065_net": -5420.63,
+ "f4_aug_s080_net": -7286.99,
+ "changed_trades": [
+  {
+   "key": "('2026-08-31', 'GLENMARK', 1)",
+   "delta": -370.53,
+   "old": -1645.63,
+   "new": -2016.16,
+   "old_exit": "stop",
+   "new_exit": "stop",
+   "setup": "skill_or_breakdown",
+   "dir": "SHORT",
+   "leg": "direct"
+  },
+  {
+   "key": "('2026-08-28', 'GLENMARK', 1)",
+   "delta": -366.01,
+   "old": -1626.07,
+   "new": -1992.08,
+   "old_exit": "stop",
+   "new_exit": "stop",
+   "setup": "skill_or_breakdown",
+   "dir": "SHORT",
+   "leg": "direct"
+  },
+  {
+   "key": "('2026-08-20', 'UNITDSPR', 1)",
+   "delta": -231.69,
+   "old": -1043.99,
+   "new": -1275.68,
+   "old_exit": "stop",
+   "new_exit": "stop",
+   "setup": "skill_or_breakout",
+   "dir": "LONG",
+   "leg": "direct"
+  },
+  {
+   "key": "('2026-08-27', 'UNITDSPR', 1)",
+   "delta": -227.28,
+   "old": -1024.88,
+   "new": -1252.16,
+   "old_exit": "stop",
+   "new_exit": "stop",
+   "setup": "skill_or_breakdown",
+   "dir": "SHORT",
+   "leg": "direct"
+  },
+  {
+   "key": "('2026-08-31', 'BDL', 1)",
+   "delta": -190.5,
+   "old": -865.5,
+   "new": -1056.0,
+   "old_exit": "stop",
+   "new_exit": "stop",
+   "setup": "skill_or_breakdown",
+   "dir": "SHORT",
+   "leg": "direct"
+  },
+  {
+   "key": "('2026-08-20', 'HINDALCO', 1)",
+   "delta": -152.71,
+   "old": -701.77,
+   "new": -854.48,
+   "old_exit": "stop",
+   "new_exit": "stop",
+   "setup": "skill_or_breakdown",
+   "dir": "SHORT",
+   "leg": "direct"
+  },
+  {
+   "key": "('2026-08-20', 'HINDCOPPER', 1)",
+   "delta": -83.74,
+   "old": -402.86,
+   "new": -486.6,
+   "old_exit": "stop",
+   "new_exit": "stop",
+   "setup": "skill_or_breakdown",
+   "dir": "SHORT",
+   "leg": "direct"
+  },
+  {
+   "key": "('2026-08-27', 'HINDCOPPER', 1)",
+   "delta": -81.18,
+   "old": -391.78,
+   "new": -472.96,
+   "old_exit": "stop",
+   "new_exit": "stop",
+   "setup": "skill_or_breakdown",
+   "dir": "SHORT",
+   "leg": "direct"
+  },
+  {
+   "key": "('2026-08-28', 'INDUSTOWER', 1)",
+   "delta": -57.62,
+   "old": -289.7,
+   "new": -347.32,
+   "old_exit": "stop",
+   "new_exit": "stop",
+   "setup": "skill_or_breakout",
+   "dir": "LONG",
+   "leg": "direct"
+  },
+  {
+   "key": "('2026-08-28', 'INDUSTOWER', 2)",
+   "delta": -57.32,
+   "old": -288.36,
+   "new": -345.68,
+   "old_exit": "stop",
+   "new_exit": "stop",
+   "setup": "skill_or_breakout",
+   "dir": "LONG",
+   "leg": "round2"
+  },
+  {
+   "key": "('2026-08-27', 'RECLTD', 1)",
+   "delta": -47.78,
+   "old": -247.02,
+   "new": -294.8,
+   "old_exit": "stop",
+   "new_exit": "stop",
+   "setup": "skill_or_breakdown",
+   "dir": "SHORT",
+   "leg": "direct"
+  }
+ ]
+}

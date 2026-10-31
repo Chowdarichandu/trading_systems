@@ -1,0 +1,14 @@
+ANCHOR SA-ALL ok: {'got_net': 4243.18, 'want_net': 4243.18, 'got_trades': 1073, 'want_trades': 1073, 'got_october': 341.29, 'want_october': 341.29}
+SA-ALL: tr=1073 net=4243.18 JM=10096.92 JS=-6195.03 Oct=341.29 br=8/25 green=5/10 pboJS=-7219.63 audit={'checked': 1073, 'violations': 0} gate=False
+SA-B50: tr=805 net=29552.95 JM=19074.95 JS=10136.71 Oct=341.29 br=9/25 green=7/10 pboJS=25640.14 audit={'checked': 805, 'violations': 0} gate=False
+SA-A50: tr=268 net=-25309.77 JM=-8978.03 JS=-16331.74 Oct=0 br=4/25 green=1/10 pboJS=-32859.77 audit={'checked': 268, 'violations': 0} gate=False
+SB-ALL: tr=1227 net=-35247.26 JM=-6471.28 JS=2523.95 Oct=-31299.93 br=7/25 green=5/10 pboJS=-79365.6 audit={'checked': 1227, 'violations': 0} gate=False
+SB-B50: tr=877 net=-34674.43 JM=-2798.78 JS=-575.72 Oct=-31299.93 br=6/25 green=6/10 pboJS=-49549.25 audit={'checked': 877, 'violations': 0} gate=False
+SC-ALL: tr=1227 net=-65651.2 JM=-39784.35 JS=-44025.16 Oct=18158.31 br=5/25 green=4/10 pboJS=14665.4 audit={'checked': 1227, 'violations': 0} gate=False
+SC-A50: tr=350 net=-14030.92 JM=7583.65 JS=-21614.57 Oct=0 br=11/25 green=5/10 pboJS=23202.03 audit={'checked': 350, 'violations': 0} gate=False
+ANCHOR F4 ok: {'got_net': 42418.91, 'want_net': 42418.91, 'got_trades': 717, 'want_trades': 717, 'got_october': 36166.23, 'want_october': 36166.23}
+ANCHOR F4 placebo: {'got': -906.88, 'want': -906.88, 'trades': 364}
+SD-EV: tr=171 net=23213.97 JM=7325.0 JS=-2075.2 Oct=17964.17 br=13/25 green=4/10 pboJS=-10175.4 audit={'checked': 171, 'violations': 0} gate=False
+SD-NE: tr=546 net=19204.94 JM=-4321.64 JS=5324.52 Oct=18202.06 br=14/25 green=4/10 pboJS=9268.52 audit={'checked': 546, 'violations': 0} gate=False
+WROTE stocks_G1_results.json
+DONE

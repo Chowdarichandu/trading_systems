@@ -1,0 +1,41 @@
+{
+ "anchor_ok": true,
+ "fix": "SAT-1-F4-GODREJCP-SHORT",
+ "removed_trades": 10,
+ "removed_net": -4754.92,
+ "removed_months": {
+  "2026-02": -1004.48,
+  "2026-03": -1709.68,
+  "2026-04": 180.0,
+  "2026-05": 704.76,
+  "2026-06": -1680.96,
+  "2026-09": -1244.56
+ },
+ "new_month_table": {
+  "2026-01": 11378.22,
+  "2026-02": 6130.34,
+  "2026-03": 20825.94,
+  "2026-04": 1284.36,
+  "2026-05": 28673.22,
+  "2026-06": 1853.72,
+  "2026-07": 3196.63,
+  "2026-08": 185.69,
+  "2026-09": 19286.1,
+  "2026-10": 50572.02
+ },
+ "new_total": 143386.24,
+ "new_trades": 896,
+ "banked": true,
+ "june_delta": 1680.96,
+ "ex_top3_before": 18918.3,
+ "ex_top3_after": 23673.22,
+ "legs": {
+  "a_total": true,
+  "b_all_green": true,
+  "c_oct": true,
+  "d_june_revisit": true,
+  "e_extop3": true
+ },
+ "june_after_n4_reapply": 1199.06,
+ "august_revisit_shortfall": 3834.85
+}

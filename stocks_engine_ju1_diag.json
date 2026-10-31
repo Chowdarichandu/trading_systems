@@ -1,0 +1,45 @@
+{
+ "anchor_ok": true,
+ "july_trades": 14,
+ "july_net": 2096.63,
+ "top1": 4844.5,
+ "top3": 8137.63,
+ "ex_top3": -6041.0,
+ "inactive": [
+  "INV-LONG"
+ ],
+ "surgical_candidates": [
+  {
+   "scan": "comp x stock",
+   "slice": "('N4-V3', 'WIPRO')",
+   "jul_n": 1,
+   "jul_net": -127.15,
+   "full_n": 5,
+   "full_net": -383.47
+  },
+  {
+   "scan": "comp x stock",
+   "slice": "('N4-V3', 'HDFCBANK')",
+   "jul_n": 1,
+   "jul_net": -430.07,
+   "full_n": 2,
+   "full_net": -828.32
+  },
+  {
+   "scan": "comp x stock",
+   "slice": "('P2F', 'HINDUNILVR')",
+   "jul_n": 1,
+   "jul_net": -1100.0,
+   "full_n": 2,
+   "full_net": -2294.05
+  },
+  {
+   "scan": "comp x stock",
+   "slice": "('F4', 'NHPC')",
+   "jul_n": 1,
+   "jul_net": -103.36,
+   "full_n": 28,
+   "full_net": -1215.22
+  }
+ ]
+}

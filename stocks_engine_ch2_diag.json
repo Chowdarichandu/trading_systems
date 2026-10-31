@@ -1,0 +1,47 @@
+{
+ "B_n4_excursions": {
+  "n": 50,
+  "by_reason": {
+   "stop": {
+    "n": 31,
+    "net": -15985.68
+   },
+   "target": {
+    "n": 17,
+    "net": 22612.48
+   },
+   "square_off": {
+    "n": 2,
+    "net": 1135.0
+   }
+  },
+  "buckets": {
+   "mfe>=1.25": 17,
+   "mfe>=1.50": 6,
+   "mfe>=1.75": 3,
+   "mfe>=2.00": 2
+  },
+  "tgt_post": {
+   "to150": 15,
+   "to_stop080": 2,
+   "both": 0,
+   "neither": 0
+  },
+  "stp_post": {
+   "to125": 7,
+   "to150": 0,
+   "deeper080": 22,
+   "neither": 2
+  },
+  "est_T150": -1995.57,
+  "est_S080": 11472.97,
+  "missing": 0
+ },
+ "A_mirror": {
+  "above_days": 69,
+  "oct_above": 0,
+  "qualifying": 350,
+  "drift_mean_pct": 0.059,
+  "rough_rs_total": 40671.0
+ }
+}

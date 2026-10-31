@@ -1,0 +1,147 @@
+{
+ "anchors": {
+  "A": true,
+  "B": true
+ },
+ "fix": "SAT-20-INV-HINDZINC (INV-LONG excludes HINDZINC; stock x mechanism exclusion)",
+ "fix_id": "SAT-20-INV-HINDZINC",
+ "slice": {
+  "trades": 9,
+  "net": -2131.83,
+  "win": 1,
+  "deleted_set": [
+   [
+    "2026-01-13",
+    "HINDZINC",
+    "LONG",
+    -358.3
+   ],
+   [
+    "2026-01-21",
+    "HINDZINC",
+    "LONG",
+    -388.45
+   ],
+   [
+    "2026-01-21",
+    "HINDZINC",
+    "LONG",
+    -388.2
+   ],
+   [
+    "2026-02-02",
+    "HINDZINC",
+    "LONG",
+    -335.57
+   ],
+   [
+    "2026-03-20",
+    "HINDZINC",
+    "LONG",
+    -302.75
+   ],
+   [
+    "2026-04-07",
+    "HINDZINC",
+    "LONG",
+    620.44
+   ],
+   [
+    "2026-04-09",
+    "HINDZINC",
+    "LONG",
+    -320.75
+   ],
+   [
+    "2026-05-04",
+    "HINDZINC",
+    "LONG",
+    -343.48
+   ],
+   [
+    "2026-06-11",
+    "HINDZINC",
+    "LONG",
+    -314.77
+   ]
+  ],
+  "jun_slice": -314.77,
+  "oct_slice": 0.0,
+  "aug_slice": 0.0,
+  "apr_slice": 299.69
+ },
+ "registry": {
+  "slices_total": 145,
+  "qualifying": 11
+ },
+ "new_month_table": {
+  "2026-01": 27746.41,
+  "2026-02": 18448.01,
+  "2026-03": 20395.86,
+  "2026-04": 7617.74,
+  "2026-05": 34799.69,
+  "2026-06": 1846.78,
+  "2026-07": 4448.29,
+  "2026-08": 309.08,
+  "2026-09": 18043.55,
+  "2026-10": 53031.65
+ },
+ "new_total": 186687.06,
+ "new_trades": 771,
+ "banked": true,
+ "deltas": {
+  "2026-01": 1134.95,
+  "2026-02": 335.57,
+  "2026-03": 302.75,
+  "2026-04": -299.69,
+  "2026-05": 343.48,
+  "2026-06": 314.77,
+  "2026-07": 0.0,
+  "2026-08": 0.0,
+  "2026-09": 0.0,
+  "2026-10": 0.0
+ },
+ "ex_top3_before": 61445.64,
+ "ex_top3_after": 63577.47,
+ "top3_before": [
+  [
+   "TVSMOTOR",
+   72025.56
+  ],
+  [
+   "ASTRAL",
+   27847.79
+  ],
+  [
+   "OBEROIRLTY",
+   23236.24
+  ]
+ ],
+ "top3_after": [
+  [
+   "TVSMOTOR",
+   72025.56
+  ],
+  [
+   "ASTRAL",
+   27847.79
+  ],
+  [
+   "OBEROIRLTY",
+   23236.24
+  ]
+ ],
+ "legs": {
+  "a_total": true,
+  "b_all_green_razors": true,
+  "c_oct": true,
+  "d_extop3": true,
+  "e_anchors": true
+ },
+ "oct_headroom_after": 3031.65,
+ "razors_after": {
+  "2026-08": 309.08,
+  "2026-07": 4448.29,
+  "2026-06": 1846.78
+ }
+}

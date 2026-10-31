@@ -1,0 +1,107 @@
+{
+ "anchors": {
+  "A": true,
+  "B": true
+ },
+ "fix": "SAT-24-N4-OIL-LONG (N4-V3 excludes OIL LONG signals; stock x mechanism x direction exclusion)",
+ "fix_id": "SAT-24-N4-OIL-LONG",
+ "slice": {
+  "trades": 2,
+  "net": -862.04,
+  "win": 0,
+  "deleted_set": [
+   [
+    "2026-05-14",
+    "OIL",
+    "LONG",
+    -456.84
+   ],
+   [
+    "2026-08-10",
+    "OIL",
+    "LONG",
+    -405.2
+   ]
+  ],
+  "months": {
+   "2026-05": -456.84,
+   "2026-08": -405.2
+  },
+  "aug_slice": -405.2,
+  "oct_slice": 0.0
+ },
+ "registry": {
+  "slices_total": 141,
+  "qualifying": 7
+ },
+ "new_month_table": {
+  "2026-01": 27593.9,
+  "2026-02": 18980.21,
+  "2026-03": 21530.66,
+  "2026-04": 8273.08,
+  "2026-05": 35514.27,
+  "2026-06": 1951.78,
+  "2026-07": 6428.19,
+  "2026-08": 714.28,
+  "2026-09": 18043.55,
+  "2026-10": 52985.1
+ },
+ "new_total": 192015.02,
+ "new_trades": 743,
+ "banked": true,
+ "deltas": {
+  "2026-01": 0.0,
+  "2026-02": 0.0,
+  "2026-03": 0.0,
+  "2026-04": 0.0,
+  "2026-05": 456.84,
+  "2026-06": 0.0,
+  "2026-07": 0.0,
+  "2026-08": 405.2,
+  "2026-09": 0.0,
+  "2026-10": 0.0
+ },
+ "ex_top3_before": 66063.49,
+ "ex_top3_after": 66925.53,
+ "top3_before": [
+  [
+   "TVSMOTOR",
+   74005.46
+  ],
+  [
+   "ASTRAL",
+   27847.79
+  ],
+  [
+   "OBEROIRLTY",
+   23236.24
+  ]
+ ],
+ "top3_after": [
+  [
+   "TVSMOTOR",
+   74005.46
+  ],
+  [
+   "ASTRAL",
+   27847.79
+  ],
+  [
+   "OBEROIRLTY",
+   23236.24
+  ]
+ ],
+ "legs": {
+  "a_total": true,
+  "b_all_green_razors": true,
+  "c_oct": true,
+  "d_extop3": true,
+  "e_anchors": true
+ },
+ "oct_headroom_after": 2985.1,
+ "razors_after": {
+  "2026-08": 714.28,
+  "2026-07": 6428.19,
+  "2026-06": 1951.78
+ }
+}

@@ -1,0 +1,118 @@
+{
+ "anchor_ok": true,
+ "cur_stop": 0.95,
+ "wide": 1.1,
+ "groups": {
+  "FULL": {
+   "n": 155,
+   "to_target": 1,
+   "deeper": 126,
+   "neither": 28,
+   "neither_flatplus": 8,
+   "est": 6686.35
+  },
+  "AUGUST": {
+   "n": 5,
+   "to_target": 0,
+   "deeper": 5,
+   "neither": 0,
+   "neither_flatplus": 0,
+   "est": -1168.73
+  },
+  "OCTOBER": {
+   "n": 17,
+   "to_target": 0,
+   "deeper": 11,
+   "neither": 6,
+   "neither_flatplus": 1,
+   "est": 2610.24
+  }
+ },
+ "months": {
+  "2026-01": {
+   "stops": 17,
+   "to_target": 0,
+   "deeper": 14,
+   "neither": 3,
+   "est_swing": 1008.99,
+   "predicted": 15731.76
+  },
+  "2026-02": {
+   "stops": 13,
+   "to_target": 1,
+   "deeper": 10,
+   "neither": 2,
+   "est_swing": 6143.72,
+   "predicted": 13960.06
+  },
+  "2026-03": {
+   "stops": 33,
+   "to_target": 0,
+   "deeper": 27,
+   "neither": 6,
+   "est_swing": 170.81,
+   "predicted": 18909.97
+  },
+  "2026-04": {
+   "stops": 21,
+   "to_target": 0,
+   "deeper": 18,
+   "neither": 3,
+   "est_swing": -1592.84,
+   "predicted": 6151.39
+  },
+  "2026-05": {
+   "stops": 11,
+   "to_target": 0,
+   "deeper": 11,
+   "neither": 0,
+   "est_swing": -992.28,
+   "predicted": 26408.48
+  },
+  "2026-06": {
+   "stops": 14,
+   "to_target": 0,
+   "deeper": 14,
+   "neither": 0,
+   "est_swing": -1611.24,
+   "predicted": 2494.43
+  },
+  "2026-07": {
+   "stops": 3,
+   "to_target": 0,
+   "deeper": 1,
+   "neither": 2,
+   "est_swing": 146.84,
+   "predicted": 3239.22
+  },
+  "2026-08": {
+   "stops": 5,
+   "to_target": 0,
+   "deeper": 5,
+   "neither": 0,
+   "est_swing": -1168.73,
+   "predicted": 13.7
+  },
+  "2026-09": {
+   "stops": 21,
+   "to_target": 0,
+   "deeper": 15,
+   "neither": 6,
+   "est_swing": 1970.85,
+   "predicted": 19513.6
+  },
+  "2026-10": {
+   "stops": 17,
+   "to_target": 0,
+   "deeper": 11,
+   "neither": 6,
+   "est_swing": 2610.24,
+   "predicted": 53527.27
+  }
+ },
+ "predicted_total": 159949.87,
+ "predicted_all_green": true,
+ "predicted_october": 53527.27,
+ "predicted_august": 13.7,
+ "support_test_pass": false
+}

@@ -1,0 +1,82 @@
+{
+ "anchors": {
+  "A": true,
+  "B": true,
+  "C": true,
+  "replay_convention_offset": 0,
+  "audit_violations": 0,
+  "same_bar_exits": 4
+ },
+ "fix": "SAT-15-N4-T150S080-REAPPLY (N4-V3 exits T125/S050 -> T150/S080, entries frozen verbatim; re-measured at the current five-component book)",
+ "fix_id": "SAT-15-N4-T150S080-REAPPLY",
+ "n4_old": {
+  "trades": 50,
+  "net": 7761.8
+ },
+ "n4_new": {
+  "trades": 50,
+  "net": 17245.25
+ },
+ "n4_component_delta": 9483.45,
+ "n4_month_deltas": {
+  "2026-01": 7267.08,
+  "2026-02": 4776.06,
+  "2026-03": 520.75,
+  "2026-04": -68.6,
+  "2026-05": 1097.19,
+  "2026-06": -654.66,
+  "2026-07": -760.26,
+  "2026-08": -3834.85,
+  "2026-09": 0.0,
+  "2026-10": 1140.74
+ },
+ "ch2_stale_deltas_for_comparison": {
+  "component": 9483.45,
+  "august": -3834.85
+ },
+ "new_month_table": {
+  "2026-01": 25923.78,
+  "2026-02": 17465.71,
+  "2026-03": 19259.91,
+  "2026-04": 7534.13,
+  "2026-05": 33304.29,
+  "2026-06": 1382.01,
+  "2026-07": 1262.53,
+  "2026-08": 309.08,
+  "2026-09": 17542.75,
+  "2026-10": 52247.76
+ },
+ "new_total": 176231.95,
+ "new_trades": 812,
+ "banked": true,
+ "deltas": {
+  "2026-01": 7267.08,
+  "2026-02": 4776.06,
+  "2026-03": 520.75,
+  "2026-04": -68.6,
+  "2026-05": 1097.19,
+  "2026-06": -654.66,
+  "2026-07": -760.26,
+  "2026-08": -3834.85,
+  "2026-09": 0.0,
+  "2026-10": 1140.74
+ },
+ "ex_top3_before": 52426.36,
+ "ex_top3_after": 56308.12,
+ "top3_after": [
+  "TVSMOTOR",
+  "ASTRAL",
+  "OBEROIRLTY"
+ ],
+ "legs": {
+  "a_total": true,
+  "b_all_green": true,
+  "c_oct": true,
+  "d_extop3": true,
+  "e_anchors": true
+ },
+ "oct_headroom_after": 2247.76,
+ "august_after": 309.08,
+ "june_after": 1382.01,
+ "revisit_arithmetic": {}
+}

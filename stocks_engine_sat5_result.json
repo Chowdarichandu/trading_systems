@@ -1,0 +1,126 @@
+{
+ "anchor_ok": true,
+ "removed": [
+  {
+   "date": "2026-01-29",
+   "net": -1904.08,
+   "exit_reason": "stop",
+   "setup": "skill_or_breakdown"
+  },
+  {
+   "date": "2026-04-06",
+   "net": -1683.12,
+   "exit_reason": "stop",
+   "setup": "skill_or_breakdown"
+  },
+  {
+   "date": "2026-04-16",
+   "net": 700.0,
+   "exit_reason": "square_off",
+   "setup": "skill_or_breakdown"
+  },
+  {
+   "date": "2026-04-28",
+   "net": 1510.0,
+   "exit_reason": "square_off",
+   "setup": "skill_or_breakdown"
+  },
+  {
+   "date": "2026-06-24",
+   "net": -1040.0,
+   "exit_reason": "square_off",
+   "setup": "setup2_or_breakdown"
+  },
+  {
+   "date": "2026-09-24",
+   "net": 190.0,
+   "exit_reason": "square_off",
+   "setup": "skill_or_breakdown"
+  },
+  {
+   "date": "2026-09-29",
+   "net": 880.0,
+   "exit_reason": "square_off",
+   "setup": "setup2_or_breakdown"
+  },
+  {
+   "date": "2026-10-23",
+   "net": 140.0,
+   "exit_reason": "square_off",
+   "setup": "skill_or_breakdown"
+  },
+  {
+   "date": "2026-10-27",
+   "net": -1456.8,
+   "exit_reason": "stop",
+   "setup": "skill_or_breakdown"
+  }
+ ],
+ "removed_net": -2664.0,
+ "month_table_after": {
+  "2026-01": 13282.3,
+  "2026-02": 6130.34,
+  "2026-03": 20269.77,
+  "2026-04": 1516.24,
+  "2026-05": 28714.75,
+  "2026-06": 2893.72,
+  "2026-07": 3196.63,
+  "2026-08": 878.69,
+  "2026-09": 16847.38,
+  "2026-10": 52681.54
+ },
+ "total_after": 146411.36,
+ "trades_after": 869,
+ "deltas": {
+  "2026-01": 1904.08,
+  "2026-02": 0.0,
+  "2026-03": 0.0,
+  "2026-04": -526.88,
+  "2026-05": 0.0,
+  "2026-06": 1040.0,
+  "2026-07": 0.0,
+  "2026-08": 0.0,
+  "2026-09": -1070.0,
+  "2026-10": 1316.8
+ },
+ "gate": {
+  "a_total_rises": true,
+  "b_all_green": true,
+  "c_october_floor": true
+ },
+ "banked": true,
+ "ex_top3_before": {
+  "top3": [
+   [
+    "TVSMOTOR",
+    61717.72
+   ],
+   [
+    "GLENMARK",
+    32182.31
+   ],
+   [
+    "ASTRAL",
+    25812.99
+   ]
+  ],
+  "ex_total": 24034.34
+ },
+ "ex_top3_after": {
+  "top3": [
+   [
+    "TVSMOTOR",
+    61717.72
+   ],
+   [
+    "GLENMARK",
+    32182.31
+   ],
+   [
+    "ASTRAL",
+    25812.99
+   ]
+  ],
+  "ex_total": 26698.34
+ }
+}

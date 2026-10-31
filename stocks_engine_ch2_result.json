@@ -1,0 +1,83 @@
+{
+ "diagnosis_choice": "B (N4 exit rebuild); A not scored",
+ "incumbent_anchor_ok": true,
+ "replay_convention_offset": 0,
+ "audit_violations": 0,
+ "n4_old": {
+  "trades": 50,
+  "net": 7761.8
+ },
+ "n4_new": {
+  "trades": 50,
+  "net": 17245.25
+ },
+ "incumbent_months": {
+  "2026-01": 11378.22,
+  "2026-02": 5125.86,
+  "2026-03": 19116.26,
+  "2026-04": 1464.36,
+  "2026-05": 29377.98,
+  "2026-06": 172.76,
+  "2026-07": 3196.63,
+  "2026-08": 185.69,
+  "2026-09": 18041.54,
+  "2026-10": 50572.02
+ },
+ "incumbent_ex_top3": {
+  "total": 138631.32,
+  "ex_top3": 18918.3,
+  "top3": [
+   [
+    "TVSMOTOR",
+    61717.72
+   ],
+   [
+    "GLENMARK",
+    32182.31
+   ],
+   [
+    "ASTRAL",
+    25812.99
+   ]
+  ]
+ },
+ "challenger_months": {
+  "2026-01": 18645.3,
+  "2026-02": 9901.92,
+  "2026-03": 19637.01,
+  "2026-04": 1395.76,
+  "2026-05": 30475.17,
+  "2026-06": -481.9,
+  "2026-07": 2436.37,
+  "2026-08": -3649.16,
+  "2026-09": 18041.54,
+  "2026-10": 51712.76
+ },
+ "challenger_total": 148114.77,
+ "challenger_trades": 906,
+ "challenger_ex_top3": {
+  "total": 148114.77,
+  "ex_top3": 25420.86,
+  "top3": [
+   [
+    "TVSMOTOR",
+    68755.04
+   ],
+   [
+    "GLENMARK",
+    28125.88
+   ],
+   [
+    "ASTRAL",
+    25812.99
+   ]
+  ]
+ },
+ "gate": {
+  "a_all_months_green": false,
+  "b_total_higher": true,
+  "c_october_floor": true,
+  "d_ex_top3_not_worse": true
+ },
+ "adopted": false
+}

@@ -1,0 +1,23 @@
+AGG validation: 1875 bars, 0 mismatches; added: {'2026-10-29': 25, '2026-10-30': 25}
+NIFTY daily last: 2026-10-30 | below50 Oct28/29/30: [True, True, True]
+L1-A|T05/S050|all: net=-277904.65 trades=5546 JM=-158072.7 JO=-119831.95 Oct=-2100.64 breadth=2/25 exp=-50.11 green=0/10 placebo=-183466.16
+L1-A|T05/S050|below50: net=-190335.05 trades=3802 JM=-133849.14 JO=-56485.91 Oct=-2100.64 breadth=1/25 exp=-50.06 green=0/10 placebo=-123919.91
+L1-A|T10/S050|all: net=-245232.39 trades=4759 JM=-124874.75 JO=-120357.64 Oct=12567.47 breadth=3/25 exp=-51.53 green=2/10 placebo=-178863.83
+L1-A|T10/S050|below50: net=-179303.01 trades=3252 JM=-126296.45 JO=-53006.56 Oct=12567.47 breadth=2/25 exp=-55.14 green=2/10 placebo=-125241.21
+L1-A|T125/S065|all: net=-210271.54 trades=4175 JM=-67761.76 JO=-142509.78 Oct=15626.92 breadth=2/25 exp=-50.36 green=2/10 placebo=-170551.95
+L1-A|T125/S065|below50: net=-153845.61 trades=2847 JM=-80195.91 JO=-73649.7 Oct=15626.92 breadth=4/25 exp=-54.04 green=2/10 placebo=-117611.51
+L1-B|T05/S050|all: net=-348224.11 trades=7535 JM=-173242.73 JO=-174981.38 Oct=-62341.28 breadth=3/25 exp=-46.21 green=0/10 placebo=-210876.09
+L1-B|T05/S050|below50: net=-277168.16 trades=5091 JM=-144226.31 JO=-132941.85 Oct=-62341.28 breadth=2/25 exp=-54.44 green=1/10 placebo=-176772.45
+L1-B|T10/S050|all: net=-316499.89 trades=6487 JM=-158738.33 JO=-157761.56 Oct=-36078.32 breadth=2/25 exp=-48.79 green=1/10 placebo=-144657.13
+L1-B|T10/S050|below50: net=-211060.89 trades=4376 JM=-121209.33 JO=-89851.56 Oct=-36078.32 breadth=3/25 exp=-48.23 green=1/10 placebo=-124526.82
+L1-B|T125/S065|all: net=-253184.52 trades=5635 JM=-123962.62 JO=-129221.9 Oct=-32064.8 breadth=3/25 exp=-44.93 green=1/10 placebo=-110942.36
+L1-B|T125/S065|below50: net=-155524.26 trades=3801 JM=-80638.8 JO=-74885.46 Oct=-32064.8 breadth=5/25 exp=-40.92 green=2/10 placebo=-103806.72
+L1-C|T05/S050|all: net=-53919.97 trades=1223 JM=-42680.46 JO=-11239.51 Oct=-1541.03 breadth=3/25 exp=-44.09 green=2/10 placebo=-44451.2
+L1-C|T05/S050|below50: net=-32236.6 trades=818 JM=-32301.97 JO=65.37 Oct=-1541.03 breadth=5/25 exp=-39.41 green=1/10 placebo=-24691.86
+L1-C|T10/S050|all: net=-40545.35 trades=1223 JM=-51814.9 JO=11269.55 Oct=-3481.45 breadth=8/25 exp=-33.15 green=3/10 placebo=-38469.95
+L1-C|T10/S050|below50: net=-48090.73 trades=818 JM=-50472.13 JO=2381.4 Oct=-3481.45 breadth=6/25 exp=-58.79 green=2/10 placebo=-32927.67
+L1-C|T125/S065|all: net=-53011.21 trades=1223 JM=-43332.21 JO=-9679.0 Oct=-6133.16 breadth=7/25 exp=-43.35 green=3/10 placebo=-36341.01
+L1-C|T125/S065|below50: net=-47164.16 trades=818 JM=-40882.37 JO=-6281.79 Oct=-6133.16 breadth=7/25 exp=-57.66 green=2/10 placebo=-27811.54
+AUDIT: {'trades': 68865, 'violations': 0, 'violation_kinds': {}}
+BEST: L1-C|T05/S050|below50 -32236.6
+DONE

@@ -1,0 +1,4313 @@
+{
+  "lA_cluster1": [
+    {
+      "date": "2026-01-09",
+      "day_net": 2295.0,
+      "morning": [
+        "09:30",
+        -3745.0
+      ],
+      "re": {
+        "entry": 25831.2,
+        "stop": 25861.6,
+        "target": 25770.4,
+        "exit": "target",
+        "exit_time": "11:35",
+        "exit_idx": 25,
+        "exit_price": 25770.400000000005,
+        "net": 6040.0,
+        "risk": 30.4,
+        "re_signal": "10:50",
+        "variant": "lA",
+        "target_dist": 60.8
+      },
+      "skipped": []
+    },
+    {
+      "date": "2026-02-06",
+      "day_net": 1120.0,
+      "morning": [
+        "10:10",
+        -1810.0
+      ],
+      "re": {
+        "entry": 25543.95,
+        "stop": 25558.8,
+        "target": 25514.25,
+        "exit": "target",
+        "exit_time": "10:25",
+        "exit_idx": 11,
+        "exit_price": 25514.250000000004,
+        "net": 2930.0,
+        "risk": 14.85,
+        "re_signal": "10:20",
+        "variant": "lA",
+        "target_dist": 29.7
+      },
+      "skipped": []
+    },
+    {
+      "date": "2026-03-30",
+      "day_net": -2055.0,
+      "morning": [
+        "11:25",
+        -2055.0
+      ],
+      "re": null,
+      "skipped": [
+        [
+          "11:45",
+          "afternoon_first_fail_risk=20.65_band=[10,20.15]_scan_ends"
+        ]
+      ]
+    },
+    {
+      "date": "2026-04-02",
+      "day_net": -3730.0,
+      "morning": [
+        "10:45",
+        -2065.0
+      ],
+      "re": {
+        "entry": 22206.5,
+        "stop": 22222.75,
+        "target": 22174.0,
+        "exit": "stop",
+        "exit_time": "11:30",
+        "exit_idx": 24,
+        "exit_price": 22222.75,
+        "net": -1665.0,
+        "risk": 16.25,
+        "re_signal": "11:25",
+        "variant": "lA",
+        "target_dist": 32.5
+      },
+      "skipped": []
+    },
+    {
+      "date": "2026-05-13",
+      "day_net": -5075.0,
+      "morning": [
+        "09:30",
+        -5075.0
+      ],
+      "re": null,
+      "skipped": []
+    },
+    {
+      "date": "2026-06-29",
+      "day_net": 2100.0,
+      "morning": [
+        "09:30",
+        -4740.0
+      ],
+      "re": {
+        "entry": 24030.85,
+        "stop": 24065.25,
+        "target": 23962.05,
+        "exit": "target",
+        "exit_time": "12:30",
+        "exit_idx": 36,
+        "exit_price": 23962.049999999996,
+        "net": 6840.0,
+        "risk": 34.4,
+        "re_signal": "11:30",
+        "variant": "lA",
+        "target_dist": 68.8
+      },
+      "skipped": []
+    },
+    {
+      "date": "2026-07-08",
+      "day_net": 955.0,
+      "morning": [
+        "09:30",
+        -1985.0
+      ],
+      "re": {
+        "entry": 24229.0,
+        "stop": 24243.9,
+        "target": 24199.2,
+        "exit": "target",
+        "exit_time": "12:30",
+        "exit_idx": 36,
+        "exit_price": 24199.199999999997,
+        "net": 2940.0,
+        "risk": 14.9,
+        "re_signal": "12:05",
+        "variant": "lA",
+        "target_dist": 29.8
+      },
+      "skipped": [
+        [
+          "10:20",
+          "band_fail_risk=27.00_band=[10,19.45]"
+        ]
+      ]
+    },
+    {
+      "date": "2026-08-19",
+      "day_net": 1670.0,
+      "morning": [
+        "09:30",
+        -2300.0
+      ],
+      "re": {
+        "entry": 24074.45,
+        "stop": 24094.5,
+        "target": 24034.35,
+        "exit": "target",
+        "exit_time": "11:05",
+        "exit_idx": 19,
+        "exit_price": 24034.350000000002,
+        "net": 3970.0,
+        "risk": 20.05,
+        "re_signal": "10:15",
+        "variant": "lA",
+        "target_dist": 40.1
+      },
+      "skipped": [
+        [
+          "10:10",
+          "band_fail_risk=5.30_band=[10,22.60]"
+        ]
+      ]
+    }
+  ],
+  "lA_winners": [
+    {
+      "date": "2026-01-21",
+      "day_net": 9280.0,
+      "morning": [
+        "10:20",
+        9280.0
+      ],
+      "re": null,
+      "skipped": []
+    },
+    {
+      "date": "2026-02-24",
+      "day_net": null,
+      "morning": null,
+      "re": null,
+      "skipped": []
+    },
+    {
+      "date": "2026-03-16",
+      "day_net": 8940.0,
+      "morning": [
+        "10:20",
+        8940.0
+      ],
+      "re": null,
+      "skipped": []
+    },
+    {
+      "date": "2026-03-13",
+      "day_net": 5400.0,
+      "morning": [
+        "09:45",
+        5400.0
+      ],
+      "re": null,
+      "skipped": []
+    },
+    {
+      "date": "2026-03-23",
+      "day_net": 7260.0,
+      "morning": [
+        "09:50",
+        7260.0
+      ],
+      "re": null,
+      "skipped": []
+    },
+    {
+      "date": "2026-04-24",
+      "day_net": 8820.0,
+      "morning": [
+        "09:30",
+        8820.0
+      ],
+      "re": null,
+      "skipped": []
+    },
+    {
+      "date": "2026-05-05",
+      "day_net": 5040.0,
+      "morning": [
+        "10:30",
+        5040.0
+      ],
+      "re": null,
+      "skipped": []
+    },
+    {
+      "date": "2026-07-22",
+      "day_net": 6320.0,
+      "morning": [
+        "09:30",
+        6320.0
+      ],
+      "re": null,
+      "skipped": []
+    },
+    {
+      "date": "2026-08-12",
+      "day_net": null,
+      "morning": null,
+      "re": null,
+      "skipped": []
+    },
+    {
+      "date": "2026-08-27",
+      "day_net": 2980.0,
+      "morning": [
+        "10:40",
+        2980.0
+      ],
+      "re": null,
+      "skipped": []
+    },
+    {
+      "date": "2026-09-29",
+      "day_net": 3790.0,
+      "morning": [
+        "09:30",
+        3790.0
+      ],
+      "re": null,
+      "skipped": []
+    },
+    {
+      "date": "2026-09-07",
+      "day_net": 2470.0,
+      "morning": [
+        "10:10",
+        2470.0
+      ],
+      "re": null,
+      "skipped": []
+    },
+    {
+      "date": "2026-10-08",
+      "day_net": 11690.0,
+      "morning": [
+        "11:25",
+        11690.0
+      ],
+      "re": null,
+      "skipped": []
+    },
+    {
+      "date": "2026-10-23",
+      "day_net": 11390.0,
+      "morning": [
+        "10:05",
+        11390.0
+      ],
+      "re": null,
+      "skipped": []
+    }
+  ],
+  "rB": {
+    "cluster1": [
+      {
+        "date": "2026-01-09",
+        "day_net": 2295.0,
+        "morning_net": -3745.0,
+        "re": [
+          {
+            "exit": "target",
+            "exit_time": "11:35",
+            "exit_idx": 25,
+            "net": 6040.0,
+            "risk": 30.4,
+            "re_signal": "10:50",
+            "entry": 25831.2,
+            "stop": 25861.6,
+            "target": 25770.4
+          }
+        ],
+        "skipped": []
+      },
+      {
+        "date": "2026-02-06",
+        "day_net": 1120.0,
+        "morning_net": -1810.0,
+        "re": [
+          {
+            "exit": "target",
+            "exit_time": "10:25",
+            "exit_idx": 11,
+            "net": 2930.0,
+            "risk": 14.85,
+            "re_signal": "10:20",
+            "entry": 25543.95,
+            "stop": 25558.8,
+            "target": 25514.25
+          }
+        ],
+        "skipped": []
+      },
+      {
+        "date": "2026-03-30",
+        "day_net": -4160.0,
+        "morning_net": -2055.0,
+        "re": [
+          {
+            "exit": "stop",
+            "exit_time": "11:55",
+            "exit_idx": 29,
+            "net": -2105.0,
+            "risk": 20.65,
+            "re_signal": "11:45",
+            "entry": 22465.05,
+            "stop": 22485.7,
+            "target": 22423.75
+          }
+        ],
+        "skipped": []
+      },
+      {
+        "date": "2026-04-02",
+        "day_net": -3730.0,
+        "morning_net": -2065.0,
+        "re": [
+          {
+            "exit": "stop",
+            "exit_time": "11:30",
+            "exit_idx": 24,
+            "net": -1665.0,
+            "risk": 16.25,
+            "re_signal": "11:25",
+            "entry": 22206.5,
+            "stop": 22222.75,
+            "target": 22174.0
+          }
+        ],
+        "skipped": []
+      },
+      {
+        "date": "2026-05-13",
+        "day_net": -5075.0,
+        "morning_net": -5075.0,
+        "re": [],
+        "skipped": []
+      },
+      {
+        "date": "2026-06-29",
+        "day_net": 2100.0,
+        "morning_net": -4740.0,
+        "re": [
+          {
+            "exit": "target",
+            "exit_time": "12:30",
+            "exit_idx": 36,
+            "net": 6840.0,
+            "risk": 34.4,
+            "re_signal": "11:30",
+            "entry": 24030.85,
+            "stop": 24065.25,
+            "target": 23962.05
+          }
+        ],
+        "skipped": []
+      },
+      {
+        "date": "2026-07-08",
+        "day_net": -4725.0,
+        "morning_net": -1985.0,
+        "re": [
+          {
+            "exit": "stop",
+            "exit_time": "10:30",
+            "exit_idx": 12,
+            "net": -2740.0,
+            "risk": 27.0,
+            "re_signal": "10:20",
+            "entry": 24224.5,
+            "stop": 24251.5,
+            "target": 24170.5
+          }
+        ],
+        "skipped": []
+      },
+      {
+        "date": "2026-08-19",
+        "day_net": 1670.0,
+        "morning_net": -2300.0,
+        "re": [
+          {
+            "exit": "target",
+            "exit_time": "11:05",
+            "exit_idx": 19,
+            "net": 3970.0,
+            "risk": 20.05,
+            "re_signal": "10:15",
+            "entry": 24074.45,
+            "stop": 24094.5,
+            "target": 24034.35
+          }
+        ],
+        "skipped": [
+          [
+            "10:10",
+            "band_fail_risk=5.30_band=[10,33.90]"
+          ]
+        ]
+      }
+    ],
+    "winners": [
+      {
+        "date": "2026-01-21",
+        "day_net": 9280.0,
+        "morning_net": 9280.0,
+        "re": [],
+        "skipped": []
+      },
+      {
+        "date": "2026-02-24",
+        "day_net": null,
+        "morning_net": null,
+        "re": [],
+        "skipped": []
+      },
+      {
+        "date": "2026-03-16",
+        "day_net": 8940.0,
+        "morning_net": 8940.0,
+        "re": [],
+        "skipped": []
+      },
+      {
+        "date": "2026-03-13",
+        "day_net": 5400.0,
+        "morning_net": 5400.0,
+        "re": [],
+        "skipped": []
+      },
+      {
+        "date": "2026-03-23",
+        "day_net": 7260.0,
+        "morning_net": 7260.0,
+        "re": [],
+        "skipped": []
+      },
+      {
+        "date": "2026-04-24",
+        "day_net": 8820.0,
+        "morning_net": 8820.0,
+        "re": [],
+        "skipped": []
+      },
+      {
+        "date": "2026-05-05",
+        "day_net": 5040.0,
+        "morning_net": 5040.0,
+        "re": [],
+        "skipped": []
+      },
+      {
+        "date": "2026-07-22",
+        "day_net": 6320.0,
+        "morning_net": 6320.0,
+        "re": [],
+        "skipped": []
+      },
+      {
+        "date": "2026-08-12",
+        "day_net": null,
+        "morning_net": null,
+        "re": [],
+        "skipped": []
+      },
+      {
+        "date": "2026-08-27",
+        "day_net": 2980.0,
+        "morning_net": 2980.0,
+        "re": [],
+        "skipped": []
+      },
+      {
+        "date": "2026-09-29",
+        "day_net": 3790.0,
+        "morning_net": 3790.0,
+        "re": [],
+        "skipped": []
+      },
+      {
+        "date": "2026-09-07",
+        "day_net": 2470.0,
+        "morning_net": 2470.0,
+        "re": [],
+        "skipped": []
+      },
+      {
+        "date": "2026-10-08",
+        "day_net": 11690.0,
+        "morning_net": 11690.0,
+        "re": [],
+        "skipped": []
+      },
+      {
+        "date": "2026-10-23",
+        "day_net": 11390.0,
+        "morning_net": 11390.0,
+        "re": [],
+        "skipped": []
+      }
+    ]
+  },
+  "rC": {
+    "cluster1": [
+      {
+        "date": "2026-01-09",
+        "day_net": -4890.0,
+        "morning_net": -3745.0,
+        "re": [
+          {
+            "exit": "stop",
+            "exit_time": "11:10",
+            "exit_idx": 20,
+            "net": -1145.0,
+            "risk": 11.05,
+            "re_signal": "11:00",
+            "entry": 25811.0,
+            "stop": 25822.05,
+            "target": 25788.9
+          }
+        ],
+        "skipped": []
+      },
+      {
+        "date": "2026-02-06",
+        "day_net": -3380.0,
+        "morning_net": -1810.0,
+        "re": [
+          {
+            "exit": "stop",
+            "exit_time": "10:55",
+            "exit_idx": 17,
+            "net": -1570.0,
+            "risk": 15.3,
+            "re_signal": "10:50",
+            "entry": 25498.2,
+            "stop": 25513.5,
+            "target": 25467.6
+          }
+        ],
+        "skipped": [
+          [
+            "10:40",
+            "band_fail_risk=21.95_band=[10,17.70]"
+          ]
+        ]
+      },
+      {
+        "date": "2026-03-30",
+        "day_net": -3445.0,
+        "morning_net": -2055.0,
+        "re": [
+          {
+            "exit": "stop",
+            "exit_time": "14:00",
+            "exit_idx": 54,
+            "net": -1390.0,
+            "risk": 13.5,
+            "re_signal": "13:55",
+            "entry": 22428.1,
+            "stop": 22441.6,
+            "target": 22401.1
+          }
+        ],
+        "skipped": [
+          [
+            "11:45",
+            "band_fail_risk=20.65_band=[10,20.15]"
+          ],
+          [
+            "13:40",
+            "band_fail_risk=39.35_band=[10,20.15]"
+          ],
+          [
+            "13:45",
+            "band_fail_risk=22.60_band=[10,20.15]"
+          ],
+          [
+            "13:50",
+            "band_fail_risk=31.95_band=[10,20.15]"
+          ]
+        ]
+      },
+      {
+        "date": "2026-04-02",
+        "day_net": -2065.0,
+        "morning_net": -2065.0,
+        "re": [],
+        "skipped": []
+      },
+      {
+        "date": "2026-05-13",
+        "day_net": -5075.0,
+        "morning_net": -5075.0,
+        "re": [],
+        "skipped": []
+      },
+      {
+        "date": "2026-06-29",
+        "day_net": -130.0,
+        "morning_net": -4740.0,
+        "re": [
+          {
+            "exit": "target",
+            "exit_time": "12:30",
+            "exit_idx": 36,
+            "net": 4610.0,
+            "risk": 23.25,
+            "re_signal": "11:50",
+            "entry": 24004.45,
+            "stop": 24027.7,
+            "target": 23957.95
+          }
+        ],
+        "skipped": []
+      },
+      {
+        "date": "2026-07-08",
+        "day_net": -3250.0,
+        "morning_net": -1985.0,
+        "re": [
+          {
+            "exit": "stop",
+            "exit_time": "12:45",
+            "exit_idx": 39,
+            "net": -1265.0,
+            "risk": 12.25,
+            "re_signal": "12:30",
+            "entry": 24196.15,
+            "stop": 24208.4,
+            "target": 24171.65
+          }
+        ],
+        "skipped": [
+          [
+            "12:20",
+            "band_fail_risk=26.60_band=[10,19.45]"
+          ],
+          [
+            "12:25",
+            "band_fail_risk=8.55_band=[10,19.45]"
+          ]
+        ]
+      },
+      {
+        "date": "2026-08-19",
+        "day_net": -4355.0,
+        "morning_net": -2300.0,
+        "re": [
+          {
+            "exit": "stop",
+            "exit_time": "14:35",
+            "exit_idx": 61,
+            "net": -2055.0,
+            "risk": 20.15,
+            "re_signal": "12:00",
+            "entry": 24061.0,
+            "stop": 24081.15,
+            "target": 24020.7
+          }
+        ],
+        "skipped": [
+          [
+            "10:20",
+            "band_fail_risk=7.25_band=[10,22.60]"
+          ],
+          [
+            "10:25",
+            "band_fail_risk=4.85_band=[10,22.60]"
+          ],
+          [
+            "10:30",
+            "band_fail_risk=7.55_band=[10,22.60]"
+          ],
+          [
+            "10:35",
+            "band_fail_risk=9.20_band=[10,22.60]"
+          ],
+          [
+            "10:40",
+            "band_fail_risk=0.95_band=[10,22.60]"
+          ],
+          [
+            "10:45",
+            "band_fail_risk=5.20_band=[10,22.60]"
+          ],
+          [
+            "10:50",
+            "band_fail_risk=-0.55_band=[10,22.60]"
+          ],
+          [
+            "10:55",
+            "band_fail_risk=9.35_band=[10,22.60]"
+          ],
+          [
+            "11:00",
+            "band_fail_risk=9.20_band=[10,22.60]"
+          ],
+          [
+            "11:05",
+            "band_fail_risk=6.15_band=[10,22.60]"
+          ],
+          [
+            "11:10",
+            "band_fail_risk=-0.50_band=[10,22.60]"
+          ],
+          [
+            "11:15",
+            "band_fail_risk=-1.60_band=[10,22.60]"
+          ],
+          [
+            "11:20",
+            "band_fail_risk=7.65_band=[10,22.60]"
+          ],
+          [
+            "11:25",
+            "band_fail_risk=1.10_band=[10,22.60]"
+          ],
+          [
+            "11:30",
+            "band_fail_risk=2.40_band=[10,22.60]"
+          ],
+          [
+            "11:35",
+            "band_fail_risk=6.65_band=[10,22.60]"
+          ],
+          [
+            "11:40",
+            "band_fail_risk=-1.15_band=[10,22.60]"
+          ],
+          [
+            "11:45",
+            "band_fail_risk=0.10_band=[10,22.60]"
+          ]
+        ]
+      }
+    ],
+    "winners": [
+      {
+        "date": "2026-01-21",
+        "day_net": 9280.0,
+        "morning_net": 9280.0,
+        "re": [],
+        "skipped": []
+      },
+      {
+        "date": "2026-02-24",
+        "day_net": null,
+        "morning_net": null,
+        "re": [],
+        "skipped": []
+      },
+      {
+        "date": "2026-03-16",
+        "day_net": 8940.0,
+        "morning_net": 8940.0,
+        "re": [],
+        "skipped": []
+      },
+      {
+        "date": "2026-03-13",
+        "day_net": 5400.0,
+        "morning_net": 5400.0,
+        "re": [],
+        "skipped": []
+      },
+      {
+        "date": "2026-03-23",
+        "day_net": 7260.0,
+        "morning_net": 7260.0,
+        "re": [],
+        "skipped": []
+      },
+      {
+        "date": "2026-04-24",
+        "day_net": 8820.0,
+        "morning_net": 8820.0,
+        "re": [],
+        "skipped": []
+      },
+      {
+        "date": "2026-05-05",
+        "day_net": 5040.0,
+        "morning_net": 5040.0,
+        "re": [],
+        "skipped": []
+      },
+      {
+        "date": "2026-07-22",
+        "day_net": 6320.0,
+        "morning_net": 6320.0,
+        "re": [],
+        "skipped": []
+      },
+      {
+        "date": "2026-08-12",
+        "day_net": null,
+        "morning_net": null,
+        "re": [],
+        "skipped": []
+      },
+      {
+        "date": "2026-08-27",
+        "day_net": 2980.0,
+        "morning_net": 2980.0,
+        "re": [],
+        "skipped": []
+      },
+      {
+        "date": "2026-09-29",
+        "day_net": 3790.0,
+        "morning_net": 3790.0,
+        "re": [],
+        "skipped": []
+      },
+      {
+        "date": "2026-09-07",
+        "day_net": 2470.0,
+        "morning_net": 2470.0,
+        "re": [],
+        "skipped": []
+      },
+      {
+        "date": "2026-10-08",
+        "day_net": 11690.0,
+        "morning_net": 11690.0,
+        "re": [],
+        "skipped": []
+      },
+      {
+        "date": "2026-10-23",
+        "day_net": 11390.0,
+        "morning_net": 11390.0,
+        "re": [],
+        "skipped": []
+      }
+    ]
+  },
+  "rD": {
+    "cluster1": [
+      {
+        "date": "2026-01-09",
+        "day_net": 2295.0,
+        "morning_net": -3745.0,
+        "re": [
+          {
+            "exit": "target",
+            "exit_time": "11:35",
+            "exit_idx": 25,
+            "net": 6040.0,
+            "risk": 30.4,
+            "re_signal": "10:50",
+            "entry": 25831.2,
+            "stop": 25861.6,
+            "target": 25770.4
+          }
+        ],
+        "skipped": []
+      },
+      {
+        "date": "2026-02-06",
+        "day_net": -2900.0,
+        "morning_net": -1810.0,
+        "re": [
+          {
+            "exit": "stop",
+            "exit_time": "10:55",
+            "exit_idx": 17,
+            "net": -1090.0,
+            "risk": 10.5,
+            "re_signal": "10:45",
+            "entry": 25507.55,
+            "stop": 25518.05,
+            "target": 25486.55
+          }
+        ],
+        "skipped": [
+          [
+            "10:25",
+            "band_fail_risk=39.30_band=[10,17.70]"
+          ],
+          [
+            "10:30",
+            "band_fail_risk=9.30_band=[10,17.70]"
+          ],
+          [
+            "10:40",
+            "band_fail_risk=21.95_band=[10,17.70]"
+          ]
+        ]
+      },
+      {
+        "date": "2026-03-30",
+        "day_net": -3445.0,
+        "morning_net": -2055.0,
+        "re": [
+          {
+            "exit": "stop",
+            "exit_time": "14:00",
+            "exit_idx": 54,
+            "net": -1390.0,
+            "risk": 13.5,
+            "re_signal": "13:55",
+            "entry": 22428.1,
+            "stop": 22441.6,
+            "target": 22401.1
+          }
+        ],
+        "skipped": [
+          [
+            "11:45",
+            "band_fail_risk=20.65_band=[10,20.15]"
+          ],
+          [
+            "13:40",
+            "band_fail_risk=39.35_band=[10,20.15]"
+          ],
+          [
+            "13:45",
+            "band_fail_risk=22.60_band=[10,20.15]"
+          ],
+          [
+            "13:50",
+            "band_fail_risk=31.95_band=[10,20.15]"
+          ]
+        ]
+      },
+      {
+        "date": "2026-04-02",
+        "day_net": -2065.0,
+        "morning_net": -2065.0,
+        "re": [],
+        "skipped": []
+      },
+      {
+        "date": "2026-05-13",
+        "day_net": -5075.0,
+        "morning_net": -5075.0,
+        "re": [],
+        "skipped": []
+      },
+      {
+        "date": "2026-06-29",
+        "day_net": -130.0,
+        "morning_net": -4740.0,
+        "re": [
+          {
+            "exit": "target",
+            "exit_time": "12:30",
+            "exit_idx": 36,
+            "net": 4610.0,
+            "risk": 23.25,
+            "re_signal": "11:50",
+            "entry": 24004.45,
+            "stop": 24027.7,
+            "target": 23957.95
+          }
+        ],
+        "skipped": []
+      },
+      {
+        "date": "2026-07-08",
+        "day_net": -3250.0,
+        "morning_net": -1985.0,
+        "re": [
+          {
+            "exit": "stop",
+            "exit_time": "12:45",
+            "exit_idx": 39,
+            "net": -1265.0,
+            "risk": 12.25,
+            "re_signal": "12:30",
+            "entry": 24196.15,
+            "stop": 24208.4,
+            "target": 24171.65
+          }
+        ],
+        "skipped": [
+          [
+            "12:20",
+            "band_fail_risk=26.60_band=[10,19.45]"
+          ],
+          [
+            "12:25",
+            "band_fail_risk=8.55_band=[10,19.45]"
+          ]
+        ]
+      },
+      {
+        "date": "2026-08-19",
+        "day_net": 1670.0,
+        "morning_net": -2300.0,
+        "re": [
+          {
+            "exit": "target",
+            "exit_time": "11:05",
+            "exit_idx": 19,
+            "net": 3970.0,
+            "risk": 20.05,
+            "re_signal": "10:15",
+            "entry": 24074.45,
+            "stop": 24094.5,
+            "target": 24034.35
+          }
+        ],
+        "skipped": []
+      }
+    ],
+    "winners": [
+      {
+        "date": "2026-01-21",
+        "day_net": 9280.0,
+        "morning_net": 9280.0,
+        "re": [],
+        "skipped": []
+      },
+      {
+        "date": "2026-02-24",
+        "day_net": null,
+        "morning_net": null,
+        "re": [],
+        "skipped": []
+      },
+      {
+        "date": "2026-03-16",
+        "day_net": 8940.0,
+        "morning_net": 8940.0,
+        "re": [],
+        "skipped": []
+      },
+      {
+        "date": "2026-03-13",
+        "day_net": 5400.0,
+        "morning_net": 5400.0,
+        "re": [],
+        "skipped": []
+      },
+      {
+        "date": "2026-03-23",
+        "day_net": 7260.0,
+        "morning_net": 7260.0,
+        "re": [],
+        "skipped": []
+      },
+      {
+        "date": "2026-04-24",
+        "day_net": 8820.0,
+        "morning_net": 8820.0,
+        "re": [],
+        "skipped": []
+      },
+      {
+        "date": "2026-05-05",
+        "day_net": 5040.0,
+        "morning_net": 5040.0,
+        "re": [],
+        "skipped": []
+      },
+      {
+        "date": "2026-07-22",
+        "day_net": 6320.0,
+        "morning_net": 6320.0,
+        "re": [],
+        "skipped": []
+      },
+      {
+        "date": "2026-08-12",
+        "day_net": null,
+        "morning_net": null,
+        "re": [],
+        "skipped": []
+      },
+      {
+        "date": "2026-08-27",
+        "day_net": 2980.0,
+        "morning_net": 2980.0,
+        "re": [],
+        "skipped": []
+      },
+      {
+        "date": "2026-09-29",
+        "day_net": 3790.0,
+        "morning_net": 3790.0,
+        "re": [],
+        "skipped": []
+      },
+      {
+        "date": "2026-09-07",
+        "day_net": 2470.0,
+        "morning_net": 2470.0,
+        "re": [],
+        "skipped": []
+      },
+      {
+        "date": "2026-10-08",
+        "day_net": 11690.0,
+        "morning_net": 11690.0,
+        "re": [],
+        "skipped": []
+      },
+      {
+        "date": "2026-10-23",
+        "day_net": 11390.0,
+        "morning_net": 11390.0,
+        "re": [],
+        "skipped": []
+      }
+    ]
+  },
+  "rE": {
+    "cluster1": [
+      {
+        "date": "2026-01-09",
+        "day_net": 1045.0,
+        "morning_net": -3745.0,
+        "re": [
+          {
+            "exit": "target",
+            "exit_time": "11:45",
+            "exit_idx": 27,
+            "net": 4790.0,
+            "risk": 24.15,
+            "re_signal": "11:10",
+            "entry": 25800.15,
+            "stop": 25824.3,
+            "target": 25751.85
+          }
+        ],
+        "skipped": []
+      },
+      {
+        "date": "2026-02-06",
+        "day_net": -1810.0,
+        "morning_net": -1810.0,
+        "re": [],
+        "skipped": []
+      },
+      {
+        "date": "2026-03-30",
+        "day_net": -3395.0,
+        "morning_net": -2055.0,
+        "re": [
+          {
+            "exit": "stop",
+            "exit_time": "14:20",
+            "exit_idx": 58,
+            "net": -1340.0,
+            "risk": 13.0,
+            "re_signal": "14:15",
+            "entry": 22412.35,
+            "stop": 22425.35,
+            "target": 22386.35
+          }
+        ],
+        "skipped": [
+          [
+            "13:45",
+            "band_fail_risk=22.60_band=[10,20.15]"
+          ],
+          [
+            "13:50",
+            "band_fail_risk=31.95_band=[10,20.15]"
+          ]
+        ]
+      },
+      {
+        "date": "2026-04-02",
+        "day_net": -2065.0,
+        "morning_net": -2065.0,
+        "re": [],
+        "skipped": []
+      },
+      {
+        "date": "2026-05-13",
+        "day_net": -5075.0,
+        "morning_net": -5075.0,
+        "re": [],
+        "skipped": []
+      },
+      {
+        "date": "2026-06-29",
+        "day_net": -130.0,
+        "morning_net": -4740.0,
+        "re": [
+          {
+            "exit": "target",
+            "exit_time": "12:30",
+            "exit_idx": 36,
+            "net": 4610.0,
+            "risk": 23.25,
+            "re_signal": "11:50",
+            "entry": 24004.45,
+            "stop": 24027.7,
+            "target": 23957.95
+          }
+        ],
+        "skipped": []
+      },
+      {
+        "date": "2026-07-08",
+        "day_net": -3250.0,
+        "morning_net": -1985.0,
+        "re": [
+          {
+            "exit": "stop",
+            "exit_time": "12:45",
+            "exit_idx": 39,
+            "net": -1265.0,
+            "risk": 12.25,
+            "re_signal": "12:30",
+            "entry": 24196.15,
+            "stop": 24208.4,
+            "target": 24171.65
+          }
+        ],
+        "skipped": [
+          [
+            "12:20",
+            "band_fail_risk=26.60_band=[10,19.45]"
+          ]
+        ]
+      },
+      {
+        "date": "2026-08-19",
+        "day_net": -2300.0,
+        "morning_net": -2300.0,
+        "re": [],
+        "skipped": [
+          [
+            "10:20",
+            "band_fail_risk=7.25_band=[10,22.60]"
+          ],
+          [
+            "10:30",
+            "band_fail_risk=7.55_band=[10,22.60]"
+          ],
+          [
+            "10:35",
+            "band_fail_risk=9.20_band=[10,22.60]"
+          ],
+          [
+            "11:05",
+            "band_fail_risk=6.15_band=[10,22.60]"
+          ]
+        ]
+      }
+    ],
+    "winners": [
+      {
+        "date": "2026-01-21",
+        "day_net": 9280.0,
+        "morning_net": 9280.0,
+        "re": [],
+        "skipped": []
+      },
+      {
+        "date": "2026-02-24",
+        "day_net": null,
+        "morning_net": null,
+        "re": [],
+        "skipped": []
+      },
+      {
+        "date": "2026-03-16",
+        "day_net": 8940.0,
+        "morning_net": 8940.0,
+        "re": [],
+        "skipped": []
+      },
+      {
+        "date": "2026-03-13",
+        "day_net": 5400.0,
+        "morning_net": 5400.0,
+        "re": [],
+        "skipped": []
+      },
+      {
+        "date": "2026-03-23",
+        "day_net": 7260.0,
+        "morning_net": 7260.0,
+        "re": [],
+        "skipped": []
+      },
+      {
+        "date": "2026-04-24",
+        "day_net": 8820.0,
+        "morning_net": 8820.0,
+        "re": [],
+        "skipped": []
+      },
+      {
+        "date": "2026-05-05",
+        "day_net": 5040.0,
+        "morning_net": 5040.0,
+        "re": [],
+        "skipped": []
+      },
+      {
+        "date": "2026-07-22",
+        "day_net": 6320.0,
+        "morning_net": 6320.0,
+        "re": [],
+        "skipped": []
+      },
+      {
+        "date": "2026-08-12",
+        "day_net": null,
+        "morning_net": null,
+        "re": [],
+        "skipped": []
+      },
+      {
+        "date": "2026-08-27",
+        "day_net": 2980.0,
+        "morning_net": 2980.0,
+        "re": [],
+        "skipped": []
+      },
+      {
+        "date": "2026-09-29",
+        "day_net": 3790.0,
+        "morning_net": 3790.0,
+        "re": [],
+        "skipped": []
+      },
+      {
+        "date": "2026-09-07",
+        "day_net": 2470.0,
+        "morning_net": 2470.0,
+        "re": [],
+        "skipped": []
+      },
+      {
+        "date": "2026-10-08",
+        "day_net": 11690.0,
+        "morning_net": 11690.0,
+        "re": [],
+        "skipped": []
+      },
+      {
+        "date": "2026-10-23",
+        "day_net": 11390.0,
+        "morning_net": 11390.0,
+        "re": [],
+        "skipped": []
+      }
+    ]
+  },
+  "rF": {
+    "cluster1": [
+      {
+        "date": "2026-01-09",
+        "day_net": 4615.0,
+        "morning_net": -3745.0,
+        "re": [
+          {
+            "exit": "target",
+            "exit_time": "11:35",
+            "exit_idx": 25,
+            "net": 6040.0,
+            "risk": 30.4,
+            "re_signal": "10:50",
+            "entry": 25831.2,
+            "stop": 25861.6,
+            "target": 25770.4
+          },
+          {
+            "exit": "target",
+            "exit_time": "12:20",
+            "exit_idx": 34,
+            "net": 2320.0,
+            "risk": 11.8,
+            "re_signal": "11:40",
+            "entry": 25754.95,
+            "stop": 25766.75,
+            "target": 25731.35
+          }
+        ],
+        "skipped": []
+      },
+      {
+        "date": "2026-02-06",
+        "day_net": 30.0,
+        "morning_net": -1810.0,
+        "re": [
+          {
+            "exit": "target",
+            "exit_time": "10:25",
+            "exit_idx": 11,
+            "net": 2930.0,
+            "risk": 14.85,
+            "re_signal": "10:20",
+            "entry": 25543.95,
+            "stop": 25558.8,
+            "target": 25514.25
+          },
+          {
+            "exit": "stop",
+            "exit_time": "10:55",
+            "exit_idx": 17,
+            "net": -1090.0,
+            "risk": 10.5,
+            "re_signal": "10:45",
+            "entry": 25507.55,
+            "stop": 25518.05,
+            "target": 25486.55
+          }
+        ],
+        "skipped": [
+          [
+            "10:30",
+            "band_fail_risk=9.30_band=[10,17.70]"
+          ],
+          [
+            "10:35",
+            "band_fail_risk=4.25_band=[10,17.70]"
+          ],
+          [
+            "10:40",
+            "band_fail_risk=21.95_band=[10,17.70]"
+          ]
+        ]
+      },
+      {
+        "date": "2026-03-30",
+        "day_net": -4785.0,
+        "morning_net": -2055.0,
+        "re": [
+          {
+            "exit": "stop",
+            "exit_time": "14:00",
+            "exit_idx": 54,
+            "net": -1390.0,
+            "risk": 13.5,
+            "re_signal": "13:55",
+            "entry": 22428.1,
+            "stop": 22441.6,
+            "target": 22401.1
+          },
+          {
+            "exit": "stop",
+            "exit_time": "14:20",
+            "exit_idx": 58,
+            "net": -1340.0,
+            "risk": 13.0,
+            "re_signal": "14:15",
+            "entry": 22412.35,
+            "stop": 22425.35,
+            "target": 22386.35
+          }
+        ],
+        "skipped": [
+          [
+            "11:45",
+            "band_fail_risk=20.65_band=[10,20.15]"
+          ],
+          [
+            "13:40",
+            "band_fail_risk=39.35_band=[10,20.15]"
+          ],
+          [
+            "13:45",
+            "band_fail_risk=22.60_band=[10,20.15]"
+          ],
+          [
+            "13:50",
+            "band_fail_risk=31.95_band=[10,20.15]"
+          ],
+          [
+            "14:05",
+            "band_fail_risk=26.80_band=[10,20.15]"
+          ],
+          [
+            "14:10",
+            "band_fail_risk=31.70_band=[10,20.15]"
+          ]
+        ]
+      },
+      {
+        "date": "2026-04-02",
+        "day_net": -3730.0,
+        "morning_net": -2065.0,
+        "re": [
+          {
+            "exit": "stop",
+            "exit_time": "11:30",
+            "exit_idx": 24,
+            "net": -1665.0,
+            "risk": 16.25,
+            "re_signal": "11:25",
+            "entry": 22206.5,
+            "stop": 22222.75,
+            "target": 22174.0
+          }
+        ],
+        "skipped": []
+      },
+      {
+        "date": "2026-05-13",
+        "day_net": -5075.0,
+        "morning_net": -5075.0,
+        "re": [],
+        "skipped": []
+      },
+      {
+        "date": "2026-06-29",
+        "day_net": 485.0,
+        "morning_net": -4740.0,
+        "re": [
+          {
+            "exit": "target",
+            "exit_time": "12:30",
+            "exit_idx": 36,
+            "net": 6840.0,
+            "risk": 34.4,
+            "re_signal": "11:30",
+            "entry": 24030.85,
+            "stop": 24065.25,
+            "target": 23962.05
+          },
+          {
+            "exit": "stop",
+            "exit_time": "12:45",
+            "exit_idx": 39,
+            "net": -1615.0,
+            "risk": 15.75,
+            "re_signal": "12:35",
+            "entry": 23934.1,
+            "stop": 23949.85,
+            "target": 23902.6
+          }
+        ],
+        "skipped": []
+      },
+      {
+        "date": "2026-07-08",
+        "day_net": 4085.0,
+        "morning_net": -1985.0,
+        "re": [
+          {
+            "exit": "target",
+            "exit_time": "12:30",
+            "exit_idx": 36,
+            "net": 2940.0,
+            "risk": 14.9,
+            "re_signal": "12:05",
+            "entry": 24229.0,
+            "stop": 24243.9,
+            "target": 24199.2
+          },
+          {
+            "exit": "target",
+            "exit_time": "13:45",
+            "exit_idx": 51,
+            "net": 3130.0,
+            "risk": 15.85,
+            "re_signal": "13:05",
+            "entry": 24219.95,
+            "stop": 24235.8,
+            "target": 24188.25
+          }
+        ],
+        "skipped": [
+          [
+            "10:20",
+            "band_fail_risk=27.00_band=[10,19.45]"
+          ],
+          [
+            "12:35",
+            "band_fail_risk=7.50_band=[10,19.45]"
+          ],
+          [
+            "12:40",
+            "band_fail_risk=0.25_band=[10,19.45]"
+          ],
+          [
+            "12:45",
+            "band_fail_risk=4.40_band=[10,19.45]"
+          ],
+          [
+            "12:50",
+            "band_fail_risk=0.60_band=[10,19.45]"
+          ],
+          [
+            "12:55",
+            "band_fail_risk=8.15_band=[10,19.45]"
+          ],
+          [
+            "13:00",
+            "band_fail_risk=6.80_band=[10,19.45]"
+          ]
+        ]
+      },
+      {
+        "date": "2026-08-19",
+        "day_net": -385.0,
+        "morning_net": -2300.0,
+        "re": [
+          {
+            "exit": "target",
+            "exit_time": "11:05",
+            "exit_idx": 19,
+            "net": 3970.0,
+            "risk": 20.05,
+            "re_signal": "10:15",
+            "entry": 24074.45,
+            "stop": 24094.5,
+            "target": 24034.35
+          },
+          {
+            "exit": "stop",
+            "exit_time": "14:35",
+            "exit_idx": 61,
+            "net": -2055.0,
+            "risk": 20.15,
+            "re_signal": "12:00",
+            "entry": 24061.0,
+            "stop": 24081.15,
+            "target": 24020.7
+          }
+        ],
+        "skipped": [
+          [
+            "10:10",
+            "band_fail_risk=5.30_band=[10,22.60]"
+          ],
+          [
+            "11:10",
+            "band_fail_risk=-0.50_band=[10,22.60]"
+          ],
+          [
+            "11:15",
+            "band_fail_risk=-1.60_band=[10,22.60]"
+          ],
+          [
+            "11:20",
+            "band_fail_risk=7.65_band=[10,22.60]"
+          ],
+          [
+            "11:25",
+            "band_fail_risk=1.10_band=[10,22.60]"
+          ],
+          [
+            "11:30",
+            "band_fail_risk=2.40_band=[10,22.60]"
+          ],
+          [
+            "11:35",
+            "band_fail_risk=6.65_band=[10,22.60]"
+          ],
+          [
+            "11:40",
+            "band_fail_risk=-1.15_band=[10,22.60]"
+          ],
+          [
+            "11:45",
+            "band_fail_risk=0.10_band=[10,22.60]"
+          ],
+          [
+            "11:50",
+            "band_fail_risk=-0.15_band=[10,22.60]"
+          ],
+          [
+            "11:55",
+            "band_fail_risk=1.85_band=[10,22.60]"
+          ]
+        ]
+      }
+    ],
+    "winners": [
+      {
+        "date": "2026-01-21",
+        "day_net": 9280.0,
+        "morning_net": 9280.0,
+        "re": [],
+        "skipped": []
+      },
+      {
+        "date": "2026-02-24",
+        "day_net": null,
+        "morning_net": null,
+        "re": [],
+        "skipped": []
+      },
+      {
+        "date": "2026-03-16",
+        "day_net": 8940.0,
+        "morning_net": 8940.0,
+        "re": [],
+        "skipped": []
+      },
+      {
+        "date": "2026-03-13",
+        "day_net": 5400.0,
+        "morning_net": 5400.0,
+        "re": [],
+        "skipped": []
+      },
+      {
+        "date": "2026-03-23",
+        "day_net": 7260.0,
+        "morning_net": 7260.0,
+        "re": [],
+        "skipped": []
+      },
+      {
+        "date": "2026-04-24",
+        "day_net": 8820.0,
+        "morning_net": 8820.0,
+        "re": [],
+        "skipped": []
+      },
+      {
+        "date": "2026-05-05",
+        "day_net": 5040.0,
+        "morning_net": 5040.0,
+        "re": [],
+        "skipped": []
+      },
+      {
+        "date": "2026-07-22",
+        "day_net": 6320.0,
+        "morning_net": 6320.0,
+        "re": [],
+        "skipped": []
+      },
+      {
+        "date": "2026-08-12",
+        "day_net": null,
+        "morning_net": null,
+        "re": [],
+        "skipped": []
+      },
+      {
+        "date": "2026-08-27",
+        "day_net": 2980.0,
+        "morning_net": 2980.0,
+        "re": [],
+        "skipped": []
+      },
+      {
+        "date": "2026-09-29",
+        "day_net": 3790.0,
+        "morning_net": 3790.0,
+        "re": [],
+        "skipped": []
+      },
+      {
+        "date": "2026-09-07",
+        "day_net": 2470.0,
+        "morning_net": 2470.0,
+        "re": [],
+        "skipped": []
+      },
+      {
+        "date": "2026-10-08",
+        "day_net": 11690.0,
+        "morning_net": 11690.0,
+        "re": [],
+        "skipped": []
+      },
+      {
+        "date": "2026-10-23",
+        "day_net": 11390.0,
+        "morning_net": 11390.0,
+        "re": [],
+        "skipped": []
+      }
+    ]
+  },
+  "rH": {
+    "cluster1": [
+      {
+        "date": "2026-01-09",
+        "day_net": -5175.0,
+        "morning_net": -3745.0,
+        "re": [
+          {
+            "exit": "stop",
+            "exit_time": "13:35",
+            "exit_idx": 49,
+            "net": -1430.0,
+            "risk": 13.9,
+            "re_signal": "13:20",
+            "entry": 25702.45,
+            "stop": 25716.35,
+            "target": 25674.65
+          }
+        ],
+        "skipped": [
+          [
+            "13:00",
+            "band_fail_risk=9.30_band=[10,37.05]"
+          ],
+          [
+            "13:05",
+            "band_fail_risk=6.45_band=[10,37.05]"
+          ],
+          [
+            "13:10",
+            "band_fail_risk=7.25_band=[10,37.05]"
+          ],
+          [
+            "13:15",
+            "band_fail_risk=0.05_band=[10,37.05]"
+          ]
+        ]
+      },
+      {
+        "date": "2026-02-06",
+        "day_net": -1810.0,
+        "morning_net": -1810.0,
+        "re": [],
+        "skipped": []
+      },
+      {
+        "date": "2026-03-30",
+        "day_net": -3445.0,
+        "morning_net": -2055.0,
+        "re": [
+          {
+            "exit": "stop",
+            "exit_time": "14:00",
+            "exit_idx": 54,
+            "net": -1390.0,
+            "risk": 13.5,
+            "re_signal": "13:55",
+            "entry": 22428.1,
+            "stop": 22441.6,
+            "target": 22401.1
+          }
+        ],
+        "skipped": [
+          [
+            "13:40",
+            "band_fail_risk=39.35_band=[10,20.15]"
+          ],
+          [
+            "13:45",
+            "band_fail_risk=22.60_band=[10,20.15]"
+          ],
+          [
+            "13:50",
+            "band_fail_risk=31.95_band=[10,20.15]"
+          ]
+        ]
+      },
+      {
+        "date": "2026-04-02",
+        "day_net": -2065.0,
+        "morning_net": -2065.0,
+        "re": [],
+        "skipped": []
+      },
+      {
+        "date": "2026-05-13",
+        "day_net": -5075.0,
+        "morning_net": -5075.0,
+        "re": [],
+        "skipped": []
+      },
+      {
+        "date": "2026-06-29",
+        "day_net": -6535.0,
+        "morning_net": -4740.0,
+        "re": [
+          {
+            "exit": "stop",
+            "exit_time": "13:30",
+            "exit_idx": 48,
+            "net": -1795.0,
+            "risk": 17.55,
+            "re_signal": "13:10",
+            "entry": 23962.15,
+            "stop": 23979.7,
+            "target": 23927.05
+          }
+        ],
+        "skipped": [
+          [
+            "13:00",
+            "band_fail_risk=9.05_band=[10,47.00]"
+          ],
+          [
+            "13:05",
+            "band_fail_risk=0.55_band=[10,47.00]"
+          ]
+        ]
+      },
+      {
+        "date": "2026-07-08",
+        "day_net": 1145.0,
+        "morning_net": -1985.0,
+        "re": [
+          {
+            "exit": "target",
+            "exit_time": "13:45",
+            "exit_idx": 51,
+            "net": 3130.0,
+            "risk": 15.85,
+            "re_signal": "13:05",
+            "entry": 24219.95,
+            "stop": 24235.8,
+            "target": 24188.25
+          }
+        ],
+        "skipped": [
+          [
+            "13:00",
+            "band_fail_risk=6.80_band=[10,19.45]"
+          ]
+        ]
+      },
+      {
+        "date": "2026-08-19",
+        "day_net": -4140.0,
+        "morning_net": -2300.0,
+        "re": [
+          {
+            "exit": "stop",
+            "exit_time": "14:35",
+            "exit_idx": 61,
+            "net": -1840.0,
+            "risk": 18.0,
+            "re_signal": "13:10",
+            "entry": 24048.0,
+            "stop": 24066.0,
+            "target": 24012.0
+          }
+        ],
+        "skipped": [
+          [
+            "13:00",
+            "band_fail_risk=2.55_band=[10,22.60]"
+          ],
+          [
+            "13:05",
+            "band_fail_risk=-1.20_band=[10,22.60]"
+          ]
+        ]
+      }
+    ],
+    "winners": [
+      {
+        "date": "2026-01-21",
+        "day_net": 9280.0,
+        "morning_net": 9280.0,
+        "re": [],
+        "skipped": []
+      },
+      {
+        "date": "2026-02-24",
+        "day_net": null,
+        "morning_net": null,
+        "re": [],
+        "skipped": []
+      },
+      {
+        "date": "2026-03-16",
+        "day_net": 8940.0,
+        "morning_net": 8940.0,
+        "re": [],
+        "skipped": []
+      },
+      {
+        "date": "2026-03-13",
+        "day_net": 5400.0,
+        "morning_net": 5400.0,
+        "re": [],
+        "skipped": []
+      },
+      {
+        "date": "2026-03-23",
+        "day_net": 7260.0,
+        "morning_net": 7260.0,
+        "re": [],
+        "skipped": []
+      },
+      {
+        "date": "2026-04-24",
+        "day_net": 8820.0,
+        "morning_net": 8820.0,
+        "re": [],
+        "skipped": []
+      },
+      {
+        "date": "2026-05-05",
+        "day_net": 5040.0,
+        "morning_net": 5040.0,
+        "re": [],
+        "skipped": []
+      },
+      {
+        "date": "2026-07-22",
+        "day_net": 6320.0,
+        "morning_net": 6320.0,
+        "re": [],
+        "skipped": []
+      },
+      {
+        "date": "2026-08-12",
+        "day_net": null,
+        "morning_net": null,
+        "re": [],
+        "skipped": []
+      },
+      {
+        "date": "2026-08-27",
+        "day_net": 2980.0,
+        "morning_net": 2980.0,
+        "re": [],
+        "skipped": []
+      },
+      {
+        "date": "2026-09-29",
+        "day_net": 3790.0,
+        "morning_net": 3790.0,
+        "re": [],
+        "skipped": []
+      },
+      {
+        "date": "2026-09-07",
+        "day_net": 2470.0,
+        "morning_net": 2470.0,
+        "re": [],
+        "skipped": []
+      },
+      {
+        "date": "2026-10-08",
+        "day_net": 11690.0,
+        "morning_net": 11690.0,
+        "re": [],
+        "skipped": []
+      },
+      {
+        "date": "2026-10-23",
+        "day_net": 11390.0,
+        "morning_net": 11390.0,
+        "re": [],
+        "skipped": []
+      }
+    ]
+  },
+  "rI_banded": {
+    "cluster1": [
+      {
+        "date": "2026-01-09",
+        "day_net": -1205.0,
+        "morning_net": -3745.0,
+        "re": [
+          {
+            "exit": "target",
+            "exit_time": "11:15",
+            "exit_idx": 21,
+            "net": 2540.0,
+            "risk": 12.9,
+            "re_signal": "10:55",
+            "entry": 25821.3,
+            "stop": 25834.2,
+            "target": 25795.5
+          }
+        ],
+        "skipped": []
+      },
+      {
+        "date": "2026-02-06",
+        "day_net": 1120.0,
+        "morning_net": -1810.0,
+        "re": [
+          {
+            "exit": "target",
+            "exit_time": "10:25",
+            "exit_idx": 11,
+            "net": 2930.0,
+            "risk": 14.85,
+            "re_signal": "10:20",
+            "entry": 25543.95,
+            "stop": 25558.8,
+            "target": 25514.25
+          }
+        ],
+        "skipped": []
+      },
+      {
+        "date": "2026-03-30",
+        "day_net": -3445.0,
+        "morning_net": -2055.0,
+        "re": [
+          {
+            "exit": "stop",
+            "exit_time": "14:00",
+            "exit_idx": 54,
+            "net": -1390.0,
+            "risk": 13.5,
+            "re_signal": "13:55",
+            "entry": 22428.1,
+            "stop": 22441.6,
+            "target": 22401.1
+          }
+        ],
+        "skipped": [
+          [
+            "13:45",
+            "band_fail_risk=22.60_band=[10,20.15]"
+          ],
+          [
+            "13:50",
+            "band_fail_risk=31.95_band=[10,20.15]"
+          ]
+        ]
+      },
+      {
+        "date": "2026-04-02",
+        "day_net": -2065.0,
+        "morning_net": -2065.0,
+        "re": [],
+        "skipped": []
+      },
+      {
+        "date": "2026-05-13",
+        "day_net": -5075.0,
+        "morning_net": -5075.0,
+        "re": [],
+        "skipped": []
+      },
+      {
+        "date": "2026-06-29",
+        "day_net": -130.0,
+        "morning_net": -4740.0,
+        "re": [
+          {
+            "exit": "target",
+            "exit_time": "12:30",
+            "exit_idx": 36,
+            "net": 4610.0,
+            "risk": 23.25,
+            "re_signal": "11:50",
+            "entry": 24004.45,
+            "stop": 24027.7,
+            "target": 23957.95
+          }
+        ],
+        "skipped": [
+          [
+            "11:45",
+            "band_fail_risk=9.20_band=[10,47.00]"
+          ]
+        ]
+      },
+      {
+        "date": "2026-07-08",
+        "day_net": -3250.0,
+        "morning_net": -1985.0,
+        "re": [
+          {
+            "exit": "stop",
+            "exit_time": "12:45",
+            "exit_idx": 39,
+            "net": -1265.0,
+            "risk": 12.25,
+            "re_signal": "12:30",
+            "entry": 24196.15,
+            "stop": 24208.4,
+            "target": 24171.65
+          }
+        ],
+        "skipped": [
+          [
+            "12:10",
+            "band_fail_risk=9.80_band=[10,19.45]"
+          ],
+          [
+            "12:25",
+            "band_fail_risk=8.55_band=[10,19.45]"
+          ]
+        ]
+      },
+      {
+        "date": "2026-08-19",
+        "day_net": 1670.0,
+        "morning_net": -2300.0,
+        "re": [
+          {
+            "exit": "target",
+            "exit_time": "11:05",
+            "exit_idx": 19,
+            "net": 3970.0,
+            "risk": 20.05,
+            "re_signal": "10:15",
+            "entry": 24074.45,
+            "stop": 24094.5,
+            "target": 24034.35
+          }
+        ],
+        "skipped": []
+      }
+    ],
+    "winners": [
+      {
+        "date": "2026-01-21",
+        "day_net": 9280.0,
+        "morning_net": 9280.0,
+        "re": [],
+        "skipped": []
+      },
+      {
+        "date": "2026-02-24",
+        "day_net": null,
+        "morning_net": null,
+        "re": [],
+        "skipped": []
+      },
+      {
+        "date": "2026-03-16",
+        "day_net": 8940.0,
+        "morning_net": 8940.0,
+        "re": [],
+        "skipped": []
+      },
+      {
+        "date": "2026-03-13",
+        "day_net": 5400.0,
+        "morning_net": 5400.0,
+        "re": [],
+        "skipped": []
+      },
+      {
+        "date": "2026-03-23",
+        "day_net": 7260.0,
+        "morning_net": 7260.0,
+        "re": [],
+        "skipped": []
+      },
+      {
+        "date": "2026-04-24",
+        "day_net": 8820.0,
+        "morning_net": 8820.0,
+        "re": [],
+        "skipped": []
+      },
+      {
+        "date": "2026-05-05",
+        "day_net": 5040.0,
+        "morning_net": 5040.0,
+        "re": [],
+        "skipped": []
+      },
+      {
+        "date": "2026-07-22",
+        "day_net": 6320.0,
+        "morning_net": 6320.0,
+        "re": [],
+        "skipped": []
+      },
+      {
+        "date": "2026-08-12",
+        "day_net": null,
+        "morning_net": null,
+        "re": [],
+        "skipped": []
+      },
+      {
+        "date": "2026-08-27",
+        "day_net": 2980.0,
+        "morning_net": 2980.0,
+        "re": [],
+        "skipped": []
+      },
+      {
+        "date": "2026-09-29",
+        "day_net": 3790.0,
+        "morning_net": 3790.0,
+        "re": [],
+        "skipped": []
+      },
+      {
+        "date": "2026-09-07",
+        "day_net": 2470.0,
+        "morning_net": 2470.0,
+        "re": [],
+        "skipped": []
+      },
+      {
+        "date": "2026-10-08",
+        "day_net": 11690.0,
+        "morning_net": 11690.0,
+        "re": [],
+        "skipped": []
+      },
+      {
+        "date": "2026-10-23",
+        "day_net": 11390.0,
+        "morning_net": 11390.0,
+        "re": [],
+        "skipped": []
+      }
+    ]
+  },
+  "rI_unbanded": {
+    "cluster1": [
+      {
+        "date": "2026-01-09",
+        "day_net": -1205.0,
+        "morning_net": -3745.0,
+        "re": [
+          {
+            "exit": "target",
+            "exit_time": "11:15",
+            "exit_idx": 21,
+            "net": 2540.0,
+            "risk": 12.9,
+            "re_signal": "10:55",
+            "entry": 25821.3,
+            "stop": 25834.2,
+            "target": 25795.5
+          }
+        ],
+        "skipped": []
+      },
+      {
+        "date": "2026-02-06",
+        "day_net": 1120.0,
+        "morning_net": -1810.0,
+        "re": [
+          {
+            "exit": "target",
+            "exit_time": "10:25",
+            "exit_idx": 11,
+            "net": 2930.0,
+            "risk": 14.85,
+            "re_signal": "10:20",
+            "entry": 25543.95,
+            "stop": 25558.8,
+            "target": 25514.25
+          }
+        ],
+        "skipped": []
+      },
+      {
+        "date": "2026-03-30",
+        "day_net": -4355.0,
+        "morning_net": -2055.0,
+        "re": [
+          {
+            "exit": "stop",
+            "exit_time": "14:00",
+            "exit_idx": 54,
+            "net": -2300.0,
+            "risk": 22.6,
+            "re_signal": "13:45",
+            "entry": 22445.55,
+            "stop": 22468.15,
+            "target": 22400.35
+          }
+        ],
+        "skipped": []
+      },
+      {
+        "date": "2026-04-02",
+        "day_net": -2065.0,
+        "morning_net": -2065.0,
+        "re": [],
+        "skipped": []
+      },
+      {
+        "date": "2026-05-13",
+        "day_net": -5075.0,
+        "morning_net": -5075.0,
+        "re": [],
+        "skipped": []
+      },
+      {
+        "date": "2026-06-29",
+        "day_net": -2940.0,
+        "morning_net": -4740.0,
+        "re": [
+          {
+            "exit": "target",
+            "exit_time": "11:50",
+            "exit_idx": 28,
+            "net": 1800.0,
+            "risk": 9.2,
+            "re_signal": "11:45",
+            "entry": 24027.7,
+            "stop": 24036.9,
+            "target": 24009.3
+          }
+        ],
+        "skipped": []
+      },
+      {
+        "date": "2026-07-08",
+        "day_net": -3005.0,
+        "morning_net": -1985.0,
+        "re": [
+          {
+            "exit": "stop",
+            "exit_time": "12:15",
+            "exit_idx": 33,
+            "net": -1020.0,
+            "risk": 9.8,
+            "re_signal": "12:10",
+            "entry": 24224.05,
+            "stop": 24233.85,
+            "target": 24204.45
+          }
+        ],
+        "skipped": []
+      },
+      {
+        "date": "2026-08-19",
+        "day_net": 1670.0,
+        "morning_net": -2300.0,
+        "re": [
+          {
+            "exit": "target",
+            "exit_time": "11:05",
+            "exit_idx": 19,
+            "net": 3970.0,
+            "risk": 20.05,
+            "re_signal": "10:15",
+            "entry": 24074.45,
+            "stop": 24094.5,
+            "target": 24034.35
+          }
+        ],
+        "skipped": []
+      }
+    ],
+    "winners": [
+      {
+        "date": "2026-01-21",
+        "day_net": 9280.0,
+        "morning_net": 9280.0,
+        "re": [],
+        "skipped": []
+      },
+      {
+        "date": "2026-02-24",
+        "day_net": null,
+        "morning_net": null,
+        "re": [],
+        "skipped": []
+      },
+      {
+        "date": "2026-03-16",
+        "day_net": 8940.0,
+        "morning_net": 8940.0,
+        "re": [],
+        "skipped": []
+      },
+      {
+        "date": "2026-03-13",
+        "day_net": 5400.0,
+        "morning_net": 5400.0,
+        "re": [],
+        "skipped": []
+      },
+      {
+        "date": "2026-03-23",
+        "day_net": 7260.0,
+        "morning_net": 7260.0,
+        "re": [],
+        "skipped": []
+      },
+      {
+        "date": "2026-04-24",
+        "day_net": 8820.0,
+        "morning_net": 8820.0,
+        "re": [],
+        "skipped": []
+      },
+      {
+        "date": "2026-05-05",
+        "day_net": 5040.0,
+        "morning_net": 5040.0,
+        "re": [],
+        "skipped": []
+      },
+      {
+        "date": "2026-07-22",
+        "day_net": 6320.0,
+        "morning_net": 6320.0,
+        "re": [],
+        "skipped": []
+      },
+      {
+        "date": "2026-08-12",
+        "day_net": null,
+        "morning_net": null,
+        "re": [],
+        "skipped": []
+      },
+      {
+        "date": "2026-08-27",
+        "day_net": 2980.0,
+        "morning_net": 2980.0,
+        "re": [],
+        "skipped": []
+      },
+      {
+        "date": "2026-09-29",
+        "day_net": 3790.0,
+        "morning_net": 3790.0,
+        "re": [],
+        "skipped": []
+      },
+      {
+        "date": "2026-09-07",
+        "day_net": 2470.0,
+        "morning_net": 2470.0,
+        "re": [],
+        "skipped": []
+      },
+      {
+        "date": "2026-10-08",
+        "day_net": 11690.0,
+        "morning_net": 11690.0,
+        "re": [],
+        "skipped": []
+      },
+      {
+        "date": "2026-10-23",
+        "day_net": 11390.0,
+        "morning_net": 11390.0,
+        "re": [],
+        "skipped": []
+      }
+    ]
+  },
+  "cluster2": [
+    {
+      "date": "2026-01-14",
+      "signal": "11:15",
+      "sig_close": 25747.0,
+      "L": 25744.8,
+      "above_L": 2.2,
+      "orig_entry": 25747.75,
+      "orig_stop": 25720.3,
+      "orig_target": 25802.65,
+      "orig_net": -2785.0000000000728,
+      "c2A": {
+        "second_close": 25737.5,
+        "result": "no_trade_hold_fails"
+      },
+      "c2E": {
+        "second_close": 25737.5,
+        "result": "no_trade_strong_hold_fails"
+      },
+      "c2B10": "no_trade_distance_fails",
+      "c2B20": "no_trade_distance_fails"
+    },
+    {
+      "date": "2026-10-26",
+      "signal": "09:55",
+      "sig_close": 22636.45,
+      "L": 22600.0,
+      "above_L": 36.45,
+      "orig_entry": 22635.7,
+      "orig_stop": 22549.75,
+      "orig_target": 22807.600000000002,
+      "orig_net": -8635.000000000073,
+      "c2A": {
+        "second_close": 22636.3,
+        "entry": 22636.55,
+        "stop": 22618.8,
+        "risk": 17.75,
+        "exit": "target",
+        "exit_time": "10:05",
+        "exit_idx": 7,
+        "net": 3510.0
+      },
+      "c2E": {
+        "second_close": 22636.3,
+        "result": "no_trade_strong_hold_fails"
+      },
+      "c2B10": "original_trade",
+      "c2B20": "original_trade"
+    },
+    {
+      "date": "2026-07-01",
+      "signal": "09:35",
+      "sig_close": 23940.05,
+      "L": 23934.9,
+      "above_L": 5.15,
+      "orig_entry": 23938.8,
+      "orig_stop": 23917.4,
+      "orig_target": 23981.599999999995,
+      "orig_net": 4239.999999999563,
+      "c2A": {
+        "second_close": 23944.2,
+        "entry": 23943.5,
+        "stop": 23923.85,
+        "risk": 19.65,
+        "exit": "target",
+        "exit_time": "09:55",
+        "exit_idx": 5,
+        "net": 3890.0
+      },
+      "c2E": {
+        "second_close": 23944.2,
+        "entry": 23943.5,
+        "stop": 23923.85,
+        "risk": 19.65,
+        "exit": "target",
+        "exit_time": "09:55",
+        "exit_idx": 5,
+        "net": 3890.0
+      },
+      "c2B10": "no_trade_distance_fails",
+      "c2B20": "no_trade_distance_fails"
+    }
+  ],
+  "surv45_N10": {
+    "cluster3": [
+      {
+        "date": "2026-02-13",
+        "setup": "setup2_or_breakdown",
+        "signal": "09:30",
+        "entry": 25549.0,
+        "stop": 25586.1,
+        "risk": 37.1,
+        "orig_net": -3749.9999999998545,
+        "exit": "breakeven_after_partial",
+        "exit_time": "10:25",
+        "net": 1629.5,
+        "partial": true,
+        "partial_time": "10:25"
+      },
+      {
+        "date": "2026-04-30",
+        "setup": "setup2_or_breakdown",
+        "signal": "10:00",
+        "entry": 23848.75,
+        "stop": 23880.0,
+        "risk": 31.25,
+        "orig_net": -3165.0,
+        "exit": "breakeven_after_partial",
+        "exit_time": "11:35",
+        "net": 1366.25,
+        "partial": true,
+        "partial_time": "10:55"
+      },
+      {
+        "date": "2026-05-18",
+        "setup": "setup2_or_breakdown",
+        "signal": "09:35",
+        "entry": 23358.5,
+        "stop": 23394.8,
+        "risk": 36.3,
+        "orig_net": -3669.9999999999272,
+        "exit": "breakeven_after_partial",
+        "exit_time": "10:30",
+        "net": 1593.5,
+        "partial": true,
+        "partial_time": "10:30"
+      }
+    ],
+    "winners": [
+      {
+        "date": "2026-01-21",
+        "setup": "setup2_or_breakdown",
+        "signal": "10:20",
+        "entry": 25107.5,
+        "stop": 25154.1,
+        "risk": 46.6,
+        "orig_net": 9279.999999999709,
+        "exit": "target",
+        "exit_time": "10:45",
+        "net": 9280.0,
+        "partial": false
+      },
+      {
+        "date": "2026-02-24",
+        "setup": "setup2_or_breakdown",
+        "signal": "09:30",
+        "entry": 25512.8,
+        "stop": 25549.75,
+        "risk": 36.95,
+        "orig_net": 7350.0000000001455,
+        "exit": "breakeven_after_partial",
+        "exit_time": "10:40",
+        "net": 1622.75,
+        "partial": true,
+        "partial_time": "10:25"
+      },
+      {
+        "date": "2026-03-16",
+        "setup": "setup2_or_breakdown",
+        "signal": "10:20",
+        "entry": 23055.7,
+        "stop": 23100.6,
+        "risk": 44.9,
+        "orig_net": 8939.999999999563,
+        "exit": "target",
+        "exit_time": "10:55",
+        "net": 8940.0,
+        "partial": false
+      },
+      {
+        "date": "2026-03-13",
+        "setup": "setup2_or_breakdown",
+        "signal": "09:45",
+        "entry": 23399.65,
+        "stop": 23426.85,
+        "risk": 27.2,
+        "orig_net": 5399.999999999418,
+        "exit": "target",
+        "exit_time": "09:55",
+        "net": 5400.0,
+        "partial": false
+      },
+      {
+        "date": "2026-03-23",
+        "setup": "skill_or_breakdown",
+        "signal": "09:50",
+        "entry": 22628.55,
+        "stop": 22665.05,
+        "risk": 36.5,
+        "orig_net": 7260.0,
+        "exit": "target",
+        "exit_time": "10:15",
+        "net": 7260.0,
+        "partial": false
+      },
+      {
+        "date": "2026-04-24",
+        "setup": "setup2_or_breakdown",
+        "signal": "09:30",
+        "entry": 24017.3,
+        "stop": 24061.6,
+        "risk": 44.3,
+        "orig_net": 8819.999999999854,
+        "exit": "target_after_partial",
+        "exit_time": "10:45",
+        "net": 6383.5,
+        "partial": true,
+        "partial_time": "10:25"
+      },
+      {
+        "date": "2026-05-05",
+        "setup": "setup2_or_breakdown",
+        "signal": "10:30",
+        "entry": 23941.4,
+        "stop": 23966.8,
+        "risk": 25.4,
+        "orig_net": 5039.999999999563,
+        "exit": "breakeven_after_partial",
+        "exit_time": "11:30",
+        "net": 1103.0,
+        "partial": true,
+        "partial_time": "11:25"
+      },
+      {
+        "date": "2026-07-22",
+        "setup": "setup2_or_breakdown",
+        "signal": "09:30",
+        "entry": 24026.25,
+        "stop": 24058.05,
+        "risk": 31.8,
+        "orig_net": 6319.9999999998545,
+        "exit": "breakeven_after_partial",
+        "exit_time": "10:55",
+        "net": 1391.0,
+        "partial": true,
+        "partial_time": "10:25"
+      },
+      {
+        "date": "2026-08-12",
+        "setup": "setup2_or_breakdown",
+        "signal": "09:55",
+        "entry": 24379.5,
+        "stop": 24410.95,
+        "risk": 31.45,
+        "orig_net": 6250.0000000001455,
+        "exit": "target_same_bar_as_partial",
+        "exit_time": "10:55",
+        "net": 4520.25,
+        "partial": true,
+        "partial_time": "10:55"
+      },
+      {
+        "date": "2026-08-27",
+        "setup": "setup2_or_breakdown",
+        "signal": "09:55",
+        "entry": 24196.1,
+        "stop": 24211.3,
+        "risk": 15.2,
+        "orig_net": 3000.0000000001455,
+        "exit": "target_after_partial",
+        "exit_time": "10:50",
+        "net": 2164.0,
+        "partial": true,
+        "partial_time": "10:50"
+      },
+      {
+        "date": "2026-09-29",
+        "setup": "setup2_or_breakdown",
+        "signal": "09:30",
+        "entry": 22618.95,
+        "stop": 22638.1,
+        "risk": 19.15,
+        "orig_net": 3789.9999999995634,
+        "exit": "target",
+        "exit_time": "09:35",
+        "net": 3790.0,
+        "partial": false
+      },
+      {
+        "date": "2026-09-07",
+        "setup": "setup2_or_breakdown",
+        "signal": "09:50",
+        "entry": 23818.15,
+        "stop": 23833.3,
+        "risk": 15.15,
+        "orig_net": 2989.9999999995634,
+        "exit": "target_after_partial",
+        "exit_time": "10:55",
+        "net": 2156.75,
+        "partial": true,
+        "partial_time": "10:45"
+      },
+      {
+        "date": "2026-10-08",
+        "setup": "setup2_or_breakdown",
+        "signal": "09:40",
+        "entry": 22473.55,
+        "stop": 22500.95,
+        "risk": 27.4,
+        "orig_net": 5440.000000000291,
+        "exit": "target_after_partial",
+        "exit_time": "11:20",
+        "net": 3933.0,
+        "partial": true,
+        "partial_time": "10:35"
+      },
+      {
+        "date": "2026-10-23",
+        "setup": "setup2_or_breakdown",
+        "signal": "10:05",
+        "entry": 22526.25,
+        "stop": 22583.4,
+        "risk": 57.15,
+        "orig_net": 11390.000000000291,
+        "exit": "target",
+        "exit_time": "10:35",
+        "net": 11390.0,
+        "partial": false
+      }
+    ]
+  },
+  "surv45_N20": {
+    "cluster3": [
+      {
+        "date": "2026-02-13",
+        "setup": "setup2_or_breakdown",
+        "signal": "09:30",
+        "entry": 25549.0,
+        "stop": 25586.1,
+        "risk": 37.1,
+        "orig_net": -3749.9999999998545,
+        "exit": "breakeven_after_partial",
+        "exit_time": "11:15",
+        "net": 1629.5,
+        "partial": true,
+        "partial_time": "11:15"
+      },
+      {
+        "date": "2026-04-30",
+        "setup": "setup2_or_breakdown",
+        "signal": "10:00",
+        "entry": 23848.75,
+        "stop": 23880.0,
+        "risk": 31.25,
+        "orig_net": -3165.0,
+        "exit": "breakeven_after_partial",
+        "exit_time": "11:50",
+        "net": 1366.25,
+        "partial": true,
+        "partial_time": "11:45"
+      },
+      {
+        "date": "2026-05-18",
+        "setup": "setup2_or_breakdown",
+        "signal": "09:35",
+        "entry": 23358.5,
+        "stop": 23394.8,
+        "risk": 36.3,
+        "orig_net": -3669.9999999999272,
+        "exit": "stop",
+        "exit_time": "10:30",
+        "net": -3670.0,
+        "partial": false
+      }
+    ],
+    "winners": [
+      {
+        "date": "2026-01-21",
+        "setup": "setup2_or_breakdown",
+        "signal": "10:20",
+        "entry": 25107.5,
+        "stop": 25154.1,
+        "risk": 46.6,
+        "orig_net": 9279.999999999709,
+        "exit": "target",
+        "exit_time": "10:45",
+        "net": 9280.0,
+        "partial": false
+      },
+      {
+        "date": "2026-02-24",
+        "setup": "setup2_or_breakdown",
+        "signal": "09:30",
+        "entry": 25512.8,
+        "stop": 25549.75,
+        "risk": 36.95,
+        "orig_net": 7350.0000000001455,
+        "exit": "breakeven_after_partial",
+        "exit_time": "11:20",
+        "net": 1622.75,
+        "partial": true,
+        "partial_time": "11:15"
+      },
+      {
+        "date": "2026-03-16",
+        "setup": "setup2_or_breakdown",
+        "signal": "10:20",
+        "entry": 23055.7,
+        "stop": 23100.6,
+        "risk": 44.9,
+        "orig_net": 8939.999999999563,
+        "exit": "target",
+        "exit_time": "10:55",
+        "net": 8940.0,
+        "partial": false
+      },
+      {
+        "date": "2026-03-13",
+        "setup": "setup2_or_breakdown",
+        "signal": "09:45",
+        "entry": 23399.65,
+        "stop": 23426.85,
+        "risk": 27.2,
+        "orig_net": 5399.999999999418,
+        "exit": "target",
+        "exit_time": "09:55",
+        "net": 5400.0,
+        "partial": false
+      },
+      {
+        "date": "2026-03-23",
+        "setup": "skill_or_breakdown",
+        "signal": "09:50",
+        "entry": 22628.55,
+        "stop": 22665.05,
+        "risk": 36.5,
+        "orig_net": 7260.0,
+        "exit": "target",
+        "exit_time": "10:15",
+        "net": 7260.0,
+        "partial": false
+      },
+      {
+        "date": "2026-04-24",
+        "setup": "setup2_or_breakdown",
+        "signal": "09:30",
+        "entry": 24017.3,
+        "stop": 24061.6,
+        "risk": 44.3,
+        "orig_net": 8819.999999999854,
+        "exit": "target",
+        "exit_time": "10:45",
+        "net": 8820.0,
+        "partial": false
+      },
+      {
+        "date": "2026-05-05",
+        "setup": "setup2_or_breakdown",
+        "signal": "10:30",
+        "entry": 23941.4,
+        "stop": 23966.8,
+        "risk": 25.4,
+        "orig_net": 5039.999999999563,
+        "exit": "target",
+        "exit_time": "11:50",
+        "net": 5040.0,
+        "partial": false
+      },
+      {
+        "date": "2026-07-22",
+        "setup": "setup2_or_breakdown",
+        "signal": "09:30",
+        "entry": 24026.25,
+        "stop": 24058.05,
+        "risk": 31.8,
+        "orig_net": 6319.9999999998545,
+        "exit": "breakeven_after_partial",
+        "exit_time": "11:15",
+        "net": 1391.0,
+        "partial": true,
+        "partial_time": "11:15"
+      },
+      {
+        "date": "2026-08-12",
+        "setup": "setup2_or_breakdown",
+        "signal": "09:55",
+        "entry": 24379.5,
+        "stop": 24410.95,
+        "risk": 31.45,
+        "orig_net": 6250.0000000001455,
+        "exit": "target",
+        "exit_time": "10:55",
+        "net": 6250.0,
+        "partial": false
+      },
+      {
+        "date": "2026-08-27",
+        "setup": "setup2_or_breakdown",
+        "signal": "09:55",
+        "entry": 24196.1,
+        "stop": 24211.3,
+        "risk": 15.2,
+        "orig_net": 3000.0000000001455,
+        "exit": "target",
+        "exit_time": "10:50",
+        "net": 3000.0,
+        "partial": false
+      },
+      {
+        "date": "2026-09-29",
+        "setup": "setup2_or_breakdown",
+        "signal": "09:30",
+        "entry": 22618.95,
+        "stop": 22638.1,
+        "risk": 19.15,
+        "orig_net": 3789.9999999995634,
+        "exit": "target",
+        "exit_time": "09:35",
+        "net": 3790.0,
+        "partial": false
+      },
+      {
+        "date": "2026-09-07",
+        "setup": "setup2_or_breakdown",
+        "signal": "09:50",
+        "entry": 23818.15,
+        "stop": 23833.3,
+        "risk": 15.15,
+        "orig_net": 2989.9999999995634,
+        "exit": "target",
+        "exit_time": "10:55",
+        "net": 2990.0,
+        "partial": false
+      },
+      {
+        "date": "2026-10-08",
+        "setup": "setup2_or_breakdown",
+        "signal": "09:40",
+        "entry": 22473.55,
+        "stop": 22500.95,
+        "risk": 27.4,
+        "orig_net": 5440.000000000291,
+        "exit": "target",
+        "exit_time": "11:20",
+        "net": 5440.0,
+        "partial": false
+      },
+      {
+        "date": "2026-10-23",
+        "setup": "setup2_or_breakdown",
+        "signal": "10:05",
+        "entry": 22526.25,
+        "stop": 22583.4,
+        "risk": 57.15,
+        "orig_net": 11390.000000000291,
+        "exit": "target",
+        "exit_time": "10:35",
+        "net": 11390.0,
+        "partial": false
+      }
+    ]
+  },
+  "surv45_N5": {
+    "cluster3": [
+      {
+        "date": "2026-02-13",
+        "setup": "setup2_or_breakdown",
+        "signal": "09:30",
+        "entry": 25549.0,
+        "stop": 25586.1,
+        "risk": 37.1,
+        "orig_net": -3749.9999999998545,
+        "exit": "breakeven_after_partial",
+        "exit_time": "10:25",
+        "net": 1629.5,
+        "partial": true,
+        "partial_time": "10:15"
+      },
+      {
+        "date": "2026-04-30",
+        "setup": "setup2_or_breakdown",
+        "signal": "10:00",
+        "entry": 23848.75,
+        "stop": 23880.0,
+        "risk": 31.25,
+        "orig_net": -3165.0,
+        "exit": "breakeven_after_partial",
+        "exit_time": "10:35",
+        "net": 1366.25,
+        "partial": true,
+        "partial_time": "10:30"
+      },
+      {
+        "date": "2026-05-18",
+        "setup": "setup2_or_breakdown",
+        "signal": "09:35",
+        "entry": 23358.5,
+        "stop": 23394.8,
+        "risk": 36.3,
+        "orig_net": -3669.9999999999272,
+        "exit": "breakeven_after_partial",
+        "exit_time": "10:05",
+        "net": 1593.5,
+        "partial": true,
+        "partial_time": "10:05"
+      }
+    ],
+    "winners": [
+      {
+        "date": "2026-01-21",
+        "setup": "setup2_or_breakdown",
+        "signal": "10:20",
+        "entry": 25107.5,
+        "stop": 25154.1,
+        "risk": 46.6,
+        "orig_net": 9279.999999999709,
+        "exit": "target",
+        "exit_time": "10:45",
+        "net": 9280.0,
+        "partial": false
+      },
+      {
+        "date": "2026-02-24",
+        "setup": "setup2_or_breakdown",
+        "signal": "09:30",
+        "entry": 25512.8,
+        "stop": 25549.75,
+        "risk": 36.95,
+        "orig_net": 7350.0000000001455,
+        "exit": "breakeven_after_partial",
+        "exit_time": "10:20",
+        "net": 1622.75,
+        "partial": true,
+        "partial_time": "10:15"
+      },
+      {
+        "date": "2026-03-16",
+        "setup": "setup2_or_breakdown",
+        "signal": "10:20",
+        "entry": 23055.7,
+        "stop": 23100.6,
+        "risk": 44.9,
+        "orig_net": 8939.999999999563,
+        "exit": "target_after_partial",
+        "exit_time": "10:55",
+        "net": 6470.5,
+        "partial": true,
+        "partial_time": "10:50"
+      },
+      {
+        "date": "2026-03-13",
+        "setup": "setup2_or_breakdown",
+        "signal": "09:45",
+        "entry": 23399.65,
+        "stop": 23426.85,
+        "risk": 27.2,
+        "orig_net": 5399.999999999418,
+        "exit": "target",
+        "exit_time": "09:55",
+        "net": 5400.0,
+        "partial": false
+      },
+      {
+        "date": "2026-03-23",
+        "setup": "skill_or_breakdown",
+        "signal": "09:50",
+        "entry": 22628.55,
+        "stop": 22665.05,
+        "risk": 36.5,
+        "orig_net": 7260.0,
+        "exit": "target",
+        "exit_time": "10:15",
+        "net": 7260.0,
+        "partial": false
+      },
+      {
+        "date": "2026-04-24",
+        "setup": "setup2_or_breakdown",
+        "signal": "09:30",
+        "entry": 24017.3,
+        "stop": 24061.6,
+        "risk": 44.3,
+        "orig_net": 8819.999999999854,
+        "exit": "target_after_partial",
+        "exit_time": "10:45",
+        "net": 6383.5,
+        "partial": true,
+        "partial_time": "10:00"
+      },
+      {
+        "date": "2026-05-05",
+        "setup": "setup2_or_breakdown",
+        "signal": "10:30",
+        "entry": 23941.4,
+        "stop": 23966.8,
+        "risk": 25.4,
+        "orig_net": 5039.999999999563,
+        "exit": "breakeven_after_partial",
+        "exit_time": "11:00",
+        "net": 1103.0,
+        "partial": true,
+        "partial_time": "11:00"
+      },
+      {
+        "date": "2026-07-22",
+        "setup": "setup2_or_breakdown",
+        "signal": "09:30",
+        "entry": 24026.25,
+        "stop": 24058.05,
+        "risk": 31.8,
+        "orig_net": 6319.9999999998545,
+        "exit": "breakeven_after_partial",
+        "exit_time": "10:55",
+        "net": 1391.0,
+        "partial": true,
+        "partial_time": "10:25"
+      },
+      {
+        "date": "2026-08-12",
+        "setup": "setup2_or_breakdown",
+        "signal": "09:55",
+        "entry": 24379.5,
+        "stop": 24410.95,
+        "risk": 31.45,
+        "orig_net": 6250.0000000001455,
+        "exit": "target_same_bar_as_partial",
+        "exit_time": "10:55",
+        "net": 4520.25,
+        "partial": true,
+        "partial_time": "10:55"
+      },
+      {
+        "date": "2026-08-27",
+        "setup": "setup2_or_breakdown",
+        "signal": "09:55",
+        "entry": 24196.1,
+        "stop": 24211.3,
+        "risk": 15.2,
+        "orig_net": 3000.0000000001455,
+        "exit": "target_after_partial",
+        "exit_time": "10:50",
+        "net": 2164.0,
+        "partial": true,
+        "partial_time": "10:25"
+      },
+      {
+        "date": "2026-09-29",
+        "setup": "setup2_or_breakdown",
+        "signal": "09:30",
+        "entry": 22618.95,
+        "stop": 22638.1,
+        "risk": 19.15,
+        "orig_net": 3789.9999999995634,
+        "exit": "target",
+        "exit_time": "09:35",
+        "net": 3790.0,
+        "partial": false
+      },
+      {
+        "date": "2026-09-07",
+        "setup": "setup2_or_breakdown",
+        "signal": "09:50",
+        "entry": 23818.15,
+        "stop": 23833.3,
+        "risk": 15.15,
+        "orig_net": 2989.9999999995634,
+        "exit": "target_after_partial",
+        "exit_time": "10:55",
+        "net": 2156.75,
+        "partial": true,
+        "partial_time": "10:20"
+      },
+      {
+        "date": "2026-10-08",
+        "setup": "setup2_or_breakdown",
+        "signal": "09:40",
+        "entry": 22473.55,
+        "stop": 22500.95,
+        "risk": 27.4,
+        "orig_net": 5440.000000000291,
+        "exit": "breakeven_after_partial",
+        "exit_time": "10:10",
+        "net": 1193.0,
+        "partial": true,
+        "partial_time": "10:10"
+      },
+      {
+        "date": "2026-10-23",
+        "setup": "setup2_or_breakdown",
+        "signal": "10:05",
+        "entry": 22526.25,
+        "stop": 22583.4,
+        "risk": 57.15,
+        "orig_net": 11390.000000000291,
+        "exit": "target_after_partial",
+        "exit_time": "10:35",
+        "net": 8246.75,
+        "partial": true,
+        "partial_time": "10:35"
+      }
+    ]
+  },
+  "surv45_N15": {
+    "cluster3": [
+      {
+        "date": "2026-02-13",
+        "setup": "setup2_or_breakdown",
+        "signal": "09:30",
+        "entry": 25549.0,
+        "stop": 25586.1,
+        "risk": 37.1,
+        "orig_net": -3749.9999999998545,
+        "exit": "breakeven_after_partial",
+        "exit_time": "10:50",
+        "net": 1629.5,
+        "partial": true,
+        "partial_time": "10:50"
+      },
+      {
+        "date": "2026-04-30",
+        "setup": "setup2_or_breakdown",
+        "signal": "10:00",
+        "entry": 23848.75,
+        "stop": 23880.0,
+        "risk": 31.25,
+        "orig_net": -3165.0,
+        "exit": "breakeven_after_partial",
+        "exit_time": "11:35",
+        "net": 1366.25,
+        "partial": true,
+        "partial_time": "11:20"
+      },
+      {
+        "date": "2026-05-18",
+        "setup": "setup2_or_breakdown",
+        "signal": "09:35",
+        "entry": 23358.5,
+        "stop": 23394.8,
+        "risk": 36.3,
+        "orig_net": -3669.9999999999272,
+        "exit": "stop",
+        "exit_time": "10:30",
+        "net": -3670.0,
+        "partial": false
+      }
+    ],
+    "winners": [
+      {
+        "date": "2026-01-21",
+        "setup": "setup2_or_breakdown",
+        "signal": "10:20",
+        "entry": 25107.5,
+        "stop": 25154.1,
+        "risk": 46.6,
+        "orig_net": 9279.999999999709,
+        "exit": "target",
+        "exit_time": "10:45",
+        "net": 9280.0,
+        "partial": false
+      },
+      {
+        "date": "2026-02-24",
+        "setup": "setup2_or_breakdown",
+        "signal": "09:30",
+        "entry": 25512.8,
+        "stop": 25549.75,
+        "risk": 36.95,
+        "orig_net": 7350.0000000001455,
+        "exit": "breakeven_after_partial",
+        "exit_time": "11:20",
+        "net": 1622.75,
+        "partial": true,
+        "partial_time": "10:50"
+      },
+      {
+        "date": "2026-03-16",
+        "setup": "setup2_or_breakdown",
+        "signal": "10:20",
+        "entry": 23055.7,
+        "stop": 23100.6,
+        "risk": 44.9,
+        "orig_net": 8939.999999999563,
+        "exit": "target",
+        "exit_time": "10:55",
+        "net": 8940.0,
+        "partial": false
+      },
+      {
+        "date": "2026-03-13",
+        "setup": "setup2_or_breakdown",
+        "signal": "09:45",
+        "entry": 23399.65,
+        "stop": 23426.85,
+        "risk": 27.2,
+        "orig_net": 5399.999999999418,
+        "exit": "target",
+        "exit_time": "09:55",
+        "net": 5400.0,
+        "partial": false
+      },
+      {
+        "date": "2026-03-23",
+        "setup": "skill_or_breakdown",
+        "signal": "09:50",
+        "entry": 22628.55,
+        "stop": 22665.05,
+        "risk": 36.5,
+        "orig_net": 7260.0,
+        "exit": "target",
+        "exit_time": "10:15",
+        "net": 7260.0,
+        "partial": false
+      },
+      {
+        "date": "2026-04-24",
+        "setup": "setup2_or_breakdown",
+        "signal": "09:30",
+        "entry": 24017.3,
+        "stop": 24061.6,
+        "risk": 44.3,
+        "orig_net": 8819.999999999854,
+        "exit": "target",
+        "exit_time": "10:45",
+        "net": 8820.0,
+        "partial": false
+      },
+      {
+        "date": "2026-05-05",
+        "setup": "setup2_or_breakdown",
+        "signal": "10:30",
+        "entry": 23941.4,
+        "stop": 23966.8,
+        "risk": 25.4,
+        "orig_net": 5039.999999999563,
+        "exit": "target_after_partial",
+        "exit_time": "11:50",
+        "net": 3643.0,
+        "partial": true,
+        "partial_time": "11:50"
+      },
+      {
+        "date": "2026-07-22",
+        "setup": "setup2_or_breakdown",
+        "signal": "09:30",
+        "entry": 24026.25,
+        "stop": 24058.05,
+        "risk": 31.8,
+        "orig_net": 6319.9999999998545,
+        "exit": "breakeven_after_partial",
+        "exit_time": "10:55",
+        "net": 1391.0,
+        "partial": true,
+        "partial_time": "10:50"
+      },
+      {
+        "date": "2026-08-12",
+        "setup": "setup2_or_breakdown",
+        "signal": "09:55",
+        "entry": 24379.5,
+        "stop": 24410.95,
+        "risk": 31.45,
+        "orig_net": 6250.0000000001455,
+        "exit": "target",
+        "exit_time": "10:55",
+        "net": 6250.0,
+        "partial": false
+      },
+      {
+        "date": "2026-08-27",
+        "setup": "setup2_or_breakdown",
+        "signal": "09:55",
+        "entry": 24196.1,
+        "stop": 24211.3,
+        "risk": 15.2,
+        "orig_net": 3000.0000000001455,
+        "exit": "target",
+        "exit_time": "10:50",
+        "net": 3000.0,
+        "partial": false
+      },
+      {
+        "date": "2026-09-29",
+        "setup": "setup2_or_breakdown",
+        "signal": "09:30",
+        "entry": 22618.95,
+        "stop": 22638.1,
+        "risk": 19.15,
+        "orig_net": 3789.9999999995634,
+        "exit": "target",
+        "exit_time": "09:35",
+        "net": 3790.0,
+        "partial": false
+      },
+      {
+        "date": "2026-09-07",
+        "setup": "setup2_or_breakdown",
+        "signal": "09:50",
+        "entry": 23818.15,
+        "stop": 23833.3,
+        "risk": 15.15,
+        "orig_net": 2989.9999999995634,
+        "exit": "target",
+        "exit_time": "10:55",
+        "net": 2990.0,
+        "partial": false
+      },
+      {
+        "date": "2026-10-08",
+        "setup": "setup2_or_breakdown",
+        "signal": "09:40",
+        "entry": 22473.55,
+        "stop": 22500.95,
+        "risk": 27.4,
+        "orig_net": 5440.000000000291,
+        "exit": "target_after_partial",
+        "exit_time": "11:20",
+        "net": 3933.0,
+        "partial": true,
+        "partial_time": "11:00"
+      },
+      {
+        "date": "2026-10-23",
+        "setup": "setup2_or_breakdown",
+        "signal": "10:05",
+        "entry": 22526.25,
+        "stop": 22583.4,
+        "risk": 57.15,
+        "orig_net": 11390.000000000291,
+        "exit": "target",
+        "exit_time": "10:35",
+        "net": 11390.0,
+        "partial": false
+      }
+    ]
+  },
+  "surv45_N25": {
+    "cluster3": [
+      {
+        "date": "2026-02-13",
+        "setup": "setup2_or_breakdown",
+        "signal": "09:30",
+        "entry": 25549.0,
+        "stop": 25586.1,
+        "risk": 37.1,
+        "orig_net": -3749.9999999998545,
+        "exit": "breakeven_after_partial",
+        "exit_time": "11:40",
+        "net": 1629.5,
+        "partial": true,
+        "partial_time": "11:40"
+      },
+      {
+        "date": "2026-04-30",
+        "setup": "setup2_or_breakdown",
+        "signal": "10:00",
+        "entry": 23848.75,
+        "stop": 23880.0,
+        "risk": 31.25,
+        "orig_net": -3165.0,
+        "exit": "breakeven_after_partial",
+        "exit_time": "12:10",
+        "net": 1366.25,
+        "partial": true,
+        "partial_time": "12:10"
+      },
+      {
+        "date": "2026-05-18",
+        "setup": "setup2_or_breakdown",
+        "signal": "09:35",
+        "entry": 23358.5,
+        "stop": 23394.8,
+        "risk": 36.3,
+        "orig_net": -3669.9999999999272,
+        "exit": "stop",
+        "exit_time": "10:30",
+        "net": -3670.0,
+        "partial": false
+      }
+    ],
+    "winners": [
+      {
+        "date": "2026-01-21",
+        "setup": "setup2_or_breakdown",
+        "signal": "10:20",
+        "entry": 25107.5,
+        "stop": 25154.1,
+        "risk": 46.6,
+        "orig_net": 9279.999999999709,
+        "exit": "target",
+        "exit_time": "10:45",
+        "net": 9280.0,
+        "partial": false
+      },
+      {
+        "date": "2026-02-24",
+        "setup": "setup2_or_breakdown",
+        "signal": "09:30",
+        "entry": 25512.8,
+        "stop": 25549.75,
+        "risk": 36.95,
+        "orig_net": 7350.0000000001455,
+        "exit": "breakeven_after_partial",
+        "exit_time": "11:40",
+        "net": 1622.75,
+        "partial": true,
+        "partial_time": "11:40"
+      },
+      {
+        "date": "2026-03-16",
+        "setup": "setup2_or_breakdown",
+        "signal": "10:20",
+        "entry": 23055.7,
+        "stop": 23100.6,
+        "risk": 44.9,
+        "orig_net": 8939.999999999563,
+        "exit": "target",
+        "exit_time": "10:55",
+        "net": 8940.0,
+        "partial": false
+      },
+      {
+        "date": "2026-03-13",
+        "setup": "setup2_or_breakdown",
+        "signal": "09:45",
+        "entry": 23399.65,
+        "stop": 23426.85,
+        "risk": 27.2,
+        "orig_net": 5399.999999999418,
+        "exit": "target",
+        "exit_time": "09:55",
+        "net": 5400.0,
+        "partial": false
+      },
+      {
+        "date": "2026-03-23",
+        "setup": "skill_or_breakdown",
+        "signal": "09:50",
+        "entry": 22628.55,
+        "stop": 22665.05,
+        "risk": 36.5,
+        "orig_net": 7260.0,
+        "exit": "target",
+        "exit_time": "10:15",
+        "net": 7260.0,
+        "partial": false
+      },
+      {
+        "date": "2026-04-24",
+        "setup": "setup2_or_breakdown",
+        "signal": "09:30",
+        "entry": 24017.3,
+        "stop": 24061.6,
+        "risk": 44.3,
+        "orig_net": 8819.999999999854,
+        "exit": "target",
+        "exit_time": "10:45",
+        "net": 8820.0,
+        "partial": false
+      },
+      {
+        "date": "2026-05-05",
+        "setup": "setup2_or_breakdown",
+        "signal": "10:30",
+        "entry": 23941.4,
+        "stop": 23966.8,
+        "risk": 25.4,
+        "orig_net": 5039.999999999563,
+        "exit": "target",
+        "exit_time": "11:50",
+        "net": 5040.0,
+        "partial": false
+      },
+      {
+        "date": "2026-07-22",
+        "setup": "setup2_or_breakdown",
+        "signal": "09:30",
+        "entry": 24026.25,
+        "stop": 24058.05,
+        "risk": 31.8,
+        "orig_net": 6319.9999999998545,
+        "exit": "breakeven_after_partial",
+        "exit_time": "11:40",
+        "net": 1391.0,
+        "partial": true,
+        "partial_time": "11:40"
+      },
+      {
+        "date": "2026-08-12",
+        "setup": "setup2_or_breakdown",
+        "signal": "09:55",
+        "entry": 24379.5,
+        "stop": 24410.95,
+        "risk": 31.45,
+        "orig_net": 6250.0000000001455,
+        "exit": "target",
+        "exit_time": "10:55",
+        "net": 6250.0,
+        "partial": false
+      },
+      {
+        "date": "2026-08-27",
+        "setup": "setup2_or_breakdown",
+        "signal": "09:55",
+        "entry": 24196.1,
+        "stop": 24211.3,
+        "risk": 15.2,
+        "orig_net": 3000.0000000001455,
+        "exit": "target",
+        "exit_time": "10:50",
+        "net": 3000.0,
+        "partial": false
+      },
+      {
+        "date": "2026-09-29",
+        "setup": "setup2_or_breakdown",
+        "signal": "09:30",
+        "entry": 22618.95,
+        "stop": 22638.1,
+        "risk": 19.15,
+        "orig_net": 3789.9999999995634,
+        "exit": "target",
+        "exit_time": "09:35",
+        "net": 3790.0,
+        "partial": false
+      },
+      {
+        "date": "2026-09-07",
+        "setup": "setup2_or_breakdown",
+        "signal": "09:50",
+        "entry": 23818.15,
+        "stop": 23833.3,
+        "risk": 15.15,
+        "orig_net": 2989.9999999995634,
+        "exit": "target",
+        "exit_time": "10:55",
+        "net": 2990.0,
+        "partial": false
+      },
+      {
+        "date": "2026-10-08",
+        "setup": "setup2_or_breakdown",
+        "signal": "09:40",
+        "entry": 22473.55,
+        "stop": 22500.95,
+        "risk": 27.4,
+        "orig_net": 5440.000000000291,
+        "exit": "target",
+        "exit_time": "11:20",
+        "net": 5440.0,
+        "partial": false
+      },
+      {
+        "date": "2026-10-23",
+        "setup": "setup2_or_breakdown",
+        "signal": "10:05",
+        "entry": 22526.25,
+        "stop": 22583.4,
+        "risk": 57.15,
+        "orig_net": 11390.000000000291,
+        "exit": "target",
+        "exit_time": "10:35",
+        "net": 11390.0,
+        "partial": false
+      }
+    ]
+  },
+  "surv45_N30": {
+    "cluster3": [
+      {
+        "date": "2026-02-13",
+        "setup": "setup2_or_breakdown",
+        "signal": "09:30",
+        "entry": 25549.0,
+        "stop": 25586.1,
+        "risk": 37.1,
+        "orig_net": -3749.9999999998545,
+        "exit": "breakeven_after_partial",
+        "exit_time": "12:05",
+        "net": 1629.5,
+        "partial": true,
+        "partial_time": "12:05"
+      },
+      {
+        "date": "2026-04-30",
+        "setup": "setup2_or_breakdown",
+        "signal": "10:00",
+        "entry": 23848.75,
+        "stop": 23880.0,
+        "risk": 31.25,
+        "orig_net": -3165.0,
+        "exit": "stop",
+        "exit_time": "12:10",
+        "net": -3165.0,
+        "partial": false
+      },
+      {
+        "date": "2026-05-18",
+        "setup": "setup2_or_breakdown",
+        "signal": "09:35",
+        "entry": 23358.5,
+        "stop": 23394.8,
+        "risk": 36.3,
+        "orig_net": -3669.9999999999272,
+        "exit": "stop",
+        "exit_time": "10:30",
+        "net": -3670.0,
+        "partial": false
+      }
+    ],
+    "winners": [
+      {
+        "date": "2026-01-21",
+        "setup": "setup2_or_breakdown",
+        "signal": "10:20",
+        "entry": 25107.5,
+        "stop": 25154.1,
+        "risk": 46.6,
+        "orig_net": 9279.999999999709,
+        "exit": "target",
+        "exit_time": "10:45",
+        "net": 9280.0,
+        "partial": false
+      },
+      {
+        "date": "2026-02-24",
+        "setup": "setup2_or_breakdown",
+        "signal": "09:30",
+        "entry": 25512.8,
+        "stop": 25549.75,
+        "risk": 36.95,
+        "orig_net": 7350.0000000001455,
+        "exit": "target_after_partial",
+        "exit_time": "12:20",
+        "net": 5317.75,
+        "partial": true,
+        "partial_time": "12:05"
+      },
+      {
+        "date": "2026-03-16",
+        "setup": "setup2_or_breakdown",
+        "signal": "10:20",
+        "entry": 23055.7,
+        "stop": 23100.6,
+        "risk": 44.9,
+        "orig_net": 8939.999999999563,
+        "exit": "target",
+        "exit_time": "10:55",
+        "net": 8940.0,
+        "partial": false
+      },
+      {
+        "date": "2026-03-13",
+        "setup": "setup2_or_breakdown",
+        "signal": "09:45",
+        "entry": 23399.65,
+        "stop": 23426.85,
+        "risk": 27.2,
+        "orig_net": 5399.999999999418,
+        "exit": "target",
+        "exit_time": "09:55",
+        "net": 5400.0,
+        "partial": false
+      },
+      {
+        "date": "2026-03-23",
+        "setup": "skill_or_breakdown",
+        "signal": "09:50",
+        "entry": 22628.55,
+        "stop": 22665.05,
+        "risk": 36.5,
+        "orig_net": 7260.0,
+        "exit": "target",
+        "exit_time": "10:15",
+        "net": 7260.0,
+        "partial": false
+      },
+      {
+        "date": "2026-04-24",
+        "setup": "setup2_or_breakdown",
+        "signal": "09:30",
+        "entry": 24017.3,
+        "stop": 24061.6,
+        "risk": 44.3,
+        "orig_net": 8819.999999999854,
+        "exit": "target",
+        "exit_time": "10:45",
+        "net": 8820.0,
+        "partial": false
+      },
+      {
+        "date": "2026-05-05",
+        "setup": "setup2_or_breakdown",
+        "signal": "10:30",
+        "entry": 23941.4,
+        "stop": 23966.8,
+        "risk": 25.4,
+        "orig_net": 5039.999999999563,
+        "exit": "target",
+        "exit_time": "11:50",
+        "net": 5040.0,
+        "partial": false
+      },
+      {
+        "date": "2026-07-22",
+        "setup": "setup2_or_breakdown",
+        "signal": "09:30",
+        "entry": 24026.25,
+        "stop": 24058.05,
+        "risk": 31.8,
+        "orig_net": 6319.9999999998545,
+        "exit": "target_after_partial",
+        "exit_time": "12:35",
+        "net": 4571.0,
+        "partial": true,
+        "partial_time": "12:05"
+      },
+      {
+        "date": "2026-08-12",
+        "setup": "setup2_or_breakdown",
+        "signal": "09:55",
+        "entry": 24379.5,
+        "stop": 24410.95,
+        "risk": 31.45,
+        "orig_net": 6250.0000000001455,
+        "exit": "target",
+        "exit_time": "10:55",
+        "net": 6250.0,
+        "partial": false
+      },
+      {
+        "date": "2026-08-27",
+        "setup": "setup2_or_breakdown",
+        "signal": "09:55",
+        "entry": 24196.1,
+        "stop": 24211.3,
+        "risk": 15.2,
+        "orig_net": 3000.0000000001455,
+        "exit": "target",
+        "exit_time": "10:50",
+        "net": 3000.0,
+        "partial": false
+      },
+      {
+        "date": "2026-09-29",
+        "setup": "setup2_or_breakdown",
+        "signal": "09:30",
+        "entry": 22618.95,
+        "stop": 22638.1,
+        "risk": 19.15,
+        "orig_net": 3789.9999999995634,
+        "exit": "target",
+        "exit_time": "09:35",
+        "net": 3790.0,
+        "partial": false
+      },
+      {
+        "date": "2026-09-07",
+        "setup": "setup2_or_breakdown",
+        "signal": "09:50",
+        "entry": 23818.15,
+        "stop": 23833.3,
+        "risk": 15.15,
+        "orig_net": 2989.9999999995634,
+        "exit": "target",
+        "exit_time": "10:55",
+        "net": 2990.0,
+        "partial": false
+      },
+      {
+        "date": "2026-10-08",
+        "setup": "setup2_or_breakdown",
+        "signal": "09:40",
+        "entry": 22473.55,
+        "stop": 22500.95,
+        "risk": 27.4,
+        "orig_net": 5440.000000000291,
+        "exit": "target",
+        "exit_time": "11:20",
+        "net": 5440.0,
+        "partial": false
+      },
+      {
+        "date": "2026-10-23",
+        "setup": "setup2_or_breakdown",
+        "signal": "10:05",
+        "entry": 22526.25,
+        "stop": 22583.4,
+        "risk": 57.15,
+        "orig_net": 11390.000000000291,
+        "exit": "target",
+        "exit_time": "10:35",
+        "net": 11390.0,
+        "partial": false
+      }
+    ]
+  },
+  "surv50_N10": {
+    "cluster3": [
+      {
+        "date": "2026-02-13",
+        "setup": "setup2_or_breakdown",
+        "signal": "09:30",
+        "entry": 25549.0,
+        "stop": 25586.1,
+        "risk": 37.1,
+        "orig_net": -3749.9999999998545,
+        "exit": "stop",
+        "exit_time": "12:25",
+        "net": -3750.0,
+        "partial": false
+      },
+      {
+        "date": "2026-04-30",
+        "setup": "setup2_or_breakdown",
+        "signal": "10:00",
+        "entry": 23848.75,
+        "stop": 23880.0,
+        "risk": 31.25,
+        "orig_net": -3165.0,
+        "exit": "breakeven_after_partial",
+        "exit_time": "11:35",
+        "net": 1522.5,
+        "partial": true,
+        "partial_time": "10:55"
+      },
+      {
+        "date": "2026-05-18",
+        "setup": "setup2_or_breakdown",
+        "signal": "09:35",
+        "entry": 23358.5,
+        "stop": 23394.8,
+        "risk": 36.3,
+        "orig_net": -3669.9999999999272,
+        "exit": "breakeven_after_partial",
+        "exit_time": "10:30",
+        "net": 1775.0,
+        "partial": true,
+        "partial_time": "10:30"
+      }
+    ],
+    "winners": [
+      {
+        "date": "2026-01-21",
+        "setup": "setup2_or_breakdown",
+        "signal": "10:20",
+        "entry": 25107.5,
+        "stop": 25154.1,
+        "risk": 46.6,
+        "orig_net": 9279.999999999709,
+        "exit": "target",
+        "exit_time": "10:45",
+        "net": 9280.0,
+        "partial": false
+      },
+      {
+        "date": "2026-02-24",
+        "setup": "setup2_or_breakdown",
+        "signal": "09:30",
+        "entry": 25512.8,
+        "stop": 25549.75,
+        "risk": 36.95,
+        "orig_net": 7350.0000000001455,
+        "exit": "breakeven_after_partial",
+        "exit_time": "10:40",
+        "net": 1807.5,
+        "partial": true,
+        "partial_time": "10:25"
+      },
+      {
+        "date": "2026-03-16",
+        "setup": "setup2_or_breakdown",
+        "signal": "10:20",
+        "entry": 23055.7,
+        "stop": 23100.6,
+        "risk": 44.9,
+        "orig_net": 8939.999999999563,
+        "exit": "target",
+        "exit_time": "10:55",
+        "net": 8940.0,
+        "partial": false
+      },
+      {
+        "date": "2026-03-13",
+        "setup": "setup2_or_breakdown",
+        "signal": "09:45",
+        "entry": 23399.65,
+        "stop": 23426.85,
+        "risk": 27.2,
+        "orig_net": 5399.999999999418,
+        "exit": "target",
+        "exit_time": "09:55",
+        "net": 5400.0,
+        "partial": false
+      },
+      {
+        "date": "2026-03-23",
+        "setup": "skill_or_breakdown",
+        "signal": "09:50",
+        "entry": 22628.55,
+        "stop": 22665.05,
+        "risk": 36.5,
+        "orig_net": 7260.0,
+        "exit": "target",
+        "exit_time": "10:15",
+        "net": 7260.0,
+        "partial": false
+      },
+      {
+        "date": "2026-04-24",
+        "setup": "setup2_or_breakdown",
+        "signal": "09:30",
+        "entry": 24017.3,
+        "stop": 24061.6,
+        "risk": 44.3,
+        "orig_net": 8819.999999999854,
+        "exit": "target_after_partial",
+        "exit_time": "10:45",
+        "net": 6605.0,
+        "partial": true,
+        "partial_time": "10:25"
+      },
+      {
+        "date": "2026-05-05",
+        "setup": "setup2_or_breakdown",
+        "signal": "10:30",
+        "entry": 23941.4,
+        "stop": 23966.8,
+        "risk": 25.4,
+        "orig_net": 5039.999999999563,
+        "exit": "breakeven_after_partial",
+        "exit_time": "11:30",
+        "net": 1230.0,
+        "partial": true,
+        "partial_time": "11:25"
+      },
+      {
+        "date": "2026-07-22",
+        "setup": "setup2_or_breakdown",
+        "signal": "09:30",
+        "entry": 24026.25,
+        "stop": 24058.05,
+        "risk": 31.8,
+        "orig_net": 6319.9999999998545,
+        "exit": "breakeven_after_partial",
+        "exit_time": "10:55",
+        "net": 1550.0,
+        "partial": true,
+        "partial_time": "10:25"
+      },
+      {
+        "date": "2026-08-12",
+        "setup": "setup2_or_breakdown",
+        "signal": "09:55",
+        "entry": 24379.5,
+        "stop": 24410.95,
+        "risk": 31.45,
+        "orig_net": 6250.0000000001455,
+        "exit": "target_same_bar_as_partial",
+        "exit_time": "10:55",
+        "net": 4677.5,
+        "partial": true,
+        "partial_time": "10:55"
+      },
+      {
+        "date": "2026-08-27",
+        "setup": "setup2_or_breakdown",
+        "signal": "09:55",
+        "entry": 24196.1,
+        "stop": 24211.3,
+        "risk": 15.2,
+        "orig_net": 3000.0000000001455,
+        "exit": "target_after_partial",
+        "exit_time": "10:50",
+        "net": 2240.0,
+        "partial": true,
+        "partial_time": "10:50"
+      },
+      {
+        "date": "2026-09-29",
+        "setup": "setup2_or_breakdown",
+        "signal": "09:30",
+        "entry": 22618.95,
+        "stop": 22638.1,
+        "risk": 19.15,
+        "orig_net": 3789.9999999995634,
+        "exit": "target",
+        "exit_time": "09:35",
+        "net": 3790.0,
+        "partial": false
+      },
+      {
+        "date": "2026-09-07",
+        "setup": "setup2_or_breakdown",
+        "signal": "09:50",
+        "entry": 23818.15,
+        "stop": 23833.3,
+        "risk": 15.15,
+        "orig_net": 2989.9999999995634,
+        "exit": "target_after_partial",
+        "exit_time": "10:55",
+        "net": 2232.5,
+        "partial": true,
+        "partial_time": "10:45"
+      },
+      {
+        "date": "2026-10-08",
+        "setup": "setup2_or_breakdown",
+        "signal": "09:40",
+        "entry": 22473.55,
+        "stop": 22500.95,
+        "risk": 27.4,
+        "orig_net": 5440.000000000291,
+        "exit": "target_after_partial",
+        "exit_time": "11:20",
+        "net": 4070.0,
+        "partial": true,
+        "partial_time": "10:35"
+      },
+      {
+        "date": "2026-10-23",
+        "setup": "setup2_or_breakdown",
+        "signal": "10:05",
+        "entry": 22526.25,
+        "stop": 22583.4,
+        "risk": 57.15,
+        "orig_net": 11390.000000000291,
+        "exit": "target",
+        "exit_time": "10:35",
+        "net": 11390.0,
+        "partial": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,5012 @@
+{
+  "reentry_risk": {
+    "RF-MIN10-SCAN": [
+      {
+        "date": "2026-01-09",
+        "orig_net": -3745,
+        "result": {
+          "info": {
+            "signal": "09:30",
+            "sig_close": 25837.15,
+            "sig_high": 25873.1,
+            "sig_low": 25820.8,
+            "sig_range": 52.3,
+            "entry": 25836.05,
+            "stop": 25873.1,
+            "target": 25761.95,
+            "risk": 37.05,
+            "orl": 25839.15,
+            "orh": 25940.6,
+            "or_width": 101.45,
+            "dist_below_orl": 2.0,
+            "pdl": 25858.45,
+            "scale": 0.4703436363636364,
+            "close_pos": 0.313
+          },
+          "orig": {
+            "entry": 25836.05,
+            "stop": 25873.1,
+            "target": 25761.95,
+            "exit": "stop",
+            "exit_time": "09:40",
+            "exit_idx": 2,
+            "exit_price": 25873.1,
+            "net": -3745.0,
+            "risk": 37.05
+          },
+          "re": {
+            "entry": 25831.2,
+            "stop": 25861.6,
+            "target": 25770.4,
+            "exit": "target",
+            "exit_time": "11:35",
+            "exit_idx": 25,
+            "exit_price": 25770.400000000005,
+            "net": 6040.0,
+            "risk": 30.4,
+            "re_signal": "10:50"
+          },
+          "day_net": 2295.0
+        }
+      },
+      {
+        "date": "2026-02-06",
+        "orig_net": -2275,
+        "result": {
+          "info": {
+            "signal": "09:35",
+            "sig_close": 25544.3,
+            "sig_high": 25565.8,
+            "sig_low": 25534.2,
+            "sig_range": 31.6,
+            "entry": 25543.45,
+            "stop": 25565.8,
+            "target": 25498.75,
+            "risk": 22.35,
+            "orl": 25553.55,
+            "orh": 25630.8,
+            "or_width": 77.25,
+            "dist_below_orl": 9.25,
+            "pdl": 25579.5,
+            "scale": 0.46621090909090906,
+            "close_pos": 0.32
+          },
+          "orig": {
+            "entry": 25543.45,
+            "stop": 25565.8,
+            "target": 25498.75,
+            "exit": "stop",
+            "exit_time": "09:45",
+            "exit_idx": 3,
+            "exit_price": 25565.8,
+            "net": -2275.0,
+            "risk": 22.35
+          },
+          "re": {
+            "entry": 25534.85,
+            "stop": 25560.45,
+            "target": 25483.65,
+            "exit": "stop",
+            "exit_time": "11:10",
+            "exit_idx": 20,
+            "exit_price": 25560.45,
+            "net": -2600.0,
+            "risk": 25.6,
+            "re_signal": "10:00"
+          },
+          "day_net": -4875.0
+        }
+      },
+      {
+        "date": "2026-03-30",
+        "orig_net": -2055,
+        "result": {
+          "info": {
+            "signal": "11:25",
+            "sig_close": 22468.2,
+            "sig_high": 22488.25,
+            "sig_low": 22465.8,
+            "sig_range": 22.45,
+            "entry": 22468.1,
+            "stop": 22488.25,
+            "target": 22427.8,
+            "risk": 20.15,
+            "orl": 22470.15,
+            "orh": 22618.05,
+            "or_width": 147.9,
+            "dist_below_orl": 1.95,
+            "pdl": 22804.55,
+            "scale": 0.4152636363636364,
+            "close_pos": 0.107
+          },
+          "orig": {
+            "entry": 22468.1,
+            "stop": 22488.25,
+            "target": 22427.8,
+            "exit": "stop",
+            "exit_time": "11:30",
+            "exit_idx": 24,
+            "exit_price": 22488.25,
+            "net": -2055.0,
+            "risk": 20.15
+          },
+          "re": null,
+          "day_net": -2055.0
+        }
+      },
+      {
+        "date": "2026-04-02",
+        "orig_net": -2115,
+        "result": {
+          "info": {
+            "signal": "09:55",
+            "sig_close": 22206.5,
+            "sig_high": 22227.55,
+            "sig_low": 22205.55,
+            "sig_range": 22.0,
+            "entry": 22206.8,
+            "stop": 22227.55,
+            "target": 22165.3,
+            "risk": 20.75,
+            "orl": 22209.15,
+            "orh": 22394.65,
+            "or_width": 185.5,
+            "dist_below_orl": 2.65,
+            "pdl": 22618.6,
+            "scale": 0.41278454545454546,
+            "close_pos": 0.043
+          },
+          "orig": {
+            "entry": 22206.8,
+            "stop": 22227.55,
+            "target": 22165.3,
+            "exit": "stop",
+            "exit_time": "10:00",
+            "exit_idx": 6,
+            "exit_price": 22227.55,
+            "net": -2115.0,
+            "risk": 20.75
+          },
+          "re": {
+            "entry": 22186.4,
+            "stop": 22215.5,
+            "target": 22128.2,
+            "exit": "stop",
+            "exit_time": "10:10",
+            "exit_idx": 8,
+            "exit_price": 22215.5,
+            "net": -2950.0,
+            "risk": 29.1,
+            "re_signal": "10:05"
+          },
+          "day_net": -5065.0
+        }
+      },
+      {
+        "date": "2026-05-13",
+        "orig_net": -5075,
+        "result": {
+          "info": {
+            "signal": "09:30",
+            "sig_close": 23337.95,
+            "sig_high": 23387.65,
+            "sig_low": 23335.7,
+            "sig_range": 51.95,
+            "entry": 23337.3,
+            "stop": 23387.65,
+            "target": 23236.6,
+            "risk": 50.35,
+            "orl": 23362.45,
+            "orh": 23503.8,
+            "or_width": 141.35,
+            "dist_below_orl": 24.5,
+            "pdl": 23348.4,
+            "scale": 0.42601,
+            "close_pos": 0.043
+          },
+          "orig": {
+            "entry": 23337.3,
+            "stop": 23387.65,
+            "target": 23236.6,
+            "exit": "stop",
+            "exit_time": "09:55",
+            "exit_idx": 5,
+            "exit_price": 23387.65,
+            "net": -5075.0,
+            "risk": 50.35
+          },
+          "re": null,
+          "day_net": -5075.0
+        }
+      },
+      {
+        "date": "2026-06-29",
+        "orig_net": -4740,
+        "result": {
+          "info": {
+            "signal": "09:30",
+            "sig_close": 24017.1,
+            "sig_high": 24065.7,
+            "sig_low": 24016.8,
+            "sig_range": 48.9,
+            "entry": 24018.7,
+            "stop": 24065.7,
+            "target": 23924.7,
+            "risk": 47.0,
+            "orl": 24032.35,
+            "orh": 24110.75,
+            "or_width": 78.4,
+            "dist_below_orl": 15.25,
+            "pdl": 24039.0,
+            "scale": 0.4373263636363636,
+            "close_pos": 0.006
+          },
+          "orig": {
+            "entry": 24018.7,
+            "stop": 24065.7,
+            "target": 23924.7,
+            "exit": "stop",
+            "exit_time": "09:40",
+            "exit_idx": 2,
+            "exit_price": 24065.7,
+            "net": -4740.0,
+            "risk": 47.0
+          },
+          "re": {
+            "entry": 24030.85,
+            "stop": 24065.25,
+            "target": 23962.05,
+            "exit": "target",
+            "exit_time": "12:30",
+            "exit_idx": 36,
+            "exit_price": 23962.049999999996,
+            "net": 6840.0,
+            "risk": 34.4,
+            "re_signal": "11:30"
+          },
+          "day_net": 2100.0
+        }
+      },
+      {
+        "date": "2026-07-08",
+        "orig_net": -1985,
+        "result": {
+          "info": {
+            "signal": "09:30",
+            "sig_close": 24220.05,
+            "sig_high": 24240.9,
+            "sig_low": 24215.3,
+            "sig_range": 25.6,
+            "entry": 24221.45,
+            "stop": 24240.9,
+            "target": 24182.55,
+            "risk": 19.45,
+            "orl": 24229.9,
+            "orh": 24295.25,
+            "or_width": 65.35,
+            "dist_below_orl": 9.85,
+            "pdl": 24348.95,
+            "scale": 0.44282,
+            "close_pos": 0.186
+          },
+          "orig": {
+            "entry": 24221.45,
+            "stop": 24240.9,
+            "target": 24182.55,
+            "exit": "stop",
+            "exit_time": "09:45",
+            "exit_idx": 3,
+            "exit_price": 24240.9,
+            "net": -1985.0,
+            "risk": 19.45
+          },
+          "re": {
+            "entry": 24224.5,
+            "stop": 24251.5,
+            "target": 24170.5,
+            "exit": "stop",
+            "exit_time": "10:30",
+            "exit_idx": 12,
+            "exit_price": 24251.5,
+            "net": -2740.0,
+            "risk": 27.0,
+            "re_signal": "10:20"
+          },
+          "day_net": -4725.0
+        }
+      },
+      {
+        "date": "2026-08-19",
+        "orig_net": -2300,
+        "result": {
+          "info": {
+            "signal": "09:30",
+            "sig_close": 24073.85,
+            "sig_high": 24099.0,
+            "sig_low": 24071.75,
+            "sig_range": 27.25,
+            "entry": 24076.4,
+            "stop": 24099.0,
+            "target": 24031.2,
+            "risk": 22.6,
+            "orl": 24093.05,
+            "orh": 24172.85,
+            "or_width": 79.8,
+            "dist_below_orl": 19.2,
+            "pdl": 24154.9,
+            "scale": 0.43918,
+            "close_pos": 0.077
+          },
+          "orig": {
+            "entry": 24076.4,
+            "stop": 24099.0,
+            "target": 24031.2,
+            "exit": "stop",
+            "exit_time": "09:50",
+            "exit_idx": 4,
+            "exit_price": 24099.0,
+            "net": -2300.0,
+            "risk": 22.6
+          },
+          "re": {
+            "entry": 24074.45,
+            "stop": 24094.5,
+            "target": 24034.35,
+            "exit": "target",
+            "exit_time": "11:05",
+            "exit_idx": 19,
+            "exit_price": 24034.350000000002,
+            "net": 3970.0,
+            "risk": 20.05,
+            "re_signal": "10:15"
+          },
+          "day_net": 1670.0
+        }
+      }
+    ],
+    "RF-MIN10-DAY": [
+      {
+        "date": "2026-01-09",
+        "orig_net": -3745,
+        "result": {
+          "info": {
+            "signal": "09:30",
+            "sig_close": 25837.15,
+            "sig_high": 25873.1,
+            "sig_low": 25820.8,
+            "sig_range": 52.3,
+            "entry": 25836.05,
+            "stop": 25873.1,
+            "target": 25761.95,
+            "risk": 37.05,
+            "orl": 25839.15,
+            "orh": 25940.6,
+            "or_width": 101.45,
+            "dist_below_orl": 2.0,
+            "pdl": 25858.45,
+            "scale": 0.4703436363636364,
+            "close_pos": 0.313
+          },
+          "orig": {
+            "entry": 25836.05,
+            "stop": 25873.1,
+            "target": 25761.95,
+            "exit": "stop",
+            "exit_time": "09:40",
+            "exit_idx": 2,
+            "exit_price": 25873.1,
+            "net": -3745.0,
+            "risk": 37.05
+          },
+          "re": {
+            "entry": 25831.2,
+            "stop": 25861.6,
+            "target": 25770.4,
+            "exit": "target",
+            "exit_time": "11:35",
+            "exit_idx": 25,
+            "exit_price": 25770.400000000005,
+            "net": 6040.0,
+            "risk": 30.4,
+            "re_signal": "10:50"
+          },
+          "day_net": 2295.0
+        }
+      },
+      {
+        "date": "2026-02-06",
+        "orig_net": -2275,
+        "result": {
+          "info": {
+            "signal": "09:35",
+            "sig_close": 25544.3,
+            "sig_high": 25565.8,
+            "sig_low": 25534.2,
+            "sig_range": 31.6,
+            "entry": 25543.45,
+            "stop": 25565.8,
+            "target": 25498.75,
+            "risk": 22.35,
+            "orl": 25553.55,
+            "orh": 25630.8,
+            "or_width": 77.25,
+            "dist_below_orl": 9.25,
+            "pdl": 25579.5,
+            "scale": 0.46621090909090906,
+            "close_pos": 0.32
+          },
+          "orig": {
+            "entry": 25543.45,
+            "stop": 25565.8,
+            "target": 25498.75,
+            "exit": "stop",
+            "exit_time": "09:45",
+            "exit_idx": 3,
+            "exit_price": 25565.8,
+            "net": -2275.0,
+            "risk": 22.35
+          },
+          "re": null,
+          "day_net": -2275.0
+        }
+      },
+      {
+        "date": "2026-03-30",
+        "orig_net": -2055,
+        "result": {
+          "info": {
+            "signal": "11:25",
+            "sig_close": 22468.2,
+            "sig_high": 22488.25,
+            "sig_low": 22465.8,
+            "sig_range": 22.45,
+            "entry": 22468.1,
+            "stop": 22488.25,
+            "target": 22427.8,
+            "risk": 20.15,
+            "orl": 22470.15,
+            "orh": 22618.05,
+            "or_width": 147.9,
+            "dist_below_orl": 1.95,
+            "pdl": 22804.55,
+            "scale": 0.4152636363636364,
+            "close_pos": 0.107
+          },
+          "orig": {
+            "entry": 22468.1,
+            "stop": 22488.25,
+            "target": 22427.8,
+            "exit": "stop",
+            "exit_time": "11:30",
+            "exit_idx": 24,
+            "exit_price": 22488.25,
+            "net": -2055.0,
+            "risk": 20.15
+          },
+          "re": null,
+          "day_net": -2055.0
+        }
+      },
+      {
+        "date": "2026-04-02",
+        "orig_net": -2115,
+        "result": {
+          "info": {
+            "signal": "09:55",
+            "sig_close": 22206.5,
+            "sig_high": 22227.55,
+            "sig_low": 22205.55,
+            "sig_range": 22.0,
+            "entry": 22206.8,
+            "stop": 22227.55,
+            "target": 22165.3,
+            "risk": 20.75,
+            "orl": 22209.15,
+            "orh": 22394.65,
+            "or_width": 185.5,
+            "dist_below_orl": 2.65,
+            "pdl": 22618.6,
+            "scale": 0.41278454545454546,
+            "close_pos": 0.043
+          },
+          "orig": {
+            "entry": 22206.8,
+            "stop": 22227.55,
+            "target": 22165.3,
+            "exit": "stop",
+            "exit_time": "10:00",
+            "exit_idx": 6,
+            "exit_price": 22227.55,
+            "net": -2115.0,
+            "risk": 20.75
+          },
+          "re": {
+            "entry": 22186.4,
+            "stop": 22215.5,
+            "target": 22128.2,
+            "exit": "stop",
+            "exit_time": "10:10",
+            "exit_idx": 8,
+            "exit_price": 22215.5,
+            "net": -2950.0,
+            "risk": 29.1,
+            "re_signal": "10:05"
+          },
+          "day_net": -5065.0
+        }
+      },
+      {
+        "date": "2026-05-13",
+        "orig_net": -5075,
+        "result": {
+          "info": {
+            "signal": "09:30",
+            "sig_close": 23337.95,
+            "sig_high": 23387.65,
+            "sig_low": 23335.7,
+            "sig_range": 51.95,
+            "entry": 23337.3,
+            "stop": 23387.65,
+            "target": 23236.6,
+            "risk": 50.35,
+            "orl": 23362.45,
+            "orh": 23503.8,
+            "or_width": 141.35,
+            "dist_below_orl": 24.5,
+            "pdl": 23348.4,
+            "scale": 0.42601,
+            "close_pos": 0.043
+          },
+          "orig": {
+            "entry": 23337.3,
+            "stop": 23387.65,
+            "target": 23236.6,
+            "exit": "stop",
+            "exit_time": "09:55",
+            "exit_idx": 5,
+            "exit_price": 23387.65,
+            "net": -5075.0,
+            "risk": 50.35
+          },
+          "re": null,
+          "day_net": -5075.0
+        }
+      },
+      {
+        "date": "2026-06-29",
+        "orig_net": -4740,
+        "result": {
+          "info": {
+            "signal": "09:30",
+            "sig_close": 24017.1,
+            "sig_high": 24065.7,
+            "sig_low": 24016.8,
+            "sig_range": 48.9,
+            "entry": 24018.7,
+            "stop": 24065.7,
+            "target": 23924.7,
+            "risk": 47.0,
+            "orl": 24032.35,
+            "orh": 24110.75,
+            "or_width": 78.4,
+            "dist_below_orl": 15.25,
+            "pdl": 24039.0,
+            "scale": 0.4373263636363636,
+            "close_pos": 0.006
+          },
+          "orig": {
+            "entry": 24018.7,
+            "stop": 24065.7,
+            "target": 23924.7,
+            "exit": "stop",
+            "exit_time": "09:40",
+            "exit_idx": 2,
+            "exit_price": 24065.7,
+            "net": -4740.0,
+            "risk": 47.0
+          },
+          "re": {
+            "entry": 24030.85,
+            "stop": 24065.25,
+            "target": 23962.05,
+            "exit": "target",
+            "exit_time": "12:30",
+            "exit_idx": 36,
+            "exit_price": 23962.049999999996,
+            "net": 6840.0,
+            "risk": 34.4,
+            "re_signal": "11:30"
+          },
+          "day_net": 2100.0
+        }
+      },
+      {
+        "date": "2026-07-08",
+        "orig_net": -1985,
+        "result": {
+          "info": {
+            "signal": "09:30",
+            "sig_close": 24220.05,
+            "sig_high": 24240.9,
+            "sig_low": 24215.3,
+            "sig_range": 25.6,
+            "entry": 24221.45,
+            "stop": 24240.9,
+            "target": 24182.55,
+            "risk": 19.45,
+            "orl": 24229.9,
+            "orh": 24295.25,
+            "or_width": 65.35,
+            "dist_below_orl": 9.85,
+            "pdl": 24348.95,
+            "scale": 0.44282,
+            "close_pos": 0.186
+          },
+          "orig": {
+            "entry": 24221.45,
+            "stop": 24240.9,
+            "target": 24182.55,
+            "exit": "stop",
+            "exit_time": "09:45",
+            "exit_idx": 3,
+            "exit_price": 24240.9,
+            "net": -1985.0,
+            "risk": 19.45
+          },
+          "re": {
+            "entry": 24224.5,
+            "stop": 24251.5,
+            "target": 24170.5,
+            "exit": "stop",
+            "exit_time": "10:30",
+            "exit_idx": 12,
+            "exit_price": 24251.5,
+            "net": -2740.0,
+            "risk": 27.0,
+            "re_signal": "10:20"
+          },
+          "day_net": -4725.0
+        }
+      },
+      {
+        "date": "2026-08-19",
+        "orig_net": -2300,
+        "result": {
+          "info": {
+            "signal": "09:30",
+            "sig_close": 24073.85,
+            "sig_high": 24099.0,
+            "sig_low": 24071.75,
+            "sig_range": 27.25,
+            "entry": 24076.4,
+            "stop": 24099.0,
+            "target": 24031.2,
+            "risk": 22.6,
+            "orl": 24093.05,
+            "orh": 24172.85,
+            "or_width": 79.8,
+            "dist_below_orl": 19.2,
+            "pdl": 24154.9,
+            "scale": 0.43918,
+            "close_pos": 0.077
+          },
+          "orig": {
+            "entry": 24076.4,
+            "stop": 24099.0,
+            "target": 24031.2,
+            "exit": "stop",
+            "exit_time": "09:50",
+            "exit_idx": 4,
+            "exit_price": 24099.0,
+            "net": -2300.0,
+            "risk": 22.6
+          },
+          "re": null,
+          "day_net": -2300.0
+        }
+      }
+    ],
+    "RF-BAND-SCAN": [
+      {
+        "date": "2026-01-09",
+        "orig_net": -3745,
+        "result": {
+          "info": {
+            "signal": "09:30",
+            "sig_close": 25837.15,
+            "sig_high": 25873.1,
+            "sig_low": 25820.8,
+            "sig_range": 52.3,
+            "entry": 25836.05,
+            "stop": 25873.1,
+            "target": 25761.95,
+            "risk": 37.05,
+            "orl": 25839.15,
+            "orh": 25940.6,
+            "or_width": 101.45,
+            "dist_below_orl": 2.0,
+            "pdl": 25858.45,
+            "scale": 0.4703436363636364,
+            "close_pos": 0.313
+          },
+          "orig": {
+            "entry": 25836.05,
+            "stop": 25873.1,
+            "target": 25761.95,
+            "exit": "stop",
+            "exit_time": "09:40",
+            "exit_idx": 2,
+            "exit_price": 25873.1,
+            "net": -3745.0,
+            "risk": 37.05
+          },
+          "re": {
+            "entry": 25831.2,
+            "stop": 25861.6,
+            "target": 25770.4,
+            "exit": "target",
+            "exit_time": "11:35",
+            "exit_idx": 25,
+            "exit_price": 25770.400000000005,
+            "net": 6040.0,
+            "risk": 30.4,
+            "re_signal": "10:50"
+          },
+          "day_net": 2295.0
+        }
+      },
+      {
+        "date": "2026-02-06",
+        "orig_net": -2275,
+        "result": {
+          "info": {
+            "signal": "09:35",
+            "sig_close": 25544.3,
+            "sig_high": 25565.8,
+            "sig_low": 25534.2,
+            "sig_range": 31.6,
+            "entry": 25543.45,
+            "stop": 25565.8,
+            "target": 25498.75,
+            "risk": 22.35,
+            "orl": 25553.55,
+            "orh": 25630.8,
+            "or_width": 77.25,
+            "dist_below_orl": 9.25,
+            "pdl": 25579.5,
+            "scale": 0.46621090909090906,
+            "close_pos": 0.32
+          },
+          "orig": {
+            "entry": 25543.45,
+            "stop": 25565.8,
+            "target": 25498.75,
+            "exit": "stop",
+            "exit_time": "09:45",
+            "exit_idx": 3,
+            "exit_price": 25565.8,
+            "net": -2275.0,
+            "risk": 22.35
+          },
+          "re": {
+            "entry": 25531.55,
+            "stop": 25542.15,
+            "target": 25510.35,
+            "exit": "target",
+            "exit_time": "10:10",
+            "exit_idx": 8,
+            "exit_price": 25510.349999999995,
+            "net": 2080.0,
+            "risk": 10.6,
+            "re_signal": "10:05"
+          },
+          "day_net": -195.0
+        }
+      },
+      {
+        "date": "2026-03-30",
+        "orig_net": -2055,
+        "result": {
+          "info": {
+            "signal": "11:25",
+            "sig_close": 22468.2,
+            "sig_high": 22488.25,
+            "sig_low": 22465.8,
+            "sig_range": 22.45,
+            "entry": 22468.1,
+            "stop": 22488.25,
+            "target": 22427.8,
+            "risk": 20.15,
+            "orl": 22470.15,
+            "orh": 22618.05,
+            "or_width": 147.9,
+            "dist_below_orl": 1.95,
+            "pdl": 22804.55,
+            "scale": 0.4152636363636364,
+            "close_pos": 0.107
+          },
+          "orig": {
+            "entry": 22468.1,
+            "stop": 22488.25,
+            "target": 22427.8,
+            "exit": "stop",
+            "exit_time": "11:30",
+            "exit_idx": 24,
+            "exit_price": 22488.25,
+            "net": -2055.0,
+            "risk": 20.15
+          },
+          "re": null,
+          "day_net": -2055.0
+        }
+      },
+      {
+        "date": "2026-04-02",
+        "orig_net": -2115,
+        "result": {
+          "info": {
+            "signal": "09:55",
+            "sig_close": 22206.5,
+            "sig_high": 22227.55,
+            "sig_low": 22205.55,
+            "sig_range": 22.0,
+            "entry": 22206.8,
+            "stop": 22227.55,
+            "target": 22165.3,
+            "risk": 20.75,
+            "orl": 22209.15,
+            "orh": 22394.65,
+            "or_width": 185.5,
+            "dist_below_orl": 2.65,
+            "pdl": 22618.6,
+            "scale": 0.41278454545454546,
+            "close_pos": 0.043
+          },
+          "orig": {
+            "entry": 22206.8,
+            "stop": 22227.55,
+            "target": 22165.3,
+            "exit": "stop",
+            "exit_time": "10:00",
+            "exit_idx": 6,
+            "exit_price": 22227.55,
+            "net": -2115.0,
+            "risk": 20.75
+          },
+          "re": {
+            "entry": 22204.85,
+            "stop": 22225.1,
+            "target": 22164.35,
+            "exit": "stop",
+            "exit_time": "10:50",
+            "exit_idx": 16,
+            "exit_price": 22225.1,
+            "net": -2065.0,
+            "risk": 20.25,
+            "re_signal": "10:45"
+          },
+          "day_net": -4180.0
+        }
+      },
+      {
+        "date": "2026-05-13",
+        "orig_net": -5075,
+        "result": {
+          "info": {
+            "signal": "09:30",
+            "sig_close": 23337.95,
+            "sig_high": 23387.65,
+            "sig_low": 23335.7,
+            "sig_range": 51.95,
+            "entry": 23337.3,
+            "stop": 23387.65,
+            "target": 23236.6,
+            "risk": 50.35,
+            "orl": 23362.45,
+            "orh": 23503.8,
+            "or_width": 141.35,
+            "dist_below_orl": 24.5,
+            "pdl": 23348.4,
+            "scale": 0.42601,
+            "close_pos": 0.043
+          },
+          "orig": {
+            "entry": 23337.3,
+            "stop": 23387.65,
+            "target": 23236.6,
+            "exit": "stop",
+            "exit_time": "09:55",
+            "exit_idx": 5,
+            "exit_price": 23387.65,
+            "net": -5075.0,
+            "risk": 50.35
+          },
+          "re": null,
+          "day_net": -5075.0
+        }
+      },
+      {
+        "date": "2026-06-29",
+        "orig_net": -4740,
+        "result": {
+          "info": {
+            "signal": "09:30",
+            "sig_close": 24017.1,
+            "sig_high": 24065.7,
+            "sig_low": 24016.8,
+            "sig_range": 48.9,
+            "entry": 24018.7,
+            "stop": 24065.7,
+            "target": 23924.7,
+            "risk": 47.0,
+            "orl": 24032.35,
+            "orh": 24110.75,
+            "or_width": 78.4,
+            "dist_below_orl": 15.25,
+            "pdl": 24039.0,
+            "scale": 0.4373263636363636,
+            "close_pos": 0.006
+          },
+          "orig": {
+            "entry": 24018.7,
+            "stop": 24065.7,
+            "target": 23924.7,
+            "exit": "stop",
+            "exit_time": "09:40",
+            "exit_idx": 2,
+            "exit_price": 24065.7,
+            "net": -4740.0,
+            "risk": 47.0
+          },
+          "re": {
+            "entry": 24030.85,
+            "stop": 24065.25,
+            "target": 23962.05,
+            "exit": "target",
+            "exit_time": "12:30",
+            "exit_idx": 36,
+            "exit_price": 23962.049999999996,
+            "net": 6840.0,
+            "risk": 34.4,
+            "re_signal": "11:30"
+          },
+          "day_net": 2100.0
+        }
+      },
+      {
+        "date": "2026-07-08",
+        "orig_net": -1985,
+        "result": {
+          "info": {
+            "signal": "09:30",
+            "sig_close": 24220.05,
+            "sig_high": 24240.9,
+            "sig_low": 24215.3,
+            "sig_range": 25.6,
+            "entry": 24221.45,
+            "stop": 24240.9,
+            "target": 24182.55,
+            "risk": 19.45,
+            "orl": 24229.9,
+            "orh": 24295.25,
+            "or_width": 65.35,
+            "dist_below_orl": 9.85,
+            "pdl": 24348.95,
+            "scale": 0.44282,
+            "close_pos": 0.186
+          },
+          "orig": {
+            "entry": 24221.45,
+            "stop": 24240.9,
+            "target": 24182.55,
+            "exit": "stop",
+            "exit_time": "09:45",
+            "exit_idx": 3,
+            "exit_price": 24240.9,
+            "net": -1985.0,
+            "risk": 19.45
+          },
+          "re": null,
+          "day_net": -1985.0
+        }
+      },
+      {
+        "date": "2026-08-19",
+        "orig_net": -2300,
+        "result": {
+          "info": {
+            "signal": "09:30",
+            "sig_close": 24073.85,
+            "sig_high": 24099.0,
+            "sig_low": 24071.75,
+            "sig_range": 27.25,
+            "entry": 24076.4,
+            "stop": 24099.0,
+            "target": 24031.2,
+            "risk": 22.6,
+            "orl": 24093.05,
+            "orh": 24172.85,
+            "or_width": 79.8,
+            "dist_below_orl": 19.2,
+            "pdl": 24154.9,
+            "scale": 0.43918,
+            "close_pos": 0.077
+          },
+          "orig": {
+            "entry": 24076.4,
+            "stop": 24099.0,
+            "target": 24031.2,
+            "exit": "stop",
+            "exit_time": "09:50",
+            "exit_idx": 4,
+            "exit_price": 24099.0,
+            "net": -2300.0,
+            "risk": 22.6
+          },
+          "re": {
+            "entry": 24074.45,
+            "stop": 24094.5,
+            "target": 24034.35,
+            "exit": "target",
+            "exit_time": "11:05",
+            "exit_idx": 19,
+            "exit_price": 24034.350000000002,
+            "net": 3970.0,
+            "risk": 20.05,
+            "re_signal": "10:15"
+          },
+          "day_net": 1670.0
+        }
+      }
+    ],
+    "RF-BAND-DAY": [
+      {
+        "date": "2026-01-09",
+        "orig_net": -3745,
+        "result": {
+          "info": {
+            "signal": "09:30",
+            "sig_close": 25837.15,
+            "sig_high": 25873.1,
+            "sig_low": 25820.8,
+            "sig_range": 52.3,
+            "entry": 25836.05,
+            "stop": 25873.1,
+            "target": 25761.95,
+            "risk": 37.05,
+            "orl": 25839.15,
+            "orh": 25940.6,
+            "or_width": 101.45,
+            "dist_below_orl": 2.0,
+            "pdl": 25858.45,
+            "scale": 0.4703436363636364,
+            "close_pos": 0.313
+          },
+          "orig": {
+            "entry": 25836.05,
+            "stop": 25873.1,
+            "target": 25761.95,
+            "exit": "stop",
+            "exit_time": "09:40",
+            "exit_idx": 2,
+            "exit_price": 25873.1,
+            "net": -3745.0,
+            "risk": 37.05
+          },
+          "re": {
+            "entry": 25831.2,
+            "stop": 25861.6,
+            "target": 25770.4,
+            "exit": "target",
+            "exit_time": "11:35",
+            "exit_idx": 25,
+            "exit_price": 25770.400000000005,
+            "net": 6040.0,
+            "risk": 30.4,
+            "re_signal": "10:50"
+          },
+          "day_net": 2295.0
+        }
+      },
+      {
+        "date": "2026-02-06",
+        "orig_net": -2275,
+        "result": {
+          "info": {
+            "signal": "09:35",
+            "sig_close": 25544.3,
+            "sig_high": 25565.8,
+            "sig_low": 25534.2,
+            "sig_range": 31.6,
+            "entry": 25543.45,
+            "stop": 25565.8,
+            "target": 25498.75,
+            "risk": 22.35,
+            "orl": 25553.55,
+            "orh": 25630.8,
+            "or_width": 77.25,
+            "dist_below_orl": 9.25,
+            "pdl": 25579.5,
+            "scale": 0.46621090909090906,
+            "close_pos": 0.32
+          },
+          "orig": {
+            "entry": 25543.45,
+            "stop": 25565.8,
+            "target": 25498.75,
+            "exit": "stop",
+            "exit_time": "09:45",
+            "exit_idx": 3,
+            "exit_price": 25565.8,
+            "net": -2275.0,
+            "risk": 22.35
+          },
+          "re": null,
+          "day_net": -2275.0
+        }
+      },
+      {
+        "date": "2026-03-30",
+        "orig_net": -2055,
+        "result": {
+          "info": {
+            "signal": "11:25",
+            "sig_close": 22468.2,
+            "sig_high": 22488.25,
+            "sig_low": 22465.8,
+            "sig_range": 22.45,
+            "entry": 22468.1,
+            "stop": 22488.25,
+            "target": 22427.8,
+            "risk": 20.15,
+            "orl": 22470.15,
+            "orh": 22618.05,
+            "or_width": 147.9,
+            "dist_below_orl": 1.95,
+            "pdl": 22804.55,
+            "scale": 0.4152636363636364,
+            "close_pos": 0.107
+          },
+          "orig": {
+            "entry": 22468.1,
+            "stop": 22488.25,
+            "target": 22427.8,
+            "exit": "stop",
+            "exit_time": "11:30",
+            "exit_idx": 24,
+            "exit_price": 22488.25,
+            "net": -2055.0,
+            "risk": 20.15
+          },
+          "re": null,
+          "day_net": -2055.0
+        }
+      },
+      {
+        "date": "2026-04-02",
+        "orig_net": -2115,
+        "result": {
+          "info": {
+            "signal": "09:55",
+            "sig_close": 22206.5,
+            "sig_high": 22227.55,
+            "sig_low": 22205.55,
+            "sig_range": 22.0,
+            "entry": 22206.8,
+            "stop": 22227.55,
+            "target": 22165.3,
+            "risk": 20.75,
+            "orl": 22209.15,
+            "orh": 22394.65,
+            "or_width": 185.5,
+            "dist_below_orl": 2.65,
+            "pdl": 22618.6,
+            "scale": 0.41278454545454546,
+            "close_pos": 0.043
+          },
+          "orig": {
+            "entry": 22206.8,
+            "stop": 22227.55,
+            "target": 22165.3,
+            "exit": "stop",
+            "exit_time": "10:00",
+            "exit_idx": 6,
+            "exit_price": 22227.55,
+            "net": -2115.0,
+            "risk": 20.75
+          },
+          "re": null,
+          "day_net": -2115.0
+        }
+      },
+      {
+        "date": "2026-05-13",
+        "orig_net": -5075,
+        "result": {
+          "info": {
+            "signal": "09:30",
+            "sig_close": 23337.95,
+            "sig_high": 23387.65,
+            "sig_low": 23335.7,
+            "sig_range": 51.95,
+            "entry": 23337.3,
+            "stop": 23387.65,
+            "target": 23236.6,
+            "risk": 50.35,
+            "orl": 23362.45,
+            "orh": 23503.8,
+            "or_width": 141.35,
+            "dist_below_orl": 24.5,
+            "pdl": 23348.4,
+            "scale": 0.42601,
+            "close_pos": 0.043
+          },
+          "orig": {
+            "entry": 23337.3,
+            "stop": 23387.65,
+            "target": 23236.6,
+            "exit": "stop",
+            "exit_time": "09:55",
+            "exit_idx": 5,
+            "exit_price": 23387.65,
+            "net": -5075.0,
+            "risk": 50.35
+          },
+          "re": null,
+          "day_net": -5075.0
+        }
+      },
+      {
+        "date": "2026-06-29",
+        "orig_net": -4740,
+        "result": {
+          "info": {
+            "signal": "09:30",
+            "sig_close": 24017.1,
+            "sig_high": 24065.7,
+            "sig_low": 24016.8,
+            "sig_range": 48.9,
+            "entry": 24018.7,
+            "stop": 24065.7,
+            "target": 23924.7,
+            "risk": 47.0,
+            "orl": 24032.35,
+            "orh": 24110.75,
+            "or_width": 78.4,
+            "dist_below_orl": 15.25,
+            "pdl": 24039.0,
+            "scale": 0.4373263636363636,
+            "close_pos": 0.006
+          },
+          "orig": {
+            "entry": 24018.7,
+            "stop": 24065.7,
+            "target": 23924.7,
+            "exit": "stop",
+            "exit_time": "09:40",
+            "exit_idx": 2,
+            "exit_price": 24065.7,
+            "net": -4740.0,
+            "risk": 47.0
+          },
+          "re": {
+            "entry": 24030.85,
+            "stop": 24065.25,
+            "target": 23962.05,
+            "exit": "target",
+            "exit_time": "12:30",
+            "exit_idx": 36,
+            "exit_price": 23962.049999999996,
+            "net": 6840.0,
+            "risk": 34.4,
+            "re_signal": "11:30"
+          },
+          "day_net": 2100.0
+        }
+      },
+      {
+        "date": "2026-07-08",
+        "orig_net": -1985,
+        "result": {
+          "info": {
+            "signal": "09:30",
+            "sig_close": 24220.05,
+            "sig_high": 24240.9,
+            "sig_low": 24215.3,
+            "sig_range": 25.6,
+            "entry": 24221.45,
+            "stop": 24240.9,
+            "target": 24182.55,
+            "risk": 19.45,
+            "orl": 24229.9,
+            "orh": 24295.25,
+            "or_width": 65.35,
+            "dist_below_orl": 9.85,
+            "pdl": 24348.95,
+            "scale": 0.44282,
+            "close_pos": 0.186
+          },
+          "orig": {
+            "entry": 24221.45,
+            "stop": 24240.9,
+            "target": 24182.55,
+            "exit": "stop",
+            "exit_time": "09:45",
+            "exit_idx": 3,
+            "exit_price": 24240.9,
+            "net": -1985.0,
+            "risk": 19.45
+          },
+          "re": null,
+          "day_net": -1985.0
+        }
+      },
+      {
+        "date": "2026-08-19",
+        "orig_net": -2300,
+        "result": {
+          "info": {
+            "signal": "09:30",
+            "sig_close": 24073.85,
+            "sig_high": 24099.0,
+            "sig_low": 24071.75,
+            "sig_range": 27.25,
+            "entry": 24076.4,
+            "stop": 24099.0,
+            "target": 24031.2,
+            "risk": 22.6,
+            "orl": 24093.05,
+            "orh": 24172.85,
+            "or_width": 79.8,
+            "dist_below_orl": 19.2,
+            "pdl": 24154.9,
+            "scale": 0.43918,
+            "close_pos": 0.077
+          },
+          "orig": {
+            "entry": 24076.4,
+            "stop": 24099.0,
+            "target": 24031.2,
+            "exit": "stop",
+            "exit_time": "09:50",
+            "exit_idx": 4,
+            "exit_price": 24099.0,
+            "net": -2300.0,
+            "risk": 22.6
+          },
+          "re": null,
+          "day_net": -2300.0
+        }
+      }
+    ],
+    "RF-MAXORIG-SCAN": [
+      {
+        "date": "2026-01-09",
+        "orig_net": -3745,
+        "result": {
+          "info": {
+            "signal": "09:30",
+            "sig_close": 25837.15,
+            "sig_high": 25873.1,
+            "sig_low": 25820.8,
+            "sig_range": 52.3,
+            "entry": 25836.05,
+            "stop": 25873.1,
+            "target": 25761.95,
+            "risk": 37.05,
+            "orl": 25839.15,
+            "orh": 25940.6,
+            "or_width": 101.45,
+            "dist_below_orl": 2.0,
+            "pdl": 25858.45,
+            "scale": 0.4703436363636364,
+            "close_pos": 0.313
+          },
+          "orig": {
+            "entry": 25836.05,
+            "stop": 25873.1,
+            "target": 25761.95,
+            "exit": "stop",
+            "exit_time": "09:40",
+            "exit_idx": 2,
+            "exit_price": 25873.1,
+            "net": -3745.0,
+            "risk": 37.05
+          },
+          "re": {
+            "entry": 25831.2,
+            "stop": 25861.6,
+            "target": 25770.4,
+            "exit": "target",
+            "exit_time": "11:35",
+            "exit_idx": 25,
+            "exit_price": 25770.400000000005,
+            "net": 6040.0,
+            "risk": 30.4,
+            "re_signal": "10:50"
+          },
+          "day_net": 2295.0
+        }
+      },
+      {
+        "date": "2026-02-06",
+        "orig_net": -2275,
+        "result": {
+          "info": {
+            "signal": "09:35",
+            "sig_close": 25544.3,
+            "sig_high": 25565.8,
+            "sig_low": 25534.2,
+            "sig_range": 31.6,
+            "entry": 25543.45,
+            "stop": 25565.8,
+            "target": 25498.75,
+            "risk": 22.35,
+            "orl": 25553.55,
+            "orh": 25630.8,
+            "or_width": 77.25,
+            "dist_below_orl": 9.25,
+            "pdl": 25579.5,
+            "scale": 0.46621090909090906,
+            "close_pos": 0.32
+          },
+          "orig": {
+            "entry": 25543.45,
+            "stop": 25565.8,
+            "target": 25498.75,
+            "exit": "stop",
+            "exit_time": "09:45",
+            "exit_idx": 3,
+            "exit_price": 25565.8,
+            "net": -2275.0,
+            "risk": 22.35
+          },
+          "re": {
+            "entry": 25552.35,
+            "stop": 25554.6,
+            "target": 25547.85,
+            "exit": "stop",
+            "exit_time": "10:00",
+            "exit_idx": 6,
+            "exit_price": 25554.6,
+            "net": -265.0,
+            "risk": 2.25,
+            "re_signal": "09:55"
+          },
+          "day_net": -2540.0
+        }
+      },
+      {
+        "date": "2026-03-30",
+        "orig_net": -2055,
+        "result": {
+          "info": {
+            "signal": "11:25",
+            "sig_close": 22468.2,
+            "sig_high": 22488.25,
+            "sig_low": 22465.8,
+            "sig_range": 22.45,
+            "entry": 22468.1,
+            "stop": 22488.25,
+            "target": 22427.8,
+            "risk": 20.15,
+            "orl": 22470.15,
+            "orh": 22618.05,
+            "or_width": 147.9,
+            "dist_below_orl": 1.95,
+            "pdl": 22804.55,
+            "scale": 0.4152636363636364,
+            "close_pos": 0.107
+          },
+          "orig": {
+            "entry": 22468.1,
+            "stop": 22488.25,
+            "target": 22427.8,
+            "exit": "stop",
+            "exit_time": "11:30",
+            "exit_idx": 24,
+            "exit_price": 22488.25,
+            "net": -2055.0,
+            "risk": 20.15
+          },
+          "re": null,
+          "day_net": -2055.0
+        }
+      },
+      {
+        "date": "2026-04-02",
+        "orig_net": -2115,
+        "result": {
+          "info": {
+            "signal": "09:55",
+            "sig_close": 22206.5,
+            "sig_high": 22227.55,
+            "sig_low": 22205.55,
+            "sig_range": 22.0,
+            "entry": 22206.8,
+            "stop": 22227.55,
+            "target": 22165.3,
+            "risk": 20.75,
+            "orl": 22209.15,
+            "orh": 22394.65,
+            "or_width": 185.5,
+            "dist_below_orl": 2.65,
+            "pdl": 22618.6,
+            "scale": 0.41278454545454546,
+            "close_pos": 0.043
+          },
+          "orig": {
+            "entry": 22206.8,
+            "stop": 22227.55,
+            "target": 22165.3,
+            "exit": "stop",
+            "exit_time": "10:00",
+            "exit_idx": 6,
+            "exit_price": 22227.55,
+            "net": -2115.0,
+            "risk": 20.75
+          },
+          "re": {
+            "entry": 22204.85,
+            "stop": 22225.1,
+            "target": 22164.35,
+            "exit": "stop",
+            "exit_time": "10:50",
+            "exit_idx": 16,
+            "exit_price": 22225.1,
+            "net": -2065.0,
+            "risk": 20.25,
+            "re_signal": "10:45"
+          },
+          "day_net": -4180.0
+        }
+      },
+      {
+        "date": "2026-05-13",
+        "orig_net": -5075,
+        "result": {
+          "info": {
+            "signal": "09:30",
+            "sig_close": 23337.95,
+            "sig_high": 23387.65,
+            "sig_low": 23335.7,
+            "sig_range": 51.95,
+            "entry": 23337.3,
+            "stop": 23387.65,
+            "target": 23236.6,
+            "risk": 50.35,
+            "orl": 23362.45,
+            "orh": 23503.8,
+            "or_width": 141.35,
+            "dist_below_orl": 24.5,
+            "pdl": 23348.4,
+            "scale": 0.42601,
+            "close_pos": 0.043
+          },
+          "orig": {
+            "entry": 23337.3,
+            "stop": 23387.65,
+            "target": 23236.6,
+            "exit": "stop",
+            "exit_time": "09:55",
+            "exit_idx": 5,
+            "exit_price": 23387.65,
+            "net": -5075.0,
+            "risk": 50.35
+          },
+          "re": null,
+          "day_net": -5075.0
+        }
+      },
+      {
+        "date": "2026-06-29",
+        "orig_net": -4740,
+        "result": {
+          "info": {
+            "signal": "09:30",
+            "sig_close": 24017.1,
+            "sig_high": 24065.7,
+            "sig_low": 24016.8,
+            "sig_range": 48.9,
+            "entry": 24018.7,
+            "stop": 24065.7,
+            "target": 23924.7,
+            "risk": 47.0,
+            "orl": 24032.35,
+            "orh": 24110.75,
+            "or_width": 78.4,
+            "dist_below_orl": 15.25,
+            "pdl": 24039.0,
+            "scale": 0.4373263636363636,
+            "close_pos": 0.006
+          },
+          "orig": {
+            "entry": 24018.7,
+            "stop": 24065.7,
+            "target": 23924.7,
+            "exit": "stop",
+            "exit_time": "09:40",
+            "exit_idx": 2,
+            "exit_price": 24065.7,
+            "net": -4740.0,
+            "risk": 47.0
+          },
+          "re": {
+            "entry": 24030.85,
+            "stop": 24065.25,
+            "target": 23962.05,
+            "exit": "target",
+            "exit_time": "12:30",
+            "exit_idx": 36,
+            "exit_price": 23962.049999999996,
+            "net": 6840.0,
+            "risk": 34.4,
+            "re_signal": "11:30"
+          },
+          "day_net": 2100.0
+        }
+      },
+      {
+        "date": "2026-07-08",
+        "orig_net": -1985,
+        "result": {
+          "info": {
+            "signal": "09:30",
+            "sig_close": 24220.05,
+            "sig_high": 24240.9,
+            "sig_low": 24215.3,
+            "sig_range": 25.6,
+            "entry": 24221.45,
+            "stop": 24240.9,
+            "target": 24182.55,
+            "risk": 19.45,
+            "orl": 24229.9,
+            "orh": 24295.25,
+            "or_width": 65.35,
+            "dist_below_orl": 9.85,
+            "pdl": 24348.95,
+            "scale": 0.44282,
+            "close_pos": 0.186
+          },
+          "orig": {
+            "entry": 24221.45,
+            "stop": 24240.9,
+            "target": 24182.55,
+            "exit": "stop",
+            "exit_time": "09:45",
+            "exit_idx": 3,
+            "exit_price": 24240.9,
+            "net": -1985.0,
+            "risk": 19.45
+          },
+          "re": null,
+          "day_net": -1985.0
+        }
+      },
+      {
+        "date": "2026-08-19",
+        "orig_net": -2300,
+        "result": {
+          "info": {
+            "signal": "09:30",
+            "sig_close": 24073.85,
+            "sig_high": 24099.0,
+            "sig_low": 24071.75,
+            "sig_range": 27.25,
+            "entry": 24076.4,
+            "stop": 24099.0,
+            "target": 24031.2,
+            "risk": 22.6,
+            "orl": 24093.05,
+            "orh": 24172.85,
+            "or_width": 79.8,
+            "dist_below_orl": 19.2,
+            "pdl": 24154.9,
+            "scale": 0.43918,
+            "close_pos": 0.077
+          },
+          "orig": {
+            "entry": 24076.4,
+            "stop": 24099.0,
+            "target": 24031.2,
+            "exit": "stop",
+            "exit_time": "09:50",
+            "exit_idx": 4,
+            "exit_price": 24099.0,
+            "net": -2300.0,
+            "risk": 22.6
+          },
+          "re": {
+            "entry": 24093.25,
+            "stop": 24098.55,
+            "target": 24082.65,
+            "exit": "target",
+            "exit_time": "10:15",
+            "exit_idx": 9,
+            "exit_price": 24082.65,
+            "net": 1020.0,
+            "risk": 5.3,
+            "re_signal": "10:10"
+          },
+          "day_net": -1280.0
+        }
+      }
+    ],
+    "RF-MAXORIG-DAY": [
+      {
+        "date": "2026-01-09",
+        "orig_net": -3745,
+        "result": {
+          "info": {
+            "signal": "09:30",
+            "sig_close": 25837.15,
+            "sig_high": 25873.1,
+            "sig_low": 25820.8,
+            "sig_range": 52.3,
+            "entry": 25836.05,
+            "stop": 25873.1,
+            "target": 25761.95,
+            "risk": 37.05,
+            "orl": 25839.15,
+            "orh": 25940.6,
+            "or_width": 101.45,
+            "dist_below_orl": 2.0,
+            "pdl": 25858.45,
+            "scale": 0.4703436363636364,
+            "close_pos": 0.313
+          },
+          "orig": {
+            "entry": 25836.05,
+            "stop": 25873.1,
+            "target": 25761.95,
+            "exit": "stop",
+            "exit_time": "09:40",
+            "exit_idx": 2,
+            "exit_price": 25873.1,
+            "net": -3745.0,
+            "risk": 37.05
+          },
+          "re": {
+            "entry": 25831.2,
+            "stop": 25861.6,
+            "target": 25770.4,
+            "exit": "target",
+            "exit_time": "11:35",
+            "exit_idx": 25,
+            "exit_price": 25770.400000000005,
+            "net": 6040.0,
+            "risk": 30.4,
+            "re_signal": "10:50"
+          },
+          "day_net": 2295.0
+        }
+      },
+      {
+        "date": "2026-02-06",
+        "orig_net": -2275,
+        "result": {
+          "info": {
+            "signal": "09:35",
+            "sig_close": 25544.3,
+            "sig_high": 25565.8,
+            "sig_low": 25534.2,
+            "sig_range": 31.6,
+            "entry": 25543.45,
+            "stop": 25565.8,
+            "target": 25498.75,
+            "risk": 22.35,
+            "orl": 25553.55,
+            "orh": 25630.8,
+            "or_width": 77.25,
+            "dist_below_orl": 9.25,
+            "pdl": 25579.5,
+            "scale": 0.46621090909090906,
+            "close_pos": 0.32
+          },
+          "orig": {
+            "entry": 25543.45,
+            "stop": 25565.8,
+            "target": 25498.75,
+            "exit": "stop",
+            "exit_time": "09:45",
+            "exit_idx": 3,
+            "exit_price": 25565.8,
+            "net": -2275.0,
+            "risk": 22.35
+          },
+          "re": {
+            "entry": 25552.35,
+            "stop": 25554.6,
+            "target": 25547.85,
+            "exit": "stop",
+            "exit_time": "10:00",
+            "exit_idx": 6,
+            "exit_price": 25554.6,
+            "net": -265.0,
+            "risk": 2.25,
+            "re_signal": "09:55"
+          },
+          "day_net": -2540.0
+        }
+      },
+      {
+        "date": "2026-03-30",
+        "orig_net": -2055,
+        "result": {
+          "info": {
+            "signal": "11:25",
+            "sig_close": 22468.2,
+            "sig_high": 22488.25,
+            "sig_low": 22465.8,
+            "sig_range": 22.45,
+            "entry": 22468.1,
+            "stop": 22488.25,
+            "target": 22427.8,
+            "risk": 20.15,
+            "orl": 22470.15,
+            "orh": 22618.05,
+            "or_width": 147.9,
+            "dist_below_orl": 1.95,
+            "pdl": 22804.55,
+            "scale": 0.4152636363636364,
+            "close_pos": 0.107
+          },
+          "orig": {
+            "entry": 22468.1,
+            "stop": 22488.25,
+            "target": 22427.8,
+            "exit": "stop",
+            "exit_time": "11:30",
+            "exit_idx": 24,
+            "exit_price": 22488.25,
+            "net": -2055.0,
+            "risk": 20.15
+          },
+          "re": null,
+          "day_net": -2055.0
+        }
+      },
+      {
+        "date": "2026-04-02",
+        "orig_net": -2115,
+        "result": {
+          "info": {
+            "signal": "09:55",
+            "sig_close": 22206.5,
+            "sig_high": 22227.55,
+            "sig_low": 22205.55,
+            "sig_range": 22.0,
+            "entry": 22206.8,
+            "stop": 22227.55,
+            "target": 22165.3,
+            "risk": 20.75,
+            "orl": 22209.15,
+            "orh": 22394.65,
+            "or_width": 185.5,
+            "dist_below_orl": 2.65,
+            "pdl": 22618.6,
+            "scale": 0.41278454545454546,
+            "close_pos": 0.043
+          },
+          "orig": {
+            "entry": 22206.8,
+            "stop": 22227.55,
+            "target": 22165.3,
+            "exit": "stop",
+            "exit_time": "10:00",
+            "exit_idx": 6,
+            "exit_price": 22227.55,
+            "net": -2115.0,
+            "risk": 20.75
+          },
+          "re": null,
+          "day_net": -2115.0
+        }
+      },
+      {
+        "date": "2026-05-13",
+        "orig_net": -5075,
+        "result": {
+          "info": {
+            "signal": "09:30",
+            "sig_close": 23337.95,
+            "sig_high": 23387.65,
+            "sig_low": 23335.7,
+            "sig_range": 51.95,
+            "entry": 23337.3,
+            "stop": 23387.65,
+            "target": 23236.6,
+            "risk": 50.35,
+            "orl": 23362.45,
+            "orh": 23503.8,
+            "or_width": 141.35,
+            "dist_below_orl": 24.5,
+            "pdl": 23348.4,
+            "scale": 0.42601,
+            "close_pos": 0.043
+          },
+          "orig": {
+            "entry": 23337.3,
+            "stop": 23387.65,
+            "target": 23236.6,
+            "exit": "stop",
+            "exit_time": "09:55",
+            "exit_idx": 5,
+            "exit_price": 23387.65,
+            "net": -5075.0,
+            "risk": 50.35
+          },
+          "re": null,
+          "day_net": -5075.0
+        }
+      },
+      {
+        "date": "2026-06-29",
+        "orig_net": -4740,
+        "result": {
+          "info": {
+            "signal": "09:30",
+            "sig_close": 24017.1,
+            "sig_high": 24065.7,
+            "sig_low": 24016.8,
+            "sig_range": 48.9,
+            "entry": 24018.7,
+            "stop": 24065.7,
+            "target": 23924.7,
+            "risk": 47.0,
+            "orl": 24032.35,
+            "orh": 24110.75,
+            "or_width": 78.4,
+            "dist_below_orl": 15.25,
+            "pdl": 24039.0,
+            "scale": 0.4373263636363636,
+            "close_pos": 0.006
+          },
+          "orig": {
+            "entry": 24018.7,
+            "stop": 24065.7,
+            "target": 23924.7,
+            "exit": "stop",
+            "exit_time": "09:40",
+            "exit_idx": 2,
+            "exit_price": 24065.7,
+            "net": -4740.0,
+            "risk": 47.0
+          },
+          "re": {
+            "entry": 24030.85,
+            "stop": 24065.25,
+            "target": 23962.05,
+            "exit": "target",
+            "exit_time": "12:30",
+            "exit_idx": 36,
+            "exit_price": 23962.049999999996,
+            "net": 6840.0,
+            "risk": 34.4,
+            "re_signal": "11:30"
+          },
+          "day_net": 2100.0
+        }
+      },
+      {
+        "date": "2026-07-08",
+        "orig_net": -1985,
+        "result": {
+          "info": {
+            "signal": "09:30",
+            "sig_close": 24220.05,
+            "sig_high": 24240.9,
+            "sig_low": 24215.3,
+            "sig_range": 25.6,
+            "entry": 24221.45,
+            "stop": 24240.9,
+            "target": 24182.55,
+            "risk": 19.45,
+            "orl": 24229.9,
+            "orh": 24295.25,
+            "or_width": 65.35,
+            "dist_below_orl": 9.85,
+            "pdl": 24348.95,
+            "scale": 0.44282,
+            "close_pos": 0.186
+          },
+          "orig": {
+            "entry": 24221.45,
+            "stop": 24240.9,
+            "target": 24182.55,
+            "exit": "stop",
+            "exit_time": "09:45",
+            "exit_idx": 3,
+            "exit_price": 24240.9,
+            "net": -1985.0,
+            "risk": 19.45
+          },
+          "re": null,
+          "day_net": -1985.0
+        }
+      },
+      {
+        "date": "2026-08-19",
+        "orig_net": -2300,
+        "result": {
+          "info": {
+            "signal": "09:30",
+            "sig_close": 24073.85,
+            "sig_high": 24099.0,
+            "sig_low": 24071.75,
+            "sig_range": 27.25,
+            "entry": 24076.4,
+            "stop": 24099.0,
+            "target": 24031.2,
+            "risk": 22.6,
+            "orl": 24093.05,
+            "orh": 24172.85,
+            "or_width": 79.8,
+            "dist_below_orl": 19.2,
+            "pdl": 24154.9,
+            "scale": 0.43918,
+            "close_pos": 0.077
+          },
+          "orig": {
+            "entry": 24076.4,
+            "stop": 24099.0,
+            "target": 24031.2,
+            "exit": "stop",
+            "exit_time": "09:50",
+            "exit_idx": 4,
+            "exit_price": 24099.0,
+            "net": -2300.0,
+            "risk": 22.6
+          },
+          "re": {
+            "entry": 24093.25,
+            "stop": 24098.55,
+            "target": 24082.65,
+            "exit": "target",
+            "exit_time": "10:15",
+            "exit_idx": 9,
+            "exit_price": 24082.65,
+            "net": 1020.0,
+            "risk": 5.3,
+            "re_signal": "10:10"
+          },
+          "day_net": -1280.0
+        }
+      }
+    ]
+  },
+  "reentry_siglow": [
+    {
+      "date": "2026-01-09",
+      "orig_net": -3745,
+      "result": {
+        "info": {
+          "signal": "09:30",
+          "sig_close": 25837.15,
+          "sig_high": 25873.1,
+          "sig_low": 25820.8,
+          "sig_range": 52.3,
+          "entry": 25836.05,
+          "stop": 25873.1,
+          "target": 25761.95,
+          "risk": 37.05,
+          "orl": 25839.15,
+          "orh": 25940.6,
+          "or_width": 101.45,
+          "dist_below_orl": 2.0,
+          "pdl": 25858.45,
+          "scale": 0.4703436363636364,
+          "close_pos": 0.313
+        },
+        "orig": {
+          "entry": 25836.05,
+          "stop": 25873.1,
+          "target": 25761.95,
+          "exit": "stop",
+          "exit_time": "09:40",
+          "exit_idx": 2,
+          "exit_price": 25873.1,
+          "net": -3745.0,
+          "risk": 37.05
+        },
+        "re": {
+          "entry": 25811.0,
+          "stop": 25822.05,
+          "target": 25788.9,
+          "exit": "stop",
+          "exit_time": "11:10",
+          "exit_idx": 20,
+          "exit_price": 25822.05,
+          "net": -1145.0,
+          "risk": 11.05,
+          "re_signal": "11:00",
+          "sig_low": 25820.8
+        },
+        "day_net": -4890.0
+      }
+    },
+    {
+      "date": "2026-02-06",
+      "orig_net": -2275,
+      "result": {
+        "info": {
+          "signal": "09:35",
+          "sig_close": 25544.3,
+          "sig_high": 25565.8,
+          "sig_low": 25534.2,
+          "sig_range": 31.6,
+          "entry": 25543.45,
+          "stop": 25565.8,
+          "target": 25498.75,
+          "risk": 22.35,
+          "orl": 25553.55,
+          "orh": 25630.8,
+          "or_width": 77.25,
+          "dist_below_orl": 9.25,
+          "pdl": 25579.5,
+          "scale": 0.46621090909090906,
+          "close_pos": 0.32
+        },
+        "orig": {
+          "entry": 25543.45,
+          "stop": 25565.8,
+          "target": 25498.75,
+          "exit": "stop",
+          "exit_time": "09:45",
+          "exit_idx": 3,
+          "exit_price": 25565.8,
+          "net": -2275.0,
+          "risk": 22.35
+        },
+        "re": {
+          "entry": 25531.55,
+          "stop": 25542.15,
+          "target": 25510.35,
+          "exit": "target",
+          "exit_time": "10:10",
+          "exit_idx": 8,
+          "exit_price": 25510.349999999995,
+          "net": 2080.0,
+          "risk": 10.6,
+          "re_signal": "10:05",
+          "sig_low": 25534.2
+        },
+        "day_net": -195.0
+      }
+    },
+    {
+      "date": "2026-03-30",
+      "orig_net": -2055,
+      "result": {
+        "info": {
+          "signal": "11:25",
+          "sig_close": 22468.2,
+          "sig_high": 22488.25,
+          "sig_low": 22465.8,
+          "sig_range": 22.45,
+          "entry": 22468.1,
+          "stop": 22488.25,
+          "target": 22427.8,
+          "risk": 20.15,
+          "orl": 22470.15,
+          "orh": 22618.05,
+          "or_width": 147.9,
+          "dist_below_orl": 1.95,
+          "pdl": 22804.55,
+          "scale": 0.4152636363636364,
+          "close_pos": 0.107
+        },
+        "orig": {
+          "entry": 22468.1,
+          "stop": 22488.25,
+          "target": 22427.8,
+          "exit": "stop",
+          "exit_time": "11:30",
+          "exit_idx": 24,
+          "exit_price": 22488.25,
+          "net": -2055.0,
+          "risk": 20.15
+        },
+        "re": null,
+        "day_net": -2055.0
+      }
+    },
+    {
+      "date": "2026-04-02",
+      "orig_net": -2115,
+      "result": {
+        "info": {
+          "signal": "09:55",
+          "sig_close": 22206.5,
+          "sig_high": 22227.55,
+          "sig_low": 22205.55,
+          "sig_range": 22.0,
+          "entry": 22206.8,
+          "stop": 22227.55,
+          "target": 22165.3,
+          "risk": 20.75,
+          "orl": 22209.15,
+          "orh": 22394.65,
+          "or_width": 185.5,
+          "dist_below_orl": 2.65,
+          "pdl": 22618.6,
+          "scale": 0.41278454545454546,
+          "close_pos": 0.043
+        },
+        "orig": {
+          "entry": 22206.8,
+          "stop": 22227.55,
+          "target": 22165.3,
+          "exit": "stop",
+          "exit_time": "10:00",
+          "exit_idx": 6,
+          "exit_price": 22227.55,
+          "net": -2115.0,
+          "risk": 20.75
+        },
+        "re": {
+          "entry": 22186.4,
+          "stop": 22215.5,
+          "target": 22128.2,
+          "exit": "stop",
+          "exit_time": "10:10",
+          "exit_idx": 8,
+          "exit_price": 22215.5,
+          "net": -2950.0,
+          "risk": 29.1,
+          "re_signal": "10:05",
+          "sig_low": 22205.55
+        },
+        "day_net": -5065.0
+      }
+    },
+    {
+      "date": "2026-05-13",
+      "orig_net": -5075,
+      "result": {
+        "info": {
+          "signal": "09:30",
+          "sig_close": 23337.95,
+          "sig_high": 23387.65,
+          "sig_low": 23335.7,
+          "sig_range": 51.95,
+          "entry": 23337.3,
+          "stop": 23387.65,
+          "target": 23236.6,
+          "risk": 50.35,
+          "orl": 23362.45,
+          "orh": 23503.8,
+          "or_width": 141.35,
+          "dist_below_orl": 24.5,
+          "pdl": 23348.4,
+          "scale": 0.42601,
+          "close_pos": 0.043
+        },
+        "orig": {
+          "entry": 23337.3,
+          "stop": 23387.65,
+          "target": 23236.6,
+          "exit": "stop",
+          "exit_time": "09:55",
+          "exit_idx": 5,
+          "exit_price": 23387.65,
+          "net": -5075.0,
+          "risk": 50.35
+        },
+        "re": null,
+        "day_net": -5075.0
+      }
+    },
+    {
+      "date": "2026-06-29",
+      "orig_net": -4740,
+      "result": {
+        "info": {
+          "signal": "09:30",
+          "sig_close": 24017.1,
+          "sig_high": 24065.7,
+          "sig_low": 24016.8,
+          "sig_range": 48.9,
+          "entry": 24018.7,
+          "stop": 24065.7,
+          "target": 23924.7,
+          "risk": 47.0,
+          "orl": 24032.35,
+          "orh": 24110.75,
+          "or_width": 78.4,
+          "dist_below_orl": 15.25,
+          "pdl": 24039.0,
+          "scale": 0.4373263636363636,
+          "close_pos": 0.006
+        },
+        "orig": {
+          "entry": 24018.7,
+          "stop": 24065.7,
+          "target": 23924.7,
+          "exit": "stop",
+          "exit_time": "09:40",
+          "exit_idx": 2,
+          "exit_price": 24065.7,
+          "net": -4740.0,
+          "risk": 47.0
+        },
+        "re": null,
+        "day_net": -4740.0
+      }
+    },
+    {
+      "date": "2026-07-08",
+      "orig_net": -1985,
+      "result": {
+        "info": {
+          "signal": "09:30",
+          "sig_close": 24220.05,
+          "sig_high": 24240.9,
+          "sig_low": 24215.3,
+          "sig_range": 25.6,
+          "entry": 24221.45,
+          "stop": 24240.9,
+          "target": 24182.55,
+          "risk": 19.45,
+          "orl": 24229.9,
+          "orh": 24295.25,
+          "or_width": 65.35,
+          "dist_below_orl": 9.85,
+          "pdl": 24348.95,
+          "scale": 0.44282,
+          "close_pos": 0.186
+        },
+        "orig": {
+          "entry": 24221.45,
+          "stop": 24240.9,
+          "target": 24182.55,
+          "exit": "stop",
+          "exit_time": "09:45",
+          "exit_idx": 3,
+          "exit_price": 24240.9,
+          "net": -1985.0,
+          "risk": 19.45
+        },
+        "re": null,
+        "day_net": -1985.0
+      }
+    },
+    {
+      "date": "2026-08-19",
+      "orig_net": -2300,
+      "result": {
+        "info": {
+          "signal": "09:30",
+          "sig_close": 24073.85,
+          "sig_high": 24099.0,
+          "sig_low": 24071.75,
+          "sig_range": 27.25,
+          "entry": 24076.4,
+          "stop": 24099.0,
+          "target": 24031.2,
+          "risk": 22.6,
+          "orl": 24093.05,
+          "orh": 24172.85,
+          "or_width": 79.8,
+          "dist_below_orl": 19.2,
+          "pdl": 24154.9,
+          "scale": 0.43918,
+          "close_pos": 0.077
+        },
+        "orig": {
+          "entry": 24076.4,
+          "stop": 24099.0,
+          "target": 24031.2,
+          "exit": "stop",
+          "exit_time": "09:50",
+          "exit_idx": 4,
+          "exit_price": 24099.0,
+          "net": -2300.0,
+          "risk": 22.6
+        },
+        "re": {
+          "entry": 24067.2,
+          "stop": 24074.45,
+          "target": 24052.7,
+          "exit": "target",
+          "exit_time": "10:35",
+          "exit_idx": 13,
+          "exit_price": 24052.7,
+          "net": 1410.0,
+          "risk": 7.25,
+          "re_signal": "10:20",
+          "sig_low": 24071.75
+        },
+        "day_net": -890.0
+      }
+    }
+  ],
+  "xc_cluster1": {
+    "FILTER-ORL": [
+      {
+        "date": "2026-01-09",
+        "orig_net": -3745,
+        "result": {
+          "info": {
+            "signal": "09:30",
+            "sig_close": 25837.15,
+            "sig_high": 25873.1,
+            "sig_low": 25820.8,
+            "sig_range": 52.3,
+            "entry": 25836.05,
+            "stop": 25873.1,
+            "target": 25761.95,
+            "risk": 37.05,
+            "orl": 25839.15,
+            "orh": 25940.6,
+            "or_width": 101.45,
+            "dist_below_orl": 2.0,
+            "pdl": 25858.45,
+            "scale": 0.4703436363636364,
+            "close_pos": 0.313
+          },
+          "orig": {
+            "entry": 25836.05,
+            "stop": 25873.1,
+            "target": 25761.95,
+            "exit": "stop",
+            "exit_time": "09:40",
+            "exit_idx": 2,
+            "exit_price": 25873.1,
+            "net": -3745.0,
+            "risk": 37.05
+          },
+          "bn_break": "09:30",
+          "bn_orl": 59471.85,
+          "kept": true,
+          "net": -3745.0
+        }
+      },
+      {
+        "date": "2026-02-06",
+        "orig_net": -2275,
+        "result": {
+          "info": {
+            "signal": "09:35",
+            "sig_close": 25544.3,
+            "sig_high": 25565.8,
+            "sig_low": 25534.2,
+            "sig_range": 31.6,
+            "entry": 25543.45,
+            "stop": 25565.8,
+            "target": 25498.75,
+            "risk": 22.35,
+            "orl": 25553.55,
+            "orh": 25630.8,
+            "or_width": 77.25,
+            "dist_below_orl": 9.25,
+            "pdl": 25579.5,
+            "scale": 0.46621090909090906,
+            "close_pos": 0.32
+          },
+          "orig": {
+            "entry": 25543.45,
+            "stop": 25565.8,
+            "target": 25498.75,
+            "exit": "stop",
+            "exit_time": "09:45",
+            "exit_idx": 3,
+            "exit_price": 25565.8,
+            "net": -2275.0,
+            "risk": 22.35
+          },
+          "bn_break": "10:10",
+          "bn_orl": 59924.15,
+          "kept": false,
+          "net": null
+        }
+      },
+      {
+        "date": "2026-03-30",
+        "orig_net": -2055,
+        "result": {
+          "info": {
+            "signal": "11:25",
+            "sig_close": 22468.2,
+            "sig_high": 22488.25,
+            "sig_low": 22465.8,
+            "sig_range": 22.45,
+            "entry": 22468.1,
+            "stop": 22488.25,
+            "target": 22427.8,
+            "risk": 20.15,
+            "orl": 22470.15,
+            "orh": 22618.05,
+            "or_width": 147.9,
+            "dist_below_orl": 1.95,
+            "pdl": 22804.55,
+            "scale": 0.4152636363636364,
+            "close_pos": 0.107
+          },
+          "orig": {
+            "entry": 22468.1,
+            "stop": 22488.25,
+            "target": 22427.8,
+            "exit": "stop",
+            "exit_time": "11:30",
+            "exit_idx": 24,
+            "exit_price": 22488.25,
+            "net": -2055.0,
+            "risk": 20.15
+          },
+          "bn_break": "10:50",
+          "bn_orl": 50888.15,
+          "kept": true,
+          "net": -2055.0
+        }
+      },
+      {
+        "date": "2026-04-02",
+        "orig_net": -2115,
+        "result": {
+          "info": {
+            "signal": "09:55",
+            "sig_close": 22206.5,
+            "sig_high": 22227.55,
+            "sig_low": 22205.55,
+            "sig_range": 22.0,
+            "entry": 22206.8,
+            "stop": 22227.55,
+            "target": 22165.3,
+            "risk": 20.75,
+            "orl": 22209.15,
+            "orh": 22394.65,
+            "or_width": 185.5,
+            "dist_below_orl": 2.65,
+            "pdl": 22618.6,
+            "scale": 0.41278454545454546,
+            "close_pos": 0.043
+          },
+          "orig": {
+            "entry": 22206.8,
+            "stop": 22227.55,
+            "target": 22165.3,
+            "exit": "stop",
+            "exit_time": "10:00",
+            "exit_idx": 6,
+            "exit_price": 22227.55,
+            "net": -2115.0,
+            "risk": 20.75
+          },
+          "bn_break": "10:45",
+          "bn_orl": 50004.3,
+          "kept": false,
+          "net": null
+        }
+      },
+      {
+        "date": "2026-05-13",
+        "orig_net": -5075,
+        "result": {
+          "info": {
+            "signal": "09:30",
+            "sig_close": 23337.95,
+            "sig_high": 23387.65,
+            "sig_low": 23335.7,
+            "sig_range": 51.95,
+            "entry": 23337.3,
+            "stop": 23387.65,
+            "target": 23236.6,
+            "risk": 50.35,
+            "orl": 23362.45,
+            "orh": 23503.8,
+            "or_width": 141.35,
+            "dist_below_orl": 24.5,
+            "pdl": 23348.4,
+            "scale": 0.42601,
+            "close_pos": 0.043
+          },
+          "orig": {
+            "entry": 23337.3,
+            "stop": 23387.65,
+            "target": 23236.6,
+            "exit": "stop",
+            "exit_time": "09:55",
+            "exit_idx": 5,
+            "exit_price": 23387.65,
+            "net": -5075.0,
+            "risk": 50.35
+          },
+          "bn_break": "09:30",
+          "bn_orl": 53447.75,
+          "kept": true,
+          "net": -5075.0
+        }
+      },
+      {
+        "date": "2026-06-29",
+        "orig_net": -4740,
+        "result": {
+          "info": {
+            "signal": "09:30",
+            "sig_close": 24017.1,
+            "sig_high": 24065.7,
+            "sig_low": 24016.8,
+            "sig_range": 48.9,
+            "entry": 24018.7,
+            "stop": 24065.7,
+            "target": 23924.7,
+            "risk": 47.0,
+            "orl": 24032.35,
+            "orh": 24110.75,
+            "or_width": 78.4,
+            "dist_below_orl": 15.25,
+            "pdl": 24039.0,
+            "scale": 0.4373263636363636,
+            "close_pos": 0.006
+          },
+          "orig": {
+            "entry": 24018.7,
+            "stop": 24065.7,
+            "target": 23924.7,
+            "exit": "stop",
+            "exit_time": "09:40",
+            "exit_idx": 2,
+            "exit_price": 24065.7,
+            "net": -4740.0,
+            "risk": 47.0
+          },
+          "bn_break": "09:30",
+          "bn_orl": 57993.3,
+          "kept": true,
+          "net": -4740.0
+        }
+      },
+      {
+        "date": "2026-07-08",
+        "orig_net": -1985,
+        "result": {
+          "info": {
+            "signal": "09:30",
+            "sig_close": 24220.05,
+            "sig_high": 24240.9,
+            "sig_low": 24215.3,
+            "sig_range": 25.6,
+            "entry": 24221.45,
+            "stop": 24240.9,
+            "target": 24182.55,
+            "risk": 19.45,
+            "orl": 24229.9,
+            "orh": 24295.25,
+            "or_width": 65.35,
+            "dist_below_orl": 9.85,
+            "pdl": 24348.95,
+            "scale": 0.44282,
+            "close_pos": 0.186
+          },
+          "orig": {
+            "entry": 24221.45,
+            "stop": 24240.9,
+            "target": 24182.55,
+            "exit": "stop",
+            "exit_time": "09:45",
+            "exit_idx": 3,
+            "exit_price": 24240.9,
+            "net": -1985.0,
+            "risk": 19.45
+          },
+          "bn_break": "09:30",
+          "bn_orl": 57797.4,
+          "kept": true,
+          "net": -1985.0
+        }
+      },
+      {
+        "date": "2026-08-19",
+        "orig_net": -2300,
+        "result": {
+          "info": {
+            "signal": "09:30",
+            "sig_close": 24073.85,
+            "sig_high": 24099.0,
+            "sig_low": 24071.75,
+            "sig_range": 27.25,
+            "entry": 24076.4,
+            "stop": 24099.0,
+            "target": 24031.2,
+            "risk": 22.6,
+            "orl": 24093.05,
+            "orh": 24172.85,
+            "or_width": 79.8,
+            "dist_below_orl": 19.2,
+            "pdl": 24154.9,
+            "scale": 0.43918,
+            "close_pos": 0.077
+          },
+          "orig": {
+            "entry": 24076.4,
+            "stop": 24099.0,
+            "target": 24031.2,
+            "exit": "stop",
+            "exit_time": "09:50",
+            "exit_idx": 4,
+            "exit_price": 24099.0,
+            "net": -2300.0,
+            "risk": 22.6
+          },
+          "bn_break": "09:30",
+          "bn_orl": 57094.5,
+          "kept": true,
+          "net": -2300.0
+        }
+      }
+    ],
+    "RESCAN-ORL": [
+      {
+        "date": "2026-01-09",
+        "orig_net": -3745,
+        "result": {
+          "bn_break": "09:30",
+          "trade": {
+            "entry": 25836.05,
+            "stop": 25873.1,
+            "target": 25761.95,
+            "exit": "stop",
+            "exit_time": "09:40",
+            "exit_idx": 2,
+            "exit_price": 25873.1,
+            "net": -3745.0,
+            "risk": 37.05,
+            "signal": "09:30",
+            "bn_break": "09:30"
+          },
+          "net": -3745.0
+        }
+      },
+      {
+        "date": "2026-02-06",
+        "orig_net": -2275,
+        "result": {
+          "bn_break": "10:10",
+          "trade": {
+            "entry": 25515.8,
+            "stop": 25533.5,
+            "target": 25480.4,
+            "exit": "stop",
+            "exit_time": "10:15",
+            "exit_idx": 9,
+            "exit_price": 25533.5,
+            "net": -1810.0,
+            "risk": 17.7,
+            "signal": "10:10",
+            "bn_break": "10:10"
+          },
+          "net": -1810.0
+        }
+      },
+      {
+        "date": "2026-03-30",
+        "orig_net": -2055,
+        "result": {
+          "bn_break": "10:50",
+          "trade": {
+            "entry": 22468.1,
+            "stop": 22488.25,
+            "target": 22427.8,
+            "exit": "stop",
+            "exit_time": "11:30",
+            "exit_idx": 24,
+            "exit_price": 22488.25,
+            "net": -2055.0,
+            "risk": 20.15,
+            "signal": "11:25",
+            "bn_break": "10:50"
+          },
+          "net": -2055.0
+        }
+      },
+      {
+        "date": "2026-04-02",
+        "orig_net": -2115,
+        "result": {
+          "bn_break": "10:45",
+          "trade": {
+            "entry": 22204.85,
+            "stop": 22225.1,
+            "target": 22164.35,
+            "exit": "stop",
+            "exit_time": "10:50",
+            "exit_idx": 16,
+            "exit_price": 22225.1,
+            "net": -2065.0,
+            "risk": 20.25,
+            "signal": "10:45",
+            "bn_break": "10:45"
+          },
+          "net": -2065.0
+        }
+      },
+      {
+        "date": "2026-05-13",
+        "orig_net": -5075,
+        "result": {
+          "bn_break": "09:30",
+          "trade": {
+            "entry": 23337.3,
+            "stop": 23387.65,
+            "target": 23236.6,
+            "exit": "stop",
+            "exit_time": "09:55",
+            "exit_idx": 5,
+            "exit_price": 23387.65,
+            "net": -5075.0,
+            "risk": 50.35,
+            "signal": "09:30",
+            "bn_break": "09:30"
+          },
+          "net": -5075.0
+        }
+      },
+      {
+        "date": "2026-06-29",
+        "orig_net": -4740,
+        "result": {
+          "bn_break": "09:30",
+          "trade": {
+            "entry": 24018.7,
+            "stop": 24065.7,
+            "target": 23924.7,
+            "exit": "stop",
+            "exit_time": "09:40",
+            "exit_idx": 2,
+            "exit_price": 24065.7,
+            "net": -4740.0,
+            "risk": 47.0,
+            "signal": "09:30",
+            "bn_break": "09:30"
+          },
+          "net": -4740.0
+        }
+      },
+      {
+        "date": "2026-07-08",
+        "orig_net": -1985,
+        "result": {
+          "bn_break": "09:30",
+          "trade": {
+            "entry": 24221.45,
+            "stop": 24240.9,
+            "target": 24182.55,
+            "exit": "stop",
+            "exit_time": "09:45",
+            "exit_idx": 3,
+            "exit_price": 24240.9,
+            "net": -1985.0,
+            "risk": 19.45,
+            "signal": "09:30",
+            "bn_break": "09:30"
+          },
+          "net": -1985.0
+        }
+      },
+      {
+        "date": "2026-08-19",
+        "orig_net": -2300,
+        "result": {
+          "bn_break": "09:30",
+          "trade": {
+            "entry": 24076.4,
+            "stop": 24099.0,
+            "target": 24031.2,
+            "exit": "stop",
+            "exit_time": "09:50",
+            "exit_idx": 4,
+            "exit_price": 24099.0,
+            "net": -2300.0,
+            "risk": 22.6,
+            "signal": "09:30",
+            "bn_break": "09:30"
+          },
+          "net": -2300.0
+        }
+      }
+    ],
+    "FILTER-PDL": [
+      {
+        "date": "2026-01-09",
+        "orig_net": -3745,
+        "result": {
+          "info": {
+            "signal": "09:30",
+            "sig_close": 25837.15,
+            "sig_high": 25873.1,
+            "sig_low": 25820.8,
+            "sig_range": 52.3,
+            "entry": 25836.05,
+            "stop": 25873.1,
+            "target": 25761.95,
+            "risk": 37.05,
+            "orl": 25839.15,
+            "orh": 25940.6,
+            "or_width": 101.45,
+            "dist_below_orl": 2.0,
+            "pdl": 25858.45,
+            "scale": 0.4703436363636364,
+            "close_pos": 0.313
+          },
+          "orig": {
+            "entry": 25836.05,
+            "stop": 25873.1,
+            "target": 25761.95,
+            "exit": "stop",
+            "exit_time": "09:40",
+            "exit_idx": 2,
+            "exit_price": 25873.1,
+            "net": -3745.0,
+            "risk": 37.05
+          },
+          "bn_break": "09:30",
+          "bn_orl": 59471.85,
+          "kept": true,
+          "net": -3745.0
+        }
+      },
+      {
+        "date": "2026-02-06",
+        "orig_net": -2275,
+        "result": {
+          "info": {
+            "signal": "09:35",
+            "sig_close": 25544.3,
+            "sig_high": 25565.8,
+            "sig_low": 25534.2,
+            "sig_range": 31.6,
+            "entry": 25543.45,
+            "stop": 25565.8,
+            "target": 25498.75,
+            "risk": 22.35,
+            "orl": 25553.55,
+            "orh": 25630.8,
+            "or_width": 77.25,
+            "dist_below_orl": 9.25,
+            "pdl": 25579.5,
+            "scale": 0.46621090909090906,
+            "close_pos": 0.32
+          },
+          "orig": {
+            "entry": 25543.45,
+            "stop": 25565.8,
+            "target": 25498.75,
+            "exit": "stop",
+            "exit_time": "09:45",
+            "exit_idx": 3,
+            "exit_price": 25565.8,
+            "net": -2275.0,
+            "risk": 22.35
+          },
+          "bn_break": "10:25",
+          "bn_orl": 59924.15,
+          "kept": false,
+          "net": null
+        }
+      },
+      {
+        "date": "2026-03-30",
+        "orig_net": -2055,
+        "result": {
+          "info": {
+            "signal": "11:25",
+            "sig_close": 22468.2,
+            "sig_high": 22488.25,
+            "sig_low": 22465.8,
+            "sig_range": 22.45,
+            "entry": 22468.1,
+            "stop": 22488.25,
+            "target": 22427.8,
+            "risk": 20.15,
+            "orl": 22470.15,
+            "orh": 22618.05,
+            "or_width": 147.9,
+            "dist_below_orl": 1.95,
+            "pdl": 22804.55,
+            "scale": 0.4152636363636364,
+            "close_pos": 0.107
+          },
+          "orig": {
+            "entry": 22468.1,
+            "stop": 22488.25,
+            "target": 22427.8,
+            "exit": "stop",
+            "exit_time": "11:30",
+            "exit_idx": 24,
+            "exit_price": 22488.25,
+            "net": -2055.0,
+            "risk": 20.15
+          },
+          "bn_break": "10:50",
+          "bn_orl": 50888.15,
+          "kept": true,
+          "net": -2055.0
+        }
+      },
+      {
+        "date": "2026-04-02",
+        "orig_net": -2115,
+        "result": {
+          "info": {
+            "signal": "09:55",
+            "sig_close": 22206.5,
+            "sig_high": 22227.55,
+            "sig_low": 22205.55,
+            "sig_range": 22.0,
+            "entry": 22206.8,
+            "stop": 22227.55,
+            "target": 22165.3,
+            "risk": 20.75,
+            "orl": 22209.15,
+            "orh": 22394.65,
+            "or_width": 185.5,
+            "dist_below_orl": 2.65,
+            "pdl": 22618.6,
+            "scale": 0.41278454545454546,
+            "close_pos": 0.043
+          },
+          "orig": {
+            "entry": 22206.8,
+            "stop": 22227.55,
+            "target": 22165.3,
+            "exit": "stop",
+            "exit_time": "10:00",
+            "exit_idx": 6,
+            "exit_price": 22227.55,
+            "net": -2115.0,
+            "risk": 20.75
+          },
+          "bn_break": "10:45",
+          "bn_orl": 50004.3,
+          "kept": false,
+          "net": null
+        }
+      },
+      {
+        "date": "2026-05-13",
+        "orig_net": -5075,
+        "result": {
+          "info": {
+            "signal": "09:30",
+            "sig_close": 23337.95,
+            "sig_high": 23387.65,
+            "sig_low": 23335.7,
+            "sig_range": 51.95,
+            "entry": 23337.3,
+            "stop": 23387.65,
+            "target": 23236.6,
+            "risk": 50.35,
+            "orl": 23362.45,
+            "orh": 23503.8,
+            "or_width": 141.35,
+            "dist_below_orl": 24.5,
+            "pdl": 23348.4,
+            "scale": 0.42601,
+            "close_pos": 0.043
+          },
+          "orig": {
+            "entry": 23337.3,
+            "stop": 23387.65,
+            "target": 23236.6,
+            "exit": "stop",
+            "exit_time": "09:55",
+            "exit_idx": 5,
+            "exit_price": 23387.65,
+            "net": -5075.0,
+            "risk": 50.35
+          },
+          "bn_break": "09:30",
+          "bn_orl": 53447.75,
+          "kept": true,
+          "net": -5075.0
+        }
+      },
+      {
+        "date": "2026-06-29",
+        "orig_net": -4740,
+        "result": {
+          "info": {
+            "signal": "09:30",
+            "sig_close": 24017.1,
+            "sig_high": 24065.7,
+            "sig_low": 24016.8,
+            "sig_range": 48.9,
+            "entry": 24018.7,
+            "stop": 24065.7,
+            "target": 23924.7,
+            "risk": 47.0,
+            "orl": 24032.35,
+            "orh": 24110.75,
+            "or_width": 78.4,
+            "dist_below_orl": 15.25,
+            "pdl": 24039.0,
+            "scale": 0.4373263636363636,
+            "close_pos": 0.006
+          },
+          "orig": {
+            "entry": 24018.7,
+            "stop": 24065.7,
+            "target": 23924.7,
+            "exit": "stop",
+            "exit_time": "09:40",
+            "exit_idx": 2,
+            "exit_price": 24065.7,
+            "net": -4740.0,
+            "risk": 47.0
+          },
+          "bn_break": "09:30",
+          "bn_orl": 57993.3,
+          "kept": true,
+          "net": -4740.0
+        }
+      },
+      {
+        "date": "2026-07-08",
+        "orig_net": -1985,
+        "result": {
+          "info": {
+            "signal": "09:30",
+            "sig_close": 24220.05,
+            "sig_high": 24240.9,
+            "sig_low": 24215.3,
+            "sig_range": 25.6,
+            "entry": 24221.45,
+            "stop": 24240.9,
+            "target": 24182.55,
+            "risk": 19.45,
+            "orl": 24229.9,
+            "orh": 24295.25,
+            "or_width": 65.35,
+            "dist_below_orl": 9.85,
+            "pdl": 24348.95,
+            "scale": 0.44282,
+            "close_pos": 0.186
+          },
+          "orig": {
+            "entry": 24221.45,
+            "stop": 24240.9,
+            "target": 24182.55,
+            "exit": "stop",
+            "exit_time": "09:45",
+            "exit_idx": 3,
+            "exit_price": 24240.9,
+            "net": -1985.0,
+            "risk": 19.45
+          },
+          "bn_break": "09:30",
+          "bn_orl": 57797.4,
+          "kept": true,
+          "net": -1985.0
+        }
+      },
+      {
+        "date": "2026-08-19",
+        "orig_net": -2300,
+        "result": {
+          "info": {
+            "signal": "09:30",
+            "sig_close": 24073.85,
+            "sig_high": 24099.0,
+            "sig_low": 24071.75,
+            "sig_range": 27.25,
+            "entry": 24076.4,
+            "stop": 24099.0,
+            "target": 24031.2,
+            "risk": 22.6,
+            "orl": 24093.05,
+            "orh": 24172.85,
+            "or_width": 79.8,
+            "dist_below_orl": 19.2,
+            "pdl": 24154.9,
+            "scale": 0.43918,
+            "close_pos": 0.077
+          },
+          "orig": {
+            "entry": 24076.4,
+            "stop": 24099.0,
+            "target": 24031.2,
+            "exit": "stop",
+            "exit_time": "09:50",
+            "exit_idx": 4,
+            "exit_price": 24099.0,
+            "net": -2300.0,
+            "risk": 22.6
+          },
+          "bn_break": "09:30",
+          "bn_orl": 57094.5,
+          "kept": true,
+          "net": -2300.0
+        }
+      }
+    ],
+    "RESCAN-PDL": [
+      {
+        "date": "2026-01-09",
+        "orig_net": -3745,
+        "result": {
+          "bn_break": "09:30",
+          "trade": {
+            "entry": 25836.05,
+            "stop": 25873.1,
+            "target": 25761.95,
+            "exit": "stop",
+            "exit_time": "09:40",
+            "exit_idx": 2,
+            "exit_price": 25873.1,
+            "net": -3745.0,
+            "risk": 37.05,
+            "signal": "09:30",
+            "bn_break": "09:30"
+          },
+          "net": -3745.0
+        }
+      },
+      {
+        "date": "2026-02-06",
+        "orig_net": -2275,
+        "result": {
+          "bn_break": "10:25",
+          "trade": {
+            "entry": 25507.1,
+            "stop": 25546.4,
+            "target": 25428.5,
+            "exit": "stop",
+            "exit_time": "11:00",
+            "exit_idx": 18,
+            "exit_price": 25546.4,
+            "net": -3970.0,
+            "risk": 39.3,
+            "signal": "10:25",
+            "bn_break": "10:25"
+          },
+          "net": -3970.0
+        }
+      },
+      {
+        "date": "2026-03-30",
+        "orig_net": -2055,
+        "result": {
+          "bn_break": "10:50",
+          "trade": {
+            "entry": 22468.1,
+            "stop": 22488.25,
+            "target": 22427.8,
+            "exit": "stop",
+            "exit_time": "11:30",
+            "exit_idx": 24,
+            "exit_price": 22488.25,
+            "net": -2055.0,
+            "risk": 20.15,
+            "signal": "11:25",
+            "bn_break": "10:50"
+          },
+          "net": -2055.0
+        }
+      },
+      {
+        "date": "2026-04-02",
+        "orig_net": -2115,
+        "result": {
+          "bn_break": "10:45",
+          "trade": {
+            "entry": 22204.85,
+            "stop": 22225.1,
+            "target": 22164.35,
+            "exit": "stop",
+            "exit_time": "10:50",
+            "exit_idx": 16,
+            "exit_price": 22225.1,
+            "net": -2065.0,
+            "risk": 20.25,
+            "signal": "10:45",
+            "bn_break": "10:45"
+          },
+          "net": -2065.0
+        }
+      },
+      {
+        "date": "2026-05-13",
+        "orig_net": -5075,
+        "result": {
+          "bn_break": "09:30",
+          "trade": {
+            "entry": 23337.3,
+            "stop": 23387.65,
+            "target": 23236.6,
+            "exit": "stop",
+            "exit_time": "09:55",
+            "exit_idx": 5,
+            "exit_price": 23387.65,
+            "net": -5075.0,
+            "risk": 50.35,
+            "signal": "09:30",
+            "bn_break": "09:30"
+          },
+          "net": -5075.0
+        }
+      },
+      {
+        "date": "2026-06-29",
+        "orig_net": -4740,
+        "result": {
+          "bn_break": "09:30",
+          "trade": {
+            "entry": 24018.7,
+            "stop": 24065.7,
+            "target": 23924.7,
+            "exit": "stop",
+            "exit_time": "09:40",
+            "exit_idx": 2,
+            "exit_price": 24065.7,
+            "net": -4740.0,
+            "risk": 47.0,
+            "signal": "09:30",
+            "bn_break": "09:30"
+          },
+          "net": -4740.0
+        }
+      },
+      {
+        "date": "2026-07-08",
+        "orig_net": -1985,
+        "result": {
+          "bn_break": "09:30",
+          "trade": {
+            "entry": 24221.45,
+            "stop": 24240.9,
+            "target": 24182.55,
+            "exit": "stop",
+            "exit_time": "09:45",
+            "exit_idx": 3,
+            "exit_price": 24240.9,
+            "net": -1985.0,
+            "risk": 19.45,
+            "signal": "09:30",
+            "bn_break": "09:30"
+          },
+          "net": -1985.0
+        }
+      },
+      {
+        "date": "2026-08-19",
+        "orig_net": -2300,
+        "result": {
+          "bn_break": "09:30",
+          "trade": {
+            "entry": 24076.4,
+            "stop": 24099.0,
+            "target": 24031.2,
+            "exit": "stop",
+            "exit_time": "09:50",
+            "exit_idx": 4,
+            "exit_price": 24099.0,
+            "net": -2300.0,
+            "risk": 22.6,
+            "signal": "09:30",
+            "bn_break": "09:30"
+          },
+          "net": -2300.0
+        }
+      }
+    ]
+  },
+  "xc_winners": {
+    "FILTER-ORL": [
+      {
+        "date": "2026-01-21",
+        "orig_net": 9280,
+        "result": {
+          "info": {
+            "signal": "10:20",
+            "sig_close": 25105.85,
+            "sig_high": 25154.1,
+            "sig_low": 25105.25,
+            "sig_range": 48.85,
+            "entry": 25107.5,
+            "stop": 25154.1,
+            "target": 25014.3,
+            "risk": 46.6,
+            "orl": 25130.15,
+            "orh": 25277.75,
+            "or_width": 147.6,
+            "dist_below_orl": 24.3,
+            "pdl": 25171.35,
+            "scale": 0.45864272727272726,
+            "close_pos": 0.012
+          },
+          "orig": {
+            "entry": 25107.5,
+            "stop": 25154.1,
+            "target": 25014.3,
+            "exit": "target",
+            "exit_time": "10:45",
+            "exit_idx": 15,
+            "exit_price": 25014.300000000003,
+            "net": 9280.0,
+            "risk": 46.6
+          },
+          "bn_break": "09:55",
+          "bn_orl": 59122.65,
+          "kept": true,
+          "net": 9280.0
+        }
+      },
+      {
+        "date": "2026-02-24",
+        "orig_net": 7350,
+        "result": {
+          "info": {
+            "signal": "09:30",
+            "sig_close": 25513.9,
+            "sig_high": 25549.75,
+            "sig_low": 25507.75,
+            "sig_range": 42.0,
+            "entry": 25512.8,
+            "stop": 25549.75,
+            "target": 25438.9,
+            "risk": 36.95,
+            "orl": 25547.15,
+            "orh": 25641.8,
+            "or_width": 94.65,
+            "dist_below_orl": 33.25,
+            "pdl": 25609.35,
+            "scale": 0.46734545454545456,
+            "close_pos": 0.146
+          },
+          "orig": {
+            "entry": 25512.8,
+            "stop": 25549.75,
+            "target": 25438.9,
+            "exit": "target",
+            "exit_time": "12:20",
+            "exit_idx": 34,
+            "exit_price": 25438.899999999998,
+            "net": 7350.0,
+            "risk": 36.95
+          },
+          "bn_break": null,
+          "bn_orl": 61109.15,
+          "kept": false,
+          "net": null
+        }
+      },
+      {
+        "date": "2026-03-16",
+        "orig_net": 8940,
+        "result": {
+          "info": {
+            "signal": "10:20",
+            "sig_close": 23056.7,
+            "sig_high": 23100.6,
+            "sig_low": 23055.1,
+            "sig_range": 45.5,
+            "entry": 23055.7,
+            "stop": 23100.6,
+            "target": 22965.9,
+            "risk": 44.9,
+            "orl": 23098.0,
+            "orh": 23248.05,
+            "or_width": 150.05,
+            "dist_below_orl": 41.3,
+            "pdl": 23112.0,
+            "scale": 0.42128909090909095,
+            "close_pos": 0.035
+          },
+          "orig": {
+            "entry": 23055.7,
+            "stop": 23100.6,
+            "target": 22965.9,
+            "exit": "target",
+            "exit_time": "10:55",
+            "exit_idx": 17,
+            "exit_price": 22965.900000000005,
+            "net": 8940.0,
+            "risk": 44.9
+          },
+          "bn_break": "10:20",
+          "bn_orl": 53630.6,
+          "kept": true,
+          "net": 8940.0
+        }
+      },
+      {
+        "date": "2026-03-13",
+        "orig_net": 5400,
+        "result": {
+          "info": {
+            "signal": "09:45",
+            "sig_close": 23397.4,
+            "sig_high": 23426.85,
+            "sig_low": 23388.45,
+            "sig_range": 38.4,
+            "entry": 23399.65,
+            "stop": 23426.85,
+            "target": 23345.25,
+            "risk": 27.2,
+            "orl": 23415.25,
+            "orh": 23487.9,
+            "or_width": 72.65,
+            "dist_below_orl": 17.85,
+            "pdl": 23556.3,
+            "scale": 0.4298063636363636,
+            "close_pos": 0.233
+          },
+          "orig": {
+            "entry": 23399.65,
+            "stop": 23426.85,
+            "target": 23345.25,
+            "exit": "target",
+            "exit_time": "09:55",
+            "exit_idx": 5,
+            "exit_price": 23345.250000000007,
+            "net": 5400.0,
+            "risk": 27.2
+          },
+          "bn_break": "09:45",
+          "bn_orl": 54361.6,
+          "kept": true,
+          "net": 5400.0
+        }
+      },
+      {
+        "date": "2026-03-23",
+        "orig_net": 7260,
+        "result": {
+          "info": {
+            "signal": "09:50",
+            "sig_close": 22629.05,
+            "sig_high": 22665.05,
+            "sig_low": 22624.75,
+            "sig_range": 40.3,
+            "entry": 22628.55,
+            "stop": 22665.05,
+            "target": 22555.55,
+            "risk": 36.5,
+            "orl": 22634.55,
+            "orh": 22851.7,
+            "or_width": 217.15,
+            "dist_below_orl": 5.5,
+            "pdl": 23067.6,
+            "scale": 0.42063,
+            "close_pos": 0.107
+          },
+          "orig": {
+            "entry": 22628.55,
+            "stop": 22665.05,
+            "target": 22555.55,
+            "exit": "target",
+            "exit_time": "10:15",
+            "exit_idx": 9,
+            "exit_price": 22555.55,
+            "net": 7260.0,
+            "risk": 36.5
+          },
+          "bn_break": "09:45",
+          "bn_orl": 52068.8,
+          "kept": true,
+          "net": 7260.0
+        }
+      },
+      {
+        "date": "2026-04-24",
+        "orig_net": 8820,
+        "result": {
+          "info": {
+            "signal": "09:30",
+            "sig_close": 24017.65,
+            "sig_high": 24061.6,
+            "sig_low": 24011.9,
+            "sig_range": 49.7,
+            "entry": 24017.3,
+            "stop": 24061.6,
+            "target": 23928.7,
+            "risk": 44.3,
+            "orl": 24056.6,
+            "orh": 24206.0,
+            "or_width": 149.4,
+            "dist_below_orl": 38.95,
+            "pdl": 24134.8,
+            "scale": 0.4392009090909091,
+            "close_pos": 0.116
+          },
+          "orig": {
+            "entry": 24017.3,
+            "stop": 24061.6,
+            "target": 23928.7,
+            "exit": "target",
+            "exit_time": "10:45",
+            "exit_idx": 15,
+            "exit_price": 23928.7,
+            "net": 8820.0,
+            "risk": 44.3
+          },
+          "bn_break": "09:30",
+          "bn_orl": 56159.45,
+          "kept": true,
+          "net": 8820.0
+        }
+      },
+      {
+        "date": "2026-05-05",
+        "orig_net": 5040,
+        "result": {
+          "info": {
+            "signal": "10:30",
+            "sig_close": 23941.35,
+            "sig_high": 23966.8,
+            "sig_low": 23938.1,
+            "sig_range": 28.7,
+            "entry": 23941.4,
+            "stop": 23966.8,
+            "target": 23890.6,
+            "risk": 25.4,
+            "orl": 23949.4,
+            "orh": 24072.1,
+            "or_width": 122.7,
+            "dist_below_orl": 8.05,
+            "pdl": 24004.75,
+            "scale": 0.4386145454545454,
+            "close_pos": 0.113
+          },
+          "orig": {
+            "entry": 23941.4,
+            "stop": 23966.8,
+            "target": 23890.6,
+            "exit": "target",
+            "exit_time": "11:50",
+            "exit_idx": 28,
+            "exit_price": 23890.600000000006,
+            "net": 5040.0,
+            "risk": 25.4
+          },
+          "bn_break": "10:30",
+          "bn_orl": 54438.15,
+          "kept": true,
+          "net": 5040.0
+        }
+      },
+      {
+        "date": "2026-07-22",
+        "orig_net": 6320,
+        "result": {
+          "info": {
+            "signal": "09:30",
+            "sig_close": 24024.25,
+            "sig_high": 24058.05,
+            "sig_low": 24021.9,
+            "sig_range": 36.15,
+            "entry": 24026.25,
+            "stop": 24058.05,
+            "target": 23962.65,
+            "risk": 31.8,
+            "orl": 24046.95,
+            "orh": 24166.3,
+            "or_width": 119.35,
+            "dist_below_orl": 22.7,
+            "pdl": 24135.65,
+            "scale": 0.43987363636363636,
+            "close_pos": 0.065
+          },
+          "orig": {
+            "entry": 24026.25,
+            "stop": 24058.05,
+            "target": 23962.65,
+            "exit": "target",
+            "exit_time": "12:35",
+            "exit_idx": 37,
+            "exit_price": 23962.65,
+            "net": 6320.0,
+            "risk": 31.8
+          },
+          "bn_break": "09:30",
+          "bn_orl": 57332.3,
+          "kept": true,
+          "net": 6320.0
+        }
+      },
+      {
+        "date": "2026-08-12",
+        "orig_net": 6250,
+        "result": {
+          "info": {
+            "signal": "09:55",
+            "sig_close": 24378.55,
+            "sig_high": 24410.95,
+            "sig_low": 24376.55,
+            "sig_range": 34.4,
+            "entry": 24379.5,
+            "stop": 24410.95,
+            "target": 24316.6,
+            "risk": 31.45,
+            "orl": 24390.6,
+            "orh": 24473.3,
+            "or_width": 82.7,
+            "dist_below_orl": 12.05,
+            "pdl": 24429.25,
+            "scale": 0.44494,
+            "close_pos": 0.058
+          },
+          "orig": {
+            "entry": 24379.5,
+            "stop": 24410.95,
+            "target": 24316.6,
+            "exit": "target",
+            "exit_time": "10:55",
+            "exit_idx": 17,
+            "exit_price": 24316.6,
+            "net": 6250.0,
+            "risk": 31.45
+          },
+          "bn_break": null,
+          "bn_orl": 57254.0,
+          "kept": false,
+          "net": null
+        }
+      },
+      {
+        "date": "2026-08-27",
+        "orig_net": 3000,
+        "result": {
+          "info": {
+            "signal": "09:55",
+            "sig_close": 24196.75,
+            "sig_high": 24211.3,
+            "sig_low": 24189.3,
+            "sig_range": 22.0,
+            "entry": 24196.1,
+            "stop": 24211.3,
+            "target": 24165.7,
+            "risk": 15.2,
+            "orl": 24198.35,
+            "orh": 24297.45,
+            "or_width": 99.1,
+            "dist_below_orl": 1.6,
+            "pdl": 24207.75,
+            "scale": 0.4401409090909091,
+            "close_pos": 0.339
+          },
+          "orig": {
+            "entry": 24196.1,
+            "stop": 24211.3,
+            "target": 24165.7,
+            "exit": "target",
+            "exit_time": "10:50",
+            "exit_idx": 16,
+            "exit_price": 24165.699999999997,
+            "net": 3000.0,
+            "risk": 15.2
+          },
+          "bn_break": "10:40",
+          "bn_orl": 57756.45,
+          "kept": false,
+          "net": null
+        }
+      },
+      {
+        "date": "2026-09-29",
+        "orig_net": 3790,
+        "result": {
+          "info": {
+            "signal": "09:30",
+            "sig_close": 22619.75,
+            "sig_high": 22638.1,
+            "sig_low": 22610.75,
+            "sig_range": 27.35,
+            "entry": 22618.95,
+            "stop": 22638.1,
+            "target": 22580.65,
+            "risk": 19.15,
+            "orl": 22624.2,
+            "orh": 22753.2,
+            "or_width": 129.0,
+            "dist_below_orl": 4.45,
+            "pdl": 22762.2,
+            "scale": 0.41418636363636363,
+            "close_pos": 0.329
+          },
+          "orig": {
+            "entry": 22618.95,
+            "stop": 22638.1,
+            "target": 22580.65,
+            "exit": "target",
+            "exit_time": "09:35",
+            "exit_idx": 1,
+            "exit_price": 22580.650000000005,
+            "net": 3790.0,
+            "risk": 19.15
+          },
+          "bn_break": "09:30",
+          "bn_orl": 53894.6,
+          "kept": true,
+          "net": 3790.0
+        }
+      },
+      {
+        "date": "2026-09-07",
+        "orig_net": 2990,
+        "result": {
+          "info": {
+            "signal": "09:50",
+            "sig_close": 23817.15,
+            "sig_high": 23833.3,
+            "sig_low": 23815.0,
+            "sig_range": 18.3,
+            "entry": 23818.15,
+            "stop": 23833.3,
+            "target": 23787.85,
+            "risk": 15.15,
+            "orl": 23818.5,
+            "orh": 23890.0,
+            "or_width": 71.5,
+            "dist_below_orl": 1.35,
+            "pdl": 23895.85,
+            "scale": 0.43450363636363637,
+            "close_pos": 0.117
+          },
+          "orig": {
+            "entry": 23818.15,
+            "stop": 23833.3,
+            "target": 23787.85,
+            "exit": "target",
+            "exit_time": "10:55",
+            "exit_idx": 17,
+            "exit_price": 23787.850000000006,
+            "net": 2990.0,
+            "risk": 15.15
+          },
+          "bn_break": "10:10",
+          "bn_orl": 57118.0,
+          "kept": false,
+          "net": null
+        }
+      },
+      {
+        "date": "2026-10-08",
+        "orig_net": 5440,
+        "result": {
+          "info": {
+            "signal": "09:40",
+            "sig_close": 22472.45,
+            "sig_high": 22500.95,
+            "sig_low": 22459.7,
+            "sig_range": 41.25,
+            "entry": 22473.55,
+            "stop": 22500.95,
+            "target": 22418.75,
+            "risk": 27.4,
+            "orl": 22475.75,
+            "orh": 22599.05,
+            "or_width": 123.3,
+            "dist_below_orl": 3.3,
+            "pdl": 22546.3,
+            "scale": 0.4109645454545454,
+            "close_pos": 0.309
+          },
+          "orig": {
+            "entry": 22473.55,
+            "stop": 22500.95,
+            "target": 22418.75,
+            "exit": "target",
+            "exit_time": "11:20",
+            "exit_idx": 22,
+            "exit_price": 22418.749999999996,
+            "net": 5440.0,
+            "risk": 27.4
+          },
+          "bn_break": "11:25",
+          "bn_orl": 54767.55,
+          "kept": false,
+          "net": null
+        }
+      },
+      {
+        "date": "2026-10-23",
+        "orig_net": 11390,
+        "result": {
+          "info": {
+            "signal": "10:05",
+            "sig_close": 22523.05,
+            "sig_high": 22583.4,
+            "sig_low": 22520.6,
+            "sig_range": 62.8,
+            "entry": 22526.25,
+            "stop": 22583.4,
+            "target": 22411.95,
+            "risk": 57.15,
+            "orl": 22699.7,
+            "orh": 22787.25,
+            "or_width": 87.55,
+            "dist_below_orl": 176.65,
+            "pdl": 22554.85,
+            "scale": 0.4125027272727273,
+            "close_pos": 0.039
+          },
+          "orig": {
+            "entry": 22526.25,
+            "stop": 22583.4,
+            "target": 22411.95,
+            "exit": "target",
+            "exit_time": "10:35",
+            "exit_idx": 13,
+            "exit_price": 22411.949999999997,
+            "net": 11390.0,
+            "risk": 57.15
+          },
+          "bn_break": "09:45",
+          "bn_orl": 54647.15,
+          "kept": true,
+          "net": 11390.0
+        }
+      }
+    ],
+    "RESCAN-ORL": [
+      {
+        "date": "2026-01-21",
+        "orig_net": 9280,
+        "result": {
+          "bn_break": "09:55",
+          "trade": {
+            "entry": 25107.5,
+            "stop": 25154.1,
+            "target": 25014.3,
+            "exit": "target",
+            "exit_time": "10:45",
+            "exit_idx": 15,
+            "exit_price": 25014.300000000003,
+            "net": 9280.0,
+            "risk": 46.6,
+            "signal": "10:20",
+            "bn_break": "09:55"
+          },
+          "net": 9280.0
+        }
+      },
+      {
+        "date": "2026-02-24",
+        "orig_net": 7350,
+        "result": {
+          "bn_break": null,
+          "trade": null,
+          "net": null
+        }
+      },
+      {
+        "date": "2026-03-16",
+        "orig_net": 8940,
+        "result": {
+          "bn_break": "10:20",
+          "trade": {
+            "entry": 23055.7,
+            "stop": 23100.6,
+            "target": 22965.9,
+            "exit": "target",
+            "exit_time": "10:55",
+            "exit_idx": 17,
+            "exit_price": 22965.900000000005,
+            "net": 8940.0,
+            "risk": 44.9,
+            "signal": "10:20",
+            "bn_break": "10:20"
+          },
+          "net": 8940.0
+        }
+      },
+      {
+        "date": "2026-03-13",
+        "orig_net": 5400,
+        "result": {
+          "bn_break": "09:45",
+          "trade": {
+            "entry": 23399.65,
+            "stop": 23426.85,
+            "target": 23345.25,
+            "exit": "target",
+            "exit_time": "09:55",
+            "exit_idx": 5,
+            "exit_price": 23345.250000000007,
+            "net": 5400.0,
+            "risk": 27.2,
+            "signal": "09:45",
+            "bn_break": "09:45"
+          },
+          "net": 5400.0
+        }
+      },
+      {
+        "date": "2026-03-23",
+        "orig_net": 7260,
+        "result": {
+          "bn_break": "09:45",
+          "trade": {
+            "entry": 22628.55,
+            "stop": 22665.05,
+            "target": 22555.55,
+            "exit": "target",
+            "exit_time": "10:15",
+            "exit_idx": 9,
+            "exit_price": 22555.55,
+            "net": 7260.0,
+            "risk": 36.5,
+            "signal": "09:50",
+            "bn_break": "09:45"
+          },
+          "net": 7260.0
+        }
+      },
+      {
+        "date": "2026-04-24",
+        "orig_net": 8820,
+        "result": {
+          "bn_break": "09:30",
+          "trade": {
+            "entry": 24017.3,
+            "stop": 24061.6,
+            "target": 23928.7,
+            "exit": "target",
+            "exit_time": "10:45",
+            "exit_idx": 15,
+            "exit_price": 23928.7,
+            "net": 8820.0,
+            "risk": 44.3,
+            "signal": "09:30",
+            "bn_break": "09:30"
+          },
+          "net": 8820.0
+        }
+      },
+      {
+        "date": "2026-05-05",
+        "orig_net": 5040,
+        "result": {
+          "bn_break": "10:30",
+          "trade": {
+            "entry": 23941.4,
+            "stop": 23966.8,
+            "target": 23890.6,
+            "exit": "target",
+            "exit_time": "11:50",
+            "exit_idx": 28,
+            "exit_price": 23890.600000000006,
+            "net": 5040.0,
+            "risk": 25.4,
+            "signal": "10:30",
+            "bn_break": "10:30"
+          },
+          "net": 5040.0
+        }
+      },
+      {
+        "date": "2026-07-22",
+        "orig_net": 6320,
+        "result": {
+          "bn_break": "09:30",
+          "trade": {
+            "entry": 24026.25,
+            "stop": 24058.05,
+            "target": 23962.65,
+            "exit": "target",
+            "exit_time": "12:35",
+            "exit_idx": 37,
+            "exit_price": 23962.65,
+            "net": 6320.0,
+            "risk": 31.8,
+            "signal": "09:30",
+            "bn_break": "09:30"
+          },
+          "net": 6320.0
+        }
+      },
+      {
+        "date": "2026-08-12",
+        "orig_net": 6250,
+        "result": {
+          "bn_break": null,
+          "trade": null,
+          "net": null
+        }
+      },
+      {
+        "date": "2026-08-27",
+        "orig_net": 3000,
+        "result": {
+          "bn_break": "10:40",
+          "trade": {
+            "entry": 24172.1,
+            "stop": 24187.2,
+            "target": 24141.9,
+            "exit": "target",
+            "exit_time": "11:20",
+            "exit_idx": 22,
+            "exit_price": 24141.899999999994,
+            "net": 2980.0,
+            "risk": 15.1,
+            "signal": "10:40",
+            "bn_break": "10:40"
+          },
+          "net": 2980.0
+        }
+      },
+      {
+        "date": "2026-09-29",
+        "orig_net": 3790,
+        "result": {
+          "bn_break": "09:30",
+          "trade": {
+            "entry": 22618.95,
+            "stop": 22638.1,
+            "target": 22580.65,
+            "exit": "target",
+            "exit_time": "09:35",
+            "exit_idx": 1,
+            "exit_price": 22580.650000000005,
+            "net": 3790.0,
+            "risk": 19.15,
+            "signal": "09:30",
+            "bn_break": "09:30"
+          },
+          "net": 3790.0
+        }
+      },
+      {
+        "date": "2026-09-07",
+        "orig_net": 2990,
+        "result": {
+          "bn_break": "10:10",
+          "trade": {
+            "entry": 23808.1,
+            "stop": 23820.65,
+            "target": 23783.0,
+            "exit": "target",
+            "exit_time": "11:00",
+            "exit_idx": 18,
+            "exit_price": 23782.999999999993,
+            "net": 2470.0,
+            "risk": 12.55,
+            "signal": "10:10",
+            "bn_break": "10:10"
+          },
+          "net": 2470.0
+        }
+      },
+      {
+        "date": "2026-10-08",
+        "orig_net": 5440,
+        "result": {
+          "bn_break": "11:25",
+          "trade": {
+            "entry": 22340.6,
+            "stop": 22399.25,
+            "target": 22223.3,
+            "exit": "target",
+            "exit_time": "14:00",
+            "exit_idx": 54,
+            "exit_price": 22223.299999999996,
+            "net": 11690.0,
+            "risk": 58.65,
+            "signal": "11:25",
+            "bn_break": "11:25"
+          },
+          "net": 11690.0
+        }
+      },
+      {
+        "date": "2026-10-23",
+        "orig_net": 11390,
+        "result": {
+          "bn_break": "09:45",
+          "trade": {
+            "entry": 22526.25,
+            "stop": 22583.4,
+            "target": 22411.95,
+            "exit": "target",
+            "exit_time": "10:35",
+            "exit_idx": 13,
+            "exit_price": 22411.949999999997,
+            "net": 11390.0,
+            "risk": 57.15,
+            "signal": "10:05",
+            "bn_break": "09:45"
+          },
+          "net": 11390.0
+        }
+      }
+    ],
+    "FILTER-PDL": [
+      {
+        "date": "2026-01-21",
+        "orig_net": 9280,
+        "result": {
+          "info": {
+            "signal": "10:20",
+            "sig_close": 25105.85,
+            "sig_high": 25154.1,
+            "sig_low": 25105.25,
+            "sig_range": 48.85,
+            "entry": 25107.5,
+            "stop": 25154.1,
+            "target": 25014.3,
+            "risk": 46.6,
+            "orl": 25130.15,
+            "orh": 25277.75,
+            "or_width": 147.6,
+            "dist_below_orl": 24.3,
+            "pdl": 25171.35,
+            "scale": 0.45864272727272726,
+            "close_pos": 0.012
+          },
+          "orig": {
+            "entry": 25107.5,
+            "stop": 25154.1,
+            "target": 25014.3,
+            "exit": "target",
+            "exit_time": "10:45",
+            "exit_idx": 15,
+            "exit_price": 25014.300000000003,
+            "net": 9280.0,
+            "risk": 46.6
+          },
+          "bn_break": "09:55",
+          "bn_orl": 59122.65,
+          "kept": true,
+          "net": 9280.0
+        }
+      },
+      {
+        "date": "2026-02-24",
+        "orig_net": 7350,
+        "result": {
+          "info": {
+            "signal": "09:30",
+            "sig_close": 25513.9,
+            "sig_high": 25549.75,
+            "sig_low": 25507.75,
+            "sig_range": 42.0,
+            "entry": 25512.8,
+            "stop": 25549.75,
+            "target": 25438.9,
+            "risk": 36.95,
+            "orl": 25547.15,
+            "orh": 25641.8,
+            "or_width": 94.65,
+            "dist_below_orl": 33.25,
+            "pdl": 25609.35,
+            "scale": 0.46734545454545456,
+            "close_pos": 0.146
+          },
+          "orig": {
+            "entry": 25512.8,
+            "stop": 25549.75,
+            "target": 25438.9,
+            "exit": "target",
+            "exit_time": "12:20",
+            "exit_idx": 34,
+            "exit_price": 25438.899999999998,
+            "net": 7350.0,
+            "risk": 36.95
+          },
+          "bn_break": null,
+          "bn_orl": 61109.15,
+          "kept": false,
+          "net": null
+        }
+      },
+      {
+        "date": "2026-03-16",
+        "orig_net": 8940,
+        "result": {
+          "info": {
+            "signal": "10:20",
+            "sig_close": 23056.7,
+            "sig_high": 23100.6,
+            "sig_low": 23055.1,
+            "sig_range": 45.5,
+            "entry": 23055.7,
+            "stop": 23100.6,
+            "target": 22965.9,
+            "risk": 44.9,
+            "orl": 23098.0,
+            "orh": 23248.05,
+            "or_width": 150.05,
+            "dist_below_orl": 41.3,
+            "pdl": 23112.0,
+            "scale": 0.42128909090909095,
+            "close_pos": 0.035
+          },
+          "orig": {
+            "entry": 23055.7,
+            "stop": 23100.6,
+            "target": 22965.9,
+            "exit": "target",
+            "exit_time": "10:55",
+            "exit_idx": 17,
+            "exit_price": 22965.900000000005,
+            "net": 8940.0,
+            "risk": 44.9
+          },
+          "bn_break": "10:20",
+          "bn_orl": 53630.6,
+          "kept": true,
+          "net": 8940.0
+        }
+      },
+      {
+        "date": "2026-03-13",
+        "orig_net": 5400,
+        "result": {
+          "info": {
+            "signal": "09:45",
+            "sig_close": 23397.4,
+            "sig_high": 23426.85,
+            "sig_low": 23388.45,
+            "sig_range": 38.4,
+            "entry": 23399.65,
+            "stop": 23426.85,
+            "target": 23345.25,
+            "risk": 27.2,
+            "orl": 23415.25,
+            "orh": 23487.9,
+            "or_width": 72.65,
+            "dist_below_orl": 17.85,
+            "pdl": 23556.3,
+            "scale": 0.4298063636363636,
+            "close_pos": 0.233
+          },
+          "orig": {
+            "entry": 23399.65,
+            "stop": 23426.85,
+            "target": 23345.25,
+            "exit": "target",
+            "exit_time": "09:55",
+            "exit_idx": 5,
+            "exit_price": 23345.250000000007,
+            "net": 5400.0,
+            "risk": 27.2
+          },
+          "bn_break": "09:45",
+          "bn_orl": 54361.6,
+          "kept": true,
+          "net": 5400.0
+        }
+      },
+      {
+        "date": "2026-03-23",
+        "orig_net": 7260,
+        "result": {
+          "info": {
+            "signal": "09:50",
+            "sig_close": 22629.05,
+            "sig_high": 22665.05,
+            "sig_low": 22624.75,
+            "sig_range": 40.3,
+            "entry": 22628.55,
+            "stop": 22665.05,
+            "target": 22555.55,
+            "risk": 36.5,
+            "orl": 22634.55,
+            "orh": 22851.7,
+            "or_width": 217.15,
+            "dist_below_orl": 5.5,
+            "pdl": 23067.6,
+            "scale": 0.42063,
+            "close_pos": 0.107
+          },
+          "orig": {
+            "entry": 22628.55,
+            "stop": 22665.05,
+            "target": 22555.55,
+            "exit": "target",
+            "exit_time": "10:15",
+            "exit_idx": 9,
+            "exit_price": 22555.55,
+            "net": 7260.0,
+            "risk": 36.5
+          },
+          "bn_break": "09:45",
+          "bn_orl": 52068.8,
+          "kept": true,
+          "net": 7260.0
+        }
+      },
+      {
+        "date": "2026-04-24",
+        "orig_net": 8820,
+        "result": {
+          "info": {
+            "signal": "09:30",
+            "sig_close": 24017.65,
+            "sig_high": 24061.6,
+            "sig_low": 24011.9,
+            "sig_range": 49.7,
+            "entry": 24017.3,
+            "stop": 24061.6,
+            "target": 23928.7,
+            "risk": 44.3,
+            "orl": 24056.6,
+            "orh": 24206.0,
+            "or_width": 149.4,
+            "dist_below_orl": 38.95,
+            "pdl": 24134.8,
+            "scale": 0.4392009090909091,
+            "close_pos": 0.116
+          },
+          "orig": {
+            "entry": 24017.3,
+            "stop": 24061.6,
+            "target": 23928.7,
+            "exit": "target",
+            "exit_time": "10:45",
+            "exit_idx": 15,
+            "exit_price": 23928.7,
+            "net": 8820.0,
+            "risk": 44.3
+          },
+          "bn_break": "09:30",
+          "bn_orl": 56159.45,
+          "kept": true,
+          "net": 8820.0
+        }
+      },
+      {
+        "date": "2026-05-05",
+        "orig_net": 5040,
+        "result": {
+          "info": {
+            "signal": "10:30",
+            "sig_close": 23941.35,
+            "sig_high": 23966.8,
+            "sig_low": 23938.1,
+            "sig_range": 28.7,
+            "entry": 23941.4,
+            "stop": 23966.8,
+            "target": 23890.6,
+            "risk": 25.4,
+            "orl": 23949.4,
+            "orh": 24072.1,
+            "or_width": 122.7,
+            "dist_below_orl": 8.05,
+            "pdl": 24004.75,
+            "scale": 0.4386145454545454,
+            "close_pos": 0.113
+          },
+          "orig": {
+            "entry": 23941.4,
+            "stop": 23966.8,
+            "target": 23890.6,
+            "exit": "target",
+            "exit_time": "11:50",
+            "exit_idx": 28,
+            "exit_price": 23890.600000000006,
+            "net": 5040.0,
+            "risk": 25.4
+          },
+          "bn_break": "10:30",
+          "bn_orl": 54438.15,
+          "kept": true,
+          "net": 5040.0
+        }
+      },
+      {
+        "date": "2026-07-22",
+        "orig_net": 6320,
+        "result": {
+          "info": {
+            "signal": "09:30",
+            "sig_close": 24024.25,
+            "sig_high": 24058.05,
+            "sig_low": 24021.9,
+            "sig_range": 36.15,
+            "entry": 24026.25,
+            "stop": 24058.05,
+            "target": 23962.65,
+            "risk": 31.8,
+            "orl": 24046.95,
+            "orh": 24166.3,
+            "or_width": 119.35,
+            "dist_below_orl": 22.7,
+            "pdl": 24135.65,
+            "scale": 0.43987363636363636,
+            "close_pos": 0.065
+          },
+          "orig": {
+            "entry": 24026.25,
+            "stop": 24058.05,
+            "target": 23962.65,
+            "exit": "target",
+            "exit_time": "12:35",
+            "exit_idx": 37,
+            "exit_price": 23962.65,
+            "net": 6320.0,
+            "risk": 31.8
+          },
+          "bn_break": "09:30",
+          "bn_orl": 57332.3,
+          "kept": true,
+          "net": 6320.0
+        }
+      },
+      {
+        "date": "2026-08-12",
+        "orig_net": 6250,
+        "result": {
+          "info": {
+            "signal": "09:55",
+            "sig_close": 24378.55,
+            "sig_high": 24410.95,
+            "sig_low": 24376.55,
+            "sig_range": 34.4,
+            "entry": 24379.5,
+            "stop": 24410.95,
+            "target": 24316.6,
+            "risk": 31.45,
+            "orl": 24390.6,
+            "orh": 24473.3,
+            "or_width": 82.7,
+            "dist_below_orl": 12.05,
+            "pdl": 24429.25,
+            "scale": 0.44494,
+            "close_pos": 0.058
+          },
+          "orig": {
+            "entry": 24379.5,
+            "stop": 24410.95,
+            "target": 24316.6,
+            "exit": "target",
+            "exit_time": "10:55",
+            "exit_idx": 17,
+            "exit_price": 24316.6,
+            "net": 6250.0,
+            "risk": 31.45
+          },
+          "bn_break": null,
+          "bn_orl": 57254.0,
+          "kept": false,
+          "net": null
+        }
+      },
+      {
+        "date": "2026-08-27",
+        "orig_net": 3000,
+        "result": {
+          "info": {
+            "signal": "09:55",
+            "sig_close": 24196.75,
+            "sig_high": 24211.3,
+            "sig_low": 24189.3,
+            "sig_range": 22.0,
+            "entry": 24196.1,
+            "stop": 24211.3,
+            "target": 24165.7,
+            "risk": 15.2,
+            "orl": 24198.35,
+            "orh": 24297.45,
+            "or_width": 99.1,
+            "dist_below_orl": 1.6,
+            "pdl": 24207.75,
+            "scale": 0.4401409090909091,
+            "close_pos": 0.339
+          },
+          "orig": {
+            "entry": 24196.1,
+            "stop": 24211.3,
+            "target": 24165.7,
+            "exit": "target",
+            "exit_time": "10:50",
+            "exit_idx": 16,
+            "exit_price": 24165.699999999997,
+            "net": 3000.0,
+            "risk": 15.2
+          },
+          "bn_break": null,
+          "bn_orl": 57756.45,
+          "kept": false,
+          "net": null
+        }
+      },
+      {
+        "date": "2026-09-29",
+        "orig_net": 3790,
+        "result": {
+          "info": {
+            "signal": "09:30",
+            "sig_close": 22619.75,
+            "sig_high": 22638.1,
+            "sig_low": 22610.75,
+            "sig_range": 27.35,
+            "entry": 22618.95,
+            "stop": 22638.1,
+            "target": 22580.65,
+            "risk": 19.15,
+            "orl": 22624.2,
+            "orh": 22753.2,
+            "or_width": 129.0,
+            "dist_below_orl": 4.45,
+            "pdl": 22762.2,
+            "scale": 0.41418636363636363,
+            "close_pos": 0.329
+          },
+          "orig": {
+            "entry": 22618.95,
+            "stop": 22638.1,
+            "target": 22580.65,
+            "exit": "target",
+            "exit_time": "09:35",
+            "exit_idx": 1,
+            "exit_price": 22580.650000000005,
+            "net": 3790.0,
+            "risk": 19.15
+          },
+          "bn_break": "09:30",
+          "bn_orl": 53894.6,
+          "kept": true,
+          "net": 3790.0
+        }
+      },
+      {
+        "date": "2026-09-07",
+        "orig_net": 2990,
+        "result": {
+          "info": {
+            "signal": "09:50",
+            "sig_close": 23817.15,
+            "sig_high": 23833.3,
+            "sig_low": 23815.0,
+            "sig_range": 18.3,
+            "entry": 23818.15,
+            "stop": 23833.3,
+            "target": 23787.85,
+            "risk": 15.15,
+            "orl": 23818.5,
+            "orh": 23890.0,
+            "or_width": 71.5,
+            "dist_below_orl": 1.35,
+            "pdl": 23895.85,
+            "scale": 0.43450363636363637,
+            "close_pos": 0.117
+          },
+          "orig": {
+            "entry": 23818.15,
+            "stop": 23833.3,
+            "target": 23787.85,
+            "exit": "target",
+            "exit_time": "10:55",
+            "exit_idx": 17,
+            "exit_price": 23787.850000000006,
+            "net": 2990.0,
+            "risk": 15.15
+          },
+          "bn_break": "10:10",
+          "bn_orl": 57118.0,
+          "kept": false,
+          "net": null
+        }
+      },
+      {
+        "date": "2026-10-08",
+        "orig_net": 5440,
+        "result": {
+          "info": {
+            "signal": "09:40",
+            "sig_close": 22472.45,
+            "sig_high": 22500.95,
+            "sig_low": 22459.7,
+            "sig_range": 41.25,
+            "entry": 22473.55,
+            "stop": 22500.95,
+            "target": 22418.75,
+            "risk": 27.4,
+            "orl": 22475.75,
+            "orh": 22599.05,
+            "or_width": 123.3,
+            "dist_below_orl": 3.3,
+            "pdl": 22546.3,
+            "scale": 0.4109645454545454,
+            "close_pos": 0.309
+          },
+          "orig": {
+            "entry": 22473.55,
+            "stop": 22500.95,
+            "target": 22418.75,
+            "exit": "target",
+            "exit_time": "11:20",
+            "exit_idx": 22,
+            "exit_price": 22418.749999999996,
+            "net": 5440.0,
+            "risk": 27.4
+          },
+          "bn_break": null,
+          "bn_orl": 54767.55,
+          "kept": false,
+          "net": null
+        }
+      },
+      {
+        "date": "2026-10-23",
+        "orig_net": 11390,
+        "result": {
+          "info": {
+            "signal": "10:05",
+            "sig_close": 22523.05,
+            "sig_high": 22583.4,
+            "sig_low": 22520.6,
+            "sig_range": 62.8,
+            "entry": 22526.25,
+            "stop": 22583.4,
+            "target": 22411.95,
+            "risk": 57.15,
+            "orl": 22699.7,
+            "orh": 22787.25,
+            "or_width": 87.55,
+            "dist_below_orl": 176.65,
+            "pdl": 22554.85,
+            "scale": 0.4125027272727273,
+            "close_pos": 0.039
+          },
+          "orig": {
+            "entry": 22526.25,
+            "stop": 22583.4,
+            "target": 22411.95,
+            "exit": "target",
+            "exit_time": "10:35",
+            "exit_idx": 13,
+            "exit_price": 22411.949999999997,
+            "net": 11390.0,
+            "risk": 57.15
+          },
+          "bn_break": "09:55",
+          "bn_orl": 54647.15,
+          "kept": true,
+          "net": 11390.0
+        }
+      }
+    ],
+    "RESCAN-PDL": [
+      {
+        "date": "2026-01-21",
+        "orig_net": 9280,
+        "result": {
+          "bn_break": "09:55",
+          "trade": {
+            "entry": 25107.5,
+            "stop": 25154.1,
+            "target": 25014.3,
+            "exit": "target",
+            "exit_time": "10:45",
+            "exit_idx": 15,
+            "exit_price": 25014.300000000003,
+            "net": 9280.0,
+            "risk": 46.6,
+            "signal": "10:20",
+            "bn_break": "09:55"
+          },
+          "net": 9280.0
+        }
+      },
+      {
+        "date": "2026-02-24",
+        "orig_net": 7350,
+        "result": {
+          "bn_break": null,
+          "trade": null,
+          "net": null
+        }
+      },
+      {
+        "date": "2026-03-16",
+        "orig_net": 8940,
+        "result": {
+          "bn_break": "10:20",
+          "trade": {
+            "entry": 23055.7,
+            "stop": 23100.6,
+            "target": 22965.9,
+            "exit": "target",
+            "exit_time": "10:55",
+            "exit_idx": 17,
+            "exit_price": 22965.900000000005,
+            "net": 8940.0,
+            "risk": 44.9,
+            "signal": "10:20",
+            "bn_break": "10:20"
+          },
+          "net": 8940.0
+        }
+      },
+      {
+        "date": "2026-03-13",
+        "orig_net": 5400,
+        "result": {
+          "bn_break": "09:45",
+          "trade": {
+            "entry": 23399.65,
+            "stop": 23426.85,
+            "target": 23345.25,
+            "exit": "target",
+            "exit_time": "09:55",
+            "exit_idx": 5,
+            "exit_price": 23345.250000000007,
+            "net": 5400.0,
+            "risk": 27.2,
+            "signal": "09:45",
+            "bn_break": "09:45"
+          },
+          "net": 5400.0
+        }
+      },
+      {
+        "date": "2026-03-23",
+        "orig_net": 7260,
+        "result": {
+          "bn_break": "09:45",
+          "trade": {
+            "entry": 22628.55,
+            "stop": 22665.05,
+            "target": 22555.55,
+            "exit": "target",
+            "exit_time": "10:15",
+            "exit_idx": 9,
+            "exit_price": 22555.55,
+            "net": 7260.0,
+            "risk": 36.5,
+            "signal": "09:50",
+            "bn_break": "09:45"
+          },
+          "net": 7260.0
+        }
+      },
+      {
+        "date": "2026-04-24",
+        "orig_net": 8820,
+        "result": {
+          "bn_break": "09:30",
+          "trade": {
+            "entry": 24017.3,
+            "stop": 24061.6,
+            "target": 23928.7,
+            "exit": "target",
+            "exit_time": "10:45",
+            "exit_idx": 15,
+            "exit_price": 23928.7,
+            "net": 8820.0,
+            "risk": 44.3,
+            "signal": "09:30",
+            "bn_break": "09:30"
+          },
+          "net": 8820.0
+        }
+      },
+      {
+        "date": "2026-05-05",
+        "orig_net": 5040,
+        "result": {
+          "bn_break": "10:30",
+          "trade": {
+            "entry": 23941.4,
+            "stop": 23966.8,
+            "target": 23890.6,
+            "exit": "target",
+            "exit_time": "11:50",
+            "exit_idx": 28,
+            "exit_price": 23890.600000000006,
+            "net": 5040.0,
+            "risk": 25.4,
+            "signal": "10:30",
+            "bn_break": "10:30"
+          },
+          "net": 5040.0
+        }
+      },
+      {
+        "date": "2026-07-22",
+        "orig_net": 6320,
+        "result": {
+          "bn_break": "09:30",
+          "trade": {
+            "entry": 24026.25,
+            "stop": 24058.05,
+            "target": 23962.65,
+            "exit": "target",
+            "exit_time": "12:35",
+            "exit_idx": 37,
+            "exit_price": 23962.65,
+            "net": 6320.0,
+            "risk": 31.8,
+            "signal": "09:30",
+            "bn_break": "09:30"
+          },
+          "net": 6320.0
+        }
+      },
+      {
+        "date": "2026-08-12",
+        "orig_net": 6250,
+        "result": {
+          "bn_break": null,
+          "trade": null,
+          "net": null
+        }
+      },
+      {
+        "date": "2026-08-27",
+        "orig_net": 3000,
+        "result": {
+          "bn_break": null,
+          "trade": null,
+          "net": null
+        }
+      },
+      {
+        "date": "2026-09-29",
+        "orig_net": 3790,
+        "result": {
+          "bn_break": "09:30",
+          "trade": {
+            "entry": 22618.95,
+            "stop": 22638.1,
+            "target": 22580.65,
+            "exit": "target",
+            "exit_time": "09:35",
+            "exit_idx": 1,
+            "exit_price": 22580.650000000005,
+            "net": 3790.0,
+            "risk": 19.15,
+            "signal": "09:30",
+            "bn_break": "09:30"
+          },
+          "net": 3790.0
+        }
+      },
+      {
+        "date": "2026-09-07",
+        "orig_net": 2990,
+        "result": {
+          "bn_break": "10:10",
+          "trade": {
+            "entry": 23808.1,
+            "stop": 23820.65,
+            "target": 23783.0,
+            "exit": "target",
+            "exit_time": "11:00",
+            "exit_idx": 18,
+            "exit_price": 23782.999999999993,
+            "net": 2470.0,
+            "risk": 12.55,
+            "signal": "10:10",
+            "bn_break": "10:10"
+          },
+          "net": 2470.0
+        }
+      },
+      {
+        "date": "2026-10-08",
+        "orig_net": 5440,
+        "result": {
+          "bn_break": null,
+          "trade": null,
+          "net": null
+        }
+      },
+      {
+        "date": "2026-10-23",
+        "orig_net": 11390,
+        "result": {
+          "bn_break": "09:55",
+          "trade": {
+            "entry": 22526.25,
+            "stop": 22583.4,
+            "target": 22411.95,
+            "exit": "target",
+            "exit_time": "10:35",
+            "exit_idx": 13,
+            "exit_price": 22411.949999999997,
+            "net": 11390.0,
+            "risk": 57.15,
+            "signal": "10:05",
+            "bn_break": "09:55"
+          },
+          "net": 11390.0
+        }
+      }
+    ]
+  }
+}

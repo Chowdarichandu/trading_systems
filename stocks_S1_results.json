@@ -1,0 +1,1258 @@
+{
+ "anchors": {
+  "S1-A_vs_R2_SHORT": {
+   "pass": true,
+   "s1a_trades": 1100,
+   "s1a_net": 91090.73,
+   "r2_trades": 1100,
+   "r2_net": 91090.73
+  },
+  "S1-E_home_vs_P2F_SHORT": {
+   "pass": true,
+   "trades": 32,
+   "net": 13109.45,
+   "expect_trades": 32,
+   "expect_net": 13109.45
+  }
+ },
+ "best_cell": "S1-A",
+ "placebo": {
+  "mirrors": "S1-A",
+  "trades": 1098,
+  "net": 154902.69,
+  "beaten": false
+ },
+ "S1-A": {
+  "pooled": {
+   "all": {
+    "trades": 1100,
+    "net": 91090.73,
+    "win_pct": 29.8,
+    "exp": 82.81
+   },
+   "jan_may": {
+    "trades": 623,
+    "net": 54580.31,
+    "win_pct": 27.8,
+    "exp": 87.61
+   },
+   "jun_oct": {
+    "trades": 477,
+    "net": 36510.42,
+    "win_pct": 32.5,
+    "exp": 76.54
+   },
+   "october": {
+    "trades": 103,
+    "net": -25380.02,
+    "win_pct": 29.1,
+    "exp": -246.41
+   },
+   "breadth": 18,
+   "stocks_total": 50,
+   "top3_share_pct": 213.4,
+   "best5": [
+    [
+     "MARUTI",
+     151382.75
+    ],
+    [
+     "TVSMOTOR",
+     34109.33
+    ],
+    [
+     "BDL",
+     8870.79
+    ],
+    [
+     "GODREJCP",
+     5191.45
+    ],
+    [
+     "DRREDDY",
+     4753.759999999999
+    ]
+   ],
+   "worst5": [
+    [
+     "EICHERMOT",
+     -18456.120000000003
+    ],
+    [
+     "GLENMARK",
+     -14622.929999999998
+    ],
+    [
+     "M&M",
+     -12823.88
+    ],
+    [
+     "TCS",
+     -12283.7
+    ],
+    [
+     "GRASIM",
+     -11361.649999999998
+    ]
+   ]
+  },
+  "home": {
+   "all": {
+    "trades": 656,
+    "net": 11661.18,
+    "win_pct": 30.3,
+    "exp": 17.78
+   },
+   "jan_may": {
+    "trades": 359,
+    "net": -14296.99,
+    "win_pct": 27.3,
+    "exp": -39.82
+   },
+   "jun_oct": {
+    "trades": 297,
+    "net": 25958.17,
+    "win_pct": 34.0,
+    "exp": 87.4
+   },
+   "october": {
+    "trades": 62,
+    "net": 8911.73,
+    "win_pct": 38.7,
+    "exp": 143.74
+   },
+   "breadth": 9,
+   "stocks_total": 25,
+   "top3_share_pct": 413.1,
+   "best5": [
+    [
+     "TVSMOTOR",
+     34109.33
+    ],
+    [
+     "BDL",
+     8870.79
+    ],
+    [
+     "GODREJCP",
+     5191.45
+    ],
+    [
+     "UNITDSPR",
+     3600.6499999999996
+    ],
+    [
+     "IRCTC",
+     3392.0399999999986
+    ]
+   ],
+   "worst5": [
+    [
+     "GLENMARK",
+     -14622.929999999998
+    ],
+    [
+     "HINDZINC",
+     -7651.9
+    ],
+    [
+     "HDFCBANK",
+     -4623.41
+    ],
+    [
+     "NATIONALUM",
+     -3493.0400000000004
+    ],
+    [
+     "VEDL",
+     -3046.900000000001
+    ]
+   ]
+  },
+  "ext": {
+   "all": {
+    "trades": 444,
+    "net": 79429.55,
+    "win_pct": 29.1,
+    "exp": 178.9
+   },
+   "jan_may": {
+    "trades": 264,
+    "net": 68877.3,
+    "win_pct": 28.4,
+    "exp": 260.9
+   },
+   "jun_oct": {
+    "trades": 180,
+    "net": 10552.25,
+    "win_pct": 30.0,
+    "exp": 58.62
+   },
+   "october": {
+    "trades": 41,
+    "net": -34291.75,
+    "win_pct": 14.6,
+    "exp": -836.38
+   },
+   "breadth": 9,
+   "stocks_total": 25,
+   "top3_share_pct": 202.4,
+   "best5": [
+    [
+     "MARUTI",
+     151382.75
+    ],
+    [
+     "DRREDDY",
+     4753.759999999999
+    ],
+    [
+     "CIPLA",
+     4609.87
+    ],
+    [
+     "BHARTIARTL",
+     3183.35
+    ],
+    [
+     "NESTLEIND",
+     3120.4699999999993
+    ]
+   ],
+   "worst5": [
+    [
+     "EICHERMOT",
+     -18456.120000000003
+    ],
+    [
+     "M&M",
+     -12823.88
+    ],
+    [
+     "TCS",
+     -12283.7
+    ],
+    [
+     "GRASIM",
+     -11361.649999999998
+    ],
+    [
+     "INFY",
+     -10729.72
+    ]
+   ]
+  },
+  "gate": {
+   "both_halves_positive": true,
+   "breadth_ge_35": false,
+   "october_positive": false,
+   "audit_clean": true,
+   "placebo_beaten": false
+  },
+  "gate_pass": false,
+  "months": {
+   "2026-01": {
+    "trades": 98,
+    "net": 38315.04
+   },
+   "2026-02": {
+    "trades": 117,
+    "net": -880.67
+   },
+   "2026-03": {
+    "trades": 231,
+    "net": 55104.26
+   },
+   "2026-04": {
+    "trades": 89,
+    "net": -20580.2
+   },
+   "2026-05": {
+    "trades": 88,
+    "net": -17378.12
+   },
+   "2026-06": {
+    "trades": 131,
+    "net": 21828.52
+   },
+   "2026-07": {
+    "trades": 67,
+    "net": 20506.36
+   },
+   "2026-08": {
+    "trades": 63,
+    "net": -9811.41
+   },
+   "2026-09": {
+    "trades": 113,
+    "net": 29366.97
+   },
+   "2026-10": {
+    "trades": 103,
+    "net": -25380.02
+   }
+  }
+ },
+ "S1-B": {
+  "pooled": {
+   "all": {
+    "trades": 715,
+    "net": 11638.02,
+    "win_pct": 28.8,
+    "exp": 16.28
+   },
+   "jan_may": {
+    "trades": 439,
+    "net": 16495.79,
+    "win_pct": 27.3,
+    "exp": 37.58
+   },
+   "jun_oct": {
+    "trades": 276,
+    "net": -4857.77,
+    "win_pct": 31.2,
+    "exp": -17.6
+   },
+   "october": {
+    "trades": 64,
+    "net": -21692.67,
+    "win_pct": 29.7,
+    "exp": -338.95
+   },
+   "breadth": 18,
+   "stocks_total": 50,
+   "top3_share_pct": 946.5,
+   "best5": [
+    [
+     "MARUTI",
+     78449.75
+    ],
+    [
+     "TVSMOTOR",
+     26443.44
+    ],
+    [
+     "NESTLEIND",
+     5261.2699999999995
+    ],
+    [
+     "SBIN",
+     5251.839999999999
+    ],
+    [
+     "GODREJCP",
+     4950.749999999999
+    ]
+   ],
+   "worst5": [
+    [
+     "EICHERMOT",
+     -33934.75
+    ],
+    [
+     "TCS",
+     -18158.100000000006
+    ],
+    [
+     "GLENMARK",
+     -11559.849999999999
+    ],
+    [
+     "INFY",
+     -8636.2
+    ],
+    [
+     "GRASIM",
+     -7950.300000000001
+    ]
+   ]
+  },
+  "home": {
+   "all": {
+    "trades": 438,
+    "net": 2535.63,
+    "win_pct": 29.9,
+    "exp": 5.79
+   },
+   "jan_may": {
+    "trades": 256,
+    "net": -14904.12,
+    "win_pct": 26.6,
+    "exp": -58.22
+   },
+   "jun_oct": {
+    "trades": 182,
+    "net": 17439.75,
+    "win_pct": 34.6,
+    "exp": 95.82
+   },
+   "october": {
+    "trades": 42,
+    "net": -959.51,
+    "win_pct": 38.1,
+    "exp": -22.85
+   },
+   "breadth": 9,
+   "stocks_total": 25,
+   "top3_share_pct": 1402.1,
+   "best5": [
+    [
+     "TVSMOTOR",
+     26443.44
+    ],
+    [
+     "GODREJCP",
+     4950.749999999999
+    ],
+    [
+     "BDL",
+     4157.139999999999
+    ],
+    [
+     "UNITDSPR",
+     4000.5099999999993
+    ],
+    [
+     "IRCTC",
+     1575.6099999999997
+    ]
+   ],
+   "worst5": [
+    [
+     "GLENMARK",
+     -11559.849999999999
+    ],
+    [
+     "HINDZINC",
+     -5893.0999999999985
+    ],
+    [
+     "ASTRAL",
+     -4459.9
+    ],
+    [
+     "HINDUNILVR",
+     -3890.33
+    ],
+    [
+     "VEDL",
+     -2880.3600000000006
+    ]
+   ]
+  },
+  "ext": {
+   "all": {
+    "trades": 277,
+    "net": 9102.39,
+    "win_pct": 27.1,
+    "exp": 32.86
+   },
+   "jan_may": {
+    "trades": 183,
+    "net": 31399.91,
+    "win_pct": 28.4,
+    "exp": 171.58
+   },
+   "jun_oct": {
+    "trades": 94,
+    "net": -22297.52,
+    "win_pct": 24.5,
+    "exp": -237.21
+   },
+   "october": {
+    "trades": 22,
+    "net": -20733.16,
+    "win_pct": 13.6,
+    "exp": -942.42
+   },
+   "breadth": 9,
+   "stocks_total": 25,
+   "top3_share_pct": 977.4,
+   "best5": [
+    [
+     "MARUTI",
+     78449.75
+    ],
+    [
+     "NESTLEIND",
+     5261.2699999999995
+    ],
+    [
+     "SBIN",
+     5251.839999999999
+    ],
+    [
+     "CIPLA",
+     4341.3
+    ],
+    [
+     "DRREDDY",
+     2695.02
+    ]
+   ],
+   "worst5": [
+    [
+     "EICHERMOT",
+     -33934.75
+    ],
+    [
+     "TCS",
+     -18158.100000000006
+    ],
+    [
+     "INFY",
+     -8636.2
+    ],
+    [
+     "GRASIM",
+     -7950.300000000001
+    ],
+    [
+     "TITAN",
+     -5086.4
+    ]
+   ]
+  },
+  "gate": {
+   "both_halves_positive": false,
+   "breadth_ge_35": false,
+   "october_positive": false,
+   "audit_clean": true,
+   "placebo_beaten": null
+  },
+  "gate_pass": false,
+  "months": null
+ },
+ "S1-C": {
+  "pooled": {
+   "all": {
+    "trades": 1100,
+    "net": 66563.37,
+    "win_pct": 32.9,
+    "exp": 60.51
+   },
+   "jan_may": {
+    "trades": 623,
+    "net": 25577.71,
+    "win_pct": 30.5,
+    "exp": 41.06
+   },
+   "jun_oct": {
+    "trades": 477,
+    "net": 40985.66,
+    "win_pct": 36.1,
+    "exp": 85.92
+   },
+   "october": {
+    "trades": 103,
+    "net": -10705.65,
+    "win_pct": 35.0,
+    "exp": -103.94
+   },
+   "breadth": 15,
+   "stocks_total": 50,
+   "top3_share_pct": 243.5,
+   "best5": [
+    [
+     "MARUTI",
+     128395.0
+    ],
+    [
+     "TVSMOTOR",
+     28644.75
+    ],
+    [
+     "GODREJCP",
+     5027.25
+    ],
+    [
+     "BDL",
+     4176.2
+    ],
+    [
+     "CIPLA",
+     3641.5999999999995
+    ]
+   ],
+   "worst5": [
+    [
+     "GLENMARK",
+     -16240.65
+    ],
+    [
+     "TCS",
+     -13781.150000000003
+    ],
+    [
+     "INFY",
+     -9992.06
+    ],
+    [
+     "M&M",
+     -7958.35
+    ],
+    [
+     "HCLTECH",
+     -6721.5
+    ]
+   ]
+  },
+  "home": {
+   "all": {
+    "trades": 656,
+    "net": -4071.3,
+    "win_pct": 33.2,
+    "exp": -6.21
+   },
+   "jan_may": {
+    "trades": 359,
+    "net": -19167.58,
+    "win_pct": 30.1,
+    "exp": -53.39
+   },
+   "jun_oct": {
+    "trades": 297,
+    "net": 15096.28,
+    "win_pct": 37.0,
+    "exp": 50.83
+   },
+   "october": {
+    "trades": 62,
+    "net": 8911.3,
+    "win_pct": 43.5,
+    "exp": 143.73
+   },
+   "breadth": 7,
+   "stocks_total": 25,
+   "top3_share_pct": null,
+   "best5": [
+    [
+     "TVSMOTOR",
+     28644.75
+    ],
+    [
+     "GODREJCP",
+     5027.25
+    ],
+    [
+     "BDL",
+     4176.2
+    ],
+    [
+     "UNITDSPR",
+     3137.5499999999997
+    ],
+    [
+     "IRCTC",
+     2358.64
+    ]
+   ],
+   "worst5": [
+    [
+     "GLENMARK",
+     -16240.65
+    ],
+    [
+     "HINDZINC",
+     -4690.699999999999
+    ],
+    [
+     "HDFCBANK",
+     -3940.6200000000003
+    ],
+    [
+     "NATIONALUM",
+     -3507.029999999999
+    ],
+    [
+     "VEDL",
+     -3492.3300000000004
+    ]
+   ]
+  },
+  "ext": {
+   "all": {
+    "trades": 444,
+    "net": 70634.67,
+    "win_pct": 32.4,
+    "exp": 159.09
+   },
+   "jan_may": {
+    "trades": 264,
+    "net": 44745.29,
+    "win_pct": 31.1,
+    "exp": 169.49
+   },
+   "jun_oct": {
+    "trades": 180,
+    "net": 25889.38,
+    "win_pct": 34.4,
+    "exp": 143.83
+   },
+   "october": {
+    "trades": 41,
+    "net": -19616.95,
+    "win_pct": 22.0,
+    "exp": -478.46
+   },
+   "breadth": 8,
+   "stocks_total": 25,
+   "top3_share_pct": 191.0,
+   "best5": [
+    [
+     "MARUTI",
+     128395.0
+    ],
+    [
+     "CIPLA",
+     3641.5999999999995
+    ],
+    [
+     "DRREDDY",
+     2859.7999999999993
+    ],
+    [
+     "SBIN",
+     2378.8
+    ],
+    [
+     "BHARTIARTL",
+     2127.0
+    ]
+   ],
+   "worst5": [
+    [
+     "TCS",
+     -13781.150000000003
+    ],
+    [
+     "INFY",
+     -9992.06
+    ],
+    [
+     "M&M",
+     -7958.35
+    ],
+    [
+     "HCLTECH",
+     -6721.5
+    ],
+    [
+     "GRASIM",
+     -5928.65
+    ]
+   ]
+  },
+  "gate": {
+   "both_halves_positive": true,
+   "breadth_ge_35": false,
+   "october_positive": false,
+   "audit_clean": true,
+   "placebo_beaten": null
+  },
+  "gate_pass": false,
+  "months": null
+ },
+ "S1-D": {
+  "pooled": {
+   "all": {
+    "trades": 1071,
+    "net": 62436.03,
+    "win_pct": 35.7,
+    "exp": 58.3
+   },
+   "jan_may": {
+    "trades": 633,
+    "net": 30344.89,
+    "win_pct": 34.3,
+    "exp": 47.94
+   },
+   "jun_oct": {
+    "trades": 438,
+    "net": 32091.14,
+    "win_pct": 37.7,
+    "exp": 73.27
+   },
+   "october": {
+    "trades": 100,
+    "net": -35981.08,
+    "win_pct": 27.0,
+    "exp": -359.81
+   },
+   "breadth": 30,
+   "stocks_total": 50,
+   "top3_share_pct": 115.1,
+   "best5": [
+    [
+     "EICHERMOT",
+     44781.0
+    ],
+    [
+     "ULTRACEMCO",
+     15819.0
+    ],
+    [
+     "M&M",
+     11239.64
+    ],
+    [
+     "HINDALCO",
+     8928.41
+    ],
+    [
+     "TCS",
+     7962.139999999999
+    ]
+   ],
+   "worst5": [
+    [
+     "MARUTI",
+     -46205.25
+    ],
+    [
+     "TITAN",
+     -16720.83
+    ],
+    [
+     "TVSMOTOR",
+     -6156.290000000003
+    ],
+    [
+     "ICICIBANK",
+     -5589.9299999999985
+    ],
+    [
+     "HINDUNILVR",
+     -4076.2300000000005
+    ]
+   ]
+  },
+  "home": {
+   "all": {
+    "trades": 643,
+    "net": 20820.13,
+    "win_pct": 35.6,
+    "exp": 32.38
+   },
+   "jan_may": {
+    "trades": 399,
+    "net": 19156.87,
+    "win_pct": 35.6,
+    "exp": 48.01
+   },
+   "jun_oct": {
+    "trades": 244,
+    "net": 1663.26,
+    "win_pct": 35.7,
+    "exp": 6.82
+   },
+   "october": {
+    "trades": 46,
+    "net": -6374.52,
+    "win_pct": 30.4,
+    "exp": -138.58
+   },
+   "breadth": 16,
+   "stocks_total": 25,
+   "top3_share_pct": 104.3,
+   "best5": [
+    [
+     "HINDALCO",
+     8928.41
+    ],
+    [
+     "HINDZINC",
+     7915.709999999998
+    ],
+    [
+     "UNITDSPR",
+     4880.259999999998
+    ],
+    [
+     "GODREJCP",
+     4680.49
+    ],
+    [
+     "IRCTC",
+     2216.0899999999997
+    ]
+   ],
+   "worst5": [
+    [
+     "TVSMOTOR",
+     -6156.290000000003
+    ],
+    [
+     "HINDUNILVR",
+     -4076.2300000000005
+    ],
+    [
+     "NATIONALUM",
+     -3134.66
+    ],
+    [
+     "PFC",
+     -2255.2500000000005
+    ],
+    [
+     "NHPC",
+     -1218.7499999999998
+    ]
+   ]
+  },
+  "ext": {
+   "all": {
+    "trades": 428,
+    "net": 41615.9,
+    "win_pct": 35.7,
+    "exp": 97.23
+   },
+   "jan_may": {
+    "trades": 234,
+    "net": 11188.02,
+    "win_pct": 32.1,
+    "exp": 47.81
+   },
+   "jun_oct": {
+    "trades": 194,
+    "net": 30427.88,
+    "win_pct": 40.2,
+    "exp": 156.84
+   },
+   "october": {
+    "trades": 54,
+    "net": -29606.56,
+    "win_pct": 24.1,
+    "exp": -548.27
+   },
+   "breadth": 14,
+   "stocks_total": 25,
+   "top3_share_pct": 172.6,
+   "best5": [
+    [
+     "EICHERMOT",
+     44781.0
+    ],
+    [
+     "ULTRACEMCO",
+     15819.0
+    ],
+    [
+     "M&M",
+     11239.64
+    ],
+    [
+     "TCS",
+     7962.139999999999
+    ],
+    [
+     "BHARTIARTL",
+     7662.37
+    ]
+   ],
+   "worst5": [
+    [
+     "MARUTI",
+     -46205.25
+    ],
+    [
+     "TITAN",
+     -16720.83
+    ],
+    [
+     "ICICIBANK",
+     -5589.9299999999985
+    ],
+    [
+     "INFY",
+     -2263.75
+    ],
+    [
+     "KOTAKBANK",
+     -2116.02
+    ]
+   ]
+  },
+  "gate": {
+   "both_halves_positive": true,
+   "breadth_ge_35": false,
+   "october_positive": false,
+   "audit_clean": true,
+   "placebo_beaten": null
+  },
+  "gate_pass": false,
+  "months": null
+ },
+ "S1-E": {
+  "pooled": {
+   "all": {
+    "trades": 59,
+    "net": 6071.84,
+    "win_pct": 47.5,
+    "exp": 102.91
+   },
+   "jan_may": {
+    "trades": 40,
+    "net": 197.56,
+    "win_pct": 45.0,
+    "exp": 4.94
+   },
+   "jun_oct": {
+    "trades": 19,
+    "net": 5874.28,
+    "win_pct": 52.6,
+    "exp": 309.17
+   },
+   "october": {
+    "trades": 5,
+    "net": 1046.7,
+    "win_pct": 40.0,
+    "exp": 209.34
+   },
+   "breadth": 22,
+   "stocks_total": 50,
+   "top3_share_pct": 201.0,
+   "best5": [
+    [
+     "GLENMARK",
+     5112.24
+    ],
+    [
+     "OBEROIRLTY",
+     3916.62
+    ],
+    [
+     "BDL",
+     3177.75
+    ],
+    [
+     "GODREJCP",
+     2143.8199999999997
+    ],
+    [
+     "RELIANCE",
+     1723.37
+    ]
+   ],
+   "worst5": [
+    [
+     "MARUTI",
+     -7291.0
+    ],
+    [
+     "TITAN",
+     -2120.0
+    ],
+    [
+     "TVSMOTOR",
+     -1872.5
+    ],
+    [
+     "M&M",
+     -1805.0
+    ],
+    [
+     "HINDUNILVR",
+     -1194.05
+    ]
+   ]
+  },
+  "home": {
+   "all": {
+    "trades": 32,
+    "net": 13109.45,
+    "win_pct": 59.4,
+    "exp": 409.67
+   },
+   "jan_may": {
+    "trades": 22,
+    "net": 6712.29,
+    "win_pct": 54.5,
+    "exp": 305.1
+   },
+   "jun_oct": {
+    "trades": 10,
+    "net": 6397.16,
+    "win_pct": 70.0,
+    "exp": 639.72
+   },
+   "october": {
+    "trades": 3,
+    "net": 29.17,
+    "win_pct": 33.3,
+    "exp": 9.72
+   },
+   "breadth": 14,
+   "stocks_total": 25,
+   "top3_share_pct": 93.1,
+   "best5": [
+    [
+     "GLENMARK",
+     5112.24
+    ],
+    [
+     "OBEROIRLTY",
+     3916.62
+    ],
+    [
+     "BDL",
+     3177.75
+    ],
+    [
+     "GODREJCP",
+     2143.8199999999997
+    ],
+    [
+     "IRCTC",
+     616.81
+    ]
+   ],
+   "worst5": [
+    [
+     "TVSMOTOR",
+     -1872.5
+    ],
+    [
+     "HINDUNILVR",
+     -1194.05
+    ],
+    [
+     "ASTRAL",
+     -756.1
+    ],
+    [
+     "HINDCOPPER",
+     -337.12
+    ],
+    [
+     "INDUSTOWER",
+     -240.2
+    ]
+   ]
+  },
+  "ext": {
+   "all": {
+    "trades": 27,
+    "net": -7037.61,
+    "win_pct": 33.3,
+    "exp": -260.65
+   },
+   "jan_may": {
+    "trades": 18,
+    "net": -6514.73,
+    "win_pct": 33.3,
+    "exp": -361.93
+   },
+   "jun_oct": {
+    "trades": 9,
+    "net": -522.88,
+    "win_pct": 33.3,
+    "exp": -58.1
+   },
+   "october": {
+    "trades": 2,
+    "net": 1017.53,
+    "win_pct": 50.0,
+    "exp": 508.76
+   },
+   "breadth": 8,
+   "stocks_total": 25,
+   "top3_share_pct": null,
+   "best5": [
+    [
+     "RELIANCE",
+     1723.37
+    ],
+    [
+     "TCS",
+     1620.0
+    ],
+    [
+     "SBIN",
+     1611.12
+    ],
+    [
+     "HCLTECH",
+     954.0
+    ],
+    [
+     "NESTLEIND",
+     821.9800000000001
+    ]
+   ],
+   "worst5": [
+    [
+     "MARUTI",
+     -7291.0
+    ],
+    [
+     "TITAN",
+     -2120.0
+    ],
+    [
+     "M&M",
+     -1805.0
+    ],
+    [
+     "ICICIBANK",
+     -727.35
+    ],
+    [
+     "KOTAKBANK",
+     -701.65
+    ]
+   ]
+  },
+  "gate": {
+   "both_halves_positive": true,
+   "breadth_ge_35": false,
+   "october_positive": true,
+   "audit_clean": true,
+   "placebo_beaten": null
+  },
+  "gate_pass": false,
+  "months": null
+ },
+ "months_best": {
+  "2026-01": {
+   "trades": 98,
+   "net": 38315.04
+  },
+  "2026-02": {
+   "trades": 117,
+   "net": -880.67
+  },
+  "2026-03": {
+   "trades": 231,
+   "net": 55104.26
+  },
+  "2026-04": {
+   "trades": 89,
+   "net": -20580.2
+  },
+  "2026-05": {
+   "trades": 88,
+   "net": -17378.12
+  },
+  "2026-06": {
+   "trades": 131,
+   "net": 21828.52
+  },
+  "2026-07": {
+   "trades": 67,
+   "net": 20506.36
+  },
+  "2026-08": {
+   "trades": 63,
+   "net": -9811.41
+  },
+  "2026-09": {
+   "trades": 113,
+   "net": 29366.97
+  },
+  "2026-10": {
+   "trades": 103,
+   "net": -25380.02
+  }
+ }
+}

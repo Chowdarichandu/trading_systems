@@ -1,0 +1,229 @@
+{
+ "incumbent_anchor_ok": true,
+ "construction_anchor": {
+  "trades": 48,
+  "net": 12835.88
+ },
+ "donor_map": {
+  "ASTRAL": "NATIONALUM",
+  "BDL": "HINDALCO",
+  "GLENMARK": "PFC",
+  "GODREJCP": "TATASTEEL",
+  "HDFCBANK": "HINDZINC",
+  "HINDALCO": "UNITDSPR",
+  "HINDCOPPER": "NHPC",
+  "HINDUNILVR": "GODREJCP",
+  "HINDZINC": "HDFCBANK",
+  "INDUSTOWER": "ASTRAL",
+  "IRCTC": "ITC",
+  "ITC": "WIPRO",
+  "KALYANKJIL": "RECLTD",
+  "NATIONALUM": "TVSMOTOR",
+  "NHPC": "IRCTC",
+  "NTPC": "OIL",
+  "OBEROIRLTY": "NTPC",
+  "OIL": "VEDL",
+  "PFC": "HINDCOPPER",
+  "RECLTD": "BDL",
+  "TATASTEEL": "OBEROIRLTY",
+  "TVSMOTOR": "GLENMARK",
+  "UNITDSPR": "KALYANKJIL",
+  "VEDL": "HINDUNILVR",
+  "WIPRO": "INDUSTOWER"
+ },
+ "profile_standalone": {
+  "trades": 46,
+  "net": 13120.32,
+  "H1": 4817.48,
+  "H2": 8302.84,
+  "october": -279.77,
+  "breadth": 14,
+  "stocks_traded": 25,
+  "expectancy": 285.22,
+  "win_pct": 50.0,
+  "months": {
+   "2026-01": 668.34,
+   "2026-02": 2127.52,
+   "2026-03": 0.0,
+   "2026-04": 541.37,
+   "2026-05": 1480.25,
+   "2026-06": 4208.62,
+   "2026-07": 3887.3,
+   "2026-08": 486.69,
+   "2026-09": 0.0,
+   "2026-10": -279.77
+  },
+  "per_stock": {
+   "ASTRAL": -2045.73,
+   "BDL": 3177.75,
+   "GLENMARK": 5112.24,
+   "GODREJCP": 1988.1,
+   "HDFCBANK": 238.79,
+   "HINDALCO": -732.25,
+   "HINDCOPPER": -426.26,
+   "HINDUNILVR": -608.26,
+   "HINDZINC": 132.22,
+   "INDUSTOWER": -300.26,
+   "IRCTC": 616.81,
+   "ITC": -6.0,
+   "KALYANKJIL": -305.15,
+   "NATIONALUM": -145.73,
+   "NHPC": 29.0,
+   "NTPC": 391.19,
+   "OBEROIRLTY": 3916.62,
+   "OIL": 159.77,
+   "PFC": 442.5,
+   "RECLTD": -93.73,
+   "TATASTEEL": 36.86,
+   "TVSMOTOR": 2422.25,
+   "UNITDSPR": -898.2,
+   "VEDL": -220.05,
+   "WIPRO": 237.84
+  }
+ },
+ "placebo_standalone": {
+  "trades": 46,
+  "net": 12411.62,
+  "H1": 4817.48,
+  "H2": 7594.14,
+  "october": -279.77,
+  "breadth": 14,
+  "stocks_traded": 25,
+  "expectancy": 269.82,
+  "win_pct": 47.8,
+  "months": {
+   "2026-01": 668.34,
+   "2026-02": 2127.52,
+   "2026-03": 0.0,
+   "2026-04": 541.37,
+   "2026-05": 1480.25,
+   "2026-06": 4208.62,
+   "2026-07": 3887.3,
+   "2026-08": -222.01,
+   "2026-09": 0.0,
+   "2026-10": -279.77
+  },
+  "per_stock": {
+   "ASTRAL": -2045.73,
+   "BDL": 3177.75,
+   "GLENMARK": 5112.24,
+   "GODREJCP": 1988.1,
+   "HDFCBANK": 238.79,
+   "HINDALCO": -732.25,
+   "HINDCOPPER": -426.26,
+   "HINDUNILVR": -608.26,
+   "HINDZINC": 132.22,
+   "INDUSTOWER": -300.26,
+   "IRCTC": 616.81,
+   "ITC": -6.0,
+   "KALYANKJIL": -305.15,
+   "NATIONALUM": -854.43,
+   "NHPC": 29.0,
+   "NTPC": 391.19,
+   "OBEROIRLTY": 3916.62,
+   "OIL": 159.77,
+   "PFC": 442.5,
+   "RECLTD": -93.73,
+   "TATASTEEL": 36.86,
+   "TVSMOTOR": 2422.25,
+   "UNITDSPR": -898.2,
+   "VEDL": -220.05,
+   "WIPRO": 237.84
+  }
+ },
+ "profile_ex_top3": {
+  "total": 13120.32,
+  "ex_top3": 913.71,
+  "top3": [
+   [
+    "GLENMARK",
+    5112.24
+   ],
+   [
+    "OBEROIRLTY",
+    3916.62
+   ],
+   [
+    "BDL",
+    3177.75
+   ]
+  ]
+ },
+ "flips": {
+  "n": 0,
+  "net": 0,
+  "detail": []
+ },
+ "incumbent_months": {
+  "2026-01": 11378.22,
+  "2026-02": 5125.86,
+  "2026-03": 19116.26,
+  "2026-04": 1464.36,
+  "2026-05": 29377.98,
+  "2026-06": 172.76,
+  "2026-07": 3196.63,
+  "2026-08": 185.69,
+  "2026-09": 18041.54,
+  "2026-10": 50572.02
+ },
+ "incumbent_ex_top3": {
+  "total": 138631.32,
+  "ex_top3": 18918.3,
+  "top3": [
+   [
+    "TVSMOTOR",
+    61717.72
+   ],
+   [
+    "GLENMARK",
+    32182.31
+   ],
+   [
+    "ASTRAL",
+    25812.99
+   ]
+  ]
+ },
+ "challenger_months": {
+  "2026-01": 8855.65,
+  "2026-02": 3591.99,
+  "2026-03": 19116.26,
+  "2026-04": 1464.36,
+  "2026-05": 30130.01,
+  "2026-06": 172.76,
+  "2026-07": 1499.43,
+  "2026-08": -571.74,
+  "2026-09": 18041.54,
+  "2026-10": 50607.25
+ },
+ "challenger_total": 132907.51,
+ "challenger_trades": 919,
+ "challenger_ex_top3": {
+  "total": 132907.51,
+  "ex_top3": 17662.47,
+  "top3": [
+   [
+    "TVSMOTOR",
+    59295.47
+   ],
+   [
+    "GLENMARK",
+    32182.31
+   ],
+   [
+    "ASTRAL",
+    23767.26
+   ]
+  ]
+ },
+ "assembled_placebo_total": 132198.81,
+ "audit_violations": 0,
+ "gate": {
+  "a_all_months_green": false,
+  "b_total_higher": false,
+  "c_october_floor": true,
+  "d_ex_top3_better": false,
+  "e_audit_and_placebo": true
+ },
+ "adopted": false
+}

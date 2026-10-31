@@ -1,0 +1,29 @@
+{
+ "anchor_ok": true,
+ "fix": "AU-1-EVENT-ASTRAL",
+ "removed_trades": 4,
+ "removed_net": -3203.55,
+ "new_month_table": {
+  "2026-01": 12433.74,
+  "2026-02": 4173.49,
+  "2026-03": 20322.06,
+  "2026-04": 50.73,
+  "2026-05": 29377.98,
+  "2026-06": -1233.49,
+  "2026-07": 2096.63,
+  "2026-08": 185.69,
+  "2026-09": 17413.79,
+  "2026-10": 50029.72
+ },
+ "new_total": 134850.34,
+ "new_trades": 930,
+ "banked": true,
+ "legs": {
+  "l1_aug_rises": true,
+  "l2_oct_floor": true,
+  "l3_sep": true,
+  "l4_total": true,
+  "l5_pos_months": true,
+  "l6_june": true
+ }
+}

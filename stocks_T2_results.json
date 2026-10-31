@@ -1,0 +1,1045 @@
+{
+ "anchors": {
+  "P2F_2.0": {
+   "all": {
+    "trades": 48,
+    "win_pct": 45.8,
+    "net_rs": 12835.88,
+    "expectancy_rs": 267.41
+   },
+   "H1": {
+    "trades": 29,
+    "win_pct": 41.4,
+    "net_rs": 3498.1,
+    "expectancy_rs": 120.62
+   },
+   "H2": {
+    "trades": 19,
+    "win_pct": 52.6,
+    "net_rs": 9337.78,
+    "expectancy_rs": 491.46
+   },
+   "october": {
+    "trades": 4,
+    "win_pct": 25.0,
+    "net_rs": -102.83,
+    "expectancy_rs": -25.71
+   },
+   "both_halves_positive": true,
+   "october_positive": false,
+   "breadth_net_positive_stocks": 14,
+   "breadth_of": 25,
+   "stocks_traded": 25,
+   "top3_share_pct": 95.1,
+   "LONG": {
+    "trades": 16,
+    "win_pct": 18.8,
+    "net_rs": -273.57,
+    "expectancy_rs": -17.1
+   },
+   "SHORT": {
+    "trades": 32,
+    "win_pct": 59.4,
+    "net_rs": 13109.45,
+    "expectancy_rs": 409.67
+   },
+   "per_stock_net": {
+    "GLENMARK": 5112.24,
+    "OBEROIRLTY": 3916.62,
+    "BDL": 3177.75,
+    "TVSMOTOR": 2972.0,
+    "GODREJCP": 2143.82,
+    "IRCTC": 616.81,
+    "VEDL": 575.25,
+    "PFC": 442.5,
+    "NTPC": 391.19,
+    "HDFCBANK": 345.23,
+    "WIPRO": 265.44,
+    "OIL": 238.37,
+    "HINDZINC": 232.54,
+    "NHPC": 29.0,
+    "ITC": -6.0,
+    "NATIONALUM": -32.2,
+    "KALYANKJIL": -152.75,
+    "RECLTD": -218.28,
+    "INDUSTOWER": -240.2,
+    "TATASTEEL": -286.78,
+    "HINDCOPPER": -337.12,
+    "HINDALCO": -572.5,
+    "UNITDSPR": -700.15,
+    "ASTRAL": -1592.1,
+    "HINDUNILVR": -3484.8
+   }
+  },
+  "P2F_2.5": {
+   "all": {
+    "trades": 39,
+    "win_pct": 48.7,
+    "net_rs": 15489.08,
+    "expectancy_rs": 397.16
+   },
+   "H1": {
+    "trades": 26,
+    "win_pct": 46.2,
+    "net_rs": 6702.84,
+    "expectancy_rs": 257.8
+   },
+   "H2": {
+    "trades": 13,
+    "win_pct": 53.8,
+    "net_rs": 8786.24,
+    "expectancy_rs": 675.86
+   },
+   "october": {
+    "trades": 2,
+    "win_pct": 0.0,
+    "net_rs": -315.0,
+    "expectancy_rs": -157.5
+   },
+   "both_halves_positive": true,
+   "october_positive": false,
+   "breadth_net_positive_stocks": 12,
+   "breadth_of": 25,
+   "stocks_traded": 23,
+   "top3_share_pct": 89.6,
+   "LONG": {
+    "trades": 11,
+    "win_pct": 18.2,
+    "net_rs": 748.3,
+    "expectancy_rs": 68.03
+   },
+   "SHORT": {
+    "trades": 28,
+    "win_pct": 60.7,
+    "net_rs": 14740.78,
+    "expectancy_rs": 526.46
+   },
+   "per_stock_net": {
+    "GLENMARK": 5112.24,
+    "TVSMOTOR": 4844.5,
+    "OBEROIRLTY": 3916.62,
+    "BDL": 3177.75,
+    "GODREJCP": 2143.82,
+    "HDFCBANK": 740.0,
+    "IRCTC": 616.81,
+    "VEDL": 575.25,
+    "PFC": 442.5,
+    "NTPC": 391.19,
+    "WIPRO": 265.44,
+    "RECLTD": 5.72,
+    "NATIONALUM": -32.2,
+    "TATASTEEL": -145.29,
+    "KALYANKJIL": -152.75,
+    "INDUSTOWER": -240.2,
+    "OIL": -302.0,
+    "HINDCOPPER": -337.12,
+    "HINDZINC": -374.4,
+    "HINDALCO": -572.5,
+    "UNITDSPR": -700.15,
+    "ASTRAL": -1592.1,
+    "HINDUNILVR": -2294.05
+   }
+  }
+ },
+ "audit": {
+  "T2-A_3.0": {
+   "violations": 0
+  },
+  "T2-A_4.0": {
+   "violations": 0
+  },
+  "T2-B_2.0": {
+   "violations": 0
+  },
+  "T2-B_2.5": {
+   "violations": 0
+  },
+  "T2-C_2.5": {
+   "violations": 0
+  },
+  "TOTAL_VIOLATIONS": 0
+ },
+ "cells": {
+  "T2-A_3.0": {
+   "family": "T2-A",
+   "band": 3.0,
+   "kind": "r1",
+   "drops": {
+    "HOME": 0,
+    "EXT": 0
+   },
+   "HOME": {
+    "all": {
+     "trades": 33,
+     "win_pct": 48.5,
+     "net_rs": 14231.75,
+     "expectancy_rs": 431.27
+    },
+    "H1": {
+     "trades": 21,
+     "win_pct": 47.6,
+     "net_rs": 6720.88,
+     "expectancy_rs": 320.04
+    },
+    "H2": {
+     "trades": 12,
+     "win_pct": 50.0,
+     "net_rs": 7510.87,
+     "expectancy_rs": 625.91
+    },
+    "october": {
+     "trades": 2,
+     "win_pct": 0.0,
+     "net_rs": -315.0,
+     "expectancy_rs": -157.5
+    },
+    "both_halves_positive": true,
+    "october_positive": false,
+    "breadth_net_positive_stocks": 11,
+    "breadth_of": 25,
+    "stocks_traded": 20,
+    "top3_share_pct": 97.5,
+    "LONG": {
+     "trades": 10,
+     "win_pct": 20.0,
+     "net_rs": 1050.3,
+     "expectancy_rs": 105.03
+    },
+    "SHORT": {
+     "trades": 23,
+     "win_pct": 60.9,
+     "net_rs": 13181.45,
+     "expectancy_rs": 573.11
+    },
+    "per_stock_net": {
+     "GLENMARK": 5112.24,
+     "TVSMOTOR": 4844.5,
+     "OBEROIRLTY": 3916.62,
+     "BDL": 3177.75,
+     "GODREJCP": 868.45,
+     "HDFCBANK": 740.0,
+     "VEDL": 575.25,
+     "PFC": 442.5,
+     "NTPC": 391.19,
+     "RECLTD": 228.37,
+     "WIPRO": 135.44,
+     "NATIONALUM": -32.2,
+     "TATASTEEL": -145.29,
+     "KALYANKJIL": -152.75,
+     "HINDCOPPER": -337.12,
+     "HINDZINC": -374.4,
+     "HINDALCO": -572.5,
+     "UNITDSPR": -700.15,
+     "ASTRAL": -1592.1,
+     "HINDUNILVR": -2294.05
+    }
+   },
+   "POOLED": {
+    "all": {
+     "trades": 66,
+     "win_pct": 45.5,
+     "net_rs": 31719.61,
+     "expectancy_rs": 480.6
+    },
+    "H1": {
+     "trades": 41,
+     "win_pct": 46.3,
+     "net_rs": 17391.09,
+     "expectancy_rs": 424.17
+    },
+    "H2": {
+     "trades": 25,
+     "win_pct": 44.0,
+     "net_rs": 14328.52,
+     "expectancy_rs": 573.14
+    },
+    "october": {
+     "trades": 8,
+     "win_pct": 37.5,
+     "net_rs": 2547.21,
+     "expectancy_rs": 318.4
+    },
+    "both_halves_positive": true,
+    "october_positive": true,
+    "breadth_net_positive_stocks": 24,
+    "breadth_of": 50,
+    "stocks_traded": 40,
+    "top3_share_pct": 50.1,
+    "LONG": {
+     "trades": 27,
+     "win_pct": 33.3,
+     "net_rs": 16032.35,
+     "expectancy_rs": 593.79
+    },
+    "SHORT": {
+     "trades": 39,
+     "win_pct": 53.8,
+     "net_rs": 15687.26,
+     "expectancy_rs": 402.24
+    },
+    "per_stock_net": {
+     "EICHERMOT": 5936.87,
+     "GLENMARK": 5112.24,
+     "TVSMOTOR": 4844.5,
+     "TITAN": 4202.5,
+     "OBEROIRLTY": 3916.62,
+     "BDL": 3177.75,
+     "LT": 2950.0,
+     "HCLTECH": 2564.0,
+     "BHARTIARTL": 2314.0,
+     "RELIANCE": 1723.37,
+     "DRREDDY": 1357.5,
+     "GODREJCP": 868.45,
+     "JSWSTEEL": 851.13,
+     "NESTLEIND": 821.98,
+     "HDFCBANK": 740.0,
+     "VEDL": 575.25,
+     "SBIN": 565.62,
+     "COALINDIA": 476.31,
+     "PFC": 442.5,
+     "NTPC": 391.19,
+     "RECLTD": 228.37,
+     "WIPRO": 135.44,
+     "AXISBANK": 134.75,
+     "ONGC": 131.12,
+     "NATIONALUM": -32.2,
+     "TATASTEEL": -145.29,
+     "KALYANKJIL": -152.75,
+     "POWERGRID": -174.32,
+     "KOTAKBANK": -225.5,
+     "HINDCOPPER": -337.12,
+     "HINDZINC": -374.4,
+     "HINDALCO": -572.5,
+     "UNITDSPR": -700.15,
+     "CIPLA": -758.35,
+     "BAJFINANCE": -1121.87,
+     "TCS": -1132.45,
+     "INFY": -1499.8,
+     "ASTRAL": -1592.1,
+     "GRASIM": -1629.0,
+     "HINDUNILVR": -2294.05
+    }
+   },
+   "gate_HOME": {
+    "both_halves_positive": true,
+    "october_positive": false,
+    "expectancy_ge_397.16": true,
+    "pass": false,
+    "audit_clean": true
+   },
+   "gate_POOLED": {
+    "both_halves_positive": true,
+    "october_positive": true,
+    "pass": true,
+    "audit_clean": true
+   }
+  },
+  "T2-A_4.0": {
+   "family": "T2-A",
+   "band": 4.0,
+   "kind": "r1",
+   "drops": {
+    "HOME": 0,
+    "EXT": 0
+   },
+   "HOME": {
+    "all": {
+     "trades": 22,
+     "win_pct": 54.5,
+     "net_rs": 8399.06,
+     "expectancy_rs": 381.78
+    },
+    "H1": {
+     "trades": 15,
+     "win_pct": 53.3,
+     "net_rs": 7383.06,
+     "expectancy_rs": 492.2
+    },
+    "H2": {
+     "trades": 7,
+     "win_pct": 57.1,
+     "net_rs": 1016.0,
+     "expectancy_rs": 145.14
+    },
+    "october": {
+     "trades": 1,
+     "win_pct": 0.0,
+     "net_rs": -132.0,
+     "expectancy_rs": -132.0
+    },
+    "both_halves_positive": true,
+    "october_positive": false,
+    "breadth_net_positive_stocks": 10,
+    "breadth_of": 25,
+    "stocks_traded": 13,
+    "top3_share_pct": 112.8,
+    "LONG": {
+     "trades": 5,
+     "win_pct": 20.0,
+     "net_rs": -1902.25,
+     "expectancy_rs": -380.45
+    },
+    "SHORT": {
+     "trades": 17,
+     "win_pct": 64.7,
+     "net_rs": 10301.31,
+     "expectancy_rs": 605.96
+    },
+    "per_stock_net": {
+     "OBEROIRLTY": 3916.62,
+     "BDL": 3177.75,
+     "GLENMARK": 2378.87,
+     "GODREJCP": 868.45,
+     "HDFCBANK": 740.0,
+     "VEDL": 575.25,
+     "PFC": 442.5,
+     "NATIONALUM": 212.7,
+     "KALYANKJIL": 174.75,
+     "WIPRO": 135.44,
+     "HINDCOPPER": -337.12,
+     "ASTRAL": -1592.1,
+     "HINDUNILVR": -2294.05
+    }
+   },
+   "POOLED": {
+    "all": {
+     "trades": 45,
+     "win_pct": 48.9,
+     "net_rs": 17374.45,
+     "expectancy_rs": 386.1
+    },
+    "H1": {
+     "trades": 31,
+     "win_pct": 48.4,
+     "net_rs": 13779.22,
+     "expectancy_rs": 444.49
+    },
+    "H2": {
+     "trades": 14,
+     "win_pct": 50.0,
+     "net_rs": 3595.23,
+     "expectancy_rs": 256.8
+    },
+    "october": {
+     "trades": 5,
+     "win_pct": 60.0,
+     "net_rs": 4356.38,
+     "expectancy_rs": 871.28
+    },
+    "both_halves_positive": true,
+    "october_positive": true,
+    "breadth_net_positive_stocks": 19,
+    "breadth_of": 50,
+    "stocks_traded": 27,
+    "top3_share_pct": 75.0,
+    "LONG": {
+     "trades": 19,
+     "win_pct": 31.6,
+     "net_rs": 4939.75,
+     "expectancy_rs": 259.99
+    },
+    "SHORT": {
+     "trades": 26,
+     "win_pct": 61.5,
+     "net_rs": 12434.7,
+     "expectancy_rs": 478.26
+    },
+    "per_stock_net": {
+     "EICHERMOT": 5936.87,
+     "OBEROIRLTY": 3916.62,
+     "BDL": 3177.75,
+     "HCLTECH": 2564.0,
+     "GLENMARK": 2378.87,
+     "BHARTIARTL": 2314.0,
+     "NESTLEIND": 1581.88,
+     "DRREDDY": 1357.5,
+     "GODREJCP": 868.45,
+     "JSWSTEEL": 851.13,
+     "HDFCBANK": 740.0,
+     "VEDL": 575.25,
+     "SBIN": 565.62,
+     "PFC": 442.5,
+     "ONGC": 304.94,
+     "NATIONALUM": 212.7,
+     "KALYANKJIL": 174.75,
+     "WIPRO": 135.44,
+     "AXISBANK": 134.75,
+     "HINDCOPPER": -337.12,
+     "BAJFINANCE": -628.15,
+     "CIPLA": -758.35,
+     "INFY": -1499.8,
+     "ASTRAL": -1592.1,
+     "GRASIM": -1629.0,
+     "TITAN": -2120.0,
+     "HINDUNILVR": -2294.05
+    }
+   },
+   "gate_HOME": {
+    "both_halves_positive": true,
+    "october_positive": false,
+    "expectancy_ge_397.16": false,
+    "pass": false,
+    "audit_clean": true
+   },
+   "gate_POOLED": {
+    "both_halves_positive": true,
+    "october_positive": true,
+    "pass": true,
+    "audit_clean": true
+   }
+  },
+  "T2-B_2.0": {
+   "family": "T2-B",
+   "band": 2.0,
+   "kind": "r2",
+   "drops": {
+    "HOME": 1,
+    "EXT": 0
+   },
+   "HOME": {
+    "all": {
+     "trades": 47,
+     "win_pct": 51.1,
+     "net_rs": 14429.46,
+     "expectancy_rs": 307.01
+    },
+    "H1": {
+     "trades": 28,
+     "win_pct": 53.6,
+     "net_rs": 15498.38,
+     "expectancy_rs": 553.51
+    },
+    "H2": {
+     "trades": 19,
+     "win_pct": 47.4,
+     "net_rs": -1068.92,
+     "expectancy_rs": -56.26
+    },
+    "october": {
+     "trades": 3,
+     "win_pct": 100.0,
+     "net_rs": 1618.05,
+     "expectancy_rs": 539.35
+    },
+    "both_halves_positive": false,
+    "october_positive": true,
+    "breadth_net_positive_stocks": 14,
+    "breadth_of": 25,
+    "stocks_traded": 25,
+    "top3_share_pct": 72.0,
+    "LONG": {
+     "trades": 16,
+     "win_pct": 31.2,
+     "net_rs": -2442.72,
+     "expectancy_rs": -152.67
+    },
+    "SHORT": {
+     "trades": 31,
+     "win_pct": 61.3,
+     "net_rs": 16872.18,
+     "expectancy_rs": 544.26
+    },
+    "per_stock_net": {
+     "GODREJCP": 3940.62,
+     "OBEROIRLTY": 3861.38,
+     "TVSMOTOR": 2580.1,
+     "HDFCBANK": 1747.12,
+     "UNITDSPR": 1596.37,
+     "HINDZINC": 1403.75,
+     "GLENMARK": 1316.8,
+     "HINDALCO": 1276.75,
+     "BDL": 1039.87,
+     "HINDCOPPER": 722.5,
+     "PFC": 436.25,
+     "NTPC": 417.44,
+     "TATASTEEL": 74.68,
+     "NHPC": 15.0,
+     "RECLTD": -15.5,
+     "NATIONALUM": -32.13,
+     "VEDL": -35.48,
+     "WIPRO": -111.46,
+     "ITC": -184.13,
+     "KALYANKJIL": -201.7,
+     "INDUSTOWER": -243.07,
+     "IRCTC": -296.05,
+     "OIL": -575.85,
+     "ASTRAL": -1589.0,
+     "HINDUNILVR": -2714.8
+    }
+   },
+   "POOLED": {
+    "all": {
+     "trades": 98,
+     "win_pct": 48.0,
+     "net_rs": 37932.01,
+     "expectancy_rs": 387.06
+    },
+    "H1": {
+     "trades": 60,
+     "win_pct": 48.3,
+     "net_rs": 39821.76,
+     "expectancy_rs": 663.7
+    },
+    "H2": {
+     "trades": 38,
+     "win_pct": 47.4,
+     "net_rs": -1889.75,
+     "expectancy_rs": -49.73
+    },
+    "october": {
+     "trades": 10,
+     "win_pct": 70.0,
+     "net_rs": 5039.22,
+     "expectancy_rs": 503.92
+    },
+    "both_halves_positive": false,
+    "october_positive": true,
+    "breadth_net_positive_stocks": 30,
+    "breadth_of": 50,
+    "stocks_traded": 48,
+    "top3_share_pct": 51.6,
+    "LONG": {
+     "trades": 40,
+     "win_pct": 37.5,
+     "net_rs": 21345.19,
+     "expectancy_rs": 533.63
+    },
+    "SHORT": {
+     "trades": 58,
+     "win_pct": 55.2,
+     "net_rs": 16586.82,
+     "expectancy_rs": 285.98
+    },
+    "per_stock_net": {
+     "MARUTI": 9543.75,
+     "EICHERMOT": 6107.5,
+     "GODREJCP": 3940.62,
+     "OBEROIRLTY": 3861.38,
+     "M&M": 3719.85,
+     "LT": 2879.8,
+     "TVSMOTOR": 2580.1,
+     "SBIN": 2000.37,
+     "AXISBANK": 1809.15,
+     "HDFCBANK": 1747.12,
+     "ICICIBANK": 1669.38,
+     "UNITDSPR": 1596.37,
+     "HINDZINC": 1403.75,
+     "TCS": 1365.17,
+     "GLENMARK": 1316.8,
+     "HINDALCO": 1276.75,
+     "BDL": 1039.87,
+     "RELIANCE": 965.25,
+     "DRREDDY": 922.0,
+     "NESTLEIND": 857.0,
+     "HINDCOPPER": 722.5,
+     "KOTAKBANK": 689.37,
+     "BAJFINANCE": 513.0,
+     "ONGC": 456.25,
+     "PFC": 436.25,
+     "NTPC": 417.44,
+     "INFY": 273.5,
+     "HCLTECH": 200.3,
+     "TATASTEEL": 74.68,
+     "NHPC": 15.0,
+     "RECLTD": -15.5,
+     "NATIONALUM": -32.13,
+     "VEDL": -35.48,
+     "WIPRO": -111.46,
+     "ITC": -184.13,
+     "KALYANKJIL": -201.7,
+     "INDUSTOWER": -243.07,
+     "IRCTC": -296.05,
+     "POWERGRID": -336.77,
+     "OIL": -575.85,
+     "CIPLA": -751.0,
+     "COALINDIA": -779.82,
+     "BHARTIARTL": -992.4,
+     "JSWSTEEL": -1320.1,
+     "ASTRAL": -1589.0,
+     "GRASIM": -1630.0,
+     "HINDUNILVR": -2714.8,
+     "TITAN": -4659.0
+    }
+   },
+   "gate_HOME": {
+    "both_halves_positive": false,
+    "october_positive": true,
+    "expectancy_ge_397.16": false,
+    "pass": false,
+    "audit_clean": true
+   },
+   "gate_POOLED": {
+    "both_halves_positive": false,
+    "october_positive": true,
+    "pass": false,
+    "audit_clean": true
+   }
+  },
+  "T2-B_2.5": {
+   "family": "T2-B",
+   "band": 2.5,
+   "kind": "r2",
+   "drops": {
+    "HOME": 1,
+    "EXT": 0
+   },
+   "HOME": {
+    "all": {
+     "trades": 38,
+     "win_pct": 50.0,
+     "net_rs": 9813.68,
+     "expectancy_rs": 258.25
+    },
+    "H1": {
+     "trades": 25,
+     "win_pct": 56.0,
+     "net_rs": 12288.08,
+     "expectancy_rs": 491.52
+    },
+    "H2": {
+     "trades": 13,
+     "win_pct": 38.5,
+     "net_rs": -2474.4,
+     "expectancy_rs": -190.34
+    },
+    "october": {
+     "trades": 1,
+     "win_pct": 100.0,
+     "net_rs": 189.99,
+     "expectancy_rs": 189.99
+    },
+    "both_halves_positive": false,
+    "october_positive": true,
+    "breadth_net_positive_stocks": 12,
+    "breadth_of": 25,
+    "stocks_traded": 23,
+    "top3_share_pct": 95.8,
+    "LONG": {
+     "trades": 11,
+     "win_pct": 36.4,
+     "net_rs": -1055.44,
+     "expectancy_rs": -95.95
+    },
+    "SHORT": {
+     "trades": 27,
+     "win_pct": 55.6,
+     "net_rs": 10869.12,
+     "expectancy_rs": 402.56
+    },
+    "per_stock_net": {
+     "GODREJCP": 3940.62,
+     "OBEROIRLTY": 3861.38,
+     "UNITDSPR": 1596.37,
+     "GLENMARK": 1316.8,
+     "HINDALCO": 1276.75,
+     "BDL": 1039.87,
+     "HDFCBANK": 910.31,
+     "HINDZINC": 812.5,
+     "HINDCOPPER": 722.5,
+     "PFC": 436.25,
+     "NTPC": 417.44,
+     "TATASTEEL": 219.38,
+     "NATIONALUM": -32.13,
+     "VEDL": -35.48,
+     "WIPRO": -111.46,
+     "KALYANKJIL": -201.7,
+     "INDUSTOWER": -243.07,
+     "IRCTC": -296.05,
+     "OIL": -299.9,
+     "RECLTD": -438.0,
+     "HINDUNILVR": -1509.8,
+     "ASTRAL": -1589.0,
+     "TVSMOTOR": -1979.9
+    }
+   },
+   "POOLED": {
+    "all": {
+     "trades": 82,
+     "win_pct": 47.6,
+     "net_rs": 31153.15,
+     "expectancy_rs": 379.92
+    },
+    "H1": {
+     "trades": 53,
+     "win_pct": 50.9,
+     "net_rs": 34380.75,
+     "expectancy_rs": 648.69
+    },
+    "H2": {
+     "trades": 29,
+     "win_pct": 41.4,
+     "net_rs": -3227.6,
+     "expectancy_rs": -111.3
+    },
+    "october": {
+     "trades": 7,
+     "win_pct": 57.1,
+     "net_rs": 3546.16,
+     "expectancy_rs": 506.59
+    },
+    "both_halves_positive": false,
+    "october_positive": true,
+    "breadth_net_positive_stocks": 28,
+    "breadth_of": 50,
+    "stocks_traded": 46,
+    "top3_share_pct": 62.9,
+    "LONG": {
+     "trades": 33,
+     "win_pct": 39.4,
+     "net_rs": 24386.37,
+     "expectancy_rs": 738.98
+    },
+    "SHORT": {
+     "trades": 49,
+     "win_pct": 53.1,
+     "net_rs": 6766.78,
+     "expectancy_rs": 138.1
+    },
+    "per_stock_net": {
+     "MARUTI": 9543.75,
+     "EICHERMOT": 6107.5,
+     "GODREJCP": 3940.62,
+     "OBEROIRLTY": 3861.38,
+     "LT": 2879.8,
+     "SBIN": 2573.37,
+     "AXISBANK": 1809.15,
+     "ICICIBANK": 1669.38,
+     "UNITDSPR": 1596.37,
+     "TCS": 1365.17,
+     "GLENMARK": 1316.8,
+     "HINDALCO": 1276.75,
+     "M&M": 1060.0,
+     "BDL": 1039.87,
+     "RELIANCE": 965.25,
+     "DRREDDY": 922.0,
+     "HDFCBANK": 910.31,
+     "NESTLEIND": 857.0,
+     "HINDZINC": 812.5,
+     "HINDCOPPER": 722.5,
+     "BAJFINANCE": 513.0,
+     "ONGC": 456.25,
+     "PFC": 436.25,
+     "NTPC": 417.44,
+     "INFY": 273.5,
+     "TATASTEEL": 219.38,
+     "HCLTECH": 200.3,
+     "KOTAKBANK": 184.0,
+     "NATIONALUM": -32.13,
+     "VEDL": -35.48,
+     "WIPRO": -111.46,
+     "POWERGRID": -158.75,
+     "KALYANKJIL": -201.7,
+     "INDUSTOWER": -243.07,
+     "IRCTC": -296.05,
+     "OIL": -299.9,
+     "RECLTD": -438.0,
+     "COALINDIA": -528.7,
+     "CIPLA": -751.0,
+     "BHARTIARTL": -992.4,
+     "JSWSTEEL": -1320.1,
+     "HINDUNILVR": -1509.8,
+     "ASTRAL": -1589.0,
+     "GRASIM": -1630.0,
+     "TVSMOTOR": -1979.9,
+     "TITAN": -4659.0
+    }
+   },
+   "gate_HOME": {
+    "both_halves_positive": false,
+    "october_positive": true,
+    "expectancy_ge_397.16": false,
+    "pass": false,
+    "audit_clean": true
+   },
+   "gate_POOLED": {
+    "both_halves_positive": false,
+    "october_positive": true,
+    "pass": false,
+    "audit_clean": true
+   }
+  },
+  "T2-C_2.5": {
+   "family": "T2-C",
+   "band": 2.5,
+   "kind": "hold",
+   "drops": {
+    "HOME": 1,
+    "EXT": 0
+   },
+   "HOME": {
+    "all": {
+     "trades": 38,
+     "win_pct": 31.6,
+     "net_rs": 2890.17,
+     "expectancy_rs": 76.06
+    },
+    "H1": {
+     "trades": 26,
+     "win_pct": 23.1,
+     "net_rs": -2106.83,
+     "expectancy_rs": -81.03
+    },
+    "H2": {
+     "trades": 12,
+     "win_pct": 50.0,
+     "net_rs": 4997.0,
+     "expectancy_rs": 416.42
+    },
+    "october": {
+     "trades": 1,
+     "win_pct": 0.0,
+     "net_rs": -132.0,
+     "expectancy_rs": -132.0
+    },
+    "both_halves_positive": false,
+    "october_positive": false,
+    "breadth_net_positive_stocks": 9,
+    "breadth_of": 25,
+    "stocks_traded": 23,
+    "top3_share_pct": 346.5,
+    "LONG": {
+     "trades": 11,
+     "win_pct": 9.1,
+     "net_rs": -6762.45,
+     "expectancy_rs": -614.77
+    },
+    "SHORT": {
+     "trades": 27,
+     "win_pct": 40.7,
+     "net_rs": 9652.62,
+     "expectancy_rs": 357.5
+    },
+    "per_stock_net": {
+     "OBEROIRLTY": 4125.85,
+     "GODREJCP": 4090.95,
+     "KALYANKJIL": 1797.0,
+     "HDFCBANK": 1575.0,
+     "IRCTC": 1170.0,
+     "PFC": 910.0,
+     "RECLTD": 487.35,
+     "WIPRO": 325.75,
+     "NATIONALUM": 121.55,
+     "BDL": -37.0,
+     "TATASTEEL": -145.29,
+     "NTPC": -212.47,
+     "INDUSTOWER": -240.2,
+     "OIL": -302.0,
+     "HINDCOPPER": -337.12,
+     "HINDZINC": -374.4,
+     "VEDL": -536.0,
+     "HINDALCO": -572.5,
+     "UNITDSPR": -700.15,
+     "GLENMARK": -1550.0,
+     "ASTRAL": -1592.1,
+     "HINDUNILVR": -2294.05,
+     "TVSMOTOR": -2820.0
+    }
+   },
+   "POOLED": {
+    "all": {
+     "trades": 82,
+     "win_pct": 26.8,
+     "net_rs": 17663.42,
+     "expectancy_rs": 215.41
+    },
+    "H1": {
+     "trades": 55,
+     "win_pct": 25.5,
+     "net_rs": 18124.53,
+     "expectancy_rs": 329.54
+    },
+    "H2": {
+     "trades": 27,
+     "win_pct": 29.6,
+     "net_rs": -461.11,
+     "expectancy_rs": -17.08
+    },
+    "october": {
+     "trades": 7,
+     "win_pct": 28.6,
+     "net_rs": 3862.98,
+     "expectancy_rs": 551.85
+    },
+    "both_halves_positive": false,
+    "october_positive": true,
+    "breadth_net_positive_stocks": 16,
+    "breadth_of": 50,
+    "stocks_traded": 46,
+    "top3_share_pct": 249.3,
+    "LONG": {
+     "trades": 33,
+     "win_pct": 18.2,
+     "net_rs": 11498.88,
+     "expectancy_rs": 348.45
+    },
+    "SHORT": {
+     "trades": 49,
+     "win_pct": 32.7,
+     "net_rs": 6164.54,
+     "expectancy_rs": 125.81
+    },
+    "per_stock_net": {
+     "EICHERMOT": 24962.5,
+     "HCLTECH": 11901.5,
+     "RELIANCE": 7170.0,
+     "BHARTIARTL": 5370.0,
+     "OBEROIRLTY": 4125.85,
+     "GODREJCP": 4090.95,
+     "KALYANKJIL": 1797.0,
+     "HDFCBANK": 1575.0,
+     "IRCTC": 1170.0,
+     "AXISBANK": 987.5,
+     "ONGC": 921.18,
+     "PFC": 910.0,
+     "RECLTD": 487.35,
+     "WIPRO": 325.75,
+     "DRREDDY": 210.0,
+     "NATIONALUM": 121.55,
+     "BDL": -37.0,
+     "SBIN": -105.5,
+     "TATASTEEL": -145.29,
+     "NTPC": -212.47,
+     "INDUSTOWER": -240.2,
+     "OIL": -302.0,
+     "HINDCOPPER": -337.12,
+     "POWERGRID": -362.62,
+     "HINDZINC": -374.4,
+     "KOTAKBANK": -470.15,
+     "COALINDIA": -521.44,
+     "VEDL": -536.0,
+     "HINDALCO": -572.5,
+     "UNITDSPR": -700.15,
+     "ICICIBANK": -727.35,
+     "CIPLA": -758.35,
+     "BAJFINANCE": -1121.87,
+     "JSWSTEEL": -1314.85,
+     "NESTLEIND": -1448.65,
+     "INFY": -1499.8,
+     "GLENMARK": -1550.0,
+     "ASTRAL": -1592.1,
+     "GRASIM": -1629.0,
+     "M&M": -1772.5,
+     "HINDUNILVR": -2294.05,
+     "TCS": -2417.4,
+     "TVSMOTOR": -2820.0,
+     "LT": -3996.95,
+     "TITAN": -4705.0,
+     "MARUTI": -13898.0
+    }
+   },
+   "gate_HOME": {
+    "both_halves_positive": false,
+    "october_positive": false,
+    "expectancy_ge_397.16": false,
+    "pass": false,
+    "audit_clean": true
+   },
+   "gate_POOLED": {
+    "both_halves_positive": false,
+    "october_positive": true,
+    "pass": false,
+    "audit_clean": true
+   }
+  }
+ }
+}

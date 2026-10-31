@@ -1,0 +1,102 @@
+{
+ "anchors": {
+  "A": true,
+  "B": true
+ },
+ "fix": "SAT-21-R2-TVSMOTOR-LONG (P2F-R2 excludes TVSMOTOR LONG signals; stock x mechanism x direction exclusion)",
+ "fix_id": "SAT-21-R2-TVSMOTOR-LONG",
+ "slice": {
+  "trades": 1,
+  "net": -1979.9,
+  "win": 0,
+  "deleted_set": [
+   [
+    "2026-07-24",
+    "TVSMOTOR",
+    "LONG",
+    -1979.9
+   ]
+  ],
+  "jul_slice": -1979.9,
+  "oct_slice": 0.0,
+  "aug_slice": 0.0
+ },
+ "registry": {
+  "slices_total": 144,
+  "qualifying": 10
+ },
+ "new_month_table": {
+  "2026-01": 27746.41,
+  "2026-02": 18448.01,
+  "2026-03": 20395.86,
+  "2026-04": 7617.74,
+  "2026-05": 34799.69,
+  "2026-06": 1846.78,
+  "2026-07": 6428.19,
+  "2026-08": 309.08,
+  "2026-09": 18043.55,
+  "2026-10": 53031.65
+ },
+ "new_total": 188666.96,
+ "new_trades": 770,
+ "banked": true,
+ "deltas": {
+  "2026-01": 0.0,
+  "2026-02": 0.0,
+  "2026-03": 0.0,
+  "2026-04": 0.0,
+  "2026-05": 0.0,
+  "2026-06": 0.0,
+  "2026-07": 1979.9,
+  "2026-08": 0.0,
+  "2026-09": 0.0,
+  "2026-10": 0.0
+ },
+ "ex_top3_before": 63577.47,
+ "ex_top3_after": 63577.47,
+ "top3_before": [
+  [
+   "TVSMOTOR",
+   72025.56
+  ],
+  [
+   "ASTRAL",
+   27847.79
+  ],
+  [
+   "OBEROIRLTY",
+   23236.24
+  ]
+ ],
+ "top3_after": [
+  [
+   "TVSMOTOR",
+   74005.46
+  ],
+  [
+   "ASTRAL",
+   27847.79
+  ],
+  [
+   "OBEROIRLTY",
+   23236.24
+  ]
+ ],
+ "tvsmotor_before": 72025.56,
+ "tvsmotor_after": 74005.46,
+ "tvsmotor_share_before": 38.58,
+ "tvsmotor_share_after": 39.23,
+ "legs": {
+  "a_total": true,
+  "b_all_green_razors": true,
+  "c_oct": true,
+  "d_extop3": true,
+  "e_anchors": true
+ },
+ "oct_headroom_after": 3031.65,
+ "razors_after": {
+  "2026-08": 309.08,
+  "2026-07": 6428.19,
+  "2026-06": 1846.78
+ }
+}

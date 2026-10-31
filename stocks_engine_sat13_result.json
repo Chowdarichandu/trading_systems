@@ -1,0 +1,54 @@
+{
+ "anchors": {
+  "A": true,
+  "B": true,
+  "C": true
+ },
+ "fix": "SAT-13-P2F-R2 (5th component: R+2 reaction follow, 2.5% band, T125/S050, RF-1, AU-1/JU-1 name exclusions)",
+ "component": {
+  "trades": 34,
+  "net": 12912.48,
+  "h1": 13472.08,
+  "h2": -559.6,
+  "placebo_frozen_subset": -6542.33
+ },
+ "new_month_table": {
+  "2026-01": 18656.7,
+  "2026-02": 12689.65,
+  "2026-03": 18739.16,
+  "2026-04": 7602.73,
+  "2026-05": 32207.1,
+  "2026-06": 2036.67,
+  "2026-07": 2022.79,
+  "2026-08": 3571.43,
+  "2026-09": 17542.75,
+  "2026-10": 51107.02
+ },
+ "new_total": 166176.0,
+ "new_trades": 813,
+ "banked": true,
+ "deltas": {
+  "2026-01": 3933.93,
+  "2026-02": 4873.31,
+  "2026-03": 0.0,
+  "2026-04": -141.5,
+  "2026-05": 4806.34,
+  "2026-06": -2069.0,
+  "2026-07": -1069.59,
+  "2026-08": 2389.0,
+  "2026-09": 0.0,
+  "2026-10": 189.99
+ },
+ "ex_top3_before": 38278.28,
+ "ex_top3_after": 51853.86,
+ "legs": {
+  "a_total": true,
+  "b_all_green": true,
+  "c_oct": true,
+  "d_extop3": true,
+  "e_anchors_audit": true
+ },
+ "oct_headroom_after": 1107.02,
+ "august_after": 3571.43,
+ "n4_revisit_august_shortfall_after": 449.11
+}

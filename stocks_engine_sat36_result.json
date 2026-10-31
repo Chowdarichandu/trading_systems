@@ -1,0 +1,241 @@
+{
+ "anchors": {
+  "A": true,
+  "B": true
+ },
+ "fix": "SAT-36-F4-GLENMARK-SHORT (F4 excludes GLENMARK SHORT signals; stock x mechanism x DIRECTION exclusion -- F4 keeps GLENMARK LONG)",
+ "fix_id": "SAT-36-F4-GLENMARK-SHORT",
+ "slice": {
+  "comp": "F4",
+  "stock": "GLENMARK",
+  "dir": "SHORT",
+  "trades": 20,
+  "win": 10,
+  "net": -136.98,
+  "exp": -6.85,
+  "h1": 200.94,
+  "h2": -337.92,
+  "months": {
+   "2026-01": -390.0,
+   "2026-02": -859.68,
+   "2026-03": -142.71,
+   "2026-04": -1926.32,
+   "2026-05": 3519.65,
+   "2026-06": -1020.0,
+   "2026-08": -4744.78,
+   "2026-09": 4364.31,
+   "2026-10": 1062.55
+  },
+  "negative_months": 6,
+  "months_traded": 9,
+  "neg_months_ex_august": 5,
+  "aug_slice": -4744.78,
+  "oct_slice": 1062.55,
+  "worst_trade": {
+   "date": "2026-08-31",
+   "net": -2386.69,
+   "setup": "skill_or_breakdown"
+  },
+  "best_trade": {
+   "date": "2026-09-09",
+   "net": 3622.85,
+   "setup": "skill_or_breakdown"
+  },
+  "ex_carrier": 2249.71,
+  "net_ex_august": 4607.8,
+  "deleted_set": [
+   [
+    "2026-01-28",
+    "GLENMARK",
+    "SHORT",
+    -390.0
+   ],
+   [
+    "2026-02-02",
+    "GLENMARK",
+    "SHORT",
+    -1839.68
+   ],
+   [
+    "2026-02-03",
+    "GLENMARK",
+    "SHORT",
+    980.0
+   ],
+   [
+    "2026-03-04",
+    "GLENMARK",
+    "SHORT",
+    1850.0
+   ],
+   [
+    "2026-03-12",
+    "GLENMARK",
+    "SHORT",
+    -2152.71
+   ],
+   [
+    "2026-03-24",
+    "GLENMARK",
+    "SHORT",
+    160.0
+   ],
+   [
+    "2026-04-02",
+    "GLENMARK",
+    "SHORT",
+    -1926.32
+   ],
+   [
+    "2026-05-22",
+    "GLENMARK",
+    "SHORT",
+    3519.65
+   ],
+   [
+    "2026-06-03",
+    "GLENMARK",
+    "SHORT",
+    -530.0
+   ],
+   [
+    "2026-06-15",
+    "GLENMARK",
+    "SHORT",
+    760.0
+   ],
+   [
+    "2026-06-24",
+    "GLENMARK",
+    "SHORT",
+    -1250.0
+   ],
+   [
+    "2026-08-28",
+    "GLENMARK",
+    "SHORT",
+    -2358.09
+   ],
+   [
+    "2026-08-31",
+    "GLENMARK",
+    "SHORT",
+    -2386.69
+   ],
+   [
+    "2026-09-09",
+    "GLENMARK",
+    "SHORT",
+    3622.85
+   ],
+   [
+    "2026-09-16",
+    "GLENMARK",
+    "SHORT",
+    -2258.54
+   ],
+   [
+    "2026-09-24",
+    "GLENMARK",
+    "SHORT",
+    70.0
+   ],
+   [
+    "2026-09-25",
+    "GLENMARK",
+    "SHORT",
+    900.0
+   ],
+   [
+    "2026-09-30",
+    "GLENMARK",
+    "SHORT",
+    2030.0
+   ],
+   [
+    "2026-10-07",
+    "GLENMARK",
+    "SHORT",
+    -2207.05
+   ],
+   [
+    "2026-10-21",
+    "GLENMARK",
+    "SHORT",
+    3269.6
+   ]
+  ]
+ },
+ "quality_bar": {
+  "standard": "full-period <= -500",
+  "slice_net": -136.98,
+  "passes": false
+ },
+ "gate_legs": {
+  "a_total": true,
+  "b_all_green": true,
+  "c_oct": true,
+  "d_extop3": true,
+  "e_anchors": true
+ },
+ "gate_passes": true,
+ "union_month_table": {
+  "2026-01": 28926.25,
+  "2026-02": 19279.54,
+  "2026-03": 20727.12,
+  "2026-04": 11821.81,
+  "2026-05": 31361.21,
+  "2026-06": 4843.22,
+  "2026-07": 6965.93,
+  "2026-08": 5411.56,
+  "2026-09": 15198.2,
+  "2026-10": 53209.88
+ },
+ "union_total": 197744.72,
+ "union_trades": 643,
+ "deltas": {
+  "2026-01": 390.0,
+  "2026-02": 859.68,
+  "2026-03": 142.71,
+  "2026-04": 1926.32,
+  "2026-05": -3519.65,
+  "2026-06": 1020.0,
+  "2026-07": 0.0,
+  "2026-08": 4744.78,
+  "2026-09": -4364.31,
+  "2026-10": -1062.55
+ },
+ "ex_top3_before": 72518.25,
+ "ex_top3_after": 72655.23,
+ "top3_before": [
+  [
+   "TVSMOTOR",
+   74005.46
+  ],
+  [
+   "ASTRAL",
+   27847.79
+  ],
+  [
+   "OBEROIRLTY",
+   23236.24
+  ]
+ ],
+ "top3_after": [
+  [
+   "TVSMOTOR",
+   74005.46
+  ],
+  [
+   "ASTRAL",
+   27847.79
+  ],
+  [
+   "OBEROIRLTY",
+   23236.24
+  ]
+ ],
+ "oct_headroom_union": 3209.88,
+ "banked": false,
+ "verdict": "PRINCIPLED NO-BEAT -- gate passes, quality bar fails; run SATURATED (no_beat_cycles 3)"
+}

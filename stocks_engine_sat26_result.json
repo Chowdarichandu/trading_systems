@@ -1,0 +1,153 @@
+{
+ "anchors": {
+  "A": true,
+  "B": true
+ },
+ "fix": "SAT-26-F4-TATASTEEL-LONG (F4 excludes TATASTEEL LONG signals; stock x mechanism x direction exclusion)",
+ "fix_id": "SAT-26-F4-TATASTEEL-LONG",
+ "slice": {
+  "trades": 9,
+  "net": -775.38,
+  "win": 2,
+  "deleted_set": [
+   [
+    "2026-01-14",
+    "TATASTEEL",
+    "LONG",
+    239.49
+   ],
+   [
+    "2026-01-23",
+    "TATASTEEL",
+    "LONG",
+    -221.16
+   ],
+   [
+    "2026-02-20",
+    "TATASTEEL",
+    "LONG",
+    164.0
+   ],
+   [
+    "2026-04-28",
+    "TATASTEEL",
+    "LONG",
+    -245.92
+   ],
+   [
+    "2026-06-02",
+    "TATASTEEL",
+    "LONG",
+    -29.0
+   ],
+   [
+    "2026-06-08",
+    "TATASTEEL",
+    "LONG",
+    -234.64
+   ],
+   [
+    "2026-09-18",
+    "TATASTEEL",
+    "LONG",
+    -171.0
+   ],
+   [
+    "2026-09-25",
+    "TATASTEEL",
+    "LONG",
+    -220.15
+   ],
+   [
+    "2026-10-09",
+    "TATASTEEL",
+    "LONG",
+    -57.0
+   ]
+  ],
+  "months": {
+   "2026-01": 18.33,
+   "2026-02": 164.0,
+   "2026-04": -245.92,
+   "2026-06": -263.64,
+   "2026-09": -391.15,
+   "2026-10": -57.0
+  },
+  "aug_slice": 0.0,
+  "oct_slice": -57.0
+ },
+ "registry": {
+  "slices_total": 139,
+  "qualifying": 5
+ },
+ "new_month_table": {
+  "2026-01": 27847.38,
+  "2026-02": 17684.24,
+  "2026-03": 21915.66,
+  "2026-04": 8734.0,
+  "2026-05": 34504.27,
+  "2026-06": 3352.67,
+  "2026-07": 6428.19,
+  "2026-08": 714.28,
+  "2026-09": 19418.71,
+  "2026-10": 53042.1
+ },
+ "new_total": 193641.5,
+ "new_trades": 725,
+ "banked": true,
+ "deltas": {
+  "2026-01": -18.33,
+  "2026-02": -164.0,
+  "2026-03": 0.0,
+  "2026-04": 245.92,
+  "2026-05": 0.0,
+  "2026-06": 263.64,
+  "2026-07": 0.0,
+  "2026-08": 0.0,
+  "2026-09": 391.15,
+  "2026-10": 57.0
+ },
+ "ex_top3_before": 67776.63,
+ "ex_top3_after": 68552.01,
+ "top3_before": [
+  [
+   "TVSMOTOR",
+   74005.46
+  ],
+  [
+   "ASTRAL",
+   27847.79
+  ],
+  [
+   "OBEROIRLTY",
+   23236.24
+  ]
+ ],
+ "top3_after": [
+  [
+   "TVSMOTOR",
+   74005.46
+  ],
+  [
+   "ASTRAL",
+   27847.79
+  ],
+  [
+   "OBEROIRLTY",
+   23236.24
+  ]
+ ],
+ "legs": {
+  "a_total": true,
+  "b_all_green_razors": true,
+  "c_oct": true,
+  "d_extop3": true,
+  "e_anchors": true
+ },
+ "oct_headroom_after": 3042.1,
+ "razors_after": {
+  "2026-08": 714.28,
+  "2026-07": 6428.19,
+  "2026-06": 3352.67
+ }
+}

@@ -1,0 +1,1915 @@
+{
+ "axis_b_skips_entry_past_level": {
+  "B-REV-LONG": 0,
+  "B-REV-SHORT": 0,
+  "B-PBO-LONG": 0,
+  "B-PBO-SHORT": 0
+ },
+ "A-MOM-SQ": {
+  "pooled": {
+   "all": {
+    "trades": 4347,
+    "net": 18406.0,
+    "win_pct": 46.3,
+    "exp": 4.23
+   },
+   "jan_may": {
+    "trades": 2288,
+    "net": 167271.0,
+    "win_pct": 50.0,
+    "exp": 73.11
+   },
+   "jun_oct": {
+    "trades": 2059,
+    "net": -148865.0,
+    "win_pct": 42.1,
+    "exp": -72.3
+   },
+   "october": {
+    "trades": 462,
+    "net": -69924.0,
+    "win_pct": 39.2,
+    "exp": -151.35
+   },
+   "long": {
+    "trades": 1983,
+    "net": -157168.0,
+    "win_pct": 43.4,
+    "exp": -79.26
+   },
+   "short": {
+    "trades": 2364,
+    "net": 175574.0,
+    "win_pct": 48.7,
+    "exp": 74.27
+   },
+   "breadth": 16,
+   "stocks_total": 50,
+   "worst5": [
+    [
+     "MARUTI",
+     -37600.0
+    ],
+    [
+     "ASTRAL",
+     -13260.0
+    ],
+    [
+     "SUNPHARMA",
+     -7340.0
+    ],
+    [
+     "HINDUNILVR",
+     -6950.0
+    ],
+    [
+     "KOTAKBANK",
+     -6085.0
+    ]
+   ],
+   "best5": [
+    [
+     "ULTRACEMCO",
+     70780.0
+    ],
+    [
+     "EICHERMOT",
+     29050.0
+    ],
+    [
+     "LT",
+     17630.0
+    ],
+    [
+     "JSWSTEEL",
+     8700.0
+    ],
+    [
+     "OBEROIRLTY",
+     7880.0
+    ]
+   ],
+   "exits": {
+    "square_off": 4347
+   }
+  },
+  "home": {
+   "all": {
+    "trades": 2352,
+    "net": -25454.0,
+    "win_pct": 45.3,
+    "exp": -10.82
+   },
+   "jan_may": {
+    "trades": 1244,
+    "net": 18832.0,
+    "win_pct": 49.0,
+    "exp": 15.14
+   },
+   "jun_oct": {
+    "trades": 1108,
+    "net": -44286.0,
+    "win_pct": 41.2,
+    "exp": -39.97
+   },
+   "october": {
+    "trades": 229,
+    "net": -37661.0,
+    "win_pct": 36.2,
+    "exp": -164.46
+   },
+   "long": {
+    "trades": 1054,
+    "net": -6338.0,
+    "win_pct": 42.7,
+    "exp": -6.01
+   },
+   "short": {
+    "trades": 1298,
+    "net": -19116.0,
+    "win_pct": 47.5,
+    "exp": -14.73
+   },
+   "breadth": 9,
+   "stocks_total": 25,
+   "worst5": [
+    [
+     "ASTRAL",
+     -13260.0
+    ],
+    [
+     "HINDUNILVR",
+     -6950.0
+    ],
+    [
+     "INDUSTOWER",
+     -4850.0
+    ],
+    [
+     "RECLTD",
+     -4380.0
+    ],
+    [
+     "KALYANKJIL",
+     -3415.0
+    ]
+   ],
+   "best5": [
+    [
+     "OBEROIRLTY",
+     7880.0
+    ],
+    [
+     "GLENMARK",
+     5199.0
+    ],
+    [
+     "UNITDSPR",
+     3590.0
+    ],
+    [
+     "HINDCOPPER",
+     3220.0
+    ],
+    [
+     "HINDZINC",
+     2596.0
+    ]
+   ],
+   "exits": {
+    "square_off": 2352
+   }
+  },
+  "ext": {
+   "all": {
+    "trades": 1995,
+    "net": 43860.0,
+    "win_pct": 47.4,
+    "exp": 21.98
+   },
+   "jan_may": {
+    "trades": 1044,
+    "net": 148439.0,
+    "win_pct": 51.2,
+    "exp": 142.18
+   },
+   "jun_oct": {
+    "trades": 951,
+    "net": -104579.0,
+    "win_pct": 43.2,
+    "exp": -109.97
+   },
+   "october": {
+    "trades": 233,
+    "net": -32263.0,
+    "win_pct": 42.1,
+    "exp": -138.47
+   },
+   "long": {
+    "trades": 929,
+    "net": -150830.0,
+    "win_pct": 44.1,
+    "exp": -162.36
+   },
+   "short": {
+    "trades": 1066,
+    "net": 194690.0,
+    "win_pct": 50.3,
+    "exp": 182.64
+   },
+   "breadth": 7,
+   "stocks_total": 25,
+   "worst5": [
+    [
+     "MARUTI",
+     -37600.0
+    ],
+    [
+     "SUNPHARMA",
+     -7340.0
+    ],
+    [
+     "KOTAKBANK",
+     -6085.0
+    ],
+    [
+     "BHARTIARTL",
+     -5840.0
+    ],
+    [
+     "INFY",
+     -4915.0
+    ]
+   ],
+   "best5": [
+    [
+     "ULTRACEMCO",
+     70780.0
+    ],
+    [
+     "EICHERMOT",
+     29050.0
+    ],
+    [
+     "LT",
+     17630.0
+    ],
+    [
+     "JSWSTEEL",
+     8700.0
+    ],
+    [
+     "RELIANCE",
+     5040.0
+    ]
+   ],
+   "exits": {
+    "square_off": 1995
+   }
+  },
+  "gate": {
+   "both_halves_positive": false,
+   "breadth_ge_35": false,
+   "october_positive": false,
+   "audit_clean": true,
+   "control_beaten": true
+  },
+  "gate_pass": false
+ },
+ "A-MOM-T05": {
+  "pooled": {
+   "all": {
+    "trades": 4347,
+    "net": -91555.01,
+    "win_pct": 46.7,
+    "exp": -21.06
+   },
+   "jan_may": {
+    "trades": 2288,
+    "net": 19721.0,
+    "win_pct": 49.1,
+    "exp": 8.62
+   },
+   "jun_oct": {
+    "trades": 2059,
+    "net": -111276.01,
+    "win_pct": 44.0,
+    "exp": -54.04
+   },
+   "october": {
+    "trades": 462,
+    "net": -35540.7,
+    "win_pct": 42.0,
+    "exp": -76.93
+   },
+   "long": {
+    "trades": 1983,
+    "net": -170228.63,
+    "win_pct": 43.4,
+    "exp": -85.84
+   },
+   "short": {
+    "trades": 2364,
+    "net": 78673.62,
+    "win_pct": 49.5,
+    "exp": 33.28
+   },
+   "breadth": 11,
+   "stocks_total": 50,
+   "worst5": [
+    [
+     "MARUTI",
+     -38606.0
+    ],
+    [
+     "ASTRAL",
+     -10736.899999999998
+    ],
+    [
+     "BHARTIARTL",
+     -7808.950000000004
+    ],
+    [
+     "HINDUNILVR",
+     -7742.800000000003
+    ],
+    [
+     "BDL",
+     -7018.399999999998
+    ]
+   ],
+   "best5": [
+    [
+     "ULTRACEMCO",
+     33706.5
+    ],
+    [
+     "GLENMARK",
+     15190.639999999998
+    ],
+    [
+     "JSWSTEEL",
+     6887.65
+    ],
+    [
+     "LT",
+     6129.050000000003
+    ],
+    [
+     "UNITDSPR",
+     3926.5499999999993
+    ]
+   ],
+   "exits": {
+    "square_off": 2297,
+    "stop": 970,
+    "target": 1080
+   }
+  },
+  "home": {
+   "all": {
+    "trades": 2352,
+    "net": -52059.65,
+    "win_pct": 45.8,
+    "exp": -22.13
+   },
+   "jan_may": {
+    "trades": 1244,
+    "net": -18982.2,
+    "win_pct": 47.7,
+    "exp": -15.26
+   },
+   "jun_oct": {
+    "trades": 1108,
+    "net": -33077.45,
+    "win_pct": 43.7,
+    "exp": -29.85
+   },
+   "october": {
+    "trades": 229,
+    "net": -16285.97,
+    "win_pct": 41.0,
+    "exp": -71.12
+   },
+   "long": {
+    "trades": 1054,
+    "net": -31229.08,
+    "win_pct": 42.7,
+    "exp": -29.63
+   },
+   "short": {
+    "trades": 1298,
+    "net": -20830.57,
+    "win_pct": 48.4,
+    "exp": -16.05
+   },
+   "breadth": 3,
+   "stocks_total": 25,
+   "worst5": [
+    [
+     "ASTRAL",
+     -10736.899999999998
+    ],
+    [
+     "HINDUNILVR",
+     -7742.800000000003
+    ],
+    [
+     "BDL",
+     -7018.399999999998
+    ],
+    [
+     "GODREJCP",
+     -6119.669999999999
+    ],
+    [
+     "RECLTD",
+     -5002.860000000001
+    ]
+   ],
+   "best5": [
+    [
+     "GLENMARK",
+     15190.639999999998
+    ],
+    [
+     "UNITDSPR",
+     3926.5499999999993
+    ],
+    [
+     "VEDL",
+     194.58000000000015
+    ],
+    [
+     "HINDZINC",
+     -246.96999999999994
+    ],
+    [
+     "OBEROIRLTY",
+     -468.8500000000005
+    ]
+   ],
+   "exits": {
+    "square_off": 1085,
+    "stop": 591,
+    "target": 676
+   }
+  },
+  "ext": {
+   "all": {
+    "trades": 1995,
+    "net": -39495.36,
+    "win_pct": 47.7,
+    "exp": -19.8
+   },
+   "jan_may": {
+    "trades": 1044,
+    "net": 38703.2,
+    "win_pct": 50.8,
+    "exp": 37.07
+   },
+   "jun_oct": {
+    "trades": 951,
+    "net": -78198.56,
+    "win_pct": 44.4,
+    "exp": -82.23
+   },
+   "october": {
+    "trades": 233,
+    "net": -19254.73,
+    "win_pct": 42.9,
+    "exp": -82.64
+   },
+   "long": {
+    "trades": 929,
+    "net": -138999.55,
+    "win_pct": 44.1,
+    "exp": -149.62
+   },
+   "short": {
+    "trades": 1066,
+    "net": 99504.19,
+    "win_pct": 50.8,
+    "exp": 93.34
+   },
+   "breadth": 8,
+   "stocks_total": 25,
+   "worst5": [
+    [
+     "MARUTI",
+     -38606.0
+    ],
+    [
+     "BHARTIARTL",
+     -7808.950000000004
+    ],
+    [
+     "KOTAKBANK",
+     -6993.800000000002
+    ],
+    [
+     "SUNPHARMA",
+     -4885.500000000001
+    ],
+    [
+     "INFY",
+     -4641.21
+    ]
+   ],
+   "best5": [
+    [
+     "ULTRACEMCO",
+     33706.5
+    ],
+    [
+     "JSWSTEEL",
+     6887.65
+    ],
+    [
+     "LT",
+     6129.050000000003
+    ],
+    [
+     "TCS",
+     3233.700000000001
+    ],
+    [
+     "EICHERMOT",
+     1603.75
+    ]
+   ],
+   "exits": {
+    "square_off": 1212,
+    "target": 404,
+    "stop": 379
+   }
+  },
+  "gate": {
+   "both_halves_positive": false,
+   "breadth_ge_35": false,
+   "october_positive": false,
+   "audit_clean": true,
+   "control_beaten": true
+  },
+  "gate_pass": false
+ },
+ "A-FADE-SQ": {
+  "pooled": {
+   "all": {
+    "trades": 4347,
+    "net": -366166.0,
+    "win_pct": 38.6,
+    "exp": -84.23
+   },
+   "jan_may": {
+    "trades": 2288,
+    "net": -350311.0,
+    "win_pct": 36.7,
+    "exp": -153.11
+   },
+   "jun_oct": {
+    "trades": 2059,
+    "net": -15855.0,
+    "win_pct": 40.7,
+    "exp": -7.7
+   },
+   "october": {
+    "trades": 462,
+    "net": 32964.0,
+    "win_pct": 45.5,
+    "exp": 71.35
+   },
+   "long": {
+    "trades": 2364,
+    "net": -364694.0,
+    "win_pct": 36.5,
+    "exp": -154.27
+   },
+   "short": {
+    "trades": 1983,
+    "net": -1472.0,
+    "win_pct": 41.0,
+    "exp": -0.74
+   },
+   "breadth": 4,
+   "stocks_total": 50,
+   "worst5": [
+    [
+     "ULTRACEMCO",
+     -76220.0
+    ],
+    [
+     "EICHERMOT",
+     -35850.0
+    ],
+    [
+     "LT",
+     -23710.0
+    ],
+    [
+     "OBEROIRLTY",
+     -16040.0
+    ],
+    [
+     "JSWSTEEL",
+     -14540.0
+    ]
+   ],
+   "best5": [
+    [
+     "MARUTI",
+     31200.0
+    ],
+    [
+     "ASTRAL",
+     5100.0
+    ],
+    [
+     "SUNPHARMA",
+     1660.0
+    ],
+    [
+     "HINDUNILVR",
+     1430.0
+    ],
+    [
+     "KOTAKBANK",
+     -635.0
+    ]
+   ],
+   "exits": {
+    "square_off": 4347
+   }
+  },
+  "home": {
+   "all": {
+    "trades": 2352,
+    "net": -162706.0,
+    "win_pct": 35.5,
+    "exp": -69.18
+   },
+   "jan_may": {
+    "trades": 1244,
+    "net": -118352.0,
+    "win_pct": 34.8,
+    "exp": -95.14
+   },
+   "jun_oct": {
+    "trades": 1108,
+    "net": -44354.0,
+    "win_pct": 36.2,
+    "exp": -40.03
+   },
+   "october": {
+    "trades": 229,
+    "net": 19341.0,
+    "win_pct": 42.8,
+    "exp": 84.46
+   },
+   "long": {
+    "trades": 1298,
+    "net": -84724.0,
+    "win_pct": 34.4,
+    "exp": -65.27
+   },
+   "short": {
+    "trades": 1054,
+    "net": -77982.0,
+    "win_pct": 36.7,
+    "exp": -73.99
+   },
+   "breadth": 2,
+   "stocks_total": 25,
+   "worst5": [
+    [
+     "OBEROIRLTY",
+     -16040.0
+    ],
+    [
+     "GLENMARK",
+     -14239.0
+    ],
+    [
+     "HINDCOPPER",
+     -11780.0
+    ],
+    [
+     "UNITDSPR",
+     -11750.0
+    ],
+    [
+     "VEDL",
+     -11574.0
+    ]
+   ],
+   "best5": [
+    [
+     "ASTRAL",
+     5100.0
+    ],
+    [
+     "HINDUNILVR",
+     1430.0
+    ],
+    [
+     "INDUSTOWER",
+     -2430.0
+    ],
+    [
+     "NHPC",
+     -3086.0
+    ],
+    [
+     "RECLTD",
+     -3860.0
+    ]
+   ],
+   "exits": {
+    "square_off": 2352
+   }
+  },
+  "ext": {
+   "all": {
+    "trades": 1995,
+    "net": -203460.0,
+    "win_pct": 42.3,
+    "exp": -101.98
+   },
+   "jan_may": {
+    "trades": 1044,
+    "net": -231959.0,
+    "win_pct": 39.0,
+    "exp": -222.18
+   },
+   "jun_oct": {
+    "trades": 951,
+    "net": 28499.0,
+    "win_pct": 46.0,
+    "exp": 29.97
+   },
+   "october": {
+    "trades": 233,
+    "net": 13623.0,
+    "win_pct": 48.1,
+    "exp": 58.47
+   },
+   "long": {
+    "trades": 1066,
+    "net": -279970.0,
+    "win_pct": 39.1,
+    "exp": -262.64
+   },
+   "short": {
+    "trades": 929,
+    "net": 76510.0,
+    "win_pct": 46.0,
+    "exp": 82.36
+   },
+   "breadth": 2,
+   "stocks_total": 25,
+   "worst5": [
+    [
+     "ULTRACEMCO",
+     -76220.0
+    ],
+    [
+     "EICHERMOT",
+     -35850.0
+    ],
+    [
+     "LT",
+     -23710.0
+    ],
+    [
+     "JSWSTEEL",
+     -14540.0
+    ],
+    [
+     "RELIANCE",
+     -10560.0
+    ]
+   ],
+   "best5": [
+    [
+     "MARUTI",
+     31200.0
+    ],
+    [
+     "SUNPHARMA",
+     1660.0
+    ],
+    [
+     "KOTAKBANK",
+     -635.0
+    ],
+    [
+     "BHARTIARTL",
+     -1200.0
+    ],
+    [
+     "CIPLA",
+     -1319.0
+    ]
+   ],
+   "exits": {
+    "square_off": 1995
+   }
+  }
+ },
+ "B-REV-LONG": {
+  "pooled": {
+   "all": {
+    "trades": 581,
+    "net": -51514.11,
+    "win_pct": 38.9,
+    "exp": -88.66
+   },
+   "jan_may": {
+    "trades": 349,
+    "net": -32642.04,
+    "win_pct": 38.7,
+    "exp": -93.53
+   },
+   "jun_oct": {
+    "trades": 232,
+    "net": -18872.07,
+    "win_pct": 39.2,
+    "exp": -81.35
+   },
+   "october": {
+    "trades": 70,
+    "net": -1387.5,
+    "win_pct": 38.6,
+    "exp": -19.82
+   },
+   "long": {
+    "trades": 581,
+    "net": -51514.11,
+    "win_pct": 38.9,
+    "exp": -88.66
+   },
+   "short": {
+    "trades": 0,
+    "net": 0.0,
+    "win_pct": 0.0,
+    "exp": 0.0
+   },
+   "breadth": 17,
+   "stocks_total": 50,
+   "worst5": [
+    [
+     "MARUTI",
+     -21143.5
+    ],
+    [
+     "LT",
+     -7780.45
+    ],
+    [
+     "BDL",
+     -6625.880000000001
+    ],
+    [
+     "M&M",
+     -4357.17
+    ],
+    [
+     "HINDCOPPER",
+     -3597.67
+    ]
+   ],
+   "best5": [
+    [
+     "TITAN",
+     7897.73
+    ],
+    [
+     "GLENMARK",
+     3468.6000000000004
+    ],
+    [
+     "ULTRACEMCO",
+     2878.5
+    ],
+    [
+     "GODREJCP",
+     2056.88
+    ],
+    [
+     "HINDALCO",
+     1873.3000000000002
+    ]
+   ],
+   "exits": {
+    "target": 158,
+    "stop": 304,
+    "square_off": 119
+   }
+  },
+  "home": {
+   "all": {
+    "trades": 402,
+    "net": -19673.2,
+    "win_pct": 38.6,
+    "exp": -48.94
+   },
+   "jan_may": {
+    "trades": 240,
+    "net": -11686.74,
+    "win_pct": 39.6,
+    "exp": -48.69
+   },
+   "jun_oct": {
+    "trades": 162,
+    "net": -7986.46,
+    "win_pct": 37.0,
+    "exp": -49.3
+   },
+   "october": {
+    "trades": 46,
+    "net": -722.84,
+    "win_pct": 30.4,
+    "exp": -15.71
+   },
+   "long": {
+    "trades": 402,
+    "net": -19673.2,
+    "win_pct": 38.6,
+    "exp": -48.94
+   },
+   "short": {
+    "trades": 0,
+    "net": 0.0,
+    "win_pct": 0.0,
+    "exp": 0.0
+   },
+   "breadth": 9,
+   "stocks_total": 25,
+   "worst5": [
+    [
+     "BDL",
+     -6625.880000000001
+    ],
+    [
+     "HINDCOPPER",
+     -3597.67
+    ],
+    [
+     "HINDZINC",
+     -3435.2999999999997
+    ],
+    [
+     "TVSMOTOR",
+     -2453.4399999999996
+    ],
+    [
+     "PFC",
+     -2042.2700000000002
+    ]
+   ],
+   "best5": [
+    [
+     "GLENMARK",
+     3468.6000000000004
+    ],
+    [
+     "GODREJCP",
+     2056.88
+    ],
+    [
+     "HINDALCO",
+     1873.3000000000002
+    ],
+    [
+     "OIL",
+     325.54999999999984
+    ],
+    [
+     "UNITDSPR",
+     324.65
+    ]
+   ],
+   "exits": {
+    "target": 116,
+    "stop": 212,
+    "square_off": 74
+   }
+  },
+  "ext": {
+   "all": {
+    "trades": 179,
+    "net": -31840.91,
+    "win_pct": 39.7,
+    "exp": -177.88
+   },
+   "jan_may": {
+    "trades": 109,
+    "net": -20955.3,
+    "win_pct": 36.7,
+    "exp": -192.25
+   },
+   "jun_oct": {
+    "trades": 70,
+    "net": -10885.61,
+    "win_pct": 44.3,
+    "exp": -155.51
+   },
+   "october": {
+    "trades": 24,
+    "net": -664.66,
+    "win_pct": 54.2,
+    "exp": -27.69
+   },
+   "long": {
+    "trades": 179,
+    "net": -31840.91,
+    "win_pct": 39.7,
+    "exp": -177.88
+   },
+   "short": {
+    "trades": 0,
+    "net": 0.0,
+    "win_pct": 0.0,
+    "exp": 0.0
+   },
+   "breadth": 8,
+   "stocks_total": 25,
+   "worst5": [
+    [
+     "MARUTI",
+     -21143.5
+    ],
+    [
+     "LT",
+     -7780.45
+    ],
+    [
+     "M&M",
+     -4357.17
+    ],
+    [
+     "HCLTECH",
+     -2677.0
+    ],
+    [
+     "NESTLEIND",
+     -1435.4500000000003
+    ]
+   ],
+   "best5": [
+    [
+     "TITAN",
+     7897.73
+    ],
+    [
+     "ULTRACEMCO",
+     2878.5
+    ],
+    [
+     "RELIANCE",
+     1642.13
+    ],
+    [
+     "AXISBANK",
+     684.56
+    ],
+    [
+     "GRASIM",
+     172.80000000000018
+    ]
+   ],
+   "exits": {
+    "target": 42,
+    "stop": 92,
+    "square_off": 45
+   }
+  },
+  "gate": {
+   "both_halves_positive": false,
+   "breadth_ge_35": false,
+   "october_positive": false,
+   "audit_clean": true,
+   "control_beaten": true
+  },
+  "gate_pass": false
+ },
+ "B-REV-SHORT": {
+  "pooled": {
+   "all": {
+    "trades": 535,
+    "net": -32431.8,
+    "win_pct": 36.4,
+    "exp": -60.62
+   },
+   "jan_may": {
+    "trades": 360,
+    "net": -41544.67,
+    "win_pct": 33.3,
+    "exp": -115.4
+   },
+   "jun_oct": {
+    "trades": 175,
+    "net": 9112.87,
+    "win_pct": 42.9,
+    "exp": 52.07
+   },
+   "october": {
+    "trades": 29,
+    "net": 2042.05,
+    "win_pct": 34.5,
+    "exp": 70.42
+   },
+   "long": {
+    "trades": 0,
+    "net": 0.0,
+    "win_pct": 0.0,
+    "exp": 0.0
+   },
+   "short": {
+    "trades": 535,
+    "net": -32431.8,
+    "win_pct": 36.4,
+    "exp": -60.62
+   },
+   "breadth": 14,
+   "stocks_total": 50,
+   "worst5": [
+    [
+     "ULTRACEMCO",
+     -12745.5
+    ],
+    [
+     "LT",
+     -11837.45
+    ],
+    [
+     "GLENMARK",
+     -5361.25
+    ],
+    [
+     "DRREDDY",
+     -5275.18
+    ],
+    [
+     "UNITDSPR",
+     -4964.6
+    ]
+   ],
+   "best5": [
+    [
+     "MARUTI",
+     16650.25
+    ],
+    [
+     "TVSMOTOR",
+     14922.940000000002
+    ],
+    [
+     "EICHERMOT",
+     11102.75
+    ],
+    [
+     "VEDL",
+     3144.7400000000007
+    ],
+    [
+     "HINDUNILVR",
+     1970.04
+    ]
+   ],
+   "exits": {
+    "stop": 286,
+    "square_off": 104,
+    "target": 145
+   }
+  },
+  "home": {
+   "all": {
+    "trades": 344,
+    "net": -12640.8,
+    "win_pct": 36.9,
+    "exp": -36.75
+   },
+   "jan_may": {
+    "trades": 227,
+    "net": -11029.37,
+    "win_pct": 35.2,
+    "exp": -48.59
+   },
+   "jun_oct": {
+    "trades": 117,
+    "net": -1611.43,
+    "win_pct": 40.2,
+    "exp": -13.77
+   },
+   "october": {
+    "trades": 19,
+    "net": 1219.89,
+    "win_pct": 26.3,
+    "exp": 64.2
+   },
+   "long": {
+    "trades": 0,
+    "net": 0.0,
+    "win_pct": 0.0,
+    "exp": 0.0
+   },
+   "short": {
+    "trades": 344,
+    "net": -12640.8,
+    "win_pct": 36.9,
+    "exp": -36.75
+   },
+   "breadth": 6,
+   "stocks_total": 25,
+   "worst5": [
+    [
+     "GLENMARK",
+     -5361.25
+    ],
+    [
+     "UNITDSPR",
+     -4964.6
+    ],
+    [
+     "BDL",
+     -4314.299999999999
+    ],
+    [
+     "ASTRAL",
+     -3885.0600000000004
+    ],
+    [
+     "HINDZINC",
+     -2742.5
+    ]
+   ],
+   "best5": [
+    [
+     "TVSMOTOR",
+     14922.940000000002
+    ],
+    [
+     "VEDL",
+     3144.7400000000007
+    ],
+    [
+     "HINDUNILVR",
+     1970.04
+    ],
+    [
+     "OBEROIRLTY",
+     407.51999999999975
+    ],
+    [
+     "PFC",
+     310.2000000000001
+    ]
+   ],
+   "exits": {
+    "stop": 186,
+    "square_off": 55,
+    "target": 103
+   }
+  },
+  "ext": {
+   "all": {
+    "trades": 191,
+    "net": -19791.0,
+    "win_pct": 35.6,
+    "exp": -103.62
+   },
+   "jan_may": {
+    "trades": 133,
+    "net": -30515.3,
+    "win_pct": 30.1,
+    "exp": -229.44
+   },
+   "jun_oct": {
+    "trades": 58,
+    "net": 10724.3,
+    "win_pct": 48.3,
+    "exp": 184.9
+   },
+   "october": {
+    "trades": 10,
+    "net": 822.16,
+    "win_pct": 50.0,
+    "exp": 82.22
+   },
+   "long": {
+    "trades": 0,
+    "net": 0.0,
+    "win_pct": 0.0,
+    "exp": 0.0
+   },
+   "short": {
+    "trades": 191,
+    "net": -19791.0,
+    "win_pct": 35.6,
+    "exp": -103.62
+   },
+   "breadth": 8,
+   "stocks_total": 25,
+   "worst5": [
+    [
+     "ULTRACEMCO",
+     -12745.5
+    ],
+    [
+     "LT",
+     -11837.45
+    ],
+    [
+     "DRREDDY",
+     -5275.18
+    ],
+    [
+     "TITAN",
+     -3696.6500000000005
+    ],
+    [
+     "AXISBANK",
+     -2579.7000000000003
+    ]
+   ],
+   "best5": [
+    [
+     "MARUTI",
+     16650.25
+    ],
+    [
+     "EICHERMOT",
+     11102.75
+    ],
+    [
+     "BHARTIARTL",
+     1208.7
+    ],
+    [
+     "CIPLA",
+     1190.6
+    ],
+    [
+     "INFY",
+     1063.3600000000001
+    ]
+   ],
+   "exits": {
+    "square_off": 49,
+    "target": 42,
+    "stop": 100
+   }
+  },
+  "gate": {
+   "both_halves_positive": false,
+   "breadth_ge_35": false,
+   "october_positive": true,
+   "audit_clean": true,
+   "control_beaten": false
+  },
+  "gate_pass": false
+ },
+ "B-PBO-LONG": {
+  "pooled": {
+   "all": {
+    "trades": 2693,
+    "net": -181352.53,
+    "win_pct": 39.1,
+    "exp": -67.34
+   },
+   "jan_may": {
+    "trades": 1445,
+    "net": -85612.21,
+    "win_pct": 41.5,
+    "exp": -59.25
+   },
+   "jun_oct": {
+    "trades": 1248,
+    "net": -95740.32,
+    "win_pct": 36.4,
+    "exp": -76.71
+   },
+   "october": {
+    "trades": 272,
+    "net": -38731.97,
+    "win_pct": 32.0,
+    "exp": -142.4
+   },
+   "long": {
+    "trades": 2693,
+    "net": -181352.53,
+    "win_pct": 39.1,
+    "exp": -67.34
+   },
+   "short": {
+    "trades": 0,
+    "net": 0.0,
+    "win_pct": 0.0,
+    "exp": 0.0
+   },
+   "breadth": 12,
+   "stocks_total": 50,
+   "worst5": [
+    [
+     "MARUTI",
+     -124647.0
+    ],
+    [
+     "M&M",
+     -20894.879999999997
+    ],
+    [
+     "SUNPHARMA",
+     -10917.59
+    ],
+    [
+     "HINDUNILVR",
+     -10862.900000000001
+    ],
+    [
+     "UNITDSPR",
+     -10788.920000000002
+    ]
+   ],
+   "best5": [
+    [
+     "EICHERMOT",
+     36259.66000000001
+    ],
+    [
+     "TITAN",
+     34170.47999999998
+    ],
+    [
+     "ULTRACEMCO",
+     19875.0
+    ],
+    [
+     "TVSMOTOR",
+     7438.100000000001
+    ],
+    [
+     "DRREDDY",
+     6731.1900000000005
+    ]
+   ],
+   "exits": {
+    "target": 774,
+    "stop": 1351,
+    "square_off": 568
+   }
+  },
+  "home": {
+   "all": {
+    "trades": 1503,
+    "net": -81659.73,
+    "win_pct": 36.8,
+    "exp": -54.33
+   },
+   "jan_may": {
+    "trades": 777,
+    "net": -16094.74,
+    "win_pct": 41.4,
+    "exp": -20.71
+   },
+   "jun_oct": {
+    "trades": 726,
+    "net": -65564.99,
+    "win_pct": 31.8,
+    "exp": -90.31
+   },
+   "october": {
+    "trades": 157,
+    "net": -20269.1,
+    "win_pct": 27.4,
+    "exp": -129.1
+   },
+   "long": {
+    "trades": 1503,
+    "net": -81659.73,
+    "win_pct": 36.8,
+    "exp": -54.33
+   },
+   "short": {
+    "trades": 0,
+    "net": 0.0,
+    "win_pct": 0.0,
+    "exp": 0.0
+   },
+   "breadth": 4,
+   "stocks_total": 25,
+   "worst5": [
+    [
+     "HINDUNILVR",
+     -10862.900000000001
+    ],
+    [
+     "UNITDSPR",
+     -10788.920000000002
+    ],
+    [
+     "BDL",
+     -9393.859999999997
+    ],
+    [
+     "ASTRAL",
+     -9228.34
+    ],
+    [
+     "IRCTC",
+     -6678.25
+    ]
+   ],
+   "best5": [
+    [
+     "TVSMOTOR",
+     7438.100000000001
+    ],
+    [
+     "GLENMARK",
+     3839.28
+    ],
+    [
+     "OBEROIRLTY",
+     3291.8599999999997
+    ],
+    [
+     "HINDZINC",
+     1218.3900000000006
+    ],
+    [
+     "INDUSTOWER",
+     -1857.9499999999998
+    ]
+   ],
+   "exits": {
+    "target": 440,
+    "stop": 780,
+    "square_off": 283
+   }
+  },
+  "ext": {
+   "all": {
+    "trades": 1190,
+    "net": -99692.8,
+    "win_pct": 42.1,
+    "exp": -83.78
+   },
+   "jan_may": {
+    "trades": 668,
+    "net": -69517.47,
+    "win_pct": 41.6,
+    "exp": -104.07
+   },
+   "jun_oct": {
+    "trades": 522,
+    "net": -30175.33,
+    "win_pct": 42.7,
+    "exp": -57.81
+   },
+   "october": {
+    "trades": 115,
+    "net": -18462.87,
+    "win_pct": 38.3,
+    "exp": -160.55
+   },
+   "long": {
+    "trades": 1190,
+    "net": -99692.8,
+    "win_pct": 42.1,
+    "exp": -83.78
+   },
+   "short": {
+    "trades": 0,
+    "net": 0.0,
+    "win_pct": 0.0,
+    "exp": 0.0
+   },
+   "breadth": 8,
+   "stocks_total": 25,
+   "worst5": [
+    [
+     "MARUTI",
+     -124647.0
+    ],
+    [
+     "M&M",
+     -20894.879999999997
+    ],
+    [
+     "SUNPHARMA",
+     -10917.59
+    ],
+    [
+     "RELIANCE",
+     -9997.569999999998
+    ],
+    [
+     "AXISBANK",
+     -8735.3
+    ]
+   ],
+   "best5": [
+    [
+     "EICHERMOT",
+     36259.66000000001
+    ],
+    [
+     "TITAN",
+     34170.47999999998
+    ],
+    [
+     "ULTRACEMCO",
+     19875.0
+    ],
+    [
+     "DRREDDY",
+     6731.1900000000005
+    ],
+    [
+     "LT",
+     6165.150000000004
+    ]
+   ],
+   "exits": {
+    "stop": 571,
+    "square_off": 285,
+    "target": 334
+   }
+  }
+ },
+ "B-PBO-SHORT": {
+  "pooled": {
+   "all": {
+    "trades": 2386,
+    "net": 75371.13,
+    "win_pct": 44.0,
+    "exp": 31.59
+   },
+   "jan_may": {
+    "trades": 1369,
+    "net": 44337.79,
+    "win_pct": 42.2,
+    "exp": 32.39
+   },
+   "jun_oct": {
+    "trades": 1017,
+    "net": 31033.34,
+    "win_pct": 46.5,
+    "exp": 30.51
+   },
+   "october": {
+    "trades": 230,
+    "net": 21723.81,
+    "win_pct": 52.2,
+    "exp": 94.45
+   },
+   "long": {
+    "trades": 0,
+    "net": 0.0,
+    "win_pct": 0.0,
+    "exp": 0.0
+   },
+   "short": {
+    "trades": 2386,
+    "net": 75371.13,
+    "win_pct": 44.0,
+    "exp": 31.59
+   },
+   "breadth": 20,
+   "stocks_total": 50,
+   "worst5": [
+    [
+     "TVSMOTOR",
+     -16601.61
+    ],
+    [
+     "AXISBANK",
+     -9922.39
+    ],
+    [
+     "GRASIM",
+     -8623.960000000003
+    ],
+    [
+     "ICICIBANK",
+     -7056.25
+    ],
+    [
+     "OBEROIRLTY",
+     -5897.419999999998
+    ]
+   ],
+   "best5": [
+    [
+     "MARUTI",
+     105178.0
+    ],
+    [
+     "M&M",
+     18392.81
+    ],
+    [
+     "GLENMARK",
+     9229.880000000001
+    ],
+    [
+     "TCS",
+     7169.779999999997
+    ],
+    [
+     "JSWSTEEL",
+     6044.309999999997
+    ]
+   ],
+   "exits": {
+    "stop": 1096,
+    "square_off": 519,
+    "target": 771
+   }
+  },
+  "home": {
+   "all": {
+    "trades": 1319,
+    "net": -36803.04,
+    "win_pct": 43.2,
+    "exp": -27.9
+   },
+   "jan_may": {
+    "trades": 777,
+    "net": -27323.17,
+    "win_pct": 41.3,
+    "exp": -35.16
+   },
+   "jun_oct": {
+    "trades": 542,
+    "net": -9479.87,
+    "win_pct": 45.9,
+    "exp": -17.49
+   },
+   "october": {
+    "trades": 104,
+    "net": -4984.97,
+    "win_pct": 51.0,
+    "exp": -47.93
+   },
+   "long": {
+    "trades": 0,
+    "net": 0.0,
+    "win_pct": 0.0,
+    "exp": 0.0
+   },
+   "short": {
+    "trades": 1319,
+    "net": -36803.04,
+    "win_pct": 43.2,
+    "exp": -27.9
+   },
+   "breadth": 5,
+   "stocks_total": 25,
+   "worst5": [
+    [
+     "TVSMOTOR",
+     -16601.61
+    ],
+    [
+     "OBEROIRLTY",
+     -5897.419999999998
+    ],
+    [
+     "BDL",
+     -4458.15
+    ],
+    [
+     "RECLTD",
+     -4042.0699999999997
+    ],
+    [
+     "KALYANKJIL",
+     -3378.600000000001
+    ]
+   ],
+   "best5": [
+    [
+     "GLENMARK",
+     9229.880000000001
+    ],
+    [
+     "HINDCOPPER",
+     4851.99
+    ],
+    [
+     "HINDALCO",
+     2986.5599999999995
+    ],
+    [
+     "UNITDSPR",
+     693.7300000000005
+    ],
+    [
+     "HINDUNILVR",
+     455.22
+    ]
+   ],
+   "exits": {
+    "stop": 636,
+    "square_off": 237,
+    "target": 446
+   }
+  },
+  "ext": {
+   "all": {
+    "trades": 1067,
+    "net": 112174.17,
+    "win_pct": 45.1,
+    "exp": 105.13
+   },
+   "jan_may": {
+    "trades": 592,
+    "net": 71660.96,
+    "win_pct": 43.4,
+    "exp": 121.05
+   },
+   "jun_oct": {
+    "trades": 475,
+    "net": 40513.21,
+    "win_pct": 47.2,
+    "exp": 85.29
+   },
+   "october": {
+    "trades": 126,
+    "net": 26708.78,
+    "win_pct": 53.2,
+    "exp": 211.97
+   },
+   "long": {
+    "trades": 0,
+    "net": 0.0,
+    "win_pct": 0.0,
+    "exp": 0.0
+   },
+   "short": {
+    "trades": 1067,
+    "net": 112174.17,
+    "win_pct": 45.1,
+    "exp": 105.13
+   },
+   "breadth": 15,
+   "stocks_total": 25,
+   "worst5": [
+    [
+     "AXISBANK",
+     -9922.39
+    ],
+    [
+     "GRASIM",
+     -8623.960000000003
+    ],
+    [
+     "ICICIBANK",
+     -7056.25
+    ],
+    [
+     "ULTRACEMCO",
+     -5512.25
+    ],
+    [
+     "BAJFINANCE",
+     -4340.86
+    ]
+   ],
+   "best5": [
+    [
+     "MARUTI",
+     105178.0
+    ],
+    [
+     "M&M",
+     18392.81
+    ],
+    [
+     "TCS",
+     7169.779999999997
+    ],
+    [
+     "JSWSTEEL",
+     6044.309999999997
+    ],
+    [
+     "SUNPHARMA",
+     4660.759999999999
+    ]
+   ],
+   "exits": {
+    "target": 325,
+    "square_off": 282,
+    "stop": 460
+   }
+  }
+ },
+ "axis_b_combined": {
+  "rev_net": -83945.91,
+  "pbo_net": -105981.4
+ }
+}

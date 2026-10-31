@@ -1,0 +1,411 @@
+{
+ "F1_band_cap": {
+  "cfg": {
+   "band_hi": 1.0
+  },
+  "book": {
+   "trades": 1020,
+   "net": 12582.87,
+   "jan_may": -12317.38,
+   "jun_sep": -11265.98,
+   "jan_sep": -23583.36,
+   "october": 36166.23,
+   "months": {
+    "2026-01": {
+     "trades": 101,
+     "net": 8928.4
+    },
+    "2026-02": {
+     "trades": 103,
+     "net": -10326.65
+    },
+    "2026-03": {
+     "trades": 127,
+     "net": 2670.25
+    },
+    "2026-04": {
+     "trades": 100,
+     "net": -13146.88
+    },
+    "2026-05": {
+     "trades": 97,
+     "net": -442.5
+    },
+    "2026-06": {
+     "trades": 112,
+     "net": -12334.28
+    },
+    "2026-07": {
+     "trades": 96,
+     "net": -3207.93
+    },
+    "2026-08": {
+     "trades": 85,
+     "net": -8163.92
+    },
+    "2026-09": {
+     "trades": 82,
+     "net": 12440.15
+    },
+    "2026-10": {
+     "trades": 117,
+     "net": 36166.23
+    }
+   },
+   "breadth_full": 11,
+   "breadth_jansep": 11,
+   "exp": 12.34,
+   "per_stock": {
+    "TVSMOTOR": 28127.21,
+    "ASTRAL": 9217.12,
+    "KALYANKJIL": 6136.51,
+    "HINDALCO": 4459.42,
+    "PFC": 4072.2,
+    "VEDL": 3738.29,
+    "INDUSTOWER": 3454.58,
+    "BDL": 2337.46,
+    "RECLTD": 1198.93,
+    "IRCTC": 1193.78,
+    "HINDCOPPER": 684.65,
+    "HINDZINC": -155.69,
+    "ITC": -188.76,
+    "WIPRO": -423.93,
+    "NTPC": -525.17,
+    "NHPC": -1503.35,
+    "TATASTEEL": -1603.68,
+    "NATIONALUM": -1761.26,
+    "HINDUNILVR": -2849.82,
+    "HDFCBANK": -3053.37,
+    "UNITDSPR": -3071.88,
+    "GODREJCP": -3198.61,
+    "OIL": -5492.97,
+    "OBEROIRLTY": -8395.61,
+    "GLENMARK": -19813.18
+   }
+  },
+  "placebo_jan_sep": {
+   "trades": 522,
+   "net": -5011.87,
+   "jan_sep": -5011.87
+  },
+  "audit": {
+   "trades": 1542,
+   "violations": 0
+  },
+  "legs": {
+   "oct_ge_25000": true,
+   "both_halves_positive": false,
+   "audit_clean": true,
+   "beats_own_placebo": false,
+   "breadth_ge_15": false,
+   "ACCEPTED": false
+  }
+ },
+ "F2_regime_below50": {
+  "cfg": {
+   "regime": "below50"
+  },
+  "book": {
+   "trades": 1161,
+   "net": -6569.35,
+   "jan_may": -38257.57,
+   "jun_sep": -2436.21,
+   "jan_sep": -40693.78,
+   "october": 34124.43,
+   "months": {
+    "2026-01": {
+     "trades": 140,
+     "net": 2502.95
+    },
+    "2026-02": {
+     "trades": 142,
+     "net": -9407.0
+    },
+    "2026-03": {
+     "trades": 216,
+     "net": -4413.11
+    },
+    "2026-04": {
+     "trades": 153,
+     "net": -15458.59
+    },
+    "2026-05": {
+     "trades": 109,
+     "net": -11481.82
+    },
+    "2026-06": {
+     "trades": 88,
+     "net": -7264.81
+    },
+    "2026-07": {
+     "trades": 5,
+     "net": -1130.92
+    },
+    "2026-08": {
+     "trades": 26,
+     "net": -3534.95
+    },
+    "2026-09": {
+     "trades": 100,
+     "net": 9494.47
+    },
+    "2026-10": {
+     "trades": 182,
+     "net": 34124.43
+    }
+   },
+   "breadth_full": 11,
+   "breadth_jansep": 7,
+   "exp": -5.66,
+   "per_stock": {
+    "TVSMOTOR": 16549.28,
+    "ASTRAL": 11732.71,
+    "PFC": 3061.23,
+    "KALYANKJIL": 2451.55,
+    "HINDUNILVR": 1617.67,
+    "RECLTD": 1388.87,
+    "HINDCOPPER": 1227.53,
+    "INDUSTOWER": 726.62,
+    "NTPC": 267.87,
+    "BDL": 163.56,
+    "WIPRO": 146.41,
+    "ITC": -46.46,
+    "HINDALCO": -666.04,
+    "HDFCBANK": -753.01,
+    "IRCTC": -998.97,
+    "TATASTEEL": -1125.65,
+    "GODREJCP": -1341.13,
+    "VEDL": -1350.29,
+    "HINDZINC": -1863.36,
+    "NHPC": -2268.34,
+    "NATIONALUM": -4405.09,
+    "UNITDSPR": -5208.61,
+    "GLENMARK": -6287.19,
+    "OIL": -6727.5,
+    "OBEROIRLTY": -12861.01
+   }
+  },
+  "placebo_jan_sep": {
+   "trades": 541,
+   "net": -5943.08,
+   "jan_sep": -5943.08
+  },
+  "audit": {
+   "trades": 1702,
+   "violations": 0
+  },
+  "legs": {
+   "oct_ge_25000": true,
+   "both_halves_positive": false,
+   "audit_clean": true,
+   "beats_own_placebo": false,
+   "breadth_ge_15": false,
+   "ACCEPTED": false
+  }
+ },
+ "F3_volgate_prevNiftyRange>=1.0": {
+  "cfg": {
+   "volgate": 1.0
+  },
+  "book": {
+   "trades": 869,
+   "net": -14377.57,
+   "jan_may": -23633.96,
+   "jun_sep": -20382.98,
+   "jan_sep": -44016.94,
+   "october": 29639.37,
+   "months": {
+    "2026-01": {
+     "trades": 101,
+     "net": 1092.0
+    },
+    "2026-02": {
+     "trades": 79,
+     "net": 9117.77
+    },
+    "2026-03": {
+     "trades": 212,
+     "net": -15336.72
+    },
+    "2026-04": {
+     "trades": 101,
+     "net": -8298.07
+    },
+    "2026-05": {
+     "trades": 113,
+     "net": -10208.94
+    },
+    "2026-06": {
+     "trades": 84,
+     "net": -14060.51
+    },
+    "2026-07": {
+     "trades": 22,
+     "net": -4997.17
+    },
+    "2026-08": {
+     "trades": 15,
+     "net": -4495.94
+    },
+    "2026-09": {
+     "trades": 22,
+     "net": 3170.64
+    },
+    "2026-10": {
+     "trades": 120,
+     "net": 29639.37
+    }
+   },
+   "breadth_full": 13,
+   "breadth_jansep": 9,
+   "exp": -16.54,
+   "per_stock": {
+    "HINDUNILVR": 6910.79,
+    "ASTRAL": 6694.14,
+    "HINDCOPPER": 2189.4,
+    "UNITDSPR": 1283.41,
+    "PFC": 1230.52,
+    "RECLTD": 1198.61,
+    "GLENMARK": 865.89,
+    "IRCTC": 772.35,
+    "WIPRO": 270.04,
+    "KALYANKJIL": 175.66,
+    "NTPC": 171.81,
+    "GODREJCP": 114.91,
+    "ITC": 74.46,
+    "INDUSTOWER": -198.17,
+    "TVSMOTOR": -993.96,
+    "TATASTEEL": -1063.42,
+    "HDFCBANK": -1256.06,
+    "NHPC": -1558.61,
+    "VEDL": -2146.74,
+    "BDL": -2282.56,
+    "HINDALCO": -2676.9,
+    "HINDZINC": -4070.91,
+    "NATIONALUM": -4736.87,
+    "OIL": -6601.06,
+    "OBEROIRLTY": -8744.3
+   }
+  },
+  "placebo_jan_sep": {
+   "trades": 391,
+   "net": -20881.97,
+   "jan_sep": -20881.97
+  },
+  "audit": {
+   "trades": 1260,
+   "violations": 0
+  },
+  "legs": {
+   "oct_ge_25000": true,
+   "both_halves_positive": false,
+   "audit_clean": true,
+   "beats_own_placebo": false,
+   "breadth_ge_15": false,
+   "ACCEPTED": false
+  }
+ },
+ "F4_state_gate": {
+  "cfg": {
+   "band_hi": 1.0,
+   "regime": "below50"
+  },
+  "book": {
+   "trades": 717,
+   "net": 42418.91,
+   "jan_may": 3003.36,
+   "jun_sep": 3249.32,
+   "jan_sep": 6252.68,
+   "october": 36166.23,
+   "months": {
+    "2026-01": {
+     "trades": 77,
+     "net": 9167.3
+    },
+    "2026-02": {
+     "trades": 73,
+     "net": -4716.39
+    },
+    "2026-03": {
+     "trades": 127,
+     "net": 2670.25
+    },
+    "2026-04": {
+     "trades": 91,
+     "net": -11047.96
+    },
+    "2026-05": {
+     "trades": 61,
+     "net": 6930.16
+    },
+    "2026-06": {
+     "trades": 64,
+     "net": -3402.16
+    },
+    "2026-07": {
+     "trades": 5,
+     "net": -1130.92
+    },
+    "2026-08": {
+     "trades": 20,
+     "net": -4657.75
+    },
+    "2026-09": {
+     "trades": 82,
+     "net": 12440.15
+    },
+    "2026-10": {
+     "trades": 117,
+     "net": 36166.23
+    }
+   },
+   "breadth_full": 16,
+   "breadth_jansep": 11,
+   "exp": 59.16,
+   "per_stock": {
+    "TVSMOTOR": 25353.25,
+    "ASTRAL": 15770.46,
+    "BDL": 5068.23,
+    "KALYANKJIL": 3628.25,
+    "PFC": 2522.45,
+    "INDUSTOWER": 2326.31,
+    "VEDL": 1854.13,
+    "HINDCOPPER": 1723.42,
+    "HINDALCO": 1092.64,
+    "RECLTD": 944.85,
+    "ITC": 349.24,
+    "IRCTC": 315.66,
+    "NTPC": 181.78,
+    "OBEROIRLTY": 174.06,
+    "HINDZINC": 125.84,
+    "WIPRO": 26.4,
+    "TATASTEEL": -423.02,
+    "HINDUNILVR": -547.68,
+    "NATIONALUM": -776.33,
+    "HDFCBANK": -1085.04,
+    "NHPC": -1544.17,
+    "GODREJCP": -2345.47,
+    "UNITDSPR": -3786.69,
+    "GLENMARK": -4002.11,
+    "OIL": -4527.55
+   }
+  },
+  "placebo_jan_sep": {
+   "trades": 364,
+   "net": -906.88,
+   "jan_sep": -906.88
+  },
+  "audit": {
+   "trades": 1081,
+   "violations": 0
+  },
+  "legs": {
+   "oct_ge_25000": true,
+   "both_halves_positive": true,
+   "audit_clean": true,
+   "beats_own_placebo": true,
+   "breadth_ge_15": true,
+   "ACCEPTED": true
+  }
+ }
+}

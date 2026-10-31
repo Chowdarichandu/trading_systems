@@ -1,0 +1,89 @@
+{
+ "anchors": {
+  "A": true,
+  "B": true,
+  "C": true
+ },
+ "fix": "SAT-32-P2F-LOWBAND (6th component candidate: reaction band [2.0%,2.5%) follow at R+1, T125/S050, RF-1, P2F exclusions ASTRAL/HINDUNILVR + HINDALCO-LONG)",
+ "fix_id": "SAT-32-P2F-LOWBAND",
+ "component": {
+  "trades": 8,
+  "net": -1462.45,
+  "h1": -2013.99,
+  "h2": 551.54,
+  "exp": -182.81,
+  "win": 3,
+  "breadth": 3,
+  "august_slice": 563.37,
+  "october_slice": 212.17,
+  "placebo_frozen_subset": -3465.83,
+  "placebo_exp": -433.23,
+  "placebo_beaten_per_trade": true
+ },
+ "new_month_table": {
+  "2026-01": 26663.75,
+  "2026-02": 18423.07,
+  "2026-03": 20584.41,
+  "2026-04": 9895.49,
+  "2026-05": 34880.86,
+  "2026-06": 3823.22,
+  "2026-07": 6319.43,
+  "2026-08": 1675.23,
+  "2026-09": 19562.51,
+  "2026-10": 53056.54
+ },
+ "new_total": 194884.51,
+ "new_trades": 664,
+ "banked": false,
+ "deltas": {
+  "2026-01": -1872.5,
+  "2026-02": -141.49,
+  "2026-03": 0.0,
+  "2026-04": 0.0,
+  "2026-05": 0.0,
+  "2026-06": 0.0,
+  "2026-07": -224.0,
+  "2026-08": 563.37,
+  "2026-09": 0.0,
+  "2026-10": 212.17
+ },
+ "ex_top3_before": 71257.47,
+ "ex_top3_after": 71667.52,
+ "top3_before": [
+  [
+   "TVSMOTOR",
+   74005.46
+  ],
+  [
+   "ASTRAL",
+   27847.79
+  ],
+  [
+   "OBEROIRLTY",
+   23236.24
+  ]
+ ],
+ "top3_after": [
+  [
+   "TVSMOTOR",
+   72132.96
+  ],
+  [
+   "ASTRAL",
+   27847.79
+  ],
+  [
+   "OBEROIRLTY",
+   23236.24
+  ]
+ ],
+ "legs": {
+  "a_total": false,
+  "b_all_green": true,
+  "c_oct": true,
+  "d_extop3": true,
+  "e_controls": true
+ },
+ "oct_headroom_after": 3056.54,
+ "august_after": 1675.23
+}

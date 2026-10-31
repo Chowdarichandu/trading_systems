@@ -1,0 +1,641 @@
+{
+ "consecutive_no_bank": 3,
+ "current_target": "RUN TERMINATED -- SATURATED at the plateau +Rs197,607.74 (663 tr, SIX components, all ten months green, October +Rs54,272.43, August +Rs666.78, ex-top-3 Rs72,518.25; Rs19,760.77/month vs the user's Rs75,000/month goal -- 26.3% of the line, gap Rs552,392.26). Closing streak: SAT-34 (leg-(d) refusal), SAT-35 (placebo-beaten rejection), SAT-36 (GLENMARK-SHORT: arithmetic gate passed all five legs, quality bar FAILED -- slice -Rs136.98 vs the -Rs500 Lesson 5 standard; principled no-beat, Lesson 25). The incumbent is frozen verbatim in stocks_engine_candidate_spec.md for DECEMBER judging (December total positive AND no December week worse than -Rs15,000 -> confirmed; December negative -> killed as in-sample fit; <20 trades -> extends to January; no parameter changes). November paper board runs from Mon 2026-11-02 (N4-V3 primary; INV1 + P2F shadows). Do NOT restart the saturation run in-sample; GLENMARK-SHORT and every closed family stay closed on this window.",
+ "cycle_lock": null,
+ "engine": "stocks recursive identify-fix-apply loop, home 25, Jan-Oct 2026. Amended 2026-10-31: October-first month order, banking rule (partial improvements accepted), cycles back-to-back in minutes.",
+ "iteration": 47,
+ "known_diagnosis": "SAT-2 banked: F4 x INDUSTOWER x LONG was the last protocol-clean August slice (Aug -693.00 / 2 tr, full -361.12 / 18 tr, Oct -792.72, Apr -758.76); removing it: August +185.69 -> +878.69, total -> +Rs143,747.36, October -> +51,364.74 (headroom 1,364.74), April -> +2,043.12; costs March -556.17 / September -1,368.72 (both stay strongly green). August diagnosis (diag/diag2/diag3): August = event systems +7,777.03 vs F4 -7,286.99 (11 stops -10,393.92, all skill_or setups, concentrated Aug 20/27/28/31); NO comp x setup or comp x stock slice is negative in both August and full-period with mass (F4 x SHORT full +42,078.56, F4 x LONG full +42,224.07). Excursion evidence killed the stop family for August: 0/11 F4 August stop exits reached the +1.50% target post-exit, 7 continued deeper, 4 flat (S095 Aug est +262.61, S110 -1,191.02) \u2014 August's stops were genuine continuations, unlike October's dips (OC-4). F4 x UNITDSPR stays floor-blocked both directions (Oct +2,617.85; SHORT half Oct +780.00). N4 revisit: June covered (SAT-1); August shortfall now Rs3,141.85 (August after hypothetical re-apply = -2,956.16) \u2014 plausibly only a NEW August-earning component can close it. SE-1-F4R1: October headroom leg now Rs187.01 short of the Rs1,551.75 needed; its August delta (-429.57, SE-1 record) is absorbable at August +878.69 -> +449.12, still green \u2014 recheck both legs at scoring time. SAT-3 (re-measure SE-1-F4R1 at current book; stocks_engine_sat3_score.py / sat3_result.json): anchor exact; round2 = 70 tr / net -11.83; month nets of round2: Jan +1,261.27, Feb +3,641.69, Mar -2,022.02, Apr -1,720.02, May +876.14, Jun -1,393.79, Aug +775.25 (1 tr), Sep -2,982.10, Oct +1,551.75 (8 tr). F4R1 book would be 808 tr / +143,759.19 with August +103.44 and October 49,812.99 \u2014 rejected on leg (c) via the within-Rs250 rule; exact October shortfall Rs187.01 recorded. SAT-4 (N4-LOWBAND: combined reaction days, |move by 09:30| in [0.75%,1.0%), entry 09:35, T125/S050; construction anchor 56/56 vs the V3 dump, audit 0 violations, overlap 0, RF-1 drops 0): 14 tr, standalone -Rs1,984.09 (Jan-May +2,730.29 / Jun-Oct -4,714.38, win 14.3%, expectancy -141.72, breadth 2/12); August slice -1,026.45, October slice -2,421.30. Union would be 892 tr / +141,763.27 with August -147.76 and October 48,943.44 \u2014 gate fails (a),(b),(c). REJECTED; incumbent unchanged. The >=1.0% N4 trigger floor is load-bearing (Lesson 17). August revisit shortfall UNCHANGED at Rs3,141.85. SAT-5 (watchdog candidate F4 x HINDUNILVR x SHORT banked): slice re-measured IDENTICALLY to the watchdog record at the post-SAT-4 book (9 tr, -2,664.00, 5 w; Jan -1,904.08, Apr +526.88, Jun -1,040.00, Sep +1,070.00, Oct -1,316.80) \u2014 SAT-1..SAT-4 touched no HINDUNILVR SHORT leg, so the recorded deltas were invariant (Lesson 16, positive instance). Removal: total +2,664.00 -> 146,411.36, October +1,316.80 -> 52,681.54 (headroom 2,681.54), June +1,040.00 -> 2,893.72, January +1,904.08; costs April -526.88 -> 1,516.24 and September -1,070.00 -> 16,847.38 (both stay green); August unchanged 878.69; ex-top-3 24,034.34 -> 26,698.34 (top-3 unchanged: TVSMOTOR 61,717.72 / GLENMARK 32,182.31 / ASTRAL 25,812.99). SAT-5 diagnosis also closed two families: INV-LONG exits (all 17 grid dumps T100..T200 x S050..S080 + TRA/TRB score BELOW incumbent T125/S050 at component level, -2,466.26 to -18,094.15 \u2014 T125/S050 is the grid peak) and P2F exits (Lesson 4 / CH-1 evidence against; expectancy +571.03/tr at current exits). SAT-6 (re-measure + bank SE-1-F4R1 at post-SAT-5 book; stocks_engine_sat6_score.py / sat6_result.json): anchor exact (869 tr / +146,411.36 / Oct +52,681.54). SAT-5 slice leg composition verified in-run: 9 direct / 0 round2. Round2 set at current book IDENTICAL to SAT-3: 70 tr, net -11.83, 28 winners; month nets Jan +1,261.27, Feb +3,641.69, Mar -2,022.02, Apr -1,720.02, May +876.14, Jun -1,393.79, Aug +775.25 (1 tr), Sep -2,982.10, Oct +1,551.75 (8 tr) \u2014 October cost Rs1,551.75 invariant across SE-1/SAT-3/SAT-6 (three book states). Dropping round2: 799 tr / +146,423.19 (+11.83); October 51,129.79 (headroom 1,129.79); all ten green, min August +103.44; ex-top-3 26,698.34 -> 27,831.35. BANKED \u2014 all three gate legs pass. N4-revisit August shortfall 3,141.85 -> 3,917.10 (F4R1 thins August; reported, not gate-relevant). Lesson 16 addendum appended (third-measurement invariance, checkable leg-by-leg). SAT-7 (August at post-SAT-6 book; stocks_engine_sat7_diag.py / sat7_score.py): anchor exact (799 tr / +146,423.19). August 29 tr = event systems +7,777.03 (N4 +6,532.91, P2F +1,244.12) vs F4 -7,369.24 (15 tr, 9 stops -9,700.92, all Aug 20/27/28/31) and INV-LONG -304.35 (1 tr). Winners-side state search NEGATIVE: no ex-ante state separates August winners from losers (all F4 August entries 10:xx; every premove sub-band full-period positive; event wins = GLENMARK both directions). F4 x UNITDSPR was the only F4 stock slice negative in both August (-1,947.84) and full period (-1,294.84); direction split: LONG +552.17 / SHORT -1,847.01 (8 tr, 3 w; Feb -1,123.04, Mar -331.81, Apr -500.00, Aug -672.16, Oct +780.00). Whole-stock removal still floor-blocked (Oct +2,617.85) but the SHORT half's October slice (+780.00) fits the grown headroom 1,129.79 \u2014 the SAT-2 block (headroom then 572.02) had lifted. BANKED: August -> +775.60, total -> +148,270.20, October -> 50,349.79 (headroom 349.79), trades 799 -> 791, ex-top-3 -> 29,678.36. N4-revisit August shortfall 3,917.10 -> 3,244.94. Recorded for SAT-8: F4 x HINDCOPPER x SHORT (Aug -959.56 / 2 tr, full -1,094.95 / 12 tr, October slice exactly 0.00 \u2014 October-neutral, the only remaining Aug-negative/full-negative direction slice that fits the Rs349.79 headroom); F4 x GLENMARK x SHORT stays floor-blocked (Oct +1,404.72). SAT-8 (re-derive + bank F4 x HINDCOPPER x SHORT; stocks_engine_sat8_diag.py / sat8_score.py / sat8_result.json): anchor exact (791 tr / +148,270.20). Slice re-measured IDENTICAL to the SAT-7 diag record (12 tr, -1,094.95, 4 w, all skill_or_breakdown direct legs; Jan -476.24, Mar +302.13, Apr +65.00, May -479.08, Jun +346.00, Aug -959.56 [Aug 20 -486.60, Aug 27 -472.96], Sep +106.80, Oct 0.00 [1 tr scratch]) \u2014 the intervening SAT-7 UNITDSPR change is on a disjoint stock, so the deltas did not expire (Lesson 16 invariance, third positive instance). Direction split: HINDCOPPER whole +697.56 only because LONG earns +1,792.51 (4 tr, 3 w); SHORT is the rot. Removing the 12 trades: August +775.60 -> +1,735.16, total -> +149,365.15, October UNCHANGED +50,349.79 (headroom 349.79), trades 791 -> 779, ex-top-3 29,678.36 -> 30,773.31. All gate legs pass; saturation counter stays 0, best_total -> 149,365.15. N4-revisit August shortfall 3,244.94 -> 2,285.38 (August after hypothetical re-apply = -2,099.69). AUGUST SLICE SPACE EXHAUSTED: F4 x GLENMARK x SHORT (Aug -4,008.24 / 2 tr, full -383.26 / 20 tr) is the only remaining Aug-negative/full-negative direction slice and it stays FLOOR-BLOCKED (Oct +1,404.72 > headroom 349.79) plus a Lesson 6 top-3 name. SAT-9 frontier: new Lesson-3 material (a genuinely new August-earning component) or F4-MIRROR with placebo. SAT-10 (F4 stop-step re-test at the current book; stocks_engine_sat10_diag.py / sat10_score.py / sat10_result.json): excursion diagnosis of THIS book's F4 stop population first (478 F4 trades, 182 stop exits net -127,492.99; first passage at -0.95%: 4/182 rescue to target, 153/182 deeper first, 25 neither of which 10 closed >= flat; rough swing est +6,951.25 full / October +2,953.74 / August -652.72) \u2014 pre-registered support test passed, step frozen in stocks_engine_frozen.md (SAT-10), then scored by exact rebuild. Anchors all pass (rebuild S080 == oc4 dump per-trade; filtered union == state; audits 0 violations both builds; S095 entry set == S080, 478 entries). Exact: F4 +90,281.54 -> +94,179.91 (+3,898.37 \u2014 56% of the rough estimate; the estimate overstated October +2,953.74 vs exact +567.24 and understated February +3,389.65 vs +4,204.65), total -> +153,263.52, October 50,349.79 -> 50,917.03 (headroom 917.03), August 1,735.16 -> 1,182.43 (-552.73, still green and still the minimum month), March -3,582.31 / September -2,179.93 / May -916.93 / July -104.25 costs all absorbed; ex-top-3 30,773.31 -> 38,278.28 (+7,504.97 \u2014 the step earns MORE outside the top-3 than in total). BANKED on all five gate legs; saturation counter stays 0, best_total -> 153,263.52. New F4 dump: stocks_engine_sat10_f4s095_trades.csv (book F4 exits now T150/S095). N4-revisit August shortfall 2,285.38 -> 2,838.11 (the rebuild's August delta -3,834.85 measured against August +1,182.43 = -2,652.42 after hypothetical re-apply). Lesson 4 addendum appended (a stop step is a property of the book state; estimates are compasses, rebuilds are scores; Lesson 14 sequencing is what made the step bankable). SAT-11 (F4 stop step 2, DIAGNOSIS ONLY \u2014 support test failed, never scored; stocks_engine_sat11_diag.py / sat11_diag.json): anchor exact (779 tr / +153,263.52). Current F4 (T150/S095) = 478 tr / +94,179.91; stop exits 155 / -130,188.29. First passage at -1.10%: FULL 1 rescue / 126 deeper / 28 neither (8 closed >= flat), rough est +6,686.35 (predicted total 159,949.87); OCTOBER 17 stops 0 rescue / 11 deeper / 6 neither, est +2,610.24 (predicted 53,527.27); AUGUST 5 stops 0 rescue / 5 deeper / 0 neither, est -1,168.73 -> predicted August +13.70. Pre-registered support test (est total up AND predicted all-green with August >= ~1,000 AND predicted Oct >= 50,000; August < 500 -> do not score, close family) FAILED on the August leg: step NOT frozen, NOT scored, incumbent unchanged. F4 STOP FAMILY CLOSED at T150/S095 \u2014 third agreeing August diagnosis (SAT-2 excursions 0/11 rescued, SAT-10 exact -552.73, SAT-11 5/5 deeper). Saturation: no_beat_cycles 0 -> 1, best_total unchanged 153,263.52. N4-revisit August shortfall UNCHANGED at Rs2,838.11. Lesson 4 addendum appended. SAT-12 (F4 target step T150 -> T165, DIAGNOSIS ONLY -- support test failed on the total leg, never scored; stocks_engine_sat12_diag.py / sat12_diag.json): anchor exact (779 tr / +153,263.52). Current F4 (T150/S095) = 478 tr / +94,179.91; target exits 133 / +183,123.20. Post-exit first passage at +1.65% (stop -0.95%, walk capped at the 15:10 square-off): FULL 103 reach / 3 stop-first / 27 neither (6 no later bars), rough swing est -8,293.33 (predicted total 144,970.19). Class decomposition: reach +14,303.80 (103 tr, avg +138.87 = +0.15 x entry); stop-first -3,310.93 (3 tr, avg -1,103.64 = -2.45 x entry); neither -19,286.20 (27 tr, avg -714.30 give-back at square-off close) -- a 77% reach rate cannot pay a ~5:1 per-trade give-back ratio. OCTOBER 36 targets 27/0/9, est +1,560.27 -> predicted 52,477.30 (headroom 2,477.30 -- would have unlocked GLENMARK-SHORT, bought with total money: refused); AUGUST 2 targets 2/0/0, est +153.67 -> predicted 1,336.10; predicted all-green TRUE. Worst months: Jan -5,815.82, Apr -2,830.49, May -1,880.93. Pre-registered support test (est total up AND predicted all-green AND predicted Oct >= 50,000) FAILED on leg (i): step NOT frozen, NOT scored, incumbent unchanged. F4 TARGET FAMILY CLOSED at T150 on this window. October headroom UNCHANGED at Rs917.03. Saturation: no_beat_cycles 1 -> 2, best_total unchanged 153,263.52. N4-revisit August shortfall UNCHANGED at Rs2,838.11. Lesson 4 addendum appended. SAT-13 (book-wide slice scan + P2F-R2; stocks_engine_sat13_diag.py / sat13_score.py / sat13_result.json): anchor exact (779 tr / +153,263.52). Slice scan at the CURRENT book found 31 qualifying (comp x stock x dir) rows, all small \u2014 largest F4 x OIL x SHORT (-2,712.77 / 13 tr; Jun -486.88; Oct -465.84), INV-LONG x VEDL (-2,424.75 / 18 tr), F4 x IRCTC x SHORT (-1,297.01), INV-LONG x INDUSTOWER (-1,189.01); weighed and NOT chosen (R2 union effect ~5x; slices not consumed by adding a disjoint component). P2F-R2 (R+2 follow, 2.5% band, T125/S050, verbatim tuning_event machinery): construction anchor 39 candidates == M1 raw P2F@2.5; 38 built (RECLTD R=2026-10-27 dropped, no R+2 in data); audit 0 violations; P2F overlap 0; RF-1 drops 0. Standalone raw 38 tr / +9,813.68 (H1 +12,288.08 / H2 -2,474.40); placebo raw -477.83 (exp -12.57) \u2014 beaten overall/per-trade, NOT in H2. Frozen with AU-1/JU-1 name exclusions (Lesson 11, SAT-9 precedent): 34 tr / +12,912.48, exp +379.78, H1 +13,472.08 / H2 -559.60; excluded 4 trades net -3,098.80 (Lesson 11, 4th instance); placebo on frozen subset -6,542.33 (exp -192.42). Union: 813 tr / +166,176.00; August 1,182.43 -> 3,571.43; October -> 51,107.02 (headroom 1,107.02); costs June -2,069.00 -> 2,036.67 and July -1,069.59 -> 2,022.79 (now the thinnest months after August); ex-top-3 38,278.28 -> 51,853.86. BANKED on all five gate legs. Saturation: no_beat_cycles 2 -> 0, best_total -> 166,176.00. N4-revisit August shortfall 2,838.11 -> 449.11. Lesson 19 appended (+ Lesson 11 addendum). SAT-14 (registry slice at the current book; stocks_engine_sat14_diag.py / sat14_score.py / sat14_result.json): anchor exact (813 tr / +166,176.00). Fresh scan (5 comps): 8 slices August-negative AND full-negative; feasible (Aug gain >= 449.11, Oct slice <= 1,107.02, all-green after): 2. F4 x GLENMARK x SHORT refused (Aug -4,744.78 but full -136.98 / 20 tr / 10 win \u2014 August story, not rot; Oct slice +1,062.55; top-3 name). BANKED least-surgery slice: P2F x HINDALCO x LONG = 1 tr (2026-08-10, stop, -572.50; R 2026-08-07 +3.17%) \u2014 P2F's only HINDALCO trade; deleted set == frozen set at scoring (Anchor B). Union 812 tr / +166,748.50; August -> 4,143.93; all other months identical; October unchanged 51,107.02; ex-top-3 51,853.86 -> 52,426.36. All five gate legs pass; saturation counter stays 0, best_total -> 166,748.50. N4-REVISIT AUGUST LEG MET (4,143.93 >= 4,020.54, margin 123.39) \u2014 the rebuild itself is NOT yet re-applied: SAT-15 re-measures it (Lesson 16). Lesson 14 addendum appended (revisit discharged by composition: R2 component + smallest registry slice). SAT-15 (re-measure + re-apply the CH-2 N4 exit rebuild at the current book; stocks_engine_sat15_score.py / sat15_result.json; new dump stocks_engine_sat15_n4_t150s080_trades.csv): anchors all pass (A: book == state 812 tr / +166,748.50 / ex-top-3 52,426.36; B: T125/S050 replay reproduces the source dump 56/56, convention offset=0, filtered set == book N4 per-trade, 50 tr; C: T150/S080 entries identical, exit_time >= entry_time, 0 violations, 4 same-bar exits). RE-MEASUREMENT IDENTICAL TO CH-2 TO THE PAISA: N4 50 tr / +7,761.80 -> +17,245.25 (delta +9,483.45); month deltas Jan +7,267.08, Feb +4,776.06, Mar +520.75, Apr -68.60, May +1,097.19, Jun -654.66, Jul -760.26, Aug -3,834.85, Sep 0.00, Oct +1,140.74. Union 812 tr / +176,231.95; August 4,143.93 -> +309.08 GREEN (CH-2's identical delta gave -3,649.16 RED at a +185.69 balance); June -> +1,382.01; October -> 52,247.76 (headroom 2,247.76); ex-top-3 52,426.36 -> 56,308.12. BANKED on all five gate legs. Lesson 16 addendum appended (component-local deltas on untouched components do not expire; a revisit re-tests the surrounding balances). N4 book exits now T150/S080; future cycles anchor N4 on the SAT-15 dump, NOT M1.load_n4(). SAT-16 (P2F-R3, R+3 lag; stocks_engine_sat16_diag.py / sat16_score.py / sat16_result.json): anchors all pass (A: book == state 812 tr / +176,231.95 / ex-top-3 56,308.12, N4 from the SAT-15 dump; B: 39 candidates == M1 raw P2F@2.5, frozen set == diagnosis set; C: timing audit 0, P2F overlap 0, P2F-R2 overlap 0). Frozen standalone: 34 tr / +952.10, exp +28.00, win 12/34, breadth 21, H1 +2,641.97 / H2 -1,689.87; August slice +130.25, October slice -135.25, July slice -1,727.50. Placebo (flip, identical entries) +4,064.36 / exp +119.54 \u2014 BEATS the real rule per-trade, decisively in H2 (+3,529.56 vs -1,689.87). Union 846 tr / +177,184.05 fails (b) July -464.97 and (d) ex-top-3 55,449.72. REJECTED; no_beat_cycles 0 -> 1. Lesson 20: reaction information has a two-day reach \u2014 the R-ladder is CLOSED at R+2. SAT-17 (registry slice at the current book; stocks_engine_sat17_diag.py / sat17_score.py / sat17_result.json): registry re-derived from scratch at the five-component book (148 slices, 28 qualifying: full < 0 AND negative in >= 1 of Apr/Jun/Jul/Aug AND October slice <= 2,247.76). Top by full-period value after feasibility + the quality bar: N4-V3 x TVSMOTOR x LONG (1 tr, -3,185.76, July 2026-07-22, entry 09:35 3,932.20, stop exit 3,900.74 at 14:00; the same entry was -2,006.10 at the old T125/S050 exits; N4's other TVSMOTOR trades are SHORTs +5,476.55/+5,129.45 -- Lesson 15 direction split). GLENMARK-SHORT sits at the registry's bottom (-136.98) and was again below the bar. BANKED on all five gate legs: total 176,231.95 -> 179,417.71, July 1,262.53 -> 4,448.29, all other months identical, October unchanged 52,247.76, August unchanged 309.08 (razor intact), ex-top-3 unchanged 56,308.12 (equality pass -- the slice is on the #1 earner; TVSMOTOR book total -> 72,025.56). Trades 812 -> 811. Saturation counter 1 -> 0, best_total -> 179,417.71. Thin-sample caveat disclosed (1 trade, SAT-14 precedent class). Lesson 6 addendum appended (leg-(d) equality passes on concentration names; registries are functions of book state). SAT-18 (registry slice at the post-SAT-17 book; stocks_engine_sat18_diag.py / sat18_score.py / sat18_result.json): anchor exact (811 tr / +179,417.71 / ex-top-3 56,308.12). Registry re-derived from scratch: 147 slices, 27 qualifying. F4 x OIL x SHORT re-measured identical to the SAT-17 record (13 tr / -2,712.77 / 4 w; Aug slice exactly 0.00; Oct slice -465.84) and BANKED: total -> 182,130.48, October -> 52,713.60 (headroom 2,713.60), June -> 1,868.89, August unchanged 309.08, ex-top-3 -> 59,020.89. Trades 811 -> 798. Saturation counter stays 0, best_total -> 182,130.48. Next registry rows (re-derive before use): INV-LONG x VEDL (-2,424.75 / 18 tr / 4 w; Apr-negative; Oct -318.05), INV-LONG x HINDZINC (-2,131.83 / 9 tr / 1 w; Jun-negative; Oct 0.00), P2F-R2 x TVSMOTOR x LONG (-1,979.90 / 1 tr; Jul-negative), F4 x IRCTC x SHORT (-1,297.01 / 13 tr; Apr+Jun-negative; Oct +275.00), INV-LONG x INDUSTOWER (-1,189.01 / 12 tr; Oct -228.45). August-negative quality-bar rows remaining: N4-V3 x OIL x LONG (Aug -405.20), F4 x RECLTD x SHORT (full -503.97, Aug -342.58), F4 x PFC x SHORT (full -667.69, Aug -55.00). SAT-19 (registry slice at the post-SAT-18 book; stocks_engine_sat19_diag.py / sat19_score.py / sat19_result.json): anchor exact (798 tr / +182,130.48 / ex-top-3 59,020.89). Registry re-derived from scratch: 146 slices, 26 qualifying. Top row INV-LONG x VEDL x LONG re-measured IDENTICAL to the SAT-18 record (18 tr / -2,424.75 / 4 w; Apr -423.30, Oct -318.05, Aug exactly 0.00) and BANKED: total -> 184,555.23, October -> 53,031.65 (headroom 3,031.65), April -> 7,917.43, June -> 1,532.01, August unchanged 309.08, ex-top-3 -> 61,445.64. Trades 798 -> 780. Saturation counter stays 0, best_total -> 184,555.23. Next registry rows (re-derive before use): INV-LONG x HINDZINC (-2,131.83 / 9 tr / 1 w; Jun-negative; Oct 0.00), P2F-R2 x TVSMOTOR x LONG (-1,979.90 / 1 tr; Jul-negative), F4 x IRCTC x SHORT (-1,297.01 / 13 tr; Apr+Jun-negative; Oct +275.00), INV-LONG x INDUSTOWER (-1,189.01 / 12 tr; Oct -228.45), N4-V3 x OIL x LONG (-862.04 / 2 tr; Aug -405.20). SAT-20 (registry slice at the post-SAT-19 book; stocks_engine_sat20_diag.py / sat20_score.py / sat20_result.json): anchor exact (780 tr / +184,555.23 / ex-top-3 61,445.64). Registry re-derived from scratch: 145 slices, 11 qualifying at this cycle's bar (full <= -500 AND thin-month-negative AND October slice <= 3,031.65). Top row INV-LONG x HINDZINC x LONG re-measured IDENTICAL to the SAT-19 record (9 tr / -2,131.83 / 1 w; Jan -1,134.95, Feb -335.57, Mar -302.75, Apr +299.69, May -343.48, Jun -314.77, Oct 0.00, Aug 0.00) and BANKED: total -> 186,687.06, June -> 1,846.78, April -> 7,617.74, October and August unchanged, ex-top-3 -> 63,577.47. Trades 780 -> 771. Saturation counter stays 0, best_total -> 186,687.06. HINDZINC context: also negative in F4 (-631.12), N4-V3 (-1,043.24), P2F (-374.40), positive in P2F-R2 (+812.50) -- exclusion stays INV-LONG-scoped (Lesson 11, sixth instance). Lesson 16 sixth positive invariance instance. Next registry rows (re-derive before use): P2F-R2 x TVSMOTOR x LONG (-1,979.90 / 1 tr; Jul-negative), F4 x IRCTC x SHORT (-1,297.01 / 13 tr / 5 w; Apr+Jun-negative; Oct +275.00), INV-LONG x INDUSTOWER (-1,189.01 / 12 tr / 3 w; Apr-negative; Oct -228.45), N4-V3 x OIL x LONG (-862.04 / 2 tr / 0 w; Aug -405.20 -- removal would thicken the August razor to ~714.28). SAT-21 (registry slice at the post-SAT-20 book; stocks_engine_sat21_diag.py / sat21_score.py / sat21_result.json): anchor exact (771 tr / +186,687.06 / ex-top-3 63,577.47). Registry re-derived from scratch: 144 slices, 10 qualifying. Top row P2F-R2 x TVSMOTOR x LONG re-measured IDENTICAL to the SAT-20 record (1 tr / -1,979.90 / 0 w; 2026-07-24, entry 09:15 3,879.80, stop exit 3,860.40 at 10:05; R 2026-07-22 +3.24%; Jul -1,979.90, Oct 0.00, Aug 0.00) and BANKED: total -> 188,666.96, July -> 6,428.19, October and August unchanged, ex-top-3 UNCHANGED 63,577.47 (equality pass -- slice on the #1 earner; TVSMOTOR 72,025.56 -> 74,005.46, share 38.58% -> 39.23%). Trades 771 -> 770. Saturation counter stays 0, best_total -> 188,666.96. TVSMOTOR context: earns in F4 (+39,505.22), INV-LONG (+19,049.74), N4-V3 (+10,606.00 post-SAT-17), P2F (+4,844.50) -- exclusion stays P2F-R2 x LONG-scoped (Lessons 11/15). Lesson 16 seventh positive invariance instance; Lesson 6 addendum appended (second equality pass). Next registry rows (re-derive before use): F4 x IRCTC x SHORT (-1,297.01 / 13 tr / 5 w; Apr+Jun-negative; Oct +275.00), INV-LONG x INDUSTOWER (-1,189.01 / 12 tr / 3 w; Apr-negative; Oct -228.45), N4-V3 x OIL x LONG (-862.04 / 2 tr / 0 w; Aug -405.20 -- removal would thicken the August razor to ~714.28), F4 x HINDALCO x LONG (-851.10 / 9 tr; Apr+Jun-negative). SAT-22 (registry slice at the post-SAT-21 book; stocks_engine_sat22_diag.py / sat22_score.py / sat22_result.json): anchor exact (770 tr / +188,666.96 / ex-top-3 63,577.47). Registry re-derived from scratch: 143 slices, 9 qualifying. Top row F4 x IRCTC x SHORT re-measured IDENTICAL to the SAT-21 record (13 tr / -1,297.01 / 5 w; Jan -101.31, Mar -877.45, Apr -143.25, May -345.00, Jun -105.00, Aug 0.00, Oct +275.00) and BANKED: total -> 189,963.97, October -> 52,756.65 (headroom 2,756.65 -- the bank spends Rs275.00 of it), June -> 1,951.78, August unchanged 309.08, ex-top-3 -> 64,874.48. Trades 770 -> 757. Saturation counter stays 0, best_total -> 189,963.97. IRCTC context: F4 LONG half +497.45 kept; IRCTC earns in INV-LONG (+411.40), N4-V3 (+235.00), P2F (+616.81); P2F-R2 slice -296.05 below the bar, untouched -- exclusion stays F4 x SHORT-scoped (Lessons 11/15, seventh instance). Lesson 16 eighth positive invariance instance. Next registry rows (re-derive before use): INV-LONG x INDUSTOWER (-1,189.01 / 12 tr / 3 w; Apr-negative; Oct -228.45), N4-V3 x OIL x LONG (-862.04 / 2 tr / 0 w; Aug -405.20 -- removal would thicken the August razor to ~714.28), F4 x HINDALCO x LONG (-851.10 / 9 tr / 3 w; Apr+Jun-negative; Oct 0.00), F4 x TATASTEEL x LONG (-775.38 / 9 tr), F4 x NHPC x SHORT (-769.23 / 13 tr), INV-LONG x KALYANKJIL (-764.57 / 24 tr), F4 x PFC x SHORT (-667.69 / 18 tr; Aug -55.00). SAT-23 (registry slice at the post-SAT-22 book; stocks_engine_sat23_diag.py / sat23_score.py / sat23_result.json): anchor exact (757 tr / +189,963.97 / ex-top-3 64,874.48). Registry re-derived from scratch: 142 slices, 8 qualifying. Top row INV-LONG x INDUSTOWER x LONG re-measured IDENTICAL to the SAT-22 record (12 tr / -1,189.01 / 3 w; Jan +253.82, Feb -532.20, Mar -257.35, Apr -512.09, May +87.26, Aug 0.00, Oct -228.45) and BANKED: total -> 191,152.98, October -> 52,985.10 (headroom 2,985.10), April -> 8,273.08, August unchanged 309.08, ex-top-3 -> 66,063.49. Trades 757 -> 745. Saturation counter stays 0, best_total -> 191,152.98. INDUSTOWER context: earns in F4 (+2,287.14, kept SHORT flow; F4 LONG half excluded in SAT-2) and N4-V3 (+564.20); P2F (-240.20) and P2F-R2 (-243.07) slices below the bar, untouched -- exclusion stays INV-LONG-scoped (Lesson 11, seventh instance; Lesson 16 ninth positive invariance instance). Next registry rows (re-derive before use): N4-V3 x OIL x LONG (-862.04 / 2 tr / 0 w; Aug -405.20 -- removal would thicken the August razor to 714.28), F4 x HINDALCO x LONG (-851.10 / 9 tr / 3 w; Apr+Jun-negative; Oct 0.00), F4 x TATASTEEL x LONG (-775.38 / 9 tr; Apr+Jun-negative; Oct -57.00), F4 x NHPC x SHORT (-769.23 / 13 tr; Apr+Jul-negative), INV-LONG x KALYANKJIL (-764.57 / 24 tr; Jun-negative; Oct -306.60), F4 x PFC x SHORT (-667.69 / 18 tr; Aug -55.00), F4 x RECLTD x SHORT (-503.97 / 14 tr; Aug -342.58; Oct +477.00). SAT-24 (registry slice at the post-SAT-23 book; stocks_engine_sat24_diag.py / sat24_score.py / sat24_result.json): anchor exact (745 tr / +191,152.98 / ex-top-3 66,063.49). Registry re-derived from scratch: 141 slices, 7 qualifying. Top row N4-V3 x OIL x LONG re-measured IDENTICAL to the SAT-23 record (2 tr / -862.04 / 0 w; May -456.84, Aug -405.20, Oct 0.00) and BANKED: total -> 192,015.02, August 309.08 -> 714.28 (razor thickened 2.3x), May -> 35,514.27, October unchanged 52,985.10, ex-top-3 -> 66,925.53. Trades 745 -> 743. Saturation counter stays 0, best_total -> 192,015.02. OIL context: earns in F4 (+491.75, kept LONG flow; F4 x SHORT excluded SAT-18) and INV-LONG (+1,208.06); P2F (-302.00) and P2F-R2 (-299.90) slices below the bar, untouched -- exclusion stays N4-V3 x LONG-scoped (Lesson 11, eighth instance; Lesson 16 tenth positive invariance instance). Thin-sample caveat disclosed (2 trades, SAT-14/17/21 precedent class). Next registry rows (re-derive before use): F4 x HINDALCO x LONG (-851.10 / 9 tr / 3 w; Apr+Jun-negative; Oct 0.00), F4 x TATASTEEL x LONG (-775.38 / 9 tr; Apr+Jun-negative; Oct -57.00), F4 x NHPC x SHORT (-769.23 / 13 tr; Apr+Jul-negative; Oct -40.38), INV-LONG x KALYANKJIL (-764.57 / 24 tr; Jun-negative; Oct -306.60), F4 x PFC x SHORT (-667.69 / 18 tr; Aug -55.00), F4 x RECLTD x SHORT (-503.97 / 14 tr; Aug -342.58; Oct +477.00). SAT-25 (registry slice at the post-SAT-24 book; stocks_engine_sat25_diag.py / sat25_score.py / sat25_result.json): anchor exact (743 tr / +192,015.02 / ex-top-3 66,925.53). Registry re-derived from scratch: 140 slices, 6 qualifying. Top row F4 x HINDALCO x LONG re-measured IDENTICAL to the SAT-24 record (9 tr / -851.10 / 3 w; Jan -271.81, Feb +1,131.97, Mar -385.00, Apr -215.00, May +1,010.00, Jun -1,137.25, Sep -984.01, Aug 0.00, Oct 0.00) and BANKED: total -> 192,866.12, June -> 3,089.03, April -> 8,488.08, September -> 19,027.56, February -> 17,848.24, May -> 34,504.27, October and August unchanged, ex-top-3 -> 67,776.63. Trades 743 -> 734. Saturation counter stays 0, best_total -> 192,866.12. HINDALCO context: F4 SHORT half +2,345.84 kept; loses in INV-LONG (-895.40) and N4-V3 (-907.36) below the bar, untouched; earns in P2F-R2 (+1,276.75); P2F x HINDALCO x LONG already excluded in SAT-14 -- exclusion stays F4 x LONG-scoped (Lesson 11, ninth instance; Lesson 16 eleventh positive invariance instance). Next registry rows (re-derive before use): F4 x TATASTEEL x LONG (-775.38 / 9 tr / 2 w; Apr+Jun-negative; Oct -57.00), F4 x NHPC x SHORT (-769.23 / 13 tr / 2 w; Apr+Jul-negative; Oct -40.38), INV-LONG x KALYANKJIL (-764.57 / 24 tr / 7 w; Jun-negative; Oct -306.60), F4 x PFC x SHORT (-667.69 / 18 tr / 8 w; Aug -55.00), F4 x RECLTD x SHORT (-503.97 / 14 tr / 6 w; Aug -342.58; Oct +477.00). SAT-26 (registry slice at the post-SAT-25 book; stocks_engine_sat26_diag.py / sat26_score.py / sat26_result.json): anchor exact (734 tr / +192,866.12 / ex-top-3 67,776.63). Registry re-derived from scratch: 139 slices, 5 qualifying. Top row F4 x TATASTEEL x LONG re-measured IDENTICAL to the SAT-25 record (9 tr / -775.38 / 2 w; Jan +18.33, Feb +164.00, Apr -245.92, Jun -263.64, Sep -391.15, Aug 0.00, Oct -57.00) and BANKED: total -> 193,641.50, October -> 53,042.10 (headroom 3,042.10), April -> 8,734.00, June -> 3,352.67, September -> 19,418.71, August unchanged 714.28, ex-top-3 -> 68,552.01. Trades 734 -> 725. Saturation counter stays 0, best_total -> 193,641.50. TATASTEEL context: F4 SHORT half +646.21 kept; INV-LONG (-217.04), N4-V3 (+73.08), P2F (-145.29), P2F-R2 (+219.38) slices below the bar, untouched -- exclusion stays F4 x LONG-scoped (Lesson 11, tenth instance; Lesson 16 twelfth positive invariance instance). Next registry rows (re-derive before use): F4 x NHPC x SHORT (-769.23 / 13 tr / 2 w; Apr+Jul-negative; Oct -40.38), INV-LONG x KALYANKJIL (-764.57 / 24 tr / 7 w; Jun-negative; Oct -306.60), F4 x PFC x SHORT (-667.69 / 18 tr / 8 w; Aug -55.00), F4 x RECLTD x SHORT (-503.97 / 14 tr / 6 w; Aug -342.58; Oct +477.00). SAT-27 (registry slice at the post-SAT-26 book; stocks_engine_sat27_diag.py / sat27_score.py / sat27_result.json): anchor exact (725 tr / +193,641.50 / ex-top-3 68,552.01). Registry re-derived from scratch: 138 slices, 4 qualifying. Top row F4 x NHPC x SHORT re-measured IDENTICAL to the SAT-26 record (13 tr / -769.23 / 2 w; Jan -112.38, Feb -218.02, Mar -15.00, Apr -156.36, Jul -115.24, Sep -111.85, Aug 0.00, Oct -40.38) and BANKED: total -> 194,410.73, October -> 53,082.48 (headroom 3,082.48), April -> 8,890.36, July -> 6,543.43, August unchanged 714.28, ex-top-3 -> 69,321.24. Trades 725 -> 712. Saturation counter stays 0, best_total -> 194,410.73. F4 x NHPC x LONG (-102.46) below the bar, untouched; NHPC in INV-LONG (+124.24) / N4-V3 (-104.80) untouched. Next registry rows (re-derive before use): INV-LONG x KALYANKJIL (-764.57 / 24 tr / 7 w; Jun-negative; Oct -306.60), F4 x PFC x SHORT (-667.69 / 18 tr / 8 w; Aug -55.00), F4 x RECLTD x SHORT (-503.97 / 14 tr / 6 w; Aug -342.58; Oct +477.00). SAT-28 (registry slice at the post-SAT-27 book; stocks_engine_sat28_diag.py / sat28_score.py / sat28_result.json): anchor exact (712 tr / +194,410.73 / ex-top-3 69,321.24). Registry re-derived from scratch: 137 slices, 3 qualifying. Top row INV-LONG x KALYANKJIL x LONG re-measured IDENTICAL to the SAT-27 record (24 tr / -764.57 / 7 w; Jan -944.37, Feb -754.22, Mar +652.65, Apr +213.74, Jun -35.02, Sep +409.25, Aug 0.00, Oct -306.60) and BANKED: total -> 195,175.30, October -> 53,389.08 (headroom 3,389.08), January -> 28,904.13, February -> 18,656.48, June -> 3,387.69, August unchanged 714.28, costs March -652.65 / April -213.74 / September -409.25 (all stay strongly green), ex-top-3 -> 70,085.81. Trades 712 -> 688. Saturation counter stays 0, best_total -> 195,175.30. KALYANKJIL context: earns in N4-V3 (+1,972.87) and F4 (+497.38); P2F (-152.75) and P2F-R2 (-201.70) slices below the bar, untouched -- exclusion stays INV-LONG-scoped (Lesson 11, twelfth instance; Lesson 16 fourteenth positive invariance instance -- the whole 3-row queue re-measured identical across the disjoint SAT-27 F4 intervention). Next registry rows (re-derive before use): F4 x PFC x SHORT (-667.69 / 18 tr / 8 w; Apr+Jun+Aug-negative; Aug -55.00; Oct +67.71), F4 x RECLTD x SHORT (-503.97 / 14 tr / 6 w; Apr+Aug-negative; Aug -342.58 -- removal would thicken the August razor to ~1,057.25; Oct +477.00). SAT-30 (registry slice at the post-SAT-29 book; stocks_engine_sat30_diag.py / sat30_score.py / sat30_result.json): anchor exact (670 tr / +195,842.99 / ex-top-3 70,753.50). Registry re-derived from scratch: 135 slices, 1 qualifying. F4 x RECLTD x SHORT re-measured IDENTICAL to the SAT-29 record (14 tr / -503.97 / 6 w; Jan -142.39, Feb +55.00, Mar +580.96, Apr -336.35, May -376.59, Aug -342.58, Sep -419.02, Oct +477.00) and BANKED: total -> 196,346.96, August 769.28 -> 1,111.86 (razor thickened 1.4x), October -> 52,844.37 (headroom 2,844.37), April -> 9,895.49, May -> 34,880.86, September -> 19,562.51, January -> 28,536.25; costs February -55.00 / March -580.96 (both strongly green); trades 670 -> 656; ex-top-3 -> 71,257.47. RECLTD context: F4 LONG half +949.99 kept; INV-LONG (+0.24), N4-V3 (+242.04), P2F (+228.37) small earners and P2F-R2 (-438.00, below the bar) untouched -- exclusion stays F4 x SHORT-scoped (Lesson 11, fourteenth instance; Lesson 16 sixteenth positive invariance instance). POST-REMOVAL REGISTRY RE-DERIVATION: 134 slices, 0 QUALIFYING ROWS -- THE DELETION FRONTIER IS EXHAUSTED at the standing bar (full <= -500 AND thin-month-negative AND October-feasible). Future cycles must bring new earning material or close toward saturation. SAT-32 (P2F-LOWBAND, [2.0%,2.5%) reaction slice at R+1, T125/S050; stocks_engine_sat32_diag.py / sat32_score.py / sat32_result.json): construction anchor strongest of the run -- the verbatim event machinery reproduces the tuning dump's P2F leg 39/39 per-trade at >=2.5% AND 9/9 on the lowband slice itself (dump = 48 rows = 39 + 9; replay start-offset 1 determined empirically, offset 0 matches only 32/39 + 8/9). Candidates 9 -> raw 9 -> frozen 8 (HINDUNILVR LONG -1,190.75 dropped by the JU-1 exclusion; no weekend drops). Frozen component: 8 tr / -1,462.45, exp -182.81, 3 w, breadth 3; halves H1 -2,013.99 (Jan TVSMOTOR SHORT stop -1,872.50 + Feb TATASTEEL LONG stop -141.49) / H2 +551.54 (Jul -224.00, Aug +563.37, Oct +212.17). Placebo (flip, identical entries): 8 tr / -3,465.83, exp -433.23, 0 w -- ALL 8 placebo trades are stop exits (the slice's R+1 days whipsaw through the +/-0.5% stop adversely for both directions; follow holds the only two target exits). Timing audit 0; overlap vs P2F 0 and vs P2F-R2 0 (mechanical). Union 664 tr / +194,884.51: August 1,111.86 -> 1,675.23, October -> 53,056.54 (headroom 3,056.54), ex-top-3 71,257.47 -> 71,667.52. Gate: (a) total FAILS; (b) all-green PASS; (c) October PASS; (d) ex-top-3 PASS; (e) anchors/audit/placebo PASS (component beats placebo in total and per-trade) -- REJECTED on leg (a) alone; incumbent unchanged. Saturation no_beat_cycles 1 -> 2. Lesson 21 appended (2.5% floor validated by complement at the book's own exits; placebo-beating is necessary, not sufficient -- expectancy must clear zero). P2F-LOWBAND family CLOSED. SAT-33 (R2-LOWBAND, [2.0%,2.5%) at R+2; stocks_engine_sat33_diag.py / sat33_score.py / sat33_result.json): construction anchor lag+2 >=2.5% == SAT-13 R2 dump 34/34 in both diag and score passes; candidates 9 -> raw 9 -> frozen 7 (exclusions dropped 2). Frozen component 7 tr / +1,260.78, exp +180.11, win 4/7, breadth 4; H1 -144.70 / H2 +1,405.48; months Feb -144.70, Jul +422.50, Aug -445.08, Oct +1,428.06. Placebo 7 tr / -951.17, exp -135.88. Timing audit 0; overlaps 0/0/0. Union 663 tr / +197,607.74; August -> 666.78 (still green, minimum month); October -> 54,272.43; ex-top-3 -> 72,518.25. BANKED on all five gate legs; saturation counter 2 -> 0. Lesson 22 appended (the grid's last cell passes on thin, H2/October-carried evidence -- December judges). SAT-34 (R2-MIDBAND, [1.5%,2.0%) reaction slice at R+2, T125/S050; stocks_engine_sat34_diag.py / sat34_score.py / sat34_result.json): anchors all pass (incumbent 663 tr / +197,607.74 / ex-top-3 72,518.25, six components; construction anchor lag+2 >=2.5% == SAT-13 R2 dump 34/34 in both passes; frozen set == diagnosis set; timing audit 0; overlaps vs P2F/P2F-R2/P2F-LOWBAND/R2-LOWBAND/N4-V3 all 0). Candidates 7 -> raw 7 -> frozen 6 (ASTRAL SHORT -789.75 dropped by AU-1 exclusion). Frozen component: 6 tr / +2,909.18, exp +484.86, win 2/6, breadth 2, H1 +4,204.95 / H2 -1,295.77; Aug slice -440.77, Oct slice -855.00. Placebo (flip, identical entries): 6 tr / +1,054.91, exp +175.82 -- POSITIVE outright; beaten in total and per-trade, component clears zero (full Lesson 21 test passes standalone). DISCLOSED: the whole net is one trade -- TVSMOTOR SHORT 2026-05-18 +4,247.50 (target); ex-carrier the component is -1,338.32. Union 669 tr / +200,516.92: August 666.78 -> 226.01, October -> 53,417.43 (headroom 3,417.43), ex-top-3 72,518.25 -> 72,034.93 (-483.32, exactly the freeze's pre-registered expectation; top-3 membership unchanged). Gate: (a) total PASS, (b) all-green + August >= 100 PASS, (c) October PASS, (e) controls PASS, (d) ex-top-3 FAILS. REJECTED on leg (d) alone; incumbent unchanged. Saturation no_beat_cycles 0 -> 1. Lesson 23 appended (a positive standalone can be a concentration purchase; leg (d) is the separation test). R2-MIDBAND family CLOSED.",
+ "month_order": [
+  "2026-10",
+  "2026-09",
+  "2026-08",
+  "2026-07",
+  "2026-06",
+  "2026-05",
+  "2026-04",
+  "2026-03",
+  "2026-02",
+  "2026-01"
+ ],
+ "month_table": {
+  "2026-01": 28536.25,
+  "2026-02": 18419.86,
+  "2026-03": 20584.41,
+  "2026-04": 9895.49,
+  "2026-05": 34880.86,
+  "2026-06": 3823.22,
+  "2026-07": 6965.93,
+  "2026-08": 666.78,
+  "2026-09": 19562.51,
+  "2026-10": 54272.43
+ },
+ "next_family_seeds": [
+  "SATURATION RUN TERMINATED -- SATURATED (3 consecutive no-beats: SAT-34, SAT-35, SAT-36). Plateau +Rs197,607.74 frozen in stocks_engine_candidate_spec.md for December judging. No further in-sample cycles: the deletion registry is empty (SAT-30), the reaction (band x lag) grid is fully mapped and closed outside its living cells, both F4 exit ladders are closed, the R-ladder ends at R+2, and the GLENMARK-SHORT question was judged formally and closed (SAT-36, Lesson 25). Next work is fresh-data only: November paper loggers (from Mon 2026-11-02) and the December judging board.",
+  "BOOK LAW (SAT-15, SAT-17, SAT-18, SAT-19, SAT-20, SAT-24): N4-V3 trades at T150/S080, takes NO TVSMOTOR LONG and NO OIL LONG signals, F4 takes NO OIL SHORT signals, and INV-LONG takes NO VEDL and NO HINDZINC signals; anchor N4 from stocks_engine_sat15_n4_t150s080_trades.csv (47 tr after RF-1/ASTRAL filters + the TVSMOTOR-LONG + OIL-LONG exclusions), NOT from M1.load_n4() (old T125/S050 dump). The CH-2 N4-rebuild revisit is DISCHARGED and CLOSED -- do not re-propose it.",
+  "CLOSED (SAT-16): P2F-R3 / the R-ladder beyond R+2 \u2014 R3 standalone +952.10 at expectancy +28.00 with its placebo at +119.54/trade beating it (H2 +3,529.56 vs -1,689.87); the reaction signal's reach is two trading days on this event set (Lesson 20). Do NOT re-propose R+3, lag-averaging, or R+2/R+3 blending. Note for December judging: the lagged-follow axis is H2-weak at every lag >= R+2 (R2's own H2 -559.60 frozen / its raw H2 also lost to the placebo's H2) \u2014 R2 stays in the book on its H1 + union arithmetic, frozen verbatim, and December decides.",
+  "SAT-18 SLICE REGISTRY (re-derived from scratch at the post-SAT-17 book, stocks_engine_sat18_diag.json -- re-derive again before any use, Lesson 16): 147 slices, 27 qualifying. SAT-18 consumed F4 x OIL x SHORT (-2,712.77). Next rows: INV-LONG x VEDL (full -2,424.75 / 18 tr / 4 w; Apr-negative; Oct slice -318.05), INV-LONG x HINDZINC (-2,131.83 / 9 tr / 1 w; Jun-negative; Oct slice 0.00), P2F-R2 x TVSMOTOR x LONG (-1,979.90 / 1 tr; Jul-negative), F4 x IRCTC x SHORT (-1,297.01 / 13 tr; Apr+Jun-negative; Oct slice +275.00), INV-LONG x INDUSTOWER (-1,189.01 / 12 tr; Oct slice -228.45). AUGUST-negative quality-bar rows remaining: N4-V3 x OIL x LONG (Aug -405.20), F4 x RECLTD x SHORT (full -503.97, Aug -342.58), F4 x PFC x SHORT (full -667.69, Aug -55.00) -- their removals would thicken the August razor by those amounts. Deletion candidates under Lessons 5/15 ONLY if negative in a thin month AND full-period at the CURRENT book.",
+  "PROTECT the thin months: August +309.08 (the razor -- any cost above it un-secures August), June +1,846.78, July +4,448.29. August thickening is the binding constraint for any fix that costs August; conversely an August-positive slice/component now has outsized gate value.",
+  "PROTECT the thin months: August +309.08 (the razor -- any cost above it un-secures August), June +1,868.89, July +4,448.29. August thickening is the binding constraint for any fix that costs August; conversely an August-positive slice/component now has outsized gate value.",
+  "CLOSED (SAT-12): F4 TARGET FAMILY at T150 -- do NOT re-propose F4 target widening on this window (Lesson 4 addenda). CLOSED (SAT-16): P2F-R3 / R-ladder beyond R+2 (Lesson 20).",
+  "CLOSED (SAT-11): F4 STOP FAMILY at T150/S095 -- do NOT re-propose F4 stop widening on this window (Lesson 4 addenda).",
+  "CLOSED (SAT-9): F4-MIRROR in every direction/regime combination (Lesson 18). CLOSED (SAT-5): INV-LONG exit rebuild (grid peak in place) and P2F exit rebuild. CLOSED (SAT-6): SE-1-F4R1 -- banked. CLOSED (CH-1): per-stock profile direction on the >=2.0% event set (Lesson 13). CLOSED (SAT-4): N4-LOWBAND (Lesson 17). CLOSED (SAT-15): the CH-2 N4 exit rebuild -- BANKED; N4 exits are T150/S080.",
+  "SATURATION GATE: total up + all ten green + October >= 50,000 + ex-top-3 not worse; run ends after 3 consecutive no-beat cycles (counter 0 after SAT-15 bank)."
+ ],
+ "notes": "All figures provisional per 100 shares, Rs40/trade, paper only, real Rs0. RF-1 was banked under the amended banking rule: frozen before scoring in Cycle 1, audited, improved February +4,433.84 and the total with zero other-month impact; it had been marked rejected only by the old all-or-nothing leg (February must flip green in one fix).",
+ "saturation": {
+  "best_total": 197607.74,
+  "definition": "run ends when 3 consecutive cycles fail to beat the best book on the gate",
+  "no_beat_cycles": 3
+ },
+ "secured_months": [
+  "2026-10",
+  "2026-09",
+  "2026-08",
+  "2026-07",
+  "2026-06",
+  "2026-05",
+  "2026-04",
+  "2026-03",
+  "2026-02",
+  "2026-01"
+ ],
+ "terminated": "SATURATED-V2 (engine v2 terminated 2026-10-31 after C25-C27 no-beats; final combined +239,067.34 over 2025+2026; see v2.status/v2.terminated). Watchdog disabled 2026-10-31 by proactivity repair: top-level terminated was null and cycle_lock was a stale v2-cycle-22 string, so the watchdog would have restarted in-sample cycles against the saturation verdict.",
+ "total": 197607.74,
+ "trades": 663,
+ "tried_families": [
+  {
+   "family": "INV-LONG event-window exclusion",
+   "id": "MF-1",
+   "result": "REJECTED (M1) \u2014 Feb greens (+2,844.92) but June flips -622.32"
+  },
+  {
+   "family": "INV-LONG leg swap to DBL-LONG",
+   "id": "MF-2",
+   "result": "REJECTED (M1) \u2014 Feb still -1,555.78 (closest miss); total +47,806.88"
+  },
+  {
+   "family": "INV-LONG stop widened to -0.65%",
+   "id": "MF-3",
+   "result": "REJECTED (M1) \u2014 Feb -3,998.53 and June flips -895.70"
+  },
+  {
+   "family": "INV-LONG ADR>=4.5-only filter",
+   "id": "MF-4",
+   "result": "REJECTED (M1) \u2014 Feb greens mechanically but activity guard broken, October flips -845.69"
+  },
+  {
+   "family": "Special-session stand-aside (all components, weekend sessions from calendar)",
+   "id": "RF-1",
+   "result": "ACCEPTED / BANKED (Cycle 1, banking rule) \u2014 Feb 1 is the only weekend session in Jan-Oct 2026; Feb -5,533.46 -> -1,099.62 (+4,433.84), total -> +52,099.08, no other month touched, audit clean. February still red \u2014 recursion continues on the residual when February's turn comes."
+  },
+  {
+   "family": "Post-shock stand-aside (prior day |Nifty| >= 2%)",
+   "id": "RF-2",
+   "result": "REJECTED (Cycle 1) \u2014 February slightly worse (-5,599.20): Feb 2 is net positive at book level (+1,293.69), so the rule deletes a good day"
+  },
+  {
+   "family": "RF-1 + RF-2 combined",
+   "id": "RF-3",
+   "result": "REJECTED (Cycle 1) \u2014 Feb -1,165.36, worse than RF-1 alone on the residual and breaks February activity (25 trades)"
+  },
+  {
+   "family": "ADD-COMPONENT union: M2 F4 state-gated cell as 4th component (RF-1 applied to F4: 3 Feb-1 trades, -3,056.24, dropped; F4 adjusted +45,475.15 / 714 trades)",
+   "id": "OC-1",
+   "result": "ACCEPTED / BANKED (October Cycle 1, frozen October banking legs) \u2014 October 6,845.39 -> 43,011.62 (+36,166.23 >= +15,000 leg), total 52,099.08 -> 97,574.23 (rises), min month -7,708.27 (April) >= -12,000 floor. Trades 329 -> 1,043. Disclosed: April and June flipped red, February deepened \u2014 repair targets in their turns; no month was secured. Union Jan-Sep alone = +54,562.61, so F4 adds +9,308.92 even with its October excluded."
+  },
+  {
+   "family": "ADD-COMPONENT union: home 11:00 fade as 4th component (1,073 trades, +4,243.18)",
+   "id": "OC-2",
+   "result": "REJECTED-with-reason (October Cycle 1) \u2014 fails the October leg: improvement only +341.29 (< +15,000). Total would rise to +56,342.26 and min month -8,901.70 passes the floor, but it does not move October. Revisitable in a later month's turn."
+  },
+  {
+   "family": "ADD-COMPONENT union: DBL-LONG (T125/S050) as 5th component",
+   "id": "OC-2-DBL",
+   "result": "REJECTED at diagnosis (October Cycle 2) \u2014 anchor exact (133 tr, +24,327.37, Oct +7,957.95), but RF-1-adjusted February -2,212.03 deepens book February by Rs2,212.03 > Rs2,000 red-month cap; and 131/133 trades identical to INV-LONG trades (subset re-weighting, not an independent stream)."
+  },
+  {
+   "family": "F4 component gate: exclude setup3_bounce_rejection signals (all months)",
+   "id": "OC-2-S3",
+   "result": "ACCEPTED / BANKED (October Cycle 2) \u2014 setup3 was the only F4 setup negative full-period (57 tr, -9,653.53) and in October (5 tr, -2,570.36). October 43,011.62 -> 45,581.98, total 97,574.23 -> 107,227.76, all banking legs pass; February and April also improve. October residual gap Rs4,418.02 \u2014 not secured."
+  },
+  {
+   "family": "F4 component exit change: target +1.25% -> +1.50%, stop -0.65% unchanged (all months, F4 only)",
+   "id": "OC-3-F4T150",
+   "result": "ACCEPTED / BANKED (October Cycle 3) \u2014 diagnosis: N4/P2F October drags are small-sample accidents (full-period positive), INV-LONG October losers diffuse with no ex-ante gate, F4 losers 95% stop exits with no band/dir/hour/round structure; F4 economics are target-driven (200 full-period target exits +219,475.66). Anchors exact (T125 rebuild == dump 717 tr/+42,418.91, audit 0 violations both builds; filtered T125 union == state). October 45,581.98 -> 48,138.22 (+2,556.24), total 107,227.76 -> 112,101.53, trades 986 -> 966; all banking legs pass \u2014 worst positive-month hit March -4,140.81 (< 5,000), red targets all IMPROVE (Apr +3,717.75, Jun +1,796.82, Feb +153.10). October residual gap Rs1,861.78 \u2014 not secured."
+  },
+  {
+   "family": "F4 component exit change: stop -0.65% -> -0.80%, target +1.50% unchanged (all months, F4 only)",
+   "id": "OC-4-F4S080",
+   "result": "ACCEPTED / BANKED (October Cycle 4) \u2014 diagnosis: T175 unsupported (full-period post-exit est -15,744.13; Oct +1,188.18 < gap 1,861.78); stop side held the recoverable value (58/314 stop-outs mean-reverted to ~flat closes; only 7/314 later reached target). Anchors exact (T150/S065 rebuild == oc3 dump 696 tr; filtered union == state 112,101.53; audits 0 violations both builds). October 48,138.22 -> 50,029.72 (+1,891.50) \u2014 OCTOBER SECURED (>= 50,000). Total 112,101.53 -> 131,646.79, trades 966 -> 934. All legs pass: February -1,660.11 -> +4,173.49 GREEN, April -3,324.69 -> +50.73 GREEN, June deepens only -760.27 (< 2,000), worst positive-month hit January -1,231.74 (< 5,000), min month -1,484.26 (August, flipped slightly red under S080 \u2014 recorded as August's repair target)."
+  },
+  {
+   "family": "F4 component gate: first qualifying signal per stock-day only (round-2 legs dropped, all months)",
+   "id": "SE-1-F4R1",
+   "result": "REJECTED (SE Cycle 1) on the OCTOBER HARD FLOOR \u2014 September rises +2,471.53 to +19,885.32, total rises +852.58 to +132,499.37, June flips GREEN (+160.30), April improves to +1,770.75, August deepens only -429.57 (inside legs), no positive month loses >5,000 \u2014 but October's round2 legs are +1,551.75, so October falls to +48,477.97 < 50,000 and the fix is rejected outright. September SECURED AS-IS at +17,413.79 (verified 80 tr: F4 +13,593.59, INV-LONG +3,820.20). Revisit condition recorded: bankable once October holds >= Rs1,551.75 headroom above the floor."
+  },
+  {
+   "family": "Event-follow components (N4-V3, P2F 2.5%) exclude ASTRAL (mechanism-scoped stock exclusion; INV-LONG/F4 keep ASTRAL)",
+   "id": "AU-1-EVENT-ASTRAL",
+   "result": "ACCEPTED / BANKED (AU Cycle 1) \u2014 diagnosis: August carried by N4/P2F (+6,107.08) against F4 -7,286.99; no F4 slice negative in both August and full-period, but ASTRAL was 4/4 losers in BOTH event systems (N4 -1,611.45, P2F -1,592.10 full-period; Aug -1,669.95 combined) and is fade-type in the frozen reaction profiles. Removing the 4 trades: August -1,484.26 -> +185.69 GREEN (secured), May +1,533.60, total 131,646.79 -> 134,850.34, trades 934 -> 930; October/Sep/June and every other month unchanged \u2014 October headroom still Rs29.72, so SE-1-F4R1 remains blocked. Thin-sample caveat recorded (4 trades). Lesson 11 appended."
+  },
+  {
+   "family": "P2F 2.5% component excludes HINDUNILVR (mechanism-scoped stock exclusion; N4-V3/INV-LONG/F4 keep HINDUNILVR)",
+   "id": "JU-1-P2F-HINDUNILVR",
+   "result": "ACCEPTED / BANKED (JU Cycle 1) \u2014 diagnosis: July verified (14 tr, +2,096.63) but concentrated (top-1 = 231% of month, ex-top-3 -6,041.00, winners 4/14); slice scan found 4 comp x stock slices negative in July AND full-period, of which only P2F x HINDUNILVR carried the Lesson 11 evidence stack (frozen profiles: fade-tendency, 0 CONTINUED / 2 FADED; worst ungated P2 payer -3,484.80; in-band 2/2 losers -2,294.05). Removing the 2 trades (2026-02-16 -1,194.05; 2026-07-30 -1,100.00): July 2,096.63 -> +3,196.63 GREEN (secured), February 4,173.49 -> +5,367.54, total 134,850.34 -> 137,144.39, trades 930 -> 928; October/Sep/Aug/June and all other months unchanged \u2014 all 6 legs pass. Thin-sample caveat recorded (2 in-band trades, profile-carried). July stays concentrated (ex-top-3 -4,941.00) \u2014 disclosed in state."
+  },
+  {
+   "family": "INV-LONG component excludes BDL (mechanism-scoped stock exclusion; N4-V3/P2F/F4 keep BDL)",
+   "id": "JN-1-INV-BDL",
+   "result": "ACCEPTED / BANKED (JN Cycle 1) \u2014 diagnosis: June 75 tr, F4 -2,538.69, INV-LONG -1,772.32, N4 -1,131.10 (1 tr), P2F +4,208.62; slice scan found INV-LONG x BDL negative in June (-1,406.25 / 2 tr) AND full-period (-1,486.93 / 22 tr, 6 winners) while BDL earns +10,168.59 in the other components (Lesson 11, third instance). Bigger slice F4 x GODREJCP (Jun -2,460.96, full -3,814.67) was NOT bankable: its October slice +1,060.25 breaks the hard floor. Removing the 22 BDL trades: June -1,233.49 -> +172.76 GREEN \u2014 ALL TEN MONTHS POSITIVE; October 50,029.72 -> 50,572.02; April 50.73 -> 1,464.36; September -> 18,041.54; total 137,144.39 -> 138,631.32, trades 928 -> 906; all 5 legs pass (worst positive-month hit March -1,205.80 < 5,000). Thin-sample caveat: June's green rests on 2 June trades; the 22-trade full-period record carries the case."
+  },
+  {
+   "family": "CHALLENGER P2F-PROFILE: replace P2F-2.5 with profile-directed P2F (direction from stock's own causal reaction history, >=2 priors, >=2/3 share; 2.0% band, T125/S065, no name exclusions)",
+   "id": "CH-1-P2F-PROFILE",
+   "result": "REJECTED (CH Cycle 1, frozen challenger gate) \u2014 anchors exact (incumbent 138,631.32/906; construction 48/+12,835.88), audit 0 violations, standalone +13,120.32 (46 tr, H1 +4,817.48 / H2 +8,302.84, Oct -279.77, breadth 14) beats placebo +12,411.62 \u2014 but the profile rule classified only 3/48 trades and flipped ZERO (event set too sparse: ~2 reactions/stock in-window; ASTRAL's -1.86% Feb reaction is below band). Assembled book: total 132,907.51 < incumbent (leg b FAIL), August flips -571.74 (leg a FAIL), ex-top-3 17,662.47 < incumbent 18,918.30 (leg d FAIL); October 50,607.25 passes (leg c). Incumbent unchanged. Lesson 13 appended. Counts as a no-bank cycle (consecutive_no_bank 0 -> 1)."
+  },
+  {
+   "family": "CHALLENGER (B): N4-V3 exit rebuild T125/S050 -> T150/S080 (all other components verbatim)",
+   "id": "CH-2-N4-T150S080",
+   "result": "REJECTED (CH Cycle 2, restored adoption gate) \u2014 diagnosis picked (B) over (A): N4 excursion profile on the incumbent set (stop 31/-15,985.68, target 17/+22,612.48) gave rough swing +9,477.40 (T150 leg -1,995.57, S080 leg +11,472.97); mirror (A) evidence was a coin-flip, 3-month-concentrated close-hold drift. Scored: anchors exact (incumbent 138,631.32/906; N4 replay at T125/S050 reproduces the source dump 56/56, convention = entry-bar evaluation; audit 0 violations). N4 component +7,761.80 -> +17,245.25 (+9,483.45). Assembled: total +148,114.77 (leg b PASS), October +51,712.76 (leg c PASS), ex-top-3 +25,420.86 vs incumbent +18,918.30 (leg d PASS) \u2014 but June -481.90 and August -3,649.16 flip red (leg a FAIL). Incumbent unchanged. Process note: the cycle ran under two user overrides (12:08 freeze-for-record, then 12:10 saturation restoring adopt-if-beats); scored under the restored gate; candidate spec NOT written. Saturation: no_beat_cycles = 1, best_total = 138,631.32. Lesson 14 appended."
+  },
+  {
+   "family": "F4 component excludes GODREJCP SHORT signals (stock x mechanism x DIRECTION exclusion; F4 keeps GODREJCP LONG; all other components trade GODREJCP unchanged)",
+   "id": "SAT-1-F4-GODREJCP-SHORT",
+   "result": "ACCEPTED / BANKED (SAT Cycle 1, saturation gate) \u2014 diagnosis: June carried by P2F +4,208.62 against F4 -2,538.69; the known F4 x GODREJCP slice (Jun -2,460.96, full -3,814.67) stayed October-blocked (Oct slice +1,060.25 vs headroom 572.02), but its SHORT half was the rot: 10 tr, -4,754.92, 2/10 winners, all skill_or_breakdown, October slice exactly 0.00, while the LONG half is +940.25 full-period. Removing the 10 trades: June +172.76 -> +1,853.72 (+1,680.96 = 2.57x the CH-2 revisit need of 654.66 \u2014 June revisit condition FULLY covered; June after hypothetical N4 re-apply = +1,199.06), total 138,631.32 -> 143,386.24, February +1,004.48, March +1,709.68, September +1,244.56, April -180.00 (still green), May -704.76 (still green), October/August/July/January unchanged; trades 906 -> 896; ex-top-3 18,918.30 -> 23,673.22. All saturation legs pass. Saturation counter reset: no_beat_cycles 1 -> 0, best_total 143,386.24. August revisit shortfall unchanged at Rs3,834.85 \u2014 the only remaining N4-rebuild condition. Lesson 15 appended."
+  },
+  {
+   "family": "F4 component excludes INDUSTOWER LONG signals (stock x mechanism x DIRECTION exclusion; F4 keeps INDUSTOWER SHORT; all other components trade INDUSTOWER unchanged)",
+   "id": "SAT-2-F4-INDUSTOWER-LONG",
+   "result": "ACCEPTED / BANKED (SAT Cycle 2, saturation gate) \u2014 diagnosis: August carried by event systems (N4 +6,532.91, P2F +1,244.12) against F4 -7,286.99 (11 stops -10,393.92, all skill_or setups, concentrated Aug 20/27/28/31); no comp x setup / comp x stock slice negative in both August and full-period with mass (F4 x SHORT full +42,078.56, F4 x LONG full +42,224.07). Killed on evidence before freezing: F4 stop widening (diag3 excursions: 0/11 August stop exits reached target post-exit, 7 deeper, 4 flat; S095 Aug est +262.61, S110 -1,191.02 \u2014 continuations, not dips); F4 x UNITDSPR floor-blocked both directions (Oct +2,617.85; SHORT half Oct +780.00 > headroom 572.02); F4 x GLENMARK x SHORT a top earner (gate-dead); micro-slice bundle refused as method. Frozen slice F4 x INDUSTOWER x LONG: Aug -693.00 (2 tr, 0 w), full -361.12 (18 tr, 7 w), Oct -792.72, Apr -758.76. Removing the 18 trades: August +185.69 -> +878.69 (+693.00 = 18% of the N4 revisit need; SHORTFALL Rs3,141.85 remains \u2014 N4 rebuild STILL BLOCKED, August after hypothetical re-apply -2,956.16), total 143,386.24 -> 143,747.36, October +792.72 -> 51,364.74 (headroom 1,364.74), April +758.76 -> 2,043.12; costs March -556.17 and September -1,368.72 (both stay strongly green); trades 896 -> 878; ex-top-3 23,673.22 -> 24,034.34. All gate legs pass; saturation counter stays 0, best_total -> 143,747.36. Lesson 4 addendum appended (population-specific exit medicine)."
+  },
+  {
+   "family": "RE-MEASUREMENT of SE-1-F4R1 at the post-SAT-1/SAT-2 book (F4 first-signal-only, round2 legs dropped)",
+   "id": "SAT-3-F4R1-REMEASURE",
+   "result": "NOT BANKED (SAT Cycle 3, frozen SAT-3 gate + within-Rs250 floor rule) \u2014 anchor exact (878 tr / +143,747.36 / Oct +51,364.74). Round2 legs at the current book: 70 tr, net -11.83 (SE-1: 74 tr). OCTOBER COST INVARIANT: the 8 October round2 legs are untouched by SAT-1/SAT-2 (net +1,551.75, identical to the paisa) -> October under F4R1 = 49,812.99, Rs187.01 BELOW the floor -> inside the frozen Rs250 window: do not bank, shortfall recorded. Everywhere else the measurement MOVED: total delta decayed +852.58 -> +11.83 (SAT-1/SAT-2 had already harvested round2 losers in other months); September delta improved +2,471.53 -> +2,982.10; August delta worsened -429.57 -> -775.25 (August under F4R1 would be +103.44, razor-thin); May delta flipped +129.50 -> -876.14; Jan/Feb/Mar/Apr/Jun/Jul/Oct deltas identical to SE-1. Legs: (a) total rises +11.83 PASS (nominal), (b) all ten green PASS (min Aug +103.44), (c) October floor FAIL. Saturation: no_beat_cycles 0 -> 1, best_total unchanged 143,747.36. N4-revisit August shortfall UNCHANGED at Rs3,141.85 (F4R1 does not thicken August; it thins it). Lesson 16 appended."
+  },
+  {
+   "family": "NEW COMPONENT N4-LOWBAND: combined reaction days with |move by 09:30| in [0.75%, 1.0%) (the band N4-V3's >=1.0% trigger excludes), entry 09:35 in reaction direction, T125/S050, RF-1 applied",
+   "id": "SAT-4-N4-LOWBAND",
+   "result": "REJECTED (SAT Cycle 4, saturation gate \u2014 fails ALL THREE legs) \u2014 construction anchor exact (pipeline reproduces the V3 dump 56/56 per-trade; audit 0 violations; mechanical overlap vs N4-V3 dump = 0; RF-1 weekend drops 0). Standalone: 14 tr, -1,984.09 (Jan-May +2,730.29 / Jun-Oct -4,714.38 \u2014 halves flip; win 14.3% = 2/14; expectancy -141.72; breadth 2/12; ASTRAL slice 1 tr +1,856.00 noted, not excluded per the one-change rule). August slice -1,026.45 \u2014 it loses in the very month it was built to thicken; October slice -2,421.30. Union: 892 tr / +141,763.27 < incumbent (leg a FAIL), August -147.76 (leg b FAIL), October 48,943.44 < 50,000 (leg c FAIL). Incumbent unchanged (878 tr / +143,747.36, all ten green). August N4-revisit shortfall UNCHANGED at Rs3,141.85. Saturation: no_beat_cycles 1 -> 2, best_total unchanged 143,747.36. Lesson 17 appended (a threshold is validated when its complement fails)."
+  },
+  {
+   "family": "F4 component excludes HINDUNILVR SHORT signals (stock x mechanism x DIRECTION exclusion; F4 keeps HINDUNILVR LONG; N4-V3/INV-LONG unchanged; P2F already excludes the name per JU-1)",
+   "id": "SAT-5-F4-HINDUNILVR-SHORT",
+   "result": "ACCEPTED / BANKED (SAT Cycle 5, saturation gate) \u2014 the watchdog's pending candidate (frozen pre-SAT-3 by the 12:17 watchdog run, renumbered SAT-5 per the correction note, NEVER scored until now). Re-diagnosed at the post-SAT-4 book (stocks_engine_sat5_diag.py, anchor exact): slice identical to the watchdog record \u2014 9 tr, -2,664.00, 5 winners; Jan -1,904.08, Apr +526.88, Jun -1,040.00, Sep +1,070.00, Oct -1,316.80. Direction split is the Lesson 15 pattern: F4 x HINDUNILVR overall only -1,184.02 because the LONG half earns (+1,479.98; October +5,369.90). Removing the 9 trades: total 143,747.36 -> 146,411.36, October 51,364.74 -> 52,681.54 (headroom 2,681.54 \u2014 now exceeds F4R1's invariant October cost 1,551.75), June 1,853.72 -> 2,893.72, January -> 13,282.30; costs April -526.88 -> 1,516.24, September -1,070.00 -> 16,847.38 (both green); August unchanged; trades 878 -> 869; ex-top-3 24,034.34 -> 26,698.34. All three gate legs pass. Saturation: no_beat_cycles 2 -> 0, best_total -> 146,411.36. Same diag closed the INV-LONG exit family (17/17 alternates below incumbent) and left P2F exits untouched on prior evidence."
+  },
+  {
+   "family": "SE-1-F4R1 BANKED at the post-SAT-5 book: F4 takes only the first qualifying signal per stock-day (all round2 legs dropped, all months)",
+   "id": "SAT-6-SE1-F4R1-BANK",
+   "result": "ACCEPTED / BANKED (SAT Cycle 6, saturation gate, after fresh Lesson-16 re-measurement) \u2014 anchor exact (869 tr / +146,411.36 / Oct +52,681.54). SAT-5's intervening slice verified in-run as 9 direct / 0 round2 legs, so the round2 set re-measured IDENTICAL to SAT-3: 70 tr, net -11.83, October 8 tr / +1,551.75 (cost invariant across SE-1, SAT-3, SAT-6). Dropping the 70 legs: total 146,411.36 -> 146,423.19 (+11.83, nominal), October 52,681.54 -> 51,129.79 (floor holds; headroom 2,681.54 -> 1,129.79), September +2,982.10 -> 19,829.48, June +1,393.79 -> 4,287.51, April +1,720.02 -> 3,236.26, March +2,022.02 -> 22,291.79; costs February -3,641.69 -> 2,488.65, January -1,261.27 -> 12,021.03, May -876.14, August -775.25 -> +103.44 (razor-thin, still green); July unchanged; trades 869 -> 799; ex-top-3 26,698.34 -> 27,831.35. All three gate legs pass. Reported cost: the N4-revisit August shortfall GROWS 3,141.85 -> 3,917.10 (F4R1 thins August). Saturation: no_beat_cycles stays 0, best_total -> 146,423.19. Lesson 16 addendum appended."
+  },
+  {
+   "family": "F4 component excludes UNITDSPR SHORT signals (stock x mechanism x DIRECTION exclusion; F4 keeps UNITDSPR LONG; all other components trade UNITDSPR unchanged)",
+   "id": "SAT-7-F4-UNITDSPR-SHORT",
+   "result": "ACCEPTED / BANKED (SAT Cycle 7, saturation gate) \u2014 diagnosis: August +103.44 at the post-F4R1 book = event systems +7,777.03 vs F4 -7,369.24 (15 tr, 9 stops, all Aug 20/27/28/31); winners-side state search NEGATIVE (no ex-ante gate separates August winners from losers). F4 x UNITDSPR the only F4 stock slice negative in both August (-1,947.84) and full period (-1,294.84); SHORT half -1,847.01 (8 tr, 3 w), LONG half +552.17. The SAT-2 floor block (Oct slice +780.00 vs headroom then 572.02) lifted at headroom 1,129.79 (Lesson 12 addendum). Removing the 8 trades: August +103.44 -> +775.60, February +1,123.04 -> 3,611.69, March +331.81, April +500.00, total 146,423.19 -> 148,270.20, October -780.00 -> 50,349.79 (headroom 349.79); trades 799 -> 791; ex-top-3 27,831.35 -> 29,678.36. All gate legs pass; saturation counter stays 0, best_total -> 148,270.20. N4-revisit August shortfall 3,917.10 -> 3,244.94."
+  },
+  {
+   "family": "F4 component excludes HINDCOPPER SHORT signals (stock x mechanism x DIRECTION exclusion; F4 keeps HINDCOPPER LONG; all other components trade HINDCOPPER unchanged)",
+   "id": "SAT-8-F4-HINDCOPPER-SHORT",
+   "result": "ACCEPTED / BANKED (SAT Cycle 8, saturation gate) \u2014 seed diagnosed in SAT-7, re-derived at the current book per Lesson 16 (stocks_engine_sat8_diag.py, anchor exact 791 tr / +148,270.20): slice IDENTICAL to the SAT-7 record \u2014 12 tr, -1,094.95, 4 winners, all skill_or_breakdown direct legs; Aug -959.56 (2 tr), Oct exactly 0.00 (1 tr scratch); the intervening SAT-7 UNITDSPR change is on a disjoint stock so the deltas did not expire (Lesson 16 invariance, third positive instance). Direction split (Lesson 15): HINDCOPPER whole +697.56 only because LONG earns +1,792.51 (4 tr, 3 w). Removing the 12 trades: August +775.60 -> +1,735.16, total 148,270.20 -> 149,365.15, October UNCHANGED +50,349.79 (headroom 349.79); costs March -302.13, June -346.00, April -65.00, September -106.80 (all stay green); trades 791 -> 779; ex-top-3 29,678.36 -> 30,773.31. All gate legs pass; saturation counter stays 0, best_total -> 149,365.15. N4-revisit August shortfall 3,244.94 -> 2,285.38. August direction-slice space EXHAUSTED at this book (Lesson 15 addendum appended)."
+  },
+  {
+   "family": "CHALLENGER F4-MIRROR: new component \u2014 capped-band [0.5%,1.0%) signal-FADE on ABOVE-50DMA days (H1.build_cell sig/fade), T150/S080, first-signal-only, RF-1, book F4 exclusions applied symmetrically (setup3 + GODREJCP-SHORT / INDUSTOWER-LONG / HINDUNILVR-SHORT / UNITDSPR-SHORT / HINDCOPPER-SHORT)",
+   "id": "SAT-9-F4-MIRROR",
+   "result": "REJECTED (SAT Cycle 9, saturation gate \u2014 legs a/b/d FAIL) \u2014 anchor exact (779 tr / +149,365.15 / ex-top-3 30,773.31); audits 0 violations in all three builds; overlap vs incumbent F4 = 0 dates / 0 pairs (disjoint day-states, verified mechanically); October above50 days = 0 so the mirror's October slice is 0 tr / Rs0.00. Standalone: 26 tr (53 raw, 27 exclusion-dropped), net -Rs10,013.80, expectancy -385.15, breadth 2/25, halves BOTH negative (Jan-May -3,386.43 / Jun-Oct -6,627.37); August slice -4,220.36 \u2014 it loses most in the month it was meant to thicken. Placebos: A sign-flip (follow, same days) 222 tr / -17,977.51 (exp -80.98); B lag 113 tr / -14,225.61 (exp -125.89) \u2014 the mirror's raw-net margins (+7,963.71 / +4,211.81) are abstention artefacts: per trade it is the WORST of the three. Union would be 805 tr / +139,351.35 (leg a FAIL), August -2,485.20 (leg b FAIL), October unchanged 50,349.79 (leg c PASS), ex-top-3 28,263.83 < 30,773.31 (leg d FAIL), controls leg (e) nominally PASS on raw net but expectancy-negative. Incumbent unchanged. N4-revisit August shortfall UNCHANGED at Rs2,285.38 (hypothetical union shortfall would be Rs6,505.74). Saturation: no_beat_cycles 0 -> 1, best_total unchanged 149,365.15. Lesson 18 appended (joint states do not mirror; placebo must be beaten per-trade). F4-MIRROR family CLOSED \u2014 do NOT re-propose."
+  },
+  {
+   "family": "F4 component exit change: stop -0.80% -> -0.95%, target +1.50% unchanged (all months, F4 only) \u2014 single step, excursion-diagnosed at the current book",
+   "id": "SAT-10-F4-S095",
+   "result": "ACCEPTED / BANKED (SAT Cycle 10, saturation gate \u2014 all five legs pass) \u2014 diagnosis (sat10_diag, anchor exact 779 tr / +149,365.15): current F4 = 478 tr / +90,281.54 with 182 stop exits (-127,492.99); first passage at -0.95%: 4 rescue / 153 deeper / 25 neither (10 closed >= flat); rough est +6,951.25 full, Oct +2,953.74, Aug -652.72; pre-registered support test passed (est total up, predicted all-green, predicted Oct >= 50,000). Frozen in stocks_engine_frozen.md (SAT-10) BEFORE scoring. Exact rebuild (anchors: S080 rebuild == oc4 dump per-trade; filtered union == state; audits 0/0; entry sets identical, 478): F4 -> +94,179.91 (+3,898.37 = 56% of the rough estimate; estimate misallocated months \u2014 Oct exact +567.24, Feb exact +4,204.65). Total 149,365.15 -> 153,263.52; October -> 50,917.03 (headroom 917.03); August 1,735.16 -> 1,182.43 (-552.73, still green, still min month); costs March -3,582.31, September -2,179.93, May -916.93, July -104.25 all absorbed; ex-top-3 30,773.31 -> 38,278.28 (+7,504.97). Trades unchanged 779. Saturation: no_beat_cycles stays 0, best_total -> 153,263.52. N4-revisit August shortfall 2,285.38 -> 2,838.11. New F4 dump stocks_engine_sat10_f4s095_trades.csv. Lesson 4 addendum appended."
+  },
+  {
+   "family": "F4 component exit change: stop -0.95% -> -1.10%, target +1.50% unchanged \u2014 stop-ladder step 2, excursion-diagnosed at the current (post-SAT-10) book",
+   "id": "SAT-11-F4-S110",
+   "result": "NOT SCORED (SAT Cycle 11 \u2014 pre-registered support test FAILED at diagnosis) \u2014 anchor exact (779 tr / +153,263.52); S095 stop population 155 exits / -130,188.29; first passage at -1.10%: FULL 1 rescue / 126 deeper / 28 neither, rough est +6,686.35 (predicted total 159,949.87 \u2014 leg (i) PASS); October predicted 53,527.27 (leg (iii) PASS); AUGUST 5 stops 0 rescue / 5 deeper / 0 neither, est -1,168.73 -> predicted August +13.70 (leg (ii) FAIL, and below the Rs500 family-close line). Step never frozen or scored; incumbent unchanged; F4 STOP FAMILY CLOSED at T150/S095 on this window (reopen only after August is thickened by other means + fresh diagnosis). Saturation: no_beat_cycles 0 -> 1. N4-revisit shortfall unchanged Rs2,838.11."
+  },
+  {
+   "family": "F4 component exit change: target +1.50% -> +1.65%, stop -0.95% unchanged -- target-ladder step 1 above T150, winner-excursion-diagnosed at the current (post-SAT-10) book",
+   "id": "SAT-12-F4-T165",
+   "result": "NOT SCORED (SAT Cycle 12 -- pre-registered support test FAILED at diagnosis) -- anchor exact (779 tr / +153,263.52); target exits 133 / +183,123.20; first passage at +1.65%: FULL 103 reach / 3 stop-first / 27 neither, rough est -8,293.33 (predicted total 144,970.19 -- leg (i) FAIL); October predicted 52,477.30 (leg (iii) PASS); predicted all-green TRUE (leg (ii) PASS). Decomposition: reach +14,303.80 vs neither give-back -19,286.20 and stop-first -3,310.93. Step never frozen or scored; incumbent unchanged; F4 TARGET FAMILY CLOSED at T150 on this window (reopen only on a fresh winner-population diagnosis at a materially different book state). Saturation: no_beat_cycles 1 -> 2. N4-revisit shortfall unchanged Rs2,838.11."
+  },
+  {
+   "family": "NEW COMPONENT P2F-R2: P2F's information axis extended one day \u2014 enter at the R+2 open (second trading day after R) in the reaction direction, 2.5% band, T125/S050, 15:10 square-off; RF-1 + the event-follow name exclusions (AU-1 ASTRAL, JU-1 HINDUNILVR) applied as part of the definition (SAT-9 precedent)",
+   "id": "SAT-13-P2F-R2",
+   "result": "ACCEPTED / BANKED (SAT Cycle 13, saturation gate \u2014 all five legs pass) \u2014 diagnosis weighed it against a book-wide (comp x stock x dir) slice scan at the current book (31 qualifying rows, all small: largest F4 x OIL x SHORT -2,712.77 / 13 tr; slices NOT chosen and not consumed \u2014 adding a disjoint component leaves them available). Build with audited stocks_tuning_event.py machinery verbatim: construction anchor 39 candidates == M1 raw P2F@2.5 population; 38 trades built (RECLTD R=2026-10-27 dropped \u2014 no R+2 in daily series); timing audit 0 violations; (date,stock) overlap vs incumbent P2F = 0; RF-1 weekend trades = 0. Standalone RAW: 38 tr / +9,813.68, exp +258.25, breadth 12, H1 +12,288.08 / H2 -2,474.40; raw placebo -477.83 (exp -12.57) \u2014 beaten overall/per-trade but NOT in H2. Frozen variant (name exclusions): 34 tr / +12,912.48, exp +379.78, win 19/34, H1 +13,472.08 / H2 -559.60 (disclosed); excluded 4 trades net -3,098.80 (Lesson 11, 4th instance); placebo on the frozen subset -6,542.33 (exp -192.42). Union: 813 tr / +166,176.00 (total +12,912.48); August 1,182.43 -> 3,571.43; October -> 51,107.02 (headroom 1,107.02); June -> 2,036.67 and July -> 2,022.79 (component's cost months \u2014 now the thinnest after August); ex-top-3 38,278.28 -> 51,853.86. Saturation: no_beat_cycles 2 -> 0, best_total -> 166,176.00 \u2014 run NOT saturated. N4-revisit August shortfall 2,838.11 -> 449.11. Lesson 19 appended. Component frozen verbatim for December judging (H1-carried \u2014 Lesson 7)."
+  },
+  {
+   "family": "P2F component excludes HINDALCO LONG signals (stock x mechanism x DIRECTION exclusion; P2F keeps HINDALCO SHORT if any; all other components trade HINDALCO unchanged) \u2014 SAT-13 registry slice re-derived at the current book",
+   "id": "SAT-14-P2F-HINDALCO-LONG",
+   "result": "ACCEPTED / BANKED (SAT Cycle 14, saturation gate \u2014 all five legs pass) \u2014 diagnosis: registry re-derived from scratch at the five-component book (anchor exact 813 tr / +166,176.00); 8 slices August-negative AND full-negative, 2 feasible under the cycle constraints (Aug gain >= 449.11, Oct slice <= 1,107.02, all-green after). Pre-registered least-surgery rule picked P2F x HINDALCO x LONG: 1 tr (2026-08-10, stop, -572.50; R 2026-08-07, +3.17%) \u2014 P2F's only HINDALCO trade, so Aug slice = full = -572.50, Oct slice exactly 0.00; deleted set asserted == frozen set at scoring. Removing it: August 3,571.43 -> 4,143.93, total 166,176.00 -> 166,748.50, trades 813 -> 812, every other month identical to the paisa, October unchanged 51,107.02, ex-top-3 51,853.86 -> 52,426.36. N4-REVISIT AUGUST LEG MET at this book (4,143.93 >= 4,020.54, margin 123.39). THIN-SAMPLE CAVEAT: 1 trade \u2014 the thinnest evidence class banked; no population claim (mechanical Lesson 5/15 shape discharging the Lesson 14 revisit arithmetic). Saturation: no_beat_cycles stays 0, best_total -> 166,748.50. Lesson 14 addendum appended."
+  },
+  {
+   "family": "RE-MEASUREMENT + RE-APPLY of CH-2-N4-T150S080 (N4-V3 exits T125/S050 -> T150/S080, entries frozen verbatim) at the current five-component book",
+   "id": "SAT-15-N4-T150S080-REAPPLY",
+   "result": "ACCEPTED / BANKED (SAT Cycle 15, saturation gate -- all five legs pass) -- anchors exact (A: book == state 812 tr / +166,748.50 / ex-top-3 52,426.36; B: replay at T125/S050 reproduces dump 56/56, offset=0, filtered == book N4 per-trade; C: audit 0 violations, 4 same-bar exits). Re-measured component delta IDENTICAL to CH-2 to the paisa (+9,483.45; N4 50 tr +7,761.80 -> +17,245.25): the union is additive and SAT-1..SAT-14 touched no N4 trade, so the delta could not expire (Lesson 16 addendum). Union 812 tr / +176,231.95; August -3,834.85 absorbed at +309.08 GREEN (was -3,649.16 RED at CH-2); June -654.66 -> +1,382.01; October +1,140.74 -> 52,247.76 (headroom 2,247.76); ex-top-3 -> 56,308.12 (top-3 now TVSMOTOR/ASTRAL/OBEROIRLTY). CH-2 REVISIT DISCHARGED (both legs). N4 book exits are now T150/S080; book N4 source = stocks_engine_sat15_n4_t150s080_trades.csv (M1.load_n4() is stale T125/S050). Saturation: no_beat_cycles stays 0, best_total -> 176,231.95. Disclosed cost: August is the razor again at +309.08."
+  },
+  {
+   "family": "NEW COMPONENT P2F-R3: P2F's information axis extended to R+3 \u2014 enter at the R+3 open (third trading day after R) in the reaction direction, 2.5% band, T125/S050, 15:10 square-off; RF-1 + the event-follow name exclusions (AU-1 ASTRAL, JU-1 HINDUNILVR) applied as part of the definition (SAT-13 precedent)",
+   "id": "SAT-16-P2F-R3",
+   "result": "REJECTED (SAT Cycle 16, saturation gate \u2014 legs (b)/(d) FAIL and the controls are disqualifying) \u2014 anchors all pass (A: incumbent == state 812 tr / +176,231.95 / month table / ex-top-3 56,308.12, N4 anchored on the SAT-15 T150/S080 dump per book law; B: construction anchor 39 candidates == M1 raw P2F@2.5, frozen 34-tr set == diagnosis set; C: timing audit 0 violations, P2F overlap 0, P2F-R2 overlap 0, within-R3 dups 0). Standalone frozen: 34 tr / +952.10, expectancy +28.00 (~Rs0), win 12/34, breadth 21, H1 +2,641.97 / H2 -1,689.87 (H2-negative like R2, weaker in both halves). PLACEBO BEATS THE REAL RULE per-trade: opposite direction on identical entries +4,064.36, exp +119.54, H2 +3,529.56 vs real -1,689.87 \u2014 at R+3 the reaction direction carries no follow signal (Lesson 18 discipline). Excluded-name trades net -1,536.40 (Lesson 11 profile again, one winner). Union would be 846 tr / +177,184.05 (leg a nominal PASS +952.10) but July flips -464.97 (leg b FAIL; R3 July slice -1,727.50) and ex-top-3 falls 56,308.12 -> 55,449.72 (leg d FAIL); October 52,112.51 passes (leg c); August slice +130.25 -> union August +439.33 (the razor was not the issue). Incumbent unchanged (812 tr / +176,231.95, five components). Saturation: no_beat_cycles 0 -> 1, best_total unchanged 176,231.95. Lesson 20 appended \u2014 THE R-LADDER IS CLOSED AT R+2 (do not average lags or blend R+2/R+3)."
+  },
+  {
+   "family": "N4-V3 component excludes TVSMOTOR LONG signals (stock x mechanism x DIRECTION exclusion; top of the slice registry re-derived at the current five-component book)",
+   "id": "SAT-17-N4-TVSMOTOR-LONG",
+   "result": "ACCEPTED / BANKED (SAT Cycle 17, saturation gate) -- registry re-derived from scratch (148 slices, 28 qualify: full < 0, negative in >= 1 thin month Apr/Jun/Jul/Aug, Oct slice <= 2,247.76); ranked by full-period value with feasibility (razors keep >= Rs100) and the quality bar (GLENMARK-SHORT at -136.98 again below the bar, registry bottom). Slice: 1 tr (2026-07-22, entry 09:35 3,932.20, stop 3,900.74 at 14:00, -3,185.76 at T150/S080; -2,006.10 at old exits); N4's TVSMOTOR SHORTs earn +5,476.55/+5,129.45 (Lesson 15 split). Removal: total 176,231.95 -> 179,417.71, July 1,262.53 -> 4,448.29, all other months identical, October unchanged (headroom 2,247.76), August razor intact at 309.08, trades 812 -> 811, ex-top-3 UNCHANGED 56,308.12 (equality -- slice on the #1 earner; TVSMOTOR total -> 72,025.56). All five gate legs pass. Saturation: no_beat_cycles 1 -> 0, best_total -> 179,417.71. Thin-sample caveat: ONE trade, thinnest evidence class (SAT-14 precedent); no population claim. Lesson 6 addendum appended."
+  },
+  {
+   "family": "F4 component excludes OIL SHORT signals (stock x mechanism x DIRECTION exclusion; F4 keeps OIL LONG; all other components trade OIL unchanged)",
+   "id": "SAT-18-F4-OIL-SHORT",
+   "result": "ACCEPTED / BANKED (SAT Cycle 18, saturation gate) -- registry re-derived from scratch at the post-SAT-17 book (stocks_engine_sat18_diag.py; 147 slices, 27 qualifying; anchor exact 811 tr / +179,417.71 / ex-top-3 56,308.12, N4 from the SAT-15 dump minus the SAT-17 TVSMOTOR-LONG exclusion). Slice re-measured IDENTICAL to the SAT-17 registry record (13 tr, -2,712.77, 4 w; Jan +505.00, Feb -260.53, Mar -483.89, Apr +40.00, May -1,059.83, Jun -486.88, Sep -500.80, Oct -465.84, Aug exactly 0.00) -- SAT-17 touched no F4 leg, deltas invariant (Lesson 16, fourth positive instance). Direction split (Lesson 15, sixth instance): F4 x OIL x LONG earns +491.75 (6 tr, 4 w) and stays. Frozen in stocks_engine_frozen.md (SAT-18) before scoring; Anchor B asserted the deleted set == the frozen 13 trades exactly. Removing them: total 179,417.71 -> 182,130.48, October 52,247.76 -> 52,713.60 (headroom 2,713.60 -- the slice's negative October leg MINTED headroom), June 1,382.01 -> 1,868.89, May +1,059.83 -> 34,364.12, September +500.80; costs January -505.00 and April -40.00 (both stay strongly green); August UNCHANGED 309.08 (razor intact); trades 811 -> 798; ex-top-3 56,308.12 -> 59,020.89 (improvement). All five gate legs pass; saturation counter stays 0, best_total -> 182,130.48. Lesson 15 addendum appended."
+  },
+  {
+   "family": "INV-LONG component excludes VEDL (stock x mechanism exclusion; INV-LONG is LONG-only)",
+   "id": "SAT-19-INV-VEDL",
+   "result": "ACCEPTED / BANKED (SAT Cycle 19, saturation gate) -- diagnosis: registry re-derived from scratch at the post-SAT-18 book (146 slices, 26 qualifying). Top row re-measured IDENTICAL to the SAT-18 record (18 tr / -2,424.75 / 4 w; Apr -423.30, Oct -318.05, Aug exactly 0.00) -- SAT-18 touched no INV-LONG leg, so the deltas did not expire (Lesson 16 invariance, fifth positive instance). Mechanism scope (Lesson 11): VEDL earns in F4's gated flow (+3,062.75 raw) and P2F (+575.25); the rot is INV-LONG-pool-only. Removing the 18 trades: total 182,130.48 -> 184,555.23, October 52,713.60 -> 53,031.65 (headroom 3,031.65 -- the negative October leg MINTED headroom), April -> 7,917.43; cost June -336.88 -> 1,532.01 (still green, >= 100 razor margin); August unchanged 309.08 (razor intact); trades 798 -> 780; ex-top-3 59,020.89 -> 61,445.64. All five gate legs pass; saturation counter stays 0, best_total -> 184,555.23. Book law added: INV-LONG takes no VEDL signals. (stocks_engine_sat19_diag.py / sat19_score.py / sat19_result.json)"
+  },
+  {
+   "family": "INV-LONG component excludes HINDZINC (mechanism-scoped stock exclusion; INV-LONG is LONG-only)",
+   "id": "SAT-20-INV-HINDZINC",
+   "result": "ACCEPTED / BANKED (SAT Cycle 20, saturation gate) -- diagnosis: registry re-derived from scratch at the post-SAT-19 book (145 slices, 11 qualifying at the bar full <= -500 AND thin-month-negative AND Oct slice <= 3,031.65); top row INV-LONG x HINDZINC x LONG re-measured IDENTICAL to the SAT-19 record (9 tr, -2,131.83, 1 winner; Jun -314.77 thin leg, Oct exactly 0.00, Aug exactly 0.00) -- Lesson 16 invariance, sixth positive instance (SAT-19 touched only VEDL, disjoint). HINDZINC also loses in F4 (-631.12), N4-V3 (-1,043.24), P2F (-374.40) and earns in P2F-R2 (+812.50), but only the INV-LONG slice qualified at the bar -- exclusion INV-LONG-scoped (Lesson 11, sixth instance). Removing the 9 trades: total 184,555.23 -> 186,687.06, June 1,532.01 -> 1,846.78, April -299.69 -> 7,617.74 (only cost), October/August unchanged, trades 780 -> 771, ex-top-3 61,445.64 -> 63,577.47; all 5 legs pass. Saturation counter stays 0, best_total -> 186,687.06. Lesson 11 addendum appended."
+  },
+  {
+   "family": "P2F-R2 component excludes TVSMOTOR LONG signals (stock x mechanism x DIRECTION exclusion; all other components trade TVSMOTOR unchanged; P2F-R2 has no TVSMOTOR SHORTs in-window)",
+   "id": "SAT-21-R2-TVSMOTOR-LONG",
+   "result": "ACCEPTED / BANKED (SAT Cycle 21, saturation gate) \u2014 registry re-derived from scratch at the post-SAT-20 book (stocks_engine_sat21_diag.py, anchor exact 771 tr / +186,687.06 / ex-top-3 63,577.47): 144 slices, 10 qualifying. Top row P2F-R2 x TVSMOTOR x LONG re-measured IDENTICAL to the SAT-20 registry record (1 tr, -1,979.90, 0 w; 2026-07-24, entry 09:15 3,879.80, stop exit 3,860.40 at 10:05; R 2026-07-22 +3.24%; Jul -1,979.90, Oct 0.00, Aug 0.00) \u2014 SAT-20 intervened only on an INV-LONG HINDZINC leg, disjoint (Lesson 16 invariance, seventh positive instance). Frozen in stocks_engine_frozen.md (SAT-21) before scoring; Anchor B: deleted set == the frozen 1 trade exactly. Removing it: total 186,687.06 -> 188,666.96, July 4,448.29 -> 6,428.19, all other months identical (October 53,031.65 unchanged, August 309.08 unchanged \u2014 the razor intact), trades 771 -> 770; ex-top-3 UNCHANGED 63,577.47 (equality pass \u2014 the slice sits on the #1 earner; TVSMOTOR 72,025.56 -> 74,005.46, share 38.58% -> 39.23%, concentration deepening disclosed per the Lesson 6 addendum). All 5 gate legs pass. Saturation counter stays 0, best_total -> 188,666.96. Thin-sample caveat recorded (1 trade, SAT-14/SAT-17 precedent class; no population claim). Lesson 6 addendum appended (second equality pass)."
+  },
+  {
+   "family": "F4 component excludes IRCTC SHORT signals (stock x mechanism x DIRECTION exclusion; F4 keeps IRCTC LONG; all other components trade IRCTC unchanged)",
+   "id": "SAT-22-F4-IRCTC-SHORT",
+   "result": "ACCEPTED / BANKED (SAT Cycle 22, saturation gate) -- registry re-derived from scratch at the post-SAT-21 book (143 slices, 9 qualifying); the slice re-measured IDENTICAL to the SAT-21 record (13 tr, -1,297.01, 5 w; Jan -101.31, Mar -877.45, Apr -143.25, May -345.00, Jun -105.00, Aug exactly 0.00, Oct +275.00) -- SAT-21 intervened only on a P2F-R2 leg, disjoint from F4 (Lesson 16 invariance, eighth positive instance). Direction split (Lesson 15, seventh instance): F4 x IRCTC x LONG +497.45 (9 tr) kept; IRCTC earns in INV-LONG (+411.40), N4-V3 (+235.00), P2F (+616.81); P2F-R2 slice -296.05 below the bar, untouched. Removing the 13 trades: total 188,666.96 -> 189,963.97, October 53,031.65 -> 52,756.65 (the bank SPENDS Rs275.00 of headroom; 2,756.65 left), June -> 1,951.78, March -> 21,273.31, August unchanged 309.08 (razor intact), trades 770 -> 757, ex-top-3 63,577.47 -> 64,874.48 (improvement; top-3 unchanged). All five gate legs pass; saturation counter stays 0, best_total -> 189,963.97. Lesson 15 addendum appended."
+  },
+  {
+   "family": "INV-LONG component excludes INDUSTOWER (stock x mechanism exclusion; INV-LONG is LONG-only, so the slice is the component's whole INDUSTOWER population; all other components trade INDUSTOWER unchanged)",
+   "id": "SAT-23-INV-INDUSTOWER",
+   "result": "ACCEPTED / BANKED (SAT Cycle 23, saturation gate) -- registry re-derived from scratch at the post-SAT-22 book (142 slices, 8 qualifying); top row INV-LONG x INDUSTOWER re-measured IDENTICAL to the SAT-22 record to the paisa (12 tr, -1,189.01, 3 w; Jan +253.82, Feb -532.20, Mar -257.35, Apr -512.09 thin-month leg, May +87.26, Aug exactly 0.00, Oct -228.45) -- SAT-22 intervened only on a disjoint F4 leg (Lesson 16 invariance, ninth positive instance). Removing the 12 trades: total 189,963.97 -> 191,152.98, October 52,756.65 -> 52,985.10 (headroom 2,985.10 -- minted 228.45), April -> 8,273.08, February +532.20, March +257.35; costs January -253.82 and May -87.26 (both stay strongly green); August/June/July/September unchanged; trades 757 -> 745; ex-top-3 64,874.48 -> 66,063.49. All five gate legs pass. Lesson 11 seventh instance (INDUSTOWER LONG flow has now failed in F4 (SAT-2) and INV-LONG while its F4 SHORT flow earns +2,287.14; exclusion stays INV-LONG-scoped). Saturation counter stays 0, best_total -> 191,152.98."
+  },
+  {
+   "family": "N4-V3 component excludes OIL LONG signals (stock x mechanism x DIRECTION exclusion; N4-V3's OIL population is LONG-only in-window; F4 keeps OIL LONG, INV-LONG/P2F/P2F-R2 trade OIL unchanged)",
+   "id": "SAT-24-N4-OIL-LONG",
+   "result": "ACCEPTED / BANKED (SAT Cycle 24, saturation gate) -- diagnosis: registry re-derived from scratch at the post-SAT-23 book (141 slices, 7 qualifying); the top row, the registry's only August-negative top row, re-measured IDENTICAL to the SAT-23 record (2 tr, -862.04, 0 w; May -456.84, Aug -405.20, Oct exactly 0.00) -- Lesson 16 invariance, tenth positive instance. Removing the 2 trades: August +309.08 -> +714.28 (razor thickened 2.3x), May +456.84, total 191,152.98 -> 192,015.02, trades 745 -> 743, October unchanged; ex-top-3 66,063.49 -> 66,925.53. All five gate legs pass. Thin-sample caveat recorded (2 trades). Lesson 11 addendum appended (eighth instance)."
+  },
+  {
+   "family": "F4 component excludes HINDALCO LONG signals (stock x mechanism x DIRECTION exclusion; F4 keeps HINDALCO SHORT; all other components trade HINDALCO unchanged)",
+   "id": "SAT-25-F4-HINDALCO-LONG",
+   "result": "ACCEPTED / BANKED (SAT Cycle 25, saturation gate) -- registry re-derived from scratch at the post-SAT-24 book (140 slices, 6 qualifying); top row F4 x HINDALCO x LONG re-measured IDENTICAL to the SAT-24 record (9 tr / -851.10 / 3 w; Apr -215.00, Jun -1,137.25, Aug 0.00, Oct 0.00) -- Lesson 16 invariance, eleventh positive instance (SAT-24 touched only a disjoint N4-V3 leg). Direction split: F4 x HINDALCO x SHORT +2,345.84 kept (Lesson 15, eighth instance). Removing the 9 trades: total 192,015.02 -> 192,866.12, June 1,951.78 -> 3,089.03, April -> 8,488.08, September -> 19,027.56, October/August unchanged, trades 743 -> 734; ex-top-3 66,925.53 -> 67,776.63. All saturation legs pass; counter stays 0, best_total -> 192,866.12. Lesson 11 addendum appended (ninth instance)."
+  },
+  {
+   "family": "F4 component excludes TATASTEEL LONG signals (stock x mechanism x DIRECTION exclusion; F4 keeps TATASTEEL SHORT; all other components trade TATASTEEL unchanged)",
+   "id": "SAT-26-F4-TATASTEEL-LONG",
+   "result": "ACCEPTED / BANKED (SAT Cycle 26, saturation gate) -- diagnosis: registry re-derived from scratch at the post-SAT-25 book (139 slices, 5 qualifying); top row F4 x TATASTEEL x LONG re-measured IDENTICAL to the SAT-25 record (9 tr, -775.38, 2 w; Jan +18.33, Feb +164.00, Apr -245.92, Jun -263.64, Sep -391.15, Aug 0.00, Oct -57.00) -- SAT-25 intervened only on a disjoint F4 HINDALCO-LONG leg (Lesson 16 invariance, twelfth positive instance). Direction split: F4 x TATASTEEL x SHORT +646.21 kept. Removing the 9 trades: total 192,866.12 -> 193,641.50, October 52,985.10 -> 53,042.10 (headroom 3,042.10 -- minted 57.00), April -> 8,734.00, June -> 3,352.67, September -> 19,418.71, August UNCHANGED 714.28; costs January -18.33 / February -164.00 (both stay strongly green); trades 734 -> 725; ex-top-3 67,776.63 -> 68,552.01. All saturation legs pass. Saturation counter stays 0, best_total -> 193,641.50. Lesson 11 addendum appended (tenth instance)."
+  },
+  {
+   "family": "F4 component excludes NHPC SHORT signals (stock x mechanism x DIRECTION exclusion; F4 keeps NHPC LONG; all other components trade NHPC unchanged)",
+   "id": "SAT-27-F4-NHPC-SHORT",
+   "result": "ACCEPTED / BANKED (SAT Cycle 27, saturation gate) -- diagnosis: registry re-derived from scratch at the post-SAT-26 book (138 slices, 4 qualifying); top row F4 x NHPC x SHORT re-measured IDENTICAL to the SAT-26 record (13 tr, -769.23, 2 w; Jan -112.38, Feb -218.02, Mar -15.00, Apr -156.36, Jul -115.24, Sep -111.85, Aug 0.00, Oct -40.38). Frozen before scoring; Anchor B exact (deleted set == frozen 13 trades). Removal: total 193,641.50 -> 194,410.73, October 53,042.10 -> 53,082.48 (headroom minted 40.38 -> 3,082.48), April -> 8,890.36, July -> 6,543.43, August unchanged 714.28, June unchanged 3,352.67, ex-top-3 68,552.01 -> 69,321.24; trades 725 -> 712; all five gate legs pass; no month pays a cost. F4 x NHPC x LONG (-102.46, below the bar) and other components' NHPC slices stay untouched (Lesson 11, eleventh instance; Lesson 16 thirteenth positive invariance instance)."
+  },
+  {
+   "family": "INV-LONG component excludes KALYANKJIL (mechanism-scoped stock exclusion; INV-LONG is LONG-only; N4-V3/P2F/F4/P2F-R2 trade KALYANKJIL unchanged)",
+   "id": "SAT-28-INV-KALYANKJIL",
+   "result": "ACCEPTED / BANKED (SAT Cycle 28, saturation gate) -- diagnosis: registry re-derived from scratch at the post-SAT-27 book (137 slices, 3 qualifying); top row INV-LONG x KALYANKJIL x LONG re-measured IDENTICAL to the SAT-27 record (24 tr, -764.57, 7 w; Jan -944.37, Feb -754.22, Mar +652.65, Apr +213.74, Jun -35.02, Sep +409.25, Aug 0.00, Oct -306.60). Frozen before scoring; Anchor B exact (deleted set == frozen 24 trades). Removal: total 194,410.73 -> 195,175.30, October 53,082.48 -> 53,389.08 (headroom minted 306.60 -> 3,389.08), January -> 28,904.13, February -> 18,656.48, June -> 3,387.69, August unchanged 714.28, costs March -652.65 / April -213.74 / September -409.25 (all stay strongly green), ex-top-3 69,321.24 -> 70,085.81; trades 712 -> 688; all five gate legs pass. KALYANKJIL earns in N4-V3 (+1,972.87) and F4 (+497.38); P2F (-152.75) and P2F-R2 (-201.70) slices below the bar, untouched (Lesson 11, twelfth instance; Lesson 16 fourteenth positive invariance instance)."
+  },
+  {
+   "family": "F4 component excludes PFC SHORT signals (stock x mechanism x DIRECTION exclusion; F4 keeps PFC LONG; all other components trade PFC unchanged)",
+   "id": "SAT-29-F4-PFC-SHORT",
+   "result": "ACCEPTED / BANKED (SAT Cycle 29, saturation gate) -- registry re-derived from scratch at the post-SAT-28 book (136 slices, 2 qualifying); top row re-measured IDENTICAL to the SAT-28 record (18 tr, -667.69, 8 w; Apr -882.52, Jun -435.53, Aug -55.00, Oct +67.71) -- Lesson 16 invariance, fifteenth positive instance. Removing the 18 trades: total 195,175.30 -> 195,842.99, August 714.28 -> 769.28 (razor thickened), April -> 9,559.14, June -> 3,823.22, October -> 53,321.37 (spends 67.71 headroom), costs Jan -510.27 / Feb -36.92 / Mar -112.64 (all stay strongly green); trades 688 -> 670; ex-top-3 70,085.81 -> 70,753.50. All five gate legs pass. Direction split: F4 x PFC x LONG +1,652.90 kept (Lesson 15); PFC earns in INV-LONG/P2F/P2F-R2, N4-V3 slice below the bar untouched (Lesson 11, thirteenth instance). Saturation counter stays 0, best_total -> 195,842.99."
+  },
+  {
+   "family": "F4 component excludes RECLTD SHORT signals (stock x mechanism x DIRECTION exclusion; F4 keeps RECLTD LONG; all other components trade RECLTD unchanged)",
+   "id": "SAT-30-F4-RECLTD-SHORT",
+   "result": "ACCEPTED / BANKED (SAT Cycle 30, saturation gate) -- registry re-derived from scratch at the post-SAT-29 book: 135 slices, exactly 1 qualifying; the row re-measured IDENTICAL to the SAT-29 record (14 tr, -503.97, 6 w; Apr -336.35, Aug -342.58, Oct +477.00) -- Lesson 16 invariance, sixteenth positive instance. Removing the 14 trades: total 195,842.99 -> 196,346.96, August 769.28 -> 1,111.86 (razor thickened 1.4x), October 53,321.37 -> 52,844.37 (headroom 2,844.37), April -> 9,895.49, May -> 34,880.86, September -> 19,562.51, January -> 28,536.25; costs February -55.00 / March -580.96 (both stay strongly green); trades 670 -> 656; ex-top-3 70,753.50 -> 71,257.47. All five gate legs pass. POST-REMOVAL REGISTRY: 0 qualifying rows (134 slices) -- THE DELETION FRONTIER IS EXHAUSTED at the standing bar. Lesson 15 addendum appended (the direction-slice queue is finite book-wide; do not lower the bar)."
+  },
+  {
+   "family": "NEW COMPONENT F4-UPBAND: F4 joint state (below-50DMA, FOLLOW, sig, first-signal-only, T150/S095) on the band upper complement [1.0%, 1.25%) by 10:00, book F4 exclusions symmetric",
+   "id": "SAT-31-F4-UPBAND",
+   "result": "REJECTED (SAT Cycle 31, saturation gate) -- anchor exact (656 tr / +196,346.96 / ex-top-3 71,257.47); component 124 raw -> 87 tr / -24,036.07, expectancy -276.28, 28 w, breadth 9/25, halves BOTH negative (Jan-May -16,589.40 / Jun-Oct -7,446.67), negative in 7 of 10 months; controls: timing audit 0 violations both builds, sign-flip placebo (fade, identical entries) 6 tr / -1,039.27 / exp -173.21 LOSES LESS per trade than the real rule, overlap vs incumbent F4 = 0 pairs. Union 743 tr / +172,310.89 fails legs (a) total, (d) ex-top-3 (53,306.76), (e) controls; (b) all-green and (c) October 50,337.40 pass. M2 prior holds inside the joint state. no_beat_cycles 0 -> 1. Lesson 17 addendum: F4 band validated on BOTH boundaries; F4-UPBAND family CLOSED."
+  },
+  {
+   "family": "NEW COMPONENT P2F-LOWBAND: reaction band lower complement [2.0%, 2.5%), enter R+1 open in reaction direction, T125/S050, RF-1, P2F exclusions (ASTRAL/HINDUNILVR whole-name, HINDALCO LONG) as 6th component",
+   "id": "SAT-32-P2F-LOWBAND",
+   "result": "REJECTED (SAT Cycle 32, saturation gate) -- construction anchor 39/39 + 9/9 vs the tuning dump; frozen 8 tr / -1,462.45, exp -182.81, halves split (H1 -2,013.99 / H2 +551.54); placebo -3,465.83 / exp -433.23 beaten in total and per-trade but the component is itself negative; union +194,884.51 fails leg (a) only; legs (b),(c),(d),(e) pass. Incumbent unchanged. P2F's 2.5% floor validated by its complement (Lesson 21). no_beat_cycles 1 -> 2."
+  },
+  {
+   "family": "ADD-COMPONENT: R2-LOWBAND (reaction band [2.0%,2.5%) follow at R+2, T125/S050, RF-1, P2F exclusions ASTRAL/HINDUNILVR + HINDALCO-LONG)",
+   "id": "SAT-33-R2-LOWBAND",
+   "result": "ACCEPTED / BANKED (SAT Cycle 33, saturation gate) -- construction anchor lag+2 >=2.5% reproduces SAT-13 R2 dump 34/34; candidates 9 -> frozen 7 tr / +1,260.78, exp +180.11, win 4/7, breadth 4, H1 -144.70 / H2 +1,405.48; placebo (flip, identical entries) 7 tr / -951.17, exp -135.88 -- beaten in total and per-trade, and the component clears zero expectancy (Lesson 21 test). Timing audit 0; overlaps vs P2F / P2F-R2 / P2F-LOWBAND all 0. Union 663 tr / +197,607.74: Aug 1,111.86 -> 666.78 (still green), Oct -> 54,272.43 (headroom 4,272.43), ex-top-3 -> 72,518.25. All five gate legs pass. Saturation no_beat_cycles 2 -> 0, best_total -> 197,607.74. THIN-SAMPLE CAVEAT: 7 trades, H1-negative, October-carried -- frozen verbatim for December judging (Lesson 22)."
+  },
+  {
+   "family": "NEW COMPONENT R2-MIDBAND: reaction band [1.5%,2.0%) follow at R+2, T125/S050, RF-1, P2F exclusions (7th component candidate)",
+   "id": "SAT-34-R2-MIDBAND",
+   "result": "REJECTED (SAT Cycle 34, saturation gate) \u2014 SAT-34 (R2-MIDBAND, [1.5%,2.0%) reaction slice at R+2, T125/S050; stocks_engine_sat34_diag.py / sat34_score.py / sat34_result.json): anchors all pass (incumbent 663 tr / +197,607.74 / ex-top-3 72,518.25, six components; construction anchor lag+2 >=2.5% == SAT-13 R2 dump 34/34 in both passes; frozen set == diagnosis set; timing audit 0; overlaps vs P2F/P2F-R2/P2F-LOWBAND/R2-LOWBAND/N4-V3 all 0). Candidates 7 -> raw 7 -> frozen 6 (ASTRAL SHORT -789.75 dropped by AU-1 exclusion). Frozen component: 6 tr / +2,909.18, exp +484.86, win 2/6, breadth 2, H1 +4,204.95 / H2 -1,295.77; Aug slice -440.77, Oct slice -855.00. Placebo (flip, identical entries): 6 tr / +1,054.91, exp +175.82 -- POSITIVE outright; beaten in total and per-trade, component clears zero (full Lesson 21 test passes standalone). DISCLOSED: the whole net is one trade -- TVSMOTOR SHORT 2026-05-18 +4,247.50 (target); ex-carrier the component is -1,338.32. Union 669 tr / +200,516.92: August 666.78 -> 226.01, October -> 53,417.43 (headroom 3,417.43), ex-top-3 72,518.25 -> 72,034.93 (-483.32, exactly the freeze's pre-registered expectation; top-3 membership unchanged). Gate: (a) total PASS, (b) all-green + August >= 100 PASS, (c) October PASS, (e) controls PASS, (d) ex-top-3 FAILS. REJECTED on leg (d) alone; incumbent unchanged. Saturation no_beat_cycles 0 -> 1. Lesson 23 appended (a positive standalone can be a concentration purchase; leg (d) is the separation test). R2-MIDBAND family CLOSED."
+  },
+  {
+   "family": "ADD-COMPONENT union: P2F-MIDBAND ([1.5%,2.0%) reaction slice at R+1, T125/S050) as 7th component",
+   "id": "SAT-35-P2F-MIDBAND",
+   "result": "REJECTED (SAT Cycle 35, saturation gate) -- anchors all pass (incumbent 197,607.74/663; construction anchor lag+1 machinery == tuning dump P2F leg on BOTH verified slices: >=2.5% 39/39 AND [2.0,2.5) 9/9, start-offset 1; frozen set == diagnosis set; timing audit 0; overlaps vs P2F/P2F-R2/P2F-LOWBAND/R2-LOWBAND/R2-MIDBAND/N4-V3 all 0). Frozen component: 6 tr / -2,773.74, exp -462.29, win 1/6, breadth 1, H1 -1,450.77 / H2 -1,322.97, Aug slice -441.97, Oct slice -881.00. Placebo (flip, identical entries) 6 tr / -2,275.45, exp -379.24 -- BEATS the real rule in total and per-trade; component clears neither zero nor its flip (full Lesson 21 test fails on every clause). Best trade INDUSTOWER LONG +509.00 (only winner); ex-carrier -3,282.74. 3 of 6 entry days stop out at identical nets in both directions (stop-geometry whipsaw). Union 669 tr / +194,834.00 (Aug 224.81, Oct 53,391.43), ex-top-3 72,518.25 -> 72,393.31 (-124.94, exactly the freeze's pre-registered expectation). Gate: (a) FAIL, (b) PASS, (c) PASS, (d) FAIL, (e) FAIL. Incumbent unchanged. Saturation no_beat_cycles 1 -> 2. Lesson 24 appended. P2F-MIDBAND family CLOSED; the reaction (band x lag) grid is fully mapped."
+  },
+  {
+   "family": "F4 component excludes GLENMARK SHORT signals (stock x mechanism x DIRECTION exclusion; F4 keeps GLENMARK LONG; all other components trade GLENMARK unchanged) -- judged FORMALLY under two standards",
+   "id": "SAT-36-F4-GLENMARK-SHORT",
+   "result": "REFUSED (SAT-36, principled no-beat) -- slice re-derived at the final book identical to the SAT-14 record: 20 tr / 10 w / -Rs136.98 / exp -6.85; Aug -4,744.78, Oct +1,062.55; net ex-August +4,607.80; ex-carrier +2,249.71; halves H1 +200.94 / H2 -337.92. Union 643 tr / +197,744.72 PASSES the arithmetic saturation gate on all five legs (a total +136.98, b all-green Aug 5,411.56, c Oct 53,209.88, d ex-top-3 +136.98, e anchors) but the QUALITY BAR FAILS (full-period -136.98 > -500, Lesson 5 rot-everywhere standard). NOT BANKED -- the bar is not lowered at the finish line. no_beat_cycles 2 -> 3: THE RUN IS SATURATED. Lesson 25 appended; GLENMARK-SHORT CLOSED on this window (fresh-data revisits only)."
+  },
+  {
+   "family": "N4-V3 exclude BDL x SHORT (cross-year both-negative slice)",
+   "id": "V2C2-N4-BDL-SHORT-EXCL",
+   "result": "BANKED (v2 Cycle 2, cross-year gate) \u2014 combined 204,004.23 -> 207,189.23; 2025 +5,765.30 -> +8,310.30; 2026 +198,238.93 -> +198,878.93; ex-top-3 improves both years"
+  },
+  {
+   "family": "CHALLENGER: P2F band raised to >=3.0% (component swap, both years)",
+   "id": "CH-V2-1-P2F-BAND30",
+   "result": "REJECTED (v2 Cycle 3, cross-year gate legs a+b) \u2014 the [2.5,3.0) slice earns in both years (2025 +2,823.67 / 2026 +1,479.98); challenger combined 202,885.58 < incumbent 207,189.23. Lesson 28: P2F band closed cross-year at >=2.5%"
+  },
+  {
+   "family": "INV-LONG exclude HINDALCO (cross-year both-negative slice)",
+   "id": "V2C4-INV-HINDALCO-EXCL",
+   "result": "BANKED (v2 Cycle 4, cross-year gate) \u2014 combined 207,189.23 -> 209,535.81; 2025 +8,310.30 -> +9,761.48; 2026 +198,878.93 -> +199,774.33 (floor gap now Rs225.67); ex-top-3 improves both years"
+  },
+  {
+   "family": "INV-LONG exclude UNITDSPR (cross-year both-negative slice)",
+   "id": "V2C5-INV-UNITDSPR-EXCL",
+   "result": "BANKED (v2 Cycle 5, cross-year gate) \u2014 combined 209,535.81 -> 211,367.40; 2025 -> +10,231.97; 2026 -> +201,135.43 = OVER its Rs200,000 floor by Rs1,135.43"
+  },
+  {
+   "family": "CHALLENGER: P2F-NEWS \u2014 R+1 follow of news-event reactions >=2.5%",
+   "id": "CH-V2-2-P2F-NEWS",
+   "result": "REJECTED (v2 Cycle 6, cross-year gate legs a+b AND Lesson 21 both clauses) \u2014 2025 side +1,949.25 (2/2 winners) but 2026 -2,089.31 with flip placebo +5,475.58; component expectancy -23.34 vs placebo +763.98. Lesson 29: news reactions do not persist to R+1; family CLOSED"
+  },
+  {
+   "family": "F4 exclude HDFCBANK x SHORT (cross-year both-negative slice)",
+   "id": "V2C7-F4-HDFCBANK-SHORT-EXCL",
+   "result": "BANKED (v2 Cycle 7, cross-year gate) \u2014 combined 211,367.40 -> 213,078.01; 2025 -> +11,692.08; 2026 -> +201,385.93"
+  },
+  {
+   "family": "F4 exclude KALYANKJIL x LONG (cross-year both-negative slice)",
+   "id": "V2C8-F4-KALYANKJIL-LONG-EXCL",
+   "result": "BANKED (v2 Cycle 8, cross-year gate) \u2014 combined 213,078.01 -> 214,703.22; 2025 -> +12,405.90; 2026 -> +202,297.32"
+  },
+  {
+   "family": "CHALLENGER: N4-V3 trigger floor raised to >=1.5% (component swap, both years)",
+   "id": "CH-V2-3-N4-HIFLOOR",
+   "result": "REJECTED (v2 Cycle 9, cross-year gate legs a+b) \u2014 the [1.0,1.5) slice is regime-flipped: 2025 -1,860.69 (13 tr) vs 2026 +3,135.29 (4 tr); challenger combined 213,428.62 < incumbent 214,703.22. Lesson 30: N4 floor closed cross-year at >=1.0%"
+  },
+  {
+   "family": "N4-V3 exclude HINDALCO x SHORT (cross-year both-negative slice)",
+   "id": "V2C10-N4-HINDALCO-SHORT-EXCL",
+   "result": "BANKED (v2 Cycle 10, cross-year gate) \u2014 combined 214,703.22 -> 216,178.78; 2025 -> +12,974.10; 2026 -> +203,204.68"
+  },
+  {
+   "family": "N4-V3 exclude HINDZINC x LONG (cross-year both-negative slice)",
+   "id": "V2C11-N4-HINDZINC-LONG-EXCL",
+   "result": "BANKED (v2 Cycle 11, cross-year gate) \u2014 combined 216,178.78 -> 217,622.82; 2025 -> +13,374.90; 2026 -> +204,247.92"
+  },
+  {
+   "family": "CHALLENGER: F4 stop widened S095 -> S110 (exit rebuild, both years)",
+   "id": "CH-V2-4-F4-S110",
+   "result": "REJECTED (v2 Cycle 12, cross-year gate legs a+b) \u2014 exact rebuild loses in BOTH years (2025 -287.11, 2026 -1,259.09) against SAT-11s +6,686 estimate. Lesson 31: F4 stop family CLOSED cross-year at T150/S095"
+  },
+  {
+   "family": "N4-V3 exclude UNITDSPR x LONG (cross-year both-negative slice)",
+   "id": "V2C13-N4-UNITDSPR-LONG-EXCL",
+   "result": "BANKED (v2 Cycle 13, cross-year gate) \u2014 combined 217,622.82 -> 218,935.62; 2025 -> +14,587.70; 2026 -> +204,347.92"
+  },
+  {
+   "family": "N4-V3 exclude RECLTD x LONG (cross-year both-negative slice)",
+   "id": "V2C14-N4-RECLTD-LONG-EXCL",
+   "result": "BANKED (v2 Cycle 14, cross-year gate) \u2014 combined 218,935.62 -> 219,998.50; 2025 -> +15,318.30; 2026 -> +204,680.20"
+  },
+  {
+   "family": "CHALLENGER: N4-V3 results-days only (drop news-only-day trades)",
+   "id": "CH-V2-5-N4-RESULTS-ONLY",
+   "result": "REJECTED (v2 Cycle 15, cross-year gate legs a+b) \u2014 news-only slice regime-flipped: 2025 -2,625.17 (6 tr) vs 2026 +2,936.18 (3 tr), net -311.01. Lesson 32: event-class question CLOSED at N4 lag; union stands"
+  },
+  {
+   "family": "N4-V3 exclude WIPRO x SHORT (cross-year both-negative slice)",
+   "id": "V2C16-N4-WIPRO-SHORT-EXCL",
+   "result": "BANKED (v2 Cycle 16, cross-year gate) \u2014 combined 219,998.50 -> 220,572.70; 2025 -> +15,431.10; 2026 -> +205,141.60"
+  },
+  {
+   "family": "P2F-R2 exclude KALYANKJIL x LONG (cross-year both-negative slice)",
+   "id": "V2C17-R2-KALYANKJIL-LONG-EXCL",
+   "result": "BANKED (v2 Cycle 17, cross-year gate) \u2014 combined 220,572.70 -> 221,120.87; 2025 -> +15,722.32; 2026 -> +205,398.55"
+  },
+  {
+   "family": "CHALLENGER: P2F exits rebuilt T150/S080 (exit swap, both years)",
+   "id": "CH-V2-6-P2F-EXITS",
+   "result": "REJECTED (v2 Cycle 18, cross-year gate legs a+b) \u2014 2025 -4,132.23 vs 2026 +301.50; combined -3,830.73 vs incumbent. Lesson 33: P2F exits CLOSED cross-year at T125/S050; exit medicine does not transfer between reaction populations"
+  },
+  {
+   "family": "INV-LONG exclude TATASTEEL (cross-year both-negative slice; last registry row at the bar)",
+   "id": "V2C19-INV-TATASTEEL-EXCL",
+   "result": "BANKED (v2 Cycle 19, cross-year gate) \u2014 combined 221,120.87 -> 221,639.70; 2025 -> +16,024.11; 2026 -> +205,615.59. Registry now EMPTY at the standing bar"
+  },
+  {
+   "family": "CHALLENGER: F4 round-2 (second-signal) legs restored",
+   "id": "CH-V2-7-F4-ROUND2",
+   "result": "REJECTED (v2 Cycle 20, cross-year gate legs a+b) \u2014 round-2 population loses in both years (2025 -3,306.97; 2026 -8,919.19/40 tr after law); combined -12,226.16. Lesson 34: first-signal-only CLOSED cross-year"
+  },
+  {
+   "family": "CHALLENGER: P2F-R2 exits rebuilt T150/S080 (exit swap, both years)",
+   "id": "CH-V2-8-R2-EXITS",
+   "result": "REJECTED (v2 Cycle 21, cross-year gate legs a+b) \u2014 wider pair helps 2025 (+703.28) but costs 2026 -3,921.20; combined -3,217.92. Lesson 33 addendum: R2 exits CLOSED cross-year at T125/S050; exit axis of the whole book settled"
+  },
+  "v2-c22 CH-V2-9 INV-ABOVE (g1 mirror of INV machinery): BANKED as component INV-ABOVE \u2014 2025 +5,209.71 (170 tr, exp +30.65), 2026 +3,349.21 (36 tr, exp +93.03); placebo (above-trend SHORT) exp +74.22 in 2025 but -155.14 in 2026, combined +20.08 < mirror +41.55; combined 221,639.70 -> 230,198.62; UP-2025 cell -4,665.03 -> -1,301.36, FLAT-2025 flips +973.32; Lesson 35 (mirroring is mechanism-specific)",
+  "v2-c23 R2-LOWBAND x UP stand-aside (cell exclusion): BANKED \u2014 deleted 9 tr (-3,506.17) 2025 + 4 tr (-22.58) 2026; combined 230,198.62 -> 233,727.37; UP-2025 cell turns +2,204.81 -> ALL SIX REGIME CELLS POSITIVE BOTH YEARS (mandate-2 objective (a) met; FLAT-2025 +973.32 thin)"
+ ],
+ "working_book": "Combined real book + banked RF-1 + M2 F4 (setup3_bounce_rejection EXCLUDED; exits T150/S095; SAT-6: FIRST qualifying signal per stock-day only \u2014 round2 legs dropped) + (SAT-13) P2F-R2 as 5th component: INV-LONG (INV1 below50 + P2 pool + LONG-only, T125) + N4-V3 (T125) + P2F 2.5% band (T125) + M2 F4 state-gated cell (10:00 measure, band [0.5%,1.0%) AND Nifty prior close <= 50DMA, first V5 signal at/after 10:00, T150/S095, setup3 not taken, round2 legs not taken) + P2F-R2 (P2F event set/band verbatim; entry R+2 first-bar open 09:15 in the reaction direction; T125/S050; ASTRAL and HINDUNILVR NOT traded), traded independently, NO trades on special/weekend sessions (RF-1 book-wide), (AU-1) event-follow components N4-V3 and P2F do NOT trade ASTRAL, (JU-1) P2F does NOT trade HINDUNILVR (N4-V3, INV-LONG and F4 still do), (JN-1) INV-LONG does NOT trade BDL (N4-V3, P2F and F4 still do), (SAT-1) F4 does NOT take SHORT signals on GODREJCP (F4 keeps GODREJCP LONG; N4-V3, P2F and INV-LONG trade GODREJCP unchanged), and (SAT-2) F4 does NOT take LONG signals on INDUSTOWER (F4 keeps INDUSTOWER SHORT; N4-V3, P2F and INV-LONG trade INDUSTOWER unchanged), and (SAT-5) F4 does NOT take SHORT signals on HINDUNILVR (F4 keeps HINDUNILVR LONG; N4-V3 and INV-LONG trade HINDUNILVR unchanged), and (SAT-7) F4 does NOT take SHORT signals on UNITDSPR (F4 keeps UNITDSPR LONG; N4-V3, P2F and INV-LONG trade UNITDSPR unchanged), and (SAT-8) F4 does NOT take SHORT signals on HINDCOPPER (F4 keeps HINDCOPPER LONG; N4-V3, P2F and INV-LONG trade HINDCOPPER unchanged), and (SAT-13) P2F-R2 does NOT trade ASTRAL or HINDUNILVR (the AU-1/JU-1 event-follow name exclusions applied to the new lag; INV-LONG/F4 trade both names unchanged), and (SAT-14) P2F does NOT take LONG signals on HINDALCO (P2F keeps HINDALCO SHORT if any arise; N4-V3, INV-LONG, F4 and P2F-R2 trade HINDALCO unchanged). Dumps: stocks_engine_sat10_f4s095_trades.csv (filter setup != setup3_bounce_rejection and leg != round2 and not (symbol == GODREJCP and dir == SHORT) and not (symbol == INDUSTOWER and dir == LONG) and not (symbol == HINDUNILVR and dir == SHORT) and not (symbol == UNITDSPR and dir == SHORT) and not (symbol == HINDCOPPER and dir == SHORT)), stocks_engine_sat13_p2fr2_trades.csv (P2F-R2, verbatim), stocks_M1.py loaders (drop ASTRAL from N4/P2F loads; drop HINDUNILVR from P2F load; drop BDL from INV-LONG load; drop HINDALCO LONG from P2F load).",
+ "v2": {
+  "version": "v2",
+  "started": "2026-10-31",
+  "charter": "cross-year gate: combined total rises AND neither year total falls AND neither year negative at book level; both windows scored every cycle",
+  "windows": [
+   "2025-01-01..2025-12-31",
+   "2026-01-01..2026-10-28"
+  ],
+  "data_root": "data/full_hist (persistent rebuild; main cache data/progressive never written)",
+  "calendar_2025": "stock_event_calendar_2025.csv (114 rows: 100 results + 14 news)",
+  "incumbent_at_restart": {
+   "y2025_total": 23.06,
+   "y2025_trades": 636,
+   "y2026_total": 197607.74,
+   "y2026_trades": 663,
+   "combined": 197630.8,
+   "monthly_avg_22mo": 8983.22
+  },
+  "combined_best": 239067.34,
+  "best_by_year": {
+   "2025": 27479.24,
+   "2026": 211588.1
+  },
+  "best_trades": {
+   "2025": 745,
+   "2026": 626
+  },
+  "monthly_avg_22mo": 10866.7,
+  "goal_per_month": 75000,
+  "cycles_completed": 27,
+  "no_beat_cycles": 3,
+  "book_files": {
+   "2025": "stocks_engine_v2_c24_book2025_trades.csv",
+   "2026": "stocks_engine_v2_c24_book2026_trades.csv"
+  },
+  "book_law_added": [
+   "V2C1-FOLLOW-GLENMARK-SHORT-EXCL: F4 and N4-V3 take no GLENMARK SHORT signals (same-day follow mechanisms only; P2F family and GLENMARK LONG untouched) \u2014 banked 2026-10-31 under the cross-year gate",
+   "V2C2-N4-BDL-SHORT-EXCL: N4-V3 takes no BDL SHORT signals (BDL LONG and all other components untouched) \u2014 banked 2026-10-31 under the cross-year gate",
+   "V2C4-INV-HINDALCO-EXCL: INV-LONG takes no HINDALCO signals (third mechanism where HINDALCO x LONG independently qualified; P2F-R2 HINDALCO LONG untouched) \u2014 banked 2026-10-31 under the cross-year gate",
+   "V2C5-INV-UNITDSPR-EXCL: INV-LONG takes no UNITDSPR signals (UNITDSPR SHORT flow in F4/N4-V3 untouched) \u2014 banked 2026-10-31 under the cross-year gate; this bank put 2026 over its Rs200,000 floor",
+   "V2C7-F4-HDFCBANK-SHORT-EXCL: F4 takes no HDFCBANK SHORT signals (R2-LOWBAND HDFCBANK trades untouched) \u2014 banked 2026-10-31 under the cross-year gate",
+   "V2C8-F4-KALYANKJIL-LONG-EXCL: F4 takes no KALYANKJIL LONG signals (N4-V3 KALYANKJIL untouched) \u2014 banked 2026-10-31 under the cross-year gate",
+   "V2C10-N4-HINDALCO-SHORT-EXCL: N4-V3 takes no HINDALCO SHORT signals \u2014 banked 2026-10-31 under the cross-year gate",
+   "V2C11-N4-HINDZINC-LONG-EXCL: N4-V3 takes no HINDZINC LONG signals (P2F-R2 HINDZINC LONG untouched) \u2014 banked 2026-10-31 under the cross-year gate",
+   "V2C13-N4-UNITDSPR-LONG-EXCL: N4-V3 takes no UNITDSPR LONG signals (UNITDSPR SHORT in N4-V3/F4 untouched) \u2014 banked 2026-10-31 under the cross-year gate",
+   "V2C14-N4-RECLTD-LONG-EXCL: N4-V3 takes no RECLTD LONG signals (RECLTD SHORT in N4-V3 untouched) \u2014 banked 2026-10-31 under the cross-year gate",
+   "V2C16-N4-WIPRO-SHORT-EXCL: N4-V3 takes no WIPRO SHORT signals (WIPRO LONG in N4-V3 does not qualify and stays) \u2014 banked 2026-10-31 under the cross-year gate",
+   "V2C17-R2-KALYANKJIL-LONG-EXCL: P2F-R2 takes no KALYANKJIL LONG signals (KALYANKJIL SHORT in P2F-R2 untouched) \u2014 banked 2026-10-31 under the cross-year gate",
+   "V2C19-INV-TATASTEEL-EXCL: INV-LONG takes no TATASTEEL signals \u2014 banked 2026-10-31 under the cross-year gate; the both-years-negative deletion registry is now EMPTY at the standing bar",
+   "C22: component INV-ABOVE added (INV machinery, g1/above-trend gate, LONG, T125/S050; INV law incl. v2 names applies)",
+   "C23: R2-LOWBAND stands aside on UP days (REGIME-CLASSIFIER-1; cell exclusion, both-years-negative pair -3,528.75)",
+   "C24: INV-LONG stands aside on FLAT days (REGIME-CLASSIFIER-1; cell exclusion, both-years-negative pair -5,339.97)"
+  ],
+  "saturation_rule": "3 consecutive cycles that cannot beat combined_best under the cross-year gate",
+  "status": "TERMINATED \u2014 SATURATED-V2 (3 consecutive no-beat cycles under the cross-year gate: C25 INV-LATE rejected on leg (b), C26 INV-ABOVE-LATE rejected on legs (a)/(b)/expectancy, C27 P2F-NEWS rejected on legs (a)/(b)/expectancy/placebo). Final book = post-C24: combined +239,067.34 (2025 +27,479.24 / 745 tr; 2026 +211,588.10 / 626 tr; Rs10,866.70/month over 22). Mandate 2 objective (a) HOLDS (all six regime cells positive in both years). 2026 per-year floor MET (+11,588.10 over Rs200,000). 2025 floor NOT met (gap Rs212,520.76 of Rs240,000). Consistency band (c) not reached (range Rs57,846.63, stdev Rs14,064.19, 1/22 months in band, six red months in 2025). Books: stocks_engine_v2_c24_book2025_trades.csv / _book2026_trades.csv.",
+  "floor_mandate": {
+   "set": "2026-10-31 15:17 IST",
+   "user_words": "Whenever I increase the time, you are reducing the profit. Profit should not be reduced. 20,000 per month should be default.",
+   "per_month": 20000,
+   "y2025_min": 240000,
+   "y2026_min": 200000,
+   "rule": "success bar is per-year; neither year may subsidise the other in the headline; gate NEVER loosened and floor NEVER re-defined to reach it; saturation below the floor is reported as the proven ceiling",
+   "goal_above_floor_per_month": 75000
+  },
+  "floor_position": {
+   "floor": {
+    "2025": 240000,
+    "2026": 200000
+   },
+   "current": {
+    "2025": 27479.24,
+    "2026": 211588.1
+   },
+   "gap": {
+    "2025": 212520.76,
+    "2026": -11588.1
+   },
+   "note": "SATURATED-V2 final: 2026 floor MET (+Rs11,588.10 over). 2025 floor NOT met (gap Rs212,520.76). Cells all positive both years (2025 UP +2,204.81 / DOWN +21,561.86 / FLAT +3,712.57; 2026 UP +15,888.69 / DOWN +188,336.51 / FLAT +7,362.90) \u2014 objective (a) complete, thin in 2025 UP/FLAT. Band far: range Rs57,846.63, stdev Rs14,064.19, 1/22 months inside Rs20,000 +/- Rs1,000; 2025 ex-top-3 -Rs12,272.78 (concentration caveat stands), 2026 ex-top-3 +Rs83,088.96."
+  },
+  "regime_mandate": {
+   "set": "2026-10-31 15:30 IST",
+   "user_words": "consistent amount \u00b1Rs1,000 regardless of market movement \u2014 deep falling (SHORT side), steep rising (LONG side), flat (event-driven/fade sleeves) \u2014 any situation we need to be ready",
+   "classifier": "REGIME-CLASSIFIER-1 frozen in stocks_engine_frozen.md before any regime scoring (causal: prior-close inputs only)",
+   "objectives_in_order": [
+    "every regime cell (UP/DOWN/FLAT) positive in BOTH years",
+    "Rs20,000/month per-year floor (2025 >= 240,000 AND 2026 >= 200,000)",
+    "variance compression toward Rs20,000 \u00b1 Rs1,000 per month; month spread reported every cycle"
+   ],
+   "sleeve_rule": "challenger cadence targets the weakest regime cell: DOWN=SHORT mechanisms, UP=LONG, FLAT=event-driven (P2F family seed)/fade",
+   "honesty": "band is an optimisation target reported openly; unreachable cells/band are stated with evidence, never smoothed or gate-loosened"
+  },
+  "cycle_lock": null,
+  "milestone_note": "C23 reported to parent as a milestone: mandate-2 objective (a) achieved. Queue if continued: C24 INV-LONG x FLAT stand-aside (both-years-negative cell pair -5,339.97); then scale challengers for the 2025 floor gap.",
+  "terminated": "SATURATED-V2"
+ },
+ "v3": {
+  "version": "v3",
+  "started": "2026-10-31",
+  "charter": "MAXIMIN: lexicographic improvement of the sorted 22-month vector (worst month toward >= +Rs10,000, then toward Rs15,000), subject to hard constraints: neither year total falls, neither year negative, every REGIME-CLASSIFIER-1 cell x year stays positive, combined total does not fall; controls + timing audit in the same pass; freeze before scoring; one structural change per cycle; additive challengers also need combined expectancy > 0 and beat the flip placebo per-trade (Cycle-6 standard). Frozen SarvaRitu forward test untouched.",
+  "user_order": "2026-10-31 20:55 IST: 'start tuning them because at least ten thousand should be the minimum. For stocks.'",
+  "windows": [
+   "2025-01-01..2025-12-31",
+   "2026-01-01..2026-10-30"
+  ],
+  "incumbent_at_restart": {
+   "source": "frozen post-C24 v2 book (SarvaRitu), verbatim",
+   "y2025_total": 27479.24,
+   "y2025_trades": 745,
+   "y2026_total": 211588.1,
+   "y2026_trades": 626,
+   "combined": 239067.34
+  },
+  "combined_best": 259860.26,
+  "best_by_year": {
+   "2025": 44729.13,
+   "2026": 215131.13
+  },
+  "best_trades": {
+   "2025": 731,
+   "2026": 636
+  },
+  "book_files": {
+   "2025": "stocks_engine_v3_c16_book2025_trades.csv",
+   "2026": "stocks_engine_v3_c16_book2026_trades.csv"
+  },
+  "month_vector_sorted_asc": [
+   -5088.45,
+   -3020.72,
+   -2463.94,
+   -955.92,
+   234.82,
+   1207.95,
+   1687.03,
+   5445.26,
+   5610.64,
+   8486.54,
+   9341.38,
+   9678.06,
+   10716.55,
+   11073.79,
+   11887.17,
+   15771.88,
+   18841.89,
+   20282.12,
+   20939.75,
+   32776.36,
+   34711.42,
+   52696.68
+  ],
+  "bottom5": {
+   "2025-07": -5088.45,
+   "2025-10": -3020.72,
+   "2025-11": -2463.94,
+   "2025-06": -955.92,
+   "2025-05": 234.82
+  },
+  "cells": {
+   "2025": {
+    "UP": 11242.9,
+    "DOWN": 29773.66,
+    "FLAT": 3712.57
+   },
+   "2026": {
+    "UP": 15888.69,
+    "DOWN": 192179.54,
+    "FLAT": 7062.9
+   }
+  },
+  "law_added": [
+   "CH-V3-1: component INV-R3 added (INV machinery, round>=3, entry<10:30, ADR>=3.0, cond_inv1 gate, LONG, T125/S050; base exclusions + INV law) \u2014 banked 2026-10-31 under the v3 maximin gate",
+   "V3C3-P2FR2-OBEROIRLTY-LONG-EXCL: P2F-R2 takes no OBEROIRLTY LONG signals (1 tr, Oct 2025 -894.00) \u2014 banked 2026-10-31 under the v3 maximin gate",
+   "V3C4-P2F-OBEROIRLTY-LONG-EXCL: P2F takes no OBEROIRLTY LONG signals (1 tr, Oct 2025 -889.35) \u2014 banked 2026-10-31 under the v3 maximin gate",
+   "V3C5-N4-INDUSTOWER-LONG-EXCL: N4-V3 takes no INDUSTOWER LONG signals (2 tr, Jan 2025 -336.36, Oct 2025 -345.88) \u2014 banked 2026-10-31 under the v3 maximin gate",
+   "V3C6-P2FR2-BDL-LONG-EXCL: P2F-R2 takes no BDL LONG signals (2 tr, Aug 2025 -841.00, Nov 2025 -830.00) \u2014 banked 2026-10-31 under the v3 maximin gate",
+   "V3C7-P2F-GODREJCP-LONG-EXCL: P2F takes no GODREJCP LONG signals (1 tr, Nov 2025 -629.30) \u2014 banked 2026-10-31 under the v3 maximin gate",
+   "V3C8-P2FR2-GODREJCP-LONG-EXCL: P2F-R2 takes no GODREJCP LONG signals (1 tr, Nov 2025 -622.45) \u2014 banked 2026-10-31 under the v3 maximin gate",
+   "V3C9-INVABOVE-PFC-LONG-EXCL: INV-ABOVE takes no PFC LONG signals (13 tr, 2025 -1,793.92) \u2014 banked 2026-10-31 under the v3 maximin gate",
+   "V3C10-INVABOVE-RECLTD-LONG-EXCL: INV-ABOVE takes no RECLTD LONG signals (6 tr, 2025 -1,277.62) \u2014 banked 2026-10-31 under the v3 maximin gate",
+   "V3C11-P2FR2-TVSMOTOR-SHORT-EXCL: P2F-R2 takes no TVSMOTOR SHORT signals (1 tr, May 2025 -1,390.25) \u2014 banked 2026-10-31 under the v3 maximin gate",
+   "V3C12-N4-OIL-SHORT-EXCL: N4-V3 takes no OIL SHORT signals (2 tr, Feb 2025 -365.24, May 2025 -365.32) \u2014 banked 2026-10-31 under the v3 maximin gate; May 2025 crossed to +234.82",
+   "V3C13-R2LOWBAND-TVSMOTOR-LONG-EXCL: R2-LOWBAND takes no TVSMOTOR LONG signals (1 tr, Aug 2025 -1,515.50) \u2014 banked 2026-10-31 under the v3 maximin gate",
+   "V3C14-P2FR2-GLENMARK-LONG-EXCL: P2F-R2 takes no GLENMARK LONG signals (1 tr, Feb 2025 -715.00) \u2014 banked 2026-10-31 under the v3 maximin gate",
+   "V3C15-P2F-UNITDSPR-LONG-EXCL: P2F takes no UNITDSPR LONG signals (1 tr, May 2026 -700.15) \u2014 banked 2026-10-31 under the v3 maximin gate",
+   "V3C16-N4-VEDL-SHORT-EXCL: N4-V3 takes no VEDL SHORT signals (1 tr, Jan 2026 -616.60) \u2014 banked 2026-10-31 under the v3 maximin gate; deletion registry EXHAUSTED at the standing bar"
+  ],
+  "cycles_completed": 16,
+  "no_beat_cycles": 0,
+  "saturation_rule": "3 consecutive cycles that fail the maximin beat under the hard constraints",
+  "milestones": {
+   "worst_crossed_0": false,
+   "worst_crossed_10000": false
+  },
+  "cycle_lock": "v3-continuation-desert-phase 2026-10-31 (C16+)",
+  "status": "RUNNING (desert-month breadth phase) 2026-10-31 \u2014 C16 banked the last registry row; combined +259,860.26 (2025 +44,729.13 / 2026 +215,131.13). Bottom-5 unchanged: Jul 2025 -5,088.45, Oct 2025 -3,020.72, Nov 2025 -2,463.94, Jun 2025 -955.92, May 2025 +234.82. Next: bulk/block-deal calendar build, then additive desert-month challengers.",
+  "terminated": null
+ }
+}

@@ -1,0 +1,23 @@
+ANCHOR honest second-signal 10:00: {'chains': 614, 'trades': 946, 'net': -117200.13} -> PASS
+ANCHOR honest second-signal 10:15: {'chains': 894, 'trades': 1299, 'net': -167156.86} -> PASS
+VALIDATION ALL PASS: True
+R1-A @10:00: pooled chains=637 trades=1007 net=-128595.61 exp/ch=-201.88 exp/tr=-127.7 JM=-79864.49 JO=-48731.12 Oct=-19252.51 breadth=19/50 | home=-56864.68 ext=-71730.93 | AUDIT checked=1007 viol=0 min_entry=10:05 clean=True
+R1-A @10:15: pooled chains=917 trades=1362 net=-180817.36 exp/ch=-197.18 exp/tr=-132.76 JM=-111651.96 JO=-69165.4 Oct=-14373.87 breadth=17/50 | home=-55689.92 ext=-125127.44 | AUDIT checked=1362 viol=0 min_entry=10:20 clean=True
+R1-B @10:00: pooled chains=576 trades=926 net=-120162.13 exp/ch=-208.61 exp/tr=-129.76 JM=-75029.41 JO=-45132.72 Oct=-21652.21 breadth=20/50 | home=-52383.52 ext=-67778.61 | AUDIT checked=926 viol=0 min_entry=10:05 clean=True
+R1-B @10:15: pooled chains=858 trades=1281 net=-181485.29 exp/ch=-211.52 exp/tr=-141.67 JM=-113808.01 JO=-67677.28 Oct=-16560.88 breadth=19/50 | home=-48631.78 ext=-132853.51 | AUDIT checked=1281 viol=0 min_entry=10:20 clean=True
+R1-C1 @10:00: pooled chains=707 trades=707 net=-45058.0 exp/ch=-63.73 exp/tr=-63.73 JM=-25836.6 JO=-19221.4 Oct=2444.09 breadth=10/50 | home=-60981.59 ext=15923.59 | AUDIT checked=707 viol=0 min_entry=10:05 clean=True
+R1-C1 @10:15: pooled chains=1014 trades=1014 net=-43264.78 exp/ch=-42.67 exp/tr=-42.67 JM=-16204.97 JO=-27059.81 Oct=-24091.36 breadth=16/50 | home=-28140.57 ext=-15124.21 | AUDIT checked=1014 viol=0 min_entry=10:20 clean=True
+R1-C2 @10:00: pooled chains=707 trades=707 net=-65698.72 exp/ch=-92.93 exp/tr=-92.93 JM=-12359.32 JO=-53339.4 Oct=-8551.09 breadth=14/50 | home=-60500.53 ext=-5198.19 | AUDIT checked=707 viol=0 min_entry=10:05 clean=True
+R1-C2 @10:15: pooled chains=1014 trades=1014 net=-162328.96 exp/ch=-160.09 exp/tr=-160.09 JM=-81455.76 JO=-80873.2 Oct=-28216.58 breadth=12/50 | home=-29785.91 ext=-132543.05 | AUDIT checked=1014 viol=0 min_entry=10:20 clean=True
+BEST CELL: C1@10:15 pooled net -43264.78
+PLACEBO of R1-C1 @10:15 (yesterday-qualified): pooled chains=1015 trades=1015 net=-65544.41 exp/ch=-64.58 exp/tr=-64.58 JM=-40279.03 JO=-25265.38 Oct=13392.01 breadth=18/50 | home=-43937.83 ext=-21606.58 | AUDIT checked=1015 viol=0 min_entry=10:20 clean=True
+GATE A@10:00: {'jan_may_positive': False, 'jun_oct_positive': False, 'breadth_ge_35': False, 'october_positive': False, 'leak_audit_clean': True, 'pass': False}
+GATE A@10:15: {'jan_may_positive': False, 'jun_oct_positive': False, 'breadth_ge_35': False, 'october_positive': False, 'leak_audit_clean': True, 'pass': False}
+GATE B@10:00: {'jan_may_positive': False, 'jun_oct_positive': False, 'breadth_ge_35': False, 'october_positive': False, 'leak_audit_clean': True, 'pass': False}
+GATE B@10:15: {'jan_may_positive': False, 'jun_oct_positive': False, 'breadth_ge_35': False, 'october_positive': False, 'leak_audit_clean': True, 'pass': False}
+GATE C1@10:00: {'jan_may_positive': False, 'jun_oct_positive': False, 'breadth_ge_35': False, 'october_positive': True, 'leak_audit_clean': True, 'pass': False}
+GATE C1@10:15: {'jan_may_positive': False, 'jun_oct_positive': False, 'breadth_ge_35': False, 'october_positive': False, 'leak_audit_clean': True, 'placebo_beaten': True, 'pass': False}
+GATE C2@10:00: {'jan_may_positive': False, 'jun_oct_positive': False, 'breadth_ge_35': False, 'october_positive': False, 'leak_audit_clean': True, 'pass': False}
+GATE C2@10:15: {'jan_may_positive': False, 'jun_oct_positive': False, 'breadth_ge_35': False, 'october_positive': False, 'leak_audit_clean': True, 'pass': False}
+CELLS PASSING FULL GATE: []
+DONE all

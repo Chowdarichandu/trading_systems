@@ -1,0 +1,69 @@
+{
+ "anchors": {
+  "A": true,
+  "B": true
+ },
+ "fix": "SAT-14-P2F-HINDALCO-LONG-exclusion (P2F does not take HINDALCO LONG signals; mechanism x direction scoped)",
+ "fix_id": "SAT-14-P2F-HINDALCO-LONG",
+ "deleted_set": [
+  [
+   "2026-08-10",
+   "HINDALCO",
+   "LONG",
+   -572.5
+  ]
+ ],
+ "deleted_detail": {
+  "date": "2026-08-10",
+  "stock": "HINDALCO",
+  "dir": "LONG",
+  "net": -572.5,
+  "exit_reason": "stop",
+  "R": "2026-08-07",
+  "reaction_ret_pct": 3.17
+ },
+ "new_month_table": {
+  "2026-01": 18656.7,
+  "2026-02": 12689.65,
+  "2026-03": 18739.16,
+  "2026-04": 7602.73,
+  "2026-05": 32207.1,
+  "2026-06": 2036.67,
+  "2026-07": 2022.79,
+  "2026-08": 4143.93,
+  "2026-09": 17542.75,
+  "2026-10": 51107.02
+ },
+ "new_total": 166748.5,
+ "new_trades": 812,
+ "banked": true,
+ "deltas": {
+  "2026-01": 0.0,
+  "2026-02": 0.0,
+  "2026-03": 0.0,
+  "2026-04": 0.0,
+  "2026-05": 0.0,
+  "2026-06": 0.0,
+  "2026-07": 0.0,
+  "2026-08": 572.5,
+  "2026-09": 0.0,
+  "2026-10": 0.0
+ },
+ "ex_top3_before": 51853.86,
+ "ex_top3_after": 52426.36,
+ "legs": {
+  "a_total": true,
+  "b_all_green": true,
+  "c_oct": true,
+  "d_extop3": true,
+  "e_anchors": true
+ },
+ "oct_headroom_after": 1107.02,
+ "august_after": 4143.93,
+ "n4_revisit": {
+  "august_required": 4020.54,
+  "august_leg_met": true,
+  "august_margin": 123.39,
+  "note": "August leg only, at THIS book. The rebuild's own deltas (CH-2: August -3,834.85, June flip) are stale and must be re-measured in SAT-15 (Lesson 16) before any re-apply."
+ }
+}
