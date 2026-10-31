@@ -1,0 +1,41 @@
+# Market data caches (regenerable, local only)
+data/
+*_cache*/
+*_data/
+historical_proof_data/
+stocks_janjun/
+stocks_julsep/
+stocks_october/
+nifty_janjun/
+nifty_julsep/
+nifty_october/
+aggressive_data/
+atlas/
+bulkblock_raw/
+club_all/
+results_data/
+results_intelligence_data/
+week_oct26_30_data/
+
+# Credential-bearing tooling — NEVER commit
+upstox_refresh/
+.env
+.env.*
+*.pem
+*.key
+*token*
+*secret*
+*cred*
+
+# Environments and bytecode
+.venv*/
+venv/
+__pycache__/
+*.pyc
+
+# Binary charts / screenshots
+*.png
+
+# Snapshot sync metadata (lives outside the repo)
+*.muse-github-snapshot-sync.json
+*.muse-github-snapshot-sync.json.tmp-*

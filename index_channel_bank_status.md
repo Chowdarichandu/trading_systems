@@ -1,0 +1,14 @@
+# BANK NIFTY channel status (separate channel — Bank Nifty only)
+
+Bank Nifty = **U1-B2** (U1 Bank + block Skill V3 Bank CE + drop Skill-solo Bank legs entry ≤09:55): Jan–Oct +₹124,415 mixed (89 trades, 36.0% FT, 2.19/week), Oct +₹13,920 premiums (9 trades, 77.8% FT, 2.50/week), month-end cumulative green at every month-end Jan–Oct — Bank tuning DONE, stage pass only, NOT adopted; validation = frozen November paper from Mon 2026-11-02 in a separate Bank log. Detail: `index_options_U1_bank_tuning_positive.md`.
+
+Upgrade attempt 2026-10-30 (`index_upgrade_bank_B2plus.md`): no variant beat B2 on net + full-target + frequency + green month-ends together, so **B2 is kept unchanged**. RUNNER (violent-day, +90 → breakeven/+150): Oct +₹18,420 but FT fell to 66.7%, Jan–Oct +₹134,915 mixed but FT 34.8% — rejected on full-target. VSTOP65/75 (violent-day stop −65/−75): October identical to B2 (no violent stop legs), Jan–Oct +₹131,915 / +₹126,915 mixed via one converted leg of six — rejected, no October progress. Entry-bar premium-momentum gate: Oct +₹9,920 on 4 trades — rejected on net and frequency. Frozen November paper from Mon 2026-11-02 remains B2 exactly.
+
+
+## November paper setup — frozen 2026-10-30 (decision: user delegated, "U know better do")
+
+**PRIMARY: V1 = U1-B2 + NS1 second legs (unique-once).** Reference: Oct premiums +₹17,160 (12 trades, 75.0% FT, 3.33/week); Jan–Oct premium check +₹23,703.50, no red month-ends. **CONTROL (shadow, same log, never added to the primary): U1-B2 exactly.** Frozen spec: `november_paper_bank_V1_frozen.md`. Log: `november_paper_bank_log.csv` (header only; first trading day Mon 2026-11-02, logging after 15:10). Pre-registered pass rule, this index alone: November premium net > ₹0 AND full-target ≥ 50% AND month closes green AND frequency ≥ 2/week. Paper only, 1 lot (30), no orders, no re-tuning during November.
+
+## Historical proof (premiums only) — appended 2026-10-30
+
+**Real money: ₹0 — paper proof only.** Every Jan–Sep leg of frozen U1-B2 was re-scored on actual Upstox option premium candles (same −50/+90 overlay, ₹220 cost, lot 30 verified constant Jan–Oct 2026 from contract data); October legs carried in unchanged. All 89 legs computed, 0 NOT_COMPUTED. Premium-only Jan–Oct total for this index alone: **₹18,731.50 per 1 lot** (2.19 trades/week, 43.8% full-target) — versus the old mixed-basis ₹124,415.00, which must no longer be quoted as premium performance. Month-end cumulative closes: January closes RED (−₹1,920.00); all other month-ends green. Worst month Jun 2026 (₹-9,560.00); max drawdown ₹28,645.50; best month Feb 2026 (₹15,377.00) is 82.1% of the total. Nothing re-tuned; U1-B2 stays frozen for November paper in this channel's own log. Full proof: `historical_proof_bank_B2.md`; chart: `historical_proof_bank_B2_chart.png`.

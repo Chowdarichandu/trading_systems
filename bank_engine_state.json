@@ -1,0 +1,275 @@
+{
+  "basis": "Index options premiums only, 1 lot (Bank lot 30), cost 220 INR/trade, UNIQUE-ONCE per (date,index,direction) earliest entry, paper only, real money 0",
+  "best_book": "Engine book v8 = book v7 + R2C8 WARM-STATE RUNNER for >=400 segment (anchored trailing-10 state >= 0 -> runner-lock75/TGT2-180; cold -> plain G0); trades bank_engine_cycle18_trades.csv",
+  "best_ft_pct": 53.7,
+  "best_jan_oct_inr": 77196.5,
+  "best_october_inr": 22250.0,
+  "best_trades": 82,
+  "consecutive_no_bank_on_target": 0,
+  "consecutive_no_beat_cycles": 0,
+  "created": "2026-10-31T13:15:00+05:30",
+  "current_target": "July",
+  "cycle": 20,
+  "cycle_lock": null,
+  "engine": "bank-recursive-engine",
+  "frozen": "~/workspace/trading/bank_engine_frozen.md",
+  "goal": {
+    "bank_starting_monthly_avg_inr": 2370.35,
+    "combined_target_jan_oct_inr": 200000,
+    "combined_target_monthly_inr": 20000,
+    "combined_target_note": "Chandu 2026-10-31 13:17 IST: 50k/month including Nifty and Bank Nifty together. Reported per index separately; no pooled verdict; counts for nothing if one index is negative or closes a month-end red.",
+    "gates": "total rises AND no red month-end AND frequency >= 2/week AND full-target rate does not collapse",
+    "nifty_starting_monthly_avg_inr": 6661.93,
+    "superseded_50k_target": "2026-10-31 13:54 IST: Chandu lowered combined target 50k -> 20k/month ('since 50k is hard')."
+  },
+  "goal_updated": "2026-10-31T13:17:00+05:30",
+  "incumbent": {
+    "jan_oct_full_target_pct": 42.3,
+    "jan_oct_premiums_inr": 23703.5,
+    "jan_oct_trades": 130,
+    "name": "V1 = B2 + NS1 second legs (BNF-PAPER-V1 pool)",
+    "october_full_target_pct": 75.0,
+    "october_premiums_inr": 17160.0,
+    "october_trades": 12,
+    "red_month_ends": 0,
+    "trades_per_week": 3.2
+  },
+  "index": "Bank Nifty only",
+  "lessons": "~/workspace/trading/bank_engine_lessons.md",
+  "log": "~/workspace/trading/bank_engine_log.md",
+  "month_order": [
+    "October",
+    "September",
+    "August",
+    "July",
+    "June",
+    "May",
+    "April",
+    "March",
+    "February",
+    "January"
+  ],
+  "november_paper": "BNF-PAPER-V1 frozen, untouched by this engine; Nov 2026-11-02 to 2026-11-30, own log november_paper_bank_log.csv",
+  "parked": [
+    "NS6 (1 leg) \u2014 thin, unscored",
+    "NOT_COMPUTED add-on legs (NS3 14, NS5a 19, NS5b 17) need the browser premium-fetch route before judging \u2014 every admitted sample of those families lost on premiums",
+    "Runner-gate refinement to [250,400): +1200 total but -1800 August \u2014 never banked; August never secured otherwise"
+  ],
+  "previous_termination": "EXHAUSTED/SATURATED 2026-10-31 after Cycle 10: 3 consecutive no-beat cycles (8 NS3, 9 NS5a, 10 NS5b); peak is Cycle 7 book v4 at +\u20b946,476.50 Jan-Oct; August resisting at -\u20b93,781 individual month.",
+  "protocol": "~/workspace/trading/bank_RECURSIVE_ENGINE.md",
+  "run2": {
+    "combined_plateau_jan_oct_inr": 138914.25,
+    "combined_plateau_monthly_inr": 13891.43,
+    "combined_target_jan_oct_inr": 200000,
+    "combined_target_monthly_inr": 20000,
+    "gap_jan_oct_inr": 61085.75,
+    "gap_monthly_inr": 6108.57,
+    "reason": "Chandu lowered the combined target: 'Now 20k since 50k is hard' (2026-10-31 13:54 IST). Run 1 saturated/terminated on tuning families; Run 2 is challenger/new-mechanism cycles ONLY - no re-trying any family closed in the lessons registry.",
+    "started": "2026-10-31T13:54:00+05:30",
+    "termination": "SUCCESS for this engine's part when the two frozen books together reach >= 200000 Jan-Oct (each reported separately, gates intact), else saturation again after 3 consecutive no-beat Run-2 cycles.",
+    "cycles": [
+      {
+        "cycle": 11,
+        "mechanism": "COLD-STATE (lA) STAND-ASIDE",
+        "verdict": "BANKED",
+        "total": 56796.5,
+        "aug": 3099.0
+      },
+      {
+        "cycle": 12,
+        "mechanism": "RATCHET-LOCK on gated runner",
+        "verdict": "REJECTED - exact no-op in path order (0 legs changed, total unchanged 56796.50); the +120 excursions in diagnosis occur AFTER the +50 lock exit",
+        "total": 56796.5
+      },
+      {
+        "cycle": 13,
+        "mechanism": "RUNNER SECOND TARGET +180",
+        "verdict": "BANKED",
+        "total": 61896.5,
+        "aug": 3999.0,
+        "oct": 22100.0
+      },
+      {
+        "cycle": 14,
+        "mechanism": "BE-ARM (+50 progress -> stop to entry) on >=400 G0 segment",
+        "verdict": "REJECTED",
+        "total": 43160.0
+      },
+      {
+        "cycle": 15,
+        "mechanism": "BLUE-LINE v4 add-on legs (new component family)",
+        "verdict": "REJECTED",
+        "total": 48896.5
+      },
+      {
+        "cycle": 16,
+        "mechanism": "RUNNER LOCK +75",
+        "verdict": "BANKED",
+        "total": 65496.5,
+        "aug": 3999.0,
+        "oct": 23600.0
+      },
+      {
+        "cycle": 17,
+        "mechanism": "RUNNER LOCK +90",
+        "verdict": "REJECTED",
+        "total": 61896.5
+      },
+      {
+        "cycle": 18,
+        "mechanism": "WARM-STATE RUNNER for >=400 segment",
+        "verdict": "BANKED",
+        "total": 77196.5,
+        "aug": 3999.0,
+        "oct": 22250.0
+      },
+      {
+        "cycle": 19,
+        "mechanism": "RUNNER SECOND TARGET +210 book-wide",
+        "verdict": "REJECTED",
+        "total": 74496.5
+      },
+      {
+        "cycle": 20,
+        "mechanism": "SPEED-CONDITIONED SECOND TARGET (fast trigger -> +210)",
+        "verdict": "REJECTED",
+        "total": 75846.5
+      }
+    ],
+    "no_beat_count": 2,
+    "terminated": true,
+    "final_best": 77196.5
+  },
+  "terminated": {
+    "when": "2026-10-31",
+    "run": 2,
+    "status": "SATURATED/EXHAUSTED (Run 2)",
+    "reason": "Last bank at Run-2 Cycle 8 (book v8, +77196.50). Scored no-beat streak 2 (Cycles 19 TGT2-210, 20 speed-conditioned TGT2) plus six further mechanisms closed by exact path-level diagnosis since the last bank (cold-state <400 -> G0 -1800; >=400 TGT2-150 -1800; trailing-5 warm gate -3150; >=400 lock60 -3600; same-bar lock arming ~-37800 and unscorable at 5-min granularity; expiry-day defensive exit -2250 by construction). Expiry-day stand-aside diagnosed (-2510 over 8 legs) but unbankable: dropping 8 legs breaks the >=2/week gate. Solo-leg add-ons closed by the pre-engine B1-vs-B2 controlled comparison. SUCCESS-combined NOT met: Bank 77196.50 + Nifty best (read from nifty_engine_state.json) = pair below the 200000 combined line.",
+    "pair_check": {
+      "bank": 77196.5,
+      "nifty": 98001.0,
+      "pair": 175197.5,
+      "line": 200000,
+      "gap": 24802.5
+    },
+    "peak_book": "book v8"
+  },
+  "tried_families": [
+    {
+      "family": "G1/G2/G4/G5 bigger fixed targets on B2",
+      "outcome": "rejected pre-engine (FT collapse, net down) \u2014 lesson 3"
+    },
+    {
+      "family": "G3 wider stop / G6 BE runner on B2",
+      "outcome": "rejected pre-engine (below baseline) \u2014 lesson 4"
+    },
+    {
+      "family": "E1/E2/E3 entry gates on B2",
+      "outcome": "rejected pre-engine (frequency + net down) \u2014 lesson 5"
+    },
+    {
+      "family": "F5 ITM-100 strikes",
+      "outcome": "rejected pre-engine (net + FT down) \u2014 lesson 6"
+    },
+    {
+      "family": "C2 unions / C3 confirmed-only",
+      "outcome": "rejected pre-engine (frequency + net down) \u2014 lesson 7"
+    },
+    {
+      "family": "V2/V3 NS2 afternoon add-ons",
+      "outcome": "rejected pre-engine (duplicate / worse Jan-Oct) \u2014 lesson 8"
+    },
+    {
+      "family": "V5 filter-c on add-ons",
+      "outcome": "rejected pre-engine (October-fitted, breaks Sep) \u2014 lesson 9"
+    },
+    {
+      "family": "S1/S2/S3 stacks",
+      "outcome": "rejected pre-engine (below V1) \u2014 lesson 10"
+    },
+    {
+      "family": "G7 runner-lock50 on B2 legs",
+      "outcome": "promising, not banked \u2014 retest on V1 pool as challenger under full controls \u2014 lesson 12"
+    },
+    {
+      "family": "Cycle1 tight stop -40/+90 on V1 pool",
+      "outcome": "rejected (Oct 17160->10260, total 23703.50->6318.50, FT 42.3->36.2, red Aug/Sep month-ends, ex-top3 negative) \u2014 lesson 14"
+    },
+    {
+      "family": "Cycle2 NS1-CE-BLOCK (drop CE second legs, V1 pool)",
+      "outcome": "BANKED \u2014 total 23703.50->34629.00, Oct 17160->18880, FT 42.3->46.7, no red month-ends, freq 2.59/wk, placebo beaten, ex-top3 +27189 \u2014 lesson 15"
+    },
+    {
+      "family": "Cycle3 CHALLENGER G7 runner-lock50 on book v2 pool",
+      "outcome": "rejected under frozen banking rule \u2014 total rose 34629->44829 and 4-leg gate passed, but target month Sep worsened -2327->-4727 and Oct gave back 1800 \u2014 lesson 16. Kept as noted observation."
+    },
+    {
+      "family": "Cycle4 premium-band-block [400,550) on book v2",
+      "outcome": "BANKED \u2014 Sep -2327->+2937.50 green, total 34629->38076.50, FT 46.7->50.0, freq 2.17/wk, no red month-ends \u2014 lesson 17"
+    },
+    {
+      "family": "Cycle5 smaller target +75 (stop -50) on book v3",
+      "outcome": "rejected \u2014 Aug -5581->-5950, total 38076.50->26307.50, FT only +3.4pts despite lower bar \u2014 lesson 18"
+    },
+    {
+      "family": "Cycle6 CHALLENGER NS4 or_rebreak add-ons on book v3",
+      "outcome": "rejected \u2014 add-ons 14 trades -15680 FT 14.3%, total 38076.50->22396.50, Aug worse, FT collapse \u2014 lesson 19"
+    },
+    {
+      "family": "Cycle7 CHALLENGER premium-gated runner (<400 runner-lock50, >=400 G0) on book v3",
+      "outcome": "BANKED \u2014 total 38076.50->46476.50, Aug -5581->-3781, Oct 16400->19400, Sep stays green 1737.50, FT 50.0 held, freq 2.17/wk, placebo beaten by 43255.80, ex-top3 +33636.50 \u2014 lesson 20"
+    },
+    {
+      "family": "Cycle8 NS3 gap-class add-ons on book v4",
+      "outcome": "rejected \u2014 add-ons 6 trades -2127 FT 1/6, total 46476.50->44349.50, Aug unchanged, FT diluted \u2014 lesson 21"
+    },
+    {
+      "family": "Cycle9 CHALLENGER NS5a skill-rescan add-ons on book v4",
+      "outcome": "rejected \u2014 add-ons 12 trades -4047 FT 3/12, total 46476.50->42429.50, Aug -3781->-5501, Oct taxed 19400->15960 \u2014 lesson 22"
+    },
+    {
+      "family": "Cycle10 CHALLENGER NS5b ce_mirror_rescan add-ons on book v4",
+      "outcome": "rejected \u2014 add-ons 8 trades -1160 FT 3/8 (all CE), total 46476.50->45316.50, Aug unchanged -3781, FT 50.0->49.0 \u2014 lesson 23. 3rd consecutive no-beat cycle: engine terminated saturated/exhausted."
+    },
+    {
+      "family": "R2 Cycle11 COLD-STATE (lA) STAND-ASIDE on book v4",
+      "outcome": "BANKED - total 46476.50->56796.50, Aug -3781->+3099 GREEN (resisting month secured), FT 50.0->53.7, freq 2.02/wk, no red month-ends, halves Jun-Oct turned +8116.50, placebo +4980.70 beaten, ex-top3 +43956.50, timing 0 viol - lesson 24"
+    },
+    {
+      "family": "R2 Cycle12 RATCHET-LOCK (lock +50->+90 after +120 progress) on book v5",
+      "outcome": "REJECTED - no-op in path order: 0 of 82 legs changed, total identical 56796.50, controls passed (sanity exact, timing 0 viol, placebo +8580.70, ex-top3 +43956.50) - lesson 25"
+    },
+    {
+      "family": "R2 Cycle13 RUNNER SECOND TARGET +180 on book v5",
+      "outcome": "BANKED - total 56796.50->61896.50 (+5100: 9/10 runner-target legs reached +180 at +900 each, 1 fell back to lock -3000), Aug 3099->3999, Oct 19400->22100, FT 53.7 held, freq 2.02/wk, no red month-ends, halves +50180/+11716.50, placebo +8580.70 beaten, ex-top3 +46356.50, timing 0 viol - lesson 26"
+    },
+    {
+      "family": "R2 Cycle14 BE-ARM on >=400 G0 legs of book v6",
+      "outcome": "REJECTED - total 61896.50->43160.00, FT 53.7->43.9: arm fired 13x, saved 3 stops (+4500) but killed 8 targets (-21600); expensive Bank legs routinely retrace to entry after +50 before travelling +90 - lesson 27"
+    },
+    {
+      "family": "R2 Cycle15 CHALLENGER Blue-Line v4 add-ons on book v6",
+      "outcome": "REJECTED - 10 admitted legs net -13000 (9 stops/1 target), total 61896.50->48896.50, FT 53.7->48.9, August un-secured 3999->-2881 (4 Aug Blue-Line PE stops - the Aug PE bleed reproduces from an independent signal source), Sep 1737.50->17.50; 11 band-dropped, 0 NC, premium cross-check exact - lesson 28"
+    },
+    {
+      "family": "R2 Cycle16 RUNNER LOCK +75 on book v6",
+      "outcome": "BANKED - total 61896.50->65496.50 (+3600: 9 lock exits +750 each = +6750, 1 target180 leg cut -3150), Aug +3999 unchanged, Sep 1737.50->2487.50, Oct 22100->23600, FT 53.7 held, freq 2.02/wk, no red month-ends, placebo +6780.70 beaten, ex-top3 +49956.50, timing 0 viol - lesson 29"
+    },
+    {
+      "family": "R2 Cycle17 RUNNER LOCK +90 on book v7",
+      "outcome": "REJECTED - total 65496.50->61896.50: 10 lock exits +450 each (+4500) but 3 target180 legs cut (-2700 each = -8100); lock curve peaks at +75 in Bank too (50<75>90); lock family CLOSED at +75 per the frozen peak rule - lesson 30"
+    },
+    {
+      "family": "R2 Cycle18 WARM-STATE RUNNER (>=400 legs, anchored trailing-10 warm -> runner-lock75/TGT2-180) on book v7",
+      "outcome": "BANKED - total 65496.50->77196.50 (+11700, 23 legs changed), Mar 10480->16780, May 7240->14440, Aug +3999 and Sep +2487.50 unchanged, FT 53.7 held, freq 2.02/wk, no red month-ends, halves +64280/+12916.50, placebo +10260.70 beaten, ex-top3 +61656.50, timing 0 viol - lesson 31"
+    },
+    {
+      "family": "R2 Cycle19 RUNNER SECOND TARGET +210 on book v8",
+      "outcome": "REJECTED - total 77196.50->74496.50: 11 legs reach +210 (+900 each) but 4 fall back to the lock (-3150 each); runner-target curve peaks at +180, family CLOSED per frozen peak rule - lesson 32"
+    },
+    {
+      "family": "R2 Cycle20 SPEED-CONDITIONED TGT2 +210 (trigger <=2 bars) on book v8",
+      "outcome": "REJECTED - total 77196.50->75846.50: only 3 legs changed, 2 reach +210 (+1800) but 1 fast leg (24 Mar) falls back to the lock (-3150); fall-back risk exists even among fast triggers; second target stays +180 unconditionally, family CLOSED - lesson 33"
+    }
+  ]
+}

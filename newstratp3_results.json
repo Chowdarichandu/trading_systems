@@ -1,0 +1,1977 @@
+{
+ "VALIDATE": {
+  "reproduction": {
+   "trades": 3275,
+   "net": -16284.0,
+   "win_pct": 43.2,
+   "exp": -4.97,
+   "gross_exp": 35.03
+  },
+  "expected": {
+   "trades": 3275,
+   "net": -16284.0
+  }
+ },
+ "D1": {
+  "family": "D1",
+  "all": {
+   "trades": 1604,
+   "net": -23452.32,
+   "win_pct": 44.0,
+   "exp": -14.62,
+   "gross_exp": 25.38
+  },
+  "jan_may": {
+   "trades": 762,
+   "net": -995.99,
+   "win_pct": 45.1,
+   "exp": -1.31,
+   "gross_exp": 38.69
+  },
+  "jun_oct": {
+   "trades": 842,
+   "net": -22456.33,
+   "win_pct": 43.0,
+   "exp": -26.67,
+   "gross_exp": 13.33
+  },
+  "october": {
+   "trades": 146,
+   "net": -8987.76,
+   "win_pct": 43.2,
+   "exp": -61.56,
+   "gross_exp": -21.56
+  },
+  "per_day": 7.9,
+  "long_jm": {
+   "trades": 350,
+   "net": 6936.39,
+   "win_pct": 46.3,
+   "exp": 19.82,
+   "gross_exp": 59.82
+  },
+  "long_jo": {
+   "trades": 235,
+   "net": -22108.13,
+   "win_pct": 40.4,
+   "exp": -94.08,
+   "gross_exp": -54.08
+  },
+  "short_jm": {
+   "trades": 412,
+   "net": -7932.38,
+   "win_pct": 44.2,
+   "exp": -19.25,
+   "gross_exp": 20.75
+  },
+  "short_jo": {
+   "trades": 607,
+   "net": -348.2,
+   "win_pct": 44.0,
+   "exp": -0.57,
+   "gross_exp": 39.43
+  },
+  "long": {
+   "trades": 585,
+   "net": -15171.74,
+   "win_pct": 43.9,
+   "exp": -25.93,
+   "gross_exp": 14.07
+  },
+  "short": {
+   "trades": 1019,
+   "net": -8280.58,
+   "win_pct": 44.1,
+   "exp": -8.13,
+   "gross_exp": 31.87
+  },
+  "event": {
+   "trades": 423,
+   "net": 8714.61,
+   "win_pct": 40.9,
+   "exp": 20.6,
+   "gross_exp": 60.6
+  },
+  "no_event": {
+   "trades": 1181,
+   "net": -32166.93,
+   "win_pct": 45.1,
+   "exp": -27.24,
+   "gross_exp": 12.76
+  },
+  "set1": {
+   "trades": 1540,
+   "net": -20909.31,
+   "win_pct": 44.1,
+   "exp": -13.58,
+   "gross_exp": 26.42
+  },
+  "set2": {
+   "trades": 64,
+   "net": -2543.01,
+   "win_pct": 42.2,
+   "exp": -39.73,
+   "gross_exp": 0.27
+  },
+  "rounds": {
+   "1": {
+    "trades": 1540,
+    "net": -20909.31,
+    "win_pct": 44.1,
+    "exp": -13.58,
+    "gross_exp": 26.42
+   },
+   "2": {
+    "trades": 64,
+    "net": -2543.01,
+    "win_pct": 42.2,
+    "exp": -39.73,
+    "gross_exp": 0.27
+   },
+   "3": {
+    "trades": 0,
+    "net": 0.0,
+    "win_pct": 0.0,
+    "exp": 0.0,
+    "gross_exp": 0.0
+   },
+   "4": {
+    "trades": 0,
+    "net": 0.0,
+    "win_pct": 0.0,
+    "exp": 0.0,
+    "gross_exp": 0.0
+   }
+  },
+  "top_stocks": [
+   [
+    11538.9,
+    "ASTRAL",
+    70
+   ],
+   [
+    8649.9,
+    "UNITDSPR",
+    64
+   ],
+   [
+    7839.9,
+    "HINDCOPPER",
+    74
+   ],
+   [
+    6061.4,
+    "HINDZINC",
+    69
+   ],
+   [
+    5586.35,
+    "KALYANKJIL",
+    75
+   ]
+  ],
+  "bottom_stocks": [
+   [
+    -4067.6,
+    "HINDALCO",
+    58
+   ],
+   [
+    -4817.9,
+    "GODREJCP",
+    59
+   ],
+   [
+    -5147.7,
+    "OBEROIRLTY",
+    54
+   ],
+   [
+    -7246.7,
+    "HINDUNILVR",
+    66
+   ],
+   [
+    -31011.4,
+    "TVSMOTOR",
+    64
+   ]
+  ],
+  "breadth": {
+   "stocks_positive": 10,
+   "stocks_total": 25,
+   "top3_share_pct": null,
+   "per_stock": {
+    "GODREJCP": -4817.9,
+    "HINDALCO": -4067.6,
+    "HINDUNILVR": -7246.7,
+    "KALYANKJIL": 5586.35,
+    "NTPC": -3054.0,
+    "OBEROIRLTY": -5147.7,
+    "TVSMOTOR": -31011.4,
+    "WIPRO": -2295.45,
+    "BDL": 4359.8,
+    "GLENMARK": 268.3,
+    "HDFCBANK": 1177.0,
+    "HINDCOPPER": 7839.9,
+    "HINDZINC": 6061.4,
+    "NATIONALUM": -3179.35,
+    "NHPC": -3229.28,
+    "UNITDSPR": 8649.9,
+    "VEDL": -1297.1,
+    "ASTRAL": 11538.9,
+    "ITC": -222.75,
+    "IRCTC": 4420.15,
+    "INDUSTOWER": -3902.4,
+    "OIL": -251.6,
+    "PFC": 1560.35,
+    "TATASTEEL": -3654.74,
+    "RECLTD": -1536.4
+   }
+  }
+ },
+ "D1_dropped": {
+  "family": "D1_dropped",
+  "all": {
+   "trades": 1671,
+   "net": 7168.32,
+   "win_pct": 42.4,
+   "exp": 4.29,
+   "gross_exp": 44.29
+  },
+  "jan_may": {
+   "trades": 829,
+   "net": 46409.59,
+   "win_pct": 43.8,
+   "exp": 55.98,
+   "gross_exp": 95.98
+  },
+  "jun_oct": {
+   "trades": 842,
+   "net": -39241.27,
+   "win_pct": 41.0,
+   "exp": -46.6,
+   "gross_exp": -6.6
+  },
+  "october": {
+   "trades": 123,
+   "net": -16736.59,
+   "win_pct": 35.8,
+   "exp": -136.07,
+   "gross_exp": -96.07
+  },
+  "per_day": 8.23,
+  "long_jm": {
+   "trades": 437,
+   "net": 36234.59,
+   "win_pct": 45.5,
+   "exp": 82.92,
+   "gross_exp": 122.92
+  },
+  "long_jo": {
+   "trades": 557,
+   "net": -29923.89,
+   "win_pct": 37.5,
+   "exp": -53.72,
+   "gross_exp": -13.72
+  },
+  "short_jm": {
+   "trades": 392,
+   "net": 10175.0,
+   "win_pct": 41.8,
+   "exp": 25.96,
+   "gross_exp": 65.96
+  },
+  "short_jo": {
+   "trades": 285,
+   "net": -9317.38,
+   "win_pct": 47.7,
+   "exp": -32.69,
+   "gross_exp": 7.31
+  },
+  "long": {
+   "trades": 994,
+   "net": 6310.7,
+   "win_pct": 41.0,
+   "exp": 6.35,
+   "gross_exp": 46.35
+  },
+  "short": {
+   "trades": 677,
+   "net": 857.62,
+   "win_pct": 44.3,
+   "exp": 1.27,
+   "gross_exp": 41.27
+  },
+  "event": {
+   "trades": 440,
+   "net": -21684.66,
+   "win_pct": 44.1,
+   "exp": -49.28,
+   "gross_exp": -9.28
+  },
+  "no_event": {
+   "trades": 1231,
+   "net": 28852.98,
+   "win_pct": 41.8,
+   "exp": 23.44,
+   "gross_exp": 63.44
+  },
+  "set1": {
+   "trades": 1598,
+   "net": 8115.78,
+   "win_pct": 42.1,
+   "exp": 5.08,
+   "gross_exp": 45.08
+  },
+  "set2": {
+   "trades": 71,
+   "net": -1402.46,
+   "win_pct": 46.5,
+   "exp": -19.75,
+   "gross_exp": 20.25
+  },
+  "rounds": {
+   "1": {
+    "trades": 1598,
+    "net": 8115.78,
+    "win_pct": 42.1,
+    "exp": 5.08,
+    "gross_exp": 45.08
+   },
+   "2": {
+    "trades": 71,
+    "net": -1402.46,
+    "win_pct": 46.5,
+    "exp": -19.75,
+    "gross_exp": 20.25
+   },
+   "3": {
+    "trades": 2,
+    "net": 455.0,
+    "win_pct": 100.0,
+    "exp": 227.5,
+    "gross_exp": 267.5
+   },
+   "4": {
+    "trades": 0,
+    "net": 0.0,
+    "win_pct": 0.0,
+    "exp": 0.0,
+    "gross_exp": 0.0
+   }
+  },
+  "top_stocks": [
+   [
+    18102.9,
+    "UNITDSPR",
+    62
+   ],
+   [
+    13955.41,
+    "GLENMARK",
+    68
+   ],
+   [
+    13807.1,
+    "BDL",
+    84
+   ],
+   [
+    12071.9,
+    "OBEROIRLTY",
+    63
+   ],
+   [
+    6383.1,
+    "HINDUNILVR",
+    64
+   ]
+  ],
+  "bottom_stocks": [
+   [
+    -4249.05,
+    "VEDL",
+    68
+   ],
+   [
+    -4808.95,
+    "NTPC",
+    66
+   ],
+   [
+    -9670.5,
+    "GODREJCP",
+    72
+   ],
+   [
+    -9763.85,
+    "INDUSTOWER",
+    74
+   ],
+   [
+    -15647.95,
+    "HINDALCO",
+    65
+   ]
+  ],
+  "breadth": {
+   "stocks_positive": 9,
+   "stocks_total": 25,
+   "top3_share_pct": 639.8,
+   "per_stock": {
+    "ASTRAL": 152.5,
+    "BDL": 13807.1,
+    "GLENMARK": 13955.41,
+    "HINDZINC": -2422.7,
+    "ITC": -1078.55,
+    "OIL": -2983.4,
+    "PFC": -2590.4,
+    "RECLTD": -1460.65,
+    "UNITDSPR": 18102.9,
+    "VEDL": -4249.05,
+    "HINDUNILVR": 6383.1,
+    "IRCTC": 2.55,
+    "KALYANKJIL": -2662.6,
+    "TATASTEEL": -2599.89,
+    "TVSMOTOR": -630.2,
+    "HDFCBANK": 4633.8,
+    "HINDALCO": -15647.95,
+    "HINDCOPPER": 4602.6,
+    "NATIONALUM": -1950.7,
+    "NTPC": -4808.95,
+    "OBEROIRLTY": 12071.9,
+    "NHPC": -2630.92,
+    "GODREJCP": -9670.5,
+    "INDUSTOWER": -9763.85,
+    "WIPRO": -1393.23
+   }
+  }
+ },
+ "D1b": {
+  "family": "D1b",
+  "all": {
+   "trades": 1636,
+   "net": -55719.76,
+   "win_pct": 43.5,
+   "exp": -34.06,
+   "gross_exp": 5.94
+  },
+  "jan_may": {
+   "trades": 790,
+   "net": -6752.57,
+   "win_pct": 45.9,
+   "exp": -8.55,
+   "gross_exp": 31.45
+  },
+  "jun_oct": {
+   "trades": 846,
+   "net": -48967.19,
+   "win_pct": 41.1,
+   "exp": -57.88,
+   "gross_exp": -17.88
+  },
+  "october": {
+   "trades": 147,
+   "net": -19963.13,
+   "win_pct": 38.8,
+   "exp": -135.8,
+   "gross_exp": -95.8
+  },
+  "per_day": 8.06,
+  "long_jm": {
+   "trades": 347,
+   "net": 7739.9,
+   "win_pct": 46.7,
+   "exp": 22.31,
+   "gross_exp": 62.31
+  },
+  "long_jo": {
+   "trades": 278,
+   "net": -49946.14,
+   "win_pct": 36.7,
+   "exp": -179.66,
+   "gross_exp": -139.66
+  },
+  "short_jm": {
+   "trades": 443,
+   "net": -14492.47,
+   "win_pct": 45.4,
+   "exp": -32.71,
+   "gross_exp": 7.29
+  },
+  "short_jo": {
+   "trades": 568,
+   "net": 978.95,
+   "win_pct": 43.3,
+   "exp": 1.72,
+   "gross_exp": 41.72
+  },
+  "long": {
+   "trades": 625,
+   "net": -42206.24,
+   "win_pct": 42.2,
+   "exp": -67.53,
+   "gross_exp": -27.53
+  },
+  "short": {
+   "trades": 1011,
+   "net": -13513.52,
+   "win_pct": 44.2,
+   "exp": -13.37,
+   "gross_exp": 26.63
+  },
+  "event": {
+   "trades": 430,
+   "net": -28010.08,
+   "win_pct": 42.3,
+   "exp": -65.14,
+   "gross_exp": -25.14
+  },
+  "no_event": {
+   "trades": 1206,
+   "net": -27709.68,
+   "win_pct": 43.9,
+   "exp": -22.98,
+   "gross_exp": 17.02
+  },
+  "set1": {
+   "trades": 1576,
+   "net": -48603.42,
+   "win_pct": 43.8,
+   "exp": -30.84,
+   "gross_exp": 9.16
+  },
+  "set2": {
+   "trades": 60,
+   "net": -7116.34,
+   "win_pct": 33.3,
+   "exp": -118.61,
+   "gross_exp": -78.61
+  },
+  "rounds": {
+   "1": {
+    "trades": 1576,
+    "net": -48603.42,
+    "win_pct": 43.8,
+    "exp": -30.84,
+    "gross_exp": 9.16
+   },
+   "2": {
+    "trades": 60,
+    "net": -7116.34,
+    "win_pct": 33.3,
+    "exp": -118.61,
+    "gross_exp": -78.61
+   },
+   "3": {
+    "trades": 0,
+    "net": 0.0,
+    "win_pct": 0.0,
+    "exp": 0.0,
+    "gross_exp": 0.0
+   },
+   "4": {
+    "trades": 0,
+    "net": 0.0,
+    "win_pct": 0.0,
+    "exp": 0.0,
+    "gross_exp": 0.0
+   }
+  },
+  "top_stocks": [
+   [
+    13585.2,
+    "BDL",
+    80
+   ],
+   [
+    12067.1,
+    "ASTRAL",
+    65
+   ],
+   [
+    11386.4,
+    "OBEROIRLTY",
+    62
+   ],
+   [
+    8766.6,
+    "HINDCOPPER",
+    79
+   ],
+   [
+    3737.6,
+    "UNITDSPR",
+    59
+   ]
+  ],
+  "bottom_stocks": [
+   [
+    -4872.95,
+    "HINDALCO",
+    64
+   ],
+   [
+    -5023.45,
+    "VEDL",
+    57
+   ],
+   [
+    -13377.59,
+    "GLENMARK",
+    65
+   ],
+   [
+    -15157.95,
+    "GODREJCP",
+    64
+   ],
+   [
+    -53277.9,
+    "TVSMOTOR",
+    63
+   ]
+  ],
+  "breadth": {
+   "stocks_positive": 11,
+   "stocks_total": 25,
+   "top3_share_pct": null,
+   "per_stock": {
+    "BDL": 13585.2,
+    "GODREJCP": -15157.95,
+    "HINDALCO": -4872.95,
+    "HINDZINC": 2670.5,
+    "NTPC": -3053.1,
+    "OBEROIRLTY": 11386.4,
+    "OIL": -2727.5,
+    "PFC": 2097.15,
+    "RECLTD": -4135.9,
+    "TVSMOTOR": -53277.9,
+    "VEDL": -5023.45,
+    "WIPRO": -1898.05,
+    "GLENMARK": -13377.59,
+    "HDFCBANK": 762.0,
+    "HINDCOPPER": 8766.6,
+    "HINDUNILVR": -8.6,
+    "IRCTC": 2235.95,
+    "KALYANKJIL": 505.15,
+    "NATIONALUM": -999.35,
+    "NHPC": -2957.86,
+    "ASTRAL": 12067.1,
+    "ITC": 574.8,
+    "UNITDSPR": 3737.6,
+    "INDUSTOWER": -3822.4,
+    "TATASTEEL": -2795.61
+   }
+  }
+ },
+ "D1b_dropped": {
+  "family": "D1b_dropped",
+  "all": {
+   "trades": 1639,
+   "net": 39435.76,
+   "win_pct": 42.9,
+   "exp": 24.06,
+   "gross_exp": 64.06
+  },
+  "jan_may": {
+   "trades": 801,
+   "net": 52166.17,
+   "win_pct": 42.9,
+   "exp": 65.13,
+   "gross_exp": 105.13
+  },
+  "jun_oct": {
+   "trades": 838,
+   "net": -12730.41,
+   "win_pct": 42.8,
+   "exp": -15.19,
+   "gross_exp": 24.81
+  },
+  "october": {
+   "trades": 122,
+   "net": -5761.22,
+   "win_pct": 41.0,
+   "exp": -47.22,
+   "gross_exp": -7.22
+  },
+  "per_day": 8.07,
+  "long_jm": {
+   "trades": 440,
+   "net": 35431.08,
+   "win_pct": 45.2,
+   "exp": 80.53,
+   "gross_exp": 120.53
+  },
+  "long_jo": {
+   "trades": 514,
+   "net": -2085.88,
+   "win_pct": 39.3,
+   "exp": -4.06,
+   "gross_exp": 35.94
+  },
+  "short_jm": {
+   "trades": 361,
+   "net": 16735.09,
+   "win_pct": 40.2,
+   "exp": 46.36,
+   "gross_exp": 86.36
+  },
+  "short_jo": {
+   "trades": 324,
+   "net": -10644.53,
+   "win_pct": 48.5,
+   "exp": -32.85,
+   "gross_exp": 7.15
+  },
+  "long": {
+   "trades": 954,
+   "net": 33345.2,
+   "win_pct": 42.0,
+   "exp": 34.95,
+   "gross_exp": 74.95
+  },
+  "short": {
+   "trades": 685,
+   "net": 6090.56,
+   "win_pct": 44.1,
+   "exp": 8.89,
+   "gross_exp": 48.89
+  },
+  "event": {
+   "trades": 433,
+   "net": 15040.03,
+   "win_pct": 42.7,
+   "exp": 34.73,
+   "gross_exp": 74.73
+  },
+  "no_event": {
+   "trades": 1206,
+   "net": 24395.73,
+   "win_pct": 43.0,
+   "exp": 20.23,
+   "gross_exp": 60.23
+  },
+  "set1": {
+   "trades": 1562,
+   "net": 35809.89,
+   "win_pct": 42.3,
+   "exp": 22.93,
+   "gross_exp": 62.93
+  },
+  "set2": {
+   "trades": 75,
+   "net": 3170.87,
+   "win_pct": 53.3,
+   "exp": 42.28,
+   "gross_exp": 82.28
+  },
+  "rounds": {
+   "1": {
+    "trades": 1562,
+    "net": 35809.89,
+    "win_pct": 42.3,
+    "exp": 22.93,
+    "gross_exp": 62.93
+   },
+   "2": {
+    "trades": 75,
+    "net": 3170.87,
+    "win_pct": 53.3,
+    "exp": 42.28,
+    "gross_exp": 82.28
+   },
+   "3": {
+    "trades": 2,
+    "net": 455.0,
+    "win_pct": 100.0,
+    "exp": 227.5,
+    "gross_exp": 267.5
+   },
+   "4": {
+    "trades": 0,
+    "net": 0.0,
+    "win_pct": 0.0,
+    "exp": 0.0,
+    "gross_exp": 0.0
+   }
+  },
+  "top_stocks": [
+   [
+    27601.3,
+    "GLENMARK",
+    58
+   ],
+   [
+    23015.2,
+    "UNITDSPR",
+    67
+   ],
+   [
+    21636.3,
+    "TVSMOTOR",
+    80
+   ],
+   [
+    5048.8,
+    "HDFCBANK",
+    51
+   ],
+   [
+    4581.7,
+    "BDL",
+    77
+   ]
+  ],
+  "bottom_stocks": [
+   [
+    -4130.7,
+    "NATIONALUM",
+    57
+   ],
+   [
+    -4462.2,
+    "OBEROIRLTY",
+    55
+   ],
+   [
+    -4809.85,
+    "NTPC",
+    59
+   ],
+   [
+    -9843.85,
+    "INDUSTOWER",
+    71
+   ],
+   [
+    -14842.6,
+    "HINDALCO",
+    59
+   ]
+  ],
+  "breadth": {
+   "stocks_positive": 11,
+   "stocks_total": 25,
+   "top3_share_pct": 183.2,
+   "per_stock": {
+    "ASTRAL": -375.7,
+    "GLENMARK": 27601.3,
+    "HINDUNILVR": -855.0,
+    "ITC": -1876.1,
+    "KALYANKJIL": 2418.6,
+    "UNITDSPR": 23015.2,
+    "BDL": 4581.7,
+    "HINDZINC": 968.2,
+    "TATASTEEL": -3459.02,
+    "TVSMOTOR": 21636.3,
+    "VEDL": -522.7,
+    "HDFCBANK": 5048.8,
+    "HINDALCO": -14842.6,
+    "HINDCOPPER": 3675.9,
+    "IRCTC": 2186.75,
+    "NATIONALUM": -4130.7,
+    "NTPC": -4809.85,
+    "OBEROIRLTY": -4462.2,
+    "PFC": -3127.2,
+    "OIL": -507.5,
+    "NHPC": -2902.34,
+    "RECLTD": 1138.85,
+    "GODREJCP": 669.55,
+    "INDUSTOWER": -9843.85,
+    "WIPRO": -1790.63
+   }
+  }
+ },
+ "D2": {
+  "family": "D2",
+  "all": {
+   "trades": 1620,
+   "net": -24584.78,
+   "win_pct": 43.9,
+   "exp": -15.18,
+   "gross_exp": 24.82
+  },
+  "jan_may": {
+   "trades": 766,
+   "net": -2042.1,
+   "win_pct": 44.9,
+   "exp": -2.67,
+   "gross_exp": 37.33
+  },
+  "jun_oct": {
+   "trades": 854,
+   "net": -22542.68,
+   "win_pct": 43.0,
+   "exp": -26.4,
+   "gross_exp": 13.6
+  },
+  "october": {
+   "trades": 149,
+   "net": -9517.76,
+   "win_pct": 42.3,
+   "exp": -63.88,
+   "gross_exp": -23.88
+  },
+  "per_day": 7.98,
+  "long_jm": {
+   "trades": 353,
+   "net": 5920.28,
+   "win_pct": 45.9,
+   "exp": 16.77,
+   "gross_exp": 56.77
+  },
+  "long_jo": {
+   "trades": 237,
+   "net": -19704.48,
+   "win_pct": 40.5,
+   "exp": -83.14,
+   "gross_exp": -43.14
+  },
+  "short_jm": {
+   "trades": 413,
+   "net": -7962.38,
+   "win_pct": 44.1,
+   "exp": -19.28,
+   "gross_exp": 20.72
+  },
+  "short_jo": {
+   "trades": 617,
+   "net": -2838.2,
+   "win_pct": 43.9,
+   "exp": -4.6,
+   "gross_exp": 35.4
+  },
+  "long": {
+   "trades": 590,
+   "net": -13784.2,
+   "win_pct": 43.7,
+   "exp": -23.36,
+   "gross_exp": 16.64
+  },
+  "short": {
+   "trades": 1030,
+   "net": -10800.58,
+   "win_pct": 44.0,
+   "exp": -10.49,
+   "gross_exp": 29.51
+  },
+  "event": {
+   "trades": 425,
+   "net": 7829.61,
+   "win_pct": 40.7,
+   "exp": 18.42,
+   "gross_exp": 58.42
+  },
+  "no_event": {
+   "trades": 1195,
+   "net": -32414.39,
+   "win_pct": 45.0,
+   "exp": -27.13,
+   "gross_exp": 12.87
+  },
+  "set1": {
+   "trades": 1605,
+   "net": -25627.13,
+   "win_pct": 44.0,
+   "exp": -15.97,
+   "gross_exp": 24.03
+  },
+  "set2": {
+   "trades": 15,
+   "net": 1042.35,
+   "win_pct": 33.3,
+   "exp": 69.49,
+   "gross_exp": 109.49
+  },
+  "rounds": {
+   "1": {
+    "trades": 1605,
+    "net": -25627.13,
+    "win_pct": 44.0,
+    "exp": -15.97,
+    "gross_exp": 24.03
+   },
+   "2": {
+    "trades": 15,
+    "net": 1042.35,
+    "win_pct": 33.3,
+    "exp": 69.49,
+    "gross_exp": 109.49
+   },
+   "3": {
+    "trades": 0,
+    "net": 0.0,
+    "win_pct": 0.0,
+    "exp": 0.0,
+    "gross_exp": 0.0
+   },
+   "4": {
+    "trades": 0,
+    "net": 0.0,
+    "win_pct": 0.0,
+    "exp": 0.0,
+    "gross_exp": 0.0
+   }
+  },
+  "top_stocks": [
+   [
+    10818.9,
+    "ASTRAL",
+    71
+   ],
+   [
+    8969.9,
+    "UNITDSPR",
+    65
+   ],
+   [
+    7839.9,
+    "HINDCOPPER",
+    74
+   ],
+   [
+    6479.05,
+    "HINDZINC",
+    70
+   ],
+   [
+    5586.35,
+    "KALYANKJIL",
+    75
+   ]
+  ],
+  "bottom_stocks": [
+   [
+    -3902.4,
+    "INDUSTOWER",
+    60
+   ],
+   [
+    -4147.6,
+    "HINDALCO",
+    59
+   ],
+   [
+    -4817.9,
+    "GODREJCP",
+    59
+   ],
+   [
+    -7246.7,
+    "HINDUNILVR",
+    66
+   ],
+   [
+    -33381.4,
+    "TVSMOTOR",
+    65
+   ]
+  ],
+  "breadth": {
+   "stocks_positive": 10,
+   "stocks_total": 25,
+   "top3_share_pct": null,
+   "per_stock": {
+    "GODREJCP": -4817.9,
+    "GLENMARK": 198.3,
+    "ITC": -222.75,
+    "RECLTD": -1701.4,
+    "TVSMOTOR": -33381.4,
+    "UNITDSPR": 8969.9,
+    "OBEROIRLTY": -3647.7,
+    "NTPC": -3508.0,
+    "INDUSTOWER": -3902.4,
+    "KALYANKJIL": 5586.35,
+    "HDFCBANK": 957.0,
+    "NHPC": -3275.39,
+    "PFC": 1560.35,
+    "IRCTC": 4570.15,
+    "WIPRO": -2295.45,
+    "NATIONALUM": -3179.35,
+    "VEDL": -807.1,
+    "HINDCOPPER": 7839.9,
+    "HINDZINC": 6479.05,
+    "HINDALCO": -4147.6,
+    "TATASTEEL": -3714.74,
+    "ASTRAL": 10818.9,
+    "BDL": 4359.8,
+    "OIL": -76.6,
+    "HINDUNILVR": -7246.7
+   }
+  }
+ },
+ "X1T10": {
+  "family": "X1T10",
+  "all": {
+   "trades": 2179,
+   "net": -78554.73,
+   "win_pct": 37.4,
+   "exp": -36.05,
+   "gross_exp": 3.95
+  },
+  "jan_may": {
+   "trades": 1077,
+   "net": -57362.02,
+   "win_pct": 36.3,
+   "exp": -53.26,
+   "gross_exp": -13.26
+  },
+  "jun_oct": {
+   "trades": 1102,
+   "net": -21192.71,
+   "win_pct": 38.5,
+   "exp": -19.23,
+   "gross_exp": 20.77
+  },
+  "october": {
+   "trades": 186,
+   "net": -11423.39,
+   "win_pct": 36.6,
+   "exp": -61.42,
+   "gross_exp": -21.42
+  },
+  "per_day": 10.73,
+  "long_jm": {
+   "trades": 519,
+   "net": -21941.5,
+   "win_pct": 35.8,
+   "exp": -42.28,
+   "gross_exp": -2.28
+  },
+  "long_jo": {
+   "trades": 529,
+   "net": -2292.94,
+   "win_pct": 37.6,
+   "exp": -4.33,
+   "gross_exp": 35.67
+  },
+  "short_jm": {
+   "trades": 558,
+   "net": -35420.52,
+   "win_pct": 36.7,
+   "exp": -63.48,
+   "gross_exp": -23.48
+  },
+  "short_jo": {
+   "trades": 573,
+   "net": -18899.77,
+   "win_pct": 39.3,
+   "exp": -32.98,
+   "gross_exp": 7.02
+  },
+  "long": {
+   "trades": 1048,
+   "net": -24234.44,
+   "win_pct": 36.7,
+   "exp": -23.12,
+   "gross_exp": 16.88
+  },
+  "short": {
+   "trades": 1131,
+   "net": -54320.29,
+   "win_pct": 38.0,
+   "exp": -48.03,
+   "gross_exp": -8.03
+  },
+  "event": {
+   "trades": 616,
+   "net": 1479.02,
+   "win_pct": 38.0,
+   "exp": 2.4,
+   "gross_exp": 42.4
+  },
+  "no_event": {
+   "trades": 1563,
+   "net": -80033.75,
+   "win_pct": 37.2,
+   "exp": -51.21,
+   "gross_exp": -11.21
+  },
+  "set1": {
+   "trades": 1137,
+   "net": -40456.44,
+   "win_pct": 34.7,
+   "exp": -35.58,
+   "gross_exp": 4.42
+  },
+  "set2": {
+   "trades": 1042,
+   "net": -38098.29,
+   "win_pct": 40.4,
+   "exp": -36.56,
+   "gross_exp": 3.44
+  },
+  "rounds": {
+   "1": {
+    "trades": 1137,
+    "net": -40456.44,
+    "win_pct": 34.7,
+    "exp": -35.58,
+    "gross_exp": 4.42
+   },
+   "2": {
+    "trades": 1042,
+    "net": -38098.29,
+    "win_pct": 40.4,
+    "exp": -36.56,
+    "gross_exp": 3.44
+   },
+   "3": {
+    "trades": 0,
+    "net": 0.0,
+    "win_pct": 0.0,
+    "exp": 0.0,
+    "gross_exp": 0.0
+   },
+   "4": {
+    "trades": 0,
+    "net": 0.0,
+    "win_pct": 0.0,
+    "exp": 0.0,
+    "gross_exp": 0.0
+   }
+  },
+  "top_stocks": [
+   [
+    8351.3,
+    "BDL",
+    107
+   ],
+   [
+    3884.85,
+    "UNITDSPR",
+    77
+   ],
+   [
+    1594.2,
+    "OBEROIRLTY",
+    91
+   ],
+   [
+    404.73,
+    "ITC",
+    54
+   ],
+   [
+    -659.63,
+    "PFC",
+    79
+   ]
+  ],
+  "bottom_stocks": [
+   [
+    -7044.75,
+    "INDUSTOWER",
+    90
+   ],
+   [
+    -7534.0,
+    "HINDZINC",
+    84
+   ],
+   [
+    -8402.69,
+    "OIL",
+    109
+   ],
+   [
+    -8990.2,
+    "TVSMOTOR",
+    87
+   ],
+   [
+    -9808.34,
+    "GODREJCP",
+    88
+   ]
+  ],
+  "breadth": {
+   "stocks_positive": 4,
+   "stocks_total": 25,
+   "top3_share_pct": null,
+   "per_stock": {
+    "NTPC": -1916.37,
+    "NHPC": -2588.74,
+    "INDUSTOWER": -7044.75,
+    "ITC": 404.73,
+    "UNITDSPR": 3884.85,
+    "BDL": 8351.3,
+    "WIPRO": -3004.79,
+    "TVSMOTOR": -8990.2,
+    "ASTRAL": -3735.1,
+    "NATIONALUM": -2737.18,
+    "KALYANKJIL": -6744.58,
+    "HINDZINC": -7534.0,
+    "RECLTD": -2339.36,
+    "PFC": -659.63,
+    "GODREJCP": -9808.34,
+    "HINDALCO": -2048.5,
+    "HINDUNILVR": -1962.7,
+    "HINDCOPPER": -6453.06,
+    "OIL": -8402.69,
+    "HDFCBANK": -2447.54,
+    "TATASTEEL": -3454.7,
+    "IRCTC": -969.41,
+    "VEDL": -4929.42,
+    "GLENMARK": -5018.75,
+    "OBEROIRLTY": 1594.2
+   }
+  }
+ },
+ "X1HOLD": {
+  "family": "X1HOLD",
+  "all": {
+   "trades": 2179,
+   "net": -67522.59,
+   "win_pct": 42.3,
+   "exp": -30.99,
+   "gross_exp": 9.01
+  },
+  "jan_may": {
+   "trades": 1077,
+   "net": -46116.46,
+   "win_pct": 41.9,
+   "exp": -42.82,
+   "gross_exp": -2.82
+  },
+  "jun_oct": {
+   "trades": 1102,
+   "net": -21406.13,
+   "win_pct": 42.7,
+   "exp": -19.42,
+   "gross_exp": 20.58
+  },
+  "october": {
+   "trades": 186,
+   "net": -16392.53,
+   "win_pct": 39.2,
+   "exp": -88.13,
+   "gross_exp": -48.13
+  },
+  "per_day": 10.73,
+  "long_jm": {
+   "trades": 519,
+   "net": -37146.2,
+   "win_pct": 41.0,
+   "exp": -71.57,
+   "gross_exp": -31.57
+  },
+  "long_jo": {
+   "trades": 529,
+   "net": -9433.63,
+   "win_pct": 41.4,
+   "exp": -17.83,
+   "gross_exp": 22.17
+  },
+  "short_jm": {
+   "trades": 558,
+   "net": -8970.26,
+   "win_pct": 42.7,
+   "exp": -16.08,
+   "gross_exp": 23.92
+  },
+  "short_jo": {
+   "trades": 573,
+   "net": -11972.5,
+   "win_pct": 44.0,
+   "exp": -20.89,
+   "gross_exp": 19.11
+  },
+  "long": {
+   "trades": 1048,
+   "net": -46579.83,
+   "win_pct": 41.2,
+   "exp": -44.45,
+   "gross_exp": -4.45
+  },
+  "short": {
+   "trades": 1131,
+   "net": -20942.76,
+   "win_pct": 43.3,
+   "exp": -18.52,
+   "gross_exp": 21.48
+  },
+  "event": {
+   "trades": 616,
+   "net": 17556.61,
+   "win_pct": 42.2,
+   "exp": 28.5,
+   "gross_exp": 68.5
+  },
+  "no_event": {
+   "trades": 1563,
+   "net": -85079.2,
+   "win_pct": 42.4,
+   "exp": -54.43,
+   "gross_exp": -14.43
+  },
+  "set1": {
+   "trades": 1137,
+   "net": -50402.42,
+   "win_pct": 40.5,
+   "exp": -44.33,
+   "gross_exp": -4.33
+  },
+  "set2": {
+   "trades": 1042,
+   "net": -17120.17,
+   "win_pct": 44.2,
+   "exp": -16.43,
+   "gross_exp": 23.57
+  },
+  "rounds": {
+   "1": {
+    "trades": 1137,
+    "net": -50402.42,
+    "win_pct": 40.5,
+    "exp": -44.33,
+    "gross_exp": -4.33
+   },
+   "2": {
+    "trades": 1042,
+    "net": -17120.17,
+    "win_pct": 44.2,
+    "exp": -16.43,
+    "gross_exp": 23.57
+   },
+   "3": {
+    "trades": 0,
+    "net": 0.0,
+    "win_pct": 0.0,
+    "exp": 0.0,
+    "gross_exp": 0.0
+   },
+   "4": {
+    "trades": 0,
+    "net": 0.0,
+    "win_pct": 0.0,
+    "exp": 0.0,
+    "gross_exp": 0.0
+   }
+  },
+  "top_stocks": [
+   [
+    32900.0,
+    "BDL",
+    107
+   ],
+   [
+    11217.4,
+    "GLENMARK",
+    101
+   ],
+   [
+    5973.6,
+    "UNITDSPR",
+    77
+   ],
+   [
+    4102.25,
+    "ITC",
+    54
+   ],
+   [
+    2152.6,
+    "PFC",
+    79
+   ]
+  ],
+  "bottom_stocks": [
+   [
+    -8798.05,
+    "HINDZINC",
+    84
+   ],
+   [
+    -9180.4,
+    "OIL",
+    109
+   ],
+   [
+    -10735.75,
+    "INDUSTOWER",
+    90
+   ],
+   [
+    -21678.35,
+    "GODREJCP",
+    88
+   ],
+   [
+    -30943.1,
+    "TVSMOTOR",
+    87
+   ]
+  ],
+  "breadth": {
+   "stocks_positive": 6,
+   "stocks_total": 25,
+   "top3_share_pct": null,
+   "per_stock": {
+    "NTPC": -485.75,
+    "NHPC": -2577.29,
+    "INDUSTOWER": -10735.75,
+    "ITC": 4102.25,
+    "UNITDSPR": 5973.6,
+    "BDL": 32900.0,
+    "WIPRO": -2854.2,
+    "TVSMOTOR": -30943.1,
+    "ASTRAL": -2121.8,
+    "NATIONALUM": -3352.4,
+    "KALYANKJIL": -1137.2,
+    "HINDZINC": -8798.05,
+    "RECLTD": -2527.05,
+    "PFC": 2152.6,
+    "GODREJCP": -21678.35,
+    "HINDALCO": -8281.2,
+    "HINDUNILVR": -5886.3,
+    "HINDCOPPER": -3411.85,
+    "OIL": -9180.4,
+    "HDFCBANK": -591.45,
+    "TATASTEEL": -4625.11,
+    "IRCTC": -1169.45,
+    "VEDL": -5130.24,
+    "GLENMARK": 11217.4,
+    "OBEROIRLTY": 1618.5
+   }
+  }
+ },
+ "X2T10": {
+  "family": "X2T10",
+  "all": {
+   "trades": 878,
+   "net": -5863.39,
+   "win_pct": 36.9,
+   "exp": -6.68,
+   "gross_exp": 33.32
+  },
+  "jan_may": {
+   "trades": 401,
+   "net": -15757.65,
+   "win_pct": 34.9,
+   "exp": -39.3,
+   "gross_exp": 0.7
+  },
+  "jun_oct": {
+   "trades": 477,
+   "net": 9894.26,
+   "win_pct": 38.6,
+   "exp": 20.74,
+   "gross_exp": 60.74
+  },
+  "october": {
+   "trades": 94,
+   "net": -2959.05,
+   "win_pct": 36.2,
+   "exp": -31.48,
+   "gross_exp": 8.52
+  },
+  "per_day": 4.33,
+  "long_jm": {
+   "trades": 225,
+   "net": -5653.16,
+   "win_pct": 36.0,
+   "exp": -25.13,
+   "gross_exp": 14.87
+  },
+  "long_jo": {
+   "trades": 275,
+   "net": 11938.78,
+   "win_pct": 37.1,
+   "exp": 43.41,
+   "gross_exp": 83.41
+  },
+  "short_jm": {
+   "trades": 176,
+   "net": -10104.49,
+   "win_pct": 33.5,
+   "exp": -57.41,
+   "gross_exp": -17.41
+  },
+  "short_jo": {
+   "trades": 202,
+   "net": -2044.52,
+   "win_pct": 40.6,
+   "exp": -10.12,
+   "gross_exp": 29.88
+  },
+  "long": {
+   "trades": 500,
+   "net": 6285.62,
+   "win_pct": 36.6,
+   "exp": 12.57,
+   "gross_exp": 52.57
+  },
+  "short": {
+   "trades": 378,
+   "net": -12149.01,
+   "win_pct": 37.3,
+   "exp": -32.14,
+   "gross_exp": 7.86
+  },
+  "event": {
+   "trades": 265,
+   "net": 13384.53,
+   "win_pct": 36.2,
+   "exp": 50.51,
+   "gross_exp": 90.51
+  },
+  "no_event": {
+   "trades": 613,
+   "net": -19247.92,
+   "win_pct": 37.2,
+   "exp": -31.4,
+   "gross_exp": 8.6
+  },
+  "set1": {
+   "trades": 545,
+   "net": -8103.83,
+   "win_pct": 35.0,
+   "exp": -14.87,
+   "gross_exp": 25.13
+  },
+  "set2": {
+   "trades": 333,
+   "net": 2240.44,
+   "win_pct": 39.9,
+   "exp": 6.73,
+   "gross_exp": 46.73
+  },
+  "rounds": {
+   "1": {
+    "trades": 545,
+    "net": -8103.83,
+    "win_pct": 35.0,
+    "exp": -14.87,
+    "gross_exp": 25.13
+   },
+   "2": {
+    "trades": 333,
+    "net": 2240.44,
+    "win_pct": 39.9,
+    "exp": 6.73,
+    "gross_exp": 46.73
+   },
+   "3": {
+    "trades": 0,
+    "net": 0.0,
+    "win_pct": 0.0,
+    "exp": 0.0,
+    "gross_exp": 0.0
+   },
+   "4": {
+    "trades": 0,
+    "net": 0.0,
+    "win_pct": 0.0,
+    "exp": 0.0,
+    "gross_exp": 0.0
+   }
+  },
+  "top_stocks": [
+   [
+    13025.4,
+    "TVSMOTOR",
+    35
+   ],
+   [
+    4305.45,
+    "BDL",
+    43
+   ],
+   [
+    4118.25,
+    "HINDUNILVR",
+    33
+   ],
+   [
+    1488.51,
+    "GODREJCP",
+    32
+   ],
+   [
+    872.85,
+    "ASTRAL",
+    33
+   ]
+  ],
+  "bottom_stocks": [
+   [
+    -2302.71,
+    "INDUSTOWER",
+    37
+   ],
+   [
+    -2593.77,
+    "HDFCBANK",
+    36
+   ],
+   [
+    -3182.5,
+    "GLENMARK",
+    42
+   ],
+   [
+    -3683.2,
+    "OIL",
+    35
+   ],
+   [
+    -3779.57,
+    "HINDALCO",
+    33
+   ]
+  ],
+  "breadth": {
+   "stocks_positive": 7,
+   "stocks_total": 25,
+   "top3_share_pct": null,
+   "per_stock": {
+    "VEDL": -382.2,
+    "GLENMARK": -3182.5,
+    "RECLTD": -1686.16,
+    "BDL": 4305.45,
+    "HINDZINC": -719.13,
+    "HINDCOPPER": -2220.28,
+    "NATIONALUM": -1242.94,
+    "OIL": -3683.2,
+    "NTPC": -1184.39,
+    "ITC": -1408.16,
+    "OBEROIRLTY": -356.2,
+    "WIPRO": -1387.85,
+    "ASTRAL": 872.85,
+    "HINDALCO": -3779.57,
+    "HDFCBANK": -2593.77,
+    "PFC": -324.73,
+    "NHPC": -1244.38,
+    "HINDUNILVR": 4118.25,
+    "KALYANKJIL": -423.77,
+    "IRCTC": 291.47,
+    "TATASTEEL": -1903.08,
+    "INDUSTOWER": -2302.71,
+    "TVSMOTOR": 13025.4,
+    "GODREJCP": 1488.51,
+    "UNITDSPR": 59.7
+   }
+  }
+ },
+ "X2HOLD": {
+  "family": "X2HOLD",
+  "all": {
+   "trades": 878,
+   "net": -11199.16,
+   "win_pct": 40.4,
+   "exp": -12.76,
+   "gross_exp": 27.24
+  },
+  "jan_may": {
+   "trades": 401,
+   "net": -23242.72,
+   "win_pct": 38.9,
+   "exp": -57.96,
+   "gross_exp": -17.96
+  },
+  "jun_oct": {
+   "trades": 477,
+   "net": 12043.56,
+   "win_pct": 41.7,
+   "exp": 25.25,
+   "gross_exp": 65.25
+  },
+  "october": {
+   "trades": 94,
+   "net": -11150.93,
+   "win_pct": 37.2,
+   "exp": -118.63,
+   "gross_exp": -78.63
+  },
+  "per_day": 4.33,
+  "long_jm": {
+   "trades": 225,
+   "net": -37523.19,
+   "win_pct": 36.0,
+   "exp": -166.77,
+   "gross_exp": -126.77
+  },
+  "long_jo": {
+   "trades": 275,
+   "net": 18532.05,
+   "win_pct": 40.7,
+   "exp": 67.39,
+   "gross_exp": 107.39
+  },
+  "short_jm": {
+   "trades": 176,
+   "net": 14280.47,
+   "win_pct": 42.6,
+   "exp": 81.14,
+   "gross_exp": 121.14
+  },
+  "short_jo": {
+   "trades": 202,
+   "net": -6488.49,
+   "win_pct": 43.1,
+   "exp": -32.12,
+   "gross_exp": 7.88
+  },
+  "long": {
+   "trades": 500,
+   "net": -18991.14,
+   "win_pct": 38.6,
+   "exp": -37.98,
+   "gross_exp": 2.02
+  },
+  "short": {
+   "trades": 378,
+   "net": 7791.98,
+   "win_pct": 42.9,
+   "exp": 20.61,
+   "gross_exp": 60.61
+  },
+  "event": {
+   "trades": 265,
+   "net": 20356.67,
+   "win_pct": 38.5,
+   "exp": 76.82,
+   "gross_exp": 116.82
+  },
+  "no_event": {
+   "trades": 613,
+   "net": -31555.83,
+   "win_pct": 41.3,
+   "exp": -51.48,
+   "gross_exp": -11.48
+  },
+  "set1": {
+   "trades": 545,
+   "net": -26731.81,
+   "win_pct": 38.7,
+   "exp": -49.05,
+   "gross_exp": -9.05
+  },
+  "set2": {
+   "trades": 333,
+   "net": 15532.65,
+   "win_pct": 43.2,
+   "exp": 46.64,
+   "gross_exp": 86.64
+  },
+  "rounds": {
+   "1": {
+    "trades": 545,
+    "net": -26731.81,
+    "win_pct": 38.7,
+    "exp": -49.05,
+    "gross_exp": -9.05
+   },
+   "2": {
+    "trades": 333,
+    "net": 15532.65,
+    "win_pct": 43.2,
+    "exp": 46.64,
+    "gross_exp": 86.64
+   },
+   "3": {
+    "trades": 0,
+    "net": 0.0,
+    "win_pct": 0.0,
+    "exp": 0.0,
+    "gross_exp": 0.0
+   },
+   "4": {
+    "trades": 0,
+    "net": 0.0,
+    "win_pct": 0.0,
+    "exp": 0.0,
+    "gross_exp": 0.0
+   }
+  },
+  "top_stocks": [
+   [
+    10600.9,
+    "BDL",
+    43
+   ],
+   [
+    6897.5,
+    "TVSMOTOR",
+    35
+   ],
+   [
+    6574.9,
+    "OBEROIRLTY",
+    33
+   ],
+   [
+    4722.6,
+    "HINDUNILVR",
+    33
+   ],
+   [
+    4404.45,
+    "KALYANKJIL",
+    40
+   ]
+  ],
+  "bottom_stocks": [
+   [
+    -4274.3,
+    "INDUSTOWER",
+    37
+   ],
+   [
+    -4427.35,
+    "OIL",
+    35
+   ],
+   [
+    -4908.15,
+    "VEDL",
+    46
+   ],
+   [
+    -6151.25,
+    "GODREJCP",
+    32
+   ],
+   [
+    -8562.15,
+    "HINDALCO",
+    33
+   ]
+  ],
+  "breadth": {
+   "stocks_positive": 7,
+   "stocks_total": 25,
+   "top3_share_pct": null,
+   "per_stock": {
+    "VEDL": -4908.15,
+    "GLENMARK": -1425.1,
+    "RECLTD": -2175.65,
+    "BDL": 10600.9,
+    "HINDZINC": -505.35,
+    "HINDCOPPER": -4249.55,
+    "NATIONALUM": -2248.85,
+    "OIL": -4427.35,
+    "NTPC": -292.65,
+    "ITC": -126.75,
+    "OBEROIRLTY": 6574.9,
+    "WIPRO": -1182.22,
+    "ASTRAL": 1120.9,
+    "HINDALCO": -8562.15,
+    "HDFCBANK": -1461.55,
+    "PFC": -272.95,
+    "NHPC": -1335.26,
+    "HINDUNILVR": 4722.6,
+    "KALYANKJIL": 4404.45,
+    "IRCTC": -1254.55,
+    "TATASTEEL": -2595.28,
+    "INDUSTOWER": -4274.3,
+    "TVSMOTOR": 6897.5,
+    "GODREJCP": -6151.25,
+    "UNITDSPR": 1928.5
+   }
+  }
+ }
+}

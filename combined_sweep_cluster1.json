@@ -1,0 +1,896 @@
+{
+  "C-A2": {
+    "rows": [
+      {
+        "date": "2026-01-09",
+        "orig": {
+          "signal": "09:30",
+          "entry": 25836.05,
+          "stop": 25873.1,
+          "target": 25761.95,
+          "risk": 37.05,
+          "exit": "stop",
+          "exit_time": "09:40",
+          "exit_price": 25873.1,
+          "net": -3745.0
+        },
+        "reentry_raw": {
+          "signal": "10:50",
+          "entry": 25831.2,
+          "stop": 25861.6,
+          "target": 25770.4,
+          "risk": 30.4,
+          "exit": "target",
+          "exit_time": "11:35",
+          "exit_price": 25770.400000000005,
+          "net": 6040.0,
+          "orl": 25839.15,
+          "orh": 25940.6,
+          "reentry_signal": "10:50"
+        },
+        "reentry_partial": {
+          "signal": "10:50",
+          "entry": 25831.2,
+          "stop": 25861.6,
+          "target": 25770.4,
+          "risk": 30.4,
+          "exit": "target_after_partial",
+          "exit_time": "11:35",
+          "exit_price": 25770.400000000005,
+          "net": 3760.0,
+          "partial_booked": true,
+          "partial_time": "10:55",
+          "trailed": true
+        },
+        "combined_net": 15.0
+      },
+      {
+        "date": "2026-02-06",
+        "orig": {
+          "signal": "09:35",
+          "entry": 25543.45,
+          "stop": 25565.8,
+          "target": 25498.75,
+          "risk": 22.35,
+          "exit": "stop",
+          "exit_time": "09:45",
+          "exit_price": 25565.8,
+          "net": -2275.0
+        },
+        "reentry_raw": {
+          "signal": "09:55",
+          "entry": 25552.35,
+          "stop": 25554.6,
+          "target": 25547.85,
+          "risk": 2.25,
+          "exit": "stop",
+          "exit_time": "10:00",
+          "exit_price": 25554.6,
+          "net": -265.0,
+          "orl": 25553.55,
+          "orh": 25630.8,
+          "reentry_signal": "09:55"
+        },
+        "reentry_partial": {
+          "signal": "09:55",
+          "entry": 25552.35,
+          "stop": 25554.6,
+          "target": 25547.85,
+          "risk": 2.25,
+          "exit": "stop",
+          "exit_time": "10:00",
+          "exit_price": 25554.6,
+          "net": -265.0,
+          "partial_booked": false,
+          "partial_time": null,
+          "trailed": false
+        },
+        "combined_net": -2540.0
+      },
+      {
+        "date": "2026-03-30",
+        "orig": {
+          "signal": "11:25",
+          "entry": 22468.1,
+          "stop": 22488.25,
+          "target": 22427.8,
+          "risk": 20.15,
+          "exit": "stop",
+          "exit_time": "11:30",
+          "exit_price": 22488.25,
+          "net": -2055.0
+        },
+        "reentry_raw": null,
+        "reentry_partial": null,
+        "combined_net": -2055.0
+      },
+      {
+        "date": "2026-04-02",
+        "orig": {
+          "signal": "09:55",
+          "entry": 22206.8,
+          "stop": 22227.55,
+          "target": 22165.3,
+          "risk": 20.75,
+          "exit": "stop",
+          "exit_time": "10:00",
+          "exit_price": 22227.55,
+          "net": -2115.0
+        },
+        "reentry_raw": {
+          "signal": "10:05",
+          "entry": 22186.4,
+          "stop": 22215.5,
+          "target": 22128.2,
+          "risk": 29.1,
+          "exit": "stop",
+          "exit_time": "10:10",
+          "exit_price": 22215.5,
+          "net": -2950.0,
+          "orl": 22209.15,
+          "orh": 22394.65,
+          "reentry_signal": "10:05"
+        },
+        "reentry_partial": {
+          "signal": "10:05",
+          "entry": 22186.4,
+          "stop": 22215.5,
+          "target": 22128.2,
+          "risk": 29.1,
+          "exit": "stop",
+          "exit_time": "10:10",
+          "exit_price": 22215.5,
+          "net": -2950.0,
+          "partial_booked": false,
+          "partial_time": null,
+          "trailed": false
+        },
+        "combined_net": -5065.0
+      },
+      {
+        "date": "2026-05-13",
+        "orig": {
+          "signal": "09:30",
+          "entry": 23337.3,
+          "stop": 23387.65,
+          "target": 23236.6,
+          "risk": 50.35,
+          "exit": "stop",
+          "exit_time": "09:55",
+          "exit_price": 23387.65,
+          "net": -5075.0
+        },
+        "reentry_raw": null,
+        "reentry_partial": null,
+        "combined_net": -5075.0
+      },
+      {
+        "date": "2026-06-29",
+        "orig": {
+          "signal": "09:30",
+          "entry": 24018.7,
+          "stop": 24065.7,
+          "target": 23924.7,
+          "risk": 47.0,
+          "exit": "stop",
+          "exit_time": "09:40",
+          "exit_price": 24065.7,
+          "net": -4740.0
+        },
+        "reentry_raw": {
+          "signal": "11:30",
+          "entry": 24030.85,
+          "stop": 24065.25,
+          "target": 23962.05,
+          "risk": 34.4,
+          "exit": "target",
+          "exit_time": "12:30",
+          "exit_price": 23962.049999999996,
+          "net": 6840.0,
+          "orl": 24032.35,
+          "orh": 24110.75,
+          "reentry_signal": "11:30"
+        },
+        "reentry_partial": {
+          "signal": "11:30",
+          "entry": 24030.85,
+          "stop": 24065.25,
+          "target": 23962.05,
+          "risk": 34.4,
+          "exit": "target_after_partial",
+          "exit_time": "12:30",
+          "exit_price": 23962.049999999996,
+          "net": 4260.0,
+          "partial_booked": true,
+          "partial_time": "11:50",
+          "trailed": true
+        },
+        "combined_net": -480.0
+      },
+      {
+        "date": "2026-07-08",
+        "orig": {
+          "signal": "09:30",
+          "entry": 24221.45,
+          "stop": 24240.9,
+          "target": 24182.55,
+          "risk": 19.45,
+          "exit": "stop",
+          "exit_time": "09:45",
+          "exit_price": 24240.9,
+          "net": -1985.0
+        },
+        "reentry_raw": {
+          "signal": "10:20",
+          "entry": 24224.5,
+          "stop": 24251.5,
+          "target": 24170.5,
+          "risk": 27.0,
+          "exit": "stop",
+          "exit_time": "10:30",
+          "exit_price": 24251.5,
+          "net": -2740.0,
+          "orl": 24229.9,
+          "orh": 24295.25,
+          "reentry_signal": "10:20"
+        },
+        "reentry_partial": {
+          "signal": "10:20",
+          "entry": 24224.5,
+          "stop": 24251.5,
+          "target": 24170.5,
+          "risk": 27.0,
+          "exit": "stop",
+          "exit_time": "10:30",
+          "exit_price": 24251.5,
+          "net": -2740.0,
+          "partial_booked": false,
+          "partial_time": null,
+          "trailed": false
+        },
+        "combined_net": -4725.0
+      },
+      {
+        "date": "2026-08-19",
+        "orig": {
+          "signal": "09:30",
+          "entry": 24076.4,
+          "stop": 24099.0,
+          "target": 24031.2,
+          "risk": 22.6,
+          "exit": "stop",
+          "exit_time": "09:50",
+          "exit_price": 24099.0,
+          "net": -2300.0
+        },
+        "reentry_raw": {
+          "signal": "10:10",
+          "entry": 24093.25,
+          "stop": 24098.55,
+          "target": 24082.65,
+          "risk": 5.3,
+          "exit": "target",
+          "exit_time": "10:15",
+          "exit_price": 24082.65,
+          "net": 1020.0,
+          "orl": 24093.05,
+          "orh": 24172.85,
+          "reentry_signal": "10:10"
+        },
+        "reentry_partial": {
+          "signal": "10:10",
+          "entry": 24093.25,
+          "stop": 24098.55,
+          "target": 24082.65,
+          "risk": 5.3,
+          "exit": "target_same_bar_as_partial",
+          "exit_time": "10:15",
+          "exit_price": 24082.65,
+          "net": 622.5,
+          "partial_booked": true,
+          "partial_time": "10:15",
+          "trailed": true
+        },
+        "combined_net": -1677.5
+      }
+    ],
+    "summary": {
+      "green": 1,
+      "no_trade": 0,
+      "still_loss": 7,
+      "total": -21602.5
+    }
+  },
+  "C-A1": {
+    "rows": [
+      {
+        "date": "2026-01-09",
+        "orig": {
+          "signal": "09:30",
+          "entry": 25836.05,
+          "stop": 25873.1,
+          "target": 25761.95,
+          "risk": 37.05,
+          "exit": "stop",
+          "exit_time": "09:40",
+          "exit_price": 25873.1,
+          "net": -3745.0
+        },
+        "reentry_raw": {
+          "signal": "10:50",
+          "entry": 25831.2,
+          "stop": 25861.6,
+          "target": 25770.4,
+          "risk": 30.4,
+          "exit": "target",
+          "exit_time": "11:35",
+          "exit_price": 25770.400000000005,
+          "net": 6040.0,
+          "orl": 25839.15,
+          "orh": 25940.6,
+          "reentry_signal": "10:50"
+        },
+        "reentry_partial": {
+          "signal": "10:50",
+          "entry": 25831.2,
+          "stop": 25861.6,
+          "target": 25770.4,
+          "risk": 30.4,
+          "exit": "target_after_partial",
+          "exit_time": "11:35",
+          "exit_price": 25770.400000000005,
+          "net": 4520.0,
+          "partial_booked": true,
+          "partial_time": "11:10",
+          "trailed": true
+        },
+        "combined_net": 775.0
+      },
+      {
+        "date": "2026-02-06",
+        "orig": {
+          "signal": "09:35",
+          "entry": 25543.45,
+          "stop": 25565.8,
+          "target": 25498.75,
+          "risk": 22.35,
+          "exit": "stop",
+          "exit_time": "09:45",
+          "exit_price": 25565.8,
+          "net": -2275.0
+        },
+        "reentry_raw": {
+          "signal": "09:55",
+          "entry": 25552.35,
+          "stop": 25554.6,
+          "target": 25547.85,
+          "risk": 2.25,
+          "exit": "stop",
+          "exit_time": "10:00",
+          "exit_price": 25554.6,
+          "net": -265.0,
+          "orl": 25553.55,
+          "orh": 25630.8,
+          "reentry_signal": "09:55"
+        },
+        "reentry_partial": {
+          "signal": "09:55",
+          "entry": 25552.35,
+          "stop": 25554.6,
+          "target": 25547.85,
+          "risk": 2.25,
+          "exit": "stop",
+          "exit_time": "10:00",
+          "exit_price": 25554.6,
+          "net": -265.0,
+          "partial_booked": false,
+          "partial_time": null,
+          "trailed": false
+        },
+        "combined_net": -2540.0
+      },
+      {
+        "date": "2026-03-30",
+        "orig": {
+          "signal": "11:25",
+          "entry": 22468.1,
+          "stop": 22488.25,
+          "target": 22427.8,
+          "risk": 20.15,
+          "exit": "stop",
+          "exit_time": "11:30",
+          "exit_price": 22488.25,
+          "net": -2055.0
+        },
+        "reentry_raw": null,
+        "reentry_partial": null,
+        "combined_net": -2055.0
+      },
+      {
+        "date": "2026-04-02",
+        "orig": {
+          "signal": "09:55",
+          "entry": 22206.8,
+          "stop": 22227.55,
+          "target": 22165.3,
+          "risk": 20.75,
+          "exit": "stop",
+          "exit_time": "10:00",
+          "exit_price": 22227.55,
+          "net": -2115.0
+        },
+        "reentry_raw": {
+          "signal": "10:05",
+          "entry": 22186.4,
+          "stop": 22215.5,
+          "target": 22128.2,
+          "risk": 29.1,
+          "exit": "stop",
+          "exit_time": "10:10",
+          "exit_price": 22215.5,
+          "net": -2950.0,
+          "orl": 22209.15,
+          "orh": 22394.65,
+          "reentry_signal": "10:05"
+        },
+        "reentry_partial": {
+          "signal": "10:05",
+          "entry": 22186.4,
+          "stop": 22215.5,
+          "target": 22128.2,
+          "risk": 29.1,
+          "exit": "stop",
+          "exit_time": "10:10",
+          "exit_price": 22215.5,
+          "net": -2950.0,
+          "partial_booked": false,
+          "partial_time": null,
+          "trailed": false
+        },
+        "combined_net": -5065.0
+      },
+      {
+        "date": "2026-05-13",
+        "orig": {
+          "signal": "09:30",
+          "entry": 23337.3,
+          "stop": 23387.65,
+          "target": 23236.6,
+          "risk": 50.35,
+          "exit": "stop",
+          "exit_time": "09:55",
+          "exit_price": 23387.65,
+          "net": -5075.0
+        },
+        "reentry_raw": null,
+        "reentry_partial": null,
+        "combined_net": -5075.0
+      },
+      {
+        "date": "2026-06-29",
+        "orig": {
+          "signal": "09:30",
+          "entry": 24018.7,
+          "stop": 24065.7,
+          "target": 23924.7,
+          "risk": 47.0,
+          "exit": "stop",
+          "exit_time": "09:40",
+          "exit_price": 24065.7,
+          "net": -4740.0
+        },
+        "reentry_raw": {
+          "signal": "11:30",
+          "entry": 24030.85,
+          "stop": 24065.25,
+          "target": 23962.05,
+          "risk": 34.4,
+          "exit": "target",
+          "exit_time": "12:30",
+          "exit_price": 23962.049999999996,
+          "net": 6840.0,
+          "orl": 24032.35,
+          "orh": 24110.75,
+          "reentry_signal": "11:30"
+        },
+        "reentry_partial": {
+          "signal": "11:30",
+          "entry": 24030.85,
+          "stop": 24065.25,
+          "target": 23962.05,
+          "risk": 34.4,
+          "exit": "target_after_partial",
+          "exit_time": "12:30",
+          "exit_price": 23962.049999999996,
+          "net": 5120.0,
+          "partial_booked": true,
+          "partial_time": "12:10",
+          "trailed": true
+        },
+        "combined_net": 380.0
+      },
+      {
+        "date": "2026-07-08",
+        "orig": {
+          "signal": "09:30",
+          "entry": 24221.45,
+          "stop": 24240.9,
+          "target": 24182.55,
+          "risk": 19.45,
+          "exit": "stop",
+          "exit_time": "09:45",
+          "exit_price": 24240.9,
+          "net": -1985.0
+        },
+        "reentry_raw": {
+          "signal": "10:20",
+          "entry": 24224.5,
+          "stop": 24251.5,
+          "target": 24170.5,
+          "risk": 27.0,
+          "exit": "stop",
+          "exit_time": "10:30",
+          "exit_price": 24251.5,
+          "net": -2740.0,
+          "orl": 24229.9,
+          "orh": 24295.25,
+          "reentry_signal": "10:20"
+        },
+        "reentry_partial": {
+          "signal": "10:20",
+          "entry": 24224.5,
+          "stop": 24251.5,
+          "target": 24170.5,
+          "risk": 27.0,
+          "exit": "stop",
+          "exit_time": "10:30",
+          "exit_price": 24251.5,
+          "net": -2740.0,
+          "partial_booked": false,
+          "partial_time": null,
+          "trailed": false
+        },
+        "combined_net": -4725.0
+      },
+      {
+        "date": "2026-08-19",
+        "orig": {
+          "signal": "09:30",
+          "entry": 24076.4,
+          "stop": 24099.0,
+          "target": 24031.2,
+          "risk": 22.6,
+          "exit": "stop",
+          "exit_time": "09:50",
+          "exit_price": 24099.0,
+          "net": -2300.0
+        },
+        "reentry_raw": {
+          "signal": "10:10",
+          "entry": 24093.25,
+          "stop": 24098.55,
+          "target": 24082.65,
+          "risk": 5.3,
+          "exit": "target",
+          "exit_time": "10:15",
+          "exit_price": 24082.65,
+          "net": 1020.0,
+          "orl": 24093.05,
+          "orh": 24172.85,
+          "reentry_signal": "10:10"
+        },
+        "reentry_partial": {
+          "signal": "10:10",
+          "entry": 24093.25,
+          "stop": 24098.55,
+          "target": 24082.65,
+          "risk": 5.3,
+          "exit": "target_same_bar_as_partial",
+          "exit_time": "10:15",
+          "exit_price": 24082.65,
+          "net": 755.0,
+          "partial_booked": true,
+          "partial_time": "10:15",
+          "trailed": true
+        },
+        "combined_net": -1545.0
+      }
+    ],
+    "summary": {
+      "green": 2,
+      "no_trade": 0,
+      "still_loss": 6,
+      "total": -19850.0
+    }
+  },
+  "C-SURV": {
+    "rows": [
+      {
+        "date": "2026-01-09",
+        "orig": {
+          "signal": "09:30",
+          "entry": 25836.05,
+          "stop": 25873.1,
+          "target": 25761.95,
+          "risk": 37.05,
+          "exit": "stop",
+          "exit_time": "09:40",
+          "exit_price": 25873.1,
+          "net": -3745.0
+        },
+        "reentry_raw": {
+          "signal": "10:50",
+          "entry": 25831.2,
+          "stop": 25861.6,
+          "target": 25770.4,
+          "risk": 30.4,
+          "exit": "target",
+          "exit_time": "11:35",
+          "exit_price": 25770.400000000005,
+          "net": 6040.0,
+          "orl": 25839.15,
+          "orh": 25940.6,
+          "reentry_signal": "10:50"
+        },
+        "reentry_partial": {
+          "signal": "10:50",
+          "entry": 25831.2,
+          "stop": 25861.6,
+          "target": 25770.4,
+          "risk": 30.4,
+          "exit": "target",
+          "exit_time": "11:35",
+          "net": 6040.0,
+          "bars": 8,
+          "mfe_pts": 40.25
+        },
+        "combined_net": 2295.0
+      },
+      {
+        "date": "2026-02-06",
+        "orig": {
+          "signal": "09:35",
+          "entry": 25543.45,
+          "stop": 25565.8,
+          "target": 25498.75,
+          "risk": 22.35,
+          "exit": "stop",
+          "exit_time": "09:45",
+          "exit_price": 25565.8,
+          "net": -2275.0
+        },
+        "reentry_raw": {
+          "signal": "09:55",
+          "entry": 25552.35,
+          "stop": 25554.6,
+          "target": 25547.85,
+          "risk": 2.25,
+          "exit": "stop",
+          "exit_time": "10:00",
+          "exit_price": 25554.6,
+          "net": -265.0,
+          "orl": 25553.55,
+          "orh": 25630.8,
+          "reentry_signal": "09:55"
+        },
+        "reentry_partial": {
+          "signal": "09:55",
+          "entry": 25552.35,
+          "stop": 25554.6,
+          "target": 25547.85,
+          "risk": 2.25,
+          "exit": "stop",
+          "exit_time": "10:00",
+          "net": -265.0,
+          "bars": 0,
+          "mfe_pts": 0.0
+        },
+        "combined_net": -2540.0
+      },
+      {
+        "date": "2026-03-30",
+        "orig": {
+          "signal": "11:25",
+          "entry": 22468.1,
+          "stop": 22488.25,
+          "target": 22427.8,
+          "risk": 20.15,
+          "exit": "stop",
+          "exit_time": "11:30",
+          "exit_price": 22488.25,
+          "net": -2055.0
+        },
+        "reentry_raw": null,
+        "reentry_partial": null,
+        "combined_net": -2055.0
+      },
+      {
+        "date": "2026-04-02",
+        "orig": {
+          "signal": "09:55",
+          "entry": 22206.8,
+          "stop": 22227.55,
+          "target": 22165.3,
+          "risk": 20.75,
+          "exit": "stop",
+          "exit_time": "10:00",
+          "exit_price": 22227.55,
+          "net": -2115.0
+        },
+        "reentry_raw": {
+          "signal": "10:05",
+          "entry": 22186.4,
+          "stop": 22215.5,
+          "target": 22128.2,
+          "risk": 29.1,
+          "exit": "stop",
+          "exit_time": "10:10",
+          "exit_price": 22215.5,
+          "net": -2950.0,
+          "orl": 22209.15,
+          "orh": 22394.65,
+          "reentry_signal": "10:05"
+        },
+        "reentry_partial": {
+          "signal": "10:05",
+          "entry": 22186.4,
+          "stop": 22215.5,
+          "target": 22128.2,
+          "risk": 29.1,
+          "exit": "stop",
+          "exit_time": "10:10",
+          "net": -2950.0,
+          "bars": 0,
+          "mfe_pts": 0.0
+        },
+        "combined_net": -5065.0
+      },
+      {
+        "date": "2026-05-13",
+        "orig": {
+          "signal": "09:30",
+          "entry": 23337.3,
+          "stop": 23387.65,
+          "target": 23236.6,
+          "risk": 50.35,
+          "exit": "stop",
+          "exit_time": "09:55",
+          "exit_price": 23387.65,
+          "net": -5075.0
+        },
+        "reentry_raw": null,
+        "reentry_partial": null,
+        "combined_net": -5075.0
+      },
+      {
+        "date": "2026-06-29",
+        "orig": {
+          "signal": "09:30",
+          "entry": 24018.7,
+          "stop": 24065.7,
+          "target": 23924.7,
+          "risk": 47.0,
+          "exit": "stop",
+          "exit_time": "09:40",
+          "exit_price": 24065.7,
+          "net": -4740.0
+        },
+        "reentry_raw": {
+          "signal": "11:30",
+          "entry": 24030.85,
+          "stop": 24065.25,
+          "target": 23962.05,
+          "risk": 34.4,
+          "exit": "target",
+          "exit_time": "12:30",
+          "exit_price": 23962.049999999996,
+          "net": 6840.0,
+          "orl": 24032.35,
+          "orh": 24110.75,
+          "reentry_signal": "11:30"
+        },
+        "reentry_partial": {
+          "signal": "11:30",
+          "entry": 24030.85,
+          "stop": 24030.85,
+          "target": 23962.05,
+          "risk": 34.4,
+          "exit": "target",
+          "exit_time": "12:30",
+          "net": 4948.0,
+          "bars": 11,
+          "mfe_pts": 66.0
+        },
+        "combined_net": 208.0
+      },
+      {
+        "date": "2026-07-08",
+        "orig": {
+          "signal": "09:30",
+          "entry": 24221.45,
+          "stop": 24240.9,
+          "target": 24182.55,
+          "risk": 19.45,
+          "exit": "stop",
+          "exit_time": "09:45",
+          "exit_price": 24240.9,
+          "net": -1985.0
+        },
+        "reentry_raw": {
+          "signal": "10:20",
+          "entry": 24224.5,
+          "stop": 24251.5,
+          "target": 24170.5,
+          "risk": 27.0,
+          "exit": "stop",
+          "exit_time": "10:30",
+          "exit_price": 24251.5,
+          "net": -2740.0,
+          "orl": 24229.9,
+          "orh": 24295.25,
+          "reentry_signal": "10:20"
+        },
+        "reentry_partial": {
+          "signal": "10:20",
+          "entry": 24224.5,
+          "stop": 24251.5,
+          "target": 24170.5,
+          "risk": 27.0,
+          "exit": "stop",
+          "exit_time": "10:30",
+          "net": -2740.0,
+          "bars": 1,
+          "mfe_pts": 5.25
+        },
+        "combined_net": -4725.0
+      },
+      {
+        "date": "2026-08-19",
+        "orig": {
+          "signal": "09:30",
+          "entry": 24076.4,
+          "stop": 24099.0,
+          "target": 24031.2,
+          "risk": 22.6,
+          "exit": "stop",
+          "exit_time": "09:50",
+          "exit_price": 24099.0,
+          "net": -2300.0
+        },
+        "reentry_raw": {
+          "signal": "10:10",
+          "entry": 24093.25,
+          "stop": 24098.55,
+          "target": 24082.65,
+          "risk": 5.3,
+          "exit": "target",
+          "exit_time": "10:15",
+          "exit_price": 24082.65,
+          "net": 1020.0,
+          "orl": 24093.05,
+          "orh": 24172.85,
+          "reentry_signal": "10:10"
+        },
+        "reentry_partial": {
+          "signal": "10:10",
+          "entry": 24093.25,
+          "stop": 24098.55,
+          "target": 24082.65,
+          "risk": 5.3,
+          "exit": "target",
+          "exit_time": "10:15",
+          "net": 1020.0,
+          "bars": 0,
+          "mfe_pts": 0.0
+        },
+        "combined_net": -1280.0
+      }
+    ],
+    "summary": {
+      "green": 2,
+      "no_trade": 0,
+      "still_loss": 6,
+      "total": -18237.0
+    }
+  }
+}

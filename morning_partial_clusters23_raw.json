@@ -1,0 +1,173 @@
+{
+  "o1": [
+    {
+      "cluster": "2",
+      "date": "2026-01-14",
+      "dir": "CE",
+      "orig_net": -2785,
+      "exit": "breakeven_stop_after_partial",
+      "exit_time": "12:10",
+      "net": 1332.5,
+      "partial_time": "11:30",
+      "partial_level": 25775.2
+    },
+    {
+      "cluster": "2",
+      "date": "2026-10-26",
+      "dir": "CE",
+      "orig_net": -8635,
+      "exit": "stop",
+      "exit_time": "11:30",
+      "net": -8635.0,
+      "partial_time": null,
+      "partial_level": 22721.65
+    },
+    {
+      "cluster": "3",
+      "date": "2026-02-13",
+      "dir": "PE",
+      "orig_net": -3750,
+      "exit": "stop",
+      "exit_time": "12:25",
+      "net": -3750.0,
+      "partial_time": null,
+      "partial_level": 25511.9
+    },
+    {
+      "cluster": "3",
+      "date": "2026-04-30",
+      "dir": "PE",
+      "orig_net": -3165,
+      "exit": "breakeven_stop_after_partial",
+      "exit_time": "10:35",
+      "net": 1522.5,
+      "partial_time": "10:15",
+      "partial_level": 23817.5
+    },
+    {
+      "cluster": "3",
+      "date": "2026-05-18",
+      "dir": "PE",
+      "orig_net": -3670,
+      "exit": "breakeven_stop_after_partial",
+      "exit_time": "10:00",
+      "net": 1775.0,
+      "partial_time": "09:55",
+      "partial_level": 23322.2
+    }
+  ],
+  "o2": [
+    {
+      "cluster": "2",
+      "date": "2026-01-14",
+      "dir": "CE",
+      "orig_net": -2785,
+      "exit": "stop_after_partial",
+      "exit_time": "13:20",
+      "net": -40.0,
+      "partial_time": "11:30",
+      "partial_level": 25775.2
+    },
+    {
+      "cluster": "2",
+      "date": "2026-10-26",
+      "dir": "CE",
+      "orig_net": -8635,
+      "exit": "stop",
+      "exit_time": "11:30",
+      "net": -8635.0,
+      "partial_time": null,
+      "partial_level": 22721.65
+    },
+    {
+      "cluster": "3",
+      "date": "2026-02-13",
+      "dir": "PE",
+      "orig_net": -3750,
+      "exit": "stop",
+      "exit_time": "12:25",
+      "net": -3750.0,
+      "partial_time": null,
+      "partial_level": 25511.9
+    },
+    {
+      "cluster": "3",
+      "date": "2026-04-30",
+      "dir": "PE",
+      "orig_net": -3165,
+      "exit": "stop_after_partial",
+      "exit_time": "12:10",
+      "net": -40.0,
+      "partial_time": "10:15",
+      "partial_level": 23817.5
+    },
+    {
+      "cluster": "3",
+      "date": "2026-05-18",
+      "dir": "PE",
+      "orig_net": -3670,
+      "exit": "stop_after_partial",
+      "exit_time": "10:30",
+      "net": -40.0,
+      "partial_time": "09:55",
+      "partial_level": 23322.2
+    }
+  ],
+  "o3": [
+    {
+      "cluster": "2",
+      "date": "2026-01-14",
+      "dir": "CE",
+      "orig_net": -2785,
+      "exit": "breakeven_stop_after_partial",
+      "exit_time": "12:10",
+      "net": 646.25,
+      "partial_time": "11:25",
+      "partial_level": 25761.47
+    },
+    {
+      "cluster": "2",
+      "date": "2026-10-26",
+      "dir": "CE",
+      "orig_net": -8635,
+      "exit": "breakeven_stop_after_partial",
+      "exit_time": "10:25",
+      "net": 2108.75,
+      "partial_time": "10:05",
+      "partial_level": 22678.68
+    },
+    {
+      "cluster": "3",
+      "date": "2026-02-13",
+      "dir": "PE",
+      "orig_net": -3750,
+      "exit": "breakeven_stop_after_partial",
+      "exit_time": "09:45",
+      "net": 887.5,
+      "partial_time": "09:40",
+      "partial_level": 25530.45
+    },
+    {
+      "cluster": "3",
+      "date": "2026-04-30",
+      "dir": "PE",
+      "orig_net": -3165,
+      "exit": "breakeven_stop_after_partial",
+      "exit_time": "10:35",
+      "net": 741.25,
+      "partial_time": "10:05",
+      "partial_level": 23833.12
+    },
+    {
+      "cluster": "3",
+      "date": "2026-05-18",
+      "dir": "PE",
+      "orig_net": -3670,
+      "exit": "breakeven_stop_after_partial",
+      "exit_time": "10:00",
+      "net": 867.5,
+      "partial_time": "09:50",
+      "partial_level": 23340.35
+    }
+  ]
+}

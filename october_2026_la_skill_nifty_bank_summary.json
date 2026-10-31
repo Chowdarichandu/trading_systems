@@ -1,0 +1,137 @@
+{
+  "(lA) NIFTY": {
+    "capped": {
+      "trades": 2,
+      "wins_net_gt_0": 2,
+      "full_targets": 2,
+      "stops": 0,
+      "square_offs": 0,
+      "points": 231.6,
+      "provisional_net_rs": 23080.0,
+      "expectancy_rs": 11540.0,
+      "max_drawdown_rs": 0.0
+    },
+    "uncapped": {
+      "trades": 2,
+      "wins_net_gt_0": 2,
+      "full_targets": 2,
+      "stops": 0,
+      "square_offs": 0,
+      "points": 231.6,
+      "provisional_net_rs": 23080.0,
+      "expectancy_rs": 11540.0,
+      "max_drawdown_rs": 0.0
+    },
+    "capped_dates": [
+      "2026-10-08",
+      "2026-10-23"
+    ],
+    "uncapped_dates": [
+      "2026-10-08",
+      "2026-10-23"
+    ],
+    "capped_out": []
+  },
+  "(lA) BANKNIFTY": {
+    "capped": {
+      "trades": 2,
+      "wins_net_gt_0": 1,
+      "full_targets": 1,
+      "stops": 0,
+      "square_offs": 0,
+      "points": 128.05,
+      "provisional_net_rs": 12725.0,
+      "expectancy_rs": 6362.5,
+      "max_drawdown_rs": 7475.0
+    },
+    "uncapped": {
+      "trades": 3,
+      "wins_net_gt_0": 2,
+      "full_targets": 2,
+      "stops": 0,
+      "square_offs": 0,
+      "points": 369.05,
+      "provisional_net_rs": 36785.0,
+      "expectancy_rs": 12261.67,
+      "max_drawdown_rs": 7475.0
+    },
+    "capped_dates": [
+      "2026-10-07",
+      "2026-10-21"
+    ],
+    "uncapped_dates": [
+      "2026-10-07",
+      "2026-10-21",
+      "2026-10-23"
+    ],
+    "capped_out": [
+      "2026-10-23"
+    ]
+  },
+  "Skill NIFTY": {
+    "capped": {
+      "trades": 2,
+      "wins_net_gt_0": 1,
+      "full_targets": 1,
+      "stops": 1,
+      "square_offs": 0,
+      "points": 0.5,
+      "provisional_net_rs": -30.0,
+      "expectancy_rs": -15.0,
+      "max_drawdown_rs": 5470.0
+    },
+    "uncapped": {
+      "trades": 2,
+      "wins_net_gt_0": 1,
+      "full_targets": 1,
+      "stops": 1,
+      "square_offs": 0,
+      "points": 0.5,
+      "provisional_net_rs": -30.0,
+      "expectancy_rs": -15.0,
+      "max_drawdown_rs": 5470.0
+    },
+    "capped_dates": [
+      "2026-10-08",
+      "2026-10-28"
+    ],
+    "uncapped_dates": [
+      "2026-10-08",
+      "2026-10-28"
+    ],
+    "capped_out": []
+  },
+  "Skill BANKNIFTY": {
+    "capped": {
+      "trades": 1,
+      "wins_net_gt_0": 1,
+      "full_targets": 1,
+      "stops": 0,
+      "square_offs": 0,
+      "points": 166.8,
+      "provisional_net_rs": 16640.0,
+      "expectancy_rs": 16640.0,
+      "max_drawdown_rs": 0.0
+    },
+    "uncapped": {
+      "trades": 1,
+      "wins_net_gt_0": 1,
+      "full_targets": 1,
+      "stops": 0,
+      "square_offs": 0,
+      "points": 166.8,
+      "provisional_net_rs": 16640.0,
+      "expectancy_rs": 16640.0,
+      "max_drawdown_rs": 0.0
+    },
+    "capped_dates": [
+      "2026-10-01"
+    ],
+    "uncapped_dates": [
+      "2026-10-01"
+    ],
+    "capped_out": []
+  },
+  "window": "2026-10-01 to 2026-10-28, 18 trading days, cache only",
+  "separate_systems_sum_capped_rs": 52415.0
+}

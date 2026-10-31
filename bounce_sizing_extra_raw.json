@@ -1,0 +1,674 @@
+{
+  "BS-CAP": {
+    "cluster1": [
+      {
+        "date": "2026-01-09",
+        "orig_net": -3745,
+        "trade": {
+          "entry": 25830.9,
+          "stop": 25861.15,
+          "target": 25770.4,
+          "exit": "stop",
+          "exit_time": "09:40",
+          "exit_price": 25861.15,
+          "net": -3065.0,
+          "signal": "09:30",
+          "bounce_range": 30.25,
+          "Rb_eff": 30.25
+        }
+      },
+      {
+        "date": "2026-02-06",
+        "orig_net": -2275,
+        "trade": {
+          "entry": 25527.2,
+          "stop": 25549.55,
+          "target": 25482.5,
+          "exit": "stop",
+          "exit_time": "09:45",
+          "exit_price": 25549.55,
+          "net": -2275.0,
+          "signal": "09:35",
+          "bounce_range": 25.45,
+          "Rb_eff": 22.35
+        }
+      },
+      {
+        "date": "2026-03-30",
+        "orig_net": -2055,
+        "trade": {
+          "entry": 22503.3,
+          "stop": 22523.45,
+          "target": 22463.0,
+          "exit": "stop",
+          "exit_time": "11:35",
+          "exit_price": 22523.45,
+          "net": -2055.0,
+          "signal": "11:25",
+          "bounce_range": 48.95,
+          "Rb_eff": 20.15
+        }
+      },
+      {
+        "date": "2026-04-02",
+        "orig_net": -2115,
+        "trade": {
+          "entry": 22215.5,
+          "stop": 22236.25,
+          "target": 22174.0,
+          "exit": "stop",
+          "exit_time": "10:10",
+          "exit_price": 22236.25,
+          "net": -2115.0,
+          "signal": "09:55",
+          "bounce_range": 40.65,
+          "Rb_eff": 20.75
+        }
+      },
+      {
+        "date": "2026-05-13",
+        "orig_net": -5075,
+        "trade": {
+          "entry": 23275.5,
+          "stop": 23325.850000000002,
+          "target": 23174.8,
+          "exit": "stop",
+          "exit_time": "09:45",
+          "exit_price": 23325.850000000002,
+          "net": -5075.0,
+          "signal": "09:30",
+          "bounce_range": 76.8,
+          "Rb_eff": 50.35
+        }
+      },
+      {
+        "date": "2026-06-29",
+        "orig_net": -4740,
+        "trade": {
+          "entry": 24060.55,
+          "stop": 24107.55,
+          "target": 23966.55,
+          "exit": "stop",
+          "exit_time": "10:25",
+          "exit_price": 24107.55,
+          "net": -4740.0,
+          "signal": "09:30",
+          "bounce_range": 57.65,
+          "Rb_eff": 47.0
+        }
+      },
+      {
+        "date": "2026-07-08",
+        "orig_net": -1985,
+        "trade": {
+          "entry": 24217.65,
+          "stop": 24235.25,
+          "target": 24182.45,
+          "exit": "stop",
+          "exit_time": "09:40",
+          "exit_price": 24235.25,
+          "net": -1800.0,
+          "signal": "09:30",
+          "bounce_range": 17.6,
+          "Rb_eff": 17.6
+        }
+      },
+      {
+        "date": "2026-08-19",
+        "orig_net": -2300,
+        "trade": {
+          "entry": 24080.5,
+          "stop": 24095.45,
+          "target": 24050.6,
+          "exit": "stop",
+          "exit_time": "09:45",
+          "exit_price": 24095.45,
+          "net": -1535.0,
+          "signal": "09:30",
+          "bounce_range": 14.95,
+          "Rb_eff": 14.95
+        }
+      }
+    ],
+    "winners": [
+      {
+        "date": "2026-01-21",
+        "orig_net": 9280,
+        "trade": {
+          "entry": 25096.75,
+          "stop": 25125.05,
+          "target": 25040.15,
+          "exit": "target",
+          "exit_time": "10:40",
+          "exit_price": 25040.15,
+          "net": 5620.0,
+          "signal": "10:20",
+          "bounce_range": 28.3,
+          "Rb_eff": 28.3
+        }
+      },
+      {
+        "date": "2026-02-24",
+        "orig_net": 7350,
+        "trade": {
+          "entry": 25507.65,
+          "stop": 25529.9,
+          "target": 25463.15,
+          "exit": "stop",
+          "exit_time": "09:45",
+          "exit_price": 25529.9,
+          "net": -2265.0,
+          "signal": "09:30",
+          "bounce_range": 22.25,
+          "Rb_eff": 22.25
+        }
+      },
+      {
+        "date": "2026-03-16",
+        "orig_net": 8940,
+        "trade": {
+          "entry": 23026.5,
+          "stop": 23068.0,
+          "target": 22943.5,
+          "exit": "stop",
+          "exit_time": "10:30",
+          "exit_price": 23068.0,
+          "net": -4190.0,
+          "signal": "10:20",
+          "bounce_range": 41.5,
+          "Rb_eff": 41.5
+        }
+      },
+      {
+        "date": "2026-03-13",
+        "orig_net": 5400,
+        "trade": {
+          "entry": 23364.45,
+          "stop": 23391.649999999998,
+          "target": 23310.05,
+          "exit": "target",
+          "exit_time": "10:20",
+          "exit_price": 23310.050000000007,
+          "net": 5400.0,
+          "signal": "09:45",
+          "bounce_range": 37.0,
+          "Rb_eff": 27.2
+        }
+      },
+      {
+        "date": "2026-03-23",
+        "orig_net": 7260,
+        "trade": {
+          "entry": 22597.45,
+          "stop": 22633.95,
+          "target": 22524.45,
+          "exit": "target",
+          "exit_time": "10:50",
+          "exit_price": 22524.45,
+          "net": 7260.0,
+          "signal": "09:50",
+          "bounce_range": 41.75,
+          "Rb_eff": 36.5
+        }
+      },
+      {
+        "date": "2026-04-24",
+        "orig_net": 8820,
+        "trade": {
+          "entry": 24002.0,
+          "stop": 24028.050000000003,
+          "target": 23949.9,
+          "exit": "target",
+          "exit_time": "09:55",
+          "exit_price": 23949.899999999994,
+          "net": 5170.0,
+          "signal": "09:30",
+          "bounce_range": 26.05,
+          "Rb_eff": 26.05
+        }
+      },
+      {
+        "date": "2026-05-05",
+        "orig_net": 5040,
+        "trade": {
+          "entry": 23941.2,
+          "stop": 23965.75,
+          "target": 23892.1,
+          "exit": "stop",
+          "exit_time": "11:35",
+          "exit_price": 23965.75,
+          "net": -2495.0,
+          "signal": "10:30",
+          "bounce_range": 24.55,
+          "Rb_eff": 24.55
+        }
+      },
+      {
+        "date": "2026-07-22",
+        "orig_net": 6320,
+        "trade": {
+          "entry": 24025.8,
+          "stop": 24042.149999999998,
+          "target": 23993.1,
+          "exit": "stop",
+          "exit_time": "10:05",
+          "exit_price": 24042.149999999998,
+          "net": -1675.0,
+          "signal": "09:30",
+          "bounce_range": 16.35,
+          "Rb_eff": 16.35
+        }
+      },
+      {
+        "date": "2026-08-12",
+        "orig_net": 6250,
+        "trade": {
+          "entry": 24364.8,
+          "stop": 24383.55,
+          "target": 24327.3,
+          "exit": "stop",
+          "exit_time": "10:30",
+          "exit_price": 24383.55,
+          "net": -1915.0,
+          "signal": "09:55",
+          "bounce_range": 18.75,
+          "Rb_eff": 18.75
+        }
+      },
+      {
+        "date": "2026-08-27",
+        "orig_net": 3000,
+        "trade": {
+          "entry": 24192.05,
+          "stop": 24207.25,
+          "target": 24161.65,
+          "exit": "target",
+          "exit_time": "10:50",
+          "exit_price": 24161.649999999998,
+          "net": 3000.0,
+          "signal": "09:55",
+          "bounce_range": 16.35,
+          "Rb_eff": 15.2
+        }
+      },
+      {
+        "date": "2026-09-29",
+        "orig_net": 3790,
+        "trade": {
+          "entry": 22576.9,
+          "stop": 22596.05,
+          "target": 22538.6,
+          "exit": "stop",
+          "exit_time": "09:40",
+          "exit_price": 22596.05,
+          "net": -1955.0,
+          "signal": "09:30",
+          "bounce_range": 49.8,
+          "Rb_eff": 19.15
+        }
+      },
+      {
+        "date": "2026-09-07",
+        "orig_net": 2990,
+        "trade": {
+          "entry": 23817.05,
+          "stop": 23832.199999999997,
+          "target": 23786.75,
+          "exit": "target",
+          "exit_time": "10:55",
+          "exit_price": 23786.750000000004,
+          "net": 2990.0,
+          "signal": "09:50",
+          "bounce_range": 17.65,
+          "Rb_eff": 15.15
+        }
+      },
+      {
+        "date": "2026-10-08",
+        "orig_net": 5440,
+        "trade": {
+          "entry": 22470.2,
+          "stop": 22497.600000000002,
+          "target": 22415.4,
+          "exit": "stop",
+          "exit_time": "10:10",
+          "exit_price": 22497.600000000002,
+          "net": -2780.0,
+          "signal": "09:40",
+          "bounce_range": 27.85,
+          "Rb_eff": 27.4
+        }
+      },
+      {
+        "date": "2026-10-23",
+        "orig_net": 11390,
+        "trade": {
+          "entry": 22509.15,
+          "stop": 22549.75,
+          "target": 22427.95,
+          "exit": "target",
+          "exit_time": "10:35",
+          "exit_price": 22427.950000000004,
+          "net": 8080.0,
+          "signal": "10:05",
+          "bounce_range": 40.6,
+          "Rb_eff": 40.6
+        }
+      }
+    ]
+  },
+  "T-RATCHET": {
+    "cluster1": [
+      {
+        "date": "2026-01-09",
+        "orig_net": -3745,
+        "trade": {
+          "exit": "stop",
+          "exit_time": "09:40",
+          "exit_price": 25873.1,
+          "net": -3745.0,
+          "signal": "09:30",
+          "entry": 25836.05,
+          "stop": 25873.1,
+          "target": 25761.95
+        }
+      },
+      {
+        "date": "2026-02-06",
+        "orig_net": -2275,
+        "trade": {
+          "exit": "ratchet_lock",
+          "exit_time": "09:40",
+          "exit_price": 25537.862500000003,
+          "net": 518.75,
+          "signal": "09:35",
+          "entry": 25543.45,
+          "stop": 25565.8,
+          "target": 25498.75
+        }
+      },
+      {
+        "date": "2026-03-30",
+        "orig_net": -2055,
+        "trade": {
+          "exit": "stop",
+          "exit_time": "11:30",
+          "exit_price": 22488.25,
+          "net": -2055.0,
+          "signal": "11:25",
+          "entry": 22468.1,
+          "stop": 22488.25,
+          "target": 22427.8
+        }
+      },
+      {
+        "date": "2026-04-02",
+        "orig_net": -2115,
+        "trade": {
+          "exit": "stop",
+          "exit_time": "10:00",
+          "exit_price": 22227.55,
+          "net": -2115.0,
+          "signal": "09:55",
+          "entry": 22206.8,
+          "stop": 22227.55,
+          "target": 22165.3
+        }
+      },
+      {
+        "date": "2026-05-13",
+        "orig_net": -5075,
+        "trade": {
+          "exit": "ratchet_lock",
+          "exit_time": "09:35",
+          "exit_price": 23312.125,
+          "net": 2477.5,
+          "signal": "09:30",
+          "entry": 23337.3,
+          "stop": 23387.65,
+          "target": 23236.6
+        }
+      },
+      {
+        "date": "2026-06-29",
+        "orig_net": -4740,
+        "trade": {
+          "exit": "stop",
+          "exit_time": "09:40",
+          "exit_price": 24065.7,
+          "net": -4740.0,
+          "signal": "09:30",
+          "entry": 24018.7,
+          "stop": 24065.7,
+          "target": 23924.7
+        }
+      },
+      {
+        "date": "2026-07-08",
+        "orig_net": -1985,
+        "trade": {
+          "exit": "ratchet_lock",
+          "exit_time": "09:35",
+          "exit_price": 24216.5875,
+          "net": 446.25,
+          "signal": "09:30",
+          "entry": 24221.45,
+          "stop": 24240.9,
+          "target": 24182.55
+        }
+      },
+      {
+        "date": "2026-08-19",
+        "orig_net": -2300,
+        "trade": {
+          "exit": "ratchet_lock",
+          "exit_time": "09:35",
+          "exit_price": 24070.75,
+          "net": 525.0,
+          "signal": "09:30",
+          "entry": 24076.4,
+          "stop": 24099.0,
+          "target": 24031.2
+        }
+      }
+    ],
+    "winners": [
+      {
+        "date": "2026-01-21",
+        "orig_net": 9280,
+        "trade": {
+          "exit": "ratchet_lock",
+          "exit_time": "10:35",
+          "exit_price": 25095.85,
+          "net": 1125.0,
+          "signal": "10:20",
+          "entry": 25107.5,
+          "stop": 25154.1,
+          "target": 25014.3
+        }
+      },
+      {
+        "date": "2026-02-24",
+        "orig_net": 7350,
+        "trade": {
+          "exit": "ratchet_lock",
+          "exit_time": "09:40",
+          "exit_price": 25503.5625,
+          "net": 883.75,
+          "signal": "09:30",
+          "entry": 25512.8,
+          "stop": 25549.75,
+          "target": 25438.9
+        }
+      },
+      {
+        "date": "2026-03-16",
+        "orig_net": 8940,
+        "trade": {
+          "exit": "ratchet_lock",
+          "exit_time": "10:25",
+          "exit_price": 23044.475000000002,
+          "net": 1082.5,
+          "signal": "10:20",
+          "entry": 23055.7,
+          "stop": 23100.6,
+          "target": 22965.9
+        }
+      },
+      {
+        "date": "2026-03-13",
+        "orig_net": 5400,
+        "trade": {
+          "exit": "ratchet_lock",
+          "exit_time": "09:50",
+          "exit_price": 23386.050000000003,
+          "net": 1320.0,
+          "signal": "09:45",
+          "entry": 23399.65,
+          "stop": 23426.85,
+          "target": 23345.25
+        }
+      },
+      {
+        "date": "2026-03-23",
+        "orig_net": 7260,
+        "trade": {
+          "exit": "ratchet_lock",
+          "exit_time": "09:55",
+          "exit_price": 22619.425,
+          "net": 872.5,
+          "signal": "09:50",
+          "entry": 22628.55,
+          "stop": 22665.05,
+          "target": 22555.55
+        }
+      },
+      {
+        "date": "2026-04-24",
+        "orig_net": 8820,
+        "trade": {
+          "exit": "ratchet_lock",
+          "exit_time": "09:40",
+          "exit_price": 24006.225,
+          "net": 1067.5,
+          "signal": "09:30",
+          "entry": 24017.3,
+          "stop": 24061.6,
+          "target": 23928.7
+        }
+      },
+      {
+        "date": "2026-05-05",
+        "orig_net": 5040,
+        "trade": {
+          "exit": "ratchet_lock",
+          "exit_time": "10:35",
+          "exit_price": 23935.050000000003,
+          "net": 595.0,
+          "signal": "10:30",
+          "entry": 23941.4,
+          "stop": 23966.8,
+          "target": 23890.6
+        }
+      },
+      {
+        "date": "2026-07-22",
+        "orig_net": 6320,
+        "trade": {
+          "exit": "ratchet_lock",
+          "exit_time": "09:55",
+          "exit_price": 24018.3,
+          "net": 755.0,
+          "signal": "09:30",
+          "entry": 24026.25,
+          "stop": 24058.05,
+          "target": 23962.65
+        }
+      },
+      {
+        "date": "2026-08-12",
+        "orig_net": 6250,
+        "trade": {
+          "exit": "ratchet_lock",
+          "exit_time": "10:00",
+          "exit_price": 24371.6375,
+          "net": 746.25,
+          "signal": "09:55",
+          "entry": 24379.5,
+          "stop": 24410.95,
+          "target": 24316.6
+        }
+      },
+      {
+        "date": "2026-08-27",
+        "orig_net": 3000,
+        "trade": {
+          "exit": "ratchet_lock",
+          "exit_time": "10:00",
+          "exit_price": 24192.3,
+          "net": 340.0,
+          "signal": "09:55",
+          "entry": 24196.1,
+          "stop": 24211.3,
+          "target": 24165.7
+        }
+      },
+      {
+        "date": "2026-09-29",
+        "orig_net": 3790,
+        "trade": {
+          "exit": "ratchet_lock",
+          "exit_time": "09:35",
+          "exit_price": 22599.800000000003,
+          "net": 1875.0,
+          "signal": "09:30",
+          "entry": 22618.95,
+          "stop": 22638.1,
+          "target": 22580.65
+        }
+      },
+      {
+        "date": "2026-09-07",
+        "orig_net": 2990,
+        "trade": {
+          "exit": "ratchet_lock",
+          "exit_time": "09:55",
+          "exit_price": 23814.362500000003,
+          "net": 338.75,
+          "signal": "09:50",
+          "entry": 23818.15,
+          "stop": 23833.3,
+          "target": 23787.85
+        }
+      },
+      {
+        "date": "2026-10-08",
+        "orig_net": 5440,
+        "trade": {
+          "exit": "ratchet_lock",
+          "exit_time": "09:45",
+          "exit_price": 22459.85,
+          "net": 1330.0,
+          "signal": "09:40",
+          "entry": 22473.55,
+          "stop": 22500.95,
+          "target": 22418.75
+        }
+      },
+      {
+        "date": "2026-10-23",
+        "orig_net": 11390,
+        "trade": {
+          "exit": "ratchet_lock",
+          "exit_time": "10:10",
+          "exit_price": 22511.9625,
+          "net": 1388.75,
+          "signal": "10:05",
+          "entry": 22526.25,
+          "stop": 22583.4,
+          "target": 22411.95
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+# NIFTY channel status (separate channel — Nifty only)
+
+Nifty = **U1-N1** (U1 + drop solo + early ≤09:55 keys): Jan–Oct +₹168,140.25 mixed (108 trades, 41.7% FT, 2.66/week), Oct +₹10,775.25 premiums (8 trades, 50.0% FT, 2.22/week), month-end cumulative green at EVERY month-end Jan–Oct (lowest close Jan +₹8,710) — stage pass only, NOT adopted; validation = frozen November paper from Mon 2026-11-02 in a separate Nifty log. Detail: `index_options_U1_nifty_tuning_green_close.md`.
+
+## N1-plus upgrade tuning (2026-10-30) — Nifty only, nothing passed
+
+Tested vs U1-N1, one knob at a time (violent-day = spot day range ≥300 pts; 34/108 legs Jan–Oct, 5/8 in Oct): RUNNER (after +90, stop→entry, 2nd target +150, violent only) Oct premiums +₹3,631.75 (net −₹7,143.50 vs N1, FT unchanged) — rejected on Oct net + FT; VS65 Oct +₹9,800.25 and VS75 Oct +₹9,150.25 (extra risk ₹975 / ₹1,625 per trade, no stop rescued) — rejected on net both windows + FT; premium-momentum GATE (entry premium bar must close ≥ open) Oct 3 trades +₹9,925.25, 66.7% FT, 0.83/week — rejected on Oct net, Oct frequency, Jan–Oct FT, and it keeps the 23 Oct spot-target/premium-loss leg it targeted. Jan–Oct mixed for the rejected variants: RUNNER +₹195,886.75 mixed (partial spot translation, 10 legs NOT_COMPUTED), VS65 +₹167,165.25, VS75 +₹166,515.25, GATE +₹167,290.25 — none replaces N1. **U1-N1 kept; November paper from Mon 2026-11-02 remains N1 exactly.** Detail: `index_upgrade_nifty_N1plus.md`.
+
+
+## November paper setup — frozen 2026-10-30 (decision: user delegated, "U know better do")
+
+**PRIMARY: C3+G7 = confirmed-only legs (≥2 systems agree on the key) + runner-lock50 exit (after +90, stop → entry+50, second target +150).** Reference: Oct premiums +₹18,805.25 (4 trades, 75.0% FT); Jan–Oct premiums +₹66,619.25 (56 trades, 37.5% FT), no red month-ends, ~1.1–1.4 trades/week — frequency requirement relaxed for this candidate for November only (reported, not a pass/fail leg). **CONTROL (shadow, same log, never added to the primary): U1-N1 exactly.** Frozen spec: `november_paper_nifty_C3G7_frozen.md`. Log: `november_paper_nifty_log.csv` (header only; first trading day Mon 2026-11-02, logging after 15:10). Pre-registered pass rule, this index alone: November premium net > ₹0 AND full-target ≥ 50% (G7 definition: premium reached +90) AND month closes green. Paper only, 1 lot (65), no orders, no re-tuning during November.
+
+## Historical proof (premiums only) — appended 2026-10-30
+
+**Real money: ₹0 — paper proof only.** Every Jan–Sep leg of frozen U1-N1 was re-scored on actual Upstox option premium candles (same −50/+90 overlay, ₹220 cost, lot 65 verified constant Jan–Oct 2026 from contract data); October legs carried in unchanged. All 108 legs computed, 0 NOT_COMPUTED. Premium-only Jan–Oct total for this index alone: **₹25,159.00 per 1 lot** (2.66 trades/week, 25.9% full-target) — versus the old mixed-basis ₹168,140.25, which must no longer be quoted as premium performance. Month-end cumulative closes: green at all ten month-ends. Worst month May 2026 (₹-15,190.00); max drawdown ₹28,231.50; best month Apr 2026 (₹12,981.75) is 51.6% of the total. Nothing re-tuned; U1-N1 stays frozen for November paper in this channel's own log. Full proof: `historical_proof_nifty_N1.md`; chart: `historical_proof_nifty_N1_chart.png`.

@@ -1,0 +1,602 @@
+{
+ "BANKNIFTY": {
+  "best_geom": "G7_runnerLOCK50_+150",
+  "rows": [
+   {
+    "n": 9,
+    "net": 13920.0,
+    "ft": 7,
+    "ft_pct": 77.8,
+    "per_week": 2.5,
+    "name": "G0_base_-50/+90",
+    "family": "geometry",
+    "not_computed": 0
+   },
+   {
+    "n": 9,
+    "net": 10020.0,
+    "ft": 5,
+    "ft_pct": 55.6,
+    "per_week": 2.5,
+    "name": "G1_-50/+120",
+    "family": "geometry",
+    "not_computed": 0
+   },
+   {
+    "n": 9,
+    "net": 8520.0,
+    "ft": 4,
+    "ft_pct": 44.4,
+    "per_week": 2.5,
+    "name": "G2_-50/+150",
+    "family": "geometry",
+    "not_computed": 0
+   },
+   {
+    "n": 9,
+    "net": 13020.0,
+    "ft": 7,
+    "ft_pct": 77.8,
+    "per_week": 2.5,
+    "name": "G3_-65/+90",
+    "family": "geometry",
+    "not_computed": 0
+   },
+   {
+    "n": 9,
+    "net": 8220.0,
+    "ft": 5,
+    "ft_pct": 55.6,
+    "per_week": 2.5,
+    "name": "G4_-65/+120",
+    "family": "geometry",
+    "not_computed": 0
+   },
+   {
+    "n": 9,
+    "net": 6270.0,
+    "ft": 4,
+    "ft_pct": 44.4,
+    "per_week": 2.5,
+    "name": "G5_-65/+150",
+    "family": "geometry",
+    "not_computed": 0
+   },
+   {
+    "n": 9,
+    "net": 13020.0,
+    "ft": 7,
+    "ft_pct": 77.8,
+    "per_week": 2.5,
+    "name": "G6_runnerBE_+150",
+    "family": "geometry",
+    "not_computed": 0
+   },
+   {
+    "n": 9,
+    "net": 14520.0,
+    "ft": 7,
+    "ft_pct": 77.8,
+    "per_week": 2.5,
+    "name": "G7_runnerLOCK50_+150",
+    "family": "geometry",
+    "not_computed": 0
+   },
+   {
+    "n": 9,
+    "net": 13470.0,
+    "ft": 7,
+    "ft_pct": 77.8,
+    "per_week": 2.5,
+    "name": "G8_partial90_trail150",
+    "family": "geometry",
+    "not_computed": 0
+   },
+   {
+    "n": 12,
+    "net": 17160.0,
+    "ft": 9,
+    "ft_pct": 75.0,
+    "per_week": 3.33,
+    "name": "V1_base+NS1second",
+    "family": "volume",
+    "not_computed": 0
+   },
+   {
+    "n": 9,
+    "net": 13920.0,
+    "ft": 7,
+    "ft_pct": 77.8,
+    "per_week": 2.5,
+    "name": "V2_base+NS2aft",
+    "family": "volume",
+    "not_computed": 0
+   },
+   {
+    "n": 12,
+    "net": 17160.0,
+    "ft": 9,
+    "ft_pct": 75.0,
+    "per_week": 3.33,
+    "name": "V3_base+NS1+NS2",
+    "family": "volume",
+    "not_computed": 0
+   },
+   {
+    "n": 9,
+    "net": 13920.0,
+    "ft": 7,
+    "ft_pct": 77.8,
+    "per_week": 2.5,
+    "name": "V4_V3_filter-aNS",
+    "family": "volume",
+    "not_computed": 0
+   },
+   {
+    "n": 10,
+    "net": 16400.0,
+    "ft": 8,
+    "ft_pct": 80.0,
+    "per_week": 2.78,
+    "name": "V5_V3_filter-c-notextended",
+    "family": "volume",
+    "not_computed": 0
+   },
+   {
+    "n": 4,
+    "net": 9920.0,
+    "ft": 4,
+    "ft_pct": 100.0,
+    "per_week": 1.11,
+    "name": "E1_gate_mom_rising",
+    "family": "entry",
+    "not_computed": 0
+   },
+   {
+    "n": 4,
+    "net": 9920.0,
+    "ft": 4,
+    "ft_pct": 100.0,
+    "per_week": 1.11,
+    "name": "E2_gate_mom_+5",
+    "family": "entry",
+    "not_computed": 0
+   },
+   {
+    "n": 6,
+    "net": 6480.0,
+    "ft": 4,
+    "ft_pct": 66.7,
+    "per_week": 1.67,
+    "name": "E3_gate_vwap",
+    "family": "entry",
+    "not_computed": 0
+   },
+   {
+    "n": 9,
+    "net": 13920.0,
+    "ft": 7,
+    "ft_pct": 77.8,
+    "per_week": 2.5,
+    "name": "E4_delay1bar",
+    "family": "entry",
+    "not_computed": 0
+   },
+   {
+    "n": 5,
+    "net": 4000.0,
+    "ft": 3,
+    "ft_pct": 60.0,
+    "per_week": 1.39,
+    "name": "C2_union[(lA) v2+Skill V3]",
+    "family": "component",
+    "not_computed": 0
+   },
+   {
+    "n": 5,
+    "net": 8200.0,
+    "ft": 4,
+    "ft_pct": 80.0,
+    "per_week": 1.39,
+    "name": "C2_union[(lA) v2+V5 v2]",
+    "family": "component",
+    "not_computed": 0
+   },
+   {
+    "n": 3,
+    "net": 3240.0,
+    "ft": 2,
+    "ft_pct": 66.7,
+    "per_week": 0.83,
+    "name": "C2_union[(lA) v2+Volrix (b)]",
+    "family": "component",
+    "not_computed": 0
+   },
+   {
+    "n": 6,
+    "net": 10680.0,
+    "ft": 5,
+    "ft_pct": 83.3,
+    "per_week": 1.67,
+    "name": "C2_union[Skill V3+V5 v2]",
+    "family": "component",
+    "not_computed": 0
+   },
+   {
+    "n": 4,
+    "net": 5720.0,
+    "ft": 3,
+    "ft_pct": 75.0,
+    "per_week": 1.11,
+    "name": "C2_union[Skill V3+Volrix (b)]",
+    "family": "component",
+    "not_computed": 0
+   },
+   {
+    "n": 4,
+    "net": 9920.0,
+    "ft": 4,
+    "ft_pct": 100.0,
+    "per_week": 1.11,
+    "name": "C2_union[V5 v2+Volrix (b)]",
+    "family": "component",
+    "not_computed": 0
+   },
+   {
+    "n": 5,
+    "net": 4000.0,
+    "ft": 3,
+    "ft_pct": 60.0,
+    "per_week": 1.39,
+    "name": "C3_confirmed_only(>=2systems)",
+    "family": "component",
+    "not_computed": 0
+   },
+   {
+    "n": 9,
+    "net": 9720.0,
+    "ft": 6,
+    "ft_pct": 66.7,
+    "per_week": 2.5,
+    "name": "F5_ITM100_base",
+    "family": "strike",
+    "not_computed": 0
+   },
+   {
+    "n": 12,
+    "net": 15360.0,
+    "ft": 9,
+    "ft_pct": 75.0,
+    "per_week": 3.33,
+    "name": "S1_V3pool+bestGeom",
+    "family": "stack",
+    "not_computed": 0
+   },
+   {
+    "n": 6,
+    "net": 13680.0,
+    "ft": 6,
+    "ft_pct": 100.0,
+    "per_week": 1.67,
+    "name": "S2_S1+mom_gate",
+    "family": "stack",
+    "not_computed": 0
+   },
+   {
+    "n": 10,
+    "net": 12800.0,
+    "ft": 8,
+    "ft_pct": 80.0,
+    "per_week": 2.78,
+    "name": "S3_top2union[V5 v2+Skill V3]+NS+bestGeom",
+    "family": "stack",
+    "not_computed": 0
+   }
+  ]
+ },
+ "NIFTY": {
+  "best_geom": "G2_-50/+150",
+  "rows": [
+   {
+    "n": 8,
+    "net": 10775.25,
+    "ft": 4,
+    "ft_pct": 50.0,
+    "per_week": 2.22,
+    "name": "G0_base_-50/+90",
+    "family": "geometry",
+    "not_computed": 0
+   },
+   {
+    "n": 8,
+    "net": 10440.5,
+    "ft": 2,
+    "ft_pct": 25.0,
+    "per_week": 2.22,
+    "name": "G1_-50/+120",
+    "family": "geometry",
+    "not_computed": 0
+   },
+   {
+    "n": 8,
+    "net": 12390.5,
+    "ft": 1,
+    "ft_pct": 12.5,
+    "per_week": 2.22,
+    "name": "G2_-50/+150",
+    "family": "geometry",
+    "not_computed": 0
+   },
+   {
+    "n": 8,
+    "net": 7850.25,
+    "ft": 4,
+    "ft_pct": 50.0,
+    "per_week": 2.22,
+    "name": "G3_-65/+90",
+    "family": "geometry",
+    "not_computed": 0
+   },
+   {
+    "n": 8,
+    "net": 7515.5,
+    "ft": 2,
+    "ft_pct": 25.0,
+    "per_week": 2.22,
+    "name": "G4_-65/+120",
+    "family": "geometry",
+    "not_computed": 0
+   },
+   {
+    "n": 8,
+    "net": 9465.5,
+    "ft": 1,
+    "ft_pct": 12.5,
+    "per_week": 2.22,
+    "name": "G5_-65/+150",
+    "family": "geometry",
+    "not_computed": 0
+   },
+   {
+    "n": 8,
+    "net": 7531.75,
+    "ft": 4,
+    "ft_pct": 50.0,
+    "per_week": 2.22,
+    "name": "G6_runnerBE_+150",
+    "family": "geometry",
+    "not_computed": 0
+   },
+   {
+    "n": 8,
+    "net": 11425.25,
+    "ft": 4,
+    "ft_pct": 50.0,
+    "per_week": 2.22,
+    "name": "G7_runnerLOCK50_+150",
+    "family": "geometry",
+    "not_computed": 0
+   },
+   {
+    "n": 8,
+    "net": 9153.5,
+    "ft": 4,
+    "ft_pct": 50.0,
+    "per_week": 2.22,
+    "name": "G8_partial90_trail150",
+    "family": "geometry",
+    "not_computed": 0
+   },
+   {
+    "n": 13,
+    "net": 2470.0,
+    "ft": 4,
+    "ft_pct": 30.8,
+    "per_week": 3.61,
+    "name": "V1_base+NS1second",
+    "family": "volume",
+    "not_computed": 0
+   },
+   {
+    "n": 10,
+    "net": 5320.5,
+    "ft": 4,
+    "ft_pct": 40.0,
+    "per_week": 2.78,
+    "name": "V2_base+NS2aft",
+    "family": "volume",
+    "not_computed": 0
+   },
+   {
+    "n": 15,
+    "net": -2984.75,
+    "ft": 4,
+    "ft_pct": 26.7,
+    "per_week": 4.17,
+    "name": "V3_base+NS1+NS2",
+    "family": "volume",
+    "not_computed": 0
+   },
+   {
+    "n": 8,
+    "net": 10775.25,
+    "ft": 4,
+    "ft_pct": 50.0,
+    "per_week": 2.22,
+    "name": "V4_V3_filter-aNS",
+    "family": "volume",
+    "not_computed": 0
+   },
+   {
+    "n": 9,
+    "net": 7305.25,
+    "ft": 4,
+    "ft_pct": 44.4,
+    "per_week": 2.5,
+    "name": "V5_V3_filter-c-notextended",
+    "family": "volume",
+    "not_computed": 0
+   },
+   {
+    "n": 3,
+    "net": 9925.25,
+    "ft": 2,
+    "ft_pct": 66.7,
+    "per_week": 0.83,
+    "name": "E1_gate_mom_rising",
+    "family": "entry",
+    "not_computed": 0
+   },
+   {
+    "n": 2,
+    "net": 11260.0,
+    "ft": 2,
+    "ft_pct": 100.0,
+    "per_week": 0.56,
+    "name": "E2_gate_mom_+5",
+    "family": "entry",
+    "not_computed": 0
+   },
+   {
+    "n": 8,
+    "net": 10775.25,
+    "ft": 4,
+    "ft_pct": 50.0,
+    "per_week": 2.22,
+    "name": "E3_gate_vwap",
+    "family": "entry",
+    "not_computed": 0
+   },
+   {
+    "n": 8,
+    "net": -4272.25,
+    "ft": 2,
+    "ft_pct": 25.0,
+    "per_week": 2.22,
+    "name": "E4_delay1bar",
+    "family": "entry",
+    "not_computed": 0
+   },
+   {
+    "n": 4,
+    "net": 15555.25,
+    "ft": 3,
+    "ft_pct": 75.0,
+    "per_week": 1.11,
+    "name": "C1_drop_weakest[Skill V3]",
+    "family": "component",
+    "not_computed": 0
+   },
+   {
+    "n": 6,
+    "net": -484.75,
+    "ft": 2,
+    "ft_pct": 33.3,
+    "per_week": 1.67,
+    "name": "C2_union[(lA) v2+Skill V3]",
+    "family": "component",
+    "not_computed": 0
+   },
+   {
+    "n": 3,
+    "net": 9925.25,
+    "ft": 2,
+    "ft_pct": 66.7,
+    "per_week": 0.83,
+    "name": "C2_union[(lA) v2+V5 v2]",
+    "family": "component",
+    "not_computed": 0
+   },
+   {
+    "n": 3,
+    "net": 9925.25,
+    "ft": 2,
+    "ft_pct": 66.7,
+    "per_week": 0.83,
+    "name": "C2_union[(lA) v2+Volrix (b)]",
+    "family": "component",
+    "not_computed": 0
+   },
+   {
+    "n": 5,
+    "net": 850.0,
+    "ft": 2,
+    "ft_pct": 40.0,
+    "per_week": 1.39,
+    "name": "C2_union[Skill V3+V5 v2]",
+    "family": "component",
+    "not_computed": 0
+   },
+   {
+    "n": 5,
+    "net": 850.0,
+    "ft": 2,
+    "ft_pct": 40.0,
+    "per_week": 1.39,
+    "name": "C2_union[Skill V3+Volrix (b)]",
+    "family": "component",
+    "not_computed": 0
+   },
+   {
+    "n": 2,
+    "net": 11260.0,
+    "ft": 2,
+    "ft_pct": 100.0,
+    "per_week": 0.56,
+    "name": "C2_union[V5 v2+Volrix (b)]",
+    "family": "component",
+    "not_computed": 0
+   },
+   {
+    "n": 4,
+    "net": 15555.25,
+    "ft": 3,
+    "ft_pct": 75.0,
+    "per_week": 1.11,
+    "name": "C3_confirmed_only(>=2systems)",
+    "family": "component",
+    "not_computed": 0
+   },
+   {
+    "n": 8,
+    "net": 8640.0,
+    "ft": 4,
+    "ft_pct": 50.0,
+    "per_week": 2.22,
+    "name": "F5_ITM100_base",
+    "family": "strike",
+    "not_computed": 0
+   },
+   {
+    "n": 15,
+    "net": -1369.5,
+    "ft": 1,
+    "ft_pct": 6.7,
+    "per_week": 4.17,
+    "name": "S1_V3pool+bestGeom",
+    "family": "stack",
+    "not_computed": 0
+   },
+   {
+    "n": 6,
+    "net": -3019.75,
+    "ft": 0,
+    "ft_pct": 0.0,
+    "per_week": 1.67,
+    "name": "S2_S1+mom_gate",
+    "family": "stack",
+    "not_computed": 0
+   },
+   {
+    "n": 11,
+    "net": 1506.0,
+    "ft": 1,
+    "ft_pct": 9.1,
+    "per_week": 3.06,
+    "name": "S3_top2union[V5 v2+Volrix (b)]+NS+bestGeom",
+    "family": "stack",
+    "not_computed": 0
+   }
+  ]
+ }
+}

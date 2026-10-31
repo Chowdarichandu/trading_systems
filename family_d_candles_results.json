@@ -1,0 +1,1327 @@
+{
+  "Skill-S1-15m-primary NIFTY": {
+    "summary": {
+      "trades": 7,
+      "targets": 2,
+      "stops": 2,
+      "square_offs": 3,
+      "green": 5,
+      "net": 23685.0,
+      "per_week": 1.94
+    },
+    "rows": [
+      {
+        "date": "2026-10-06",
+        "net": 5890.0,
+        "exit": "square_off",
+        "signal": "09:45",
+        "direction": "CE",
+        "setup": "or_breakout"
+      },
+      {
+        "date": "2026-10-08",
+        "net": 10360.0,
+        "exit": "target",
+        "signal": "09:30",
+        "direction": "PE",
+        "setup": "or_breakdown"
+      },
+      {
+        "date": "2026-10-12",
+        "net": 9110.0,
+        "exit": "target",
+        "signal": "10:00",
+        "direction": "PE",
+        "setup": "or_breakdown"
+      },
+      {
+        "date": "2026-10-16",
+        "net": 2355.0,
+        "exit": "square_off",
+        "signal": "10:00",
+        "direction": "CE",
+        "setup": "or_breakout"
+      },
+      {
+        "date": "2026-10-26",
+        "net": 8095.0,
+        "exit": "square_off",
+        "signal": "09:45",
+        "direction": "CE",
+        "setup": "or_breakout"
+      },
+      {
+        "date": "2026-10-27",
+        "net": -5500.0,
+        "exit": "stop",
+        "signal": "09:30",
+        "direction": "CE",
+        "setup": "or_breakout"
+      },
+      {
+        "date": "2026-10-28",
+        "net": -6625.0,
+        "exit": "stop",
+        "signal": "10:15",
+        "direction": "PE",
+        "setup": "or_breakdown"
+      }
+    ],
+    "blocked": [
+      [
+        "2026-10-05",
+        "room_ratio_0.34<1.5"
+      ],
+      [
+        "2026-10-07",
+        "room_ratio_0.94<1.5"
+      ],
+      [
+        "2026-10-09",
+        "S1_CE_bearish"
+      ],
+      [
+        "2026-10-13",
+        "S1_CE_bearish"
+      ],
+      [
+        "2026-10-15",
+        "S1_CE_bearish"
+      ],
+      [
+        "2026-10-21",
+        "S1_CE_bearish"
+      ],
+      [
+        "2026-10-22",
+        "S1_CE_bearish"
+      ],
+      [
+        "2026-10-23",
+        "S1_0930_PE_not_below_PDL"
+      ]
+    ]
+  },
+  "Skill-S1-15m-sens NIFTY": {
+    "summary": {
+      "trades": 9,
+      "targets": 2,
+      "stops": 4,
+      "square_offs": 3,
+      "green": 5,
+      "net": 12530.0,
+      "per_week": 2.5
+    },
+    "rows": [
+      {
+        "date": "2026-10-05",
+        "net": -2295.0,
+        "exit": "stop",
+        "signal": "09:30",
+        "direction": "CE",
+        "setup": "or_breakout"
+      },
+      {
+        "date": "2026-10-06",
+        "net": 5890.0,
+        "exit": "square_off",
+        "signal": "09:45",
+        "direction": "CE",
+        "setup": "or_breakout"
+      },
+      {
+        "date": "2026-10-07",
+        "net": -8860.0,
+        "exit": "stop",
+        "signal": "10:15",
+        "direction": "CE",
+        "setup": "or_breakout"
+      },
+      {
+        "date": "2026-10-08",
+        "net": 10360.0,
+        "exit": "target",
+        "signal": "09:30",
+        "direction": "PE",
+        "setup": "or_breakdown"
+      },
+      {
+        "date": "2026-10-12",
+        "net": 9110.0,
+        "exit": "target",
+        "signal": "10:00",
+        "direction": "PE",
+        "setup": "or_breakdown"
+      },
+      {
+        "date": "2026-10-16",
+        "net": 2355.0,
+        "exit": "square_off",
+        "signal": "10:00",
+        "direction": "CE",
+        "setup": "or_breakout"
+      },
+      {
+        "date": "2026-10-26",
+        "net": 8095.0,
+        "exit": "square_off",
+        "signal": "09:45",
+        "direction": "CE",
+        "setup": "or_breakout"
+      },
+      {
+        "date": "2026-10-27",
+        "net": -5500.0,
+        "exit": "stop",
+        "signal": "09:30",
+        "direction": "CE",
+        "setup": "or_breakout"
+      },
+      {
+        "date": "2026-10-28",
+        "net": -6625.0,
+        "exit": "stop",
+        "signal": "10:15",
+        "direction": "PE",
+        "setup": "or_breakdown"
+      }
+    ],
+    "blocked": [
+      [
+        "2026-10-09",
+        "S1_CE_bearish"
+      ],
+      [
+        "2026-10-13",
+        "S1_CE_bearish"
+      ],
+      [
+        "2026-10-15",
+        "S1_CE_bearish"
+      ],
+      [
+        "2026-10-21",
+        "S1_CE_bearish"
+      ],
+      [
+        "2026-10-22",
+        "S1_CE_bearish"
+      ],
+      [
+        "2026-10-23",
+        "S1_0930_PE_not_below_PDL"
+      ]
+    ]
+  },
+  "(lA)-L1-15m-primary NIFTY": {
+    "summary": {
+      "trades": 3,
+      "targets": 1,
+      "stops": 0,
+      "square_offs": 2,
+      "green": 2,
+      "net": 23515.0,
+      "per_week": 0.83
+    },
+    "rows": [
+      {
+        "date": "2026-10-08",
+        "net": 12440.0,
+        "exit": "square_off",
+        "signal": "11:15",
+        "direction": "PE",
+        "setup": "la_pe_rescan_reentry_L1",
+        "morning_exit": "square_off",
+        "morning_net": 12440.0,
+        "re_exit": null,
+        "re_net": null
+      },
+      {
+        "date": "2026-10-21",
+        "net": 11900.0,
+        "exit": "target",
+        "signal": "11:30",
+        "direction": "PE",
+        "setup": "la_pe_rescan_reentry_L1",
+        "morning_exit": "target",
+        "morning_net": 11900.0,
+        "re_exit": null,
+        "re_net": null
+      },
+      {
+        "date": "2026-10-23",
+        "net": -825.0,
+        "exit": "square_off",
+        "signal": "10:00",
+        "direction": "PE",
+        "setup": "la_pe_rescan_reentry_L1",
+        "morning_exit": "square_off",
+        "morning_net": -825.0,
+        "re_exit": null,
+        "re_net": null
+      }
+    ],
+    "blocked": [
+      [
+        "2026-10-01",
+        "no_confirmer_break"
+      ],
+      [
+        "2026-10-05",
+        "no_rescan"
+      ],
+      [
+        "2026-10-06",
+        "no_confirmer_break"
+      ],
+      [
+        "2026-10-07",
+        "no_confirmer_break"
+      ],
+      [
+        "2026-10-09",
+        "no_confirmer_break"
+      ],
+      [
+        "2026-10-12",
+        "no_rescan"
+      ],
+      [
+        "2026-10-13",
+        "no_confirmer_break"
+      ],
+      [
+        "2026-10-14",
+        "no_confirmer_break"
+      ],
+      [
+        "2026-10-15",
+        "no_confirmer_break"
+      ],
+      [
+        "2026-10-16",
+        "no_rescan"
+      ],
+      [
+        "2026-10-19",
+        "no_confirmer_break"
+      ],
+      [
+        "2026-10-22",
+        "no_confirmer_break"
+      ],
+      [
+        "2026-10-26",
+        "no_confirmer_break"
+      ],
+      [
+        "2026-10-27",
+        "no_confirmer_break"
+      ],
+      [
+        "2026-10-28",
+        "no_confirmer_break"
+      ]
+    ]
+  },
+  "(lA)-L1-15m-sens NIFTY": {
+    "summary": {
+      "trades": 3,
+      "targets": 1,
+      "stops": 0,
+      "square_offs": 2,
+      "green": 2,
+      "net": 23515.0,
+      "per_week": 0.83
+    },
+    "rows": [
+      {
+        "date": "2026-10-08",
+        "net": 12440.0,
+        "exit": "square_off",
+        "signal": "11:15",
+        "direction": "PE",
+        "setup": "la_pe_rescan_reentry_L1",
+        "morning_exit": "square_off",
+        "morning_net": 12440.0,
+        "re_exit": null,
+        "re_net": null
+      },
+      {
+        "date": "2026-10-21",
+        "net": 11900.0,
+        "exit": "target",
+        "signal": "11:30",
+        "direction": "PE",
+        "setup": "la_pe_rescan_reentry_L1",
+        "morning_exit": "target",
+        "morning_net": 11900.0,
+        "re_exit": null,
+        "re_net": null
+      },
+      {
+        "date": "2026-10-23",
+        "net": -825.0,
+        "exit": "square_off",
+        "signal": "10:00",
+        "direction": "PE",
+        "setup": "la_pe_rescan_reentry_L1",
+        "morning_exit": "square_off",
+        "morning_net": -825.0,
+        "re_exit": null,
+        "re_net": null
+      }
+    ],
+    "blocked": [
+      [
+        "2026-10-01",
+        "no_confirmer_break"
+      ],
+      [
+        "2026-10-05",
+        "no_rescan"
+      ],
+      [
+        "2026-10-06",
+        "no_confirmer_break"
+      ],
+      [
+        "2026-10-07",
+        "no_confirmer_break"
+      ],
+      [
+        "2026-10-09",
+        "no_confirmer_break"
+      ],
+      [
+        "2026-10-12",
+        "no_rescan"
+      ],
+      [
+        "2026-10-13",
+        "no_confirmer_break"
+      ],
+      [
+        "2026-10-14",
+        "no_confirmer_break"
+      ],
+      [
+        "2026-10-15",
+        "no_confirmer_break"
+      ],
+      [
+        "2026-10-16",
+        "no_rescan"
+      ],
+      [
+        "2026-10-19",
+        "no_confirmer_break"
+      ],
+      [
+        "2026-10-22",
+        "no_confirmer_break"
+      ],
+      [
+        "2026-10-26",
+        "no_confirmer_break"
+      ],
+      [
+        "2026-10-27",
+        "no_confirmer_break"
+      ],
+      [
+        "2026-10-28",
+        "no_confirmer_break"
+      ]
+    ]
+  },
+  "V4-15m-primary NIFTY": {
+    "summary": {
+      "trades": 5,
+      "targets": 2,
+      "stops": 1,
+      "square_offs": 2,
+      "green": 3,
+      "net": 22905.0,
+      "per_week": 1.39
+    },
+    "rows": [
+      {
+        "date": "2026-10-08",
+        "net": 10360.0,
+        "exit": "target",
+        "signal": "09:30",
+        "direction": "PE",
+        "setup": "setup2_or_breakdown"
+      },
+      {
+        "date": "2026-10-21",
+        "net": 11900.0,
+        "exit": "target",
+        "signal": "11:30",
+        "direction": "PE",
+        "setup": "setup2_or_breakdown"
+      },
+      {
+        "date": "2026-10-23",
+        "net": -825.0,
+        "exit": "square_off",
+        "signal": "10:00",
+        "direction": "PE",
+        "setup": "setup2_or_breakdown"
+      },
+      {
+        "date": "2026-10-26",
+        "net": 8095.0,
+        "exit": "square_off",
+        "signal": "09:45",
+        "direction": "CE",
+        "setup": "setup4_reclaim"
+      },
+      {
+        "date": "2026-10-28",
+        "net": -6625.0,
+        "exit": "stop",
+        "signal": "10:15",
+        "direction": "PE",
+        "setup": "setup2_or_breakdown"
+      }
+    ],
+    "blocked": []
+  },
+  "V4-15m-sens NIFTY": {
+    "summary": {
+      "trades": 5,
+      "targets": 2,
+      "stops": 1,
+      "square_offs": 2,
+      "green": 3,
+      "net": 22905.0,
+      "per_week": 1.39
+    },
+    "rows": [
+      {
+        "date": "2026-10-08",
+        "net": 10360.0,
+        "exit": "target",
+        "signal": "09:30",
+        "direction": "PE",
+        "setup": "setup2_or_breakdown"
+      },
+      {
+        "date": "2026-10-21",
+        "net": 11900.0,
+        "exit": "target",
+        "signal": "11:30",
+        "direction": "PE",
+        "setup": "setup2_or_breakdown"
+      },
+      {
+        "date": "2026-10-23",
+        "net": -825.0,
+        "exit": "square_off",
+        "signal": "10:00",
+        "direction": "PE",
+        "setup": "setup2_or_breakdown"
+      },
+      {
+        "date": "2026-10-26",
+        "net": 8095.0,
+        "exit": "square_off",
+        "signal": "09:45",
+        "direction": "CE",
+        "setup": "setup4_reclaim"
+      },
+      {
+        "date": "2026-10-28",
+        "net": -6625.0,
+        "exit": "stop",
+        "signal": "10:15",
+        "direction": "PE",
+        "setup": "setup2_or_breakdown"
+      }
+    ],
+    "blocked": []
+  },
+  "V5-15m-primary NIFTY": {
+    "summary": {
+      "trades": 3,
+      "targets": 2,
+      "stops": 0,
+      "square_offs": 1,
+      "green": 3,
+      "net": 30355.0,
+      "per_week": 0.83
+    },
+    "rows": [
+      {
+        "symbol": "NIFTY",
+        "date": "2026-10-26",
+        "week": "2026-W44",
+        "method": "V4",
+        "setup": "setup4_reclaim",
+        "direction": "CE",
+        "exit": "square_off",
+        "net": 8095.0,
+        "target_net": 38250.0,
+        "setup_rank": 3,
+        "room_ratio": 1.835,
+        "bias_strong": 0
+      },
+      {
+        "symbol": "NIFTY",
+        "date": "2026-10-21",
+        "week": "2026-W43",
+        "method": "V4",
+        "setup": "setup2_or_breakdown",
+        "direction": "PE",
+        "exit": "target",
+        "net": 11900.0,
+        "target_net": 11900.0,
+        "setup_rank": 1,
+        "room_ratio": Infinity,
+        "bias_strong": 1
+      },
+      {
+        "symbol": "NIFTY",
+        "date": "2026-10-08",
+        "week": "2026-W41",
+        "method": "V4",
+        "setup": "setup2_or_breakdown",
+        "direction": "PE",
+        "exit": "target",
+        "net": 10360.0,
+        "target_net": 10360.0,
+        "setup_rank": 1,
+        "room_ratio": Infinity,
+        "bias_strong": 1
+      }
+    ],
+    "pool": [
+      {
+        "symbol": "NIFTY",
+        "date": "2026-10-08",
+        "week": "2026-W41",
+        "method": "V4",
+        "setup": "setup2_or_breakdown",
+        "direction": "PE",
+        "exit": "target",
+        "net": 10360.0,
+        "target_net": 10360.0,
+        "setup_rank": 1,
+        "room_ratio": Infinity,
+        "bias_strong": 1
+      },
+      {
+        "symbol": "NIFTY",
+        "date": "2026-10-08",
+        "week": "2026-W41",
+        "method": "SkillFilt",
+        "setup": "or_breakdown",
+        "direction": "PE",
+        "exit": "target",
+        "net": 10360.0,
+        "target_net": 10360.0,
+        "setup_rank": 0,
+        "room_ratio": Infinity,
+        "bias_strong": 1
+      },
+      {
+        "symbol": "NIFTY",
+        "date": "2026-10-21",
+        "week": "2026-W43",
+        "method": "V4",
+        "setup": "setup2_or_breakdown",
+        "direction": "PE",
+        "exit": "target",
+        "net": 11900.0,
+        "target_net": 11900.0,
+        "setup_rank": 1,
+        "room_ratio": Infinity,
+        "bias_strong": 1
+      },
+      {
+        "symbol": "NIFTY",
+        "date": "2026-10-23",
+        "week": "2026-W43",
+        "method": "V4",
+        "setup": "setup2_or_breakdown",
+        "direction": "PE",
+        "exit": "square_off",
+        "net": -825.0,
+        "target_net": 20310.0,
+        "setup_rank": 1,
+        "room_ratio": Infinity,
+        "bias_strong": 0
+      },
+      {
+        "symbol": "NIFTY",
+        "date": "2026-10-26",
+        "week": "2026-W44",
+        "method": "V4",
+        "setup": "setup4_reclaim",
+        "direction": "CE",
+        "exit": "square_off",
+        "net": 8095.0,
+        "target_net": 38250.0,
+        "setup_rank": 3,
+        "room_ratio": 1.835,
+        "bias_strong": 0
+      },
+      {
+        "symbol": "NIFTY",
+        "date": "2026-10-26",
+        "week": "2026-W44",
+        "method": "SkillFilt",
+        "setup": "or_breakout",
+        "direction": "CE",
+        "exit": "square_off",
+        "net": 8095.0,
+        "target_net": 38250.0,
+        "setup_rank": 0,
+        "room_ratio": 1.835,
+        "bias_strong": 0
+      },
+      {
+        "symbol": "NIFTY",
+        "date": "2026-10-28",
+        "week": "2026-W44",
+        "method": "V4",
+        "setup": "setup2_or_breakdown",
+        "direction": "PE",
+        "exit": "stop",
+        "net": -6625.0,
+        "target_net": 13130.0,
+        "setup_rank": 1,
+        "room_ratio": Infinity,
+        "bias_strong": 0
+      },
+      {
+        "symbol": "NIFTY",
+        "date": "2026-10-28",
+        "week": "2026-W44",
+        "method": "SkillFilt",
+        "setup": "or_breakdown",
+        "direction": "PE",
+        "exit": "stop",
+        "net": -6625.0,
+        "target_net": 13130.0,
+        "setup_rank": 0,
+        "room_ratio": Infinity,
+        "bias_strong": 0
+      }
+    ]
+  },
+  "Skill-S1-15m-primary BANKNIFTY": {
+    "summary": {
+      "trades": 6,
+      "targets": 2,
+      "stops": 4,
+      "square_offs": 0,
+      "green": 2,
+      "net": -10340.0,
+      "per_week": 1.67
+    },
+    "rows": [
+      {
+        "date": "2026-10-07",
+        "net": -28580.0,
+        "exit": "stop",
+        "signal": "10:15",
+        "direction": "CE",
+        "setup": "or_breakout"
+      },
+      {
+        "date": "2026-10-12",
+        "net": 13020.0,
+        "exit": "target",
+        "signal": "10:15",
+        "direction": "PE",
+        "setup": "or_breakdown"
+      },
+      {
+        "date": "2026-10-14",
+        "net": -23005.0,
+        "exit": "stop",
+        "signal": "09:30",
+        "direction": "CE",
+        "setup": "or_breakout"
+      },
+      {
+        "date": "2026-10-16",
+        "net": -3675.0,
+        "exit": "stop",
+        "signal": "09:45",
+        "direction": "PE",
+        "setup": "or_breakdown"
+      },
+      {
+        "date": "2026-10-23",
+        "net": 48610.0,
+        "exit": "target",
+        "signal": "09:45",
+        "direction": "PE",
+        "setup": "or_breakdown"
+      },
+      {
+        "date": "2026-10-27",
+        "net": -16710.0,
+        "exit": "stop",
+        "signal": "09:30",
+        "direction": "CE",
+        "setup": "or_breakout"
+      }
+    ],
+    "blocked": [
+      [
+        "2026-10-01",
+        "room_ratio_1.06<1.5"
+      ],
+      [
+        "2026-10-05",
+        "room_ratio_1.28<1.5"
+      ],
+      [
+        "2026-10-06",
+        "room_ratio_0.79<1.5"
+      ],
+      [
+        "2026-10-08",
+        "room_ratio_0.56<1.5"
+      ],
+      [
+        "2026-10-09",
+        "S1_CE_bearish"
+      ],
+      [
+        "2026-10-13",
+        "S1_CE_bearish"
+      ],
+      [
+        "2026-10-15",
+        "S1_CE_bearish"
+      ],
+      [
+        "2026-10-21",
+        "S1_CE_bearish"
+      ],
+      [
+        "2026-10-22",
+        "S1_CE_bearish"
+      ],
+      [
+        "2026-10-28",
+        "S1_CE_bearish"
+      ]
+    ]
+  },
+  "Skill-S1-15m-sens BANKNIFTY": {
+    "summary": {
+      "trades": 10,
+      "targets": 3,
+      "stops": 6,
+      "square_offs": 1,
+      "green": 4,
+      "net": 17370.0,
+      "per_week": 2.78
+    },
+    "rows": [
+      {
+        "date": "2026-10-01",
+        "net": -10225.0,
+        "exit": "stop",
+        "signal": "09:45",
+        "direction": "CE",
+        "setup": "or_breakout"
+      },
+      {
+        "date": "2026-10-05",
+        "net": 22870.0,
+        "exit": "target",
+        "signal": "10:45",
+        "direction": "PE",
+        "setup": "or_breakdown"
+      },
+      {
+        "date": "2026-10-06",
+        "net": -13640.0,
+        "exit": "stop",
+        "signal": "09:30",
+        "direction": "CE",
+        "setup": "or_breakout"
+      },
+      {
+        "date": "2026-10-07",
+        "net": -28580.0,
+        "exit": "stop",
+        "signal": "10:15",
+        "direction": "CE",
+        "setup": "or_breakout"
+      },
+      {
+        "date": "2026-10-08",
+        "net": 28705.0,
+        "exit": "square_off",
+        "signal": "11:15",
+        "direction": "PE",
+        "setup": "or_breakdown"
+      },
+      {
+        "date": "2026-10-12",
+        "net": 13020.0,
+        "exit": "target",
+        "signal": "10:15",
+        "direction": "PE",
+        "setup": "or_breakdown"
+      },
+      {
+        "date": "2026-10-14",
+        "net": -23005.0,
+        "exit": "stop",
+        "signal": "09:30",
+        "direction": "CE",
+        "setup": "or_breakout"
+      },
+      {
+        "date": "2026-10-16",
+        "net": -3675.0,
+        "exit": "stop",
+        "signal": "09:45",
+        "direction": "PE",
+        "setup": "or_breakdown"
+      },
+      {
+        "date": "2026-10-23",
+        "net": 48610.0,
+        "exit": "target",
+        "signal": "09:45",
+        "direction": "PE",
+        "setup": "or_breakdown"
+      },
+      {
+        "date": "2026-10-27",
+        "net": -16710.0,
+        "exit": "stop",
+        "signal": "09:30",
+        "direction": "CE",
+        "setup": "or_breakout"
+      }
+    ],
+    "blocked": [
+      [
+        "2026-10-09",
+        "S1_CE_bearish"
+      ],
+      [
+        "2026-10-13",
+        "S1_CE_bearish"
+      ],
+      [
+        "2026-10-15",
+        "S1_CE_bearish"
+      ],
+      [
+        "2026-10-21",
+        "S1_CE_bearish"
+      ],
+      [
+        "2026-10-22",
+        "S1_CE_bearish"
+      ],
+      [
+        "2026-10-28",
+        "S1_CE_bearish"
+      ]
+    ]
+  },
+  "(lA)-L1-15m-primary BANKNIFTY": {
+    "summary": {
+      "trades": 3,
+      "targets": 2,
+      "stops": 1,
+      "square_offs": 0,
+      "green": 2,
+      "net": 82935.0,
+      "per_week": 0.83
+    },
+    "rows": [
+      {
+        "date": "2026-10-08",
+        "net": -2005.0,
+        "exit": "stop",
+        "signal": "13:15",
+        "direction": "PE",
+        "setup": "la_pe_rescan_reentry_L1",
+        "morning_exit": "stop",
+        "morning_net": -11695.0,
+        "re_exit": "target",
+        "re_net": 9690.0
+      },
+      {
+        "date": "2026-10-21",
+        "net": 36330.0,
+        "exit": "target",
+        "signal": "11:15",
+        "direction": "PE",
+        "setup": "la_pe_rescan_reentry_L1",
+        "morning_exit": "target",
+        "morning_net": 36330.0,
+        "re_exit": null,
+        "re_net": null
+      },
+      {
+        "date": "2026-10-23",
+        "net": 48610.0,
+        "exit": "target",
+        "signal": "09:45",
+        "direction": "PE",
+        "setup": "la_pe_rescan_reentry_L1",
+        "morning_exit": "target",
+        "morning_net": 48610.0,
+        "re_exit": null,
+        "re_net": null
+      }
+    ],
+    "blocked": [
+      [
+        "2026-10-01",
+        "no_confirmer_break"
+      ],
+      [
+        "2026-10-05",
+        "no_rescan"
+      ],
+      [
+        "2026-10-06",
+        "no_confirmer_break"
+      ],
+      [
+        "2026-10-07",
+        "no_confirmer_break"
+      ],
+      [
+        "2026-10-09",
+        "no_confirmer_break"
+      ],
+      [
+        "2026-10-12",
+        "no_rescan"
+      ],
+      [
+        "2026-10-13",
+        "no_confirmer_break"
+      ],
+      [
+        "2026-10-14",
+        "no_confirmer_break"
+      ],
+      [
+        "2026-10-15",
+        "no_confirmer_break"
+      ],
+      [
+        "2026-10-16",
+        "no_confirmer_break"
+      ],
+      [
+        "2026-10-19",
+        "no_confirmer_break"
+      ],
+      [
+        "2026-10-22",
+        "no_confirmer_break"
+      ],
+      [
+        "2026-10-26",
+        "no_confirmer_break"
+      ],
+      [
+        "2026-10-27",
+        "no_confirmer_break"
+      ],
+      [
+        "2026-10-28",
+        "no_rescan"
+      ]
+    ]
+  },
+  "(lA)-L1-15m-sens BANKNIFTY": {
+    "summary": {
+      "trades": 3,
+      "targets": 2,
+      "stops": 1,
+      "square_offs": 0,
+      "green": 2,
+      "net": 82935.0,
+      "per_week": 0.83
+    },
+    "rows": [
+      {
+        "date": "2026-10-08",
+        "net": -2005.0,
+        "exit": "stop",
+        "signal": "13:15",
+        "direction": "PE",
+        "setup": "la_pe_rescan_reentry_L1",
+        "morning_exit": "stop",
+        "morning_net": -11695.0,
+        "re_exit": "target",
+        "re_net": 9690.0
+      },
+      {
+        "date": "2026-10-21",
+        "net": 36330.0,
+        "exit": "target",
+        "signal": "11:15",
+        "direction": "PE",
+        "setup": "la_pe_rescan_reentry_L1",
+        "morning_exit": "target",
+        "morning_net": 36330.0,
+        "re_exit": null,
+        "re_net": null
+      },
+      {
+        "date": "2026-10-23",
+        "net": 48610.0,
+        "exit": "target",
+        "signal": "09:45",
+        "direction": "PE",
+        "setup": "la_pe_rescan_reentry_L1",
+        "morning_exit": "target",
+        "morning_net": 48610.0,
+        "re_exit": null,
+        "re_net": null
+      }
+    ],
+    "blocked": [
+      [
+        "2026-10-01",
+        "no_confirmer_break"
+      ],
+      [
+        "2026-10-05",
+        "no_rescan"
+      ],
+      [
+        "2026-10-06",
+        "no_confirmer_break"
+      ],
+      [
+        "2026-10-07",
+        "no_confirmer_break"
+      ],
+      [
+        "2026-10-09",
+        "no_confirmer_break"
+      ],
+      [
+        "2026-10-12",
+        "no_rescan"
+      ],
+      [
+        "2026-10-13",
+        "no_confirmer_break"
+      ],
+      [
+        "2026-10-14",
+        "no_confirmer_break"
+      ],
+      [
+        "2026-10-15",
+        "no_confirmer_break"
+      ],
+      [
+        "2026-10-16",
+        "no_confirmer_break"
+      ],
+      [
+        "2026-10-19",
+        "no_confirmer_break"
+      ],
+      [
+        "2026-10-22",
+        "no_confirmer_break"
+      ],
+      [
+        "2026-10-26",
+        "no_confirmer_break"
+      ],
+      [
+        "2026-10-27",
+        "no_confirmer_break"
+      ],
+      [
+        "2026-10-28",
+        "no_rescan"
+      ]
+    ]
+  },
+  "V4-15m-primary BANKNIFTY": {
+    "summary": {
+      "trades": 2,
+      "targets": 2,
+      "stops": 0,
+      "square_offs": 0,
+      "green": 2,
+      "net": 84940.0,
+      "per_week": 0.56
+    },
+    "rows": [
+      {
+        "date": "2026-10-21",
+        "net": 36330.0,
+        "exit": "target",
+        "signal": "11:15",
+        "direction": "PE",
+        "setup": "setup2_or_breakdown"
+      },
+      {
+        "date": "2026-10-23",
+        "net": 48610.0,
+        "exit": "target",
+        "signal": "09:45",
+        "direction": "PE",
+        "setup": "setup2_or_breakdown"
+      }
+    ],
+    "blocked": [
+      [
+        "2026-10-01",
+        "room_ratio_1.06<1.5"
+      ],
+      [
+        "2026-10-13",
+        "room_ratio_1.29<1.5"
+      ],
+      [
+        "2026-10-26",
+        "room_ratio_1.25<1.5"
+      ]
+    ]
+  },
+  "V4-15m-sens BANKNIFTY": {
+    "summary": {
+      "trades": 5,
+      "targets": 3,
+      "stops": 2,
+      "square_offs": 0,
+      "green": 3,
+      "net": 94915.0,
+      "per_week": 1.39
+    },
+    "rows": [
+      {
+        "date": "2026-10-01",
+        "net": -10225.0,
+        "exit": "stop",
+        "signal": "09:45",
+        "direction": "CE",
+        "setup": "setup4_reclaim"
+      },
+      {
+        "date": "2026-10-13",
+        "net": -6830.0,
+        "exit": "stop",
+        "signal": "11:15",
+        "direction": "PE",
+        "setup": "setup3_bounce_rejection"
+      },
+      {
+        "date": "2026-10-21",
+        "net": 36330.0,
+        "exit": "target",
+        "signal": "11:15",
+        "direction": "PE",
+        "setup": "setup2_or_breakdown"
+      },
+      {
+        "date": "2026-10-23",
+        "net": 48610.0,
+        "exit": "target",
+        "signal": "09:45",
+        "direction": "PE",
+        "setup": "setup2_or_breakdown"
+      },
+      {
+        "date": "2026-10-26",
+        "net": 27030.0,
+        "exit": "target",
+        "signal": "10:15",
+        "direction": "PE",
+        "setup": "setup3_bounce_rejection"
+      }
+    ],
+    "blocked": []
+  },
+  "V5-15m-primary BANKNIFTY": {
+    "summary": {
+      "trades": 1,
+      "targets": 1,
+      "stops": 0,
+      "square_offs": 0,
+      "green": 1,
+      "net": 36330.0,
+      "per_week": 0.28
+    },
+    "rows": [
+      {
+        "symbol": "BANKNIFTY",
+        "date": "2026-10-21",
+        "week": "2026-W43",
+        "method": "V4",
+        "setup": "setup2_or_breakdown",
+        "direction": "PE",
+        "exit": "target",
+        "net": 36330.0,
+        "target_net": 36330.0,
+        "setup_rank": 1,
+        "room_ratio": Infinity,
+        "bias_strong": 1
+      }
+    ],
+    "pool": [
+      {
+        "symbol": "BANKNIFTY",
+        "date": "2026-10-21",
+        "week": "2026-W43",
+        "method": "V4",
+        "setup": "setup2_or_breakdown",
+        "direction": "PE",
+        "exit": "target",
+        "net": 36330.0,
+        "target_net": 36330.0,
+        "setup_rank": 1,
+        "room_ratio": Infinity,
+        "bias_strong": 1
+      },
+      {
+        "symbol": "BANKNIFTY",
+        "date": "2026-10-23",
+        "week": "2026-W43",
+        "method": "V4",
+        "setup": "setup2_or_breakdown",
+        "direction": "PE",
+        "exit": "target",
+        "net": 48610.0,
+        "target_net": 48610.0,
+        "setup_rank": 1,
+        "room_ratio": Infinity,
+        "bias_strong": 0
+      },
+      {
+        "symbol": "BANKNIFTY",
+        "date": "2026-10-23",
+        "week": "2026-W43",
+        "method": "SkillFilt",
+        "setup": "or_breakdown",
+        "direction": "PE",
+        "exit": "target",
+        "net": 48610.0,
+        "target_net": 48610.0,
+        "setup_rank": 0,
+        "room_ratio": Infinity,
+        "bias_strong": 0
+      }
+    ]
+  }
+}
