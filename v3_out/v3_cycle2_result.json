@@ -1,0 +1,473 @@
+{
+ "cycle": 2,
+ "challenger": "CH-V3-2 INV-ABOVE-R3 (above-trend, round>=3)",
+ "2025": {
+  "r3": {
+   "trades": 28,
+   "net": 5158.67,
+   "expectancy": 184.24,
+   "winners": 13,
+   "months": {
+    "2025-03": -883.0,
+    "2025-04": 1346.62,
+    "2025-05": 3825.52,
+    "2025-06": 273.39,
+    "2025-09": -93.51,
+    "2025-10": -466.38,
+    "2025-11": 178.33,
+    "2025-12": 977.7
+   }
+  },
+  "placebo": {
+   "trades": 16,
+   "net": 3785.37,
+   "expectancy": 236.59,
+   "winners": 7,
+   "months": {
+    "2025-04": 4425.37,
+    "2025-05": -243.5,
+    "2025-07": -180.45,
+    "2025-12": -216.05
+   }
+  },
+  "rows": [
+   {
+    "date": "2025-03-24",
+    "stock": "OBEROIRLTY",
+    "direction": "LONG",
+    "entry_time": "10:25",
+    "net": -883.0,
+    "round": 3
+   },
+   {
+    "date": "2025-05-19",
+    "stock": "OBEROIRLTY",
+    "direction": "LONG",
+    "entry_time": "10:05",
+    "net": 2080.0,
+    "round": 3
+   },
+   {
+    "date": "2025-04-22",
+    "stock": "NHPC",
+    "direction": "LONG",
+    "entry_time": "10:00",
+    "net": -84.78,
+    "round": 3
+   },
+   {
+    "date": "2025-04-22",
+    "stock": "NHPC",
+    "direction": "LONG",
+    "entry_time": "10:15",
+    "net": 71.5,
+    "round": 4
+   },
+   {
+    "date": "2025-04-24",
+    "stock": "PFC",
+    "direction": "LONG",
+    "entry_time": "10:15",
+    "net": -257.3,
+    "round": 3
+   },
+   {
+    "date": "2025-05-12",
+    "stock": "NATIONALUM",
+    "direction": "LONG",
+    "entry_time": "10:20",
+    "net": 164.65,
+    "round": 3
+   },
+   {
+    "date": "2025-05-19",
+    "stock": "NATIONALUM",
+    "direction": "LONG",
+    "entry_time": "10:00",
+    "net": -131.13,
+    "round": 3
+   },
+   {
+    "date": "2025-06-04",
+    "stock": "HINDCOPPER",
+    "direction": "LONG",
+    "entry_time": "10:10",
+    "net": 273.39,
+    "round": 3
+   },
+   {
+    "date": "2025-09-12",
+    "stock": "HINDCOPPER",
+    "direction": "LONG",
+    "entry_time": "10:25",
+    "net": 287.64,
+    "round": 3
+   },
+   {
+    "date": "2025-09-22",
+    "stock": "HINDCOPPER",
+    "direction": "LONG",
+    "entry_time": "10:10",
+    "net": -191.13,
+    "round": 3
+   },
+   {
+    "date": "2025-09-22",
+    "stock": "HINDCOPPER",
+    "direction": "LONG",
+    "entry_time": "10:25",
+    "net": -190.02,
+    "round": 4
+   },
+   {
+    "date": "2025-10-09",
+    "stock": "HINDCOPPER",
+    "direction": "LONG",
+    "entry_time": "09:50",
+    "net": 407.69,
+    "round": 3
+   },
+   {
+    "date": "2025-10-09",
+    "stock": "HINDCOPPER",
+    "direction": "LONG",
+    "entry_time": "10:10",
+    "net": -221.82,
+    "round": 4
+   },
+   {
+    "date": "2025-10-09",
+    "stock": "HINDCOPPER",
+    "direction": "LONG",
+    "entry_time": "10:20",
+    "net": -221.57,
+    "round": 5
+   },
+   {
+    "date": "2025-10-09",
+    "stock": "HINDCOPPER",
+    "direction": "LONG",
+    "entry_time": "10:25",
+    "net": -220.68,
+    "round": 6
+   },
+   {
+    "date": "2025-10-15",
+    "stock": "HINDCOPPER",
+    "direction": "LONG",
+    "entry_time": "10:25",
+    "net": -210.0,
+    "round": 3
+   },
+   {
+    "date": "2025-11-11",
+    "stock": "HINDCOPPER",
+    "direction": "LONG",
+    "entry_time": "10:05",
+    "net": -212.73,
+    "round": 3
+   },
+   {
+    "date": "2025-11-11",
+    "stock": "HINDCOPPER",
+    "direction": "LONG",
+    "entry_time": "10:20",
+    "net": 391.06,
+    "round": 4
+   },
+   {
+    "date": "2025-12-18",
+    "stock": "HINDCOPPER",
+    "direction": "LONG",
+    "entry_time": "10:15",
+    "net": 434.25,
+    "round": 3
+   },
+   {
+    "date": "2025-12-24",
+    "stock": "HINDCOPPER",
+    "direction": "LONG",
+    "entry_time": "09:45",
+    "net": -254.72,
+    "round": 3
+   },
+   {
+    "date": "2025-12-24",
+    "stock": "HINDCOPPER",
+    "direction": "LONG",
+    "entry_time": "09:50",
+    "net": 491.12,
+    "round": 4
+   },
+   {
+    "date": "2025-12-30",
+    "stock": "HINDCOPPER",
+    "direction": "LONG",
+    "entry_time": "10:10",
+    "net": -298.57,
+    "round": 3
+   },
+   {
+    "date": "2025-12-30",
+    "stock": "HINDCOPPER",
+    "direction": "LONG",
+    "entry_time": "10:25",
+    "net": 605.62,
+    "round": 4
+   },
+   {
+    "date": "2025-04-28",
+    "stock": "ASTRAL",
+    "direction": "LONG",
+    "entry_time": "10:10",
+    "net": 1657.37,
+    "round": 3
+   },
+   {
+    "date": "2025-05-19",
+    "stock": "ASTRAL",
+    "direction": "LONG",
+    "entry_time": "10:15",
+    "net": 1712.0,
+    "round": 3
+   },
+   {
+    "date": "2025-04-21",
+    "stock": "OIL",
+    "direction": "LONG",
+    "entry_time": "10:20",
+    "net": 449.37,
+    "round": 3
+   },
+   {
+    "date": "2025-04-29",
+    "stock": "OIL",
+    "direction": "LONG",
+    "entry_time": "10:15",
+    "net": -244.87,
+    "round": 3
+   },
+   {
+    "date": "2025-04-29",
+    "stock": "OIL",
+    "direction": "LONG",
+    "entry_time": "10:25",
+    "net": -244.67,
+    "round": 4
+   }
+  ]
+ },
+ "2026": {
+  "r3": {
+   "trades": 4,
+   "net": -61.66,
+   "expectancy": -15.41,
+   "winners": 1,
+   "months": {
+    "2026-04": -255.85,
+    "2026-05": -247.4,
+    "2026-07": -216.1,
+    "2026-08": 657.69
+   }
+  },
+  "placebo": {
+   "trades": 7,
+   "net": -340.14,
+   "expectancy": -48.59,
+   "winners": 2,
+   "months": {
+    "2026-01": -127.17,
+    "2026-07": -212.97
+   }
+  },
+  "rows": [
+   {
+    "date": "2026-04-22",
+    "stock": "NATIONALUM",
+    "direction": "LONG",
+    "entry_time": "10:25",
+    "net": -255.85,
+    "round": 3
+   },
+   {
+    "date": "2026-05-05",
+    "stock": "NATIONALUM",
+    "direction": "LONG",
+    "entry_time": "10:05",
+    "net": -247.4,
+    "round": 3
+   },
+   {
+    "date": "2026-07-08",
+    "stock": "NATIONALUM",
+    "direction": "LONG",
+    "entry_time": "10:25",
+    "net": -216.1,
+    "round": 3
+   },
+   {
+    "date": "2026-08-12",
+    "stock": "HINDCOPPER",
+    "direction": "LONG",
+    "entry_time": "10:20",
+    "net": 657.69,
+    "round": 3
+   }
+  ]
+ },
+ "checks": {
+  "lexi_maximin_beat": false,
+  "y2025_not_fall": true,
+  "y2026_not_fall": false,
+  "neither_year_negative": true,
+  "combined_not_fall": true,
+  "all_cells_positive": true,
+  "component_expectancy_positive": true,
+  "beats_flip_placebo_per_trade": true
+ },
+ "banked": false,
+ "component_combined": {
+  "trades": 32,
+  "net": 5097.01,
+  "expectancy": 159.28
+ },
+ "placebo_combined": {
+  "trades": 23,
+  "net": 3445.23,
+  "expectancy": 149.79
+ },
+ "old": {
+  "years": {
+   "2025": 31917.94,
+   "2026": 213814.38
+  },
+  "combined": 245732.32,
+  "bottom5": [
+   [
+    "2025-10",
+    -5149.95
+   ],
+   [
+    "2025-07",
+    -5088.45
+   ],
+   [
+    "2025-11",
+    -4545.69
+   ],
+   [
+    "2025-05",
+    -2779.66
+   ],
+   [
+    "2025-06",
+    -955.92
+   ]
+  ],
+  "cells": {
+   "2025": {
+    "UP": 2204.81,
+    "DOWN": 26000.56,
+    "FLAT": 3712.57
+   },
+   "2026": {
+    "UP": 15888.69,
+    "DOWN": 190862.79,
+    "FLAT": 7062.9
+   }
+  }
+ },
+ "new": {
+  "years": {
+   "2025": 37076.61,
+   "2026": 213752.72
+  },
+  "combined": 250829.33,
+  "bottom5": [
+   [
+    "2025-10",
+    -5616.33
+   ],
+   [
+    "2025-07",
+    -5088.45
+   ],
+   [
+    "2025-11",
+    -4367.36
+   ],
+   [
+    "2025-06",
+    -682.53
+   ],
+   [
+    "2025-03",
+    550.53
+   ]
+  ],
+  "cells": {
+   "2025": {
+    "UP": 8596.37,
+    "DOWN": 26000.56,
+    "FLAT": 2479.68
+   },
+   "2026": {
+    "UP": 16546.38,
+    "DOWN": 190862.79,
+    "FLAT": 6343.55
+   }
+  },
+  "months": {
+   "2025-01": 5108.9,
+   "2025-02": 9993.55,
+   "2025-03": 550.53,
+   "2025-04": 20069.61,
+   "2025-05": 1045.86,
+   "2025-06": -682.53,
+   "2025-07": -5088.45,
+   "2025-08": 8360.05,
+   "2025-09": 5517.13,
+   "2025-10": -5616.33,
+   "2025-11": -4367.36,
+   "2025-12": 2185.65,
+   "2026-01": 32159.76,
+   "2026-02": 18841.89,
+   "2026-03": 20939.75,
+   "2026-04": 11631.32,
+   "2026-05": 33763.87,
+   "2026-06": 9341.38,
+   "2026-07": 8270.44,
+   "2026-08": 10335.75,
+   "2026-09": 15771.88,
+   "2026-10": 52696.68
+  },
+  "vector_sorted": [
+   -5616.33,
+   -5088.45,
+   -4367.36,
+   -682.53,
+   550.53,
+   1045.86,
+   2185.65,
+   5108.9,
+   5517.13,
+   8270.44,
+   8360.05,
+   9341.38,
+   9993.55,
+   10335.75,
+   11631.32,
+   15771.88,
+   18841.89,
+   20069.61,
+   20939.75,
+   32159.76,
+   33763.87,
+   52696.68
+  ],
+  "ex_top3": {
+   "2025": -9153.03,
+   "2026": 84233.58
+  }
+ }
+}

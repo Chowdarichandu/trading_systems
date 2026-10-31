@@ -1,0 +1,134 @@
+{
+ "cycle": 27,
+ "challenger": "CH-V2-12 P2F-NEWS",
+ "detail": {
+  "2025": {
+   "component": {
+    "trades": 2,
+    "net": 1949.25,
+    "expectancy": 974.62,
+    "winners": 2
+   },
+   "placebo": {
+    "trades": 2,
+    "net": -891.7,
+    "expectancy": -445.85,
+    "winners": 0
+   },
+   "component_rows": [
+    {
+     "date": "2025-01-17",
+     "stock": "BDL",
+     "comp": "P2F-NEWS",
+     "dir": "LONG",
+     "net": 1461.75,
+     "entry_time": "09:15",
+     "R": "2025-01-16",
+     "reaction_ret_pct": 5.91
+    },
+    {
+     "date": "2025-05-29",
+     "stock": "ITC",
+     "comp": "P2F-NEWS",
+     "dir": "SHORT",
+     "net": 487.5,
+     "entry_time": "09:15",
+     "R": "2025-05-28",
+     "reaction_ret_pct": -3.15
+    }
+   ]
+  },
+  "2026": {
+   "component": {
+    "trades": 4,
+    "net": -2089.31,
+    "expectancy": -522.33,
+    "winners": 1
+   },
+   "placebo": {
+    "trades": 4,
+    "net": 5475.58,
+    "expectancy": 1368.89,
+    "winners": 3
+   },
+   "component_rows": [
+    {
+     "date": "2026-03-05",
+     "stock": "GLENMARK",
+     "comp": "P2F-NEWS",
+     "dir": "SHORT",
+     "net": -1061.1,
+     "entry_time": "09:15",
+     "R": "2026-03-04",
+     "reaction_ret_pct": -4.53
+    },
+    {
+     "date": "2026-08-21",
+     "stock": "GLENMARK",
+     "comp": "P2F-NEWS",
+     "dir": "LONG",
+     "net": -1207.3,
+     "entry_time": "09:15",
+     "R": "2026-08-20",
+     "reaction_ret_pct": 3.85
+    },
+    {
+     "date": "2026-02-02",
+     "stock": "ITC",
+     "comp": "P2F-NEWS",
+     "dir": "SHORT",
+     "net": 346.81,
+     "entry_time": "09:15",
+     "R": "2026-02-01",
+     "reaction_ret_pct": -4.39
+    },
+    {
+     "date": "2026-10-09",
+     "stock": "ITC",
+     "comp": "P2F-NEWS",
+     "dir": "SHORT",
+     "net": -167.72,
+     "entry_time": "09:15",
+     "R": "2026-10-08",
+     "reaction_ret_pct": -4.03
+    }
+   ]
+  }
+ },
+ "2025": {
+  "before": 27479.24,
+  "after": 29428.49,
+  "trades": 747
+ },
+ "2026": {
+  "before": 211588.1,
+  "after": 209498.79,
+  "trades": 630
+ },
+ "gate": {
+  "combined_rises": false,
+  "y2025_not_fall": true,
+  "y2026_not_fall": false,
+  "neither_negative": true
+ },
+ "l21_standard": {
+  "component_expectancy_positive": false,
+  "beats_flip_placebo_per_trade": false
+ },
+ "cell_guard_all_positive": true,
+ "component_combined": {
+  "trades": 6,
+  "net": -140.06,
+  "expectancy": -23.34
+ },
+ "placebo_combined": {
+  "trades": 6,
+  "net": 4583.88,
+  "expectancy": 763.98
+ },
+ "combined": {
+  "before": 239067.34,
+  "after": 238927.28
+ },
+ "banked": false
+}

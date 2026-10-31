@@ -1,0 +1,70 @@
+{
+ "cycle": 26,
+ "challenger": "CH-V2-11 INV-ABOVE-LATE",
+ "detail": {
+  "2025": {
+   "component": {
+    "trades": 72,
+    "net": 880.63,
+    "expectancy": 12.23,
+    "winners": 20
+   },
+   "placebo": {
+    "trades": 166,
+    "net": -5143.18,
+    "expectancy": -30.98,
+    "winners": 61
+   }
+  },
+  "2026": {
+   "component": {
+    "trades": 27,
+    "net": -1878.64,
+    "expectancy": -69.58,
+    "winners": 10
+   },
+   "placebo": {
+    "trades": 33,
+    "net": -4692.87,
+    "expectancy": -142.21,
+    "winners": 13
+   }
+  }
+ },
+ "2025": {
+  "before": 27479.24,
+  "after": 28359.87,
+  "trades": 817
+ },
+ "2026": {
+  "before": 211588.1,
+  "after": 209709.46,
+  "trades": 653
+ },
+ "gate": {
+  "combined_rises": false,
+  "y2025_not_fall": true,
+  "y2026_not_fall": false,
+  "neither_negative": true
+ },
+ "l21_standard": {
+  "component_expectancy_positive": false,
+  "beats_flip_placebo_per_trade": true
+ },
+ "cell_guard_all_positive": true,
+ "component_combined": {
+  "trades": 99,
+  "net": -998.01,
+  "expectancy": -10.08
+ },
+ "placebo_combined": {
+  "trades": 199,
+  "net": -9836.05,
+  "expectancy": -49.43
+ },
+ "combined": {
+  "before": 239067.34,
+  "after": 238069.33
+ },
+ "banked": false
+}

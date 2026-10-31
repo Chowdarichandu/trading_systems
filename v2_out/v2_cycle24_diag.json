@@ -1,0 +1,130 @@
+{
+ "c24_inv_long_flat": {
+  "2025": [
+   9,
+   -2739.25
+  ],
+  "2026": [
+   11,
+   -2600.72
+  ]
+ },
+ "comp_cell_both_negative": {
+  "('INV-LONG', 'FLAT')": {
+   "2025": [
+    9,
+    -2739.25
+   ],
+   "2026": [
+    11,
+    -2600.72
+   ]
+  }
+ },
+ "inv_above_stock_both_negative_bar": {},
+ "p2f_band_buckets": {
+  "2025": {
+   "[2.5,3.5)": [
+    8,
+    6538.79
+   ],
+   "[3.5,5)": [
+    9,
+    6073.57
+   ],
+   ">=5": [
+    11,
+    1753.41
+   ]
+  },
+  "2026": {
+   "[2.5,3.5)": [
+    8,
+    6590.56
+   ],
+   "[3.5,5)": [
+    9,
+    5719.73
+   ],
+   ">=5": [
+    15,
+    7106.34
+   ]
+  }
+ },
+ "news_candidates": {
+  "2025": {
+   "news_events_in_window": 10,
+   "reaction_candidates": 10,
+   "band_ge_2.5": 3
+  },
+  "2026": {
+   "news_events_in_window": 12,
+   "reaction_candidates": 11,
+   "band_ge_2.5": 4
+  }
+ },
+ "inv_discarded_counts": {
+  "2025": {
+   "round_dist_all": {
+    "1": 5302,
+    "2": 2041,
+    "3": 742,
+    "4": 327,
+    "5": 154,
+    "6": 83,
+    "7": 50,
+    "8": 30,
+    "9": 14,
+    "10": 10,
+    "11": 7,
+    "12": 4,
+    "13": 2
+   },
+   "below": {
+    "kept_round_le2_early": 229,
+    "round_ge3_early": 18,
+    "round_le2_late": 86,
+    "round_ge3_late": 82
+   },
+   "above": {
+    "kept_round_le2_early": 170,
+    "round_ge3_early": 28,
+    "round_le2_late": 72,
+    "round_ge3_late": 83
+   }
+  },
+  "2026": {
+   "round_dist_all": {
+    "1": 4152,
+    "2": 1592,
+    "3": 527,
+    "4": 203,
+    "5": 102,
+    "6": 50,
+    "7": 22,
+    "8": 14,
+    "9": 8,
+    "10": 5,
+    "11": 3,
+    "12": 3,
+    "13": 2,
+    "14": 2,
+    "15": 1,
+    "16": 1
+   },
+   "below": {
+    "kept_round_le2_early": 144,
+    "round_ge3_early": 12,
+    "round_le2_late": 93,
+    "round_ge3_late": 73
+   },
+   "above": {
+    "kept_round_le2_early": 36,
+    "round_ge3_early": 4,
+    "round_le2_late": 27,
+    "round_ge3_late": 14
+   }
+  }
+ }
+}

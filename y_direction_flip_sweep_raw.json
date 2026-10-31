@@ -1,0 +1,675 @@
+{
+  "scanned_days": 451,
+  "universe": [
+    {
+      "date": "2025-01-10",
+      "mode": "v4",
+      "orl": 23515.6,
+      "morning": {
+        "signal": "09:30",
+        "entry": 23461.6,
+        "stop": 23524.75,
+        "risk": 63.15,
+        "exit": "stop",
+        "exit_time": "11:05",
+        "net": -6355.0
+      },
+      "reentry": {
+        "signal": "11:40",
+        "entry": 23508.85,
+        "stop": 23564.75,
+        "risk": 55.9,
+        "exit": "stop",
+        "exit_time": "12:15",
+        "net": -5630.0
+      },
+      "pe_day_net": -11985.0,
+      "after_second_stop": {
+        "min_low": 23396.85,
+        "max_close": 23541.8,
+        "close_1510": 23412.2,
+        "reversal_to_1510": 15.35
+      },
+      "flip": {
+        "entry": 23516.9,
+        "stop": 23513.9,
+        "target": 23522.9,
+        "exit": "stop",
+        "exit_time": "12:25",
+        "exit_idx": 35,
+        "exit_price": 23513.9,
+        "net": -340.0,
+        "risk": 3.0,
+        "signal": "12:20",
+        "orl": 23515.6,
+        "artefact": true
+      }
+    },
+    {
+      "date": "2025-02-07",
+      "mode": "v4",
+      "orl": 23566.85,
+      "morning": {
+        "signal": "10:15",
+        "entry": 23548.55,
+        "stop": 23621.25,
+        "risk": 72.7,
+        "exit": "stop",
+        "exit_time": "11:00",
+        "net": -7310.0
+      },
+      "reentry": {
+        "signal": "12:50",
+        "entry": 23550.6,
+        "stop": 23578.7,
+        "risk": 28.1,
+        "exit": "stop",
+        "exit_time": "13:00",
+        "net": -2850.0
+      },
+      "pe_day_net": -10160.0,
+      "after_second_stop": {
+        "min_low": 23443.2,
+        "max_close": 23580.15,
+        "close_1510": 23573.7,
+        "reversal_to_1510": 130.5
+      },
+      "flip": {
+        "entry": 23567.4,
+        "stop": 23546.1,
+        "target": 23610.0,
+        "exit": "stop",
+        "exit_time": "13:50",
+        "exit_idx": 52,
+        "exit_price": 23546.1,
+        "net": -2170.0,
+        "risk": 21.3,
+        "signal": "13:25",
+        "orl": 23566.85,
+        "artefact": false
+      }
+    },
+    {
+      "date": "2025-02-10",
+      "mode": "v4",
+      "orl": 23454.4,
+      "morning": {
+        "signal": "09:40",
+        "entry": 23408.4,
+        "stop": 23433.25,
+        "risk": 24.85,
+        "exit": "stop",
+        "exit_time": "09:50",
+        "net": -2525.0
+      },
+      "reentry": {
+        "signal": "09:55",
+        "entry": 23446.1,
+        "stop": 23459.55,
+        "risk": 13.45,
+        "exit": "stop",
+        "exit_time": "10:00",
+        "net": -1385.0
+      },
+      "pe_day_net": -3910.0,
+      "after_second_stop": {
+        "min_low": 23316.3,
+        "max_close": 23401.3,
+        "close_1510": 23380.35,
+        "reversal_to_1510": 64.05
+      },
+      "flip": null
+    },
+    {
+      "date": "2025-02-28",
+      "mode": "v4",
+      "orl": 22308.2,
+      "morning": {
+        "signal": "09:35",
+        "entry": 22266.95,
+        "stop": 22285.8,
+        "risk": 18.85,
+        "exit": "stop",
+        "exit_time": "09:40",
+        "net": -1925.0
+      },
+      "reentry": {
+        "signal": "10:00",
+        "entry": 22237.3,
+        "stop": 22247.45,
+        "risk": 10.15,
+        "exit": "stop",
+        "exit_time": "10:05",
+        "net": -1055.0
+      },
+      "pe_day_net": -2980.0,
+      "after_second_stop": {
+        "min_low": 22104.85,
+        "max_close": 22291.05,
+        "close_1510": 22124.65,
+        "reversal_to_1510": 19.8
+      },
+      "flip": null
+    },
+    {
+      "date": "2025-03-03",
+      "mode": "v4",
+      "orl": 22154.85,
+      "morning": {
+        "signal": "09:45",
+        "entry": 22088.4,
+        "stop": 22133.0,
+        "risk": 44.6,
+        "exit": "stop",
+        "exit_time": "12:45",
+        "net": -4500.0
+      },
+      "reentry": {
+        "signal": "12:50",
+        "entry": 22126.8,
+        "stop": 22154.15,
+        "risk": 27.35,
+        "exit": "stop",
+        "exit_time": "13:10",
+        "net": -2775.0
+      },
+      "pe_day_net": -7275.0,
+      "after_second_stop": {
+        "min_low": 22071.9,
+        "max_close": 22150.4,
+        "close_1510": 22117.25,
+        "reversal_to_1510": 45.35
+      },
+      "flip": null
+    },
+    {
+      "date": "2025-05-06",
+      "mode": "v4",
+      "orl": 24421.0,
+      "morning": {
+        "signal": "09:55",
+        "entry": 24391.0,
+        "stop": 24412.05,
+        "risk": 21.05,
+        "exit": "stop",
+        "exit_time": "10:05",
+        "net": -2145.0
+      },
+      "reentry": {
+        "signal": "10:10",
+        "entry": 24388.7,
+        "stop": 24406.85,
+        "risk": 18.15,
+        "exit": "stop",
+        "exit_time": "14:00",
+        "net": -1855.0
+      },
+      "pe_day_net": -4000.0,
+      "after_second_stop": {
+        "min_low": 24331.8,
+        "max_close": 24399.85,
+        "close_1510": 24387.65,
+        "reversal_to_1510": 55.85
+      },
+      "flip": null
+    },
+    {
+      "date": "2025-05-15",
+      "mode": "v4",
+      "orl": 24584.65,
+      "morning": {
+        "signal": "10:05",
+        "entry": 24527.35,
+        "stop": 24553.5,
+        "risk": 26.15,
+        "exit": "stop",
+        "exit_time": "10:10",
+        "net": -2655.0
+      },
+      "reentry": {
+        "signal": "10:25",
+        "entry": 24564.5,
+        "stop": 24575.5,
+        "risk": 11.0,
+        "exit": "stop",
+        "exit_time": "10:30",
+        "net": -1140.0
+      },
+      "pe_day_net": -3795.0,
+      "after_second_stop": {
+        "min_low": 24600.6,
+        "max_close": 25105.45,
+        "close_1510": 25056.4,
+        "reversal_to_1510": 455.8
+      },
+      "flip": {
+        "entry": 24742.8,
+        "stop": 24611.25,
+        "target": 25005.9,
+        "exit": "stop",
+        "exit_time": "11:10",
+        "exit_idx": 20,
+        "exit_price": 24611.25,
+        "net": -13195.0,
+        "risk": 131.55,
+        "signal": "10:35",
+        "orl": 24584.65,
+        "artefact": false
+      }
+    },
+    {
+      "date": "2025-08-26",
+      "mode": "v4",
+      "orl": 24796.6,
+      "morning": {
+        "signal": "09:35",
+        "entry": 24767.05,
+        "stop": 24795.25,
+        "risk": 28.2,
+        "exit": "stop",
+        "exit_time": "09:55",
+        "net": -2860.0
+      },
+      "reentry": {
+        "signal": "10:30",
+        "entry": 24786.25,
+        "stop": 24802.15,
+        "risk": 15.9,
+        "exit": "stop",
+        "exit_time": "11:00",
+        "net": -1630.0
+      },
+      "pe_day_net": -4490.0,
+      "after_second_stop": {
+        "min_low": 24689.6,
+        "max_close": 24824.5,
+        "close_1510": 24695.0,
+        "reversal_to_1510": 5.4
+      },
+      "flip": {
+        "entry": 24796.75,
+        "stop": 24793.3,
+        "target": 24803.65,
+        "exit": "target",
+        "exit_time": "11:10",
+        "exit_idx": 20,
+        "exit_price": 24803.65,
+        "net": 650.0,
+        "risk": 3.45,
+        "signal": "11:05",
+        "orl": 24796.6,
+        "artefact": true
+      }
+    },
+    {
+      "date": "2025-09-24",
+      "mode": "v4",
+      "orl": 25061.5,
+      "morning": {
+        "signal": "11:00",
+        "entry": 25050.45,
+        "stop": 25078.05,
+        "risk": 27.6,
+        "exit": "stop",
+        "exit_time": "11:45",
+        "net": -2800.0
+      },
+      "reentry": {
+        "signal": "14:55",
+        "entry": 25042.7,
+        "stop": 25068.1,
+        "risk": 25.4,
+        "exit": "stop",
+        "exit_time": "15:00",
+        "net": -2580.0
+      },
+      "pe_day_net": -5380.0,
+      "after_second_stop": {
+        "min_low": 25050.75,
+        "max_close": 25066.35,
+        "close_1510": 25059.75,
+        "reversal_to_1510": 9.0
+      },
+      "flip": {
+        "entry": 25063.4,
+        "stop": 25057.95,
+        "target": 25074.3,
+        "exit": "stop",
+        "exit_time": "15:10",
+        "exit_idx": 68,
+        "exit_price": 25057.95,
+        "net": -585.0,
+        "risk": 5.45,
+        "signal": "15:05",
+        "orl": 25061.5,
+        "artefact": false
+      }
+    },
+    {
+      "date": "2025-09-30",
+      "mode": "v4",
+      "orl": 24668.1,
+      "morning": {
+        "signal": "10:35",
+        "entry": 24597.2,
+        "stop": 24626.75,
+        "risk": 29.55,
+        "exit": "stop",
+        "exit_time": "10:50",
+        "net": -2995.0
+      },
+      "reentry": {
+        "signal": "11:35",
+        "entry": 24654.35,
+        "stop": 24674.35,
+        "risk": 20.0,
+        "exit": "stop",
+        "exit_time": "12:20",
+        "net": -2040.0
+      },
+      "pe_day_net": -5035.0,
+      "after_second_stop": {
+        "min_low": 24587.7,
+        "max_close": 24677.2,
+        "close_1510": 24614.85,
+        "reversal_to_1510": 27.15
+      },
+      "flip": {
+        "entry": 24674.0,
+        "stop": 24665.95,
+        "target": 24690.1,
+        "exit": "stop",
+        "exit_time": "12:30",
+        "exit_idx": 36,
+        "exit_price": 24665.95,
+        "net": -845.0,
+        "risk": 8.05,
+        "signal": "12:25",
+        "orl": 24668.1,
+        "artefact": false
+      }
+    },
+    {
+      "date": "2025-10-30",
+      "mode": "v4",
+      "orl": 25963.85,
+      "morning": {
+        "signal": "09:50",
+        "entry": 25901.4,
+        "stop": 25942.35,
+        "risk": 40.95,
+        "exit": "stop",
+        "exit_time": "10:05",
+        "net": -4135.0
+      },
+      "reentry": {
+        "signal": "10:15",
+        "entry": 25929.6,
+        "stop": 25967.4,
+        "risk": 37.8,
+        "exit": "stop",
+        "exit_time": "11:20",
+        "net": -3820.0
+      },
+      "pe_day_net": -7955.0,
+      "after_second_stop": {
+        "min_low": 25845.25,
+        "max_close": 25954.65,
+        "close_1510": 25873.75,
+        "reversal_to_1510": 28.5
+      },
+      "flip": null
+    },
+    {
+      "date": "2025-11-11",
+      "mode": "v4",
+      "orl": 25513.35,
+      "morning": {
+        "signal": "09:45",
+        "entry": 25501.95,
+        "stop": 25532.8,
+        "risk": 30.85,
+        "exit": "stop",
+        "exit_time": "10:05",
+        "net": -3125.0
+      },
+      "reentry": {
+        "signal": "10:20",
+        "entry": 25489.85,
+        "stop": 25511.0,
+        "risk": 21.15,
+        "exit": "stop",
+        "exit_time": "11:50",
+        "net": -2155.0
+      },
+      "pe_day_net": -5280.0,
+      "after_second_stop": {
+        "min_low": 25523.6,
+        "max_close": 25705.55,
+        "close_1510": 25694.9,
+        "reversal_to_1510": 171.3
+      },
+      "flip": {
+        "entry": 25527.95,
+        "stop": 25523.6,
+        "target": 25536.65,
+        "exit": "target",
+        "exit_time": "12:00",
+        "exit_idx": 30,
+        "exit_price": 25536.650000000005,
+        "net": 830.0,
+        "risk": 4.35,
+        "signal": "11:55",
+        "orl": 25513.35,
+        "artefact": true
+      }
+    },
+    {
+      "date": "2025-12-17",
+      "mode": "v4",
+      "orl": 25855.65,
+      "morning": {
+        "signal": "10:20",
+        "entry": 25825.1,
+        "stop": 25849.25,
+        "risk": 24.15,
+        "exit": "stop",
+        "exit_time": "11:15",
+        "net": -2455.0
+      },
+      "reentry": {
+        "signal": "11:20",
+        "entry": 25829.05,
+        "stop": 25840.5,
+        "risk": 11.45,
+        "exit": "stop",
+        "exit_time": "11:45",
+        "net": -1185.0
+      },
+      "pe_day_net": -3640.0,
+      "after_second_stop": {
+        "min_low": 25770.35,
+        "max_close": 25829.7,
+        "close_1510": 25816.25,
+        "reversal_to_1510": 45.9
+      },
+      "flip": null
+    },
+    {
+      "date": "2026-01-19",
+      "mode": "v4",
+      "orl": 25528.3,
+      "morning": {
+        "signal": "10:00",
+        "entry": 25515.6,
+        "stop": 25542.25,
+        "risk": 26.65,
+        "exit": "stop",
+        "exit_time": "10:20",
+        "net": -2705.0
+      },
+      "reentry": {
+        "signal": "10:30",
+        "entry": 25509.25,
+        "stop": 25527.95,
+        "risk": 18.7,
+        "exit": "stop",
+        "exit_time": "10:55",
+        "net": -1910.0
+      },
+      "pe_day_net": -4615.0,
+      "after_second_stop": {
+        "min_low": 25508.7,
+        "max_close": 25628.95,
+        "close_1510": 25591.15,
+        "reversal_to_1510": 82.45
+      },
+      "flip": {
+        "entry": 25556.6,
+        "stop": 25540.4,
+        "target": 25589.0,
+        "exit": "stop",
+        "exit_time": "11:10",
+        "exit_idx": 20,
+        "exit_price": 25540.4,
+        "net": -1660.0,
+        "risk": 16.2,
+        "signal": "11:00",
+        "orl": 25528.3,
+        "artefact": false
+      }
+    },
+    {
+      "date": "2026-02-13",
+      "mode": "v4",
+      "orl": 25558.3,
+      "morning": {
+        "signal": "10:10",
+        "entry": 25531.5,
+        "stop": 25546.95,
+        "risk": 15.45,
+        "exit": "stop",
+        "exit_time": "10:25",
+        "net": -1585.0
+      },
+      "reentry": {
+        "signal": "11:05",
+        "entry": 25537.15,
+        "stop": 25547.35,
+        "risk": 10.2,
+        "exit": "stop",
+        "exit_time": "11:10",
+        "net": -1060.0
+      },
+      "pe_day_net": -2645.0,
+      "after_second_stop": {
+        "min_low": 25444.3,
+        "max_close": 25602.45,
+        "close_1510": 25477.2,
+        "reversal_to_1510": 32.9
+      },
+      "flip": {
+        "entry": 25559.0,
+        "stop": 25548.2,
+        "target": 25580.6,
+        "exit": "target",
+        "exit_time": "12:20",
+        "exit_idx": 34,
+        "exit_price": 25580.6,
+        "net": 2120.0,
+        "risk": 10.8,
+        "signal": "11:55",
+        "orl": 25558.3,
+        "artefact": false
+      }
+    },
+    {
+      "date": "2026-04-02",
+      "mode": "skill",
+      "orl": 22209.15,
+      "morning": {
+        "signal": "10:45",
+        "entry": 22204.85,
+        "stop": 22225.1,
+        "risk": 20.25,
+        "exit": "stop",
+        "exit_time": "10:50",
+        "net": -2065.0
+      },
+      "reentry": {
+        "signal": "11:25",
+        "entry": 22206.5,
+        "stop": 22222.75,
+        "risk": 16.25,
+        "exit": "stop",
+        "exit_time": "11:30",
+        "net": -1665.0
+      },
+      "pe_day_net": -3730.0,
+      "after_second_stop": {
+        "min_low": 22218.3,
+        "max_close": 22760.4,
+        "close_1510": 22760.4,
+        "reversal_to_1510": 542.1
+      },
+      "flip": {
+        "entry": 22234.75,
+        "stop": 22218.3,
+        "target": 22267.65,
+        "exit": "target",
+        "exit_time": "11:55",
+        "exit_idx": 29,
+        "exit_price": 22267.65,
+        "net": 3250.0,
+        "risk": 16.45,
+        "signal": "11:35",
+        "orl": 22209.15,
+        "artefact": false
+      }
+    },
+    {
+      "date": "2026-08-31",
+      "mode": "v4",
+      "orl": 24036.2,
+      "morning": {
+        "signal": "10:30",
+        "entry": 24012.0,
+        "stop": 24032.1,
+        "risk": 20.1,
+        "exit": "stop",
+        "exit_time": "11:45",
+        "net": -2050.0
+      },
+      "reentry": {
+        "signal": "14:00",
+        "entry": 24036.45,
+        "stop": 24050.7,
+        "risk": 14.25,
+        "exit": "stop",
+        "exit_time": "14:40",
+        "net": -1465.0
+      },
+      "pe_day_net": -3515.0,
+      "after_second_stop": {
+        "min_low": 24044.65,
+        "max_close": 24094.45,
+        "close_1510": 24051.95,
+        "reversal_to_1510": 7.3
+      },
+      "flip": {
+        "entry": 24077.25,
+        "stop": 24055.4,
+        "target": 24120.95,
+        "exit": "stop",
+        "exit_time": "15:00",
+        "exit_idx": 66,
+        "exit_price": 24055.4,
+        "net": -2225.0,
+        "risk": 21.85,
+        "signal": "14:45",
+        "orl": 24036.2,
+        "artefact": false
+      }
+    }
+  ]
+}

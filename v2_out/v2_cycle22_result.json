@@ -1,0 +1,1875 @@
+{
+ "cycle": 22,
+ "challenger": "CH-V2-9 INV-ABOVE",
+ "2025": {
+  "mirror": {
+   "trades": 170,
+   "net": 5209.71,
+   "expectancy": 30.65,
+   "winners": 59,
+   "cells": {
+    "UP": [
+     141,
+     3363.67
+    ],
+    "DOWN": [
+     0,
+     0
+    ],
+    "FLAT": [
+     29,
+     1846.04
+    ]
+   },
+   "months": {
+    "2025-01": -55.51,
+    "2025-03": -272.4,
+    "2025-04": 7065.44,
+    "2025-05": 712.67,
+    "2025-06": -955.92,
+    "2025-07": -2473.45,
+    "2025-09": 1826.99,
+    "2025-10": -207.92,
+    "2025-11": -1638.14,
+    "2025-12": 1207.95
+   }
+  },
+  "placebo": {
+   "trades": 246,
+   "net": 18257.54,
+   "expectancy": 74.22,
+   "winners": 93,
+   "cells": {
+    "UP": [
+     215,
+     16995.75
+    ],
+    "DOWN": [
+     0,
+     0
+    ],
+    "FLAT": [
+     31,
+     1261.79
+    ]
+   },
+   "months": {
+    "2025-03": 3647.47,
+    "2025-04": 15307.06,
+    "2025-05": -1845.49,
+    "2025-06": -2689.96,
+    "2025-07": 871.99,
+    "2025-08": -736.85,
+    "2025-09": -280.88,
+    "2025-10": 969.29,
+    "2025-11": 3519.04,
+    "2025-12": -504.13
+   }
+  },
+  "mirror_rows": [
+   {
+    "date": "2025-04-16",
+    "stock": "GODREJCP",
+    "direction": "LONG",
+    "entry_time": "09:40",
+    "net": 1493.75,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-04-17",
+    "stock": "GODREJCP",
+    "direction": "LONG",
+    "entry_time": "09:50",
+    "net": -657.15,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-04-23",
+    "stock": "GODREJCP",
+    "direction": "LONG",
+    "entry_time": "09:40",
+    "net": -664.6,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-04-23",
+    "stock": "GODREJCP",
+    "direction": "LONG",
+    "entry_time": "09:50",
+    "net": 1517.5,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-04-16",
+    "stock": "GLENMARK",
+    "direction": "LONG",
+    "entry_time": "09:40",
+    "net": -730.5,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-04-22",
+    "stock": "GLENMARK",
+    "direction": "LONG",
+    "entry_time": "09:40",
+    "net": 1686.25,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-04-24",
+    "stock": "GLENMARK",
+    "direction": "LONG",
+    "entry_time": "09:35",
+    "net": -753.25,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-04-28",
+    "stock": "GLENMARK",
+    "direction": "LONG",
+    "entry_time": "09:40",
+    "net": 1695.5,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-05-12",
+    "stock": "GLENMARK",
+    "direction": "LONG",
+    "entry_time": "10:25",
+    "net": -734.95,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-05-13",
+    "stock": "GLENMARK",
+    "direction": "LONG",
+    "entry_time": "09:35",
+    "net": -750.35,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-05-13",
+    "stock": "GLENMARK",
+    "direction": "LONG",
+    "entry_time": "10:15",
+    "net": -751.45,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-05-14",
+    "stock": "GLENMARK",
+    "direction": "LONG",
+    "entry_time": "09:45",
+    "net": 1742.38,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-05-15",
+    "stock": "GLENMARK",
+    "direction": "LONG",
+    "entry_time": "10:00",
+    "net": -768.0,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-05-19",
+    "stock": "GLENMARK",
+    "direction": "LONG",
+    "entry_time": "09:55",
+    "net": -767.95,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-05-20",
+    "stock": "GLENMARK",
+    "direction": "LONG",
+    "entry_time": "09:35",
+    "net": -763.75,
+    "setup": "setup4_reclaim"
+   },
+   {
+    "date": "2025-05-20",
+    "stock": "GLENMARK",
+    "direction": "LONG",
+    "entry_time": "10:00",
+    "net": -765.8,
+    "setup": "setup4_reclaim"
+   },
+   {
+    "date": "2025-06-09",
+    "stock": "GLENMARK",
+    "direction": "LONG",
+    "entry_time": "09:55",
+    "net": -841.4,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-07-14",
+    "stock": "GLENMARK",
+    "direction": "LONG",
+    "entry_time": "09:45",
+    "net": -1134.05,
+    "setup": "setup4_reclaim"
+   },
+   {
+    "date": "2025-07-18",
+    "stock": "GLENMARK",
+    "direction": "LONG",
+    "entry_time": "09:35",
+    "net": -1165.7,
+    "setup": "setup4_reclaim"
+   },
+   {
+    "date": "2025-11-24",
+    "stock": "GLENMARK",
+    "direction": "LONG",
+    "entry_time": "09:40",
+    "net": -966.15,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-11-25",
+    "stock": "GLENMARK",
+    "direction": "LONG",
+    "entry_time": "09:35",
+    "net": 2275.62,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-11-25",
+    "stock": "GLENMARK",
+    "direction": "LONG",
+    "entry_time": "10:05",
+    "net": -978.95,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-11-26",
+    "stock": "GLENMARK",
+    "direction": "LONG",
+    "entry_time": "09:35",
+    "net": -985.7,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-11-26",
+    "stock": "GLENMARK",
+    "direction": "LONG",
+    "entry_time": "09:55",
+    "net": 2322.63,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-11-27",
+    "stock": "GLENMARK",
+    "direction": "LONG",
+    "entry_time": "09:35",
+    "net": -1015.0,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-11-27",
+    "stock": "GLENMARK",
+    "direction": "LONG",
+    "entry_time": "10:10",
+    "net": -1013.15,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-11-28",
+    "stock": "GLENMARK",
+    "direction": "LONG",
+    "entry_time": "09:35",
+    "net": -1018.7,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-04-21",
+    "stock": "RECLTD",
+    "direction": "LONG",
+    "entry_time": "09:40",
+    "net": -256.98,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-04-22",
+    "stock": "RECLTD",
+    "direction": "LONG",
+    "entry_time": "10:25",
+    "net": -262.58,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-04-30",
+    "stock": "RECLTD",
+    "direction": "LONG",
+    "entry_time": "09:50",
+    "net": -255.33,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-05-09",
+    "stock": "RECLTD",
+    "direction": "LONG",
+    "entry_time": "09:45",
+    "net": -236.65,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-05-16",
+    "stock": "RECLTD",
+    "direction": "LONG",
+    "entry_time": "09:40",
+    "net": -25.0,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-05-22",
+    "stock": "RECLTD",
+    "direction": "LONG",
+    "entry_time": "10:25",
+    "net": -241.08,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-04-16",
+    "stock": "TVSMOTOR",
+    "direction": "LONG",
+    "entry_time": "09:40",
+    "net": -1336.65,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-04-17",
+    "stock": "TVSMOTOR",
+    "direction": "LONG",
+    "entry_time": "09:55",
+    "net": -1358.75,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-04-17",
+    "stock": "TVSMOTOR",
+    "direction": "LONG",
+    "entry_time": "10:25",
+    "net": 3259.5,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-04-22",
+    "stock": "TVSMOTOR",
+    "direction": "LONG",
+    "entry_time": "09:50",
+    "net": -1423.2,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-05-05",
+    "stock": "TVSMOTOR",
+    "direction": "LONG",
+    "entry_time": "10:05",
+    "net": 3404.75,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-05-06",
+    "stock": "TVSMOTOR",
+    "direction": "LONG",
+    "entry_time": "09:35",
+    "net": -1445.5,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-03-21",
+    "stock": "OBEROIRLTY",
+    "direction": "LONG",
+    "entry_time": "09:35",
+    "net": -890.0,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-03-24",
+    "stock": "OBEROIRLTY",
+    "direction": "LONG",
+    "entry_time": "09:50",
+    "net": 2057.5,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-03-24",
+    "stock": "OBEROIRLTY",
+    "direction": "LONG",
+    "entry_time": "10:20",
+    "net": -887.62,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-04-02",
+    "stock": "OBEROIRLTY",
+    "direction": "LONG",
+    "entry_time": "09:35",
+    "net": -837.0,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-04-22",
+    "stock": "OBEROIRLTY",
+    "direction": "LONG",
+    "entry_time": "09:35",
+    "net": 2043.25,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-04-22",
+    "stock": "OBEROIRLTY",
+    "direction": "LONG",
+    "entry_time": "10:05",
+    "net": 2075.87,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-05-14",
+    "stock": "OBEROIRLTY",
+    "direction": "LONG",
+    "entry_time": "09:45",
+    "net": 590.0,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-05-15",
+    "stock": "OBEROIRLTY",
+    "direction": "LONG",
+    "entry_time": "09:55",
+    "net": 1984.0,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-05-16",
+    "stock": "OBEROIRLTY",
+    "direction": "LONG",
+    "entry_time": "09:45",
+    "net": 2014.5,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-05-19",
+    "stock": "OBEROIRLTY",
+    "direction": "LONG",
+    "entry_time": "09:35",
+    "net": -888.8,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-05-19",
+    "stock": "OBEROIRLTY",
+    "direction": "LONG",
+    "entry_time": "09:45",
+    "net": -888.15,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-05-26",
+    "stock": "OBEROIRLTY",
+    "direction": "LONG",
+    "entry_time": "09:35",
+    "net": -917.3,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-04-16",
+    "stock": "NHPC",
+    "direction": "LONG",
+    "entry_time": "09:40",
+    "net": -82.92,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-04-21",
+    "stock": "NHPC",
+    "direction": "LONG",
+    "entry_time": "09:35",
+    "net": 67.75,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-04-22",
+    "stock": "NHPC",
+    "direction": "LONG",
+    "entry_time": "09:35",
+    "net": 70.99,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-04-22",
+    "stock": "NHPC",
+    "direction": "LONG",
+    "entry_time": "09:45",
+    "net": -85.03,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-05-13",
+    "stock": "NHPC",
+    "direction": "LONG",
+    "entry_time": "09:35",
+    "net": -81.9,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-05-16",
+    "stock": "NHPC",
+    "direction": "LONG",
+    "entry_time": "10:25",
+    "net": -84.88,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-03-28",
+    "stock": "PFC",
+    "direction": "LONG",
+    "entry_time": "09:50",
+    "net": -253.5,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-04-21",
+    "stock": "PFC",
+    "direction": "LONG",
+    "entry_time": "09:35",
+    "net": 496.56,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-04-22",
+    "stock": "PFC",
+    "direction": "LONG",
+    "entry_time": "09:40",
+    "net": -259.35,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-04-22",
+    "stock": "PFC",
+    "direction": "LONG",
+    "entry_time": "10:10",
+    "net": -258.73,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-04-24",
+    "stock": "PFC",
+    "direction": "LONG",
+    "entry_time": "09:40",
+    "net": -257.5,
+    "setup": "setup4_reclaim"
+   },
+   {
+    "date": "2025-04-24",
+    "stock": "PFC",
+    "direction": "LONG",
+    "entry_time": "09:55",
+    "net": -257.95,
+    "setup": "setup4_reclaim"
+   },
+   {
+    "date": "2025-04-30",
+    "stock": "PFC",
+    "direction": "LONG",
+    "entry_time": "09:55",
+    "net": -247.27,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-05-09",
+    "stock": "PFC",
+    "direction": "LONG",
+    "entry_time": "09:45",
+    "net": -235.05,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-05-12",
+    "stock": "PFC",
+    "direction": "LONG",
+    "entry_time": "09:35",
+    "net": -243.37,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-05-12",
+    "stock": "PFC",
+    "direction": "LONG",
+    "entry_time": "09:50",
+    "net": 468.44,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-05-13",
+    "stock": "PFC",
+    "direction": "LONG",
+    "entry_time": "09:40",
+    "net": -247.72,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-05-14",
+    "stock": "PFC",
+    "direction": "LONG",
+    "entry_time": "09:45",
+    "net": -248.0,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-05-16",
+    "stock": "PFC",
+    "direction": "LONG",
+    "entry_time": "09:40",
+    "net": -250.48,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-04-21",
+    "stock": "NATIONALUM",
+    "direction": "LONG",
+    "entry_time": "10:10",
+    "net": 154.74,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-04-24",
+    "stock": "NATIONALUM",
+    "direction": "LONG",
+    "entry_time": "09:55",
+    "net": -121.51,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-04-24",
+    "stock": "NATIONALUM",
+    "direction": "LONG",
+    "entry_time": "10:15",
+    "net": -121.45,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-05-05",
+    "stock": "NATIONALUM",
+    "direction": "LONG",
+    "entry_time": "10:10",
+    "net": -44.0,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-05-09",
+    "stock": "NATIONALUM",
+    "direction": "LONG",
+    "entry_time": "09:40",
+    "net": -116.6,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-05-09",
+    "stock": "NATIONALUM",
+    "direction": "LONG",
+    "entry_time": "10:15",
+    "net": 152.31,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-05-12",
+    "stock": "NATIONALUM",
+    "direction": "LONG",
+    "entry_time": "09:35",
+    "net": -121.82,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-05-12",
+    "stock": "NATIONALUM",
+    "direction": "LONG",
+    "entry_time": "09:55",
+    "net": -121.85,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-05-15",
+    "stock": "NATIONALUM",
+    "direction": "LONG",
+    "entry_time": "10:15",
+    "net": 178.25,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-05-15",
+    "stock": "NATIONALUM",
+    "direction": "LONG",
+    "entry_time": "10:25",
+    "net": 181.19,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-05-16",
+    "stock": "NATIONALUM",
+    "direction": "LONG",
+    "entry_time": "10:20",
+    "net": -129.67,
+    "setup": "setup4_reclaim"
+   },
+   {
+    "date": "2025-05-19",
+    "stock": "NATIONALUM",
+    "direction": "LONG",
+    "entry_time": "09:35",
+    "net": -131.0,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-05-19",
+    "stock": "NATIONALUM",
+    "direction": "LONG",
+    "entry_time": "09:50",
+    "net": -131.17,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-09-11",
+    "stock": "NATIONALUM",
+    "direction": "LONG",
+    "entry_time": "09:40",
+    "net": 225.13,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-09-11",
+    "stock": "NATIONALUM",
+    "direction": "LONG",
+    "entry_time": "10:20",
+    "net": -148.13,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-10-09",
+    "stock": "NATIONALUM",
+    "direction": "LONG",
+    "entry_time": "10:15",
+    "net": 246.36,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-10-15",
+    "stock": "NATIONALUM",
+    "direction": "LONG",
+    "entry_time": "09:40",
+    "net": -13.0,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-11-17",
+    "stock": "NATIONALUM",
+    "direction": "LONG",
+    "entry_time": "09:40",
+    "net": -171.85,
+    "setup": "setup4_reclaim"
+   },
+   {
+    "date": "2025-11-19",
+    "stock": "NATIONALUM",
+    "direction": "LONG",
+    "entry_time": "09:40",
+    "net": -169.82,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-11-20",
+    "stock": "NATIONALUM",
+    "direction": "LONG",
+    "entry_time": "09:35",
+    "net": -170.48,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-01-03",
+    "stock": "HINDCOPPER",
+    "direction": "LONG",
+    "entry_time": "09:35",
+    "net": -166.09,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-01-03",
+    "stock": "HINDCOPPER",
+    "direction": "LONG",
+    "entry_time": "10:00",
+    "net": -165.96,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-03-21",
+    "stock": "HINDCOPPER",
+    "direction": "LONG",
+    "entry_time": "09:40",
+    "net": 251.71,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-03-21",
+    "stock": "HINDCOPPER",
+    "direction": "LONG",
+    "entry_time": "10:00",
+    "net": -158.39,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-03-28",
+    "stock": "HINDCOPPER",
+    "direction": "LONG",
+    "entry_time": "10:10",
+    "net": -154.45,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-04-21",
+    "stock": "HINDCOPPER",
+    "direction": "LONG",
+    "entry_time": "09:40",
+    "net": 230.61,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-04-22",
+    "stock": "HINDCOPPER",
+    "direction": "LONG",
+    "entry_time": "09:40",
+    "net": -152.05,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-04-22",
+    "stock": "HINDCOPPER",
+    "direction": "LONG",
+    "entry_time": "10:20",
+    "net": -25.0,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-04-24",
+    "stock": "HINDCOPPER",
+    "direction": "LONG",
+    "entry_time": "09:55",
+    "net": -153.65,
+    "setup": "setup4_reclaim"
+   },
+   {
+    "date": "2025-04-28",
+    "stock": "HINDCOPPER",
+    "direction": "LONG",
+    "entry_time": "10:00",
+    "net": 232.12,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-04-29",
+    "stock": "HINDCOPPER",
+    "direction": "LONG",
+    "entry_time": "09:35",
+    "net": -151.22,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-05-05",
+    "stock": "HINDCOPPER",
+    "direction": "LONG",
+    "entry_time": "09:55",
+    "net": 229.0,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-05-12",
+    "stock": "HINDCOPPER",
+    "direction": "LONG",
+    "entry_time": "09:35",
+    "net": -148.3,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-05-12",
+    "stock": "HINDCOPPER",
+    "direction": "LONG",
+    "entry_time": "09:50",
+    "net": 230.62,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-05-27",
+    "stock": "HINDCOPPER",
+    "direction": "LONG",
+    "entry_time": "09:35",
+    "net": -163.43,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-05-27",
+    "stock": "HINDCOPPER",
+    "direction": "LONG",
+    "entry_time": "10:10",
+    "net": -163.4,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-06-02",
+    "stock": "HINDCOPPER",
+    "direction": "LONG",
+    "entry_time": "09:55",
+    "net": -164.59,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-06-04",
+    "stock": "HINDCOPPER",
+    "direction": "LONG",
+    "entry_time": "09:35",
+    "net": -165.32,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-06-05",
+    "stock": "HINDCOPPER",
+    "direction": "LONG",
+    "entry_time": "10:20",
+    "net": -167.42,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-06-23",
+    "stock": "HINDCOPPER",
+    "direction": "LONG",
+    "entry_time": "09:45",
+    "net": 270.46,
+    "setup": "setup4_reclaim"
+   },
+   {
+    "date": "2025-06-24",
+    "stock": "HINDCOPPER",
+    "direction": "LONG",
+    "entry_time": "09:45",
+    "net": -168.15,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-06-24",
+    "stock": "HINDCOPPER",
+    "direction": "LONG",
+    "entry_time": "09:55",
+    "net": 280.5,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-07-11",
+    "stock": "HINDCOPPER",
+    "direction": "LONG",
+    "entry_time": "09:45",
+    "net": -173.7,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-09-12",
+    "stock": "HINDCOPPER",
+    "direction": "LONG",
+    "entry_time": "09:55",
+    "net": 278.12,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-09-12",
+    "stock": "HINDCOPPER",
+    "direction": "LONG",
+    "entry_time": "10:05",
+    "net": 284.35,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-09-22",
+    "stock": "HINDCOPPER",
+    "direction": "LONG",
+    "entry_time": "09:40",
+    "net": 326.36,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-09-22",
+    "stock": "HINDCOPPER",
+    "direction": "LONG",
+    "entry_time": "09:45",
+    "net": 331.51,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-09-24",
+    "stock": "HINDCOPPER",
+    "direction": "LONG",
+    "entry_time": "09:35",
+    "net": -195.46,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-09-25",
+    "stock": "HINDCOPPER",
+    "direction": "LONG",
+    "entry_time": "09:55",
+    "net": 359.99,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-09-25",
+    "stock": "HINDCOPPER",
+    "direction": "LONG",
+    "entry_time": "10:20",
+    "net": 365.12,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-10-09",
+    "stock": "HINDCOPPER",
+    "direction": "LONG",
+    "entry_time": "09:35",
+    "net": -221.23,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-10-09",
+    "stock": "HINDCOPPER",
+    "direction": "LONG",
+    "entry_time": "09:40",
+    "net": -220.05,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-11-07",
+    "stock": "HINDCOPPER",
+    "direction": "LONG",
+    "entry_time": "09:45",
+    "net": 364.37,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-11-07",
+    "stock": "HINDCOPPER",
+    "direction": "LONG",
+    "entry_time": "10:25",
+    "net": 369.56,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-11-10",
+    "stock": "HINDCOPPER",
+    "direction": "LONG",
+    "entry_time": "09:45",
+    "net": -210.38,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-11-11",
+    "stock": "HINDCOPPER",
+    "direction": "LONG",
+    "entry_time": "09:55",
+    "net": -212.83,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-11-11",
+    "stock": "HINDCOPPER",
+    "direction": "LONG",
+    "entry_time": "10:00",
+    "net": -213.5,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-11-25",
+    "stock": "HINDCOPPER",
+    "direction": "LONG",
+    "entry_time": "09:35",
+    "net": 357.19,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-11-25",
+    "stock": "HINDCOPPER",
+    "direction": "LONG",
+    "entry_time": "10:15",
+    "net": -201.0,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-12-01",
+    "stock": "HINDCOPPER",
+    "direction": "LONG",
+    "entry_time": "10:15",
+    "net": 381.31,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-12-04",
+    "stock": "HINDCOPPER",
+    "direction": "LONG",
+    "entry_time": "09:40",
+    "net": -214.18,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-12-04",
+    "stock": "HINDCOPPER",
+    "direction": "LONG",
+    "entry_time": "10:25",
+    "net": 396.62,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-12-12",
+    "stock": "HINDCOPPER",
+    "direction": "LONG",
+    "entry_time": "09:40",
+    "net": -225.95,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-12-12",
+    "stock": "HINDCOPPER",
+    "direction": "LONG",
+    "entry_time": "10:20",
+    "net": 424.88,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-12-18",
+    "stock": "HINDCOPPER",
+    "direction": "LONG",
+    "entry_time": "09:55",
+    "net": 426.06,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-12-23",
+    "stock": "HINDCOPPER",
+    "direction": "LONG",
+    "entry_time": "09:40",
+    "net": -246.23,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-12-24",
+    "stock": "HINDCOPPER",
+    "direction": "LONG",
+    "entry_time": "09:35",
+    "net": 492.19,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-12-24",
+    "stock": "HINDCOPPER",
+    "direction": "LONG",
+    "entry_time": "09:40",
+    "net": -255.22,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-12-26",
+    "stock": "HINDCOPPER",
+    "direction": "LONG",
+    "entry_time": "10:25",
+    "net": -271.93,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-12-30",
+    "stock": "HINDCOPPER",
+    "direction": "LONG",
+    "entry_time": "09:40",
+    "net": 599.87,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-12-30",
+    "stock": "HINDCOPPER",
+    "direction": "LONG",
+    "entry_time": "10:05",
+    "net": -299.47,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-04-16",
+    "stock": "ASTRAL",
+    "direction": "LONG",
+    "entry_time": "10:05",
+    "net": -691.0,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-04-21",
+    "stock": "ASTRAL",
+    "direction": "LONG",
+    "entry_time": "09:35",
+    "net": 1607.5,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-04-21",
+    "stock": "ASTRAL",
+    "direction": "LONG",
+    "entry_time": "10:15",
+    "net": -703.45,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-04-22",
+    "stock": "ASTRAL",
+    "direction": "LONG",
+    "entry_time": "09:35",
+    "net": 1658.5,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-05-08",
+    "stock": "ASTRAL",
+    "direction": "LONG",
+    "entry_time": "10:25",
+    "net": -695.65,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-05-12",
+    "stock": "ASTRAL",
+    "direction": "LONG",
+    "entry_time": "09:35",
+    "net": -700.2,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-05-12",
+    "stock": "ASTRAL",
+    "direction": "LONG",
+    "entry_time": "09:55",
+    "net": 1613.75,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-05-13",
+    "stock": "ASTRAL",
+    "direction": "LONG",
+    "entry_time": "10:10",
+    "net": -713.5,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-05-16",
+    "stock": "ASTRAL",
+    "direction": "LONG",
+    "entry_time": "09:35",
+    "net": 1656.0,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-05-19",
+    "stock": "ASTRAL",
+    "direction": "LONG",
+    "entry_time": "09:35",
+    "net": -726.4,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-05-19",
+    "stock": "ASTRAL",
+    "direction": "LONG",
+    "entry_time": "10:05",
+    "net": 1680.5,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-05-22",
+    "stock": "ASTRAL",
+    "direction": "LONG",
+    "entry_time": "09:50",
+    "net": -751.0,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-05-22",
+    "stock": "ASTRAL",
+    "direction": "LONG",
+    "entry_time": "10:00",
+    "net": -750.1,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-05-26",
+    "stock": "ASTRAL",
+    "direction": "LONG",
+    "entry_time": "09:35",
+    "net": 1814.62,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-01-03",
+    "stock": "OIL",
+    "direction": "LONG",
+    "entry_time": "09:45",
+    "net": 560.06,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-01-03",
+    "stock": "OIL",
+    "direction": "LONG",
+    "entry_time": "10:05",
+    "net": -283.52,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-03-28",
+    "stock": "OIL",
+    "direction": "LONG",
+    "entry_time": "10:00",
+    "net": -237.65,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-04-01",
+    "stock": "OIL",
+    "direction": "LONG",
+    "entry_time": "09:35",
+    "net": -236.42,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-04-01",
+    "stock": "OIL",
+    "direction": "LONG",
+    "entry_time": "10:05",
+    "net": -235.72,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-04-21",
+    "stock": "OIL",
+    "direction": "LONG",
+    "entry_time": "09:35",
+    "net": 447.25,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-04-21",
+    "stock": "OIL",
+    "direction": "LONG",
+    "entry_time": "09:50",
+    "net": -236.7,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-04-22",
+    "stock": "OIL",
+    "direction": "LONG",
+    "entry_time": "10:20",
+    "net": 457.87,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-04-28",
+    "stock": "OIL",
+    "direction": "LONG",
+    "entry_time": "10:00",
+    "net": 460.31,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-04-29",
+    "stock": "OIL",
+    "direction": "LONG",
+    "entry_time": "10:00",
+    "net": -244.53,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-04-30",
+    "stock": "OIL",
+    "direction": "LONG",
+    "entry_time": "09:50",
+    "net": 467.06,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-05-02",
+    "stock": "OIL",
+    "direction": "LONG",
+    "entry_time": "09:40",
+    "net": -247.45,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-05-05",
+    "stock": "OIL",
+    "direction": "LONG",
+    "entry_time": "09:45",
+    "net": -240.65,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-05-09",
+    "stock": "OIL",
+    "direction": "LONG",
+    "entry_time": "10:15",
+    "net": 457.75,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2025-05-16",
+    "stock": "OIL",
+    "direction": "LONG",
+    "entry_time": "09:55",
+    "net": -253.07,
+    "setup": "skill_or_breakout"
+   }
+  ]
+ },
+ "2026": {
+  "mirror": {
+   "trades": 36,
+   "net": 3349.21,
+   "expectancy": 93.03,
+   "winners": 14,
+   "cells": {
+    "UP": [
+     12,
+     3583.54
+    ],
+    "DOWN": [
+     0,
+     0
+    ],
+    "FLAT": [
+     24,
+     -234.33
+    ]
+   },
+   "months": {
+    "2026-01": -3.13,
+    "2026-02": -671.52,
+    "2026-04": -674.35,
+    "2026-05": 1002.7,
+    "2026-06": 540.0,
+    "2026-07": 1431.39,
+    "2026-08": 1724.12
+   }
+  },
+  "placebo": {
+   "trades": 76,
+   "net": -11790.74,
+   "expectancy": -155.14,
+   "winners": 17,
+   "cells": {
+    "UP": [
+     33,
+     -1163.0
+    ],
+    "DOWN": [
+     0,
+     0
+    ],
+    "FLAT": [
+     43,
+     -10627.74
+    ]
+   },
+   "months": {
+    "2026-01": -1190.29,
+    "2026-02": -6378.48,
+    "2026-04": 130.0,
+    "2026-05": -2180.81,
+    "2026-06": -1641.77,
+    "2026-07": -2907.6,
+    "2026-08": 2378.21
+   }
+  },
+  "mirror_rows": [
+   {
+    "date": "2026-02-11",
+    "stock": "GLENMARK",
+    "direction": "LONG",
+    "entry_time": "10:20",
+    "net": 2442.62,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2026-02-12",
+    "stock": "GLENMARK",
+    "direction": "LONG",
+    "entry_time": "10:05",
+    "net": -1051.1,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2026-02-13",
+    "stock": "GLENMARK",
+    "direction": "LONG",
+    "entry_time": "09:45",
+    "net": -1059.65,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2026-05-07",
+    "stock": "TVSMOTOR",
+    "direction": "LONG",
+    "entry_time": "09:35",
+    "net": -1883.7,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2026-05-07",
+    "stock": "TVSMOTOR",
+    "direction": "LONG",
+    "entry_time": "10:10",
+    "net": 4548.5,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2026-04-22",
+    "stock": "OBEROIRLTY",
+    "direction": "LONG",
+    "entry_time": "09:55",
+    "net": -911.75,
+    "setup": "setup4_reclaim"
+   },
+   {
+    "date": "2026-07-08",
+    "stock": "OBEROIRLTY",
+    "direction": "LONG",
+    "entry_time": "09:50",
+    "net": -992.35,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2026-07-09",
+    "stock": "OBEROIRLTY",
+    "direction": "LONG",
+    "entry_time": "09:45",
+    "net": -988.25,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2026-07-10",
+    "stock": "OBEROIRLTY",
+    "direction": "LONG",
+    "entry_time": "09:50",
+    "net": 2326.5,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2026-07-17",
+    "stock": "OBEROIRLTY",
+    "direction": "LONG",
+    "entry_time": "09:40",
+    "net": 2297.25,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2026-07-20",
+    "stock": "OBEROIRLTY",
+    "direction": "LONG",
+    "entry_time": "10:20",
+    "net": -974.7,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2026-02-12",
+    "stock": "NHPC",
+    "direction": "LONG",
+    "entry_time": "10:00",
+    "net": -78.77,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2026-01-02",
+    "stock": "NATIONALUM",
+    "direction": "LONG",
+    "entry_time": "09:35",
+    "net": 362.88,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2026-01-06",
+    "stock": "NATIONALUM",
+    "direction": "LONG",
+    "entry_time": "09:35",
+    "net": -211.53,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2026-01-06",
+    "stock": "NATIONALUM",
+    "direction": "LONG",
+    "entry_time": "09:45",
+    "net": 390.87,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2026-01-07",
+    "stock": "NATIONALUM",
+    "direction": "LONG",
+    "entry_time": "09:35",
+    "net": -218.35,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2026-02-12",
+    "stock": "NATIONALUM",
+    "direction": "LONG",
+    "entry_time": "09:40",
+    "net": -225.17,
+    "setup": "setup4_reclaim"
+   },
+   {
+    "date": "2026-04-22",
+    "stock": "NATIONALUM",
+    "direction": "LONG",
+    "entry_time": "09:40",
+    "net": 493.75,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2026-04-22",
+    "stock": "NATIONALUM",
+    "direction": "LONG",
+    "entry_time": "09:55",
+    "net": -256.35,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2026-05-05",
+    "stock": "NATIONALUM",
+    "direction": "LONG",
+    "entry_time": "10:00",
+    "net": -248.35,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2026-06-19",
+    "stock": "NATIONALUM",
+    "direction": "LONG",
+    "entry_time": "09:40",
+    "net": 385.0,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2026-07-01",
+    "stock": "NATIONALUM",
+    "direction": "LONG",
+    "entry_time": "10:20",
+    "net": -210.65,
+    "setup": "setup4_reclaim"
+   },
+   {
+    "date": "2026-07-06",
+    "stock": "NATIONALUM",
+    "direction": "LONG",
+    "entry_time": "09:45",
+    "net": 15.0,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2026-07-08",
+    "stock": "NATIONALUM",
+    "direction": "LONG",
+    "entry_time": "09:45",
+    "net": 397.06,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2026-07-08",
+    "stock": "NATIONALUM",
+    "direction": "LONG",
+    "entry_time": "10:15",
+    "net": -216.97,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2026-07-10",
+    "stock": "NATIONALUM",
+    "direction": "LONG",
+    "entry_time": "10:00",
+    "net": -221.5,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2026-08-17",
+    "stock": "NATIONALUM",
+    "direction": "LONG",
+    "entry_time": "09:45",
+    "net": 438.5,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2026-01-06",
+    "stock": "HINDCOPPER",
+    "direction": "LONG",
+    "entry_time": "09:45",
+    "net": -327.0,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2026-02-12",
+    "stock": "HINDCOPPER",
+    "direction": "LONG",
+    "entry_time": "09:40",
+    "net": -350.0,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2026-02-12",
+    "stock": "HINDCOPPER",
+    "direction": "LONG",
+    "entry_time": "09:55",
+    "net": -349.45,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2026-05-27",
+    "stock": "HINDCOPPER",
+    "direction": "LONG",
+    "entry_time": "10:05",
+    "net": -321.5,
+    "setup": "setup4_reclaim"
+   },
+   {
+    "date": "2026-08-12",
+    "stock": "HINDCOPPER",
+    "direction": "LONG",
+    "entry_time": "09:40",
+    "net": 640.0,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2026-08-12",
+    "stock": "HINDCOPPER",
+    "direction": "LONG",
+    "entry_time": "10:10",
+    "net": 645.62,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2026-05-26",
+    "stock": "ASTRAL",
+    "direction": "LONG",
+    "entry_time": "10:00",
+    "net": -822.15,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2026-05-11",
+    "stock": "OIL",
+    "direction": "LONG",
+    "entry_time": "10:15",
+    "net": -270.1,
+    "setup": "skill_or_breakout"
+   },
+   {
+    "date": "2026-06-16",
+    "stock": "OIL",
+    "direction": "LONG",
+    "entry_time": "09:45",
+    "net": 155.0,
+    "setup": "setup4_reclaim"
+   }
+  ]
+ },
+ "incumbent": {
+  "2025": 16024.11,
+  "2026": 205615.59,
+  "combined": 221639.7
+ },
+ "if_added": {
+  "2025": 21233.82,
+  "2026": 208964.8,
+  "combined": 230198.62
+ },
+ "component_combined": {
+  "trades": 206,
+  "net": 8558.92,
+  "expectancy": 41.55
+ },
+ "placebo_combined": {
+  "trades": 322,
+  "net": 6466.8,
+  "expectancy": 20.08
+ },
+ "gate": {
+  "combined_rises": true,
+  "y2025_not_fall": true,
+  "y2026_not_fall": true,
+  "neither_negative": true
+ },
+ "l21_standard": {
+  "component_expectancy_positive": true,
+  "beats_flip_placebo_per_trade": true
+ },
+ "banked": true,
+ "new_book": {
+  "cells2025": {
+   "UP": [
+    204,
+    -1301.36
+   ],
+   "DOWN": [
+    498,
+    21561.86
+   ],
+   "FLAT": [
+    61,
+    973.32
+   ]
+  },
+  "cells2026": {
+   "UP": [
+    34,
+    15866.11
+   ],
+   "DOWN": [
+    512,
+    188336.51
+   ],
+   "FLAT": [
+    95,
+    4762.18
+   ]
+  },
+  "months2025": {
+   "2025-01": 4695.67,
+   "2025-02": 10525.76,
+   "2025-03": -3124.15,
+   "2025-04": 16605.27,
+   "2025-05": -5655.71,
+   "2025-06": -955.92,
+   "2025-07": -5291.23,
+   "2025-08": 8360.05,
+   "2025-09": 5610.64,
+   "2025-10": -5431.32,
+   "2025-11": -5313.19,
+   "2025-12": 1207.95
+  },
+  "months2026": {
+   "2026-01": 30660.73,
+   "2026-02": 18864.97,
+   "2026-03": 20160.45,
+   "2026-04": 11792.17,
+   "2026-05": 34011.27,
+   "2026-06": 7168.98,
+   "2026-07": 8909.04,
+   "2026-08": 8928.63,
+   "2026-09": 15771.88,
+   "2026-10": 52696.68
+  },
+  "spread": {
+   "min": -5655.71,
+   "max": 52696.68,
+   "range": 58352.39,
+   "stdev": 14247.01
+  }
+ }
+}
