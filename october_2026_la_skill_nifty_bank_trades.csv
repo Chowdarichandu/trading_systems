@@ -1,0 +1,9 @@
+date,week,column,symbol,method,setup,direction,signal_time,entry,stop,target,exit_time,exit_reason,exit_price,points,provisional_net_rs,target_net_rs,capped,morning_net_rs,morning_exit,re_signal,re_entry,re_stop,re_target,re_exit,re_exit_time,re_exit_price,re_net_rs,note
+2026-10-01,2026-W40,Skill BANKNIFTY,BANKNIFTY,Skill,or_breakout,CE,09:55,54923.5,54840.1,55090.3,2026-10-01 10:35:00,target,55090.3,166.8,16640.0,16640.0,True,,,,,,,,,,,"OR-only, V4-style filters"
+2026-10-07,2026-W41,(lA) BANKNIFTY,BANKNIFTY,(lA),la_pe_rescan_reentry,PE,09:35,54654.85,54729.2,54506.15,09:40,day_loss,54729.2,-74.35,-7475.0,14830.0,True,-7475.0,stop,,,,,,,,,Nifty-confirmed mirror (provisional)
+2026-10-08,2026-W41,(lA) NIFTY,NIFTY,(lA),la_pe_rescan_reentry,PE,11:25,22340.6,22399.25,22223.3,14:00,target,22223.299999999996,117.3,11690.0,11690.0,True,11690.0,target,,,,,,,,,BN-confirmed rescan
+2026-10-08,2026-W41,Skill NIFTY,NIFTY,Skill,or_breakdown,PE,09:40,22473.55,22500.95,22418.749999999996,2026-10-08 11:20:00,target,22418.749999999996,54.8,5440.0,5440.0,True,,,,,,,,,,,"OR-only, V4-style filters"
+2026-10-21,2026-W43,(lA) BANKNIFTY,BANKNIFTY,(lA),la_pe_rescan_reentry,PE,11:15,55249.15,55350.35,55046.75,11:40,target,55046.75000000001,202.4,20200.0,20200.0,True,20200.0,target,,,,,,,,,Nifty-confirmed mirror (provisional)
+2026-10-23,2026-W43,(lA) BANKNIFTY,BANKNIFTY,(lA),la_pe_rescan_reentry,PE,09:55,54444.05,54564.55,54203.05,10:10,target,54203.05,241.0,24060.0,24060.0,False,24060.0,target,,,,,,,,,Nifty-confirmed mirror (provisional)
+2026-10-23,2026-W43,(lA) NIFTY,NIFTY,(lA),la_pe_rescan_reentry,PE,10:05,22526.25,22583.4,22411.95,10:35,target,22411.949999999997,114.3,11390.0,11390.0,True,11390.0,target,,,,,,,,,BN-confirmed rescan
+2026-10-28,2026-W44,Skill NIFTY,NIFTY,Skill,or_breakdown,PE,10:15,22519.95,22574.25,22411.350000000002,2026-10-28 10:55:00,stop,22574.25,-54.3,-5470.0,10820.0,True,,,,,,,,,,,"OR-only, V4-style filters"

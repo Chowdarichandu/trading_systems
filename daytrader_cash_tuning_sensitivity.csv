@@ -1,0 +1,4 @@
+variant,entry_mode,room_pct,bias_on,signal_end,target_ratio,stop_scale,days,trades,targets,stops,square_offs,win_rate_pct,net_rs,expectancy_rs,max_drawdown_rs,trades_per_week
+bias off,v4,0.0036,False,baseline,2.0,1.0,110,32,9,20,3,28.1,-33965.0,-1061.41,63485.0,1.45
+signal end 11:30 all,v4,0.0036,True,1130,2.0,1.0,110,22,7,15,0,31.8,-25505.0,-1159.32,68655.0,1.0
+signal end 14:30 all,v4,0.0036,True,1430,2.0,1.0,110,32,10,21,1,31.2,16055.0,501.72,52170.0,1.45

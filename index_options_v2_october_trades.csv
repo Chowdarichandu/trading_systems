@@ -1,0 +1,49 @@
+version,index,date,setup,direction,exit_reason,spot_points_provisional_net_rs,premium_net_per_1_lot_rs,note
+V5-v2,NIFTY,2026-10-26,setup4_reclaim,CE,stop,-8635.0,-3470.0,"V5 base Oct, premium overlay only where computed in v4_options report"
+V5-v2,BANKNIFTY,2026-10-01,setup4_reclaim,CE,target,16640.0,NOT_COMPUTED,"V5 base Oct, premium overlay only where computed in v4_options report"
+V5-v2,BANKNIFTY,2026-10-26,setup3_bounce_rejection,PE,target,10520.0,2480.0,"V5 base Oct, premium overlay only where computed in v4_options report"
+V5-v2,BANKNIFTY,2026-10-13,setup3_bounce_rejection,PE,stop,-3730.0,NOT_COMPUTED,"V5 base Oct, premium overlay only where computed in v4_options report"
+V5-v2,BANKNIFTY,2026-10-21,setup2_or_breakdown,PE,target,20200.0,2480.0,"V5 base Oct, premium overlay only where computed in v4_options report"
+V5-v2,NIFTY,2026-10-08,setup2_or_breakdown,PE,target,5440.0,NOT_COMPUTED,"V5 base Oct, premium overlay only where computed in v4_options report"
+V5-v2,NIFTY,2026-10-23,setup2_or_breakdown,PE,target,11390.0,-1334.75,"V5 base Oct, premium overlay only where computed in v4_options report"
+Skill v2 (S1),NIFTY,2026-10-01,or_breakout,CE,S1_CE_bearish,BLOCKED,NOT_COMPUTED,S1_CE_bearish
+Skill v2 (S1),NIFTY,2026-10-05,or_breakout,CE,stop,-2220.0,NOT_COMPUTED,
+Skill v2 (S1),NIFTY,2026-10-06,or_breakout,CE,target,4240.0,NOT_COMPUTED,
+Skill v2 (S1),NIFTY,2026-10-07,or_breakdown,PE,stop,-2725.0,NOT_COMPUTED,
+Skill v2 (S1),NIFTY,2026-10-08,or_breakdown,PE,target,5440.0,NOT_COMPUTED,
+Skill v2 (S1),NIFTY,2026-10-09,or_breakout,CE,S1_CE_bearish,BLOCKED,NOT_COMPUTED,S1_CE_bearish
+Skill v2 (S1),NIFTY,2026-10-12,or_breakdown,PE,stop,-4605.0,NOT_COMPUTED,
+Skill v2 (S1),NIFTY,2026-10-13,or_breakout,CE,S1_CE_bearish,BLOCKED,NOT_COMPUTED,S1_CE_bearish
+Skill v2 (S1),NIFTY,2026-10-15,or_breakout,CE,S1_CE_bearish,BLOCKED,NOT_COMPUTED,S1_CE_bearish
+Skill v2 (S1),NIFTY,2026-10-16,or_breakdown,PE,S1_0930_PE_not_below_PDL,BLOCKED,NOT_COMPUTED,S1_0930_PE_not_below_PDL
+Skill v2 (S1),NIFTY,2026-10-21,or_breakout,CE,S1_CE_bearish,BLOCKED,NOT_COMPUTED,S1_CE_bearish
+Skill v2 (S1),NIFTY,2026-10-22,or_breakout,CE,S1_CE_bearish,BLOCKED,NOT_COMPUTED,S1_CE_bearish
+Skill v2 (S1),NIFTY,2026-10-23,or_breakdown,PE,S1_0930_PE_not_below_PDL,BLOCKED,NOT_COMPUTED,S1_0930_PE_not_below_PDL
+Skill v2 (S1),NIFTY,2026-10-26,or_breakout,CE,square_off,16550.0,NOT_COMPUTED,
+Skill v2 (S1),NIFTY,2026-10-27,or_breakout,CE,stop,-2790.0,NOT_COMPUTED,
+Skill v2 (S1),NIFTY,2026-10-28,or_breakdown,PE,stop,-5470.0,-3470.0,
+Skill v2 (S1),BANKNIFTY,2026-10-01,or_breakout,CE,target,16640.0,NOT_COMPUTED,
+Skill v2 (S1),BANKNIFTY,2026-10-05,or_breakdown,PE,target,25690.0,NOT_COMPUTED,
+Skill v2 (S1),BANKNIFTY,2026-10-06,or_breakout,CE,stop,-1435.0,NOT_COMPUTED,
+Skill v2 (S1),BANKNIFTY,2026-10-07,or_breakdown,PE,stop,-7475.0,NOT_COMPUTED,
+Skill v2 (S1),BANKNIFTY,2026-10-08,or_breakdown,PE,stop,-11070.0,NOT_COMPUTED,
+Skill v2 (S1),BANKNIFTY,2026-10-09,or_breakout,CE,S1_CE_bearish,BLOCKED,NOT_COMPUTED,S1_CE_bearish
+Skill v2 (S1),BANKNIFTY,2026-10-12,or_breakdown,PE,stop,-4640.0,NOT_COMPUTED,
+Skill v2 (S1),BANKNIFTY,2026-10-13,or_breakout,CE,S1_CE_bearish,BLOCKED,NOT_COMPUTED,S1_CE_bearish
+Skill v2 (S1),BANKNIFTY,2026-10-14,or_breakout,CE,stop,-16660.0,NOT_COMPUTED,
+Skill v2 (S1),BANKNIFTY,2026-10-15,or_breakout,CE,S1_CE_bearish,BLOCKED,NOT_COMPUTED,S1_CE_bearish
+Skill v2 (S1),BANKNIFTY,2026-10-16,or_breakdown,PE,S1_0930_PE_not_below_PDL,BLOCKED,NOT_COMPUTED,S1_0930_PE_not_below_PDL
+Skill v2 (S1),BANKNIFTY,2026-10-21,or_breakout,CE,S1_CE_bearish,BLOCKED,NOT_COMPUTED,S1_CE_bearish
+Skill v2 (S1),BANKNIFTY,2026-10-22,or_breakout,CE,S1_CE_bearish,BLOCKED,NOT_COMPUTED,S1_CE_bearish
+Skill v2 (S1),BANKNIFTY,2026-10-23,or_breakdown,PE,target,14860.0,NOT_COMPUTED,
+Skill v2 (S1),BANKNIFTY,2026-10-27,or_breakout,CE,stop,-7235.0,NOT_COMPUTED,
+Skill v2 (S1),BANKNIFTY,2026-10-28,or_breakout,CE,S1_CE_bearish,BLOCKED,NOT_COMPUTED,S1_CE_bearish
+(lA) v2 (L1),BANKNIFTY,2026-10-07,la_pe_rescan_reentry_L1,PE,stop,-7475.0,NOT_COMPUTED,signal 09:35; base_day_net -7475.0
+(lA) v2 (L1),BANKNIFTY,2026-10-08,la_pe_rescan_reentry_L1,PE,stop,-8510.0,NOT_COMPUTED,signal 13:15; base_day_net None
+(lA) v2 (L1),BANKNIFTY,2026-10-21,la_pe_rescan_reentry_L1,PE,target,20200.0,2480.0,signal 11:15; base_day_net 20200.0
+(lA) v2 (L1),BANKNIFTY,2026-10-23,la_pe_rescan_reentry_L1,PE,target,24060.0,2480.0,signal 09:55; base_day_net 24060.0
+(lA) v2 (L1),NIFTY,2026-10-08,la_pe_rescan_reentry_L1,PE,target,11690.0,NOT_COMPUTED,signal 11:25; base_day_net 11690.0
+(lA) v2 (L1),NIFTY,2026-10-21,la_pe_rescan_reentry_L1,PE,target,4940.0,NOT_COMPUTED,signal 11:35; base_day_net None
+(lA) v2 (L1),NIFTY,2026-10-23,la_pe_rescan_reentry_L1,PE,target,11390.0,-1334.75,signal 10:05; base_day_net 11390.0
+Volrix v2 (overlay),NIFTY,2026-10-01 to 2026-10-28,post_large_down_day_rebound,CALL,no_trigger,0,0,No previous-day close <=-2% in Oct (min Nifty -1.64% on 8 Oct); 0 trades by design
+Volrix v2 (overlay),BANKNIFTY,2026-10-01 to 2026-10-28,post_large_down_day_rebound,CALL,no_trigger,0,0,No previous-day close <=-2% in Oct (min Bank -1.16% on 23 Oct); 0 trades by design

@@ -1,0 +1,109 @@
+date,index,direction,source_systems,representative_system,entry_time,entry_value,strike,expiry,exit_time,exit_value,exit_reason,net_rs,net_unit,full_target,n_systems,month,early,solo
+2026-01-01,NIFTY,PE,Skill V3,Skill V3,10:20,26131.7,,,10:25,26152.15,stop,-2085.0,spot_provisional,0,1,1,False,True
+2026-01-06,NIFTY,CE,Skill V3,Skill V3,10:00,26258.35,,,10:20,26227.65,stop,-3110.0,spot_provisional,0,1,1,False,True
+2026-01-07,NIFTY,CE,Skill V3,Skill V3,10:15,26167.75,,,10:20,26155.9,stop,-1225.0,spot_provisional,0,1,1,False,True
+2026-01-07,NIFTY,PE,(lA) v2,(lA) v2,12:20,,,,,,target,2360.0,spot_provisional,1,1,1,False,True
+2026-01-08,NIFTY,PE,(lA) v2;Skill V3,Skill V3,09:35,26060.8,,,09:35,26070.05,stop,-965.0,spot_provisional,0,2,1,True,False
+2026-01-09,NIFTY,PE,(lA) v2;Skill V3;V5 v2,(lA) v2,09:35,,,,,,day_green,2295.0,spot_provisional,0,3,1,True,False
+2026-01-12,NIFTY,PE,Skill V3,Skill V3,11:20,25515.35,,,11:30,25480.15,target,3480.0,spot_provisional,1,1,1,False,True
+2026-01-14,NIFTY,CE,Skill V3;V5 v2,V5 v2,11:20,,,,,,stop,-2785.0,spot_provisional,0,2,1,False,False
+2026-01-19,NIFTY,PE,(lA) v2;Skill V3,(lA) v2,10:05,,,,,,day_loss,-4615.0,spot_provisional,0,2,1,False,False
+2026-01-20,NIFTY,PE,(lA) v2;Skill V3,(lA) v2,09:40,,,,,,day_loss,-615.0,spot_provisional,0,2,1,True,False
+2026-01-21,NIFTY,PE,(lA) v2;Skill V3;V5 v2,(lA) v2,10:25,,,,,,target,9280.0,spot_provisional,1,3,1,False,False
+2026-01-23,NIFTY,PE,(lA) v2,(lA) v2,13:20,,,,,,target,9720.0,spot_provisional,1,1,1,False,True
+2026-01-30,NIFTY,CE,Skill V3;V5 v2,V5 v2,09:40,,,,,,stop,-3025.0,spot_provisional,0,2,1,True,False
+2026-02-01,NIFTY,CE,Skill V3,Skill V3,10:15,25350.9,,,11:05,25398.2,target,4690.0,spot_provisional,1,1,2,False,True
+2026-02-02,NIFTY,CE,Skill V3;Volrix (b),Volrix (b),09:20,24810.45,,,09:30,24900.45,target,8960.0,spot_provisional,0,2,2,True,False
+2026-02-06,NIFTY,PE,(lA) v2;Skill V3;V5 v2,V5 v2,09:40,,,,,,stop,-2275.0,spot_provisional,0,3,2,True,False
+2026-02-12,NIFTY,PE,Skill V3,Skill V3,11:30,25833.9,,,11:30,25825.5,target,800.0,spot_provisional,1,1,2,False,True
+2026-02-13,NIFTY,PE,(lA) v2;Skill V3;V5 v2,V5 v2,09:35,,,,,,stop,-3750.0,spot_provisional,0,3,2,True,False
+2026-02-16,NIFTY,CE,Skill V3;Volrix (b),Volrix (b),09:20,25473.05,,,12:15,25563.05,target,8960.0,spot_provisional,0,2,2,True,False
+2026-02-17,NIFTY,CE,Skill V3,Skill V3,10:10,25665.8,,,10:15,25683.5,target,1730.0,spot_provisional,1,1,2,False,True
+2026-02-18,NIFTY,PE,Skill V3,Skill V3,10:00,25666.6,,,10:55,25702.0,stop,-3580.0,spot_provisional,0,1,2,False,True
+2026-02-19,NIFTY,PE,(lA) v2,(lA) v2,12:10,,,,,,target,3820.0,spot_provisional,1,1,2,False,True
+2026-02-24,NIFTY,PE,Skill V3;V5 v2,V5 v2,09:35,,,,,,target,7350.0,spot_provisional,1,2,2,True,False
+2026-02-25,NIFTY,CE,Skill V3,Skill V3,10:00,25600.85,,,12:30,25572.9,stop,-2835.0,spot_provisional,0,1,2,False,True
+2026-02-26,NIFTY,PE,(lA) v2,(lA) v2,13:00,,,,,,day_green,1545.0,spot_provisional,0,1,2,False,True
+2026-02-27,NIFTY,PE,(lA) v2;Skill V3,(lA) v2,09:50,,,,,,target,3340.0,spot_provisional,1,2,2,True,False
+2026-03-02,NIFTY,CE,Skill V3;Volrix (b),Volrix (b),09:20,24893.1,,,09:45,24983.1,target,8960.0,spot_provisional,0,2,3,True,False
+2026-03-06,NIFTY,PE,Skill V3,Skill V3,10:50,24587.2,,,11:00,24622.3,stop,-3550.0,spot_provisional,0,1,3,False,True
+2026-03-11,NIFTY,PE,(lA) v2;Skill V3,Skill V3,09:40,24194.7,,,10:05,24122.7,target,7160.0,spot_provisional,1,2,3,True,False
+2026-03-12,NIFTY,CE,Skill V3,Skill V3,10:00,23695.4,,,10:05,23643.75,stop,-5205.0,spot_provisional,0,1,3,False,True
+2026-03-13,NIFTY,PE,(lA) v2;Skill V3;V5 v2,(lA) v2,09:50,,,,,,target,5400.0,spot_provisional,1,3,3,True,False
+2026-03-16,NIFTY,PE,(lA) v2;Skill V3;V5 v2,(lA) v2,10:25,,,,,,target,8940.0,spot_provisional,1,3,3,False,False
+2026-03-17,NIFTY,CE,Skill V3,Skill V3,10:00,23496.7,,,10:20,23558.1,target,6100.0,spot_provisional,1,1,3,False,True
+2026-03-18,NIFTY,CE,Skill V3,Skill V3,10:50,23759.55,,,13:25,23836.45,target,7650.0,spot_provisional,1,1,3,False,True
+2026-03-20,NIFTY,CE,Skill V3;Volrix (b),Volrix (b),09:20,23283.45,,,09:20,23233.45,stop,-5040.0,spot_provisional,0,2,3,True,False
+2026-03-23,NIFTY,PE,Skill V3;V5 v2,V5 v2,09:55,,,,,,target,7260.0,spot_provisional,1,2,3,True,False
+2026-03-30,NIFTY,PE,(lA) v2;V5 v2,(lA) v2,11:30,,,,,,day_loss,-2055.0,spot_provisional,0,2,3,False,False
+2026-04-01,NIFTY,PE,Skill V3,Skill V3,10:30,22797.1,,,12:00,22828.15,stop,-3145.0,spot_provisional,0,1,4,False,True
+2026-04-02,NIFTY,PE,Skill V3;V5 v2,V5 v2,10:00,,,,,,stop,-2115.0,spot_provisional,0,2,4,False,False
+2026-04-07,NIFTY,CE,Skill V3,Skill V3,10:05,22914.45,,,10:50,22879.3,stop,-3555.0,spot_provisional,0,1,4,False,True
+2026-04-13,NIFTY,CE,Skill V3;V5 v2,V5 v2,10:25,,,,,,target,7240.0,spot_provisional,1,2,4,False,False
+2026-04-16,NIFTY,PE,(lA) v2;Skill V3,Skill V3,09:40,24326.25,,,11:45,24250.65,target,7520.0,spot_provisional,1,2,4,True,False
+2026-04-17,NIFTY,CE,Skill V3,Skill V3,10:05,24255.65,,,14:45,24356.15,target,10010.0,spot_provisional,1,1,4,False,True
+2026-04-20,NIFTY,CE,Skill V3,Skill V3,10:35,24427.85,,,11:05,24409.5,stop,-1875.0,spot_provisional,0,1,4,False,True
+2026-04-24,NIFTY,PE,(lA) v2;Skill V3;V5 v2,(lA) v2,09:35,,,,,,target,8820.0,spot_provisional,1,3,4,True,False
+2026-04-27,NIFTY,CE,Skill V3;Volrix (b),Volrix (b),09:20,24020.4,,,13:15,24110.4,target,8960.0,spot_provisional,0,2,4,True,False
+2026-04-28,NIFTY,CE,Skill V3,Skill V3,10:00,24154.35,,,10:40,24124.4,stop,-3035.0,spot_provisional,0,1,4,False,True
+2026-04-30,NIFTY,PE,(lA) v2;Skill V3;V5 v2,V5 v2,10:05,,,,,,stop,-3165.0,spot_provisional,0,3,4,False,False
+2026-05-05,NIFTY,PE,(lA) v2;Skill V3;V5 v2,(lA) v2,10:35,,,,,,target,5040.0,spot_provisional,1,3,5,False,False
+2026-05-11,NIFTY,PE,(lA) v2;Skill V3,(lA) v2,09:40,,,,,,day_green,1805.0,spot_provisional,0,2,5,True,False
+2026-05-12,NIFTY,PE,(lA) v2;Skill V3,Skill V3,09:40,23626.35,,,09:40,23649.15,stop,-2320.0,spot_provisional,0,2,5,True,False
+2026-05-13,NIFTY,PE,(lA) v2;Skill V3;V5 v2,(lA) v2,09:35,,,,,,day_loss,-5075.0,spot_provisional,0,3,5,True,False
+2026-05-18,NIFTY,PE,(lA) v2;Skill V3;V5 v2,V5 v2,09:40,,,,,,stop,-3670.0,spot_provisional,0,3,5,True,False
+2026-05-19,NIFTY,CE,Skill V3,Skill V3,11:00,23772.1,,,11:05,23741.15,stop,-3135.0,spot_provisional,0,1,5,False,True
+2026-05-27,NIFTY,CE,Skill V3,Skill V3,10:20,23953.1,,,10:40,23934.7,stop,-1880.0,spot_provisional,0,1,5,False,True
+2026-06-01,NIFTY,PE,(lA) v2;Skill V3,Skill V3,09:45,23575.35,,,13:05,23478.45,target,9650.0,spot_provisional,1,2,6,True,False
+2026-06-05,NIFTY,PE,Skill V3,Skill V3,10:35,23432.0,,,10:40,23347.5,target,8410.0,spot_provisional,1,1,6,False,True
+2026-06-08,NIFTY,CE,Skill V3;V5 v2,V5 v2,09:35,,,,,,stop,-3805.0,spot_provisional,0,2,6,True,False
+2026-06-19,NIFTY,CE,Skill V3,Skill V3,10:15,24009.85,,,10:20,23987.95,stop,-2230.0,spot_provisional,0,1,6,False,True
+2026-06-19,NIFTY,PE,(lA) v2,(lA) v2,13:00,,,,,,day_loss,-1345.0,spot_provisional,0,1,6,False,True
+2026-06-22,NIFTY,CE,Skill V3,Skill V3,10:10,24154.7,,,12:00,24129.5,stop,-2560.0,spot_provisional,0,1,6,False,True
+2026-06-24,NIFTY,CE,Skill V3;Volrix (b),Volrix (b),09:20,23848.65,,,10:20,23938.65,target,8960.0,spot_provisional,0,2,6,True,False
+2026-06-29,NIFTY,PE,(lA) v2;Skill V3;V5 v2,(lA) v2,09:35,,,,,,day_green,2100.0,spot_provisional,0,3,6,True,False
+2026-06-30,NIFTY,PE,(lA) v2;Skill V3,Skill V3,09:35,23872.7,,,10:00,23899.5,stop,-2720.0,spot_provisional,0,2,6,True,False
+2026-07-01,NIFTY,CE,Skill V3;V5 v2,V5 v2,09:40,,,,,,target,4240.0,spot_provisional,1,2,7,True,False
+2026-07-07,NIFTY,CE,Skill V3,Skill V3,10:10,24488.9,,,10:45,24467.75,stop,-2155.0,spot_provisional,0,1,7,False,True
+2026-07-08,NIFTY,PE,(lA) v2;Skill V3;V5 v2,(lA) v2,09:35,,,,,,day_green,955.0,spot_provisional,0,3,7,True,False
+2026-07-09,NIFTY,CE,Skill V3;Volrix (b),Volrix (b),09:20,23992.8,,,10:40,24082.8,target,8960.0,spot_provisional,0,2,7,True,False
+2026-07-13,NIFTY,CE,Skill V3;V5 v2,Skill V3,09:40,24068.7,,,12:10,24163.0,target,9390.0,spot_provisional,1,2,7,True,False
+2026-07-14,NIFTY,PE,Skill V3,Skill V3,10:20,24049.25,,,10:25,24086.65,stop,-3780.0,spot_provisional,0,1,7,False,True
+2026-07-15,NIFTY,CE,Skill V3,Skill V3,10:20,24210.6,,,10:30,24200.4,stop,-1060.0,spot_provisional,0,1,7,False,True
+2026-07-21,NIFTY,PE,Skill V3,Skill V3,10:25,24194.5,,,10:50,24165.7,target,2840.0,spot_provisional,1,1,7,False,True
+2026-07-22,NIFTY,PE,(lA) v2;Skill V3;V5 v2,(lA) v2,09:35,,,,,,target,6320.0,spot_provisional,1,3,7,True,False
+2026-07-23,NIFTY,CE,Skill V3,Skill V3,10:05,23962.5,,,11:35,23940.25,stop,-2265.0,spot_provisional,0,1,7,False,True
+2026-07-24,NIFTY,PE,(lA) v2;Skill V3,(lA) v2,10:00,,,,,,target,3500.0,spot_provisional,1,2,7,False,False
+2026-07-27,NIFTY,PE,Skill V3,Skill V3,10:40,23894.25,,,10:40,23917.45,stop,-2360.0,spot_provisional,0,1,7,False,True
+2026-08-03,NIFTY,CE,Skill V3,Skill V3,10:15,24579.0,,,10:35,24563.85,stop,-1555.0,spot_provisional,0,1,8,False,True
+2026-08-04,NIFTY,PE,Skill V3,Skill V3,10:35,24584.95,,,11:15,24594.95,stop,-1040.0,spot_provisional,0,1,8,False,True
+2026-08-11,NIFTY,PE,(lA) v2;Skill V3,(lA) v2,09:40,,,,,,target,3010.0,spot_provisional,1,2,8,True,False
+2026-08-12,NIFTY,PE,Skill V3;V5 v2,V5 v2,10:00,,,,,,target,6250.0,spot_provisional,1,2,8,False,False
+2026-08-17,NIFTY,PE,(lA) v2;Skill V3,Skill V3,10:15,24281.0,,,10:20,24258.2,target,2240.0,spot_provisional,1,2,8,False,False
+2026-08-18,NIFTY,PE,(lA) v2;Skill V3,(lA) v2,10:50,,,,,,target,1990.0,spot_provisional,1,2,8,False,False
+2026-08-19,NIFTY,PE,(lA) v2;Skill V3;V5 v2,(lA) v2,09:35,,,,,,day_green,1670.0,spot_provisional,0,3,8,True,False
+2026-08-24,NIFTY,PE,(lA) v2;Skill V3,Skill V3,10:00,24270.3,,,10:15,24281.35,stop,-1145.0,spot_provisional,0,2,8,False,False
+2026-08-25,NIFTY,PE,Skill V3,Skill V3,10:25,24122.3,,,10:30,24136.65,stop,-1475.0,spot_provisional,0,1,8,False,True
+2026-08-27,NIFTY,PE,(lA) v2;Skill V3;V5 v2,V5 v2,10:00,,,,,,target,3000.0,spot_provisional,1,3,8,False,False
+2026-08-31,NIFTY,PE,(lA) v2;Skill V3,Skill V3,09:45,24026.65,,,11:50,24050.5,stop,-2425.0,spot_provisional,0,2,8,True,False
+2026-09-03,NIFTY,PE,Skill V3,Skill V3,11:05,23953.85,,,11:05,23929.25,target,2420.0,spot_provisional,1,1,9,False,True
+2026-09-04,NIFTY,CE,Skill V3,Skill V3,10:05,23959.05,,,10:05,23947.15,stop,-1230.0,spot_provisional,0,1,9,False,True
+2026-09-07,NIFTY,PE,(lA) v2;Skill V3;V5 v2,V5 v2,09:55,,,,,,target,2990.0,spot_provisional,1,3,9,True,False
+2026-09-08,NIFTY,PE,Skill V3,Skill V3,10:00,23666.95,,,10:05,23679.6,stop,-1305.0,spot_provisional,0,1,9,False,True
+2026-09-09,NIFTY,PE,Skill V3,Skill V3,10:10,23477.7,,,10:10,23481.35,stop,-405.0,spot_provisional,0,1,9,False,True
+2026-09-10,NIFTY,PE,Skill V3,Skill V3,10:15,23415.15,,,10:15,23417.0,stop,-225.0,spot_provisional,0,1,9,False,True
+2026-09-11,NIFTY,CE,Skill V3,Skill V3,10:10,23285.6,,,11:10,23317.6,target,3160.0,spot_provisional,1,1,9,False,True
+2026-09-21,NIFTY,CE,Skill V3,Skill V3,11:35,23405.1,,,11:35,23398.15,stop,-735.0,spot_provisional,0,1,9,False,True
+2026-09-22,NIFTY,PE,Skill V3,Skill V3,10:35,23422.25,,,10:40,23387.25,target,3460.0,spot_provisional,1,1,9,False,True
+2026-09-23,NIFTY,CE,Skill V3,Skill V3,10:50,23417.4,,,11:05,23430.0,target,1220.0,spot_provisional,1,1,9,False,True
+2026-09-24,NIFTY,PE,(lA) v2,(lA) v2,11:55,,,,,,target,1230.0,spot_provisional,1,1,9,False,True
+2026-09-29,NIFTY,PE,(lA) v2;Skill V3;V5 v2,(lA) v2,09:35,,,,,,target,3790.0,spot_provisional,1,3,9,True,False
+2026-09-30,NIFTY,CE,Skill V3,Skill V3,10:10,22739.1,,,10:15,22758.7,target,1920.0,spot_provisional,1,1,9,False,True
+2026-10-01,NIFTY,CE,Skill V3,Skill V3,10:05,360.35,22600.0,2026-10-27,12:10,310.35,stop,-3470.0,premium_per_1_lot,0,1,10,False,True
+2026-10-08,NIFTY,PE,(lA) v2;Skill V3;V5 v2,V5 v2,09:45,270.0,22500.0,2026-10-27,12:20,360.0,target,5630.0,premium_per_1_lot,1,3,10,True,False
+2026-10-09,NIFTY,CE,Skill V3;Volrix (b),Volrix (b),09:20,398.0,22200.0,2026-10-27,09:45,488.0,target,5630.0,premium_per_1_lot,1,2,10,True,False
+2026-10-21,NIFTY,PE,(lA) v2,(lA) v2,11:40,151.3,22800.0,2026-10-27,14:45,241.3,target,5630.0,premium_per_1_lot,1,1,10,False,True
+2026-10-22,NIFTY,CE,Skill V3,Skill V3,10:25,190.45,22700.0,2026-10-27,11:45,140.45,stop,-3470.0,premium_per_1_lot,0,1,10,False,True
+2026-10-23,NIFTY,PE,(lA) v2;V5 v2,(lA) v2,10:10,125.85,22500.0,2026-10-27,15:10,108.7,square_off,-1334.75,premium_per_1_lot,0,2,10,False,False
+2026-10-26,NIFTY,CE,Skill V3;V5 v2,Skill V3,09:55,132.05,22600.0,2026-10-27,10:05,222.05,target,5630.0,premium_per_1_lot,1,2,10,True,False
+2026-10-28,NIFTY,PE,Skill V3,Skill V3,10:20,200.95,22500.0,2026-11-03,11:00,150.95,stop,-3470.0,premium_per_1_lot,0,1,10,False,True

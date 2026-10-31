@@ -1,0 +1,13 @@
+variant,period,entry_mode,room_pct,bias_on,signal_end,target_ratio,stop_scale,days,trades,targets,stops,square_offs,win_rate_pct,net_rs,expectancy_rs,max_drawdown_rs,trades_per_week
+baseline v4 cash [Jan-Jun (tune)],2026-01-01 to 2026-06-30,v4,0.0036,True,baseline,2.0,1.0,110,22,7,15,0,31.8,-25505.0,-1159.32,68655.0,1.0
+baseline v4 cash [Jul-Oct (validate)],2026-07-01 to 2026-10-27,v4,0.0036,True,baseline,2.0,1.0,75,19,6,13,0,31.6,5550.0,292.11,77820.0,1.27
+baseline v4 cash [Jan-Oct],2026-01-01 to 2026-10-27,v4,0.0036,True,baseline,2.0,1.0,185,41,13,28,0,31.7,-19955.0,-486.71,130795.0,1.11
+"baseline v4 cash [Oct only (context, never tune)]",2026-10-01 to 2026-10-27,v4,0.0036,True,baseline,2.0,1.0,17,5,4,1,0,80.0,67690.0,13538.0,3730.0,1.47
+skill_or entry [Jan-Jun (tune)],2026-01-01 to 2026-06-30,skill_or,0.0036,True,baseline,2.0,1.0,110,95,21,68,6,22.1,-143230.0,-1507.68,163985.0,4.32
+skill_or entry [Jul-Oct (validate)],2026-07-01 to 2026-10-27,skill_or,0.0036,True,baseline,2.0,1.0,75,62,21,38,3,33.9,42695.0,688.63,107450.0,4.13
+skill_or entry [Jan-Oct],2026-01-01 to 2026-10-27,skill_or,0.0036,True,baseline,2.0,1.0,185,157,42,106,9,26.8,-100535.0,-640.35,252055.0,4.24
+"skill_or entry [Oct only (context, never tune)]",2026-10-01 to 2026-10-27,skill_or,0.0036,True,baseline,2.0,1.0,17,15,7,8,0,46.7,78995.0,5266.33,19980.0,4.41
+tuned candidate [Jan-Jun (tune)],2026-01-01 to 2026-06-30,v4,0.0,True,baseline,3.0,0.5,110,29,10,19,0,34.5,81237.5,2801.29,26417.5,1.32
+tuned candidate [Jul-Oct (validate)],2026-07-01 to 2026-10-27,v4,0.0,True,baseline,3.0,0.5,75,24,6,18,0,25.0,-11512.5,-479.69,62465.0,1.6
+tuned candidate [Jan-Oct],2026-01-01 to 2026-10-27,v4,0.0,True,baseline,3.0,0.5,185,53,16,37,0,30.2,69725.0,1315.57,68060.0,1.43
+"tuned candidate [Oct only (context, never tune)]",2026-10-01 to 2026-10-27,v4,0.0,True,baseline,3.0,0.5,17,7,3,4,0,42.9,15537.5,2219.64,23665.0,2.06
