@@ -1,0 +1,106 @@
+{
+ "cycle": 5,
+ "diagnosis_only_flat": true,
+ "scored_lever": null,
+ "anchors": {
+  "A_rebuild_eq_cycle3_dump": true,
+  "B_union_eq_peak_table": true,
+  "f4_audit": {
+   "trades": 620,
+   "violations": 0
+  }
+ },
+ "sqoff_static_oct": {
+  "n": 54,
+  "orig_net": 6122.0,
+  "losers": 25,
+  "loser_net": -8033.0,
+  "1300": {
+   "net": 3056.0,
+   "delta": -3066.0
+  },
+  "1400": {
+   "net": 4984.0,
+   "delta": -1138.0
+  },
+  "1430": {
+   "net": 5426.0,
+   "delta": -696.0
+  },
+  "1500": {
+   "net": 6372.0,
+   "delta": 250.0
+  }
+ },
+ "sqoff_static_full": {
+  "n": 288,
+  "orig_net": 21099.0,
+  "1300": {
+   "delta": -6018.0
+  },
+  "1400": {
+   "delta": -9271.0
+  },
+  "1430": {
+   "delta": -12752.0
+  },
+  "1500": {
+   "delta": -6521.0
+  }
+ },
+ "sqoff_same_entry_all_trades_delta": {
+  "1300": {
+   "oct": -16023.23,
+   "full": -18633.37
+  },
+  "1400": {
+   "oct": -12042.29,
+   "full": -20897.36
+  },
+  "1430": {
+   "oct": -10476.17,
+   "full": -22169.32
+  },
+  "1500": {
+   "oct": -134.2,
+   "full": -8007.41,
+   "note": "3 Oct target exits at 15:05/15:10 forfeited overturn the +250 sqoff-only figure"
+  }
+ },
+ "subband": {
+  "[0.5,0.75)": {
+   "full_n": 362,
+   "full_net": 35271.23,
+   "oct_n": 57,
+   "oct_net": 22071.99,
+   "oct_losers": 21
+  },
+  "[0.75,1.0)": {
+   "full_n": 210,
+   "full_net": 43960.88,
+   "oct_n": 43,
+   "oct_net": 24373.14,
+   "oct_losers": 12
+  },
+  "lesson5_both_negative": false
+ },
+ "october_before": 53290.52,
+ "october_after": 53290.52,
+ "oct_delta": 0.0,
+ "month_table": {
+  "2026-01": 9173.84,
+  "2026-02": 4939.87,
+  "2026-03": 21673.47,
+  "2026-04": -632.4,
+  "2026-05": 26032.03,
+  "2026-06": -817.99,
+  "2026-07": 1962.07,
+  "2026-08": 739.35,
+  "2026-09": 14970.43,
+  "2026-10": 53290.52
+ },
+ "total": 131331.19,
+ "trades": 901,
+ "flat_cycles_after": 2,
+ "progress": false
+}

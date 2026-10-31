@@ -1,0 +1,1592 @@
+{
+ "events_total": 89,
+ "events_profiled": 89,
+ "p1_signatures": {
+  "ACCUM": 16,
+  "DISTRIB": 5,
+  "none": 68
+ },
+ "P1": {
+  "gated": {
+   "T125": {
+    "all": {
+     "trades": 5,
+     "win_pct": 20.0,
+     "net_rs": -12511.0,
+     "gross_expectancy_rs": -2462.2,
+     "expectancy_rs": -2502.2
+    },
+    "H1": {
+     "trades": 4,
+     "win_pct": 25.0,
+     "net_rs": -6445.5,
+     "gross_expectancy_rs": -1571.38,
+     "expectancy_rs": -1611.38
+    },
+    "H2": {
+     "trades": 1,
+     "win_pct": 0.0,
+     "net_rs": -6065.5,
+     "gross_expectancy_rs": -6025.5,
+     "expectancy_rs": -6065.5
+    },
+    "both_halves_positive": false,
+    "stocks_traded": 4,
+    "stocks_net_positive": 1,
+    "per_stock_net": {
+     "MARUTI": 1360.0,
+     "CIPLA": -686.65,
+     "ICICIBANK": -726.85,
+     "ULTRACEMCO": -12457.5
+    }
+   },
+   "T10": {
+    "all": {
+     "trades": 5,
+     "win_pct": 20.0,
+     "net_rs": -12511.0,
+     "gross_expectancy_rs": -2462.2,
+     "expectancy_rs": -2502.2
+    },
+    "H1": {
+     "trades": 4,
+     "win_pct": 25.0,
+     "net_rs": -6445.5,
+     "gross_expectancy_rs": -1571.38,
+     "expectancy_rs": -1611.38
+    },
+    "H2": {
+     "trades": 1,
+     "win_pct": 0.0,
+     "net_rs": -6065.5,
+     "gross_expectancy_rs": -6025.5,
+     "expectancy_rs": -6065.5
+    },
+    "both_halves_positive": false,
+    "stocks_traded": 4,
+    "stocks_net_positive": 1,
+    "per_stock_net": {
+     "MARUTI": 1360.0,
+     "CIPLA": -686.65,
+     "ICICIBANK": -726.85,
+     "ULTRACEMCO": -12457.5
+    }
+   }
+  },
+  "ungated": {
+   "T125": {
+    "all": {
+     "trades": 69,
+     "win_pct": 36.2,
+     "net_rs": -13109.06,
+     "gross_expectancy_rs": -149.99,
+     "expectancy_rs": -189.99
+    },
+    "H1": {
+     "trades": 39,
+     "win_pct": 48.7,
+     "net_rs": 9088.89,
+     "gross_expectancy_rs": 273.05,
+     "expectancy_rs": 233.05
+    },
+    "H2": {
+     "trades": 30,
+     "win_pct": 20.0,
+     "net_rs": -22197.95,
+     "gross_expectancy_rs": -699.93,
+     "expectancy_rs": -739.93
+    },
+    "both_halves_positive": false,
+    "stocks_traded": 25,
+    "stocks_net_positive": 15,
+    "per_stock_net": {
+     "TITAN": 11471.25,
+     "HCLTECH": 4404.71,
+     "EICHERMOT": 2735.0,
+     "TCS": 2084.55,
+     "SBIN": 1983.27,
+     "BAJFINANCE": 1971.3,
+     "RELIANCE": 1745.75,
+     "INFY": 1233.37,
+     "BHARTIARTL": 1177.4,
+     "M&M": 1108.15,
+     "GRASIM": 633.67,
+     "CIPLA": 266.82,
+     "DRREDDY": 185.3,
+     "ONGC": 135.58,
+     "JSWSTEEL": 129.57,
+     "POWERGRID": -17.28,
+     "AXISBANK": -431.3,
+     "COALINDIA": -524.33,
+     "NESTLEIND": -771.6,
+     "KOTAKBANK": -956.09,
+     "ICICIBANK": -1452.6,
+     "SUNPHARMA": -1865.4,
+     "LT": -7983.15,
+     "MARUTI": -12415.5,
+     "ULTRACEMCO": -17957.5
+    }
+   },
+   "T10": {
+    "all": {
+     "trades": 69,
+     "win_pct": 39.1,
+     "net_rs": -18430.29,
+     "gross_expectancy_rs": -227.11,
+     "expectancy_rs": -267.11
+    },
+    "H1": {
+     "trades": 39,
+     "win_pct": 51.3,
+     "net_rs": 4923.3,
+     "gross_expectancy_rs": 166.24,
+     "expectancy_rs": 126.24
+    },
+    "H2": {
+     "trades": 30,
+     "win_pct": 23.3,
+     "net_rs": -23353.59,
+     "gross_expectancy_rs": -738.45,
+     "expectancy_rs": -778.45
+    },
+    "both_halves_positive": false,
+    "stocks_traded": 25,
+    "stocks_net_positive": 12,
+    "per_stock_net": {
+     "TITAN": 9161.0,
+     "TCS": 3527.3,
+     "HCLTECH": 3364.95,
+     "EICHERMOT": 2735.0,
+     "INFY": 2379.55,
+     "BAJFINANCE": 1456.95,
+     "SBIN": 1454.55,
+     "RELIANCE": 1388.6,
+     "BHARTIARTL": 725.0,
+     "POWERGRID": 298.1,
+     "M&M": 196.6,
+     "ONGC": 65.73,
+     "CIPLA": -82.45,
+     "DRREDDY": -117.0,
+     "GRASIM": -133.3,
+     "JSWSTEEL": -166.95,
+     "COALINDIA": -524.33,
+     "AXISBANK": -757.75,
+     "NESTLEIND": -771.6,
+     "KOTAKBANK": -956.09,
+     "ICICIBANK": -1452.6,
+     "SUNPHARMA": -1865.4,
+     "LT": -7983.15,
+     "MARUTI": -12415.5,
+     "ULTRACEMCO": -17957.5
+    }
+   }
+  },
+  "dropped": {
+   "T125": {
+    "all": {
+     "trades": 64,
+     "win_pct": 37.5,
+     "net_rs": -598.06,
+     "gross_expectancy_rs": 30.66,
+     "expectancy_rs": -9.34
+    },
+    "H1": {
+     "trades": 35,
+     "win_pct": 51.4,
+     "net_rs": 15534.39,
+     "gross_expectancy_rs": 483.84,
+     "expectancy_rs": 443.84
+    },
+    "H2": {
+     "trades": 29,
+     "win_pct": 20.7,
+     "net_rs": -16132.45,
+     "gross_expectancy_rs": -516.29,
+     "expectancy_rs": -556.29
+    },
+    "both_halves_positive": false,
+    "stocks_traded": 25,
+    "stocks_net_positive": 15,
+    "per_stock_net": {
+     "TITAN": 11471.25,
+     "HCLTECH": 4404.71,
+     "EICHERMOT": 2735.0,
+     "TCS": 2084.55,
+     "SBIN": 1983.27,
+     "BAJFINANCE": 1971.3,
+     "RELIANCE": 1745.75,
+     "INFY": 1233.37,
+     "BHARTIARTL": 1177.4,
+     "M&M": 1108.15,
+     "CIPLA": 953.47,
+     "GRASIM": 633.67,
+     "DRREDDY": 185.3,
+     "ONGC": 135.58,
+     "JSWSTEEL": 129.57,
+     "POWERGRID": -17.28,
+     "AXISBANK": -431.3,
+     "COALINDIA": -524.33,
+     "ICICIBANK": -725.75,
+     "NESTLEIND": -771.6,
+     "KOTAKBANK": -956.09,
+     "SUNPHARMA": -1865.4,
+     "ULTRACEMCO": -5500.0,
+     "LT": -7983.15,
+     "MARUTI": -13775.5
+    }
+   },
+   "T10": {
+    "all": {
+     "trades": 64,
+     "win_pct": 40.6,
+     "net_rs": -5919.29,
+     "gross_expectancy_rs": -52.49,
+     "expectancy_rs": -92.49
+    },
+    "H1": {
+     "trades": 35,
+     "win_pct": 54.3,
+     "net_rs": 11368.8,
+     "gross_expectancy_rs": 364.82,
+     "expectancy_rs": 324.82
+    },
+    "H2": {
+     "trades": 29,
+     "win_pct": 24.1,
+     "net_rs": -17288.09,
+     "gross_expectancy_rs": -556.14,
+     "expectancy_rs": -596.14
+    },
+    "both_halves_positive": false,
+    "stocks_traded": 25,
+    "stocks_net_positive": 13,
+    "per_stock_net": {
+     "TITAN": 9161.0,
+     "TCS": 3527.3,
+     "HCLTECH": 3364.95,
+     "EICHERMOT": 2735.0,
+     "INFY": 2379.55,
+     "BAJFINANCE": 1456.95,
+     "SBIN": 1454.55,
+     "RELIANCE": 1388.6,
+     "BHARTIARTL": 725.0,
+     "CIPLA": 604.2,
+     "POWERGRID": 298.1,
+     "M&M": 196.6,
+     "ONGC": 65.73,
+     "DRREDDY": -117.0,
+     "GRASIM": -133.3,
+     "JSWSTEEL": -166.95,
+     "COALINDIA": -524.33,
+     "ICICIBANK": -725.75,
+     "AXISBANK": -757.75,
+     "NESTLEIND": -771.6,
+     "KOTAKBANK": -956.09,
+     "SUNPHARMA": -1865.4,
+     "ULTRACEMCO": -5500.0,
+     "LT": -7983.15,
+     "MARUTI": -13775.5
+    }
+   }
+  }
+ },
+ "P2": {
+  "gated": {
+   "T125": {
+    "all": {
+     "trades": 4,
+     "win_pct": 50.0,
+     "net_rs": -204.45,
+     "gross_expectancy_rs": -11.11,
+     "expectancy_rs": -51.11
+    },
+    "H1": {
+     "trades": 0,
+     "win_pct": 0.0,
+     "net_rs": 0.0,
+     "gross_expectancy_rs": 0.0,
+     "expectancy_rs": 0.0
+    },
+    "H2": {
+     "trades": 4,
+     "win_pct": 50.0,
+     "net_rs": -204.45,
+     "gross_expectancy_rs": -11.11,
+     "expectancy_rs": -51.11
+    },
+    "both_halves_positive": false,
+    "stocks_traded": 4,
+    "stocks_net_positive": 2,
+    "per_stock_net": {
+     "AXISBANK": 1511.25,
+     "SBIN": 430.0,
+     "DRREDDY": -140.0,
+     "LT": -2005.7
+    }
+   },
+   "T10": {
+    "all": {
+     "trades": 4,
+     "win_pct": 75.0,
+     "net_rs": 894.3,
+     "gross_expectancy_rs": 263.57,
+     "expectancy_rs": 223.57
+    },
+    "H1": {
+     "trades": 0,
+     "win_pct": 0.0,
+     "net_rs": 0.0,
+     "gross_expectancy_rs": 0.0,
+     "expectancy_rs": 0.0
+    },
+    "H2": {
+     "trades": 4,
+     "win_pct": 75.0,
+     "net_rs": 894.3,
+     "gross_expectancy_rs": 263.57,
+     "expectancy_rs": 223.57
+    },
+    "both_halves_positive": false,
+    "stocks_traded": 4,
+    "stocks_net_positive": 3,
+    "per_stock_net": {
+     "DRREDDY": 1269.0,
+     "AXISBANK": 1201.0,
+     "SBIN": 430.0,
+     "LT": -2005.7
+    }
+   }
+  },
+  "ungated": {
+   "T125": {
+    "all": {
+     "trades": 51,
+     "win_pct": 37.3,
+     "net_rs": 3086.69,
+     "gross_expectancy_rs": 100.52,
+     "expectancy_rs": 60.52
+    },
+    "H1": {
+     "trades": 33,
+     "win_pct": 36.4,
+     "net_rs": -196.26,
+     "gross_expectancy_rs": 34.05,
+     "expectancy_rs": -5.95
+    },
+    "H2": {
+     "trades": 18,
+     "win_pct": 38.9,
+     "net_rs": 3282.95,
+     "gross_expectancy_rs": 222.39,
+     "expectancy_rs": 182.39
+    },
+    "both_halves_positive": false,
+    "stocks_traded": 23,
+    "stocks_net_positive": 13,
+    "per_stock_net": {
+     "EICHERMOT": 5936.87,
+     "TITAN": 4202.5,
+     "RELIANCE": 3380.87,
+     "HCLTECH": 2564.0,
+     "BHARTIARTL": 2314.0,
+     "DRREDDY": 1357.5,
+     "SBIN": 995.62,
+     "LT": 944.3,
+     "JSWSTEEL": 851.13,
+     "NESTLEIND": 821.98,
+     "M&M": 522.37,
+     "TCS": 487.55,
+     "ONGC": 131.12,
+     "COALINDIA": -42.61,
+     "POWERGRID": -528.24,
+     "AXISBANK": -561.25,
+     "KOTAKBANK": -656.65,
+     "ICICIBANK": -727.35,
+     "CIPLA": -758.35,
+     "BAJFINANCE": -1121.87,
+     "INFY": -1499.8,
+     "GRASIM": -1629.0,
+     "MARUTI": -13898.0
+    }
+   },
+   "T10": {
+    "all": {
+     "trades": 51,
+     "win_pct": 41.2,
+     "net_rs": -98.65,
+     "gross_expectancy_rs": 38.07,
+     "expectancy_rs": -1.93
+    },
+    "H1": {
+     "trades": 33,
+     "win_pct": 39.4,
+     "net_rs": -2465.16,
+     "gross_expectancy_rs": -34.7,
+     "expectancy_rs": -74.7
+    },
+    "H2": {
+     "trades": 18,
+     "win_pct": 44.4,
+     "net_rs": 2366.51,
+     "gross_expectancy_rs": 171.47,
+     "expectancy_rs": 131.47
+    },
+    "both_halves_positive": false,
+    "stocks_traded": 23,
+    "stocks_net_positive": 13,
+    "per_stock_net": {
+     "EICHERMOT": 3992.0,
+     "TITAN": 2930.0,
+     "RELIANCE": 2688.7,
+     "DRREDDY": 2459.0,
+     "HCLTECH": 1911.5,
+     "LT": 1856.8,
+     "BHARTIARTL": 1843.2,
+     "AXISBANK": 1150.5,
+     "SBIN": 751.4,
+     "JSWSTEEL": 541.7,
+     "NESTLEIND": 497.6,
+     "TCS": 487.55,
+     "ONGC": 62.13,
+     "COALINDIA": -145.87,
+     "M&M": -305.6,
+     "POWERGRID": -528.24,
+     "KOTAKBANK": -656.65,
+     "ICICIBANK": -727.35,
+     "CIPLA": -758.35,
+     "BAJFINANCE": -1121.87,
+     "INFY": -1499.8,
+     "GRASIM": -1629.0,
+     "MARUTI": -13898.0
+    }
+   }
+  }
+ },
+ "p2_gate_log": [
+  {
+   "symbol": "AXISBANK",
+   "R": "2026-01-27",
+   "earlier_with_post": 0,
+   "earlier_continued": 0,
+   "gate_pass": false
+  },
+  {
+   "symbol": "AXISBANK",
+   "R": "2026-04-27",
+   "earlier_with_post": 1,
+   "earlier_continued": 0,
+   "gate_pass": false
+  },
+  {
+   "symbol": "AXISBANK",
+   "R": "2026-07-20",
+   "earlier_with_post": 2,
+   "earlier_continued": 1,
+   "gate_pass": false
+  },
+  {
+   "symbol": "AXISBANK",
+   "R": "2026-10-19",
+   "earlier_with_post": 3,
+   "earlier_continued": 2,
+   "gate_pass": true
+  },
+  {
+   "symbol": "BAJFINANCE",
+   "R": "2026-02-04",
+   "earlier_with_post": 0,
+   "earlier_continued": 0,
+   "gate_pass": false
+  },
+  {
+   "symbol": "BAJFINANCE",
+   "R": "2026-04-30",
+   "earlier_with_post": 1,
+   "earlier_continued": 0,
+   "gate_pass": false
+  },
+  {
+   "symbol": "BAJFINANCE",
+   "R": "2026-07-31",
+   "earlier_with_post": 2,
+   "earlier_continued": 1,
+   "gate_pass": false
+  },
+  {
+   "symbol": "BAJFINANCE",
+   "R": "2026-10-21",
+   "earlier_with_post": 3,
+   "earlier_continued": 1,
+   "gate_pass": false
+  },
+  {
+   "symbol": "BHARTIARTL",
+   "R": "2026-02-06",
+   "earlier_with_post": 0,
+   "earlier_continued": 0,
+   "gate_pass": false
+  },
+  {
+   "symbol": "BHARTIARTL",
+   "R": "2026-05-14",
+   "earlier_with_post": 1,
+   "earlier_continued": 0,
+   "gate_pass": false
+  },
+  {
+   "symbol": "BHARTIARTL",
+   "R": "2026-08-05",
+   "earlier_with_post": 2,
+   "earlier_continued": 0,
+   "gate_pass": false
+  },
+  {
+   "symbol": "CIPLA",
+   "R": "2026-01-27",
+   "earlier_with_post": 0,
+   "earlier_continued": 0,
+   "gate_pass": false
+  },
+  {
+   "symbol": "CIPLA",
+   "R": "2026-05-14",
+   "earlier_with_post": 1,
+   "earlier_continued": 0,
+   "gate_pass": false
+  },
+  {
+   "symbol": "CIPLA",
+   "R": "2026-07-24",
+   "earlier_with_post": 2,
+   "earlier_continued": 0,
+   "gate_pass": false
+  },
+  {
+   "symbol": "CIPLA",
+   "R": "2026-10-28",
+   "earlier_with_post": 3,
+   "earlier_continued": 1,
+   "gate_pass": false
+  },
+  {
+   "symbol": "COALINDIA",
+   "R": "2026-02-13",
+   "earlier_with_post": 0,
+   "earlier_continued": 0,
+   "gate_pass": false
+  },
+  {
+   "symbol": "COALINDIA",
+   "R": "2026-04-28",
+   "earlier_with_post": 1,
+   "earlier_continued": 0,
+   "gate_pass": false
+  },
+  {
+   "symbol": "COALINDIA",
+   "R": "2026-07-28",
+   "earlier_with_post": 2,
+   "earlier_continued": 0,
+   "gate_pass": false
+  },
+  {
+   "symbol": "DRREDDY",
+   "R": "2026-01-22",
+   "earlier_with_post": 0,
+   "earlier_continued": 0,
+   "gate_pass": false
+  },
+  {
+   "symbol": "DRREDDY",
+   "R": "2026-05-13",
+   "earlier_with_post": 1,
+   "earlier_continued": 0,
+   "gate_pass": false
+  },
+  {
+   "symbol": "DRREDDY",
+   "R": "2026-07-23",
+   "earlier_with_post": 2,
+   "earlier_continued": 1,
+   "gate_pass": false
+  },
+  {
+   "symbol": "DRREDDY",
+   "R": "2026-10-26",
+   "earlier_with_post": 3,
+   "earlier_continued": 2,
+   "gate_pass": true
+  },
+  {
+   "symbol": "EICHERMOT",
+   "R": "2026-02-11",
+   "earlier_with_post": 0,
+   "earlier_continued": 0,
+   "gate_pass": false
+  },
+  {
+   "symbol": "EICHERMOT",
+   "R": "2026-05-25",
+   "earlier_with_post": 1,
+   "earlier_continued": 1,
+   "gate_pass": false
+  },
+  {
+   "symbol": "EICHERMOT",
+   "R": "2026-07-30",
+   "earlier_with_post": 2,
+   "earlier_continued": 1,
+   "gate_pass": false
+  },
+  {
+   "symbol": "GRASIM",
+   "R": "2026-02-11",
+   "earlier_with_post": 0,
+   "earlier_continued": 0,
+   "gate_pass": false
+  },
+  {
+   "symbol": "GRASIM",
+   "R": "2026-05-21",
+   "earlier_with_post": 1,
+   "earlier_continued": 0,
+   "gate_pass": false
+  },
+  {
+   "symbol": "GRASIM",
+   "R": "2026-08-13",
+   "earlier_with_post": 2,
+   "earlier_continued": 0,
+   "gate_pass": false
+  },
+  {
+   "symbol": "HCLTECH",
+   "R": "2026-01-13",
+   "earlier_with_post": 0,
+   "earlier_continued": 0,
+   "gate_pass": false
+  },
+  {
+   "symbol": "HCLTECH",
+   "R": "2026-04-22",
+   "earlier_with_post": 1,
+   "earlier_continued": 0,
+   "gate_pass": false
+  },
+  {
+   "symbol": "HCLTECH",
+   "R": "2026-07-14",
+   "earlier_with_post": 2,
+   "earlier_continued": 1,
+   "gate_pass": false
+  },
+  {
+   "symbol": "HCLTECH",
+   "R": "2026-10-13",
+   "earlier_with_post": 3,
+   "earlier_continued": 1,
+   "gate_pass": false
+  },
+  {
+   "symbol": "ICICIBANK",
+   "R": "2026-01-19",
+   "earlier_with_post": 0,
+   "earlier_continued": 0,
+   "gate_pass": false
+  },
+  {
+   "symbol": "ICICIBANK",
+   "R": "2026-04-20",
+   "earlier_with_post": 1,
+   "earlier_continued": 1,
+   "gate_pass": false
+  },
+  {
+   "symbol": "ICICIBANK",
+   "R": "2026-07-20",
+   "earlier_with_post": 2,
+   "earlier_continued": 1,
+   "gate_pass": false
+  },
+  {
+   "symbol": "ICICIBANK",
+   "R": "2026-10-19",
+   "earlier_with_post": 3,
+   "earlier_continued": 1,
+   "gate_pass": false
+  },
+  {
+   "symbol": "INFY",
+   "R": "2026-01-16",
+   "earlier_with_post": 0,
+   "earlier_continued": 0,
+   "gate_pass": false
+  },
+  {
+   "symbol": "INFY",
+   "R": "2026-04-24",
+   "earlier_with_post": 1,
+   "earlier_continued": 0,
+   "gate_pass": false
+  },
+  {
+   "symbol": "INFY",
+   "R": "2026-07-24",
+   "earlier_with_post": 2,
+   "earlier_continued": 0,
+   "gate_pass": false
+  },
+  {
+   "symbol": "INFY",
+   "R": "2026-10-26",
+   "earlier_with_post": 3,
+   "earlier_continued": 0,
+   "gate_pass": false
+  },
+  {
+   "symbol": "JSWSTEEL",
+   "R": "2026-01-27",
+   "earlier_with_post": 0,
+   "earlier_continued": 0,
+   "gate_pass": false
+  },
+  {
+   "symbol": "JSWSTEEL",
+   "R": "2026-05-15",
+   "earlier_with_post": 1,
+   "earlier_continued": 0,
+   "gate_pass": false
+  },
+  {
+   "symbol": "JSWSTEEL",
+   "R": "2026-07-20",
+   "earlier_with_post": 2,
+   "earlier_continued": 0,
+   "gate_pass": false
+  },
+  {
+   "symbol": "JSWSTEEL",
+   "R": "2026-10-26",
+   "earlier_with_post": 3,
+   "earlier_continued": 0,
+   "gate_pass": false
+  },
+  {
+   "symbol": "KOTAKBANK",
+   "R": "2026-01-27",
+   "earlier_with_post": 0,
+   "earlier_continued": 0,
+   "gate_pass": false
+  },
+  {
+   "symbol": "KOTAKBANK",
+   "R": "2026-05-04",
+   "earlier_with_post": 1,
+   "earlier_continued": 1,
+   "gate_pass": false
+  },
+  {
+   "symbol": "KOTAKBANK",
+   "R": "2026-07-20",
+   "earlier_with_post": 2,
+   "earlier_continued": 1,
+   "gate_pass": false
+  },
+  {
+   "symbol": "KOTAKBANK",
+   "R": "2026-10-26",
+   "earlier_with_post": 3,
+   "earlier_continued": 1,
+   "gate_pass": false
+  },
+  {
+   "symbol": "LT",
+   "R": "2026-01-29",
+   "earlier_with_post": 0,
+   "earlier_continued": 0,
+   "gate_pass": false
+  },
+  {
+   "symbol": "LT",
+   "R": "2026-05-06",
+   "earlier_with_post": 1,
+   "earlier_continued": 1,
+   "gate_pass": false
+  },
+  {
+   "symbol": "LT",
+   "R": "2026-07-29",
+   "earlier_with_post": 2,
+   "earlier_continued": 2,
+   "gate_pass": true
+  },
+  {
+   "symbol": "LT",
+   "R": "2026-10-28",
+   "earlier_with_post": 3,
+   "earlier_continued": 3,
+   "gate_pass": true
+  },
+  {
+   "symbol": "M&M",
+   "R": "2026-02-12",
+   "earlier_with_post": 0,
+   "earlier_continued": 0,
+   "gate_pass": false
+  },
+  {
+   "symbol": "M&M",
+   "R": "2026-05-06",
+   "earlier_with_post": 1,
+   "earlier_continued": 1,
+   "gate_pass": false
+  },
+  {
+   "symbol": "M&M",
+   "R": "2026-07-31",
+   "earlier_with_post": 2,
+   "earlier_continued": 1,
+   "gate_pass": false
+  },
+  {
+   "symbol": "MARUTI",
+   "R": "2026-01-29",
+   "earlier_with_post": 0,
+   "earlier_continued": 0,
+   "gate_pass": false
+  },
+  {
+   "symbol": "MARUTI",
+   "R": "2026-04-29",
+   "earlier_with_post": 1,
+   "earlier_continued": 0,
+   "gate_pass": false
+  },
+  {
+   "symbol": "MARUTI",
+   "R": "2026-08-03",
+   "earlier_with_post": 2,
+   "earlier_continued": 1,
+   "gate_pass": false
+  },
+  {
+   "symbol": "MARUTI",
+   "R": "2026-10-28",
+   "earlier_with_post": 3,
+   "earlier_continued": 1,
+   "gate_pass": false
+  },
+  {
+   "symbol": "NESTLEIND",
+   "R": "2026-02-01",
+   "earlier_with_post": 0,
+   "earlier_continued": 0,
+   "gate_pass": false
+  },
+  {
+   "symbol": "NESTLEIND",
+   "R": "2026-04-22",
+   "earlier_with_post": 1,
+   "earlier_continued": 0,
+   "gate_pass": false
+  },
+  {
+   "symbol": "NESTLEIND",
+   "R": "2026-07-23",
+   "earlier_with_post": 2,
+   "earlier_continued": 0,
+   "gate_pass": false
+  },
+  {
+   "symbol": "NESTLEIND",
+   "R": "2026-10-16",
+   "earlier_with_post": 3,
+   "earlier_continued": 0,
+   "gate_pass": false
+  },
+  {
+   "symbol": "ONGC",
+   "R": "2026-02-13",
+   "earlier_with_post": 0,
+   "earlier_continued": 0,
+   "gate_pass": false
+  },
+  {
+   "symbol": "ONGC",
+   "R": "2026-05-27",
+   "earlier_with_post": 1,
+   "earlier_continued": 0,
+   "gate_pass": false
+  },
+  {
+   "symbol": "ONGC",
+   "R": "2026-08-05",
+   "earlier_with_post": 2,
+   "earlier_continued": 1,
+   "gate_pass": false
+  },
+  {
+   "symbol": "POWERGRID",
+   "R": "2026-02-01",
+   "earlier_with_post": 0,
+   "earlier_continued": 0,
+   "gate_pass": false
+  },
+  {
+   "symbol": "POWERGRID",
+   "R": "2026-05-18",
+   "earlier_with_post": 1,
+   "earlier_continued": 0,
+   "gate_pass": false
+  },
+  {
+   "symbol": "POWERGRID",
+   "R": "2026-08-06",
+   "earlier_with_post": 2,
+   "earlier_continued": 0,
+   "gate_pass": false
+  },
+  {
+   "symbol": "RELIANCE",
+   "R": "2026-01-19",
+   "earlier_with_post": 0,
+   "earlier_continued": 0,
+   "gate_pass": false
+  },
+  {
+   "symbol": "RELIANCE",
+   "R": "2026-04-27",
+   "earlier_with_post": 1,
+   "earlier_continued": 1,
+   "gate_pass": false
+  },
+  {
+   "symbol": "RELIANCE",
+   "R": "2026-07-20",
+   "earlier_with_post": 2,
+   "earlier_continued": 2,
+   "gate_pass": true
+  },
+  {
+   "symbol": "SBIN",
+   "R": "2026-02-09",
+   "earlier_with_post": 0,
+   "earlier_continued": 0,
+   "gate_pass": false
+  },
+  {
+   "symbol": "SBIN",
+   "R": "2026-05-11",
+   "earlier_with_post": 1,
+   "earlier_continued": 1,
+   "gate_pass": false
+  },
+  {
+   "symbol": "SBIN",
+   "R": "2026-08-10",
+   "earlier_with_post": 2,
+   "earlier_continued": 2,
+   "gate_pass": true
+  },
+  {
+   "symbol": "SUNPHARMA",
+   "R": "2026-02-01",
+   "earlier_with_post": 0,
+   "earlier_continued": 0,
+   "gate_pass": false
+  },
+  {
+   "symbol": "SUNPHARMA",
+   "R": "2026-05-25",
+   "earlier_with_post": 1,
+   "earlier_continued": 1,
+   "gate_pass": false
+  },
+  {
+   "symbol": "SUNPHARMA",
+   "R": "2026-08-03",
+   "earlier_with_post": 2,
+   "earlier_continued": 1,
+   "gate_pass": false
+  },
+  {
+   "symbol": "TCS",
+   "R": "2026-01-13",
+   "earlier_with_post": 0,
+   "earlier_continued": 0,
+   "gate_pass": false
+  },
+  {
+   "symbol": "TCS",
+   "R": "2026-04-10",
+   "earlier_with_post": 1,
+   "earlier_continued": 0,
+   "gate_pass": false
+  },
+  {
+   "symbol": "TCS",
+   "R": "2026-07-10",
+   "earlier_with_post": 2,
+   "earlier_continued": 0,
+   "gate_pass": false
+  },
+  {
+   "symbol": "TCS",
+   "R": "2026-10-09",
+   "earlier_with_post": 3,
+   "earlier_continued": 1,
+   "gate_pass": false
+  },
+  {
+   "symbol": "TITAN",
+   "R": "2026-02-11",
+   "earlier_with_post": 0,
+   "earlier_continued": 0,
+   "gate_pass": false
+  },
+  {
+   "symbol": "TITAN",
+   "R": "2026-05-11",
+   "earlier_with_post": 1,
+   "earlier_continued": 0,
+   "gate_pass": false
+  },
+  {
+   "symbol": "TITAN",
+   "R": "2026-08-10",
+   "earlier_with_post": 2,
+   "earlier_continued": 1,
+   "gate_pass": false
+  },
+  {
+   "symbol": "ULTRACEMCO",
+   "R": "2026-01-27",
+   "earlier_with_post": 0,
+   "earlier_continued": 0,
+   "gate_pass": false
+  },
+  {
+   "symbol": "ULTRACEMCO",
+   "R": "2026-04-28",
+   "earlier_with_post": 1,
+   "earlier_continued": 0,
+   "gate_pass": false
+  },
+  {
+   "symbol": "ULTRACEMCO",
+   "R": "2026-07-21",
+   "earlier_with_post": 2,
+   "earlier_continued": 0,
+   "gate_pass": false
+  },
+  {
+   "symbol": "ULTRACEMCO",
+   "R": "2026-10-21",
+   "earlier_with_post": 3,
+   "earlier_continued": 0,
+   "gate_pass": false
+  }
+ ],
+ "per_stock_summary": [
+  {
+   "symbol": "RELIANCE",
+   "events": 3,
+   "preA_ret_med": 1.42,
+   "preB_ret_med": 0.28,
+   "preAll_ret_med": -0.89,
+   "preAll_pace_med": 0.86,
+   "accum_events": 0,
+   "distrib_events": 0,
+   "reaction_ret_med": -0.52,
+   "reaction_abs_avg": 2.24,
+   "reaction_pos": 1,
+   "gap_med": -0.87,
+   "move0930_med": -0.32,
+   "vol_mult_med": 1.21,
+   "post_with_data": 3,
+   "post_continued": 3,
+   "post_faded": 0,
+   "post_flat": 0
+  },
+  {
+   "symbol": "TCS",
+   "events": 4,
+   "preA_ret_med": 2.25,
+   "preB_ret_med": 0.17,
+   "preAll_ret_med": 0.92,
+   "preAll_pace_med": 1.19,
+   "accum_events": 1,
+   "distrib_events": 0,
+   "reaction_ret_med": 0.53,
+   "reaction_abs_avg": 1.88,
+   "reaction_pos": 3,
+   "gap_med": 0.27,
+   "move0930_med": 0.22,
+   "vol_mult_med": 2.55,
+   "post_with_data": 4,
+   "post_continued": 2,
+   "post_faded": 2,
+   "post_flat": 0
+  },
+  {
+   "symbol": "ICICIBANK",
+   "events": 4,
+   "preA_ret_med": 1.96,
+   "preB_ret_med": 1.74,
+   "preAll_ret_med": 4.02,
+   "preAll_pace_med": 1.0,
+   "accum_events": 1,
+   "distrib_events": 0,
+   "reaction_ret_med": -0.52,
+   "reaction_abs_avg": 1.06,
+   "reaction_pos": 2,
+   "gap_med": -0.04,
+   "move0930_med": -0.07,
+   "vol_mult_med": 1.87,
+   "post_with_data": 4,
+   "post_continued": 1,
+   "post_faded": 2,
+   "post_flat": 1
+  },
+  {
+   "symbol": "INFY",
+   "events": 4,
+   "preA_ret_med": 1.3,
+   "preB_ret_med": -1.44,
+   "preAll_ret_med": -1.58,
+   "preAll_pace_med": 1.05,
+   "accum_events": 1,
+   "distrib_events": 0,
+   "reaction_ret_med": -0.13,
+   "reaction_abs_avg": 3.4,
+   "reaction_pos": 2,
+   "gap_med": -2.47,
+   "move0930_med": -1.5,
+   "vol_mult_med": 2.71,
+   "post_with_data": 3,
+   "post_continued": 0,
+   "post_faded": 3,
+   "post_flat": 0
+  },
+  {
+   "symbol": "BHARTIARTL",
+   "events": 3,
+   "preA_ret_med": 1.99,
+   "preB_ret_med": 0.11,
+   "preAll_ret_med": 1.85,
+   "preAll_pace_med": 1.03,
+   "accum_events": 0,
+   "distrib_events": 0,
+   "reaction_ret_med": 1.55,
+   "reaction_abs_avg": 2.56,
+   "reaction_pos": 3,
+   "gap_med": 2.18,
+   "move0930_med": 1.18,
+   "vol_mult_med": 2.28,
+   "post_with_data": 3,
+   "post_continued": 0,
+   "post_faded": 2,
+   "post_flat": 1
+  },
+  {
+   "symbol": "SBIN",
+   "events": 3,
+   "preA_ret_med": 0.51,
+   "preB_ret_med": -0.12,
+   "preAll_ret_med": -0.12,
+   "preAll_pace_med": 1.16,
+   "accum_events": 1,
+   "distrib_events": 0,
+   "reaction_ret_med": -2.39,
+   "reaction_abs_avg": 4.78,
+   "reaction_pos": 1,
+   "gap_med": 0.98,
+   "move0930_med": -1.04,
+   "vol_mult_med": 2.67,
+   "post_with_data": 3,
+   "post_continued": 3,
+   "post_faded": 0,
+   "post_flat": 0
+  },
+  {
+   "symbol": "LT",
+   "events": 4,
+   "preA_ret_med": -0.76,
+   "preB_ret_med": 1.18,
+   "preAll_ret_med": 0.47,
+   "preAll_pace_med": 0.89,
+   "accum_events": 0,
+   "distrib_events": 0,
+   "reaction_ret_med": 3.12,
+   "reaction_abs_avg": 2.88,
+   "reaction_pos": 3,
+   "gap_med": 1.69,
+   "move0930_med": 3.08,
+   "vol_mult_med": 2.58,
+   "post_with_data": 3,
+   "post_continued": 3,
+   "post_faded": 0,
+   "post_flat": 0
+  },
+  {
+   "symbol": "AXISBANK",
+   "events": 4,
+   "preA_ret_med": 1.47,
+   "preB_ret_med": 0.19,
+   "preAll_ret_med": 1.07,
+   "preAll_pace_med": 1.11,
+   "accum_events": 1,
+   "distrib_events": 0,
+   "reaction_ret_med": -3.44,
+   "reaction_abs_avg": 4.44,
+   "reaction_pos": 1,
+   "gap_med": -2.33,
+   "move0930_med": -4.35,
+   "vol_mult_med": 2.88,
+   "post_with_data": 4,
+   "post_continued": 3,
+   "post_faded": 1,
+   "post_flat": 0
+  },
+  {
+   "symbol": "KOTAKBANK",
+   "events": 4,
+   "preA_ret_med": -0.73,
+   "preB_ret_med": 1.21,
+   "preAll_ret_med": -0.08,
+   "preAll_pace_med": 0.91,
+   "accum_events": 0,
+   "distrib_events": 0,
+   "reaction_ret_med": -2.52,
+   "reaction_abs_avg": 2.68,
+   "reaction_pos": 1,
+   "gap_med": -1.71,
+   "move0930_med": -3.04,
+   "vol_mult_med": 2.61,
+   "post_with_data": 3,
+   "post_continued": 1,
+   "post_faded": 2,
+   "post_flat": 0
+  },
+  {
+   "symbol": "BAJFINANCE",
+   "events": 4,
+   "preA_ret_med": -0.61,
+   "preB_ret_med": 0.92,
+   "preAll_ret_med": 0.98,
+   "preAll_pace_med": 1.02,
+   "accum_events": 1,
+   "distrib_events": 0,
+   "reaction_ret_med": 0.37,
+   "reaction_abs_avg": 2.97,
+   "reaction_pos": 2,
+   "gap_med": 0.99,
+   "move0930_med": 1.08,
+   "vol_mult_med": 2.63,
+   "post_with_data": 4,
+   "post_continued": 2,
+   "post_faded": 1,
+   "post_flat": 1
+  },
+  {
+   "symbol": "HCLTECH",
+   "events": 4,
+   "preA_ret_med": -0.45,
+   "preB_ret_med": 2.69,
+   "preAll_ret_med": 0.79,
+   "preAll_pace_med": 1.05,
+   "accum_events": 1,
+   "distrib_events": 0,
+   "reaction_ret_med": -2.51,
+   "reaction_abs_avg": 6.01,
+   "reaction_pos": 1,
+   "gap_med": -0.44,
+   "move0930_med": -1.82,
+   "vol_mult_med": 5.23,
+   "post_with_data": 4,
+   "post_continued": 2,
+   "post_faded": 2,
+   "post_flat": 0
+  },
+  {
+   "symbol": "MARUTI",
+   "events": 4,
+   "preA_ret_med": -2.06,
+   "preB_ret_med": 0.33,
+   "preAll_ret_med": -2.15,
+   "preAll_pace_med": 0.83,
+   "accum_events": 0,
+   "distrib_events": 1,
+   "reaction_ret_med": 0.25,
+   "reaction_abs_avg": 1.83,
+   "reaction_pos": 2,
+   "gap_med": 0.29,
+   "move0930_med": -0.86,
+   "vol_mult_med": 1.85,
+   "post_with_data": 3,
+   "post_continued": 1,
+   "post_faded": 1,
+   "post_flat": 1
+  },
+  {
+   "symbol": "SUNPHARMA",
+   "events": 3,
+   "preA_ret_med": 2.24,
+   "preB_ret_med": -0.81,
+   "preAll_ret_med": 0.9,
+   "preAll_pace_med": 1.53,
+   "accum_events": 1,
+   "distrib_events": 1,
+   "reaction_ret_med": 0.22,
+   "reaction_abs_avg": 0.76,
+   "reaction_pos": 2,
+   "gap_med": 0.0,
+   "move0930_med": 0.04,
+   "vol_mult_med": 0.88,
+   "post_with_data": 3,
+   "post_continued": 2,
+   "post_faded": 1,
+   "post_flat": 0
+  },
+  {
+   "symbol": "TITAN",
+   "events": 3,
+   "preA_ret_med": 1.18,
+   "preB_ret_med": 3.66,
+   "preAll_ret_med": 2.19,
+   "preAll_pace_med": 1.08,
+   "accum_events": 1,
+   "distrib_events": 0,
+   "reaction_ret_med": -1.3,
+   "reaction_abs_avg": 3.78,
+   "reaction_pos": 1,
+   "gap_med": -0.18,
+   "move0930_med": 0.38,
+   "vol_mult_med": 4.67,
+   "post_with_data": 3,
+   "post_continued": 1,
+   "post_faded": 0,
+   "post_flat": 2
+  },
+  {
+   "symbol": "M&M",
+   "events": 3,
+   "preA_ret_med": 2.18,
+   "preB_ret_med": 1.63,
+   "preAll_ret_med": 5.25,
+   "preAll_pace_med": 1.08,
+   "accum_events": 0,
+   "distrib_events": 0,
+   "reaction_ret_med": 2.37,
+   "reaction_abs_avg": 2.56,
+   "reaction_pos": 2,
+   "gap_med": 0.75,
+   "move0930_med": 1.93,
+   "vol_mult_med": 1.95,
+   "post_with_data": 3,
+   "post_continued": 2,
+   "post_faded": 1,
+   "post_flat": 0
+  },
+  {
+   "symbol": "ULTRACEMCO",
+   "events": 4,
+   "preA_ret_med": 2.69,
+   "preB_ret_med": -0.26,
+   "preAll_ret_med": 2.45,
+   "preAll_pace_med": 1.07,
+   "accum_events": 2,
+   "distrib_events": 0,
+   "reaction_ret_med": 1.67,
+   "reaction_abs_avg": 1.7,
+   "reaction_pos": 3,
+   "gap_med": 1.61,
+   "move0930_med": 1.68,
+   "vol_mult_med": 2.38,
+   "post_with_data": 4,
+   "post_continued": 1,
+   "post_faded": 2,
+   "post_flat": 1
+  },
+  {
+   "symbol": "NESTLEIND",
+   "events": 4,
+   "preA_ret_med": 0.69,
+   "preB_ret_med": 3.04,
+   "preAll_ret_med": 3.76,
+   "preAll_pace_med": 1.67,
+   "accum_events": 3,
+   "distrib_events": 1,
+   "reaction_ret_med": -2.33,
+   "reaction_abs_avg": 2.33,
+   "reaction_pos": 0,
+   "gap_med": -0.14,
+   "move0930_med": -0.72,
+   "vol_mult_med": 1.22,
+   "post_with_data": 4,
+   "post_continued": 1,
+   "post_faded": 3,
+   "post_flat": 0
+  },
+  {
+   "symbol": "POWERGRID",
+   "events": 3,
+   "preA_ret_med": -0.33,
+   "preB_ret_med": -1.41,
+   "preAll_ret_med": -2.15,
+   "preAll_pace_med": 1.02,
+   "accum_events": 0,
+   "distrib_events": 0,
+   "reaction_ret_med": -2.82,
+   "reaction_abs_avg": 2.93,
+   "reaction_pos": 0,
+   "gap_med": -0.71,
+   "move0930_med": -2.91,
+   "vol_mult_med": 1.62,
+   "post_with_data": 3,
+   "post_continued": 1,
+   "post_faded": 1,
+   "post_flat": 1
+  },
+  {
+   "symbol": "ONGC",
+   "events": 3,
+   "preA_ret_med": -2.65,
+   "preB_ret_med": -0.12,
+   "preAll_ret_med": -2.77,
+   "preAll_pace_med": 0.82,
+   "accum_events": 0,
+   "distrib_events": 0,
+   "reaction_ret_med": -3.22,
+   "reaction_abs_avg": 2.95,
+   "reaction_pos": 0,
+   "gap_med": -1.1,
+   "move0930_med": -2.31,
+   "vol_mult_med": 1.57,
+   "post_with_data": 3,
+   "post_continued": 1,
+   "post_faded": 1,
+   "post_flat": 1
+  },
+  {
+   "symbol": "COALINDIA",
+   "events": 3,
+   "preA_ret_med": 0.15,
+   "preB_ret_med": -0.25,
+   "preAll_ret_med": -0.09,
+   "preAll_pace_med": 0.63,
+   "accum_events": 0,
+   "distrib_events": 0,
+   "reaction_ret_med": -2.36,
+   "reaction_abs_avg": 3.02,
+   "reaction_pos": 1,
+   "gap_med": -0.96,
+   "move0930_med": -0.55,
+   "vol_mult_med": 2.1,
+   "post_with_data": 3,
+   "post_continued": 0,
+   "post_faded": 2,
+   "post_flat": 1
+  },
+  {
+   "symbol": "JSWSTEEL",
+   "events": 4,
+   "preA_ret_med": 0.28,
+   "preB_ret_med": -0.19,
+   "preAll_ret_med": 0.86,
+   "preAll_pace_med": 1.18,
+   "accum_events": 0,
+   "distrib_events": 0,
+   "reaction_ret_med": 3.23,
+   "reaction_abs_avg": 3.56,
+   "reaction_pos": 3,
+   "gap_med": 1.31,
+   "move0930_med": 1.52,
+   "vol_mult_med": 1.83,
+   "post_with_data": 3,
+   "post_continued": 0,
+   "post_faded": 2,
+   "post_flat": 1
+  },
+  {
+   "symbol": "GRASIM",
+   "events": 3,
+   "preA_ret_med": 3.53,
+   "preB_ret_med": 0.95,
+   "preAll_ret_med": 1.47,
+   "preAll_pace_med": 1.33,
+   "accum_events": 1,
+   "distrib_events": 0,
+   "reaction_ret_med": -1.05,
+   "reaction_abs_avg": 2.86,
+   "reaction_pos": 1,
+   "gap_med": 0.64,
+   "move0930_med": -1.11,
+   "vol_mult_med": 1.52,
+   "post_with_data": 3,
+   "post_continued": 0,
+   "post_faded": 2,
+   "post_flat": 1
+  },
+  {
+   "symbol": "CIPLA",
+   "events": 4,
+   "preA_ret_med": -1.21,
+   "preB_ret_med": -0.88,
+   "preAll_ret_med": -1.62,
+   "preAll_pace_med": 1.19,
+   "accum_events": 1,
+   "distrib_events": 1,
+   "reaction_ret_med": 1.08,
+   "reaction_abs_avg": 2.67,
+   "reaction_pos": 3,
+   "gap_med": -0.73,
+   "move0930_med": 1.18,
+   "vol_mult_med": 1.87,
+   "post_with_data": 3,
+   "post_continued": 1,
+   "post_faded": 1,
+   "post_flat": 1
+  },
+  {
+   "symbol": "DRREDDY",
+   "events": 4,
+   "preA_ret_med": -1.61,
+   "preB_ret_med": -1.67,
+   "preAll_ret_med": -4.44,
+   "preAll_pace_med": 0.74,
+   "accum_events": 0,
+   "distrib_events": 1,
+   "reaction_ret_med": 2.81,
+   "reaction_abs_avg": 3.27,
+   "reaction_pos": 3,
+   "gap_med": 0.38,
+   "move0930_med": 1.47,
+   "vol_mult_med": 3.52,
+   "post_with_data": 3,
+   "post_continued": 2,
+   "post_faded": 0,
+   "post_flat": 1
+  },
+  {
+   "symbol": "EICHERMOT",
+   "events": 3,
+   "preA_ret_med": 2.35,
+   "preB_ret_med": 1.84,
+   "preAll_ret_med": 2.85,
+   "preAll_pace_med": 0.82,
+   "accum_events": 0,
+   "distrib_events": 0,
+   "reaction_ret_med": 6.4,
+   "reaction_abs_avg": 4.79,
+   "reaction_pos": 3,
+   "gap_med": 2.94,
+   "move0930_med": 5.48,
+   "vol_mult_med": 2.98,
+   "post_with_data": 3,
+   "post_continued": 2,
+   "post_faded": 1,
+   "post_flat": 0
+  }
+ ]
+}

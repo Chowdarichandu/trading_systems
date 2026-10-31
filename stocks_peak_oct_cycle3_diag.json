@@ -1,0 +1,1208 @@
+{
+ "anchorA": true,
+ "anchorB": true,
+ "total": 131768.01,
+ "trades": 909,
+ "audit": {
+  "trades": 630,
+  "violations": 0
+ },
+ "comp_oct": {
+  "INV-LONG": {
+   "trades": 21,
+   "net": 7691.08,
+   "losers": 11,
+   "loser_net": -4633.92
+  },
+  "N4-V3": {
+   "trades": 6,
+   "net": -530.69,
+   "losers": 4,
+   "loser_net": -1036.42
+  },
+  "P2F": {
+   "trades": 2,
+   "net": -315.0,
+   "losers": 2,
+   "loser_net": -315.0
+  },
+  "F4": {
+   "trades": 100,
+   "net": 45583.11,
+   "losers": 33,
+   "loser_net": -15005.72
+  }
+ },
+ "exc": {
+  "reach175_hold": 5,
+  "reach200_hold": 3,
+  "post175": 27,
+  "post200": 20,
+  "reach_by_exit": {
+   "square_off": {
+    "n": 49,
+    "r175": 0,
+    "r200": 0
+   },
+   "target": {
+    "n": 38,
+    "r175": 5,
+    "r200": 3
+   },
+   "stop": {
+    "n": 13,
+    "r175": 0,
+    "r200": 0
+   }
+  },
+  "stop_band125": 4,
+  "stop_recover125": 0,
+  "stop_deep125": 9,
+  "exits": {
+   "square_off": 49,
+   "target": 38,
+   "stop": 13
+  },
+  "oct_f4_trades": 100,
+  "stop_list": [
+   {
+    "date": "2026-10-30",
+    "stock": "NTPC",
+    "dir": "SHORT",
+    "setup": "skill_or_breakdown",
+    "net": -380.56,
+    "mae_day": 2.713
+   },
+   {
+    "date": "2026-10-15",
+    "stock": "INDUSTOWER",
+    "dir": "LONG",
+    "setup": "skill_or_breakout",
+    "net": -463.12,
+    "mae_day": 1.157
+   },
+   {
+    "date": "2026-10-13",
+    "stock": "KALYANKJIL",
+    "dir": "LONG",
+    "setup": "skill_or_breakout",
+    "net": -664.74,
+    "mae_day": 1.69
+   },
+   {
+    "date": "2026-10-27",
+    "stock": "KALYANKJIL",
+    "dir": "SHORT",
+    "setup": "skill_or_breakdown",
+    "net": -587.8,
+    "mae_day": 1.185
+   },
+   {
+    "date": "2026-10-05",
+    "stock": "PFC",
+    "dir": "SHORT",
+    "setup": "skill_or_breakdown",
+    "net": -390.02,
+    "mae_day": 1.618
+   },
+   {
+    "date": "2026-10-22",
+    "stock": "PFC",
+    "dir": "LONG",
+    "setup": "skill_or_breakout",
+    "net": -398.6,
+    "mae_day": 1.12
+   },
+   {
+    "date": "2026-10-08",
+    "stock": "IRCTC",
+    "dir": "LONG",
+    "setup": "skill_or_breakout",
+    "net": -541.99,
+    "mae_day": 1.83
+   },
+   {
+    "date": "2026-10-29",
+    "stock": "VEDL",
+    "dir": "LONG",
+    "setup": "skill_or_breakout",
+    "net": -300.43,
+    "mae_day": 1.415
+   },
+   {
+    "date": "2026-10-22",
+    "stock": "HINDCOPPER",
+    "dir": "LONG",
+    "setup": "skill_or_breakout",
+    "net": -499.03,
+    "mae_day": 1.414
+   },
+   {
+    "date": "2026-10-12",
+    "stock": "HINDZINC",
+    "dir": "LONG",
+    "setup": "skill_or_breakout",
+    "net": -650.94,
+    "mae_day": 1.773
+   },
+   {
+    "date": "2026-10-07",
+    "stock": "BDL",
+    "dir": "SHORT",
+    "setup": "skill_or_breakdown",
+    "net": -1229.32,
+    "mae_day": 1.147
+   },
+   {
+    "date": "2026-10-21",
+    "stock": "OIL",
+    "dir": "SHORT",
+    "setup": "skill_or_breakdown",
+    "net": -533.07,
+    "mae_day": 1.283
+   },
+   {
+    "date": "2026-10-27",
+    "stock": "HINDUNILVR",
+    "dir": "SHORT",
+    "setup": "skill_or_breakdown",
+    "net": -1988.1,
+    "mae_day": 2.654
+   }
+  ]
+ },
+ "square_off": {
+  "n": 49,
+  "net": 7777.0,
+  "losers": 20,
+  "loser_net": -6378.0,
+  "winners": 29,
+  "winner_net": 14155.0,
+  "mfe_buckets": {
+   "1.0-1.25": 11,
+   "0-0.5": 11,
+   "0.5-1.0": 21,
+   "1.25-1.5": 6
+  },
+  "mfe_ge_100": 17,
+  "mfe_ge_100_net": 2968.0,
+  "mfe_ge_100_giveback_rs": 13987.0,
+  "rows": [
+   {
+    "date": "2026-10-22",
+    "stock": "GODREJCP",
+    "dir": "LONG",
+    "setup": "skill_or_breakout",
+    "net": -135.0,
+    "gross": -95.0,
+    "mfe_pct": 1.104,
+    "mae_pct": 0.263,
+    "giveback_rs": 1040.0
+   },
+   {
+    "date": "2026-10-07",
+    "stock": "GLENMARK",
+    "dir": "SHORT",
+    "setup": "skill_or_breakdown",
+    "net": -1240.0,
+    "gross": -1200.0,
+    "mfe_pct": 0.267,
+    "mae_pct": 0.982,
+    "giveback_rs": 1810.0
+   },
+   {
+    "date": "2026-10-15",
+    "stock": "GLENMARK",
+    "dir": "LONG",
+    "setup": "skill_or_breakout",
+    "net": -1670.0,
+    "gross": -1630.0,
+    "mfe_pct": 1.001,
+    "mae_pct": 0.962,
+    "giveback_rs": 3900.0
+   },
+   {
+    "date": "2026-10-28",
+    "stock": "GLENMARK",
+    "dir": "LONG",
+    "setup": "skill_or_breakout",
+    "net": 30.0,
+    "gross": 70.0,
+    "mfe_pct": 0.813,
+    "mae_pct": 0.718,
+    "giveback_rs": 1800.0
+   },
+   {
+    "date": "2026-10-13",
+    "stock": "ITC",
+    "dir": "LONG",
+    "setup": "skill_or_breakout",
+    "net": 90.0,
+    "gross": 130.0,
+    "mfe_pct": 0.808,
+    "mae_pct": 0.443,
+    "giveback_rs": 80.0
+   },
+   {
+    "date": "2026-10-23",
+    "stock": "ITC",
+    "dir": "SHORT",
+    "setup": "skill_or_breakdown",
+    "net": -5.0,
+    "gross": 35.0,
+    "mfe_pct": 1.049,
+    "mae_pct": 0.505,
+    "giveback_rs": 235.0
+   },
+   {
+    "date": "2026-10-21",
+    "stock": "RECLTD",
+    "dir": "SHORT",
+    "setup": "skill_or_breakdown",
+    "net": -60.0,
+    "gross": -20.0,
+    "mfe_pct": 0.78,
+    "mae_pct": 0.315,
+    "giveback_rs": 255.0
+   },
+   {
+    "date": "2026-10-22",
+    "stock": "RECLTD",
+    "dir": "LONG",
+    "setup": "skill_or_breakout",
+    "net": -10.0,
+    "gross": 30.0,
+    "mfe_pct": 0.431,
+    "mae_pct": 0.713,
+    "giveback_rs": 100.0
+   },
+   {
+    "date": "2026-10-23",
+    "stock": "RECLTD",
+    "dir": "SHORT",
+    "setup": "skill_or_breakdown",
+    "net": 145.0,
+    "gross": 185.0,
+    "mfe_pct": 1.374,
+    "mae_pct": 0.679,
+    "giveback_rs": 220.0
+   },
+   {
+    "date": "2026-10-09",
+    "stock": "TVSMOTOR",
+    "dir": "LONG",
+    "setup": "skill_or_breakout",
+    "net": 2990.0,
+    "gross": 3030.0,
+    "mfe_pct": 1.47,
+    "mae_pct": 0.036,
+    "giveback_rs": 2610.0
+   },
+   {
+    "date": "2026-10-13",
+    "stock": "TVSMOTOR",
+    "dir": "LONG",
+    "setup": "skill_or_breakout",
+    "net": 3820.0,
+    "gross": 3860.0,
+    "mfe_pct": 0.971,
+    "mae_pct": 0.606,
+    "giveback_rs": -0.0
+   },
+   {
+    "date": "2026-10-26",
+    "stock": "TVSMOTOR",
+    "dir": "LONG",
+    "setup": "skill_or_breakout",
+    "net": 2430.0,
+    "gross": 2470.0,
+    "mfe_pct": 0.713,
+    "mae_pct": 0.557,
+    "giveback_rs": 360.0
+   },
+   {
+    "date": "2026-10-06",
+    "stock": "UNITDSPR",
+    "dir": "SHORT",
+    "setup": "skill_or_breakdown",
+    "net": 780.0,
+    "gross": 820.0,
+    "mfe_pct": 0.633,
+    "mae_pct": 0.376,
+    "giveback_rs": 40.0
+   },
+   {
+    "date": "2026-10-14",
+    "stock": "NTPC",
+    "dir": "LONG",
+    "setup": "skill_or_breakout",
+    "net": 130.0,
+    "gross": 170.0,
+    "mfe_pct": 0.991,
+    "mae_pct": 0.463,
+    "giveback_rs": 140.0
+   },
+   {
+    "date": "2026-10-07",
+    "stock": "INDUSTOWER",
+    "dir": "SHORT",
+    "setup": "skill_or_breakdown",
+    "net": -35.0,
+    "gross": 5.0,
+    "mfe_pct": 1.012,
+    "mae_pct": 0.532,
+    "giveback_rs": 385.0
+   },
+   {
+    "date": "2026-10-14",
+    "stock": "INDUSTOWER",
+    "dir": "LONG",
+    "setup": "skill_or_breakout",
+    "net": 65.0,
+    "gross": 105.0,
+    "mfe_pct": 0.896,
+    "mae_pct": 0.883,
+    "giveback_rs": 235.0
+   },
+   {
+    "date": "2026-10-22",
+    "stock": "INDUSTOWER",
+    "dir": "LONG",
+    "setup": "skill_or_breakout",
+    "net": 125.0,
+    "gross": 165.0,
+    "mfe_pct": 1.145,
+    "mae_pct": 0.329,
+    "giveback_rs": 270.0
+   },
+   {
+    "date": "2026-10-23",
+    "stock": "INDUSTOWER",
+    "dir": "SHORT",
+    "setup": "skill_or_breakdown",
+    "net": -330.0,
+    "gross": -290.0,
+    "mfe_pct": 0.304,
+    "mae_pct": 1.032,
+    "giveback_rs": 405.0
+   },
+   {
+    "date": "2026-10-26",
+    "stock": "INDUSTOWER",
+    "dir": "LONG",
+    "setup": "skill_or_breakout",
+    "net": 155.0,
+    "gross": 195.0,
+    "mfe_pct": 0.875,
+    "mae_pct": 0.888,
+    "giveback_rs": 140.0
+   },
+   {
+    "date": "2026-10-29",
+    "stock": "INDUSTOWER",
+    "dir": "LONG",
+    "setup": "skill_or_breakout",
+    "net": 120.0,
+    "gross": 160.0,
+    "mfe_pct": 1.162,
+    "mae_pct": 0.436,
+    "giveback_rs": 280.0
+   },
+   {
+    "date": "2026-10-16",
+    "stock": "KALYANKJIL",
+    "dir": "LONG",
+    "setup": "skill_or_breakout",
+    "net": -270.0,
+    "gross": -230.0,
+    "mfe_pct": 0.446,
+    "mae_pct": 0.678,
+    "giveback_rs": 480.0
+   },
+   {
+    "date": "2026-10-05",
+    "stock": "HDFCBANK",
+    "dir": "SHORT",
+    "setup": "skill_or_breakdown",
+    "net": 305.0,
+    "gross": 345.0,
+    "mfe_pct": 0.953,
+    "mae_pct": 0.339,
+    "giveback_rs": 330.0
+   },
+   {
+    "date": "2026-10-07",
+    "stock": "NHPC",
+    "dir": "SHORT",
+    "setup": "skill_or_breakdown",
+    "net": -43.0,
+    "gross": -3.0,
+    "mfe_pct": 0.442,
+    "mae_pct": 1.036,
+    "giveback_rs": 35.0
+   },
+   {
+    "date": "2026-10-13",
+    "stock": "NHPC",
+    "dir": "LONG",
+    "setup": "skill_or_breakout",
+    "net": 38.0,
+    "gross": 78.0,
+    "mfe_pct": 1.096,
+    "mae_pct": 0.849,
+    "giveback_rs": 2.0
+   },
+   {
+    "date": "2026-10-14",
+    "stock": "NHPC",
+    "dir": "LONG",
+    "setup": "setup4_reclaim",
+    "net": -37.0,
+    "gross": 3.0,
+    "mfe_pct": 0.286,
+    "mae_pct": 1.02,
+    "giveback_rs": 18.0
+   },
+   {
+    "date": "2026-10-23",
+    "stock": "PFC",
+    "dir": "SHORT",
+    "setup": "skill_or_breakdown",
+    "net": 175.0,
+    "gross": 215.0,
+    "mfe_pct": 1.387,
+    "mae_pct": 0.41,
+    "giveback_rs": 225.0
+   },
+   {
+    "date": "2026-10-30",
+    "stock": "PFC",
+    "dir": "SHORT",
+    "setup": "skill_or_breakdown",
+    "net": 235.0,
+    "gross": 275.0,
+    "mfe_pct": 0.946,
+    "mae_pct": 0.268,
+    "giveback_rs": 25.0
+   },
+   {
+    "date": "2026-10-06",
+    "stock": "IRCTC",
+    "dir": "LONG",
+    "setup": "skill_or_breakout",
+    "net": -375.0,
+    "gross": -335.0,
+    "mfe_pct": 0.142,
+    "mae_pct": 0.917,
+    "giveback_rs": 400.0
+   },
+   {
+    "date": "2026-10-16",
+    "stock": "IRCTC",
+    "dir": "SHORT",
+    "setup": "skill_or_breakdown",
+    "net": -20.0,
+    "gross": 20.0,
+    "mfe_pct": 0.129,
+    "mae_pct": 0.879,
+    "giveback_rs": 40.0
+   },
+   {
+    "date": "2026-10-22",
+    "stock": "IRCTC",
+    "dir": "LONG",
+    "setup": "setup4_reclaim",
+    "net": -85.0,
+    "gross": -45.0,
+    "mfe_pct": 1.106,
+    "mae_pct": 0.487,
+    "giveback_rs": 545.0
+   },
+   {
+    "date": "2026-10-30",
+    "stock": "IRCTC",
+    "dir": "SHORT",
+    "setup": "skill_or_breakdown",
+    "net": 295.0,
+    "gross": 335.0,
+    "mfe_pct": 0.945,
+    "mae_pct": 0.182,
+    "giveback_rs": 80.0
+   },
+   {
+    "date": "2026-10-26",
+    "stock": "WIPRO",
+    "dir": "LONG",
+    "setup": "skill_or_breakout",
+    "net": 7.0,
+    "gross": 47.0,
+    "mfe_pct": 0.621,
+    "mae_pct": 0.52,
+    "giveback_rs": 70.0
+   },
+   {
+    "date": "2026-10-28",
+    "stock": "WIPRO",
+    "dir": "LONG",
+    "setup": "skill_or_breakout",
+    "net": -86.0,
+    "gross": -46.0,
+    "mfe_pct": 0.508,
+    "mae_pct": 0.572,
+    "giveback_rs": 140.0
+   },
+   {
+    "date": "2026-10-28",
+    "stock": "NATIONALUM",
+    "dir": "LONG",
+    "setup": "skill_or_breakout",
+    "net": 25.0,
+    "gross": 65.0,
+    "mfe_pct": 0.743,
+    "mae_pct": 0.573,
+    "giveback_rs": 175.0
+   },
+   {
+    "date": "2026-10-30",
+    "stock": "NATIONALUM",
+    "dir": "SHORT",
+    "setup": "skill_or_breakdown",
+    "net": 135.0,
+    "gross": 175.0,
+    "mfe_pct": 0.696,
+    "mae_pct": 0.901,
+    "giveback_rs": 45.0
+   },
+   {
+    "date": "2026-10-07",
+    "stock": "VEDL",
+    "dir": "SHORT",
+    "setup": "skill_or_breakdown",
+    "net": -30.0,
+    "gross": 10.0,
+    "mfe_pct": 0.919,
+    "mae_pct": 0.536,
+    "giveback_rs": 230.0
+   },
+   {
+    "date": "2026-10-09",
+    "stock": "VEDL",
+    "dir": "LONG",
+    "setup": "skill_or_breakout",
+    "net": 60.0,
+    "gross": 100.0,
+    "mfe_pct": 1.051,
+    "mae_pct": 0.458,
+    "giveback_rs": 175.0
+   },
+   {
+    "date": "2026-10-30",
+    "stock": "VEDL",
+    "dir": "LONG",
+    "setup": "skill_or_breakout",
+    "net": 50.0,
+    "gross": 90.0,
+    "mfe_pct": 1.423,
+    "mae_pct": 0.531,
+    "giveback_rs": 245.0
+   },
+   {
+    "date": "2026-10-30",
+    "stock": "HINDCOPPER",
+    "dir": "SHORT",
+    "setup": "skill_or_breakdown",
+    "net": -0.0,
+    "gross": 40.0,
+    "mfe_pct": 0.647,
+    "mae_pct": 0.498,
+    "giveback_rs": 220.0
+   },
+   {
+    "date": "2026-10-29",
+    "stock": "HINDZINC",
+    "dir": "LONG",
+    "setup": "skill_or_breakout",
+    "net": 565.0,
+    "gross": 605.0,
+    "mfe_pct": 1.294,
+    "mae_pct": 0.059,
+    "giveback_rs": 55.0
+   },
+   {
+    "date": "2026-10-07",
+    "stock": "HINDALCO",
+    "dir": "SHORT",
+    "setup": "skill_or_breakdown",
+    "net": 535.0,
+    "gross": 575.0,
+    "mfe_pct": 0.685,
+    "mae_pct": 0.554,
+    "giveback_rs": 55.0
+   },
+   {
+    "date": "2026-10-09",
+    "stock": "TATASTEEL",
+    "dir": "LONG",
+    "setup": "skill_or_breakout",
+    "net": -57.0,
+    "gross": -17.0,
+    "mfe_pct": 0.443,
+    "mae_pct": 0.789,
+    "giveback_rs": 94.0
+   },
+   {
+    "date": "2026-10-19",
+    "stock": "ASTRAL",
+    "dir": "LONG",
+    "setup": "skill_or_breakout",
+    "net": -1080.0,
+    "gross": -1040.0,
+    "mfe_pct": 0.293,
+    "mae_pct": 0.725,
+    "giveback_rs": 1460.0
+   },
+   {
+    "date": "2026-10-21",
+    "stock": "ASTRAL",
+    "dir": "SHORT",
+    "setup": "skill_or_breakdown",
+    "net": 350.0,
+    "gross": 390.0,
+    "mfe_pct": 1.145,
+    "mae_pct": 0.1,
+    "giveback_rs": 1210.0
+   },
+   {
+    "date": "2026-10-15",
+    "stock": "BDL",
+    "dir": "LONG",
+    "setup": "setup4_reclaim",
+    "net": -730.0,
+    "gross": -690.0,
+    "mfe_pct": 0.574,
+    "mae_pct": 1.042,
+    "giveback_rs": 1340.0
+   },
+   {
+    "date": "2026-10-07",
+    "stock": "OIL",
+    "dir": "LONG",
+    "setup": "skill_or_breakout",
+    "net": 140.0,
+    "gross": 180.0,
+    "mfe_pct": 1.066,
+    "mae_pct": 0.344,
+    "giveback_rs": 300.0
+   },
+   {
+    "date": "2026-10-26",
+    "stock": "OIL",
+    "dir": "LONG",
+    "setup": "skill_or_breakout",
+    "net": 220.0,
+    "gross": 260.0,
+    "mfe_pct": 0.796,
+    "mae_pct": 0.575,
+    "giveback_rs": 100.0
+   },
+   {
+    "date": "2026-10-23",
+    "stock": "HINDUNILVR",
+    "dir": "SHORT",
+    "setup": "skill_or_breakdown",
+    "net": 140.0,
+    "gross": 180.0,
+    "mfe_pct": 1.368,
+    "mae_pct": 0.293,
+    "giveback_rs": 2290.0
+   },
+   {
+    "date": "2026-10-26",
+    "stock": "HINDUNILVR",
+    "dir": "LONG",
+    "setup": "skill_or_breakout",
+    "net": -80.0,
+    "gross": -40.0,
+    "mfe_pct": 0.094,
+    "mae_pct": 0.702,
+    "giveback_rs": 210.0
+   }
+  ]
+ },
+ "scan": {
+  "setup": {
+   "setup2_or_breakdown": {
+    "full_n": 6,
+    "full_net": 44.0,
+    "oct_n": 0,
+    "oct_net": 0.0,
+    "both_neg": false
+   },
+   "setup4_pullback": {
+    "full_n": 1,
+    "full_net": 85.0,
+    "oct_n": 0,
+    "oct_net": 0.0,
+    "both_neg": false
+   },
+   "setup4_reclaim": {
+    "full_n": 25,
+    "full_net": 4681.14,
+    "oct_n": 6,
+    "oct_net": 3941.62,
+    "both_neg": false
+   },
+   "skill_or_breakdown": {
+    "full_n": 343,
+    "full_net": 36456.57,
+    "oct_n": 48,
+    "oct_net": 21031.76,
+    "both_neg": false
+   },
+   "skill_or_breakout": {
+    "full_n": 205,
+    "full_net": 38402.22,
+    "oct_n": 46,
+    "oct_net": 20609.73,
+    "both_neg": false
+   }
+  },
+  "dir": {
+   "LONG": {
+    "full_n": 231,
+    "full_net": 43168.36,
+    "oct_n": 52,
+    "oct_net": 24551.35,
+    "both_neg": false
+   },
+   "SHORT": {
+    "full_n": 349,
+    "full_net": 36500.57,
+    "oct_n": 48,
+    "oct_net": 21031.76,
+    "both_neg": false
+   }
+  },
+  "round": {
+   "1": {
+    "full_n": 531,
+    "full_net": 90569.11,
+    "oct_n": 95,
+    "oct_net": 43764.36,
+    "both_neg": false
+   },
+   "2": {
+    "full_n": 49,
+    "full_net": -10900.18,
+    "oct_n": 5,
+    "oct_net": 1818.75,
+    "both_neg": false
+   }
+  },
+  "setup_dir": {
+   "setup2_or_breakdown|SHORT": {
+    "full_n": 6,
+    "full_net": 44.0,
+    "oct_n": 0,
+    "oct_net": 0.0,
+    "both_neg": false
+   },
+   "setup4_pullback|LONG": {
+    "full_n": 1,
+    "full_net": 85.0,
+    "oct_n": 0,
+    "oct_net": 0.0,
+    "both_neg": false
+   },
+   "setup4_reclaim|LONG": {
+    "full_n": 25,
+    "full_net": 4681.14,
+    "oct_n": 6,
+    "oct_net": 3941.62,
+    "both_neg": false
+   },
+   "skill_or_breakdown|SHORT": {
+    "full_n": 343,
+    "full_net": 36456.57,
+    "oct_n": 48,
+    "oct_net": 21031.76,
+    "both_neg": false
+   },
+   "skill_or_breakout|LONG": {
+    "full_n": 205,
+    "full_net": 38402.22,
+    "oct_n": 46,
+    "oct_net": 20609.73,
+    "both_neg": false
+   }
+  },
+  "symbol": {
+   "ASTRAL": {
+    "full_n": 26,
+    "full_net": 20805.19,
+    "oct_n": 5,
+    "oct_net": 5379.95,
+    "both_neg": false
+   },
+   "BDL": {
+    "full_n": 23,
+    "full_net": 12476.81,
+    "oct_n": 4,
+    "oct_net": 1214.78,
+    "both_neg": false
+   },
+   "GLENMARK": {
+    "full_n": 36,
+    "full_net": 7274.87,
+    "oct_n": 4,
+    "oct_net": 389.6,
+    "both_neg": false
+   },
+   "GODREJCP": {
+    "full_n": 16,
+    "full_net": -4724.96,
+    "oct_n": 2,
+    "oct_net": 1060.25,
+    "both_neg": false
+   },
+   "HDFCBANK": {
+    "full_n": 12,
+    "full_net": 2262.94,
+    "oct_n": 2,
+    "oct_net": 1343.5,
+    "both_neg": false
+   },
+   "HINDALCO": {
+    "full_n": 17,
+    "full_net": 730.53,
+    "oct_n": 1,
+    "oct_net": 535.0,
+    "both_neg": false
+   },
+   "HINDCOPPER": {
+    "full_n": 19,
+    "full_net": 573.1,
+    "oct_n": 2,
+    "oct_net": -499.03,
+    "both_neg": false
+   },
+   "HINDUNILVR": {
+    "full_n": 17,
+    "full_net": -4459.24,
+    "oct_n": 5,
+    "oct_net": 3521.8,
+    "both_neg": false
+   },
+   "HINDZINC": {
+    "full_n": 19,
+    "full_net": -2044.88,
+    "oct_n": 3,
+    "oct_net": 690.44,
+    "both_neg": false
+   },
+   "INDUSTOWER": {
+    "full_n": 36,
+    "full_net": 1452.55,
+    "oct_n": 8,
+    "oct_net": 170.86,
+    "both_neg": false
+   },
+   "IRCTC": {
+    "full_n": 22,
+    "full_net": -366.14,
+    "oct_n": 5,
+    "oct_net": -726.99,
+    "both_neg": true
+   },
+   "ITC": {
+    "full_n": 15,
+    "full_net": 413.53,
+    "oct_n": 3,
+    "oct_net": 438.23,
+    "both_neg": false
+   },
+   "KALYANKJIL": {
+    "full_n": 29,
+    "full_net": 715.61,
+    "oct_n": 6,
+    "oct_net": 902.13,
+    "both_neg": false
+   },
+   "NATIONALUM": {
+    "full_n": 26,
+    "full_net": 156.93,
+    "oct_n": 6,
+    "oct_net": 1894.87,
+    "both_neg": false
+   },
+   "NHPC": {
+    "full_n": 25,
+    "full_net": -764.99,
+    "oct_n": 6,
+    "oct_net": 163.91,
+    "both_neg": false
+   },
+   "NTPC": {
+    "full_n": 27,
+    "full_net": 48.03,
+    "oct_n": 5,
+    "oct_net": 1001.79,
+    "both_neg": false
+   },
+   "OBEROIRLTY": {
+    "full_n": 35,
+    "full_net": 6657.68,
+    "oct_n": 1,
+    "oct_net": 2457.05,
+    "both_neg": false
+   },
+   "OIL": {
+    "full_n": 21,
+    "full_net": -3522.41,
+    "oct_n": 3,
+    "oct_net": -173.07,
+    "both_neg": true
+   },
+   "PFC": {
+    "full_n": 32,
+    "full_net": 288.2,
+    "oct_n": 5,
+    "oct_net": 96.48,
+    "both_neg": false
+   },
+   "RECLTD": {
+    "full_n": 20,
+    "full_net": 955.71,
+    "oct_n": 4,
+    "oct_net": 467.0,
+    "both_neg": false
+   },
+   "TATASTEEL": {
+    "full_n": 20,
+    "full_net": -378.09,
+    "oct_n": 3,
+    "oct_net": 398.99,
+    "both_neg": false
+   },
+   "TVSMOTOR": {
+    "full_n": 24,
+    "full_net": 32820.27,
+    "oct_n": 5,
+    "oct_net": 21392.5,
+    "both_neg": false
+   },
+   "UNITDSPR": {
+    "full_n": 13,
+    "full_net": 2956.24,
+    "oct_n": 2,
+    "oct_net": 2617.85,
+    "both_neg": false
+   },
+   "VEDL": {
+    "full_n": 27,
+    "full_net": 5015.2,
+    "oct_n": 6,
+    "oct_net": 424.67,
+    "both_neg": false
+   },
+   "WIPRO": {
+    "full_n": 23,
+    "full_net": 326.25,
+    "oct_n": 4,
+    "oct_net": 420.55,
+    "both_neg": false
+   }
+  },
+  "sig_time": {
+   "10:00": {
+    "full_n": 384,
+    "full_net": 47150.97,
+    "oct_n": 69,
+    "oct_net": 29981.11,
+    "both_neg": false
+   },
+   "10:05": {
+    "full_n": 28,
+    "full_net": 6068.38,
+    "oct_n": 5,
+    "oct_net": 3704.55,
+    "both_neg": false
+   },
+   "10:10": {
+    "full_n": 16,
+    "full_net": -2488.24,
+    "oct_n": 3,
+    "oct_net": -1499.03,
+    "both_neg": true
+   },
+   "10:15": {
+    "full_n": 20,
+    "full_net": 8043.92,
+    "oct_n": 7,
+    "oct_net": 2357.19,
+    "both_neg": false
+   },
+   "10:20": {
+    "full_n": 14,
+    "full_net": 26.75,
+    "oct_n": 1,
+    "oct_net": -135.0,
+    "both_neg": false
+   },
+   "10:25": {
+    "full_n": 13,
+    "full_net": 1148.77,
+    "oct_n": 1,
+    "oct_net": 565.0,
+    "both_neg": false
+   },
+   "10:30": {
+    "full_n": 4,
+    "full_net": -45.0,
+    "oct_n": 0,
+    "oct_net": 0.0,
+    "both_neg": false
+   },
+   "10:35": {
+    "full_n": 14,
+    "full_net": 10729.35,
+    "oct_n": 1,
+    "oct_net": 1555.7,
+    "both_neg": false
+   },
+   "10:40": {
+    "full_n": 6,
+    "full_net": -13324.83,
+    "oct_n": 0,
+    "oct_net": 0.0,
+    "both_neg": false
+   },
+   "10:45": {
+    "full_n": 8,
+    "full_net": -77.7,
+    "oct_n": 1,
+    "oct_net": -300.43,
+    "both_neg": true
+   },
+   "10:50": {
+    "full_n": 11,
+    "full_net": 1362.24,
+    "oct_n": 3,
+    "oct_net": 36.4,
+    "both_neg": false
+   },
+   "10:55": {
+    "full_n": 9,
+    "full_net": 4613.06,
+    "oct_n": 3,
+    "oct_net": 876.97,
+    "both_neg": false
+   },
+   "11:00": {
+    "full_n": 7,
+    "full_net": -3088.22,
+    "oct_n": 0,
+    "oct_net": 0.0,
+    "both_neg": false
+   },
+   "11:05": {
+    "full_n": 5,
+    "full_net": 651.0,
+    "oct_n": 1,
+    "oct_net": 25.0,
+    "both_neg": false
+   },
+   "11:10": {
+    "full_n": 5,
+    "full_net": 481.57,
+    "oct_n": 0,
+    "oct_net": 0.0,
+    "both_neg": false
+   },
+   "11:15": {
+    "full_n": 3,
+    "full_net": 729.55,
+    "oct_n": 0,
+    "oct_net": 0.0,
+    "both_neg": false
+   },
+   "11:20": {
+    "full_n": 12,
+    "full_net": 4286.07,
+    "oct_n": 2,
+    "oct_net": 1121.65,
+    "both_neg": false
+   },
+   "11:25": {
+    "full_n": 6,
+    "full_net": 769.54,
+    "oct_n": 1,
+    "oct_net": 350.0,
+    "both_neg": false
+   },
+   "11:30": {
+    "full_n": 7,
+    "full_net": 7983.25,
+    "oct_n": 2,
+    "oct_net": 6944.0,
+    "both_neg": false
+   },
+   "11:45": {
+    "full_n": 1,
+    "full_net": 240.0,
+    "oct_n": 0,
+    "oct_net": 0.0,
+    "both_neg": false
+   },
+   "11:55": {
+    "full_n": 1,
+    "full_net": 60.0,
+    "oct_n": 0,
+    "oct_net": 0.0,
+    "both_neg": false
+   },
+   "12:45": {
+    "full_n": 1,
+    "full_net": 2145.95,
+    "oct_n": 0,
+    "oct_net": 0.0,
+    "both_neg": false
+   },
+   "12:55": {
+    "full_n": 1,
+    "full_net": 2182.55,
+    "oct_n": 0,
+    "oct_net": 0.0,
+    "both_neg": false
+   },
+   "13:30": {
+    "full_n": 1,
+    "full_net": 45.0,
+    "oct_n": 0,
+    "oct_net": 0.0,
+    "both_neg": false
+   },
+   "13:35": {
+    "full_n": 1,
+    "full_net": -90.0,
+    "oct_n": 0,
+    "oct_net": 0.0,
+    "both_neg": false
+   },
+   "14:00": {
+    "full_n": 1,
+    "full_net": 85.0,
+    "oct_n": 0,
+    "oct_net": 0.0,
+    "both_neg": false
+   },
+   "14:25": {
+    "full_n": 1,
+    "full_net": -20.0,
+    "oct_n": 0,
+    "oct_net": 0.0,
+    "both_neg": false
+   }
+  }
+ }
+}

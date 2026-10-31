@@ -1,0 +1,428 @@
+{
+  "validation": {
+    "picked_matches_s12_csv": true,
+    "picked_n": 101,
+    "s12_n": 101,
+    "net_diffs": []
+  },
+  "pool_PE_all_janoct": {
+    "n": 209,
+    "net_rs": -2390.0,
+    "wins": 114,
+    "full_targets": 40
+  },
+  "pool_PE_all_oct": {
+    "n": 16,
+    "net_rs": -1000.0,
+    "wins": 7,
+    "full_targets": 4
+  },
+  "pool_PE_all_jansep": {
+    "n": 193,
+    "net_rs": -1390.0,
+    "wins": 107,
+    "full_targets": 36
+  },
+  "gate_survivors_janoct": {
+    "n": 195,
+    "net_rs": -602.5,
+    "wins": 108,
+    "full_targets": 38
+  },
+  "gate_survivors_oct": {
+    "n": 14,
+    "net_rs": -315.0,
+    "wins": 7,
+    "full_targets": 4
+  },
+  "gate_survivors_jansep": {
+    "n": 181,
+    "net_rs": -287.5,
+    "wins": 101,
+    "full_targets": 34
+  },
+  "gate_blocked_janoct": {
+    "n": 14,
+    "net_rs": -1787.5,
+    "wins": 6,
+    "full_targets": 2
+  },
+  "gate_blocked_oct": {
+    "n": 2,
+    "net_rs": -685.0,
+    "wins": 0,
+    "full_targets": 0
+  },
+  "gate_blocked_jansep": {
+    "n": 12,
+    "net_rs": -1102.5,
+    "wins": 6,
+    "full_targets": 2
+  },
+  "capped_picked_janoct": {
+    "n": 101,
+    "net_rs": 5492.5,
+    "wins": 57,
+    "full_targets": 25
+  },
+  "capped_picked_oct": {
+    "n": 8,
+    "net_rs": 1885.0,
+    "wins": 5,
+    "full_targets": 4
+  },
+  "capped_picked_jansep": {
+    "n": 93,
+    "net_rs": 3607.5,
+    "wins": 52,
+    "full_targets": 21
+  },
+  "capped_out_janoct": {
+    "n": 94,
+    "net_rs": -6095.0,
+    "wins": 51,
+    "full_targets": 13
+  },
+  "capped_out_oct": {
+    "n": 6,
+    "net_rs": -2200.0,
+    "wins": 2,
+    "full_targets": 0
+  },
+  "capped_out_jansep": {
+    "n": 88,
+    "net_rs": -3895.0,
+    "wins": 49,
+    "full_targets": 13
+  },
+  "oct_pool_by_tier": {
+    "no_event": {
+      "n": 10,
+      "net_rs": -1125.0,
+      "wins": 4,
+      "full_targets": 2
+    },
+    "post_reaction": {
+      "n": 2,
+      "net_rs": 1500.0,
+      "wins": 2,
+      "full_targets": 2
+    },
+    "pre_announcement": {
+      "n": 3,
+      "net_rs": -895.0,
+      "wins": 1,
+      "full_targets": 0
+    },
+    "single_news": {
+      "n": 1,
+      "net_rs": -480.0,
+      "wins": 0,
+      "full_targets": 0
+    }
+  },
+  "oct_blocked": [
+    {
+      "date": "2026-10-09",
+      "symbol": "HINDCOPPER",
+      "setup": "setup3_bounce_rejection",
+      "gate_tier": "no_event",
+      "room_ratio": 1.309,
+      "target_net_rs": 510.0,
+      "entry_time": "10:40",
+      "net_rs": -315.0,
+      "full_target": false,
+      "exit_reason": "stop"
+    },
+    {
+      "date": "2026-10-09",
+      "symbol": "HINDALCO",
+      "setup": "setup3_bounce_rejection",
+      "gate_tier": "no_event",
+      "room_ratio": 1.576,
+      "target_net_rs": 620.0,
+      "entry_time": "09:55",
+      "net_rs": -370.0,
+      "full_target": false,
+      "exit_reason": "stop"
+    }
+  ],
+  "oct_capped_out": [
+    {
+      "date": "2026-10-26",
+      "symbol": "BDL",
+      "setup": "setup3_bounce_rejection",
+      "gate_tier": "single_news",
+      "room_ratio": 3.659,
+      "target_net_rs": 840.0,
+      "entry_time": "10:25",
+      "net_rs": -480.0,
+      "full_target": false,
+      "cap_reason": "day_cap"
+    },
+    {
+      "date": "2026-10-09",
+      "symbol": "GLENMARK",
+      "setup": "setup3_bounce_rejection",
+      "gate_tier": "no_event",
+      "room_ratio": 2.97,
+      "target_net_rs": 1960.0,
+      "entry_time": "09:45",
+      "net_rs": -1040.0,
+      "full_target": false,
+      "cap_reason": "day_cap"
+    },
+    {
+      "date": "2026-10-09",
+      "symbol": "HINDUNILVR",
+      "setup": "setup3_bounce_rejection",
+      "gate_tier": "no_event",
+      "room_ratio": 3.043,
+      "target_net_rs": 880.0,
+      "entry_time": "10:05",
+      "net_rs": -500.0,
+      "full_target": false,
+      "cap_reason": "day_cap"
+    },
+    {
+      "date": "2026-10-09",
+      "symbol": "UNITDSPR",
+      "setup": "setup3_bounce_rejection",
+      "gate_tier": "no_event",
+      "room_ratio": 11.625,
+      "target_net_rs": 440.0,
+      "entry_time": "10:20",
+      "net_rs": -280.0,
+      "full_target": false,
+      "cap_reason": "day_cap"
+    },
+    {
+      "date": "2026-10-06",
+      "symbol": "OBEROIRLTY",
+      "setup": "setup3_bounce_rejection",
+      "gate_tier": "no_event",
+      "room_ratio": 6.333,
+      "target_net_rs": 320.0,
+      "entry_time": "10:30",
+      "net_rs": 50.0,
+      "full_target": false,
+      "cap_reason": "day+week"
+    },
+    {
+      "date": "2026-10-21",
+      "symbol": "KALYANKJIL",
+      "setup": "setup3_bounce_rejection",
+      "gate_tier": "no_event",
+      "room_ratio": 4.556,
+      "target_net_rs": 320.0,
+      "entry_time": "09:35",
+      "net_rs": 50.0,
+      "full_target": false,
+      "cap_reason": "day_cap"
+    }
+  ],
+  "oct_picked": [
+    {
+      "date": "2026-10-22",
+      "symbol": "OBEROIRLTY",
+      "setup": "setup3_bounce_rejection",
+      "gate_tier": "post_reaction",
+      "room_ratio": 1.587,
+      "target_net_rs": 1220.0,
+      "entry_time": "11:20",
+      "net_rs": 1220.0,
+      "full_target": true
+    },
+    {
+      "date": "2026-10-26",
+      "symbol": "HINDZINC",
+      "setup": "setup3_bounce_rejection",
+      "gate_tier": "post_reaction",
+      "room_ratio": 2.406,
+      "target_net_rs": 280.0,
+      "entry_time": "10:40",
+      "net_rs": 280.0,
+      "full_target": true
+    },
+    {
+      "date": "2026-10-09",
+      "symbol": "OBEROIRLTY",
+      "setup": "setup3_bounce_rejection",
+      "gate_tier": "pre_announcement",
+      "room_ratio": 2.52,
+      "target_net_rs": 1460.0,
+      "entry_time": "09:45",
+      "net_rs": -790.0,
+      "full_target": false
+    },
+    {
+      "date": "2026-10-21",
+      "symbol": "HINDUNILVR",
+      "setup": "setup3_bounce_rejection",
+      "gate_tier": "pre_announcement",
+      "room_ratio": 4.156,
+      "target_net_rs": 600.0,
+      "entry_time": "09:40",
+      "net_rs": 120.0,
+      "full_target": false
+    },
+    {
+      "date": "2026-10-15",
+      "symbol": "HDFCBANK",
+      "setup": "setup3_bounce_rejection",
+      "gate_tier": "pre_announcement",
+      "room_ratio": 3.459,
+      "target_net_rs": 330.0,
+      "entry_time": "09:45",
+      "net_rs": -225.0,
+      "full_target": false
+    },
+    {
+      "date": "2026-10-01",
+      "symbol": "GLENMARK",
+      "setup": "setup3_bounce_rejection",
+      "gate_tier": "no_event",
+      "room_ratio": 1.909,
+      "target_net_rs": 1060.0,
+      "entry_time": "09:45",
+      "net_rs": 1060.0,
+      "full_target": true
+    },
+    {
+      "date": "2026-10-12",
+      "symbol": "ASTRAL",
+      "setup": "setup3_bounce_rejection",
+      "gate_tier": "no_event",
+      "room_ratio": 4.471,
+      "target_net_rs": 640.0,
+      "entry_time": "09:40",
+      "net_rs": -380.0,
+      "full_target": false
+    },
+    {
+      "date": "2026-10-06",
+      "symbol": "GODREJCP",
+      "setup": "setup3_bounce_rejection",
+      "gate_tier": "no_event",
+      "room_ratio": 3.625,
+      "target_net_rs": 600.0,
+      "entry_time": "09:35",
+      "net_rs": 600.0,
+      "full_target": true
+    }
+  ],
+  "oct_days_with_pool_candidate": 8,
+  "oct_days_with_survivor": 8,
+  "oct_trading_days": 18,
+  "oct_pool_entry_times": {
+    "09:35": 2,
+    "09:45": 4,
+    "10:20": 1,
+    "10:30": 1,
+    "11:20": 1,
+    "10:40": 2,
+    "09:55": 1,
+    "09:40": 2,
+    "10:25": 1,
+    "10:05": 1
+  },
+  "oct_pool_setups": {
+    "setup3_bounce_rejection": 16
+  },
+  "janoct_pool_setups": {
+    "setup3_bounce_rejection": 209
+  },
+  "capped_out_oct_by_reason": {
+    "day_cap": 5,
+    "day+week": 1
+  },
+  "capped_out_jan_sep_by_reason": {
+    "day_cap": 76,
+    "week_cap": 7,
+    "day+week": 5
+  },
+  "jansep_blocked_shadow": {
+    "n": 12,
+    "net_rs": -1102.5,
+    "wins": 6,
+    "full_targets": 2
+  },
+  "jansep_capped_out_shadow": {
+    "n": 88,
+    "net_rs": -3895.0,
+    "wins": 49,
+    "full_targets": 13
+  },
+  "picked_tier_no_event_janoct": {
+    "n": 53,
+    "net_rs": -1482.5,
+    "wins": 30,
+    "full_targets": 11
+  },
+  "picked_tier_no_event_jansep": {
+    "n": 50,
+    "net_rs": -2762.5,
+    "wins": 28,
+    "full_targets": 9
+  },
+  "picked_tier_no_event_oct": {
+    "n": 3,
+    "net_rs": 1280.0,
+    "wins": 2,
+    "full_targets": 2
+  },
+  "picked_tier_post_reaction_janoct": {
+    "n": 22,
+    "net_rs": 5295.0,
+    "wins": 14,
+    "full_targets": 7
+  },
+  "picked_tier_post_reaction_jansep": {
+    "n": 20,
+    "net_rs": 3795.0,
+    "wins": 12,
+    "full_targets": 5
+  },
+  "picked_tier_post_reaction_oct": {
+    "n": 2,
+    "net_rs": 1500.0,
+    "wins": 2,
+    "full_targets": 2
+  },
+  "picked_tier_pre_announcement_janoct": {
+    "n": 21,
+    "net_rs": 1120.0,
+    "wins": 10,
+    "full_targets": 4
+  },
+  "picked_tier_pre_announcement_jansep": {
+    "n": 18,
+    "net_rs": 2015.0,
+    "wins": 9,
+    "full_targets": 4
+  },
+  "picked_tier_pre_announcement_oct": {
+    "n": 3,
+    "net_rs": -895.0,
+    "wins": 1,
+    "full_targets": 0
+  },
+  "picked_tier_single_news_janoct": {
+    "n": 5,
+    "net_rs": 560.0,
+    "wins": 3,
+    "full_targets": 3
+  },
+  "picked_tier_single_news_jansep": {
+    "n": 5,
+    "net_rs": 560.0,
+    "wins": 3,
+    "full_targets": 3
+  },
+  "picked_tier_single_news_oct": {
+    "n": 0,
+    "net_rs": 0.0,
+    "wins": 0,
+    "full_targets": 0
+  }
+}

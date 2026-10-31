@@ -1,0 +1,470 @@
+{
+ "days": {
+  "all": 203,
+  "jan_may": 99,
+  "jun_oct": 104,
+  "oct": 18
+ },
+ "primary_exit": "T125",
+ "variants": {
+  "BASE": {
+   "T125": {
+    "all": {
+     "trades": 52,
+     "win_pct": 36.5,
+     "target_pct": 32.7,
+     "net_rs": 2924.79,
+     "expectancy_rs": 56.25,
+     "trades_per_day": 0.26
+    },
+    "jan_may": {
+     "trades": 32,
+     "win_pct": 37.5,
+     "target_pct": 31.2,
+     "net_rs": 2727.65,
+     "expectancy_rs": 85.24,
+     "trades_per_day": 0.32
+    },
+    "jun_oct": {
+     "trades": 20,
+     "win_pct": 35.0,
+     "target_pct": 35.0,
+     "net_rs": 197.14,
+     "expectancy_rs": 9.86,
+     "trades_per_day": 0.19
+    },
+    "oct": {
+     "trades": 5,
+     "win_pct": 40.0,
+     "target_pct": 40.0,
+     "net_rs": -361.74,
+     "expectancy_rs": -72.35,
+     "trades_per_day": 0.28
+    }
+   },
+   "T10": {
+    "all": {
+     "trades": 52,
+     "win_pct": 40.4,
+     "target_pct": 38.5,
+     "net_rs": 4319.24,
+     "expectancy_rs": 83.06,
+     "trades_per_day": 0.26
+    },
+    "jan_may": {
+     "trades": 32,
+     "win_pct": 43.8,
+     "target_pct": 40.6,
+     "net_rs": 5641.88,
+     "expectancy_rs": 176.31,
+     "trades_per_day": 0.32
+    },
+    "jun_oct": {
+     "trades": 20,
+     "win_pct": 35.0,
+     "target_pct": 35.0,
+     "net_rs": -1322.64,
+     "expectancy_rs": -66.13,
+     "trades_per_day": 0.19
+    },
+    "oct": {
+     "trades": 5,
+     "win_pct": 40.0,
+     "target_pct": 40.0,
+     "net_rs": -478.88,
+     "expectancy_rs": -95.78,
+     "trades_per_day": 0.28
+    }
+   },
+   "graduates_T125": true,
+   "both_halves_positive_T125": true,
+   "both_halves_positive_T10": false
+  },
+  "V1a": {
+   "T125": {
+    "all": {
+     "trades": 72,
+     "win_pct": 31.9,
+     "target_pct": 29.2,
+     "net_rs": 1091.2,
+     "expectancy_rs": 15.16,
+     "trades_per_day": 0.35
+    },
+    "jan_may": {
+     "trades": 43,
+     "win_pct": 34.9,
+     "target_pct": 30.2,
+     "net_rs": 4608.68,
+     "expectancy_rs": 107.18,
+     "trades_per_day": 0.43
+    },
+    "jun_oct": {
+     "trades": 29,
+     "win_pct": 27.6,
+     "target_pct": 27.6,
+     "net_rs": -3517.48,
+     "expectancy_rs": -121.29,
+     "trades_per_day": 0.28
+    },
+    "oct": {
+     "trades": 7,
+     "win_pct": 28.6,
+     "target_pct": 28.6,
+     "net_rs": -2180.99,
+     "expectancy_rs": -311.57,
+     "trades_per_day": 0.39
+    }
+   },
+   "T10": {
+    "all": {
+     "trades": 72,
+     "win_pct": 34.7,
+     "target_pct": 33.3,
+     "net_rs": 1471.37,
+     "expectancy_rs": 20.44,
+     "trades_per_day": 0.35
+    },
+    "jan_may": {
+     "trades": 43,
+     "win_pct": 39.5,
+     "target_pct": 37.2,
+     "net_rs": 6642.97,
+     "expectancy_rs": 154.49,
+     "trades_per_day": 0.43
+    },
+    "jun_oct": {
+     "trades": 29,
+     "win_pct": 27.6,
+     "target_pct": 27.6,
+     "net_rs": -5171.6,
+     "expectancy_rs": -178.33,
+     "trades_per_day": 0.28
+    },
+    "oct": {
+     "trades": 7,
+     "win_pct": 28.6,
+     "target_pct": 28.6,
+     "net_rs": -2298.13,
+     "expectancy_rs": -328.3,
+     "trades_per_day": 0.39
+    }
+   },
+   "graduates_T125": false,
+   "both_halves_positive_T125": false,
+   "both_halves_positive_T10": false
+  },
+  "V1b": {
+   "T125": {
+    "all": {
+     "trades": 48,
+     "win_pct": 37.5,
+     "target_pct": 33.3,
+     "net_rs": 3228.65,
+     "expectancy_rs": 67.26,
+     "trades_per_day": 0.24
+    },
+    "jan_may": {
+     "trades": 30,
+     "win_pct": 40.0,
+     "target_pct": 33.3,
+     "net_rs": 3211.33,
+     "expectancy_rs": 107.04,
+     "trades_per_day": 0.3
+    },
+    "jun_oct": {
+     "trades": 18,
+     "win_pct": 33.3,
+     "target_pct": 33.3,
+     "net_rs": 17.32,
+     "expectancy_rs": 0.96,
+     "trades_per_day": 0.17
+    },
+    "oct": {
+     "trades": 5,
+     "win_pct": 40.0,
+     "target_pct": 40.0,
+     "net_rs": -361.74,
+     "expectancy_rs": -72.35,
+     "trades_per_day": 0.28
+    }
+   },
+   "T10": {
+    "all": {
+     "trades": 48,
+     "win_pct": 41.7,
+     "target_pct": 39.6,
+     "net_rs": 4711.6,
+     "expectancy_rs": 98.16,
+     "trades_per_day": 0.24
+    },
+    "jan_may": {
+     "trades": 30,
+     "win_pct": 46.7,
+     "target_pct": 43.3,
+     "net_rs": 6125.56,
+     "expectancy_rs": 204.19,
+     "trades_per_day": 0.3
+    },
+    "jun_oct": {
+     "trades": 18,
+     "win_pct": 33.3,
+     "target_pct": 33.3,
+     "net_rs": -1413.96,
+     "expectancy_rs": -78.55,
+     "trades_per_day": 0.17
+    },
+    "oct": {
+     "trades": 5,
+     "win_pct": 40.0,
+     "target_pct": 40.0,
+     "net_rs": -478.88,
+     "expectancy_rs": -95.78,
+     "trades_per_day": 0.28
+    }
+   },
+   "graduates_T125": true,
+   "both_halves_positive_T125": true,
+   "both_halves_positive_T10": false
+  },
+  "V2": {
+   "T125": {
+    "all": {
+     "trades": 52,
+     "win_pct": 32.7,
+     "target_pct": 26.9,
+     "net_rs": -3450.35,
+     "expectancy_rs": -66.35,
+     "trades_per_day": 0.26
+    },
+    "jan_may": {
+     "trades": 32,
+     "win_pct": 31.2,
+     "target_pct": 28.1,
+     "net_rs": -907.72,
+     "expectancy_rs": -28.37,
+     "trades_per_day": 0.32
+    },
+    "jun_oct": {
+     "trades": 20,
+     "win_pct": 35.0,
+     "target_pct": 25.0,
+     "net_rs": -2542.63,
+     "expectancy_rs": -127.13,
+     "trades_per_day": 0.19
+    },
+    "oct": {
+     "trades": 5,
+     "win_pct": 40.0,
+     "target_pct": 20.0,
+     "net_rs": -301.53,
+     "expectancy_rs": -60.31,
+     "trades_per_day": 0.28
+    }
+   },
+   "T10": {
+    "all": {
+     "trades": 52,
+     "win_pct": 34.6,
+     "target_pct": 30.8,
+     "net_rs": -5962.26,
+     "expectancy_rs": -114.66,
+     "trades_per_day": 0.26
+    },
+    "jan_may": {
+     "trades": 32,
+     "win_pct": 31.2,
+     "target_pct": 28.1,
+     "net_rs": -3231.84,
+     "expectancy_rs": -100.99,
+     "trades_per_day": 0.32
+    },
+    "jun_oct": {
+     "trades": 20,
+     "win_pct": 40.0,
+     "target_pct": 35.0,
+     "net_rs": -2730.42,
+     "expectancy_rs": -136.52,
+     "trades_per_day": 0.19
+    },
+    "oct": {
+     "trades": 5,
+     "win_pct": 60.0,
+     "target_pct": 40.0,
+     "net_rs": 83.36,
+     "expectancy_rs": 16.67,
+     "trades_per_day": 0.28
+    }
+   },
+   "graduates_T125": false,
+   "both_halves_positive_T125": false,
+   "both_halves_positive_T10": false
+  },
+  "V3": {
+   "T125": {
+    "all": {
+     "trades": 56,
+     "win_pct": 37.5,
+     "target_pct": 33.9,
+     "net_rs": 7990.43,
+     "expectancy_rs": 142.69,
+     "trades_per_day": 0.28
+    },
+    "jan_may": {
+     "trades": 34,
+     "win_pct": 38.2,
+     "target_pct": 32.4,
+     "net_rs": 5155.13,
+     "expectancy_rs": 151.62,
+     "trades_per_day": 0.34
+    },
+    "jun_oct": {
+     "trades": 22,
+     "win_pct": 36.4,
+     "target_pct": 36.4,
+     "net_rs": 2835.3,
+     "expectancy_rs": 128.88,
+     "trades_per_day": 0.21
+    },
+    "oct": {
+     "trades": 6,
+     "win_pct": 33.3,
+     "target_pct": 33.3,
+     "net_rs": -530.69,
+     "expectancy_rs": -88.45,
+     "trades_per_day": 0.33
+    }
+   },
+   "T10": {
+    "all": {
+     "trades": 56,
+     "win_pct": 42.9,
+     "target_pct": 41.1,
+     "net_rs": 8583.52,
+     "expectancy_rs": 153.28,
+     "trades_per_day": 0.28
+    },
+    "jan_may": {
+     "trades": 34,
+     "win_pct": 47.1,
+     "target_pct": 44.1,
+     "net_rs": 7837.42,
+     "expectancy_rs": 230.51,
+     "trades_per_day": 0.34
+    },
+    "jun_oct": {
+     "trades": 22,
+     "win_pct": 36.4,
+     "target_pct": 36.4,
+     "net_rs": 746.1,
+     "expectancy_rs": 33.91,
+     "trades_per_day": 0.21
+    },
+    "oct": {
+     "trades": 6,
+     "win_pct": 33.3,
+     "target_pct": 33.3,
+     "net_rs": -647.83,
+     "expectancy_rs": -107.97,
+     "trades_per_day": 0.33
+    }
+   },
+   "graduates_T125": true,
+   "both_halves_positive_T125": true,
+   "both_halves_positive_T10": true
+  },
+  "V4": {
+   "T125": {
+    "all": {
+     "trades": 46,
+     "win_pct": 26.1,
+     "target_pct": 21.7,
+     "net_rs": -10736.48,
+     "expectancy_rs": -233.4,
+     "trades_per_day": 0.23
+    },
+    "jan_may": {
+     "trades": 28,
+     "win_pct": 28.6,
+     "target_pct": 25.0,
+     "net_rs": -4958.28,
+     "expectancy_rs": -177.08,
+     "trades_per_day": 0.28
+    },
+    "jun_oct": {
+     "trades": 18,
+     "win_pct": 22.2,
+     "target_pct": 16.7,
+     "net_rs": -5778.2,
+     "expectancy_rs": -321.01,
+     "trades_per_day": 0.17
+    },
+    "oct": {
+     "trades": 3,
+     "win_pct": 33.3,
+     "target_pct": 33.3,
+     "net_rs": 538.06,
+     "expectancy_rs": 179.35,
+     "trades_per_day": 0.17
+    }
+   },
+   "T10": {
+    "all": {
+     "trades": 46,
+     "win_pct": 32.6,
+     "target_pct": 30.4,
+     "net_rs": -4498.82,
+     "expectancy_rs": -97.8,
+     "trades_per_day": 0.23
+    },
+    "jan_may": {
+     "trades": 28,
+     "win_pct": 28.6,
+     "target_pct": 28.6,
+     "net_rs": -6462.4,
+     "expectancy_rs": -230.8,
+     "trades_per_day": 0.28
+    },
+    "jun_oct": {
+     "trades": 18,
+     "win_pct": 38.9,
+     "target_pct": 33.3,
+     "net_rs": 1963.58,
+     "expectancy_rs": 109.09,
+     "trades_per_day": 0.17
+    },
+    "oct": {
+     "trades": 3,
+     "win_pct": 33.3,
+     "target_pct": 33.3,
+     "net_rs": 359.29,
+     "expectancy_rs": 119.76,
+     "trades_per_day": 0.17
+    }
+   },
+   "graduates_T125": false,
+   "both_halves_positive_T125": false,
+   "both_halves_positive_T10": false
+  }
+ },
+ "graduates_T125": [
+  "BASE",
+  "V1b",
+  "V3"
+ ],
+ "v4_graduates_T125": false,
+ "november_primary_variant": "V3",
+ "files": [
+  "/home/hatch/workspace/trading/eq_n4deep_base_trades_T125_janoct.csv",
+  "/home/hatch/workspace/trading/eq_n4deep_base_trades_T10_janoct.csv",
+  "/home/hatch/workspace/trading/eq_n4deep_v1a_trades_T125_janoct.csv",
+  "/home/hatch/workspace/trading/eq_n4deep_v1a_trades_T10_janoct.csv",
+  "/home/hatch/workspace/trading/eq_n4deep_v1b_trades_T125_janoct.csv",
+  "/home/hatch/workspace/trading/eq_n4deep_v1b_trades_T10_janoct.csv",
+  "/home/hatch/workspace/trading/eq_n4deep_v2_trades_T125_janoct.csv",
+  "/home/hatch/workspace/trading/eq_n4deep_v2_trades_T10_janoct.csv",
+  "/home/hatch/workspace/trading/eq_n4deep_v3_trades_T125_janoct.csv",
+  "/home/hatch/workspace/trading/eq_n4deep_v3_trades_T10_janoct.csv",
+  "/home/hatch/workspace/trading/eq_n4deep_v4_trades_T125_janoct.csv",
+  "/home/hatch/workspace/trading/eq_n4deep_v4_trades_T10_janoct.csv"
+ ]
+}

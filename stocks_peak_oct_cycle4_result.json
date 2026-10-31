@@ -1,0 +1,35 @@
+{
+ "anchorA1_ok": true,
+ "anchorA2_ok": true,
+ "anchorB_ok": true,
+ "month_table": {
+  "2026-01": 10386.56,
+  "2026-02": 5975.53,
+  "2026-03": 19262.68,
+  "2026-04": -2859.32,
+  "2026-05": 25502.77,
+  "2026-06": -3018.89,
+  "2026-07": 1962.07,
+  "2026-08": 660.04,
+  "2026-09": 14671.45,
+  "2026-10": 53203.9
+ },
+ "total": 125746.79,
+ "trades": 890,
+ "october": 53203.9,
+ "oct_delta": -86.62,
+ "inv_oct_before": 7691.08,
+ "inv_oct_after": 7604.46,
+ "inv_trades_before": 240,
+ "inv_trades_after": 229,
+ "inv_invariants": {
+  "cond_viol": 0,
+  "pool_viol": 0,
+  "weekend": 0
+ },
+ "f4_audit": {
+  "trades": 620,
+  "violations": 0
+ },
+ "progress": false
+}

@@ -1,0 +1,1388 @@
+{
+ "anchors": {
+  "N4V3": {
+   "all": {
+    "trades": 56,
+    "win_pct": 37.5,
+    "net_rs": 7990.43,
+    "expectancy_rs": 142.69,
+    "gross_expectancy_rs": 182.69
+   },
+   "H1": {
+    "trades": 34,
+    "win_pct": 38.2,
+    "net_rs": 5155.13,
+    "expectancy_rs": 151.62,
+    "gross_expectancy_rs": 191.62
+   },
+   "H2": {
+    "trades": 22,
+    "win_pct": 36.4,
+    "net_rs": 2835.3,
+    "expectancy_rs": 128.88,
+    "gross_expectancy_rs": 168.88
+   },
+   "both_halves_positive": true,
+   "breadth_net_positive_stocks": 11,
+   "stocks_traded": 25,
+   "per_stock_net": {
+    "GLENMARK": 9383.0,
+    "GODREJCP": 2353.75,
+    "KALYANKJIL": 1624.06,
+    "OBEROIRLTY": 963.75,
+    "NATIONALUM": 802.38,
+    "HINDCOPPER": 697.25,
+    "TVSMOTOR": 382.92,
+    "RECLTD": 295.9,
+    "IRCTC": 235.0,
+    "HINDUNILVR": 127.33,
+    "TATASTEEL": 80.76,
+    "PFC": -41.67,
+    "NHPC": -80.5,
+    "NTPC": -218.7,
+    "INDUSTOWER": -241.4,
+    "ITC": -354.45,
+    "WIPRO": -383.47,
+    "VEDL": -554.77,
+    "OIL": -568.77,
+    "HINDALCO": -582.1,
+    "HINDZINC": -682.02,
+    "HDFCBANK": -828.32,
+    "UNITDSPR": -1386.5,
+    "BDL": -1421.55,
+    "ASTRAL": -1611.45
+   }
+  },
+  "P2F": {
+   "all": {
+    "trades": 48,
+    "win_pct": 45.8,
+    "net_rs": 12835.88,
+    "expectancy_rs": 267.41,
+    "gross_expectancy_rs": 307.41
+   },
+   "H1": {
+    "trades": 29,
+    "win_pct": 41.4,
+    "net_rs": 3498.1,
+    "expectancy_rs": 120.62,
+    "gross_expectancy_rs": 160.62
+   },
+   "H2": {
+    "trades": 19,
+    "win_pct": 52.6,
+    "net_rs": 9337.78,
+    "expectancy_rs": 491.46,
+    "gross_expectancy_rs": 531.46
+   },
+   "both_halves_positive": true,
+   "breadth_net_positive_stocks": 14,
+   "stocks_traded": 25,
+   "per_stock_net": {
+    "GLENMARK": 5112.24,
+    "OBEROIRLTY": 3916.62,
+    "BDL": 3177.75,
+    "TVSMOTOR": 2972.0,
+    "GODREJCP": 2143.82,
+    "IRCTC": 616.81,
+    "VEDL": 575.25,
+    "PFC": 442.5,
+    "NTPC": 391.19,
+    "HDFCBANK": 345.23,
+    "WIPRO": 265.44,
+    "OIL": 238.37,
+    "HINDZINC": 232.54,
+    "NHPC": 29.0,
+    "ITC": -6.0,
+    "NATIONALUM": -32.2,
+    "KALYANKJIL": -152.75,
+    "RECLTD": -218.28,
+    "INDUSTOWER": -240.2,
+    "TATASTEEL": -286.78,
+    "HINDCOPPER": -337.12,
+    "HINDALCO": -572.5,
+    "UNITDSPR": -700.15,
+    "ASTRAL": -1592.1,
+    "HINDUNILVR": -3484.8
+   }
+  }
+ },
+ "V1": {
+  "book": {
+   "all": {
+    "trades": 104,
+    "win_pct": 41.3,
+    "net_rs": 20826.31,
+    "expectancy_rs": 200.25,
+    "gross_expectancy_rs": 240.25
+   },
+   "H1": {
+    "trades": 63,
+    "win_pct": 39.7,
+    "net_rs": 8653.23,
+    "expectancy_rs": 137.35,
+    "gross_expectancy_rs": 177.35
+   },
+   "H2": {
+    "trades": 41,
+    "win_pct": 43.9,
+    "net_rs": 12173.08,
+    "expectancy_rs": 296.9,
+    "gross_expectancy_rs": 336.9
+   },
+   "both_halves_positive": true,
+   "breadth_net_positive_stocks": 13,
+   "stocks_traded": 25,
+   "per_stock_net": {
+    "GLENMARK": 14495.24,
+    "OBEROIRLTY": 4880.37,
+    "GODREJCP": 4497.57,
+    "TVSMOTOR": 3354.92,
+    "BDL": 1756.2,
+    "KALYANKJIL": 1471.31,
+    "IRCTC": 851.81,
+    "NATIONALUM": 770.18,
+    "PFC": 400.83,
+    "HINDCOPPER": 360.13,
+    "NTPC": 172.49,
+    "RECLTD": 77.62,
+    "VEDL": 20.48,
+    "NHPC": -51.5,
+    "WIPRO": -118.03,
+    "TATASTEEL": -206.02,
+    "OIL": -330.4,
+    "ITC": -360.45,
+    "HINDZINC": -449.48,
+    "INDUSTOWER": -481.6,
+    "HDFCBANK": -483.09,
+    "HINDALCO": -1154.6,
+    "UNITDSPR": -2086.65,
+    "ASTRAL": -3203.55,
+    "HINDUNILVR": -3357.47
+   }
+  },
+  "both_fire_events": 43,
+  "same_stock_same_day": []
+ },
+ "V2": {
+  "band_2.5": {
+   "all": {
+    "trades": 39,
+    "win_pct": 48.7,
+    "net_rs": 15489.08,
+    "expectancy_rs": 397.16,
+    "gross_expectancy_rs": 437.16
+   },
+   "H1": {
+    "trades": 26,
+    "win_pct": 46.2,
+    "net_rs": 6702.84,
+    "expectancy_rs": 257.8,
+    "gross_expectancy_rs": 297.8
+   },
+   "H2": {
+    "trades": 13,
+    "win_pct": 53.8,
+    "net_rs": 8786.24,
+    "expectancy_rs": 675.86,
+    "gross_expectancy_rs": 715.86
+   },
+   "both_halves_positive": true,
+   "breadth_net_positive_stocks": 12,
+   "stocks_traded": 23,
+   "per_stock_net": {
+    "GLENMARK": 5112.24,
+    "TVSMOTOR": 4844.5,
+    "OBEROIRLTY": 3916.62,
+    "BDL": 3177.75,
+    "GODREJCP": 2143.82,
+    "HDFCBANK": 740.0,
+    "IRCTC": 616.81,
+    "VEDL": 575.25,
+    "PFC": 442.5,
+    "NTPC": 391.19,
+    "WIPRO": 265.44,
+    "RECLTD": 5.72,
+    "NATIONALUM": -32.2,
+    "TATASTEEL": -145.29,
+    "KALYANKJIL": -152.75,
+    "INDUSTOWER": -240.2,
+    "OIL": -302.0,
+    "HINDCOPPER": -337.12,
+    "HINDZINC": -374.4,
+    "HINDALCO": -572.5,
+    "UNITDSPR": -700.15,
+    "ASTRAL": -1592.1,
+    "HINDUNILVR": -2294.05
+   }
+  },
+  "band_3.0": {
+   "all": {
+    "trades": 33,
+    "win_pct": 48.5,
+    "net_rs": 14231.75,
+    "expectancy_rs": 431.27,
+    "gross_expectancy_rs": 471.27
+   },
+   "H1": {
+    "trades": 21,
+    "win_pct": 47.6,
+    "net_rs": 6720.88,
+    "expectancy_rs": 320.04,
+    "gross_expectancy_rs": 360.04
+   },
+   "H2": {
+    "trades": 12,
+    "win_pct": 50.0,
+    "net_rs": 7510.87,
+    "expectancy_rs": 625.91,
+    "gross_expectancy_rs": 665.91
+   },
+   "both_halves_positive": true,
+   "breadth_net_positive_stocks": 11,
+   "stocks_traded": 20,
+   "per_stock_net": {
+    "GLENMARK": 5112.24,
+    "TVSMOTOR": 4844.5,
+    "OBEROIRLTY": 3916.62,
+    "BDL": 3177.75,
+    "GODREJCP": 868.45,
+    "HDFCBANK": 740.0,
+    "VEDL": 575.25,
+    "PFC": 442.5,
+    "NTPC": 391.19,
+    "RECLTD": 228.37,
+    "WIPRO": 135.44,
+    "NATIONALUM": -32.2,
+    "TATASTEEL": -145.29,
+    "KALYANKJIL": -152.75,
+    "HINDCOPPER": -337.12,
+    "HINDZINC": -374.4,
+    "HINDALCO": -572.5,
+    "UNITDSPR": -700.15,
+    "ASTRAL": -1592.1,
+    "HINDUNILVR": -2294.05
+   }
+  },
+  "band_4.0": {
+   "all": {
+    "trades": 22,
+    "win_pct": 54.5,
+    "net_rs": 8399.06,
+    "expectancy_rs": 381.78,
+    "gross_expectancy_rs": 421.78
+   },
+   "H1": {
+    "trades": 15,
+    "win_pct": 53.3,
+    "net_rs": 7383.06,
+    "expectancy_rs": 492.2,
+    "gross_expectancy_rs": 532.2
+   },
+   "H2": {
+    "trades": 7,
+    "win_pct": 57.1,
+    "net_rs": 1016.0,
+    "expectancy_rs": 145.14,
+    "gross_expectancy_rs": 185.14
+   },
+   "both_halves_positive": true,
+   "breadth_net_positive_stocks": 10,
+   "stocks_traded": 13,
+   "per_stock_net": {
+    "OBEROIRLTY": 3916.62,
+    "BDL": 3177.75,
+    "GLENMARK": 2378.87,
+    "GODREJCP": 868.45,
+    "HDFCBANK": 740.0,
+    "VEDL": 575.25,
+    "PFC": 442.5,
+    "NATIONALUM": 212.7,
+    "KALYANKJIL": 174.75,
+    "WIPRO": 135.44,
+    "HINDCOPPER": -337.12,
+    "ASTRAL": -1592.1,
+    "HINDUNILVR": -2294.05
+   }
+  }
+ },
+ "V3a_NONINTRADAY": {
+  "book": {
+   "all": {
+    "trades": 47,
+    "win_pct": 46.8,
+    "net_rs": 13012.87,
+    "expectancy_rs": 276.87,
+    "gross_expectancy_rs": 316.87
+   },
+   "H1": {
+    "trades": 29,
+    "win_pct": 37.9,
+    "net_rs": 3225.85,
+    "expectancy_rs": 111.24,
+    "gross_expectancy_rs": 151.24
+   },
+   "H2": {
+    "trades": 18,
+    "win_pct": 61.1,
+    "net_rs": 9787.02,
+    "expectancy_rs": 543.72,
+    "gross_expectancy_rs": 583.72
+   },
+   "both_halves_positive": true,
+   "breadth_net_positive_stocks": 14,
+   "stocks_traded": 25,
+   "per_stock_net": {
+    "GLENMARK": 5112.24,
+    "OBEROIRLTY": 3916.62,
+    "BDL": 3177.75,
+    "TVSMOTOR": 2972.0,
+    "GODREJCP": 2143.82,
+    "IRCTC": 616.81,
+    "VEDL": 575.25,
+    "HDFCBANK": 526.67,
+    "PFC": 442.5,
+    "NTPC": 391.19,
+    "OIL": 238.37,
+    "HINDZINC": 232.54,
+    "NHPC": 57.8,
+    "ITC": 50.0,
+    "WIPRO": -6.81,
+    "NATIONALUM": -32.2,
+    "RECLTD": -35.28,
+    "KALYANKJIL": -152.75,
+    "INDUSTOWER": -240.2,
+    "TATASTEEL": -286.78,
+    "HINDCOPPER": -337.12,
+    "HINDALCO": -572.5,
+    "UNITDSPR": -700.15,
+    "ASTRAL": -1592.1,
+    "HINDUNILVR": -3484.8
+   }
+  },
+  "dropped_no_R2": [
+   {
+    "symbol": "RECLTD",
+    "R": "2026-10-27",
+    "trade_date": "2026-10-28",
+    "why": "no R+2 in data"
+   }
+  ],
+  "exited_day1": 43,
+  "held_overnight": 4
+ },
+ "V3b": {
+  "book": {
+   "all": {
+    "trades": 48,
+    "win_pct": 58.3,
+    "net_rs": 14757.0,
+    "expectancy_rs": 307.44,
+    "gross_expectancy_rs": 347.44
+   },
+   "H1": {
+    "trades": 29,
+    "win_pct": 55.2,
+    "net_rs": 12874.0,
+    "expectancy_rs": 443.93,
+    "gross_expectancy_rs": 483.93
+   },
+   "H2": {
+    "trades": 19,
+    "win_pct": 63.2,
+    "net_rs": 1883.0,
+    "expectancy_rs": 99.11,
+    "gross_expectancy_rs": 139.11
+   },
+   "both_halves_positive": true,
+   "breadth_net_positive_stocks": 14,
+   "stocks_traded": 25,
+   "per_stock_net": {
+    "BDL": 7230.0,
+    "OBEROIRLTY": 6750.0,
+    "GLENMARK": 5230.0,
+    "GODREJCP": 1720.0,
+    "IRCTC": 1500.0,
+    "HINDZINC": 1480.0,
+    "HDFCBANK": 1325.0,
+    "RECLTD": 670.0,
+    "TATASTEEL": 534.0,
+    "PFC": 500.0,
+    "TVSMOTOR": 490.0,
+    "WIPRO": 450.0,
+    "HINDUNILVR": 170.0,
+    "NHPC": 29.0,
+    "ITC": -6.0,
+    "OIL": -95.0,
+    "UNITDSPR": -130.0,
+    "INDUSTOWER": -285.0,
+    "HINDCOPPER": -350.0,
+    "NTPC": -550.0,
+    "KALYANKJIL": -1095.0,
+    "NATIONALUM": -1105.0,
+    "HINDALCO": -1395.0,
+    "VEDL": -3750.0,
+    "ASTRAL": -4560.0
+   }
+  }
+ },
+ "V4": {
+  "SHORT_only": {
+   "all": {
+    "trades": 32,
+    "win_pct": 59.4,
+    "net_rs": 13109.45,
+    "expectancy_rs": 409.67,
+    "gross_expectancy_rs": 449.67
+   },
+   "H1": {
+    "trades": 22,
+    "win_pct": 54.5,
+    "net_rs": 6712.29,
+    "expectancy_rs": 305.1,
+    "gross_expectancy_rs": 345.1
+   },
+   "H2": {
+    "trades": 10,
+    "win_pct": 70.0,
+    "net_rs": 6397.16,
+    "expectancy_rs": 639.72,
+    "gross_expectancy_rs": 679.72
+   },
+   "both_halves_positive": true,
+   "breadth_net_positive_stocks": 14,
+   "stocks_traded": 21,
+   "per_stock_net": {
+    "GLENMARK": 5112.24,
+    "OBEROIRLTY": 3916.62,
+    "BDL": 3177.75,
+    "GODREJCP": 2143.82,
+    "IRCTC": 616.81,
+    "HINDZINC": 606.94,
+    "VEDL": 575.25,
+    "PFC": 442.5,
+    "WIPRO": 397.44,
+    "NTPC": 391.19,
+    "HDFCBANK": 345.23,
+    "KALYANKJIL": 107.75,
+    "NHPC": 29.0,
+    "RECLTD": 5.72,
+    "TATASTEEL": -145.29,
+    "NATIONALUM": -213.55,
+    "INDUSTOWER": -240.2,
+    "HINDCOPPER": -337.12,
+    "ASTRAL": -756.1,
+    "HINDUNILVR": -1194.05,
+    "TVSMOTOR": -1872.5
+   }
+  },
+  "LONG_only": {
+   "all": {
+    "trades": 16,
+    "win_pct": 18.8,
+    "net_rs": -273.57,
+    "expectancy_rs": -17.1,
+    "gross_expectancy_rs": 22.9
+   },
+   "H1": {
+    "trades": 7,
+    "win_pct": 0.0,
+    "net_rs": -3214.19,
+    "expectancy_rs": -459.17,
+    "gross_expectancy_rs": -419.17
+   },
+   "H2": {
+    "trades": 9,
+    "win_pct": 33.3,
+    "net_rs": 2940.62,
+    "expectancy_rs": 326.74,
+    "gross_expectancy_rs": 366.74
+   },
+   "both_halves_positive": false,
+   "breadth_net_positive_stocks": 3,
+   "stocks_traded": 13,
+   "per_stock_net": {
+    "TVSMOTOR": 4844.5,
+    "OIL": 238.37,
+    "NATIONALUM": 181.35,
+    "ITC": -6.0,
+    "WIPRO": -132.0,
+    "TATASTEEL": -141.49,
+    "RECLTD": -224.0,
+    "KALYANKJIL": -260.5,
+    "HINDZINC": -374.4,
+    "HINDALCO": -572.5,
+    "UNITDSPR": -700.15,
+    "ASTRAL": -836.0,
+    "HINDUNILVR": -2290.75
+   }
+  }
+ },
+ "V5": {
+  "chains": [
+   {
+    "symbol": "ASTRAL",
+    "R": "2026-05-19",
+    "n4_date": "2026-05-19",
+    "n4_direction": "SHORT",
+    "n4_net_rs": -777.5,
+    "p2f_date": "2026-05-20",
+    "p2f_direction": "SHORT",
+    "p2f_net_rs": -756.1,
+    "directions_agree": true,
+    "chain_net_rs": -1533.6
+   },
+   {
+    "symbol": "ASTRAL",
+    "R": "2026-08-13",
+    "n4_date": "2026-08-13",
+    "n4_direction": "LONG",
+    "n4_net_rs": -833.95,
+    "p2f_date": "2026-08-14",
+    "p2f_direction": "LONG",
+    "p2f_net_rs": -836.0,
+    "directions_agree": true,
+    "chain_net_rs": -1669.95
+   },
+   {
+    "symbol": "BDL",
+    "R": "2026-02-01",
+    "n4_date": "2026-02-01",
+    "n4_direction": "SHORT",
+    "n4_net_rs": -785.35,
+    "p2f_date": "2026-02-02",
+    "p2f_direction": "SHORT",
+    "p2f_net_rs": 1702.5,
+    "directions_agree": true,
+    "chain_net_rs": 917.15
+   },
+   {
+    "symbol": "BDL",
+    "R": "2026-05-29",
+    "n4_date": "2026-05-29",
+    "n4_direction": "SHORT",
+    "n4_net_rs": -636.2,
+    "p2f_date": "2026-06-01",
+    "p2f_direction": "SHORT",
+    "p2f_net_rs": 1475.25,
+    "directions_agree": true,
+    "chain_net_rs": 839.05
+   },
+   {
+    "symbol": "GLENMARK",
+    "R": "2026-02-01",
+    "n4_date": "2026-02-01",
+    "n4_direction": "SHORT",
+    "n4_net_rs": 2444.25,
+    "p2f_date": "2026-02-02",
+    "p2f_direction": "SHORT",
+    "p2f_net_rs": 2378.87,
+    "directions_agree": true,
+    "chain_net_rs": 4823.12
+   },
+   {
+    "symbol": "GLENMARK",
+    "R": "2026-06-01",
+    "n4_date": "2026-06-01",
+    "n4_direction": "SHORT",
+    "n4_net_rs": -1131.1,
+    "p2f_date": "2026-06-02",
+    "p2f_direction": "SHORT",
+    "p2f_net_rs": 2733.37,
+    "directions_agree": true,
+    "chain_net_rs": 1602.27
+   },
+   {
+    "symbol": "GODREJCP",
+    "R": "2026-01-27",
+    "n4_date": "2026-01-27",
+    "n4_direction": "SHORT",
+    "n4_net_rs": 1453.75,
+    "p2f_date": "2026-01-28",
+    "p2f_direction": "SHORT",
+    "p2f_net_rs": 1427.5,
+    "directions_agree": true,
+    "chain_net_rs": 2881.25
+   },
+   {
+    "symbol": "GODREJCP",
+    "R": "2026-05-07",
+    "n4_date": "2026-05-07",
+    "n4_direction": "SHORT",
+    "n4_net_rs": 900.0,
+    "p2f_date": "2026-05-08",
+    "p2f_direction": "SHORT",
+    "p2f_net_rs": -559.05,
+    "directions_agree": true,
+    "chain_net_rs": 340.95
+   },
+   {
+    "symbol": "HDFCBANK",
+    "R": "2026-07-20",
+    "n4_date": "2026-07-20",
+    "n4_direction": "SHORT",
+    "n4_net_rs": -430.07,
+    "p2f_date": "2026-07-21",
+    "p2f_direction": "SHORT",
+    "p2f_net_rs": 740.0,
+    "directions_agree": true,
+    "chain_net_rs": 309.93
+   },
+   {
+    "symbol": "HDFCBANK",
+    "R": "2026-10-19",
+    "n4_date": "2026-10-19",
+    "n4_direction": "SHORT",
+    "n4_net_rs": -398.25,
+    "p2f_date": "2026-10-21",
+    "p2f_direction": "SHORT",
+    "p2f_net_rs": -394.77,
+    "directions_agree": true,
+    "chain_net_rs": -793.02
+   },
+   {
+    "symbol": "HINDCOPPER",
+    "R": "2026-02-06",
+    "n4_date": "2026-02-06",
+    "n4_direction": "SHORT",
+    "n4_net_rs": 697.25,
+    "p2f_date": "2026-02-09",
+    "p2f_direction": "SHORT",
+    "p2f_net_rs": -337.12,
+    "directions_agree": true,
+    "chain_net_rs": 360.13
+   },
+   {
+    "symbol": "HINDUNILVR",
+    "R": "2026-02-13",
+    "n4_date": "2026-02-13",
+    "n4_direction": "SHORT",
+    "n4_net_rs": -1216.55,
+    "p2f_date": "2026-02-16",
+    "p2f_direction": "SHORT",
+    "p2f_net_rs": -1194.05,
+    "directions_agree": true,
+    "chain_net_rs": -2410.6
+   },
+   {
+    "symbol": "HINDUNILVR",
+    "R": "2026-05-04",
+    "n4_date": "2026-05-04",
+    "n4_direction": "LONG",
+    "n4_net_rs": -1209.25,
+    "p2f_date": "2026-05-05",
+    "p2f_direction": "LONG",
+    "p2f_net_rs": -1190.75,
+    "directions_agree": true,
+    "chain_net_rs": -2400.0
+   },
+   {
+    "symbol": "HINDUNILVR",
+    "R": "2026-07-29",
+    "n4_date": "2026-07-29",
+    "n4_direction": "LONG",
+    "n4_net_rs": 2553.13,
+    "p2f_date": "2026-07-30",
+    "p2f_direction": "LONG",
+    "p2f_net_rs": -1100.0,
+    "directions_agree": true,
+    "chain_net_rs": 1453.13
+   },
+   {
+    "symbol": "HINDZINC",
+    "R": "2026-01-19",
+    "n4_date": "2026-01-19",
+    "n4_direction": "LONG",
+    "n4_net_rs": -367.2,
+    "p2f_date": "2026-01-20",
+    "p2f_direction": "LONG",
+    "p2f_net_rs": -374.4,
+    "directions_agree": true,
+    "chain_net_rs": -741.6
+   },
+   {
+    "symbol": "HINDZINC",
+    "R": "2026-10-21",
+    "n4_date": "2026-10-21",
+    "n4_direction": "LONG",
+    "n4_net_rs": -314.82,
+    "p2f_date": "2026-10-22",
+    "p2f_direction": "SHORT",
+    "p2f_net_rs": 606.94,
+    "directions_agree": false,
+    "chain_net_rs": 292.12
+   },
+   {
+    "symbol": "INDUSTOWER",
+    "R": "2026-05-04",
+    "n4_date": "2026-05-04",
+    "n4_direction": "SHORT",
+    "n4_net_rs": -241.4,
+    "p2f_date": "2026-05-05",
+    "p2f_direction": "SHORT",
+    "p2f_net_rs": -240.2,
+    "directions_agree": true,
+    "chain_net_rs": -481.6
+   },
+   {
+    "symbol": "IRCTC",
+    "R": "2026-05-27",
+    "n4_date": "2026-05-27",
+    "n4_direction": "SHORT",
+    "n4_net_rs": 235.0,
+    "p2f_date": "2026-05-29",
+    "p2f_direction": "SHORT",
+    "p2f_net_rs": 616.81,
+    "directions_agree": true,
+    "chain_net_rs": 851.81
+   },
+   {
+    "symbol": "ITC",
+    "R": "2026-08-03",
+    "n4_date": "2026-08-03",
+    "n4_direction": "LONG",
+    "n4_net_rs": -185.5,
+    "p2f_date": "2026-08-04",
+    "p2f_direction": "LONG",
+    "p2f_net_rs": -6.0,
+    "directions_agree": true,
+    "chain_net_rs": -191.5
+   },
+   {
+    "symbol": "KALYANKJIL",
+    "R": "2026-02-09",
+    "n4_date": "2026-02-09",
+    "n4_direction": "LONG",
+    "n4_net_rs": 482.81,
+    "p2f_date": "2026-02-10",
+    "p2f_direction": "LONG",
+    "p2f_net_rs": -260.5,
+    "directions_agree": true,
+    "chain_net_rs": 222.31
+   },
+   {
+    "symbol": "KALYANKJIL",
+    "R": "2026-05-11",
+    "n4_date": "2026-05-11",
+    "n4_direction": "SHORT",
+    "n4_net_rs": 450.0,
+    "p2f_date": "2026-05-12",
+    "p2f_direction": "SHORT",
+    "p2f_net_rs": 435.25,
+    "directions_agree": true,
+    "chain_net_rs": 885.25
+   },
+   {
+    "symbol": "KALYANKJIL",
+    "R": "2026-08-05",
+    "n4_date": "2026-08-05",
+    "n4_direction": "SHORT",
+    "n4_net_rs": 691.25,
+    "p2f_date": "2026-08-06",
+    "p2f_direction": "SHORT",
+    "p2f_net_rs": -327.5,
+    "directions_agree": true,
+    "chain_net_rs": 363.75
+   },
+   {
+    "symbol": "NATIONALUM",
+    "R": "2026-02-01",
+    "n4_date": "2026-02-01",
+    "n4_direction": "SHORT",
+    "n4_net_rs": 399.88,
+    "p2f_date": "2026-02-02",
+    "p2f_direction": "SHORT",
+    "p2f_net_rs": -213.55,
+    "directions_agree": true,
+    "chain_net_rs": 186.33
+   },
+   {
+    "symbol": "NATIONALUM",
+    "R": "2026-08-03",
+    "n4_date": "2026-08-03",
+    "n4_direction": "LONG",
+    "n4_net_rs": 402.5,
+    "p2f_date": "2026-08-04",
+    "p2f_direction": "LONG",
+    "p2f_net_rs": 426.25,
+    "directions_agree": true,
+    "chain_net_rs": 828.75
+   },
+   {
+    "symbol": "NHPC",
+    "R": "2026-08-05",
+    "n4_date": "2026-08-05",
+    "n4_direction": "LONG",
+    "n4_net_rs": -80.5,
+    "p2f_date": "2026-08-06",
+    "p2f_direction": "SHORT",
+    "p2f_net_rs": 29.0,
+    "directions_agree": false,
+    "chain_net_rs": -51.5
+   },
+   {
+    "symbol": "NTPC",
+    "R": "2026-02-01",
+    "n4_date": "2026-02-01",
+    "n4_direction": "LONG",
+    "n4_net_rs": -218.7,
+    "p2f_date": "2026-02-02",
+    "p2f_direction": "SHORT",
+    "p2f_net_rs": 391.19,
+    "directions_agree": false,
+    "chain_net_rs": 172.49
+   },
+   {
+    "symbol": "OBEROIRLTY",
+    "R": "2026-01-20",
+    "n4_date": "2026-01-20",
+    "n4_direction": "SHORT",
+    "n4_net_rs": 1932.75,
+    "p2f_date": "2026-01-21",
+    "p2f_direction": "SHORT",
+    "p2f_net_rs": 1870.37,
+    "directions_agree": true,
+    "chain_net_rs": 3803.12
+   },
+   {
+    "symbol": "OIL",
+    "R": "2026-05-14",
+    "n4_date": "2026-05-14",
+    "n4_direction": "LONG",
+    "n4_net_rs": -300.52,
+    "p2f_date": "2026-05-15",
+    "p2f_direction": "LONG",
+    "p2f_net_rs": -302.0,
+    "directions_agree": true,
+    "chain_net_rs": -602.52
+   },
+   {
+    "symbol": "OIL",
+    "R": "2026-08-10",
+    "n4_date": "2026-08-10",
+    "n4_direction": "LONG",
+    "n4_net_rs": -268.25,
+    "p2f_date": "2026-08-11",
+    "p2f_direction": "LONG",
+    "p2f_net_rs": 540.37,
+    "directions_agree": true,
+    "chain_net_rs": 272.12
+   },
+   {
+    "symbol": "PFC",
+    "R": "2026-08-10",
+    "n4_date": "2026-08-10",
+    "n4_direction": "SHORT",
+    "n4_net_rs": 467.31,
+    "p2f_date": "2026-08-11",
+    "p2f_direction": "SHORT",
+    "p2f_net_rs": 442.5,
+    "directions_agree": true,
+    "chain_net_rs": 909.81
+   },
+   {
+    "symbol": "RECLTD",
+    "R": "2026-01-30",
+    "n4_date": "2026-01-30",
+    "n4_direction": "SHORT",
+    "n4_net_rs": 417.94,
+    "p2f_date": "2026-02-01",
+    "p2f_direction": "SHORT",
+    "p2f_net_rs": -222.65,
+    "directions_agree": true,
+    "chain_net_rs": 195.29
+   },
+   {
+    "symbol": "RECLTD",
+    "R": "2026-04-29",
+    "n4_date": "2026-04-29",
+    "n4_direction": "SHORT",
+    "n4_net_rs": -219.92,
+    "p2f_date": "2026-04-30",
+    "p2f_direction": "SHORT",
+    "p2f_net_rs": 411.37,
+    "directions_agree": true,
+    "chain_net_rs": 191.45
+   },
+   {
+    "symbol": "RECLTD",
+    "R": "2026-07-27",
+    "n4_date": "2026-07-27",
+    "n4_direction": "LONG",
+    "n4_net_rs": -222.68,
+    "p2f_date": "2026-07-28",
+    "p2f_direction": "LONG",
+    "p2f_net_rs": -224.0,
+    "directions_agree": true,
+    "chain_net_rs": -446.68
+   },
+   {
+    "symbol": "RECLTD",
+    "R": "2026-10-27",
+    "n4_date": "2026-10-27",
+    "n4_direction": "SHORT",
+    "n4_net_rs": 320.56,
+    "p2f_date": "2026-10-28",
+    "p2f_direction": "SHORT",
+    "p2f_net_rs": -183.0,
+    "directions_agree": true,
+    "chain_net_rs": 137.56
+   },
+   {
+    "symbol": "TATASTEEL",
+    "R": "2026-02-09",
+    "n4_date": "2026-02-09",
+    "n4_direction": "LONG",
+    "n4_net_rs": -139.58,
+    "p2f_date": "2026-02-10",
+    "p2f_direction": "LONG",
+    "p2f_net_rs": -141.49,
+    "directions_agree": true,
+    "chain_net_rs": -281.07
+   },
+   {
+    "symbol": "TATASTEEL",
+    "R": "2026-05-18",
+    "n4_date": "2026-05-18",
+    "n4_direction": "SHORT",
+    "n4_net_rs": 220.34,
+    "p2f_date": "2026-05-19",
+    "p2f_direction": "SHORT",
+    "p2f_net_rs": -145.29,
+    "directions_agree": true,
+    "chain_net_rs": 75.05
+   },
+   {
+    "symbol": "TVSMOTOR",
+    "R": "2026-01-29",
+    "n4_date": "2026-01-29",
+    "n4_direction": "SHORT",
+    "n4_net_rs": -1878.85,
+    "p2f_date": "2026-01-30",
+    "p2f_direction": "SHORT",
+    "p2f_net_rs": -1872.5,
+    "directions_agree": true,
+    "chain_net_rs": -3751.35
+   },
+   {
+    "symbol": "TVSMOTOR",
+    "R": "2026-07-22",
+    "n4_date": "2026-07-22",
+    "n4_direction": "LONG",
+    "n4_net_rs": -2006.1,
+    "p2f_date": "2026-07-23",
+    "p2f_direction": "LONG",
+    "p2f_net_rs": 4844.5,
+    "directions_agree": true,
+    "chain_net_rs": 2838.4
+   },
+   {
+    "symbol": "UNITDSPR",
+    "R": "2026-05-15",
+    "n4_date": "2026-05-15",
+    "n4_direction": "LONG",
+    "n4_net_rs": -701.85,
+    "p2f_date": "2026-05-18",
+    "p2f_direction": "LONG",
+    "p2f_net_rs": -700.15,
+    "directions_agree": true,
+    "chain_net_rs": -1402.0
+   },
+   {
+    "symbol": "VEDL",
+    "R": "2026-01-30",
+    "n4_date": "2026-01-30",
+    "n4_direction": "SHORT",
+    "n4_net_rs": -400.37,
+    "p2f_date": "2026-02-01",
+    "p2f_direction": "SHORT",
+    "p2f_net_rs": 753.75,
+    "directions_agree": true,
+    "chain_net_rs": 353.38
+   },
+   {
+    "symbol": "WIPRO",
+    "R": "2026-01-19",
+    "n4_date": "2026-01-19",
+    "n4_direction": "SHORT",
+    "n4_net_rs": -163.1,
+    "p2f_date": "2026-01-20",
+    "p2f_direction": "SHORT",
+    "p2f_net_rs": 267.44,
+    "directions_agree": true,
+    "chain_net_rs": 104.34
+   },
+   {
+    "symbol": "WIPRO",
+    "R": "2026-04-17",
+    "n4_date": "2026-04-17",
+    "n4_direction": "SHORT",
+    "n4_net_rs": -142.12,
+    "p2f_date": "2026-04-20",
+    "p2f_direction": "SHORT",
+    "p2f_net_rs": 130.0,
+    "directions_agree": true,
+    "chain_net_rs": -12.12
+   },
+   {
+    "symbol": "WIPRO",
+    "R": "2026-10-16",
+    "n4_date": "2026-10-16",
+    "n4_direction": "LONG",
+    "n4_net_rs": 185.17,
+    "p2f_date": "2026-10-19",
+    "p2f_direction": "LONG",
+    "p2f_net_rs": -132.0,
+    "directions_agree": true,
+    "chain_net_rs": 53.17
+   }
+  ],
+  "chain_count": 43,
+  "chain_net_total": 9494.37,
+  "chain_win_pct": 65.1,
+  "chain_expectancy": 220.8,
+  "n4_leg_expectancy_on_chain_events": -23.62,
+  "p2f_leg_expectancy_on_chain_events": 244.42,
+  "directions_agree_count": 40
+ },
+ "V6": {
+  "MET": {
+   "all": {
+    "trades": 65,
+    "win_pct": 41.5,
+    "net_rs": 16551.59,
+    "expectancy_rs": 254.64,
+    "gross_expectancy_rs": 294.64
+   },
+   "H1": {
+    "trades": 50,
+    "win_pct": 42.0,
+    "net_rs": 11523.16,
+    "expectancy_rs": 230.46,
+    "gross_expectancy_rs": 270.46
+   },
+   "H2": {
+    "trades": 15,
+    "win_pct": 40.0,
+    "net_rs": 5028.43,
+    "expectancy_rs": 335.23,
+    "gross_expectancy_rs": 375.23
+   },
+   "both_halves_positive": true,
+   "breadth_net_positive_stocks": 12,
+   "stocks_traded": 22,
+   "per_stock_net": {
+    "GLENMARK": 11796.25,
+    "OBEROIRLTY": 5849.37,
+    "GODREJCP": 2881.25,
+    "BDL": 2392.4,
+    "KALYANKJIL": 918.06,
+    "TVSMOTOR": 516.52,
+    "HINDCOPPER": 360.13,
+    "RECLTD": 301.62,
+    "NATIONALUM": 186.33,
+    "NTPC": 172.49,
+    "VEDL": 20.48,
+    "WIPRO": 9.12,
+    "TATASTEEL": -64.53,
+    "ITC": -168.95,
+    "INDUSTOWER": -241.4,
+    "HINDZINC": -449.48,
+    "PFC": -508.98,
+    "OIL": -602.52,
+    "HDFCBANK": -793.02,
+    "ASTRAL": -1533.6,
+    "UNITDSPR": -2086.65,
+    "HINDUNILVR": -2403.3
+   }
+  },
+  "NOT_MET": {
+   "all": {
+    "trades": 39,
+    "win_pct": 41.0,
+    "net_rs": 4274.72,
+    "expectancy_rs": 109.61,
+    "gross_expectancy_rs": 149.61
+   },
+   "H1": {
+    "trades": 13,
+    "win_pct": 30.8,
+    "net_rs": -2869.93,
+    "expectancy_rs": -220.76,
+    "gross_expectancy_rs": -180.76
+   },
+   "H2": {
+    "trades": 26,
+    "win_pct": 46.2,
+    "net_rs": 7144.65,
+    "expectancy_rs": 274.79,
+    "gross_expectancy_rs": 314.79
+   },
+   "both_halves_positive": false,
+   "breadth_net_positive_stocks": 9,
+   "stocks_traded": 20,
+   "per_stock_net": {
+    "TVSMOTOR": 2838.4,
+    "GLENMARK": 2698.99,
+    "GODREJCP": 1616.32,
+    "PFC": 909.81,
+    "IRCTC": 851.81,
+    "NATIONALUM": 583.85,
+    "KALYANKJIL": 553.25,
+    "HDFCBANK": 309.93,
+    "OIL": 272.12,
+    "NHPC": -51.5,
+    "WIPRO": -127.15,
+    "TATASTEEL": -141.49,
+    "ITC": -191.5,
+    "RECLTD": -224.0,
+    "INDUSTOWER": -240.2,
+    "BDL": -636.2,
+    "HINDUNILVR": -954.17,
+    "OBEROIRLTY": -969.0,
+    "HINDALCO": -1154.6,
+    "ASTRAL": -1669.95
+   }
+  },
+  "unclassifiable": 0,
+  "MET_N4V3": {
+   "all": {
+    "trades": 37,
+    "win_pct": 35.1,
+    "net_rs": 6927.62,
+    "expectancy_rs": 187.23,
+    "gross_expectancy_rs": 227.23
+   },
+   "H1": {
+    "trades": 28,
+    "win_pct": 35.7,
+    "net_rs": 6004.98,
+    "expectancy_rs": 214.46,
+    "gross_expectancy_rs": 254.46
+   },
+   "H2": {
+    "trades": 9,
+    "win_pct": 33.3,
+    "net_rs": 922.64,
+    "expectancy_rs": 102.52,
+    "gross_expectancy_rs": 142.52
+   },
+   "both_halves_positive": true,
+   "breadth_net_positive_stocks": 9,
+   "stocks_traded": 22,
+   "per_stock_net": {
+    "GLENMARK": 6684.01,
+    "TVSMOTOR": 2389.02,
+    "OBEROIRLTY": 1932.75,
+    "GODREJCP": 1453.75,
+    "HINDCOPPER": 697.25,
+    "KALYANKJIL": 482.81,
+    "NATIONALUM": 399.88,
+    "RECLTD": 295.9,
+    "TATASTEEL": 80.76,
+    "ITC": -168.95,
+    "NTPC": -218.7,
+    "INDUSTOWER": -241.4,
+    "WIPRO": -256.32,
+    "OIL": -300.52,
+    "HDFCBANK": -398.25,
+    "PFC": -508.98,
+    "VEDL": -554.77,
+    "HINDZINC": -682.02,
+    "ASTRAL": -777.5,
+    "BDL": -785.35,
+    "HINDUNILVR": -1209.25,
+    "UNITDSPR": -1386.5
+   }
+  },
+  "MET_P2F": {
+   "all": {
+    "trades": 28,
+    "win_pct": 50.0,
+    "net_rs": 9623.97,
+    "expectancy_rs": 343.71,
+    "gross_expectancy_rs": 383.71
+   },
+   "H1": {
+    "trades": 22,
+    "win_pct": 50.0,
+    "net_rs": 5518.18,
+    "expectancy_rs": 250.83,
+    "gross_expectancy_rs": 290.83
+   },
+   "H2": {
+    "trades": 6,
+    "win_pct": 50.0,
+    "net_rs": 4105.79,
+    "expectancy_rs": 684.3,
+    "gross_expectancy_rs": 724.3
+   },
+   "both_halves_positive": true,
+   "breadth_net_positive_stocks": 10,
+   "stocks_traded": 19,
+   "per_stock_net": {
+    "GLENMARK": 5112.24,
+    "OBEROIRLTY": 3916.62,
+    "BDL": 3177.75,
+    "GODREJCP": 1427.5,
+    "VEDL": 575.25,
+    "KALYANKJIL": 435.25,
+    "NTPC": 391.19,
+    "WIPRO": 265.44,
+    "HINDZINC": 232.54,
+    "RECLTD": 5.72,
+    "TATASTEEL": -145.29,
+    "NATIONALUM": -213.55,
+    "OIL": -302.0,
+    "HINDCOPPER": -337.12,
+    "HDFCBANK": -394.77,
+    "UNITDSPR": -700.15,
+    "ASTRAL": -756.1,
+    "HINDUNILVR": -1194.05,
+    "TVSMOTOR": -1872.5
+   }
+  },
+  "NOTMET_N4V3": {
+   "all": {
+    "trades": 19,
+    "win_pct": 42.1,
+    "net_rs": 1062.81,
+    "expectancy_rs": 55.94,
+    "gross_expectancy_rs": 95.94
+   },
+   "H1": {
+    "trades": 6,
+    "win_pct": 50.0,
+    "net_rs": -849.85,
+    "expectancy_rs": -141.64,
+    "gross_expectancy_rs": -101.64
+   },
+   "H2": {
+    "trades": 13,
+    "win_pct": 38.5,
+    "net_rs": 1912.66,
+    "expectancy_rs": 147.13,
+    "gross_expectancy_rs": 187.13
+   },
+   "both_halves_positive": false,
+   "breadth_net_positive_stocks": 7,
+   "stocks_traded": 17,
+   "per_stock_net": {
+    "GLENMARK": 2698.99,
+    "HINDUNILVR": 1336.58,
+    "KALYANKJIL": 1141.25,
+    "GODREJCP": 900.0,
+    "PFC": 467.31,
+    "NATIONALUM": 402.5,
+    "IRCTC": 235.0,
+    "NHPC": -80.5,
+    "WIPRO": -127.15,
+    "ITC": -185.5,
+    "OIL": -268.25,
+    "HDFCBANK": -430.07,
+    "HINDALCO": -582.1,
+    "BDL": -636.2,
+    "ASTRAL": -833.95,
+    "OBEROIRLTY": -969.0,
+    "TVSMOTOR": -2006.1
+   }
+  },
+  "NOTMET_P2F": {
+   "all": {
+    "trades": 20,
+    "win_pct": 40.0,
+    "net_rs": 3211.91,
+    "expectancy_rs": 160.6,
+    "gross_expectancy_rs": 200.6
+   },
+   "H1": {
+    "trades": 7,
+    "win_pct": 14.3,
+    "net_rs": -2020.08,
+    "expectancy_rs": -288.58,
+    "gross_expectancy_rs": -248.58
+   },
+   "H2": {
+    "trades": 13,
+    "win_pct": 53.8,
+    "net_rs": 5231.99,
+    "expectancy_rs": 402.46,
+    "gross_expectancy_rs": 442.46
+   },
+   "both_halves_positive": false,
+   "breadth_net_positive_stocks": 8,
+   "stocks_traded": 16,
+   "per_stock_net": {
+    "TVSMOTOR": 4844.5,
+    "HDFCBANK": 740.0,
+    "GODREJCP": 716.32,
+    "IRCTC": 616.81,
+    "OIL": 540.37,
+    "PFC": 442.5,
+    "NATIONALUM": 181.35,
+    "NHPC": 29.0,
+    "ITC": -6.0,
+    "TATASTEEL": -141.49,
+    "RECLTD": -224.0,
+    "INDUSTOWER": -240.2,
+    "HINDALCO": -572.5,
+    "KALYANKJIL": -588.0,
+    "ASTRAL": -836.0,
+    "HINDUNILVR": -2290.75
+   }
+  }
+ },
+ "SUPP_combined_P2F_band25": {
+  "all": {
+   "trades": 95,
+   "win_pct": 42.1,
+   "net_rs": 23479.51,
+   "expectancy_rs": 247.15,
+   "gross_expectancy_rs": 287.15
+  },
+  "H1": {
+   "trades": 60,
+   "win_pct": 41.7,
+   "net_rs": 11857.97,
+   "expectancy_rs": 197.63,
+   "gross_expectancy_rs": 237.63
+  },
+  "H2": {
+   "trades": 35,
+   "win_pct": 42.9,
+   "net_rs": 11621.54,
+   "expectancy_rs": 332.04,
+   "gross_expectancy_rs": 372.04
+  },
+  "both_halves_positive": true,
+  "breadth_net_positive_stocks": 13,
+  "stocks_traded": 25,
+  "per_stock_net": {
+   "GLENMARK": 14495.24,
+   "TVSMOTOR": 5227.42,
+   "OBEROIRLTY": 4880.37,
+   "GODREJCP": 4497.57,
+   "BDL": 1756.2,
+   "KALYANKJIL": 1471.31,
+   "IRCTC": 851.81,
+   "NATIONALUM": 770.18,
+   "PFC": 400.83,
+   "HINDCOPPER": 360.13,
+   "RECLTD": 301.62,
+   "NTPC": 172.49,
+   "VEDL": 20.48,
+   "TATASTEEL": -64.53,
+   "NHPC": -80.5,
+   "HDFCBANK": -88.32,
+   "WIPRO": -118.03,
+   "ITC": -354.45,
+   "INDUSTOWER": -481.6,
+   "OIL": -870.77,
+   "HINDZINC": -1056.42,
+   "HINDALCO": -1154.6,
+   "UNITDSPR": -2086.65,
+   "HINDUNILVR": -2166.72,
+   "ASTRAL": -3203.55
+  }
+ }
+}

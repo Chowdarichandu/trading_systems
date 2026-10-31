@@ -1,0 +1,333 @@
+{
+ "anchorA": true,
+ "anchorB": true,
+ "total": 135319.67,
+ "trades": 916,
+ "audit": {
+  "trades": 640,
+  "violations": 0
+ },
+ "comp_oct": {
+  "INV-LONG": {
+   "trades": 21,
+   "net": 7691.08,
+   "losers": 11,
+   "loser_net": -4633.92
+  },
+  "N4-V3": {
+   "trades": 6,
+   "net": -530.69,
+   "losers": 4,
+   "loser_net": -1036.42
+  },
+  "P2F": {
+   "trades": 2,
+   "net": -315.0,
+   "losers": 2,
+   "loser_net": -315.0
+  },
+  "F4": {
+   "trades": 101,
+   "net": 44568.22,
+   "losers": 34,
+   "loser_net": -16020.61
+  }
+ },
+ "exc": {
+  "reach175_hold": 5,
+  "reach200_hold": 3,
+  "post175": 27,
+  "post200": 20,
+  "stop_band110": 6,
+  "stop_recover110": 0,
+  "stop_deep110": 13,
+  "exits": {
+   "square_off": 44,
+   "target": 38,
+   "stop": 19
+  },
+  "oct_f4_trades": 101,
+  "stop_list": [
+   {
+    "date": "2026-10-07",
+    "stock": "GLENMARK",
+    "dir": "SHORT",
+    "setup": "skill_or_breakdown",
+    "net": -2207.05,
+    "mae_day": 0.982
+   },
+   {
+    "date": "2026-10-15",
+    "stock": "GLENMARK",
+    "dir": "LONG",
+    "setup": "skill_or_breakout",
+    "net": -2193.46,
+    "mae_day": 0.962
+   },
+   {
+    "date": "2026-10-30",
+    "stock": "NTPC",
+    "dir": "SHORT",
+    "setup": "skill_or_breakdown",
+    "net": -334.12,
+    "mae_day": 2.713
+   },
+   {
+    "date": "2026-10-15",
+    "stock": "INDUSTOWER",
+    "dir": "LONG",
+    "setup": "skill_or_breakout",
+    "net": -405.42,
+    "mae_day": 1.157
+   },
+   {
+    "date": "2026-10-23",
+    "stock": "INDUSTOWER",
+    "dir": "SHORT",
+    "setup": "skill_or_breakdown",
+    "net": -399.05,
+    "mae_day": 1.032
+   },
+   {
+    "date": "2026-10-13",
+    "stock": "KALYANKJIL",
+    "dir": "LONG",
+    "setup": "skill_or_breakout",
+    "net": -579.55,
+    "mae_day": 1.69
+   },
+   {
+    "date": "2026-10-27",
+    "stock": "KALYANKJIL",
+    "dir": "SHORT",
+    "setup": "skill_or_breakdown",
+    "net": -513.1,
+    "mae_day": 1.185
+   },
+   {
+    "date": "2026-10-07",
+    "stock": "NHPC",
+    "dir": "SHORT",
+    "setup": "skill_or_breakdown",
+    "net": -108.8,
+    "mae_day": 1.036
+   },
+   {
+    "date": "2026-10-14",
+    "stock": "NHPC",
+    "dir": "LONG",
+    "setup": "setup4_reclaim",
+    "net": -109.83,
+    "mae_day": 1.02
+   },
+   {
+    "date": "2026-10-05",
+    "stock": "PFC",
+    "dir": "SHORT",
+    "setup": "skill_or_breakdown",
+    "net": -342.29,
+    "mae_day": 1.618
+   },
+   {
+    "date": "2026-10-22",
+    "stock": "PFC",
+    "dir": "LONG",
+    "setup": "skill_or_breakout",
+    "net": -349.7,
+    "mae_day": 1.12
+   },
+   {
+    "date": "2026-10-08",
+    "stock": "IRCTC",
+    "dir": "LONG",
+    "setup": "skill_or_breakout",
+    "net": -473.53,
+    "mae_day": 1.83
+   },
+   {
+    "date": "2026-10-29",
+    "stock": "VEDL",
+    "dir": "LONG",
+    "setup": "skill_or_breakout",
+    "net": -264.91,
+    "mae_day": 1.415
+   },
+   {
+    "date": "2026-10-22",
+    "stock": "HINDCOPPER",
+    "dir": "LONG",
+    "setup": "skill_or_breakout",
+    "net": -436.43,
+    "mae_day": 1.414
+   },
+   {
+    "date": "2026-10-12",
+    "stock": "HINDZINC",
+    "dir": "LONG",
+    "setup": "skill_or_breakout",
+    "net": -567.63,
+    "mae_day": 1.773
+   },
+   {
+    "date": "2026-10-07",
+    "stock": "BDL",
+    "dir": "SHORT",
+    "setup": "skill_or_breakdown",
+    "net": -1067.14,
+    "mae_day": 1.147
+   },
+   {
+    "date": "2026-10-15",
+    "stock": "BDL",
+    "dir": "LONG",
+    "setup": "setup4_reclaim",
+    "net": -1115.31,
+    "mae_day": 1.042
+   },
+   {
+    "date": "2026-10-21",
+    "stock": "OIL",
+    "dir": "SHORT",
+    "setup": "skill_or_breakdown",
+    "net": -465.84,
+    "mae_day": 1.283
+   },
+   {
+    "date": "2026-10-27",
+    "stock": "HINDUNILVR",
+    "dir": "SHORT",
+    "setup": "skill_or_breakdown",
+    "net": -1722.45,
+    "mae_day": 2.654
+   }
+  ]
+ },
+ "scan": {
+  "setup": {
+   "setup2_or_breakdown": {
+    "full_n": 6,
+    "full_net": 44.0,
+    "oct_n": 0,
+    "oct_net": 0.0,
+    "both_neg": false
+   },
+   "setup4_pullback": {
+    "full_n": 1,
+    "full_net": 85.0,
+    "oct_n": 0,
+    "oct_net": 0.0,
+    "both_neg": false
+   },
+   "setup4_reclaim": {
+    "full_n": 26,
+    "full_net": 4897.07,
+    "oct_n": 7,
+    "oct_net": 3446.48,
+    "both_neg": false
+   },
+   "skill_or_breakdown": {
+    "full_n": 347,
+    "full_net": 39454.99,
+    "oct_n": 48,
+    "oct_net": 20593.79,
+    "both_neg": false
+   },
+   "skill_or_breakout": {
+    "full_n": 207,
+    "full_net": 38739.53,
+    "oct_n": 46,
+    "oct_net": 20527.95,
+    "both_neg": false
+   }
+  },
+  "dir": {
+   "LONG": {
+    "full_n": 234,
+    "full_net": 43721.6,
+    "oct_n": 53,
+    "oct_net": 23974.43,
+    "both_neg": false
+   },
+   "SHORT": {
+    "full_n": 353,
+    "full_net": 39498.99,
+    "oct_n": 48,
+    "oct_net": 20593.79,
+    "both_neg": false
+   }
+  },
+  "round": {
+   "1": {
+    "full_n": 531,
+    "full_net": 87827.34,
+    "oct_n": 95,
+    "oct_net": 42786.47,
+    "both_neg": false
+   },
+   "2": {
+    "full_n": 56,
+    "full_net": -4606.75,
+    "oct_n": 6,
+    "oct_net": 1781.75,
+    "both_neg": false
+   }
+  },
+  "setup_dir": {
+   "setup2_or_breakdown|SHORT": {
+    "full_n": 6,
+    "full_net": 44.0,
+    "oct_n": 0,
+    "oct_net": 0.0,
+    "both_neg": false
+   },
+   "setup4_pullback|LONG": {
+    "full_n": 1,
+    "full_net": 85.0,
+    "oct_n": 0,
+    "oct_net": 0.0,
+    "both_neg": false
+   },
+   "setup4_reclaim|LONG": {
+    "full_n": 26,
+    "full_net": 4897.07,
+    "oct_n": 7,
+    "oct_net": 3446.48,
+    "both_neg": false
+   },
+   "skill_or_breakdown|SHORT": {
+    "full_n": 347,
+    "full_net": 39454.99,
+    "oct_n": 48,
+    "oct_net": 20593.79,
+    "both_neg": false
+   },
+   "skill_or_breakout|LONG": {
+    "full_n": 207,
+    "full_net": 38739.53,
+    "oct_n": 46,
+    "oct_net": 20527.95,
+    "both_neg": false
+   }
+  }
+ },
+ "symbols_both_neg": {
+  "IRCTC": {
+   "full_n": 22,
+   "full_net": -799.56,
+   "oct_n": 5,
+   "oct_net": -658.53
+  },
+  "NHPC": {
+   "full_n": 26,
+   "full_net": -908.69,
+   "oct_n": 7,
+   "oct_net": -11.72
+  },
+  "OIL": {
+   "full_n": 21,
+   "full_net": -2937.55,
+   "oct_n": 3,
+   "oct_net": -105.84
+  }
+ }
+}

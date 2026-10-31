@@ -1,0 +1,501 @@
+{
+ "window_days": 18,
+ "results": {
+  "V5": {
+   "T05": {
+    "uncapped": {
+     "trades": 378,
+     "win_pct": 50.8,
+     "target_pct": 53.2,
+     "net_rs": -13108.03,
+     "expectancy_rs": -34.68,
+     "avg_pct": 0.039,
+     "per_week": 105.0,
+     "gross_rs": 2011.97
+    },
+    "capped1day": {
+     "trades": 18,
+     "win_pct": 44.4,
+     "target_pct": 44.4,
+     "net_rs": -2739.08,
+     "expectancy_rs": -152.17,
+     "avg_pct": -0.021,
+     "per_week": 5.0,
+     "gross_rs": -2019.08
+    }
+   },
+   "T10": {
+    "uncapped": {
+     "trades": 378,
+     "win_pct": 41.8,
+     "target_pct": 34.7,
+     "net_rs": 6502.57,
+     "expectancy_rs": 17.2,
+     "avg_pct": 0.102,
+     "per_week": 105.0,
+     "gross_rs": 21622.57
+    },
+    "capped1day": {
+     "trades": 18,
+     "win_pct": 38.9,
+     "target_pct": 38.9,
+     "net_rs": 682.6,
+     "expectancy_rs": 37.92,
+     "avg_pct": 0.118,
+     "per_week": 5.0,
+     "gross_rs": 1402.6
+    }
+   },
+   "TSYS": {
+    "uncapped": {
+     "trades": 378,
+     "win_pct": 29.6,
+     "target_pct": 26.2,
+     "net_rs": -15719.96,
+     "expectancy_rs": -41.59,
+     "avg_pct": 0.033,
+     "per_week": 105.0,
+     "gross_rs": -599.96
+    },
+    "capped1day": {
+     "trades": 18,
+     "win_pct": 22.2,
+     "target_pct": 22.2,
+     "net_rs": -3414.15,
+     "expectancy_rs": -189.68,
+     "avg_pct": -0.037,
+     "per_week": 5.0,
+     "gross_rs": -2694.15
+    }
+   }
+  },
+  "SKILL": {
+   "T05": {
+    "uncapped": {
+     "trades": 450,
+     "win_pct": 48.4,
+     "target_pct": 50.4,
+     "net_rs": -24861.5,
+     "expectancy_rs": -55.25,
+     "avg_pct": 0.011,
+     "per_week": 125.0,
+     "gross_rs": -6861.5
+    },
+    "capped1day": {
+     "trades": 18,
+     "win_pct": 44.4,
+     "target_pct": 44.4,
+     "net_rs": -5226.15,
+     "expectancy_rs": -290.34,
+     "avg_pct": -0.056,
+     "per_week": 5.0,
+     "gross_rs": -4506.15
+    }
+   },
+   "T10": {
+    "uncapped": {
+     "trades": 450,
+     "win_pct": 36.7,
+     "target_pct": 29.8,
+     "net_rs": -21952.22,
+     "expectancy_rs": -48.78,
+     "avg_pct": 0.026,
+     "per_week": 125.0,
+     "gross_rs": -3952.22
+    },
+    "capped1day": {
+     "trades": 18,
+     "win_pct": 38.9,
+     "target_pct": 27.8,
+     "net_rs": 997.4,
+     "expectancy_rs": 55.41,
+     "avg_pct": 0.048,
+     "per_week": 5.0,
+     "gross_rs": 1717.4
+    }
+   },
+   "TSYS": {
+    "uncapped": {
+     "trades": 450,
+     "win_pct": 26.0,
+     "target_pct": 22.9,
+     "net_rs": -37301.83,
+     "expectancy_rs": -82.89,
+     "avg_pct": -0.012,
+     "per_week": 125.0,
+     "gross_rs": -19301.83
+    },
+    "capped1day": {
+     "trades": 18,
+     "win_pct": 33.3,
+     "target_pct": 22.2,
+     "net_rs": -2853.5,
+     "expectancy_rs": -158.53,
+     "avg_pct": -0.002,
+     "per_week": 5.0,
+     "gross_rs": -2133.5
+    }
+   }
+  },
+  "LA": {
+   "T05": {
+    "uncapped": {
+     "trades": 183,
+     "win_pct": 52.5,
+     "target_pct": 55.2,
+     "net_rs": -8236.39,
+     "expectancy_rs": -45.01,
+     "avg_pct": 0.052,
+     "per_week": 50.83,
+     "gross_rs": -916.39
+    },
+    "capped1day": {
+     "trades": 16,
+     "win_pct": 31.2,
+     "target_pct": 31.2,
+     "net_rs": -8059.72,
+     "expectancy_rs": -503.73,
+     "avg_pct": -0.188,
+     "per_week": 4.44,
+     "gross_rs": -7419.72
+    }
+   },
+   "T10": {
+    "uncapped": {
+     "trades": 183,
+     "win_pct": 42.6,
+     "target_pct": 35.0,
+     "net_rs": 1009.24,
+     "expectancy_rs": 5.51,
+     "avg_pct": 0.109,
+     "per_week": 50.83,
+     "gross_rs": 8329.24
+    },
+    "capped1day": {
+     "trades": 16,
+     "win_pct": 25.0,
+     "target_pct": 25.0,
+     "net_rs": -6180.62,
+     "expectancy_rs": -386.29,
+     "avg_pct": -0.125,
+     "per_week": 4.44,
+     "gross_rs": -5540.62
+    }
+   },
+   "TSYS": {
+    "uncapped": {
+     "trades": 183,
+     "win_pct": 32.2,
+     "target_pct": 27.3,
+     "net_rs": -974.63,
+     "expectancy_rs": -5.33,
+     "avg_pct": 0.063,
+     "per_week": 50.83,
+     "gross_rs": 6345.37
+    },
+    "capped1day": {
+     "trades": 16,
+     "win_pct": 18.8,
+     "target_pct": 12.5,
+     "net_rs": -4679.0,
+     "expectancy_rs": -292.44,
+     "avg_pct": -0.144,
+     "per_week": 4.44,
+     "gross_rs": -4039.0
+    }
+   }
+  },
+  "VOLRIX": {
+   "T05": {
+    "uncapped": {
+     "trades": 26,
+     "win_pct": 38.5,
+     "target_pct": 42.3,
+     "net_rs": -4023.21,
+     "expectancy_rs": -154.74,
+     "avg_pct": -0.077,
+     "per_week": 7.22,
+     "gross_rs": -2983.21
+    },
+    "capped1day": {
+     "trades": 11,
+     "win_pct": 27.3,
+     "target_pct": 36.4,
+     "net_rs": -2199.48,
+     "expectancy_rs": -199.95,
+     "avg_pct": -0.136,
+     "per_week": 3.06,
+     "gross_rs": -1759.48
+    }
+   },
+   "T10": {
+    "uncapped": {
+     "trades": 26,
+     "win_pct": 19.2,
+     "target_pct": 19.2,
+     "net_rs": -7636.08,
+     "expectancy_rs": -293.7,
+     "avg_pct": -0.212,
+     "per_week": 7.22,
+     "gross_rs": -6596.08
+    },
+    "capped1day": {
+     "trades": 11,
+     "win_pct": 18.2,
+     "target_pct": 18.2,
+     "net_rs": -3326.38,
+     "expectancy_rs": -302.4,
+     "avg_pct": -0.227,
+     "per_week": 3.06,
+     "gross_rs": -2886.38
+    }
+   },
+   "TSYS": {
+    "uncapped": {
+     "trades": 0,
+     "win_pct": 0.0,
+     "target_pct": 0.0,
+     "net_rs": 0.0,
+     "expectancy_rs": 0.0,
+     "avg_pct": 0.0,
+     "per_week": 0.0
+    },
+    "capped1day": {
+     "trades": 0,
+     "win_pct": 0.0,
+     "target_pct": 0.0,
+     "net_rs": 0.0,
+     "expectancy_rs": 0.0,
+     "avg_pct": 0.0,
+     "per_week": 0.0
+    }
+   }
+  },
+  "UNIFIED": {
+   "T05": {
+    "uncapped": {
+     "trades": 513,
+     "win_pct": 47.2,
+     "target_pct": 48.9,
+     "net_rs": -31230.23,
+     "expectancy_rs": -60.88,
+     "avg_pct": -0.004,
+     "per_week": 142.5,
+     "gross_rs": -10710.23
+    },
+    "capped1day": {
+     "trades": 18,
+     "win_pct": 44.4,
+     "target_pct": 44.4,
+     "net_rs": -1317.04,
+     "expectancy_rs": -73.17,
+     "avg_pct": -0.056,
+     "per_week": 5.0,
+     "gross_rs": -597.04
+    }
+   },
+   "T10": {
+    "uncapped": {
+     "trades": 513,
+     "win_pct": 35.1,
+     "target_pct": 28.8,
+     "net_rs": -26945.7,
+     "expectancy_rs": -52.53,
+     "avg_pct": 0.007,
+     "per_week": 142.5,
+     "gross_rs": -6425.7
+    },
+    "capped1day": {
+     "trades": 18,
+     "win_pct": 22.2,
+     "target_pct": 22.2,
+     "net_rs": -1665.64,
+     "expectancy_rs": -92.54,
+     "avg_pct": -0.167,
+     "per_week": 5.0,
+     "gross_rs": -945.64
+    }
+   },
+   "TSYS": {
+    "uncapped": {
+     "trades": 487,
+     "win_pct": 24.6,
+     "target_pct": 22.2,
+     "net_rs": -32483.28,
+     "expectancy_rs": -66.7,
+     "avg_pct": -0.015,
+     "per_week": 135.28,
+     "gross_rs": -13003.28
+    },
+    "capped1day": {
+     "trades": 18,
+     "win_pct": 16.7,
+     "target_pct": 16.7,
+     "net_rs": -3591.2,
+     "expectancy_rs": -199.51,
+     "avg_pct": -0.187,
+     "per_week": 5.0,
+     "gross_rs": -2871.2
+    }
+   }
+  },
+  "UNIFIED_NOEVENT": {
+   "T05": {
+    "uncapped": {
+     "trades": 367,
+     "win_pct": 46.0,
+     "target_pct": 48.5,
+     "net_rs": -25011.28,
+     "expectancy_rs": -68.15,
+     "avg_pct": -0.009,
+     "per_week": 101.94,
+     "gross_rs": -10331.28
+    },
+    "capped1day": {
+     "trades": 18,
+     "win_pct": 33.3,
+     "target_pct": 33.3,
+     "net_rs": -4299.22,
+     "expectancy_rs": -238.85,
+     "avg_pct": -0.167,
+     "per_week": 5.0,
+     "gross_rs": -3579.22
+    }
+   },
+   "T10": {
+    "uncapped": {
+     "trades": 367,
+     "win_pct": 35.1,
+     "target_pct": 28.3,
+     "net_rs": -21533.22,
+     "expectancy_rs": -58.67,
+     "avg_pct": 0.003,
+     "per_week": 101.94,
+     "gross_rs": -6853.22
+    },
+    "capped1day": {
+     "trades": 18,
+     "win_pct": 16.7,
+     "target_pct": 16.7,
+     "net_rs": -5282.14,
+     "expectancy_rs": -293.45,
+     "avg_pct": -0.25,
+     "per_week": 5.0,
+     "gross_rs": -4562.14
+    }
+   },
+   "TSYS": {
+    "uncapped": {
+     "trades": 347,
+     "win_pct": 23.6,
+     "target_pct": 20.7,
+     "net_rs": -27306.33,
+     "expectancy_rs": -78.69,
+     "avg_pct": -0.032,
+     "per_week": 96.39,
+     "gross_rs": -13426.33
+    },
+    "capped1day": {
+     "trades": 18,
+     "win_pct": 5.6,
+     "target_pct": 5.6,
+     "net_rs": -8094.85,
+     "expectancy_rs": -449.71,
+     "avg_pct": -0.327,
+     "per_week": 5.0,
+     "gross_rs": -7374.85
+    }
+   }
+  }
+ },
+ "files": [
+  "/home/hatch/workspace/trading/eq_v5_oct_trades_T05.csv",
+  "/home/hatch/workspace/trading/eq_v5_oct_trades_T10.csv",
+  "/home/hatch/workspace/trading/eq_v5_oct_trades_TSYS.csv",
+  "/home/hatch/workspace/trading/eq_skill_oct_trades_T05.csv",
+  "/home/hatch/workspace/trading/eq_skill_oct_trades_T10.csv",
+  "/home/hatch/workspace/trading/eq_skill_oct_trades_TSYS.csv",
+  "/home/hatch/workspace/trading/eq_la_oct_trades_T05.csv",
+  "/home/hatch/workspace/trading/eq_la_oct_trades_T10.csv",
+  "/home/hatch/workspace/trading/eq_la_oct_trades_TSYS.csv",
+  "/home/hatch/workspace/trading/eq_volrix_oct_trades_T05.csv",
+  "/home/hatch/workspace/trading/eq_volrix_oct_trades_T10.csv",
+  "/home/hatch/workspace/trading/eq_unified_oct_trades_T05.csv",
+  "/home/hatch/workspace/trading/eq_unified_oct_trades_T10.csv",
+  "/home/hatch/workspace/trading/eq_unified_oct_trades_TSYS.csv"
+ ],
+ "nifty_break_days": {
+  "2026-10-01": [
+   "LONG",
+   "10:00"
+  ],
+  "2026-10-05": [
+   "LONG",
+   "09:30"
+  ],
+  "2026-10-06": [
+   "LONG",
+   "09:45"
+  ],
+  "2026-10-07": [
+   "SHORT",
+   "09:35"
+  ],
+  "2026-10-08": [
+   "SHORT",
+   "09:40"
+  ],
+  "2026-10-09": [
+   "LONG",
+   "09:30"
+  ],
+  "2026-10-12": [
+   "SHORT",
+   "09:50"
+  ],
+  "2026-10-13": [
+   "LONG",
+   "09:30"
+  ],
+  "2026-10-14": [
+   null,
+   null
+  ],
+  "2026-10-15": [
+   "LONG",
+   "09:30"
+  ],
+  "2026-10-16": [
+   "SHORT",
+   "09:30"
+  ],
+  "2026-10-19": [
+   null,
+   null
+  ],
+  "2026-10-21": [
+   "LONG",
+   "09:30"
+  ],
+  "2026-10-22": [
+   "LONG",
+   "10:20"
+  ],
+  "2026-10-23": [
+   "SHORT",
+   "09:30"
+  ],
+  "2026-10-26": [
+   "LONG",
+   "09:50"
+  ],
+  "2026-10-27": [
+   "LONG",
+   "09:40"
+  ],
+  "2026-10-28": [
+   "SHORT",
+   "10:15"
+  ]
+ }
+}

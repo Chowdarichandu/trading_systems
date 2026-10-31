@@ -1,0 +1,857 @@
+{
+ "basis": "provisional per 100 shares, net = gross - Rs40/trade",
+ "label": "HYPOTHESIS-GENERATION ONLY \u2014 data-suggested, not a survivor",
+ "variants": {
+  "INV1": {
+   "definition": "Nifty prev close <= 50DMA (inverted G1)",
+   "exits": {
+    "T125": {
+     "all": {
+      "n": 694,
+      "gross": 50724.3,
+      "net": 22964.3,
+      "gross_exp": 73.09,
+      "win_pct": 34.6,
+      "target_pct": 30.0
+     },
+     "JM": {
+      "n": 564,
+      "gross": 29815.01,
+      "net": 7255.01,
+      "gross_exp": 52.86,
+      "win_pct": 33.2,
+      "target_pct": 29.6
+     },
+     "JO": {
+      "n": 130,
+      "gross": 20909.29,
+      "net": 15709.29,
+      "gross_exp": 160.84,
+      "win_pct": 40.8,
+      "target_pct": 31.5
+     },
+     "OCT": {
+      "n": 39,
+      "gross": 10050.91,
+      "net": 8490.91,
+      "gross_exp": 257.72,
+      "win_pct": 43.6,
+      "target_pct": 30.8
+     },
+     "share_of_P2": {
+      "JM_pct": 83.2,
+      "JO_pct": 54.2,
+      "total_pct": 75.6
+     },
+     "long": {
+      "n": 249,
+      "gross": 34145.73,
+      "net": 24185.73,
+      "gross_exp": 137.13,
+      "win_pct": 36.1,
+      "target_pct": 31.3
+     },
+     "short": {
+      "n": 445,
+      "gross": 16578.57,
+      "net": -1221.43,
+      "gross_exp": 37.26,
+      "win_pct": 33.7,
+      "target_pct": 29.2
+     },
+     "by_month": {
+      "01": {
+       "n": 83,
+       "gross": 6507.28,
+       "net": 3187.28,
+       "gross_exp": 78.4,
+       "win_pct": 32.5,
+       "target_pct": 32.5
+      },
+      "02": {
+       "n": 124,
+       "gross": -16163.92,
+       "net": -21123.92,
+       "gross_exp": -130.35,
+       "win_pct": 27.4,
+       "target_pct": 21.8
+      },
+      "03": {
+       "n": 185,
+       "gross": 38224.62,
+       "net": 30824.62,
+       "gross_exp": 206.62,
+       "win_pct": 42.7,
+       "target_pct": 40.0
+      },
+      "04": {
+       "n": 109,
+       "gross": -4199.56,
+       "net": -8559.56,
+       "gross_exp": -38.53,
+       "win_pct": 27.5,
+       "target_pct": 22.9
+      },
+      "05": {
+       "n": 63,
+       "gross": 5446.59,
+       "net": 2926.59,
+       "gross_exp": 86.45,
+       "win_pct": 27.0,
+       "target_pct": 22.2
+      },
+      "06": {
+       "n": 55,
+       "gross": 3263.06,
+       "net": 1063.06,
+       "gross_exp": 59.33,
+       "win_pct": 40.0,
+       "target_pct": 34.5
+      },
+      "07": {
+       "n": 0,
+       "gross": 0,
+       "net": 0,
+       "gross_exp": 0.0,
+       "win_pct": 0.0,
+       "target_pct": 0.0
+      },
+      "08": {
+       "n": 10,
+       "gross": 4568.49,
+       "net": 4168.49,
+       "gross_exp": 456.85,
+       "win_pct": 60.0,
+       "target_pct": 30.0
+      },
+      "09": {
+       "n": 26,
+       "gross": 3026.83,
+       "net": 1986.83,
+       "gross_exp": 116.42,
+       "win_pct": 30.8,
+       "target_pct": 26.9
+      },
+      "10": {
+       "n": 39,
+       "gross": 10050.91,
+       "net": 8490.91,
+       "gross_exp": 257.72,
+       "win_pct": 43.6,
+       "target_pct": 30.8
+      }
+     }
+    },
+    "T10": {
+     "all": {
+      "n": 721,
+      "gross": 48072.08,
+      "net": 19232.08,
+      "gross_exp": 66.67,
+      "win_pct": 38.4,
+      "target_pct": 36.6
+     },
+     "JM": {
+      "n": 584,
+      "gross": 22842.26,
+      "net": -517.74,
+      "gross_exp": 39.11,
+      "win_pct": 36.8,
+      "target_pct": 35.8
+     },
+     "JO": {
+      "n": 137,
+      "gross": 25229.82,
+      "net": 19749.82,
+      "gross_exp": 184.16,
+      "win_pct": 45.3,
+      "target_pct": 40.1
+     },
+     "OCT": {
+      "n": 40,
+      "gross": 13604.24,
+      "net": 12004.24,
+      "gross_exp": 340.11,
+      "win_pct": 45.0,
+      "target_pct": 35.0
+     },
+     "share_of_P2": {},
+     "long": {
+      "n": 256,
+      "gross": 26824.48,
+      "net": 16584.48,
+      "gross_exp": 104.78,
+      "win_pct": 38.3,
+      "target_pct": 36.3
+     },
+     "short": {
+      "n": 465,
+      "gross": 21247.6,
+      "net": 2647.6,
+      "gross_exp": 45.69,
+      "win_pct": 38.5,
+      "target_pct": 36.8
+     },
+     "by_month": {
+      "01": {
+       "n": 85,
+       "gross": 5390.56,
+       "net": 1990.56,
+       "gross_exp": 63.42,
+       "win_pct": 35.3,
+       "target_pct": 35.3
+      },
+      "02": {
+       "n": 128,
+       "gross": -12626.53,
+       "net": -17746.53,
+       "gross_exp": -98.64,
+       "win_pct": 30.5,
+       "target_pct": 30.5
+      },
+      "03": {
+       "n": 194,
+       "gross": 26347.24,
+       "net": 18587.24,
+       "gross_exp": 135.81,
+       "win_pct": 44.8,
+       "target_pct": 43.3
+      },
+      "04": {
+       "n": 110,
+       "gross": -2914.61,
+       "net": -7314.61,
+       "gross_exp": -26.5,
+       "win_pct": 31.8,
+       "target_pct": 30.0
+      },
+      "05": {
+       "n": 67,
+       "gross": 6645.6,
+       "net": 3965.6,
+       "gross_exp": 99.19,
+       "win_pct": 35.8,
+       "target_pct": 34.3
+      },
+      "06": {
+       "n": 60,
+       "gross": 1824.2,
+       "net": -575.8,
+       "gross_exp": 30.4,
+       "win_pct": 45.0,
+       "target_pct": 41.7
+      },
+      "07": {
+       "n": 0,
+       "gross": 0,
+       "net": 0,
+       "gross_exp": 0.0,
+       "win_pct": 0.0,
+       "target_pct": 0.0
+      },
+      "08": {
+       "n": 10,
+       "gross": 5046.13,
+       "net": 4646.13,
+       "gross_exp": 504.61,
+       "win_pct": 70.0,
+       "target_pct": 60.0
+      },
+      "09": {
+       "n": 27,
+       "gross": 4755.25,
+       "net": 3675.25,
+       "gross_exp": 176.12,
+       "win_pct": 37.0,
+       "target_pct": 37.0
+      },
+      "10": {
+       "n": 40,
+       "gross": 13604.24,
+       "net": 12004.24,
+       "gross_exp": 340.11,
+       "win_pct": 45.0,
+       "target_pct": 35.0
+      }
+     }
+    }
+   }
+  },
+  "INV2": {
+   "definition": "Nifty prev close <= 20DMA (inverted G2)",
+   "exits": {
+    "T125": {
+     "all": {
+      "n": 563,
+      "gross": 70957.14,
+      "net": 48437.14,
+      "gross_exp": 126.03,
+      "win_pct": 35.7,
+      "target_pct": 31.4
+     },
+     "JM": {
+      "n": 426,
+      "gross": 41953.18,
+      "net": 24913.18,
+      "gross_exp": 98.48,
+      "win_pct": 34.0,
+      "target_pct": 31.2
+     },
+     "JO": {
+      "n": 137,
+      "gross": 29003.96,
+      "net": 23523.96,
+      "gross_exp": 211.71,
+      "win_pct": 40.9,
+      "target_pct": 32.1
+     },
+     "OCT": {
+      "n": 24,
+      "gross": 6897.85,
+      "net": 5937.85,
+      "gross_exp": 287.41,
+      "win_pct": 41.7,
+      "target_pct": 33.3
+     },
+     "share_of_P2": {
+      "JM_pct": 62.8,
+      "JO_pct": 57.1,
+      "total_pct": 61.3
+     },
+     "long": {
+      "n": 201,
+      "gross": 37673.21,
+      "net": 29633.21,
+      "gross_exp": 187.43,
+      "win_pct": 36.3,
+      "target_pct": 32.8
+     },
+     "short": {
+      "n": 362,
+      "gross": 33283.93,
+      "net": 18803.93,
+      "gross_exp": 91.94,
+      "win_pct": 35.4,
+      "target_pct": 30.7
+     },
+     "by_month": {
+      "01": {
+       "n": 83,
+       "gross": 6507.28,
+       "net": 3187.28,
+       "gross_exp": 78.4,
+       "win_pct": 32.5,
+       "target_pct": 32.5
+      },
+      "02": {
+       "n": 54,
+       "gross": -11780.37,
+       "net": -13940.37,
+       "gross_exp": -218.16,
+       "win_pct": 18.5,
+       "target_pct": 14.8
+      },
+      "03": {
+       "n": 185,
+       "gross": 38224.62,
+       "net": 30824.62,
+       "gross_exp": 206.62,
+       "win_pct": 42.7,
+       "target_pct": 40.0
+      },
+      "04": {
+       "n": 44,
+       "gross": 4961.87,
+       "net": 3201.87,
+       "gross_exp": 112.77,
+       "win_pct": 29.5,
+       "target_pct": 27.3
+      },
+      "05": {
+       "n": 60,
+       "gross": 4039.78,
+       "net": 1639.78,
+       "gross_exp": 67.33,
+       "win_pct": 26.7,
+       "target_pct": 20.0
+      },
+      "06": {
+       "n": 45,
+       "gross": 3295.03,
+       "net": 1495.03,
+       "gross_exp": 73.22,
+       "win_pct": 40.0,
+       "target_pct": 33.3
+      },
+      "07": {
+       "n": 18,
+       "gross": 5232.41,
+       "net": 4512.41,
+       "gross_exp": 290.69,
+       "win_pct": 38.9,
+       "target_pct": 38.9
+      },
+      "08": {
+       "n": 24,
+       "gross": 10551.84,
+       "net": 9591.84,
+       "gross_exp": 439.66,
+       "win_pct": 54.2,
+       "target_pct": 29.2
+      },
+      "09": {
+       "n": 26,
+       "gross": 3026.83,
+       "net": 1986.83,
+       "gross_exp": 116.42,
+       "win_pct": 30.8,
+       "target_pct": 26.9
+      },
+      "10": {
+       "n": 24,
+       "gross": 6897.85,
+       "net": 5937.85,
+       "gross_exp": 287.41,
+       "win_pct": 41.7,
+       "target_pct": 33.3
+      }
+     }
+    },
+    "T10": {
+     "all": {
+      "n": 584,
+      "gross": 57620.59,
+      "net": 34260.59,
+      "gross_exp": 98.67,
+      "win_pct": 39.0,
+      "target_pct": 37.0
+     },
+     "JM": {
+      "n": 439,
+      "gross": 28653.52,
+      "net": 11093.52,
+      "gross_exp": 65.27,
+      "win_pct": 37.4,
+      "target_pct": 36.0
+     },
+     "JO": {
+      "n": 145,
+      "gross": 28967.07,
+      "net": 23167.07,
+      "gross_exp": 199.77,
+      "win_pct": 44.1,
+      "target_pct": 40.0
+     },
+     "OCT": {
+      "n": 25,
+      "gross": 10743.1,
+      "net": 9743.1,
+      "gross_exp": 429.72,
+      "win_pct": 44.0,
+      "target_pct": 36.0
+     },
+     "share_of_P2": {},
+     "long": {
+      "n": 206,
+      "gross": 28622.98,
+      "net": 20382.98,
+      "gross_exp": 138.95,
+      "win_pct": 37.9,
+      "target_pct": 36.4
+     },
+     "short": {
+      "n": 378,
+      "gross": 28997.61,
+      "net": 13877.61,
+      "gross_exp": 76.71,
+      "win_pct": 39.7,
+      "target_pct": 37.3
+     },
+     "by_month": {
+      "01": {
+       "n": 85,
+       "gross": 5390.56,
+       "net": 1990.56,
+       "gross_exp": 63.42,
+       "win_pct": 35.3,
+       "target_pct": 35.3
+      },
+      "02": {
+       "n": 54,
+       "gross": -10923.53,
+       "net": -13083.53,
+       "gross_exp": -202.29,
+       "win_pct": 22.2,
+       "target_pct": 22.2
+      },
+      "03": {
+       "n": 194,
+       "gross": 26347.24,
+       "net": 18587.24,
+       "gross_exp": 135.81,
+       "win_pct": 44.8,
+       "target_pct": 43.3
+      },
+      "04": {
+       "n": 44,
+       "gross": 4161.81,
+       "net": 2401.81,
+       "gross_exp": 94.59,
+       "win_pct": 34.1,
+       "target_pct": 31.8
+      },
+      "05": {
+       "n": 62,
+       "gross": 3677.44,
+       "net": 1197.44,
+       "gross_exp": 59.31,
+       "win_pct": 32.3,
+       "target_pct": 29.0
+      },
+      "06": {
+       "n": 49,
+       "gross": 317.5,
+       "net": -1642.5,
+       "gross_exp": 6.48,
+       "win_pct": 42.9,
+       "target_pct": 38.8
+      },
+      "07": {
+       "n": 19,
+       "gross": 2834.76,
+       "net": 2074.76,
+       "gross_exp": 149.2,
+       "win_pct": 36.8,
+       "target_pct": 36.8
+      },
+      "08": {
+       "n": 25,
+       "gross": 10316.46,
+       "net": 9316.46,
+       "gross_exp": 412.66,
+       "win_pct": 60.0,
+       "target_pct": 52.0
+      },
+      "09": {
+       "n": 27,
+       "gross": 4755.25,
+       "net": 3675.25,
+       "gross_exp": 176.12,
+       "win_pct": 37.0,
+       "target_pct": 37.0
+      },
+      "10": {
+       "n": 25,
+       "gross": 10743.1,
+       "net": 9743.1,
+       "gross_exp": 429.72,
+       "win_pct": 44.0,
+       "target_pct": 36.0
+      }
+     }
+    }
+   }
+  },
+  "INV3": {
+   "definition": "Counter-trend per stock (inverted G3)",
+   "exits": {
+    "T125": {
+     "all": {
+      "n": 435,
+      "gross": 46170.26,
+      "net": 28770.26,
+      "gross_exp": 106.14,
+      "win_pct": 34.3,
+      "target_pct": 28.5
+     },
+     "JM": {
+      "n": 308,
+      "gross": 24160.13,
+      "net": 11840.13,
+      "gross_exp": 78.44,
+      "win_pct": 31.8,
+      "target_pct": 27.6
+     },
+     "JO": {
+      "n": 127,
+      "gross": 22010.13,
+      "net": 16930.13,
+      "gross_exp": 173.31,
+      "win_pct": 40.2,
+      "target_pct": 30.7
+     },
+     "OCT": {
+      "n": 22,
+      "gross": 8679.15,
+      "net": 7799.15,
+      "gross_exp": 394.51,
+      "win_pct": 50.0,
+      "target_pct": 31.8
+     },
+     "share_of_P2": {
+      "JM_pct": 45.4,
+      "JO_pct": 52.9,
+      "total_pct": 47.4
+     },
+     "long": {
+      "n": 158,
+      "gross": 35584.63,
+      "net": 29264.63,
+      "gross_exp": 225.22,
+      "win_pct": 39.2,
+      "target_pct": 30.4
+     },
+     "short": {
+      "n": 277,
+      "gross": 10585.63,
+      "net": -494.37,
+      "gross_exp": 38.22,
+      "win_pct": 31.4,
+      "target_pct": 27.4
+     },
+     "by_month": {
+      "01": {
+       "n": 45,
+       "gross": -228.85,
+       "net": -2028.85,
+       "gross_exp": -5.09,
+       "win_pct": 22.2,
+       "target_pct": 22.2
+      },
+      "02": {
+       "n": 79,
+       "gross": -7846.92,
+       "net": -11006.92,
+       "gross_exp": -99.33,
+       "win_pct": 30.4,
+       "target_pct": 22.8
+      },
+      "03": {
+       "n": 81,
+       "gross": 20030.84,
+       "net": 16790.84,
+       "gross_exp": 247.29,
+       "win_pct": 39.5,
+       "target_pct": 38.3
+      },
+      "04": {
+       "n": 61,
+       "gross": -2542.38,
+       "net": -4982.38,
+       "gross_exp": -41.68,
+       "win_pct": 24.6,
+       "target_pct": 18.0
+      },
+      "05": {
+       "n": 42,
+       "gross": 14747.44,
+       "net": 13067.44,
+       "gross_exp": 351.13,
+       "win_pct": 40.5,
+       "target_pct": 35.7
+      },
+      "06": {
+       "n": 38,
+       "gross": 4561.7,
+       "net": 3041.7,
+       "gross_exp": 120.04,
+       "win_pct": 44.7,
+       "target_pct": 39.5
+      },
+      "07": {
+       "n": 22,
+       "gross": -2722.32,
+       "net": -3602.32,
+       "gross_exp": -123.74,
+       "win_pct": 22.7,
+       "target_pct": 18.2
+      },
+      "08": {
+       "n": 33,
+       "gross": 8286.57,
+       "net": 6966.57,
+       "gross_exp": 251.11,
+       "win_pct": 42.4,
+       "target_pct": 30.3
+      },
+      "09": {
+       "n": 12,
+       "gross": 3205.03,
+       "net": 2725.03,
+       "gross_exp": 267.09,
+       "win_pct": 33.3,
+       "target_pct": 25.0
+      },
+      "10": {
+       "n": 22,
+       "gross": 8679.15,
+       "net": 7799.15,
+       "gross_exp": 394.51,
+       "win_pct": 50.0,
+       "target_pct": 31.8
+      }
+     }
+    },
+    "T10": {
+     "all": {
+      "n": 451,
+      "gross": 37796.02,
+      "net": 19756.02,
+      "gross_exp": 83.8,
+      "win_pct": 37.3,
+      "target_pct": 34.6
+     },
+     "JM": {
+      "n": 319,
+      "gross": 14127.47,
+      "net": 1367.47,
+      "gross_exp": 44.29,
+      "win_pct": 34.5,
+      "target_pct": 32.6
+     },
+     "JO": {
+      "n": 132,
+      "gross": 23668.55,
+      "net": 18388.55,
+      "gross_exp": 179.31,
+      "win_pct": 43.9,
+      "target_pct": 39.4
+     },
+     "OCT": {
+      "n": 22,
+      "gross": 12861.3,
+      "net": 11981.3,
+      "gross_exp": 584.6,
+      "win_pct": 54.5,
+      "target_pct": 40.9
+     },
+     "share_of_P2": {},
+     "long": {
+      "n": 164,
+      "gross": 31774.83,
+      "net": 25214.83,
+      "gross_exp": 193.75,
+      "win_pct": 42.7,
+      "target_pct": 37.8
+     },
+     "short": {
+      "n": 287,
+      "gross": 6021.19,
+      "net": -5458.81,
+      "gross_exp": 20.98,
+      "win_pct": 34.1,
+      "target_pct": 32.8
+     },
+     "by_month": {
+      "01": {
+       "n": 46,
+       "gross": -2842.49,
+       "net": -4682.49,
+       "gross_exp": -61.79,
+       "win_pct": 21.7,
+       "target_pct": 21.7
+      },
+      "02": {
+       "n": 82,
+       "gross": -7239.63,
+       "net": -10519.63,
+       "gross_exp": -88.29,
+       "win_pct": 31.7,
+       "target_pct": 30.5
+      },
+      "03": {
+       "n": 84,
+       "gross": 14742.01,
+       "net": 11382.01,
+       "gross_exp": 175.5,
+       "win_pct": 41.7,
+       "target_pct": 40.5
+      },
+      "04": {
+       "n": 62,
+       "gross": -2536.55,
+       "net": -5016.55,
+       "gross_exp": -40.91,
+       "win_pct": 29.0,
+       "target_pct": 24.2
+      },
+      "05": {
+       "n": 45,
+       "gross": 12004.13,
+       "net": 10204.13,
+       "gross_exp": 266.76,
+       "win_pct": 46.7,
+       "target_pct": 44.4
+      },
+      "06": {
+       "n": 42,
+       "gross": 1445.35,
+       "net": -234.65,
+       "gross_exp": 34.41,
+       "win_pct": 45.2,
+       "target_pct": 42.9
+      },
+      "07": {
+       "n": 22,
+       "gross": -3201.07,
+       "net": -4081.07,
+       "gross_exp": -145.5,
+       "win_pct": 27.3,
+       "target_pct": 22.7
+      },
+      "08": {
+       "n": 34,
+       "gross": 7858.18,
+       "net": 6498.18,
+       "gross_exp": 231.12,
+       "win_pct": 47.1,
+       "target_pct": 44.1
+      },
+      "09": {
+       "n": 12,
+       "gross": 4704.79,
+       "net": 4224.79,
+       "gross_exp": 392.07,
+       "win_pct": 41.7,
+       "target_pct": 41.7
+      },
+      "10": {
+       "n": 22,
+       "gross": 12861.3,
+       "net": 11981.3,
+       "gross_exp": 584.6,
+       "win_pct": 54.5,
+       "target_pct": 40.9
+      }
+     }
+    }
+   }
+  }
+ },
+ "overlap_T125": {
+  "INV1|INV2": {
+   "shared": 527,
+   "union": 730,
+   "jaccard": 0.722,
+   "shared_pct_of_smaller": 93.6
+  },
+  "INV1|INV3": {
+   "shared": 321,
+   "union": 808,
+   "jaccard": 0.397,
+   "shared_pct_of_smaller": 73.8
+  },
+  "INV2|INV3": {
+   "shared": 253,
+   "union": 745,
+   "jaccard": 0.34,
+   "shared_pct_of_smaller": 58.2
+  },
+  "all_three_shared": 235,
+  "sizes": {
+   "INV1": 694,
+   "INV2": 563,
+   "INV3": 435
+  }
+ }
+}

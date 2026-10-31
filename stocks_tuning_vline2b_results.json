@@ -1,0 +1,2262 @@
+{
+ "VALIDATE": {
+  "pass": true,
+  "got": {
+   "chains": 424,
+   "trades": 698,
+   "net": 84671.74,
+   "jm": 52884.19,
+   "jm_ch": 272,
+   "jo": 31787.55,
+   "jo_ch": 152,
+   "oct": 16825.42,
+   "win": 55.0,
+   "breadth": 16,
+   "direct_n": 424,
+   "direct_net": 93575.31,
+   "reent_n": 274,
+   "reent_net": -8903.57
+  },
+  "expected": {
+   "chains": 424,
+   "trades": 698,
+   "net": 84671.74,
+   "jm": 52884.19,
+   "jm_ch": 272,
+   "jo": 31787.55,
+   "jo_ch": 152,
+   "oct": 16825.42,
+   "win": 55.0,
+   "breadth": 16,
+   "direct_n": 424,
+   "direct_net": 93575.31,
+   "reent_n": 274,
+   "reent_net": -8903.57
+  }
+ },
+ "FROZEN": {
+  "chains": 424,
+  "trades": 698,
+  "net": 84671.74,
+  "chain_win_pct": 55.0,
+  "exp_per_chain": 199.7,
+  "jan_may": {
+   "chains": 272,
+   "chain_net": 52884.19,
+   "chain_win_pct": 55.1,
+   "exp_per_chain": 194.43,
+   "trades": 459
+  },
+  "jun_oct": {
+   "chains": 152,
+   "chain_net": 31787.55,
+   "chain_win_pct": 54.6,
+   "exp_per_chain": 209.13,
+   "trades": 239
+  },
+  "october": {
+   "chains": 48,
+   "chain_net": 16825.42,
+   "chain_win_pct": 64.6,
+   "exp_per_chain": 350.53,
+   "trades": 77
+  },
+  "breadth": 16,
+  "top3_share_pct": 60.7,
+  "per_stock": {
+   "GODREJCP": 4594.75,
+   "GLENMARK": 24621.2,
+   "ITC": 1183.18,
+   "RECLTD": 2082.57,
+   "TVSMOTOR": 10867.44,
+   "UNITDSPR": -1244.01,
+   "OBEROIRLTY": 5354.72,
+   "NTPC": -66.86,
+   "INDUSTOWER": 438.52,
+   "KALYANKJIL": -3985.46,
+   "HDFCBANK": -31.13,
+   "NHPC": -844.1,
+   "PFC": 3549.13,
+   "IRCTC": 1393.86,
+   "WIPRO": 379.52,
+   "NATIONALUM": -166.99,
+   "VEDL": -2594.49,
+   "HINDCOPPER": -1441.51,
+   "HINDZINC": 1452.28,
+   "HINDALCO": 5032.83,
+   "TATASTEEL": -6.15,
+   "ASTRAL": 6635.21,
+   "BDL": 15870.19,
+   "OIL": 1155.5,
+   "HINDUNILVR": 10441.54
+  },
+  "best5": [
+   [
+    24621.2,
+    "GLENMARK",
+    21
+   ],
+   [
+    15870.19,
+    "BDL",
+    40
+   ],
+   [
+    10867.44,
+    "TVSMOTOR",
+    10
+   ],
+   [
+    10441.54,
+    "HINDUNILVR",
+    7
+   ],
+   [
+    6635.21,
+    "ASTRAL",
+    15
+   ]
+  ],
+  "worst5": [
+   [
+    -844.1,
+    "NHPC",
+    12
+   ],
+   [
+    -1244.01,
+    "UNITDSPR",
+    12
+   ],
+   [
+    -1441.51,
+    "HINDCOPPER",
+    27
+   ],
+   [
+    -2594.49,
+    "VEDL",
+    25
+   ],
+   [
+    -3985.46,
+    "KALYANKJIL",
+    47
+   ]
+  ],
+  "direct_leg": {
+   "trades": 424,
+   "net": 93575.31,
+   "win_pct": 45.0,
+   "exp": 220.7,
+   "gross_exp": 260.7,
+   "gross": 110535.31
+  },
+  "reentry_leg": {
+   "trades": 274,
+   "net": -8903.57,
+   "win_pct": 30.7,
+   "exp": -32.49,
+   "gross_exp": 7.51,
+   "gross": 2056.43
+  },
+  "long": {
+   "trades": 299,
+   "net": 32490.18,
+   "win_pct": 37.5,
+   "exp": 108.66,
+   "gross_exp": 148.66,
+   "gross": 44450.18
+  },
+  "short": {
+   "trades": 399,
+   "net": 52181.56,
+   "win_pct": 40.9,
+   "exp": 130.78,
+   "gross_exp": 170.78,
+   "gross": 68141.56
+  }
+ },
+ "R1": {
+  "T075": {
+   "chains": 746,
+   "trades": 1175,
+   "net": 123874.0,
+   "chain_win_pct": 51.6,
+   "exp_per_chain": 166.05,
+   "jan_may": {
+    "chains": 448,
+    "chain_net": 75516.44,
+    "chain_win_pct": 52.5,
+    "exp_per_chain": 168.56,
+    "trades": 720
+   },
+   "jun_oct": {
+    "chains": 298,
+    "chain_net": 48357.56,
+    "chain_win_pct": 50.3,
+    "exp_per_chain": 162.27,
+    "trades": 455
+   },
+   "october": {
+    "chains": 86,
+    "chain_net": 34413.24,
+    "chain_win_pct": 60.5,
+    "exp_per_chain": 400.15,
+    "trades": 137
+   },
+   "breadth": 17,
+   "top3_share_pct": 59.9,
+   "per_stock": {
+    "GODREJCP": 5150.08,
+    "GLENMARK": 19096.72,
+    "ITC": 1453.3,
+    "RECLTD": 800.05,
+    "TVSMOTOR": 28079.72,
+    "UNITDSPR": -1270.96,
+    "OBEROIRLTY": 2096.87,
+    "NTPC": 1841.21,
+    "INDUSTOWER": 3711.07,
+    "KALYANKJIL": -387.18,
+    "HDFCBANK": 1605.1,
+    "NHPC": -1226.63,
+    "PFC": 5712.98,
+    "IRCTC": 799.71,
+    "WIPRO": 987.11,
+    "NATIONALUM": -679.85,
+    "VEDL": -3302.35,
+    "HINDCOPPER": 1876.88,
+    "HINDZINC": -183.87,
+    "HINDALCO": 6349.81,
+    "TATASTEEL": -321.04,
+    "ASTRAL": 17696.95,
+    "BDL": 27035.16,
+    "OIL": -223.8,
+    "HINDUNILVR": 7176.96
+   },
+   "best5": [
+    [
+     28079.72,
+     "TVSMOTOR",
+     20
+    ],
+    [
+     27035.16,
+     "BDL",
+     53
+    ],
+    [
+     19096.72,
+     "GLENMARK",
+     40
+    ],
+    [
+     17696.95,
+     "ASTRAL",
+     31
+    ],
+    [
+     7176.96,
+     "HINDUNILVR",
+     13
+    ]
+   ],
+   "worst5": [
+    [
+     -387.18,
+     "KALYANKJIL",
+     70
+    ],
+    [
+     -679.85,
+     "NATIONALUM",
+     53
+    ],
+    [
+     -1226.63,
+     "NHPC",
+     24
+    ],
+    [
+     -1270.96,
+     "UNITDSPR",
+     20
+    ],
+    [
+     -3302.35,
+     "VEDL",
+     42
+    ]
+   ],
+   "direct_leg": {
+    "trades": 746,
+    "net": 114871.57,
+    "win_pct": 43.3,
+    "exp": 153.98,
+    "gross_exp": 193.98,
+    "gross": 144711.57
+   },
+   "reentry_leg": {
+    "trades": 429,
+    "net": 9002.43,
+    "win_pct": 33.6,
+    "exp": 20.98,
+    "gross_exp": 60.98,
+    "gross": 26162.43
+   },
+   "long": {
+    "trades": 488,
+    "net": 41594.62,
+    "win_pct": 37.7,
+    "exp": 85.23,
+    "gross_exp": 125.23,
+    "gross": 61114.62
+   },
+   "short": {
+    "trades": 687,
+    "net": 82279.38,
+    "win_pct": 41.2,
+    "exp": 119.77,
+    "gross_exp": 159.77,
+    "gross": 109759.38
+   }
+  },
+  "T125": {
+   "chains": 238,
+   "trades": 407,
+   "net": 59425.91,
+   "chain_win_pct": 59.2,
+   "exp_per_chain": 249.69,
+   "jan_may": {
+    "chains": 158,
+    "chain_net": 37865.63,
+    "chain_win_pct": 58.2,
+    "exp_per_chain": 239.66,
+    "trades": 274
+   },
+   "jun_oct": {
+    "chains": 80,
+    "chain_net": 21560.28,
+    "chain_win_pct": 61.2,
+    "exp_per_chain": 269.5,
+    "trades": 133
+   },
+   "october": {
+    "chains": 27,
+    "chain_net": 15180.82,
+    "chain_win_pct": 66.7,
+    "exp_per_chain": 562.25,
+    "trades": 46
+   },
+   "breadth": 19,
+   "top3_share_pct": 69.5,
+   "per_stock": {
+    "GODREJCP": 938.42,
+    "GLENMARK": 17925.18,
+    "ITC": 1183.18,
+    "RECLTD": 945.4,
+    "TVSMOTOR": 8709.97,
+    "UNITDSPR": -1462.08,
+    "OBEROIRLTY": 5520.65,
+    "NTPC": 87.97,
+    "INDUSTOWER": 727.26,
+    "KALYANKJIL": -2549.88,
+    "NHPC": -517.45,
+    "PFC": 1136.78,
+    "IRCTC": -539.63,
+    "WIPRO": 76.08,
+    "NATIONALUM": 1690.9,
+    "VEDL": 323.63,
+    "HINDCOPPER": -900.18,
+    "HINDZINC": 826.18,
+    "HINDALCO": 2618.96,
+    "TATASTEEL": 601.31,
+    "ASTRAL": 2438.43,
+    "BDL": 14670.11,
+    "OIL": 2286.27,
+    "HINDUNILVR": 2688.45
+   },
+   "best5": [
+    [
+     17925.18,
+     "GLENMARK",
+     11
+    ],
+    [
+     14670.11,
+     "BDL",
+     28
+    ],
+    [
+     8709.97,
+     "TVSMOTOR",
+     5
+    ],
+    [
+     5520.65,
+     "OBEROIRLTY",
+     5
+    ],
+    [
+     2688.45,
+     "HINDUNILVR",
+     2
+    ]
+   ],
+   "worst5": [
+    [
+     -517.45,
+     "NHPC",
+     6
+    ],
+    [
+     -539.63,
+     "IRCTC",
+     6
+    ],
+    [
+     -900.18,
+     "HINDCOPPER",
+     18
+    ],
+    [
+     -1462.08,
+     "UNITDSPR",
+     6
+    ],
+    [
+     -2549.88,
+     "KALYANKJIL",
+     23
+    ]
+   ],
+   "direct_leg": {
+    "trades": 238,
+    "net": 67984.32,
+    "win_pct": 48.3,
+    "exp": 285.65,
+    "gross_exp": 325.65,
+    "gross": 77504.32
+   },
+   "reentry_leg": {
+    "trades": 169,
+    "net": -8558.41,
+    "win_pct": 31.4,
+    "exp": -50.64,
+    "gross_exp": -10.64,
+    "gross": -1798.41
+   },
+   "long": {
+    "trades": 185,
+    "net": 28029.63,
+    "win_pct": 40.5,
+    "exp": 151.51,
+    "gross_exp": 191.51,
+    "gross": 35429.63
+   },
+   "short": {
+    "trades": 222,
+    "net": 31396.28,
+    "win_pct": 41.9,
+    "exp": 141.42,
+    "gross_exp": 181.42,
+    "gross": 40276.28
+   }
+  },
+  "T150": {
+   "chains": 131,
+   "trades": 234,
+   "net": 43671.22,
+   "chain_win_pct": 64.1,
+   "exp_per_chain": 333.37,
+   "jan_may": {
+    "chains": 89,
+    "chain_net": 31623.98,
+    "chain_win_pct": 67.4,
+    "exp_per_chain": 355.33,
+    "trades": 159
+   },
+   "jun_oct": {
+    "chains": 42,
+    "chain_net": 12047.24,
+    "chain_win_pct": 57.1,
+    "exp_per_chain": 286.84,
+    "trades": 75
+   },
+   "october": {
+    "chains": 16,
+    "chain_net": 7370.31,
+    "chain_win_pct": 62.5,
+    "exp_per_chain": 460.64,
+    "trades": 29
+   },
+   "breadth": 19,
+   "top3_share_pct": 60.5,
+   "per_stock": {
+    "GODREJCP": 703.37,
+    "GLENMARK": 10576.53,
+    "ITC": 868.18,
+    "RECLTD": 1916.65,
+    "TVSMOTOR": 7452.29,
+    "UNITDSPR": 1324.27,
+    "OBEROIRLTY": 3403.93,
+    "INDUSTOWER": 1538.44,
+    "KALYANKJIL": -1942.73,
+    "NHPC": -360.56,
+    "PFC": 1095.39,
+    "IRCTC": 326.92,
+    "WIPRO": 168.6,
+    "NATIONALUM": 1265.22,
+    "VEDL": 199.89,
+    "HINDCOPPER": -805.53,
+    "HINDZINC": 532.73,
+    "HINDALCO": 4886.84,
+    "TATASTEEL": 347.53,
+    "ASTRAL": 700.2,
+    "BDL": 8394.02,
+    "OIL": 1079.04
+   },
+   "best5": [
+    [
+     10576.53,
+     "GLENMARK",
+     6
+    ],
+    [
+     8394.02,
+     "BDL",
+     17
+    ],
+    [
+     7452.29,
+     "TVSMOTOR",
+     3
+    ],
+    [
+     4886.84,
+     "HINDALCO",
+     5
+    ],
+    [
+     3403.93,
+     "OBEROIRLTY",
+     3
+    ]
+   ],
+   "worst5": [
+    [
+     199.89,
+     "VEDL",
+     7
+    ],
+    [
+     168.6,
+     "WIPRO",
+     1
+    ],
+    [
+     -360.56,
+     "NHPC",
+     4
+    ],
+    [
+     -805.53,
+     "HINDCOPPER",
+     11
+    ],
+    [
+     -1942.73,
+     "KALYANKJIL",
+     16
+    ]
+   ],
+   "direct_leg": {
+    "trades": 131,
+    "net": 49338.15,
+    "win_pct": 51.9,
+    "exp": 376.63,
+    "gross_exp": 416.63,
+    "gross": 54578.15
+   },
+   "reentry_leg": {
+    "trades": 103,
+    "net": -5666.93,
+    "win_pct": 33.0,
+    "exp": -55.02,
+    "gross_exp": -15.02,
+    "gross": -1546.93
+   },
+   "long": {
+    "trades": 110,
+    "net": 23284.06,
+    "win_pct": 42.7,
+    "exp": 211.67,
+    "gross_exp": 251.67,
+    "gross": 27684.06
+   },
+   "short": {
+    "trades": 124,
+    "net": 20387.16,
+    "win_pct": 44.4,
+    "exp": 164.41,
+    "gross_exp": 204.41,
+    "gross": 25347.16
+   }
+  },
+  "T100_frozen": {
+   "chains": 424,
+   "trades": 698,
+   "net": 84671.74,
+   "chain_win_pct": 55.0,
+   "exp_per_chain": 199.7,
+   "jan_may": {
+    "chains": 272,
+    "chain_net": 52884.19,
+    "chain_win_pct": 55.1,
+    "exp_per_chain": 194.43,
+    "trades": 459
+   },
+   "jun_oct": {
+    "chains": 152,
+    "chain_net": 31787.55,
+    "chain_win_pct": 54.6,
+    "exp_per_chain": 209.13,
+    "trades": 239
+   },
+   "october": {
+    "chains": 48,
+    "chain_net": 16825.42,
+    "chain_win_pct": 64.6,
+    "exp_per_chain": 350.53,
+    "trades": 77
+   },
+   "breadth": 16,
+   "top3_share_pct": 60.7,
+   "per_stock": {
+    "GODREJCP": 4594.75,
+    "GLENMARK": 24621.2,
+    "ITC": 1183.18,
+    "RECLTD": 2082.57,
+    "TVSMOTOR": 10867.44,
+    "UNITDSPR": -1244.01,
+    "OBEROIRLTY": 5354.72,
+    "NTPC": -66.86,
+    "INDUSTOWER": 438.52,
+    "KALYANKJIL": -3985.46,
+    "HDFCBANK": -31.13,
+    "NHPC": -844.1,
+    "PFC": 3549.13,
+    "IRCTC": 1393.86,
+    "WIPRO": 379.52,
+    "NATIONALUM": -166.99,
+    "VEDL": -2594.49,
+    "HINDCOPPER": -1441.51,
+    "HINDZINC": 1452.28,
+    "HINDALCO": 5032.83,
+    "TATASTEEL": -6.15,
+    "ASTRAL": 6635.21,
+    "BDL": 15870.19,
+    "OIL": 1155.5,
+    "HINDUNILVR": 10441.54
+   },
+   "best5": [
+    [
+     24621.2,
+     "GLENMARK",
+     21
+    ],
+    [
+     15870.19,
+     "BDL",
+     40
+    ],
+    [
+     10867.44,
+     "TVSMOTOR",
+     10
+    ],
+    [
+     10441.54,
+     "HINDUNILVR",
+     7
+    ],
+    [
+     6635.21,
+     "ASTRAL",
+     15
+    ]
+   ],
+   "worst5": [
+    [
+     -844.1,
+     "NHPC",
+     12
+    ],
+    [
+     -1244.01,
+     "UNITDSPR",
+     12
+    ],
+    [
+     -1441.51,
+     "HINDCOPPER",
+     27
+    ],
+    [
+     -2594.49,
+     "VEDL",
+     25
+    ],
+    [
+     -3985.46,
+     "KALYANKJIL",
+     47
+    ]
+   ],
+   "direct_leg": {
+    "trades": 424,
+    "net": 93575.31,
+    "win_pct": 45.0,
+    "exp": 220.7,
+    "gross_exp": 260.7,
+    "gross": 110535.31
+   },
+   "reentry_leg": {
+    "trades": 274,
+    "net": -8903.57,
+    "win_pct": 30.7,
+    "exp": -32.49,
+    "gross_exp": 7.51,
+    "gross": 2056.43
+   },
+   "long": {
+    "trades": 299,
+    "net": 32490.18,
+    "win_pct": 37.5,
+    "exp": 108.66,
+    "gross_exp": 148.66,
+    "gross": 44450.18
+   },
+   "short": {
+    "trades": 399,
+    "net": 52181.56,
+    "win_pct": 40.9,
+    "exp": 130.78,
+    "gross_exp": 170.78,
+    "gross": 68141.56
+   }
+  }
+ },
+ "R2": {
+  "long_only": {
+   "chains": 182,
+   "trades": 305,
+   "net": 33616.07,
+   "chain_win_pct": 53.8,
+   "exp_per_chain": 184.7,
+   "jan_may": {
+    "chains": 109,
+    "chain_net": 24608.71,
+    "chain_win_pct": 54.1,
+    "exp_per_chain": 225.77,
+    "trades": 186
+   },
+   "jun_oct": {
+    "chains": 73,
+    "chain_net": 9007.36,
+    "chain_win_pct": 53.4,
+    "exp_per_chain": 123.39,
+    "trades": 119
+   },
+   "october": {
+    "chains": 24,
+    "chain_net": 2463.11,
+    "chain_win_pct": 50.0,
+    "exp_per_chain": 102.63,
+    "trades": 40
+   },
+   "breadth": 15,
+   "top3_share_pct": 89.3,
+   "per_stock": {
+    "GODREJCP": 934.65,
+    "GLENMARK": 18536.27,
+    "ITC": -10.32,
+    "RECLTD": -479.61,
+    "TVSMOTOR": 3579.72,
+    "UNITDSPR": -888.21,
+    "OBEROIRLTY": -4342.42,
+    "NTPC": -66.86,
+    "INDUSTOWER": 258.77,
+    "KALYANKJIL": -1428.66,
+    "HDFCBANK": -998.57,
+    "NHPC": -366.05,
+    "PFC": 879.22,
+    "IRCTC": 820.58,
+    "WIPRO": 135.16,
+    "NATIONALUM": 1127.83,
+    "VEDL": -3115.72,
+    "HINDCOPPER": 759.73,
+    "HINDZINC": 2449.65,
+    "HINDALCO": 1482.08,
+    "TATASTEEL": 14.86,
+    "ASTRAL": 3603.93,
+    "BDL": 4539.08,
+    "OIL": -746.86,
+    "HINDUNILVR": 6937.82
+   },
+   "best5": [
+    [
+     18536.27,
+     "GLENMARK",
+     11
+    ],
+    [
+     6937.82,
+     "HINDUNILVR",
+     4
+    ],
+    [
+     4539.08,
+     "BDL",
+     18
+    ],
+    [
+     3603.93,
+     "ASTRAL",
+     6
+    ],
+    [
+     3579.72,
+     "TVSMOTOR",
+     3
+    ]
+   ],
+   "worst5": [
+    [
+     -888.21,
+     "UNITDSPR",
+     7
+    ],
+    [
+     -998.57,
+     "HDFCBANK",
+     1
+    ],
+    [
+     -1428.66,
+     "KALYANKJIL",
+     15
+    ],
+    [
+     -3115.72,
+     "VEDL",
+     10
+    ],
+    [
+     -4342.42,
+     "OBEROIRLTY",
+     7
+    ]
+   ],
+   "direct_leg": {
+    "trades": 182,
+    "net": 44834.04,
+    "win_pct": 45.6,
+    "exp": 246.34,
+    "gross_exp": 286.34,
+    "gross": 52114.04
+   },
+   "reentry_leg": {
+    "trades": 123,
+    "net": -11217.97,
+    "win_pct": 26.0,
+    "exp": -91.2,
+    "gross_exp": -51.2,
+    "gross": -6297.97
+   },
+   "long": {
+    "trades": 305,
+    "net": 33616.07,
+    "win_pct": 37.7,
+    "exp": 110.22,
+    "gross_exp": 150.22,
+    "gross": 45816.07
+   },
+   "short": {
+    "trades": 0,
+    "net": 0.0,
+    "win_pct": 0.0,
+    "exp": 0.0,
+    "gross_exp": 0.0,
+    "gross": 0.0
+   }
+  },
+  "short_only": {
+   "chains": 253,
+   "trades": 403,
+   "net": 52368.42,
+   "chain_win_pct": 54.5,
+   "exp_per_chain": 206.99,
+   "jan_may": {
+    "chains": 171,
+    "chain_net": 28463.89,
+    "chain_win_pct": 53.8,
+    "exp_per_chain": 166.46,
+    "trades": 280
+   },
+   "jun_oct": {
+    "chains": 82,
+    "chain_net": 23904.53,
+    "chain_win_pct": 56.1,
+    "exp_per_chain": 291.52,
+    "trades": 123
+   },
+   "october": {
+    "chains": 24,
+    "chain_net": 14362.31,
+    "chain_win_pct": 79.2,
+    "exp_per_chain": 598.43,
+    "trades": 37
+   },
+   "breadth": 17,
+   "top3_share_pct": 55.0,
+   "per_stock": {
+    "GODREJCP": 3710.1,
+    "GLENMARK": 6084.93,
+    "ITC": 1193.5,
+    "RECLTD": 2562.18,
+    "TVSMOTOR": 7287.72,
+    "UNITDSPR": -355.8,
+    "OBEROIRLTY": 9697.14,
+    "INDUSTOWER": 179.75,
+    "KALYANKJIL": -2818.16,
+    "HDFCBANK": 967.44,
+    "NHPC": -478.05,
+    "PFC": 2669.91,
+    "IRCTC": 573.28,
+    "WIPRO": 244.36,
+    "NATIONALUM": -1762.59,
+    "VEDL": -231.54,
+    "HINDCOPPER": -1561.8,
+    "HINDZINC": 622.94,
+    "HINDALCO": 3550.75,
+    "TATASTEEL": -21.01,
+    "ASTRAL": 3031.28,
+    "BDL": 11816.01,
+    "OIL": 1902.36,
+    "HINDUNILVR": 3503.72
+   },
+   "best5": [
+    [
+     11816.01,
+     "BDL",
+     26
+    ],
+    [
+     9697.14,
+     "OBEROIRLTY",
+     7
+    ],
+    [
+     7287.72,
+     "TVSMOTOR",
+     7
+    ],
+    [
+     6084.93,
+     "GLENMARK",
+     10
+    ],
+    [
+     3710.1,
+     "GODREJCP",
+     9
+    ]
+   ],
+   "worst5": [
+    [
+     -355.8,
+     "UNITDSPR",
+     5
+    ],
+    [
+     -478.05,
+     "NHPC",
+     8
+    ],
+    [
+     -1561.8,
+     "HINDCOPPER",
+     18
+    ],
+    [
+     -1762.59,
+     "NATIONALUM",
+     20
+    ],
+    [
+     -2818.16,
+     "KALYANKJIL",
+     33
+    ]
+   ],
+   "direct_leg": {
+    "trades": 253,
+    "net": 54484.51,
+    "win_pct": 45.5,
+    "exp": 215.35,
+    "gross_exp": 255.35,
+    "gross": 64604.51
+   },
+   "reentry_leg": {
+    "trades": 150,
+    "net": -2116.09,
+    "win_pct": 32.7,
+    "exp": -14.11,
+    "gross_exp": 25.89,
+    "gross": 3883.91
+   },
+   "long": {
+    "trades": 0,
+    "net": 0.0,
+    "win_pct": 0.0,
+    "exp": 0.0,
+    "gross_exp": 0.0,
+    "gross": 0.0
+   },
+   "short": {
+    "trades": 403,
+    "net": 52368.42,
+    "win_pct": 40.7,
+    "exp": 129.95,
+    "gross_exp": 169.95,
+    "gross": 68488.42
+   }
+  },
+  "frozen_trade_level_long": {
+   "trades": 299,
+   "net": 32490.18,
+   "win_pct": 37.5,
+   "exp": 108.66,
+   "gross_exp": 148.66,
+   "gross": 44450.18
+  },
+  "frozen_trade_level_short": {
+   "trades": 399,
+   "net": 52181.56,
+   "win_pct": 40.9,
+   "exp": 130.78,
+   "gross_exp": 170.78,
+   "gross": 68141.56
+  },
+  "mover_up": {
+   "chains": 203,
+   "trades": 339,
+   "net": 25858.86,
+   "chain_win_pct": 51.7,
+   "exp_per_chain": 127.38,
+   "jan_may": {
+    "chains": 116,
+    "chain_net": 22684.55,
+    "chain_win_pct": 54.3,
+    "exp_per_chain": 195.56,
+    "trades": 200
+   },
+   "jun_oct": {
+    "chains": 87,
+    "chain_net": 3174.31,
+    "chain_win_pct": 48.3,
+    "exp_per_chain": 36.49,
+    "trades": 139
+   },
+   "october": {
+    "chains": 26,
+    "chain_net": 2403.48,
+    "chain_win_pct": 50.0,
+    "exp_per_chain": 92.44,
+    "trades": 42
+   },
+   "breadth": 13,
+   "top3_share_pct": 106.4,
+   "per_stock": {
+    "GODREJCP": 247.4,
+    "GLENMARK": 15171.02,
+    "ITC": -10.32,
+    "RECLTD": -479.61,
+    "TVSMOTOR": 3579.72,
+    "UNITDSPR": -888.21,
+    "OBEROIRLTY": -3354.97,
+    "NTPC": -66.86,
+    "INDUSTOWER": 32.05,
+    "KALYANKJIL": -2387.66,
+    "HDFCBANK": -998.57,
+    "NHPC": -366.05,
+    "PFC": 912.53,
+    "IRCTC": 988.18,
+    "WIPRO": 135.16,
+    "NATIONALUM": 1136.61,
+    "VEDL": -3498.8,
+    "HINDCOPPER": -1466.42,
+    "HINDZINC": -393.53,
+    "HINDALCO": 1482.08,
+    "TATASTEEL": 14.86,
+    "ASTRAL": 3847.18,
+    "BDL": 5412.78,
+    "OIL": -127.53,
+    "HINDUNILVR": 6937.82
+   },
+   "best5": [
+    [
+     15171.02,
+     "GLENMARK",
+     14
+    ],
+    [
+     6937.82,
+     "HINDUNILVR",
+     4
+    ],
+    [
+     5412.78,
+     "BDL",
+     17
+    ],
+    [
+     3847.18,
+     "ASTRAL",
+     9
+    ],
+    [
+     3579.72,
+     "TVSMOTOR",
+     3
+    ]
+   ],
+   "worst5": [
+    [
+     -998.57,
+     "HDFCBANK",
+     1
+    ],
+    [
+     -1466.42,
+     "HINDCOPPER",
+     11
+    ],
+    [
+     -2387.66,
+     "KALYANKJIL",
+     23
+    ],
+    [
+     -3354.97,
+     "OBEROIRLTY",
+     8
+    ],
+    [
+     -3498.8,
+     "VEDL",
+     11
+    ]
+   ],
+   "direct_leg": {
+    "trades": 203,
+    "net": 35107.86,
+    "win_pct": 41.4,
+    "exp": 172.95,
+    "gross_exp": 212.95,
+    "gross": 43227.86
+   },
+   "reentry_leg": {
+    "trades": 136,
+    "net": -9249.0,
+    "win_pct": 27.9,
+    "exp": -68.01,
+    "gross_exp": -28.01,
+    "gross": -3809.0
+   },
+   "long": {
+    "trades": 286,
+    "net": 34034.12,
+    "win_pct": 38.1,
+    "exp": 119.0,
+    "gross_exp": 159.0,
+    "gross": 45474.12
+   },
+   "short": {
+    "trades": 53,
+    "net": -8175.26,
+    "win_pct": 24.5,
+    "exp": -154.25,
+    "gross_exp": -114.25,
+    "gross": -6055.26
+   }
+  },
+  "mover_down": {
+   "chains": 221,
+   "trades": 359,
+   "net": 58812.88,
+   "chain_win_pct": 57.9,
+   "exp_per_chain": 266.12,
+   "jan_may": {
+    "chains": 156,
+    "chain_net": 30199.64,
+    "chain_win_pct": 55.8,
+    "exp_per_chain": 193.59,
+    "trades": 259
+   },
+   "jun_oct": {
+    "chains": 65,
+    "chain_net": 28613.24,
+    "chain_win_pct": 63.1,
+    "exp_per_chain": 440.2,
+    "trades": 100
+   },
+   "october": {
+    "chains": 22,
+    "chain_net": 14421.94,
+    "chain_win_pct": 81.8,
+    "exp_per_chain": 655.54,
+    "trades": 35
+   },
+   "breadth": 19,
+   "top3_share_pct": 48.7,
+   "per_stock": {
+    "GODREJCP": 4347.35,
+    "GLENMARK": 9450.18,
+    "ITC": 1193.5,
+    "RECLTD": 2562.18,
+    "TVSMOTOR": 7287.72,
+    "UNITDSPR": -355.8,
+    "OBEROIRLTY": 8709.69,
+    "INDUSTOWER": 406.47,
+    "KALYANKJIL": -1597.8,
+    "HDFCBANK": 967.44,
+    "NHPC": -478.05,
+    "PFC": 2636.6,
+    "IRCTC": 405.68,
+    "WIPRO": 244.36,
+    "NATIONALUM": -1303.6,
+    "VEDL": 904.31,
+    "HINDCOPPER": 24.91,
+    "HINDZINC": 1845.81,
+    "HINDALCO": 3550.75,
+    "TATASTEEL": -21.01,
+    "ASTRAL": 2788.03,
+    "BDL": 10457.41,
+    "OIL": 1283.03,
+    "HINDUNILVR": 3503.72
+   },
+   "best5": [
+    [
+     10457.41,
+     "BDL",
+     23
+    ],
+    [
+     9450.18,
+     "GLENMARK",
+     7
+    ],
+    [
+     8709.69,
+     "OBEROIRLTY",
+     6
+    ],
+    [
+     7287.72,
+     "TVSMOTOR",
+     7
+    ],
+    [
+     4347.35,
+     "GODREJCP",
+     8
+    ]
+   ],
+   "worst5": [
+    [
+     -21.01,
+     "TATASTEEL",
+     5
+    ],
+    [
+     -355.8,
+     "UNITDSPR",
+     5
+    ],
+    [
+     -478.05,
+     "NHPC",
+     8
+    ],
+    [
+     -1303.6,
+     "NATIONALUM",
+     18
+    ],
+    [
+     -1597.8,
+     "KALYANKJIL",
+     24
+    ]
+   ],
+   "direct_leg": {
+    "trades": 221,
+    "net": 58467.45,
+    "win_pct": 48.4,
+    "exp": 264.56,
+    "gross_exp": 304.56,
+    "gross": 67307.45
+   },
+   "reentry_leg": {
+    "trades": 138,
+    "net": 345.43,
+    "win_pct": 33.3,
+    "exp": 2.5,
+    "gross_exp": 42.5,
+    "gross": 5865.43
+   },
+   "long": {
+    "trades": 13,
+    "net": -1543.94,
+    "win_pct": 23.1,
+    "exp": -118.76,
+    "gross_exp": -78.76,
+    "gross": -1023.94
+   },
+   "short": {
+    "trades": 346,
+    "net": 60356.82,
+    "win_pct": 43.4,
+    "exp": 174.44,
+    "gross_exp": 214.44,
+    "gross": 74196.82
+   }
+  }
+ },
+ "R3": {
+  "per_stock_ranked": [
+   [
+    "GLENMARK",
+    24621.2
+   ],
+   [
+    "BDL",
+    15870.19
+   ],
+   [
+    "TVSMOTOR",
+    10867.44
+   ],
+   [
+    "HINDUNILVR",
+    10441.54
+   ],
+   [
+    "ASTRAL",
+    6635.21
+   ],
+   [
+    "OBEROIRLTY",
+    5354.72
+   ],
+   [
+    "HINDALCO",
+    5032.83
+   ],
+   [
+    "GODREJCP",
+    4594.75
+   ],
+   [
+    "PFC",
+    3549.13
+   ],
+   [
+    "RECLTD",
+    2082.57
+   ],
+   [
+    "HINDZINC",
+    1452.28
+   ],
+   [
+    "IRCTC",
+    1393.86
+   ],
+   [
+    "ITC",
+    1183.18
+   ],
+   [
+    "OIL",
+    1155.5
+   ],
+   [
+    "INDUSTOWER",
+    438.52
+   ],
+   [
+    "WIPRO",
+    379.52
+   ],
+   [
+    "TATASTEEL",
+    -6.15
+   ],
+   [
+    "HDFCBANK",
+    -31.13
+   ],
+   [
+    "NTPC",
+    -66.86
+   ],
+   [
+    "NATIONALUM",
+    -166.99
+   ],
+   [
+    "NHPC",
+    -844.1
+   ],
+   [
+    "UNITDSPR",
+    -1244.01
+   ],
+   [
+    "HINDCOPPER",
+    -1441.51
+   ],
+   [
+    "VEDL",
+    -2594.49
+   ],
+   [
+    "KALYANKJIL",
+    -3985.46
+   ]
+  ],
+  "top3": [
+   "GLENMARK",
+   "BDL",
+   "TVSMOTOR"
+  ],
+  "top3_net": 51358.83,
+  "top3_share_pct": 60.7,
+  "excluding_top3": {
+   "total": 33312.91,
+   "jan_may": 21263.11,
+   "jun_oct": 12049.8
+  },
+  "winsorised_2000_total": 15622.16,
+  "months": {
+   "2026-01": {
+    "chains": 56,
+    "trades": 97,
+    "net": -216.47,
+    "cum_net": -216.47
+   },
+   "2026-02": {
+    "chains": 49,
+    "trades": 85,
+    "net": 3786.64,
+    "cum_net": 3570.17
+   },
+   "2026-04": {
+    "chains": 52,
+    "trades": 87,
+    "net": 25718.06,
+    "cum_net": 49943.1
+   },
+   "2026-05": {
+    "chains": 53,
+    "trades": 89,
+    "net": 2941.09,
+    "cum_net": 52884.19
+   },
+   "2026-06": {
+    "chains": 27,
+    "trades": 39,
+    "net": 7710.64,
+    "cum_net": 60594.83
+   },
+   "2026-08": {
+    "chains": 28,
+    "trades": 47,
+    "net": 2124.34,
+    "cum_net": 70118.4
+   },
+   "2026-10": {
+    "chains": 48,
+    "trades": 77,
+    "net": 16825.42,
+    "cum_net": 84671.74
+   },
+   "2026-03": {
+    "chains": 62,
+    "trades": 101,
+    "net": 20654.87,
+    "cum_net": 24225.04
+   },
+   "2026-07": {
+    "chains": 32,
+    "trades": 53,
+    "net": 7399.23,
+    "cum_net": 67994.06
+   },
+   "2026-09": {
+    "chains": 17,
+    "trades": 23,
+    "net": -2272.08,
+    "cum_net": 67846.32
+   }
+  },
+  "worst_month": [
+   "2026-09",
+   -2272.08
+  ]
+ },
+ "R4": {
+  "10:00_frozen": {
+   "chains": 424,
+   "trades": 698,
+   "net": 84671.74,
+   "chain_win_pct": 55.0,
+   "exp_per_chain": 199.7,
+   "jan_may": {
+    "chains": 272,
+    "chain_net": 52884.19,
+    "chain_win_pct": 55.1,
+    "exp_per_chain": 194.43,
+    "trades": 459
+   },
+   "jun_oct": {
+    "chains": 152,
+    "chain_net": 31787.55,
+    "chain_win_pct": 54.6,
+    "exp_per_chain": 209.13,
+    "trades": 239
+   },
+   "october": {
+    "chains": 48,
+    "chain_net": 16825.42,
+    "chain_win_pct": 64.6,
+    "exp_per_chain": 350.53,
+    "trades": 77
+   },
+   "breadth": 16,
+   "top3_share_pct": 60.7,
+   "per_stock": {
+    "GODREJCP": 4594.75,
+    "GLENMARK": 24621.2,
+    "ITC": 1183.18,
+    "RECLTD": 2082.57,
+    "TVSMOTOR": 10867.44,
+    "UNITDSPR": -1244.01,
+    "OBEROIRLTY": 5354.72,
+    "NTPC": -66.86,
+    "INDUSTOWER": 438.52,
+    "KALYANKJIL": -3985.46,
+    "HDFCBANK": -31.13,
+    "NHPC": -844.1,
+    "PFC": 3549.13,
+    "IRCTC": 1393.86,
+    "WIPRO": 379.52,
+    "NATIONALUM": -166.99,
+    "VEDL": -2594.49,
+    "HINDCOPPER": -1441.51,
+    "HINDZINC": 1452.28,
+    "HINDALCO": 5032.83,
+    "TATASTEEL": -6.15,
+    "ASTRAL": 6635.21,
+    "BDL": 15870.19,
+    "OIL": 1155.5,
+    "HINDUNILVR": 10441.54
+   },
+   "best5": [
+    [
+     24621.2,
+     "GLENMARK",
+     21
+    ],
+    [
+     15870.19,
+     "BDL",
+     40
+    ],
+    [
+     10867.44,
+     "TVSMOTOR",
+     10
+    ],
+    [
+     10441.54,
+     "HINDUNILVR",
+     7
+    ],
+    [
+     6635.21,
+     "ASTRAL",
+     15
+    ]
+   ],
+   "worst5": [
+    [
+     -844.1,
+     "NHPC",
+     12
+    ],
+    [
+     -1244.01,
+     "UNITDSPR",
+     12
+    ],
+    [
+     -1441.51,
+     "HINDCOPPER",
+     27
+    ],
+    [
+     -2594.49,
+     "VEDL",
+     25
+    ],
+    [
+     -3985.46,
+     "KALYANKJIL",
+     47
+    ]
+   ],
+   "direct_leg": {
+    "trades": 424,
+    "net": 93575.31,
+    "win_pct": 45.0,
+    "exp": 220.7,
+    "gross_exp": 260.7,
+    "gross": 110535.31
+   },
+   "reentry_leg": {
+    "trades": 274,
+    "net": -8903.57,
+    "win_pct": 30.7,
+    "exp": -32.49,
+    "gross_exp": 7.51,
+    "gross": 2056.43
+   },
+   "long": {
+    "trades": 299,
+    "net": 32490.18,
+    "win_pct": 37.5,
+    "exp": 108.66,
+    "gross_exp": 148.66,
+    "gross": 44450.18
+   },
+   "short": {
+    "trades": 399,
+    "net": 52181.56,
+    "win_pct": 40.9,
+    "exp": 130.78,
+    "gross_exp": 170.78,
+    "gross": 68141.56
+   }
+  },
+  "W0945": {
+   "chains": 160,
+   "trades": 278,
+   "net": 10355.89,
+   "chain_win_pct": 49.4,
+   "exp_per_chain": 64.72,
+   "jan_may": {
+    "chains": 106,
+    "chain_net": 11892.33,
+    "chain_win_pct": 50.9,
+    "exp_per_chain": 112.19,
+    "trades": 184
+   },
+   "jun_oct": {
+    "chains": 54,
+    "chain_net": -1536.44,
+    "chain_win_pct": 46.3,
+    "exp_per_chain": -28.45,
+    "trades": 94
+   },
+   "october": {
+    "chains": 12,
+    "chain_net": 817.79,
+    "chain_win_pct": 66.7,
+    "exp_per_chain": 68.15,
+    "trades": 20
+   },
+   "breadth": 9,
+   "top3_share_pct": 178.7,
+   "per_stock": {
+    "GODREJCP": -1745.6,
+    "GLENMARK": 4645.95,
+    "RECLTD": -89.4,
+    "TVSMOTOR": 5293.14,
+    "UNITDSPR": 533.22,
+    "OBEROIRLTY": -1081.95,
+    "INDUSTOWER": 309.34,
+    "KALYANKJIL": 187.91,
+    "HDFCBANK": -998.57,
+    "NHPC": -652.88,
+    "PFC": -1294.09,
+    "IRCTC": 14.11,
+    "WIPRO": -365.25,
+    "NATIONALUM": -299.21,
+    "VEDL": -1544.33,
+    "HINDCOPPER": -1598.29,
+    "HINDZINC": -716.91,
+    "HINDALCO": 1223.3,
+    "TATASTEEL": -66.92,
+    "ASTRAL": 924.4,
+    "BDL": 8564.86,
+    "OIL": -886.94
+   },
+   "best5": [
+    [
+     8564.86,
+     "BDL",
+     20
+    ],
+    [
+     5293.14,
+     "TVSMOTOR",
+     4
+    ],
+    [
+     4645.95,
+     "GLENMARK",
+     7
+    ],
+    [
+     1223.3,
+     "HINDALCO",
+     2
+    ],
+    [
+     924.4,
+     "ASTRAL",
+     8
+    ]
+   ],
+   "worst5": [
+    [
+     -1081.95,
+     "OBEROIRLTY",
+     6
+    ],
+    [
+     -1294.09,
+     "PFC",
+     7
+    ],
+    [
+     -1544.33,
+     "VEDL",
+     6
+    ],
+    [
+     -1598.29,
+     "HINDCOPPER",
+     9
+    ],
+    [
+     -1745.6,
+     "GODREJCP",
+     3
+    ]
+   ],
+   "direct_leg": {
+    "trades": 160,
+    "net": 8650.59,
+    "win_pct": 33.8,
+    "exp": 54.07,
+    "gross_exp": 94.07,
+    "gross": 15050.59
+   },
+   "reentry_leg": {
+    "trades": 118,
+    "net": 1705.3,
+    "win_pct": 28.0,
+    "exp": 14.45,
+    "gross_exp": 54.45,
+    "gross": 6425.3
+   },
+   "long": {
+    "trades": 137,
+    "net": 10390.93,
+    "win_pct": 30.7,
+    "exp": 75.85,
+    "gross_exp": 115.85,
+    "gross": 15870.93
+   },
+   "short": {
+    "trades": 141,
+    "net": -35.04,
+    "win_pct": 31.9,
+    "exp": -0.25,
+    "gross_exp": 39.75,
+    "gross": 5604.96
+   }
+  },
+  "W1015": {
+   "chains": 589,
+   "trades": 941,
+   "net": 169328.31,
+   "chain_win_pct": 58.4,
+   "exp_per_chain": 287.48,
+   "jan_may": {
+    "chains": 349,
+    "chain_net": 92266.39,
+    "chain_win_pct": 57.9,
+    "exp_per_chain": 264.37,
+    "trades": 560
+   },
+   "jun_oct": {
+    "chains": 240,
+    "chain_net": 77061.92,
+    "chain_win_pct": 59.2,
+    "exp_per_chain": 321.09,
+    "trades": 381
+   },
+   "october": {
+    "chains": 80,
+    "chain_net": 36815.02,
+    "chain_win_pct": 65.0,
+    "exp_per_chain": 460.19,
+    "trades": 127
+   },
+   "breadth": 24,
+   "top3_share_pct": 46.3,
+   "per_stock": {
+    "GODREJCP": 4018.05,
+    "GLENMARK": 25998.27,
+    "ITC": 1133.05,
+    "RECLTD": 2121.63,
+    "TVSMOTOR": 28531.65,
+    "UNITDSPR": 3044.69,
+    "OBEROIRLTY": 14114.56,
+    "NTPC": 1362.93,
+    "INDUSTOWER": 1769.4,
+    "KALYANKJIL": 576.86,
+    "HDFCBANK": 2296.78,
+    "NHPC": -745.65,
+    "PFC": 6317.86,
+    "IRCTC": 1334.26,
+    "WIPRO": 17.53,
+    "NATIONALUM": 2585.39,
+    "VEDL": 2351.5,
+    "HINDCOPPER": 1772.8,
+    "HINDZINC": 2032.13,
+    "HINDALCO": 4235.84,
+    "TATASTEEL": 1420.59,
+    "ASTRAL": 18855.26,
+    "BDL": 23785.99,
+    "OIL": 2647.26,
+    "HINDUNILVR": 17749.68
+   },
+   "best5": [
+    [
+     28531.65,
+     "TVSMOTOR",
+     20
+    ],
+    [
+     25998.27,
+     "GLENMARK",
+     33
+    ],
+    [
+     23785.99,
+     "BDL",
+     41
+    ],
+    [
+     18855.26,
+     "ASTRAL",
+     26
+    ],
+    [
+     17749.68,
+     "HINDUNILVR",
+     13
+    ]
+   ],
+   "worst5": [
+    [
+     1334.26,
+     "IRCTC",
+     15
+    ],
+    [
+     1133.05,
+     "ITC",
+     6
+    ],
+    [
+     576.86,
+     "KALYANKJIL",
+     52
+    ],
+    [
+     17.53,
+     "WIPRO",
+     12
+    ],
+    [
+     -745.65,
+     "NHPC",
+     17
+    ]
+   ],
+   "direct_leg": {
+    "trades": 589,
+    "net": 158686.14,
+    "win_pct": 49.9,
+    "exp": 269.42,
+    "gross_exp": 309.42,
+    "gross": 182246.14
+   },
+   "reentry_leg": {
+    "trades": 352,
+    "net": 10642.17,
+    "win_pct": 35.8,
+    "exp": 30.23,
+    "gross_exp": 70.23,
+    "gross": 24722.17
+   },
+   "long": {
+    "trades": 423,
+    "net": 58486.31,
+    "win_pct": 42.6,
+    "exp": 138.27,
+    "gross_exp": 178.27,
+    "gross": 75406.31
+   },
+   "short": {
+    "trades": 518,
+    "net": 110842.0,
+    "win_pct": 46.3,
+    "exp": 213.98,
+    "gross_exp": 253.98,
+    "gross": 131562.0
+   }
+  }
+ },
+ "R5": {
+  "frozen_definition": "ANY direction (engine build_chain applies no direction filter after the discard)",
+  "same_direction": {
+   "chains": 385,
+   "trades": 639,
+   "net": 92923.38,
+   "chain_win_pct": 56.9,
+   "exp_per_chain": 241.36,
+   "jan_may": {
+    "chains": 249,
+    "chain_net": 58622.78,
+    "chain_win_pct": 56.6,
+    "exp_per_chain": 235.43,
+    "trades": 422
+   },
+   "jun_oct": {
+    "chains": 136,
+    "chain_net": 34300.6,
+    "chain_win_pct": 57.4,
+    "exp_per_chain": 252.21,
+    "trades": 217
+   },
+   "october": {
+    "chains": 46,
+    "chain_net": 16885.05,
+    "chain_win_pct": 65.2,
+    "exp_per_chain": 367.07,
+    "trades": 75
+   },
+   "breadth": 18,
+   "top3_share_pct": 58.9,
+   "per_stock": {
+    "GODREJCP": 5282.0,
+    "GLENMARK": 24666.45,
+    "ITC": 1183.18,
+    "RECLTD": 2082.57,
+    "TVSMOTOR": 10867.44,
+    "UNITDSPR": -1244.01,
+    "OBEROIRLTY": 4367.27,
+    "NTPC": -66.86,
+    "INDUSTOWER": 665.24,
+    "KALYANKJIL": -3026.46,
+    "HDFCBANK": -31.13,
+    "NHPC": -844.1,
+    "PFC": 2532.82,
+    "IRCTC": 1226.26,
+    "WIPRO": 379.52,
+    "NATIONALUM": 51.2,
+    "VEDL": -1421.06,
+    "HINDCOPPER": 784.9,
+    "HINDZINC": 2675.15,
+    "HINDALCO": 5032.83,
+    "TATASTEEL": -6.15,
+    "ASTRAL": 6391.96,
+    "BDL": 19227.99,
+    "OIL": 1704.83,
+    "HINDUNILVR": 10441.54
+   },
+   "best5": [
+    [
+     24666.45,
+     "GLENMARK",
+     16
+    ],
+    [
+     19227.99,
+     "BDL",
+     36
+    ],
+    [
+     10867.44,
+     "TVSMOTOR",
+     10
+    ],
+    [
+     10441.54,
+     "HINDUNILVR",
+     7
+    ],
+    [
+     6391.96,
+     "ASTRAL",
+     12
+    ]
+   ],
+   "worst5": [
+    [
+     -66.86,
+     "NTPC",
+     6
+    ],
+    [
+     -844.1,
+     "NHPC",
+     12
+    ],
+    [
+     -1244.01,
+     "UNITDSPR",
+     12
+    ],
+    [
+     -1421.06,
+     "VEDL",
+     23
+    ],
+    [
+     -3026.46,
+     "KALYANKJIL",
+     39
+    ]
+   ],
+   "direct_leg": {
+    "trades": 385,
+    "net": 102369.53,
+    "win_pct": 47.5,
+    "exp": 265.89,
+    "gross_exp": 305.89,
+    "gross": 117769.53
+   },
+   "reentry_leg": {
+    "trades": 254,
+    "net": -9446.15,
+    "win_pct": 30.3,
+    "exp": -37.19,
+    "gross_exp": 2.81,
+    "gross": 713.85
+   },
+   "long": {
+    "trades": 290,
+    "net": 33539.7,
+    "win_pct": 37.9,
+    "exp": 115.65,
+    "gross_exp": 155.65,
+    "gross": 45139.7
+   },
+   "short": {
+    "trades": 349,
+    "net": 59383.68,
+    "win_pct": 43.0,
+    "exp": 170.15,
+    "gross_exp": 210.15,
+    "gross": 73343.68
+   }
+  },
+  "any_direction_frozen": {
+   "chains": 424,
+   "trades": 698,
+   "net": 84671.74,
+   "chain_win_pct": 55.0,
+   "exp_per_chain": 199.7,
+   "jan_may": {
+    "chains": 272,
+    "chain_net": 52884.19,
+    "chain_win_pct": 55.1,
+    "exp_per_chain": 194.43,
+    "trades": 459
+   },
+   "jun_oct": {
+    "chains": 152,
+    "chain_net": 31787.55,
+    "chain_win_pct": 54.6,
+    "exp_per_chain": 209.13,
+    "trades": 239
+   },
+   "october": {
+    "chains": 48,
+    "chain_net": 16825.42,
+    "chain_win_pct": 64.6,
+    "exp_per_chain": 350.53,
+    "trades": 77
+   },
+   "breadth": 16,
+   "top3_share_pct": 60.7,
+   "per_stock": {
+    "GODREJCP": 4594.75,
+    "GLENMARK": 24621.2,
+    "ITC": 1183.18,
+    "RECLTD": 2082.57,
+    "TVSMOTOR": 10867.44,
+    "UNITDSPR": -1244.01,
+    "OBEROIRLTY": 5354.72,
+    "NTPC": -66.86,
+    "INDUSTOWER": 438.52,
+    "KALYANKJIL": -3985.46,
+    "HDFCBANK": -31.13,
+    "NHPC": -844.1,
+    "PFC": 3549.13,
+    "IRCTC": 1393.86,
+    "WIPRO": 379.52,
+    "NATIONALUM": -166.99,
+    "VEDL": -2594.49,
+    "HINDCOPPER": -1441.51,
+    "HINDZINC": 1452.28,
+    "HINDALCO": 5032.83,
+    "TATASTEEL": -6.15,
+    "ASTRAL": 6635.21,
+    "BDL": 15870.19,
+    "OIL": 1155.5,
+    "HINDUNILVR": 10441.54
+   },
+   "best5": [
+    [
+     24621.2,
+     "GLENMARK",
+     21
+    ],
+    [
+     15870.19,
+     "BDL",
+     40
+    ],
+    [
+     10867.44,
+     "TVSMOTOR",
+     10
+    ],
+    [
+     10441.54,
+     "HINDUNILVR",
+     7
+    ],
+    [
+     6635.21,
+     "ASTRAL",
+     15
+    ]
+   ],
+   "worst5": [
+    [
+     -844.1,
+     "NHPC",
+     12
+    ],
+    [
+     -1244.01,
+     "UNITDSPR",
+     12
+    ],
+    [
+     -1441.51,
+     "HINDCOPPER",
+     27
+    ],
+    [
+     -2594.49,
+     "VEDL",
+     25
+    ],
+    [
+     -3985.46,
+     "KALYANKJIL",
+     47
+    ]
+   ],
+   "direct_leg": {
+    "trades": 424,
+    "net": 93575.31,
+    "win_pct": 45.0,
+    "exp": 220.7,
+    "gross_exp": 260.7,
+    "gross": 110535.31
+   },
+   "reentry_leg": {
+    "trades": 274,
+    "net": -8903.57,
+    "win_pct": 30.7,
+    "exp": -32.49,
+    "gross_exp": 7.51,
+    "gross": 2056.43
+   },
+   "long": {
+    "trades": 299,
+    "net": 32490.18,
+    "win_pct": 37.5,
+    "exp": 108.66,
+    "gross_exp": 148.66,
+    "gross": 44450.18
+   },
+   "short": {
+    "trades": 399,
+    "net": 52181.56,
+    "win_pct": 40.9,
+    "exp": 130.78,
+    "gross_exp": 170.78,
+    "gross": 68141.56
+   }
+  }
+ },
+ "R6": {
+  "trades": 698,
+  "at_25": {
+   "total": 95141.74,
+   "jan_may": 59769.19,
+   "jun_oct": 35372.55,
+   "october": 17980.42
+  },
+  "at_40_frozen": {
+   "total": 84671.74,
+   "jan_may": 52884.19,
+   "jun_oct": 31787.55,
+   "october": 16825.42
+  },
+  "at_60": {
+   "total": 70711.74,
+   "jan_may": 43704.19,
+   "jun_oct": 27007.55,
+   "october": 15285.42
+  },
+  "breakeven_cost": 161.31,
+  "breakeven_jm": 155.22,
+  "breakeven_jo": 173.0
+ }
+}

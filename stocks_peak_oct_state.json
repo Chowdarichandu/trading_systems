@@ -1,0 +1,69 @@
+{
+ "book_at_peak": "Incumbent secured book + Peak Lab Cycles 1-3: INV-LONG + N4-V3 + P2F 2.5% + F4-minus-setup3 @ T150/S125, RF-1 book-wide",
+ "flat_cycles": 3,
+ "iteration": 6,
+ "lab": "October PEAK lab \u2014 forked from the secured book 2026-10-31 on the user's order: cycle October-only improvements non-stop until October stops rising; find the peak. The MAIN engine state (stocks_engine_state.json) is NOT touched by this lab.",
+ "month_table_at_peak": {
+  "2026-01": 9173.84,
+  "2026-02": 4939.87,
+  "2026-03": 21673.47,
+  "2026-04": -632.4,
+  "2026-05": 26032.03,
+  "2026-06": -817.99,
+  "2026-07": 1962.07,
+  "2026-08": 739.35,
+  "2026-09": 14970.43,
+  "2026-10": 53290.52
+ },
+ "notes": "Basis: provisional per 100 shares, Rs40/trade, paper only, real Rs0, home 25. The peak is an IN-SAMPLE October ceiling under honest ex-ante rules \u2014 a discovery number, NOT a validated system. December judges the secured book, not the peak, unless the user rules otherwise. Lab rules: one change per cycle, frozen before scoring, timing audit asserted, October must rise >= +Rs250 to count as progress; 3 consecutive cycles with no rise = PEAK FOUND, stop and report. Double-counting an existing trade (e.g. DBL-LONG, a subset of INV-LONG) remains barred. Cycle 1 record: lever (b) F4 stop -0.80% -> -0.95% banked (Oct +1,383.89, total +3,672.88, audit clean). Candidate (c) P2F 3.0% HOME leg is BARRED permanently (all 33 HOME rows already inside the P2F 2.5% book). Candidate (a) T175 was measured weak at S080 basis (only 5/103 October trades reached +1.75% within holding) but not yet scored at the S095 basis. Cycle 2 record: lever (b) F4 stop -0.95% -> -1.10% banked (Oct +1,014.89 to 52,428.50; total FELL -3,551.66 to 131,768.01 \u2014 October-only objective, cost recorded: Apr -3,382.98 deeper red, Jan -2,317.56, Jun flips red -1,070.86, Aug -1,453.63; gains Mar +3,166.52, Sep +1,351.40; greens 7/10, trades 909, audit clean). Cycle 2 diagnosis: T175 still weak at S095 (5/101 within-holding reaches); no setup/dir/round group negative in both Oct and full, so no Lesson-5 (c) lever existed. Cycle 3 record: lever (b) F4 stop -1.10% -> -1.25% banked (Oct +862.02 to 53,290.52; total FELL only -436.82 to 131,331.19 - October-only objective, cost recorded: Mar -3,188.75, Sep -2,104.15, Feb -1,501.63, Jan -1,431.99; gains Apr +2,944.64 (still red -632.40), Aug -2,949.53 -> +739.35 (flips green), Jun +252.87, May +81.44; greens 8/10, trades 901, audit clean). Cycle 3 diagnosis: T175 did NOT grow at S110 (still 5/100 within-holding, all inside target exits - candidate (a) dismissed on evidence); S125 pool proven (4 of 13 stop-outs never fell through -1.25%, pool -2,678.84, 0 later hit target, bounded deep cost ~Rs860); square-off pool is the largest exit class (49 tr, net +7,777.00; 17 reached MFE >= +1.00% with Rs13,987 give-back) but no exit-progress lever was frozen - replay_plain cannot replay a trailing/lock rule and lowering the target contradicts Lesson 4. Stop-widening vein continues to diminish (+1,383.89 / +1,014.89 / +862.02). Cycle 4 record: FLAT (flat_cycles 1/3). Frozen lever (b) INV-LONG stop -0.50% -> -0.65% (T125/S065, pool-proven: 3 of 11 Oct stops never fell through -0.65%, pool -2,328.87 incl TVSMOTOR 10-15 r2 -2,062.00 MAE 0.593%) scored October -86.62 (53,290.52 -> 53,203.90, NOT banked): the pool did not convert - wider stops hold trades longer and shift later chain entries (INV trades 240 -> 229, INV Oct 7,691.08 -> 7,604.46; total would have fallen -5,584.40, Mar -2,410.79 / Apr -2,226.92 / Jun -2,200.90, partly offset Jan +1,212.72 / Feb +1,035.66). Book remains at the Cycle-3 basis. Cycle 4 diagnosis also closed two veins: (a) F4 S140 pool = ZERO (all 8 Oct stop-outs at S125 fell through -1.40%, MAEs 1.414-2.713% - the F4 stop vein is exhausted at S125, do not re-freeze S140); (c) F4 round-3 pool = ZERO in October (5 stock-days full-period only). F4 October losers have migrated to square-offs (54 square-off exits, 25 square-off losers of 33). INV-LONG target widening also dead (0 non-target Oct trades reached +1.50% within holding). Cycle 5 record: FLAT, diagnosis-only (flat_cycles 2/3) \u2014 NO lever frozen or scored. (i) F4 square-offs do NOT decay into the close: Oct static deltas vs 15:10 are 13:00 -3,066.00 / 14:00 -1,138.00 / 14:30 -696.00 / 15:00 +250.00 (sqoff-only), full-period all negative; all-trades same-entry accounting overturns even 15:00 (Oct -134.20, full -8,007.41 \u2014 3 Oct target exits at 15:05/15:10 forfeited). (ii) Sub-band split: [0.5,0.75) Oct +22,071.99 / full +35,271.23 and [0.75,1.0) Oct +24,373.14 / full +43,960.88 \u2014 neither band negative in either window, Lesson 5 unmet, no band tweak supported. Book remains at the Cycle-3 basis; one more consecutive flat = PEAK FOUND. Cycle 6 record: FLAT (flat_cycles 3/3) -> PEAK FOUND, lab terminated. Frozen lever: F4 measurement time 10:00 -> 09:45 (M2F.T), everything else identical (band [0.5,1.0) + below50, setup3 removed, T150/S125). Anchors pass at 10:00 (rebuild == cycle3 dump, 620 tr, audit 0 viol; union == peak table, 901 tr, +131,331.19, Oct +53,290.52); new-basis timing audit clean (548 raw tr, 0 viol; explicit assert sig/entry >= 09:45, meas_time == 09:45 on every trade). Scored October 53,290.52 -> 38,463.76 (-14,826.76, NOT banked): measuring earlier admits a different, worse gated population - F4 October 46,445.13 -> 31,618.37 and F4 full-period collapses +79,232.11 -> -17,211.62; would-be total 131,331.19 -> 34,887.46 (-96,443.73), trades 901 -> 827; month costs at the would-be basis: Jun -24,576.48, Sep -29,200.22, May -29,609.21, Mar -17,213.44, Feb -6,388.47 (flips red); gains Jan +5,751.41, Apr +13,967.12, Aug +4,841.76, Jul +810.56 do not rescue October. The 10:00 measurement is load-bearing, not incidental. Cycle 6 diagnosis re-check: F4 direction split at S125 - LONG full +41,294.67 / Oct +24,563.00, SHORT full +37,937.44 / Oct +21,882.13; both directions positive in both windows, no direction surgery existed. FINAL: October peak = +53,290.52 at the Cycle-3 basis (total +131,331.19, 901 tr, 8/10 months green). RULE CLARIFICATION APPLIED 2026-10-31 (user, supersedes the 3-flat-cycles stop): no fixed cycle count and no 3-strike rule - the run continues while cycles beat the best October so far; the FIRST cycle whose best attempt fails to beat the running best marks SATURATION and the peak = the best cycle's October value. Applied retroactively to this lab's record: the best is Cycle 3 (53,290.52); saturation was first marked at Cycle 4 (attempt 53,203.90); Cycles 5 and 6 are further failed attempts, Cycle 6 decisively (attempt 38,463.76). terminated set to SATURATED accordingly; the worker's 'PEAK FOUND' label (old rule) is superseded. Full per-cycle values are in cycle_history.",
+ "october_peak": 53290.52,
+ "rule_stack": [
+  "RF-1 special-session stand-aside (book-wide)",
+  "F4 = M2 state-gated cell (band [0.5,1.0) + Nifty below 50DMA), setup3_bounce_rejection removed",
+  "F4 exits T150/S080 -> T150/S095 (Peak Lab Cycle 1: stop -0.80% -> -0.95%)",
+  "F4 exits T150/S095 -> T150/S110 (Peak Lab Cycle 2: stop -0.95% -> -1.10%)",
+  "F4 exits T150/S110 -> T150/S125 (Peak Lab Cycle 3: stop -1.10% -> -1.25%)"
+ ],
+ "terminated": "SATURATED",
+ "total_at_peak": 131331.19,
+ "cycle_history": [
+  {
+   "cycle": 0,
+   "october": 50029.72,
+   "result": "fork basis (secured book)"
+  },
+  {
+   "cycle": 1,
+   "october": 51413.61,
+   "result": "banked: F4 stop -0.80 -> -0.95"
+  },
+  {
+   "cycle": 2,
+   "october": 52428.5,
+   "result": "banked: F4 stop -0.95 -> -1.10"
+  },
+  {
+   "cycle": 3,
+   "october": 53290.52,
+   "result": "banked: F4 stop -1.10 -> -1.25 (BEST)"
+  },
+  {
+   "cycle": 4,
+   "october": 53290.52,
+   "attempt": 53203.9,
+   "result": "FAILED TO BEAT (INV-LONG stop -0.65 scored -86.62) - FIRST saturation mark under the clarified rule"
+  },
+  {
+   "cycle": 5,
+   "october": 53290.52,
+   "attempt": null,
+   "result": "FAILED TO BEAT (diagnosis-only: no lever qualified - square-off timing and band both killed on evidence)"
+  },
+  {
+   "cycle": 6,
+   "october": 53290.52,
+   "attempt": 38463.76,
+   "result": "FAILED TO BEAT (F4 measurement 10:00 -> 09:45 scored -14,826.76) - saturation confirmed decisively"
+  }
+ ]
+}

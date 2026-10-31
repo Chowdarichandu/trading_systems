@@ -1,0 +1,560 @@
+{
+ "anchorA": true,
+ "anchorB": true,
+ "total": 131331.19,
+ "trades": 901,
+ "audit": {
+  "trades": 620,
+  "violations": 0
+ },
+ "comp_oct": {
+  "INV-LONG": {
+   "trades": 21,
+   "net": 7691.08,
+   "losers": 11,
+   "loser_net": -4633.92,
+   "loser_exits": {
+    "stop": 11
+   }
+  },
+  "N4-V3": {
+   "trades": 6,
+   "net": -530.69,
+   "losers": 4,
+   "loser_net": -1036.42,
+   "loser_exits": {
+    "stop": 4
+   }
+  },
+  "P2F": {
+   "trades": 2,
+   "net": -315.0,
+   "losers": 2,
+   "loser_net": -315.0,
+   "loser_exits": {
+    "stop": 2
+   }
+  },
+  "F4": {
+   "trades": 100,
+   "net": 46445.13,
+   "losers": 33,
+   "loser_net": -14143.7,
+   "loser_exits": {
+    "square_off": 25,
+    "stop": 8
+   }
+  }
+ },
+ "f4_oct": {
+  "trades": 100,
+  "net": 46445.13,
+  "exits": {
+   "square_off": 54,
+   "target": 38,
+   "stop": 8
+  },
+  "stop_n": 8,
+  "stop_net": -6110.7,
+  "band140": 0,
+  "deep140": 8,
+  "rec140": 0,
+  "pool140_net": 0,
+  "stop_list": [
+   {
+    "date": "2026-10-30",
+    "stock": "NTPC",
+    "dir": "SHORT",
+    "setup": "skill_or_breakdown",
+    "round": 1,
+    "net": -427.0,
+    "mae_day": 2.713,
+    "survives_S140": false,
+    "later_hit_target": false
+   },
+   {
+    "date": "2026-10-13",
+    "stock": "KALYANKJIL",
+    "dir": "LONG",
+    "setup": "skill_or_breakout",
+    "round": 1,
+    "net": -749.94,
+    "mae_day": 1.69,
+    "survives_S140": false,
+    "later_hit_target": false
+   },
+   {
+    "date": "2026-10-05",
+    "stock": "PFC",
+    "dir": "SHORT",
+    "setup": "skill_or_breakdown",
+    "round": 1,
+    "net": -437.75,
+    "mae_day": 1.618,
+    "survives_S140": false,
+    "later_hit_target": false
+   },
+   {
+    "date": "2026-10-08",
+    "stock": "IRCTC",
+    "dir": "LONG",
+    "setup": "skill_or_breakout",
+    "round": 1,
+    "net": -610.44,
+    "mae_day": 1.83,
+    "survives_S140": false,
+    "later_hit_target": false
+   },
+   {
+    "date": "2026-10-29",
+    "stock": "VEDL",
+    "dir": "LONG",
+    "setup": "skill_or_breakout",
+    "round": 1,
+    "net": -335.94,
+    "mae_day": 1.415,
+    "survives_S140": false,
+    "later_hit_target": false
+   },
+   {
+    "date": "2026-10-22",
+    "stock": "HINDCOPPER",
+    "dir": "LONG",
+    "setup": "skill_or_breakout",
+    "round": 1,
+    "net": -561.63,
+    "mae_day": 1.414,
+    "survives_S140": false,
+    "later_hit_target": false
+   },
+   {
+    "date": "2026-10-12",
+    "stock": "HINDZINC",
+    "dir": "LONG",
+    "setup": "skill_or_breakout",
+    "round": 1,
+    "net": -734.25,
+    "mae_day": 1.773,
+    "survives_S140": false,
+    "later_hit_target": false
+   },
+   {
+    "date": "2026-10-27",
+    "stock": "HINDUNILVR",
+    "dir": "SHORT",
+    "setup": "skill_or_breakdown",
+    "round": 1,
+    "net": -2253.75,
+    "mae_day": 2.654,
+    "survives_S140": false,
+    "later_hit_target": false
+   }
+  ]
+ },
+ "f4_scan": {
+  "setup": {
+   "setup2_or_breakdown": {
+    "full_n": 6,
+    "full_net": 44.0,
+    "oct_n": 0,
+    "oct_net": 0.0,
+    "oct_losers": 0
+   },
+   "setup4_reclaim": {
+    "full_n": 25,
+    "full_net": 4341.42,
+    "oct_n": 6,
+    "oct_net": 3941.62,
+    "oct_losers": 3
+   },
+   "skill_or_breakdown": {
+    "full_n": 337,
+    "full_net": 37893.44,
+    "oct_n": 48,
+    "oct_net": 21882.13,
+    "oct_losers": 14
+   },
+   "skill_or_breakout": {
+    "full_n": 204,
+    "full_net": 36953.25,
+    "oct_n": 46,
+    "oct_net": 20621.38,
+    "oct_losers": 16
+   }
+  },
+  "dir": {
+   "LONG": {
+    "full_n": 229,
+    "full_net": 41294.67,
+    "oct_n": 52,
+    "oct_net": 24563.0,
+    "oct_losers": 19
+   },
+   "SHORT": {
+    "full_n": 343,
+    "full_net": 37937.44,
+    "oct_n": 48,
+    "oct_net": 21882.13,
+    "oct_losers": 14
+   }
+  },
+  "round": {
+   "1": {
+    "full_n": 531,
+    "full_net": 86675.47,
+    "oct_n": 95,
+    "oct_net": 44626.38,
+    "oct_losers": 33
+   },
+   "2": {
+    "full_n": 41,
+    "full_net": -7443.36,
+    "oct_n": 5,
+    "oct_net": 1818.75,
+    "oct_losers": 0
+   }
+  },
+  "setup_dir": {
+   "setup2_or_breakdown|SHORT": {
+    "full_n": 6,
+    "full_net": 44.0,
+    "oct_n": 0,
+    "oct_net": 0.0,
+    "oct_losers": 0
+   },
+   "setup4_reclaim|LONG": {
+    "full_n": 25,
+    "full_net": 4341.42,
+    "oct_n": 6,
+    "oct_net": 3941.62,
+    "oct_losers": 3
+   },
+   "skill_or_breakdown|SHORT": {
+    "full_n": 337,
+    "full_net": 37893.44,
+    "oct_n": 48,
+    "oct_net": 21882.13,
+    "oct_losers": 14
+   },
+   "skill_or_breakout|LONG": {
+    "full_n": 204,
+    "full_net": 36953.25,
+    "oct_n": 46,
+    "oct_net": 20621.38,
+    "oct_losers": 16
+   }
+  }
+ },
+ "inv_oct": {
+  "trades": 21,
+  "net": 7691.08,
+  "rows": [
+   {
+    "date": "2026-10-06",
+    "stock": "KALYANKJIL",
+    "setup": "skill_or_breakout",
+    "round": "1",
+    "entry_time": "09:35",
+    "exit_time": "09:35",
+    "exit_reason": "stop",
+    "net": -329.65,
+    "entry": 579.3,
+    "mfe_hold": 0.147,
+    "mae_hold": 1.778,
+    "mae_day": 5.653
+   },
+   {
+    "date": "2026-10-07",
+    "stock": "KALYANKJIL",
+    "setup": "skill_or_breakout",
+    "round": "2",
+    "entry_time": "10:25",
+    "exit_time": "10:55",
+    "exit_reason": "target",
+    "net": 666.5,
+    "entry": 565.2,
+    "mfe_hold": 2.052,
+    "mae_hold": 0.044,
+    "mae_day": 0.044
+   },
+   {
+    "date": "2026-10-09",
+    "stock": "GLENMARK",
+    "setup": "skill_or_breakout",
+    "round": "2",
+    "entry_time": "10:05",
+    "exit_time": "12:55",
+    "exit_reason": "target",
+    "net": 2769.5,
+    "entry": 2247.6,
+    "mfe_hold": 1.299,
+    "mae_hold": 0.454,
+    "mae_day": 0.454
+   },
+   {
+    "date": "2026-10-13",
+    "stock": "INDUSTOWER",
+    "setup": "skill_or_breakout",
+    "round": "1",
+    "entry_time": "09:40",
+    "exit_time": "11:00",
+    "exit_reason": "stop",
+    "net": -228.45,
+    "entry": 376.9,
+    "mfe_hold": 0.186,
+    "mae_hold": 0.61,
+    "mae_day": 1.035
+   },
+   {
+    "date": "2026-10-13",
+    "stock": "KALYANKJIL",
+    "setup": "skill_or_breakout",
+    "round": "1",
+    "entry_time": "09:45",
+    "exit_time": "10:45",
+    "exit_reason": "stop",
+    "net": -323.15,
+    "entry": 566.3,
+    "mfe_hold": 0.477,
+    "mae_hold": 0.521,
+    "mae_day": 1.404
+   },
+   {
+    "date": "2026-10-13",
+    "stock": "NATIONALUM",
+    "setup": "skill_or_breakout",
+    "round": "1",
+    "entry_time": "09:35",
+    "exit_time": "15:00",
+    "exit_reason": "target",
+    "net": 353.56,
+    "entry": 314.85,
+    "mfe_hold": 1.27,
+    "mae_hold": 0.175,
+    "mae_day": 0.175
+   },
+   {
+    "date": "2026-10-15",
+    "stock": "NATIONALUM",
+    "setup": "skill_or_breakout",
+    "round": "1",
+    "entry_time": "10:00",
+    "exit_time": "15:10",
+    "exit_reason": "square_off",
+    "net": 75.0,
+    "entry": 315.8,
+    "mfe_hold": 0.95,
+    "mae_hold": 0.317,
+    "mae_day": 0.317
+   },
+   {
+    "date": "2026-10-15",
+    "stock": "TVSMOTOR",
+    "setup": "skill_or_breakout",
+    "round": "1",
+    "entry_time": "09:50",
+    "exit_time": "10:20",
+    "exit_reason": "target",
+    "net": 4937.62,
+    "entry": 3982.1,
+    "mfe_hold": 1.675,
+    "mae_hold": 0.0,
+    "mae_day": 0.0
+   },
+   {
+    "date": "2026-10-15",
+    "stock": "TVSMOTOR",
+    "setup": "skill_or_breakout",
+    "round": "2",
+    "entry_time": "10:25",
+    "exit_time": "15:00",
+    "exit_reason": "stop",
+    "net": -2062.0,
+    "entry": 4044.0,
+    "mfe_hold": 0.495,
+    "mae_hold": 0.509,
+    "mae_day": 0.593
+   },
+   {
+    "date": "2026-10-16",
+    "stock": "KALYANKJIL",
+    "setup": "skill_or_breakout",
+    "round": "1",
+    "entry_time": "09:45",
+    "exit_time": "14:20",
+    "exit_reason": "stop",
+    "net": -320.3,
+    "entry": 560.6,
+    "mfe_hold": 0.392,
+    "mae_hold": 0.526,
+    "mae_day": 0.731
+   },
+   {
+    "date": "2026-10-16",
+    "stock": "NATIONALUM",
+    "setup": "skill_or_breakout",
+    "round": "1",
+    "entry_time": "09:45",
+    "exit_time": "15:10",
+    "exit_reason": "square_off",
+    "net": 135.0,
+    "entry": 323.0,
+    "mfe_hold": 1.223,
+    "mae_hold": 0.294,
+    "mae_day": 0.294
+   },
+   {
+    "date": "2026-10-16",
+    "stock": "TVSMOTOR",
+    "setup": "skill_or_breakout",
+    "round": "1",
+    "entry_time": "10:00",
+    "exit_time": "15:10",
+    "exit_reason": "square_off",
+    "net": 2500.0,
+    "entry": 4069.9,
+    "mfe_hold": 0.985,
+    "mae_hold": 0.194,
+    "mae_day": 0.194
+   },
+   {
+    "date": "2026-10-16",
+    "stock": "VEDL",
+    "setup": "skill_or_breakout",
+    "round": "1",
+    "entry_time": "10:10",
+    "exit_time": "14:50",
+    "exit_reason": "stop",
+    "net": -164.25,
+    "entry": 248.5,
+    "mfe_hold": 0.402,
+    "mae_hold": 0.563,
+    "mae_day": 1.006
+   },
+   {
+    "date": "2026-10-22",
+    "stock": "NATIONALUM",
+    "setup": "skill_or_breakout",
+    "round": "1",
+    "entry_time": "10:15",
+    "exit_time": "15:10",
+    "exit_reason": "square_off",
+    "net": 70.0,
+    "entry": 308.9,
+    "mfe_hold": 0.809,
+    "mae_hold": 0.469,
+    "mae_day": 0.469
+   },
+   {
+    "date": "2026-10-26",
+    "stock": "HINDCOPPER",
+    "setup": "setup4_reclaim",
+    "round": "1",
+    "entry_time": "09:55",
+    "exit_time": "10:05",
+    "exit_reason": "target",
+    "net": 461.44,
+    "entry": 401.15,
+    "mfe_hold": 1.433,
+    "mae_hold": 0.037,
+    "mae_day": 0.037
+   },
+   {
+    "date": "2026-10-26",
+    "stock": "HINDCOPPER",
+    "setup": "setup4_reclaim",
+    "round": "2",
+    "entry_time": "10:10",
+    "exit_time": "10:40",
+    "exit_reason": "stop",
+    "net": -243.15,
+    "entry": 406.3,
+    "mfe_hold": 0.148,
+    "mae_hold": 0.603,
+    "mae_day": 1.194
+   },
+   {
+    "date": "2026-10-26",
+    "stock": "VEDL",
+    "setup": "setup4_reclaim",
+    "round": "1",
+    "entry_time": "10:00",
+    "exit_time": "10:35",
+    "exit_reason": "stop",
+    "net": -153.8,
+    "entry": 227.6,
+    "mfe_hold": 0.176,
+    "mae_hold": 0.703,
+    "mae_day": 1.362
+   },
+   {
+    "date": "2026-10-26",
+    "stock": "WIPRO",
+    "setup": "skill_or_breakout",
+    "round": "1",
+    "entry_time": "09:55",
+    "exit_time": "12:40",
+    "exit_reason": "stop",
+    "net": -134.3,
+    "entry": 188.6,
+    "mfe_hold": 0.583,
+    "mae_hold": 0.525,
+    "mae_day": 0.557
+   },
+   {
+    "date": "2026-10-28",
+    "stock": "BDL",
+    "setup": "skill_or_breakout",
+    "round": "1",
+    "entry_time": "09:45",
+    "exit_time": "10:15",
+    "exit_reason": "stop",
+    "net": -542.3,
+    "entry": 1004.6,
+    "mfe_hold": 0.806,
+    "mae_hold": 0.637,
+    "mae_day": 1.702
+   },
+   {
+    "date": "2026-10-28",
+    "stock": "NATIONALUM",
+    "setup": "skill_or_breakout",
+    "round": "1",
+    "entry_time": "09:45",
+    "exit_time": "10:55",
+    "exit_reason": "target",
+    "net": 356.38,
+    "entry": 317.1,
+    "mfe_hold": 1.372,
+    "mae_hold": 0.252,
+    "mae_day": 0.252
+   },
+   {
+    "date": "2026-10-28",
+    "stock": "WIPRO",
+    "setup": "skill_or_breakout",
+    "round": "1",
+    "entry_time": "10:00",
+    "exit_time": "14:35",
+    "exit_reason": "stop",
+    "net": -132.57,
+    "entry": 185.15,
+    "mfe_hold": 0.54,
+    "mae_hold": 0.54,
+    "mae_day": 0.54
+   }
+  ],
+  "stop_losers": 11,
+  "stop_loser_net": -4633.92,
+  "surv65": 3,
+  "surv65_net": -2328.87,
+  "surv80": 4,
+  "surv95": 4,
+  "reach150_nontarget": 0
+ },
+ "round3_pool": {
+  "full": 5,
+  "oct": 0,
+  "oct_days": []
+ }
+}

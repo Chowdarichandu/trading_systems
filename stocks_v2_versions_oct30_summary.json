@@ -1,0 +1,747 @@
+{
+  "v5_stock": {
+    "all_days_uncapped": {
+      "trades": 1566,
+      "net_pos": 542,
+      "net_pos_pct": 34.6,
+      "targets": 439,
+      "target_pct": 28.0,
+      "net_rs": -109640.0,
+      "expectancy": -70.01,
+      "trades_per_day": 7.714,
+      "stops": 995,
+      "square_offs": 132
+    },
+    "noevent_uncapped": {
+      "trades": 1116,
+      "net_pos": 380,
+      "net_pos_pct": 34.1,
+      "targets": 316,
+      "target_pct": 28.3,
+      "net_rs": -81166.0,
+      "expectancy": -72.73,
+      "trades_per_day": 5.498,
+      "stops": 711,
+      "square_offs": 89
+    },
+    "noevent_1day": {
+      "trades": 202,
+      "net_pos": 63,
+      "net_pos_pct": 31.2,
+      "targets": 48,
+      "target_pct": 23.8,
+      "net_rs": -32850.0,
+      "expectancy": -162.62,
+      "trades_per_day": 0.995,
+      "stops": 135,
+      "square_offs": 19
+    },
+    "excluded_event_trades": 450,
+    "noevent_1day_setup_split": {
+      "setup3_bounce_rejection": {
+        "trades": 14,
+        "net_rs": -5220.0
+      },
+      "setup4_reclaim": {
+        "trades": 12,
+        "net_rs": -325.0
+      },
+      "skill_or_breakdown": {
+        "trades": 83,
+        "net_rs": -3300.0
+      },
+      "skill_or_breakout": {
+        "trades": 93,
+        "net_rs": -24005.0
+      }
+    },
+    "noevent_1day_month_cumulative": {
+      "2026-01": {
+        "month_net": 7970.0,
+        "cumulative": 7970.0
+      },
+      "2026-02": {
+        "month_net": -10860.0,
+        "cumulative": -2890.0
+      },
+      "2026-03": {
+        "month_net": -4720.0,
+        "cumulative": -7610.0
+      },
+      "2026-04": {
+        "month_net": 1665.0,
+        "cumulative": -5945.0
+      },
+      "2026-05": {
+        "month_net": -5260.0,
+        "cumulative": -11205.0
+      },
+      "2026-06": {
+        "month_net": -3190.0,
+        "cumulative": -14395.0
+      },
+      "2026-07": {
+        "month_net": -4585.0,
+        "cumulative": -18980.0
+      },
+      "2026-08": {
+        "month_net": -9020.0,
+        "cumulative": -28000.0
+      },
+      "2026-09": {
+        "month_net": -4150.0,
+        "cumulative": -32150.0
+      },
+      "2026-10": {
+        "month_net": -700.0,
+        "cumulative": -32850.0
+      }
+    },
+    "noevent_uncapped_setup_split": {
+      "setup2_or_breakdown": {
+        "trades": 14,
+        "net_rs": -4790.0
+      },
+      "setup3_bounce_rejection": {
+        "trades": 111,
+        "net_rs": -12085.0
+      },
+      "setup4_reclaim": {
+        "trades": 64,
+        "net_rs": -14300.0
+      },
+      "skill_or_breakdown": {
+        "trades": 522,
+        "net_rs": -12188.0
+      },
+      "skill_or_breakout": {
+        "trades": 405,
+        "net_rs": -37803.0
+      }
+    },
+    "la_leg_split": null
+  },
+  "skill_v2": {
+    "all_days_uncapped": {
+      "trades": 3985,
+      "net_pos": 1313,
+      "net_pos_pct": 32.9,
+      "targets": 1219,
+      "target_pct": 30.6,
+      "net_rs": -258473.0,
+      "expectancy": -64.86,
+      "trades_per_day": 19.631,
+      "stops": 2576,
+      "square_offs": 190
+    },
+    "noevent_uncapped": {
+      "trades": 2930,
+      "net_pos": 952,
+      "net_pos_pct": 32.5,
+      "targets": 890,
+      "target_pct": 30.4,
+      "net_rs": -190180.0,
+      "expectancy": -64.91,
+      "trades_per_day": 14.433,
+      "stops": 1909,
+      "square_offs": 131
+    },
+    "noevent_1day": {
+      "trades": 203,
+      "net_pos": 61,
+      "net_pos_pct": 30.0,
+      "targets": 47,
+      "target_pct": 23.2,
+      "net_rs": -45835.0,
+      "expectancy": -225.79,
+      "trades_per_day": 1.0,
+      "stops": 137,
+      "square_offs": 19
+    },
+    "excluded_event_trades": 1055,
+    "noevent_1day_setup_split": {
+      "skill_or_breakdown": {
+        "trades": 82,
+        "net_rs": -9320.0
+      },
+      "skill_or_breakout": {
+        "trades": 121,
+        "net_rs": -36515.0
+      }
+    },
+    "noevent_1day_month_cumulative": {
+      "2026-01": {
+        "month_net": 6980.0,
+        "cumulative": 6980.0
+      },
+      "2026-02": {
+        "month_net": -11040.0,
+        "cumulative": -4060.0
+      },
+      "2026-03": {
+        "month_net": -9200.0,
+        "cumulative": -13260.0
+      },
+      "2026-04": {
+        "month_net": 3945.0,
+        "cumulative": -9315.0
+      },
+      "2026-05": {
+        "month_net": -6370.0,
+        "cumulative": -15685.0
+      },
+      "2026-06": {
+        "month_net": -4380.0,
+        "cumulative": -20065.0
+      },
+      "2026-07": {
+        "month_net": -6720.0,
+        "cumulative": -26785.0
+      },
+      "2026-08": {
+        "month_net": -7130.0,
+        "cumulative": -33915.0
+      },
+      "2026-09": {
+        "month_net": -10410.0,
+        "cumulative": -44325.0
+      },
+      "2026-10": {
+        "month_net": -1510.0,
+        "cumulative": -45835.0
+      }
+    },
+    "noevent_uncapped_setup_split": {
+      "skill_or_breakdown": {
+        "trades": 1602,
+        "net_rs": -67877.0
+      },
+      "skill_or_breakout": {
+        "trades": 1328,
+        "net_rs": -122303.0
+      }
+    },
+    "la_leg_split": null
+  },
+  "la_v2": {
+    "all_days_uncapped": {
+      "trades": 2112,
+      "net_pos": 680,
+      "net_pos_pct": 32.2,
+      "targets": 652,
+      "target_pct": 30.9,
+      "net_rs": -104421.0,
+      "expectancy": -49.44,
+      "trades_per_day": 10.404,
+      "stops": 1385,
+      "square_offs": 75
+    },
+    "noevent_uncapped": {
+      "trades": 1547,
+      "net_pos": 489,
+      "net_pos_pct": 31.6,
+      "targets": 469,
+      "target_pct": 30.3,
+      "net_rs": -71752.0,
+      "expectancy": -46.38,
+      "trades_per_day": 7.621,
+      "stops": 1022,
+      "square_offs": 56
+    },
+    "noevent_1day": {
+      "trades": 175,
+      "net_pos": 53,
+      "net_pos_pct": 30.3,
+      "targets": 42,
+      "target_pct": 24.0,
+      "net_rs": -22093.0,
+      "expectancy": -126.25,
+      "trades_per_day": 0.862,
+      "stops": 112,
+      "square_offs": 21
+    },
+    "excluded_event_trades": 565,
+    "noevent_1day_setup_split": {
+      "setup2_or_breakdown|la_morning": {
+        "trades": 3,
+        "net_rs": -1100.0
+      },
+      "setup3_bounce_rejection|la_morning": {
+        "trades": 7,
+        "net_rs": 520.0
+      },
+      "setup4_reclaim|la_morning": {
+        "trades": 2,
+        "net_rs": -811.0
+      },
+      "skill_or_breakdown|la_morning": {
+        "trades": 83,
+        "net_rs": -992.0
+      },
+      "skill_or_breakout|la_morning": {
+        "trades": 80,
+        "net_rs": -19710.0
+      }
+    },
+    "noevent_1day_month_cumulative": {
+      "2026-01": {
+        "month_net": 100.0,
+        "cumulative": 100.0
+      },
+      "2026-02": {
+        "month_net": -4555.0,
+        "cumulative": -4455.0
+      },
+      "2026-03": {
+        "month_net": -1050.0,
+        "cumulative": -5505.0
+      },
+      "2026-04": {
+        "month_net": 6915.0,
+        "cumulative": 1410.0
+      },
+      "2026-05": {
+        "month_net": -5790.0,
+        "cumulative": -4380.0
+      },
+      "2026-06": {
+        "month_net": -4420.0,
+        "cumulative": -8800.0
+      },
+      "2026-07": {
+        "month_net": -6931.0,
+        "cumulative": -15731.0
+      },
+      "2026-08": {
+        "month_net": -10037.0,
+        "cumulative": -25768.0
+      },
+      "2026-09": {
+        "month_net": -1455.0,
+        "cumulative": -27223.0
+      },
+      "2026-10": {
+        "month_net": 5130.0,
+        "cumulative": -22093.0
+      }
+    },
+    "noevent_uncapped_setup_split": {
+      "setup2_or_breakdown|la_morning": {
+        "trades": 8,
+        "net_rs": -1020.0
+      },
+      "setup2_or_breakdown|la_reentry": {
+        "trades": 7,
+        "net_rs": -250.0
+      },
+      "setup3_bounce_rejection|la_morning": {
+        "trades": 74,
+        "net_rs": -1785.0
+      },
+      "setup3_bounce_rejection|la_reentry": {
+        "trades": 26,
+        "net_rs": -1716.0
+      },
+      "setup4_pullback|la_reentry": {
+        "trades": 1,
+        "net_rs": -200.0
+      },
+      "setup4_reclaim|la_morning": {
+        "trades": 6,
+        "net_rs": -1437.0
+      },
+      "setup4_reclaim|la_reentry": {
+        "trades": 10,
+        "net_rs": 290.0
+      },
+      "skill_or_breakdown|la_morning": {
+        "trades": 651,
+        "net_rs": -14449.0
+      },
+      "skill_or_breakdown|la_reentry": {
+        "trades": 168,
+        "net_rs": 939.0
+      },
+      "skill_or_breakout|la_morning": {
+        "trades": 505,
+        "net_rs": -44785.0
+      },
+      "skill_or_breakout|la_reentry": {
+        "trades": 91,
+        "net_rs": -7339.0
+      }
+    },
+    "la_leg_split": {
+      "morning": {
+        "trades": 175,
+        "net_pos": 53,
+        "net_pos_pct": 30.3,
+        "targets": 42,
+        "target_pct": 24.0,
+        "net_rs": -22093.0,
+        "expectancy": -126.25,
+        "trades_per_day": 0.862,
+        "stops": 112,
+        "square_offs": 21
+      },
+      "reentry": {
+        "trades": 0,
+        "net_pos": 0,
+        "net_pos_pct": 0.0,
+        "targets": 0,
+        "target_pct": 0.0,
+        "net_rs": 0.0,
+        "expectancy": 0.0,
+        "trades_per_day": 0.0,
+        "stops": 0,
+        "square_offs": 0
+      },
+      "morning_uncapped": {
+        "trades": 1244,
+        "net_pos": 410,
+        "net_pos_pct": 33.0,
+        "targets": 384,
+        "target_pct": 30.9,
+        "net_rs": -63476.0,
+        "expectancy": -51.03,
+        "trades_per_day": 6.128,
+        "stops": 805,
+        "square_offs": 55
+      },
+      "reentry_uncapped": {
+        "trades": 303,
+        "net_pos": 79,
+        "net_pos_pct": 26.1,
+        "targets": 85,
+        "target_pct": 28.1,
+        "net_rs": -8276.0,
+        "expectancy": -27.31,
+        "trades_per_day": 1.493,
+        "stops": 217,
+        "square_offs": 1
+      }
+    }
+  },
+  "volrix_v2": {
+    "all_days_uncapped": {
+      "trades": 656,
+      "net_pos": 322,
+      "net_pos_pct": 49.1,
+      "targets": 0,
+      "target_pct": 0.0,
+      "net_rs": -9711.0,
+      "expectancy": -14.8,
+      "trades_per_day": 3.232,
+      "stops": 0,
+      "square_offs": 656
+    },
+    "noevent_uncapped": {
+      "trades": 501,
+      "net_pos": 237,
+      "net_pos_pct": 47.3,
+      "targets": 0,
+      "target_pct": 0.0,
+      "net_rs": -30411.0,
+      "expectancy": -60.7,
+      "trades_per_day": 2.468,
+      "stops": 0,
+      "square_offs": 501
+    },
+    "noevent_1day": {
+      "trades": 134,
+      "net_pos": 57,
+      "net_pos_pct": 42.5,
+      "targets": 0,
+      "target_pct": 0.0,
+      "net_rs": -40783.0,
+      "expectancy": -304.35,
+      "trades_per_day": 0.66,
+      "stops": 0,
+      "square_offs": 134
+    },
+    "excluded_event_trades": 155,
+    "noevent_1day_setup_split": {
+      "volrix_rebound": {
+        "trades": 134,
+        "net_rs": -40783.0
+      }
+    },
+    "noevent_1day_month_cumulative": {
+      "2026-01": {
+        "month_net": -4844.0,
+        "cumulative": -4844.0
+      },
+      "2026-02": {
+        "month_net": -13072.0,
+        "cumulative": -17916.0
+      },
+      "2026-03": {
+        "month_net": -19387.0,
+        "cumulative": -37303.0
+      },
+      "2026-04": {
+        "month_net": -2810.0,
+        "cumulative": -40113.0
+      },
+      "2026-05": {
+        "month_net": -2360.0,
+        "cumulative": -42473.0
+      },
+      "2026-06": {
+        "month_net": -4632.0,
+        "cumulative": -47105.0
+      },
+      "2026-07": {
+        "month_net": -3301.0,
+        "cumulative": -50406.0
+      },
+      "2026-08": {
+        "month_net": 3500.0,
+        "cumulative": -46906.0
+      },
+      "2026-09": {
+        "month_net": 1643.0,
+        "cumulative": -45263.0
+      },
+      "2026-10": {
+        "month_net": 4480.0,
+        "cumulative": -40783.0
+      }
+    },
+    "noevent_uncapped_setup_split": {
+      "volrix_rebound": {
+        "trades": 501,
+        "net_rs": -30411.0
+      }
+    },
+    "la_leg_split": null
+  },
+  "combined": {
+    "noevent_deduped_uncapped": {
+      "trades": 3053,
+      "net_pos": 1002,
+      "net_pos_pct": 32.8,
+      "targets": 898,
+      "target_pct": 29.4,
+      "net_rs": -196687.0,
+      "expectancy": -64.42,
+      "trades_per_day": 15.039,
+      "stops": 1927,
+      "square_offs": 228
+    },
+    "noevent_1day": {
+      "trades": 203,
+      "net_pos": 62,
+      "net_pos_pct": 30.5,
+      "targets": 46,
+      "target_pct": 22.7,
+      "net_rs": -45210.0,
+      "expectancy": -222.71,
+      "trades_per_day": 1.0,
+      "stops": 136,
+      "square_offs": 21
+    },
+    "noevent_1day_setup_split": {
+      "setup3_bounce_rejection": {
+        "trades": 6,
+        "net_rs": -920.0
+      },
+      "setup4_reclaim": {
+        "trades": 10,
+        "net_rs": 1325.0
+      },
+      "skill_or_breakdown": {
+        "trades": 80,
+        "net_rs": -7100.0
+      },
+      "skill_or_breakout": {
+        "trades": 107,
+        "net_rs": -38515.0
+      }
+    },
+    "noevent_1day_month_cumulative": {
+      "2026-01": {
+        "month_net": 10420.0,
+        "cumulative": 10420.0
+      },
+      "2026-02": {
+        "month_net": -11240.0,
+        "cumulative": -820.0
+      },
+      "2026-03": {
+        "month_net": -9320.0,
+        "cumulative": -10140.0
+      },
+      "2026-04": {
+        "month_net": 3945.0,
+        "cumulative": -6195.0
+      },
+      "2026-05": {
+        "month_net": -6370.0,
+        "cumulative": -12565.0
+      },
+      "2026-06": {
+        "month_net": -1980.0,
+        "cumulative": -14545.0
+      },
+      "2026-07": {
+        "month_net": -6185.0,
+        "cumulative": -20730.0
+      },
+      "2026-08": {
+        "month_net": -10200.0,
+        "cumulative": -30930.0
+      },
+      "2026-09": {
+        "month_net": -12770.0,
+        "cumulative": -43700.0
+      },
+      "2026-10": {
+        "month_net": -1510.0,
+        "cumulative": -45210.0
+      }
+    },
+    "deduped_trades": 3053
+  },
+  "meta": {
+    "input_trade_counts_all_days": {
+      "v4_baseline": 938,
+      "skill_v2": 3985
+    },
+    "trading_days_jan_oct28": 203,
+    "window": "2026-01-01 to 2026-10-28 (cache ends 2026-10-28; 2026-10-29 NOT in cache)",
+    "oct26_28_check": {
+      "v5_stock": {
+        "noevent_uncapped": {
+          "trades": 15,
+          "net_pos": 4,
+          "net_pos_pct": 26.7,
+          "targets": 4,
+          "target_pct": 26.7,
+          "net_rs": -2565.0,
+          "expectancy": -171.0,
+          "trades_per_day": 5.0,
+          "stops": 10,
+          "square_offs": 1
+        },
+        "noevent_1day": {
+          "trades": 3,
+          "net_pos": 1,
+          "net_pos_pct": 33.3,
+          "targets": 1,
+          "target_pct": 33.3,
+          "net_rs": -1020.0,
+          "expectancy": -340.0,
+          "trades_per_day": 1.0,
+          "stops": 2,
+          "square_offs": 0
+        }
+      },
+      "skill_v2": {
+        "noevent_uncapped": {
+          "trades": 38,
+          "net_pos": 13,
+          "net_pos_pct": 34.2,
+          "targets": 11,
+          "target_pct": 28.9,
+          "net_rs": -5744.0,
+          "expectancy": -151.16,
+          "trades_per_day": 12.667,
+          "stops": 24,
+          "square_offs": 3
+        },
+        "noevent_1day": {
+          "trades": 3,
+          "net_pos": 0,
+          "net_pos_pct": 0.0,
+          "targets": 0,
+          "target_pct": 0.0,
+          "net_rs": -4210.0,
+          "expectancy": -1403.33,
+          "trades_per_day": 1.0,
+          "stops": 3,
+          "square_offs": 0
+        }
+      },
+      "la_v2": {
+        "noevent_uncapped": {
+          "trades": 17,
+          "net_pos": 4,
+          "net_pos_pct": 23.5,
+          "targets": 2,
+          "target_pct": 11.8,
+          "net_rs": -2067.0,
+          "expectancy": -121.59,
+          "trades_per_day": 5.667,
+          "stops": 13,
+          "square_offs": 2
+        },
+        "noevent_1day": {
+          "trades": 3,
+          "net_pos": 0,
+          "net_pos_pct": 0.0,
+          "targets": 0,
+          "target_pct": 0.0,
+          "net_rs": -1355.0,
+          "expectancy": -451.67,
+          "trades_per_day": 1.0,
+          "stops": 3,
+          "square_offs": 0
+        }
+      },
+      "volrix_v2": {
+        "noevent_uncapped": {
+          "trades": 10,
+          "net_pos": 5,
+          "net_pos_pct": 50.0,
+          "targets": 0,
+          "target_pct": 0.0,
+          "net_rs": -291.0,
+          "expectancy": -29.1,
+          "trades_per_day": 3.333,
+          "stops": 0,
+          "square_offs": 10
+        },
+        "noevent_1day": {
+          "trades": 3,
+          "net_pos": 1,
+          "net_pos_pct": 33.3,
+          "targets": 0,
+          "target_pct": 0.0,
+          "net_rs": -100.0,
+          "expectancy": -33.33,
+          "trades_per_day": 1.0,
+          "stops": 0,
+          "square_offs": 3
+        }
+      },
+      "combined": {
+        "noevent_deduped_uncapped": {
+          "trades": 39,
+          "net_pos": 13,
+          "net_pos_pct": 33.3,
+          "targets": 11,
+          "target_pct": 28.2,
+          "net_rs": -6074.0,
+          "expectancy": -155.74,
+          "trades_per_day": 13.0,
+          "stops": 25,
+          "square_offs": 3
+        },
+        "noevent_1day": {
+          "trades": 3,
+          "net_pos": 0,
+          "net_pos_pct": 0.0,
+          "targets": 0,
+          "target_pct": 0.0,
+          "net_rs": -4210.0,
+          "expectancy": -1403.33,
+          "trades_per_day": 1.0,
+          "stops": 3,
+          "square_offs": 0
+        }
+      }
+    },
+    "noevent_stock_days_note": "no-event = outside ALL calendar windows (see script header)"
+  }
+}
