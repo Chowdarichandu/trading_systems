@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "mode": "LIVE-SHADOW",
+  "note": "Paper trading display feed only. Real money Rs 0. LIVE-SHADOW numbers are a live viewing layer; the official November record is the end-of-day candle-scored log.",
+  "date": "2026-11-02",
+  "updated_at": "2026-11-01T09:00:00+05:30",
+  "market_open": false,
+  "market_state": "pre-market (initialised Sun 2026-11-01; first live day Mon 2026-11-02)",
+  "indexes": {
+    "bank": {
+      "label": "Bank Nifty — BNF-PAPER-V1 (LIVE-SHADOW)",
+      "system": "BNF-PAPER-V1",
+      "lot": 30,
+      "cost_per_trade_inr": 220,
+      "open_positions": [],
+      "closed_today": [],
+      "day_net_inr": 0
+    },
+    "nifty": {
+      "label": "Nifty — NF-PAPER-C3G7 (LIVE-SHADOW)",
+      "system": "NF-PAPER-C3G7",
+      "lot": 65,
+      "cost_per_trade_inr": 220,
+      "open_positions": [],
+      "closed_today": [],
+      "day_net_inr": 0
+    }
+  }
+}
