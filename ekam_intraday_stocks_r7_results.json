@@ -1,0 +1,202 @@
+{
+ "basis": "equity cash intraday, per 100 shares PROVISIONAL, Rs40/trade, paper only; VWAP = equal-weighted typical-price proxy (no volume in stores)",
+ "spec": "ekam_intraday_stocks_r7_SPEC.md (frozen 2026-11-14)",
+ "control": {
+  "row": "S2 EARLIEST-3",
+  "reproduced": true,
+  "full": {
+   "2025": {
+    "trades": 621,
+    "total": 45300.64,
+    "wr": 34.94,
+    "expectancy": 72.95
+   },
+   "2026": {
+    "trades": 615,
+    "total": 72605.3,
+    "wr": 36.75,
+    "expectancy": 118.06
+   }
+  },
+  "november_cf": {
+   "trades": 27,
+   "total": 20662.6,
+   "wr": 55.56,
+   "expectancy": 765.28
+  }
+ },
+ "timing_audit": {
+  "truncated_recompute_checked": 616,
+  "truncated_recompute_mismatches": 0
+ },
+ "row": {
+  "label": "S2-T6 (6-of-6 votes, EARLIEST-3, CAND-T5 exits)",
+  "years": {
+   "2025": {
+    "jan_jun": {
+     "trades": 369,
+     "total": 63865.42,
+     "wr": 36.31,
+     "expectancy": 173.08
+    },
+    "jul_oct": {
+     "trades": 252,
+     "total": -4907.73,
+     "wr": 31.75,
+     "expectancy": -19.48
+    },
+    "jan_oct": {
+     "trades": 621,
+     "total": 58957.69,
+     "wr": 34.46,
+     "expectancy": 94.94
+    },
+    "months": {
+     "2025-01": {
+      "trades": 69,
+      "total": 36058.35
+     },
+     "2025-02": {
+      "trades": 60,
+      "total": 4185.87
+     },
+     "2025-03": {
+      "trades": 57,
+      "total": -4477.9
+     },
+     "2025-04": {
+      "trades": 57,
+      "total": 1986.7
+     },
+     "2025-05": {
+      "trades": 63,
+      "total": 14256.5
+     },
+     "2025-06": {
+      "trades": 63,
+      "total": 11855.9
+     },
+     "2025-07": {
+      "trades": 69,
+      "total": -4742.7
+     },
+     "2025-08": {
+      "trades": 57,
+      "total": -3550.43
+     },
+     "2025-09": {
+      "trades": 66,
+      "total": -562.09
+     },
+     "2025-10": {
+      "trades": 60,
+      "total": 3947.49
+     }
+    },
+    "ex_top3": 27972.69,
+    "placebo_pct": 100.0,
+    "placebo_draws": {
+     "min": -52566.95,
+     "median": -22325.44,
+     "max": 13394.77
+    }
+   },
+   "2026": {
+    "jan_jun": {
+     "trades": 360,
+     "total": -918.74,
+     "wr": 29.44,
+     "expectancy": -2.55
+    },
+    "jul_oct": {
+     "trades": 255,
+     "total": 16710.95,
+     "wr": 34.12,
+     "expectancy": 65.53
+    },
+    "jan_oct": {
+     "trades": 615,
+     "total": 15792.21,
+     "wr": 31.38,
+     "expectancy": 25.68
+    },
+    "months": {
+     "2026-01": {
+      "trades": 60,
+      "total": -3656.37
+     },
+     "2026-02": {
+      "trades": 63,
+      "total": 4068.3
+     },
+     "2026-03": {
+      "trades": 57,
+      "total": -465.3
+     },
+     "2026-04": {
+      "trades": 60,
+      "total": -93.8
+     },
+     "2026-05": {
+      "trades": 57,
+      "total": -7134.02
+     },
+     "2026-06": {
+      "trades": 63,
+      "total": 6362.45
+     },
+     "2026-07": {
+      "trades": 69,
+      "total": -1046.15
+     },
+     "2026-08": {
+      "trades": 63,
+      "total": 1360.45
+     },
+     "2026-09": {
+      "trades": 63,
+      "total": 6734.0
+     },
+     "2026-10": {
+      "trades": 60,
+      "total": 9662.65
+     }
+    },
+    "ex_top3": -6327.79,
+    "placebo_pct": 100.0,
+    "placebo_draws": {
+     "min": -50129.44,
+     "median": -23052.23,
+     "max": 11167.36
+    }
+   }
+  },
+  "november_cf": {
+   "trades": 27,
+   "total": -4153.65,
+   "wr": 29.63,
+   "expectancy": -153.84
+  },
+  "desired_bar": {
+   "per_year": {
+    "2025": {
+     "year_positive": true,
+     "jan_jun_positive": true,
+     "jul_oct_positive": false,
+     "expectancy_ge_80": true,
+     "placebo_ge_95": true,
+     "all": false
+    },
+    "2026": {
+     "year_positive": true,
+     "jan_jun_positive": false,
+     "jul_oct_positive": true,
+     "expectancy_ge_80": false,
+     "placebo_ge_95": true,
+     "all": false
+    }
+   },
+   "reached": false
+  }
+ }
+}

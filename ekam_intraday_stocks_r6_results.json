@@ -1,0 +1,444 @@
+{
+ "basis": "equity cash intraday, per 100 shares PROVISIONAL, Rs40/trade, paper only; VWAP = equal-weighted typical-price proxy (no volume in stores)",
+ "spec": "ekam_intraday_stocks_r6_SPEC.md (frozen 2026-11-14)",
+ "control": {
+  "reproduced": true,
+  "full": {
+   "2025": {
+    "trades": 621,
+    "total": 45300.64,
+    "wr": 34.94,
+    "expectancy": 72.95
+   },
+   "2026": {
+    "trades": 615,
+    "total": 72605.3,
+    "wr": 36.75,
+    "expectancy": 118.06
+   }
+  },
+  "jul_oct": {
+   "2025": {
+    "trades": 252,
+    "total": -7310.17,
+    "wr": 35.32,
+    "expectancy": -29.01
+   },
+   "2026": {
+    "trades": 255,
+    "total": 1275.85,
+    "wr": 36.86,
+    "expectancy": 5.0
+   }
+  },
+  "november_cf": {
+   "trades": 27,
+   "total": 20662.6,
+   "wr": 55.56,
+   "expectancy": 765.28
+  }
+ },
+ "timing_audit": {
+  "entry_after_signal_asserted_on_all_trades": true,
+  "truncated_recompute_checked": 313,
+  "truncated_recompute_mismatches": 0
+ },
+ "anatomy_2025_jul_oct": {
+  "window": {
+   "trades": 252,
+   "total": -7310.17,
+   "wr": 35.32,
+   "expectancy": -29.01
+  },
+  "by_month": {
+   "07": {
+    "trades": 69,
+    "total": 12028.6,
+    "wr": 49.28,
+    "expectancy": 174.33
+   },
+   "08": {
+    "trades": 57,
+    "total": 3073.6,
+    "wr": 38.6,
+    "expectancy": 53.92
+   },
+   "09": {
+    "trades": 66,
+    "total": -10186.77,
+    "wr": 24.24,
+    "expectancy": -154.34
+   },
+   "10": {
+    "trades": 60,
+    "total": -12225.6,
+    "wr": 28.33,
+    "expectancy": -203.76
+   }
+  },
+  "by_side": {
+   "LONG": {
+    "trades": 128,
+    "total": -20082.9,
+    "wr": 30.47,
+    "expectancy": -156.9
+   },
+   "SHORT": {
+    "trades": 124,
+    "total": 12772.73,
+    "wr": 40.32,
+    "expectancy": 103.01
+   }
+  },
+  "by_side_2026_jul_oct": {
+   "LONG": {
+    "trades": 122,
+    "total": -5012.55,
+    "wr": 31.15,
+    "expectancy": -41.09
+   },
+   "SHORT": {
+    "trades": 133,
+    "total": 6288.4,
+    "wr": 42.11,
+    "expectancy": 47.28
+   }
+  },
+  "by_votes": {
+   "5": {
+    "trades": 199,
+    "total": -13234.47,
+    "wr": 32.66,
+    "expectancy": -66.5
+   },
+   "6": {
+    "trades": 53,
+    "total": 5924.3,
+    "wr": 45.28,
+    "expectancy": 111.78
+   }
+  },
+  "worst_stocks": [
+   {
+    "sym": "ASTRAL",
+    "trades": 43,
+    "total": -11048.0,
+    "wr": 30.23,
+    "expectancy": -256.93
+   },
+   {
+    "sym": "GODREJCP",
+    "trades": 38,
+    "total": -2173.4,
+    "wr": 39.47,
+    "expectancy": -57.19
+   },
+   {
+    "sym": "HDFCBANK",
+    "trades": 33,
+    "total": -2030.0,
+    "wr": 33.33,
+    "expectancy": -61.52
+   },
+   {
+    "sym": "HINDCOPPER",
+    "trades": 13,
+    "total": -1614.97,
+    "wr": 30.77,
+    "expectancy": -124.23
+   },
+   {
+    "sym": "HINDALCO",
+    "trades": 14,
+    "total": -1104.4,
+    "wr": 42.86,
+    "expectancy": -78.89
+   }
+  ],
+  "all_stocks": [
+   {
+    "sym": "ASTRAL",
+    "trades": 43,
+    "total": -11048.0,
+    "wr": 30.23,
+    "expectancy": -256.93
+   },
+   {
+    "sym": "GODREJCP",
+    "trades": 38,
+    "total": -2173.4,
+    "wr": 39.47,
+    "expectancy": -57.19
+   },
+   {
+    "sym": "HDFCBANK",
+    "trades": 33,
+    "total": -2030.0,
+    "wr": 33.33,
+    "expectancy": -61.52
+   },
+   {
+    "sym": "HINDCOPPER",
+    "trades": 13,
+    "total": -1614.97,
+    "wr": 30.77,
+    "expectancy": -124.23
+   },
+   {
+    "sym": "HINDALCO",
+    "trades": 14,
+    "total": -1104.4,
+    "wr": 42.86,
+    "expectancy": -78.89
+   },
+   {
+    "sym": "INDUSTOWER",
+    "trades": 1,
+    "total": -404.5,
+    "wr": 0.0,
+    "expectancy": -404.5
+   },
+   {
+    "sym": "HINDZINC",
+    "trades": 2,
+    "total": -275.0,
+    "wr": 0.0,
+    "expectancy": -137.5
+   },
+   {
+    "sym": "KALYANKJIL",
+    "trades": 1,
+    "total": 365.0,
+    "wr": 100.0,
+    "expectancy": 365.0
+   },
+   {
+    "sym": "HINDUNILVR",
+    "trades": 4,
+    "total": 1160.0,
+    "wr": 25.0,
+    "expectancy": 290.0
+   },
+   {
+    "sym": "BDL",
+    "trades": 51,
+    "total": 2671.1,
+    "wr": 37.25,
+    "expectancy": 52.37
+   },
+   {
+    "sym": "GLENMARK",
+    "trades": 52,
+    "total": 7144.0,
+    "wr": 36.54,
+    "expectancy": 137.38
+   }
+  ]
+ },
+ "dial": "SIDE_DROP",
+ "dial_detail": {
+  "dropped_side": "LONG",
+  "dropped_side_value": 1,
+  "qualifying_sides": [
+   1
+  ],
+  "side_net_2025_jul_oct": {
+   "LONG": -20082.9,
+   "SHORT": 12772.73
+  },
+  "side_net_2026_jul_oct": {
+   "LONG": -5012.55,
+   "SHORT": 6288.4
+  }
+ },
+ "dialed_row": {
+  "years": {
+   "2025": {
+    "jan_jun": {
+     "trades": 354,
+     "total": -20387.99,
+     "wr": 34.18,
+     "expectancy": -57.59
+    },
+    "jul_oct": {
+     "trades": 252,
+     "total": 19705.25,
+     "wr": 38.49,
+     "expectancy": 78.2
+    },
+    "jan_oct": {
+     "trades": 606,
+     "total": -682.74,
+     "wr": 35.97,
+     "expectancy": -1.13
+    },
+    "months": {
+     "2025-01": {
+      "trades": 67,
+      "total": 8161.16
+     },
+     "2025-02": {
+      "trades": 60,
+      "total": -3629.27
+     },
+     "2025-03": {
+      "trades": 51,
+      "total": -5938.52
+     },
+     "2025-04": {
+      "trades": 52,
+      "total": 1584.92
+     },
+     "2025-05": {
+      "trades": 61,
+      "total": -22141.49
+     },
+     "2025-06": {
+      "trades": 63,
+      "total": 1575.21
+     },
+     "2025-07": {
+      "trades": 69,
+      "total": 14801.3
+     },
+     "2025-08": {
+      "trades": 57,
+      "total": 10494.75
+     },
+     "2025-09": {
+      "trades": 66,
+      "total": -1186.95
+     },
+     "2025-10": {
+      "trades": 60,
+      "total": -4403.85
+     }
+    },
+    "ex_top3": -19207.74,
+    "placebo_pct": 96.5,
+    "placebo_draws": {
+     "min": -55133.94,
+     "median": -20356.77,
+     "max": 4735.19
+    }
+   },
+   "2026": {
+    "jan_jun": {
+     "trades": 339,
+     "total": 35519.84,
+     "wr": 37.17,
+     "expectancy": 104.78
+    },
+    "jul_oct": {
+     "trades": 253,
+     "total": 13766.15,
+     "wr": 38.34,
+     "expectancy": 54.41
+    },
+    "jan_oct": {
+     "trades": 592,
+     "total": 49285.99,
+     "wr": 37.67,
+     "expectancy": 83.25
+    },
+    "months": {
+     "2026-01": {
+      "trades": 60,
+      "total": 14768.8
+     },
+     "2026-02": {
+      "trades": 60,
+      "total": 7311.44
+     },
+     "2026-03": {
+      "trades": 51,
+      "total": 21790.65
+     },
+     "2026-04": {
+      "trades": 52,
+      "total": -8141.4
+     },
+     "2026-05": {
+      "trades": 57,
+      "total": -5809.3
+     },
+     "2026-06": {
+      "trades": 59,
+      "total": 5599.65
+     },
+     "2026-07": {
+      "trades": 69,
+      "total": -6652.2
+     },
+     "2026-08": {
+      "trades": 63,
+      "total": 7318.5
+     },
+     "2026-09": {
+      "trades": 63,
+      "total": 14446.95
+     },
+     "2026-10": {
+      "trades": 58,
+      "total": -1347.1
+     }
+    },
+    "ex_top3": 27445.99,
+    "placebo_pct": 100.0,
+    "placebo_draws": {
+     "min": -49248.5,
+     "median": -21168.95,
+     "max": 16754.9
+    }
+   }
+  },
+  "november_cf": {
+   "trades": 27,
+   "total": -4210.85,
+   "wr": 29.63,
+   "expectancy": -155.96
+  },
+  "desired_bar": {
+   "per_year": {
+    "2025": {
+     "year_positive": false,
+     "jan_jun_positive": false,
+     "jul_oct_positive": true,
+     "expectancy_ge_80": false,
+     "placebo_ge_95": true,
+     "all": false
+    },
+    "2026": {
+     "year_positive": true,
+     "jan_jun_positive": true,
+     "jul_oct_positive": true,
+     "expectancy_ge_80": true,
+     "placebo_ge_95": true,
+     "all": true
+    }
+   },
+   "reached": false
+  }
+ },
+ "desired_bar": {
+  "per_year": {
+   "2025": {
+    "year_positive": false,
+    "jan_jun_positive": false,
+    "jul_oct_positive": true,
+    "expectancy_ge_80": false,
+    "placebo_ge_95": true,
+    "all": false
+   },
+   "2026": {
+    "year_positive": true,
+    "jan_jun_positive": true,
+    "jul_oct_positive": true,
+    "expectancy_ge_80": true,
+    "placebo_ge_95": true,
+    "all": true
+   }
+  },
+  "reached": false
+ }
+}

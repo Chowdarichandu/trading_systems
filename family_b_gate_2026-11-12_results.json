@@ -1,0 +1,118 @@
+{
+ "family": "FAMILY B \u2014 NIFTY-WEXP v1 (weekly-expiry-day book)",
+ "verdict": "FAIL",
+ "gate": {
+  "1_total_positive": true,
+  "2_halves_positive": false,
+  "3_bleed": false,
+  "4_ex_top3_positive": false,
+  "5_placebos_beaten": false,
+  "6_nc_zero": true,
+  "7_audits_clean": true
+ },
+ "n_legs": 29,
+ "n_generated": 29,
+ "nc": 0,
+ "nc_legs": [],
+ "total": 10237.25,
+ "per_month": 1023.73,
+ "ft_pct": 24.1,
+ "halves": {
+  "Jan-May": -14959.75,
+  "Jun-Oct": 25197.0
+ },
+ "month_table": {
+  "2026-01": [
+   7967.75,
+   2
+  ],
+  "2026-02": [
+   -4067.0,
+   2
+  ],
+  "2026-03": [
+   -10410.0,
+   3
+  ],
+  "2026-04": [
+   -62.0,
+   3
+  ],
+  "2026-05": [
+   -8388.5,
+   3
+  ],
+  "2026-06": [
+   4034.0,
+   4
+  ],
+  "2026-07": [
+   -6942.25,
+   3
+  ],
+  "2026-08": [
+   2307.25,
+   3
+  ],
+  "2026-09": [
+   13579.25,
+   4
+  ],
+  "2026-10": [
+   12218.75,
+   2
+  ]
+ },
+ "red_months": [
+  "2026-02",
+  "2026-03",
+  "2026-04",
+  "2026-05",
+  "2026-07"
+ ],
+ "worst_month": -10410.0,
+ "top3": [
+  9530.0,
+  9530.0,
+  9530.0
+ ],
+ "ex_top3_legs": -18352.75,
+ "ex_top3_days": -18352.75,
+ "placebo_delay6": {
+  "total": 11420.25,
+  "filled": 29,
+  "unfilled": 0
+ },
+ "placebo_flipped": {
+  "total": -16152.75,
+  "filled": 29,
+  "unfilled": 0
+ },
+ "timing_audit": {
+  "checked": 29,
+  "violations": 0
+ },
+ "rederive_match": true,
+ "resum": 10237.25,
+ "excluded_days": [
+  [
+   "2026-01-13",
+   "no-system-signal"
+  ],
+  [
+   "2026-02-03",
+   "no-system-signal"
+  ],
+  [
+   "2026-03-10",
+   "no-system-signal"
+  ],
+  [
+   "2026-10-19",
+   "no-system-signal"
+  ]
+ ],
+ "november_counterfactual": "NOT_COMPUTED \u2014 chain store covers Jan-Oct 2026 only (0 November files); expiring-weekly premium candles for November exist in no store (november_shadow_data: 27 files, prior books' legs only)",
+ "nifty_stacked_now": 12347.9,
+ "nifty_stacked_if_pass": 13371.62
+}

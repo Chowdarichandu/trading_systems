@@ -41,7 +41,7 @@ def call(path, params=None):
         url += "?" + urllib.parse.urlencode(params)
     req = urllib.request.Request(url, headers={
         "Accept": "application/json",
-        "User-Agent": "BankNiftyBacktestFetcher/1.0",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36",
     })
     add_surrogate_to_request(req, "custom.upstox", allowed_hosts=["api.upstox.com"])
     for attempt in range(4):

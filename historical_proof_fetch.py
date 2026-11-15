@@ -98,7 +98,7 @@ def main():
         from playwright.sync_api import sync_playwright
         with sync_playwright() as p:
             browser = p.chromium.launch(headless=True, args=["--no-sandbox", "--disable-dev-shm-usage", "--disable-gpu"])
-            ctx = browser.new_context(ignore_https_errors=True, **atr._local_proxy_kwargs())
+            ctx = browser.new_context(ignore_https_errors=True, user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36", **atr._local_proxy_kwargs())
             page = ctx.new_page()
             try: page.goto("https://api.upstox.com/", timeout=60000, wait_until="domcontentloaded")
             except Exception as e: print("origin:", str(e)[:200])

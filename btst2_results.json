@@ -1,0 +1,217 @@
+{
+ "spec": "btst2_SPEC.md",
+ "basis": "per 100 shares PROVISIONAL, Rs40/position",
+ "reuse_check": "E0-H3 reproduces hold_programme_2026-11-15.md exactly",
+ "cells": {
+  "E0-H1": {
+   "2025": {
+    "trades": 1075,
+    "net": 29475.0,
+    "wr": 48.2,
+    "avg_pct": 0.124,
+    "worst": -15240.0,
+    "max_dd": -238414.0,
+    "wmark": 0,
+    "forced": 0
+   },
+   "2026": {
+    "trades": 1075,
+    "net": 69077.0,
+    "wr": 47.4,
+    "avg_pct": 0.088,
+    "worst": -14440.0,
+    "max_dd": -263883.0,
+    "wmark": 0,
+    "forced": 0
+   },
+   "combined_net": 98552.0
+  },
+  "E0-H2": {
+   "2025": {
+    "trades": 1075,
+    "net": 98386.0,
+    "wr": 51.7,
+    "avg_pct": 0.347,
+    "worst": -23745.0,
+    "max_dd": -232796.0,
+    "wmark": 0,
+    "forced": 0
+   },
+   "2026": {
+    "trades": 1075,
+    "net": 303058.0,
+    "wr": 50.4,
+    "avg_pct": 0.404,
+    "worst": -16730.0,
+    "max_dd": -276472.0,
+    "wmark": 0,
+    "forced": 0
+   },
+   "combined_net": 401444.0
+  },
+  "E1-H1": {
+   "2025": {
+    "trades": 148,
+    "net": 15260.0,
+    "wr": 57.4,
+    "avg_pct": 0.653,
+    "worst": -24655.0,
+    "max_dd": -30587.0,
+    "wmark": 1,
+    "forced": 0
+   },
+   "2026": {
+    "trades": 192,
+    "net": 4003.0,
+    "wr": 42.7,
+    "avg_pct": -0.075,
+    "worst": -6670.0,
+    "max_dd": -39061.0,
+    "wmark": 5,
+    "forced": 0
+   },
+   "combined_net": 19263.0
+  },
+  "E1-H2": {
+   "2025": {
+    "trades": 139,
+    "net": 58006.0,
+    "wr": 54.0,
+    "avg_pct": 0.94,
+    "worst": -19150.0,
+    "max_dd": -21618.0,
+    "wmark": 2,
+    "forced": 0
+   },
+   "2026": {
+    "trades": 177,
+    "net": 29974.0,
+    "wr": 42.4,
+    "avg_pct": -0.005,
+    "worst": -9830.0,
+    "max_dd": -36597.0,
+    "wmark": 7,
+    "forced": 0
+   },
+   "combined_net": 87980.0
+  },
+  "E2-H1": {
+   "2025": {
+    "trades": 140,
+    "net": -4269.0,
+    "wr": 50.7,
+    "avg_pct": 0.356,
+    "worst": -15240.0,
+    "max_dd": -46348.0,
+    "wmark": 0,
+    "forced": 0
+   },
+   "2026": {
+    "trades": 189,
+    "net": -54709.0,
+    "wr": 47.1,
+    "avg_pct": -0.183,
+    "worst": -37240.0,
+    "max_dd": -82353.0,
+    "wmark": 3,
+    "forced": 0
+   },
+   "combined_net": -58978.0
+  },
+  "E2-H2": {
+   "2025": {
+    "trades": 133,
+    "net": 1369.0,
+    "wr": 52.6,
+    "avg_pct": 0.499,
+    "worst": -23745.0,
+    "max_dd": -46222.0,
+    "wmark": 1,
+    "forced": 0
+   },
+   "2026": {
+    "trades": 176,
+    "net": -86624.0,
+    "wr": 34.7,
+    "avg_pct": -0.48,
+    "worst": -45300.0,
+    "max_dd": -124788.0,
+    "wmark": 6,
+    "forced": 0
+   },
+   "combined_net": -85255.0
+  },
+  "E3-H1": {
+   "2025": {
+    "trades": 349,
+    "net": 5600.0,
+    "wr": 47.0,
+    "avg_pct": -0.174,
+    "worst": -11740.0,
+    "max_dd": -36033.0,
+    "wmark": 0,
+    "forced": 0
+   },
+   "2026": {
+    "trades": 284,
+    "net": -36754.0,
+    "wr": 39.8,
+    "avg_pct": -0.185,
+    "worst": -10190.0,
+    "max_dd": -73248.0,
+    "wmark": 4,
+    "forced": 0
+   },
+   "combined_net": -31154.0
+  },
+  "E3-H2": {
+   "2025": {
+    "trades": 324,
+    "net": -12022.0,
+    "wr": 47.8,
+    "avg_pct": -0.183,
+    "worst": -17040.0,
+    "max_dd": -79910.0,
+    "wmark": 5,
+    "forced": 0
+   },
+   "2026": {
+    "trades": 268,
+    "net": -125210.0,
+    "wr": 41.8,
+    "avg_pct": -0.451,
+    "worst": -47440.0,
+    "max_dd": -170570.0,
+    "wmark": 6,
+    "forced": 0
+   },
+   "combined_net": -137232.0
+  }
+ },
+ "placebo": {
+  "E0": {
+   "cell": "E0-H2",
+   "combined_net": 401444.0,
+   "percentile": 100.0,
+   "placebo_median": -291871.5
+  },
+  "E1": {
+   "cell": "E1-H2",
+   "combined_net": 87980.0,
+   "percentile": 99.7,
+   "placebo_median": -57036.5
+  },
+  "E2": {
+   "cell": "E2-H1",
+   "combined_net": -58978.0,
+   "percentile": 44.2,
+   "placebo_median": -49477.0
+  },
+  "E3": {
+   "cell": "E3-H1",
+   "combined_net": -31154.0,
+   "percentile": 79.1,
+   "placebo_median": -86943.0
+  }
+ }
+}

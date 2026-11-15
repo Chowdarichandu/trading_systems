@@ -1,0 +1,1212 @@
+{
+ "basis": "equity cash intraday, per 100 shares PROVISIONAL, Rs40/trade, paper only; VWAP = equal-weighted typical-price proxy (no volume in stores)",
+ "spec": "ekam_intraday_stocks_r2_SPEC.md (frozen 2026-11-14)",
+ "control": {
+  "T4-X2": {
+   "reproduced": true,
+   "full": {
+    "2025": {
+     "trades": 1035,
+     "total": 20559.4,
+     "wr": 32.66,
+     "expectancy": 19.86
+    },
+    "2026": {
+     "trades": 1025,
+     "total": 51453.37,
+     "wr": 33.37,
+     "expectancy": 50.2
+    }
+   },
+   "november_cf": {
+    "trades": 45,
+    "total": 13261.4,
+    "wr": 40.0,
+    "expectancy": 294.7
+   }
+  },
+  "T5-X2": {
+   "reproduced": true,
+   "full": {
+    "2025": {
+     "trades": 1035,
+     "total": 36834.57,
+     "wr": 33.14,
+     "expectancy": 35.59
+    },
+    "2026": {
+     "trades": 1025,
+     "total": 34966.66,
+     "wr": 33.66,
+     "expectancy": 34.11
+    }
+   },
+   "november_cf": {
+    "trades": 45,
+    "total": 18563.3,
+    "wr": 44.44,
+    "expectancy": 412.52
+   }
+  }
+ },
+ "timing_audit": {
+  "entry_after_signal_asserted_on_all_trades": true,
+  "truncated_recompute_checked": 625,
+  "truncated_recompute_mismatches": 0
+ },
+ "steps": {
+  "T4-decay": {
+   "rows": {
+    "D1/S0.75%/nocap": {
+     "2025": {
+      "jan_jun": {
+       "trades": 615,
+       "total": 59134.91,
+       "wr": 36.42,
+       "expectancy": 96.15
+      },
+      "jul_oct": {
+       "trades": 420,
+       "total": -8039.9,
+       "wr": 32.86,
+       "expectancy": -19.14
+      },
+      "jan_oct": {
+       "trades": 1035,
+       "total": 51095.01,
+       "wr": 34.98,
+       "expectancy": 49.37
+      }
+     },
+     "2026": {
+      "jan_jun": {
+       "trades": 600,
+       "total": 40287.21,
+       "wr": 33.33,
+       "expectancy": 67.15
+      },
+      "jul_oct": {
+       "trades": 425,
+       "total": 361.5,
+       "wr": 35.53,
+       "expectancy": 0.85
+      },
+      "jan_oct": {
+       "trades": 1025,
+       "total": 40648.71,
+       "wr": 34.24,
+       "expectancy": 39.66
+      }
+     },
+     "november_cf": {
+      "trades": 45,
+      "total": 10492.11,
+      "wr": 37.78,
+      "expectancy": 233.16
+     }
+    },
+    "D2/S0.75%/nocap": {
+     "2025": {
+      "jan_jun": {
+       "trades": 615,
+       "total": 39924.74,
+       "wr": 33.66,
+       "expectancy": 64.92
+      },
+      "jul_oct": {
+       "trades": 420,
+       "total": -19365.34,
+       "wr": 31.19,
+       "expectancy": -46.11
+      },
+      "jan_oct": {
+       "trades": 1035,
+       "total": 20559.4,
+       "wr": 32.66,
+       "expectancy": 19.86
+      }
+     },
+     "2026": {
+      "jan_jun": {
+       "trades": 600,
+       "total": 36131.93,
+       "wr": 32.33,
+       "expectancy": 60.22
+      },
+      "jul_oct": {
+       "trades": 425,
+       "total": 15321.45,
+       "wr": 34.82,
+       "expectancy": 36.05
+      },
+      "jan_oct": {
+       "trades": 1025,
+       "total": 51453.37,
+       "wr": 33.37,
+       "expectancy": 50.2
+      }
+     },
+     "november_cf": {
+      "trades": 45,
+      "total": 13261.4,
+      "wr": 40.0,
+      "expectancy": 294.7
+     }
+    },
+    "D3/S0.75%/nocap": {
+     "2025": {
+      "jan_jun": {
+       "trades": 615,
+       "total": 44711.55,
+       "wr": 33.82,
+       "expectancy": 72.7
+      },
+      "jul_oct": {
+       "trades": 420,
+       "total": -17277.54,
+       "wr": 32.14,
+       "expectancy": -41.14
+      },
+      "jan_oct": {
+       "trades": 1035,
+       "total": 27434.02,
+       "wr": 33.14,
+       "expectancy": 26.51
+      }
+     },
+     "2026": {
+      "jan_jun": {
+       "trades": 600,
+       "total": 35945.89,
+       "wr": 32.67,
+       "expectancy": 59.91
+      },
+      "jul_oct": {
+       "trades": 425,
+       "total": 13963.2,
+       "wr": 34.35,
+       "expectancy": 32.85
+      },
+      "jan_oct": {
+       "trades": 1025,
+       "total": 49909.09,
+       "wr": 33.37,
+       "expectancy": 48.69
+      }
+     },
+     "november_cf": {
+      "trades": 45,
+      "total": 12181.4,
+      "wr": 42.22,
+      "expectancy": 270.7
+     }
+    }
+   },
+   "winner": "D1/S0.75%/nocap",
+   "winner_params": {
+    "D": 1,
+    "S": 0.0075,
+    "C": null
+   }
+  },
+  "T4-stop": {
+   "rows": {
+    "D2/S0.50%/nocap": {
+     "2025": {
+      "jan_jun": {
+       "trades": 615,
+       "total": 13284.61,
+       "wr": 29.11,
+       "expectancy": 21.6
+      },
+      "jul_oct": {
+       "trades": 420,
+       "total": -22834.45,
+       "wr": 28.81,
+       "expectancy": -54.37
+      },
+      "jan_oct": {
+       "trades": 1035,
+       "total": -9549.84,
+       "wr": 28.99,
+       "expectancy": -9.23
+      }
+     },
+     "2026": {
+      "jan_jun": {
+       "trades": 600,
+       "total": 4865.33,
+       "wr": 27.83,
+       "expectancy": 8.11
+      },
+      "jul_oct": {
+       "trades": 425,
+       "total": 3433.68,
+       "wr": 32.0,
+       "expectancy": 8.08
+      },
+      "jan_oct": {
+       "trades": 1025,
+       "total": 8299.0,
+       "wr": 29.56,
+       "expectancy": 8.1
+      }
+     },
+     "november_cf": {
+      "trades": 45,
+      "total": -219.67,
+      "wr": 31.11,
+      "expectancy": -4.88
+     }
+    },
+    "D2/S0.75%/nocap": {
+     "2025": {
+      "jan_jun": {
+       "trades": 615,
+       "total": 39924.74,
+       "wr": 33.66,
+       "expectancy": 64.92
+      },
+      "jul_oct": {
+       "trades": 420,
+       "total": -19365.34,
+       "wr": 31.19,
+       "expectancy": -46.11
+      },
+      "jan_oct": {
+       "trades": 1035,
+       "total": 20559.4,
+       "wr": 32.66,
+       "expectancy": 19.86
+      }
+     },
+     "2026": {
+      "jan_jun": {
+       "trades": 600,
+       "total": 36131.93,
+       "wr": 32.33,
+       "expectancy": 60.22
+      },
+      "jul_oct": {
+       "trades": 425,
+       "total": 15321.45,
+       "wr": 34.82,
+       "expectancy": 36.05
+      },
+      "jan_oct": {
+       "trades": 1025,
+       "total": 51453.37,
+       "wr": 33.37,
+       "expectancy": 50.2
+      }
+     },
+     "november_cf": {
+      "trades": 45,
+      "total": 13261.4,
+      "wr": 40.0,
+      "expectancy": 294.7
+     }
+    },
+    "D2/S1.00%/nocap": {
+     "2025": {
+      "jan_jun": {
+       "trades": 615,
+       "total": 59733.97,
+       "wr": 35.93,
+       "expectancy": 97.13
+      },
+      "jul_oct": {
+       "trades": 420,
+       "total": -17302.65,
+       "wr": 31.9,
+       "expectancy": -41.2
+      },
+      "jan_oct": {
+       "trades": 1035,
+       "total": 42431.32,
+       "wr": 34.3,
+       "expectancy": 41.0
+      }
+     },
+     "2026": {
+      "jan_jun": {
+       "trades": 600,
+       "total": 47430.9,
+       "wr": 34.5,
+       "expectancy": 79.05
+      },
+      "jul_oct": {
+       "trades": 425,
+       "total": 17062.25,
+       "wr": 35.53,
+       "expectancy": 40.15
+      },
+      "jan_oct": {
+       "trades": 1025,
+       "total": 64493.15,
+       "wr": 34.93,
+       "expectancy": 62.92
+      }
+     },
+     "november_cf": {
+      "trades": 45,
+      "total": 15637.45,
+      "wr": 42.22,
+      "expectancy": 347.5
+     }
+    }
+   },
+   "winner": "D2/S1.00%/nocap",
+   "winner_params": {
+    "D": 2,
+    "S": 0.01,
+    "C": null
+   }
+  },
+  "T4-cap": {
+   "rows": {
+    "D2/S0.75%/nocap": {
+     "2025": {
+      "jan_jun": {
+       "trades": 615,
+       "total": 39924.74,
+       "wr": 33.66,
+       "expectancy": 64.92
+      },
+      "jul_oct": {
+       "trades": 420,
+       "total": -19365.34,
+       "wr": 31.19,
+       "expectancy": -46.11
+      },
+      "jan_oct": {
+       "trades": 1035,
+       "total": 20559.4,
+       "wr": 32.66,
+       "expectancy": 19.86
+      }
+     },
+     "2026": {
+      "jan_jun": {
+       "trades": 600,
+       "total": 36131.93,
+       "wr": 32.33,
+       "expectancy": 60.22
+      },
+      "jul_oct": {
+       "trades": 425,
+       "total": 15321.45,
+       "wr": 34.82,
+       "expectancy": 36.05
+      },
+      "jan_oct": {
+       "trades": 1025,
+       "total": 51453.37,
+       "wr": 33.37,
+       "expectancy": 50.2
+      }
+     },
+     "november_cf": {
+      "trades": 45,
+      "total": 13261.4,
+      "wr": 40.0,
+      "expectancy": 294.7
+     }
+    },
+    "D2/S0.75%/cap1.5%": {
+     "2025": {
+      "jan_jun": {
+       "trades": 615,
+       "total": -19104.0,
+       "wr": 34.8,
+       "expectancy": -31.06
+      },
+      "jul_oct": {
+       "trades": 420,
+       "total": -18884.38,
+       "wr": 31.43,
+       "expectancy": -44.96
+      },
+      "jan_oct": {
+       "trades": 1035,
+       "total": -37988.38,
+       "wr": 33.43,
+       "expectancy": -36.7
+      }
+     },
+     "2026": {
+      "jan_jun": {
+       "trades": 600,
+       "total": 14848.55,
+       "wr": 33.17,
+       "expectancy": 24.75
+      },
+      "jul_oct": {
+       "trades": 425,
+       "total": 14538.76,
+       "wr": 36.0,
+       "expectancy": 34.21
+      },
+      "jan_oct": {
+       "trades": 1025,
+       "total": 29387.31,
+       "wr": 34.34,
+       "expectancy": 28.67
+      }
+     },
+     "november_cf": {
+      "trades": 45,
+      "total": 11477.6,
+      "wr": 40.0,
+      "expectancy": 255.06
+     }
+    }
+   },
+   "winner": "D2/S0.75%/nocap",
+   "winner_params": {
+    "D": 2,
+    "S": 0.0075,
+    "C": null
+   }
+  },
+  "T5-decay": {
+   "rows": {
+    "D1/S0.75%/nocap": {
+     "2025": {
+      "jan_jun": {
+       "trades": 615,
+       "total": 59511.16,
+       "wr": 34.63,
+       "expectancy": 96.77
+      },
+      "jul_oct": {
+       "trades": 420,
+       "total": 3156.31,
+       "wr": 35.48,
+       "expectancy": 7.52
+      },
+      "jan_oct": {
+       "trades": 1035,
+       "total": 62667.47,
+       "wr": 34.98,
+       "expectancy": 60.55
+      }
+     },
+     "2026": {
+      "jan_jun": {
+       "trades": 600,
+       "total": 41295.41,
+       "wr": 34.0,
+       "expectancy": 68.83
+      },
+      "jul_oct": {
+       "trades": 425,
+       "total": -22334.71,
+       "wr": 34.35,
+       "expectancy": -52.55
+      },
+      "jan_oct": {
+       "trades": 1025,
+       "total": 18960.7,
+       "wr": 34.15,
+       "expectancy": 18.5
+      }
+     },
+     "november_cf": {
+      "trades": 45,
+      "total": 16678.9,
+      "wr": 48.89,
+      "expectancy": 370.64
+     }
+    },
+    "D2/S0.75%/nocap": {
+     "2025": {
+      "jan_jun": {
+       "trades": 615,
+       "total": 40469.38,
+       "wr": 32.85,
+       "expectancy": 65.8
+      },
+      "jul_oct": {
+       "trades": 420,
+       "total": -3634.81,
+       "wr": 33.57,
+       "expectancy": -8.65
+      },
+      "jan_oct": {
+       "trades": 1035,
+       "total": 36834.57,
+       "wr": 33.14,
+       "expectancy": 35.59
+      }
+     },
+     "2026": {
+      "jan_jun": {
+       "trades": 600,
+       "total": 47056.05,
+       "wr": 33.67,
+       "expectancy": 78.43
+      },
+      "jul_oct": {
+       "trades": 425,
+       "total": -12089.39,
+       "wr": 33.65,
+       "expectancy": -28.45
+      },
+      "jan_oct": {
+       "trades": 1025,
+       "total": 34966.66,
+       "wr": 33.66,
+       "expectancy": 34.11
+      }
+     },
+     "november_cf": {
+      "trades": 45,
+      "total": 18563.3,
+      "wr": 44.44,
+      "expectancy": 412.52
+     }
+    },
+    "D3/S0.75%/nocap": {
+     "2025": {
+      "jan_jun": {
+       "trades": 615,
+       "total": 46107.04,
+       "wr": 33.17,
+       "expectancy": 74.97
+      },
+      "jul_oct": {
+       "trades": 420,
+       "total": -1047.84,
+       "wr": 34.76,
+       "expectancy": -2.49
+      },
+      "jan_oct": {
+       "trades": 1035,
+       "total": 45059.2,
+       "wr": 33.82,
+       "expectancy": 43.54
+      }
+     },
+     "2026": {
+      "jan_jun": {
+       "trades": 600,
+       "total": 45216.54,
+       "wr": 33.83,
+       "expectancy": 75.36
+      },
+      "jul_oct": {
+       "trades": 425,
+       "total": -8467.13,
+       "wr": 33.88,
+       "expectancy": -19.92
+      },
+      "jan_oct": {
+       "trades": 1025,
+       "total": 36749.41,
+       "wr": 33.85,
+       "expectancy": 35.85
+      }
+     },
+     "november_cf": {
+      "trades": 45,
+      "total": 18838.3,
+      "wr": 44.44,
+      "expectancy": 418.63
+     }
+    }
+   },
+   "winner": "D3/S0.75%/nocap",
+   "winner_params": {
+    "D": 3,
+    "S": 0.0075,
+    "C": null
+   }
+  },
+  "T5-stop": {
+   "rows": {
+    "D2/S0.50%/nocap": {
+     "2025": {
+      "jan_jun": {
+       "trades": 615,
+       "total": 34003.19,
+       "wr": 28.94,
+       "expectancy": 55.29
+      },
+      "jul_oct": {
+       "trades": 420,
+       "total": -11511.2,
+       "wr": 29.76,
+       "expectancy": -27.41
+      },
+      "jan_oct": {
+       "trades": 1035,
+       "total": 22491.99,
+       "wr": 29.28,
+       "expectancy": 21.73
+      }
+     },
+     "2026": {
+      "jan_jun": {
+       "trades": 600,
+       "total": 27165.4,
+       "wr": 29.0,
+       "expectancy": 45.28
+      },
+      "jul_oct": {
+       "trades": 425,
+       "total": -22501.61,
+       "wr": 30.35,
+       "expectancy": -52.94
+      },
+      "jan_oct": {
+       "trades": 1025,
+       "total": 4663.79,
+       "wr": 29.56,
+       "expectancy": 4.55
+      }
+     },
+     "november_cf": {
+      "trades": 45,
+      "total": 2571.68,
+      "wr": 33.33,
+      "expectancy": 57.15
+     }
+    },
+    "D2/S0.75%/nocap": {
+     "2025": {
+      "jan_jun": {
+       "trades": 615,
+       "total": 40469.38,
+       "wr": 32.85,
+       "expectancy": 65.8
+      },
+      "jul_oct": {
+       "trades": 420,
+       "total": -3634.81,
+       "wr": 33.57,
+       "expectancy": -8.65
+      },
+      "jan_oct": {
+       "trades": 1035,
+       "total": 36834.57,
+       "wr": 33.14,
+       "expectancy": 35.59
+      }
+     },
+     "2026": {
+      "jan_jun": {
+       "trades": 600,
+       "total": 47056.05,
+       "wr": 33.67,
+       "expectancy": 78.43
+      },
+      "jul_oct": {
+       "trades": 425,
+       "total": -12089.39,
+       "wr": 33.65,
+       "expectancy": -28.45
+      },
+      "jan_oct": {
+       "trades": 1025,
+       "total": 34966.66,
+       "wr": 33.66,
+       "expectancy": 34.11
+      }
+     },
+     "november_cf": {
+      "trades": 45,
+      "total": 18563.3,
+      "wr": 44.44,
+      "expectancy": 412.52
+     }
+    },
+    "D2/S1.00%/nocap": {
+     "2025": {
+      "jan_jun": {
+       "trades": 615,
+       "total": 57440.24,
+       "wr": 35.45,
+       "expectancy": 93.4
+      },
+      "jul_oct": {
+       "trades": 420,
+       "total": -5348.61,
+       "wr": 34.29,
+       "expectancy": -12.73
+      },
+      "jan_oct": {
+       "trades": 1035,
+       "total": 52091.63,
+       "wr": 34.98,
+       "expectancy": 50.33
+      }
+     },
+     "2026": {
+      "jan_jun": {
+       "trades": 600,
+       "total": 76101.45,
+       "wr": 36.33,
+       "expectancy": 126.84
+      },
+      "jul_oct": {
+       "trades": 425,
+       "total": -6978.0,
+       "wr": 34.82,
+       "expectancy": -16.42
+      },
+      "jan_oct": {
+       "trades": 1025,
+       "total": 69123.45,
+       "wr": 35.71,
+       "expectancy": 67.44
+      }
+     },
+     "november_cf": {
+      "trades": 45,
+      "total": 24253.65,
+      "wr": 48.89,
+      "expectancy": 538.97
+     }
+    }
+   },
+   "winner": "D2/S1.00%/nocap",
+   "winner_params": {
+    "D": 2,
+    "S": 0.01,
+    "C": null
+   }
+  },
+  "T5-cap": {
+   "rows": {
+    "D2/S0.75%/nocap": {
+     "2025": {
+      "jan_jun": {
+       "trades": 615,
+       "total": 40469.38,
+       "wr": 32.85,
+       "expectancy": 65.8
+      },
+      "jul_oct": {
+       "trades": 420,
+       "total": -3634.81,
+       "wr": 33.57,
+       "expectancy": -8.65
+      },
+      "jan_oct": {
+       "trades": 1035,
+       "total": 36834.57,
+       "wr": 33.14,
+       "expectancy": 35.59
+      }
+     },
+     "2026": {
+      "jan_jun": {
+       "trades": 600,
+       "total": 47056.05,
+       "wr": 33.67,
+       "expectancy": 78.43
+      },
+      "jul_oct": {
+       "trades": 425,
+       "total": -12089.39,
+       "wr": 33.65,
+       "expectancy": -28.45
+      },
+      "jan_oct": {
+       "trades": 1025,
+       "total": 34966.66,
+       "wr": 33.66,
+       "expectancy": 34.11
+      }
+     },
+     "november_cf": {
+      "trades": 45,
+      "total": 18563.3,
+      "wr": 44.44,
+      "expectancy": 412.52
+     }
+    },
+    "D2/S0.75%/cap1.5%": {
+     "2025": {
+      "jan_jun": {
+       "trades": 615,
+       "total": -15203.58,
+       "wr": 34.47,
+       "expectancy": -24.72
+      },
+      "jul_oct": {
+       "trades": 420,
+       "total": -2113.71,
+       "wr": 33.57,
+       "expectancy": -5.03
+      },
+      "jan_oct": {
+       "trades": 1035,
+       "total": -17317.28,
+       "wr": 34.11,
+       "expectancy": -16.73
+      }
+     },
+     "2026": {
+      "jan_jun": {
+       "trades": 600,
+       "total": 12716.89,
+       "wr": 34.83,
+       "expectancy": 21.19
+      },
+      "jul_oct": {
+       "trades": 425,
+       "total": -14043.04,
+       "wr": 34.35,
+       "expectancy": -33.04
+      },
+      "jan_oct": {
+       "trades": 1025,
+       "total": -1326.15,
+       "wr": 34.63,
+       "expectancy": -1.29
+      }
+     },
+     "november_cf": {
+      "trades": 45,
+      "total": 13768.27,
+      "wr": 46.67,
+      "expectancy": 305.96
+     }
+    }
+   },
+   "winner": "D2/S0.75%/nocap",
+   "winner_params": {
+    "D": 2,
+    "S": 0.0075,
+    "C": null
+   }
+  }
+ },
+ "candidates": {
+  "CAND-T4": {
+   "params": {
+    "D": 1,
+    "S": 0.01,
+    "C": null
+   },
+   "label": "D1/S1.00%/nocap",
+   "years": {
+    "2025": {
+     "jan_jun": {
+      "trades": 615,
+      "total": 74012.36,
+      "wr": 38.86,
+      "expectancy": 120.35
+     },
+     "jul_oct": {
+      "trades": 420,
+      "total": -11119.55,
+      "wr": 33.57,
+      "expectancy": -26.48
+     },
+     "jan_oct": {
+      "trades": 1035,
+      "total": 62892.81,
+      "wr": 36.71,
+      "expectancy": 60.77
+     },
+     "months": {
+      "2025-01": {
+       "trades": 115,
+       "total": 45648.98
+      },
+      "2025-02": {
+       "trades": 100,
+       "total": 17023.35
+      },
+      "2025-03": {
+       "trades": 95,
+       "total": 7774.35
+      },
+      "2025-04": {
+       "trades": 95,
+       "total": 13783.47
+      },
+      "2025-05": {
+       "trades": 105,
+       "total": 7962.21
+      },
+      "2025-06": {
+       "trades": 105,
+       "total": -18180.0
+      },
+      "2025-07": {
+       "trades": 115,
+       "total": -8796.9
+      },
+      "2025-08": {
+       "trades": 95,
+       "total": -2673.0
+      },
+      "2025-09": {
+       "trades": 110,
+       "total": 12951.3
+      },
+      "2025-10": {
+       "trades": 100,
+       "total": -12600.95
+      }
+     },
+     "ex_top3": 27662.81,
+     "placebo_pct": 100.0,
+     "placebo_draws": {
+      "min": -81620.86,
+      "median": -35582.55,
+      "max": 12403.45
+     }
+    },
+    "2026": {
+     "jan_jun": {
+      "trades": 600,
+      "total": 52552.3,
+      "wr": 35.83,
+      "expectancy": 87.59
+     },
+     "jul_oct": {
+      "trades": 425,
+      "total": -3097.95,
+      "wr": 36.24,
+      "expectancy": -7.29
+     },
+     "jan_oct": {
+      "trades": 1025,
+      "total": 49454.35,
+      "wr": 36.0,
+      "expectancy": 48.25
+     },
+     "months": {
+      "2026-01": {
+       "trades": 100,
+       "total": 5124.25
+      },
+      "2026-02": {
+       "trades": 105,
+       "total": -1086.6
+      },
+      "2026-03": {
+       "trades": 95,
+       "total": 48077.8
+      },
+      "2026-04": {
+       "trades": 100,
+       "total": -20478.7
+      },
+      "2026-05": {
+       "trades": 95,
+       "total": 23268.25
+      },
+      "2026-06": {
+       "trades": 105,
+       "total": -2352.7
+      },
+      "2026-07": {
+       "trades": 115,
+       "total": -12931.75
+      },
+      "2026-08": {
+       "trades": 105,
+       "total": 8873.2
+      },
+      "2026-09": {
+       "trades": 105,
+       "total": 7959.65
+      },
+      "2026-10": {
+       "trades": 100,
+       "total": -6999.05
+      }
+     },
+     "ex_top3": 22454.35,
+     "placebo_pct": 100.0,
+     "placebo_draws": {
+      "min": -83298.85,
+      "median": -34636.95,
+      "max": 7001.37
+     }
+    }
+   },
+   "november_cf": {
+    "trades": 45,
+    "total": 12939.45,
+    "wr": 40.0,
+    "expectancy": 287.54
+   },
+   "desired_bar": {
+    "per_year": {
+     "2025": false,
+     "2026": false
+    },
+    "reached": false
+   }
+  },
+  "CAND-T5": {
+   "params": {
+    "D": 3,
+    "S": 0.01,
+    "C": null
+   },
+   "label": "D3/S1.00%/nocap",
+   "years": {
+    "2025": {
+     "jan_jun": {
+      "trades": 615,
+      "total": 62951.63,
+      "wr": 35.61,
+      "expectancy": 102.36
+     },
+     "jul_oct": {
+      "trades": 420,
+      "total": -787.06,
+      "wr": 35.48,
+      "expectancy": -1.87
+     },
+     "jan_oct": {
+      "trades": 1035,
+      "total": 62164.57,
+      "wr": 35.56,
+      "expectancy": 60.06
+     },
+     "months": {
+      "2025-01": {
+       "trades": 115,
+       "total": 26024.36
+      },
+      "2025-02": {
+       "trades": 100,
+       "total": 57.41
+      },
+      "2025-03": {
+       "trades": 95,
+       "total": -574.12
+      },
+      "2025-04": {
+       "trades": 95,
+       "total": 23345.86
+      },
+      "2025-05": {
+       "trades": 105,
+       "total": 19136.75
+      },
+      "2025-06": {
+       "trades": 105,
+       "total": -5038.63
+      },
+      "2025-07": {
+       "trades": 115,
+       "total": 11891.3
+      },
+      "2025-08": {
+       "trades": 95,
+       "total": 7592.82
+      },
+      "2025-09": {
+       "trades": 110,
+       "total": -7347.97
+      },
+      "2025-10": {
+       "trades": 100,
+       "total": -12923.21
+      }
+     },
+     "ex_top3": 29064.57,
+     "placebo_pct": 100.0,
+     "placebo_draws": {
+      "min": -77846.18,
+      "median": -35702.45,
+      "max": 4594.87
+     }
+    },
+    "2026": {
+     "jan_jun": {
+      "trades": 600,
+      "total": 66314.25,
+      "wr": 36.17,
+      "expectancy": 110.52
+     },
+     "jul_oct": {
+      "trades": 425,
+      "total": -2430.65,
+      "wr": 35.06,
+      "expectancy": -5.72
+     },
+     "jan_oct": {
+      "trades": 1025,
+      "total": 63883.6,
+      "wr": 35.71,
+      "expectancy": 62.33
+     },
+     "months": {
+      "2026-01": {
+       "trades": 100,
+       "total": 31421.02
+      },
+      "2026-02": {
+       "trades": 105,
+       "total": -10400.0
+      },
+      "2026-03": {
+       "trades": 95,
+       "total": 44589.25
+      },
+      "2026-04": {
+       "trades": 100,
+       "total": -20326.4
+      },
+      "2026-05": {
+       "trades": 95,
+       "total": 6735.3
+      },
+      "2026-06": {
+       "trades": 105,
+       "total": 14295.08
+      },
+      "2026-07": {
+       "trades": 115,
+       "total": -17194.6
+      },
+      "2026-08": {
+       "trades": 105,
+       "total": 7901.85
+      },
+      "2026-09": {
+       "trades": 105,
+       "total": 4887.25
+      },
+      "2026-10": {
+       "trades": 100,
+       "total": 1974.85
+      }
+     },
+     "ex_top3": 39713.6,
+     "placebo_pct": 100.0,
+     "placebo_draws": {
+      "min": -72880.34,
+      "median": -36662.1,
+      "max": 9800.95
+     }
+    }
+   },
+   "november_cf": {
+    "trades": 45,
+    "total": 24528.65,
+    "wr": 48.89,
+    "expectancy": 545.08
+   },
+   "desired_bar": {
+    "per_year": {
+     "2025": false,
+     "2026": false
+    },
+    "reached": false
+   }
+  }
+ },
+ "desired_bar_any_reached": false
+}

@@ -1,0 +1,337 @@
+{
+ "basis": "equity cash intraday, per 100 shares PROVISIONAL, Rs40/trade, paper only; VWAP = equal-weighted typical-price proxy (no volume in stores)",
+ "spec": "ekam_intraday_stocks_r3_SPEC.md (frozen 2026-11-14)",
+ "control": {
+  "reproduced": true,
+  "full": {
+   "2025": {
+    "trades": 1035,
+    "total": 62164.57,
+    "wr": 35.56,
+    "expectancy": 60.06
+   },
+   "2026": {
+    "trades": 1025,
+    "total": 63883.6,
+    "wr": 35.71,
+    "expectancy": 62.33
+   }
+  },
+  "november_cf": {
+   "trades": 45,
+   "total": 24528.65,
+   "wr": 48.89,
+   "expectancy": 545.08
+  }
+ },
+ "timing_audit": {
+  "truncated_recompute_checked": 625,
+  "truncated_recompute_mismatches": 0
+ },
+ "anatomy": {
+  "side": {
+   "LONG": {
+    "2025": {
+     "jan_jun": {
+      "trades": 327,
+      "total": 77716.68,
+      "wr": 39.45,
+      "expectancy": 237.67
+     },
+     "jul_oct": {
+      "trades": 217,
+      "total": -19535.44,
+      "wr": 29.95,
+      "expectancy": -90.03
+     },
+     "jan_oct": {
+      "trades": 544,
+      "total": 58181.24,
+      "wr": 35.66,
+      "expectancy": 106.95
+     }
+    },
+    "2026": {
+     "jan_jun": {
+      "trades": 308,
+      "total": 23142.5,
+      "wr": 34.09,
+      "expectancy": 75.14
+     },
+     "jul_oct": {
+      "trades": 199,
+      "total": -16683.4,
+      "wr": 27.14,
+      "expectancy": -83.84
+     },
+     "jan_oct": {
+      "trades": 507,
+      "total": 6459.1,
+      "wr": 31.36,
+      "expectancy": 12.74
+     }
+    }
+   },
+   "SHORT": {
+    "2025": {
+     "jan_jun": {
+      "trades": 288,
+      "total": -14765.05,
+      "wr": 31.25,
+      "expectancy": -51.27
+     },
+     "jul_oct": {
+      "trades": 203,
+      "total": 18748.38,
+      "wr": 41.38,
+      "expectancy": 92.36
+     },
+     "jan_oct": {
+      "trades": 491,
+      "total": 3983.33,
+      "wr": 35.44,
+      "expectancy": 8.11
+     }
+    },
+    "2026": {
+     "jan_jun": {
+      "trades": 292,
+      "total": 43171.75,
+      "wr": 38.36,
+      "expectancy": 147.85
+     },
+     "jul_oct": {
+      "trades": 226,
+      "total": 14252.75,
+      "wr": 42.04,
+      "expectancy": 63.07
+     },
+     "jan_oct": {
+      "trades": 518,
+      "total": 57424.5,
+      "wr": 39.96,
+      "expectancy": 110.86
+     }
+    }
+   }
+  },
+  "hour": {
+   "09-11": {
+    "2025": {
+     "jan_jun": {
+      "trades": 610,
+      "total": 63471.63,
+      "wr": 35.57,
+      "expectancy": 104.05
+     },
+     "jul_oct": {
+      "trades": 420,
+      "total": -787.06,
+      "wr": 35.48,
+      "expectancy": -1.87
+     },
+     "jan_oct": {
+      "trades": 1030,
+      "total": 62684.57,
+      "wr": 35.53,
+      "expectancy": 60.86
+     }
+    },
+    "2026": {
+     "jan_jun": {
+      "trades": 600,
+      "total": 66314.25,
+      "wr": 36.17,
+      "expectancy": 110.52
+     },
+     "jul_oct": {
+      "trades": 425,
+      "total": -2430.65,
+      "wr": 35.06,
+      "expectancy": -5.72
+     },
+     "jan_oct": {
+      "trades": 1025,
+      "total": 63883.6,
+      "wr": 35.71,
+      "expectancy": 62.33
+     }
+    }
+   },
+   "11-13": {
+    "2025": {
+     "jan_jun": {
+      "trades": 0,
+      "total": 0,
+      "wr": null,
+      "expectancy": null
+     },
+     "jul_oct": {
+      "trades": 0,
+      "total": 0,
+      "wr": null,
+      "expectancy": null
+     },
+     "jan_oct": {
+      "trades": 0,
+      "total": 0,
+      "wr": null,
+      "expectancy": null
+     }
+    },
+    "2026": {
+     "jan_jun": {
+      "trades": 0,
+      "total": 0,
+      "wr": null,
+      "expectancy": null
+     },
+     "jul_oct": {
+      "trades": 0,
+      "total": 0,
+      "wr": null,
+      "expectancy": null
+     },
+     "jan_oct": {
+      "trades": 0,
+      "total": 0,
+      "wr": null,
+      "expectancy": null
+     }
+    }
+   },
+   "13-15": {
+    "2025": {
+     "jan_jun": {
+      "trades": 5,
+      "total": -520.0,
+      "wr": 40.0,
+      "expectancy": -104.0
+     },
+     "jul_oct": {
+      "trades": 0,
+      "total": 0,
+      "wr": null,
+      "expectancy": null
+     },
+     "jan_oct": {
+      "trades": 5,
+      "total": -520.0,
+      "wr": 40.0,
+      "expectancy": -104.0
+     }
+    },
+    "2026": {
+     "jan_jun": {
+      "trades": 0,
+      "total": 0,
+      "wr": null,
+      "expectancy": null
+     },
+     "jul_oct": {
+      "trades": 0,
+      "total": 0,
+      "wr": null,
+      "expectancy": null
+     },
+     "jan_oct": {
+      "trades": 0,
+      "total": 0,
+      "wr": null,
+      "expectancy": null
+     }
+    }
+   }
+  },
+  "votes": {
+   "5": {
+    "2025": {
+     "jan_jun": {
+      "trades": 488,
+      "total": 12624.12,
+      "wr": 34.22,
+      "expectancy": 25.87
+     },
+     "jul_oct": {
+      "trades": 328,
+      "total": -13024.63,
+      "wr": 33.23,
+      "expectancy": -39.71
+     },
+     "jan_oct": {
+      "trades": 816,
+      "total": -400.51,
+      "wr": 33.82,
+      "expectancy": -0.49
+     }
+    },
+    "2026": {
+     "jan_jun": {
+      "trades": 496,
+      "total": 44180.38,
+      "wr": 36.9,
+      "expectancy": 89.07
+     },
+     "jul_oct": {
+      "trades": 341,
+      "total": -10976.45,
+      "wr": 33.14,
+      "expectancy": -32.19
+     },
+     "jan_oct": {
+      "trades": 837,
+      "total": 33203.93,
+      "wr": 35.36,
+      "expectancy": 39.67
+     }
+    }
+   },
+   "6": {
+    "2025": {
+     "jan_jun": {
+      "trades": 127,
+      "total": 50327.51,
+      "wr": 40.94,
+      "expectancy": 396.28
+     },
+     "jul_oct": {
+      "trades": 92,
+      "total": 12237.57,
+      "wr": 43.48,
+      "expectancy": 133.02
+     },
+     "jan_oct": {
+      "trades": 219,
+      "total": 62565.08,
+      "wr": 42.01,
+      "expectancy": 285.69
+     }
+    },
+    "2026": {
+     "jan_jun": {
+      "trades": 104,
+      "total": 22133.87,
+      "wr": 32.69,
+      "expectancy": 212.83
+     },
+     "jul_oct": {
+      "trades": 84,
+      "total": 8545.8,
+      "wr": 42.86,
+      "expectancy": 101.74
+     },
+     "jan_oct": {
+      "trades": 188,
+      "total": 30679.67,
+      "wr": 37.23,
+      "expectancy": 163.19
+     }
+    }
+   }
+  }
+ },
+ "wounds": [],
+ "wound_chosen": null,
+ "dial": null,
+ "no_dial_reason": "no cell meets the wound rule"
+}

@@ -1,0 +1,724 @@
+{
+ "spec": "hold_programme_SPEC.md",
+ "basis": "per 100 shares PROVISIONAL, Rs40/position",
+ "cells": {
+  "E0-H3": {
+   "2025": {
+    "trades": 1050,
+    "net": 79560.0,
+    "wr": 50.5,
+    "avg_pct": 0.312,
+    "worst": -18860.0,
+    "max_dd": -251731.0,
+    "wmark": 0,
+    "forced": 0
+   },
+   "2026": {
+    "trades": 1050,
+    "net": -154371.0,
+    "wr": 45.1,
+    "avg_pct": -0.169,
+    "worst": -45165.0,
+    "max_dd": -432619.0,
+    "wmark": 0,
+    "forced": 0
+   },
+   "combined_net": -74811.0
+  },
+  "E0-H5": {
+   "2025": {
+    "trades": 550,
+    "net": 157884.0,
+    "wr": 53.6,
+    "avg_pct": 0.356,
+    "worst": -31940.0,
+    "max_dd": -338286.0,
+    "wmark": 25,
+    "forced": 0
+   },
+   "2026": {
+    "trades": 550,
+    "net": -16228.0,
+    "wr": 44.9,
+    "avg_pct": -0.031,
+    "worst": -41940.0,
+    "max_dd": -286130.0,
+    "wmark": 25,
+    "forced": 0
+   },
+   "combined_net": 141656.0
+  },
+  "E0-H10": {
+   "2025": {
+    "trades": 350,
+    "net": 223908.0,
+    "wr": 50.9,
+    "avg_pct": 1.1,
+    "worst": -44080.0,
+    "max_dd": -259104.0,
+    "wmark": 0,
+    "forced": 0
+   },
+   "2026": {
+    "trades": 375,
+    "net": -169330.0,
+    "wr": 40.5,
+    "avg_pct": -0.635,
+    "worst": -47810.0,
+    "max_dd": -251669.0,
+    "wmark": 25,
+    "forced": 0
+   },
+   "combined_net": 54578.0
+  },
+  "E0-H15": {
+   "2025": {
+    "trades": 275,
+    "net": 218087.0,
+    "wr": 52.7,
+    "avg_pct": 1.308,
+    "worst": -32525.0,
+    "max_dd": -232902.0,
+    "wmark": 25,
+    "forced": 0
+   },
+   "2026": {
+    "trades": 275,
+    "net": -152227.0,
+    "wr": 41.1,
+    "avg_pct": -0.533,
+    "worst": -32540.0,
+    "max_dd": -299753.0,
+    "wmark": 25,
+    "forced": 0
+   },
+   "combined_net": 65860.0
+  },
+  "E0-H20": {
+   "2025": {
+    "trades": 225,
+    "net": 133727.0,
+    "wr": 53.3,
+    "avg_pct": 1.048,
+    "worst": -32065.0,
+    "max_dd": -173417.0,
+    "wmark": 25,
+    "forced": 0
+   },
+   "2026": {
+    "trades": 200,
+    "net": -136378.0,
+    "wr": 38.0,
+    "avg_pct": -1.019,
+    "worst": -38840.0,
+    "max_dd": -242476.0,
+    "wmark": 0,
+    "forced": 0
+   },
+   "combined_net": -2651.0
+  },
+  "E1-H3": {
+   "2025": {
+    "trades": 131,
+    "net": 15220.0,
+    "wr": 48.1,
+    "avg_pct": 0.595,
+    "worst": -25400.0,
+    "max_dd": -43039.0,
+    "wmark": 2,
+    "forced": 0
+   },
+   "2026": {
+    "trades": 165,
+    "net": -1521.0,
+    "wr": 44.8,
+    "avg_pct": -0.249,
+    "worst": -11030.0,
+    "max_dd": -52329.0,
+    "wmark": 10,
+    "forced": 0
+   },
+   "combined_net": 13699.0
+  },
+  "E1-H5": {
+   "2025": {
+    "trades": 118,
+    "net": -27786.0,
+    "wr": 56.8,
+    "avg_pct": 0.466,
+    "worst": -34150.0,
+    "max_dd": -72994.0,
+    "wmark": 2,
+    "forced": 0
+   },
+   "2026": {
+    "trades": 147,
+    "net": 12113.0,
+    "wr": 44.2,
+    "avg_pct": -0.157,
+    "worst": -6840.0,
+    "max_dd": -46974.0,
+    "wmark": 14,
+    "forced": 0
+   },
+   "combined_net": -15673.0
+  },
+  "E1-H10": {
+   "2025": {
+    "trades": 96,
+    "net": 13864.0,
+    "wr": 61.5,
+    "avg_pct": 1.057,
+    "worst": -21740.0,
+    "max_dd": -59224.0,
+    "wmark": 2,
+    "forced": 0
+   },
+   "2026": {
+    "trades": 121,
+    "net": -11306.0,
+    "wr": 40.5,
+    "avg_pct": -0.308,
+    "worst": -9390.0,
+    "max_dd": -107798.0,
+    "wmark": 12,
+    "forced": 0
+   },
+   "combined_net": 2558.0
+  },
+  "E1-H15": {
+   "2025": {
+    "trades": 83,
+    "net": 42163.0,
+    "wr": 63.9,
+    "avg_pct": 1.472,
+    "worst": -24230.0,
+    "max_dd": -56175.0,
+    "wmark": 2,
+    "forced": 0
+   },
+   "2026": {
+    "trades": 103,
+    "net": 83963.0,
+    "wr": 41.7,
+    "avg_pct": -0.158,
+    "worst": -9890.0,
+    "max_dd": -88109.0,
+    "wmark": 15,
+    "forced": 0
+   },
+   "combined_net": 126126.0
+  },
+  "E1-H20": {
+   "2025": {
+    "trades": 73,
+    "net": 1020.0,
+    "wr": 56.2,
+    "avg_pct": 0.975,
+    "worst": -41750.0,
+    "max_dd": -105455.0,
+    "wmark": 4,
+    "forced": 0
+   },
+   "2026": {
+    "trades": 94,
+    "net": 82570.0,
+    "wr": 42.6,
+    "avg_pct": -0.333,
+    "worst": -14740.0,
+    "max_dd": -128652.0,
+    "wmark": 19,
+    "forced": 0
+   },
+   "combined_net": 83590.0
+  },
+  "E2-H3": {
+   "2025": {
+    "trades": 126,
+    "net": 4520.0,
+    "wr": 51.6,
+    "avg_pct": 0.574,
+    "worst": -18240.0,
+    "max_dd": -54307.0,
+    "wmark": 1,
+    "forced": 0
+   },
+   "2026": {
+    "trades": 166,
+    "net": -85506.0,
+    "wr": 39.2,
+    "avg_pct": -0.189,
+    "worst": -42930.0,
+    "max_dd": -121320.0,
+    "wmark": 7,
+    "forced": 0
+   },
+   "combined_net": -80986.0
+  },
+  "E2-H5": {
+   "2025": {
+    "trades": 114,
+    "net": -15276.0,
+    "wr": 56.1,
+    "avg_pct": 0.784,
+    "worst": -31940.0,
+    "max_dd": -65638.0,
+    "wmark": 1,
+    "forced": 0
+   },
+   "2026": {
+    "trades": 150,
+    "net": -59008.0,
+    "wr": 44.0,
+    "avg_pct": 0.113,
+    "worst": -21540.0,
+    "max_dd": -76951.0,
+    "wmark": 10,
+    "forced": 0
+   },
+   "combined_net": -74284.0
+  },
+  "E2-H10": {
+   "2025": {
+    "trades": 107,
+    "net": 72025.0,
+    "wr": 57.9,
+    "avg_pct": 1.586,
+    "worst": -16040.0,
+    "max_dd": -41313.0,
+    "wmark": 1,
+    "forced": 0
+   },
+   "2026": {
+    "trades": 139,
+    "net": -86237.0,
+    "wr": 36.0,
+    "avg_pct": -0.238,
+    "worst": -23540.0,
+    "max_dd": -107655.0,
+    "wmark": 12,
+    "forced": 0
+   },
+   "combined_net": -14212.0
+  },
+  "E2-H15": {
+   "2025": {
+    "trades": 101,
+    "net": 30679.0,
+    "wr": 59.4,
+    "avg_pct": 1.431,
+    "worst": -24230.0,
+    "max_dd": -86152.0,
+    "wmark": 3,
+    "forced": 0
+   },
+   "2026": {
+    "trades": 129,
+    "net": -123095.0,
+    "wr": 38.0,
+    "avg_pct": -0.844,
+    "worst": -29540.0,
+    "max_dd": -134645.0,
+    "wmark": 13,
+    "forced": 0
+   },
+   "combined_net": -92416.0
+  },
+  "E2-H20": {
+   "2025": {
+    "trades": 95,
+    "net": 86496.0,
+    "wr": 62.1,
+    "avg_pct": 2.676,
+    "worst": -43680.0,
+    "max_dd": -70155.0,
+    "wmark": 3,
+    "forced": 0
+   },
+   "2026": {
+    "trades": 108,
+    "net": -75146.0,
+    "wr": 36.1,
+    "avg_pct": -0.948,
+    "worst": -23560.0,
+    "max_dd": -138314.0,
+    "wmark": 17,
+    "forced": 0
+   },
+   "combined_net": 11350.0
+  },
+  "E3-H3": {
+   "2025": {
+    "trades": 298,
+    "net": 80827.0,
+    "wr": 50.0,
+    "avg_pct": 0.069,
+    "worst": -28545.0,
+    "max_dd": -64723.0,
+    "wmark": 4,
+    "forced": 0
+   },
+   "2026": {
+    "trades": 245,
+    "net": -185286.0,
+    "wr": 40.8,
+    "avg_pct": -0.651,
+    "worst": -45290.0,
+    "max_dd": -224601.0,
+    "wmark": 8,
+    "forced": 0
+   },
+   "combined_net": -104459.0
+  },
+  "E3-H5": {
+   "2025": {
+    "trades": 266,
+    "net": 60234.0,
+    "wr": 47.0,
+    "avg_pct": -0.129,
+    "worst": -29240.0,
+    "max_dd": -59011.0,
+    "wmark": 6,
+    "forced": 0
+   },
+   "2026": {
+    "trades": 226,
+    "net": -220124.0,
+    "wr": 39.4,
+    "avg_pct": -0.788,
+    "worst": -42990.0,
+    "max_dd": -248124.0,
+    "wmark": 8,
+    "forced": 0
+   },
+   "combined_net": -159890.0
+  },
+  "E3-H10": {
+   "2025": {
+    "trades": 218,
+    "net": 24228.0,
+    "wr": 48.6,
+    "avg_pct": -0.168,
+    "worst": -53045.0,
+    "max_dd": -171826.0,
+    "wmark": 13,
+    "forced": 0
+   },
+   "2026": {
+    "trades": 187,
+    "net": -141213.0,
+    "wr": 39.0,
+    "avg_pct": -0.774,
+    "worst": -42345.0,
+    "max_dd": -218542.0,
+    "wmark": 8,
+    "forced": 0
+   },
+   "combined_net": -116985.0
+  },
+  "E3-H15": {
+   "2025": {
+    "trades": 179,
+    "net": 5102.0,
+    "wr": 46.9,
+    "avg_pct": 0.06,
+    "worst": -58470.0,
+    "max_dd": -177263.0,
+    "wmark": 15,
+    "forced": 0
+   },
+   "2026": {
+    "trades": 160,
+    "net": -137387.0,
+    "wr": 40.6,
+    "avg_pct": -1.076,
+    "worst": -29940.0,
+    "max_dd": -170794.0,
+    "wmark": 14,
+    "forced": 0
+   },
+   "combined_net": -132285.0
+  },
+  "E3-H20": {
+   "2025": {
+    "trades": 153,
+    "net": 73434.0,
+    "wr": 55.6,
+    "avg_pct": 0.473,
+    "worst": -47725.0,
+    "max_dd": -165402.0,
+    "wmark": 16,
+    "forced": 0
+   },
+   "2026": {
+    "trades": 140,
+    "net": -222872.0,
+    "wr": 37.9,
+    "avg_pct": -2.5,
+    "worst": -39485.0,
+    "max_dd": -227070.0,
+    "wmark": 14,
+    "forced": 0
+   },
+   "combined_net": -149438.0
+  }
+ },
+ "placebo": {
+  "E0": {
+   "cell": "E0-H5",
+   "combined_net": 141656.0,
+   "percentile": 95.9,
+   "placebo_median": -143442.0
+  },
+  "E1": {
+   "cell": "E1-H15",
+   "combined_net": 126126.0,
+   "percentile": 97.6,
+   "placebo_median": -97448.0
+  },
+  "E2": {
+   "cell": "E2-H20",
+   "combined_net": 11350.0,
+   "percentile": 85.4,
+   "placebo_median": -123310.0
+  },
+  "E3": {
+   "cell": "E3-H3",
+   "combined_net": -104459.0,
+   "percentile": 39.2,
+   "placebo_median": -77792.5
+  }
+ },
+ "best_overall": {
+  "trigger": "E0",
+  "hold": 5,
+  "combined_net": 141656.0
+ },
+ "best_cell_november": [
+  {
+   "sym": "ASTRAL",
+   "entry_date": "2026-11-09",
+   "exit_date": "2026-11-13",
+   "entry": 1261.6,
+   "exit": 1254.0,
+   "net": -800.0,
+   "kind": "FORCED"
+  },
+  {
+   "sym": "BDL",
+   "entry_date": "2026-11-09",
+   "exit_date": "2026-11-13",
+   "entry": 1069.0,
+   "exit": 1030.0,
+   "net": -3940.0,
+   "kind": "FORCED"
+  },
+  {
+   "sym": "GLENMARK",
+   "entry_date": "2026-11-09",
+   "exit_date": "2026-11-13",
+   "entry": 2590.0,
+   "exit": 2640.0,
+   "net": 4960.0,
+   "kind": "FORCED"
+  },
+  {
+   "sym": "GODREJCP",
+   "entry_date": "2026-11-09",
+   "exit_date": "2026-11-13",
+   "entry": 852.75,
+   "exit": 870.75,
+   "net": 1760.0,
+   "kind": "FORCED"
+  },
+  {
+   "sym": "HDFCBANK",
+   "entry_date": "2026-11-09",
+   "exit_date": "2026-11-13",
+   "entry": 797.0,
+   "exit": 804.0,
+   "net": 660.0,
+   "kind": "FORCED"
+  },
+  {
+   "sym": "HINDALCO",
+   "entry_date": "2026-11-09",
+   "exit_date": "2026-11-13",
+   "entry": 947.9,
+   "exit": 943.6,
+   "net": -470.0,
+   "kind": "FORCED"
+  },
+  {
+   "sym": "HINDCOPPER",
+   "entry_date": "2026-11-09",
+   "exit_date": "2026-11-13",
+   "entry": 434.1,
+   "exit": 439.4,
+   "net": 490.0,
+   "kind": "FORCED"
+  },
+  {
+   "sym": "HINDUNILVR",
+   "entry_date": "2026-11-09",
+   "exit_date": "2026-11-13",
+   "entry": 2000.0,
+   "exit": 1992.9,
+   "net": -750.0,
+   "kind": "FORCED"
+  },
+  {
+   "sym": "HINDZINC",
+   "entry_date": "2026-11-09",
+   "exit_date": "2026-11-13",
+   "entry": 571.0,
+   "exit": 554.85,
+   "net": -1655.0,
+   "kind": "FORCED"
+  },
+  {
+   "sym": "INDUSTOWER",
+   "entry_date": "2026-11-09",
+   "exit_date": "2026-11-13",
+   "entry": 383.75,
+   "exit": 396.0,
+   "net": 1185.0,
+   "kind": "FORCED"
+  },
+  {
+   "sym": "IRCTC",
+   "entry_date": "2026-11-09",
+   "exit_date": "2026-11-13",
+   "entry": 466.0,
+   "exit": 457.8,
+   "net": -860.0,
+   "kind": "FORCED"
+  },
+  {
+   "sym": "ITC",
+   "entry_date": "2026-11-09",
+   "exit_date": "2026-11-13",
+   "entry": 283.45,
+   "exit": 285.0,
+   "net": 115.0,
+   "kind": "FORCED"
+  },
+  {
+   "sym": "KALYANKJIL",
+   "entry_date": "2026-11-09",
+   "exit_date": "2026-11-13",
+   "entry": 595.0,
+   "exit": 697.0,
+   "net": 10160.0,
+   "kind": "FORCED"
+  },
+  {
+   "sym": "NATIONALUM",
+   "entry_date": "2026-11-09",
+   "exit_date": "2026-11-13",
+   "entry": 328.0,
+   "exit": 330.0,
+   "net": 160.0,
+   "kind": "FORCED"
+  },
+  {
+   "sym": "NHPC",
+   "entry_date": "2026-11-09",
+   "exit_date": "2026-11-13",
+   "entry": 81.3,
+   "exit": 75.83,
+   "net": -587.0,
+   "kind": "FORCED"
+  },
+  {
+   "sym": "NTPC",
+   "entry_date": "2026-11-09",
+   "exit_date": "2026-11-13",
+   "entry": 323.1,
+   "exit": 319.1,
+   "net": -440.0,
+   "kind": "FORCED"
+  },
+  {
+   "sym": "OBEROIRLTY",
+   "entry_date": "2026-11-09",
+   "exit_date": "2026-11-13",
+   "entry": 1730.1,
+   "exit": 1797.6,
+   "net": 6710.0,
+   "kind": "FORCED"
+  },
+  {
+   "sym": "OIL",
+   "entry_date": "2026-11-09",
+   "exit_date": "2026-11-13",
+   "entry": 443.3,
+   "exit": 441.5,
+   "net": -220.0,
+   "kind": "FORCED"
+  },
+  {
+   "sym": "PFC",
+   "entry_date": "2026-11-09",
+   "exit_date": "2026-11-13",
+   "entry": 332.05,
+   "exit": 334.25,
+   "net": 180.0,
+   "kind": "FORCED"
+  },
+  {
+   "sym": "RECLTD",
+   "entry_date": "2026-11-09",
+   "exit_date": "2026-11-13",
+   "entry": 299.85,
+   "exit": 301.85,
+   "net": 160.0,
+   "kind": "FORCED"
+  },
+  {
+   "sym": "TATASTEEL",
+   "entry_date": "2026-11-09",
+   "exit_date": "2026-11-13",
+   "entry": 192.5,
+   "exit": 186.68,
+   "net": -622.0,
+   "kind": "FORCED"
+  },
+  {
+   "sym": "TVSMOTOR",
+   "entry_date": "2026-11-09",
+   "exit_date": "2026-11-13",
+   "entry": 4479.6,
+   "exit": 4495.0,
+   "net": 1500.0,
+   "kind": "FORCED"
+  },
+  {
+   "sym": "UNITDSPR",
+   "entry_date": "2026-11-09",
+   "exit_date": "2026-11-13",
+   "entry": 1412.0,
+   "exit": 1416.8,
+   "net": 440.0,
+   "kind": "FORCED"
+  },
+  {
+   "sym": "VEDL",
+   "entry_date": "2026-11-09",
+   "exit_date": "2026-11-13",
+   "entry": 263.0,
+   "exit": 259.68,
+   "net": -372.0,
+   "kind": "FORCED"
+  },
+  {
+   "sym": "WIPRO",
+   "entry_date": "2026-11-09",
+   "exit_date": "2026-11-13",
+   "entry": 197.0,
+   "exit": 194.6,
+   "net": -280.0,
+   "kind": "FORCED"
+  }
+ ]
+}

@@ -1,0 +1,570 @@
+{
+ "base": {
+  "n": 99,
+  "total": 83650.5,
+  "january": 22748.0
+ },
+ "incumbent_replay_mismatches": 0,
+ "stepA": {
+  "total": 87370.5,
+  "claim": 87370.5,
+  "claim_verified": true,
+  "delta": 3720.0,
+  "changed_legs": [
+   {
+    "date": "2026-02-03",
+    "direction": "PE",
+    "entry_time": "10:05",
+    "old_reason": "stop",
+    "new_reason": "lock_stop",
+    "old_net": -1720.0,
+    "new_net": -220.0,
+    "delta": 1500.0
+   },
+   {
+    "date": "2026-02-05",
+    "direction": "PE",
+    "entry_time": "10:30",
+    "old_reason": "square_off",
+    "new_reason": "lock_stop",
+    "old_net": 560.0,
+    "new_net": -220.0,
+    "delta": -780.0
+   },
+   {
+    "date": "2026-03-24",
+    "direction": "PE",
+    "entry_time": "10:05",
+    "old_reason": "stop",
+    "new_reason": "lock_stop",
+    "old_net": -1720.0,
+    "new_net": -220.0,
+    "delta": 1500.0
+   },
+   {
+    "date": "2026-07-02",
+    "direction": "PE",
+    "entry_time": "11:10",
+    "old_reason": "stop",
+    "new_reason": "lock_stop",
+    "old_net": -1720.0,
+    "new_net": -220.0,
+    "delta": 1500.0
+   }
+  ]
+ },
+ "prem_store_crosscheck_ns1": [
+  {
+   "date": "2026-01-20",
+   "entry_time": "12:05",
+   "store_entry": 349.9,
+   "recorded_entry": 349.9,
+   "store_inc_net": 6509.0,
+   "cache_inc_net": 7463.0,
+   "store_fc2_net": 6509.0,
+   "cache_fc2_net": 7463.0,
+   "match": false
+  },
+  {
+   "date": "2026-01-22",
+   "entry_time": "10:50",
+   "store_entry": 330.1,
+   "recorded_entry": 330.1,
+   "store_inc_net": 2030.0,
+   "cache_inc_net": 2030.0,
+   "store_fc2_net": 2030.0,
+   "cache_fc2_net": 2030.0,
+   "match": true
+  },
+  {
+   "date": "2026-01-23",
+   "entry_time": "11:20",
+   "store_entry": 239.4,
+   "recorded_entry": 239.4,
+   "store_inc_net": 2030.0,
+   "cache_inc_net": 2030.0,
+   "store_fc2_net": 2030.0,
+   "cache_fc2_net": 2030.0,
+   "match": true
+  },
+  {
+   "date": "2026-02-03",
+   "entry_time": "10:05",
+   "store_entry": 762.35,
+   "recorded_entry": 762.35,
+   "store_inc_net": -1720.0,
+   "cache_inc_net": -1720.0,
+   "store_fc2_net": -220.0,
+   "cache_fc2_net": -220.0,
+   "match": true
+  },
+  {
+   "date": "2026-02-05",
+   "entry_time": "10:30",
+   "store_entry": 561.0,
+   "recorded_entry": 561.0,
+   "store_inc_net": 50.0,
+   "cache_inc_net": 560.0,
+   "store_fc2_net": -220.0,
+   "cache_fc2_net": -220.0,
+   "match": false
+  },
+  {
+   "date": "2026-03-05",
+   "entry_time": "11:50",
+   "store_entry": 915.0,
+   "recorded_entry": 915.0,
+   "store_inc_net": -1720.0,
+   "cache_inc_net": -1720.0,
+   "store_fc2_net": -1720.0,
+   "cache_fc2_net": -1720.0,
+   "match": true
+  },
+  {
+   "date": "2026-03-24",
+   "entry_time": "10:05",
+   "store_entry": 882.8,
+   "recorded_entry": 882.8,
+   "store_inc_net": -1720.0,
+   "cache_inc_net": -1720.0,
+   "store_fc2_net": -220.0,
+   "cache_fc2_net": -220.0,
+   "match": true
+  },
+  {
+   "date": "2026-04-09",
+   "entry_time": "12:05",
+   "store_entry": 1029.0,
+   "recorded_entry": 1029.0,
+   "store_inc_net": -1720.0,
+   "cache_inc_net": -1720.0,
+   "store_fc2_net": -1720.0,
+   "cache_fc2_net": -1720.0,
+   "match": true
+  },
+  {
+   "date": "2026-04-15",
+   "entry_time": "11:00",
+   "store_entry": 853.7,
+   "recorded_entry": 853.7,
+   "store_inc_net": 2480.0,
+   "cache_inc_net": 2480.0,
+   "store_fc2_net": 2480.0,
+   "cache_fc2_net": 2480.0,
+   "match": true
+  },
+  {
+   "date": "2026-04-16",
+   "entry_time": "10:00",
+   "store_entry": 832.5,
+   "recorded_entry": 832.5,
+   "store_inc_net": -1720.0,
+   "cache_inc_net": -1720.0,
+   "store_fc2_net": -1720.0,
+   "cache_fc2_net": -1720.0,
+   "match": true
+  },
+  {
+   "date": "2026-06-01",
+   "entry_time": "11:25",
+   "store_entry": 981.9,
+   "recorded_entry": 981.9,
+   "store_inc_net": 2480.0,
+   "cache_inc_net": 2480.0,
+   "store_fc2_net": 2480.0,
+   "cache_fc2_net": 2480.0,
+   "match": true
+  },
+  {
+   "date": "2026-07-02",
+   "entry_time": "11:10",
+   "store_entry": 789.85,
+   "recorded_entry": 789.85,
+   "store_inc_net": -1720.0,
+   "cache_inc_net": -1720.0,
+   "store_fc2_net": -220.0,
+   "cache_fc2_net": -220.0,
+   "match": true
+  },
+  {
+   "date": "2026-07-28",
+   "entry_time": "10:30",
+   "store_entry": 118.6,
+   "recorded_entry": 118.6,
+   "store_inc_net": -1720.0,
+   "cache_inc_net": -1720.0,
+   "store_fc2_net": -1720.0,
+   "cache_fc2_net": -1720.0,
+   "match": true
+  },
+  {
+   "date": "2026-09-01",
+   "entry_time": "13:50",
+   "store_entry": 581.05,
+   "recorded_entry": 581.05,
+   "store_inc_net": 587.0,
+   "cache_inc_net": 306.5,
+   "store_fc2_net": 587.0,
+   "cache_fc2_net": 306.5,
+   "match": false
+  },
+  {
+   "date": "2026-10-12",
+   "entry_time": "10:30",
+   "store_entry": 620.0,
+   "recorded_entry": 620.0,
+   "store_inc_net": 2480.0,
+   "cache_inc_net": 2480.0,
+   "store_fc2_net": 2480.0,
+   "cache_fc2_net": 2480.0,
+   "match": true
+  },
+  {
+   "date": "2026-10-27",
+   "entry_time": "13:10",
+   "store_entry": 107.4,
+   "recorded_entry": 107.4,
+   "store_inc_net": 2480.0,
+   "cache_inc_net": 2480.0,
+   "store_fc2_net": 2480.0,
+   "cache_fc2_net": 2480.0,
+   "match": true
+  }
+ ],
+ "or_identification": {
+  "v21_skillv3_legs": 22,
+  "all_in_b2_or_set": true,
+  "b2_or_set_size": 70
+ },
+ "stepB": {
+  "skipped_n": 9,
+  "skipped_net": -4080.0,
+  "skipped_legs": [
+   {
+    "date": "2026-01-28",
+    "direction": "PE",
+    "entry_time": "10:10",
+    "exit_reason": "stop",
+    "net": -1720.0
+   },
+   {
+    "date": "2026-02-19",
+    "direction": "PE",
+    "entry_time": "10:10",
+    "exit_reason": "runner_target",
+    "net": 9680.0
+   },
+   {
+    "date": "2026-03-18",
+    "direction": "PE",
+    "entry_time": "10:05",
+    "exit_reason": "stop",
+    "net": -1720.0
+   },
+   {
+    "date": "2026-04-30",
+    "direction": "PE",
+    "entry_time": "10:25",
+    "exit_reason": "stop",
+    "net": -1720.0
+   },
+   {
+    "date": "2026-05-06",
+    "direction": "PE",
+    "entry_time": "10:00",
+    "exit_reason": "stop",
+    "net": -1720.0
+   },
+   {
+    "date": "2026-05-27",
+    "direction": "PE",
+    "entry_time": "10:00",
+    "exit_reason": "stop",
+    "net": -1720.0
+   },
+   {
+    "date": "2026-06-12",
+    "direction": "PE",
+    "entry_time": "10:05",
+    "exit_reason": "stop",
+    "net": -1720.0
+   },
+   {
+    "date": "2026-07-27",
+    "direction": "PE",
+    "entry_time": "10:00",
+    "exit_reason": "stop",
+    "net": -1720.0
+   },
+   {
+    "date": "2026-08-18",
+    "direction": "PE",
+    "entry_time": "10:05",
+    "exit_reason": "stop",
+    "net": -1720.0
+   }
+  ]
+ },
+ "placebo": {
+  "removed_n": 9,
+  "removed_legs": [
+   {
+    "date": "2026-02-25",
+    "entry_time": "10:50",
+    "net": 2480.0
+   },
+   {
+    "date": "2026-02-26",
+    "entry_time": "10:40",
+    "net": 2480.0
+   },
+   {
+    "date": "2026-04-02",
+    "entry_time": "10:50",
+    "net": -1720.0
+   },
+   {
+    "date": "2026-04-27",
+    "entry_time": "10:30",
+    "net": 2030.0
+   },
+   {
+    "date": "2026-05-12",
+    "entry_time": "10:50",
+    "net": 5180.0
+   },
+   {
+    "date": "2026-07-03",
+    "entry_time": "11:15",
+    "net": -1720.0
+   },
+   {
+    "date": "2026-07-16",
+    "entry_time": "10:30",
+    "net": -1720.0
+   },
+   {
+    "date": "2026-08-04",
+    "entry_time": "11:35",
+    "net": 2480.0
+   },
+   {
+    "date": "2026-08-07",
+    "entry_time": "11:05",
+    "net": -1720.0
+   }
+  ],
+  "net": 79600.5
+ },
+ "battery_base": {
+  "label": "BASE v21",
+  "n_legs": 99,
+  "n_days": 92,
+  "total": 83650.5,
+  "per_month": 8365.05,
+  "per_leg": 844.95,
+  "legs_per_month": 9.9,
+  "legs_per_week": 2.44,
+  "months": {
+   "2026-01": 22748.0,
+   "2026-02": 20480.0,
+   "2026-03": 1120.0,
+   "2026-04": -90.0,
+   "2026-05": 17680.0,
+   "2026-06": 560.0,
+   "2026-07": -3680.0,
+   "2026-08": -873.5,
+   "2026-09": 10776.5,
+   "2026-10": 14929.5
+  },
+  "H1": 61938.0,
+  "H2": 21712.5,
+  "ex_top3_legs": 54610.5,
+  "top3_legs": [
+   9680.0,
+   9680.0,
+   9680.0
+  ],
+  "ex_top3_days": 54610.5,
+  "top3_days": [
+   9680.0,
+   9680.0,
+   9680.0
+  ],
+  "worst_day": {
+   "date": "2026-01-28",
+   "net": -1720.0
+  },
+  "worst_3day_streak": {
+   "net": -5160.0,
+   "frm": "2026-03-24",
+   "to": "2026-03-30"
+  },
+  "worst_drawdown": -13240.0,
+  "pct_positive_days": 53.3
+ },
+ "battery_stepA": {
+  "label": "STEP A (EVE-04)",
+  "n_legs": 99,
+  "n_days": 92,
+  "total": 87370.5,
+  "per_month": 8737.05,
+  "per_leg": 882.53,
+  "legs_per_month": 9.9,
+  "legs_per_week": 2.44,
+  "months": {
+   "2026-01": 22748.0,
+   "2026-02": 21200.0,
+   "2026-03": 2620.0,
+   "2026-04": -90.0,
+   "2026-05": 17680.0,
+   "2026-06": 560.0,
+   "2026-07": -2180.0,
+   "2026-08": -873.5,
+   "2026-09": 10776.5,
+   "2026-10": 14929.5
+  },
+  "H1": 64158.0,
+  "H2": 23212.5,
+  "ex_top3_legs": 58330.5,
+  "top3_legs": [
+   9680.0,
+   9680.0,
+   9680.0
+  ],
+  "ex_top3_days": 58330.5,
+  "top3_days": [
+   9680.0,
+   9680.0,
+   9680.0
+  ],
+  "worst_day": {
+   "date": "2026-01-28",
+   "net": -1720.0
+  },
+  "worst_3day_streak": {
+   "net": -5160.0,
+   "frm": "2026-03-27",
+   "to": "2026-04-01"
+  },
+  "worst_drawdown": -11740.0,
+  "pct_positive_days": 52.2
+ },
+ "battery_final": {
+  "label": "FINAL v22 (A+B)",
+  "n_legs": 90,
+  "n_days": 83,
+  "total": 91450.5,
+  "per_month": 9145.05,
+  "per_leg": 1016.12,
+  "legs_per_month": 9.0,
+  "legs_per_week": 2.22,
+  "months": {
+   "2026-01": 24468.0,
+   "2026-02": 11520.0,
+   "2026-03": 4340.0,
+   "2026-04": 1630.0,
+   "2026-05": 21120.0,
+   "2026-06": 2280.0,
+   "2026-07": -460.0,
+   "2026-08": 846.5,
+   "2026-09": 10776.5,
+   "2026-10": 14929.5
+  },
+  "H1": 63078.0,
+  "H2": 28372.5,
+  "ex_top3_legs": 64627.5,
+  "top3_legs": [
+   9680.0,
+   9680.0,
+   7463.0
+  ],
+  "ex_top3_days": 64627.5,
+  "top3_days": [
+   9680.0,
+   9680.0,
+   7463.0
+  ],
+  "worst_day": {
+   "date": "2026-02-02",
+   "net": -1720.0
+  },
+  "worst_3day_streak": {
+   "net": -5160.0,
+   "frm": "2026-03-27",
+   "to": "2026-04-01"
+  },
+  "worst_drawdown": -9780.0,
+  "pct_positive_days": 56.6
+ },
+ "battery_placebo": {
+  "label": "PLACEBO (skip complement)",
+  "n_legs": 90,
+  "n_days": 83,
+  "total": 79600.5,
+  "per_month": 7960.05,
+  "per_leg": 884.45,
+  "legs_per_month": 9.0,
+  "legs_per_week": 2.22,
+  "months": {
+   "2026-01": 22748.0,
+   "2026-02": 16240.0,
+   "2026-03": 2620.0,
+   "2026-04": -400.0,
+   "2026-05": 12500.0,
+   "2026-06": 560.0,
+   "2026-07": 1260.0,
+   "2026-08": -1633.5,
+   "2026-09": 10776.5,
+   "2026-10": 14929.5
+  },
+  "H1": 53708.0,
+  "H2": 25892.5,
+  "ex_top3_legs": 50560.5,
+  "top3_legs": [
+   9680.0,
+   9680.0,
+   9680.0
+  ],
+  "ex_top3_days": 50560.5,
+  "top3_days": [
+   9680.0,
+   9680.0,
+   9680.0
+  ],
+  "worst_day": {
+   "date": "2026-01-28",
+   "net": -1720.0
+  },
+  "worst_3day_streak": {
+   "net": -5160.0,
+   "frm": "2026-03-27",
+   "to": "2026-04-01"
+  },
+  "worst_drawdown": -10320.0,
+  "pct_positive_days": 51.8
+ },
+ "timing_audit": {
+  "exit_before_entry_violations": [],
+  "lock_arm_strictly_before_lock_exit": true,
+  "skip_inputs": "entry_time/direction/rep only \u2014 all known at entry, no future data"
+ },
+ "independent_resum_final": {
+  "n": 90,
+  "net": 91450.5,
+  "matches": true
+ },
+ "phase2_arithmetic": {
+  "bracket_per_month": 15000,
+  "final_per_month": 9145.05,
+  "gap_per_month": 5854.95,
+  "gap_10mo": 58549.5,
+  "current_legs_per_month": 9.0,
+  "current_per_leg": 1016.12,
+  "needed_legs_per_month_at_current_per_leg": 14.76,
+  "extra_legs_per_month_needed": 5.76,
+  "needed_total_legs_10mo_at_current_per_leg": 147.6,
+  "needed_per_leg_at_current_frequency": 1666.67,
+  "extra_per_leg_needed": 650.55
+ }
+}

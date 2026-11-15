@@ -1,0 +1,13 @@
+streams: 48
+configs: 306
+screen survivors (legs 1,2,3,5,6,7): 0
+validation placebo universe: 771 contract-days
+best raw: EMA cross EMA(9,21) adx 25 E4 val 19726.0 robust False
+NOV CF best_raw_overall {'trades': 1, 'total': -1893.75, 'wr': 0.0, 'trade_days': 1}
+timing audit ok: True | RSI14 main 34.058 indep 34.058
+ANNEX {'signal': 'EMA(20,50) cross', 'events': 8, 'long_events': 4, 'short_events': 4, 'h5': {'n': 7, 'mean_pct': 0.033, 'wr': 42.9}, 'h10': {'n': 7, 'mean_pct': -0.639, 'wr': 14.3}, 'h20': {'n': 7, 'mean_pct': 0.363, 'wr': 57.1}}
+ANNEX {'signal': 'EMA(50,200) cross', 'events': 1, 'long_events': 0, 'short_events': 1, 'h5': {'n': 1, 'mean_pct': 3.695, 'wr': 100.0}, 'h10': {'n': 1, 'mean_pct': 2.794, 'wr': 100.0}, 'h20': {'n': 1, 'mean_pct': -4.33, 'wr': 0.0}}
+ANNEX {'signal': 'RSI(14) 50-cross', 'events': 42, 'long_events': 21, 'short_events': 21, 'h5': {'n': 42, 'mean_pct': 0.211, 'wr': 54.8}, 'h10': {'n': 41, 'mean_pct': -0.149, 'wr': 48.8}, 'h20': {'n': 39, 'mean_pct': 0.144, 'wr': 48.7}}
+ANNEX {'signal': 'MACD(12,26,9) signal cross', 'events': 26, 'long_events': 13, 'short_events': 13, 'h5': {'n': 26, 'mean_pct': 0.435, 'wr': 69.2}, 'h10': {'n': 26, 'mean_pct': 0.316, 'wr': 50.0}, 'h20': {'n': 25, 'mean_pct': 0.2, 'wr': 44.0}}
+ANNEX {'signal': 'Supertrend(10,3) flip', 'events': 12, 'long_events': 6, 'short_events': 6, 'h5': {'n': 12, 'mean_pct': 0.653, 'wr': 75.0}, 'h10': {'n': 12, 'mean_pct': 1.082, 'wr': 66.7}, 'h20': {'n': 11, 'mean_pct': 0.353, 'wr': 45.5}}
+DONE. robust configs: 0

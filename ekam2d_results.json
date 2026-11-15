@@ -1,0 +1,1300 @@
+{
+ "basis": "equity cash, frozen 25 names, per 100 shares PROVISIONAL, Rs40/trade, paper only, real money Rs0",
+ "control": {
+  "book": "EKAM-2c",
+  "full_stats_match_published": true,
+  "placebo_determinism": {
+   "2025": {
+    "check": {
+     "n_trades": 74,
+     "draws": 200,
+     "real_total": 42954.6,
+     "percentile": 78.5,
+     "draw_mean": 15420.27,
+     "draw_median": 17778.0
+    },
+    "published": {
+     "n_trades": 74,
+     "draws": 200,
+     "real_total": 42954.6,
+     "percentile": 78.5,
+     "draw_mean": 15420.27,
+     "draw_median": 17778.0
+    },
+    "reproduces": true
+   },
+   "2026": {
+    "check": {
+     "n_trades": 102,
+     "draws": 200,
+     "real_total": 141328.4,
+     "percentile": 100.0,
+     "draw_mean": 39208.93,
+     "draw_median": 39371.0
+    },
+    "published": {
+     "n_trades": 102,
+     "draws": 200,
+     "real_total": 141328.4,
+     "percentile": 100.0,
+     "draw_mean": 39208.93,
+     "draw_median": 39371.0
+    },
+    "reproduces": true
+   }
+  },
+  "placebo_determinism_ok": true
+ },
+ "EKAM2c": {
+  "2025": {
+   "trades": 74,
+   "total": 42954.6,
+   "wr": 71.62,
+   "avg_hold": 22.4,
+   "worst": -38540.0,
+   "months": {
+    "1": {
+     "trades": 10,
+     "net": -24856.5
+    },
+    "2": {
+     "trades": 9,
+     "net": 28296.0
+    },
+    "3": {
+     "trades": 2,
+     "net": -64.0
+    },
+    "4": {
+     "trades": 7,
+     "net": 16878.1
+    },
+    "5": {
+     "trades": 2,
+     "net": 215.0
+    },
+    "6": {
+     "trades": 11,
+     "net": 6537.0
+    },
+    "7": {
+     "trades": 11,
+     "net": -23356.0
+    },
+    "8": {
+     "trades": 12,
+     "net": 8349.0
+    },
+    "9": {
+     "trades": 7,
+     "net": 8123.0
+    },
+    "10": {
+     "trades": 3,
+     "net": 22833.0
+    }
+   },
+   "halves": {
+    "H1": {
+     "trades": 41,
+     "net": 27005.6
+    },
+    "H2": {
+     "trades": 33,
+     "net": 15949.0
+    }
+   },
+   "ex_top3": -2359.9,
+   "max_dd": -44077.0,
+   "peak_concurrent": 17,
+   "forced": 0
+  },
+  "2026": {
+   "trades": 102,
+   "total": 141328.4,
+   "wr": 62.75,
+   "avg_hold": 21.2,
+   "worst": -11240.0,
+   "months": {
+    "1": {
+     "trades": 9,
+     "net": 13190.0
+    },
+    "2": {
+     "trades": 5,
+     "net": 9816.0
+    },
+    "3": {
+     "trades": 16,
+     "net": 11094.0
+    },
+    "4": {
+     "trades": 4,
+     "net": 3090.0
+    },
+    "5": {
+     "trades": 13,
+     "net": 38853.5
+    },
+    "6": {
+     "trades": 15,
+     "net": -4082.0
+    },
+    "7": {
+     "trades": 5,
+     "net": 12055.0
+    },
+    "8": {
+     "trades": 5,
+     "net": -12046.0
+    },
+    "9": {
+     "trades": 17,
+     "net": -1399.0
+    },
+    "10": {
+     "trades": 13,
+     "net": 70756.9
+    }
+   },
+   "halves": {
+    "H1": {
+     "trades": 62,
+     "net": 71961.5
+    },
+    "H2": {
+     "trades": 40,
+     "net": 69366.9
+    }
+   },
+   "ex_top3": 67667.4,
+   "max_dd": -35575.0,
+   "peak_concurrent": 21,
+   "forced": 8
+  }
+ },
+ "EKAM2c_placebo": {
+  "2025": {
+   "n_trades": 74,
+   "draws": 200,
+   "real_total": 42954.6,
+   "percentile": 78.5,
+   "draw_mean": 15420.27,
+   "draw_median": 17778.0
+  },
+  "2026": {
+   "n_trades": 102,
+   "draws": 200,
+   "real_total": 141328.4,
+   "percentile": 100.0,
+   "draw_mean": 39208.93,
+   "draw_median": 39371.0
+  }
+ },
+ "november_ekam2c_open": [
+  {
+   "sym": "UNITDSPR",
+   "signal_date": "2026-09-03",
+   "entry_date": "2026-09-04",
+   "entry": 1488.1,
+   "upgrade_date": "2026-09-16",
+   "mark": 1416.8,
+   "marked_net": -7170.0
+  },
+  {
+   "sym": "BDL",
+   "signal_date": "2026-09-16",
+   "entry_date": "2026-09-17",
+   "entry": 1130.0,
+   "upgrade_date": "2026-09-18",
+   "mark": 1030.0,
+   "marked_net": -10040.0
+  },
+  {
+   "sym": "NATIONALUM",
+   "signal_date": "2026-09-16",
+   "entry_date": "2026-09-17",
+   "entry": 356.0,
+   "upgrade_date": "2026-10-13",
+   "mark": 330.0,
+   "marked_net": -2640.0
+  },
+  {
+   "sym": "HINDCOPPER",
+   "signal_date": "2026-09-17",
+   "entry_date": "2026-09-18",
+   "entry": 490.7,
+   "upgrade_date": "2026-10-29",
+   "mark": 439.4,
+   "marked_net": -5170.0
+  },
+  {
+   "sym": "IRCTC",
+   "signal_date": "2026-09-17",
+   "entry_date": "2026-09-18",
+   "entry": 458.0,
+   "upgrade_date": "2026-09-18",
+   "mark": 457.8,
+   "marked_net": -60.0
+  },
+  {
+   "sym": "NTPC",
+   "signal_date": "2026-09-29",
+   "entry_date": "2026-09-30",
+   "entry": 323.5,
+   "upgrade_date": "2026-10-05",
+   "mark": 319.1,
+   "marked_net": -480.0
+  },
+  {
+   "sym": "HINDZINC",
+   "signal_date": "2026-10-09",
+   "entry_date": "2026-10-12",
+   "entry": 545.95,
+   "upgrade_date": "2026-10-28",
+   "mark": 554.85,
+   "marked_net": 850.0
+  },
+  {
+   "sym": "VEDL",
+   "signal_date": "2026-10-16",
+   "entry_date": "2026-10-19",
+   "entry": 248.0,
+   "upgrade_date": "2026-10-28",
+   "mark": 259.68,
+   "marked_net": 1128.0
+  },
+  {
+   "sym": "ASTRAL",
+   "signal_date": "2026-11-09",
+   "entry_date": "2026-11-11",
+   "entry": 1285.0,
+   "upgrade_date": null,
+   "mark": 1254.0,
+   "marked_net": -3140.0
+  }
+ ],
+ "rows": {
+  "2d-10": {
+   "floor_pct": 0.1,
+   "stats": {
+    "2025": {
+     "trades": 82,
+     "total": 38726.6,
+     "wr": 73.17,
+     "avg_hold": 19.2,
+     "worst": -25240.0,
+     "months": {
+      "1": {
+       "trades": 11,
+       "net": -32101.5
+      },
+      "2": {
+       "trades": 11,
+       "net": 31258.0
+      },
+      "3": {
+       "trades": 2,
+       "net": -64.0
+      },
+      "4": {
+       "trades": 8,
+       "net": 19938.1
+      },
+      "5": {
+       "trades": 2,
+       "net": 215.0
+      },
+      "6": {
+       "trades": 11,
+       "net": 10827.0
+      },
+      "7": {
+       "trades": 12,
+       "net": -38296.0
+      },
+      "8": {
+       "trades": 12,
+       "net": 8349.0
+      },
+      "9": {
+       "trades": 8,
+       "net": 10023.0
+      },
+      "10": {
+       "trades": 5,
+       "net": 28578.0
+      }
+     },
+     "halves": {
+      "H1": {
+       "trades": 45,
+       "net": 30072.6
+      },
+      "H2": {
+       "trades": 37,
+       "net": 8654.0
+      }
+     },
+     "ex_top3": -6587.9,
+     "max_dd": -41677.0,
+     "peak_concurrent": 18,
+     "forced": 0
+    },
+    "2026": {
+     "trades": 111,
+     "total": 143662.4,
+     "wr": 63.96,
+     "avg_hold": 19.5,
+     "worst": -15310.0,
+     "months": {
+      "1": {
+       "trades": 10,
+       "net": 5404.0
+      },
+      "2": {
+       "trades": 5,
+       "net": 9816.0
+      },
+      "3": {
+       "trades": 18,
+       "net": 8449.0
+      },
+      "4": {
+       "trades": 5,
+       "net": 10140.0
+      },
+      "5": {
+       "trades": 12,
+       "net": 37788.5
+      },
+      "6": {
+       "trades": 15,
+       "net": -1147.0
+      },
+      "7": {
+       "trades": 7,
+       "net": 9405.0
+      },
+      "8": {
+       "trades": 5,
+       "net": -11236.0
+      },
+      "9": {
+       "trades": 15,
+       "net": -17909.0
+      },
+      "10": {
+       "trades": 19,
+       "net": 92951.9
+      }
+     },
+     "halves": {
+      "H1": {
+       "trades": 65,
+       "net": 70450.5
+      },
+      "H2": {
+       "trades": 46,
+       "net": 73211.9
+      }
+     },
+     "ex_top3": 70001.4,
+     "max_dd": -46655.0,
+     "peak_concurrent": 21,
+     "forced": 6
+    }
+   },
+   "floor_exits": {
+    "2025": {
+     "count": 6,
+     "net": -67519.0,
+     "positions": [
+      {
+       "sym": "OBEROIRLTY",
+       "entry_date": "2025-01-20",
+       "entry": 2002.0,
+       "upgrade_date": "2025-01-23",
+       "exit_date": "2025-01-27",
+       "exit": 1750.0,
+       "net": -25240.0,
+       "hold": 5
+      },
+      {
+       "sym": "OIL",
+       "entry_date": "2025-01-30",
+       "entry": 408.0,
+       "upgrade_date": "2025-03-04",
+       "exit_date": "2025-03-05",
+       "exit": 353.15,
+       "net": -5525.0,
+       "hold": 24
+      },
+      {
+       "sym": "UNITDSPR",
+       "entry_date": "2025-06-17",
+       "entry": 1490.0,
+       "upgrade_date": "2025-07-07",
+       "exit_date": "2025-07-24",
+       "exit": 1349.0,
+       "net": -14140.0,
+       "hold": 27
+      },
+      {
+       "sym": "ASTRAL",
+       "entry_date": "2025-07-24",
+       "entry": 1484.5,
+       "upgrade_date": "2025-08-18",
+       "exit_date": "2025-08-19",
+       "exit": 1320.2,
+       "net": -16470.0,
+       "hold": 17
+      },
+      {
+       "sym": "INDUSTOWER",
+       "entry_date": "2025-07-30",
+       "entry": 390.55,
+       "upgrade_date": "2025-08-18",
+       "exit_date": "2025-08-19",
+       "exit": 339.7,
+       "net": -5125.0,
+       "hold": 13
+      },
+      {
+       "sym": "NHPC",
+       "entry_date": "2025-10-30",
+       "entry": 87.14,
+       "upgrade_date": "2025-12-01",
+       "exit_date": "2025-12-02",
+       "exit": 77.35,
+       "net": -1019.0,
+       "hold": 22
+      }
+     ]
+    },
+    "2026": {
+     "count": 12,
+     "net": -85496.0,
+     "positions": [
+      {
+       "sym": "UNITDSPR",
+       "entry_date": "2026-01-07",
+       "entry": 1376.6,
+       "upgrade_date": "2026-01-14",
+       "exit_date": "2026-04-01",
+       "exit": 1262.5,
+       "net": -11450.0,
+       "hold": 56
+      },
+      {
+       "sym": "ITC",
+       "entry_date": "2026-01-09",
+       "entry": 340.9,
+       "upgrade_date": "2026-02-06",
+       "exit_date": "2026-03-10",
+       "exit": 309.0,
+       "net": -3230.0,
+       "hold": 40
+      },
+      {
+       "sym": "HDFCBANK",
+       "entry_date": "2026-01-14",
+       "entry": 930.0,
+       "upgrade_date": "2026-01-27",
+       "exit_date": "2026-03-12",
+       "exit": 820.1,
+       "net": -11030.0,
+       "hold": 39
+      },
+      {
+       "sym": "WIPRO",
+       "entry_date": "2026-01-23",
+       "entry": 242.3,
+       "upgrade_date": "2026-03-10",
+       "exit_date": "2026-03-11",
+       "exit": 202.69,
+       "net": -4001.0,
+       "hold": 32
+      },
+      {
+       "sym": "ITC",
+       "entry_date": "2026-03-11",
+       "entry": 309.05,
+       "upgrade_date": "2026-03-24",
+       "exit_date": "2026-06-04",
+       "exit": 277.0,
+       "net": -3245.0,
+       "hold": 55
+      },
+      {
+       "sym": "INDUSTOWER",
+       "entry_date": "2026-06-15",
+       "entry": 426.1,
+       "upgrade_date": "2026-07-06",
+       "exit_date": "2026-07-08",
+       "exit": 381.0,
+       "net": -4550.0,
+       "hold": 16
+      },
+      {
+       "sym": "RECLTD",
+       "entry_date": "2026-08-12",
+       "entry": 344.7,
+       "upgrade_date": "2026-08-24",
+       "exit_date": "2026-09-16",
+       "exit": 308.7,
+       "net": -3640.0,
+       "hold": 24
+      },
+      {
+       "sym": "PFC",
+       "entry_date": "2026-08-14",
+       "entry": 376.95,
+       "upgrade_date": "2026-09-04",
+       "exit_date": "2026-09-28",
+       "exit": 338.3,
+       "net": -3905.0,
+       "hold": 30
+      },
+      {
+       "sym": "UNITDSPR",
+       "entry_date": "2026-09-04",
+       "entry": 1488.1,
+       "upgrade_date": "2026-09-16",
+       "exit_date": "2026-10-05",
+       "exit": 1335.4,
+       "net": -15310.0,
+       "hold": 19
+      },
+      {
+       "sym": "BDL",
+       "entry_date": "2026-09-17",
+       "entry": 1130.0,
+       "upgrade_date": "2026-09-18",
+       "exit_date": "2026-10-28",
+       "exit": 1000.2,
+       "net": -13020.0,
+       "hold": 27
+      },
+      {
+       "sym": "NATIONALUM",
+       "entry_date": "2026-09-17",
+       "entry": 356.0,
+       "upgrade_date": "2026-10-13",
+       "exit_date": "2026-10-16",
+       "exit": 318.35,
+       "net": -3805.0,
+       "hold": 20
+      },
+      {
+       "sym": "HINDCOPPER",
+       "entry_date": "2026-09-18",
+       "entry": 490.7,
+       "upgrade_date": "2026-10-29",
+       "exit_date": "2026-10-30",
+       "exit": 408.0,
+       "net": -8310.0,
+       "hold": 28
+      }
+     ]
+    }
+   },
+   "floor_exits_total_all_years": {
+    "count": 22,
+    "net": -174178.0
+   },
+   "counted_upgrades": 59,
+   "trade_list_diff": {
+    "ekam2c_trades": 218,
+    "row_trades": 237,
+    "only_in_ekam2c": 27,
+    "only_in_row": 46
+   },
+   "placebo": {
+    "2025": {
+     "n_trades": 82,
+     "draws": 200,
+     "real_total": 38726.6,
+     "percentile": 70.0,
+     "draw_mean": 16089.33,
+     "draw_median": 21927.0
+    },
+    "2026": {
+     "n_trades": 111,
+     "draws": 200,
+     "real_total": 143662.4,
+     "percentile": 99.5,
+     "draw_mean": 41829.53,
+     "draw_median": 43035.0
+    }
+   },
+   "november": {
+    "data_last_date": "2026-11-13",
+    "open_at_nov13": [
+     {
+      "sym": "IRCTC",
+      "comps": "BB",
+      "display_tag": "UPGRADED",
+      "signal_date": "2026-09-17",
+      "entry_date": "2026-09-18",
+      "entry": 458.0,
+      "upgrade_date": "2026-09-18",
+      "mark": 457.8,
+      "marked_net": -60.0,
+      "floor_exit": false
+     },
+     {
+      "sym": "NTPC",
+      "comps": "BB",
+      "display_tag": "UPGRADED",
+      "signal_date": "2026-09-29",
+      "entry_date": "2026-09-30",
+      "entry": 323.5,
+      "upgrade_date": "2026-10-05",
+      "mark": 319.1,
+      "marked_net": -480.0,
+      "floor_exit": false
+     },
+     {
+      "sym": "PFC",
+      "comps": "BB",
+      "display_tag": "UPGRADED",
+      "signal_date": "2026-10-05",
+      "entry_date": "2026-10-06",
+      "entry": 322.3,
+      "upgrade_date": "2026-10-07",
+      "mark": 334.25,
+      "marked_net": 1155.0,
+      "floor_exit": false
+     },
+     {
+      "sym": "HINDZINC",
+      "comps": "BB",
+      "display_tag": "UPGRADED",
+      "signal_date": "2026-10-09",
+      "entry_date": "2026-10-12",
+      "entry": 545.95,
+      "upgrade_date": "2026-10-28",
+      "mark": 554.85,
+      "marked_net": 850.0,
+      "floor_exit": false
+     },
+     {
+      "sym": "VEDL",
+      "comps": "BB",
+      "display_tag": "UPGRADED",
+      "signal_date": "2026-10-16",
+      "entry_date": "2026-10-19",
+      "entry": 248.0,
+      "upgrade_date": "2026-10-28",
+      "mark": 259.68,
+      "marked_net": 1128.0,
+      "floor_exit": false
+     },
+     {
+      "sym": "NATIONALUM",
+      "comps": "RSI",
+      "display_tag": "RSI",
+      "signal_date": "2026-10-26",
+      "entry_date": "2026-10-27",
+      "entry": 313.55,
+      "upgrade_date": null,
+      "mark": 330.0,
+      "marked_net": 1605.0,
+      "floor_exit": false
+     },
+     {
+      "sym": "ASTRAL",
+      "comps": "BB",
+      "display_tag": "BB",
+      "signal_date": "2026-11-09",
+      "entry_date": "2026-11-11",
+      "entry": 1285.0,
+      "upgrade_date": null,
+      "mark": 1254.0,
+      "marked_net": -3140.0,
+      "floor_exit": false
+     }
+    ],
+    "open_marked_total": 1058.0,
+    "fate_of_ekam2c_open": [
+     {
+      "sym": "UNITDSPR",
+      "entry_date": "2026-09-04",
+      "entry": 1488.1,
+      "status": "FLOOR_EXIT",
+      "exit_date": "2026-10-05",
+      "exit": 1335.4,
+      "net": -15310.0
+     },
+     {
+      "sym": "BDL",
+      "entry_date": "2026-09-17",
+      "entry": 1130.0,
+      "status": "FLOOR_EXIT",
+      "exit_date": "2026-10-28",
+      "exit": 1000.2,
+      "net": -13020.0
+     },
+     {
+      "sym": "NATIONALUM",
+      "entry_date": "2026-09-17",
+      "entry": 356.0,
+      "status": "FLOOR_EXIT",
+      "exit_date": "2026-10-16",
+      "exit": 318.35,
+      "net": -3805.0
+     },
+     {
+      "sym": "HINDCOPPER",
+      "entry_date": "2026-09-18",
+      "entry": 490.7,
+      "status": "FLOOR_EXIT",
+      "exit_date": "2026-10-30",
+      "exit": 408.0,
+      "net": -8310.0
+     },
+     {
+      "sym": "IRCTC",
+      "entry_date": "2026-09-18",
+      "entry": 458.0,
+      "status": "OPEN/MARKED",
+      "mark": 457.8,
+      "marked_net": -60.0
+     },
+     {
+      "sym": "NTPC",
+      "entry_date": "2026-09-30",
+      "entry": 323.5,
+      "status": "OPEN/MARKED",
+      "mark": 319.1,
+      "marked_net": -480.0
+     },
+     {
+      "sym": "HINDZINC",
+      "entry_date": "2026-10-12",
+      "entry": 545.95,
+      "status": "OPEN/MARKED",
+      "mark": 554.85,
+      "marked_net": 850.0
+     },
+     {
+      "sym": "VEDL",
+      "entry_date": "2026-10-19",
+      "entry": 248.0,
+      "status": "OPEN/MARKED",
+      "mark": 259.68,
+      "marked_net": 1128.0
+     }
+    ],
+    "entries_nov2_13": [
+     {
+      "sym": "HINDCOPPER",
+      "comps": "RSI",
+      "signal_date": "2026-11-02",
+      "entry_date": "2026-11-03",
+      "entry": 410.0,
+      "exit_date": "2026-11-12",
+      "exit": 464.0,
+      "net": 5360.0,
+      "exit_kind": "CAP",
+      "forced": false
+     },
+     {
+      "sym": "ASTRAL",
+      "comps": "BB",
+      "signal_date": "2026-11-09",
+      "entry_date": "2026-11-11",
+      "entry": 1285.0,
+      "exit_date": "2026-11-13",
+      "exit": 1254.0,
+      "net": -3140.0,
+      "exit_kind": "FORCED",
+      "forced": true
+     }
+    ]
+   }
+  },
+  "2d-15": {
+   "floor_pct": 0.15,
+   "stats": {
+    "2025": {
+     "trades": 80,
+     "total": 33971.6,
+     "wr": 72.5,
+     "avg_hold": 20.5,
+     "worst": -30225.0,
+     "months": {
+      "1": {
+       "trades": 11,
+       "net": -37501.5
+      },
+      "2": {
+       "trades": 11,
+       "net": 31258.0
+      },
+      "3": {
+       "trades": 2,
+       "net": -64.0
+      },
+      "4": {
+       "trades": 8,
+       "net": 19938.1
+      },
+      "5": {
+       "trades": 2,
+       "net": 215.0
+      },
+      "6": {
+       "trades": 11,
+       "net": 6537.0
+      },
+      "7": {
+       "trades": 11,
+       "net": -28566.0
+      },
+      "8": {
+       "trades": 12,
+       "net": 8349.0
+      },
+      "9": {
+       "trades": 8,
+       "net": 10023.0
+      },
+      "10": {
+       "trades": 4,
+       "net": 23783.0
+      }
+     },
+     "halves": {
+      "H1": {
+       "trades": 45,
+       "net": 20382.6
+      },
+      "H2": {
+       "trades": 35,
+       "net": 13589.0
+      }
+     },
+     "ex_top3": -11342.9,
+     "max_dd": -44077.0,
+     "peak_concurrent": 18,
+     "forced": 0
+    },
+    "2026": {
+     "trades": 107,
+     "total": 123127.4,
+     "wr": 65.42,
+     "avg_hold": 20.6,
+     "worst": -24850.0,
+     "months": {
+      "1": {
+       "trades": 9,
+       "net": 6699.0
+      },
+      "2": {
+       "trades": 5,
+       "net": 9816.0
+      },
+      "3": {
+       "trades": 18,
+       "net": 16144.0
+      },
+      "4": {
+       "trades": 5,
+       "net": 3095.0
+      },
+      "5": {
+       "trades": 12,
+       "net": 37788.5
+      },
+      "6": {
+       "trades": 14,
+       "net": -2757.0
+      },
+      "7": {
+       "trades": 6,
+       "net": 10450.0
+      },
+      "8": {
+       "trades": 5,
+       "net": -14526.0
+      },
+      "9": {
+       "trades": 16,
+       "net": -25229.0
+      },
+      "10": {
+       "trades": 17,
+       "net": 81646.9
+      }
+     },
+     "halves": {
+      "H1": {
+       "trades": 63,
+       "net": 70785.5
+      },
+      "H2": {
+       "trades": 44,
+       "net": 52341.9
+      }
+     },
+     "ex_top3": 49466.4,
+     "max_dd": -55960.0,
+     "peak_concurrent": 21,
+     "forced": 7
+    }
+   },
+   "floor_exits": {
+    "2025": {
+     "count": 3,
+     "net": -42770.0,
+     "positions": [
+      {
+       "sym": "OBEROIRLTY",
+       "entry_date": "2025-01-20",
+       "entry": 2002.0,
+       "upgrade_date": "2025-01-23",
+       "exit_date": "2025-01-28",
+       "exit": 1700.15,
+       "net": -30225.0,
+       "hold": 6
+      },
+      {
+       "sym": "OIL",
+       "entry_date": "2025-01-30",
+       "entry": 408.0,
+       "upgrade_date": "2025-03-04",
+       "exit_date": "2025-04-08",
+       "exit": 349.0,
+       "net": -5940.0,
+       "hold": 46
+      },
+      {
+       "sym": "INDUSTOWER",
+       "entry_date": "2025-07-30",
+       "entry": 390.55,
+       "upgrade_date": "2025-08-18",
+       "exit_date": "2025-09-03",
+       "exit": 324.9,
+       "net": -6605.0,
+       "hold": 23
+      }
+     ]
+    },
+    "2026": {
+     "count": 8,
+     "net": -75181.0,
+     "positions": [
+      {
+       "sym": "ITC",
+       "entry_date": "2026-01-09",
+       "entry": 340.9,
+       "upgrade_date": "2026-02-06",
+       "exit_date": "2026-04-01",
+       "exit": 293.0,
+       "net": -4830.0,
+       "hold": 54
+      },
+      {
+       "sym": "HDFCBANK",
+       "entry_date": "2026-01-14",
+       "entry": 930.0,
+       "upgrade_date": "2026-01-27",
+       "exit_date": "2026-03-23",
+       "exit": 763.15,
+       "net": -16725.0,
+       "hold": 46
+      },
+      {
+       "sym": "WIPRO",
+       "entry_date": "2026-01-23",
+       "entry": 242.3,
+       "upgrade_date": "2026-03-10",
+       "exit_date": "2026-03-11",
+       "exit": 202.69,
+       "net": -4001.0,
+       "hold": 32
+      },
+      {
+       "sym": "RECLTD",
+       "entry_date": "2026-08-12",
+       "entry": 344.7,
+       "upgrade_date": "2026-08-24",
+       "exit_date": "2026-09-30",
+       "exit": 294.0,
+       "net": -5110.0,
+       "hold": 34
+      },
+      {
+       "sym": "PFC",
+       "entry_date": "2026-08-14",
+       "entry": 376.95,
+       "upgrade_date": "2026-09-04",
+       "exit_date": "2026-10-05",
+       "exit": 320.1,
+       "net": -5725.0,
+       "hold": 34
+      },
+      {
+       "sym": "UNITDSPR",
+       "entry_date": "2026-09-04",
+       "entry": 1488.1,
+       "upgrade_date": "2026-09-16",
+       "exit_date": "2026-10-26",
+       "exit": 1240.0,
+       "net": -24850.0,
+       "hold": 33
+      },
+      {
+       "sym": "NATIONALUM",
+       "entry_date": "2026-09-17",
+       "entry": 356.0,
+       "upgrade_date": "2026-10-13",
+       "exit_date": "2026-10-26",
+       "exit": 300.1,
+       "net": -5630.0,
+       "hold": 25
+      },
+      {
+       "sym": "HINDCOPPER",
+       "entry_date": "2026-09-18",
+       "entry": 490.7,
+       "upgrade_date": "2026-10-29",
+       "exit_date": "2026-10-30",
+       "exit": 408.0,
+       "net": -8310.0,
+       "hold": 28
+      }
+     ]
+    }
+   },
+   "floor_exits_total_all_years": {
+    "count": 13,
+    "net": -128249.0
+   },
+   "counted_upgrades": 58,
+   "trade_list_diff": {
+    "ekam2c_trades": 218,
+    "row_trades": 230,
+    "only_in_ekam2c": 17,
+    "only_in_row": 29
+   },
+   "placebo": {
+    "2025": {
+     "n_trades": 80,
+     "draws": 200,
+     "real_total": 33971.6,
+     "percentile": 67.5,
+     "draw_mean": 15466.33,
+     "draw_median": 19367.0
+    },
+    "2026": {
+     "n_trades": 107,
+     "draws": 200,
+     "real_total": 123127.4,
+     "percentile": 98.0,
+     "draw_mean": 40641.24,
+     "draw_median": 40421.0
+    }
+   },
+   "november": {
+    "data_last_date": "2026-11-13",
+    "open_at_nov13": [
+     {
+      "sym": "BDL",
+      "comps": "BB",
+      "display_tag": "UPGRADED",
+      "signal_date": "2026-09-16",
+      "entry_date": "2026-09-17",
+      "entry": 1130.0,
+      "upgrade_date": "2026-09-18",
+      "mark": 1030.0,
+      "marked_net": -10040.0,
+      "floor_exit": false
+     },
+     {
+      "sym": "IRCTC",
+      "comps": "BB",
+      "display_tag": "UPGRADED",
+      "signal_date": "2026-09-17",
+      "entry_date": "2026-09-18",
+      "entry": 458.0,
+      "upgrade_date": "2026-09-18",
+      "mark": 457.8,
+      "marked_net": -60.0,
+      "floor_exit": false
+     },
+     {
+      "sym": "NTPC",
+      "comps": "BB",
+      "display_tag": "UPGRADED",
+      "signal_date": "2026-09-29",
+      "entry_date": "2026-09-30",
+      "entry": 323.5,
+      "upgrade_date": "2026-10-05",
+      "mark": 319.1,
+      "marked_net": -480.0,
+      "floor_exit": false
+     },
+     {
+      "sym": "PFC",
+      "comps": "BB",
+      "display_tag": "UPGRADED",
+      "signal_date": "2026-10-05",
+      "entry_date": "2026-10-06",
+      "entry": 322.3,
+      "upgrade_date": "2026-10-07",
+      "mark": 334.25,
+      "marked_net": 1155.0,
+      "floor_exit": false
+     },
+     {
+      "sym": "HINDZINC",
+      "comps": "BB",
+      "display_tag": "UPGRADED",
+      "signal_date": "2026-10-09",
+      "entry_date": "2026-10-12",
+      "entry": 545.95,
+      "upgrade_date": "2026-10-28",
+      "mark": 554.85,
+      "marked_net": 850.0,
+      "floor_exit": false
+     },
+     {
+      "sym": "VEDL",
+      "comps": "BB",
+      "display_tag": "UPGRADED",
+      "signal_date": "2026-10-16",
+      "entry_date": "2026-10-19",
+      "entry": 248.0,
+      "upgrade_date": "2026-10-28",
+      "mark": 259.68,
+      "marked_net": 1128.0,
+      "floor_exit": false
+     },
+     {
+      "sym": "NATIONALUM",
+      "comps": "RSI",
+      "display_tag": "RSI",
+      "signal_date": "2026-10-26",
+      "entry_date": "2026-10-27",
+      "entry": 313.55,
+      "upgrade_date": null,
+      "mark": 330.0,
+      "marked_net": 1605.0,
+      "floor_exit": false
+     },
+     {
+      "sym": "ASTRAL",
+      "comps": "BB",
+      "display_tag": "BB",
+      "signal_date": "2026-11-09",
+      "entry_date": "2026-11-11",
+      "entry": 1285.0,
+      "upgrade_date": null,
+      "mark": 1254.0,
+      "marked_net": -3140.0,
+      "floor_exit": false
+     }
+    ],
+    "open_marked_total": -8982.0,
+    "fate_of_ekam2c_open": [
+     {
+      "sym": "UNITDSPR",
+      "entry_date": "2026-09-04",
+      "entry": 1488.1,
+      "status": "FLOOR_EXIT",
+      "exit_date": "2026-10-26",
+      "exit": 1240.0,
+      "net": -24850.0
+     },
+     {
+      "sym": "BDL",
+      "entry_date": "2026-09-17",
+      "entry": 1130.0,
+      "status": "OPEN/MARKED",
+      "mark": 1030.0,
+      "marked_net": -10040.0
+     },
+     {
+      "sym": "NATIONALUM",
+      "entry_date": "2026-09-17",
+      "entry": 356.0,
+      "status": "FLOOR_EXIT",
+      "exit_date": "2026-10-26",
+      "exit": 300.1,
+      "net": -5630.0
+     },
+     {
+      "sym": "HINDCOPPER",
+      "entry_date": "2026-09-18",
+      "entry": 490.7,
+      "status": "FLOOR_EXIT",
+      "exit_date": "2026-10-30",
+      "exit": 408.0,
+      "net": -8310.0
+     },
+     {
+      "sym": "IRCTC",
+      "entry_date": "2026-09-18",
+      "entry": 458.0,
+      "status": "OPEN/MARKED",
+      "mark": 457.8,
+      "marked_net": -60.0
+     },
+     {
+      "sym": "NTPC",
+      "entry_date": "2026-09-30",
+      "entry": 323.5,
+      "status": "OPEN/MARKED",
+      "mark": 319.1,
+      "marked_net": -480.0
+     },
+     {
+      "sym": "HINDZINC",
+      "entry_date": "2026-10-12",
+      "entry": 545.95,
+      "status": "OPEN/MARKED",
+      "mark": 554.85,
+      "marked_net": 850.0
+     },
+     {
+      "sym": "VEDL",
+      "entry_date": "2026-10-19",
+      "entry": 248.0,
+      "status": "OPEN/MARKED",
+      "mark": 259.68,
+      "marked_net": 1128.0
+     }
+    ],
+    "entries_nov2_13": [
+     {
+      "sym": "HINDCOPPER",
+      "comps": "RSI",
+      "signal_date": "2026-11-02",
+      "entry_date": "2026-11-03",
+      "entry": 410.0,
+      "exit_date": "2026-11-12",
+      "exit": 464.0,
+      "net": 5360.0,
+      "exit_kind": "CAP",
+      "forced": false
+     },
+     {
+      "sym": "ASTRAL",
+      "comps": "BB",
+      "signal_date": "2026-11-09",
+      "entry_date": "2026-11-11",
+      "entry": 1285.0,
+      "exit_date": "2026-11-13",
+      "exit": 1254.0,
+      "net": -3140.0,
+      "exit_kind": "FORCED",
+      "forced": true
+     }
+    ]
+   }
+  }
+ }
+}

@@ -66,7 +66,7 @@ def get(token, path, params=None):
         "Accept": "application/json",
         "Authorization": f"Bearer {token}",
         # Upstox/Cloudflare blocks the default Python urllib user-agent.
-        "User-Agent": "BankNiftyBacktestFetcher/1.0",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36",
     })
     for attempt in range(4):
         try:

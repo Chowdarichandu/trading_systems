@@ -1,0 +1,350 @@
+{
+ "spec": "hold_programme_r2_SPEC.md",
+ "basis": "per 100 shares PROVISIONAL, Rs40/position",
+ "cells": {
+  "L30-H10": {
+   "2025": {
+    "trades": 53,
+    "net": -9092.0,
+    "wr": 41.5,
+    "avg_pct": -0.565,
+    "worst": -14940.0,
+    "max_dd": -39350.0,
+    "wmark": 2,
+    "forced": 0
+   },
+   "2026": {
+    "trades": 64,
+    "net": -7122.0,
+    "wr": 39.1,
+    "avg_pct": -0.371,
+    "worst": -10500.0,
+    "max_dd": -44706.0,
+    "wmark": 8,
+    "forced": 0
+   },
+   "combined_net": -16214.0
+  },
+  "L30-H15": {
+   "2025": {
+    "trades": 50,
+    "net": -35752.0,
+    "wr": 46.0,
+    "avg_pct": -0.265,
+    "worst": -24230.0,
+    "max_dd": -97232.0,
+    "wmark": 2,
+    "forced": 0
+   },
+   "2026": {
+    "trades": 57,
+    "net": 18351.0,
+    "wr": 38.6,
+    "avg_pct": -0.346,
+    "worst": -13345.0,
+    "max_dd": -34319.0,
+    "wmark": 10,
+    "forced": 0
+   },
+   "combined_net": -17401.0
+  },
+  "L30-H20": {
+   "2025": {
+    "trades": 47,
+    "net": -2167.0,
+    "wr": 46.8,
+    "avg_pct": 0.249,
+    "worst": -20735.0,
+    "max_dd": -47330.0,
+    "wmark": 3,
+    "forced": 0
+   },
+   "2026": {
+    "trades": 53,
+    "net": 34323.0,
+    "wr": 37.7,
+    "avg_pct": -0.118,
+    "worst": -11040.0,
+    "max_dd": -36019.0,
+    "wmark": 16,
+    "forced": 0
+   },
+   "combined_net": 32156.0
+  },
+  "L35-H10": {
+   "2025": {
+    "trades": 96,
+    "net": 13864.0,
+    "wr": 61.5,
+    "avg_pct": 1.057,
+    "worst": -21740.0,
+    "max_dd": -59224.0,
+    "wmark": 2,
+    "forced": 0
+   },
+   "2026": {
+    "trades": 121,
+    "net": -11306.0,
+    "wr": 40.5,
+    "avg_pct": -0.308,
+    "worst": -9390.0,
+    "max_dd": -107798.0,
+    "wmark": 12,
+    "forced": 0
+   },
+   "combined_net": 2558.0
+  },
+  "L35-H15": {
+   "2025": {
+    "trades": 83,
+    "net": 42163.0,
+    "wr": 63.9,
+    "avg_pct": 1.472,
+    "worst": -24230.0,
+    "max_dd": -56175.0,
+    "wmark": 2,
+    "forced": 0
+   },
+   "2026": {
+    "trades": 103,
+    "net": 83963.0,
+    "wr": 41.7,
+    "avg_pct": -0.158,
+    "worst": -9890.0,
+    "max_dd": -88109.0,
+    "wmark": 15,
+    "forced": 0
+   },
+   "combined_net": 126126.0
+  },
+  "L35-H20": {
+   "2025": {
+    "trades": 73,
+    "net": 1020.0,
+    "wr": 56.2,
+    "avg_pct": 0.975,
+    "worst": -41750.0,
+    "max_dd": -105455.0,
+    "wmark": 4,
+    "forced": 0
+   },
+   "2026": {
+    "trades": 94,
+    "net": 82570.0,
+    "wr": 42.6,
+    "avg_pct": -0.333,
+    "worst": -14740.0,
+    "max_dd": -128652.0,
+    "wmark": 19,
+    "forced": 0
+   },
+   "combined_net": 83590.0
+  },
+  "L40-H10": {
+   "2025": {
+    "trades": 151,
+    "net": -7769.0,
+    "wr": 52.3,
+    "avg_pct": -0.002,
+    "worst": -24640.0,
+    "max_dd": -128498.0,
+    "wmark": 2,
+    "forced": 0
+   },
+   "2026": {
+    "trades": 160,
+    "net": 22631.0,
+    "wr": 41.2,
+    "avg_pct": 0.187,
+    "worst": -23540.0,
+    "max_dd": -129325.0,
+    "wmark": 14,
+    "forced": 0
+   },
+   "combined_net": 14862.0
+  },
+  "L40-H15": {
+   "2025": {
+    "trades": 132,
+    "net": 38372.0,
+    "wr": 52.3,
+    "avg_pct": 0.321,
+    "worst": -25440.0,
+    "max_dd": -124166.0,
+    "wmark": 4,
+    "forced": 0
+   },
+   "2026": {
+    "trades": 140,
+    "net": -8944.0,
+    "wr": 41.4,
+    "avg_pct": 0.053,
+    "worst": -29540.0,
+    "max_dd": -138783.0,
+    "wmark": 20,
+    "forced": 0
+   },
+   "combined_net": 29428.0
+  },
+  "L40-H20": {
+   "2025": {
+    "trades": 112,
+    "net": 101255.0,
+    "wr": 62.5,
+    "avg_pct": 0.973,
+    "worst": -31840.0,
+    "max_dd": -125678.0,
+    "wmark": 7,
+    "forced": 0
+   },
+   "2026": {
+    "trades": 124,
+    "net": -9567.0,
+    "wr": 42.7,
+    "avg_pct": -0.307,
+    "worst": -19540.0,
+    "max_dd": -141932.0,
+    "wmark": 17,
+    "forced": 0
+   },
+   "combined_net": 91688.0
+  }
+ },
+ "control_check": {
+  "reproduced": true,
+  "r2": {
+   "t2025": 83,
+   "n2025": 42163.0,
+   "t2026": 103,
+   "n2026": 83963.0
+  },
+  "r1": {
+   "t2025": 83,
+   "n2025": 42163.0,
+   "t2026": 103,
+   "n2026": 83963.0
+  }
+ },
+ "best_cell": {
+  "level": 35,
+  "hold": 15,
+  "combined_net": 126126.0,
+  "positive_both_years": true
+ },
+ "cells_beating_control_both_years": [],
+ "placebo": {
+  "cell": "L35-H15",
+  "combined_net": 126126.0,
+  "percentile": 97.6,
+  "placebo_median": -97448.0
+ },
+ "best_cell_ex_top3": {
+  "2025": -34527.0,
+  "2026": 5073.0
+ },
+ "best_cell_months": {
+  "2025": {
+   "2025-01": {
+    "trades": 21,
+    "net": 7360.0
+   },
+   "2025-02": {
+    "trades": 9,
+    "net": 1870.0
+   },
+   "2025-03": {
+    "trades": 11,
+    "net": 26195.0
+   },
+   "2025-04": {
+    "trades": 7,
+    "net": 10863.0
+   },
+   "2025-06": {
+    "trades": 4,
+    "net": 18561.0
+   },
+   "2025-07": {
+    "trades": 4,
+    "net": -32150.0
+   },
+   "2025-08": {
+    "trades": 13,
+    "net": -22110.0
+   },
+   "2025-09": {
+    "trades": 10,
+    "net": 22154.0
+   },
+   "2025-10": {
+    "trades": 4,
+    "net": 9420.0
+   }
+  },
+  "2026": {
+   "2026-01": {
+    "trades": 4,
+    "net": -2478.0
+   },
+   "2026-02": {
+    "trades": 5,
+    "net": -4775.0
+   },
+   "2026-03": {
+    "trades": 15,
+    "net": 100733.0
+   },
+   "2026-04": {
+    "trades": 3,
+    "net": 21018.0
+   },
+   "2026-05": {
+    "trades": 5,
+    "net": -4484.0
+   },
+   "2026-06": {
+    "trades": 15,
+    "net": 10530.0
+   },
+   "2026-07": {
+    "trades": 12,
+    "net": -3295.0
+   },
+   "2026-08": {
+    "trades": 6,
+    "net": -15895.0
+   },
+   "2026-09": {
+    "trades": 16,
+    "net": -34592.0
+   },
+   "2026-10": {
+    "trades": 22,
+    "net": 17201.0
+   }
+  }
+ },
+ "best_cell_november": [
+  {
+   "sym": "BDL",
+   "entry_date": "2026-11-04",
+   "exit_date": "2026-11-13",
+   "entry": 1010.1,
+   "exit": 1030.0,
+   "net": 1950.0,
+   "kind": "FORCED",
+   "label": "OPEN/MARKED"
+  },
+  {
+   "sym": "HINDCOPPER",
+   "entry_date": "2026-11-05",
+   "exit_date": "2026-11-13",
+   "entry": 432.0,
+   "exit": 439.4,
+   "net": 700.0,
+   "kind": "FORCED",
+   "label": "OPEN/MARKED"
+  }
+ ],
+ "best_cell_november_total": 2650.0
+}

@@ -1,0 +1,715 @@
+{
+ "basis": "equity cash intraday, per 100 shares PROVISIONAL, Rs40/trade, paper only; VWAP = equal-weighted typical-price proxy (no volume in stores)",
+ "spec": "ekam_intraday_stocks_r5_SPEC.md (frozen 2026-11-14)",
+ "control": {
+  "reproduced": true,
+  "full": {
+   "2025": {
+    "trades": 1035,
+    "total": 62164.57,
+    "wr": 35.56,
+    "expectancy": 60.06
+   },
+   "2026": {
+    "trades": 1025,
+    "total": 63883.6,
+    "wr": 35.71,
+    "expectancy": 62.33
+   }
+  },
+  "november_cf": {
+   "trades": 45,
+   "total": 24528.65,
+   "wr": 48.89,
+   "expectancy": 545.08
+  }
+ },
+ "timing_audit": {
+  "truncated_recompute_checked": 313,
+  "truncated_recompute_mismatches": 0
+ },
+ "rows": {
+  "S0": {
+   "label": "EARLIEST-5 (control = CAND-T5)",
+   "years": {
+    "2025": {
+     "jan_jun": {
+      "trades": 615,
+      "total": 62951.63,
+      "wr": 35.61,
+      "expectancy": 102.36
+     },
+     "jul_oct": {
+      "trades": 420,
+      "total": -787.06,
+      "wr": 35.48,
+      "expectancy": -1.87
+     },
+     "jan_oct": {
+      "trades": 1035,
+      "total": 62164.57,
+      "wr": 35.56,
+      "expectancy": 60.06
+     },
+     "months": {
+      "2025-01": {
+       "trades": 115,
+       "total": 26024.36
+      },
+      "2025-02": {
+       "trades": 100,
+       "total": 57.41
+      },
+      "2025-03": {
+       "trades": 95,
+       "total": -574.12
+      },
+      "2025-04": {
+       "trades": 95,
+       "total": 23345.86
+      },
+      "2025-05": {
+       "trades": 105,
+       "total": 19136.75
+      },
+      "2025-06": {
+       "trades": 105,
+       "total": -5038.63
+      },
+      "2025-07": {
+       "trades": 115,
+       "total": 11891.3
+      },
+      "2025-08": {
+       "trades": 95,
+       "total": 7592.82
+      },
+      "2025-09": {
+       "trades": 110,
+       "total": -7347.97
+      },
+      "2025-10": {
+       "trades": 100,
+       "total": -12923.21
+      }
+     },
+     "ex_top3": 29064.57,
+     "placebo_pct": 100.0,
+     "placebo_draws": {
+      "min": -77846.18,
+      "median": -35702.45,
+      "max": 4594.87
+     }
+    },
+    "2026": {
+     "jan_jun": {
+      "trades": 600,
+      "total": 66314.25,
+      "wr": 36.17,
+      "expectancy": 110.52
+     },
+     "jul_oct": {
+      "trades": 425,
+      "total": -2430.65,
+      "wr": 35.06,
+      "expectancy": -5.72
+     },
+     "jan_oct": {
+      "trades": 1025,
+      "total": 63883.6,
+      "wr": 35.71,
+      "expectancy": 62.33
+     },
+     "months": {
+      "2026-01": {
+       "trades": 100,
+       "total": 31421.02
+      },
+      "2026-02": {
+       "trades": 105,
+       "total": -10400.0
+      },
+      "2026-03": {
+       "trades": 95,
+       "total": 44589.25
+      },
+      "2026-04": {
+       "trades": 100,
+       "total": -20326.4
+      },
+      "2026-05": {
+       "trades": 95,
+       "total": 6735.3
+      },
+      "2026-06": {
+       "trades": 105,
+       "total": 14295.08
+      },
+      "2026-07": {
+       "trades": 115,
+       "total": -17194.6
+      },
+      "2026-08": {
+       "trades": 105,
+       "total": 7901.85
+      },
+      "2026-09": {
+       "trades": 105,
+       "total": 4887.25
+      },
+      "2026-10": {
+       "trades": 100,
+       "total": 1974.85
+      }
+     },
+     "ex_top3": 39713.6,
+     "placebo_pct": 100.0,
+     "placebo_draws": {
+      "min": -72880.34,
+      "median": -36662.1,
+      "max": 9800.95
+     }
+    }
+   },
+   "november_cf": {
+    "trades": 45,
+    "total": 24528.65,
+    "wr": 48.89,
+    "expectancy": 545.08
+   },
+   "desired_bar": {
+    "per_year": {
+     "2025": {
+      "year_positive": true,
+      "jan_jun_positive": true,
+      "jul_oct_positive": false,
+      "expectancy_ge_80": false,
+      "placebo_ge_95": true,
+      "all": false
+     },
+     "2026": {
+      "year_positive": true,
+      "jan_jun_positive": true,
+      "jul_oct_positive": false,
+      "expectancy_ge_80": false,
+      "placebo_ge_95": true,
+      "all": false
+     }
+    },
+    "reached": false
+   }
+  },
+  "S1": {
+   "label": "PRIORITY-5 (<=3 before 11:00, <=2 from 11:00)",
+   "years": {
+    "2025": {
+     "jan_jun": {
+      "trades": 370,
+      "total": 53415.81,
+      "wr": 34.59,
+      "expectancy": 144.37
+     },
+     "jul_oct": {
+      "trades": 261,
+      "total": -11211.77,
+      "wr": 34.87,
+      "expectancy": -42.96
+     },
+     "jan_oct": {
+      "trades": 631,
+      "total": 42204.04,
+      "wr": 34.71,
+      "expectancy": 66.88
+     },
+     "months": {
+      "2025-01": {
+       "trades": 68,
+       "total": 21555.75
+      },
+      "2025-02": {
+       "trades": 60,
+       "total": -3483.95
+      },
+      "2025-03": {
+       "trades": 57,
+       "total": 2805.85
+      },
+      "2025-04": {
+       "trades": 57,
+       "total": 21273.56
+      },
+      "2025-05": {
+       "trades": 63,
+       "total": 16070.0
+      },
+      "2025-06": {
+       "trades": 65,
+       "total": -4805.4
+      },
+      "2025-07": {
+       "trades": 70,
+       "total": 9799.0
+      },
+      "2025-08": {
+       "trades": 61,
+       "total": 1816.6
+      },
+      "2025-09": {
+       "trades": 67,
+       "total": -10556.77
+      },
+      "2025-10": {
+       "trades": 63,
+       "total": -12270.6
+      }
+     },
+     "ex_top3": 9104.04,
+     "placebo_pct": 100.0,
+     "placebo_draws": {
+      "min": -56461.4,
+      "median": -22317.34,
+      "max": 11949.0
+     }
+    },
+    "2026": {
+     "jan_jun": {
+      "trades": 364,
+      "total": 71657.45,
+      "wr": 36.81,
+      "expectancy": 196.86
+     },
+     "jul_oct": {
+      "trades": 257,
+      "total": 910.85,
+      "wr": 36.58,
+      "expectancy": 3.54
+     },
+     "jan_oct": {
+      "trades": 621,
+      "total": 72568.3,
+      "wr": 36.71,
+      "expectancy": 116.86
+     },
+     "months": {
+      "2026-01": {
+       "trades": 61,
+       "total": 16740.55
+      },
+      "2026-02": {
+       "trades": 64,
+       "total": -1640.4
+      },
+      "2026-03": {
+       "trades": 58,
+       "total": 44185.45
+      },
+      "2026-04": {
+       "trades": 60,
+       "total": -13416.3
+      },
+      "2026-05": {
+       "trades": 57,
+       "total": 13959.4
+      },
+      "2026-06": {
+       "trades": 64,
+       "total": 11828.75
+      },
+      "2026-07": {
+       "trades": 69,
+       "total": -8310.0
+      },
+      "2026-08": {
+       "trades": 64,
+       "total": 5867.1
+      },
+      "2026-09": {
+       "trades": 64,
+       "total": 3789.05
+      },
+      "2026-10": {
+       "trades": 60,
+       "total": -435.3
+      }
+     },
+     "ex_top3": 49378.3,
+     "placebo_pct": 100.0,
+     "placebo_draws": {
+      "min": -60062.4,
+      "median": -22800.16,
+      "max": 10176.81
+     }
+    }
+   },
+   "november_cf": {
+    "trades": 27,
+    "total": 20662.6,
+    "wr": 55.56,
+    "expectancy": 765.28
+   },
+   "desired_bar": {
+    "per_year": {
+     "2025": {
+      "year_positive": true,
+      "jan_jun_positive": true,
+      "jul_oct_positive": false,
+      "expectancy_ge_80": false,
+      "placebo_ge_95": true,
+      "all": false
+     },
+     "2026": {
+      "year_positive": true,
+      "jan_jun_positive": true,
+      "jul_oct_positive": true,
+      "expectancy_ge_80": true,
+      "placebo_ge_95": true,
+      "all": true
+     }
+    },
+    "reached": false
+   }
+  },
+  "S2": {
+   "label": "EARLIEST-3",
+   "years": {
+    "2025": {
+     "jan_jun": {
+      "trades": 369,
+      "total": 52610.81,
+      "wr": 34.69,
+      "expectancy": 142.58
+     },
+     "jul_oct": {
+      "trades": 252,
+      "total": -7310.17,
+      "wr": 35.32,
+      "expectancy": -29.01
+     },
+     "jan_oct": {
+      "trades": 621,
+      "total": 45300.64,
+      "wr": 34.94,
+      "expectancy": 72.95
+     },
+     "months": {
+      "2025-01": {
+       "trades": 69,
+       "total": 21820.75
+      },
+      "2025-02": {
+       "trades": 60,
+       "total": -3483.95
+      },
+      "2025-03": {
+       "trades": 57,
+       "total": 2805.85
+      },
+      "2025-04": {
+       "trades": 57,
+       "total": 21273.56
+      },
+      "2025-05": {
+       "trades": 63,
+       "total": 16070.0
+      },
+      "2025-06": {
+       "trades": 63,
+       "total": -5875.4
+      },
+      "2025-07": {
+       "trades": 69,
+       "total": 12028.6
+      },
+      "2025-08": {
+       "trades": 57,
+       "total": 3073.6
+      },
+      "2025-09": {
+       "trades": 66,
+       "total": -10186.77
+      },
+      "2025-10": {
+       "trades": 60,
+       "total": -12225.6
+      }
+     },
+     "ex_top3": 12200.64,
+     "placebo_pct": 100.0,
+     "placebo_draws": {
+      "min": -52566.95,
+      "median": -22325.44,
+      "max": 13394.77
+     }
+    },
+    "2026": {
+     "jan_jun": {
+      "trades": 360,
+      "total": 71329.45,
+      "wr": 36.67,
+      "expectancy": 198.14
+     },
+     "jul_oct": {
+      "trades": 255,
+      "total": 1275.85,
+      "wr": 36.86,
+      "expectancy": 5.0
+     },
+     "jan_oct": {
+      "trades": 615,
+      "total": 72605.3,
+      "wr": 36.75,
+      "expectancy": 118.06
+     },
+     "months": {
+      "2026-01": {
+       "trades": 60,
+       "total": 15450.55
+      },
+      "2026-02": {
+       "trades": 63,
+       "total": -140.4
+      },
+      "2026-03": {
+       "trades": 57,
+       "total": 43615.45
+      },
+      "2026-04": {
+       "trades": 60,
+       "total": -13416.3
+      },
+      "2026-05": {
+       "trades": 57,
+       "total": 13959.4
+      },
+      "2026-06": {
+       "trades": 63,
+       "total": 11860.75
+      },
+      "2026-07": {
+       "trades": 69,
+       "total": -8310.0
+      },
+      "2026-08": {
+       "trades": 63,
+       "total": 6087.1
+      },
+      "2026-09": {
+       "trades": 63,
+       "total": 3934.05
+      },
+      "2026-10": {
+       "trades": 60,
+       "total": -435.3
+      }
+     },
+     "ex_top3": 49415.3,
+     "placebo_pct": 100.0,
+     "placebo_draws": {
+      "min": -50129.44,
+      "median": -23052.23,
+      "max": 11167.36
+     }
+    }
+   },
+   "november_cf": {
+    "trades": 27,
+    "total": 20662.6,
+    "wr": 55.56,
+    "expectancy": 765.28
+   },
+   "desired_bar": {
+    "per_year": {
+     "2025": {
+      "year_positive": true,
+      "jan_jun_positive": true,
+      "jul_oct_positive": false,
+      "expectancy_ge_80": false,
+      "placebo_ge_95": true,
+      "all": false
+     },
+     "2026": {
+      "year_positive": true,
+      "jan_jun_positive": true,
+      "jul_oct_positive": true,
+      "expectancy_ge_80": true,
+      "placebo_ge_95": true,
+      "all": true
+     }
+    },
+    "reached": false
+   }
+  },
+  "S3": {
+   "label": "FIRST-HOUR-ONLY (signals <= 10:30, cap 5)",
+   "years": {
+    "2025": {
+     "jan_jun": {
+      "trades": 610,
+      "total": 63471.63,
+      "wr": 35.57,
+      "expectancy": 104.05
+     },
+     "jul_oct": {
+      "trades": 420,
+      "total": -787.06,
+      "wr": 35.48,
+      "expectancy": -1.87
+     },
+     "jan_oct": {
+      "trades": 1030,
+      "total": 62684.57,
+      "wr": 35.53,
+      "expectancy": 60.86
+     },
+     "months": {
+      "2025-01": {
+       "trades": 110,
+       "total": 26544.36
+      },
+      "2025-02": {
+       "trades": 100,
+       "total": 57.41
+      },
+      "2025-03": {
+       "trades": 95,
+       "total": -574.12
+      },
+      "2025-04": {
+       "trades": 95,
+       "total": 23345.86
+      },
+      "2025-05": {
+       "trades": 105,
+       "total": 19136.75
+      },
+      "2025-06": {
+       "trades": 105,
+       "total": -5038.63
+      },
+      "2025-07": {
+       "trades": 115,
+       "total": 11891.3
+      },
+      "2025-08": {
+       "trades": 95,
+       "total": 7592.82
+      },
+      "2025-09": {
+       "trades": 110,
+       "total": -7347.97
+      },
+      "2025-10": {
+       "trades": 100,
+       "total": -12923.21
+      }
+     },
+     "ex_top3": 29584.57,
+     "placebo_pct": 100.0,
+     "placebo_draws": {
+      "min": -68151.4,
+      "median": -37363.56,
+      "max": 2740.33
+     }
+    },
+    "2026": {
+     "jan_jun": {
+      "trades": 600,
+      "total": 66314.25,
+      "wr": 36.17,
+      "expectancy": 110.52
+     },
+     "jul_oct": {
+      "trades": 425,
+      "total": -2430.65,
+      "wr": 35.06,
+      "expectancy": -5.72
+     },
+     "jan_oct": {
+      "trades": 1025,
+      "total": 63883.6,
+      "wr": 35.71,
+      "expectancy": 62.33
+     },
+     "months": {
+      "2026-01": {
+       "trades": 100,
+       "total": 31421.02
+      },
+      "2026-02": {
+       "trades": 105,
+       "total": -10400.0
+      },
+      "2026-03": {
+       "trades": 95,
+       "total": 44589.25
+      },
+      "2026-04": {
+       "trades": 100,
+       "total": -20326.4
+      },
+      "2026-05": {
+       "trades": 95,
+       "total": 6735.3
+      },
+      "2026-06": {
+       "trades": 105,
+       "total": 14295.08
+      },
+      "2026-07": {
+       "trades": 115,
+       "total": -17194.6
+      },
+      "2026-08": {
+       "trades": 105,
+       "total": 7901.85
+      },
+      "2026-09": {
+       "trades": 105,
+       "total": 4887.25
+      },
+      "2026-10": {
+       "trades": 100,
+       "total": 1974.85
+      }
+     },
+     "ex_top3": 39713.6,
+     "placebo_pct": 100.0,
+     "placebo_draws": {
+      "min": -72880.34,
+      "median": -36662.1,
+      "max": 9800.95
+     }
+    }
+   },
+   "november_cf": {
+    "trades": 45,
+    "total": 24528.65,
+    "wr": 48.89,
+    "expectancy": 545.08
+   },
+   "desired_bar": {
+    "per_year": {
+     "2025": {
+      "year_positive": true,
+      "jan_jun_positive": true,
+      "jul_oct_positive": false,
+      "expectancy_ge_80": false,
+      "placebo_ge_95": true,
+      "all": false
+     },
+     "2026": {
+      "year_positive": true,
+      "jan_jun_positive": true,
+      "jul_oct_positive": false,
+      "expectancy_ge_80": false,
+      "placebo_ge_95": true,
+      "all": false
+     }
+    },
+    "reached": false
+   }
+  }
+ },
+ "best_row": "S3",
+ "desired_bar_any_reached": false
+}

@@ -1,0 +1,248 @@
+{
+ "legacy_total": 83650.5,
+ "legacy_legs": 99,
+ "skill_stream_legs": 70,
+ "skill_stream_total": 3596.0,
+ "volrix_stream_legs": 13,
+ "volrix_stream_total": 2840.0,
+ "increment_legs": 28,
+ "increment_total": -23983.0,
+ "increment_by_stream": {
+  "SKILL": [
+   -16903.0,
+   19
+  ],
+  "VOLRIX": [
+   -1920.0,
+   6
+  ],
+  "SKILL+VOLRIX": [
+   -5160.0,
+   3
+  ]
+ },
+ "dropped_overlap_legs": 48,
+ "dropped_overlap_total": 25659.0,
+ "assembly_legs": 127,
+ "assembly_total": 59667.5,
+ "asm_months": {
+  "2026-01": 19308.0,
+  "2026-02": 22697.0,
+  "2026-03": 1880.0,
+  "2026-04": -1050.0,
+  "2026-05": 17680.0,
+  "2026-06": -6320.0,
+  "2026-07": -10560.0,
+  "2026-08": -6993.5,
+  "2026-09": 5616.5,
+  "2026-10": 17409.5
+ },
+ "legacy_months": {
+  "2026-01": 22748.0,
+  "2026-02": 20480.0,
+  "2026-03": 1120.0,
+  "2026-04": -90.0,
+  "2026-05": 17680.0,
+  "2026-06": 560.0,
+  "2026-07": -3680.0,
+  "2026-08": -873.5,
+  "2026-09": 10776.5,
+  "2026-10": 14929.5
+ },
+ "halves": [
+  60515.0,
+  -847.5
+ ],
+ "ex_top3": 30627.5,
+ "top3": [
+  9680.0,
+  9680.0,
+  9680.0
+ ],
+ "red_months": [
+  "2026-04",
+  "2026-06",
+  "2026-07",
+  "2026-08"
+ ],
+ "best_month": [
+  "2026-02",
+  22697.0
+ ],
+ "worst_month": [
+  "2026-07",
+  -10560.0
+ ],
+ "best_month_share_pct": 38.0,
+ "placebo_random_subset": {
+  "k": 28,
+  "p50": 5459.0,
+  "p90": 17036.0,
+  "increment_pct_rank": 0.1
+ },
+ "trading_days_janoct": 205,
+ "avg_per_day": 291.06,
+ "legacy_avg_per_day": 408.05,
+ "days_ge2000": 44,
+ "days_in_zone": 29,
+ "days_gt3000": 15,
+ "pos_days": 54,
+ "delay1_days_ge2000": 41,
+ "nov_legacy_total": -1920.0,
+ "nov_skill_total": -1160.0,
+ "nov_overlap": [
+  {
+   "date": "2026-11-02",
+   "stream": "SKILL",
+   "direction": "PE",
+   "entry_time": "10:20",
+   "strike": "54800",
+   "entry_premium": "681.95",
+   "exit_time": "10:25",
+   "exit_premium": "631.95",
+   "exit_reason": "stop",
+   "net_inr": -1720.0,
+   "legacy_entry_time": "10:20",
+   "legacy_source": "Skill V3"
+  },
+  {
+   "date": "2026-11-03",
+   "stream": "SKILL",
+   "direction": "CE",
+   "entry_time": "10:00",
+   "strike": "55500",
+   "entry_premium": "841.85",
+   "exit_time": "11:30",
+   "exit_premium": "791.85",
+   "exit_reason": "stop",
+   "net_inr": -1720.0,
+   "legacy_entry_time": "10:20",
+   "legacy_source": "NS1"
+  },
+  {
+   "date": "2026-11-04",
+   "stream": "SKILL",
+   "direction": "CE",
+   "entry_time": "09:35",
+   "strike": "55800",
+   "entry_premium": "788.00",
+   "exit_time": "09:35",
+   "exit_premium": "738.00",
+   "exit_reason": "stop",
+   "net_inr": -1720.0,
+   "legacy_entry_time": "13:40",
+   "legacy_source": "NS1"
+  },
+  {
+   "date": "2026-11-09",
+   "stream": "SKILL",
+   "direction": "PE",
+   "entry_time": "10:45",
+   "strike": "58900",
+   "entry_premium": "815.40",
+   "exit_time": "10:45",
+   "exit_premium": "765.40",
+   "exit_reason": "stop",
+   "net_inr": -1720.0,
+   "legacy_entry_time": "10:45",
+   "legacy_source": "Skill V3"
+  },
+  {
+   "date": "2026-11-11",
+   "stream": "SKILL",
+   "direction": "CE",
+   "entry_time": "09:40",
+   "strike": "60700",
+   "entry_premium": "738.90",
+   "exit_time": "10:25",
+   "exit_premium": "828.90",
+   "exit_reason": "target",
+   "net_inr": 2480.0,
+   "legacy_entry_time": "14:00",
+   "legacy_source": "NS1"
+  },
+  {
+   "date": "2026-11-12",
+   "stream": "SKILL",
+   "direction": "CE",
+   "entry_time": "09:35",
+   "strike": "61300",
+   "entry_premium": "723.40",
+   "exit_time": "10:10",
+   "exit_premium": "673.40",
+   "exit_reason": "stop",
+   "net_inr": -1720.0,
+   "legacy_entry_time": "12:45",
+   "legacy_source": "NS1"
+  }
+ ],
+ "nov_assembly_total": 3040.0,
+ "nov_series": [
+  [
+   "2026-11-02",
+   -1720.0
+  ],
+  [
+   "2026-11-03",
+   -1720.0
+  ],
+  [
+   "2026-11-04",
+   -1720.0
+  ],
+  [
+   "2026-11-05",
+   2480.0
+  ],
+  [
+   "2026-11-06",
+   2480.0
+  ],
+  [
+   "2026-11-09",
+   -1720.0
+  ],
+  [
+   "2026-11-11",
+   2480.0
+  ],
+  [
+   "2026-11-12",
+   2480.0
+  ],
+  [
+   "2026-11-13",
+   0.0
+  ]
+ ],
+ "volrix_nov_scan": [
+  {
+   "entry_day": "2026-11-02",
+   "prev_day": "2026-10-30",
+   "prev_day_change_pct": -0.41,
+   "cooldown_left_at_open": 5,
+   "fired": false
+  },
+  {
+   "entry_day": "2026-11-03",
+   "prev_day": "2026-11-02",
+   "prev_day_change_pct": 0.58,
+   "cooldown_left_at_open": 4,
+   "fired": false
+  },
+  {
+   "entry_day": "2026-11-11",
+   "prev_day": "2026-11-03",
+   "prev_day_change_pct": 0.98,
+   "cooldown_left_at_open": 3,
+   "fired": false
+  },
+  {
+   "entry_day": "2026-11-12",
+   "prev_day": "2026-11-11",
+   "prev_day_change_pct": 9.46,
+   "cooldown_left_at_open": 2,
+   "fired": false
+  }
+ ]
+}

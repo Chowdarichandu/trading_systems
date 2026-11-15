@@ -1,0 +1,238 @@
+{
+ "2026-11-02": {
+  "candles": 77,
+  "entry_check": true,
+  "incumbent": {
+   "net": -1720.0,
+   "exit_reason": "stop",
+   "exit_time": "10:25",
+   "ft": 0,
+   "ft90": 0,
+   "entry": 681.95,
+   "exit": 631.95
+  },
+  "FC-1": {
+   "net": -1720.0,
+   "exit_reason": "stop",
+   "exit_time": "10:25",
+   "ft": 0,
+   "ft90": 0,
+   "entry": 681.95,
+   "exit": 631.95
+  },
+  "FC-2": {
+   "net": -1720.0,
+   "exit_reason": "stop",
+   "exit_time": "10:25",
+   "ft": 0,
+   "ft90": 0,
+   "entry": 681.95,
+   "exit": 631.95
+  },
+  "FC-3": {
+   "net": -1720.0,
+   "exit_reason": "stop",
+   "exit_time": "10:25",
+   "ft": 0,
+   "ft90": 0,
+   "entry": 681.95,
+   "exit": 631.95
+  },
+  "mfe_to_incumbent_exit": 13.25
+ },
+ "2026-11-03": {
+  "candles": 24,
+  "entry_check": true,
+  "incumbent": {
+   "net": -1720.0,
+   "exit_reason": "stop",
+   "exit_time": "11:10",
+   "ft": 0,
+   "ft90": 0,
+   "entry": 867.6,
+   "exit": 817.6
+  },
+  "FC-1": {
+   "net": -1720.0,
+   "exit_reason": "stop",
+   "exit_time": "11:10",
+   "ft": 0,
+   "ft90": 0,
+   "entry": 867.6,
+   "exit": 817.6
+  },
+  "FC-2": {
+   "net": -220.0,
+   "exit_reason": "lock_stop",
+   "exit_time": "10:35",
+   "ft": 0,
+   "ft90": 0,
+   "entry": 867.6,
+   "exit": 867.6
+  },
+  "FC-3": {
+   "net": -220.0,
+   "exit_reason": "lock_stop",
+   "exit_time": "10:35",
+   "ft": 0,
+   "ft90": 0,
+   "entry": 867.6,
+   "exit": 867.6
+  },
+  "mfe_to_incumbent_exit": 39.2
+ },
+ "october": [
+  {
+   "date": "2026-10-01",
+   "fam": "BASE",
+   "dir": "CE",
+   "et": "10:00",
+   "xt": "10:30",
+   "reason": "target",
+   "net": 2480.0,
+   "mfe": 94.9
+  },
+  {
+   "date": "2026-10-05",
+   "fam": "BASE",
+   "dir": "PE",
+   "et": "10:55",
+   "xt": "11:50",
+   "reason": "target",
+   "net": 2480.0,
+   "mfe": 100.55
+  },
+  {
+   "date": "2026-10-06",
+   "fam": "NS1_second",
+   "dir": "CE",
+   "et": "10:45",
+   "xt": "14:25",
+   "reason": "stop",
+   "net": -1720.0,
+   "mfe": 85.55
+  },
+  {
+   "date": "2026-10-07",
+   "fam": "BASE",
+   "dir": "PE",
+   "et": "09:40",
+   "xt": "09:40",
+   "reason": "stop",
+   "net": -1720.0,
+   "mfe": 4.1
+  },
+  {
+   "date": "2026-10-08",
+   "fam": "BASE",
+   "dir": "PE",
+   "et": "11:30",
+   "xt": "11:45",
+   "reason": "stop",
+   "net": -1720.0,
+   "mfe": 18.8
+  },
+  {
+   "date": "2026-10-12",
+   "fam": "NS1_second",
+   "dir": "PE",
+   "et": "10:50",
+   "xt": "11:05",
+   "reason": "target",
+   "net": 2480.0,
+   "mfe": 102.5
+  },
+  {
+   "date": "2026-10-13",
+   "fam": "BASE",
+   "dir": "PE",
+   "et": "10:40",
+   "xt": "11:45",
+   "reason": "target",
+   "net": 2480.0,
+   "mfe": 92.65
+  },
+  {
+   "date": "2026-10-21",
+   "fam": "BASE",
+   "dir": "PE",
+   "et": "11:20",
+   "xt": "11:35",
+   "reason": "target",
+   "net": 2480.0,
+   "mfe": 113.65
+  },
+  {
+   "date": "2026-10-23",
+   "fam": "BASE",
+   "dir": "PE",
+   "et": "09:50",
+   "xt": "10:00",
+   "reason": "target",
+   "net": 2480.0,
+   "mfe": 167.05
+  },
+  {
+   "date": "2026-10-26",
+   "fam": "BASE",
+   "dir": "CE",
+   "et": "09:20",
+   "xt": "09:55",
+   "reason": "target",
+   "net": 2480.0,
+   "mfe": 151.85
+  },
+  {
+   "date": "2026-10-26",
+   "fam": "BASE",
+   "dir": "PE",
+   "et": "10:20",
+   "xt": "10:35",
+   "reason": "target",
+   "net": 2480.0,
+   "mfe": 123.85
+  },
+  {
+   "date": "2026-10-27",
+   "fam": "NS1_second",
+   "dir": "PE",
+   "et": "13:25",
+   "xt": "14:20",
+   "reason": "target",
+   "net": 2480.0,
+   "mfe": 116.3
+  },
+  {
+   "date": "2026-10-30",
+   "fam": "BASE",
+   "dir": "PE",
+   "et": "10:35",
+   "xt": "10:55",
+   "reason": "stop",
+   "net": -1720.0,
+   "mfe": 0.45
+  },
+  {
+   "date": "2026-10-30",
+   "fam": "NS1_second",
+   "dir": "CE",
+   "et": "11:55",
+   "xt": "11:55",
+   "reason": "target",
+   "net": 2480.0,
+   "mfe": 94.0
+  }
+ ],
+ "stocks_october": {
+  "trades": 91,
+  "stops": 19,
+  "stop_drag": -10957.55,
+  "q5": 0,
+  "q5_drag": 0,
+  "q15": 2,
+  "q15_drag": -315.0,
+  "q15_by_component": {
+   "P2F": 2
+  }
+ }
+}

@@ -1,0 +1,6155 @@
+{
+ "basis": "equity cash intraday, per 100 shares PROVISIONAL, Rs40/trade, paper only",
+ "coverage": {
+  "2025": {
+   "stock_days": 5200,
+   "nc_stock_days": 25
+  },
+  "2026": {
+   "stock_days": 5125,
+   "nc_stock_days": 0
+  }
+ },
+ "nov_nc_stub_stock_days": 25,
+ "series": {
+  "T": {
+   "2025": {
+    "trades": 4254,
+    "total": -125217.24,
+    "wr": 35.71,
+    "months": {
+     "2025-01": -3576.5,
+     "2025-02": -14100.12,
+     "2025-03": -25606.13,
+     "2025-04": -8166.93,
+     "2025-05": -14169.08,
+     "2025-06": -13214.21,
+     "2025-07": -4214.37,
+     "2025-08": -8491.55,
+     "2025-09": -8464.06,
+     "2025-10": -25214.29
+    },
+    "h1": -65618.76,
+    "h2": -59598.48,
+    "ex_top3": -135752.84,
+    "red_months": 10,
+    "pace": -12521.72,
+    "placebo_pct": 83.0,
+    "verdict": "FAIL",
+    "failing_legs": [
+     "placebo 83.0 < 95th pct",
+     "halves H1 -65618.76 / H2 -59598.48 not both positive",
+     "ex-top-3 -135752.84 <= 0",
+     "pace -12521.72 < 5000.0",
+     "red months 10 > 4"
+    ],
+    "placebo_draws_summary": {
+     "min": -262833.47,
+     "median": -167137.58,
+     "max": -47610.3
+    }
+   },
+   "2026": {
+    "trades": 4274,
+    "total": -127459.09,
+    "wr": 36.1,
+    "months": {
+     "2026-01": 880.01,
+     "2026-02": -3868.43,
+     "2026-03": -30377.05,
+     "2026-04": -35960.05,
+     "2026-05": -14805.92,
+     "2026-06": -15616.88,
+     "2026-07": -14929.04,
+     "2026-08": -23347.28,
+     "2026-09": 22564.93,
+     "2026-10": -11999.38
+    },
+    "h1": -84131.44,
+    "h2": -43327.65,
+    "ex_top3": -140507.09,
+    "red_months": 8,
+    "pace": -12745.91,
+    "placebo_pct": 77.5,
+    "verdict": "FAIL",
+    "failing_legs": [
+     "placebo 77.5 < 95th pct",
+     "halves H1 -84131.44 / H2 -43327.65 not both positive",
+     "ex-top-3 -140507.09 <= 0",
+     "pace -12745.91 < 7500.0",
+     "red months 8 > 4"
+    ],
+    "placebo_draws_summary": {
+     "min": -276284.6,
+     "median": -170265.31,
+     "max": -30107.42
+    }
+   }
+  },
+  "R": {
+   "2025": {
+    "trades": 2438,
+    "total": -68420.73,
+    "wr": 37.33,
+    "months": {
+     "2025-01": 586.78,
+     "2025-02": 2591.07,
+     "2025-03": -14932.55,
+     "2025-04": -1396.47,
+     "2025-05": -9121.43,
+     "2025-06": -17323.02,
+     "2025-07": -10681.12,
+     "2025-08": 6035.26,
+     "2025-09": -22250.71,
+     "2025-10": -1928.54
+    },
+    "h1": -22272.6,
+    "h2": -46148.13,
+    "ex_top3": -78930.63,
+    "red_months": 7,
+    "pace": -6842.07,
+    "placebo_pct": 75.0,
+    "verdict": "FAIL",
+    "failing_legs": [
+     "placebo 75.0 < 95th pct",
+     "halves H1 -22272.6 / H2 -46148.13 not both positive",
+     "ex-top-3 -78930.63 <= 0",
+     "pace -6842.07 < 5000.0",
+     "red months 7 > 4"
+    ],
+    "placebo_draws_summary": {
+     "min": -177636.51,
+     "median": -92078.43,
+     "max": -1905.65
+    }
+   },
+   "2026": {
+    "trades": 2465,
+    "total": -165302.21,
+    "wr": 35.29,
+    "months": {
+     "2026-01": -29387.73,
+     "2026-02": -15929.8,
+     "2026-03": -15196.83,
+     "2026-04": -6725.33,
+     "2026-05": 8778.45,
+     "2026-06": -12835.33,
+     "2026-07": -33880.62,
+     "2026-08": -23053.65,
+     "2026-09": -30549.59,
+     "2026-10": -6521.78
+    },
+    "h1": -58461.24,
+    "h2": -106840.97,
+    "ex_top3": -178080.11,
+    "red_months": 9,
+    "pace": -16530.22,
+    "placebo_pct": 2.5,
+    "verdict": "FAIL",
+    "failing_legs": [
+     "placebo 2.5 < 95th pct",
+     "halves H1 -58461.24 / H2 -106840.97 not both positive",
+     "ex-top-3 -178080.11 <= 0",
+     "pace -16530.22 < 7500.0",
+     "red months 9 > 4"
+    ],
+    "placebo_draws_summary": {
+     "min": -184723.88,
+     "median": -91202.22,
+     "max": -2610.7
+    }
+   }
+  },
+  "COMBINED": {
+   "2025": {
+    "trades": 6692,
+    "total": -193637.97,
+    "wr": 36.3,
+    "months": {
+     "2025-01": -2989.72,
+     "2025-02": -11509.05,
+     "2025-03": -40538.68,
+     "2025-04": -9563.4,
+     "2025-05": -23290.51,
+     "2025-06": -30537.23,
+     "2025-07": -14895.49,
+     "2025-08": -2456.29,
+     "2025-09": -30714.77,
+     "2025-10": -27142.83
+    },
+    "h1": -87891.36,
+    "h2": -105746.61,
+    "ex_top3": -204227.57,
+    "red_months": 10,
+    "pace": -19363.8,
+    "placebo_pct": 93.5,
+    "verdict": "FAIL",
+    "failing_legs": [
+     "placebo 93.5 < 95th pct",
+     "halves H1 -87891.36 / H2 -105746.61 not both positive",
+     "ex-top-3 -204227.57 <= 0",
+     "pace -19363.8 < 5000.0",
+     "red months 10 > 4"
+    ],
+    "placebo_draws_summary": {
+     "min": -378256.58,
+     "median": -257224.84,
+     "max": -119139.63
+    }
+   },
+   "2026": {
+    "trades": 6739,
+    "total": -292761.31,
+    "wr": 35.81,
+    "months": {
+     "2026-01": -28507.72,
+     "2026-02": -19798.23,
+     "2026-03": -45573.88,
+     "2026-04": -42685.38,
+     "2026-05": -6027.47,
+     "2026-06": -28452.21,
+     "2026-07": -48809.66,
+     "2026-08": -46400.93,
+     "2026-09": -7984.66,
+     "2026-10": -18521.17
+    },
+    "h1": -142592.68,
+    "h2": -150168.63,
+    "ex_top3": -305861.91,
+    "red_months": 10,
+    "pace": -29276.13,
+    "placebo_pct": 26.5,
+    "verdict": "FAIL",
+    "failing_legs": [
+     "placebo 26.5 < 95th pct",
+     "halves H1 -142592.68 / H2 -150168.63 not both positive",
+     "ex-top-3 -305861.91 <= 0",
+     "pace -29276.13 < 7500.0",
+     "red months 10 > 4"
+    ],
+    "placebo_draws_summary": {
+     "min": -382669.98,
+     "median": -252100.29,
+     "max": -93128.07
+    }
+   }
+  }
+ },
+ "november_cf": {
+  "T": {
+   "trades": 184,
+   "total": -12625.28,
+   "wr": 38.59,
+   "by_day": {
+    "2026-11-02": -931.27,
+    "2026-11-03": 4794.13,
+    "2026-11-04": -4636.15,
+    "2026-11-05": -1971.85,
+    "2026-11-06": -1523.84,
+    "2026-11-09": -4926.83,
+    "2026-11-11": 3971.3,
+    "2026-11-12": 582.65,
+    "2026-11-13": -7983.41
+   },
+   "trade_list": [
+    {
+     "sym": "ASTRAL",
+     "date": "2026-11-02",
+     "side": -1,
+     "signal_stamp": "13:05",
+     "entry_stamp": "13:10",
+     "entry": 1353.6,
+     "exit": 1353.0,
+     "net": 19.999999999990905
+    },
+    {
+     "sym": "ASTRAL",
+     "date": "2026-11-03",
+     "side": 1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 1363.7,
+     "exit": 1377.337,
+     "net": 1323.6999999999944
+    },
+    {
+     "sym": "ASTRAL",
+     "date": "2026-11-05",
+     "side": -1,
+     "signal_stamp": "09:20",
+     "entry_stamp": "09:25",
+     "entry": 1406.5,
+     "exit": 1413.5324999999998,
+     "net": -743.24999999998
+    },
+    {
+     "sym": "ASTRAL",
+     "date": "2026-11-06",
+     "side": 1,
+     "signal_stamp": "13:20",
+     "entry_stamp": "13:25",
+     "entry": 1250.5,
+     "exit": 1244.2475,
+     "net": -665.2500000000055
+    },
+    {
+     "sym": "ASTRAL",
+     "date": "2026-11-09",
+     "side": -1,
+     "signal_stamp": "14:00",
+     "entry_stamp": "14:05",
+     "entry": 1276.3,
+     "exit": 1282.6815,
+     "net": -678.149999999996
+    },
+    {
+     "sym": "ASTRAL",
+     "date": "2026-11-12",
+     "side": -1,
+     "signal_stamp": "11:30",
+     "entry_stamp": "11:35",
+     "entry": 1282.4,
+     "exit": 1274.5,
+     "net": 750.0000000000091
+    },
+    {
+     "sym": "ASTRAL",
+     "date": "2026-11-13",
+     "side": 1,
+     "signal_stamp": "10:05",
+     "entry_stamp": "10:10",
+     "entry": 1276.2,
+     "exit": 1269.819,
+     "net": -678.1000000000085
+    },
+    {
+     "sym": "BDL",
+     "date": "2026-11-02",
+     "side": 1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 993.9,
+     "exit": 988.9304999999999,
+     "net": -536.9500000000039
+    },
+    {
+     "sym": "BDL",
+     "date": "2026-11-03",
+     "side": 1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 999.8,
+     "exit": 1009.798,
+     "net": 959.8000000000047
+    },
+    {
+     "sym": "BDL",
+     "date": "2026-11-04",
+     "side": 1,
+     "signal_stamp": "09:25",
+     "entry_stamp": "09:30",
+     "entry": 1025.65,
+     "exit": 1035.9065,
+     "net": 985.649999999996
+    },
+    {
+     "sym": "BDL",
+     "date": "2026-11-05",
+     "side": -1,
+     "signal_stamp": "10:30",
+     "entry_stamp": "10:35",
+     "entry": 1070.7,
+     "exit": 1076.0535,
+     "net": -575.349999999994
+    },
+    {
+     "sym": "BDL",
+     "date": "2026-11-06",
+     "side": -1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 1047.4,
+     "exit": 1052.637,
+     "net": -563.6999999999853
+    },
+    {
+     "sym": "BDL",
+     "date": "2026-11-09",
+     "side": -1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 1059.2,
+     "exit": 1064.4959999999999,
+     "net": -569.5999999999822
+    },
+    {
+     "sym": "BDL",
+     "date": "2026-11-11",
+     "side": -1,
+     "signal_stamp": "12:30",
+     "entry_stamp": "12:35",
+     "entry": 1116.1,
+     "exit": 1104.9389999999999,
+     "net": 1076.1000000000058
+    },
+    {
+     "sym": "BDL",
+     "date": "2026-11-12",
+     "side": 1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 1108.9,
+     "exit": 1119.989,
+     "net": 1068.8999999999942
+    },
+    {
+     "sym": "GLENMARK",
+     "date": "2026-11-02",
+     "side": 1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 2338.4,
+     "exit": 2361.784,
+     "net": 2298.4000000000015
+    },
+    {
+     "sym": "GLENMARK",
+     "date": "2026-11-03",
+     "side": -1,
+     "signal_stamp": "11:05",
+     "entry_stamp": "11:10",
+     "entry": 2371.0,
+     "exit": 2382.8549999999996,
+     "net": -1225.4999999999563
+    },
+    {
+     "sym": "GLENMARK",
+     "date": "2026-11-05",
+     "side": -1,
+     "signal_stamp": "11:25",
+     "entry_stamp": "11:30",
+     "entry": 2486.2,
+     "exit": 2498.6309999999994,
+     "net": -1283.0999999999585
+    },
+    {
+     "sym": "GLENMARK",
+     "date": "2026-11-06",
+     "side": 1,
+     "signal_stamp": "09:30",
+     "entry_stamp": "09:35",
+     "entry": 2486.6,
+     "exit": 2511.466,
+     "net": 2446.5999999999985
+    },
+    {
+     "sym": "GLENMARK",
+     "date": "2026-11-09",
+     "side": 1,
+     "signal_stamp": "09:25",
+     "entry_stamp": "09:30",
+     "entry": 2637.5,
+     "exit": 2663.875,
+     "net": 2597.5
+    },
+    {
+     "sym": "GLENMARK",
+     "date": "2026-11-11",
+     "side": -1,
+     "signal_stamp": "09:20",
+     "entry_stamp": "09:25",
+     "entry": 2660.3,
+     "exit": 2673.6014999999998,
+     "net": -1370.1499999999578
+    },
+    {
+     "sym": "GLENMARK",
+     "date": "2026-11-12",
+     "side": -1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 2659.6,
+     "exit": 2672.8979999999997,
+     "net": -1369.7999999999774
+    },
+    {
+     "sym": "GLENMARK",
+     "date": "2026-11-13",
+     "side": -1,
+     "signal_stamp": "11:00",
+     "entry_stamp": "11:05",
+     "entry": 2640.2,
+     "exit": 2653.4009999999994,
+     "net": -1360.0999999999567
+    },
+    {
+     "sym": "GODREJCP",
+     "date": "2026-11-02",
+     "side": -1,
+     "signal_stamp": "13:05",
+     "entry_stamp": "13:10",
+     "entry": 809.65,
+     "exit": 813.6982499999999,
+     "net": -444.8249999999939
+    },
+    {
+     "sym": "GODREJCP",
+     "date": "2026-11-03",
+     "side": -1,
+     "signal_stamp": "11:00",
+     "entry_stamp": "11:05",
+     "entry": 827.5,
+     "exit": 829.95,
+     "net": -285.00000000000455
+    },
+    {
+     "sym": "GODREJCP",
+     "date": "2026-11-04",
+     "side": -1,
+     "signal_stamp": "15:00",
+     "entry_stamp": "15:05",
+     "entry": 843.5,
+     "exit": 847.7174999999999,
+     "net": -461.7499999999859
+    },
+    {
+     "sym": "GODREJCP",
+     "date": "2026-11-06",
+     "side": 1,
+     "signal_stamp": "13:55",
+     "entry_stamp": "14:00",
+     "entry": 849.0,
+     "exit": 851.75,
+     "net": 235.0
+    },
+    {
+     "sym": "GODREJCP",
+     "date": "2026-11-09",
+     "side": -1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 838.0,
+     "exit": 842.1899999999999,
+     "net": -458.9999999999941
+    },
+    {
+     "sym": "GODREJCP",
+     "date": "2026-11-12",
+     "side": -1,
+     "signal_stamp": "12:00",
+     "entry_stamp": "12:05",
+     "entry": 877.5,
+     "exit": 874.6,
+     "net": 249.99999999999773
+    },
+    {
+     "sym": "GODREJCP",
+     "date": "2026-11-13",
+     "side": -1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 866.1,
+     "exit": 870.4304999999999,
+     "net": -473.04999999999154
+    },
+    {
+     "sym": "HDFCBANK",
+     "date": "2026-11-02",
+     "side": 1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 694.4,
+     "exit": 690.928,
+     "net": -387.199999999998
+    },
+    {
+     "sym": "HDFCBANK",
+     "date": "2026-11-04",
+     "side": -1,
+     "signal_stamp": "12:15",
+     "entry_stamp": "12:20",
+     "entry": 728.65,
+     "exit": 732.29325,
+     "net": -404.32499999999663
+    },
+    {
+     "sym": "HDFCBANK",
+     "date": "2026-11-09",
+     "side": -1,
+     "signal_stamp": "13:20",
+     "entry_stamp": "13:25",
+     "entry": 790.7,
+     "exit": 794.6535,
+     "net": -435.34999999999627
+    },
+    {
+     "sym": "HDFCBANK",
+     "date": "2026-11-11",
+     "side": -1,
+     "signal_stamp": "12:10",
+     "entry_stamp": "12:15",
+     "entry": 812.1,
+     "exit": 803.979,
+     "net": 772.0999999999981
+    },
+    {
+     "sym": "HDFCBANK",
+     "date": "2026-11-12",
+     "side": 1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 808.75,
+     "exit": 811.6,
+     "net": 245.00000000000227
+    },
+    {
+     "sym": "HDFCBANK",
+     "date": "2026-11-13",
+     "side": 1,
+     "signal_stamp": "14:40",
+     "entry_stamp": "14:45",
+     "entry": 802.4,
+     "exit": 803.0,
+     "net": 20.000000000002274
+    },
+    {
+     "sym": "HINDALCO",
+     "date": "2026-11-02",
+     "side": 1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 895.5,
+     "exit": 904.455,
+     "net": 855.5000000000041
+    },
+    {
+     "sym": "HINDALCO",
+     "date": "2026-11-03",
+     "side": -1,
+     "signal_stamp": "12:50",
+     "entry_stamp": "12:55",
+     "entry": 905.0,
+     "exit": 909.5249999999999,
+     "net": -492.49999999998636
+    },
+    {
+     "sym": "HINDALCO",
+     "date": "2026-11-04",
+     "side": -1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 906.0,
+     "exit": 910.5299999999999,
+     "net": -492.9999999999859
+    },
+    {
+     "sym": "HINDALCO",
+     "date": "2026-11-06",
+     "side": 1,
+     "signal_stamp": "11:00",
+     "entry_stamp": "11:05",
+     "entry": 923.85,
+     "exit": 919.2307500000001,
+     "net": -501.92499999999654
+    },
+    {
+     "sym": "HINDALCO",
+     "date": "2026-11-09",
+     "side": 1,
+     "signal_stamp": "11:25",
+     "entry_stamp": "11:30",
+     "entry": 952.75,
+     "exit": 962.2775,
+     "net": 912.7500000000032
+    },
+    {
+     "sym": "HINDALCO",
+     "date": "2026-11-11",
+     "side": 1,
+     "signal_stamp": "11:40",
+     "entry_stamp": "11:45",
+     "entry": 963.5,
+     "exit": 958.6825,
+     "net": -521.7499999999995
+    },
+    {
+     "sym": "HINDALCO",
+     "date": "2026-11-12",
+     "side": -1,
+     "signal_stamp": "15:00",
+     "entry_stamp": "15:05",
+     "entry": 962.5,
+     "exit": 964.3,
+     "net": -219.99999999999545
+    },
+    {
+     "sym": "HINDALCO",
+     "date": "2026-11-13",
+     "side": -1,
+     "signal_stamp": "13:45",
+     "entry_stamp": "13:50",
+     "entry": 944.0,
+     "exit": 946.0,
+     "net": -240.0
+    },
+    {
+     "sym": "HINDCOPPER",
+     "date": "2026-11-02",
+     "side": 1,
+     "signal_stamp": "09:25",
+     "entry_stamp": "09:30",
+     "entry": 402.55,
+     "exit": 406.57550000000003,
+     "net": 362.5500000000022
+    },
+    {
+     "sym": "HINDCOPPER",
+     "date": "2026-11-03",
+     "side": -1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 405.8,
+     "exit": 407.82899999999995,
+     "net": -242.89999999999395
+    },
+    {
+     "sym": "HINDCOPPER",
+     "date": "2026-11-04",
+     "side": 1,
+     "signal_stamp": "09:40",
+     "entry_stamp": "09:45",
+     "entry": 402.35,
+     "exit": 406.37350000000004,
+     "net": 362.3500000000013
+    },
+    {
+     "sym": "HINDCOPPER",
+     "date": "2026-11-05",
+     "side": -1,
+     "signal_stamp": "12:30",
+     "entry_stamp": "12:35",
+     "entry": 427.95,
+     "exit": 430.0897499999999,
+     "net": -253.97499999999354
+    },
+    {
+     "sym": "HINDCOPPER",
+     "date": "2026-11-06",
+     "side": 1,
+     "signal_stamp": "13:55",
+     "entry_stamp": "14:00",
+     "entry": 417.0,
+     "exit": 421.17,
+     "net": 377.0000000000016
+    },
+    {
+     "sym": "HINDCOPPER",
+     "date": "2026-11-09",
+     "side": -1,
+     "signal_stamp": "09:30",
+     "entry_stamp": "09:35",
+     "entry": 428.7,
+     "exit": 430.84349999999995,
+     "net": -254.34999999999604
+    },
+    {
+     "sym": "HINDCOPPER",
+     "date": "2026-11-11",
+     "side": -1,
+     "signal_stamp": "13:30",
+     "entry_stamp": "13:35",
+     "entry": 438.15,
+     "exit": 436.4,
+     "net": 135.0
+    },
+    {
+     "sym": "HINDCOPPER",
+     "date": "2026-11-12",
+     "side": -1,
+     "signal_stamp": "14:55",
+     "entry_stamp": "15:00",
+     "entry": 447.55,
+     "exit": 447.75,
+     "net": -59.99999999999886
+    },
+    {
+     "sym": "HINDUNILVR",
+     "date": "2026-11-02",
+     "side": -1,
+     "signal_stamp": "11:55",
+     "entry_stamp": "12:00",
+     "entry": 1888.2,
+     "exit": 1889.0,
+     "net": -119.99999999999545
+    },
+    {
+     "sym": "HINDUNILVR",
+     "date": "2026-11-04",
+     "side": -1,
+     "signal_stamp": "11:00",
+     "entry_stamp": "11:05",
+     "entry": 1946.7,
+     "exit": 1956.4334999999999,
+     "net": -1013.3499999999822
+    },
+    {
+     "sym": "HINDUNILVR",
+     "date": "2026-11-05",
+     "side": -1,
+     "signal_stamp": "13:00",
+     "entry_stamp": "13:05",
+     "entry": 1982.5,
+     "exit": 1979.0,
+     "net": 310.0
+    },
+    {
+     "sym": "HINDUNILVR",
+     "date": "2026-11-06",
+     "side": 1,
+     "signal_stamp": "11:45",
+     "entry_stamp": "11:50",
+     "entry": 1981.3,
+     "exit": 1971.3935,
+     "net": -1030.650000000005
+    },
+    {
+     "sym": "HINDUNILVR",
+     "date": "2026-11-09",
+     "side": -1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 1989.6,
+     "exit": 1999.5479999999998,
+     "net": -1034.7999999999865
+    },
+    {
+     "sym": "HINDUNILVR",
+     "date": "2026-11-11",
+     "side": -1,
+     "signal_stamp": "13:45",
+     "entry_stamp": "13:50",
+     "entry": 2012.7,
+     "exit": 2012.0,
+     "net": 30.000000000004547
+    },
+    {
+     "sym": "HINDUNILVR",
+     "date": "2026-11-13",
+     "side": 1,
+     "signal_stamp": "10:05",
+     "entry_stamp": "10:10",
+     "entry": 1979.1,
+     "exit": 1978.0,
+     "net": -149.9999999999909
+    },
+    {
+     "sym": "HINDZINC",
+     "date": "2026-11-02",
+     "side": 1,
+     "signal_stamp": "09:45",
+     "entry_stamp": "09:50",
+     "entry": 509.75,
+     "exit": 514.8475,
+     "net": 469.7499999999968
+    },
+    {
+     "sym": "HINDZINC",
+     "date": "2026-11-03",
+     "side": -1,
+     "signal_stamp": "13:05",
+     "entry_stamp": "13:10",
+     "entry": 524.95,
+     "exit": 519.7005,
+     "net": 484.9500000000012
+    },
+    {
+     "sym": "HINDZINC",
+     "date": "2026-11-05",
+     "side": -1,
+     "signal_stamp": "15:05",
+     "entry_stamp": "15:10",
+     "entry": 569.9,
+     "exit": 569.05,
+     "net": 45.000000000002274
+    },
+    {
+     "sym": "HINDZINC",
+     "date": "2026-11-06",
+     "side": 1,
+     "signal_stamp": "12:50",
+     "entry_stamp": "12:55",
+     "entry": 565.4,
+     "exit": 567.9,
+     "net": 210.0
+    },
+    {
+     "sym": "HINDZINC",
+     "date": "2026-11-09",
+     "side": -1,
+     "signal_stamp": "12:25",
+     "entry_stamp": "12:30",
+     "entry": 572.65,
+     "exit": 575.51325,
+     "net": -326.32499999999936
+    },
+    {
+     "sym": "HINDZINC",
+     "date": "2026-11-11",
+     "side": -1,
+     "signal_stamp": "12:35",
+     "entry_stamp": "12:40",
+     "entry": 578.8,
+     "exit": 577.45,
+     "net": 94.9999999999909
+    },
+    {
+     "sym": "INDUSTOWER",
+     "date": "2026-11-02",
+     "side": 1,
+     "signal_stamp": "09:45",
+     "entry_stamp": "09:50",
+     "entry": 381.9,
+     "exit": 379.9905,
+     "net": -230.949999999998
+    },
+    {
+     "sym": "INDUSTOWER",
+     "date": "2026-11-04",
+     "side": 1,
+     "signal_stamp": "09:25",
+     "entry_stamp": "09:30",
+     "entry": 394.3,
+     "exit": 392.3285,
+     "net": -237.14999999999918
+    },
+    {
+     "sym": "INDUSTOWER",
+     "date": "2026-11-06",
+     "side": -1,
+     "signal_stamp": "09:25",
+     "entry_stamp": "09:30",
+     "entry": 381.05,
+     "exit": 382.95525,
+     "net": -230.52499999999668
+    },
+    {
+     "sym": "INDUSTOWER",
+     "date": "2026-11-09",
+     "side": -1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 378.8,
+     "exit": 380.69399999999996,
+     "net": -229.39999999999486
+    },
+    {
+     "sym": "INDUSTOWER",
+     "date": "2026-11-12",
+     "side": -1,
+     "signal_stamp": "11:05",
+     "entry_stamp": "11:10",
+     "entry": 393.45,
+     "exit": 389.5155,
+     "net": 353.4500000000014
+    },
+    {
+     "sym": "INDUSTOWER",
+     "date": "2026-11-13",
+     "side": 1,
+     "signal_stamp": "09:40",
+     "entry_stamp": "09:45",
+     "entry": 390.2,
+     "exit": 394.102,
+     "net": 350.1999999999987
+    },
+    {
+     "sym": "IRCTC",
+     "date": "2026-11-02",
+     "side": 1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 440.9,
+     "exit": 445.30899999999997,
+     "net": 400.8999999999992
+    },
+    {
+     "sym": "IRCTC",
+     "date": "2026-11-03",
+     "side": 1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 450.5,
+     "exit": 448.2475,
+     "net": -265.2499999999998
+    },
+    {
+     "sym": "IRCTC",
+     "date": "2026-11-04",
+     "side": 1,
+     "signal_stamp": "09:25",
+     "entry_stamp": "09:30",
+     "entry": 450.1,
+     "exit": 447.84950000000003,
+     "net": -265.0499999999988
+    },
+    {
+     "sym": "IRCTC",
+     "date": "2026-11-05",
+     "side": -1,
+     "signal_stamp": "12:30",
+     "entry_stamp": "12:35",
+     "entry": 456.3,
+     "exit": 458.58149999999995,
+     "net": -268.1499999999937
+    },
+    {
+     "sym": "IRCTC",
+     "date": "2026-11-06",
+     "side": 1,
+     "signal_stamp": "14:25",
+     "entry_stamp": "14:30",
+     "entry": 457.6,
+     "exit": 457.7,
+     "net": -30.00000000000341
+    },
+    {
+     "sym": "IRCTC",
+     "date": "2026-11-09",
+     "side": -1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 460.75,
+     "exit": 460.0,
+     "net": 35.0
+    },
+    {
+     "sym": "IRCTC",
+     "date": "2026-11-11",
+     "side": -1,
+     "signal_stamp": "13:30",
+     "entry_stamp": "13:35",
+     "entry": 477.15,
+     "exit": 472.3785,
+     "net": 437.1500000000003
+    },
+    {
+     "sym": "IRCTC",
+     "date": "2026-11-12",
+     "side": 1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 478.1,
+     "exit": 475.70950000000005,
+     "net": -279.04999999999745
+    },
+    {
+     "sym": "IRCTC",
+     "date": "2026-11-13",
+     "side": -1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 460.55,
+     "exit": 457.7,
+     "net": 245.00000000000227
+    },
+    {
+     "sym": "ITC",
+     "date": "2026-11-02",
+     "side": 1,
+     "signal_stamp": "09:40",
+     "entry_stamp": "09:45",
+     "entry": 268.9,
+     "exit": 267.5555,
+     "net": -174.44999999999823
+    },
+    {
+     "sym": "ITC",
+     "date": "2026-11-03",
+     "side": -1,
+     "signal_stamp": "12:55",
+     "entry_stamp": "13:00",
+     "entry": 267.55,
+     "exit": 268.88775,
+     "net": -173.77499999999714
+    },
+    {
+     "sym": "ITC",
+     "date": "2026-11-05",
+     "side": -1,
+     "signal_stamp": "10:10",
+     "entry_stamp": "10:15",
+     "entry": 278.9,
+     "exit": 278.9,
+     "net": -40.0
+    },
+    {
+     "sym": "ITC",
+     "date": "2026-11-06",
+     "side": 1,
+     "signal_stamp": "09:40",
+     "entry_stamp": "09:45",
+     "entry": 279.4,
+     "exit": 282.19399999999996,
+     "net": 239.39999999999827
+    },
+    {
+     "sym": "ITC",
+     "date": "2026-11-09",
+     "side": -1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 281.25,
+     "exit": 278.4375,
+     "net": 241.25
+    },
+    {
+     "sym": "ITC",
+     "date": "2026-11-11",
+     "side": 1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 281.75,
+     "exit": 284.5675,
+     "net": 241.74999999999955
+    },
+    {
+     "sym": "ITC",
+     "date": "2026-11-12",
+     "side": -1,
+     "signal_stamp": "12:00",
+     "entry_stamp": "12:05",
+     "entry": 285.9,
+     "exit": 284.05,
+     "net": 144.9999999999966
+    },
+    {
+     "sym": "ITC",
+     "date": "2026-11-13",
+     "side": 1,
+     "signal_stamp": "09:50",
+     "entry_stamp": "09:55",
+     "entry": 284.8,
+     "exit": 283.37600000000003,
+     "net": -182.39999999999782
+    },
+    {
+     "sym": "KALYANKJIL",
+     "date": "2026-11-02",
+     "side": 1,
+     "signal_stamp": "09:35",
+     "entry_stamp": "09:40",
+     "entry": 502.0,
+     "exit": 507.02,
+     "net": 461.9999999999982
+    },
+    {
+     "sym": "KALYANKJIL",
+     "date": "2026-11-03",
+     "side": 1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 511.85,
+     "exit": 509.29075,
+     "net": -295.925000000002
+    },
+    {
+     "sym": "KALYANKJIL",
+     "date": "2026-11-04",
+     "side": 1,
+     "signal_stamp": "09:25",
+     "entry_stamp": "09:30",
+     "entry": 513.05,
+     "exit": 510.48474999999996,
+     "net": -296.5249999999992
+    },
+    {
+     "sym": "KALYANKJIL",
+     "date": "2026-11-09",
+     "side": -1,
+     "signal_stamp": "12:30",
+     "entry_stamp": "12:35",
+     "entry": 605.95,
+     "exit": 608.97975,
+     "net": -342.9749999999922
+    },
+    {
+     "sym": "KALYANKJIL",
+     "date": "2026-11-11",
+     "side": 1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 668.4,
+     "exit": 665.058,
+     "net": -374.19999999999845
+    },
+    {
+     "sym": "KALYANKJIL",
+     "date": "2026-11-12",
+     "side": 1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 691.6,
+     "exit": 698.5160000000001,
+     "net": 651.6000000000054
+    },
+    {
+     "sym": "KALYANKJIL",
+     "date": "2026-11-13",
+     "side": -1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 688.55,
+     "exit": 691.9927499999999,
+     "net": -384.27499999999327
+    },
+    {
+     "sym": "NATIONALUM",
+     "date": "2026-11-02",
+     "side": 1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 321.0,
+     "exit": 324.21,
+     "net": 280.99999999999795
+    },
+    {
+     "sym": "NATIONALUM",
+     "date": "2026-11-03",
+     "side": -1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 324.85,
+     "exit": 326.47425,
+     "net": -202.4249999999961
+    },
+    {
+     "sym": "NATIONALUM",
+     "date": "2026-11-04",
+     "side": -1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 314.0,
+     "exit": 315.57,
+     "net": -196.99999999999932
+    },
+    {
+     "sym": "NATIONALUM",
+     "date": "2026-11-06",
+     "side": -1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 317.15,
+     "exit": 318.73574999999994,
+     "net": -198.57499999999618
+    },
+    {
+     "sym": "NATIONALUM",
+     "date": "2026-11-09",
+     "side": -1,
+     "signal_stamp": "09:25",
+     "entry_stamp": "09:30",
+     "entry": 323.8,
+     "exit": 325.419,
+     "net": -201.89999999999714
+    },
+    {
+     "sym": "NATIONALUM",
+     "date": "2026-11-11",
+     "side": 1,
+     "signal_stamp": "11:35",
+     "entry_stamp": "11:40",
+     "entry": 329.55,
+     "exit": 327.90225000000004,
+     "net": -204.77499999999736
+    },
+    {
+     "sym": "NHPC",
+     "date": "2026-11-02",
+     "side": -1,
+     "signal_stamp": "10:50",
+     "entry_stamp": "10:55",
+     "entry": 78.29,
+     "exit": 78.68145,
+     "net": -79.14499999999919
+    },
+    {
+     "sym": "NHPC",
+     "date": "2026-11-03",
+     "side": -1,
+     "signal_stamp": "11:00",
+     "entry_stamp": "11:05",
+     "entry": 78.94,
+     "exit": 79.33469999999998,
+     "net": -79.4699999999986
+    },
+    {
+     "sym": "NHPC",
+     "date": "2026-11-04",
+     "side": -1,
+     "signal_stamp": "11:00",
+     "entry_stamp": "11:05",
+     "entry": 78.94,
+     "exit": 79.33469999999998,
+     "net": -79.4699999999986
+    },
+    {
+     "sym": "NHPC",
+     "date": "2026-11-05",
+     "side": -1,
+     "signal_stamp": "09:45",
+     "entry_stamp": "09:50",
+     "entry": 79.72,
+     "exit": 78.9228,
+     "net": 39.72000000000037
+    },
+    {
+     "sym": "NHPC",
+     "date": "2026-11-06",
+     "side": 1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 82.52,
+     "exit": 82.1074,
+     "net": -81.25999999999976
+    },
+    {
+     "sym": "NHPC",
+     "date": "2026-11-09",
+     "side": 1,
+     "signal_stamp": "14:55",
+     "entry_stamp": "15:00",
+     "entry": 79.89,
+     "exit": 80.15,
+     "net": -13.999999999999488
+    },
+    {
+     "sym": "NHPC",
+     "date": "2026-11-11",
+     "side": -1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 78.77,
+     "exit": 79.16384999999998,
+     "net": -79.38499999999863
+    },
+    {
+     "sym": "NHPC",
+     "date": "2026-11-12",
+     "side": -1,
+     "signal_stamp": "14:30",
+     "entry_stamp": "14:35",
+     "entry": 76.61,
+     "exit": 76.6,
+     "net": -38.99999999999949
+    },
+    {
+     "sym": "NHPC",
+     "date": "2026-11-13",
+     "side": 1,
+     "signal_stamp": "09:45",
+     "entry_stamp": "09:50",
+     "entry": 76.99,
+     "exit": 76.60504999999999,
+     "net": -78.49500000000035
+    },
+    {
+     "sym": "NTPC",
+     "date": "2026-11-02",
+     "side": -1,
+     "signal_stamp": "11:50",
+     "entry_stamp": "11:55",
+     "entry": 322.4,
+     "exit": 324.01199999999994,
+     "net": -201.19999999999663
+    },
+    {
+     "sym": "NTPC",
+     "date": "2026-11-04",
+     "side": -1,
+     "signal_stamp": "09:20",
+     "entry_stamp": "09:25",
+     "entry": 318.8,
+     "exit": 320.394,
+     "net": -199.3999999999994
+    },
+    {
+     "sym": "NTPC",
+     "date": "2026-11-05",
+     "side": -1,
+     "signal_stamp": "09:50",
+     "entry_stamp": "09:55",
+     "entry": 320.4,
+     "exit": 317.19599999999997,
+     "net": 280.4000000000008
+    },
+    {
+     "sym": "NTPC",
+     "date": "2026-11-06",
+     "side": 1,
+     "signal_stamp": "10:15",
+     "entry_stamp": "10:20",
+     "entry": 315.15,
+     "exit": 318.3015,
+     "net": 275.14999999999986
+    },
+    {
+     "sym": "NTPC",
+     "date": "2026-11-11",
+     "side": -1,
+     "signal_stamp": "12:35",
+     "entry_stamp": "12:40",
+     "entry": 331.05,
+     "exit": 327.7395,
+     "net": 291.04999999999905
+    },
+    {
+     "sym": "OBEROIRLTY",
+     "date": "2026-11-02",
+     "side": -1,
+     "signal_stamp": "13:05",
+     "entry_stamp": "13:10",
+     "entry": 1635.0,
+     "exit": 1643.1749999999997,
+     "net": -857.4999999999727
+    },
+    {
+     "sym": "OBEROIRLTY",
+     "date": "2026-11-03",
+     "side": 1,
+     "signal_stamp": "09:20",
+     "entry_stamp": "09:25",
+     "entry": 1660.9,
+     "exit": 1677.509,
+     "net": 1620.8999999999924
+    },
+    {
+     "sym": "OBEROIRLTY",
+     "date": "2026-11-05",
+     "side": -1,
+     "signal_stamp": "10:40",
+     "entry_stamp": "10:45",
+     "entry": 1731.2,
+     "exit": 1739.8559999999998,
+     "net": -905.5999999999722
+    },
+    {
+     "sym": "OBEROIRLTY",
+     "date": "2026-11-06",
+     "side": 1,
+     "signal_stamp": "13:50",
+     "entry_stamp": "13:55",
+     "entry": 1718.5,
+     "exit": 1734.0,
+     "net": 1510.0
+    },
+    {
+     "sym": "OBEROIRLTY",
+     "date": "2026-11-09",
+     "side": -1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 1727.5,
+     "exit": 1736.1374999999998,
+     "net": -903.7499999999818
+    },
+    {
+     "sym": "OBEROIRLTY",
+     "date": "2026-11-11",
+     "side": -1,
+     "signal_stamp": "10:35",
+     "entry_stamp": "10:40",
+     "entry": 1761.7,
+     "exit": 1744.083,
+     "net": 1721.6999999999962
+    },
+    {
+     "sym": "OBEROIRLTY",
+     "date": "2026-11-12",
+     "side": 1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 1754.2,
+     "exit": 1771.742,
+     "net": 1714.1999999999916
+    },
+    {
+     "sym": "OBEROIRLTY",
+     "date": "2026-11-13",
+     "side": -1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 1794.3,
+     "exit": 1803.2714999999998,
+     "net": -937.1499999999878
+    },
+    {
+     "sym": "OIL",
+     "date": "2026-11-03",
+     "side": -1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 454.8,
+     "exit": 453.35,
+     "net": 104.99999999999886
+    },
+    {
+     "sym": "OIL",
+     "date": "2026-11-04",
+     "side": -1,
+     "signal_stamp": "09:20",
+     "entry_stamp": "09:25",
+     "entry": 452.4,
+     "exit": 454.6619999999999,
+     "net": -266.19999999999436
+    },
+    {
+     "sym": "OIL",
+     "date": "2026-11-05",
+     "side": -1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 442.45,
+     "exit": 438.02549999999997,
+     "net": 402.4500000000023
+    },
+    {
+     "sym": "OIL",
+     "date": "2026-11-06",
+     "side": -1,
+     "signal_stamp": "09:25",
+     "entry_stamp": "09:30",
+     "entry": 434.9,
+     "exit": 437.07449999999994,
+     "net": -257.44999999999663
+    },
+    {
+     "sym": "OIL",
+     "date": "2026-11-09",
+     "side": -1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 442.25,
+     "exit": 444.46124999999995,
+     "net": -261.124999999995
+    },
+    {
+     "sym": "OIL",
+     "date": "2026-11-11",
+     "side": 1,
+     "signal_stamp": "12:20",
+     "entry_stamp": "12:25",
+     "entry": 438.05,
+     "exit": 442.4305,
+     "net": 398.04999999999836
+    },
+    {
+     "sym": "OIL",
+     "date": "2026-11-12",
+     "side": -1,
+     "signal_stamp": "09:40",
+     "entry_stamp": "09:45",
+     "entry": 441.3,
+     "exit": 436.887,
+     "net": 401.3000000000011
+    },
+    {
+     "sym": "OIL",
+     "date": "2026-11-13",
+     "side": -1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 438.35,
+     "exit": 440.54175,
+     "net": -259.17499999999563
+    },
+    {
+     "sym": "PFC",
+     "date": "2026-11-02",
+     "side": 1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 318.4,
+     "exit": 316.808,
+     "net": -199.19999999999845
+    },
+    {
+     "sym": "PFC",
+     "date": "2026-11-03",
+     "side": -1,
+     "signal_stamp": "11:10",
+     "entry_stamp": "11:15",
+     "entry": 318.25,
+     "exit": 319.84124999999995,
+     "net": -199.12499999999454
+    },
+    {
+     "sym": "PFC",
+     "date": "2026-11-04",
+     "side": -1,
+     "signal_stamp": "14:05",
+     "entry_stamp": "14:10",
+     "entry": 319.45,
+     "exit": 316.2555,
+     "net": 279.4500000000005
+    },
+    {
+     "sym": "PFC",
+     "date": "2026-11-06",
+     "side": 1,
+     "signal_stamp": "10:20",
+     "entry_stamp": "10:25",
+     "entry": 330.6,
+     "exit": 328.947,
+     "net": -205.300000000002
+    },
+    {
+     "sym": "PFC",
+     "date": "2026-11-09",
+     "side": -1,
+     "signal_stamp": "09:30",
+     "entry_stamp": "09:35",
+     "entry": 328.75,
+     "exit": 330.39374999999995,
+     "net": -204.37499999999545
+    },
+    {
+     "sym": "PFC",
+     "date": "2026-11-11",
+     "side": -1,
+     "signal_stamp": "13:30",
+     "entry_stamp": "13:35",
+     "entry": 342.9,
+     "exit": 343.1,
+     "net": -60.00000000000455
+    },
+    {
+     "sym": "PFC",
+     "date": "2026-11-12",
+     "side": -1,
+     "signal_stamp": "10:25",
+     "entry_stamp": "10:30",
+     "entry": 343.25,
+     "exit": 339.8175,
+     "net": 303.25000000000045
+    },
+    {
+     "sym": "PFC",
+     "date": "2026-11-13",
+     "side": 1,
+     "signal_stamp": "09:40",
+     "entry_stamp": "09:45",
+     "entry": 339.45,
+     "exit": 337.75275,
+     "net": -209.72499999999968
+    },
+    {
+     "sym": "RECLTD",
+     "date": "2026-11-02",
+     "side": -1,
+     "signal_stamp": "13:05",
+     "entry_stamp": "13:10",
+     "entry": 286.55,
+     "exit": 286.05,
+     "net": 10.0
+    },
+    {
+     "sym": "RECLTD",
+     "date": "2026-11-03",
+     "side": -1,
+     "signal_stamp": "10:05",
+     "entry_stamp": "10:10",
+     "entry": 286.3,
+     "exit": 283.437,
+     "net": 246.29999999999995
+    },
+    {
+     "sym": "RECLTD",
+     "date": "2026-11-04",
+     "side": -1,
+     "signal_stamp": "14:05",
+     "entry_stamp": "14:10",
+     "entry": 285.6,
+     "exit": 287.028,
+     "net": -182.79999999999973
+    },
+    {
+     "sym": "RECLTD",
+     "date": "2026-11-06",
+     "side": 1,
+     "signal_stamp": "09:30",
+     "entry_stamp": "09:35",
+     "entry": 296.25,
+     "exit": 299.2125,
+     "net": 256.2499999999977
+    },
+    {
+     "sym": "RECLTD",
+     "date": "2026-11-11",
+     "side": -1,
+     "signal_stamp": "13:20",
+     "entry_stamp": "13:25",
+     "entry": 311.9,
+     "exit": 310.0,
+     "net": 149.99999999999773
+    },
+    {
+     "sym": "RECLTD",
+     "date": "2026-11-12",
+     "side": 1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 313.1,
+     "exit": 311.53450000000004,
+     "net": -196.5499999999986
+    },
+    {
+     "sym": "RECLTD",
+     "date": "2026-11-13",
+     "side": -1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 302.55,
+     "exit": 304.06275,
+     "net": -191.27499999999827
+    },
+    {
+     "sym": "TATASTEEL",
+     "date": "2026-11-02",
+     "side": 1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 173.83,
+     "exit": 175.56830000000002,
+     "net": 133.83000000000095
+    },
+    {
+     "sym": "TATASTEEL",
+     "date": "2026-11-03",
+     "side": -1,
+     "signal_stamp": "11:05",
+     "entry_stamp": "11:10",
+     "entry": 176.26,
+     "exit": 176.05,
+     "net": -19.000000000002046
+    },
+    {
+     "sym": "TATASTEEL",
+     "date": "2026-11-04",
+     "side": 1,
+     "signal_stamp": "09:35",
+     "entry_stamp": "09:40",
+     "entry": 177.06,
+     "exit": 176.1747,
+     "net": -128.5300000000001
+    },
+    {
+     "sym": "TATASTEEL",
+     "date": "2026-11-06",
+     "side": -1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 179.3,
+     "exit": 180.1965,
+     "net": -129.64999999999748
+    },
+    {
+     "sym": "TATASTEEL",
+     "date": "2026-11-09",
+     "side": -1,
+     "signal_stamp": "09:25",
+     "entry_stamp": "09:30",
+     "entry": 187.87,
+     "exit": 185.9913,
+     "net": 147.8700000000009
+    },
+    {
+     "sym": "TATASTEEL",
+     "date": "2026-11-11",
+     "side": 1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 187.14,
+     "exit": 189.01139999999998,
+     "net": 147.13999999999942
+    },
+    {
+     "sym": "TATASTEEL",
+     "date": "2026-11-12",
+     "side": 1,
+     "signal_stamp": "09:50",
+     "entry_stamp": "09:55",
+     "entry": 189.41,
+     "exit": 188.46295,
+     "net": -134.70499999999902
+    },
+    {
+     "sym": "TATASTEEL",
+     "date": "2026-11-13",
+     "side": 1,
+     "signal_stamp": "09:35",
+     "entry_stamp": "09:40",
+     "entry": 188.26,
+     "exit": 187.31869999999998,
+     "net": -134.13000000000125
+    },
+    {
+     "sym": "TVSMOTOR",
+     "date": "2026-11-02",
+     "side": -1,
+     "signal_stamp": "09:25",
+     "entry_stamp": "09:30",
+     "entry": 4205.3,
+     "exit": 4226.3265,
+     "net": -2142.649999999994
+    },
+    {
+     "sym": "TVSMOTOR",
+     "date": "2026-11-03",
+     "side": 1,
+     "signal_stamp": "09:20",
+     "entry_stamp": "09:25",
+     "entry": 4243.9,
+     "exit": 4286.339,
+     "net": 4203.900000000031
+    },
+    {
+     "sym": "TVSMOTOR",
+     "date": "2026-11-04",
+     "side": -1,
+     "signal_stamp": "12:10",
+     "entry_stamp": "12:15",
+     "entry": 4310.5,
+     "exit": 4332.0525,
+     "net": -2195.249999999978
+    },
+    {
+     "sym": "TVSMOTOR",
+     "date": "2026-11-05",
+     "side": -1,
+     "signal_stamp": "14:15",
+     "entry_stamp": "14:20",
+     "entry": 4450.9,
+     "exit": 4440.0,
+     "net": 1049.9999999999636
+    },
+    {
+     "sym": "TVSMOTOR",
+     "date": "2026-11-06",
+     "side": 1,
+     "signal_stamp": "09:40",
+     "entry_stamp": "09:45",
+     "entry": 4462.2,
+     "exit": 4439.889,
+     "net": -2271.0999999999694
+    },
+    {
+     "sym": "TVSMOTOR",
+     "date": "2026-11-09",
+     "side": -1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 4445.6,
+     "exit": 4467.8279999999995,
+     "net": -2262.7999999999156
+    },
+    {
+     "sym": "TVSMOTOR",
+     "date": "2026-11-12",
+     "side": 1,
+     "signal_stamp": "09:40",
+     "entry_stamp": "09:45",
+     "entry": 4577.6,
+     "exit": 4554.712,
+     "net": -2328.799999999992
+    },
+    {
+     "sym": "TVSMOTOR",
+     "date": "2026-11-13",
+     "side": -1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 4457.1,
+     "exit": 4479.3855,
+     "net": -2268.5499999999956
+    },
+    {
+     "sym": "UNITDSPR",
+     "date": "2026-11-02",
+     "side": 1,
+     "signal_stamp": "09:30",
+     "entry_stamp": "09:35",
+     "entry": 1346.0,
+     "exit": 1339.27,
+     "net": -713.0000000000018
+    },
+    {
+     "sym": "UNITDSPR",
+     "date": "2026-11-03",
+     "side": -1,
+     "signal_stamp": "10:55",
+     "entry_stamp": "11:00",
+     "entry": 1349.1,
+     "exit": 1355.8454999999997,
+     "net": -714.5499999999765
+    },
+    {
+     "sym": "UNITDSPR",
+     "date": "2026-11-05",
+     "side": -1,
+     "signal_stamp": "09:35",
+     "entry_stamp": "09:40",
+     "entry": 1401.1,
+     "exit": 1401.0,
+     "net": -30.000000000009095
+    },
+    {
+     "sym": "UNITDSPR",
+     "date": "2026-11-06",
+     "side": 1,
+     "signal_stamp": "09:50",
+     "entry_stamp": "09:55",
+     "entry": 1408.3,
+     "exit": 1401.2585,
+     "net": -744.1500000000042
+    },
+    {
+     "sym": "UNITDSPR",
+     "date": "2026-11-09",
+     "side": -1,
+     "signal_stamp": "13:25",
+     "entry_stamp": "13:30",
+     "entry": 1418.6,
+     "exit": 1425.6929999999998,
+     "net": -749.2999999999847
+    },
+    {
+     "sym": "UNITDSPR",
+     "date": "2026-11-11",
+     "side": -1,
+     "signal_stamp": "11:30",
+     "entry_stamp": "11:35",
+     "entry": 1435.4,
+     "exit": 1421.046,
+     "net": 1395.4000000000042
+    },
+    {
+     "sym": "UNITDSPR",
+     "date": "2026-11-12",
+     "side": 1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 1418.3,
+     "exit": 1411.2085,
+     "net": -749.1499999999996
+    },
+    {
+     "sym": "UNITDSPR",
+     "date": "2026-11-13",
+     "side": -1,
+     "signal_stamp": "09:20",
+     "entry_stamp": "09:25",
+     "entry": 1409.0,
+     "exit": 1416.0449999999998,
+     "net": -744.4999999999845
+    },
+    {
+     "sym": "VEDL",
+     "date": "2026-11-03",
+     "side": -1,
+     "signal_stamp": "11:25",
+     "entry_stamp": "11:30",
+     "entry": 245.6,
+     "exit": 244.65,
+     "net": 54.99999999999886
+    },
+    {
+     "sym": "VEDL",
+     "date": "2026-11-06",
+     "side": -1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 257.41,
+     "exit": 258.69705,
+     "net": -168.70499999999652
+    },
+    {
+     "sym": "VEDL",
+     "date": "2026-11-09",
+     "side": 1,
+     "signal_stamp": "14:15",
+     "entry_stamp": "14:20",
+     "entry": 260.34,
+     "exit": 261.25,
+     "net": 51.0000000000025
+    },
+    {
+     "sym": "VEDL",
+     "date": "2026-11-11",
+     "side": -1,
+     "signal_stamp": "11:35",
+     "entry_stamp": "11:40",
+     "entry": 261.2,
+     "exit": 262.506,
+     "net": -170.59999999999832
+    },
+    {
+     "sym": "VEDL",
+     "date": "2026-11-12",
+     "side": -1,
+     "signal_stamp": "11:00",
+     "entry_stamp": "11:05",
+     "entry": 261.41,
+     "exit": 259.6,
+     "net": 141.00000000000023
+    },
+    {
+     "sym": "VEDL",
+     "date": "2026-11-13",
+     "side": 1,
+     "signal_stamp": "10:30",
+     "entry_stamp": "10:35",
+     "entry": 260.68,
+     "exit": 259.3766,
+     "net": -170.34000000000106
+    },
+    {
+     "sym": "WIPRO",
+     "date": "2026-11-02",
+     "side": -1,
+     "signal_stamp": "09:25",
+     "entry_stamp": "09:30",
+     "entry": 196.26,
+     "exit": 197.24129999999997,
+     "net": -138.1299999999976
+    },
+    {
+     "sym": "WIPRO",
+     "date": "2026-11-03",
+     "side": -1,
+     "signal_stamp": "14:45",
+     "entry_stamp": "14:50",
+     "entry": 197.0,
+     "exit": 196.7,
+     "net": -9.999999999998863
+    },
+    {
+     "sym": "WIPRO",
+     "date": "2026-11-04",
+     "side": -1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 196.2,
+     "exit": 194.238,
+     "net": 156.1999999999989
+    },
+    {
+     "sym": "WIPRO",
+     "date": "2026-11-06",
+     "side": -1,
+     "signal_stamp": "12:45",
+     "entry_stamp": "12:50",
+     "entry": 198.45,
+     "exit": 198.0,
+     "net": 4.999999999998863
+    },
+    {
+     "sym": "WIPRO",
+     "date": "2026-11-09",
+     "side": 1,
+     "signal_stamp": "15:00",
+     "entry_stamp": "15:05",
+     "entry": 197.17,
+     "exit": 197.72,
+     "net": 15.000000000001137
+    },
+    {
+     "sym": "WIPRO",
+     "date": "2026-11-11",
+     "side": -1,
+     "signal_stamp": "09:55",
+     "entry_stamp": "10:00",
+     "entry": 196.56,
+     "exit": 197.54279999999997,
+     "net": -138.2799999999969
+    },
+    {
+     "sym": "WIPRO",
+     "date": "2026-11-12",
+     "side": 1,
+     "signal_stamp": "15:05",
+     "entry_stamp": "15:10",
+     "entry": 195.81,
+     "exit": 195.57,
+     "net": -64.00000000000091
+    },
+    {
+     "sym": "WIPRO",
+     "date": "2026-11-13",
+     "side": -1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 194.7,
+     "exit": 195.67349999999996,
+     "net": -137.3499999999973
+    }
+   ]
+  },
+  "R": {
+   "trades": 109,
+   "total": -7841.15,
+   "wr": 34.86,
+   "by_day": {
+    "2026-11-02": -3325.76,
+    "2026-11-03": -4360.09,
+    "2026-11-04": -2342.25,
+    "2026-11-05": -3513.21,
+    "2026-11-06": 2587.6,
+    "2026-11-09": -1674.78,
+    "2026-11-11": -1880.5,
+    "2026-11-12": -1526.12,
+    "2026-11-13": 8193.98
+   },
+   "trade_list": [
+    {
+     "sym": "ASTRAL",
+     "date": "2026-11-02",
+     "side": -1,
+     "signal_stamp": "09:20",
+     "entry_stamp": "09:25",
+     "entry": 1350.5,
+     "exit": 1357.2524999999998,
+     "net": -715.2499999999827
+    },
+    {
+     "sym": "ASTRAL",
+     "date": "2026-11-03",
+     "side": -1,
+     "signal_stamp": "09:20",
+     "entry_stamp": "09:25",
+     "entry": 1367.4,
+     "exit": 1374.2369999999999,
+     "net": -723.6999999999762
+    },
+    {
+     "sym": "ASTRAL",
+     "date": "2026-11-05",
+     "side": 1,
+     "signal_stamp": "09:35",
+     "entry_stamp": "09:40",
+     "entry": 1390.6,
+     "exit": 1404.5059999999999,
+     "net": 1350.599999999995
+    },
+    {
+     "sym": "ASTRAL",
+     "date": "2026-11-09",
+     "side": -1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 1271.8,
+     "exit": 1278.1589999999999,
+     "net": -675.8999999999924
+    },
+    {
+     "sym": "ASTRAL",
+     "date": "2026-11-12",
+     "side": -1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 1292.5,
+     "exit": 1298.9624999999999,
+     "net": -686.2499999999864
+    },
+    {
+     "sym": "ASTRAL",
+     "date": "2026-11-13",
+     "side": 1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 1266.2,
+     "exit": 1278.862,
+     "net": 1226.2000000000035
+    },
+    {
+     "sym": "BDL",
+     "date": "2026-11-02",
+     "side": -1,
+     "signal_stamp": "09:20",
+     "entry_stamp": "09:25",
+     "entry": 995.1,
+     "exit": 1000.0754999999999,
+     "net": -537.5499999999897
+    },
+    {
+     "sym": "BDL",
+     "date": "2026-11-03",
+     "side": -1,
+     "signal_stamp": "09:20",
+     "entry_stamp": "09:25",
+     "entry": 1009.6,
+     "exit": 1014.6479999999999,
+     "net": -544.7999999999888
+    },
+    {
+     "sym": "BDL",
+     "date": "2026-11-04",
+     "side": -1,
+     "signal_stamp": "09:30",
+     "entry_stamp": "09:35",
+     "entry": 1032.7,
+     "exit": 1037.8635,
+     "net": -556.3499999999885
+    },
+    {
+     "sym": "BDL",
+     "date": "2026-11-05",
+     "side": -1,
+     "signal_stamp": "14:30",
+     "entry_stamp": "14:35",
+     "entry": 1078.6,
+     "exit": 1074.0,
+     "net": 419.9999999999909
+    },
+    {
+     "sym": "BDL",
+     "date": "2026-11-12",
+     "side": -1,
+     "signal_stamp": "09:20",
+     "entry_stamp": "09:25",
+     "entry": 1115.3,
+     "exit": 1120.8764999999999,
+     "net": -597.6499999999896
+    },
+    {
+     "sym": "GLENMARK",
+     "date": "2026-11-02",
+     "side": -1,
+     "signal_stamp": "09:20",
+     "entry_stamp": "09:25",
+     "entry": 2366.7,
+     "exit": 2378.5334999999995,
+     "net": -1223.349999999973
+    },
+    {
+     "sym": "GLENMARK",
+     "date": "2026-11-03",
+     "side": -1,
+     "signal_stamp": "14:35",
+     "entry_stamp": "14:40",
+     "entry": 2403.7,
+     "exit": 2415.7184999999995,
+     "net": -1241.8499999999676
+    },
+    {
+     "sym": "GLENMARK",
+     "date": "2026-11-05",
+     "side": 1,
+     "signal_stamp": "11:30",
+     "entry_stamp": "11:35",
+     "entry": 2484.3,
+     "exit": 2471.8785000000003,
+     "net": -1282.1499999999924
+    },
+    {
+     "sym": "GLENMARK",
+     "date": "2026-11-11",
+     "side": 1,
+     "signal_stamp": "09:30",
+     "entry_stamp": "09:35",
+     "entry": 2647.9,
+     "exit": 2674.379,
+     "net": 2607.8999999999814
+    },
+    {
+     "sym": "GLENMARK",
+     "date": "2026-11-13",
+     "side": -1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 2677.6,
+     "exit": 2650.824,
+     "net": 2637.599999999984
+    },
+    {
+     "sym": "GODREJCP",
+     "date": "2026-11-09",
+     "side": 1,
+     "signal_stamp": "09:20",
+     "entry_stamp": "09:25",
+     "entry": 838.5,
+     "exit": 846.885,
+     "net": 798.4999999999991
+    },
+    {
+     "sym": "GODREJCP",
+     "date": "2026-11-12",
+     "side": -1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 880.8,
+     "exit": 871.992,
+     "net": 840.7999999999993
+    },
+    {
+     "sym": "HDFCBANK",
+     "date": "2026-11-02",
+     "side": -1,
+     "signal_stamp": "14:40",
+     "entry_stamp": "14:45",
+     "entry": 698.75,
+     "exit": 697.45,
+     "net": 89.99999999999545
+    },
+    {
+     "sym": "HDFCBANK",
+     "date": "2026-11-11",
+     "side": 1,
+     "signal_stamp": "14:55",
+     "entry_stamp": "15:00",
+     "entry": 802.8,
+     "exit": 802.0,
+     "net": -119.99999999999545
+    },
+    {
+     "sym": "HDFCBANK",
+     "date": "2026-11-13",
+     "side": 1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 799.85,
+     "exit": 803.0,
+     "net": 274.9999999999977
+    },
+    {
+     "sym": "HINDALCO",
+     "date": "2026-11-02",
+     "side": -1,
+     "signal_stamp": "09:25",
+     "entry_stamp": "09:30",
+     "entry": 895.7,
+     "exit": 900.1785,
+     "net": -487.849999999994
+    },
+    {
+     "sym": "HINDALCO",
+     "date": "2026-11-06",
+     "side": -1,
+     "signal_stamp": "13:45",
+     "entry_stamp": "13:50",
+     "entry": 932.15,
+     "exit": 936.8107499999999,
+     "net": -506.07499999998936
+    },
+    {
+     "sym": "HINDALCO",
+     "date": "2026-11-12",
+     "side": -1,
+     "signal_stamp": "12:50",
+     "entry_stamp": "12:55",
+     "entry": 968.15,
+     "exit": 964.3,
+     "net": 345.0000000000023
+    },
+    {
+     "sym": "HINDALCO",
+     "date": "2026-11-13",
+     "side": 1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 957.15,
+     "exit": 952.36425,
+     "net": -518.5750000000007
+    },
+    {
+     "sym": "HINDCOPPER",
+     "date": "2026-11-06",
+     "side": -1,
+     "signal_stamp": "15:00",
+     "entry_stamp": "15:05",
+     "entry": 420.6,
+     "exit": 421.4,
+     "net": -119.99999999999545
+    },
+    {
+     "sym": "HINDCOPPER",
+     "date": "2026-11-11",
+     "side": -1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 436.75,
+     "exit": 438.93375,
+     "net": -258.3749999999975
+    },
+    {
+     "sym": "HINDUNILVR",
+     "date": "2026-11-02",
+     "side": -1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 1880.3,
+     "exit": 1889.7014999999997,
+     "net": -980.1499999999714
+    },
+    {
+     "sym": "HINDUNILVR",
+     "date": "2026-11-06",
+     "side": 1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 1963.4,
+     "exit": 1983.034,
+     "net": 1923.4000000000015
+    },
+    {
+     "sym": "HINDUNILVR",
+     "date": "2026-11-11",
+     "side": -1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 2018.3,
+     "exit": 2012.0,
+     "net": 589.9999999999955
+    },
+    {
+     "sym": "HINDUNILVR",
+     "date": "2026-11-12",
+     "side": 1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 1994.9,
+     "exit": 1984.9255,
+     "net": -1037.4500000000035
+    },
+    {
+     "sym": "HINDUNILVR",
+     "date": "2026-11-13",
+     "side": -1,
+     "signal_stamp": "10:20",
+     "entry_stamp": "10:25",
+     "entry": 1984.9,
+     "exit": 1978.0,
+     "net": 650.0000000000091
+    },
+    {
+     "sym": "HINDZINC",
+     "date": "2026-11-03",
+     "side": 1,
+     "signal_stamp": "14:25",
+     "entry_stamp": "14:30",
+     "entry": 521.5,
+     "exit": 523.0,
+     "net": 110.0
+    },
+    {
+     "sym": "HINDZINC",
+     "date": "2026-11-06",
+     "side": 1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 557.75,
+     "exit": 554.96125,
+     "net": -318.875000000005
+    },
+    {
+     "sym": "HINDZINC",
+     "date": "2026-11-11",
+     "side": -1,
+     "signal_stamp": "09:20",
+     "entry_stamp": "09:25",
+     "entry": 578.4,
+     "exit": 581.2919999999999,
+     "net": -329.1999999999939
+    },
+    {
+     "sym": "INDUSTOWER",
+     "date": "2026-11-03",
+     "side": -1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 386.0,
+     "exit": 387.92999999999995,
+     "net": -232.999999999995
+    },
+    {
+     "sym": "INDUSTOWER",
+     "date": "2026-11-04",
+     "side": 1,
+     "signal_stamp": "14:55",
+     "entry_stamp": "15:00",
+     "entry": 388.0,
+     "exit": 389.6,
+     "net": 120.00000000000227
+    },
+    {
+     "sym": "INDUSTOWER",
+     "date": "2026-11-09",
+     "side": 1,
+     "signal_stamp": "09:20",
+     "entry_stamp": "09:25",
+     "entry": 378.15,
+     "exit": 381.93149999999997,
+     "net": 338.1499999999994
+    },
+    {
+     "sym": "INDUSTOWER",
+     "date": "2026-11-13",
+     "side": -1,
+     "signal_stamp": "09:50",
+     "entry_stamp": "09:55",
+     "entry": 393.3,
+     "exit": 395.26649999999995,
+     "net": -236.64999999999395
+    },
+    {
+     "sym": "IRCTC",
+     "date": "2026-11-02",
+     "side": -1,
+     "signal_stamp": "09:25",
+     "entry_stamp": "09:30",
+     "entry": 447.75,
+     "exit": 449.9887499999999,
+     "net": -263.8749999999925
+    },
+    {
+     "sym": "IRCTC",
+     "date": "2026-11-04",
+     "side": -1,
+     "signal_stamp": "09:35",
+     "entry_stamp": "09:40",
+     "entry": 451.15,
+     "exit": 453.40574999999995,
+     "net": -265.5749999999978
+    },
+    {
+     "sym": "IRCTC",
+     "date": "2026-11-06",
+     "side": 1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 454.95,
+     "exit": 459.4995,
+     "net": 414.9500000000023
+    },
+    {
+     "sym": "IRCTC",
+     "date": "2026-11-11",
+     "side": -1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 466.2,
+     "exit": 468.53099999999995,
+     "net": -273.09999999999604
+    },
+    {
+     "sym": "IRCTC",
+     "date": "2026-11-12",
+     "side": -1,
+     "signal_stamp": "09:20",
+     "entry_stamp": "09:25",
+     "entry": 480.05,
+     "exit": 475.2495,
+     "net": 440.04999999999995
+    },
+    {
+     "sym": "ITC",
+     "date": "2026-11-06",
+     "side": 1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 277.1,
+     "exit": 279.87100000000004,
+     "net": 237.1000000000015
+    },
+    {
+     "sym": "ITC",
+     "date": "2026-11-09",
+     "side": 1,
+     "signal_stamp": "09:30",
+     "entry_stamp": "09:35",
+     "entry": 280.65,
+     "exit": 279.24674999999996,
+     "net": -180.3250000000014
+    },
+    {
+     "sym": "ITC",
+     "date": "2026-11-11",
+     "side": -1,
+     "signal_stamp": "09:30",
+     "entry_stamp": "09:35",
+     "entry": 281.75,
+     "exit": 283.15875,
+     "net": -180.87499999999977
+    },
+    {
+     "sym": "ITC",
+     "date": "2026-11-12",
+     "side": -1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 287.5,
+     "exit": 288.93749999999994,
+     "net": -183.74999999999432
+    },
+    {
+     "sym": "KALYANKJIL",
+     "date": "2026-11-02",
+     "side": -1,
+     "signal_stamp": "09:45",
+     "entry_stamp": "09:50",
+     "entry": 505.5,
+     "exit": 508.0274999999999,
+     "net": -292.7499999999918
+    },
+    {
+     "sym": "KALYANKJIL",
+     "date": "2026-11-03",
+     "side": 1,
+     "signal_stamp": "13:00",
+     "entry_stamp": "13:05",
+     "entry": 508.65,
+     "exit": 506.10675,
+     "net": -294.32500000000005
+    },
+    {
+     "sym": "KALYANKJIL",
+     "date": "2026-11-11",
+     "side": 1,
+     "signal_stamp": "15:00",
+     "entry_stamp": "15:05",
+     "entry": 662.85,
+     "exit": 659.53575,
+     "net": -371.42500000000155
+    },
+    {
+     "sym": "NATIONALUM",
+     "date": "2026-11-02",
+     "side": -1,
+     "signal_stamp": "09:20",
+     "entry_stamp": "09:25",
+     "entry": 321.85,
+     "exit": 323.45925,
+     "net": -200.92499999999745
+    },
+    {
+     "sym": "NATIONALUM",
+     "date": "2026-11-06",
+     "side": -1,
+     "signal_stamp": "13:55",
+     "entry_stamp": "14:00",
+     "entry": 322.5,
+     "exit": 324.11249999999995,
+     "net": -201.24999999999545
+    },
+    {
+     "sym": "NATIONALUM",
+     "date": "2026-11-13",
+     "side": -1,
+     "signal_stamp": "15:00",
+     "entry_stamp": "15:05",
+     "entry": 327.6,
+     "exit": 329.238,
+     "net": -203.79999999999768
+    },
+    {
+     "sym": "NHPC",
+     "date": "2026-11-03",
+     "side": -1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 79.23,
+     "exit": 79.62615,
+     "net": -79.61499999999916
+    },
+    {
+     "sym": "NHPC",
+     "date": "2026-11-04",
+     "side": 1,
+     "signal_stamp": "13:05",
+     "entry_stamp": "13:10",
+     "entry": 78.36,
+     "exit": 77.9682,
+     "net": -79.18000000000035
+    },
+    {
+     "sym": "NHPC",
+     "date": "2026-11-05",
+     "side": -1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 81.39,
+     "exit": 81.79695,
+     "net": -80.69499999999948
+    },
+    {
+     "sym": "NHPC",
+     "date": "2026-11-09",
+     "side": -1,
+     "signal_stamp": "15:05",
+     "entry_stamp": "15:10",
+     "entry": 80.48,
+     "exit": 80.15,
+     "net": -7.0000000000001705
+    },
+    {
+     "sym": "NTPC",
+     "date": "2026-11-03",
+     "side": 1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 320.0,
+     "exit": 323.2,
+     "net": 279.99999999999886
+    },
+    {
+     "sym": "NTPC",
+     "date": "2026-11-04",
+     "side": -1,
+     "signal_stamp": "14:40",
+     "entry_stamp": "14:45",
+     "entry": 321.4,
+     "exit": 321.3,
+     "net": -30.00000000000341
+    },
+    {
+     "sym": "NTPC",
+     "date": "2026-11-05",
+     "side": 1,
+     "signal_stamp": "15:05",
+     "entry_stamp": "15:10",
+     "entry": 316.2,
+     "exit": 316.7,
+     "net": 10.0
+    },
+    {
+     "sym": "NTPC",
+     "date": "2026-11-06",
+     "side": -1,
+     "signal_stamp": "10:35",
+     "entry_stamp": "10:40",
+     "entry": 318.85,
+     "exit": 320.44425,
+     "net": -199.42499999999882
+    },
+    {
+     "sym": "NTPC",
+     "date": "2026-11-11",
+     "side": 1,
+     "signal_stamp": "13:35",
+     "entry_stamp": "13:40",
+     "entry": 328.7,
+     "exit": 327.05649999999997,
+     "net": -204.35000000000173
+    },
+    {
+     "sym": "NTPC",
+     "date": "2026-11-13",
+     "side": 1,
+     "signal_stamp": "11:00",
+     "entry_stamp": "11:05",
+     "entry": 320.6,
+     "exit": 318.997,
+     "net": -200.30000000000086
+    },
+    {
+     "sym": "OBEROIRLTY",
+     "date": "2026-11-02",
+     "side": 1,
+     "signal_stamp": "13:35",
+     "entry_stamp": "13:40",
+     "entry": 1628.1,
+     "exit": 1644.3809999999999,
+     "net": 1588.099999999995
+    },
+    {
+     "sym": "OBEROIRLTY",
+     "date": "2026-11-04",
+     "side": -1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 1680.5,
+     "exit": 1688.9025,
+     "net": -880.2499999999918
+    },
+    {
+     "sym": "OBEROIRLTY",
+     "date": "2026-11-05",
+     "side": -1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 1744.1,
+     "exit": 1752.8204999999998,
+     "net": -912.0499999999902
+    },
+    {
+     "sym": "OBEROIRLTY",
+     "date": "2026-11-06",
+     "side": -1,
+     "signal_stamp": "14:25",
+     "entry_stamp": "14:30",
+     "entry": 1724.0,
+     "exit": 1732.62,
+     "net": -901.9999999999891
+    },
+    {
+     "sym": "OBEROIRLTY",
+     "date": "2026-11-12",
+     "side": -1,
+     "signal_stamp": "09:25",
+     "entry_stamp": "09:30",
+     "entry": 1757.5,
+     "exit": 1766.2875,
+     "net": -918.7499999999909
+    },
+    {
+     "sym": "OIL",
+     "date": "2026-11-02",
+     "side": -1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 454.3,
+     "exit": 456.57149999999996,
+     "net": -267.14999999999463
+    },
+    {
+     "sym": "OIL",
+     "date": "2026-11-03",
+     "side": 1,
+     "signal_stamp": "09:20",
+     "entry_stamp": "09:25",
+     "entry": 453.2,
+     "exit": 453.35,
+     "net": -24.99999999999659
+    },
+    {
+     "sym": "OIL",
+     "date": "2026-11-04",
+     "side": -1,
+     "signal_stamp": "13:35",
+     "entry_stamp": "13:40",
+     "entry": 455.75,
+     "exit": 458.02874999999995,
+     "net": -267.87499999999454
+    },
+    {
+     "sym": "OIL",
+     "date": "2026-11-05",
+     "side": -1,
+     "signal_stamp": "14:15",
+     "entry_stamp": "14:20",
+     "entry": 436.35,
+     "exit": 438.53175,
+     "net": -258.17499999999654
+    },
+    {
+     "sym": "OIL",
+     "date": "2026-11-06",
+     "side": 1,
+     "signal_stamp": "14:20",
+     "entry_stamp": "14:25",
+     "entry": 436.9,
+     "exit": 441.269,
+     "net": 396.9000000000028
+    },
+    {
+     "sym": "OIL",
+     "date": "2026-11-09",
+     "side": 1,
+     "signal_stamp": "14:10",
+     "entry_stamp": "14:15",
+     "entry": 440.4,
+     "exit": 439.0,
+     "net": -179.99999999999773
+    },
+    {
+     "sym": "OIL",
+     "date": "2026-11-11",
+     "side": -1,
+     "signal_stamp": "14:30",
+     "entry_stamp": "14:35",
+     "entry": 440.75,
+     "exit": 442.95374999999996,
+     "net": -260.3749999999957
+    },
+    {
+     "sym": "OIL",
+     "date": "2026-11-12",
+     "side": 1,
+     "signal_stamp": "10:55",
+     "entry_stamp": "11:00",
+     "entry": 438.55,
+     "exit": 436.35725,
+     "net": -259.27499999999895
+    },
+    {
+     "sym": "OIL",
+     "date": "2026-11-13",
+     "side": -1,
+     "signal_stamp": "09:20",
+     "entry_stamp": "09:25",
+     "entry": 444.05,
+     "exit": 446.27025,
+     "net": -262.02499999999645
+    },
+    {
+     "sym": "PFC",
+     "date": "2026-11-03",
+     "side": -1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 319.4,
+     "exit": 316.20599999999996,
+     "net": 279.4000000000017
+    },
+    {
+     "sym": "PFC",
+     "date": "2026-11-04",
+     "side": -1,
+     "signal_stamp": "09:25",
+     "entry_stamp": "09:30",
+     "entry": 319.25,
+     "exit": 320.84624999999994,
+     "net": -199.6249999999941
+    },
+    {
+     "sym": "PFC",
+     "date": "2026-11-05",
+     "side": -1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 326.45,
+     "exit": 328.08224999999993,
+     "net": -203.22499999999422
+    },
+    {
+     "sym": "PFC",
+     "date": "2026-11-06",
+     "side": 1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 326.0,
+     "exit": 329.26,
+     "net": 285.9999999999991
+    },
+    {
+     "sym": "PFC",
+     "date": "2026-11-12",
+     "side": -1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 346.9,
+     "exit": 343.431,
+     "net": 306.8999999999994
+    },
+    {
+     "sym": "PFC",
+     "date": "2026-11-13",
+     "side": 1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 336.2,
+     "exit": 339.562,
+     "net": 296.2000000000023
+    },
+    {
+     "sym": "RECLTD",
+     "date": "2026-11-02",
+     "side": -1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 287.7,
+     "exit": 286.05,
+     "net": 124.99999999999773
+    },
+    {
+     "sym": "RECLTD",
+     "date": "2026-11-03",
+     "side": -1,
+     "signal_stamp": "09:20",
+     "entry_stamp": "09:25",
+     "entry": 288.55,
+     "exit": 285.66450000000003,
+     "net": 248.5499999999979
+    },
+    {
+     "sym": "RECLTD",
+     "date": "2026-11-04",
+     "side": -1,
+     "signal_stamp": "09:45",
+     "entry_stamp": "09:50",
+     "entry": 286.8,
+     "exit": 288.234,
+     "net": -183.3999999999969
+    },
+    {
+     "sym": "RECLTD",
+     "date": "2026-11-05",
+     "side": -1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 291.85,
+     "exit": 293.30925,
+     "net": -185.92499999999973
+    },
+    {
+     "sym": "RECLTD",
+     "date": "2026-11-06",
+     "side": 1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 293.9,
+     "exit": 296.839,
+     "net": 253.90000000000214
+    },
+    {
+     "sym": "RECLTD",
+     "date": "2026-11-13",
+     "side": -1,
+     "signal_stamp": "09:40",
+     "entry_stamp": "09:45",
+     "entry": 307.1,
+     "exit": 304.029,
+     "net": 267.10000000000264
+    },
+    {
+     "sym": "TATASTEEL",
+     "date": "2026-11-06",
+     "side": 1,
+     "signal_stamp": "09:20",
+     "entry_stamp": "09:25",
+     "entry": 178.8,
+     "exit": 180.58800000000002,
+     "net": 138.8000000000011
+    },
+    {
+     "sym": "TATASTEEL",
+     "date": "2026-11-09",
+     "side": 1,
+     "signal_stamp": "10:40",
+     "entry_stamp": "10:45",
+     "entry": 185.09,
+     "exit": 184.85,
+     "net": -64.00000000000091
+    },
+    {
+     "sym": "TATASTEEL",
+     "date": "2026-11-13",
+     "side": 1,
+     "signal_stamp": "13:40",
+     "entry_stamp": "13:45",
+     "entry": 186.12,
+     "exit": 186.99,
+     "net": 47.000000000000455
+    },
+    {
+     "sym": "TVSMOTOR",
+     "date": "2026-11-03",
+     "side": -1,
+     "signal_stamp": "09:25",
+     "entry_stamp": "09:30",
+     "entry": 4265.5,
+     "exit": 4286.827499999999,
+     "net": -2172.749999999942
+    },
+    {
+     "sym": "TVSMOTOR",
+     "date": "2026-11-05",
+     "side": -1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 4386.8,
+     "exit": 4408.7339999999995,
+     "net": -2233.3999999999287
+    },
+    {
+     "sym": "TVSMOTOR",
+     "date": "2026-11-09",
+     "side": -1,
+     "signal_stamp": "13:55",
+     "entry_stamp": "14:00",
+     "entry": 4467.9,
+     "exit": 4479.2,
+     "net": -1170.0000000000182
+    },
+    {
+     "sym": "TVSMOTOR",
+     "date": "2026-11-11",
+     "side": 1,
+     "signal_stamp": "14:40",
+     "entry_stamp": "14:45",
+     "entry": 4566.8,
+     "exit": 4543.966,
+     "net": -2323.3999999999833
+    },
+    {
+     "sym": "TVSMOTOR",
+     "date": "2026-11-13",
+     "side": 1,
+     "signal_stamp": "09:20",
+     "entry_stamp": "09:25",
+     "entry": 4442.0,
+     "exit": 4486.42,
+     "net": 4402.000000000007
+    },
+    {
+     "sym": "UNITDSPR",
+     "date": "2026-11-06",
+     "side": 1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 1393.8,
+     "exit": 1407.738,
+     "net": 1353.8000000000102
+    },
+    {
+     "sym": "UNITDSPR",
+     "date": "2026-11-09",
+     "side": -1,
+     "signal_stamp": "09:20",
+     "entry_stamp": "09:25",
+     "entry": 1425.7,
+     "exit": 1432.8284999999998,
+     "net": -752.8499999999804
+    },
+    {
+     "sym": "UNITDSPR",
+     "date": "2026-11-11",
+     "side": -1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 1434.6,
+     "exit": 1441.7729999999997,
+     "net": -757.2999999999774
+    },
+    {
+     "sym": "VEDL",
+     "date": "2026-11-02",
+     "side": -1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 240.03,
+     "exit": 241.23014999999998,
+     "net": -160.01499999999794
+    },
+    {
+     "sym": "VEDL",
+     "date": "2026-11-06",
+     "side": -1,
+     "signal_stamp": "13:55",
+     "entry_stamp": "14:00",
+     "entry": 259.25,
+     "exit": 260.54625,
+     "net": -169.62499999999864
+    },
+    {
+     "sym": "VEDL",
+     "date": "2026-11-09",
+     "side": 1,
+     "signal_stamp": "11:20",
+     "entry_stamp": "11:25",
+     "entry": 258.64,
+     "exit": 261.2264,
+     "net": 218.6400000000026
+    },
+    {
+     "sym": "VEDL",
+     "date": "2026-11-12",
+     "side": -1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 264.25,
+     "exit": 261.6075,
+     "net": 224.2499999999984
+    },
+    {
+     "sym": "VEDL",
+     "date": "2026-11-13",
+     "side": 1,
+     "signal_stamp": "13:40",
+     "entry_stamp": "13:45",
+     "entry": 257.54,
+     "exit": 256.2523,
+     "net": -168.77000000000294
+    },
+    {
+     "sym": "WIPRO",
+     "date": "2026-11-03",
+     "side": -1,
+     "signal_stamp": "09:20",
+     "entry_stamp": "09:25",
+     "entry": 197.47,
+     "exit": 196.7,
+     "net": 37.00000000000102
+    },
+    {
+     "sym": "WIPRO",
+     "date": "2026-11-05",
+     "side": -1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 196.39,
+     "exit": 197.37194999999997,
+     "net": -138.19499999999834
+    },
+    {
+     "sym": "WIPRO",
+     "date": "2026-11-13",
+     "side": 1,
+     "signal_stamp": "14:20",
+     "entry_stamp": "14:25",
+     "entry": 194.9,
+     "exit": 195.13,
+     "net": -17.000000000001023
+    }
+   ]
+  },
+  "COMBINED": {
+   "trades": 293,
+   "total": -20466.44,
+   "wr": 37.2,
+   "by_day": {
+    "2026-11-02": -4257.03,
+    "2026-11-03": 434.04,
+    "2026-11-04": -6978.4,
+    "2026-11-05": -5485.07,
+    "2026-11-06": 1063.76,
+    "2026-11-09": -6601.61,
+    "2026-11-11": 2090.8,
+    "2026-11-12": -943.48,
+    "2026-11-13": 210.57
+   },
+   "trade_list": [
+    {
+     "sym": "ASTRAL",
+     "date": "2026-11-02",
+     "side": -1,
+     "signal_stamp": "09:20",
+     "entry_stamp": "09:25",
+     "entry": 1350.5,
+     "exit": 1357.2524999999998,
+     "net": -715.2499999999827
+    },
+    {
+     "sym": "ASTRAL",
+     "date": "2026-11-02",
+     "side": -1,
+     "signal_stamp": "13:05",
+     "entry_stamp": "13:10",
+     "entry": 1353.6,
+     "exit": 1353.0,
+     "net": 19.999999999990905
+    },
+    {
+     "sym": "ASTRAL",
+     "date": "2026-11-03",
+     "side": 1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 1363.7,
+     "exit": 1377.337,
+     "net": 1323.6999999999944
+    },
+    {
+     "sym": "ASTRAL",
+     "date": "2026-11-03",
+     "side": -1,
+     "signal_stamp": "09:20",
+     "entry_stamp": "09:25",
+     "entry": 1367.4,
+     "exit": 1374.2369999999999,
+     "net": -723.6999999999762
+    },
+    {
+     "sym": "ASTRAL",
+     "date": "2026-11-05",
+     "side": -1,
+     "signal_stamp": "09:20",
+     "entry_stamp": "09:25",
+     "entry": 1406.5,
+     "exit": 1413.5324999999998,
+     "net": -743.24999999998
+    },
+    {
+     "sym": "ASTRAL",
+     "date": "2026-11-05",
+     "side": 1,
+     "signal_stamp": "09:35",
+     "entry_stamp": "09:40",
+     "entry": 1390.6,
+     "exit": 1404.5059999999999,
+     "net": 1350.599999999995
+    },
+    {
+     "sym": "ASTRAL",
+     "date": "2026-11-06",
+     "side": 1,
+     "signal_stamp": "13:20",
+     "entry_stamp": "13:25",
+     "entry": 1250.5,
+     "exit": 1244.2475,
+     "net": -665.2500000000055
+    },
+    {
+     "sym": "ASTRAL",
+     "date": "2026-11-09",
+     "side": -1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 1271.8,
+     "exit": 1278.1589999999999,
+     "net": -675.8999999999924
+    },
+    {
+     "sym": "ASTRAL",
+     "date": "2026-11-09",
+     "side": -1,
+     "signal_stamp": "14:00",
+     "entry_stamp": "14:05",
+     "entry": 1276.3,
+     "exit": 1282.6815,
+     "net": -678.149999999996
+    },
+    {
+     "sym": "ASTRAL",
+     "date": "2026-11-12",
+     "side": -1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 1292.5,
+     "exit": 1298.9624999999999,
+     "net": -686.2499999999864
+    },
+    {
+     "sym": "ASTRAL",
+     "date": "2026-11-12",
+     "side": -1,
+     "signal_stamp": "11:30",
+     "entry_stamp": "11:35",
+     "entry": 1282.4,
+     "exit": 1274.5,
+     "net": 750.0000000000091
+    },
+    {
+     "sym": "ASTRAL",
+     "date": "2026-11-13",
+     "side": 1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 1266.2,
+     "exit": 1278.862,
+     "net": 1226.2000000000035
+    },
+    {
+     "sym": "ASTRAL",
+     "date": "2026-11-13",
+     "side": 1,
+     "signal_stamp": "10:05",
+     "entry_stamp": "10:10",
+     "entry": 1276.2,
+     "exit": 1269.819,
+     "net": -678.1000000000085
+    },
+    {
+     "sym": "BDL",
+     "date": "2026-11-02",
+     "side": 1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 993.9,
+     "exit": 988.9304999999999,
+     "net": -536.9500000000039
+    },
+    {
+     "sym": "BDL",
+     "date": "2026-11-02",
+     "side": -1,
+     "signal_stamp": "09:20",
+     "entry_stamp": "09:25",
+     "entry": 995.1,
+     "exit": 1000.0754999999999,
+     "net": -537.5499999999897
+    },
+    {
+     "sym": "BDL",
+     "date": "2026-11-03",
+     "side": 1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 999.8,
+     "exit": 1009.798,
+     "net": 959.8000000000047
+    },
+    {
+     "sym": "BDL",
+     "date": "2026-11-03",
+     "side": -1,
+     "signal_stamp": "09:20",
+     "entry_stamp": "09:25",
+     "entry": 1009.6,
+     "exit": 1014.6479999999999,
+     "net": -544.7999999999888
+    },
+    {
+     "sym": "BDL",
+     "date": "2026-11-04",
+     "side": 1,
+     "signal_stamp": "09:25",
+     "entry_stamp": "09:30",
+     "entry": 1025.65,
+     "exit": 1035.9065,
+     "net": 985.649999999996
+    },
+    {
+     "sym": "BDL",
+     "date": "2026-11-04",
+     "side": -1,
+     "signal_stamp": "09:30",
+     "entry_stamp": "09:35",
+     "entry": 1032.7,
+     "exit": 1037.8635,
+     "net": -556.3499999999885
+    },
+    {
+     "sym": "BDL",
+     "date": "2026-11-05",
+     "side": -1,
+     "signal_stamp": "10:30",
+     "entry_stamp": "10:35",
+     "entry": 1070.7,
+     "exit": 1076.0535,
+     "net": -575.349999999994
+    },
+    {
+     "sym": "BDL",
+     "date": "2026-11-05",
+     "side": -1,
+     "signal_stamp": "14:30",
+     "entry_stamp": "14:35",
+     "entry": 1078.6,
+     "exit": 1074.0,
+     "net": 419.9999999999909
+    },
+    {
+     "sym": "BDL",
+     "date": "2026-11-06",
+     "side": -1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 1047.4,
+     "exit": 1052.637,
+     "net": -563.6999999999853
+    },
+    {
+     "sym": "BDL",
+     "date": "2026-11-09",
+     "side": -1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 1059.2,
+     "exit": 1064.4959999999999,
+     "net": -569.5999999999822
+    },
+    {
+     "sym": "BDL",
+     "date": "2026-11-11",
+     "side": -1,
+     "signal_stamp": "12:30",
+     "entry_stamp": "12:35",
+     "entry": 1116.1,
+     "exit": 1104.9389999999999,
+     "net": 1076.1000000000058
+    },
+    {
+     "sym": "BDL",
+     "date": "2026-11-12",
+     "side": 1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 1108.9,
+     "exit": 1119.989,
+     "net": 1068.8999999999942
+    },
+    {
+     "sym": "BDL",
+     "date": "2026-11-12",
+     "side": -1,
+     "signal_stamp": "09:20",
+     "entry_stamp": "09:25",
+     "entry": 1115.3,
+     "exit": 1120.8764999999999,
+     "net": -597.6499999999896
+    },
+    {
+     "sym": "GLENMARK",
+     "date": "2026-11-02",
+     "side": 1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 2338.4,
+     "exit": 2361.784,
+     "net": 2298.4000000000015
+    },
+    {
+     "sym": "GLENMARK",
+     "date": "2026-11-02",
+     "side": -1,
+     "signal_stamp": "09:20",
+     "entry_stamp": "09:25",
+     "entry": 2366.7,
+     "exit": 2378.5334999999995,
+     "net": -1223.349999999973
+    },
+    {
+     "sym": "GLENMARK",
+     "date": "2026-11-03",
+     "side": -1,
+     "signal_stamp": "11:05",
+     "entry_stamp": "11:10",
+     "entry": 2371.0,
+     "exit": 2382.8549999999996,
+     "net": -1225.4999999999563
+    },
+    {
+     "sym": "GLENMARK",
+     "date": "2026-11-03",
+     "side": -1,
+     "signal_stamp": "14:35",
+     "entry_stamp": "14:40",
+     "entry": 2403.7,
+     "exit": 2415.7184999999995,
+     "net": -1241.8499999999676
+    },
+    {
+     "sym": "GLENMARK",
+     "date": "2026-11-05",
+     "side": -1,
+     "signal_stamp": "11:25",
+     "entry_stamp": "11:30",
+     "entry": 2486.2,
+     "exit": 2498.6309999999994,
+     "net": -1283.0999999999585
+    },
+    {
+     "sym": "GLENMARK",
+     "date": "2026-11-05",
+     "side": 1,
+     "signal_stamp": "11:30",
+     "entry_stamp": "11:35",
+     "entry": 2484.3,
+     "exit": 2471.8785000000003,
+     "net": -1282.1499999999924
+    },
+    {
+     "sym": "GLENMARK",
+     "date": "2026-11-06",
+     "side": 1,
+     "signal_stamp": "09:30",
+     "entry_stamp": "09:35",
+     "entry": 2486.6,
+     "exit": 2511.466,
+     "net": 2446.5999999999985
+    },
+    {
+     "sym": "GLENMARK",
+     "date": "2026-11-09",
+     "side": 1,
+     "signal_stamp": "09:25",
+     "entry_stamp": "09:30",
+     "entry": 2637.5,
+     "exit": 2663.875,
+     "net": 2597.5
+    },
+    {
+     "sym": "GLENMARK",
+     "date": "2026-11-11",
+     "side": -1,
+     "signal_stamp": "09:20",
+     "entry_stamp": "09:25",
+     "entry": 2660.3,
+     "exit": 2673.6014999999998,
+     "net": -1370.1499999999578
+    },
+    {
+     "sym": "GLENMARK",
+     "date": "2026-11-11",
+     "side": 1,
+     "signal_stamp": "09:30",
+     "entry_stamp": "09:35",
+     "entry": 2647.9,
+     "exit": 2674.379,
+     "net": 2607.8999999999814
+    },
+    {
+     "sym": "GLENMARK",
+     "date": "2026-11-12",
+     "side": -1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 2659.6,
+     "exit": 2672.8979999999997,
+     "net": -1369.7999999999774
+    },
+    {
+     "sym": "GLENMARK",
+     "date": "2026-11-13",
+     "side": -1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 2677.6,
+     "exit": 2650.824,
+     "net": 2637.599999999984
+    },
+    {
+     "sym": "GLENMARK",
+     "date": "2026-11-13",
+     "side": -1,
+     "signal_stamp": "11:00",
+     "entry_stamp": "11:05",
+     "entry": 2640.2,
+     "exit": 2653.4009999999994,
+     "net": -1360.0999999999567
+    },
+    {
+     "sym": "GODREJCP",
+     "date": "2026-11-02",
+     "side": -1,
+     "signal_stamp": "13:05",
+     "entry_stamp": "13:10",
+     "entry": 809.65,
+     "exit": 813.6982499999999,
+     "net": -444.8249999999939
+    },
+    {
+     "sym": "GODREJCP",
+     "date": "2026-11-03",
+     "side": -1,
+     "signal_stamp": "11:00",
+     "entry_stamp": "11:05",
+     "entry": 827.5,
+     "exit": 829.95,
+     "net": -285.00000000000455
+    },
+    {
+     "sym": "GODREJCP",
+     "date": "2026-11-04",
+     "side": -1,
+     "signal_stamp": "15:00",
+     "entry_stamp": "15:05",
+     "entry": 843.5,
+     "exit": 847.7174999999999,
+     "net": -461.7499999999859
+    },
+    {
+     "sym": "GODREJCP",
+     "date": "2026-11-06",
+     "side": 1,
+     "signal_stamp": "13:55",
+     "entry_stamp": "14:00",
+     "entry": 849.0,
+     "exit": 851.75,
+     "net": 235.0
+    },
+    {
+     "sym": "GODREJCP",
+     "date": "2026-11-09",
+     "side": -1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 838.0,
+     "exit": 842.1899999999999,
+     "net": -458.9999999999941
+    },
+    {
+     "sym": "GODREJCP",
+     "date": "2026-11-09",
+     "side": 1,
+     "signal_stamp": "09:20",
+     "entry_stamp": "09:25",
+     "entry": 838.5,
+     "exit": 846.885,
+     "net": 798.4999999999991
+    },
+    {
+     "sym": "GODREJCP",
+     "date": "2026-11-12",
+     "side": -1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 880.8,
+     "exit": 871.992,
+     "net": 840.7999999999993
+    },
+    {
+     "sym": "GODREJCP",
+     "date": "2026-11-12",
+     "side": -1,
+     "signal_stamp": "12:00",
+     "entry_stamp": "12:05",
+     "entry": 877.5,
+     "exit": 874.6,
+     "net": 249.99999999999773
+    },
+    {
+     "sym": "GODREJCP",
+     "date": "2026-11-13",
+     "side": -1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 866.1,
+     "exit": 870.4304999999999,
+     "net": -473.04999999999154
+    },
+    {
+     "sym": "HDFCBANK",
+     "date": "2026-11-02",
+     "side": 1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 694.4,
+     "exit": 690.928,
+     "net": -387.199999999998
+    },
+    {
+     "sym": "HDFCBANK",
+     "date": "2026-11-02",
+     "side": -1,
+     "signal_stamp": "14:40",
+     "entry_stamp": "14:45",
+     "entry": 698.75,
+     "exit": 697.45,
+     "net": 89.99999999999545
+    },
+    {
+     "sym": "HDFCBANK",
+     "date": "2026-11-04",
+     "side": -1,
+     "signal_stamp": "12:15",
+     "entry_stamp": "12:20",
+     "entry": 728.65,
+     "exit": 732.29325,
+     "net": -404.32499999999663
+    },
+    {
+     "sym": "HDFCBANK",
+     "date": "2026-11-09",
+     "side": -1,
+     "signal_stamp": "13:20",
+     "entry_stamp": "13:25",
+     "entry": 790.7,
+     "exit": 794.6535,
+     "net": -435.34999999999627
+    },
+    {
+     "sym": "HDFCBANK",
+     "date": "2026-11-11",
+     "side": -1,
+     "signal_stamp": "12:10",
+     "entry_stamp": "12:15",
+     "entry": 812.1,
+     "exit": 803.979,
+     "net": 772.0999999999981
+    },
+    {
+     "sym": "HDFCBANK",
+     "date": "2026-11-11",
+     "side": 1,
+     "signal_stamp": "14:55",
+     "entry_stamp": "15:00",
+     "entry": 802.8,
+     "exit": 802.0,
+     "net": -119.99999999999545
+    },
+    {
+     "sym": "HDFCBANK",
+     "date": "2026-11-12",
+     "side": 1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 808.75,
+     "exit": 811.6,
+     "net": 245.00000000000227
+    },
+    {
+     "sym": "HDFCBANK",
+     "date": "2026-11-13",
+     "side": 1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 799.85,
+     "exit": 803.0,
+     "net": 274.9999999999977
+    },
+    {
+     "sym": "HDFCBANK",
+     "date": "2026-11-13",
+     "side": 1,
+     "signal_stamp": "14:40",
+     "entry_stamp": "14:45",
+     "entry": 802.4,
+     "exit": 803.0,
+     "net": 20.000000000002274
+    },
+    {
+     "sym": "HINDALCO",
+     "date": "2026-11-02",
+     "side": 1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 895.5,
+     "exit": 904.455,
+     "net": 855.5000000000041
+    },
+    {
+     "sym": "HINDALCO",
+     "date": "2026-11-02",
+     "side": -1,
+     "signal_stamp": "09:25",
+     "entry_stamp": "09:30",
+     "entry": 895.7,
+     "exit": 900.1785,
+     "net": -487.849999999994
+    },
+    {
+     "sym": "HINDALCO",
+     "date": "2026-11-03",
+     "side": -1,
+     "signal_stamp": "12:50",
+     "entry_stamp": "12:55",
+     "entry": 905.0,
+     "exit": 909.5249999999999,
+     "net": -492.49999999998636
+    },
+    {
+     "sym": "HINDALCO",
+     "date": "2026-11-04",
+     "side": -1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 906.0,
+     "exit": 910.5299999999999,
+     "net": -492.9999999999859
+    },
+    {
+     "sym": "HINDALCO",
+     "date": "2026-11-06",
+     "side": 1,
+     "signal_stamp": "11:00",
+     "entry_stamp": "11:05",
+     "entry": 923.85,
+     "exit": 919.2307500000001,
+     "net": -501.92499999999654
+    },
+    {
+     "sym": "HINDALCO",
+     "date": "2026-11-06",
+     "side": -1,
+     "signal_stamp": "13:45",
+     "entry_stamp": "13:50",
+     "entry": 932.15,
+     "exit": 936.8107499999999,
+     "net": -506.07499999998936
+    },
+    {
+     "sym": "HINDALCO",
+     "date": "2026-11-09",
+     "side": 1,
+     "signal_stamp": "11:25",
+     "entry_stamp": "11:30",
+     "entry": 952.75,
+     "exit": 962.2775,
+     "net": 912.7500000000032
+    },
+    {
+     "sym": "HINDALCO",
+     "date": "2026-11-11",
+     "side": 1,
+     "signal_stamp": "11:40",
+     "entry_stamp": "11:45",
+     "entry": 963.5,
+     "exit": 958.6825,
+     "net": -521.7499999999995
+    },
+    {
+     "sym": "HINDALCO",
+     "date": "2026-11-12",
+     "side": -1,
+     "signal_stamp": "12:50",
+     "entry_stamp": "12:55",
+     "entry": 968.15,
+     "exit": 964.3,
+     "net": 345.0000000000023
+    },
+    {
+     "sym": "HINDALCO",
+     "date": "2026-11-12",
+     "side": -1,
+     "signal_stamp": "15:00",
+     "entry_stamp": "15:05",
+     "entry": 962.5,
+     "exit": 964.3,
+     "net": -219.99999999999545
+    },
+    {
+     "sym": "HINDALCO",
+     "date": "2026-11-13",
+     "side": 1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 957.15,
+     "exit": 952.36425,
+     "net": -518.5750000000007
+    },
+    {
+     "sym": "HINDALCO",
+     "date": "2026-11-13",
+     "side": -1,
+     "signal_stamp": "13:45",
+     "entry_stamp": "13:50",
+     "entry": 944.0,
+     "exit": 946.0,
+     "net": -240.0
+    },
+    {
+     "sym": "HINDCOPPER",
+     "date": "2026-11-02",
+     "side": 1,
+     "signal_stamp": "09:25",
+     "entry_stamp": "09:30",
+     "entry": 402.55,
+     "exit": 406.57550000000003,
+     "net": 362.5500000000022
+    },
+    {
+     "sym": "HINDCOPPER",
+     "date": "2026-11-03",
+     "side": -1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 405.8,
+     "exit": 407.82899999999995,
+     "net": -242.89999999999395
+    },
+    {
+     "sym": "HINDCOPPER",
+     "date": "2026-11-04",
+     "side": 1,
+     "signal_stamp": "09:40",
+     "entry_stamp": "09:45",
+     "entry": 402.35,
+     "exit": 406.37350000000004,
+     "net": 362.3500000000013
+    },
+    {
+     "sym": "HINDCOPPER",
+     "date": "2026-11-05",
+     "side": -1,
+     "signal_stamp": "12:30",
+     "entry_stamp": "12:35",
+     "entry": 427.95,
+     "exit": 430.0897499999999,
+     "net": -253.97499999999354
+    },
+    {
+     "sym": "HINDCOPPER",
+     "date": "2026-11-06",
+     "side": 1,
+     "signal_stamp": "13:55",
+     "entry_stamp": "14:00",
+     "entry": 417.0,
+     "exit": 421.17,
+     "net": 377.0000000000016
+    },
+    {
+     "sym": "HINDCOPPER",
+     "date": "2026-11-06",
+     "side": -1,
+     "signal_stamp": "15:00",
+     "entry_stamp": "15:05",
+     "entry": 420.6,
+     "exit": 421.4,
+     "net": -119.99999999999545
+    },
+    {
+     "sym": "HINDCOPPER",
+     "date": "2026-11-09",
+     "side": -1,
+     "signal_stamp": "09:30",
+     "entry_stamp": "09:35",
+     "entry": 428.7,
+     "exit": 430.84349999999995,
+     "net": -254.34999999999604
+    },
+    {
+     "sym": "HINDCOPPER",
+     "date": "2026-11-11",
+     "side": -1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 436.75,
+     "exit": 438.93375,
+     "net": -258.3749999999975
+    },
+    {
+     "sym": "HINDCOPPER",
+     "date": "2026-11-11",
+     "side": -1,
+     "signal_stamp": "13:30",
+     "entry_stamp": "13:35",
+     "entry": 438.15,
+     "exit": 436.4,
+     "net": 135.0
+    },
+    {
+     "sym": "HINDCOPPER",
+     "date": "2026-11-12",
+     "side": -1,
+     "signal_stamp": "14:55",
+     "entry_stamp": "15:00",
+     "entry": 447.55,
+     "exit": 447.75,
+     "net": -59.99999999999886
+    },
+    {
+     "sym": "HINDUNILVR",
+     "date": "2026-11-02",
+     "side": -1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 1880.3,
+     "exit": 1889.7014999999997,
+     "net": -980.1499999999714
+    },
+    {
+     "sym": "HINDUNILVR",
+     "date": "2026-11-02",
+     "side": -1,
+     "signal_stamp": "11:55",
+     "entry_stamp": "12:00",
+     "entry": 1888.2,
+     "exit": 1889.0,
+     "net": -119.99999999999545
+    },
+    {
+     "sym": "HINDUNILVR",
+     "date": "2026-11-04",
+     "side": -1,
+     "signal_stamp": "11:00",
+     "entry_stamp": "11:05",
+     "entry": 1946.7,
+     "exit": 1956.4334999999999,
+     "net": -1013.3499999999822
+    },
+    {
+     "sym": "HINDUNILVR",
+     "date": "2026-11-05",
+     "side": -1,
+     "signal_stamp": "13:00",
+     "entry_stamp": "13:05",
+     "entry": 1982.5,
+     "exit": 1979.0,
+     "net": 310.0
+    },
+    {
+     "sym": "HINDUNILVR",
+     "date": "2026-11-06",
+     "side": 1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 1963.4,
+     "exit": 1983.034,
+     "net": 1923.4000000000015
+    },
+    {
+     "sym": "HINDUNILVR",
+     "date": "2026-11-06",
+     "side": 1,
+     "signal_stamp": "11:45",
+     "entry_stamp": "11:50",
+     "entry": 1981.3,
+     "exit": 1971.3935,
+     "net": -1030.650000000005
+    },
+    {
+     "sym": "HINDUNILVR",
+     "date": "2026-11-09",
+     "side": -1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 1989.6,
+     "exit": 1999.5479999999998,
+     "net": -1034.7999999999865
+    },
+    {
+     "sym": "HINDUNILVR",
+     "date": "2026-11-11",
+     "side": -1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 2018.3,
+     "exit": 2012.0,
+     "net": 589.9999999999955
+    },
+    {
+     "sym": "HINDUNILVR",
+     "date": "2026-11-11",
+     "side": -1,
+     "signal_stamp": "13:45",
+     "entry_stamp": "13:50",
+     "entry": 2012.7,
+     "exit": 2012.0,
+     "net": 30.000000000004547
+    },
+    {
+     "sym": "HINDUNILVR",
+     "date": "2026-11-12",
+     "side": 1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 1994.9,
+     "exit": 1984.9255,
+     "net": -1037.4500000000035
+    },
+    {
+     "sym": "HINDUNILVR",
+     "date": "2026-11-13",
+     "side": 1,
+     "signal_stamp": "10:05",
+     "entry_stamp": "10:10",
+     "entry": 1979.1,
+     "exit": 1978.0,
+     "net": -149.9999999999909
+    },
+    {
+     "sym": "HINDUNILVR",
+     "date": "2026-11-13",
+     "side": -1,
+     "signal_stamp": "10:20",
+     "entry_stamp": "10:25",
+     "entry": 1984.9,
+     "exit": 1978.0,
+     "net": 650.0000000000091
+    },
+    {
+     "sym": "HINDZINC",
+     "date": "2026-11-02",
+     "side": 1,
+     "signal_stamp": "09:45",
+     "entry_stamp": "09:50",
+     "entry": 509.75,
+     "exit": 514.8475,
+     "net": 469.7499999999968
+    },
+    {
+     "sym": "HINDZINC",
+     "date": "2026-11-03",
+     "side": -1,
+     "signal_stamp": "13:05",
+     "entry_stamp": "13:10",
+     "entry": 524.95,
+     "exit": 519.7005,
+     "net": 484.9500000000012
+    },
+    {
+     "sym": "HINDZINC",
+     "date": "2026-11-03",
+     "side": 1,
+     "signal_stamp": "14:25",
+     "entry_stamp": "14:30",
+     "entry": 521.5,
+     "exit": 523.0,
+     "net": 110.0
+    },
+    {
+     "sym": "HINDZINC",
+     "date": "2026-11-05",
+     "side": -1,
+     "signal_stamp": "15:05",
+     "entry_stamp": "15:10",
+     "entry": 569.9,
+     "exit": 569.05,
+     "net": 45.000000000002274
+    },
+    {
+     "sym": "HINDZINC",
+     "date": "2026-11-06",
+     "side": 1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 557.75,
+     "exit": 554.96125,
+     "net": -318.875000000005
+    },
+    {
+     "sym": "HINDZINC",
+     "date": "2026-11-06",
+     "side": 1,
+     "signal_stamp": "12:50",
+     "entry_stamp": "12:55",
+     "entry": 565.4,
+     "exit": 567.9,
+     "net": 210.0
+    },
+    {
+     "sym": "HINDZINC",
+     "date": "2026-11-09",
+     "side": -1,
+     "signal_stamp": "12:25",
+     "entry_stamp": "12:30",
+     "entry": 572.65,
+     "exit": 575.51325,
+     "net": -326.32499999999936
+    },
+    {
+     "sym": "HINDZINC",
+     "date": "2026-11-11",
+     "side": -1,
+     "signal_stamp": "09:20",
+     "entry_stamp": "09:25",
+     "entry": 578.4,
+     "exit": 581.2919999999999,
+     "net": -329.1999999999939
+    },
+    {
+     "sym": "HINDZINC",
+     "date": "2026-11-11",
+     "side": -1,
+     "signal_stamp": "12:35",
+     "entry_stamp": "12:40",
+     "entry": 578.8,
+     "exit": 577.45,
+     "net": 94.9999999999909
+    },
+    {
+     "sym": "INDUSTOWER",
+     "date": "2026-11-02",
+     "side": 1,
+     "signal_stamp": "09:45",
+     "entry_stamp": "09:50",
+     "entry": 381.9,
+     "exit": 379.9905,
+     "net": -230.949999999998
+    },
+    {
+     "sym": "INDUSTOWER",
+     "date": "2026-11-03",
+     "side": -1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 386.0,
+     "exit": 387.92999999999995,
+     "net": -232.999999999995
+    },
+    {
+     "sym": "INDUSTOWER",
+     "date": "2026-11-04",
+     "side": 1,
+     "signal_stamp": "09:25",
+     "entry_stamp": "09:30",
+     "entry": 394.3,
+     "exit": 392.3285,
+     "net": -237.14999999999918
+    },
+    {
+     "sym": "INDUSTOWER",
+     "date": "2026-11-04",
+     "side": 1,
+     "signal_stamp": "14:55",
+     "entry_stamp": "15:00",
+     "entry": 388.0,
+     "exit": 389.6,
+     "net": 120.00000000000227
+    },
+    {
+     "sym": "INDUSTOWER",
+     "date": "2026-11-06",
+     "side": -1,
+     "signal_stamp": "09:25",
+     "entry_stamp": "09:30",
+     "entry": 381.05,
+     "exit": 382.95525,
+     "net": -230.52499999999668
+    },
+    {
+     "sym": "INDUSTOWER",
+     "date": "2026-11-09",
+     "side": -1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 378.8,
+     "exit": 380.69399999999996,
+     "net": -229.39999999999486
+    },
+    {
+     "sym": "INDUSTOWER",
+     "date": "2026-11-09",
+     "side": 1,
+     "signal_stamp": "09:20",
+     "entry_stamp": "09:25",
+     "entry": 378.15,
+     "exit": 381.93149999999997,
+     "net": 338.1499999999994
+    },
+    {
+     "sym": "INDUSTOWER",
+     "date": "2026-11-12",
+     "side": -1,
+     "signal_stamp": "11:05",
+     "entry_stamp": "11:10",
+     "entry": 393.45,
+     "exit": 389.5155,
+     "net": 353.4500000000014
+    },
+    {
+     "sym": "INDUSTOWER",
+     "date": "2026-11-13",
+     "side": 1,
+     "signal_stamp": "09:40",
+     "entry_stamp": "09:45",
+     "entry": 390.2,
+     "exit": 394.102,
+     "net": 350.1999999999987
+    },
+    {
+     "sym": "INDUSTOWER",
+     "date": "2026-11-13",
+     "side": -1,
+     "signal_stamp": "09:50",
+     "entry_stamp": "09:55",
+     "entry": 393.3,
+     "exit": 395.26649999999995,
+     "net": -236.64999999999395
+    },
+    {
+     "sym": "IRCTC",
+     "date": "2026-11-02",
+     "side": 1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 440.9,
+     "exit": 445.30899999999997,
+     "net": 400.8999999999992
+    },
+    {
+     "sym": "IRCTC",
+     "date": "2026-11-02",
+     "side": -1,
+     "signal_stamp": "09:25",
+     "entry_stamp": "09:30",
+     "entry": 447.75,
+     "exit": 449.9887499999999,
+     "net": -263.8749999999925
+    },
+    {
+     "sym": "IRCTC",
+     "date": "2026-11-03",
+     "side": 1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 450.5,
+     "exit": 448.2475,
+     "net": -265.2499999999998
+    },
+    {
+     "sym": "IRCTC",
+     "date": "2026-11-04",
+     "side": 1,
+     "signal_stamp": "09:25",
+     "entry_stamp": "09:30",
+     "entry": 450.1,
+     "exit": 447.84950000000003,
+     "net": -265.0499999999988
+    },
+    {
+     "sym": "IRCTC",
+     "date": "2026-11-04",
+     "side": -1,
+     "signal_stamp": "09:35",
+     "entry_stamp": "09:40",
+     "entry": 451.15,
+     "exit": 453.40574999999995,
+     "net": -265.5749999999978
+    },
+    {
+     "sym": "IRCTC",
+     "date": "2026-11-05",
+     "side": -1,
+     "signal_stamp": "12:30",
+     "entry_stamp": "12:35",
+     "entry": 456.3,
+     "exit": 458.58149999999995,
+     "net": -268.1499999999937
+    },
+    {
+     "sym": "IRCTC",
+     "date": "2026-11-06",
+     "side": 1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 454.95,
+     "exit": 459.4995,
+     "net": 414.9500000000023
+    },
+    {
+     "sym": "IRCTC",
+     "date": "2026-11-06",
+     "side": 1,
+     "signal_stamp": "14:25",
+     "entry_stamp": "14:30",
+     "entry": 457.6,
+     "exit": 457.7,
+     "net": -30.00000000000341
+    },
+    {
+     "sym": "IRCTC",
+     "date": "2026-11-09",
+     "side": -1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 460.75,
+     "exit": 460.0,
+     "net": 35.0
+    },
+    {
+     "sym": "IRCTC",
+     "date": "2026-11-11",
+     "side": -1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 466.2,
+     "exit": 468.53099999999995,
+     "net": -273.09999999999604
+    },
+    {
+     "sym": "IRCTC",
+     "date": "2026-11-11",
+     "side": -1,
+     "signal_stamp": "13:30",
+     "entry_stamp": "13:35",
+     "entry": 477.15,
+     "exit": 472.3785,
+     "net": 437.1500000000003
+    },
+    {
+     "sym": "IRCTC",
+     "date": "2026-11-12",
+     "side": 1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 478.1,
+     "exit": 475.70950000000005,
+     "net": -279.04999999999745
+    },
+    {
+     "sym": "IRCTC",
+     "date": "2026-11-12",
+     "side": -1,
+     "signal_stamp": "09:20",
+     "entry_stamp": "09:25",
+     "entry": 480.05,
+     "exit": 475.2495,
+     "net": 440.04999999999995
+    },
+    {
+     "sym": "IRCTC",
+     "date": "2026-11-13",
+     "side": -1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 460.55,
+     "exit": 457.7,
+     "net": 245.00000000000227
+    },
+    {
+     "sym": "ITC",
+     "date": "2026-11-02",
+     "side": 1,
+     "signal_stamp": "09:40",
+     "entry_stamp": "09:45",
+     "entry": 268.9,
+     "exit": 267.5555,
+     "net": -174.44999999999823
+    },
+    {
+     "sym": "ITC",
+     "date": "2026-11-03",
+     "side": -1,
+     "signal_stamp": "12:55",
+     "entry_stamp": "13:00",
+     "entry": 267.55,
+     "exit": 268.88775,
+     "net": -173.77499999999714
+    },
+    {
+     "sym": "ITC",
+     "date": "2026-11-05",
+     "side": -1,
+     "signal_stamp": "10:10",
+     "entry_stamp": "10:15",
+     "entry": 278.9,
+     "exit": 278.9,
+     "net": -40.0
+    },
+    {
+     "sym": "ITC",
+     "date": "2026-11-06",
+     "side": 1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 277.1,
+     "exit": 279.87100000000004,
+     "net": 237.1000000000015
+    },
+    {
+     "sym": "ITC",
+     "date": "2026-11-06",
+     "side": 1,
+     "signal_stamp": "09:40",
+     "entry_stamp": "09:45",
+     "entry": 279.4,
+     "exit": 282.19399999999996,
+     "net": 239.39999999999827
+    },
+    {
+     "sym": "ITC",
+     "date": "2026-11-09",
+     "side": -1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 281.25,
+     "exit": 278.4375,
+     "net": 241.25
+    },
+    {
+     "sym": "ITC",
+     "date": "2026-11-09",
+     "side": 1,
+     "signal_stamp": "09:30",
+     "entry_stamp": "09:35",
+     "entry": 280.65,
+     "exit": 279.24674999999996,
+     "net": -180.3250000000014
+    },
+    {
+     "sym": "ITC",
+     "date": "2026-11-11",
+     "side": 1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 281.75,
+     "exit": 284.5675,
+     "net": 241.74999999999955
+    },
+    {
+     "sym": "ITC",
+     "date": "2026-11-11",
+     "side": -1,
+     "signal_stamp": "09:30",
+     "entry_stamp": "09:35",
+     "entry": 281.75,
+     "exit": 283.15875,
+     "net": -180.87499999999977
+    },
+    {
+     "sym": "ITC",
+     "date": "2026-11-12",
+     "side": -1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 287.5,
+     "exit": 288.93749999999994,
+     "net": -183.74999999999432
+    },
+    {
+     "sym": "ITC",
+     "date": "2026-11-12",
+     "side": -1,
+     "signal_stamp": "12:00",
+     "entry_stamp": "12:05",
+     "entry": 285.9,
+     "exit": 284.05,
+     "net": 144.9999999999966
+    },
+    {
+     "sym": "ITC",
+     "date": "2026-11-13",
+     "side": 1,
+     "signal_stamp": "09:50",
+     "entry_stamp": "09:55",
+     "entry": 284.8,
+     "exit": 283.37600000000003,
+     "net": -182.39999999999782
+    },
+    {
+     "sym": "KALYANKJIL",
+     "date": "2026-11-02",
+     "side": 1,
+     "signal_stamp": "09:35",
+     "entry_stamp": "09:40",
+     "entry": 502.0,
+     "exit": 507.02,
+     "net": 461.9999999999982
+    },
+    {
+     "sym": "KALYANKJIL",
+     "date": "2026-11-02",
+     "side": -1,
+     "signal_stamp": "09:45",
+     "entry_stamp": "09:50",
+     "entry": 505.5,
+     "exit": 508.0274999999999,
+     "net": -292.7499999999918
+    },
+    {
+     "sym": "KALYANKJIL",
+     "date": "2026-11-03",
+     "side": 1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 511.85,
+     "exit": 509.29075,
+     "net": -295.925000000002
+    },
+    {
+     "sym": "KALYANKJIL",
+     "date": "2026-11-03",
+     "side": 1,
+     "signal_stamp": "13:00",
+     "entry_stamp": "13:05",
+     "entry": 508.65,
+     "exit": 506.10675,
+     "net": -294.32500000000005
+    },
+    {
+     "sym": "KALYANKJIL",
+     "date": "2026-11-04",
+     "side": 1,
+     "signal_stamp": "09:25",
+     "entry_stamp": "09:30",
+     "entry": 513.05,
+     "exit": 510.48474999999996,
+     "net": -296.5249999999992
+    },
+    {
+     "sym": "KALYANKJIL",
+     "date": "2026-11-09",
+     "side": -1,
+     "signal_stamp": "12:30",
+     "entry_stamp": "12:35",
+     "entry": 605.95,
+     "exit": 608.97975,
+     "net": -342.9749999999922
+    },
+    {
+     "sym": "KALYANKJIL",
+     "date": "2026-11-11",
+     "side": 1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 668.4,
+     "exit": 665.058,
+     "net": -374.19999999999845
+    },
+    {
+     "sym": "KALYANKJIL",
+     "date": "2026-11-11",
+     "side": 1,
+     "signal_stamp": "15:00",
+     "entry_stamp": "15:05",
+     "entry": 662.85,
+     "exit": 659.53575,
+     "net": -371.42500000000155
+    },
+    {
+     "sym": "KALYANKJIL",
+     "date": "2026-11-12",
+     "side": 1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 691.6,
+     "exit": 698.5160000000001,
+     "net": 651.6000000000054
+    },
+    {
+     "sym": "KALYANKJIL",
+     "date": "2026-11-13",
+     "side": -1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 688.55,
+     "exit": 691.9927499999999,
+     "net": -384.27499999999327
+    },
+    {
+     "sym": "NATIONALUM",
+     "date": "2026-11-02",
+     "side": 1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 321.0,
+     "exit": 324.21,
+     "net": 280.99999999999795
+    },
+    {
+     "sym": "NATIONALUM",
+     "date": "2026-11-02",
+     "side": -1,
+     "signal_stamp": "09:20",
+     "entry_stamp": "09:25",
+     "entry": 321.85,
+     "exit": 323.45925,
+     "net": -200.92499999999745
+    },
+    {
+     "sym": "NATIONALUM",
+     "date": "2026-11-03",
+     "side": -1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 324.85,
+     "exit": 326.47425,
+     "net": -202.4249999999961
+    },
+    {
+     "sym": "NATIONALUM",
+     "date": "2026-11-04",
+     "side": -1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 314.0,
+     "exit": 315.57,
+     "net": -196.99999999999932
+    },
+    {
+     "sym": "NATIONALUM",
+     "date": "2026-11-06",
+     "side": -1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 317.15,
+     "exit": 318.73574999999994,
+     "net": -198.57499999999618
+    },
+    {
+     "sym": "NATIONALUM",
+     "date": "2026-11-06",
+     "side": -1,
+     "signal_stamp": "13:55",
+     "entry_stamp": "14:00",
+     "entry": 322.5,
+     "exit": 324.11249999999995,
+     "net": -201.24999999999545
+    },
+    {
+     "sym": "NATIONALUM",
+     "date": "2026-11-09",
+     "side": -1,
+     "signal_stamp": "09:25",
+     "entry_stamp": "09:30",
+     "entry": 323.8,
+     "exit": 325.419,
+     "net": -201.89999999999714
+    },
+    {
+     "sym": "NATIONALUM",
+     "date": "2026-11-11",
+     "side": 1,
+     "signal_stamp": "11:35",
+     "entry_stamp": "11:40",
+     "entry": 329.55,
+     "exit": 327.90225000000004,
+     "net": -204.77499999999736
+    },
+    {
+     "sym": "NATIONALUM",
+     "date": "2026-11-13",
+     "side": -1,
+     "signal_stamp": "15:00",
+     "entry_stamp": "15:05",
+     "entry": 327.6,
+     "exit": 329.238,
+     "net": -203.79999999999768
+    },
+    {
+     "sym": "NHPC",
+     "date": "2026-11-02",
+     "side": -1,
+     "signal_stamp": "10:50",
+     "entry_stamp": "10:55",
+     "entry": 78.29,
+     "exit": 78.68145,
+     "net": -79.14499999999919
+    },
+    {
+     "sym": "NHPC",
+     "date": "2026-11-03",
+     "side": -1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 79.23,
+     "exit": 79.62615,
+     "net": -79.61499999999916
+    },
+    {
+     "sym": "NHPC",
+     "date": "2026-11-03",
+     "side": -1,
+     "signal_stamp": "11:00",
+     "entry_stamp": "11:05",
+     "entry": 78.94,
+     "exit": 79.33469999999998,
+     "net": -79.4699999999986
+    },
+    {
+     "sym": "NHPC",
+     "date": "2026-11-04",
+     "side": -1,
+     "signal_stamp": "11:00",
+     "entry_stamp": "11:05",
+     "entry": 78.94,
+     "exit": 79.33469999999998,
+     "net": -79.4699999999986
+    },
+    {
+     "sym": "NHPC",
+     "date": "2026-11-04",
+     "side": 1,
+     "signal_stamp": "13:05",
+     "entry_stamp": "13:10",
+     "entry": 78.36,
+     "exit": 77.9682,
+     "net": -79.18000000000035
+    },
+    {
+     "sym": "NHPC",
+     "date": "2026-11-05",
+     "side": -1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 81.39,
+     "exit": 81.79695,
+     "net": -80.69499999999948
+    },
+    {
+     "sym": "NHPC",
+     "date": "2026-11-05",
+     "side": -1,
+     "signal_stamp": "09:45",
+     "entry_stamp": "09:50",
+     "entry": 79.72,
+     "exit": 78.9228,
+     "net": 39.72000000000037
+    },
+    {
+     "sym": "NHPC",
+     "date": "2026-11-06",
+     "side": 1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 82.52,
+     "exit": 82.1074,
+     "net": -81.25999999999976
+    },
+    {
+     "sym": "NHPC",
+     "date": "2026-11-09",
+     "side": 1,
+     "signal_stamp": "14:55",
+     "entry_stamp": "15:00",
+     "entry": 79.89,
+     "exit": 80.15,
+     "net": -13.999999999999488
+    },
+    {
+     "sym": "NHPC",
+     "date": "2026-11-09",
+     "side": -1,
+     "signal_stamp": "15:05",
+     "entry_stamp": "15:10",
+     "entry": 80.48,
+     "exit": 80.15,
+     "net": -7.0000000000001705
+    },
+    {
+     "sym": "NHPC",
+     "date": "2026-11-11",
+     "side": -1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 78.77,
+     "exit": 79.16384999999998,
+     "net": -79.38499999999863
+    },
+    {
+     "sym": "NHPC",
+     "date": "2026-11-12",
+     "side": -1,
+     "signal_stamp": "14:30",
+     "entry_stamp": "14:35",
+     "entry": 76.61,
+     "exit": 76.6,
+     "net": -38.99999999999949
+    },
+    {
+     "sym": "NHPC",
+     "date": "2026-11-13",
+     "side": 1,
+     "signal_stamp": "09:45",
+     "entry_stamp": "09:50",
+     "entry": 76.99,
+     "exit": 76.60504999999999,
+     "net": -78.49500000000035
+    },
+    {
+     "sym": "NTPC",
+     "date": "2026-11-02",
+     "side": -1,
+     "signal_stamp": "11:50",
+     "entry_stamp": "11:55",
+     "entry": 322.4,
+     "exit": 324.01199999999994,
+     "net": -201.19999999999663
+    },
+    {
+     "sym": "NTPC",
+     "date": "2026-11-03",
+     "side": 1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 320.0,
+     "exit": 323.2,
+     "net": 279.99999999999886
+    },
+    {
+     "sym": "NTPC",
+     "date": "2026-11-04",
+     "side": -1,
+     "signal_stamp": "09:20",
+     "entry_stamp": "09:25",
+     "entry": 318.8,
+     "exit": 320.394,
+     "net": -199.3999999999994
+    },
+    {
+     "sym": "NTPC",
+     "date": "2026-11-04",
+     "side": -1,
+     "signal_stamp": "14:40",
+     "entry_stamp": "14:45",
+     "entry": 321.4,
+     "exit": 321.3,
+     "net": -30.00000000000341
+    },
+    {
+     "sym": "NTPC",
+     "date": "2026-11-05",
+     "side": -1,
+     "signal_stamp": "09:50",
+     "entry_stamp": "09:55",
+     "entry": 320.4,
+     "exit": 317.19599999999997,
+     "net": 280.4000000000008
+    },
+    {
+     "sym": "NTPC",
+     "date": "2026-11-05",
+     "side": 1,
+     "signal_stamp": "15:05",
+     "entry_stamp": "15:10",
+     "entry": 316.2,
+     "exit": 316.7,
+     "net": 10.0
+    },
+    {
+     "sym": "NTPC",
+     "date": "2026-11-06",
+     "side": 1,
+     "signal_stamp": "10:15",
+     "entry_stamp": "10:20",
+     "entry": 315.15,
+     "exit": 318.3015,
+     "net": 275.14999999999986
+    },
+    {
+     "sym": "NTPC",
+     "date": "2026-11-06",
+     "side": -1,
+     "signal_stamp": "10:35",
+     "entry_stamp": "10:40",
+     "entry": 318.85,
+     "exit": 320.44425,
+     "net": -199.42499999999882
+    },
+    {
+     "sym": "NTPC",
+     "date": "2026-11-11",
+     "side": -1,
+     "signal_stamp": "12:35",
+     "entry_stamp": "12:40",
+     "entry": 331.05,
+     "exit": 327.7395,
+     "net": 291.04999999999905
+    },
+    {
+     "sym": "NTPC",
+     "date": "2026-11-11",
+     "side": 1,
+     "signal_stamp": "13:35",
+     "entry_stamp": "13:40",
+     "entry": 328.7,
+     "exit": 327.05649999999997,
+     "net": -204.35000000000173
+    },
+    {
+     "sym": "NTPC",
+     "date": "2026-11-13",
+     "side": 1,
+     "signal_stamp": "11:00",
+     "entry_stamp": "11:05",
+     "entry": 320.6,
+     "exit": 318.997,
+     "net": -200.30000000000086
+    },
+    {
+     "sym": "OBEROIRLTY",
+     "date": "2026-11-02",
+     "side": -1,
+     "signal_stamp": "13:05",
+     "entry_stamp": "13:10",
+     "entry": 1635.0,
+     "exit": 1643.1749999999997,
+     "net": -857.4999999999727
+    },
+    {
+     "sym": "OBEROIRLTY",
+     "date": "2026-11-02",
+     "side": 1,
+     "signal_stamp": "13:35",
+     "entry_stamp": "13:40",
+     "entry": 1628.1,
+     "exit": 1644.3809999999999,
+     "net": 1588.099999999995
+    },
+    {
+     "sym": "OBEROIRLTY",
+     "date": "2026-11-03",
+     "side": 1,
+     "signal_stamp": "09:20",
+     "entry_stamp": "09:25",
+     "entry": 1660.9,
+     "exit": 1677.509,
+     "net": 1620.8999999999924
+    },
+    {
+     "sym": "OBEROIRLTY",
+     "date": "2026-11-04",
+     "side": -1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 1680.5,
+     "exit": 1688.9025,
+     "net": -880.2499999999918
+    },
+    {
+     "sym": "OBEROIRLTY",
+     "date": "2026-11-05",
+     "side": -1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 1744.1,
+     "exit": 1752.8204999999998,
+     "net": -912.0499999999902
+    },
+    {
+     "sym": "OBEROIRLTY",
+     "date": "2026-11-05",
+     "side": -1,
+     "signal_stamp": "10:40",
+     "entry_stamp": "10:45",
+     "entry": 1731.2,
+     "exit": 1739.8559999999998,
+     "net": -905.5999999999722
+    },
+    {
+     "sym": "OBEROIRLTY",
+     "date": "2026-11-06",
+     "side": 1,
+     "signal_stamp": "13:50",
+     "entry_stamp": "13:55",
+     "entry": 1718.5,
+     "exit": 1734.0,
+     "net": 1510.0
+    },
+    {
+     "sym": "OBEROIRLTY",
+     "date": "2026-11-06",
+     "side": -1,
+     "signal_stamp": "14:25",
+     "entry_stamp": "14:30",
+     "entry": 1724.0,
+     "exit": 1732.62,
+     "net": -901.9999999999891
+    },
+    {
+     "sym": "OBEROIRLTY",
+     "date": "2026-11-09",
+     "side": -1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 1727.5,
+     "exit": 1736.1374999999998,
+     "net": -903.7499999999818
+    },
+    {
+     "sym": "OBEROIRLTY",
+     "date": "2026-11-11",
+     "side": -1,
+     "signal_stamp": "10:35",
+     "entry_stamp": "10:40",
+     "entry": 1761.7,
+     "exit": 1744.083,
+     "net": 1721.6999999999962
+    },
+    {
+     "sym": "OBEROIRLTY",
+     "date": "2026-11-12",
+     "side": 1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 1754.2,
+     "exit": 1771.742,
+     "net": 1714.1999999999916
+    },
+    {
+     "sym": "OBEROIRLTY",
+     "date": "2026-11-12",
+     "side": -1,
+     "signal_stamp": "09:25",
+     "entry_stamp": "09:30",
+     "entry": 1757.5,
+     "exit": 1766.2875,
+     "net": -918.7499999999909
+    },
+    {
+     "sym": "OBEROIRLTY",
+     "date": "2026-11-13",
+     "side": -1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 1794.3,
+     "exit": 1803.2714999999998,
+     "net": -937.1499999999878
+    },
+    {
+     "sym": "OIL",
+     "date": "2026-11-02",
+     "side": -1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 454.3,
+     "exit": 456.57149999999996,
+     "net": -267.14999999999463
+    },
+    {
+     "sym": "OIL",
+     "date": "2026-11-03",
+     "side": -1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 454.8,
+     "exit": 453.35,
+     "net": 104.99999999999886
+    },
+    {
+     "sym": "OIL",
+     "date": "2026-11-03",
+     "side": 1,
+     "signal_stamp": "09:20",
+     "entry_stamp": "09:25",
+     "entry": 453.2,
+     "exit": 453.35,
+     "net": -24.99999999999659
+    },
+    {
+     "sym": "OIL",
+     "date": "2026-11-04",
+     "side": -1,
+     "signal_stamp": "09:20",
+     "entry_stamp": "09:25",
+     "entry": 452.4,
+     "exit": 454.6619999999999,
+     "net": -266.19999999999436
+    },
+    {
+     "sym": "OIL",
+     "date": "2026-11-04",
+     "side": -1,
+     "signal_stamp": "13:35",
+     "entry_stamp": "13:40",
+     "entry": 455.75,
+     "exit": 458.02874999999995,
+     "net": -267.87499999999454
+    },
+    {
+     "sym": "OIL",
+     "date": "2026-11-05",
+     "side": -1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 442.45,
+     "exit": 438.02549999999997,
+     "net": 402.4500000000023
+    },
+    {
+     "sym": "OIL",
+     "date": "2026-11-05",
+     "side": -1,
+     "signal_stamp": "14:15",
+     "entry_stamp": "14:20",
+     "entry": 436.35,
+     "exit": 438.53175,
+     "net": -258.17499999999654
+    },
+    {
+     "sym": "OIL",
+     "date": "2026-11-06",
+     "side": -1,
+     "signal_stamp": "09:25",
+     "entry_stamp": "09:30",
+     "entry": 434.9,
+     "exit": 437.07449999999994,
+     "net": -257.44999999999663
+    },
+    {
+     "sym": "OIL",
+     "date": "2026-11-06",
+     "side": 1,
+     "signal_stamp": "14:20",
+     "entry_stamp": "14:25",
+     "entry": 436.9,
+     "exit": 441.269,
+     "net": 396.9000000000028
+    },
+    {
+     "sym": "OIL",
+     "date": "2026-11-09",
+     "side": -1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 442.25,
+     "exit": 444.46124999999995,
+     "net": -261.124999999995
+    },
+    {
+     "sym": "OIL",
+     "date": "2026-11-09",
+     "side": 1,
+     "signal_stamp": "14:10",
+     "entry_stamp": "14:15",
+     "entry": 440.4,
+     "exit": 439.0,
+     "net": -179.99999999999773
+    },
+    {
+     "sym": "OIL",
+     "date": "2026-11-11",
+     "side": 1,
+     "signal_stamp": "12:20",
+     "entry_stamp": "12:25",
+     "entry": 438.05,
+     "exit": 442.4305,
+     "net": 398.04999999999836
+    },
+    {
+     "sym": "OIL",
+     "date": "2026-11-11",
+     "side": -1,
+     "signal_stamp": "14:30",
+     "entry_stamp": "14:35",
+     "entry": 440.75,
+     "exit": 442.95374999999996,
+     "net": -260.3749999999957
+    },
+    {
+     "sym": "OIL",
+     "date": "2026-11-12",
+     "side": -1,
+     "signal_stamp": "09:40",
+     "entry_stamp": "09:45",
+     "entry": 441.3,
+     "exit": 436.887,
+     "net": 401.3000000000011
+    },
+    {
+     "sym": "OIL",
+     "date": "2026-11-12",
+     "side": 1,
+     "signal_stamp": "10:55",
+     "entry_stamp": "11:00",
+     "entry": 438.55,
+     "exit": 436.35725,
+     "net": -259.27499999999895
+    },
+    {
+     "sym": "OIL",
+     "date": "2026-11-13",
+     "side": -1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 438.35,
+     "exit": 440.54175,
+     "net": -259.17499999999563
+    },
+    {
+     "sym": "OIL",
+     "date": "2026-11-13",
+     "side": -1,
+     "signal_stamp": "09:20",
+     "entry_stamp": "09:25",
+     "entry": 444.05,
+     "exit": 446.27025,
+     "net": -262.02499999999645
+    },
+    {
+     "sym": "PFC",
+     "date": "2026-11-02",
+     "side": 1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 318.4,
+     "exit": 316.808,
+     "net": -199.19999999999845
+    },
+    {
+     "sym": "PFC",
+     "date": "2026-11-03",
+     "side": -1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 319.4,
+     "exit": 316.20599999999996,
+     "net": 279.4000000000017
+    },
+    {
+     "sym": "PFC",
+     "date": "2026-11-03",
+     "side": -1,
+     "signal_stamp": "11:10",
+     "entry_stamp": "11:15",
+     "entry": 318.25,
+     "exit": 319.84124999999995,
+     "net": -199.12499999999454
+    },
+    {
+     "sym": "PFC",
+     "date": "2026-11-04",
+     "side": -1,
+     "signal_stamp": "09:25",
+     "entry_stamp": "09:30",
+     "entry": 319.25,
+     "exit": 320.84624999999994,
+     "net": -199.6249999999941
+    },
+    {
+     "sym": "PFC",
+     "date": "2026-11-04",
+     "side": -1,
+     "signal_stamp": "14:05",
+     "entry_stamp": "14:10",
+     "entry": 319.45,
+     "exit": 316.2555,
+     "net": 279.4500000000005
+    },
+    {
+     "sym": "PFC",
+     "date": "2026-11-05",
+     "side": -1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 326.45,
+     "exit": 328.08224999999993,
+     "net": -203.22499999999422
+    },
+    {
+     "sym": "PFC",
+     "date": "2026-11-06",
+     "side": 1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 326.0,
+     "exit": 329.26,
+     "net": 285.9999999999991
+    },
+    {
+     "sym": "PFC",
+     "date": "2026-11-06",
+     "side": 1,
+     "signal_stamp": "10:20",
+     "entry_stamp": "10:25",
+     "entry": 330.6,
+     "exit": 328.947,
+     "net": -205.300000000002
+    },
+    {
+     "sym": "PFC",
+     "date": "2026-11-09",
+     "side": -1,
+     "signal_stamp": "09:30",
+     "entry_stamp": "09:35",
+     "entry": 328.75,
+     "exit": 330.39374999999995,
+     "net": -204.37499999999545
+    },
+    {
+     "sym": "PFC",
+     "date": "2026-11-11",
+     "side": -1,
+     "signal_stamp": "13:30",
+     "entry_stamp": "13:35",
+     "entry": 342.9,
+     "exit": 343.1,
+     "net": -60.00000000000455
+    },
+    {
+     "sym": "PFC",
+     "date": "2026-11-12",
+     "side": -1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 346.9,
+     "exit": 343.431,
+     "net": 306.8999999999994
+    },
+    {
+     "sym": "PFC",
+     "date": "2026-11-12",
+     "side": -1,
+     "signal_stamp": "10:25",
+     "entry_stamp": "10:30",
+     "entry": 343.25,
+     "exit": 339.8175,
+     "net": 303.25000000000045
+    },
+    {
+     "sym": "PFC",
+     "date": "2026-11-13",
+     "side": 1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 336.2,
+     "exit": 339.562,
+     "net": 296.2000000000023
+    },
+    {
+     "sym": "PFC",
+     "date": "2026-11-13",
+     "side": 1,
+     "signal_stamp": "09:40",
+     "entry_stamp": "09:45",
+     "entry": 339.45,
+     "exit": 337.75275,
+     "net": -209.72499999999968
+    },
+    {
+     "sym": "RECLTD",
+     "date": "2026-11-02",
+     "side": -1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 287.7,
+     "exit": 286.05,
+     "net": 124.99999999999773
+    },
+    {
+     "sym": "RECLTD",
+     "date": "2026-11-02",
+     "side": -1,
+     "signal_stamp": "13:05",
+     "entry_stamp": "13:10",
+     "entry": 286.55,
+     "exit": 286.05,
+     "net": 10.0
+    },
+    {
+     "sym": "RECLTD",
+     "date": "2026-11-03",
+     "side": -1,
+     "signal_stamp": "09:20",
+     "entry_stamp": "09:25",
+     "entry": 288.55,
+     "exit": 285.66450000000003,
+     "net": 248.5499999999979
+    },
+    {
+     "sym": "RECLTD",
+     "date": "2026-11-03",
+     "side": -1,
+     "signal_stamp": "10:05",
+     "entry_stamp": "10:10",
+     "entry": 286.3,
+     "exit": 283.437,
+     "net": 246.29999999999995
+    },
+    {
+     "sym": "RECLTD",
+     "date": "2026-11-04",
+     "side": -1,
+     "signal_stamp": "09:45",
+     "entry_stamp": "09:50",
+     "entry": 286.8,
+     "exit": 288.234,
+     "net": -183.3999999999969
+    },
+    {
+     "sym": "RECLTD",
+     "date": "2026-11-04",
+     "side": -1,
+     "signal_stamp": "14:05",
+     "entry_stamp": "14:10",
+     "entry": 285.6,
+     "exit": 287.028,
+     "net": -182.79999999999973
+    },
+    {
+     "sym": "RECLTD",
+     "date": "2026-11-05",
+     "side": -1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 291.85,
+     "exit": 293.30925,
+     "net": -185.92499999999973
+    },
+    {
+     "sym": "RECLTD",
+     "date": "2026-11-06",
+     "side": 1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 293.9,
+     "exit": 296.839,
+     "net": 253.90000000000214
+    },
+    {
+     "sym": "RECLTD",
+     "date": "2026-11-06",
+     "side": 1,
+     "signal_stamp": "09:30",
+     "entry_stamp": "09:35",
+     "entry": 296.25,
+     "exit": 299.2125,
+     "net": 256.2499999999977
+    },
+    {
+     "sym": "RECLTD",
+     "date": "2026-11-11",
+     "side": -1,
+     "signal_stamp": "13:20",
+     "entry_stamp": "13:25",
+     "entry": 311.9,
+     "exit": 310.0,
+     "net": 149.99999999999773
+    },
+    {
+     "sym": "RECLTD",
+     "date": "2026-11-12",
+     "side": 1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 313.1,
+     "exit": 311.53450000000004,
+     "net": -196.5499999999986
+    },
+    {
+     "sym": "RECLTD",
+     "date": "2026-11-13",
+     "side": -1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 302.55,
+     "exit": 304.06275,
+     "net": -191.27499999999827
+    },
+    {
+     "sym": "RECLTD",
+     "date": "2026-11-13",
+     "side": -1,
+     "signal_stamp": "09:40",
+     "entry_stamp": "09:45",
+     "entry": 307.1,
+     "exit": 304.029,
+     "net": 267.10000000000264
+    },
+    {
+     "sym": "TATASTEEL",
+     "date": "2026-11-02",
+     "side": 1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 173.83,
+     "exit": 175.56830000000002,
+     "net": 133.83000000000095
+    },
+    {
+     "sym": "TATASTEEL",
+     "date": "2026-11-03",
+     "side": -1,
+     "signal_stamp": "11:05",
+     "entry_stamp": "11:10",
+     "entry": 176.26,
+     "exit": 176.05,
+     "net": -19.000000000002046
+    },
+    {
+     "sym": "TATASTEEL",
+     "date": "2026-11-04",
+     "side": 1,
+     "signal_stamp": "09:35",
+     "entry_stamp": "09:40",
+     "entry": 177.06,
+     "exit": 176.1747,
+     "net": -128.5300000000001
+    },
+    {
+     "sym": "TATASTEEL",
+     "date": "2026-11-06",
+     "side": -1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 179.3,
+     "exit": 180.1965,
+     "net": -129.64999999999748
+    },
+    {
+     "sym": "TATASTEEL",
+     "date": "2026-11-06",
+     "side": 1,
+     "signal_stamp": "09:20",
+     "entry_stamp": "09:25",
+     "entry": 178.8,
+     "exit": 180.58800000000002,
+     "net": 138.8000000000011
+    },
+    {
+     "sym": "TATASTEEL",
+     "date": "2026-11-09",
+     "side": -1,
+     "signal_stamp": "09:25",
+     "entry_stamp": "09:30",
+     "entry": 187.87,
+     "exit": 185.9913,
+     "net": 147.8700000000009
+    },
+    {
+     "sym": "TATASTEEL",
+     "date": "2026-11-09",
+     "side": 1,
+     "signal_stamp": "10:40",
+     "entry_stamp": "10:45",
+     "entry": 185.09,
+     "exit": 184.85,
+     "net": -64.00000000000091
+    },
+    {
+     "sym": "TATASTEEL",
+     "date": "2026-11-11",
+     "side": 1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 187.14,
+     "exit": 189.01139999999998,
+     "net": 147.13999999999942
+    },
+    {
+     "sym": "TATASTEEL",
+     "date": "2026-11-12",
+     "side": 1,
+     "signal_stamp": "09:50",
+     "entry_stamp": "09:55",
+     "entry": 189.41,
+     "exit": 188.46295,
+     "net": -134.70499999999902
+    },
+    {
+     "sym": "TATASTEEL",
+     "date": "2026-11-13",
+     "side": 1,
+     "signal_stamp": "09:35",
+     "entry_stamp": "09:40",
+     "entry": 188.26,
+     "exit": 187.31869999999998,
+     "net": -134.13000000000125
+    },
+    {
+     "sym": "TATASTEEL",
+     "date": "2026-11-13",
+     "side": 1,
+     "signal_stamp": "13:40",
+     "entry_stamp": "13:45",
+     "entry": 186.12,
+     "exit": 186.99,
+     "net": 47.000000000000455
+    },
+    {
+     "sym": "TVSMOTOR",
+     "date": "2026-11-02",
+     "side": -1,
+     "signal_stamp": "09:25",
+     "entry_stamp": "09:30",
+     "entry": 4205.3,
+     "exit": 4226.3265,
+     "net": -2142.649999999994
+    },
+    {
+     "sym": "TVSMOTOR",
+     "date": "2026-11-03",
+     "side": 1,
+     "signal_stamp": "09:20",
+     "entry_stamp": "09:25",
+     "entry": 4243.9,
+     "exit": 4286.339,
+     "net": 4203.900000000031
+    },
+    {
+     "sym": "TVSMOTOR",
+     "date": "2026-11-03",
+     "side": -1,
+     "signal_stamp": "09:25",
+     "entry_stamp": "09:30",
+     "entry": 4265.5,
+     "exit": 4286.827499999999,
+     "net": -2172.749999999942
+    },
+    {
+     "sym": "TVSMOTOR",
+     "date": "2026-11-04",
+     "side": -1,
+     "signal_stamp": "12:10",
+     "entry_stamp": "12:15",
+     "entry": 4310.5,
+     "exit": 4332.0525,
+     "net": -2195.249999999978
+    },
+    {
+     "sym": "TVSMOTOR",
+     "date": "2026-11-05",
+     "side": -1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 4386.8,
+     "exit": 4408.7339999999995,
+     "net": -2233.3999999999287
+    },
+    {
+     "sym": "TVSMOTOR",
+     "date": "2026-11-05",
+     "side": -1,
+     "signal_stamp": "14:15",
+     "entry_stamp": "14:20",
+     "entry": 4450.9,
+     "exit": 4440.0,
+     "net": 1049.9999999999636
+    },
+    {
+     "sym": "TVSMOTOR",
+     "date": "2026-11-06",
+     "side": 1,
+     "signal_stamp": "09:40",
+     "entry_stamp": "09:45",
+     "entry": 4462.2,
+     "exit": 4439.889,
+     "net": -2271.0999999999694
+    },
+    {
+     "sym": "TVSMOTOR",
+     "date": "2026-11-09",
+     "side": -1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 4445.6,
+     "exit": 4467.8279999999995,
+     "net": -2262.7999999999156
+    },
+    {
+     "sym": "TVSMOTOR",
+     "date": "2026-11-09",
+     "side": -1,
+     "signal_stamp": "13:55",
+     "entry_stamp": "14:00",
+     "entry": 4467.9,
+     "exit": 4479.2,
+     "net": -1170.0000000000182
+    },
+    {
+     "sym": "TVSMOTOR",
+     "date": "2026-11-11",
+     "side": 1,
+     "signal_stamp": "14:40",
+     "entry_stamp": "14:45",
+     "entry": 4566.8,
+     "exit": 4543.966,
+     "net": -2323.3999999999833
+    },
+    {
+     "sym": "TVSMOTOR",
+     "date": "2026-11-12",
+     "side": 1,
+     "signal_stamp": "09:40",
+     "entry_stamp": "09:45",
+     "entry": 4577.6,
+     "exit": 4554.712,
+     "net": -2328.799999999992
+    },
+    {
+     "sym": "TVSMOTOR",
+     "date": "2026-11-13",
+     "side": -1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 4457.1,
+     "exit": 4479.3855,
+     "net": -2268.5499999999956
+    },
+    {
+     "sym": "TVSMOTOR",
+     "date": "2026-11-13",
+     "side": 1,
+     "signal_stamp": "09:20",
+     "entry_stamp": "09:25",
+     "entry": 4442.0,
+     "exit": 4486.42,
+     "net": 4402.000000000007
+    },
+    {
+     "sym": "UNITDSPR",
+     "date": "2026-11-02",
+     "side": 1,
+     "signal_stamp": "09:30",
+     "entry_stamp": "09:35",
+     "entry": 1346.0,
+     "exit": 1339.27,
+     "net": -713.0000000000018
+    },
+    {
+     "sym": "UNITDSPR",
+     "date": "2026-11-03",
+     "side": -1,
+     "signal_stamp": "10:55",
+     "entry_stamp": "11:00",
+     "entry": 1349.1,
+     "exit": 1355.8454999999997,
+     "net": -714.5499999999765
+    },
+    {
+     "sym": "UNITDSPR",
+     "date": "2026-11-05",
+     "side": -1,
+     "signal_stamp": "09:35",
+     "entry_stamp": "09:40",
+     "entry": 1401.1,
+     "exit": 1401.0,
+     "net": -30.000000000009095
+    },
+    {
+     "sym": "UNITDSPR",
+     "date": "2026-11-06",
+     "side": 1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 1393.8,
+     "exit": 1407.738,
+     "net": 1353.8000000000102
+    },
+    {
+     "sym": "UNITDSPR",
+     "date": "2026-11-06",
+     "side": 1,
+     "signal_stamp": "09:50",
+     "entry_stamp": "09:55",
+     "entry": 1408.3,
+     "exit": 1401.2585,
+     "net": -744.1500000000042
+    },
+    {
+     "sym": "UNITDSPR",
+     "date": "2026-11-09",
+     "side": -1,
+     "signal_stamp": "09:20",
+     "entry_stamp": "09:25",
+     "entry": 1425.7,
+     "exit": 1432.8284999999998,
+     "net": -752.8499999999804
+    },
+    {
+     "sym": "UNITDSPR",
+     "date": "2026-11-09",
+     "side": -1,
+     "signal_stamp": "13:25",
+     "entry_stamp": "13:30",
+     "entry": 1418.6,
+     "exit": 1425.6929999999998,
+     "net": -749.2999999999847
+    },
+    {
+     "sym": "UNITDSPR",
+     "date": "2026-11-11",
+     "side": -1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 1434.6,
+     "exit": 1441.7729999999997,
+     "net": -757.2999999999774
+    },
+    {
+     "sym": "UNITDSPR",
+     "date": "2026-11-11",
+     "side": -1,
+     "signal_stamp": "11:30",
+     "entry_stamp": "11:35",
+     "entry": 1435.4,
+     "exit": 1421.046,
+     "net": 1395.4000000000042
+    },
+    {
+     "sym": "UNITDSPR",
+     "date": "2026-11-12",
+     "side": 1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 1418.3,
+     "exit": 1411.2085,
+     "net": -749.1499999999996
+    },
+    {
+     "sym": "UNITDSPR",
+     "date": "2026-11-13",
+     "side": -1,
+     "signal_stamp": "09:20",
+     "entry_stamp": "09:25",
+     "entry": 1409.0,
+     "exit": 1416.0449999999998,
+     "net": -744.4999999999845
+    },
+    {
+     "sym": "VEDL",
+     "date": "2026-11-02",
+     "side": -1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 240.03,
+     "exit": 241.23014999999998,
+     "net": -160.01499999999794
+    },
+    {
+     "sym": "VEDL",
+     "date": "2026-11-03",
+     "side": -1,
+     "signal_stamp": "11:25",
+     "entry_stamp": "11:30",
+     "entry": 245.6,
+     "exit": 244.65,
+     "net": 54.99999999999886
+    },
+    {
+     "sym": "VEDL",
+     "date": "2026-11-06",
+     "side": -1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 257.41,
+     "exit": 258.69705,
+     "net": -168.70499999999652
+    },
+    {
+     "sym": "VEDL",
+     "date": "2026-11-06",
+     "side": -1,
+     "signal_stamp": "13:55",
+     "entry_stamp": "14:00",
+     "entry": 259.25,
+     "exit": 260.54625,
+     "net": -169.62499999999864
+    },
+    {
+     "sym": "VEDL",
+     "date": "2026-11-09",
+     "side": 1,
+     "signal_stamp": "11:20",
+     "entry_stamp": "11:25",
+     "entry": 258.64,
+     "exit": 261.2264,
+     "net": 218.6400000000026
+    },
+    {
+     "sym": "VEDL",
+     "date": "2026-11-09",
+     "side": 1,
+     "signal_stamp": "14:15",
+     "entry_stamp": "14:20",
+     "entry": 260.34,
+     "exit": 261.25,
+     "net": 51.0000000000025
+    },
+    {
+     "sym": "VEDL",
+     "date": "2026-11-11",
+     "side": -1,
+     "signal_stamp": "11:35",
+     "entry_stamp": "11:40",
+     "entry": 261.2,
+     "exit": 262.506,
+     "net": -170.59999999999832
+    },
+    {
+     "sym": "VEDL",
+     "date": "2026-11-12",
+     "side": -1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 264.25,
+     "exit": 261.6075,
+     "net": 224.2499999999984
+    },
+    {
+     "sym": "VEDL",
+     "date": "2026-11-12",
+     "side": -1,
+     "signal_stamp": "11:00",
+     "entry_stamp": "11:05",
+     "entry": 261.41,
+     "exit": 259.6,
+     "net": 141.00000000000023
+    },
+    {
+     "sym": "VEDL",
+     "date": "2026-11-13",
+     "side": 1,
+     "signal_stamp": "10:30",
+     "entry_stamp": "10:35",
+     "entry": 260.68,
+     "exit": 259.3766,
+     "net": -170.34000000000106
+    },
+    {
+     "sym": "VEDL",
+     "date": "2026-11-13",
+     "side": 1,
+     "signal_stamp": "13:40",
+     "entry_stamp": "13:45",
+     "entry": 257.54,
+     "exit": 256.2523,
+     "net": -168.77000000000294
+    },
+    {
+     "sym": "WIPRO",
+     "date": "2026-11-02",
+     "side": -1,
+     "signal_stamp": "09:25",
+     "entry_stamp": "09:30",
+     "entry": 196.26,
+     "exit": 197.24129999999997,
+     "net": -138.1299999999976
+    },
+    {
+     "sym": "WIPRO",
+     "date": "2026-11-03",
+     "side": -1,
+     "signal_stamp": "09:20",
+     "entry_stamp": "09:25",
+     "entry": 197.47,
+     "exit": 196.7,
+     "net": 37.00000000000102
+    },
+    {
+     "sym": "WIPRO",
+     "date": "2026-11-03",
+     "side": -1,
+     "signal_stamp": "14:45",
+     "entry_stamp": "14:50",
+     "entry": 197.0,
+     "exit": 196.7,
+     "net": -9.999999999998863
+    },
+    {
+     "sym": "WIPRO",
+     "date": "2026-11-04",
+     "side": -1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 196.2,
+     "exit": 194.238,
+     "net": 156.1999999999989
+    },
+    {
+     "sym": "WIPRO",
+     "date": "2026-11-05",
+     "side": -1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 196.39,
+     "exit": 197.37194999999997,
+     "net": -138.19499999999834
+    },
+    {
+     "sym": "WIPRO",
+     "date": "2026-11-06",
+     "side": -1,
+     "signal_stamp": "12:45",
+     "entry_stamp": "12:50",
+     "entry": 198.45,
+     "exit": 198.0,
+     "net": 4.999999999998863
+    },
+    {
+     "sym": "WIPRO",
+     "date": "2026-11-09",
+     "side": 1,
+     "signal_stamp": "15:00",
+     "entry_stamp": "15:05",
+     "entry": 197.17,
+     "exit": 197.72,
+     "net": 15.000000000001137
+    },
+    {
+     "sym": "WIPRO",
+     "date": "2026-11-11",
+     "side": -1,
+     "signal_stamp": "09:55",
+     "entry_stamp": "10:00",
+     "entry": 196.56,
+     "exit": 197.54279999999997,
+     "net": -138.2799999999969
+    },
+    {
+     "sym": "WIPRO",
+     "date": "2026-11-12",
+     "side": 1,
+     "signal_stamp": "15:05",
+     "entry_stamp": "15:10",
+     "entry": 195.81,
+     "exit": 195.57,
+     "net": -64.00000000000091
+    },
+    {
+     "sym": "WIPRO",
+     "date": "2026-11-13",
+     "side": -1,
+     "signal_stamp": "09:15",
+     "entry_stamp": "09:20",
+     "entry": 194.7,
+     "exit": 195.67349999999996,
+     "net": -137.3499999999973
+    },
+    {
+     "sym": "WIPRO",
+     "date": "2026-11-13",
+     "side": 1,
+     "signal_stamp": "14:20",
+     "entry_stamp": "14:25",
+     "entry": 194.9,
+     "exit": 195.13,
+     "net": -17.000000000001023
+    }
+   ]
+  }
+ },
+ "stock_book_nov_actual": 7517.94
+}
