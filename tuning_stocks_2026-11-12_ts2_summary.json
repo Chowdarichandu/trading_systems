@@ -1,0 +1,410 @@
+{
+ "started": "2026-11-12 11:01 UTC",
+ "anchors": {
+  "2026_thr100_vs_c24_dump": true,
+  "2025_thr100_vs_c24_dump_janoct": true,
+  "nov_thr100_vs_paper_log": true
+ },
+ "marginal_band": {
+  "2026": {
+   "band_trades": {
+    "trades": 7,
+    "net": 244.08,
+    "wins": 3,
+    "win_rate": 42.9,
+    "expectancy": 34.87,
+    "ex_top3": -2045.43,
+    "top3_stocks": [
+     [
+      "OBEROIRLTY",
+      1102.89
+     ],
+     [
+      "HINDCOPPER",
+      826.62
+     ],
+     [
+      "IRCTC",
+      360.0
+     ]
+    ],
+    "long": {
+     "trades": 2,
+     "net": 724.23
+    },
+    "short": {
+     "trades": 5,
+     "net": -480.15
+    },
+    "months": {
+     "2026-05": 3207.68,
+     "2026-07": -460.8,
+     "2026-08": 360.0,
+     "2026-10": -2862.8
+    }
+   },
+   "band_rows": [
+    {
+     "date": "2026-05-11",
+     "stock": "OBEROIRLTY",
+     "dir": "SHORT",
+     "move_pct": -0.891,
+     "net": 2483.45
+    },
+    {
+     "date": "2026-05-18",
+     "stock": "HINDCOPPER",
+     "dir": "LONG",
+     "move_pct": 0.977,
+     "net": 826.62
+    },
+    {
+     "date": "2026-05-18",
+     "stock": "NHPC",
+     "dir": "LONG",
+     "move_pct": 0.989,
+     "net": -102.39
+    },
+    {
+     "date": "2026-07-24",
+     "stock": "HINDZINC",
+     "dir": "SHORT",
+     "move_pct": -0.913,
+     "net": -460.8
+    },
+    {
+     "date": "2026-08-13",
+     "stock": "IRCTC",
+     "dir": "SHORT",
+     "move_pct": -0.93,
+     "net": 360.0
+    },
+    {
+     "date": "2026-10-19",
+     "stock": "OBEROIRLTY",
+     "dir": "SHORT",
+     "move_pct": -0.922,
+     "net": -1380.56
+    },
+    {
+     "date": "2026-10-28",
+     "stock": "HINDUNILVR",
+     "dir": "SHORT",
+     "move_pct": -0.875,
+     "net": -1482.24
+    }
+   ]
+  },
+  "2025": {
+   "band_trades": {
+    "trades": 2,
+    "net": 2420.05,
+    "wins": 2,
+    "win_rate": 100.0,
+    "expectancy": 1210.03,
+    "ex_top3": 0.0,
+    "top3_stocks": [
+     [
+      "GODREJCP",
+      1831.25
+     ],
+     [
+      "OIL",
+      588.8
+     ]
+    ],
+    "long": {
+     "trades": 0,
+     "net": 0
+    },
+    "short": {
+     "trades": 2,
+     "net": 2420.05
+    },
+    "months": {
+     "2025-05": 1831.25,
+     "2025-08": 588.8
+    }
+   },
+   "band_rows": [
+    {
+     "date": "2025-05-07",
+     "stock": "GODREJCP",
+     "dir": "SHORT",
+     "move_pct": -0.981,
+     "net": 1831.25
+    },
+    {
+     "date": "2025-08-13",
+     "stock": "OIL",
+     "dir": "SHORT",
+     "move_pct": -0.908,
+     "net": 588.8
+    }
+   ]
+  },
+  "nov": {
+   "band_trades": {
+    "trades": 1,
+    "net": 445.48,
+    "wins": 1,
+    "win_rate": 100.0,
+    "expectancy": 445.48,
+    "ex_top3": 0.0,
+    "top3_stocks": [
+     [
+      "NATIONALUM",
+      445.48
+     ]
+    ],
+    "long": {
+     "trades": 0,
+     "net": 0
+    },
+    "short": {
+     "trades": 1,
+     "net": 445.48
+    },
+    "months": {
+     "2026-11": 445.48
+    }
+   },
+   "band_rows": [
+    {
+     "date": "2026-11-03",
+     "stock": "NATIONALUM",
+     "dir": "SHORT",
+     "move_pct": -0.869,
+     "net": 445.48
+    }
+   ]
+  }
+ },
+ "2026_thr100": {
+  "trades": 35,
+  "net": 25271.54,
+  "wins": 23,
+  "win_rate": 65.7,
+  "expectancy": 722.04,
+  "ex_top3": 6638.41,
+  "top3_stocks": [
+   [
+    "TVSMOTOR",
+    10606.0
+   ],
+   [
+    "HINDUNILVR",
+    4650.6
+   ],
+   [
+    "GLENMARK",
+    3376.53
+   ]
+  ],
+  "long": {
+   "trades": 12,
+   "net": 4978.34
+  },
+  "short": {
+   "trades": 23,
+   "net": 20293.2
+  },
+  "months": {
+   "2026-01": 8377.83,
+   "2026-02": 4355.99,
+   "2026-04": -521.91,
+   "2026-05": 5338.3,
+   "2026-07": 1735.35,
+   "2026-08": 4896.21,
+   "2026-10": 1089.77
+  }
+ },
+ "2026_thr080": {
+  "trades": 42,
+  "net": 25515.62,
+  "wins": 26,
+  "win_rate": 61.9,
+  "expectancy": 607.51,
+  "ex_top3": 8364.73,
+  "top3_stocks": [
+   [
+    "TVSMOTOR",
+    10606.0
+   ],
+   [
+    "GLENMARK",
+    3376.53
+   ],
+   [
+    "HINDUNILVR",
+    3168.36
+   ]
+  ],
+  "long": {
+   "trades": 14,
+   "net": 5702.57
+  },
+  "short": {
+   "trades": 28,
+   "net": 19813.05
+  },
+  "months": {
+   "2026-01": 8377.83,
+   "2026-02": 4355.99,
+   "2026-04": -521.91,
+   "2026-05": 8545.98,
+   "2026-07": 1274.55,
+   "2026-08": 5256.21,
+   "2026-10": -1773.03
+  }
+ },
+ "2025_thr100": {
+  "trades": 43,
+  "net": 4671.64,
+  "wins": 14,
+  "win_rate": 32.6,
+  "expectancy": 108.64,
+  "ex_top3": -8414.85,
+  "top3_stocks": [
+   [
+    "OBEROIRLTY",
+    6200.42
+   ],
+   [
+    "TVSMOTOR",
+    4049.0
+   ],
+   [
+    "BDL",
+    2837.07
+   ]
+  ],
+  "long": {
+   "trades": 22,
+   "net": -440.6
+  },
+  "short": {
+   "trades": 21,
+   "net": 5112.24
+  },
+  "months": {
+   "2025-01": 2744.39,
+   "2025-02": 810.94,
+   "2025-03": -1100.68,
+   "2025-04": 5637.37,
+   "2025-05": -1639.43,
+   "2025-07": -1245.4,
+   "2025-08": -622.8,
+   "2025-09": -376.88,
+   "2025-10": 464.13
+  }
+ },
+ "2025_thr080": {
+  "trades": 45,
+  "net": 7091.69,
+  "wins": 16,
+  "win_rate": 35.6,
+  "expectancy": 157.59,
+  "ex_top3": -5994.8,
+  "top3_stocks": [
+   [
+    "OBEROIRLTY",
+    6200.42
+   ],
+   [
+    "TVSMOTOR",
+    4049.0
+   ],
+   [
+    "BDL",
+    2837.07
+   ]
+  ],
+  "long": {
+   "trades": 22,
+   "net": -440.6
+  },
+  "short": {
+   "trades": 23,
+   "net": 7532.29
+  },
+  "months": {
+   "2025-01": 2744.39,
+   "2025-02": 810.94,
+   "2025-03": -1100.68,
+   "2025-04": 5637.37,
+   "2025-05": 191.82,
+   "2025-07": -1245.4,
+   "2025-08": -34.0,
+   "2025-09": -376.88,
+   "2025-10": 464.13
+  }
+ },
+ "nov_thr100": {
+  "trades": 5,
+  "net": 1244.0,
+  "wins": 3,
+  "win_rate": 60.0,
+  "expectancy": 248.8,
+  "ex_top3": -405.27,
+  "top3_stocks": [
+   [
+    "KALYANKJIL",
+    959.3
+   ],
+   [
+    "PFC",
+    448.77
+   ],
+   [
+    "TATASTEEL",
+    241.2
+   ]
+  ],
+  "long": {
+   "trades": 4,
+   "net": 1002.8
+  },
+  "short": {
+   "trades": 1,
+   "net": 241.2
+  },
+  "months": {
+   "2026-11": 1244.0
+  }
+ },
+ "nov_thr080": {
+  "trades": 6,
+  "net": 1689.48,
+  "wins": 4,
+  "win_rate": 66.7,
+  "expectancy": 281.58,
+  "ex_top3": -164.07,
+  "top3_stocks": [
+   [
+    "KALYANKJIL",
+    959.3
+   ],
+   [
+    "PFC",
+    448.77
+   ],
+   [
+    "NATIONALUM",
+    445.48
+   ]
+  ],
+  "long": {
+   "trades": 4,
+   "net": 1002.8
+  },
+  "short": {
+   "trades": 2,
+   "net": 686.68
+  },
+  "months": {
+   "2026-11": 1689.48
+  }
+ },
+ "elapsed_secs": 26.5
+}

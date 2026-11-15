@@ -1,0 +1,689 @@
+{
+ "index": "BANKNIFTY",
+ "variant": "STACK v2 + BASE-LOAD FALLBACK v1",
+ "verdict": "FAIL",
+ "gate": {
+  "G1_total_beats_incumbent": false,
+  "G2_no_new_red_month": true,
+  "G3_ex_top3_not_worse": true,
+  "G4a_beats_delay6_placebo": false,
+  "G4b_beats_random_placebo": false,
+  "G5_traded_rate_materially_higher": false
+ },
+ "hygiene": {
+  "nc": 0,
+  "rederive_ok": true,
+  "audit_violations": 0,
+  "truncation_violations": 0,
+  "resum_ok": true
+ },
+ "census": {
+  "sysmap_signals_total": 255,
+  "sysmap_signals_ge_1330": 1,
+  "sysmap_signals_in_window": 1,
+  "eligible_days": 118
+ },
+ "incumbent": {
+  "total": 127351.5,
+  "n": 111,
+  "months": {
+   "2026-01": [
+    24028.0,
+    8
+   ],
+   "2026-02": [
+    15284.0,
+    10
+   ],
+   "2026-03": [
+    8560.0,
+    17
+   ],
+   "2026-04": [
+    9810.0,
+    12
+   ],
+   "2026-05": [
+    25400.0,
+    10
+   ],
+   "2026-06": [
+    3040.0,
+    8
+   ],
+   "2026-07": [
+    4224.0,
+    18
+   ],
+   "2026-08": [
+    2059.5,
+    6
+   ],
+   "2026-09": [
+    15056.5,
+    11
+   ],
+   "2026-10": [
+    19889.5,
+    11
+   ]
+  },
+  "halves": {
+   "Jan-May": 83082.0,
+   "Jun-Oct": 44269.5
+  },
+  "red_months": [],
+  "top3": [
+   9680.0,
+   9680.0,
+   7463.0
+  ],
+  "ex_top3_legs": 100528.5,
+  "ex_top3_days": 100528.5,
+  "traded_days": 89,
+  "traded_days_per_month": 8.9,
+  "trading_days": 205
+ },
+ "fallback": {
+  "total": 0,
+  "n": 0,
+  "months": {
+   "2026-01": [
+    0.0,
+    0
+   ],
+   "2026-02": [
+    0.0,
+    0
+   ],
+   "2026-03": [
+    0.0,
+    0
+   ],
+   "2026-04": [
+    0.0,
+    0
+   ],
+   "2026-05": [
+    0.0,
+    0
+   ],
+   "2026-06": [
+    0.0,
+    0
+   ],
+   "2026-07": [
+    0.0,
+    0
+   ],
+   "2026-08": [
+    0.0,
+    0
+   ],
+   "2026-09": [
+    0.0,
+    0
+   ],
+   "2026-10": [
+    0.0,
+    0
+   ]
+  },
+  "halves": {
+   "Jan-May": 0.0,
+   "Jun-Oct": 0.0
+  },
+  "red_months": [],
+  "top3": [],
+  "ex_top3_legs": 0,
+  "ex_top3_days": 0,
+  "traded_days": 0,
+  "traded_days_per_month": 0.0,
+  "trading_days": 205
+ },
+ "combined": {
+  "total": 127351.5,
+  "n": 111,
+  "months": {
+   "2026-01": [
+    24028.0,
+    8
+   ],
+   "2026-02": [
+    15284.0,
+    10
+   ],
+   "2026-03": [
+    8560.0,
+    17
+   ],
+   "2026-04": [
+    9810.0,
+    12
+   ],
+   "2026-05": [
+    25400.0,
+    10
+   ],
+   "2026-06": [
+    3040.0,
+    8
+   ],
+   "2026-07": [
+    4224.0,
+    18
+   ],
+   "2026-08": [
+    2059.5,
+    6
+   ],
+   "2026-09": [
+    15056.5,
+    11
+   ],
+   "2026-10": [
+    19889.5,
+    11
+   ]
+  },
+  "halves": {
+   "Jan-May": 83082.0,
+   "Jun-Oct": 44269.5
+  },
+  "red_months": [],
+  "top3": [
+   9680.0,
+   9680.0,
+   7463.0
+  ],
+  "ex_top3_legs": 100528.5,
+  "ex_top3_days": 100528.5,
+  "traded_days": 89,
+  "traded_days_per_month": 8.9,
+  "trading_days": 205
+ },
+ "placebo_delay6_total": 127351.5,
+ "placebo_random_total": 127351.5,
+ "placebo_unfilled": {
+  "delay": 0,
+  "random": 0
+ },
+ "fallback_legs_generated": 0,
+ "fallback_flat_day_legs": 0,
+ "fallback_race_day_legs": 0,
+ "excluded_days": [
+  [
+   "2026-01-01",
+   "no-u1-signal-after-1330"
+  ],
+  [
+   "2026-01-02",
+   "no-u1-signal-after-1330"
+  ],
+  [
+   "2026-01-06",
+   "no-u1-signal-after-1330"
+  ],
+  [
+   "2026-01-07",
+   "no-u1-signal-after-1330"
+  ],
+  [
+   "2026-01-08",
+   "no-u1-signal-after-1330"
+  ],
+  [
+   "2026-01-09",
+   "no-u1-signal-after-1330"
+  ],
+  [
+   "2026-01-12",
+   "no-u1-signal-after-1330"
+  ],
+  [
+   "2026-01-14",
+   "no-u1-signal-after-1330"
+  ],
+  [
+   "2026-01-16",
+   "no-u1-signal-after-1330"
+  ],
+  [
+   "2026-01-19",
+   "no-u1-signal-after-1330"
+  ],
+  [
+   "2026-01-27",
+   "no-u1-signal-after-1330"
+  ],
+  [
+   "2026-01-28",
+   "no-u1-signal-after-1330"
+  ],
+  [
+   "2026-01-29",
+   "no-u1-signal-after-1330"
+  ],
+  [
+   "2026-01-30",
+   "no-u1-signal-after-1330"
+  ],
+  [
+   "2026-02-01",
+   "no-u1-signal-after-1330"
+  ],
+  [
+   "2026-02-03",
+   "no-u1-signal-after-1330"
+  ],
+  [
+   "2026-02-04",
+   "no-u1-signal-after-1330"
+  ],
+  [
+   "2026-02-06",
+   "no-u1-signal-after-1330"
+  ],
+  [
+   "2026-02-09",
+   "no-u1-signal-after-1330"
+  ],
+  [
+   "2026-02-10",
+   "no-u1-signal-after-1330"
+  ],
+  [
+   "2026-02-11",
+   "no-u1-signal-after-1330"
+  ],
+  [
+   "2026-02-12",
+   "no-u1-signal-after-1330"
+  ],
+  [
+   "2026-02-16",
+   "no-u1-signal-after-1330"
+  ],
+  [
+   "2026-02-17",
+   "no-u1-signal-after-1330"
+  ],
+  [
+   "2026-02-18",
+   "no-u1-signal-after-1330"
+  ],
+  [
+   "2026-02-19",
+   "no-u1-signal-after-1330"
+  ],
+  [
+   "2026-03-02",
+   "no-u1-signal-after-1330"
+  ],
+  [
+   "2026-03-04",
+   "no-u1-signal-after-1330"
+  ],
+  [
+   "2026-03-09",
+   "no-u1-signal-after-1330"
+  ],
+  [
+   "2026-03-10",
+   "no-u1-signal-after-1330"
+  ],
+  [
+   "2026-03-12",
+   "no-u1-signal-after-1330"
+  ],
+  [
+   "2026-03-18",
+   "no-u1-signal-after-1330"
+  ],
+  [
+   "2026-03-19",
+   "no-u1-signal-after-1330"
+  ],
+  [
+   "2026-03-24",
+   "no-u1-signal-after-1330"
+  ],
+  [
+   "2026-03-25",
+   "no-u1-signal-after-1330"
+  ],
+  [
+   "2026-04-06",
+   "no-u1-signal-after-1330"
+  ],
+  [
+   "2026-04-07",
+   "no-u1-signal-after-1330"
+  ],
+  [
+   "2026-04-08",
+   "no-u1-signal-after-1330"
+  ],
+  [
+   "2026-04-16",
+   "no-u1-signal-after-1330"
+  ],
+  [
+   "2026-04-17",
+   "no-u1-signal-after-1330"
+  ],
+  [
+   "2026-04-20",
+   "no-u1-signal-after-1330"
+  ],
+  [
+   "2026-04-21",
+   "no-u1-signal-after-1330"
+  ],
+  [
+   "2026-04-22",
+   "no-u1-signal-after-1330"
+  ],
+  [
+   "2026-04-23",
+   "no-u1-signal-after-1330"
+  ],
+  [
+   "2026-04-29",
+   "no-u1-signal-after-1330"
+  ],
+  [
+   "2026-04-30",
+   "no-u1-signal-after-1330"
+  ],
+  [
+   "2026-05-04",
+   "no-u1-signal-after-1330"
+  ],
+  [
+   "2026-05-06",
+   "no-u1-signal-after-1330"
+  ],
+  [
+   "2026-05-07",
+   "no-u1-signal-after-1330"
+  ],
+  [
+   "2026-05-13",
+   "no-u1-signal-after-1330"
+  ],
+  [
+   "2026-05-15",
+   "no-u1-signal-after-1330"
+  ],
+  [
+   "2026-05-19",
+   "no-u1-signal-after-1330"
+  ],
+  [
+   "2026-05-20",
+   "no-u1-signal-after-1330"
+  ],
+  [
+   "2026-05-22",
+   "no-u1-signal-after-1330"
+  ],
+  [
+   "2026-05-25",
+   "no-u1-signal-after-1330"
+  ],
+  [
+   "2026-05-26",
+   "no-u1-signal-after-1330"
+  ],
+  [
+   "2026-05-27",
+   "no-u1-signal-after-1330"
+  ],
+  [
+   "2026-06-03",
+   "no-u1-signal-after-1330"
+  ],
+  [
+   "2026-06-04",
+   "no-u1-signal-after-1330"
+  ],
+  [
+   "2026-06-05",
+   "no-u1-signal-after-1330"
+  ],
+  [
+   "2026-06-11",
+   "no-u1-signal-after-1330"
+  ],
+  [
+   "2026-06-12",
+   "no-u1-signal-after-1330"
+  ],
+  [
+   "2026-06-15",
+   "no-u1-signal-after-1330"
+  ],
+  [
+   "2026-06-17",
+   "no-u1-signal-after-1330"
+  ],
+  [
+   "2026-06-18",
+   "no-u1-signal-after-1330"
+  ],
+  [
+   "2026-06-19",
+   "no-u1-signal-after-1330"
+  ],
+  [
+   "2026-06-22",
+   "no-u1-signal-after-1330"
+  ],
+  [
+   "2026-06-23",
+   "no-u1-signal-after-1330"
+  ],
+  [
+   "2026-06-25",
+   "no-u1-signal-after-1330"
+  ],
+  [
+   "2026-06-29",
+   "no-u1-signal-after-1330"
+  ],
+  [
+   "2026-06-30",
+   "no-u1-signal-after-1330"
+  ],
+  [
+   "2026-07-09",
+   "no-u1-signal-after-1330"
+  ],
+  [
+   "2026-07-10",
+   "no-u1-signal-after-1330"
+  ],
+  [
+   "2026-07-14",
+   "no-u1-signal-after-1330"
+  ],
+  [
+   "2026-07-17",
+   "no-u1-signal-after-1330"
+  ],
+  [
+   "2026-07-20",
+   "no-u1-signal-after-1330"
+  ],
+  [
+   "2026-07-21",
+   "no-u1-signal-after-1330"
+  ],
+  [
+   "2026-07-22",
+   "no-u1-signal-after-1330"
+  ],
+  [
+   "2026-07-27",
+   "no-u1-signal-after-1330"
+  ],
+  [
+   "2026-07-29",
+   "no-u1-signal-after-1330"
+  ],
+  [
+   "2026-07-31",
+   "no-u1-signal-after-1330"
+  ],
+  [
+   "2026-08-03",
+   "no-u1-signal-after-1330"
+  ],
+  [
+   "2026-08-05",
+   "no-u1-signal-after-1330"
+  ],
+  [
+   "2026-08-06",
+   "no-u1-signal-after-1330"
+  ],
+  [
+   "2026-08-10",
+   "no-u1-signal-after-1330"
+  ],
+  [
+   "2026-08-11",
+   "no-u1-signal-after-1330"
+  ],
+  [
+   "2026-08-13",
+   "no-u1-signal-after-1330"
+  ],
+  [
+   "2026-08-14",
+   "no-u1-signal-after-1330"
+  ],
+  [
+   "2026-08-17",
+   "no-u1-signal-after-1330"
+  ],
+  [
+   "2026-08-18",
+   "no-u1-signal-after-1330"
+  ],
+  [
+   "2026-08-19",
+   "no-u1-signal-after-1330"
+  ],
+  [
+   "2026-08-20",
+   "no-u1-signal-after-1330"
+  ],
+  [
+   "2026-08-21",
+   "no-u1-signal-after-1330"
+  ],
+  [
+   "2026-08-24",
+   "no-u1-signal-after-1330"
+  ],
+  [
+   "2026-08-26",
+   "no-u1-signal-after-1330"
+  ],
+  [
+   "2026-08-28",
+   "no-u1-signal-after-1330"
+  ],
+  [
+   "2026-08-31",
+   "no-u1-signal-after-1330"
+  ],
+  [
+   "2026-09-03",
+   "no-u1-signal-after-1330"
+  ],
+  [
+   "2026-09-04",
+   "no-u1-signal-after-1330"
+  ],
+  [
+   "2026-09-07",
+   "no-u1-signal-after-1330"
+  ],
+  [
+   "2026-09-08",
+   "no-u1-signal-after-1330"
+  ],
+  [
+   "2026-09-09",
+   "no-u1-signal-after-1330"
+  ],
+  [
+   "2026-09-10",
+   "no-u1-signal-after-1330"
+  ],
+  [
+   "2026-09-16",
+   "no-u1-signal-after-1330"
+  ],
+  [
+   "2026-09-18",
+   "no-u1-signal-after-1330"
+  ],
+  [
+   "2026-09-21",
+   "no-u1-signal-after-1330"
+  ],
+  [
+   "2026-09-23",
+   "no-u1-signal-after-1330"
+  ],
+  [
+   "2026-09-25",
+   "no-u1-signal-after-1330"
+  ],
+  [
+   "2026-10-06",
+   "no-u1-signal-after-1330"
+  ],
+  [
+   "2026-10-09",
+   "no-u1-signal-after-1330"
+  ],
+  [
+   "2026-10-14",
+   "no-u1-signal-after-1330"
+  ],
+  [
+   "2026-10-15",
+   "no-u1-signal-after-1330"
+  ],
+  [
+   "2026-10-16",
+   "no-u1-signal-after-1330"
+  ],
+  [
+   "2026-10-19",
+   "no-u1-signal-after-1330"
+  ],
+  [
+   "2026-10-22",
+   "no-u1-signal-after-1330"
+  ],
+  [
+   "2026-10-28",
+   "no-u1-signal-after-1330"
+  ],
+  [
+   "2026-10-29",
+   "no-u1-signal-after-1330"
+  ],
+  [
+   "2026-10-30",
+   "no-u1-signal-after-1330"
+  ]
+ ],
+ "nc_legs": []
+}

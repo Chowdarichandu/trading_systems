@@ -1,0 +1,292 @@
+{
+ "started": "2026-11-12 10:59 UTC",
+ "windows": {
+  "F4-C": [
+   "10:30-12:00"
+  ],
+  "INV-LONG-C": [
+   "09:15-10:30"
+  ],
+  "INV-ABOVE-C": []
+ },
+ "placebo_windows": {
+  "F4-C": [
+   "13:30-15:10"
+  ],
+  "INV-LONG-C": [
+   "10:30-12:00"
+  ],
+  "INV-ABOVE-C": []
+ },
+ "harness_validation": {
+  "baseline_repro": true,
+  "failed_combined_repro": true,
+  "t2_repro": true,
+  "s1_repro": true
+ },
+ "TS1": {
+  "stats": {
+   "trades": 81,
+   "net": 7381.08,
+   "win_rate": 39.5,
+   "expectancy": 91.12,
+   "ex_top3": -4599.96,
+   "top3_stocks": [
+    [
+     "TCS",
+     4716.17
+    ],
+    [
+     "M&M",
+     3959.87
+    ],
+    [
+     "DRREDDY",
+     3305.0
+    ]
+   ],
+   "fc_net": 540.63
+  },
+  "october": {
+   "trades": 68,
+   "net": 178.45,
+   "win_rate": 38.2,
+   "expectancy": 2.62,
+   "ex_top3": -10786.67,
+   "top3_stocks": [
+    [
+     "TCS",
+     4716.17
+    ],
+    [
+     "DRREDDY",
+     3305.0
+    ],
+    [
+     "EVONILE",
+     2943.95
+    ]
+   ],
+   "fc_net": 300.48
+  },
+  "november": {
+   "trades": 13,
+   "net": 7202.63,
+   "win_rate": 46.2,
+   "expectancy": 554.05,
+   "ex_top3": -914.04,
+   "top3_stocks": [
+    [
+     "M&M",
+     3959.87
+    ],
+    [
+     "GLENMARK",
+     3197.5
+    ],
+    [
+     "KALYANKJIL",
+     959.3
+    ]
+   ],
+   "fc_net": 240.15
+  },
+  "chain_attribution": {
+   "F4-C": {
+    "picks": 27,
+    "net": 2400.15
+   },
+   "INV-ABOVE-C": {
+    "picks": 0,
+    "net": 0
+   },
+   "INV-LONG-C": {
+    "picks": 15,
+    "net": -3743.46
+   }
+  },
+  "reaction_attribution": {
+   "picks": 39,
+   "net": 8724.39
+  }
+ },
+ "PTS1": {
+  "stats": {
+   "trades": 40,
+   "net": 8332.37,
+   "win_rate": 42.5,
+   "expectancy": 208.31,
+   "ex_top3": -3648.67,
+   "top3_stocks": [
+    [
+     "TCS",
+     4716.17
+    ],
+    [
+     "M&M",
+     3959.87
+    ],
+    [
+     "DRREDDY",
+     3305.0
+    ]
+   ],
+   "fc_net": 358.87
+  },
+  "october": {
+   "trades": 29,
+   "net": 1567.99,
+   "win_rate": 44.8,
+   "expectancy": 54.07,
+   "ex_top3": -7289.99,
+   "top3_stocks": [
+    [
+     "TCS",
+     4716.17
+    ],
+    [
+     "DRREDDY",
+     3305.0
+    ],
+    [
+     "HDFCBANK",
+     836.81
+    ]
+   ],
+   "fc_net": 503.21
+  },
+  "november": {
+   "trades": 11,
+   "net": 6764.38,
+   "win_rate": 36.4,
+   "expectancy": 614.94,
+   "ex_top3": -1352.29,
+   "top3_stocks": [
+    [
+     "M&M",
+     3959.87
+    ],
+    [
+     "GLENMARK",
+     3197.5
+    ],
+    [
+     "KALYANKJIL",
+     959.3
+    ]
+   ],
+   "fc_net": -144.34
+  },
+  "chain_attribution": {
+   "F4-C": {
+    "picks": 1,
+    "net": -392.02
+   },
+   "INV-ABOVE-C": {
+    "picks": 0,
+    "net": 0
+   },
+   "INV-LONG-C": {
+    "picks": 0,
+    "net": 0
+   }
+  },
+  "reaction_attribution": {
+   "picks": 39,
+   "net": 8724.39
+  }
+ },
+ "gate_legs": {
+  "combined_ex_top3_gt_baseline": false,
+  "headline_improvement": false,
+  "october_not_worse": false,
+  "november_not_worse": true,
+  "beats_placebo_ex_top3": false,
+  "truncation_spot_proof": true
+ },
+ "resum_TS1": {
+  "ok": true,
+  "net": 7381.08,
+  "fc_net": 540.63,
+  "ex_top3": -4599.96,
+  "oct_net": 178.45,
+  "nov_net": 7202.63
+ },
+ "resum_PTS1": {
+  "ok": true,
+  "net": 8332.37,
+  "fc_net": 358.87,
+  "ex_top3": -3648.67,
+  "oct_net": 1567.99,
+  "nov_net": 6764.38
+ },
+ "truncation_spot_proof": [
+  {
+   "day": "2026-10-16",
+   "slice": "10:30",
+   "checked": 1,
+   "pass": true,
+   "got": null,
+   "want": null
+  },
+  {
+   "day": "2026-10-16",
+   "slice": "12:00",
+   "checked": 1,
+   "pass": true,
+   "got": null,
+   "want": null
+  },
+  {
+   "day": "2026-10-16",
+   "slice": "13:30",
+   "checked": 1,
+   "pass": true,
+   "got": null,
+   "want": null
+  },
+  {
+   "day": "2026-10-16",
+   "slice": "15:00",
+   "checked": 3,
+   "pass": true,
+   "got": null,
+   "want": null
+  },
+  {
+   "day": "2026-11-11",
+   "slice": "10:30",
+   "checked": 2,
+   "pass": true,
+   "got": null,
+   "want": null
+  },
+  {
+   "day": "2026-11-11",
+   "slice": "12:00",
+   "checked": 2,
+   "pass": true,
+   "got": null,
+   "want": null
+  },
+  {
+   "day": "2026-11-11",
+   "slice": "13:30",
+   "checked": 2,
+   "pass": true,
+   "got": null,
+   "want": null
+  },
+  {
+   "day": "2026-11-11",
+   "slice": "15:00",
+   "checked": 2,
+   "pass": true,
+   "got": null,
+   "want": null
+  }
+ ],
+ "spot_proof_pass": true,
+ "gate_pass": false,
+ "elapsed_secs": 80.6
+}

@@ -1,0 +1,6210 @@
+{
+ "session": "tuning_bank_2026-11-12",
+ "anchor": {
+  "incumbent": "TUNED STACK v2 (EVE-19)",
+  "legs": 111,
+  "total": 127351.5,
+  "battery": {
+   "n_legs": 111,
+   "n_days": 89,
+   "total": 127351.5,
+   "per_month": 12735.15,
+   "per_leg": 1147.31,
+   "legs_per_month": 11.1,
+   "legs_per_week": 2.73,
+   "months": {
+    "2026-01": 24028.0,
+    "2026-02": 15284.0,
+    "2026-03": 8560.0,
+    "2026-04": 9810.0,
+    "2026-05": 25400.0,
+    "2026-06": 3040.0,
+    "2026-07": 4224.0,
+    "2026-08": 2059.5,
+    "2026-09": 15056.5,
+    "2026-10": 19889.5
+   },
+   "H1": 83082.0,
+   "H2": 44269.5,
+   "ex_top3_legs": 100528.5,
+   "top3_legs": [
+    9680.0,
+    9680.0,
+    7463.0
+   ],
+   "ex_top3_days": 100528.5,
+   "top3_days": [
+    9680.0,
+    9680.0,
+    7463.0
+   ],
+   "worst_day": {
+    "date": "2026-03-05",
+    "net": -3440.0
+   },
+   "worst_drawdown": -7221.0,
+   "pct_positive_days": 67.4
+  },
+  "leg_for_leg": "exact vs bank_positive_tuning_2026-11-10_eve19_trades.csv",
+  "summary_battery_match": "total/H1/H2/ex-top3 legs+days equal the frozen session summary"
+ },
+ "param_distribution_final": {
+  "stop50/trig90/lock90/tgt2180": {
+   "n": 55,
+   "CE": 8,
+   "PE": 47,
+   "net": 50753.0
+  },
+  "stop50/trig90/lockNone/tgt2None": {
+   "n": 22,
+   "CE": 3,
+   "PE": 19,
+   "net": 8399.0
+  },
+  "stop50/trig90/lock50/tgt2150": {
+   "n": 21,
+   "CE": 8,
+   "PE": 13,
+   "net": 26217.0
+  },
+  "stop50/trig105/lock75/tgt2330": {
+   "n": 13,
+   "CE": 2,
+   "PE": 11,
+   "net": 41982.5
+  }
+ },
+ "variant_touch_counts": {
+  "T-B1a": {
+   "legs_touched": 98,
+   "pe_touched": 79
+  },
+  "T-B1b": {
+   "legs_touched": 98,
+   "pe_touched": 79
+  },
+  "T-B2a": {
+   "legs_touched": 90,
+   "pe_touched": 90
+  },
+  "T-B2b": {
+   "legs_touched": 90,
+   "pe_touched": 90
+  },
+  "T-B2c": {
+   "legs_touched": 37,
+   "pe_touched": 37
+  }
+ },
+ "variants": {
+  "T-B1a": {
+   "label": "LOCK30-TRAIL (trig-90 legs: at +90 lock entry+30, trail to SQ)",
+   "battery": {
+    "n_legs": 111,
+    "n_days": 89,
+    "total": 132651.0,
+    "per_month": 13265.1,
+    "per_leg": 1195.05,
+    "legs_per_month": 11.1,
+    "legs_per_week": 2.73,
+    "months": {
+     "2026-01": 23428.0,
+     "2026-02": 10938.5,
+     "2026-03": 19157.5,
+     "2026-04": 9327.0,
+     "2026-05": 17871.5,
+     "2026-06": 5381.5,
+     "2026-07": 14659.5,
+     "2026-08": -1540.5,
+     "2026-09": 21943.0,
+     "2026-10": 11485.0
+    },
+    "H1": 80722.5,
+    "H2": 51928.5,
+    "ex_top3_legs": 93039.0,
+    "top3_legs": [
+     15884.0,
+     12144.5,
+     11583.5
+    ],
+    "ex_top3_days": 94759.0,
+    "top3_days": [
+     14164.0,
+     12144.5,
+     11583.5
+    ],
+    "worst_day": {
+     "date": "2026-03-05",
+     "net": -3440.0
+    },
+    "worst_drawdown": -10821.0,
+    "pct_positive_days": 61.8
+   },
+   "placebo_delay6_total": 25169.5,
+   "placebo_reentry_shifted_legs": 14,
+   "gate_fails": [
+    "ex-top3 legs 93039.0 vs base 100528.5",
+    "ex-top3 days 94759.0 vs base 100528.5",
+    "month 2026-08 flips green->red (2059.5 -> -1540.5)"
+   ],
+   "verdict": "FAIL",
+   "changed_legs": [
+    {
+     "date": "2026-02-24",
+     "direction": "PE",
+     "family": "BASE",
+     "rep": "(lA) v2",
+     "entry_time": "12:45",
+     "old_reason": "target",
+     "new_reason": "runner_stop",
+     "old_exit_time": "13:30",
+     "new_exit_time": "13:40",
+     "old_net": 2480.0,
+     "new_net": 680.0,
+     "delta": -1800.0
+    },
+    {
+     "date": "2026-02-25",
+     "direction": "PE",
+     "family": "BASE",
+     "rep": "Skill V3",
+     "entry_time": "10:50",
+     "old_reason": "runner_stop",
+     "new_reason": "runner_square_off",
+     "old_exit_time": "12:50",
+     "new_exit_time": "15:20",
+     "old_net": 2480.0,
+     "new_net": 1734.5,
+     "delta": -745.5
+    },
+    {
+     "date": "2026-02-26",
+     "direction": "PE",
+     "family": "BASE",
+     "rep": "Skill V3",
+     "entry_time": "10:40",
+     "old_reason": "runner_stop",
+     "new_reason": "runner_stop",
+     "old_exit_time": "12:25",
+     "new_exit_time": "14:30",
+     "old_net": 2480.0,
+     "new_net": 680.0,
+     "delta": -1800.0
+    },
+    {
+     "date": "2026-03-06",
+     "direction": "PE",
+     "family": "BASE",
+     "rep": "V5 v2",
+     "entry_time": "10:05",
+     "old_reason": "runner_stop",
+     "new_reason": "runner_square_off",
+     "old_exit_time": "12:30",
+     "new_exit_time": "15:20",
+     "old_net": 2480.0,
+     "new_net": 11538.5,
+     "delta": 9058.5
+    },
+    {
+     "date": "2026-03-13",
+     "direction": "PE",
+     "family": "BASE",
+     "rep": "(lA) v2",
+     "entry_time": "09:50",
+     "old_reason": "runner_stop",
+     "new_reason": "runner_stop",
+     "old_exit_time": "10:00",
+     "new_exit_time": "10:50",
+     "old_net": 2480.0,
+     "new_net": 680.0,
+     "delta": -1800.0
+    },
+    {
+     "date": "2026-03-16",
+     "direction": "PE",
+     "family": "BASE",
+     "rep": "(lA) v2",
+     "entry_time": "10:25",
+     "old_reason": "runner_stop",
+     "new_reason": "runner_stop",
+     "old_exit_time": "10:55",
+     "new_exit_time": "11:05",
+     "old_net": 2480.0,
+     "new_net": 680.0,
+     "delta": -1800.0
+    },
+    {
+     "date": "2026-03-17",
+     "direction": "PE",
+     "family": "S3-R1",
+     "rep": "S3-R1",
+     "entry_time": "10:55",
+     "old_reason": "runner_stop",
+     "new_reason": "runner_stop",
+     "old_exit_time": "11:20",
+     "new_exit_time": "12:40",
+     "old_net": 2480.0,
+     "new_net": 680.0,
+     "delta": -1800.0
+    },
+    {
+     "date": "2026-03-20",
+     "direction": "PE",
+     "family": "S3-R1",
+     "rep": "S3-R1",
+     "entry_time": "09:45",
+     "old_reason": "runner_stop",
+     "new_reason": "runner_stop",
+     "old_exit_time": "10:20",
+     "new_exit_time": "10:35",
+     "old_net": 2480.0,
+     "new_net": 680.0,
+     "delta": -1800.0
+    },
+    {
+     "date": "2026-03-23",
+     "direction": "PE",
+     "family": "BASE",
+     "rep": "V5 v2",
+     "entry_time": "09:50",
+     "old_reason": "runner_stop",
+     "new_reason": "runner_stop",
+     "old_exit_time": "10:05",
+     "new_exit_time": "14:00",
+     "old_net": 2480.0,
+     "new_net": 680.0,
+     "delta": -1800.0
+    },
+    {
+     "date": "2026-04-10",
+     "direction": "CE",
+     "family": "BASE",
+     "rep": "Volrix (b)",
+     "entry_time": "09:20",
+     "old_reason": "runner_stop",
+     "new_reason": "runner_stop",
+     "old_exit_time": "09:35",
+     "new_exit_time": "09:35",
+     "old_net": 2480.0,
+     "new_net": 680.0,
+     "delta": -1800.0
+    },
+    {
+     "date": "2026-04-13",
+     "direction": "CE",
+     "family": "BASE",
+     "rep": "V5 v2",
+     "entry_time": "10:30",
+     "old_reason": "runner_target",
+     "new_reason": "runner_square_off",
+     "old_exit_time": "12:10",
+     "new_exit_time": "15:20",
+     "old_net": 5180.0,
+     "new_net": 11583.5,
+     "delta": 6403.5
+    },
+    {
+     "date": "2026-04-15",
+     "direction": "PE",
+     "family": "NS1_second",
+     "rep": "NS1_second",
+     "entry_time": "11:00",
+     "old_reason": "runner_stop",
+     "new_reason": "runner_stop",
+     "old_exit_time": "11:15",
+     "new_exit_time": "11:45",
+     "old_net": 2480.0,
+     "new_net": 680.0,
+     "delta": -1800.0
+    },
+    {
+     "date": "2026-04-28",
+     "direction": "PE",
+     "family": "BASE",
+     "rep": "V5 v2",
+     "entry_time": "11:25",
+     "old_reason": "target",
+     "new_reason": "runner_stop",
+     "old_exit_time": "11:30",
+     "new_exit_time": "11:35",
+     "old_net": 2480.0,
+     "new_net": 680.0,
+     "delta": -1800.0
+    },
+    {
+     "date": "2026-05-04",
+     "direction": "PE",
+     "family": "S3-PDC",
+     "rep": "S3-PDC",
+     "entry_time": "14:25",
+     "old_reason": "runner_stop",
+     "new_reason": "runner_stop",
+     "old_exit_time": "15:00",
+     "new_exit_time": "15:05",
+     "old_net": 2480.0,
+     "new_net": 680.0,
+     "delta": -1800.0
+    },
+    {
+     "date": "2026-05-05",
+     "direction": "PE",
+     "family": "BASE",
+     "rep": "(lA) v2",
+     "entry_time": "10:35",
+     "old_reason": "runner_stop",
+     "new_reason": "runner_stop",
+     "old_exit_time": "11:50",
+     "new_exit_time": "12:10",
+     "old_net": 2480.0,
+     "new_net": 680.0,
+     "delta": -1800.0
+    },
+    {
+     "date": "2026-05-08",
+     "direction": "PE",
+     "family": "NS3_gapclass",
+     "rep": "NS3_NS3-GD",
+     "entry_time": "12:15",
+     "old_reason": "runner_target",
+     "new_reason": "runner_stop",
+     "old_exit_time": "14:00",
+     "new_exit_time": "14:35",
+     "old_net": 4280.0,
+     "new_net": 680.0,
+     "delta": -3600.0
+    },
+    {
+     "date": "2026-05-11",
+     "direction": "CE",
+     "family": "BASE",
+     "rep": "Volrix (b)",
+     "entry_time": "09:20",
+     "old_reason": "runner_stop",
+     "new_reason": "runner_stop",
+     "old_exit_time": "09:30",
+     "new_exit_time": "09:30",
+     "old_net": 2480.0,
+     "new_net": 680.0,
+     "delta": -1800.0
+    },
+    {
+     "date": "2026-05-11",
+     "direction": "PE",
+     "family": "BASE",
+     "rep": "(lA) v2",
+     "entry_time": "09:40",
+     "old_reason": "runner_stop",
+     "new_reason": "runner_stop",
+     "old_exit_time": "10:05",
+     "new_exit_time": "10:05",
+     "old_net": 2480.0,
+     "new_net": 680.0,
+     "delta": -1800.0
+    },
+    {
+     "date": "2026-05-12",
+     "direction": "PE",
+     "family": "BASE",
+     "rep": "Skill V3",
+     "entry_time": "10:50",
+     "old_reason": "runner_target",
+     "new_reason": "runner_square_off",
+     "old_exit_time": "12:45",
+     "new_exit_time": "15:20",
+     "old_net": 5180.0,
+     "new_net": 5087.0,
+     "delta": -93.0
+    },
+    {
+     "date": "2026-05-29",
+     "direction": "PE",
+     "family": "BASE",
+     "rep": "V5 v2",
+     "entry_time": "10:30",
+     "old_reason": "runner_target",
+     "new_reason": "runner_square_off",
+     "old_exit_time": "12:50",
+     "new_exit_time": "15:20",
+     "old_net": 5180.0,
+     "new_net": 12144.5,
+     "delta": 6964.5
+    },
+    {
+     "date": "2026-06-01",
+     "direction": "PE",
+     "family": "NS1_second",
+     "rep": "NS1_second",
+     "entry_time": "11:25",
+     "old_reason": "runner_stop",
+     "new_reason": "runner_square_off",
+     "old_exit_time": "12:15",
+     "new_exit_time": "15:20",
+     "old_net": 2480.0,
+     "new_net": 6323.0,
+     "delta": 3843.0
+    },
+    {
+     "date": "2026-06-02",
+     "direction": "CE",
+     "family": "BASE",
+     "rep": "Volrix (b)",
+     "entry_time": "09:20",
+     "old_reason": "runner_stop",
+     "new_reason": "runner_stop",
+     "old_exit_time": "09:55",
+     "new_exit_time": "10:10",
+     "old_net": 2480.0,
+     "new_net": 680.0,
+     "delta": -1800.0
+    },
+    {
+     "date": "2026-06-08",
+     "direction": "PE",
+     "family": "S3-R1",
+     "rep": "S3-R1",
+     "entry_time": "12:55",
+     "old_reason": "runner_stop",
+     "new_reason": "runner_square_off",
+     "old_exit_time": "13:45",
+     "new_exit_time": "15:20",
+     "old_net": 2480.0,
+     "new_net": 4578.5,
+     "delta": 2098.5
+    },
+    {
+     "date": "2026-07-01",
+     "direction": "CE",
+     "family": "BASE",
+     "rep": "V5 v2",
+     "entry_time": "10:15",
+     "old_reason": "runner_stop",
+     "new_reason": "runner_stop",
+     "old_exit_time": "12:00",
+     "new_exit_time": "14:35",
+     "old_net": 2480.0,
+     "new_net": 680.0,
+     "delta": -1800.0
+    },
+    {
+     "date": "2026-07-13",
+     "direction": "CE",
+     "family": "NS3_gapclass",
+     "rep": "NS3_NS3-GD",
+     "entry_time": "09:40",
+     "old_reason": "runner_target",
+     "new_reason": "runner_square_off",
+     "old_exit_time": "10:20",
+     "new_exit_time": "15:20",
+     "old_net": 4280.0,
+     "new_net": 8174.0,
+     "delta": 3894.0
+    },
+    {
+     "date": "2026-07-15",
+     "direction": "PE",
+     "family": "BASE",
+     "rep": "V5 v2",
+     "entry_time": "09:45",
+     "old_reason": "runner_target",
+     "new_reason": "runner_square_off",
+     "old_exit_time": "13:00",
+     "new_exit_time": "15:20",
+     "old_net": 5180.0,
+     "new_net": 3717.5,
+     "delta": -1462.5
+    },
+    {
+     "date": "2026-07-23",
+     "direction": "PE",
+     "family": "NS3_gapclass",
+     "rep": "NS3_NS3-GD",
+     "entry_time": "11:50",
+     "old_reason": "runner_target",
+     "new_reason": "runner_stop",
+     "old_exit_time": "12:45",
+     "new_exit_time": "14:20",
+     "old_net": 4280.0,
+     "new_net": 680.0,
+     "delta": -3600.0
+    },
+    {
+     "date": "2026-08-04",
+     "direction": "PE",
+     "family": "BASE",
+     "rep": "Skill V3",
+     "entry_time": "11:35",
+     "old_reason": "runner_stop",
+     "new_reason": "runner_stop",
+     "old_exit_time": "13:00",
+     "new_exit_time": "14:50",
+     "old_net": 2480.0,
+     "new_net": 680.0,
+     "delta": -1800.0
+    },
+    {
+     "date": "2026-09-02",
+     "direction": "CE",
+     "family": "BASE",
+     "rep": "Volrix (b)",
+     "entry_time": "09:20",
+     "old_reason": "runner_stop",
+     "new_reason": "runner_stop",
+     "old_exit_time": "10:20",
+     "new_exit_time": "11:05",
+     "old_net": 2480.0,
+     "new_net": 680.0,
+     "delta": -1800.0
+    },
+    {
+     "date": "2026-09-11",
+     "direction": "CE",
+     "family": "NS3_gapclass",
+     "rep": "NS3_NS3-GD",
+     "entry_time": "10:15",
+     "old_reason": "runner_target",
+     "new_reason": "runner_square_off",
+     "old_exit_time": "11:15",
+     "new_exit_time": "15:20",
+     "old_net": 4280.0,
+     "new_net": 10944.5,
+     "delta": 6664.5
+    },
+    {
+     "date": "2026-09-24",
+     "direction": "PE",
+     "family": "NS3_gapclass",
+     "rep": "NS3_NS3-GD",
+     "entry_time": "09:40",
+     "old_reason": "runner_target",
+     "new_reason": "runner_stop",
+     "old_exit_time": "13:45",
+     "new_exit_time": "14:50",
+     "old_net": 4280.0,
+     "new_net": 680.0,
+     "delta": -3600.0
+    },
+    {
+     "date": "2026-09-28",
+     "direction": "PE",
+     "family": "NS3_gapclass",
+     "rep": "NS3_NS3-GD",
+     "entry_time": "09:35",
+     "old_reason": "runner_target",
+     "new_reason": "runner_square_off",
+     "old_exit_time": "10:45",
+     "new_exit_time": "15:20",
+     "old_net": 4280.0,
+     "new_net": 4524.5,
+     "delta": 244.5
+    },
+    {
+     "date": "2026-10-01",
+     "direction": "CE",
+     "family": "BASE",
+     "rep": "V5 v2",
+     "entry_time": "10:00",
+     "old_reason": "runner_stop",
+     "new_reason": "runner_stop",
+     "old_exit_time": "10:35",
+     "new_exit_time": "10:45",
+     "old_net": 2480.0,
+     "new_net": 680.0,
+     "delta": -1800.0
+    },
+    {
+     "date": "2026-10-05",
+     "direction": "PE",
+     "family": "BASE",
+     "rep": "Skill V3",
+     "entry_time": "10:55",
+     "old_reason": "runner_stop",
+     "new_reason": "runner_stop",
+     "old_exit_time": "11:55",
+     "new_exit_time": "12:20",
+     "old_net": 2480.0,
+     "new_net": 680.0,
+     "delta": -1800.0
+    },
+    {
+     "date": "2026-10-12",
+     "direction": "PE",
+     "family": "NS1_second",
+     "rep": "NS1_second",
+     "entry_time": "10:30",
+     "old_reason": "runner_stop",
+     "new_reason": "runner_stop",
+     "old_exit_time": "11:05",
+     "new_exit_time": "12:30",
+     "old_net": 2480.0,
+     "new_net": 680.0,
+     "delta": -1800.0
+    },
+    {
+     "date": "2026-10-27",
+     "direction": "PE",
+     "family": "NS1_second",
+     "rep": "NS1_second",
+     "entry_time": "13:10",
+     "old_reason": "target",
+     "new_reason": "runner_stop",
+     "old_exit_time": "13:20",
+     "new_exit_time": "14:35",
+     "old_net": 2480.0,
+     "new_net": 680.0,
+     "delta": -1800.0
+    },
+    {
+     "date": "2026-01-05",
+     "direction": "PE",
+     "family": "NS3_gapclass",
+     "rep": "NS3_NS3-GU",
+     "entry_time": "13:15",
+     "old_reason": "runner_stop",
+     "new_reason": "runner_stop",
+     "old_exit_time": "14:40",
+     "new_exit_time": "14:40",
+     "old_net": 1280.0,
+     "new_net": 680.0,
+     "delta": -600.0
+    },
+    {
+     "date": "2026-04-24",
+     "direction": "PE",
+     "family": "NS3_gapclass",
+     "rep": "NS3_NS3-GD",
+     "entry_time": "09:35",
+     "old_reason": "runner_stop",
+     "new_reason": "runner_stop",
+     "old_exit_time": "10:00",
+     "new_exit_time": "10:00",
+     "old_net": 1280.0,
+     "new_net": 680.0,
+     "delta": -600.0
+    },
+    {
+     "date": "2026-05-21",
+     "direction": "PE",
+     "family": "NS3_gapclass",
+     "rep": "NS3_NS3-GU",
+     "entry_time": "12:25",
+     "old_reason": "runner_target",
+     "new_reason": "runner_stop",
+     "old_exit_time": "12:55",
+     "new_exit_time": "13:45",
+     "old_net": 4280.0,
+     "new_net": 680.0,
+     "delta": -3600.0
+    },
+    {
+     "date": "2026-06-24",
+     "direction": "PE",
+     "family": "S3-R1",
+     "rep": "S3-R1",
+     "entry_time": "09:35",
+     "old_reason": "runner_stop",
+     "new_reason": "runner_stop",
+     "old_exit_time": "09:55",
+     "new_exit_time": "10:00",
+     "old_net": 2480.0,
+     "new_net": 680.0,
+     "delta": -1800.0
+    },
+    {
+     "date": "2026-08-12",
+     "direction": "PE",
+     "family": "S3-R1",
+     "rep": "S3-R1",
+     "entry_time": "10:40",
+     "old_reason": "runner_stop",
+     "new_reason": "runner_stop",
+     "old_exit_time": "11:35",
+     "new_exit_time": "12:30",
+     "old_net": 2480.0,
+     "new_net": 680.0,
+     "delta": -1800.0
+    },
+    {
+     "date": "2026-09-15",
+     "direction": "PE",
+     "family": "NS3_gapclass",
+     "rep": "NS3_NS3-GU",
+     "entry_time": "09:35",
+     "old_reason": "runner_target",
+     "new_reason": "runner_square_off",
+     "old_exit_time": "10:40",
+     "new_exit_time": "15:20",
+     "old_net": 4280.0,
+     "new_net": 9657.5,
+     "delta": 5377.5
+    },
+    {
+     "date": "2026-10-13",
+     "direction": "PE",
+     "family": "S3-R1",
+     "rep": "S3-R1",
+     "entry_time": "10:40",
+     "old_reason": "runner_stop",
+     "new_reason": "runner_stop",
+     "old_exit_time": "11:50",
+     "new_exit_time": "12:15",
+     "old_net": 2480.0,
+     "new_net": 680.0,
+     "delta": -1800.0
+    },
+    {
+     "date": "2026-03-16",
+     "direction": "CE",
+     "family": "EVE06_REENTRY",
+     "rep": "EVE06a",
+     "entry_time": "14:30",
+     "old_reason": "target",
+     "new_reason": "runner_square_off",
+     "old_exit_time": "14:35",
+     "new_exit_time": "15:10",
+     "old_net": 2480.0,
+     "new_net": 6249.5,
+     "delta": 3769.5
+    },
+    {
+     "date": "2026-03-27",
+     "direction": "PE",
+     "family": "EVE06_REENTRY",
+     "rep": "EVE06a",
+     "entry_time": "14:25",
+     "old_reason": "target",
+     "new_reason": "runner_stop",
+     "old_exit_time": "14:35",
+     "new_exit_time": "14:50",
+     "old_net": 2480.0,
+     "new_net": 680.0,
+     "delta": -1800.0
+    },
+    {
+     "date": "2026-03-30",
+     "direction": "PE",
+     "family": "EVE06_REENTRY",
+     "rep": "EVE06a",
+     "entry_time": "13:20",
+     "old_reason": "target",
+     "new_reason": "runner_square_off",
+     "old_exit_time": "14:20",
+     "new_exit_time": "15:10",
+     "old_net": 2480.0,
+     "new_net": 11049.5,
+     "delta": 8569.5
+    },
+    {
+     "date": "2026-04-09",
+     "direction": "PE",
+     "family": "EVE06_REENTRY",
+     "rep": "EVE06a",
+     "entry_time": "12:50",
+     "old_reason": "target",
+     "new_reason": "runner_square_off",
+     "old_exit_time": "13:20",
+     "new_exit_time": "15:10",
+     "old_net": 2480.0,
+     "new_net": 1593.5,
+     "delta": -886.5
+    },
+    {
+     "date": "2026-07-08",
+     "direction": "PE",
+     "family": "EVE06_REENTRY",
+     "rep": "EVE06a",
+     "entry_time": "13:50",
+     "old_reason": "target",
+     "new_reason": "runner_square_off",
+     "old_exit_time": "13:50",
+     "new_exit_time": "15:10",
+     "old_net": 2480.0,
+     "new_net": 15884.0,
+     "delta": 13404.0
+    },
+    {
+     "date": "2026-10-08",
+     "direction": "PE",
+     "family": "EVE06_REENTRY",
+     "rep": "EVE06a",
+     "entry_time": "13:00",
+     "old_reason": "target",
+     "new_reason": "runner_square_off",
+     "old_exit_time": "13:55",
+     "new_exit_time": "15:10",
+     "old_net": 2480.0,
+     "new_net": 3075.5,
+     "delta": 595.5
+    }
+   ],
+   "months_delta": {
+    "2026-01": -600.0,
+    "2026-02": -4345.5,
+    "2026-03": 10597.5,
+    "2026-04": -483.0,
+    "2026-05": -7528.5,
+    "2026-06": 2341.5,
+    "2026-07": 10435.5,
+    "2026-08": -3600.0,
+    "2026-09": 6886.5,
+    "2026-10": -8404.5
+   },
+   "reentry_gained": [],
+   "reentry_lost": [],
+   "reentry_blocked": [],
+   "derivation_nc": [],
+   "fill_audit_violations": [],
+   "independent_resum": {
+    "n": 111,
+    "net": 132651.0
+   },
+   "november_counterfactual": {
+    "days": {
+     "2026-11-02": {
+      "net": 0,
+      "rows": []
+     },
+     "2026-11-03": {
+      "net": 0,
+      "rows": []
+     },
+     "2026-11-04": {
+      "net": 680.0,
+      "rows": [
+       {
+        "family": "S3-R1",
+        "rep": "S3-R1",
+        "direction": "PE",
+        "strike": 55800,
+        "entry_time": "09:55",
+        "entry": 715.3,
+        "exit_time": "10:50",
+        "exit": 745.3,
+        "exit_reason": "runner_stop",
+        "net": 680.0
+       }
+      ]
+     },
+     "2026-11-05": {
+      "net": 0,
+      "rows": []
+     },
+     "2026-11-06": {
+      "net": 0,
+      "rows": []
+     },
+     "2026-11-09": {
+      "net": -1720.0,
+      "rows": [
+       {
+        "family": "BASE",
+        "rep": "Skill V3",
+        "direction": "PE",
+        "strike": 58900,
+        "entry_time": "10:45",
+        "entry": 815.4,
+        "exit_time": "10:45",
+        "exit": 765.4,
+        "exit_reason": "stop",
+        "net": -1720.0
+       }
+      ]
+     },
+     "2026-11-11": {
+      "net": 0,
+      "rows": []
+     },
+     "2026-11-12": {
+      "net": -1720.0,
+      "rows": [
+       {
+        "family": "S3-R1",
+        "rep": "S3-R1",
+        "direction": "PE",
+        "strike": 61200,
+        "entry_time": "11:30",
+        "entry": 841.5,
+        "exit_time": "11:35",
+        "exit": 791.5,
+        "exit_reason": "stop",
+        "net": -1720.0
+       }
+      ]
+     }
+    },
+    "flags": [],
+    "total": -2760.0
+   }
+  },
+  "T-B1b": {
+   "label": "LOCK10-AT-58 (trig-90 legs: arm at +58, lock entry+10, trail to SQ)",
+   "battery": {
+    "n_legs": 111,
+    "n_days": 89,
+    "total": 106948.5,
+    "per_month": 10694.85,
+    "per_leg": 963.5,
+    "legs_per_month": 11.1,
+    "legs_per_week": 2.73,
+    "months": {
+     "2026-01": 23309.5,
+     "2026-02": 6456.5,
+     "2026-03": 18308.5,
+     "2026-04": 17562.0,
+     "2026-05": 2207.0,
+     "2026-06": -261.5,
+     "2026-07": 11922.0,
+     "2026-08": -3871.5,
+     "2026-09": 25826.5,
+     "2026-10": 5489.5
+    },
+    "H1": 67843.5,
+    "H2": 39105.0,
+    "ex_top3_legs": 68431.5,
+    "top3_legs": [
+     15884.0,
+     11583.5,
+     11049.5
+    ],
+    "ex_top3_days": 70256.5,
+    "top3_days": [
+     14164.0,
+     11583.5,
+     10944.5
+    ],
+    "worst_day": {
+     "date": "2026-03-11",
+     "net": -3440.0
+    },
+    "worst_drawdown": -10001.0,
+    "pct_positive_days": 68.5
+   },
+   "placebo_delay6_total": 34208.5,
+   "placebo_reentry_shifted_legs": 14,
+   "gate_fails": [
+    "total 106948.5 !> base 127351.5",
+    "ex-top3 legs 68431.5 vs base 100528.5",
+    "ex-top3 days 70256.5 vs base 100528.5",
+    "month 2026-06 flips green->red (3040.0 -> -261.5)",
+    "month 2026-08 flips green->red (2059.5 -> -3871.5)"
+   ],
+   "verdict": "FAIL",
+   "changed_legs": [
+    {
+     "date": "2026-01-29",
+     "direction": "CE",
+     "family": "NS3_gapclass",
+     "rep": "NS3_NS3-GD",
+     "entry_time": "13:35",
+     "old_reason": "square_off",
+     "new_reason": "runner_stop",
+     "old_exit_time": "15:20",
+     "new_exit_time": "15:00",
+     "old_net": 1235.0,
+     "new_net": 80.0,
+     "delta": -1155.0
+    },
+    {
+     "date": "2026-02-05",
+     "direction": "PE",
+     "family": "NS1_second",
+     "rep": "NS1_second",
+     "entry_time": "10:30",
+     "old_reason": "lock_stop",
+     "new_reason": "runner_stop",
+     "old_exit_time": "15:00",
+     "new_exit_time": "11:40",
+     "old_net": -220.0,
+     "new_net": 80.0,
+     "delta": 300.0
+    },
+    {
+     "date": "2026-02-24",
+     "direction": "PE",
+     "family": "BASE",
+     "rep": "(lA) v2",
+     "entry_time": "12:45",
+     "old_reason": "target",
+     "new_reason": "runner_stop",
+     "old_exit_time": "13:30",
+     "new_exit_time": "13:55",
+     "old_net": 2480.0,
+     "new_net": 80.0,
+     "delta": -2400.0
+    },
+    {
+     "date": "2026-02-25",
+     "direction": "PE",
+     "family": "BASE",
+     "rep": "Skill V3",
+     "entry_time": "10:50",
+     "old_reason": "runner_stop",
+     "new_reason": "runner_square_off",
+     "old_exit_time": "12:50",
+     "new_exit_time": "15:20",
+     "old_net": 2480.0,
+     "new_net": 1734.5,
+     "delta": -745.5
+    },
+    {
+     "date": "2026-02-26",
+     "direction": "PE",
+     "family": "BASE",
+     "rep": "Skill V3",
+     "entry_time": "10:40",
+     "old_reason": "runner_stop",
+     "new_reason": "runner_stop",
+     "old_exit_time": "12:25",
+     "new_exit_time": "14:30",
+     "old_net": 2480.0,
+     "new_net": 80.0,
+     "delta": -2400.0
+    },
+    {
+     "date": "2026-03-06",
+     "direction": "PE",
+     "family": "BASE",
+     "rep": "V5 v2",
+     "entry_time": "10:05",
+     "old_reason": "runner_stop",
+     "new_reason": "runner_stop",
+     "old_exit_time": "12:30",
+     "new_exit_time": "11:35",
+     "old_net": 2480.0,
+     "new_net": 80.0,
+     "delta": -2400.0
+    },
+    {
+     "date": "2026-03-13",
+     "direction": "PE",
+     "family": "BASE",
+     "rep": "(lA) v2",
+     "entry_time": "09:50",
+     "old_reason": "runner_stop",
+     "new_reason": "runner_stop",
+     "old_exit_time": "10:00",
+     "new_exit_time": "11:30",
+     "old_net": 2480.0,
+     "new_net": 80.0,
+     "delta": -2400.0
+    },
+    {
+     "date": "2026-03-16",
+     "direction": "PE",
+     "family": "BASE",
+     "rep": "(lA) v2",
+     "entry_time": "10:25",
+     "old_reason": "runner_stop",
+     "new_reason": "runner_stop",
+     "old_exit_time": "10:55",
+     "new_exit_time": "10:35",
+     "old_net": 2480.0,
+     "new_net": 80.0,
+     "delta": -2400.0
+    },
+    {
+     "date": "2026-03-17",
+     "direction": "PE",
+     "family": "S3-R1",
+     "rep": "S3-R1",
+     "entry_time": "10:55",
+     "old_reason": "runner_stop",
+     "new_reason": "runner_stop",
+     "old_exit_time": "11:20",
+     "new_exit_time": "12:45",
+     "old_net": 2480.0,
+     "new_net": 80.0,
+     "delta": -2400.0
+    },
+    {
+     "date": "2026-03-20",
+     "direction": "PE",
+     "family": "S3-R1",
+     "rep": "S3-R1",
+     "entry_time": "09:45",
+     "old_reason": "runner_stop",
+     "new_reason": "runner_stop",
+     "old_exit_time": "10:20",
+     "new_exit_time": "10:40",
+     "old_net": 2480.0,
+     "new_net": 80.0,
+     "delta": -2400.0
+    },
+    {
+     "date": "2026-03-23",
+     "direction": "PE",
+     "family": "BASE",
+     "rep": "V5 v2",
+     "entry_time": "09:50",
+     "old_reason": "runner_stop",
+     "new_reason": "runner_square_off",
+     "old_exit_time": "10:05",
+     "new_exit_time": "15:20",
+     "old_net": 2480.0,
+     "new_net": 10926.5,
+     "delta": 8446.5
+    },
+    {
+     "date": "2026-04-01",
+     "direction": "PE",
+     "family": "BASE",
+     "rep": "V5 v2",
+     "entry_time": "09:35",
+     "old_reason": "stop",
+     "new_reason": "runner_stop",
+     "old_exit_time": "09:50",
+     "new_exit_time": "09:40",
+     "old_net": -1720.0,
+     "new_net": 80.0,
+     "delta": 1800.0
+    },
+    {
+     "date": "2026-04-10",
+     "direction": "CE",
+     "family": "BASE",
+     "rep": "Volrix (b)",
+     "entry_time": "09:20",
+     "old_reason": "runner_stop",
+     "new_reason": "runner_stop",
+     "old_exit_time": "09:35",
+     "new_exit_time": "09:35",
+     "old_net": 2480.0,
+     "new_net": 80.0,
+     "delta": -2400.0
+    },
+    {
+     "date": "2026-04-13",
+     "direction": "CE",
+     "family": "BASE",
+     "rep": "V5 v2",
+     "entry_time": "10:30",
+     "old_reason": "runner_target",
+     "new_reason": "runner_square_off",
+     "old_exit_time": "12:10",
+     "new_exit_time": "15:20",
+     "old_net": 5180.0,
+     "new_net": 11583.5,
+     "delta": 6403.5
+    },
+    {
+     "date": "2026-04-15",
+     "direction": "PE",
+     "family": "NS1_second",
+     "rep": "NS1_second",
+     "entry_time": "11:00",
+     "old_reason": "runner_stop",
+     "new_reason": "runner_stop",
+     "old_exit_time": "11:15",
+     "new_exit_time": "11:45",
+     "old_net": 2480.0,
+     "new_net": 80.0,
+     "delta": -2400.0
+    },
+    {
+     "date": "2026-04-28",
+     "direction": "PE",
+     "family": "BASE",
+     "rep": "V5 v2",
+     "entry_time": "11:25",
+     "old_reason": "target",
+     "new_reason": "runner_square_off",
+     "old_exit_time": "11:30",
+     "new_exit_time": "15:20",
+     "old_net": 2480.0,
+     "new_net": 8915.0,
+     "delta": 6435.0
+    },
+    {
+     "date": "2026-05-04",
+     "direction": "PE",
+     "family": "S3-PDC",
+     "rep": "S3-PDC",
+     "entry_time": "14:25",
+     "old_reason": "runner_stop",
+     "new_reason": "runner_stop",
+     "old_exit_time": "15:00",
+     "new_exit_time": "15:10",
+     "old_net": 2480.0,
+     "new_net": 80.0,
+     "delta": -2400.0
+    },
+    {
+     "date": "2026-05-05",
+     "direction": "PE",
+     "family": "BASE",
+     "rep": "(lA) v2",
+     "entry_time": "10:35",
+     "old_reason": "runner_stop",
+     "new_reason": "runner_stop",
+     "old_exit_time": "11:50",
+     "new_exit_time": "12:15",
+     "old_net": 2480.0,
+     "new_net": 80.0,
+     "delta": -2400.0
+    },
+    {
+     "date": "2026-05-08",
+     "direction": "PE",
+     "family": "NS3_gapclass",
+     "rep": "NS3_NS3-GD",
+     "entry_time": "12:15",
+     "old_reason": "runner_target",
+     "new_reason": "runner_stop",
+     "old_exit_time": "14:00",
+     "new_exit_time": "13:25",
+     "old_net": 4280.0,
+     "new_net": 80.0,
+     "delta": -4200.0
+    },
+    {
+     "date": "2026-05-11",
+     "direction": "CE",
+     "family": "BASE",
+     "rep": "Volrix (b)",
+     "entry_time": "09:20",
+     "old_reason": "runner_stop",
+     "new_reason": "runner_stop",
+     "old_exit_time": "09:30",
+     "new_exit_time": "09:30",
+     "old_net": 2480.0,
+     "new_net": 80.0,
+     "delta": -2400.0
+    },
+    {
+     "date": "2026-05-11",
+     "direction": "PE",
+     "family": "BASE",
+     "rep": "(lA) v2",
+     "entry_time": "09:40",
+     "old_reason": "runner_stop",
+     "new_reason": "runner_stop",
+     "old_exit_time": "10:05",
+     "new_exit_time": "10:50",
+     "old_net": 2480.0,
+     "new_net": 80.0,
+     "delta": -2400.0
+    },
+    {
+     "date": "2026-05-12",
+     "direction": "PE",
+     "family": "BASE",
+     "rep": "Skill V3",
+     "entry_time": "10:50",
+     "old_reason": "runner_target",
+     "new_reason": "runner_square_off",
+     "old_exit_time": "12:45",
+     "new_exit_time": "15:20",
+     "old_net": 5180.0,
+     "new_net": 5087.0,
+     "delta": -93.0
+    },
+    {
+     "date": "2026-05-29",
+     "direction": "PE",
+     "family": "BASE",
+     "rep": "V5 v2",
+     "entry_time": "10:30",
+     "old_reason": "runner_target",
+     "new_reason": "runner_stop",
+     "old_exit_time": "12:50",
+     "new_exit_time": "11:00",
+     "old_net": 5180.0,
+     "new_net": 80.0,
+     "delta": -5100.0
+    },
+    {
+     "date": "2026-06-01",
+     "direction": "PE",
+     "family": "NS1_second",
+     "rep": "NS1_second",
+     "entry_time": "11:25",
+     "old_reason": "runner_stop",
+     "new_reason": "runner_stop",
+     "old_exit_time": "12:15",
+     "new_exit_time": "11:50",
+     "old_net": 2480.0,
+     "new_net": 80.0,
+     "delta": -2400.0
+    },
+    {
+     "date": "2026-06-02",
+     "direction": "CE",
+     "family": "BASE",
+     "rep": "Volrix (b)",
+     "entry_time": "09:20",
+     "old_reason": "runner_stop",
+     "new_reason": "runner_stop",
+     "old_exit_time": "09:55",
+     "new_exit_time": "09:40",
+     "old_net": 2480.0,
+     "new_net": 80.0,
+     "delta": -2400.0
+    },
+    {
+     "date": "2026-06-08",
+     "direction": "PE",
+     "family": "S3-R1",
+     "rep": "S3-R1",
+     "entry_time": "12:55",
+     "old_reason": "runner_stop",
+     "new_reason": "runner_square_off",
+     "old_exit_time": "13:45",
+     "new_exit_time": "15:20",
+     "old_net": 2480.0,
+     "new_net": 4578.5,
+     "delta": 2098.5
+    },
+    {
+     "date": "2026-06-09",
+     "direction": "PE",
+     "family": "BASE",
+     "rep": "V5 v2",
+     "entry_time": "09:45",
+     "old_reason": "stop",
+     "new_reason": "runner_stop",
+     "old_exit_time": "11:50",
+     "new_exit_time": "11:35",
+     "old_net": -1720.0,
+     "new_net": 80.0,
+     "delta": 1800.0
+    },
+    {
+     "date": "2026-07-01",
+     "direction": "CE",
+     "family": "BASE",
+     "rep": "V5 v2",
+     "entry_time": "10:15",
+     "old_reason": "runner_stop",
+     "new_reason": "runner_stop",
+     "old_exit_time": "12:00",
+     "new_exit_time": "10:35",
+     "old_net": 2480.0,
+     "new_net": 80.0,
+     "delta": -2400.0
+    },
+    {
+     "date": "2026-07-02",
+     "direction": "PE",
+     "family": "NS1_second",
+     "rep": "NS1_second",
+     "entry_time": "11:10",
+     "old_reason": "lock_stop",
+     "new_reason": "runner_stop",
+     "old_exit_time": "11:50",
+     "new_exit_time": "11:50",
+     "old_net": -220.0,
+     "new_net": 80.0,
+     "delta": 300.0
+    },
+    {
+     "date": "2026-07-13",
+     "direction": "CE",
+     "family": "NS3_gapclass",
+     "rep": "NS3_NS3-GD",
+     "entry_time": "09:40",
+     "old_reason": "runner_target",
+     "new_reason": "runner_square_off",
+     "old_exit_time": "10:20",
+     "new_exit_time": "15:20",
+     "old_net": 4280.0,
+     "new_net": 8174.0,
+     "delta": 3894.0
+    },
+    {
+     "date": "2026-07-15",
+     "direction": "PE",
+     "family": "BASE",
+     "rep": "V5 v2",
+     "entry_time": "09:45",
+     "old_reason": "runner_target",
+     "new_reason": "runner_stop",
+     "old_exit_time": "13:00",
+     "new_exit_time": "12:10",
+     "old_net": 5180.0,
+     "new_net": 80.0,
+     "delta": -5100.0
+    },
+    {
+     "date": "2026-07-23",
+     "direction": "PE",
+     "family": "NS3_gapclass",
+     "rep": "NS3_NS3-GD",
+     "entry_time": "11:50",
+     "old_reason": "runner_target",
+     "new_reason": "runner_stop",
+     "old_exit_time": "12:45",
+     "new_exit_time": "14:35",
+     "old_net": 4280.0,
+     "new_net": 80.0,
+     "delta": -4200.0
+    },
+    {
+     "date": "2026-08-04",
+     "direction": "PE",
+     "family": "BASE",
+     "rep": "Skill V3",
+     "entry_time": "11:35",
+     "old_reason": "runner_stop",
+     "new_reason": "runner_square_off",
+     "old_exit_time": "13:00",
+     "new_exit_time": "15:20",
+     "old_net": 2480.0,
+     "new_net": 675.5,
+     "delta": -1804.5
+    },
+    {
+     "date": "2026-08-27",
+     "direction": "PE",
+     "family": "BASE",
+     "rep": "Skill V3",
+     "entry_time": "10:45",
+     "old_reason": "square_off",
+     "new_reason": "runner_stop",
+     "old_exit_time": "15:20",
+     "new_exit_time": "13:05",
+     "old_net": 1806.5,
+     "new_net": 80.0,
+     "delta": -1726.5
+    },
+    {
+     "date": "2026-09-01",
+     "direction": "CE",
+     "family": "NS3_gapclass",
+     "rep": "NS3_NS3-GD",
+     "entry_time": "11:15",
+     "old_reason": "stop",
+     "new_reason": "runner_stop",
+     "old_exit_time": "13:00",
+     "new_exit_time": "11:35",
+     "old_net": -1720.0,
+     "new_net": 80.0,
+     "delta": 1800.0
+    },
+    {
+     "date": "2026-09-01",
+     "direction": "PE",
+     "family": "NS1_second",
+     "rep": "NS1_second",
+     "entry_time": "13:50",
+     "old_reason": "square_off",
+     "new_reason": "runner_square_off",
+     "old_exit_time": "15:20",
+     "new_exit_time": "15:20",
+     "old_net": 306.5,
+     "new_net": 306.5,
+     "delta": 0.0
+    },
+    {
+     "date": "2026-09-02",
+     "direction": "CE",
+     "family": "BASE",
+     "rep": "Volrix (b)",
+     "entry_time": "09:20",
+     "old_reason": "runner_stop",
+     "new_reason": "runner_stop",
+     "old_exit_time": "10:20",
+     "new_exit_time": "11:30",
+     "old_net": 2480.0,
+     "new_net": 80.0,
+     "delta": -2400.0
+    },
+    {
+     "date": "2026-09-11",
+     "direction": "CE",
+     "family": "NS3_gapclass",
+     "rep": "NS3_NS3-GD",
+     "entry_time": "10:15",
+     "old_reason": "runner_target",
+     "new_reason": "runner_square_off",
+     "old_exit_time": "11:15",
+     "new_exit_time": "15:20",
+     "old_net": 4280.0,
+     "new_net": 10944.5,
+     "delta": 6664.5
+    },
+    {
+     "date": "2026-09-17",
+     "direction": "CE",
+     "family": "NS3_gapclass",
+     "rep": "NS3_NS3-GD",
+     "entry_time": "09:35",
+     "old_reason": "stop",
+     "new_reason": "runner_stop",
+     "old_exit_time": "09:40",
+     "new_exit_time": "09:40",
+     "old_net": -1720.0,
+     "new_net": 80.0,
+     "delta": 1800.0
+    },
+    {
+     "date": "2026-09-24",
+     "direction": "PE",
+     "family": "NS3_gapclass",
+     "rep": "NS3_NS3-GD",
+     "entry_time": "09:40",
+     "old_reason": "runner_target",
+     "new_reason": "runner_square_off",
+     "old_exit_time": "13:45",
+     "new_exit_time": "15:20",
+     "old_net": 4280.0,
+     "new_net": 1563.5,
+     "delta": -2716.5
+    },
+    {
+     "date": "2026-09-28",
+     "direction": "PE",
+     "family": "NS3_gapclass",
+     "rep": "NS3_NS3-GD",
+     "entry_time": "09:35",
+     "old_reason": "runner_target",
+     "new_reason": "runner_square_off",
+     "old_exit_time": "10:45",
+     "new_exit_time": "15:20",
+     "old_net": 4280.0,
+     "new_net": 4524.5,
+     "delta": 244.5
+    },
+    {
+     "date": "2026-10-01",
+     "direction": "CE",
+     "family": "BASE",
+     "rep": "V5 v2",
+     "entry_time": "10:00",
+     "old_reason": "runner_stop",
+     "new_reason": "runner_stop",
+     "old_exit_time": "10:35",
+     "new_exit_time": "10:55",
+     "old_net": 2480.0,
+     "new_net": 80.0,
+     "delta": -2400.0
+    },
+    {
+     "date": "2026-10-05",
+     "direction": "PE",
+     "family": "BASE",
+     "rep": "Skill V3",
+     "entry_time": "10:55",
+     "old_reason": "runner_stop",
+     "new_reason": "runner_stop",
+     "old_exit_time": "11:55",
+     "new_exit_time": "11:20",
+     "old_net": 2480.0,
+     "new_net": 80.0,
+     "delta": -2400.0
+    },
+    {
+     "date": "2026-10-12",
+     "direction": "PE",
+     "family": "NS1_second",
+     "rep": "NS1_second",
+     "entry_time": "10:30",
+     "old_reason": "runner_stop",
+     "new_reason": "runner_stop",
+     "old_exit_time": "11:05",
+     "new_exit_time": "13:05",
+     "old_net": 2480.0,
+     "new_net": 80.0,
+     "delta": -2400.0
+    },
+    {
+     "date": "2026-10-27",
+     "direction": "PE",
+     "family": "NS1_second",
+     "rep": "NS1_second",
+     "entry_time": "13:10",
+     "old_reason": "target",
+     "new_reason": "runner_stop",
+     "old_exit_time": "13:20",
+     "new_exit_time": "14:50",
+     "old_net": 2480.0,
+     "new_net": 80.0,
+     "delta": -2400.0
+    },
+    {
+     "date": "2026-01-05",
+     "direction": "PE",
+     "family": "NS3_gapclass",
+     "rep": "NS3_NS3-GU",
+     "entry_time": "13:15",
+     "old_reason": "runner_stop",
+     "new_reason": "runner_square_off",
+     "old_exit_time": "14:40",
+     "new_exit_time": "15:20",
+     "old_net": 1280.0,
+     "new_net": 1716.5,
+     "delta": 436.5
+    },
+    {
+     "date": "2026-02-13",
+     "direction": "PE",
+     "family": "NS3_gapclass",
+     "rep": "NS3_NS3-GD",
+     "entry_time": "10:15",
+     "old_reason": "runner_square_off",
+     "new_reason": "runner_stop",
+     "old_exit_time": "15:25",
+     "new_exit_time": "12:15",
+     "old_net": 3662.0,
+     "new_net": 80.0,
+     "delta": -3582.0
+    },
+    {
+     "date": "2026-04-24",
+     "direction": "PE",
+     "family": "NS3_gapclass",
+     "rep": "NS3_NS3-GD",
+     "entry_time": "09:35",
+     "old_reason": "runner_stop",
+     "new_reason": "runner_stop",
+     "old_exit_time": "10:00",
+     "new_exit_time": "10:10",
+     "old_net": 1280.0,
+     "new_net": 80.0,
+     "delta": -1200.0
+    },
+    {
+     "date": "2026-05-21",
+     "direction": "PE",
+     "family": "NS3_gapclass",
+     "rep": "NS3_NS3-GU",
+     "entry_time": "12:25",
+     "old_reason": "runner_target",
+     "new_reason": "runner_stop",
+     "old_exit_time": "12:55",
+     "new_exit_time": "13:45",
+     "old_net": 4280.0,
+     "new_net": 80.0,
+     "delta": -4200.0
+    },
+    {
+     "date": "2026-06-24",
+     "direction": "PE",
+     "family": "S3-R1",
+     "rep": "S3-R1",
+     "entry_time": "09:35",
+     "old_reason": "runner_stop",
+     "new_reason": "runner_stop",
+     "old_exit_time": "09:55",
+     "new_exit_time": "10:00",
+     "old_net": 2480.0,
+     "new_net": 80.0,
+     "delta": -2400.0
+    },
+    {
+     "date": "2026-08-12",
+     "direction": "PE",
+     "family": "S3-R1",
+     "rep": "S3-R1",
+     "entry_time": "10:40",
+     "old_reason": "runner_stop",
+     "new_reason": "runner_stop",
+     "old_exit_time": "11:35",
+     "new_exit_time": "11:10",
+     "old_net": 2480.0,
+     "new_net": 80.0,
+     "delta": -2400.0
+    },
+    {
+     "date": "2026-09-15",
+     "direction": "PE",
+     "family": "NS3_gapclass",
+     "rep": "NS3_NS3-GU",
+     "entry_time": "09:35",
+     "old_reason": "runner_target",
+     "new_reason": "runner_square_off",
+     "old_exit_time": "10:40",
+     "new_exit_time": "15:20",
+     "old_net": 4280.0,
+     "new_net": 9657.5,
+     "delta": 5377.5
+    },
+    {
+     "date": "2026-10-13",
+     "direction": "PE",
+     "family": "S3-R1",
+     "rep": "S3-R1",
+     "entry_time": "10:40",
+     "old_reason": "runner_stop",
+     "new_reason": "runner_stop",
+     "old_exit_time": "11:50",
+     "new_exit_time": "13:45",
+     "old_net": 2480.0,
+     "new_net": 80.0,
+     "delta": -2400.0
+    },
+    {
+     "date": "2026-02-27",
+     "direction": "PE",
+     "family": "EVE06_REENTRY",
+     "rep": "EVE06a",
+     "entry_time": "15:05",
+     "old_reason": "square_off",
+     "new_reason": "runner_square_off",
+     "old_exit_time": "15:10",
+     "new_exit_time": "15:10",
+     "old_net": -118.0,
+     "new_net": -118.0,
+     "delta": 0.0
+    },
+    {
+     "date": "2026-03-05",
+     "direction": "PE",
+     "family": "EVE06_REENTRY",
+     "rep": "EVE06a",
+     "entry_time": "13:45",
+     "old_reason": "stop",
+     "new_reason": "runner_stop",
+     "old_exit_time": "14:25",
+     "new_exit_time": "14:20",
+     "old_net": -1720.0,
+     "new_net": 80.0,
+     "delta": 1800.0
+    },
+    {
+     "date": "2026-03-16",
+     "direction": "CE",
+     "family": "EVE06_REENTRY",
+     "rep": "EVE06a",
+     "entry_time": "14:30",
+     "old_reason": "target",
+     "new_reason": "runner_square_off",
+     "old_exit_time": "14:35",
+     "new_exit_time": "15:10",
+     "old_net": 2480.0,
+     "new_net": 6249.5,
+     "delta": 3769.5
+    },
+    {
+     "date": "2026-03-27",
+     "direction": "PE",
+     "family": "EVE06_REENTRY",
+     "rep": "EVE06a",
+     "entry_time": "14:25",
+     "old_reason": "target",
+     "new_reason": "runner_square_off",
+     "old_exit_time": "14:35",
+     "new_exit_time": "15:10",
+     "old_net": 2480.0,
+     "new_net": 1643.0,
+     "delta": -837.0
+    },
+    {
+     "date": "2026-03-30",
+     "direction": "PE",
+     "family": "EVE06_REENTRY",
+     "rep": "EVE06a",
+     "entry_time": "13:20",
+     "old_reason": "target",
+     "new_reason": "runner_square_off",
+     "old_exit_time": "14:20",
+     "new_exit_time": "15:10",
+     "old_net": 2480.0,
+     "new_net": 11049.5,
+     "delta": 8569.5
+    },
+    {
+     "date": "2026-04-09",
+     "direction": "PE",
+     "family": "EVE06_REENTRY",
+     "rep": "EVE06a",
+     "entry_time": "12:50",
+     "old_reason": "target",
+     "new_reason": "runner_square_off",
+     "old_exit_time": "13:20",
+     "new_exit_time": "15:10",
+     "old_net": 2480.0,
+     "new_net": 1593.5,
+     "delta": -886.5
+    },
+    {
+     "date": "2026-07-08",
+     "direction": "PE",
+     "family": "EVE06_REENTRY",
+     "rep": "EVE06a",
+     "entry_time": "13:50",
+     "old_reason": "target",
+     "new_reason": "runner_square_off",
+     "old_exit_time": "13:50",
+     "new_exit_time": "15:10",
+     "old_net": 2480.0,
+     "new_net": 15884.0,
+     "delta": 13404.0
+    },
+    {
+     "date": "2026-07-16",
+     "direction": "PE",
+     "family": "EVE06_REENTRY",
+     "rep": "EVE06a",
+     "entry_time": "13:20",
+     "old_reason": "stop",
+     "new_reason": "runner_stop",
+     "old_exit_time": "14:55",
+     "new_exit_time": "13:55",
+     "old_net": -1720.0,
+     "new_net": 80.0,
+     "delta": 1800.0
+    },
+    {
+     "date": "2026-07-28",
+     "direction": "PE",
+     "family": "EVE06_REENTRY",
+     "rep": "EVE06a",
+     "entry_time": "14:25",
+     "old_reason": "square_off",
+     "new_reason": "runner_square_off",
+     "old_exit_time": "15:10",
+     "new_exit_time": "15:10",
+     "old_net": 1145.0,
+     "new_net": 1145.0,
+     "delta": 0.0
+    },
+    {
+     "date": "2026-10-08",
+     "direction": "PE",
+     "family": "EVE06_REENTRY",
+     "rep": "EVE06a",
+     "entry_time": "13:00",
+     "old_reason": "target",
+     "new_reason": "runner_stop",
+     "old_exit_time": "13:55",
+     "new_exit_time": "13:35",
+     "old_net": 2480.0,
+     "new_net": 80.0,
+     "delta": -2400.0
+    }
+   ],
+   "months_delta": {
+    "2026-01": -718.5,
+    "2026-02": -8827.5,
+    "2026-03": 9748.5,
+    "2026-04": 7752.0,
+    "2026-05": -23193.0,
+    "2026-06": -3301.5,
+    "2026-07": 7698.0,
+    "2026-08": -5931.0,
+    "2026-09": 10770.0,
+    "2026-10": -14400.0
+   },
+   "reentry_gained": [],
+   "reentry_lost": [],
+   "reentry_blocked": [],
+   "derivation_nc": [],
+   "fill_audit_violations": [],
+   "independent_resum": {
+    "n": 111,
+    "net": 106948.5
+   },
+   "november_counterfactual": {
+    "days": {
+     "2026-11-02": {
+      "net": 0,
+      "rows": []
+     },
+     "2026-11-03": {
+      "net": 0,
+      "rows": []
+     },
+     "2026-11-04": {
+      "net": 80.0,
+      "rows": [
+       {
+        "family": "S3-R1",
+        "rep": "S3-R1",
+        "direction": "PE",
+        "strike": 55800,
+        "entry_time": "09:55",
+        "entry": 715.3,
+        "exit_time": "10:05",
+        "exit": 725.3,
+        "exit_reason": "runner_stop",
+        "net": 80.0
+       }
+      ]
+     },
+     "2026-11-05": {
+      "net": 0,
+      "rows": []
+     },
+     "2026-11-06": {
+      "net": 0,
+      "rows": []
+     },
+     "2026-11-09": {
+      "net": -1720.0,
+      "rows": [
+       {
+        "family": "BASE",
+        "rep": "Skill V3",
+        "direction": "PE",
+        "strike": 58900,
+        "entry_time": "10:45",
+        "entry": 815.4,
+        "exit_time": "10:45",
+        "exit": 765.4,
+        "exit_reason": "stop",
+        "net": -1720.0
+       }
+      ]
+     },
+     "2026-11-11": {
+      "net": 0,
+      "rows": []
+     },
+     "2026-11-12": {
+      "net": -1720.0,
+      "rows": [
+       {
+        "family": "S3-R1",
+        "rep": "S3-R1",
+        "direction": "PE",
+        "strike": 61200,
+        "entry_time": "11:30",
+        "entry": 841.5,
+        "exit_time": "11:35",
+        "exit": 791.5,
+        "exit_reason": "stop",
+        "net": -1720.0
+       }
+      ]
+     }
+    },
+    "flags": [],
+    "total": -3360.0
+   }
+  },
+  "T-B2a": {
+   "label": "PE-STOP40 (PE legs only: stop -40 vs -50)",
+   "battery": {
+    "n_legs": 118,
+    "n_days": 89,
+    "total": 92565.5,
+    "per_month": 9256.55,
+    "per_leg": 784.45,
+    "legs_per_month": 11.8,
+    "legs_per_week": 2.91,
+    "months": {
+     "2026-01": 24328.0,
+     "2026-02": 4362.0,
+     "2026-03": 5040.0,
+     "2026-04": 3660.0,
+     "2026-05": 22780.0,
+     "2026-06": 3640.0,
+     "2026-07": -1057.0,
+     "2026-08": 2206.5,
+     "2026-09": 12436.5,
+     "2026-10": 15169.5
+    },
+    "H1": 60170.0,
+    "H2": 32395.5,
+    "ex_top3_legs": 65742.5,
+    "top3_legs": [
+     9680.0,
+     9680.0,
+     7463.0
+    ],
+    "ex_top3_days": 65742.5,
+    "top3_days": [
+     9680.0,
+     9680.0,
+     7463.0
+    ],
+    "worst_day": {
+     "date": "2026-06-10",
+     "net": -3440.0
+    },
+    "worst_drawdown": -12898.0,
+    "pct_positive_days": 59.6
+   },
+   "placebo_delay6_total": 30630.5,
+   "placebo_reentry_shifted_legs": 19,
+   "gate_fails": [
+    "total 92565.5 !> base 127351.5",
+    "ex-top3 legs 65742.5 vs base 100528.5",
+    "ex-top3 days 65742.5 vs base 100528.5",
+    "month 2026-07 flips green->red (4224.0 -> -1057.0)"
+   ],
+   "verdict": "FAIL",
+   "changed_legs": [
+    {
+     "date": "2026-02-02",
+     "direction": "PE",
+     "family": "BASE",
+     "rep": "V5 v2",
+     "entry_time": "09:45",
+     "old_reason": "stop",
+     "new_reason": "stop",
+     "old_exit_time": "09:45",
+     "new_exit_time": "09:45",
+     "old_net": -1720.0,
+     "new_net": -1420.0,
+     "delta": 300.0
+    },
+    {
+     "date": "2026-02-23",
+     "direction": "PE",
+     "family": "S3-R1",
+     "rep": "S3-R1",
+     "entry_time": "11:50",
+     "old_reason": "stop",
+     "new_reason": "stop",
+     "old_exit_time": "12:45",
+     "new_exit_time": "12:05",
+     "old_net": -1720.0,
+     "new_net": -1420.0,
+     "delta": 300.0
+    },
+    {
+     "date": "2026-02-24",
+     "direction": "PE",
+     "family": "BASE",
+     "rep": "(lA) v2",
+     "entry_time": "12:45",
+     "old_reason": "target",
+     "new_reason": "stop",
+     "old_exit_time": "13:30",
+     "new_exit_time": "13:10",
+     "old_net": 2480.0,
+     "new_net": -1420.0,
+     "delta": -3900.0
+    },
+    {
+     "date": "2026-02-26",
+     "direction": "PE",
+     "family": "BASE",
+     "rep": "Skill V3",
+     "entry_time": "10:40",
+     "old_reason": "runner_stop",
+     "new_reason": "stop",
+     "old_exit_time": "12:25",
+     "new_exit_time": "11:25",
+     "old_net": 2480.0,
+     "new_net": -1420.0,
+     "delta": -3900.0
+    },
+    {
+     "date": "2026-02-27",
+     "direction": "PE",
+     "family": "BASE",
+     "rep": "(lA) v2",
+     "entry_time": "09:55",
+     "old_reason": "stop",
+     "new_reason": "stop",
+     "old_exit_time": "13:55",
+     "new_exit_time": "10:35",
+     "old_net": -1720.0,
+     "new_net": -1420.0,
+     "delta": 300.0
+    },
+    {
+     "date": "2026-03-05",
+     "direction": "PE",
+     "family": "NS1_second",
+     "rep": "NS1_second",
+     "entry_time": "11:50",
+     "old_reason": "stop",
+     "new_reason": "stop",
+     "old_exit_time": "12:25",
+     "new_exit_time": "12:20",
+     "old_net": -1720.0,
+     "new_net": -1420.0,
+     "delta": 300.0
+    },
+    {
+     "date": "2026-03-06",
+     "direction": "PE",
+     "family": "BASE",
+     "rep": "V5 v2",
+     "entry_time": "10:05",
+     "old_reason": "runner_stop",
+     "new_reason": "stop",
+     "old_exit_time": "12:30",
+     "new_exit_time": "10:05",
+     "old_net": 2480.0,
+     "new_net": -1420.0,
+     "delta": -3900.0
+    },
+    {
+     "date": "2026-03-11",
+     "direction": "PE",
+     "family": "BASE",
+     "rep": "(lA) v2",
+     "entry_time": "10:45",
+     "old_reason": "stop",
+     "new_reason": "stop",
+     "old_exit_time": "11:00",
+     "new_exit_time": "10:55",
+     "old_net": -1720.0,
+     "new_net": -1420.0,
+     "delta": 300.0
+    },
+    {
+     "date": "2026-03-27",
+     "direction": "PE",
+     "family": "NS3_gapclass",
+     "rep": "NS3_NS3-GD",
+     "entry_time": "09:35",
+     "old_reason": "stop",
+     "new_reason": "stop",
+     "old_exit_time": "10:30",
+     "new_exit_time": "09:40",
+     "old_net": -1720.0,
+     "new_net": -1420.0,
+     "delta": 300.0
+    },
+    {
+     "date": "2026-03-30",
+     "direction": "PE",
+     "family": "BASE",
+     "rep": "V5 v2",
+     "entry_time": "10:55",
+     "old_reason": "stop",
+     "new_reason": "stop",
+     "old_exit_time": "11:35",
+     "new_exit_time": "10:55",
+     "old_net": -1720.0,
+     "new_net": -1420.0,
+     "delta": 300.0
+    },
+    {
+     "date": "2026-04-01",
+     "direction": "PE",
+     "family": "BASE",
+     "rep": "V5 v2",
+     "entry_time": "09:35",
+     "old_reason": "stop",
+     "new_reason": "stop",
+     "old_exit_time": "09:50",
+     "new_exit_time": "09:50",
+     "old_net": -1720.0,
+     "new_net": -1420.0,
+     "delta": 300.0
+    },
+    {
+     "date": "2026-04-02",
+     "direction": "PE",
+     "family": "BASE",
+     "rep": "Skill V3",
+     "entry_time": "10:50",
+     "old_reason": "stop",
+     "new_reason": "stop",
+     "old_exit_time": "10:55",
+     "new_exit_time": "10:50",
+     "old_net": -1720.0,
+     "new_net": -1420.0,
+     "delta": 300.0
+    },
+    {
+     "date": "2026-04-09",
+     "direction": "PE",
+     "family": "NS1_second",
+     "rep": "NS1_second",
+     "entry_time": "12:05",
+     "old_reason": "stop",
+     "new_reason": "stop",
+     "old_exit_time": "12:10",
+     "new_exit_time": "12:10",
+     "old_net": -1720.0,
+     "new_net": -1420.0,
+     "delta": 300.0
+    },
+    {
+     "date": "2026-04-10",
+     "direction": "PE",
+     "family": "BASE",
+     "rep": "V5 v2",
+     "entry_time": "09:35",
+     "old_reason": "stop",
+     "new_reason": "stop",
+     "old_exit_time": "09:45",
+     "new_exit_time": "09:45",
+     "old_net": -1720.0,
+     "new_net": -1420.0,
+     "delta": 300.0
+    },
+    {
+     "date": "2026-04-27",
+     "direction": "PE",
+     "family": "BASE",
+     "rep": "Skill V3",
+     "entry_time": "10:30",
+     "old_reason": "runner_stop",
+     "new_reason": "stop",
+     "old_exit_time": "11:40",
+     "new_exit_time": "10:50",
+     "old_net": 2030.0,
+     "new_net": -1420.0,
+     "delta": -3450.0
+    },
+    {
+     "date": "2026-05-08",
+     "direction": "PE",
+     "family": "NS3_gapclass",
+     "rep": "NS3_NS3-GD",
+     "entry_time": "12:15",
+     "old_reason": "runner_target",
+     "new_reason": "stop",
+     "old_exit_time": "14:00",
+     "new_exit_time": "13:30",
+     "old_net": 4280.0,
+     "new_net": -1420.0,
+     "delta": -5700.0
+    },
+    {
+     "date": "2026-05-14",
+     "direction": "PE",
+     "family": "BASE",
+     "rep": "(lA) v2",
+     "entry_time": "11:00",
+     "old_reason": "stop",
+     "new_reason": "stop",
+     "old_exit_time": "11:10",
+     "new_exit_time": "11:00",
+     "old_net": -1720.0,
+     "new_net": -1420.0,
+     "delta": 300.0
+    },
+    {
+     "date": "2026-05-18",
+     "direction": "PE",
+     "family": "BASE",
+     "rep": "V5 v2",
+     "entry_time": "09:50",
+     "old_reason": "stop",
+     "new_reason": "stop",
+     "old_exit_time": "10:15",
+     "new_exit_time": "10:00",
+     "old_net": -1720.0,
+     "new_net": -1420.0,
+     "delta": 300.0
+    },
+    {
+     "date": "2026-06-09",
+     "direction": "PE",
+     "family": "BASE",
+     "rep": "V5 v2",
+     "entry_time": "09:45",
+     "old_reason": "stop",
+     "new_reason": "stop",
+     "old_exit_time": "11:50",
+     "new_exit_time": "11:45",
+     "old_net": -1720.0,
+     "new_net": -1420.0,
+     "delta": 300.0
+    },
+    {
+     "date": "2026-06-16",
+     "direction": "PE",
+     "family": "BASE",
+     "rep": "V5 v2",
+     "entry_time": "10:10",
+     "old_reason": "stop",
+     "new_reason": "stop",
+     "old_exit_time": "10:30",
+     "new_exit_time": "10:20",
+     "old_net": -1720.0,
+     "new_net": -1420.0,
+     "delta": 300.0
+    },
+    {
+     "date": "2026-07-03",
+     "direction": "PE",
+     "family": "BASE",
+     "rep": "Skill V3",
+     "entry_time": "11:15",
+     "old_reason": "stop",
+     "new_reason": "stop",
+     "old_exit_time": "11:45",
+     "new_exit_time": "11:40",
+     "old_net": -1720.0,
+     "new_net": -1420.0,
+     "delta": 300.0
+    },
+    {
+     "date": "2026-07-06",
+     "direction": "PE",
+     "family": "S3-R1",
+     "rep": "S3-R1",
+     "entry_time": "10:15",
+     "old_reason": "stop",
+     "new_reason": "stop",
+     "old_exit_time": "12:10",
+     "new_exit_time": "12:10",
+     "old_net": -1720.0,
+     "new_net": -1420.0,
+     "delta": 300.0
+    },
+    {
+     "date": "2026-07-07",
+     "direction": "PE",
+     "family": "NS3_gapclass",
+     "rep": "NS3_NS3-GU",
+     "entry_time": "13:15",
+     "old_reason": "stop",
+     "new_reason": "stop",
+     "old_exit_time": "14:35",
+     "new_exit_time": "14:30",
+     "old_net": -1720.0,
+     "new_net": -1420.0,
+     "delta": 300.0
+    },
+    {
+     "date": "2026-07-08",
+     "direction": "PE",
+     "family": "NS3_gapclass",
+     "rep": "NS3_NS3-GD",
+     "entry_time": "09:35",
+     "old_reason": "stop",
+     "new_reason": "stop",
+     "old_exit_time": "09:45",
+     "new_exit_time": "09:45",
+     "old_net": -1720.0,
+     "new_net": -1420.0,
+     "delta": 300.0
+    },
+    {
+     "date": "2026-07-15",
+     "direction": "PE",
+     "family": "BASE",
+     "rep": "V5 v2",
+     "entry_time": "09:45",
+     "old_reason": "runner_target",
+     "new_reason": "stop",
+     "old_exit_time": "13:00",
+     "new_exit_time": "12:15",
+     "old_net": 5180.0,
+     "new_net": -1420.0,
+     "delta": -6600.0
+    },
+    {
+     "date": "2026-07-16",
+     "direction": "PE",
+     "family": "BASE",
+     "rep": "Skill V3",
+     "entry_time": "10:30",
+     "old_reason": "stop",
+     "new_reason": "stop",
+     "old_exit_time": "10:45",
+     "new_exit_time": "10:45",
+     "old_net": -1720.0,
+     "new_net": -1420.0,
+     "delta": 300.0
+    },
+    {
+     "date": "2026-07-24",
+     "direction": "PE",
+     "family": "BASE",
+     "rep": "V5 v2",
+     "entry_time": "09:50",
+     "old_reason": "stop",
+     "new_reason": "stop",
+     "old_exit_time": "09:55",
+     "new_exit_time": "09:55",
+     "old_net": -1720.0,
+     "new_net": -1420.0,
+     "delta": 300.0
+    },
+    {
+     "date": "2026-07-28",
+     "direction": "PE",
+     "family": "NS1_second",
+     "rep": "NS1_second",
+     "entry_time": "10:30",
+     "old_reason": "stop",
+     "new_reason": "stop",
+     "old_exit_time": "10:40",
+     "new_exit_time": "10:35",
+     "old_net": -1720.0,
+     "new_net": -1420.0,
+     "delta": 300.0
+    },
+    {
+     "date": "2026-07-30",
+     "direction": "PE",
+     "family": "BASE",
+     "rep": "V5 v2",
+     "entry_time": "09:40",
+     "old_reason": "stop",
+     "new_reason": "stop",
+     "old_exit_time": "11:30",
+     "new_exit_time": "09:55",
+     "old_net": -1720.0,
+     "new_net": -1420.0,
+     "delta": 300.0
+    },
+    {
+     "date": "2026-08-07",
+     "direction": "PE",
+     "family": "BASE",
+     "rep": "Skill V3",
+     "entry_time": "11:05",
+     "old_reason": "stop",
+     "new_reason": "stop",
+     "old_exit_time": "13:45",
+     "new_exit_time": "11:25",
+     "old_net": -1720.0,
+     "new_net": -1420.0,
+     "delta": 300.0
+    },
+    {
+     "date": "2026-09-24",
+     "direction": "PE",
+     "family": "NS3_gapclass",
+     "rep": "NS3_NS3-GD",
+     "entry_time": "09:40",
+     "old_reason": "runner_target",
+     "new_reason": "stop",
+     "old_exit_time": "13:45",
+     "new_exit_time": "10:55",
+     "old_net": 4280.0,
+     "new_net": -1420.0,
+     "delta": -5700.0
+    },
+    {
+     "date": "2026-09-29",
+     "direction": "PE",
+     "family": "BASE",
+     "rep": "V5 v2",
+     "entry_time": "09:35",
+     "old_reason": "stop",
+     "new_reason": "stop",
+     "old_exit_time": "10:40",
+     "new_exit_time": "10:40",
+     "old_net": -1720.0,
+     "new_net": -1420.0,
+     "delta": 300.0
+    },
+    {
+     "date": "2026-09-30",
+     "direction": "PE",
+     "family": "S3-R1",
+     "rep": "S3-R1",
+     "entry_time": "09:50",
+     "old_reason": "stop",
+     "new_reason": "stop",
+     "old_exit_time": "10:10",
+     "new_exit_time": "10:05",
+     "old_net": -1720.0,
+     "new_net": -1420.0,
+     "delta": 300.0
+    },
+    {
+     "date": "2026-10-05",
+     "direction": "PE",
+     "family": "BASE",
+     "rep": "Skill V3",
+     "entry_time": "10:55",
+     "old_reason": "runner_stop",
+     "new_reason": "stop",
+     "old_exit_time": "11:55",
+     "new_exit_time": "10:55",
+     "old_net": 2480.0,
+     "new_net": -1420.0,
+     "delta": -3900.0
+    },
+    {
+     "date": "2026-10-07",
+     "direction": "PE",
+     "family": "BASE",
+     "rep": "(lA) v2",
+     "entry_time": "09:40",
+     "old_reason": "stop",
+     "new_reason": "stop",
+     "old_exit_time": "09:40",
+     "new_exit_time": "09:40",
+     "old_net": -1720.0,
+     "new_net": -1420.0,
+     "delta": 300.0
+    },
+    {
+     "date": "2026-10-08",
+     "direction": "PE",
+     "family": "BASE",
+     "rep": "Skill V3",
+     "entry_time": "11:30",
+     "old_reason": "stop",
+     "new_reason": "stop",
+     "old_exit_time": "11:45",
+     "new_exit_time": "11:30",
+     "old_net": -1720.0,
+     "new_net": -1420.0,
+     "delta": 300.0
+    },
+    {
+     "date": "2026-01-13",
+     "direction": "PE",
+     "family": "NS3_gapclass",
+     "rep": "NS3_NS3-GU",
+     "entry_time": "09:45",
+     "old_reason": "stop",
+     "new_reason": "stop",
+     "old_exit_time": "10:25",
+     "new_exit_time": "09:45",
+     "old_net": -1720.0,
+     "new_net": -1420.0,
+     "delta": 300.0
+    },
+    {
+     "date": "2026-02-13",
+     "direction": "PE",
+     "family": "NS3_gapclass",
+     "rep": "NS3_NS3-GD",
+     "entry_time": "10:15",
+     "old_reason": "runner_square_off",
+     "new_reason": "stop",
+     "old_exit_time": "15:25",
+     "new_exit_time": "10:35",
+     "old_net": 3662.0,
+     "new_net": -1420.0,
+     "delta": -5082.0
+    },
+    {
+     "date": "2026-03-05",
+     "direction": "PE",
+     "family": "EVE06_REENTRY",
+     "rep": "EVE06a",
+     "entry_time": "13:45",
+     "old_reason": "stop",
+     "new_reason": "stop",
+     "old_exit_time": "14:25",
+     "new_exit_time": "14:25",
+     "old_net": -1720.0,
+     "new_net": -1420.0,
+     "delta": 300.0
+    },
+    {
+     "date": "2026-03-11",
+     "direction": "PE",
+     "family": "EVE06_REENTRY",
+     "rep": "EVE06a",
+     "entry_time": "13:15",
+     "old_reason": "stop",
+     "new_reason": "stop",
+     "old_exit_time": "13:20",
+     "new_exit_time": "13:20",
+     "old_net": -1720.0,
+     "new_net": -1420.0,
+     "delta": 300.0
+    },
+    {
+     "date": "2026-04-09",
+     "direction": "PE",
+     "family": "EVE06_REENTRY",
+     "rep": "EVE06a",
+     "entry_time": "12:50",
+     "old_reason": "target",
+     "new_reason": "stop",
+     "old_exit_time": "13:20",
+     "new_exit_time": "12:50",
+     "old_net": 2480.0,
+     "new_net": -1420.0,
+     "delta": -3900.0
+    },
+    {
+     "date": "2026-07-16",
+     "direction": "PE",
+     "family": "EVE06_REENTRY",
+     "rep": "EVE06a",
+     "entry_time": "13:20",
+     "old_reason": "stop",
+     "new_reason": "stop",
+     "old_exit_time": "14:55",
+     "new_exit_time": "14:55",
+     "old_net": -1720.0,
+     "new_net": -1420.0,
+     "delta": 300.0
+    }
+   ],
+   "months_delta": {
+    "2026-01": 300.0,
+    "2026-02": -10922.0,
+    "2026-03": -3520.0,
+    "2026-04": -6150.0,
+    "2026-05": -2620.0,
+    "2026-06": 600.0,
+    "2026-07": -5281.0,
+    "2026-08": 147.0,
+    "2026-09": -2620.0,
+    "2026-10": -4720.0
+   },
+   "reentry_gained": [
+    [
+     "2026-02-24",
+     "PE",
+     "13:15"
+    ],
+    [
+     "2026-02-26",
+     "PE",
+     "12:15"
+    ],
+    [
+     "2026-03-06",
+     "PE",
+     "12:05"
+    ],
+    [
+     "2026-05-08",
+     "PE",
+     "13:40"
+    ],
+    [
+     "2026-07-07",
+     "PE",
+     "14:35"
+    ],
+    [
+     "2026-07-15",
+     "PE",
+     "13:10"
+    ],
+    [
+     "2026-08-07",
+     "PE",
+     "12:15"
+    ],
+    [
+     "2026-09-24",
+     "PE",
+     "13:45"
+    ],
+    [
+     "2026-10-05",
+     "PE",
+     "12:10"
+    ]
+   ],
+   "reentry_lost": [
+    [
+     "2026-07-07",
+     "PE",
+     "15:00"
+    ],
+    [
+     "2026-08-07",
+     "PE",
+     "14:55"
+    ]
+   ],
+   "reentry_blocked": [],
+   "derivation_nc": [],
+   "fill_audit_violations": [],
+   "independent_resum": {
+    "n": 118,
+    "net": 92565.5
+   },
+   "november_counterfactual": {
+    "days": {
+     "2026-11-02": {
+      "net": 0,
+      "rows": []
+     },
+     "2026-11-03": {
+      "net": 0,
+      "rows": []
+     },
+     "2026-11-04": {
+      "net": 2480.0,
+      "rows": [
+       {
+        "family": "S3-R1",
+        "rep": "S3-R1",
+        "direction": "PE",
+        "strike": 55800,
+        "entry_time": "09:55",
+        "entry": 715.3,
+        "exit_time": "10:25",
+        "exit": 805.3,
+        "exit_reason": "runner_stop",
+        "net": 2480.0
+       }
+      ]
+     },
+     "2026-11-05": {
+      "net": 0,
+      "rows": []
+     },
+     "2026-11-06": {
+      "net": 0,
+      "rows": []
+     },
+     "2026-11-09": {
+      "net": -1420.0,
+      "rows": [
+       {
+        "family": "BASE",
+        "rep": "Skill V3",
+        "direction": "PE",
+        "strike": 58900,
+        "entry_time": "10:45",
+        "entry": 815.4,
+        "exit_time": "10:45",
+        "exit": 775.4,
+        "exit_reason": "stop",
+        "net": -1420.0
+       }
+      ]
+     },
+     "2026-11-11": {
+      "net": 0,
+      "rows": []
+     },
+     "2026-11-12": {
+      "net": -1420.0,
+      "rows": [
+       {
+        "family": "S3-R1",
+        "rep": "S3-R1",
+        "direction": "PE",
+        "strike": 61200,
+        "entry_time": "11:30",
+        "entry": 841.5,
+        "exit_time": "11:35",
+        "exit": 801.5,
+        "exit_reason": "stop",
+        "net": -1420.0
+       }
+      ]
+     }
+    },
+    "flags": [],
+    "total": -360.0
+   }
+  },
+  "T-B2b": {
+   "label": "PE-STOP60 (PE legs only: stop -60 vs -50)",
+   "battery": {
+    "n_legs": 109,
+    "n_days": 89,
+    "total": 126291.5,
+    "per_month": 12629.15,
+    "per_leg": 1158.64,
+    "legs_per_month": 10.9,
+    "legs_per_week": 2.68,
+    "months": {
+     "2026-01": 23728.0,
+     "2026-02": 14384.0,
+     "2026-03": 15980.0,
+     "2026-04": 7930.0,
+     "2026-05": 24800.0,
+     "2026-06": 2440.0,
+     "2026-07": 1524.0,
+     "2026-08": 1759.5,
+     "2026-09": 14456.5,
+     "2026-10": 19289.5
+    },
+    "H1": 86822.0,
+    "H2": 39469.5,
+    "ex_top3_legs": 99468.5,
+    "top3_legs": [
+     9680.0,
+     9680.0,
+     7463.0
+    ],
+    "ex_top3_days": 99468.5,
+    "top3_days": [
+     9680.0,
+     9680.0,
+     7463.0
+    ],
+    "worst_day": {
+     "date": "2026-03-05",
+     "net": -4040.0
+    },
+    "worst_drawdown": -8721.0,
+    "pct_positive_days": 67.4
+   },
+   "placebo_delay6_total": 23982.0,
+   "placebo_reentry_shifted_legs": 12,
+   "gate_fails": [
+    "total 126291.5 !> base 127351.5",
+    "ex-top3 legs 99468.5 vs base 100528.5",
+    "ex-top3 days 99468.5 vs base 100528.5"
+   ],
+   "verdict": "FAIL",
+   "changed_legs": [
+    {
+     "date": "2026-02-02",
+     "direction": "PE",
+     "family": "BASE",
+     "rep": "V5 v2",
+     "entry_time": "09:45",
+     "old_reason": "stop",
+     "new_reason": "stop",
+     "old_exit_time": "09:45",
+     "new_exit_time": "09:50",
+     "old_net": -1720.0,
+     "new_net": -2020.0,
+     "delta": -300.0
+    },
+    {
+     "date": "2026-02-23",
+     "direction": "PE",
+     "family": "S3-R1",
+     "rep": "S3-R1",
+     "entry_time": "11:50",
+     "old_reason": "stop",
+     "new_reason": "stop",
+     "old_exit_time": "12:45",
+     "new_exit_time": "14:30",
+     "old_net": -1720.0,
+     "new_net": -2020.0,
+     "delta": -300.0
+    },
+    {
+     "date": "2026-02-27",
+     "direction": "PE",
+     "family": "BASE",
+     "rep": "(lA) v2",
+     "entry_time": "09:55",
+     "old_reason": "stop",
+     "new_reason": "stop",
+     "old_exit_time": "13:55",
+     "new_exit_time": "13:55",
+     "old_net": -1720.0,
+     "new_net": -2020.0,
+     "delta": -300.0
+    },
+    {
+     "date": "2026-03-05",
+     "direction": "PE",
+     "family": "NS1_second",
+     "rep": "NS1_second",
+     "entry_time": "11:50",
+     "old_reason": "stop",
+     "new_reason": "stop",
+     "old_exit_time": "12:25",
+     "new_exit_time": "12:25",
+     "old_net": -1720.0,
+     "new_net": -2020.0,
+     "delta": -300.0
+    },
+    {
+     "date": "2026-03-11",
+     "direction": "PE",
+     "family": "BASE",
+     "rep": "(lA) v2",
+     "entry_time": "10:45",
+     "old_reason": "stop",
+     "new_reason": "runner_target",
+     "old_exit_time": "11:00",
+     "new_exit_time": "11:30",
+     "old_net": -1720.0,
+     "new_net": 5180.0,
+     "delta": 6900.0
+    },
+    {
+     "date": "2026-03-27",
+     "direction": "PE",
+     "family": "NS3_gapclass",
+     "rep": "NS3_NS3-GD",
+     "entry_time": "09:35",
+     "old_reason": "stop",
+     "new_reason": "stop",
+     "old_exit_time": "10:30",
+     "new_exit_time": "10:35",
+     "old_net": -1720.0,
+     "new_net": -2020.0,
+     "delta": -300.0
+    },
+    {
+     "date": "2026-03-30",
+     "direction": "PE",
+     "family": "BASE",
+     "rep": "V5 v2",
+     "entry_time": "10:55",
+     "old_reason": "stop",
+     "new_reason": "stop",
+     "old_exit_time": "11:35",
+     "new_exit_time": "12:00",
+     "old_net": -1720.0,
+     "new_net": -2020.0,
+     "delta": -300.0
+    },
+    {
+     "date": "2026-04-01",
+     "direction": "PE",
+     "family": "BASE",
+     "rep": "V5 v2",
+     "entry_time": "09:35",
+     "old_reason": "stop",
+     "new_reason": "stop",
+     "old_exit_time": "09:50",
+     "new_exit_time": "10:00",
+     "old_net": -1720.0,
+     "new_net": -2020.0,
+     "delta": -300.0
+    },
+    {
+     "date": "2026-04-02",
+     "direction": "PE",
+     "family": "BASE",
+     "rep": "Skill V3",
+     "entry_time": "10:50",
+     "old_reason": "stop",
+     "new_reason": "stop",
+     "old_exit_time": "10:55",
+     "new_exit_time": "10:55",
+     "old_net": -1720.0,
+     "new_net": -2020.0,
+     "delta": -300.0
+    },
+    {
+     "date": "2026-04-09",
+     "direction": "PE",
+     "family": "NS1_second",
+     "rep": "NS1_second",
+     "entry_time": "12:05",
+     "old_reason": "stop",
+     "new_reason": "lock_stop",
+     "old_exit_time": "12:10",
+     "new_exit_time": "12:30",
+     "old_net": -1720.0,
+     "new_net": -220.0,
+     "delta": 1500.0
+    },
+    {
+     "date": "2026-04-10",
+     "direction": "PE",
+     "family": "BASE",
+     "rep": "V5 v2",
+     "entry_time": "09:35",
+     "old_reason": "stop",
+     "new_reason": "stop",
+     "old_exit_time": "09:45",
+     "new_exit_time": "10:00",
+     "old_net": -1720.0,
+     "new_net": -2020.0,
+     "delta": -300.0
+    },
+    {
+     "date": "2026-05-14",
+     "direction": "PE",
+     "family": "BASE",
+     "rep": "(lA) v2",
+     "entry_time": "11:00",
+     "old_reason": "stop",
+     "new_reason": "stop",
+     "old_exit_time": "11:10",
+     "new_exit_time": "11:10",
+     "old_net": -1720.0,
+     "new_net": -2020.0,
+     "delta": -300.0
+    },
+    {
+     "date": "2026-05-18",
+     "direction": "PE",
+     "family": "BASE",
+     "rep": "V5 v2",
+     "entry_time": "09:50",
+     "old_reason": "stop",
+     "new_reason": "stop",
+     "old_exit_time": "10:15",
+     "new_exit_time": "10:15",
+     "old_net": -1720.0,
+     "new_net": -2020.0,
+     "delta": -300.0
+    },
+    {
+     "date": "2026-06-09",
+     "direction": "PE",
+     "family": "BASE",
+     "rep": "V5 v2",
+     "entry_time": "09:45",
+     "old_reason": "stop",
+     "new_reason": "stop",
+     "old_exit_time": "11:50",
+     "new_exit_time": "12:00",
+     "old_net": -1720.0,
+     "new_net": -2020.0,
+     "delta": -300.0
+    },
+    {
+     "date": "2026-06-16",
+     "direction": "PE",
+     "family": "BASE",
+     "rep": "V5 v2",
+     "entry_time": "10:10",
+     "old_reason": "stop",
+     "new_reason": "stop",
+     "old_exit_time": "10:30",
+     "new_exit_time": "10:35",
+     "old_net": -1720.0,
+     "new_net": -2020.0,
+     "delta": -300.0
+    },
+    {
+     "date": "2026-07-03",
+     "direction": "PE",
+     "family": "BASE",
+     "rep": "Skill V3",
+     "entry_time": "11:15",
+     "old_reason": "stop",
+     "new_reason": "stop",
+     "old_exit_time": "11:45",
+     "new_exit_time": "11:45",
+     "old_net": -1720.0,
+     "new_net": -2020.0,
+     "delta": -300.0
+    },
+    {
+     "date": "2026-07-06",
+     "direction": "PE",
+     "family": "S3-R1",
+     "rep": "S3-R1",
+     "entry_time": "10:15",
+     "old_reason": "stop",
+     "new_reason": "stop",
+     "old_exit_time": "12:10",
+     "new_exit_time": "12:10",
+     "old_net": -1720.0,
+     "new_net": -2020.0,
+     "delta": -300.0
+    },
+    {
+     "date": "2026-07-07",
+     "direction": "PE",
+     "family": "NS3_gapclass",
+     "rep": "NS3_NS3-GU",
+     "entry_time": "13:15",
+     "old_reason": "stop",
+     "new_reason": "stop",
+     "old_exit_time": "14:35",
+     "new_exit_time": "14:35",
+     "old_net": -1720.0,
+     "new_net": -2020.0,
+     "delta": -300.0
+    },
+    {
+     "date": "2026-07-08",
+     "direction": "PE",
+     "family": "NS3_gapclass",
+     "rep": "NS3_NS3-GD",
+     "entry_time": "09:35",
+     "old_reason": "stop",
+     "new_reason": "stop",
+     "old_exit_time": "09:45",
+     "new_exit_time": "09:50",
+     "old_net": -1720.0,
+     "new_net": -2020.0,
+     "delta": -300.0
+    },
+    {
+     "date": "2026-07-16",
+     "direction": "PE",
+     "family": "BASE",
+     "rep": "Skill V3",
+     "entry_time": "10:30",
+     "old_reason": "stop",
+     "new_reason": "stop",
+     "old_exit_time": "10:45",
+     "new_exit_time": "10:55",
+     "old_net": -1720.0,
+     "new_net": -2020.0,
+     "delta": -300.0
+    },
+    {
+     "date": "2026-07-24",
+     "direction": "PE",
+     "family": "BASE",
+     "rep": "V5 v2",
+     "entry_time": "09:50",
+     "old_reason": "stop",
+     "new_reason": "stop",
+     "old_exit_time": "09:55",
+     "new_exit_time": "09:55",
+     "old_net": -1720.0,
+     "new_net": -2020.0,
+     "delta": -300.0
+    },
+    {
+     "date": "2026-07-28",
+     "direction": "PE",
+     "family": "NS1_second",
+     "rep": "NS1_second",
+     "entry_time": "10:30",
+     "old_reason": "stop",
+     "new_reason": "stop",
+     "old_exit_time": "10:40",
+     "new_exit_time": "10:50",
+     "old_net": -1720.0,
+     "new_net": -2020.0,
+     "delta": -300.0
+    },
+    {
+     "date": "2026-07-30",
+     "direction": "PE",
+     "family": "BASE",
+     "rep": "V5 v2",
+     "entry_time": "09:40",
+     "old_reason": "stop",
+     "new_reason": "stop",
+     "old_exit_time": "11:30",
+     "new_exit_time": "12:30",
+     "old_net": -1720.0,
+     "new_net": -2020.0,
+     "delta": -300.0
+    },
+    {
+     "date": "2026-08-07",
+     "direction": "PE",
+     "family": "BASE",
+     "rep": "Skill V3",
+     "entry_time": "11:05",
+     "old_reason": "stop",
+     "new_reason": "stop",
+     "old_exit_time": "13:45",
+     "new_exit_time": "13:45",
+     "old_net": -1720.0,
+     "new_net": -2020.0,
+     "delta": -300.0
+    },
+    {
+     "date": "2026-09-29",
+     "direction": "PE",
+     "family": "BASE",
+     "rep": "V5 v2",
+     "entry_time": "09:35",
+     "old_reason": "stop",
+     "new_reason": "stop",
+     "old_exit_time": "10:40",
+     "new_exit_time": "10:40",
+     "old_net": -1720.0,
+     "new_net": -2020.0,
+     "delta": -300.0
+    },
+    {
+     "date": "2026-09-30",
+     "direction": "PE",
+     "family": "S3-R1",
+     "rep": "S3-R1",
+     "entry_time": "09:50",
+     "old_reason": "stop",
+     "new_reason": "stop",
+     "old_exit_time": "10:10",
+     "new_exit_time": "10:10",
+     "old_net": -1720.0,
+     "new_net": -2020.0,
+     "delta": -300.0
+    },
+    {
+     "date": "2026-10-07",
+     "direction": "PE",
+     "family": "BASE",
+     "rep": "(lA) v2",
+     "entry_time": "09:40",
+     "old_reason": "stop",
+     "new_reason": "stop",
+     "old_exit_time": "09:40",
+     "new_exit_time": "09:40",
+     "old_net": -1720.0,
+     "new_net": -2020.0,
+     "delta": -300.0
+    },
+    {
+     "date": "2026-10-08",
+     "direction": "PE",
+     "family": "BASE",
+     "rep": "Skill V3",
+     "entry_time": "11:30",
+     "old_reason": "stop",
+     "new_reason": "stop",
+     "old_exit_time": "11:45",
+     "new_exit_time": "11:45",
+     "old_net": -1720.0,
+     "new_net": -2020.0,
+     "delta": -300.0
+    },
+    {
+     "date": "2026-01-13",
+     "direction": "PE",
+     "family": "NS3_gapclass",
+     "rep": "NS3_NS3-GU",
+     "entry_time": "09:45",
+     "old_reason": "stop",
+     "new_reason": "stop",
+     "old_exit_time": "10:25",
+     "new_exit_time": "10:30",
+     "old_net": -1720.0,
+     "new_net": -2020.0,
+     "delta": -300.0
+    },
+    {
+     "date": "2026-03-05",
+     "direction": "PE",
+     "family": "EVE06_REENTRY",
+     "rep": "EVE06a",
+     "entry_time": "13:45",
+     "old_reason": "stop",
+     "new_reason": "stop",
+     "old_exit_time": "14:25",
+     "new_exit_time": "14:25",
+     "old_net": -1720.0,
+     "new_net": -2020.0,
+     "delta": -300.0
+    },
+    {
+     "date": "2026-07-16",
+     "direction": "PE",
+     "family": "EVE06_REENTRY",
+     "rep": "EVE06a",
+     "entry_time": "13:20",
+     "old_reason": "stop",
+     "new_reason": "stop",
+     "old_exit_time": "14:55",
+     "new_exit_time": "15:00",
+     "old_net": -1720.0,
+     "new_net": -2020.0,
+     "delta": -300.0
+    }
+   ],
+   "months_delta": {
+    "2026-01": -300.0,
+    "2026-02": -900.0,
+    "2026-03": 7420.0,
+    "2026-04": -1880.0,
+    "2026-05": -600.0,
+    "2026-06": -600.0,
+    "2026-07": -2700.0,
+    "2026-08": -300.0,
+    "2026-09": -600.0,
+    "2026-10": -600.0
+   },
+   "reentry_gained": [],
+   "reentry_lost": [
+    [
+     "2026-03-11",
+     "PE",
+     "13:15"
+    ],
+    [
+     "2026-04-09",
+     "PE",
+     "12:50"
+    ]
+   ],
+   "reentry_blocked": [],
+   "derivation_nc": [],
+   "fill_audit_violations": [],
+   "independent_resum": {
+    "n": 109,
+    "net": 126291.5
+   },
+   "november_counterfactual": {
+    "days": {
+     "2026-11-02": {
+      "net": 0,
+      "rows": []
+     },
+     "2026-11-03": {
+      "net": 0,
+      "rows": []
+     },
+     "2026-11-04": {
+      "net": 2480.0,
+      "rows": [
+       {
+        "family": "S3-R1",
+        "rep": "S3-R1",
+        "direction": "PE",
+        "strike": 55800,
+        "entry_time": "09:55",
+        "entry": 715.3,
+        "exit_time": "10:25",
+        "exit": 805.3,
+        "exit_reason": "runner_stop",
+        "net": 2480.0
+       }
+      ]
+     },
+     "2026-11-05": {
+      "net": 0,
+      "rows": []
+     },
+     "2026-11-06": {
+      "net": 0,
+      "rows": []
+     },
+     "2026-11-09": {
+      "net": -2020.0,
+      "rows": [
+       {
+        "family": "BASE",
+        "rep": "Skill V3",
+        "direction": "PE",
+        "strike": 58900,
+        "entry_time": "10:45",
+        "entry": 815.4,
+        "exit_time": "10:45",
+        "exit": 755.4,
+        "exit_reason": "stop",
+        "net": -2020.0
+       }
+      ]
+     },
+     "2026-11-11": {
+      "net": 0,
+      "rows": []
+     },
+     "2026-11-12": {
+      "net": -2020.0,
+      "rows": [
+       {
+        "family": "S3-R1",
+        "rep": "S3-R1",
+        "direction": "PE",
+        "strike": 61200,
+        "entry_time": "11:30",
+        "entry": 841.5,
+        "exit_time": "12:45",
+        "exit": 781.5,
+        "exit_reason": "stop",
+        "net": -2020.0
+       }
+      ]
+     }
+    },
+    "flags": [],
+    "total": -1560.0
+   }
+  },
+  "T-B2c": {
+   "label": "PE-BE50 (PLAIN PE legs: arm +50, floor entry, target +90)",
+   "battery": {
+    "n_legs": 111,
+    "n_days": 89,
+    "total": 115125.0,
+    "per_month": 11512.5,
+    "per_leg": 1037.16,
+    "legs_per_month": 11.1,
+    "legs_per_week": 2.73,
+    "months": {
+     "2026-01": 24028.0,
+     "2026-02": 12584.0,
+     "2026-03": 7360.0,
+     "2026-04": 11310.0,
+     "2026-05": 25400.0,
+     "2026-06": 3040.0,
+     "2026-07": 324.0,
+     "2026-08": -2667.0,
+     "2026-09": 16556.5,
+     "2026-10": 17189.5
+    },
+    "H1": 80682.0,
+    "H2": 34443.0,
+    "ex_top3_legs": 88302.0,
+    "top3_legs": [
+     9680.0,
+     9680.0,
+     7463.0
+    ],
+    "ex_top3_days": 88302.0,
+    "top3_days": [
+     9680.0,
+     9680.0,
+     7463.0
+    ],
+    "worst_day": {
+     "date": "2026-03-11",
+     "net": -3440.0
+    },
+    "worst_drawdown": -8156.5,
+    "pct_positive_days": 60.7
+   },
+   "placebo_delay6_total": 25883.5,
+   "placebo_reentry_shifted_legs": 14,
+   "gate_fails": [
+    "total 115125.0 !> base 127351.5",
+    "ex-top3 legs 88302.0 vs base 100528.5",
+    "ex-top3 days 88302.0 vs base 100528.5",
+    "month 2026-08 flips green->red (2059.5 -> -2667.0)"
+   ],
+   "verdict": "FAIL",
+   "changed_legs": [
+    {
+     "date": "2026-02-24",
+     "direction": "PE",
+     "family": "BASE",
+     "rep": "(lA) v2",
+     "entry_time": "12:45",
+     "old_reason": "target",
+     "new_reason": "runner_stop",
+     "old_exit_time": "13:30",
+     "new_exit_time": "13:00",
+     "old_net": 2480.0,
+     "new_net": -220.0,
+     "delta": -2700.0
+    },
+    {
+     "date": "2026-04-01",
+     "direction": "PE",
+     "family": "BASE",
+     "rep": "V5 v2",
+     "entry_time": "09:35",
+     "old_reason": "stop",
+     "new_reason": "runner_stop",
+     "old_exit_time": "09:50",
+     "new_exit_time": "09:40",
+     "old_net": -1720.0,
+     "new_net": -220.0,
+     "delta": 1500.0
+    },
+    {
+     "date": "2026-04-15",
+     "direction": "PE",
+     "family": "NS1_second",
+     "rep": "NS1_second",
+     "entry_time": "11:00",
+     "old_reason": "runner_stop",
+     "new_reason": "runner_target",
+     "old_exit_time": "11:15",
+     "new_exit_time": "11:10",
+     "old_net": 2480.0,
+     "new_net": 2480.0,
+     "delta": 0.0
+    },
+    {
+     "date": "2026-04-28",
+     "direction": "PE",
+     "family": "BASE",
+     "rep": "V5 v2",
+     "entry_time": "11:25",
+     "old_reason": "target",
+     "new_reason": "runner_target",
+     "old_exit_time": "11:30",
+     "new_exit_time": "11:30",
+     "old_net": 2480.0,
+     "new_net": 2480.0,
+     "delta": 0.0
+    },
+    {
+     "date": "2026-07-02",
+     "direction": "PE",
+     "family": "NS1_second",
+     "rep": "NS1_second",
+     "entry_time": "11:10",
+     "old_reason": "lock_stop",
+     "new_reason": "runner_stop",
+     "old_exit_time": "11:50",
+     "new_exit_time": "11:50",
+     "old_net": -220.0,
+     "new_net": -220.0,
+     "delta": 0.0
+    },
+    {
+     "date": "2026-07-15",
+     "direction": "PE",
+     "family": "BASE",
+     "rep": "V5 v2",
+     "entry_time": "09:45",
+     "old_reason": "runner_target",
+     "new_reason": "runner_stop",
+     "old_exit_time": "13:00",
+     "new_exit_time": "12:10",
+     "old_net": 5180.0,
+     "new_net": -220.0,
+     "delta": -5400.0
+    },
+    {
+     "date": "2026-08-04",
+     "direction": "PE",
+     "family": "BASE",
+     "rep": "Skill V3",
+     "entry_time": "11:35",
+     "old_reason": "runner_stop",
+     "new_reason": "runner_target",
+     "old_exit_time": "13:00",
+     "new_exit_time": "12:55",
+     "old_net": 2480.0,
+     "new_net": 2480.0,
+     "delta": 0.0
+    },
+    {
+     "date": "2026-08-27",
+     "direction": "PE",
+     "family": "BASE",
+     "rep": "Skill V3",
+     "entry_time": "10:45",
+     "old_reason": "square_off",
+     "new_reason": "runner_stop",
+     "old_exit_time": "15:20",
+     "new_exit_time": "13:10",
+     "old_net": 1806.5,
+     "new_net": -220.0,
+     "delta": -2026.5
+    },
+    {
+     "date": "2026-09-01",
+     "direction": "PE",
+     "family": "NS1_second",
+     "rep": "NS1_second",
+     "entry_time": "13:50",
+     "old_reason": "square_off",
+     "new_reason": "runner_square_off",
+     "old_exit_time": "15:20",
+     "new_exit_time": "15:20",
+     "old_net": 306.5,
+     "new_net": 306.5,
+     "delta": 0.0
+    },
+    {
+     "date": "2026-09-29",
+     "direction": "PE",
+     "family": "BASE",
+     "rep": "V5 v2",
+     "entry_time": "09:35",
+     "old_reason": "stop",
+     "new_reason": "runner_stop",
+     "old_exit_time": "10:40",
+     "new_exit_time": "09:40",
+     "old_net": -1720.0,
+     "new_net": -220.0,
+     "delta": 1500.0
+    },
+    {
+     "date": "2026-10-27",
+     "direction": "PE",
+     "family": "NS1_second",
+     "rep": "NS1_second",
+     "entry_time": "13:10",
+     "old_reason": "target",
+     "new_reason": "runner_target",
+     "old_exit_time": "13:20",
+     "new_exit_time": "13:20",
+     "old_net": 2480.0,
+     "new_net": 2480.0,
+     "delta": 0.0
+    },
+    {
+     "date": "2026-06-24",
+     "direction": "PE",
+     "family": "S3-R1",
+     "rep": "S3-R1",
+     "entry_time": "09:35",
+     "old_reason": "runner_stop",
+     "new_reason": "runner_target",
+     "old_exit_time": "09:55",
+     "new_exit_time": "09:50",
+     "old_net": 2480.0,
+     "new_net": 2480.0,
+     "delta": 0.0
+    },
+    {
+     "date": "2026-08-12",
+     "direction": "PE",
+     "family": "S3-R1",
+     "rep": "S3-R1",
+     "entry_time": "10:40",
+     "old_reason": "runner_stop",
+     "new_reason": "runner_stop",
+     "old_exit_time": "11:35",
+     "new_exit_time": "11:20",
+     "old_net": 2480.0,
+     "new_net": -220.0,
+     "delta": -2700.0
+    },
+    {
+     "date": "2026-02-27",
+     "direction": "PE",
+     "family": "EVE06_REENTRY",
+     "rep": "EVE06a",
+     "entry_time": "15:05",
+     "old_reason": "square_off",
+     "new_reason": "runner_square_off",
+     "old_exit_time": "15:10",
+     "new_exit_time": "15:10",
+     "old_net": -118.0,
+     "new_net": -118.0,
+     "delta": 0.0
+    },
+    {
+     "date": "2026-03-05",
+     "direction": "PE",
+     "family": "EVE06_REENTRY",
+     "rep": "EVE06a",
+     "entry_time": "13:45",
+     "old_reason": "stop",
+     "new_reason": "runner_stop",
+     "old_exit_time": "14:25",
+     "new_exit_time": "14:20",
+     "old_net": -1720.0,
+     "new_net": -220.0,
+     "delta": 1500.0
+    },
+    {
+     "date": "2026-03-27",
+     "direction": "PE",
+     "family": "EVE06_REENTRY",
+     "rep": "EVE06a",
+     "entry_time": "14:25",
+     "old_reason": "target",
+     "new_reason": "runner_target",
+     "old_exit_time": "14:35",
+     "new_exit_time": "14:35",
+     "old_net": 2480.0,
+     "new_net": 2480.0,
+     "delta": 0.0
+    },
+    {
+     "date": "2026-03-30",
+     "direction": "PE",
+     "family": "EVE06_REENTRY",
+     "rep": "EVE06a",
+     "entry_time": "13:20",
+     "old_reason": "target",
+     "new_reason": "runner_stop",
+     "old_exit_time": "14:20",
+     "new_exit_time": "14:00",
+     "old_net": 2480.0,
+     "new_net": -220.0,
+     "delta": -2700.0
+    },
+    {
+     "date": "2026-04-09",
+     "direction": "PE",
+     "family": "EVE06_REENTRY",
+     "rep": "EVE06a",
+     "entry_time": "12:50",
+     "old_reason": "target",
+     "new_reason": "runner_target",
+     "old_exit_time": "13:20",
+     "new_exit_time": "13:20",
+     "old_net": 2480.0,
+     "new_net": 2480.0,
+     "delta": 0.0
+    },
+    {
+     "date": "2026-07-08",
+     "direction": "PE",
+     "family": "EVE06_REENTRY",
+     "rep": "EVE06a",
+     "entry_time": "13:50",
+     "old_reason": "target",
+     "new_reason": "runner_target",
+     "old_exit_time": "13:50",
+     "new_exit_time": "13:55",
+     "old_net": 2480.0,
+     "new_net": 2480.0,
+     "delta": 0.0
+    },
+    {
+     "date": "2026-07-16",
+     "direction": "PE",
+     "family": "EVE06_REENTRY",
+     "rep": "EVE06a",
+     "entry_time": "13:20",
+     "old_reason": "stop",
+     "new_reason": "runner_stop",
+     "old_exit_time": "14:55",
+     "new_exit_time": "14:00",
+     "old_net": -1720.0,
+     "new_net": -220.0,
+     "delta": 1500.0
+    },
+    {
+     "date": "2026-07-28",
+     "direction": "PE",
+     "family": "EVE06_REENTRY",
+     "rep": "EVE06a",
+     "entry_time": "14:25",
+     "old_reason": "square_off",
+     "new_reason": "runner_square_off",
+     "old_exit_time": "15:10",
+     "new_exit_time": "15:10",
+     "old_net": 1145.0,
+     "new_net": 1145.0,
+     "delta": 0.0
+    },
+    {
+     "date": "2026-10-08",
+     "direction": "PE",
+     "family": "EVE06_REENTRY",
+     "rep": "EVE06a",
+     "entry_time": "13:00",
+     "old_reason": "target",
+     "new_reason": "runner_stop",
+     "old_exit_time": "13:55",
+     "new_exit_time": "13:25",
+     "old_net": 2480.0,
+     "new_net": -220.0,
+     "delta": -2700.0
+    }
+   ],
+   "months_delta": {
+    "2026-01": 0.0,
+    "2026-02": -2700.0,
+    "2026-03": -1200.0,
+    "2026-04": 1500.0,
+    "2026-05": 0.0,
+    "2026-06": 0.0,
+    "2026-07": -3900.0,
+    "2026-08": -4726.5,
+    "2026-09": 1500.0,
+    "2026-10": -2700.0
+   },
+   "reentry_gained": [],
+   "reentry_lost": [],
+   "reentry_blocked": [],
+   "derivation_nc": [],
+   "fill_audit_violations": [],
+   "independent_resum": {
+    "n": 111,
+    "net": 115125.0
+   },
+   "november_counterfactual": {
+    "days": {
+     "2026-11-02": {
+      "net": 0,
+      "rows": []
+     },
+     "2026-11-03": {
+      "net": 0,
+      "rows": []
+     },
+     "2026-11-04": {
+      "net": 2480.0,
+      "rows": [
+       {
+        "family": "S3-R1",
+        "rep": "S3-R1",
+        "direction": "PE",
+        "strike": 55800,
+        "entry_time": "09:55",
+        "entry": 715.3,
+        "exit_time": "10:25",
+        "exit": 805.3,
+        "exit_reason": "runner_stop",
+        "net": 2480.0
+       }
+      ]
+     },
+     "2026-11-05": {
+      "net": 0,
+      "rows": []
+     },
+     "2026-11-06": {
+      "net": 0,
+      "rows": []
+     },
+     "2026-11-09": {
+      "net": -1720.0,
+      "rows": [
+       {
+        "family": "BASE",
+        "rep": "Skill V3",
+        "direction": "PE",
+        "strike": 58900,
+        "entry_time": "10:45",
+        "entry": 815.4,
+        "exit_time": "10:45",
+        "exit": 765.4,
+        "exit_reason": "stop",
+        "net": -1720.0
+       }
+      ]
+     },
+     "2026-11-11": {
+      "net": 0,
+      "rows": []
+     },
+     "2026-11-12": {
+      "net": -1720.0,
+      "rows": [
+       {
+        "family": "S3-R1",
+        "rep": "S3-R1",
+        "direction": "PE",
+        "strike": 61200,
+        "entry_time": "11:30",
+        "entry": 841.5,
+        "exit_time": "11:35",
+        "exit": 791.5,
+        "exit_reason": "stop",
+        "net": -1720.0
+       }
+      ]
+     }
+    },
+    "flags": [],
+    "total": -960.0
+   }
+  },
+  "T-B3": {
+   "label": "LADDER-STACK (owner ladder T1 +30/+5, T2 +58/+15, T3 +82/+25, T4 +100 exit; hard stop premium close -20; SQ 15:10 close) on all 111 incumbent legs, entries frozen",
+   "battery": {
+    "n_legs": 111,
+    "n_days": 89,
+    "total": 38305.5,
+    "per_month": 3830.55,
+    "per_leg": 345.09,
+    "legs_per_month": 11.1,
+    "legs_per_week": 2.73,
+    "months": {
+     "2026-01": 8452.0,
+     "2026-02": -2972.5,
+     "2026-03": 10549.0,
+     "2026-04": 3085.5,
+     "2026-05": 7817.0,
+     "2026-06": 2333.5,
+     "2026-07": 4248.0,
+     "2026-08": 273.0,
+     "2026-09": 5569.0,
+     "2026-10": -1049.0
+    },
+    "H1": 26931.0,
+    "H2": 11374.5,
+    "ex_top3_legs": 27933.0,
+    "top3_legs": [
+     3941.0,
+     3770.0,
+     2661.5
+    ],
+    "ex_top3_days": 25855.0,
+    "top3_days": [
+     4583.5,
+     4049.5,
+     3817.5
+    ],
+    "worst_day": {
+     "date": "2026-04-09",
+     "net": -2399.0
+    },
+    "worst_drawdown": -8118.5,
+    "pct_positive_days": 58.4
+   },
+   "placebo_flipped_total": 27903.0,
+   "placebo_shifted_total": -41172.0,
+   "gate_fails": [
+    "total 38305.5 !> base 127351.5",
+    "ex-top3 legs 27933.0 vs base 100528.5",
+    "ex-top3 days 25855.0 vs base 100528.5",
+    "month 2026-02 flips green->red (15284.0 -> -2972.5)",
+    "month 2026-10 flips green->red (19889.5 -> -1049.0)"
+   ],
+   "verdict": "FAIL",
+   "changed_legs": [
+    {
+     "date": "2026-01-20",
+     "direction": "PE",
+     "family": "NS1_second",
+     "rep": "NS1_second",
+     "entry_time": "12:05",
+     "old_reason": "runner_square_off",
+     "new_reason": "T4_EXIT",
+     "old_exit_time": "15:20",
+     "new_exit_time": "12:40",
+     "old_net": 7463.0,
+     "new_net": 1391.0,
+     "delta": -6072.0
+    },
+    {
+     "date": "2026-01-21",
+     "direction": "PE",
+     "family": "BASE",
+     "rep": "V5 v2",
+     "entry_time": "10:00",
+     "old_reason": "runner_target",
+     "new_reason": "T4_EXIT",
+     "old_exit_time": "10:50",
+     "new_exit_time": "10:10",
+     "old_net": 9680.0,
+     "new_net": 1482.5,
+     "delta": -8197.5
+    },
+    {
+     "date": "2026-01-22",
+     "direction": "CE",
+     "family": "BASE",
+     "rep": "Volrix (b)",
+     "entry_time": "09:20",
+     "old_reason": "runner_stop",
+     "new_reason": "T4_EXIT",
+     "old_exit_time": "09:50",
+     "new_exit_time": "09:25",
+     "old_net": 2030.0,
+     "new_net": 1925.0,
+     "delta": -105.0
+    },
+    {
+     "date": "2026-01-22",
+     "direction": "PE",
+     "family": "NS1_second",
+     "rep": "NS1_second",
+     "entry_time": "10:50",
+     "old_reason": "runner_stop",
+     "new_reason": "T4_EXIT",
+     "old_exit_time": "11:05",
+     "new_exit_time": "10:55",
+     "old_net": 2030.0,
+     "new_net": 2658.5,
+     "delta": 628.5
+    },
+    {
+     "date": "2026-01-23",
+     "direction": "PE",
+     "family": "NS1_second",
+     "rep": "NS1_second",
+     "entry_time": "11:20",
+     "old_reason": "runner_stop",
+     "new_reason": "T4_EXIT",
+     "old_exit_time": "11:55",
+     "new_exit_time": "11:40",
+     "old_net": 2030.0,
+     "new_net": 1469.0,
+     "delta": -561.0
+    },
+    {
+     "date": "2026-01-29",
+     "direction": "CE",
+     "family": "NS3_gapclass",
+     "rep": "NS3_NS3-GD",
+     "entry_time": "13:35",
+     "old_reason": "square_off",
+     "new_reason": "LOCK_FLOOR_T2",
+     "old_exit_time": "15:20",
+     "new_exit_time": "14:00",
+     "old_net": 1235.0,
+     "new_net": -310.0,
+     "delta": -1545.0
+    },
+    {
+     "date": "2026-02-02",
+     "direction": "PE",
+     "family": "BASE",
+     "rep": "V5 v2",
+     "entry_time": "09:45",
+     "old_reason": "stop",
+     "new_reason": "HARD_STOP",
+     "old_exit_time": "09:45",
+     "new_exit_time": "09:45",
+     "old_net": -1720.0,
+     "new_net": -1531.0,
+     "delta": 189.0
+    },
+    {
+     "date": "2026-02-05",
+     "direction": "PE",
+     "family": "NS1_second",
+     "rep": "NS1_second",
+     "entry_time": "10:30",
+     "old_reason": "lock_stop",
+     "new_reason": "T4_EXIT",
+     "old_exit_time": "15:00",
+     "new_exit_time": "10:40",
+     "old_net": -220.0,
+     "new_net": 1580.0,
+     "delta": 1800.0
+    },
+    {
+     "date": "2026-02-20",
+     "direction": "CE",
+     "family": "BASE",
+     "rep": "Volrix (b)",
+     "entry_time": "09:20",
+     "old_reason": "runner_target",
+     "new_reason": "HARD_STOP",
+     "old_exit_time": "12:20",
+     "new_exit_time": "09:25",
+     "old_net": 9680.0,
+     "new_net": -928.0,
+     "delta": -10608.0
+    },
+    {
+     "date": "2026-02-23",
+     "direction": "PE",
+     "family": "S3-R1",
+     "rep": "S3-R1",
+     "entry_time": "11:50",
+     "old_reason": "stop",
+     "new_reason": "HARD_STOP",
+     "old_exit_time": "12:45",
+     "new_exit_time": "11:50",
+     "old_net": -1720.0,
+     "new_net": -856.0,
+     "delta": 864.0
+    },
+    {
+     "date": "2026-02-24",
+     "direction": "PE",
+     "family": "BASE",
+     "rep": "(lA) v2",
+     "entry_time": "12:45",
+     "old_reason": "target",
+     "new_reason": "LOCK_FLOOR_T2",
+     "old_exit_time": "13:30",
+     "new_exit_time": "13:00",
+     "old_net": 2480.0,
+     "new_net": -454.0,
+     "delta": -2934.0
+    },
+    {
+     "date": "2026-02-25",
+     "direction": "PE",
+     "family": "BASE",
+     "rep": "Skill V3",
+     "entry_time": "10:50",
+     "old_reason": "runner_stop",
+     "new_reason": "T4_EXIT",
+     "old_exit_time": "12:50",
+     "new_exit_time": "12:30",
+     "old_net": 2480.0,
+     "new_net": 1272.5,
+     "delta": -1207.5
+    },
+    {
+     "date": "2026-02-26",
+     "direction": "PE",
+     "family": "BASE",
+     "rep": "Skill V3",
+     "entry_time": "10:40",
+     "old_reason": "runner_stop",
+     "new_reason": "HARD_STOP",
+     "old_exit_time": "12:25",
+     "new_exit_time": "10:45",
+     "old_net": 2480.0,
+     "new_net": -871.0,
+     "delta": -3351.0
+    },
+    {
+     "date": "2026-02-27",
+     "direction": "PE",
+     "family": "BASE",
+     "rep": "(lA) v2",
+     "entry_time": "09:55",
+     "old_reason": "stop",
+     "new_reason": "LOCK_FLOOR_T2",
+     "old_exit_time": "13:55",
+     "new_exit_time": "10:20",
+     "old_net": -1720.0,
+     "new_net": -203.5,
+     "delta": 1516.5
+    },
+    {
+     "date": "2026-03-05",
+     "direction": "PE",
+     "family": "NS1_second",
+     "rep": "NS1_second",
+     "entry_time": "11:50",
+     "old_reason": "stop",
+     "new_reason": "LOCK_FLOOR_T1",
+     "old_exit_time": "12:25",
+     "new_exit_time": "12:10",
+     "old_net": -1720.0,
+     "new_net": -670.0,
+     "delta": 1050.0
+    },
+    {
+     "date": "2026-03-06",
+     "direction": "PE",
+     "family": "BASE",
+     "rep": "V5 v2",
+     "entry_time": "10:05",
+     "old_reason": "runner_stop",
+     "new_reason": "HARD_STOP",
+     "old_exit_time": "12:30",
+     "new_exit_time": "10:05",
+     "old_net": 2480.0,
+     "new_net": -878.5,
+     "delta": -3358.5
+    },
+    {
+     "date": "2026-03-11",
+     "direction": "PE",
+     "family": "BASE",
+     "rep": "(lA) v2",
+     "entry_time": "10:45",
+     "old_reason": "stop",
+     "new_reason": "HARD_STOP",
+     "old_exit_time": "11:00",
+     "new_exit_time": "10:55",
+     "old_net": -1720.0,
+     "new_net": -1174.0,
+     "delta": 546.0
+    },
+    {
+     "date": "2026-03-13",
+     "direction": "PE",
+     "family": "BASE",
+     "rep": "(lA) v2",
+     "entry_time": "09:50",
+     "old_reason": "runner_stop",
+     "new_reason": "T4_EXIT",
+     "old_exit_time": "10:00",
+     "new_exit_time": "09:55",
+     "old_net": 2480.0,
+     "new_net": 2627.0,
+     "delta": 147.0
+    },
+    {
+     "date": "2026-03-16",
+     "direction": "CE",
+     "family": "BASE",
+     "rep": "Volrix (b)",
+     "entry_time": "09:20",
+     "old_reason": "stop",
+     "new_reason": "HARD_STOP",
+     "old_exit_time": "09:20",
+     "new_exit_time": "09:20",
+     "old_net": -1720.0,
+     "new_net": -1600.0,
+     "delta": 120.0
+    },
+    {
+     "date": "2026-03-16",
+     "direction": "PE",
+     "family": "BASE",
+     "rep": "(lA) v2",
+     "entry_time": "10:25",
+     "old_reason": "runner_stop",
+     "new_reason": "T4_EXIT",
+     "old_exit_time": "10:55",
+     "new_exit_time": "10:25",
+     "old_net": 2480.0,
+     "new_net": 1476.5,
+     "delta": -1003.5
+    },
+    {
+     "date": "2026-03-17",
+     "direction": "PE",
+     "family": "S3-R1",
+     "rep": "S3-R1",
+     "entry_time": "10:55",
+     "old_reason": "runner_stop",
+     "new_reason": "T4_EXIT",
+     "old_exit_time": "11:20",
+     "new_exit_time": "11:10",
+     "old_net": 2480.0,
+     "new_net": 2016.5,
+     "delta": -463.5
+    },
+    {
+     "date": "2026-03-20",
+     "direction": "CE",
+     "family": "NS3_gapclass",
+     "rep": "NS3_NS3-GD",
+     "entry_time": "09:35",
+     "old_reason": "stop",
+     "new_reason": "HARD_STOP",
+     "old_exit_time": "09:40",
+     "new_exit_time": "09:35",
+     "old_net": -1720.0,
+     "new_net": -1025.5,
+     "delta": 694.5
+    },
+    {
+     "date": "2026-03-20",
+     "direction": "PE",
+     "family": "S3-R1",
+     "rep": "S3-R1",
+     "entry_time": "09:45",
+     "old_reason": "runner_stop",
+     "new_reason": "T4_EXIT",
+     "old_exit_time": "10:20",
+     "new_exit_time": "10:10",
+     "old_net": 2480.0,
+     "new_net": 2309.0,
+     "delta": -171.0
+    },
+    {
+     "date": "2026-03-23",
+     "direction": "PE",
+     "family": "BASE",
+     "rep": "V5 v2",
+     "entry_time": "09:50",
+     "old_reason": "runner_stop",
+     "new_reason": "T4_EXIT",
+     "old_exit_time": "10:05",
+     "new_exit_time": "09:50",
+     "old_net": 2480.0,
+     "new_net": 1931.0,
+     "delta": -549.0
+    },
+    {
+     "date": "2026-03-27",
+     "direction": "PE",
+     "family": "NS3_gapclass",
+     "rep": "NS3_NS3-GD",
+     "entry_time": "09:35",
+     "old_reason": "stop",
+     "new_reason": "HARD_STOP",
+     "old_exit_time": "10:30",
+     "new_exit_time": "09:40",
+     "old_net": -1720.0,
+     "new_net": -1292.5,
+     "delta": 427.5
+    },
+    {
+     "date": "2026-03-30",
+     "direction": "PE",
+     "family": "BASE",
+     "rep": "V5 v2",
+     "entry_time": "10:55",
+     "old_reason": "stop",
+     "new_reason": "LOCK_FLOOR_T1",
+     "old_exit_time": "11:35",
+     "new_exit_time": "10:55",
+     "old_net": -1720.0,
+     "new_net": -73.0,
+     "delta": 1647.0
+    },
+    {
+     "date": "2026-04-01",
+     "direction": "PE",
+     "family": "BASE",
+     "rep": "V5 v2",
+     "entry_time": "09:35",
+     "old_reason": "stop",
+     "new_reason": "LOCK_FLOOR_T3",
+     "old_exit_time": "09:50",
+     "new_exit_time": "09:40",
+     "old_net": -1720.0,
+     "new_net": 498.5,
+     "delta": 2218.5
+    },
+    {
+     "date": "2026-04-02",
+     "direction": "PE",
+     "family": "BASE",
+     "rep": "Skill V3",
+     "entry_time": "10:50",
+     "old_reason": "stop",
+     "new_reason": "HARD_STOP",
+     "old_exit_time": "10:55",
+     "new_exit_time": "10:50",
+     "old_net": -1720.0,
+     "new_net": -1156.0,
+     "delta": 564.0
+    },
+    {
+     "date": "2026-04-09",
+     "direction": "PE",
+     "family": "NS1_second",
+     "rep": "NS1_second",
+     "entry_time": "12:05",
+     "old_reason": "stop",
+     "new_reason": "HARD_STOP",
+     "old_exit_time": "12:10",
+     "new_exit_time": "12:05",
+     "old_net": -1720.0,
+     "new_net": -1174.0,
+     "delta": 546.0
+    },
+    {
+     "date": "2026-04-10",
+     "direction": "CE",
+     "family": "BASE",
+     "rep": "Volrix (b)",
+     "entry_time": "09:20",
+     "old_reason": "runner_stop",
+     "new_reason": "T4_EXIT",
+     "old_exit_time": "09:35",
+     "new_exit_time": "09:40",
+     "old_net": 2480.0,
+     "new_net": 1461.5,
+     "delta": -1018.5
+    },
+    {
+     "date": "2026-04-10",
+     "direction": "PE",
+     "family": "BASE",
+     "rep": "V5 v2",
+     "entry_time": "09:35",
+     "old_reason": "stop",
+     "new_reason": "HARD_STOP",
+     "old_exit_time": "09:45",
+     "new_exit_time": "09:45",
+     "old_net": -1720.0,
+     "new_net": -1123.0,
+     "delta": 597.0
+    },
+    {
+     "date": "2026-04-13",
+     "direction": "CE",
+     "family": "BASE",
+     "rep": "V5 v2",
+     "entry_time": "10:30",
+     "old_reason": "runner_target",
+     "new_reason": "LOCK_FLOOR_T2",
+     "old_exit_time": "12:10",
+     "new_exit_time": "11:10",
+     "old_net": 5180.0,
+     "new_net": 129.5,
+     "delta": -5050.5
+    },
+    {
+     "date": "2026-04-15",
+     "direction": "PE",
+     "family": "NS1_second",
+     "rep": "NS1_second",
+     "entry_time": "11:00",
+     "old_reason": "runner_stop",
+     "new_reason": "T4_EXIT",
+     "old_exit_time": "11:15",
+     "new_exit_time": "11:05",
+     "old_net": 2480.0,
+     "new_net": 1965.5,
+     "delta": -514.5
+    },
+    {
+     "date": "2026-04-27",
+     "direction": "PE",
+     "family": "BASE",
+     "rep": "Skill V3",
+     "entry_time": "10:30",
+     "old_reason": "runner_stop",
+     "new_reason": "T4_EXIT",
+     "old_exit_time": "11:40",
+     "new_exit_time": "10:30",
+     "old_net": 2030.0,
+     "new_net": 1652.0,
+     "delta": -378.0
+    },
+    {
+     "date": "2026-04-28",
+     "direction": "CE",
+     "family": "NS3_gapclass",
+     "rep": "NS3_NS3-GD",
+     "entry_time": "10:00",
+     "old_reason": "stop",
+     "new_reason": "LOCK_FLOOR_T1",
+     "old_exit_time": "10:30",
+     "new_exit_time": "10:10",
+     "old_net": -1720.0,
+     "new_net": -1066.0,
+     "delta": 654.0
+    },
+    {
+     "date": "2026-04-28",
+     "direction": "PE",
+     "family": "BASE",
+     "rep": "V5 v2",
+     "entry_time": "11:25",
+     "old_reason": "target",
+     "new_reason": "T4_EXIT",
+     "old_exit_time": "11:30",
+     "new_exit_time": "11:30",
+     "old_net": 2480.0,
+     "new_net": 1601.0,
+     "delta": -879.0
+    },
+    {
+     "date": "2026-05-04",
+     "direction": "PE",
+     "family": "S3-PDC",
+     "rep": "S3-PDC",
+     "entry_time": "14:25",
+     "old_reason": "runner_stop",
+     "new_reason": "T4_EXIT",
+     "old_exit_time": "15:00",
+     "new_exit_time": "14:40",
+     "old_net": 2480.0,
+     "new_net": 1539.5,
+     "delta": -940.5
+    },
+    {
+     "date": "2026-05-05",
+     "direction": "PE",
+     "family": "BASE",
+     "rep": "(lA) v2",
+     "entry_time": "10:35",
+     "old_reason": "runner_stop",
+     "new_reason": "LOCK_FLOOR_T2",
+     "old_exit_time": "11:50",
+     "new_exit_time": "11:00",
+     "old_net": 2480.0,
+     "new_net": -676.0,
+     "delta": -3156.0
+    },
+    {
+     "date": "2026-05-08",
+     "direction": "PE",
+     "family": "NS3_gapclass",
+     "rep": "NS3_NS3-GD",
+     "entry_time": "12:15",
+     "old_reason": "runner_target",
+     "new_reason": "T4_EXIT",
+     "old_exit_time": "14:00",
+     "new_exit_time": "12:55",
+     "old_net": 4280.0,
+     "new_net": 1961.0,
+     "delta": -2319.0
+    },
+    {
+     "date": "2026-05-11",
+     "direction": "CE",
+     "family": "BASE",
+     "rep": "Volrix (b)",
+     "entry_time": "09:20",
+     "old_reason": "runner_stop",
+     "new_reason": "T4_EXIT",
+     "old_exit_time": "09:30",
+     "new_exit_time": "09:20",
+     "old_net": 2480.0,
+     "new_net": 1689.5,
+     "delta": -790.5
+    },
+    {
+     "date": "2026-05-11",
+     "direction": "PE",
+     "family": "BASE",
+     "rep": "(lA) v2",
+     "entry_time": "09:40",
+     "old_reason": "runner_stop",
+     "new_reason": "T4_EXIT",
+     "old_exit_time": "10:05",
+     "new_exit_time": "09:55",
+     "old_net": 2480.0,
+     "new_net": 2360.0,
+     "delta": -120.0
+    },
+    {
+     "date": "2026-05-12",
+     "direction": "PE",
+     "family": "BASE",
+     "rep": "Skill V3",
+     "entry_time": "10:50",
+     "old_reason": "runner_target",
+     "new_reason": "LOCK_FLOOR_T2",
+     "old_exit_time": "12:45",
+     "new_exit_time": "11:00",
+     "old_net": 5180.0,
+     "new_net": 89.0,
+     "delta": -5091.0
+    },
+    {
+     "date": "2026-05-14",
+     "direction": "PE",
+     "family": "BASE",
+     "rep": "(lA) v2",
+     "entry_time": "11:00",
+     "old_reason": "stop",
+     "new_reason": "HARD_STOP",
+     "old_exit_time": "11:10",
+     "new_exit_time": "11:00",
+     "old_net": -1720.0,
+     "new_net": -986.5,
+     "delta": 733.5
+    },
+    {
+     "date": "2026-05-18",
+     "direction": "PE",
+     "family": "BASE",
+     "rep": "V5 v2",
+     "entry_time": "09:50",
+     "old_reason": "stop",
+     "new_reason": "HARD_STOP",
+     "old_exit_time": "10:15",
+     "new_exit_time": "09:55",
+     "old_net": -1720.0,
+     "new_net": -1181.5,
+     "delta": 538.5
+    },
+    {
+     "date": "2026-05-29",
+     "direction": "PE",
+     "family": "BASE",
+     "rep": "V5 v2",
+     "entry_time": "10:30",
+     "old_reason": "runner_target",
+     "new_reason": "T4_EXIT",
+     "old_exit_time": "12:50",
+     "new_exit_time": "10:40",
+     "old_net": 5180.0,
+     "new_net": 879.5,
+     "delta": -4300.5
+    },
+    {
+     "date": "2026-06-01",
+     "direction": "PE",
+     "family": "NS1_second",
+     "rep": "NS1_second",
+     "entry_time": "11:25",
+     "old_reason": "runner_stop",
+     "new_reason": "T4_EXIT",
+     "old_exit_time": "12:15",
+     "new_exit_time": "11:30",
+     "old_net": 2480.0,
+     "new_net": 1518.5,
+     "delta": -961.5
+    },
+    {
+     "date": "2026-06-02",
+     "direction": "CE",
+     "family": "BASE",
+     "rep": "Volrix (b)",
+     "entry_time": "09:20",
+     "old_reason": "runner_stop",
+     "new_reason": "T4_EXIT",
+     "old_exit_time": "09:55",
+     "new_exit_time": "09:35",
+     "old_net": 2480.0,
+     "new_net": 1667.0,
+     "delta": -813.0
+    },
+    {
+     "date": "2026-06-08",
+     "direction": "PE",
+     "family": "S3-R1",
+     "rep": "S3-R1",
+     "entry_time": "12:55",
+     "old_reason": "runner_stop",
+     "new_reason": "T4_EXIT",
+     "old_exit_time": "13:45",
+     "new_exit_time": "13:30",
+     "old_net": 2480.0,
+     "new_net": 897.5,
+     "delta": -1582.5
+    },
+    {
+     "date": "2026-06-09",
+     "direction": "PE",
+     "family": "BASE",
+     "rep": "V5 v2",
+     "entry_time": "09:45",
+     "old_reason": "stop",
+     "new_reason": "LOCK_FLOOR_T1",
+     "old_exit_time": "11:50",
+     "new_exit_time": "09:50",
+     "old_net": -1720.0,
+     "new_net": -1003.0,
+     "delta": 717.0
+    },
+    {
+     "date": "2026-06-10",
+     "direction": "CE",
+     "family": "NS3_gapclass",
+     "rep": "NS3_NS3-GD",
+     "entry_time": "10:55",
+     "old_reason": "stop",
+     "new_reason": "LOCK_FLOOR_T1",
+     "old_exit_time": "11:15",
+     "new_exit_time": "11:05",
+     "old_net": -1720.0,
+     "new_net": -136.0,
+     "delta": 1584.0
+    },
+    {
+     "date": "2026-06-16",
+     "direction": "PE",
+     "family": "BASE",
+     "rep": "V5 v2",
+     "entry_time": "10:10",
+     "old_reason": "stop",
+     "new_reason": "HARD_STOP",
+     "old_exit_time": "10:30",
+     "new_exit_time": "10:20",
+     "old_net": -1720.0,
+     "new_net": -977.5,
+     "delta": 742.5
+    },
+    {
+     "date": "2026-07-01",
+     "direction": "CE",
+     "family": "BASE",
+     "rep": "V5 v2",
+     "entry_time": "10:15",
+     "old_reason": "runner_stop",
+     "new_reason": "T4_EXIT",
+     "old_exit_time": "12:00",
+     "new_exit_time": "10:20",
+     "old_net": 2480.0,
+     "new_net": 1785.5,
+     "delta": -694.5
+    },
+    {
+     "date": "2026-07-02",
+     "direction": "PE",
+     "family": "NS1_second",
+     "rep": "NS1_second",
+     "entry_time": "11:10",
+     "old_reason": "lock_stop",
+     "new_reason": "T4_EXIT",
+     "old_exit_time": "11:50",
+     "new_exit_time": "11:35",
+     "old_net": -220.0,
+     "new_net": 1572.5,
+     "delta": 1792.5
+    },
+    {
+     "date": "2026-07-03",
+     "direction": "PE",
+     "family": "BASE",
+     "rep": "Skill V3",
+     "entry_time": "11:15",
+     "old_reason": "stop",
+     "new_reason": "HARD_STOP",
+     "old_exit_time": "11:45",
+     "new_exit_time": "11:30",
+     "old_net": -1720.0,
+     "new_net": -856.0,
+     "delta": 864.0
+    },
+    {
+     "date": "2026-07-06",
+     "direction": "PE",
+     "family": "S3-R1",
+     "rep": "S3-R1",
+     "entry_time": "10:15",
+     "old_reason": "stop",
+     "new_reason": "HARD_STOP",
+     "old_exit_time": "12:10",
+     "new_exit_time": "11:20",
+     "old_net": -1720.0,
+     "new_net": -1016.5,
+     "delta": 703.5
+    },
+    {
+     "date": "2026-07-07",
+     "direction": "PE",
+     "family": "NS3_gapclass",
+     "rep": "NS3_NS3-GU",
+     "entry_time": "13:15",
+     "old_reason": "stop",
+     "new_reason": "HARD_STOP",
+     "old_exit_time": "14:35",
+     "new_exit_time": "14:05",
+     "old_net": -1720.0,
+     "new_net": -1033.0,
+     "delta": 687.0
+    },
+    {
+     "date": "2026-07-08",
+     "direction": "PE",
+     "family": "NS3_gapclass",
+     "rep": "NS3_NS3-GD",
+     "entry_time": "09:35",
+     "old_reason": "stop",
+     "new_reason": "HARD_STOP",
+     "old_exit_time": "09:45",
+     "new_exit_time": "09:40",
+     "old_net": -1720.0,
+     "new_net": -1409.5,
+     "delta": 310.5
+    },
+    {
+     "date": "2026-07-13",
+     "direction": "CE",
+     "family": "NS3_gapclass",
+     "rep": "NS3_NS3-GD",
+     "entry_time": "09:40",
+     "old_reason": "runner_target",
+     "new_reason": "T4_EXIT",
+     "old_exit_time": "10:20",
+     "new_exit_time": "09:45",
+     "old_net": 4280.0,
+     "new_net": 2390.0,
+     "delta": -1890.0
+    },
+    {
+     "date": "2026-07-15",
+     "direction": "PE",
+     "family": "BASE",
+     "rep": "V5 v2",
+     "entry_time": "09:45",
+     "old_reason": "runner_target",
+     "new_reason": "HARD_STOP",
+     "old_exit_time": "13:00",
+     "new_exit_time": "09:50",
+     "old_net": 5180.0,
+     "new_net": -839.5,
+     "delta": -6019.5
+    },
+    {
+     "date": "2026-07-16",
+     "direction": "PE",
+     "family": "BASE",
+     "rep": "Skill V3",
+     "entry_time": "10:30",
+     "old_reason": "stop",
+     "new_reason": "LOCK_FLOOR_T1",
+     "old_exit_time": "10:45",
+     "new_exit_time": "10:40",
+     "old_net": -1720.0,
+     "new_net": -742.0,
+     "delta": 978.0
+    },
+    {
+     "date": "2026-07-23",
+     "direction": "PE",
+     "family": "NS3_gapclass",
+     "rep": "NS3_NS3-GD",
+     "entry_time": "11:50",
+     "old_reason": "runner_target",
+     "new_reason": "T4_EXIT",
+     "old_exit_time": "12:45",
+     "new_exit_time": "12:30",
+     "old_net": 4280.0,
+     "new_net": 1962.5,
+     "delta": -2317.5
+    },
+    {
+     "date": "2026-07-24",
+     "direction": "PE",
+     "family": "BASE",
+     "rep": "V5 v2",
+     "entry_time": "09:50",
+     "old_reason": "stop",
+     "new_reason": "HARD_STOP",
+     "old_exit_time": "09:55",
+     "new_exit_time": "09:50",
+     "old_net": -1720.0,
+     "new_net": -1151.5,
+     "delta": 568.5
+    },
+    {
+     "date": "2026-07-28",
+     "direction": "PE",
+     "family": "NS1_second",
+     "rep": "NS1_second",
+     "entry_time": "10:30",
+     "old_reason": "stop",
+     "new_reason": "HARD_STOP",
+     "old_exit_time": "10:40",
+     "new_exit_time": "10:30",
+     "old_net": -1720.0,
+     "new_net": -1081.0,
+     "delta": 639.0
+    },
+    {
+     "date": "2026-07-30",
+     "direction": "PE",
+     "family": "BASE",
+     "rep": "V5 v2",
+     "entry_time": "09:40",
+     "old_reason": "stop",
+     "new_reason": "HARD_STOP",
+     "old_exit_time": "11:30",
+     "new_exit_time": "09:55",
+     "old_net": -1720.0,
+     "new_net": -1448.5,
+     "delta": 271.5
+    },
+    {
+     "date": "2026-08-04",
+     "direction": "PE",
+     "family": "BASE",
+     "rep": "Skill V3",
+     "entry_time": "11:35",
+     "old_reason": "runner_stop",
+     "new_reason": "T4_EXIT",
+     "old_exit_time": "13:00",
+     "new_exit_time": "12:05",
+     "old_net": 2480.0,
+     "new_net": 1430.0,
+     "delta": -1050.0
+    },
+    {
+     "date": "2026-08-07",
+     "direction": "PE",
+     "family": "BASE",
+     "rep": "Skill V3",
+     "entry_time": "11:05",
+     "old_reason": "stop",
+     "new_reason": "HARD_STOP",
+     "old_exit_time": "13:45",
+     "new_exit_time": "11:20",
+     "old_net": -1720.0,
+     "new_net": -1255.0,
+     "delta": 465.0
+    },
+    {
+     "date": "2026-08-25",
+     "direction": "CE",
+     "family": "BASE",
+     "rep": "V5 v2",
+     "entry_time": "09:35",
+     "old_reason": "stop",
+     "new_reason": "HARD_STOP",
+     "old_exit_time": "09:40",
+     "new_exit_time": "09:35",
+     "old_net": -1720.0,
+     "new_net": -1298.5,
+     "delta": 421.5
+    },
+    {
+     "date": "2026-08-27",
+     "direction": "PE",
+     "family": "BASE",
+     "rep": "Skill V3",
+     "entry_time": "10:45",
+     "old_reason": "square_off",
+     "new_reason": "T4_EXIT",
+     "old_exit_time": "15:20",
+     "new_exit_time": "12:15",
+     "old_net": 1806.5,
+     "new_net": 1233.5,
+     "delta": -573.0
+    },
+    {
+     "date": "2026-09-01",
+     "direction": "CE",
+     "family": "NS3_gapclass",
+     "rep": "NS3_NS3-GD",
+     "entry_time": "11:15",
+     "old_reason": "stop",
+     "new_reason": "LOCK_FLOOR_T2",
+     "old_exit_time": "13:00",
+     "new_exit_time": "11:35",
+     "old_net": -1720.0,
+     "new_net": -341.5,
+     "delta": 1378.5
+    },
+    {
+     "date": "2026-09-01",
+     "direction": "PE",
+     "family": "NS1_second",
+     "rep": "NS1_second",
+     "entry_time": "13:50",
+     "old_reason": "square_off",
+     "new_reason": "T4_EXIT",
+     "old_exit_time": "15:20",
+     "new_exit_time": "14:00",
+     "old_net": 306.5,
+     "new_net": 1397.0,
+     "delta": 1090.5
+    },
+    {
+     "date": "2026-09-02",
+     "direction": "CE",
+     "family": "BASE",
+     "rep": "Volrix (b)",
+     "entry_time": "09:20",
+     "old_reason": "runner_stop",
+     "new_reason": "T4_EXIT",
+     "old_exit_time": "10:20",
+     "new_exit_time": "09:30",
+     "old_net": 2480.0,
+     "new_net": 1535.0,
+     "delta": -945.0
+    },
+    {
+     "date": "2026-09-11",
+     "direction": "CE",
+     "family": "NS3_gapclass",
+     "rep": "NS3_NS3-GD",
+     "entry_time": "10:15",
+     "old_reason": "runner_target",
+     "new_reason": "HARD_STOP",
+     "old_exit_time": "11:15",
+     "new_exit_time": "10:25",
+     "old_net": 4280.0,
+     "new_net": -1030.0,
+     "delta": -5310.0
+    },
+    {
+     "date": "2026-09-17",
+     "direction": "CE",
+     "family": "NS3_gapclass",
+     "rep": "NS3_NS3-GD",
+     "entry_time": "09:35",
+     "old_reason": "stop",
+     "new_reason": "HARD_STOP",
+     "old_exit_time": "09:40",
+     "new_exit_time": "09:45",
+     "old_net": -1720.0,
+     "new_net": -898.0,
+     "delta": 822.0
+    },
+    {
+     "date": "2026-09-22",
+     "direction": "PE",
+     "family": "BASE",
+     "rep": "Skill V3",
+     "entry_time": "10:35",
+     "old_reason": "runner_stop",
+     "new_reason": "T4_EXIT",
+     "old_exit_time": "13:40",
+     "new_exit_time": "11:00",
+     "old_net": 2030.0,
+     "new_net": 1623.5,
+     "delta": -406.5
+    },
+    {
+     "date": "2026-09-24",
+     "direction": "PE",
+     "family": "NS3_gapclass",
+     "rep": "NS3_NS3-GD",
+     "entry_time": "09:40",
+     "old_reason": "runner_target",
+     "new_reason": "LOCK_FLOOR_T3",
+     "old_exit_time": "13:45",
+     "new_exit_time": "09:45",
+     "old_net": 4280.0,
+     "new_net": 72.5,
+     "delta": -4207.5
+    },
+    {
+     "date": "2026-09-28",
+     "direction": "PE",
+     "family": "NS3_gapclass",
+     "rep": "NS3_NS3-GD",
+     "entry_time": "09:35",
+     "old_reason": "runner_target",
+     "new_reason": "T4_EXIT",
+     "old_exit_time": "10:45",
+     "new_exit_time": "09:35",
+     "old_net": 4280.0,
+     "new_net": 1613.0,
+     "delta": -2667.0
+    },
+    {
+     "date": "2026-09-29",
+     "direction": "PE",
+     "family": "BASE",
+     "rep": "V5 v2",
+     "entry_time": "09:35",
+     "old_reason": "stop",
+     "new_reason": "LOCK_FLOOR_T3",
+     "old_exit_time": "10:40",
+     "new_exit_time": "09:40",
+     "old_net": -1720.0,
+     "new_net": 45.5,
+     "delta": 1765.5
+    },
+    {
+     "date": "2026-09-30",
+     "direction": "PE",
+     "family": "S3-R1",
+     "rep": "S3-R1",
+     "entry_time": "09:50",
+     "old_reason": "stop",
+     "new_reason": "HARD_STOP",
+     "old_exit_time": "10:10",
+     "new_exit_time": "10:00",
+     "old_net": -1720.0,
+     "new_net": -1085.5,
+     "delta": 634.5
+    },
+    {
+     "date": "2026-10-01",
+     "direction": "CE",
+     "family": "BASE",
+     "rep": "V5 v2",
+     "entry_time": "10:00",
+     "old_reason": "runner_stop",
+     "new_reason": "LOCK_FLOOR_T1",
+     "old_exit_time": "10:35",
+     "new_exit_time": "10:05",
+     "old_net": 2480.0,
+     "new_net": -584.5,
+     "delta": -3064.5
+    },
+    {
+     "date": "2026-10-05",
+     "direction": "PE",
+     "family": "BASE",
+     "rep": "Skill V3",
+     "entry_time": "10:55",
+     "old_reason": "runner_stop",
+     "new_reason": "HARD_STOP",
+     "old_exit_time": "11:55",
+     "new_exit_time": "10:55",
+     "old_net": 2480.0,
+     "new_net": -1301.5,
+     "delta": -3781.5
+    },
+    {
+     "date": "2026-10-07",
+     "direction": "PE",
+     "family": "BASE",
+     "rep": "(lA) v2",
+     "entry_time": "09:40",
+     "old_reason": "stop",
+     "new_reason": "HARD_STOP",
+     "old_exit_time": "09:40",
+     "new_exit_time": "09:40",
+     "old_net": -1720.0,
+     "new_net": -1711.0,
+     "delta": 9.0
+    },
+    {
+     "date": "2026-10-08",
+     "direction": "PE",
+     "family": "BASE",
+     "rep": "Skill V3",
+     "entry_time": "11:30",
+     "old_reason": "stop",
+     "new_reason": "HARD_STOP",
+     "old_exit_time": "11:45",
+     "new_exit_time": "11:30",
+     "old_net": -1720.0,
+     "new_net": -1117.0,
+     "delta": 603.0
+    },
+    {
+     "date": "2026-10-12",
+     "direction": "PE",
+     "family": "NS1_second",
+     "rep": "NS1_second",
+     "entry_time": "10:30",
+     "old_reason": "runner_stop",
+     "new_reason": "LOCK_FLOOR_T1",
+     "old_exit_time": "11:05",
+     "new_exit_time": "10:35",
+     "old_net": 2480.0,
+     "new_net": -400.0,
+     "delta": -2880.0
+    },
+    {
+     "date": "2026-10-21",
+     "direction": "PE",
+     "family": "BASE",
+     "rep": "(lA) v2",
+     "entry_time": "11:20",
+     "old_reason": "runner_square_off",
+     "new_reason": "T4_EXIT",
+     "old_exit_time": "15:20",
+     "new_exit_time": "11:30",
+     "old_net": 4389.5,
+     "new_net": 1506.5,
+     "delta": -2883.0
+    },
+    {
+     "date": "2026-10-23",
+     "direction": "PE",
+     "family": "BASE",
+     "rep": "(lA) v2",
+     "entry_time": "10:00",
+     "old_reason": "runner_stop",
+     "new_reason": "T4_EXIT",
+     "old_exit_time": "10:20",
+     "new_exit_time": "10:00",
+     "old_net": 2030.0,
+     "new_net": 1500.5,
+     "delta": -529.5
+    },
+    {
+     "date": "2026-10-26",
+     "direction": "PE",
+     "family": "BASE",
+     "rep": "V5 v2",
+     "entry_time": "10:20",
+     "old_reason": "runner_stop",
+     "new_reason": "LOCK_FLOOR_T3",
+     "old_exit_time": "10:40",
+     "new_exit_time": "10:25",
+     "old_net": 2030.0,
+     "new_net": 315.5,
+     "delta": -1714.5
+    },
+    {
+     "date": "2026-10-27",
+     "direction": "PE",
+     "family": "NS1_second",
+     "rep": "NS1_second",
+     "entry_time": "13:10",
+     "old_reason": "target",
+     "new_reason": "T4_EXIT",
+     "old_exit_time": "13:20",
+     "new_exit_time": "13:25",
+     "old_net": 2480.0,
+     "new_net": 2661.5,
+     "delta": 181.5
+    },
+    {
+     "date": "2026-01-05",
+     "direction": "PE",
+     "family": "NS3_gapclass",
+     "rep": "NS3_NS3-GU",
+     "entry_time": "13:15",
+     "old_reason": "runner_stop",
+     "new_reason": "LOCK_FLOOR_T3",
+     "old_exit_time": "14:40",
+     "new_exit_time": "13:40",
+     "old_net": 1280.0,
+     "new_net": 453.5,
+     "delta": -826.5
+    },
+    {
+     "date": "2026-01-13",
+     "direction": "PE",
+     "family": "NS3_gapclass",
+     "rep": "NS3_NS3-GU",
+     "entry_time": "09:45",
+     "old_reason": "stop",
+     "new_reason": "LOCK_FLOOR_T1",
+     "old_exit_time": "10:25",
+     "new_exit_time": "10:00",
+     "old_net": -1720.0,
+     "new_net": -617.5,
+     "delta": 1102.5
+    },
+    {
+     "date": "2026-02-13",
+     "direction": "PE",
+     "family": "NS3_gapclass",
+     "rep": "NS3_NS3-GD",
+     "entry_time": "10:15",
+     "old_reason": "runner_square_off",
+     "new_reason": "HARD_STOP",
+     "old_exit_time": "15:25",
+     "new_exit_time": "10:30",
+     "old_net": 3662.0,
+     "new_net": -1037.5,
+     "delta": -4699.5
+    },
+    {
+     "date": "2026-04-24",
+     "direction": "PE",
+     "family": "NS3_gapclass",
+     "rep": "NS3_NS3-GD",
+     "entry_time": "09:35",
+     "old_reason": "runner_stop",
+     "new_reason": "T4_EXIT",
+     "old_exit_time": "10:00",
+     "new_exit_time": "09:45",
+     "old_net": 1280.0,
+     "new_net": 1521.5,
+     "delta": 241.5
+    },
+    {
+     "date": "2026-05-21",
+     "direction": "PE",
+     "family": "NS3_gapclass",
+     "rep": "NS3_NS3-GU",
+     "entry_time": "12:25",
+     "old_reason": "runner_target",
+     "new_reason": "T4_EXIT",
+     "old_exit_time": "12:55",
+     "new_exit_time": "12:35",
+     "old_net": 4280.0,
+     "new_net": 2142.5,
+     "delta": -2137.5
+    },
+    {
+     "date": "2026-06-24",
+     "direction": "PE",
+     "family": "S3-R1",
+     "rep": "S3-R1",
+     "entry_time": "09:35",
+     "old_reason": "runner_stop",
+     "new_reason": "T4_EXIT",
+     "old_exit_time": "09:55",
+     "new_exit_time": "09:45",
+     "old_net": 2480.0,
+     "new_net": 1776.5,
+     "delta": -703.5
+    },
+    {
+     "date": "2026-08-12",
+     "direction": "PE",
+     "family": "S3-R1",
+     "rep": "S3-R1",
+     "entry_time": "10:40",
+     "old_reason": "runner_stop",
+     "new_reason": "T4_EXIT",
+     "old_exit_time": "11:35",
+     "new_exit_time": "10:55",
+     "old_net": 2480.0,
+     "new_net": 1110.5,
+     "delta": -1369.5
+    },
+    {
+     "date": "2026-09-15",
+     "direction": "PE",
+     "family": "NS3_gapclass",
+     "rep": "NS3_NS3-GU",
+     "entry_time": "09:35",
+     "old_reason": "runner_target",
+     "new_reason": "T4_EXIT",
+     "old_exit_time": "10:40",
+     "new_exit_time": "09:50",
+     "old_net": 4280.0,
+     "new_net": 2637.5,
+     "delta": -1642.5
+    },
+    {
+     "date": "2026-10-13",
+     "direction": "PE",
+     "family": "S3-R1",
+     "rep": "S3-R1",
+     "entry_time": "10:40",
+     "old_reason": "runner_stop",
+     "new_reason": "HARD_STOP",
+     "old_exit_time": "11:50",
+     "new_exit_time": "10:45",
+     "old_net": 2480.0,
+     "new_net": -1009.0,
+     "delta": -3489.0
+    },
+    {
+     "date": "2026-02-27",
+     "direction": "PE",
+     "family": "EVE06_REENTRY",
+     "rep": "EVE06a",
+     "entry_time": "15:05",
+     "old_reason": "square_off",
+     "new_reason": "SQUARE_OFF",
+     "old_exit_time": "15:10",
+     "new_exit_time": "15:10",
+     "old_net": -118.0,
+     "new_net": 56.0,
+     "delta": 174.0
+    },
+    {
+     "date": "2026-03-05",
+     "direction": "PE",
+     "family": "EVE06_REENTRY",
+     "rep": "EVE06a",
+     "entry_time": "13:45",
+     "old_reason": "stop",
+     "new_reason": "T4_EXIT",
+     "old_exit_time": "14:25",
+     "new_exit_time": "13:55",
+     "old_net": -1720.0,
+     "new_net": 1497.5,
+     "delta": 3217.5
+    },
+    {
+     "date": "2026-03-11",
+     "direction": "PE",
+     "family": "EVE06_REENTRY",
+     "rep": "EVE06a",
+     "entry_time": "13:15",
+     "old_reason": "stop",
+     "new_reason": "HARD_STOP",
+     "old_exit_time": "13:20",
+     "new_exit_time": "13:15",
+     "old_net": -1720.0,
+     "new_net": -1000.0,
+     "delta": 720.0
+    },
+    {
+     "date": "2026-03-16",
+     "direction": "CE",
+     "family": "EVE06_REENTRY",
+     "rep": "EVE06a",
+     "entry_time": "14:30",
+     "old_reason": "target",
+     "new_reason": "T4_EXIT",
+     "old_exit_time": "14:35",
+     "new_exit_time": "14:35",
+     "old_net": 2480.0,
+     "new_net": 3941.0,
+     "delta": 1461.0
+    },
+    {
+     "date": "2026-03-27",
+     "direction": "PE",
+     "family": "EVE06_REENTRY",
+     "rep": "EVE06a",
+     "entry_time": "14:25",
+     "old_reason": "target",
+     "new_reason": "T4_EXIT",
+     "old_exit_time": "14:35",
+     "new_exit_time": "14:35",
+     "old_net": 2480.0,
+     "new_net": 2570.0,
+     "delta": 90.0
+    },
+    {
+     "date": "2026-03-30",
+     "direction": "PE",
+     "family": "EVE06_REENTRY",
+     "rep": "EVE06a",
+     "entry_time": "13:20",
+     "old_reason": "target",
+     "new_reason": "LOCK_FLOOR_T1",
+     "old_exit_time": "14:20",
+     "new_exit_time": "13:35",
+     "old_net": 2480.0,
+     "new_net": -106.0,
+     "delta": -2586.0
+    },
+    {
+     "date": "2026-04-09",
+     "direction": "PE",
+     "family": "EVE06_REENTRY",
+     "rep": "EVE06a",
+     "entry_time": "12:50",
+     "old_reason": "target",
+     "new_reason": "HARD_STOP",
+     "old_exit_time": "13:20",
+     "new_exit_time": "12:50",
+     "old_net": 2480.0,
+     "new_net": -1225.0,
+     "delta": -3705.0
+    },
+    {
+     "date": "2026-06-10",
+     "direction": "CE",
+     "family": "EVE06_REENTRY",
+     "rep": "EVE06a",
+     "entry_time": "13:05",
+     "old_reason": "stop",
+     "new_reason": "HARD_STOP",
+     "old_exit_time": "13:30",
+     "new_exit_time": "13:20",
+     "old_net": -1720.0,
+     "new_net": -1409.5,
+     "delta": 310.5
+    },
+    {
+     "date": "2026-07-03",
+     "direction": "PE",
+     "family": "EVE06_REENTRY",
+     "rep": "EVE06a",
+     "entry_time": "13:05",
+     "old_reason": "square_off",
+     "new_reason": "LOCK_FLOOR_T2",
+     "old_exit_time": "15:10",
+     "new_exit_time": "13:35",
+     "old_net": -757.0,
+     "new_net": 144.5,
+     "delta": 901.5
+    },
+    {
+     "date": "2026-07-07",
+     "direction": "PE",
+     "family": "EVE06_REENTRY",
+     "rep": "EVE06a",
+     "entry_time": "15:00",
+     "old_reason": "square_off",
+     "new_reason": "T4_EXIT",
+     "old_exit_time": "15:10",
+     "new_exit_time": "15:10",
+     "old_net": 836.0,
+     "new_net": 1172.0,
+     "delta": 336.0
+    },
+    {
+     "date": "2026-07-08",
+     "direction": "PE",
+     "family": "EVE06_REENTRY",
+     "rep": "EVE06a",
+     "entry_time": "13:50",
+     "old_reason": "target",
+     "new_reason": "T4_EXIT",
+     "old_exit_time": "13:50",
+     "new_exit_time": "13:50",
+     "old_net": 2480.0,
+     "new_net": 3770.0,
+     "delta": 1290.0
+    },
+    {
+     "date": "2026-07-16",
+     "direction": "PE",
+     "family": "EVE06_REENTRY",
+     "rep": "EVE06a",
+     "entry_time": "13:20",
+     "old_reason": "stop",
+     "new_reason": "T4_EXIT",
+     "old_exit_time": "14:55",
+     "new_exit_time": "13:35",
+     "old_net": -1720.0,
+     "new_net": 1518.5,
+     "delta": 3238.5
+    },
+    {
+     "date": "2026-07-28",
+     "direction": "PE",
+     "family": "EVE06_REENTRY",
+     "rep": "EVE06a",
+     "entry_time": "14:25",
+     "old_reason": "square_off",
+     "new_reason": "LOCK_FLOOR_T1",
+     "old_exit_time": "15:10",
+     "new_exit_time": "14:35",
+     "old_net": 1145.0,
+     "new_net": -490.0,
+     "delta": -1635.0
+    },
+    {
+     "date": "2026-08-07",
+     "direction": "PE",
+     "family": "EVE06_REENTRY",
+     "rep": "EVE06a",
+     "entry_time": "14:55",
+     "old_reason": "square_off",
+     "new_reason": "HARD_STOP",
+     "old_exit_time": "15:10",
+     "new_exit_time": "15:00",
+     "old_net": -1267.0,
+     "new_net": -947.5,
+     "delta": 319.5
+    },
+    {
+     "date": "2026-10-08",
+     "direction": "PE",
+     "family": "EVE06_REENTRY",
+     "rep": "EVE06a",
+     "entry_time": "13:00",
+     "old_reason": "target",
+     "new_reason": "HARD_STOP",
+     "old_exit_time": "13:55",
+     "new_exit_time": "13:00",
+     "old_net": 2480.0,
+     "new_net": -910.0,
+     "delta": -3390.0
+    }
+   ],
+   "months_delta": {
+    "2026-01": -15576.0,
+    "2026-02": -18256.5,
+    "2026-03": 1989.0,
+    "2026-04": -6724.5,
+    "2026-05": -17583.0,
+    "2026-06": -706.5,
+    "2026-07": 24.0,
+    "2026-08": -1786.5,
+    "2026-09": -9487.5,
+    "2026-10": -20938.5
+   },
+   "entry_reconstruction": "111/111 legs reproduce their recorded entry premium",
+   "candidate_nc": [],
+   "independent_resum": {
+    "n": 111,
+    "net": 38305.5
+   },
+   "stage_distribution": {
+    "0": 38,
+    "1": 12,
+    "2": 8,
+    "3": 5,
+    "4": 48
+   },
+   "november_counterfactual": {
+    "days": {
+     "2026-11-02": {
+      "net": 0,
+      "rows": []
+     },
+     "2026-11-03": {
+      "net": 0,
+      "rows": []
+     },
+     "2026-11-04": {
+      "net": -227.5,
+      "rows": [
+       {
+        "family": "S3-R1",
+        "rep": "S3-R1",
+        "direction": "PE",
+        "strike": 55800,
+        "entry_time": "09:55",
+        "entry": 715.3,
+        "exit_time": "10:05",
+        "exit": 715.05,
+        "exit_reason": "LOCK_FLOOR_T2",
+        "net": -227.5
+       }
+      ]
+     },
+     "2026-11-05": {
+      "net": 0,
+      "rows": []
+     },
+     "2026-11-06": {
+      "net": 0,
+      "rows": []
+     },
+     "2026-11-09": {
+      "net": -2545.0,
+      "rows": [
+       {
+        "family": "BASE",
+        "rep": "Skill V3",
+        "direction": "PE",
+        "strike": 58900,
+        "entry_time": "10:45",
+        "entry": 815.4,
+        "exit_time": "10:45",
+        "exit": 737.9,
+        "exit_reason": "HARD_STOP",
+        "net": -2545.0
+       }
+      ]
+     },
+     "2026-11-11": {
+      "net": 0,
+      "rows": []
+     },
+     "2026-11-12": {
+      "net": -1114.0,
+      "rows": [
+       {
+        "family": "S3-R1",
+        "rep": "S3-R1",
+        "direction": "PE",
+        "strike": 61200,
+        "entry_time": "11:30",
+        "entry": 841.5,
+        "exit_time": "11:30",
+        "exit": 811.7,
+        "exit_reason": "HARD_STOP",
+        "net": -1114.0
+       }
+      ]
+     }
+    },
+    "flags": [],
+    "total": -3886.5
+   }
+  }
+ },
+ "november": {
+  "identity": {
+   "days": {
+    "2026-11-02": {
+     "net": 0,
+     "rows": []
+    },
+    "2026-11-03": {
+     "net": 0,
+     "rows": []
+    },
+    "2026-11-04": {
+     "net": 2480.0,
+     "rows": [
+      {
+       "family": "S3-R1",
+       "rep": "S3-R1",
+       "direction": "PE",
+       "strike": 55800,
+       "entry_time": "09:55",
+       "entry": 715.3,
+       "exit_time": "10:25",
+       "exit": 805.3,
+       "exit_reason": "runner_stop",
+       "net": 2480.0
+      }
+     ]
+    },
+    "2026-11-05": {
+     "net": 0,
+     "rows": []
+    },
+    "2026-11-06": {
+     "net": 0,
+     "rows": []
+    },
+    "2026-11-09": {
+     "net": -1720.0,
+     "rows": [
+      {
+       "family": "BASE",
+       "rep": "Skill V3",
+       "direction": "PE",
+       "strike": 58900,
+       "entry_time": "10:45",
+       "entry": 815.4,
+       "exit_time": "10:45",
+       "exit": 765.4,
+       "exit_reason": "stop",
+       "net": -1720.0
+      }
+     ]
+    },
+    "2026-11-11": {
+     "net": 0,
+     "rows": []
+    },
+    "2026-11-12": {
+     "net": -1720.0,
+     "rows": [
+      {
+       "family": "S3-R1",
+       "rep": "S3-R1",
+       "direction": "PE",
+       "strike": 61200,
+       "entry_time": "11:30",
+       "entry": 841.5,
+       "exit_time": "11:35",
+       "exit": 791.5,
+       "exit_reason": "stop",
+       "net": -1720.0
+      }
+     ]
+    }
+   },
+   "total": -960.0
+  },
+  "variants": {
+   "T-B1a": {
+    "days": {
+     "2026-11-02": {
+      "net": 0,
+      "rows": []
+     },
+     "2026-11-03": {
+      "net": 0,
+      "rows": []
+     },
+     "2026-11-04": {
+      "net": 680.0,
+      "rows": [
+       {
+        "family": "S3-R1",
+        "rep": "S3-R1",
+        "direction": "PE",
+        "strike": 55800,
+        "entry_time": "09:55",
+        "entry": 715.3,
+        "exit_time": "10:50",
+        "exit": 745.3,
+        "exit_reason": "runner_stop",
+        "net": 680.0
+       }
+      ]
+     },
+     "2026-11-05": {
+      "net": 0,
+      "rows": []
+     },
+     "2026-11-06": {
+      "net": 0,
+      "rows": []
+     },
+     "2026-11-09": {
+      "net": -1720.0,
+      "rows": [
+       {
+        "family": "BASE",
+        "rep": "Skill V3",
+        "direction": "PE",
+        "strike": 58900,
+        "entry_time": "10:45",
+        "entry": 815.4,
+        "exit_time": "10:45",
+        "exit": 765.4,
+        "exit_reason": "stop",
+        "net": -1720.0
+       }
+      ]
+     },
+     "2026-11-11": {
+      "net": 0,
+      "rows": []
+     },
+     "2026-11-12": {
+      "net": -1720.0,
+      "rows": [
+       {
+        "family": "S3-R1",
+        "rep": "S3-R1",
+        "direction": "PE",
+        "strike": 61200,
+        "entry_time": "11:30",
+        "entry": 841.5,
+        "exit_time": "11:35",
+        "exit": 791.5,
+        "exit_reason": "stop",
+        "net": -1720.0
+       }
+      ]
+     }
+    },
+    "flags": [],
+    "total": -2760.0
+   },
+   "T-B1b": {
+    "days": {
+     "2026-11-02": {
+      "net": 0,
+      "rows": []
+     },
+     "2026-11-03": {
+      "net": 0,
+      "rows": []
+     },
+     "2026-11-04": {
+      "net": 80.0,
+      "rows": [
+       {
+        "family": "S3-R1",
+        "rep": "S3-R1",
+        "direction": "PE",
+        "strike": 55800,
+        "entry_time": "09:55",
+        "entry": 715.3,
+        "exit_time": "10:05",
+        "exit": 725.3,
+        "exit_reason": "runner_stop",
+        "net": 80.0
+       }
+      ]
+     },
+     "2026-11-05": {
+      "net": 0,
+      "rows": []
+     },
+     "2026-11-06": {
+      "net": 0,
+      "rows": []
+     },
+     "2026-11-09": {
+      "net": -1720.0,
+      "rows": [
+       {
+        "family": "BASE",
+        "rep": "Skill V3",
+        "direction": "PE",
+        "strike": 58900,
+        "entry_time": "10:45",
+        "entry": 815.4,
+        "exit_time": "10:45",
+        "exit": 765.4,
+        "exit_reason": "stop",
+        "net": -1720.0
+       }
+      ]
+     },
+     "2026-11-11": {
+      "net": 0,
+      "rows": []
+     },
+     "2026-11-12": {
+      "net": -1720.0,
+      "rows": [
+       {
+        "family": "S3-R1",
+        "rep": "S3-R1",
+        "direction": "PE",
+        "strike": 61200,
+        "entry_time": "11:30",
+        "entry": 841.5,
+        "exit_time": "11:35",
+        "exit": 791.5,
+        "exit_reason": "stop",
+        "net": -1720.0
+       }
+      ]
+     }
+    },
+    "flags": [],
+    "total": -3360.0
+   },
+   "T-B2a": {
+    "days": {
+     "2026-11-02": {
+      "net": 0,
+      "rows": []
+     },
+     "2026-11-03": {
+      "net": 0,
+      "rows": []
+     },
+     "2026-11-04": {
+      "net": 2480.0,
+      "rows": [
+       {
+        "family": "S3-R1",
+        "rep": "S3-R1",
+        "direction": "PE",
+        "strike": 55800,
+        "entry_time": "09:55",
+        "entry": 715.3,
+        "exit_time": "10:25",
+        "exit": 805.3,
+        "exit_reason": "runner_stop",
+        "net": 2480.0
+       }
+      ]
+     },
+     "2026-11-05": {
+      "net": 0,
+      "rows": []
+     },
+     "2026-11-06": {
+      "net": 0,
+      "rows": []
+     },
+     "2026-11-09": {
+      "net": -1420.0,
+      "rows": [
+       {
+        "family": "BASE",
+        "rep": "Skill V3",
+        "direction": "PE",
+        "strike": 58900,
+        "entry_time": "10:45",
+        "entry": 815.4,
+        "exit_time": "10:45",
+        "exit": 775.4,
+        "exit_reason": "stop",
+        "net": -1420.0
+       }
+      ]
+     },
+     "2026-11-11": {
+      "net": 0,
+      "rows": []
+     },
+     "2026-11-12": {
+      "net": -1420.0,
+      "rows": [
+       {
+        "family": "S3-R1",
+        "rep": "S3-R1",
+        "direction": "PE",
+        "strike": 61200,
+        "entry_time": "11:30",
+        "entry": 841.5,
+        "exit_time": "11:35",
+        "exit": 801.5,
+        "exit_reason": "stop",
+        "net": -1420.0
+       }
+      ]
+     }
+    },
+    "flags": [],
+    "total": -360.0
+   },
+   "T-B2b": {
+    "days": {
+     "2026-11-02": {
+      "net": 0,
+      "rows": []
+     },
+     "2026-11-03": {
+      "net": 0,
+      "rows": []
+     },
+     "2026-11-04": {
+      "net": 2480.0,
+      "rows": [
+       {
+        "family": "S3-R1",
+        "rep": "S3-R1",
+        "direction": "PE",
+        "strike": 55800,
+        "entry_time": "09:55",
+        "entry": 715.3,
+        "exit_time": "10:25",
+        "exit": 805.3,
+        "exit_reason": "runner_stop",
+        "net": 2480.0
+       }
+      ]
+     },
+     "2026-11-05": {
+      "net": 0,
+      "rows": []
+     },
+     "2026-11-06": {
+      "net": 0,
+      "rows": []
+     },
+     "2026-11-09": {
+      "net": -2020.0,
+      "rows": [
+       {
+        "family": "BASE",
+        "rep": "Skill V3",
+        "direction": "PE",
+        "strike": 58900,
+        "entry_time": "10:45",
+        "entry": 815.4,
+        "exit_time": "10:45",
+        "exit": 755.4,
+        "exit_reason": "stop",
+        "net": -2020.0
+       }
+      ]
+     },
+     "2026-11-11": {
+      "net": 0,
+      "rows": []
+     },
+     "2026-11-12": {
+      "net": -2020.0,
+      "rows": [
+       {
+        "family": "S3-R1",
+        "rep": "S3-R1",
+        "direction": "PE",
+        "strike": 61200,
+        "entry_time": "11:30",
+        "entry": 841.5,
+        "exit_time": "12:45",
+        "exit": 781.5,
+        "exit_reason": "stop",
+        "net": -2020.0
+       }
+      ]
+     }
+    },
+    "flags": [],
+    "total": -1560.0
+   },
+   "T-B2c": {
+    "days": {
+     "2026-11-02": {
+      "net": 0,
+      "rows": []
+     },
+     "2026-11-03": {
+      "net": 0,
+      "rows": []
+     },
+     "2026-11-04": {
+      "net": 2480.0,
+      "rows": [
+       {
+        "family": "S3-R1",
+        "rep": "S3-R1",
+        "direction": "PE",
+        "strike": 55800,
+        "entry_time": "09:55",
+        "entry": 715.3,
+        "exit_time": "10:25",
+        "exit": 805.3,
+        "exit_reason": "runner_stop",
+        "net": 2480.0
+       }
+      ]
+     },
+     "2026-11-05": {
+      "net": 0,
+      "rows": []
+     },
+     "2026-11-06": {
+      "net": 0,
+      "rows": []
+     },
+     "2026-11-09": {
+      "net": -1720.0,
+      "rows": [
+       {
+        "family": "BASE",
+        "rep": "Skill V3",
+        "direction": "PE",
+        "strike": 58900,
+        "entry_time": "10:45",
+        "entry": 815.4,
+        "exit_time": "10:45",
+        "exit": 765.4,
+        "exit_reason": "stop",
+        "net": -1720.0
+       }
+      ]
+     },
+     "2026-11-11": {
+      "net": 0,
+      "rows": []
+     },
+     "2026-11-12": {
+      "net": -1720.0,
+      "rows": [
+       {
+        "family": "S3-R1",
+        "rep": "S3-R1",
+        "direction": "PE",
+        "strike": 61200,
+        "entry_time": "11:30",
+        "entry": 841.5,
+        "exit_time": "11:35",
+        "exit": 791.5,
+        "exit_reason": "stop",
+        "net": -1720.0
+       }
+      ]
+     }
+    },
+    "flags": [],
+    "total": -960.0
+   },
+   "T-B3": {
+    "days": {
+     "2026-11-02": {
+      "net": 0,
+      "rows": []
+     },
+     "2026-11-03": {
+      "net": 0,
+      "rows": []
+     },
+     "2026-11-04": {
+      "net": -227.5,
+      "rows": [
+       {
+        "family": "S3-R1",
+        "rep": "S3-R1",
+        "direction": "PE",
+        "strike": 55800,
+        "entry_time": "09:55",
+        "entry": 715.3,
+        "exit_time": "10:05",
+        "exit": 715.05,
+        "exit_reason": "LOCK_FLOOR_T2",
+        "net": -227.5
+       }
+      ]
+     },
+     "2026-11-05": {
+      "net": 0,
+      "rows": []
+     },
+     "2026-11-06": {
+      "net": 0,
+      "rows": []
+     },
+     "2026-11-09": {
+      "net": -2545.0,
+      "rows": [
+       {
+        "family": "BASE",
+        "rep": "Skill V3",
+        "direction": "PE",
+        "strike": 58900,
+        "entry_time": "10:45",
+        "entry": 815.4,
+        "exit_time": "10:45",
+        "exit": 737.9,
+        "exit_reason": "HARD_STOP",
+        "net": -2545.0
+       }
+      ]
+     },
+     "2026-11-11": {
+      "net": 0,
+      "rows": []
+     },
+     "2026-11-12": {
+      "net": -1114.0,
+      "rows": [
+       {
+        "family": "S3-R1",
+        "rep": "S3-R1",
+        "direction": "PE",
+        "strike": 61200,
+        "entry_time": "11:30",
+        "entry": 841.5,
+        "exit_time": "11:30",
+        "exit": 811.7,
+        "exit_reason": "HARD_STOP",
+        "net": -1114.0
+       }
+      ]
+     }
+    },
+    "flags": [],
+    "total": -3886.5
+   }
+  },
+  "eve19_skips": [],
+  "v1_addon_rows": [],
+  "reentry_events": {
+   "2026-11-09|identity": {
+    "kind": "no_trigger",
+    "side": "PE",
+    "stop_exit": "10:45"
+   },
+   "2026-11-09|T-B1a": {
+    "kind": "no_trigger",
+    "side": "PE",
+    "stop_exit": "10:45"
+   },
+   "2026-11-09|T-B1b": {
+    "kind": "no_trigger",
+    "side": "PE",
+    "stop_exit": "10:45"
+   },
+   "2026-11-09|T-B2a": {
+    "kind": "no_trigger",
+    "side": "PE",
+    "stop_exit": "10:45"
+   },
+   "2026-11-09|T-B2b": {
+    "kind": "no_trigger",
+    "side": "PE",
+    "stop_exit": "10:45"
+   },
+   "2026-11-09|T-B2c": {
+    "kind": "no_trigger",
+    "side": "PE",
+    "stop_exit": "10:45"
+   },
+   "2026-11-09|T-B3": {
+    "kind": "no_trigger",
+    "side": "PE",
+    "stop_exit": "10:45"
+   },
+   "2026-11-12|identity": {
+    "kind": "no_trigger",
+    "side": "PE",
+    "stop_exit": "11:35"
+   },
+   "2026-11-12|T-B1a": {
+    "kind": "no_trigger",
+    "side": "PE",
+    "stop_exit": "11:35"
+   },
+   "2026-11-12|T-B1b": {
+    "kind": "no_trigger",
+    "side": "PE",
+    "stop_exit": "11:35"
+   },
+   "2026-11-12|T-B2a": {
+    "kind": "no_trigger",
+    "side": "PE",
+    "stop_exit": "11:35"
+   },
+   "2026-11-12|T-B2b": {
+    "kind": "no_trigger",
+    "side": "PE",
+    "stop_exit": "12:45"
+   },
+   "2026-11-12|T-B2c": {
+    "kind": "no_trigger",
+    "side": "PE",
+    "stop_exit": "11:35"
+   },
+   "2026-11-12|T-B3": {
+    "kind": "no_trigger",
+    "side": "PE",
+    "stop_exit": "11:30"
+   }
+  }
+ },
+ "december_ranking": [
+  {
+   "rank": 1,
+   "variant": "T-B1a",
+   "verdict": "FAIL",
+   "gated_total": 132651.0,
+   "placebo_total": 25169.5,
+   "november_cf": -2760.0
+  },
+  {
+   "rank": 2,
+   "variant": "T-B2b",
+   "verdict": "FAIL",
+   "gated_total": 126291.5,
+   "placebo_total": 23982.0,
+   "november_cf": -1560.0
+  },
+  {
+   "rank": 3,
+   "variant": "T-B2c",
+   "verdict": "FAIL",
+   "gated_total": 115125.0,
+   "placebo_total": 25883.5,
+   "november_cf": -960.0
+  },
+  {
+   "rank": 4,
+   "variant": "T-B1b",
+   "verdict": "FAIL",
+   "gated_total": 106948.5,
+   "placebo_total": 34208.5,
+   "november_cf": -3360.0
+  },
+  {
+   "rank": 5,
+   "variant": "T-B2a",
+   "verdict": "FAIL",
+   "gated_total": 92565.5,
+   "placebo_total": 30630.5,
+   "november_cf": -360.0
+  },
+  {
+   "rank": 6,
+   "variant": "T-B3",
+   "verdict": "FAIL",
+   "gated_total": 38305.5,
+   "placebo_total": 27903.0,
+   "november_cf": -3886.5
+  }
+ ],
+ "december_default": "TUNED STACK v2 (incumbent) remains the Bank December primary unless a variant above is a strict PASS"
+}
