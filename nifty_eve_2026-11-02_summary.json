@@ -1,0 +1,63 @@
+{
+ "nov_eve01_skill_ce_late": {
+  "total": 13567.35,
+  "n": 61,
+  "ft_pct": 23.0,
+  "per_week": 1.5,
+  "halves": {
+   "Jan-May": 7408.25,
+   "Jun-Oct": 6159.1
+  },
+  "ex_top3": -19897.65,
+  "placebo": -16900.75,
+  "banked": false,
+  "failed": [
+   "net_above_baseline",
+   "ft_not_degraded",
+   "no_green_month_flips_red",
+   "no_red_month_ends",
+   "ex_top3>=0"
+  ],
+  "additions": 26,
+  "sleeve_total": -40534.65,
+  "nc": 0
+ },
+ "nov_eve02_skill_ce_early": {
+  "total": 54102.0,
+  "n": 35,
+  "ft_pct": 34.3,
+  "per_week": 0.86,
+  "halves": {
+   "Jan-May": 27581.0,
+   "Jun-Oct": 26521.0
+  },
+  "ex_top3": 20637.0,
+  "placebo": 22876.0,
+  "banked": false,
+  "failed": [
+   "net_above_baseline"
+  ],
+  "additions": 0,
+  "sleeve_total": 0,
+  "nc": 0
+ },
+ "nov_eve03_skill_pe_early": {
+  "total": 54102.0,
+  "n": 35,
+  "ft_pct": 34.3,
+  "per_week": 0.86,
+  "halves": {
+   "Jan-May": 27581.0,
+   "Jun-Oct": 26521.0
+  },
+  "ex_top3": 20637.0,
+  "placebo": 22876.0,
+  "banked": false,
+  "failed": [
+   "net_above_baseline"
+  ],
+  "additions": 0,
+  "sleeve_total": 0,
+  "nc": 0
+ }
+}

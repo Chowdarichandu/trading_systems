@@ -1,0 +1,109 @@
+{
+ "name": "r10_c163_ws2_orwidth_midupper",
+ "n": 26,
+ "total": 42467.75,
+ "resum": 42467.75,
+ "resum_ok": true,
+ "ft": 10,
+ "ft_pct": 38.5,
+ "per_week": 0.64,
+ "not_computed": 0,
+ "red_month_ends": [],
+ "month_table": {
+  "2026-01": [
+   17647.25,
+   17647.25
+  ],
+  "2026-02": [
+   4599.5,
+   22246.75
+  ],
+  "2026-03": [
+   -3260.0,
+   18986.75
+  ],
+  "2026-04": [
+   210.0,
+   19196.75
+  ],
+  "2026-05": [
+   -6940.0,
+   12256.75
+  ],
+  "2026-06": [
+   -440.0,
+   11816.75
+  ],
+  "2026-07": [
+   11218.75,
+   23035.5
+  ],
+  "2026-08": [
+   -1701.0,
+   21334.5
+  ],
+  "2026-09": [
+   4652.75,
+   25987.25
+  ],
+  "2026-10": [
+   16480.5,
+   42467.75
+  ]
+ },
+ "halves": {
+  "Jan-May": 12256.75,
+  "Jun-Oct": 30211.0
+ },
+ "ex_top3": 11992.75,
+ "top3": [
+  11155.0,
+  11155.0,
+  8165.0
+ ],
+ "placebo_shift30_total": 28177.5,
+ "october": 16480.5,
+ "timing_audit": {
+  "checked": 26,
+  "violations": 0
+ },
+ "nc_legs": [],
+ "2026-01": 17647.25,
+ "2026-02": 4599.5,
+ "2026-03": -3260.0,
+ "2026-04": 210.0,
+ "2026-05": -6940.0,
+ "2026-06": -440.0,
+ "2026-07": 11218.75,
+ "2026-08": -1701.0,
+ "2026-09": 4652.75,
+ "2026-10": 16480.5,
+ "nc_named_not_computed": "2026-10-28 22500 PE weekly expiry 2026-11-03 \u2014 NOT_COMPUTED (registry 0 contracts, Rounds 3-6); not in any Round-10 population",
+ "gate_relative": {
+  "banked": false,
+  "checks": {
+   "net_above_baseline": false,
+   "ft_not_degraded": true,
+   "frequency_not_degraded": false,
+   "no_green_month_flips_red": false,
+   "no_red_month_ends": true,
+   "halves_both>=0": true,
+   "placebo_beaten": true,
+   "ex_top3>=0": true,
+   "timing_audit_clean": true,
+   "not_computed_zero": true,
+   "resum_exact": true
+  },
+  "green_to_red": [
+   "2026-03"
+  ],
+  "vs_label": "Round-6/7/8/9 standing book (Round-10 open)",
+  "vs_total": 54102.0,
+  "vs_ft_pct": 34.3,
+  "vs_per_week": 0.86
+ },
+ "old_absolute_lines_status": {
+  "FT>=42.0": false,
+  "freq>=1.00/wk": false
+ }
+}

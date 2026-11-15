@@ -1,0 +1,16 @@
+{
+ "build": "LADDER-BANK (owner ladder exits on Bank v21 entries)",
+ "run": "RE-AUDIT after declared-source backfill (531 pre-10:00 bars added, add-only; see ladder_bank_backfill_merge.py)",
+ "benchmark_csv_resum": 83650.5,
+ "benchmark_january": 22748.0,
+ "legs_total": 99,
+ "reconstructed_exact": 99,
+ "failed": 0,
+ "failure_rate_pct": 0.0,
+ "gate_full_99_of_99": true,
+ "gate_95pct": true,
+ "failed_by_family": {},
+ "failed_legs_net_inr": 0,
+ "value_mismatches": 0,
+ "verdict": "RE-AUDIT PASS \u2014 reconstruction exact on 99/99 legs; scoring unblocked."
+}

@@ -1,276 +1,936 @@
 {
-  "basis": "Index options premiums only, 1 lot (Nifty lot 65), cost 220 INR/trade, UNIQUE-ONCE per (date,index,direction) earliest entry, paper only, real money 0",
-  "best_book": "C3L + BE50 + G7L75/TGT2-180 + EXP0 (Run 2 Cycle 1 banked)",
-  "best_detail": {
+ "basis": "Index options premiums only, 1 lot (Nifty lot 65), cost 220 INR/trade, UNIQUE-ONCE per (date,index,direction) earliest entry, paper only, real money 0",
+ "best_book": "CH3-R x lock50/TGT2-175 (adopted; Cycle-40 retracted)",
+ "best_detail": {
+  "ft_pct": 39.0,
+  "trades": 59,
+  "per_week": 1.45,
+  "negative_months": [
+   "2026-05",
+   "2026-08"
+  ],
+  "red_month_ends": [],
+  "october_inr": 24575.0,
+  "month_nets": {
+   "2026-01": 20064.75,
+   "2026-02": 14882.25,
+   "2026-03": 18180.0,
+   "2026-04": 4240.75,
+   "2026-05": -5793.0,
+   "2026-06": 7584.0,
+   "2026-07": 13584.5,
+   "2026-08": -4129.25,
+   "2026-09": 5020.0,
+   "2026-10": 24575.0
+  },
+  "halves": [
+   51574.75,
+   46634.25
+  ],
+  "ex_top3": 64744.0,
+  "placebo_shift30": 34008.5,
+  "timing_audit": "59/59 clean",
+  "not_computed": 0,
+  "independent_resum": "exact"
+ },
+ "best_jan_oct_inr": 114921.75,
+ "december_candidate": {
+  "name": "CH3-R x lock50/TGT2-175 (ADOPTED December candidate; Cycle-40 supersession retracted)",
+  "status": "December candidate (adopted by Chandu 2026-11-02; Round-3 Cycle-40 supersession retracted 2026-11-02 in Round 4 \u2014 look-ahead signature)",
+  "adopted_by": "Chandu",
+  "adopted_on": "2026-11-02",
+  "decision_context": "Chandu decided 2026-11-02 ~12:46 IST, after the Run-3 session flagged this variant as its best gated object and left adoption as his call. The engine did NOT bank it: under the CH3 family's pre-stated clauses it failed two of them (see clauses_waived). This adoption is the owner's decision over the engine's flag; the cycle-36 verdict of record remains NOT BANKED.",
+  "clauses_waived": [
+   "august",
+   "frequency"
+  ],
+  "waiver_detail": {
+   "august": "CH3 family pre-stated clause: August must not worsen vs the incumbent's -3,671.00. The variant's August is -5,187.25 - the clause was FAILED, and is WAIVED by this adoption. It is not recorded as passed.",
+   "frequency": "CH3 family pre-stated clause: frequency must not fall materially below the incumbent's 1.45/wk (round-2 gate text: >= 1.30/wk). The variant runs 1.08/wk - the clause was FAILED, and is WAIVED by this adoption. It is not recorded as passed."
+  },
+  "rule": "N1 pool: confirmed legs (>=2 of the U1 systems) taken only if entry <= 09:55; solo (lA) v2 legs at any time; EXP0; geometry: stop -50, BE arm +50, tgt1 +90 -> runner lock +50, TGT2 +175, stop before target, square-off 15:10; PLUS Round-3 Cycle 40: legs that are PE with prior-day spot return in (-0.50%, -0.25%) are traded on the weekly expiry in force.",
+  "jan_oct_2026": 114921.75,
+  "monthly_avg_inr": 11492.18,
+  "trades": 44,
+  "ft_pct": 45.5,
+  "per_week": 1.08,
+  "month_nets": {
+   "2026-01": 23974.75,
+   "2026-02": 14882.25,
+   "2026-03": 21650.0,
+   "2026-04": 7471.5,
+   "2026-05": -2323.0,
+   "2026-06": 6157.25,
+   "2026-07": 17054.5,
+   "2026-08": -5187.25,
+   "2026-09": 4926.0,
+   "2026-10": 26315.75
+  },
+  "negative_months": [
+   "2026-05",
+   "2026-08"
+  ],
+  "red_month_ends": [],
+  "controls": {
+   "halves": [
+    65655.5,
+    49266.25
+   ],
+   "placebo_shift30": 63269.5,
+   "ex_top3": 81456.75,
+   "timing_audit": "44/44 clean",
+   "independent_resum": "exact",
+   "not_computed": 0
+  },
+  "floor_gap_remaining_inr": 35078.25,
+  "supersedes_as_candidate": "The banked Run-3 ending book (C3L + BE50 + lock +50 + TGT2 +175 + EXP0, +98,209.00) as the December candidate line. The banked book remains the clause-compliant book of record: best_book / best_detail / best_jan_oct_inr in this state are unchanged.",
+  "frozen_definition": "~/workspace/trading/nifty_engine_frozen.md - ADOPTION section, 2026-11-02",
+  "november_paper": "Unaffected: NF-PAPER-C3G7 stays frozen for November; this adoption concerns the December candidate only.",
+  "round3_supersession": {
+   "cycle": 40,
+   "date": "2026-11-02",
+   "change": "The 6 legs matching the frozen signature (PE leg + prior trading day's spot return in (-0.50%, -0.25%): 2026-06-29, 2026-08-11, 2026-08-19, 2026-08-31, 2026-09-07, 2026-10-21) are carried on the weekly expiry in force instead of the monthly contract; all other legs, geometry, cost and counting unchanged.",
+   "delta_vs_adopted_inr": 1426.75,
+   "gate": "Full round-3 gate passed vs the adopted book (frozen in nifty_engine_frozen.md): total > adopted, FT 45.5% held, no adopted-green month flipped, no red month-ends, halves +65,655.50/+50,693.00, placebo +64,842.50 beaten, audit 44/0, NC 0, re-sum exact, frequency 1.08/wk.",
+   "adoption_record_preserved": "The original adoption (Chandu, 2026-11-02 ~12:46 IST) and its two waived clauses (august, frequency - both FAILED, waived, not passed) stand as recorded; this supersession is an engine banking on top of the adopted book, not a revision of the adoption.",
+   "status": "VOID \u2014 retracted in Round 4 (look-ahead signature)"
+  },
+  "halves": {
+   "Jan-May": 65655.5,
+   "Jun-Oct": 49266.25
+  },
+  "ex_top3": 81456.75,
+  "placebo_shift30": 63269.5,
+  "round4_retraction": "2026-11-02, Round 4 opening: the Round-3 Cycle-40 supersession is RETRACTED. Its signature ('prior-day spot return in (-0.50%, -0.25%)') was computed by a helper returning the leg day's OWN return (verified against spot_daily: frozen values -0.456/-0.317/-0.394 equal own-day returns; true prior-day returns +0.054/-0.547/+0.352/+0.166/+0.102/-1.111 show no band). Look-ahead; untradeable. Candidate reverts to the adopted book below. The round3_supersession block is kept for the record and marked void.",
+  "round5_audit": "Round 5 WS0 (2026-11-02): feature-causality audit found 16 of the 44 legs were admitted before their confirmation completed (per-system entry times from the merge inputs). Causal reconstruction (admission at confirmation completion, CH3-R window applied to that bar): +50,618.00 Jan-Oct (35 trades, FT 34.3%, 0.86/wk) \u2014 delta -64,303.75 vs the adopted +114,921.75. The adoption and its waivers stand as recorded; the causal figure is the live-semantics value of the same rule and is the engine working baseline from Round 5. See nifty_engine_round5_2026-11-02.md."
+ },
+ "combined_goal": {
+  "bank_starting_monthly_avg_inr": 2370.35,
+  "combined_starting_monthly_avg_inr": 9032.28,
+  "combined_target_jan_oct_inr": 200000,
+  "combined_target_monthly_inr": 20000,
+  "gap_monthly_inr": 40967.72,
+  "nifty_starting_monthly_avg_inr": 6661.93,
+  "note": "Chandu 2026-10-31 13:17 IST: 50k/month including Nifty and Bank Nifty together. Reported per index separately; no pooled verdict; counts for nothing if one index is negative or closes a month-end red.",
+  "superseded_50k_target": "2026-10-31 13:54 IST: Chandu lowered combined target 50k -> 20k/month ('since 50k is hard')."
+ },
+ "consecutive_no_bank_on_target": 6,
+ "consecutive_no_beat_cycles": 6,
+ "created": "2026-10-31T13:17:00+05:30",
+ "current_target": "August",
+ "cycle": 169,
+ "cycle_lock": null,
+ "engine": "nifty-recursive-engine",
+ "flagged_variants": [
+  {
+   "name": "CH3-R x lock50/TGT2-175 (Run 3 cycle 36) \u2014 session's best gated variant",
+   "rule": "EXP0 book; confirmed legs only if entry <= 09:55; solo (lA) legs any time; BE50 + lock +50 + TGT2 +175.",
+   "jan_oct_2026": 114921.75,
+   "trades": 44,
+   "ft_pct": 45.5,
+   "per_week": 1.08,
+   "controls": {
+    "halves": [
+     65655.5,
+     49266.25
+    ],
+    "placebo_shift30": 63269.5,
+    "ex_top3": 81456.75,
+    "audit": "44/44 clean",
+    "not_computed": 0
+   },
+   "why_not_banked": "Fails the CH3 family's pre-stated conditions from cycle 16: August worsens (-3,671.00 -> -5,187.25) and frequency materially falls (1.45 -> 1.08/wk). Supersedes the cycle-16 flag (+111,684.75 at lock75/TGT2-180). Adoption verdict is Chandu's, in the Nifty channel.",
+   "decision_owner": "Chandu (adoption decisions live in the Nifty channel)"
+  },
+  {
+   "name": "Expiry-day Skill sleeve, standing geometry (Run 3 Round 7 Cycle 138) \u2014 FLAGGED, owner decision pending",
+   "rule": "Weekly-expiry days only: pool keys with Skill V3 among sources, Skill entry 09:15-11:00, key not in the standing book; entry at Skill's bar, strike re-struck ATM100, weekly contract expiring that day; standing geometry (stop -50, BE arm +50, tgt1 +90 -> lock +60, TGT2 +175, sq 15:20). 15 legs.",
+   "jan_oct_2026": 57753.75,
+   "sleeve_standalone_inr": 3651.75,
+   "adoption_value_vs_standing_book_inr": 3651.75,
+   "standing_book_inr": 54102.0,
+   "trades_combined": 50,
+   "ft_pct_combined": 32.0,
+   "per_week_combined": 1.23,
+   "controls": {
+    "halves": [
+     28343.0,
+     29410.75
+    ],
+    "placebo_shift30": 32400.5,
+    "ex_top3": 24288.75,
+    "audit": "clean",
+    "not_computed": 0
+   },
+   "why_not_banked": "Fails the relative gate's FT leg ONLY (34.3% -> 32.0%; sleeve full-target rate 4/15). Every other gate leg passes; August repaired -1,701.00 -> +1,911.75. Adoption is the owner's call (lesson 64). NOT adopted by the engine.",
+   "flagged_on": "2026-11-02 (Round 7; recorded in state at Round 8 open)",
+   "round8_restatement": "Adoption value on the ending (unchanged) book: +3,651.75 (combined +57,753.75; FT leg only). Round 8 Cycle 146 tested the own-geometry form: REJECTED under both FT readings (sleeve -2,406.25) \u2014 the flagged form remains THIS standing-geometry form. Still NOT adopted; owner decision pending.",
+   "round9_restatement": "Restated at Round-9 close (Cycles 152/158) on the unchanged ending book: adoption value +3,651.75 standalone (combined +57,753.75; FT leg only). Inside the flagged pair it contributes 13 legs / +3,441.75 (two keys collide with fade keys under UNIQUE-ONCE). Still NOT adopted; owner decision pending."
+  },
+  {
+   "name": "Gap-fade, entry 10:05 form (Run 3 Round 8 Cycle 145) \u2014 noted observation, NOT adopted",
+   "rule": "Round-7 FADE construction (|gap| >= 0.50%, monthly expiry, EXP0 skip, standing-key exclusions) with entry delayed to 10:05 (strike ATM100 at the 10:05 bar), standing geometry. 49 legs.",
+   "jan_oct_2026": 87726.75,
+   "sleeve_standalone_inr": 33624.75,
+   "adoption_value_vs_standing_book_inr": 33624.75,
+   "standing_book_inr": 54102.0,
+   "trades_combined": 84,
+   "ft_pct_combined": 35.7,
+   "per_week_combined": 2.07,
+   "controls": {
+    "halves": [
+     44841.5,
+     42885.25
+    ],
+    "placebo_shift30": 50702.75,
+    "ex_top3": 54261.75,
+    "audit": "clean",
+    "not_computed": 0
+   },
+   "why_not_banked": "Fails the relative gate's no-green-month-flips leg ONLY: March +7,895.00 -> -8,376.50 (sleeve March at 10:05 = -16,271.50; March's gaps continued all session). Every other leg passes, including FT (35.7% >= 34.3%). Recorded for the owner's visibility alongside the expiry-sleeve flag; adoption, if any, is the owner's call. NOT adopted by the engine.",
+   "flagged_on": "2026-11-02 (Round 8)",
+   "round9_restatement": "Restated at Round-9 close (Cycles 152/158) on the unchanged ending book: adoption value +33,624.75 (combined +87,726.75; March flip only). The Round-9 WS1 combination (with-trend x 10:05, Cycle 151) was rejected on an April flip only and is recorded separately; the fade family is CLOSED. Still NOT adopted; owner decision pending.",
+   "superseded": "SUPERSEDED 2026-11-02 16:48 IST by the owner's adoption of the full flagged pair (DEC-S1). The fade-only alternative (+87,726.75 combined) is no longer a live adoption option; this flag record stands unedited."
+  },
+  {
+   "name": "Gap-fade, with-trend x entry 10:05 form (Run 3 Round 9 Cycle 151) \u2014 noted observation, NOT adopted; fade family CLOSED",
+   "rule": "Round-7 FADE construction (|gap| >= 0.50%, monthly expiry, EXP0 skip, standing-key exclusions) with admission restricted to with-trend days (sign of gap == sign of pdret_prior, pdret_prior != 0 \u2014 the Round-8 WS1(b) frozen definition) AND entry delayed to 10:05 (strike ATM100 at the 10:05 bar), standing geometry. 25 legs.",
+   "jan_oct_2026": 70039.0,
+   "sleeve_standalone_inr": 15937.0,
+   "adoption_value_vs_standing_book_inr": 15937.0,
+   "standing_book_inr": 54102.0,
+   "trades_combined": 60,
+   "ft_pct_combined": 35.0,
+   "per_week_combined": 1.48,
+   "controls": {
+    "halves": [
+     30515.5,
+     39523.5
+    ],
+    "placebo_shift30": 39979.75,
+    "ex_top3": 36574.0,
+    "audit": "clean",
+    "not_computed": 0
+   },
+   "why_not_banked": "Fails the relative gate's no-green-month-flips leg ONLY: April +210.00 -> -3,050.00 (sleeve April -3,260.00). It cures both of the family's recorded wounds \u2014 March stays green (+12,443.50 combined) and FT passes as an addition (35.0% >= 34.3%) \u2014 and the sleeve is worth more than either parent form. Per the Round-9 freeze its failure CLOSES the fade family (six gated forms). Recorded for owner visibility; adoption, if any, is the owner's call. NOT adopted by the engine.",
+   "flagged_on": "2026-11-02 (Round 9)"
+  },
+  {
+   "name": "FLAGGED PAIR \u2014 expiry sleeve (C138) + gap-fade 10:05 (C145) together (Run 3 Round 9 Cycles 152/158) \u2014 DECISION SUPPORT gate sheet, force-no-bank",
+   "rule": "Standing book + Cycle-145 fade legs (49) + Cycle-138 expiry-sleeve legs at standing geometry, UNIQUE-ONCE across the union (two expiry keys collide with fade keys and are owned by the fade; expiry contributes 13 legs inside the pair).",
+   "jan_oct_2026": 91168.5,
+   "adoption_value_vs_standing_book_inr": 37066.5,
+   "standing_book_inr": 54102.0,
+   "trades_combined": 97,
+   "ft_pct_combined": 34.0,
+   "per_week_combined": 2.39,
+   "controls": {
+    "halves": [
+     45393.5,
+     45775.0
+    ],
+    "placebo_shift30": 52867.25,
+    "ex_top3": 57703.5,
+    "audit": "97/0 clean",
+    "not_computed": 0
+   },
+   "why_not_banked": "Decision-support pricing of the owner's combined decision (force-no-bank by freeze): the pair FAILS two relative-gate legs \u2014 FT not degraded (34.0% < 34.3%) and the March green-to-red flip (+7,895.00 -> -11,846.50); every other leg passes. Adoption value +37,066.50 is 210.00 LESS than the sum of the two flagged values (37,276.50) because of the UNIQUE-ONCE key overlap. If adopted, pace would be 9,116.85/month (gap 58,831.50) with a red March. NOT adopted by the engine; the decision is the owner's.",
+   "flagged_on": "2026-11-02 (Round 9)",
+   "adopted": "ADOPTED 2026-11-02 16:48 IST by Chandu's direction as the DEC-S1 construction \u2014 the adopted December CANDIDATE. Failed legs FT 34.0% vs 34.3% and the March flip (+7,895.00 -> -11,846.50) recorded FAILED-AND-WAIVED in frozen.md's ADOPTION section and in state.adoption_pair. The Cycle-152 NOT-BANKED verdict stands unedited."
+  },
+  {
+   "name": "DEC-S1 \u2014 flagged pair frozen as December SHADOW (standing + fade-10:05 + expiry sleeve)",
+   "rule": "Assembly A->B->C UNIQUE-ONCE; B: |gap|>=0.50% fade, entry 10:05, ATM100, monthly in force, EXP0; C: weekly-expiry-day pool keys with Skill V3 among sources, Skill's own bar 09:15-11:00, ATM100 re-struck, weekly contract expiring that day; standing geometry throughout. Full spec: nifty_engine_frozen.md ROUND 11 S0-S9.",
+   "jan_oct_2026": 91168.5,
+   "trades": 97,
+   "ft_pct": 34.0,
+   "per_week": 2.39,
+   "controls": {
+    "halves": [
+     45393.5,
+     45775.0
+    ],
+    "placebo_shift30": 52867.25,
+    "ex_top3": 57703.5,
+    "audit": "97/0 clean",
+    "not_computed": 0
+   },
+   "why_not_banked": "Fails the relative gate on FT (34.0% < 34.3%) and the March green-to-red flip (+7,895.00 -> -11,846.50). Frozen as a labelled December shadow (Round 11) so December fresh data can judge it in parallel with the standing candidate; NOT adopted; the owner's adoption decision is unchanged and still pending.",
+   "decision_owner": "Chandu",
+   "label": "DEC-S1 \u2014 flagged pair frozen Round 11; ADOPTED 2026-11-02 16:48 IST as the December CANDIDATE (formerly SHADOW)",
+   "adopted": "ADOPTED 2026-11-02 16:48 IST by Chandu's direction ('You apply the fix and run again'). Re-designated from December SHADOW candidate to the adopted December CANDIDATE; specification S0-S9 unchanged; December pass/kill (S9) stands as registered. Record: frozen.md ADOPTION section + state.adoption_pair + nifty_adoption_pair_2026-11-02.md."
+  }
+ ],
+ "frozen": "~/workspace/trading/nifty_engine_frozen.md",
+ "incumbent": {
+  "jan_oct_full_target_pct": 37.5,
+  "jan_oct_premiums_inr": 66619.25,
+  "jan_oct_trades": 56,
+  "name": "C3+G7 = confirmed-only (>=2 systems) + runner-lock50 (NF-PAPER-C3G7 pool)",
+  "negative_months": [
+   "May -5793.00",
+   "Aug -4129.25",
+   "Sep -2562.25"
+  ],
+  "october_full_target_pct": 75.0,
+  "october_premiums_inr": 18805.25,
+  "october_trades": 4,
+  "red_month_ends": 0,
+  "trades_per_week": 1.38
+ },
+ "index": "Nifty only",
+ "lessons": "~/workspace/trading/nifty_engine_lessons.md",
+ "log": "~/workspace/trading/nifty_engine_log.md",
+ "month_order": [
+  "October",
+  "September",
+  "August",
+  "July",
+  "June",
+  "May",
+  "April",
+  "March",
+  "February",
+  "January"
+ ],
+ "november_paper": "NF-PAPER-C3G7 frozen, untouched by this engine; Nov 2026-11-02 to 2026-11-30, own log november_paper_nifty_log.csv",
+ "previous_termination": {
+  "at": "2026-10-31T13:48:32+05:30",
+  "cycle": 11,
+  "peak_cycle": 8,
+  "peak_inr": 92437.75,
+  "reason": "3 consecutive no-beat cycles (9 CH3 not banked, 10 SA2D rejected, 11 RATCHET150 rejected)",
+  "status": "SATURATED"
+ },
+ "protocol": "~/workspace/trading/nifty_RECURSIVE_ENGINE.md",
+ "run2": {
+  "bank_best_at_close_inr": 61896.5,
+  "blocked": [
+   {
+    "family": "C3L + early solo non-Skill U1 legs (5)",
+    "legs": [
+     "2026-01-09 CE Volrix 25900",
+     "2026-05-12 CE Volrix 23700",
+     "2026-06-01 CE Volrix 23600",
+     "2026-09-16 CE Volrix 23200",
+     "2026-08-10 PE (lA) 24500 exp 2026-08-25"
+    ],
+    "not_computed": 5,
+    "reason": "premium candles absent from all local data dirs; fetch needs credential-based Upstox browser route"
+   },
+   {
+    "family": "BASE_S1 union assembly",
+    "not_computed": 21,
+    "reason": "21 of 44 unique S1 NIFTY keys have no premium candles; computable subset selection-biased"
+   },
+   {
+    "family": "Conditional strike-shift (moneyness AGAINST bucket)",
+    "not_computed": null,
+    "reason": "Jan-Sep +/-100 strike candles never fetched"
+   }
+  ],
+  "combined_pair_at_close_inr": 159897.5,
+  "combined_plateau_jan_oct_inr": 138914.25,
+  "combined_plateau_monthly_inr": 13891.43,
+  "combined_target_jan_oct_inr": 200000,
+  "combined_target_monthly_inr": 20000,
+  "cycles": [
+   {
+    "cycle": 12,
     "ft_pct": 39.0,
-    "negative_months": [
-      "May -5793.00",
-      "Aug -3671.00"
-    ],
-    "october_inr": 28150.0,
-    "per_week": 1.45,
-    "red_month_ends": 0,
-    "trades": 59
-  },
-  "best_jan_oct_inr": 98001.0,
-  "combined_goal": {
-    "bank_starting_monthly_avg_inr": 2370.35,
-    "combined_starting_monthly_avg_inr": 9032.28,
-    "combined_target_jan_oct_inr": 200000,
-    "combined_target_monthly_inr": 20000,
-    "gap_monthly_inr": 40967.72,
-    "nifty_starting_monthly_avg_inr": 6661.93,
-    "note": "Chandu 2026-10-31 13:17 IST: 50k/month including Nifty and Bank Nifty together. Reported per index separately; no pooled verdict; counts for nothing if one index is negative or closes a month-end red.",
-    "superseded_50k_target": "2026-10-31 13:54 IST: Chandu lowered combined target 50k -> 20k/month ('since 50k is hard')."
-  },
-  "consecutive_no_bank_on_target": 3,
-  "consecutive_no_beat_cycles": 3,
-  "created": "2026-10-31T13:17:00+05:30",
-  "current_target": "August",
-  "cycle": 15,
-  "cycle_lock": null,
-  "engine": "nifty-recursive-engine",
-  "flagged_variants": [
-    {
-      "ft_pct": 44.7,
-      "jan_oct_inr": 109591.5,
-      "name": "CH3 opening-window confirmation on best book",
-      "note": "Quality-for-frequency trade for Chandu's judgement in the Nifty channel; not the engine's banked book.",
-      "per_week": 1.16,
-      "trades": 47
-    }
-  ],
-  "frozen": "~/workspace/trading/nifty_engine_frozen.md",
-  "incumbent": {
-    "jan_oct_full_target_pct": 37.5,
-    "jan_oct_premiums_inr": 66619.25,
-    "jan_oct_trades": 56,
-    "name": "C3+G7 = confirmed-only (>=2 systems) + runner-lock50 (NF-PAPER-C3G7 pool)",
-    "negative_months": [
-      "May -5793.00",
-      "Aug -4129.25",
-      "Sep -2562.25"
-    ],
-    "october_full_target_pct": 75.0,
-    "october_premiums_inr": 18805.25,
-    "october_trades": 4,
-    "red_month_ends": 0,
-    "trades_per_week": 1.38
-  },
-  "index": "Nifty only",
-  "lessons": "~/workspace/trading/nifty_engine_lessons.md",
-  "log": "~/workspace/trading/nifty_engine_log.md",
-  "month_order": [
-    "October",
-    "September",
-    "August",
-    "July",
-    "June",
-    "May",
-    "April",
-    "March",
-    "February",
-    "January"
-  ],
-  "november_paper": "NF-PAPER-C3G7 frozen, untouched by this engine; Nov 2026-11-02 to 2026-11-30, own log november_paper_nifty_log.csv",
-  "previous_termination": {
-    "at": "2026-10-31T13:48:32+05:30",
-    "cycle": 11,
-    "peak_cycle": 8,
-    "peak_inr": 92437.75,
-    "reason": "3 consecutive no-beat cycles (9 CH3 not banked, 10 SA2D rejected, 11 RATCHET150 rejected)",
-    "status": "SATURATED"
-  },
-  "protocol": "~/workspace/trading/nifty_RECURSIVE_ENGINE.md",
-  "run2": {
-    "bank_best_at_close_inr": 61896.5,
-    "blocked": [
-      {
-        "family": "C3L + early solo non-Skill U1 legs (5)",
-        "legs": [
-          "2026-01-09 CE Volrix 25900",
-          "2026-05-12 CE Volrix 23700",
-          "2026-06-01 CE Volrix 23600",
-          "2026-09-16 CE Volrix 23200",
-          "2026-08-10 PE (lA) 24500 exp 2026-08-25"
-        ],
-        "not_computed": 5,
-        "reason": "premium candles absent from all local data dirs; fetch needs credential-based Upstox browser route"
-      },
-      {
-        "family": "BASE_S1 union assembly",
-        "not_computed": 21,
-        "reason": "21 of 44 unique S1 NIFTY keys have no premium candles; computable subset selection-biased"
-      },
-      {
-        "family": "Conditional strike-shift (moneyness AGAINST bucket)",
-        "not_computed": null,
-        "reason": "Jan-Sep +/-100 strike candles never fetched"
-      }
-    ],
-    "combined_pair_at_close_inr": 159897.5,
-    "combined_plateau_jan_oct_inr": 138914.25,
-    "combined_plateau_monthly_inr": 13891.43,
-    "combined_target_jan_oct_inr": 200000,
-    "combined_target_monthly_inr": 20000,
-    "cycles": [
-      {
-        "cycle": 12,
-        "ft_pct": 39.0,
-        "name": "EXP0 skip date==expiry legs",
-        "total": 98001.0,
-        "trades": 59,
-        "verdict": "BANKED"
-      },
-      {
-        "cycle": 13,
-        "name": "PDROOM prior-day level room gate",
-        "total": 98001.0,
-        "trades": 59,
-        "ft_pct": 39.0,
-        "verdict": "REJECTED_INERT"
-      },
-      {
-        "cycle": 14,
-        "name": "WROOM5 prior-5-day level room gate",
-        "total": 96175.25,
-        "trades": 50,
-        "ft_pct": 44.0,
-        "verdict": "REJECTED"
-      },
-      {
-        "cycle": 15,
-        "name": "PSTOP25 premium-proportional stop 25% of entry premium",
-        "total": 77694.99,
-        "trades": 59,
-        "ft_pct": 39.0,
-        "verdict": "REJECTED"
-      }
-    ],
-    "gap_at_close_inr": 40102.5,
-    "gap_jan_oct_inr": 61085.75,
-    "gap_monthly_inr": 6108.57,
-    "no_beat": 3,
-    "reason": "Chandu lowered the combined target: 'Now 20k since 50k is hard' (2026-10-31 13:54 IST). Run 1 saturated/terminated on tuning families; Run 2 is challenger/new-mechanism cycles ONLY - no re-trying any family closed in the lessons registry.",
-    "session_close": "2026-10-31 Run-2 session: Cycle 12 EXP0 BANKED (+98001.00). Diagnosis rounds 1-10 exhausted the causal state space; remaining candidates lesson-closed, dead on diagnosis, interaction-fitting, or BLOCKED on missing premium candles (5 U1 legs, 21 S1 legs, Jan-Sep +/-100 strike contracts \u2014 all NOT_COMPUTED, fetch route outside session tools). Run 2 NOT terminated: SUCCESS not reached (pair 159897.50 < 200000 (Bank best rose to 61896.50 during the session, read-only snapshot)) and no-beat count is 0. Left unlocked for the watchdog.",
-    "started": "2026-10-31T13:54:00+05:30",
-    "status": "TERMINATED_SATURATED",
-    "termination": "SUCCESS for this engine's part when the two frozen books together reach >= 200000 Jan-Oct (each reported separately, gates intact), else saturation again after 3 consecutive no-beat Run-2 cycles.",
-    "session_note": "Run-2 Cycle 4 (watchdog, 2026-10-31 14:47 IST): PSTOP25 rejected \u2014 candidate +77694.99 < best +98001.00; August -3671.00 -> -3375.25 but total fell -20306.01 and April flipped negative; best unchanged +98001.00; no-beat 3 of 3 \u2014 Run 2 TERMINATES SATURATED. Pair snapshot at termination: Nifty 98001.00 + Bank 77196.50 (Bank also terminated saturated) = 175197.50 vs 200000 line, gap 24802.50."
-  },
-  "session_note": "Session 2026-10-31: Cycles 1-11 done. TERMINATED SATURATED at Cycle 11 (3 consecutive no-beat: 9,10,11). Peak = Cycle 8 book C3L+BE50+lock75+TGT2-180 = +92437.75 (~9244/month vs 50k combined line). CH3 flagged variant (+109591.50 at 1.16/wk) still awaits Chandu's judgement in the Nifty channel. Best book stands as December fresh-data candidate; November paper untouched. | RUN 2 session 2026-10-31: Cycle 12 EXP0 banked -> best +98001.00 (59 trades, FT 39.0%); Run 2 left RUNNING (no-beat 0), CH3 still flagged untouched. | RUN 2 Cycle 2 (watchdog 2026-10-31): PDROOM gate inert (0 legs dropped), REJECTED; best book unchanged +98001.00; Run-2 no-beat = 1. | RUN 2 Cycle 3 (watchdog 2026-10-31): WROOM5 (prior-5-day room gate) REJECTED \u2014 candidate +96175.25 < best +98001.00 despite August flipping to +168.50; Run-2 no-beat = 2. | RUN 2 Cycle 4 (watchdog 2026-10-31): PSTOP25 REJECTED (+77694.99); 3rd consecutive no-beat Run-2 cycle \u2014 engine TERMINATED SATURATED at Run-2 Cycle-1 peak +98001.00. Pair at termination 175197.50 / 200000 (gap 24802.50).",
-  "terminated": {
-    "at": "2026-10-31T14:47:00+05:30",
+    "name": "EXP0 skip date==expiry legs",
+    "total": 98001.0,
+    "trades": 59,
+    "verdict": "BANKED"
+   },
+   {
+    "cycle": 13,
+    "name": "PDROOM prior-day level room gate",
+    "total": 98001.0,
+    "trades": 59,
+    "ft_pct": 39.0,
+    "verdict": "REJECTED_INERT"
+   },
+   {
+    "cycle": 14,
+    "name": "WROOM5 prior-5-day level room gate",
+    "total": 96175.25,
+    "trades": 50,
+    "ft_pct": 44.0,
+    "verdict": "REJECTED"
+   },
+   {
     "cycle": 15,
-    "run": 2,
-    "peak_cycle": 12,
-    "peak_inr": 98001.0,
-    "reason": "3 consecutive no-beat Run-2 cycles (13 PDROOM inert, 14 WROOM5 rejected, 15 PSTOP25 rejected)",
-    "status": "SATURATED",
-    "pair_snapshot": {
-      "nifty": 98001.0,
-      "bank": 77196.5,
-      "pair": 175197.5,
-      "line": 200000,
-      "gap": 24802.5
-    }
+    "name": "PSTOP25 premium-proportional stop 25% of entry premium",
+    "total": 77694.99,
+    "trades": 59,
+    "ft_pct": 39.0,
+    "verdict": "REJECTED"
+   }
+  ],
+  "gap_at_close_inr": 40102.5,
+  "gap_jan_oct_inr": 61085.75,
+  "gap_monthly_inr": 6108.57,
+  "no_beat": 3,
+  "reason": "Chandu lowered the combined target: 'Now 20k since 50k is hard' (2026-10-31 13:54 IST). Run 1 saturated/terminated on tuning families; Run 2 is challenger/new-mechanism cycles ONLY - no re-trying any family closed in the lessons registry.",
+  "session_close": "2026-10-31 Run-2 session: Cycle 12 EXP0 BANKED (+98001.00). Diagnosis rounds 1-10 exhausted the causal state space; remaining candidates lesson-closed, dead on diagnosis, interaction-fitting, or BLOCKED on missing premium candles (5 U1 legs, 21 S1 legs, Jan-Sep +/-100 strike contracts \u2014 all NOT_COMPUTED, fetch route outside session tools). Run 2 NOT terminated: SUCCESS not reached (pair 159897.50 < 200000 (Bank best rose to 61896.50 during the session, read-only snapshot)) and no-beat count is 0. Left unlocked for the watchdog.",
+  "started": "2026-10-31T13:54:00+05:30",
+  "status": "TERMINATED_SATURATED",
+  "termination": "SUCCESS for this engine's part when the two frozen books together reach >= 200000 Jan-Oct (each reported separately, gates intact), else saturation again after 3 consecutive no-beat Run-2 cycles.",
+  "session_note": "Run-2 Cycle 4 (watchdog, 2026-10-31 14:47 IST): PSTOP25 rejected \u2014 candidate +77694.99 < best +98001.00; August -3671.00 -> -3375.25 but total fell -20306.01 and April flipped negative; best unchanged +98001.00; no-beat 3 of 3 \u2014 Run 2 TERMINATES SATURATED. Pair snapshot at termination: Nifty 98001.00 + Bank 77196.50 (Bank also terminated saturated) = 175197.50 vs 200000 line, gap 24802.50."
+ },
+ "session_note": "Session 2026-10-31: Cycles 1-11 done. TERMINATED SATURATED at Cycle 11 (3 consecutive no-beat: 9,10,11). Peak = Cycle 8 book C3L+BE50+lock75+TGT2-180 = +92437.75 (~9244/month vs 50k combined line). CH3 flagged variant (+109591.50 at 1.16/wk) still awaits Chandu's judgement in the Nifty channel. Best book stands as December fresh-data candidate; November paper untouched. | RUN 2 session 2026-10-31: Cycle 12 EXP0 banked -> best +98001.00 (59 trades, FT 39.0%); Run 2 left RUNNING (no-beat 0), CH3 still flagged untouched. | RUN 2 Cycle 2 (watchdog 2026-10-31): PDROOM gate inert (0 legs dropped), REJECTED; best book unchanged +98001.00; Run-2 no-beat = 1. | RUN 2 Cycle 3 (watchdog 2026-10-31): WROOM5 (prior-5-day room gate) REJECTED \u2014 candidate +96175.25 < best +98001.00 despite August flipping to +168.50; Run-2 no-beat = 2. | RUN 2 Cycle 4 (watchdog 2026-10-31): PSTOP25 REJECTED (+77694.99); 3rd consecutive no-beat Run-2 cycle \u2014 engine TERMINATED SATURATED at Run-2 Cycle-1 peak +98001.00. Pair at termination 175197.50 / 200000 (gap 24802.50). | RUN 3 session 2026-11-02 (floor directive Rs15k/month Nifty alone): Cycles 16-21 run back-to-back. CH3-R re-tested on the EXP0 book under the full gate: +111684.75, FT 45.5%, 1.08/wk \u2014 NOT BANKED (August worsens -5187.25; frequency materially cut), flagged variant updated. The premium-candle fetch wall was cleared via the expired-instruments route (5 EV + 21 S1 + 59 ITM + 59 weekly contracts); EV5 (added legs -16498.50), S1-44 (added legs -49965.75), ITM100 (-4722.25), WEEKLY (-16737.50), SQ1525 (-601.25) all REJECTED with clean controls. Best book unchanged +98001.00 (Run-2 peak). Floor NOT reached: gap Rs51,999 (Rs5,200/month). Run 3 TERMINATED SATURATED. November paper untouched.",
+ "terminated": {
+  "at": "2026-11-02",
+  "cycle": 39,
+  "run": "Run 3 (rounds 1+2)",
+  "peak_cycle": 30,
+  "peak_inr": 98209.0,
+  "status": "COMPLETE \u2014 enumerated space exhausted",
+  "reason": "24 gated cycles: entry gates, confirmation permutations, solo admission at both time gates, leg additions from three sources, strike shift, expiry instrument, square-off, full lock x TGT2 grid, DTE pockets both directions, all pairwise combinations of the improving objects. Banked ceiling +98,209.00; flagged ceiling +114,921.75; floor pace 1,50,000 not reached (gap 51,791.00). Reopening requires a new signal source, December fresh data, or Chandu's adoption call on the flagged variant."
+ },
+ "tried_families": [
+  {
+   "family": "V1/V2/V3/V5 + S1/S2/S3 NS add-on volume",
+   "outcome": "rejected pre-engine (net drag in this channel) \u2014 lesson 1"
   },
-  "tried_families": [
-    {
-      "family": "V1/V2/V3/V5 + S1/S2/S3 NS add-on volume",
-      "outcome": "rejected pre-engine (net drag in this channel) \u2014 lesson 1"
-    },
-    {
-      "family": "C3+G2 confirmed-only +150 target",
-      "outcome": "rejected pre-engine (FT 10.7% Jan-Oct, drift money) \u2014 lesson 5"
-    },
-    {
-      "family": "G1/G2/G5 bigger fixed targets on N1",
-      "outcome": "rejected pre-engine (FT collapse) \u2014 lesson 5"
-    },
-    {
-      "family": "G3/G4/G6/G8 wider stop / BE runner / partial",
-      "outcome": "rejected pre-engine (below baseline net) \u2014 lesson 6"
-    },
-    {
-      "family": "E1/E2 entry gates, E4 delay-1-bar",
-      "outcome": "rejected pre-engine (frequency/net; delay destroys) \u2014 lesson 7"
-    },
-    {
-      "family": "F5 ITM-100 strikes",
-      "outcome": "rejected pre-engine (below baseline) \u2014 lesson 8"
-    },
-    {
-      "family": "C2 unions containing Skill V3",
-      "outcome": "rejected pre-engine (weakest legs) \u2014 lesson 3"
-    },
-    {
-      "family": "C3L confirmed + solo-(lA) trusted-solo, G7 (Cycle 1)",
-      "outcome": "BANKED: +75836.75, 63 trades, 38.1% FT, 1.55/wk, no red month-ends; October +21835.25"
-    },
-    {
-      "family": "SO1430 early square-off 14:30 on C3L (Cycle 2)",
-      "outcome": "REJECTED: total 72070.00 < 75836.75, FT 33.3% < 38.1% \u2014 lesson 13"
-    },
-    {
-      "family": "CH1 runner-lock75 on C3L (Cycle 3 challenger)",
-      "outcome": "BANKED: +79398.75, FT 38.1% held, no red month-ends; June fragile at +97.00 \u2014 lesson 14"
-    },
-    {
-      "family": "NP1130 no-progress abort (Cycle 4)",
-      "outcome": "REJECTED: total 56921.75, FT 28.6% \u2014 lesson 15 (early-exit family closed)"
-    },
-    {
-      "family": "C3L+EV early solo non-Skill adds (5 U1 dropped legs)",
-      "outcome": "BLOCKED, not scored: premium candles for all 5 contracts missing; fetch needs credential-based Upstox browser route outside engine scope"
-    },
-    {
-      "family": "BE50 phase-1 break-even arm at +50 progress (Cycle 5)",
-      "outcome": "BANKED: +89997.00, FT 38.1% held, both halves up, June repaired +97.00 -> +1930.00 \u2014 lesson 16"
-    },
-    {
-      "family": "CH2 runner-lock90 (Cycle 6 challenger)",
-      "outcome": "REJECTED: total 89490.00 < 89997.00 \u2014 lock curve peaks at +75, family saturated \u2014 lesson 17"
-    },
-    {
-      "family": "BE40 arm sensitivity (Cycle 7)",
-      "outcome": "REJECTED: total 81803.75, FT 36.5%; May untouched (max progress +37.9 < arm) \u2014 lesson 18"
-    },
-    {
-      "family": "TGT2-180 runner second-target extension (Cycle 8)",
-      "outcome": "BANKED: +92437.75, FT 38.1% held, no red month-ends; October +28150.00"
-    },
-    {
-      "family": "CH3 opening-window confirmation (Cycle 9 challenger)",
-      "outcome": "NOT BANKED (flagged observation): +109591.50, FT 44.7%, 1.16/wk, but August worsens -3671.00 -> -5187.25; pre-registered banking rule + quality-for-frequency flag \u2014 lesson 19"
-    },
-    {
-      "family": "SA2D per-direction 2-loss stand-aside, skip next 1 (Cycle 10)",
-      "outcome": "REJECTED: total 82605.00 < 92437.75, FT 36.4%; August improved -3671.00 -> -1823.75 but 4 of 8 skipped legs were +4655 runner-stops \u2014 lesson 20"
-    },
-    {
-      "family": "CH4 RATCHET150 runner second ratchet +150 progress -> lock +130 (Cycle 11 challenger)",
-      "outcome": "REJECTED: total 92762.75 (+325.00 only), August unchanged -3671.00, October 28150.00 -> 24900.00 (9 Oct +180 target ratchet-stopped) \u2014 lesson 21; engine terminates SATURATED at Cycle 8 peak"
-    },
-    {
-      "family": "Pre-entry spot realised-range gate (Cycle 11 diagnosis)",
-      "outcome": "NOT FROZEN, not scored as candidate: low-range legs net +50124.00, August losers at normal/high range \u2014 no separation"
-    },
-    {
-      "family": "EXP0 expiry-day stand-aside (Run 2 Cycle 1 / engine Cycle 12)",
-      "outcome": "BANKED: +98001.00, 59 trades, FT 39.0%, 1.45/wk, no red month-ends; dropped 4 DTE0 legs net -5563.25 (incl. one +4655 winner) \u2014 lesson 22"
-    },
-    {
-      "family": "PDROOM prior-day level room gate [0,0.25%) (Run 2 Cycle 2 / engine Cycle 13)",
-      "outcome": "REJECTED (gate inert): 0 of 59 legs in the room band (40 already crossed PDH/PDL, 19 with room >=0.255%); candidate identical to best book +98001.00, FT 39.0%; August unchanged -3671.00 \u2014 lesson 24"
-    },
-    {
-      "family": "WROOM5 prior-5-day structural level room gate [0,0.25%) (Run 2 Cycle 3 / engine Cycle 14)",
-      "outcome": "REJECTED: candidate +96175.25 < best +98001.00 (dropped 9 PE legs net +1825.75); August flipped -3671.00 -> +168.50 and FT rose 39.0% -> 44.0%, but September emptied (both legs dropped) and frequency fell 1.45 -> 1.23/wk \u2014 lesson 25"
-    },
-    {
-      "family": "PSTOP25 premium-proportional initial stop, 25% of entry premium (Run 2 Cycle 4 / engine Cycle 15)",
-      "outcome": "REJECTED: candidate +77694.99 < best +98001.00 (wider stops on expensive contracts bled: 2 Apr -10294.19; tighter stops converted winners); FT held 39.0%, no red month-ends; August improved slightly -3671.00 -> -3375.25 but April flipped negative \u2014 lesson 26; 3rd consecutive no-beat Run-2 cycle, engine terminates SATURATED"
-    }
-  ]
+  {
+   "family": "C3+G2 confirmed-only +150 target",
+   "outcome": "rejected pre-engine (FT 10.7% Jan-Oct, drift money) \u2014 lesson 5"
+  },
+  {
+   "family": "G1/G2/G5 bigger fixed targets on N1",
+   "outcome": "rejected pre-engine (FT collapse) \u2014 lesson 5"
+  },
+  {
+   "family": "G3/G4/G6/G8 wider stop / BE runner / partial",
+   "outcome": "rejected pre-engine (below baseline net) \u2014 lesson 6"
+  },
+  {
+   "family": "E1/E2 entry gates, E4 delay-1-bar",
+   "outcome": "rejected pre-engine (frequency/net; delay destroys) \u2014 lesson 7"
+  },
+  {
+   "family": "F5 ITM-100 strikes",
+   "outcome": "rejected pre-engine (below baseline) \u2014 lesson 8"
+  },
+  {
+   "family": "C2 unions containing Skill V3",
+   "outcome": "rejected pre-engine (weakest legs) \u2014 lesson 3"
+  },
+  {
+   "family": "C3L confirmed + solo-(lA) trusted-solo, G7 (Cycle 1)",
+   "outcome": "BANKED: +75836.75, 63 trades, 38.1% FT, 1.55/wk, no red month-ends; October +21835.25"
+  },
+  {
+   "family": "SO1430 early square-off 14:30 on C3L (Cycle 2)",
+   "outcome": "REJECTED: total 72070.00 < 75836.75, FT 33.3% < 38.1% \u2014 lesson 13"
+  },
+  {
+   "family": "CH1 runner-lock75 on C3L (Cycle 3 challenger)",
+   "outcome": "BANKED: +79398.75, FT 38.1% held, no red month-ends; June fragile at +97.00 \u2014 lesson 14"
+  },
+  {
+   "family": "NP1130 no-progress abort (Cycle 4)",
+   "outcome": "REJECTED: total 56921.75, FT 28.6% \u2014 lesson 15 (early-exit family closed)"
+  },
+  {
+   "family": "C3L+EV early solo non-Skill adds (5 U1 dropped legs)",
+   "outcome": "BLOCKED, not scored: premium candles for all 5 contracts missing; fetch needs credential-based Upstox browser route outside engine scope"
+  },
+  {
+   "family": "BE50 phase-1 break-even arm at +50 progress (Cycle 5)",
+   "outcome": "BANKED: +89997.00, FT 38.1% held, both halves up, June repaired +97.00 -> +1930.00 \u2014 lesson 16"
+  },
+  {
+   "family": "CH2 runner-lock90 (Cycle 6 challenger)",
+   "outcome": "REJECTED: total 89490.00 < 89997.00 \u2014 lock curve peaks at +75, family saturated \u2014 lesson 17"
+  },
+  {
+   "family": "BE40 arm sensitivity (Cycle 7)",
+   "outcome": "REJECTED: total 81803.75, FT 36.5%; May untouched (max progress +37.9 < arm) \u2014 lesson 18"
+  },
+  {
+   "family": "TGT2-180 runner second-target extension (Cycle 8)",
+   "outcome": "BANKED: +92437.75, FT 38.1% held, no red month-ends; October +28150.00"
+  },
+  {
+   "family": "CH3 opening-window confirmation (Cycle 9 challenger)",
+   "outcome": "NOT BANKED (flagged observation): +109591.50, FT 44.7%, 1.16/wk, but August worsens -3671.00 -> -5187.25; pre-registered banking rule + quality-for-frequency flag \u2014 lesson 19"
+  },
+  {
+   "family": "SA2D per-direction 2-loss stand-aside, skip next 1 (Cycle 10)",
+   "outcome": "REJECTED: total 82605.00 < 92437.75, FT 36.4%; August improved -3671.00 -> -1823.75 but 4 of 8 skipped legs were +4655 runner-stops \u2014 lesson 20"
+  },
+  {
+   "family": "CH4 RATCHET150 runner second ratchet +150 progress -> lock +130 (Cycle 11 challenger)",
+   "outcome": "REJECTED: total 92762.75 (+325.00 only), August unchanged -3671.00, October 28150.00 -> 24900.00 (9 Oct +180 target ratchet-stopped) \u2014 lesson 21; engine terminates SATURATED at Cycle 8 peak"
+  },
+  {
+   "family": "Pre-entry spot realised-range gate (Cycle 11 diagnosis)",
+   "outcome": "NOT FROZEN, not scored as candidate: low-range legs net +50124.00, August losers at normal/high range \u2014 no separation"
+  },
+  {
+   "family": "EXP0 expiry-day stand-aside (Run 2 Cycle 1 / engine Cycle 12)",
+   "outcome": "BANKED: +98001.00, 59 trades, FT 39.0%, 1.45/wk, no red month-ends; dropped 4 DTE0 legs net -5563.25 (incl. one +4655 winner) \u2014 lesson 22"
+  },
+  {
+   "family": "PDROOM prior-day level room gate [0,0.25%) (Run 2 Cycle 2 / engine Cycle 13)",
+   "outcome": "REJECTED (gate inert): 0 of 59 legs in the room band (40 already crossed PDH/PDL, 19 with room >=0.255%); candidate identical to best book +98001.00, FT 39.0%; August unchanged -3671.00 \u2014 lesson 24"
+  },
+  {
+   "family": "WROOM5 prior-5-day structural level room gate [0,0.25%) (Run 2 Cycle 3 / engine Cycle 14)",
+   "outcome": "REJECTED: candidate +96175.25 < best +98001.00 (dropped 9 PE legs net +1825.75); August flipped -3671.00 -> +168.50 and FT rose 39.0% -> 44.0%, but September emptied (both legs dropped) and frequency fell 1.45 -> 1.23/wk \u2014 lesson 25"
+  },
+  {
+   "family": "PSTOP25 premium-proportional initial stop, 25% of entry premium (Run 2 Cycle 4 / engine Cycle 15)",
+   "outcome": "REJECTED: candidate +77694.99 < best +98001.00 (wider stops on expensive contracts bled: 2 Apr -10294.19; tighter stops converted winners); FT held 39.0%, no red month-ends; August improved slightly -3671.00 -> -3375.25 but April flipped negative \u2014 lesson 26; 3rd consecutive no-beat Run-2 cycle, engine terminates SATURATED"
+  }
+ ],
+ "run3": {
+  "started": "2026-11-02T12:26:00+05:30",
+  "directive": "Chandu 2026-11-02: Nifty segment floor Rs15,000/month on its own = >= Rs1,50,000 Jan-Oct gated pace. Starting book +98001.00, gap Rs51,999.",
+  "status": "COMPLETE (rounds 1+2, 24 cycles)",
+  "cycles": [
+   {
+    "cycle": 16,
+    "name": "CH3-R opening-window confirmation on EXP0 book",
+    "total": 111684.75,
+    "trades": 44,
+    "ft_pct": 45.5,
+    "per_week": 1.08,
+    "verdict": "NOT_BANKED_FLAGGED"
+   },
+   {
+    "cycle": 17,
+    "name": "C3L+EV5 five fetched dropped solo non-Skill legs",
+    "total": 81502.5,
+    "trades": 64,
+    "ft_pct": 35.9,
+    "per_week": 1.58,
+    "verdict": "REJECTED"
+   },
+   {
+    "cycle": 18,
+    "name": "S1-44 BASE_S1 union challenger",
+    "total": 48035.25,
+    "trades": 101,
+    "ft_pct": 25.7,
+    "per_week": 2.49,
+    "verdict": "REJECTED"
+   },
+   {
+    "cycle": 19,
+    "name": "ITM100 blanket one-strike ITM shift",
+    "total": 93278.75,
+    "trades": 59,
+    "ft_pct": 42.4,
+    "per_week": 1.45,
+    "verdict": "REJECTED"
+   },
+   {
+    "cycle": 20,
+    "name": "WEEKLY weekly-expiry-in-force challenger",
+    "total": 81263.5,
+    "trades": 59,
+    "ft_pct": 37.3,
+    "per_week": 1.45,
+    "verdict": "REJECTED"
+   },
+   {
+    "cycle": 21,
+    "name": "SQ1525 square-off 15:25",
+    "total": 97399.75,
+    "trades": 59,
+    "ft_pct": 39.0,
+    "per_week": 1.45,
+    "verdict": "REJECTED"
+   }
+  ],
+  "data_wall_cleared": "Expired-instruments fetch route used 2026-11-02: 5 EV legs + 21 S1 contracts + 59 ITM strike contracts + 59 weekly contracts fetched, entry bars verified; 0 NOT_COMPUTED in every Run-3 cycle. The Run-2 'blocked' families are all scored now.",
+  "floor": {
+   "target_jan_oct_inr": 150000,
+   "ending_book_inr": 98001.0,
+   "ending_monthly_inr": 9800.1,
+   "gap_inr": 51999,
+   "gap_monthly_inr": 5199.9,
+   "reached": false
+  },
+  "termination": "6 full cycles, 0 banked, 1 flagged; every remaining plausible family has had a full-data gated test (see log Run 3 termination audit). Peak unchanged from Run 2.",
+  "round2": {
+   "directive": "Standing order 2026-11-02 ~12:35 IST: no saturation conclusions; combinations and permutations; minimum 12 cycles.",
+   "cycles": "22-39 (18 cycles)",
+   "permutations": {
+    "c22_P1_pure_2of4": 88097.75,
+    "c23_P2_lA_mandatory": 66003.0,
+    "c24_P3_solo_admission_1000": 59663.75
+   },
+   "grid_lock_x_tgt2": {
+    "40/130": 92196.5,
+    "40/150": 91172.75,
+    "40/175": 95758.5,
+    "50/130": 93997.0,
+    "50/150": 93623.25,
+    "50/175": 98209.0,
+    "60/130": 88533.75,
+    "60/150": 93360.0,
+    "60/175": 97945.75
+   },
+   "expiry_pockets": {
+    "c34_EXP1": 87499.5,
+    "c35_EW_G7": 94292.75
+   },
+   "combinations": {
+    "c36_CH3R_x_gridbest": 114921.75,
+    "c37_CH3R_x_EWG7": 108434.75,
+    "c38_CH3S": 101781.5,
+    "c39_CH3R_x_EXP1": 105838.25
+   },
+   "banked": [
+    "cycle 30 (lock50/TGT2-175) +208.00 over the round-1 ending book"
+   ],
+   "ending_book_jan_oct": 98209.0,
+   "ending_pace_monthly": 9820.9,
+   "floor_gap_remaining": 51791.0,
+   "status": "ROUND 2 COMPLETE \u2014 enumerated space exhausted; floor not reached."
+  }
+ },
+ "run3_round3": {
+  "date": "2026-11-02",
+  "cycles": "40-73 (34 gated cycles + WS3 data workstream)",
+  "starting_book": "ADOPTED CH3-R x lock50/TGT2-175 = +114,921.75",
+  "banked": [
+   "Cycle 40 WS1 signature weekly carriage: +116,348.50 (+1,426.75)"
+  ],
+  "rejected": "Cycles 41-45 (union, DIFF standalone, premium/time/DTE admissions) and all 27 WS4 micro-grid cells (Cycles 47-73); centre cell reproduces the adopted book exactly",
+  "ws3": "2026-10-28 22500 PE (weekly expiry 2026-11-03) still NOT_COMPUTED - registry returned 0 contracts on live retry, 3 attempts; named, never estimated",
+  "ending_candidate_inr": 116348.5,
+  "monthly_avg_inr": 11634.85,
+  "floor_gap_inr": 33651.5,
+  "floor_reached": false,
+  "report": "nifty_engine_round3_2026-11-02.md"
+ },
+ "run4": {
+  "started": "2026-11-02",
+  "starting_cycle": 74,
+  "ending_cycle": 99,
+  "cycles_scored": 26,
+  "banked": [],
+  "retraction": "Round-3 Cycle-40 voided (look-ahead signature); candidate reverted to adopted book +114,921.75",
+  "baseline": "adopted book +114,921.75 (post-retraction)",
+  "ending_candidate_inr": 114921.75,
+  "monthly_pace_inr": 11492.18,
+  "floor_gap_inr": 35078.25,
+  "status": "complete \u2014 all six workstreams gated through, nothing banked"
+ },
+ "run5": {
+  "date": "2026-11-02",
+  "cycles": "100-112 (WS0 audit + WS1 diagnosis + 10 gated candidates)",
+  "starting_book": "ADOPTED CH3-R x lock50/TGT2-175 = +114,921.75",
+  "ws0": "Violation: confirmation timing on 16/44 legs (9 dropped causally: +45,499.25 of adopted nets; 7 Volrix legs retimed: +16,390.25 -> -2,414.25). Causal book +50,618.00 re-baselined as CURRENT.",
+  "banked": [],
+  "verdicts": "WS1 no separator (August closed permanently); WS2 ITM100 blanket +37,104.50 / expiry-scoped +48,508.75 rejected; WS3 DTE-0 readmission rejected in all 6 geometry cells (best +47,484.75); WS4 split A +49,968.00 / B +50,767.50 rejected (B beats causal net by +149.50, fails FT/frequency lines); WS5 none.",
+  "ending_working_book_inr": 50618.0,
+  "monthly_pace_inr": 5061.8,
+  "floor_gap_inr": 99382.0,
+  "december_candidate_of_record": "Adopted book +114,921.75 (Chandu), annotated with the WS0 causal figure +50,618.00",
+  "open_item": "Gate FT>=42.0% and frequency>=1.00/wk lines were calibrated on the adopted book inadmissible-inclusive figures; unreachable on the causal book; NOT relaxed mid-round \u2014 re-basing is a pre-registered future decision.",
+  "status": "complete \u2014 WS0 re-baseline + all five workstreams gated through, nothing banked",
+  "report": "nifty_engine_round5_2026-11-02.md"
+ },
+ "run6": {
+  "date": "2026-11-02",
+  "cycles": "113-130 (18: validation 1, WS1 5, WS2 4, WS3 5, WS4 2, WS5 1)",
+  "starting_book": "Causal book (Round-5 WS0) +50,618.00 at book geometry (lock50/TGT2-175, sq 15:10)",
+  "gate_calibration": "RELATIVE gate = banking test (pre-registered in the Round-6 freeze, per owner referral of the absolute lines); old absolute lines (FT>=42.0%, freq>=1.00/wk) printed as STATUS for every verdict, never decided on, never silently relaxed.",
+  "banked": [
+   {
+    "cycle": 124,
+    "change": "runner lock +50 -> +60 on the causal legs",
+    "total": 51118.5,
+    "delta_vs_causal": 500.5
+   },
+   {
+    "cycle": 129,
+    "change": "square-off 15:10 -> 15:20 (on the lock60 book)",
+    "total": 54102.0,
+    "delta_vs_lock60": 2983.5
+   }
+  ],
+  "ws5_combination_cycle130": "C124+C129 re-gated whole-book vs round-opening baseline: +54,102.00, all relative legs pass.",
+  "rejected": "WS1 grid: sys=3 +31,352.50; win<=10:30 +43,186.25; win<=11:30 +46,593.75; no window +44,645.75; solo=never +41,400.50. WS2 solo books: (lA) +34,533.25; V5 +25,145.00; Skill +28,280.25 computable subtotal (NC=1, named leg); Volrix +22,540.25. WS3: lock40/175 +50,117.50; TGT2-150 column +45,401.75/+45,902.25/+46,402.75. WS4: sq 14:45 +43,614.25.",
+  "ending_standing_book_inr": 54102.0,
+  "monthly_pace_inr": 5410.2,
+  "floor_gap_inr": 95898.0,
+  "standing_book": "Causal 35 legs x (stop -50, BE arm +50, tgt1 +90 -> lock +60, TGT2 +175, square-off 15:20); frozen in nifty_engine_frozen.md Round-6 candidate freeze; legs in nifty_engine_r6_final_book.json",
+  "old_absolute_lines_status_for_standing_book": {
+   "FT>=42.0": "FAIL (34.3%)",
+   "freq>=1.00/wk": "FAIL (0.86)"
+  },
+  "named_not_computed": "2026-10-28 22500 PE, weekly expiry 2026-11-03 \u2014 fetch attempted Round 6 via the route: NO_KEY (registry has no contract for that expiry; Rounds 3-5 found 0 contracts). Stays NOT_COMPUTED, named, never estimated. It sits in the solo Skill population only; no Round-6 candidate book contains it.",
+  "december_candidate_of_record": "Adopted book +114,921.75 (Chandu) \u2014 annotation extended: its causal lineage is +50,618.00 at book geometry and +54,102.00 after Round-6 geometry bankings.",
+  "status": "complete \u2014 all five workstreams gated through (18 cycles >= 10 minimum); floor NOT reached (gap 95,898.00)",
+  "report": "nifty_engine_round6_2026-11-02.md"
+ },
+ "run7": {
+  "date": "2026-11-02",
+  "cycles": "131-140 (10: validation 1, WS1 2, WS2 3 incl. one not-run, WS3 1, WS4 1, WS5 2 closure/verification)",
+  "starting_book": "Round-6 standing book +54,102.00 (causal 35 legs, lock60/TGT2-175, sq 15:20)",
+  "gate_calibration": "RELATIVE gate = banking test (Round-6/7 freeze); old absolute lines (FT>=42.0%, freq>=1.00/wk) printed as STATUS for every verdict, never decided on, never silently relaxed.",
+  "banked": [],
+  "verdicts": {
+   "c132_ws1_follow": "REJECTED: sleeve -63,495.40 (46 legs); combined -9,393.40; fails net, FT, flips (Apr, Sep), red month-ends Jun-Oct, halves, placebo, ex-top-3",
+   "c133_ws1_fade": "REJECTED on 2 legs: sleeve +32,127.15 (49 legs); combined +86,229.15; fails FT (34.3->31.0) and March flip (+7,895.00 -> -8,233.50). Noted observation, no variants (freeze).",
+   "c134_ws2_agree": "REJECTED (diagnostic gate): 2 legs, +7,360.00, fails net + frequency. Only 2 of 35 legs had any prior Bank state.",
+   "c135_ws2_disagree": "REJECTED: 0 legs (empty population).",
+   "c136_ws2b": "NOT RUN: frozen criterion fails on retention (2 < 12 legs) despite expectancy leg passing (3,680.00 vs 1,545.77/leg). WS2 closed.",
+   "c137_ws3_la_ce_mirror": "REJECTED: sleeve -32,862.90 (31 legs); combined +21,239.10; fails net, FT, red month-ends (Aug, Sep), ex-top-3. (lA) is one-sided; CE side closed.",
+   "c138_ws4_expiry_day": "REJECTED on FT leg only: sleeve +3,651.75 (15 legs); combined +57,753.75; FT 34.3->32.0; all other legs pass, August repaired to +1,911.75. Noted observation.",
+   "c139_ws5_closure": "No bankings -> no combinations. Standing book re-gated vs round-open baseline: all quality legs intact.",
+   "c140_candidate_freeze_verify": "Standing book re-verified: +54,102.00, audit 35/0, NC 0, re-sum exact."
+  },
+  "ending_standing_book_inr": 54102.0,
+  "monthly_pace_inr": 5410.2,
+  "floor_gap_inr": 95898.0,
+  "standing_book": "UNCHANGED: causal 35 legs x (stop -50, BE arm +50, tgt1 +90 -> lock +60, TGT2 +175, square-off 15:20); frozen in nifty_engine_frozen.md Round-7 results; legs in nifty_engine_r6_final_book.json",
+  "old_absolute_lines_status_for_standing_book": {
+   "FT>=42.0": "FAIL (34.3%)",
+   "freq>=1.00/wk": "FAIL (0.86)"
+  },
+  "named_not_computed": "2026-10-28 22500 PE, weekly expiry 2026-11-03 \u2014 not in any Round-7 population (2026-10-28 is not a weekly expiry day; expiry outside window). Stays NOT_COMPUTED, named, never estimated.",
+  "fetches": "Expired-instruments route (browser UA): WS1 69/69 OK; WS3 10 jobs, NC 0 at scoring; WS4 15/15 OK; discovery built contracts files for 2026-01-06, 2026-07-21, 2026-08-04.",
+  "december_candidate_of_record": "Adopted book +114,921.75 (Chandu) \u2014 causal lineage unchanged by Round 7: +50,618.00 at book geometry, +54,102.00 after Round-6 geometry bankings.",
+  "status": "complete \u2014 all five workstreams gated through (10 cycles >= 10 minimum); floor NOT reached (gap 95,898.00); nothing banked",
+  "report": "nifty_engine_round7_2026-11-02.md"
+ },
+ "run8": {
+  "date": "2026-11-02",
+  "cycles": "141-149 (9: validation 1, WS1 4, WS2 1, WS3 1, WS4 2 closure/verification)",
+  "starting_book": "Round-6/7 standing book +54,102.00 (causal 35 legs, lock60/TGT2-175, sq 15:20)",
+  "gate_calibration": "RELATIVE gate = banking test (Round-6/7/8 freeze); old absolute lines (FT>=42.0%, freq>=1.00/wk) printed as STATUS for every verdict, never decided on, never silently relaxed.",
+  "march_diagnosis": "Pre-freeze re-score of the gated C133 construction (validated exact): March flip = sleeve March -16,128.50 over 11 legs (7 full stops); against-trend half (pdret_prior) holds -13,670.00, with-trend half -2,458.50. WS1(b) form frozen from it (with-trend, pdret_prior sign; intraday-definition variant deliberately not run).",
+  "banked": [],
+  "verdicts": {
+   "c141_validation": "VALID: standing book reproduced exactly (+54,102.00, 35 tr, FT 34.3%, audit 35/0, NC 0, re-sum exact). replay_r8 == replay_r5 leg-for-leg.",
+   "c142_ws1a_thr075": "REJECTED on FT only: sleeve +10,882.00 (27 legs); combined +64,984.00, FT 29.0%, 1.53/wk, March +5,866.50 no flip. ABS: FT FAIL / freq PASS.",
+   "c143_ws1a_thr100": "REJECTED on FT only: sleeve +3,458.00 (13 legs); combined +57,560.00, FT 33.3%, 1.18/wk, March +5,866.50 no flip. ABS: FT FAIL / freq PASS.",
+   "c144_ws1b_withtrend": "REJECTED on FT only: sleeve +7,064.50 (25 legs); combined +61,166.50, FT 30.0%, 1.48/wk, March +5,436.50 (diagnosed non-flip). ABS: FT FAIL / freq PASS.",
+   "c145_ws1c_entry1005": "REJECTED on the March flip ONLY (round's best cell): sleeve +33,624.75 (49 legs); combined +87,726.75, FT 35.7% (passes), 2.07/wk, halves +44,841.50/+42,885.25, placebo +50,702.75 beaten, ex-top-3 +54,261.75, May -1,662.50; March +7,895.00 -> -8,376.50 (sleeve March at 10:05 = -16,271.50). ABS: FT FAIL / freq PASS. Noted observation, failing leg named.",
+   "c146_ws2_expiry_own_geom": "REJECTED under BOTH FT readings: rebuild validated exact vs C138 first (combined +57,753.75, sleeve +3,651.75, 15 legs). Expiry geometry (stop -40, tgt1 +60 -> lock +30, TGT2 +110): sleeve -2,406.25 (FT90 count 3/15, own-target 5/15); combined +51,695.75 (below baseline). Reading (i) FT90 30.0%: fails net, FT, Apr flip. Reading (ii) own-target FT 34.0% (DECISION SUPPORT ONLY): would-bank FALSE (net, FT, flip fail). Own-geometry form NOT flagged.",
+   "c147_ws3_afternoon": "REJECTED on net and FT: sleeve -8,056.25 (150 legs); combined +46,045.75, FT 11.9%, 4.56/wk. Afternoon-range family closed. ABS: FT FAIL / freq PASS.",
+   "c148_ws4_closure": "No bankings -> no combinations. Standing book re-gated vs round-open baseline: all quality legs intact.",
+   "c149_candidate_freeze_verify": "Standing book re-verified: +54,102.00, audit 35/0, NC 0, re-sum exact."
+  },
+  "ending_standing_book_inr": 54102.0,
+  "monthly_pace_inr": 5410.2,
+  "floor_gap_inr": 95898.0,
+  "standing_book": "UNCHANGED: causal 35 legs x (stop -50, BE arm +50, tgt1 +90 -> lock +60, TGT2 +175, square-off 15:20); frozen in nifty_engine_frozen.md Round-8 results; legs in nifty_engine_r6_final_book.json",
+  "old_absolute_lines_status_for_standing_book": {
+   "FT>=42.0": "FAIL (34.3%)",
+   "freq>=1.00/wk": "FAIL (0.86)"
+  },
+  "flagged_restated": {
+   "expiry_sleeve_standing_geometry_r7c138": {
+    "adoption_value_inr": 3651.75,
+    "combined_inr": 57753.75,
+    "status": "FLAGGED \u2014 owner decision pending; fails FT leg only (34.3 -> 32.0). NOT adopted."
+   },
+   "expiry_sleeve_own_geometry_r8c146": {
+    "adoption_value_inr": -2406.25,
+    "combined_inr": 51695.75,
+    "status": "REJECTED under both FT readings (FT90 30.0%; own-target 34.0%, would-bank false). NOT flagged."
+   },
+   "gap_fade_entry1005_r8c145": {
+    "adoption_value_inr": 33624.75,
+    "combined_inr": 87726.75,
+    "status": "NOTED OBSERVATION \u2014 fails the March green-to-red flip leg only; every other relative-gate leg passes incl. FT (35.7%). Recorded for owner visibility; NOT adopted."
+   }
+  },
+  "named_not_computed": "2026-10-28 22500 PE, weekly expiry 2026-11-03 \u2014 not in any Round-8 population. Stays NOT_COMPUTED, named, never estimated.",
+  "fetches": "Expired-instruments route (browser UA): C145 13/13 OK; C147 101/101 OK; NC 0 at every scoring."
+ },
+ "run9": {
+  "date": "2026-11-02",
+  "cycles": "150-158 (9: validation 1, WS1 1, WS2 1 decision-support, WS3 2, WS4 1, WS5 3 closure/verification/restatement)",
+  "starting_book": "Round-6/7/8 standing book +54,102.00 (causal 35 legs, lock60/TGT2-175, sq 15:20)",
+  "gate_calibration": "RELATIVE gate = banking test (Rounds 6-9 freeze); old absolute lines (FT>=42.0%, freq>=1.00/wk) printed as STATUS for every verdict, never decided on, never silently relaxed.",
+  "banked": [],
+  "verdicts": {
+   "c150_validation": "VALID: standing book reproduced exactly (+54,102.00, 35 tr, FT 34.3%, audit 35/0, NC 0, re-sum exact). No fetches needed in the round.",
+   "c151_ws1_fade_combo": "REJECTED on the April flip ONLY: with-trend x entry-10:05 sleeve +15,937.00 (25 legs); combined +70,039.00, FT 35.0% (passes), 1.48/wk, March +12,443.50 cured; April +210.00 -> -3,050.00. Fade family CLOSED (six gated forms). Noted observation.",
+   "c152_ws2_flagged_pair": "DECISION SUPPORT (force-no-bank): pair +91,168.50 (97 tr, FT 34.0%, 2.39/wk); adoption value +37,066.50 (210.00 less than the sum of the flags \u2014 UNIQUE-ONCE overlap on two keys). Fails FT + March flip only; all other legs pass.",
+   "c153_ws3_diagnosis": "Causal May = 3 confirmed PE full stops (05-11/13/18, -3,470.00 each; MFE +16.90/+37.85/+16.50, none reached the BE arm). Wound = 6 negative legs in May+Jun. Separator scan (Bank WS1 test, frozen F1-F12): only F8 |gap| >= 0.50% separates (wound share 66.7% vs book 31.4%, ratio 2.12; holds 4/6; FT share 33.3%). Evidence: nifty_engine_r9_ws3_diag.json.",
+   "c154_ws3_candidate": "REJECTED on net, FT, frequency, March flip: F8 exclusion candidate +42,326.00 (24 tr, FT 33.3%, 0.59/wk). The excluded 11 legs net +11,776.00 for the book (incl. the +11,155.00 March leg); May repaired -10,410.00 -> -3,470.00 and June -3,910.00 -> -220.00 at the cost of March and the net. No second candidate \u2014 causal-May question CLOSED.",
+   "c155_ws4_causal_union": "REJECTED on net, FT, April flip: union sleeve (17 multi-source (lA) keys missed by the confirmation window, at (lA)'s own bar; ALL PE) standalone -7,653.00 (8 full stops; August slice -6,111.50); combined +46,449.00, FT 28.8%. Family closed.",
+   "c156_ws5_closure": "No bankings -> no combinations. Standing book re-gated vs round-open baseline: all quality legs intact.",
+   "c157_freeze_verify": "Standing book re-verified: +54,102.00, audit 35/0, NC 0, re-sum exact.",
+   "c158_flagged_restatement": "On the (unchanged) ending book: fade145 +33,624.75 (combined +87,726.75, March flip only); expiry +3,651.75 (combined +57,753.75, FT only); pair +37,066.50 (combined +91,168.50, FT + March flip); fade-combo +15,937.00 (combined +70,039.00, April flip only). All NOT adopted."
+  },
+  "ending_standing_book_inr": 54102.0,
+  "monthly_pace_inr": 5410.2,
+  "floor_gap_inr": 95898.0,
+  "standing_book": "UNCHANGED: causal 35 legs x (stop -50, BE arm +50, tgt1 +90 -> lock +60, TGT2 +175, square-off 15:20); frozen in nifty_engine_frozen.md Round-9 results; legs in nifty_engine_r6_final_book.json",
+  "old_absolute_lines_status_for_standing_book": {
+   "FT>=42.0": "FAIL (34.3%)",
+   "freq>=1.00/wk": "FAIL (0.86)"
+  },
+  "named_not_computed": "2026-10-28 22500 PE, weekly expiry 2026-11-03 \u2014 not in any Round-9 population. Stays NOT_COMPUTED, named, never estimated.",
+  "december_candidate_of_record": "Adopted book +114,921.75 (Chandu) \u2014 causal lineage unchanged by Round 9: +50,618.00 at book geometry, +54,102.00 after Round-6 geometry bankings.",
+  "status": "complete \u2014 all five workstreams gated through (9 cycles >= 8 minimum); floor NOT reached (gap 95,898.00); nothing banked; fade family and causal-union family closed; causal-May question closed",
+  "report": "nifty_engine_round9_2026-11-02.md"
+ },
+ "cycles_run_total": 167,
+ "current_book": "standing book (Round 6 Cycle 124/129 banked; Rounds 7/8/9/10 banked nothing) = causal 35 legs (C3 admission: >=2-system key iff 2nd-earliest system entry <= 09:55 entered at that bar; solo (lA) v2 admitted; EXP0) x G7-with-lock60/TGT2-175/sq-15:20 = +54,102.00 Jan-Oct",
+ "run10": {
+  "date": "2026-11-02",
+  "cycles": "159-167 (9 cycles)",
+  "starting_book_total": 54102.0,
+  "ending_book_total": 54102.0,
+  "banked": [],
+  "ws1_bankspot": "C160 agreement conditioning (30 AGREE legs) +46,882.00 \u2014 REJECTED (net, FT 33.3%, frequency, April flip +210.00 -> -3,470.00; dropped neutral set nets +7,220.00). Buckets: agree 30 / neutral 5 / disagree 0 (empty). C161 mirror NOT RUN under the frozen rule (closure record). Cross-index family closed in both forms (lesson 73).",
+  "ws2_orwidth": "tercile nets lower +11,634.25 / middle +21,298.25 / upper +21,169.50 (all positive). C162 middle-only +21,298.25 REJECTED (net, frequency, ex-top-3 -749.50). C163 middle+upper +42,467.75 REJECTED (net, frequency, March flip +7,895.00 -> -3,260.00). Lesson 74.",
+  "ws3_postexpiry": "C164: 16-key post-expiry population at causal entries; sleeve -18,578.25 standalone (15 scored + 1 NC); combined +35,523.75 \u2014 REJECTED (net, FT, April flip, audit, NC). The NC leg is the carried 2026-10-28 22500 PE (monthly expiry 2026-11-03) \u2014 its trade date is the first session after the Oct monthly expiry, so it belongs to this population; freeze prose corrected in frozen.md results. Lesson 75.",
+  "ws4_december_freeze": "C166 VERIFIED: the December candidate specification (frozen.md, rules 1-9) regenerates the standing book leg-for-leg and to the paisa (+54,102.00, audit 35/0, NC 0, re-sum exact). December pass/kill pre-registered: PASS net>0 + clean audit + NC=0; KILL net <= -3,470.00 or any timing violation; else INCONCLUSIVE.",
+  "ws5": "C165 closure by statement (no bankings). C167 closure re-gate identity + flagged restatement on the ending book.",
+  "flagged_restated_r10": {
+   "expiry_sleeve": {
+    "adoption_value": 3651.75,
+    "combined": 57753.75,
+    "fails": [
+     "ft_not_degraded"
+    ],
+    "status": "FLAGGED \u2014 owner decision, NOT adopted"
+   },
+   "fade_1005": {
+    "adoption_value": 33624.75,
+    "combined": 87726.75,
+    "fails": [
+     "no_green_month_flips_red (March +7,895.00 -> -8,376.50)"
+    ],
+    "status": "FLAGGED \u2014 owner decision, NOT adopted"
+   },
+   "flagged_pair": {
+    "adoption_value": 37066.5,
+    "combined": 91168.5,
+    "fails": [
+     "ft_not_degraded (34.0%)",
+     "no_green_month_flips_red (March -> -11,846.50)"
+    ],
+    "status": "FLAGGED \u2014 owner decision, NOT adopted; worth 210.00 less than the sum of its flags (lesson 72)"
+   },
+   "fade_combo": {
+    "adoption_value": 15937.0,
+    "combined": 70039.0,
+    "fails": [
+     "no_green_month_flips_red (April +210.00 -> -3,050.00)"
+    ],
+    "status": "FLAGGED \u2014 owner decision, NOT adopted"
+   }
+  },
+  "termination": "Floor NOT reached; nothing banked. Standing book +54,102.00 = 5,410.20/month; gap 95,898.00. In-sample signal space exhausted (lesson 76); what remains: owner flagged decisions, owner gate re-basing decision, December fresh data under the pre-registered pass/kill.",
+  "lessons_added": "73-76"
+ },
+ "run11": {
+  "date": "2026-11-02",
+  "cycles": "168-169 (2 cycles)",
+  "scope": "December preparation, narrow scope: DEC-S1 shadow freeze + regeneration verification + gate re-basing decision note. No new in-sample signal cycles (Round 10 exhaustion conclusion stands).",
+  "starting_book_total": 54102.0,
+  "ending_book_total": 54102.0,
+  "banked": [],
+  "dec_s1": {
+   "label": "DEC-S1 \u2014 ADOPTED December candidate (flagged pair; adopted by owner direction 2026-11-02 16:48 IST; formerly December SHADOW)",
+   "status": "ADOPTED 2026-11-02 16:48 IST by Chandu's direction ('You apply the fix and run again'). Re-designated from labelled December SHADOW candidate to the adopted December CANDIDATE. Specification unchanged (frozen.md ROUND 11 S0-S9). The standing causal book (+54,102.00) remains on record as the comparison baseline and is not rewritten; its December freeze (rules 1-9) remains on file as the comparison, judged in December in parallel, labelled. November primary NF-PAPER-C3G7 is UNCHANGED \u2014 this adoption governs the candidate/December book only. Verification re-run 2026-11-02 immediately before the adoption was written: 26/26 field checks MATCH, leg list identical, independent re-sum exact.",
+   "composition": "A standing causal book (35 legs) + B gap-fade 10:05 sleeve (49 legs, Cycle-145 form) + C expiry-day sleeve (13 in-pair legs, Cycle-138 form); assembly A->B->C, UNIQUE-ONCE; standing geometry all legs.",
+   "jan_oct_2026": 91168.5,
+   "trades": 97,
+   "ft_pct": 34.0,
+   "per_week": 2.39,
+   "controls": {
+    "halves": [
+     45393.5,
+     45775.0
+    ],
+    "placebo_shift30": 52867.25,
+    "ex_top3": 57703.5,
+    "audit": "97/0 clean",
+    "not_computed": 0,
+    "resum": "exact"
+   },
+   "adoption_value_vs_standing": 37066.5,
+   "monthly_pace": 9116.85,
+   "floor_gap": 58831.5,
+   "verification": "Cycle 168 VERIFIED \u2014 specification regenerates the Jan-Oct book leg-for-leg and to the paisa; 26/26 pre-registered field checks MATCH vs the Cycle-152/167 record; summary nifty_engine_run3r11_r11_c168_decs1_regen_verify_summary.json; legs nifty_engine_r11_decs1_legs.json.",
+   "december_pass_kill": "PASS iff Dec net > 0 AND timing audit clean AND NC = 0. KILL iff Dec net <= -3,470.00 OR any timing violation. INCONCLUSIVE otherwise; NC > 0 -> PROVISIONAL, never a pass. Judged on December 2026 data alone.",
+   "december_designation": "ADOPTED December CANDIDATE (was: December SHADOW candidate, Round 11 freeze)",
+   "legs_failed_and_waived": [
+    "ft_dilution",
+    "march_flip"
+   ]
+  },
+  "gate_rebasing_note": "Cycle 169, decision support only (nifty_engine_round11_2026-11-02.md). KEEP lines (FT>=42.0%, freq>=1.00/wk): nothing in the causal era banks, incl. the two Round-6 bankings (+3,484.00). RE-BASE to causal book (FT>=34.3%, freq>=0.86/wk): exactly the Round-6 record banks (+3,484.00) and nothing else; no flagged item is unlocked (each fails a non-line leg or FT-vs-baseline). Decision: owner's, pending."
+ },
+ "adoption_pair": {
+  "name": "DEC-S1 \u2014 flagged pair (standing causal book + gap-fade 10:05 sleeve + expiry-day sleeve), ADOPTED December candidate",
+  "status": "December candidate (adopted by Chandu 2026-11-02 16:48 IST). Re-designated from December SHADOW candidate (Round 11 freeze) to the adopted December CANDIDATE.",
+  "adopted_by": "Chandu",
+  "adopted_on": "2026-11-02 16:48 IST",
+  "decision_context": "Chandu directed 2026-11-02 16:48 IST: 'You apply the fix and run again.' The engine did NOT bank this book: under the relative gate it failed two legs (see legs_failed_and_waived). This adoption is the owner's decision over the engine's flag; the Round 9 Cycle-152 verdict of record (flagged pair, force-no-bank) remains NOT BANKED and is not rewritten.",
+  "legs_failed_and_waived": [
+   "ft_dilution",
+   "march_flip"
+  ],
+  "waiver_detail": {
+   "ft_dilution": "Relative gate leg: FT must not fall below the standing baseline's. The pair runs FT 34.0% vs the standing book's 34.3% \u2014 the leg was FAILED, and is WAIVED by this adoption. It is not recorded as passed.",
+   "march_flip": "Relative gate leg: no green month may flip red. The standing book's March is +7,895.00; the pair's March is -11,846.50 \u2014 March flips green to red. The leg was FAILED, and is WAIVED by this adoption. It is not recorded as passed."
+  },
+  "rule": "DEC-S1 as frozen in nifty_engine_frozen.md ROUND 11 S1-S5: assembly A (standing causal book, rules 1-7 of the of-record candidate) -> B (gap-fade 10:05, Cycle-145 form: |prior-day gap| >= 0.50%, direction opposite the gap, entry 10:05, ATM100 at the 10:05 spot open, monthly expiry in force, EXP0) -> C (expiry-day sleeve, Cycle-138 form: weekly-expiry days, U1 keys with Skill V3 among sources, entry at Skill's own bar within 09:15-11:00, strike re-struck ATM100, weekly contract expiring that day), UNIQUE-ONCE per (date, direction); standing geometry on every leg (stop -50, BE arm +50 -> entry, tgt1 +90 -> runner lock +60, TGT2 +175, square-off 15:20); December expiry handling S7; NC policy S8.",
+  "jan_oct_2026": 91168.5,
+  "monthly_avg_inr": 9116.85,
+  "trades": 97,
+  "components": {
+   "A_standing": 35,
+   "B_fade1005": 49,
+   "C_expiry_inpair": 13
+  },
+  "ft_pct": 34.0,
+  "per_week": 2.39,
+  "month_nets": {
+   "2026-01": 19211.25,
+   "2026-02": 5038.75,
+   "2026-03": -11846.5,
+   "2026-04": 28416.0,
+   "2026-05": 4574.0,
+   "2026-06": -1331.0,
+   "2026-07": 5839.0,
+   "2026-08": 841.25,
+   "2026-09": 20265.25,
+   "2026-10": 20160.5
+  },
+  "negative_months": [
+   "2026-03",
+   "2026-06"
+  ],
+  "red_month_ends": [],
+  "controls": {
+   "halves": [
+    45393.5,
+    45775.0
+   ],
+   "placebo_shift30": 52867.25,
+   "ex_top3": 57703.5,
+   "timing_audit": "97/0 clean",
+   "independent_resum": "exact",
+   "not_computed": 0
+  },
+  "adoption_value_vs_standing_book_inr": 37066.5,
+  "standing_baseline_inr": 54102.0,
+  "floor_gap_remaining_inr": 58831.5,
+  "verification_recheck": "2026-11-02, immediately before the adoption was written: nifty_engine_r11_verify.py re-run from the S1-S5 specification alone \u2014 26/26 pre-registered field checks MATCH (verdict VERIFIED); regenerated leg list identical to nifty_engine_r11_decs1_legs.json (97 legs); independent re-sum of the month table reproduces +91,168.50 exactly; March -11,846.50 and FT 34.0% (33/97) re-confirmed. No mismatch; nothing patched.",
+  "december_pass_kill": "PASS iff Dec net > 0 AND timing audit clean AND NC = 0. KILL iff Dec net <= -3,470.00 OR any timing violation. INCONCLUSIVE otherwise; NC > 0 -> PROVISIONAL, never a pass. Judged on December 2026 data alone (S9, unchanged). Floor-pace context printed beside, never as the test: Dec >= +15,000.",
+  "standing_freeze_remains": "The standing book's December freeze (frozen.md rules 1-9, of record since Round 10, verified Cycle 166) remains on file as the comparison and is judged in December in parallel, labelled; neither verdict alters the other.",
+  "november_primary": "NF-PAPER-C3G7 UNCHANGED \u2014 this adoption governs the candidate/December book only.",
+  "supersedes_alternative": "The fade-only alternative (standing + fade-10:05 alone, +87,726.75 Jan-Oct, Round 8 Cycle 145) is superseded by this pair adoption and is no longer a live adoption option.",
+  "frozen_definition": "~/workspace/trading/nifty_engine_frozen.md (ROUND 11 S0-S9 + ADOPTION section 2026-11-02 16:48 IST)",
+  "adoption_record": "~/workspace/trading/nifty_adoption_pair_2026-11-02.md"
+ }
 }

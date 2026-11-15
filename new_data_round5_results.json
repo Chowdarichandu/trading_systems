@@ -1,0 +1,430 @@
+{
+ "stack_anchor": {
+  "legs": 111,
+  "total": 127351.5,
+  "trade_days": 89
+ },
+ "books": {
+  "FLOWVOL": {
+   "stats": {
+    "legs": 62,
+    "total": -44294.0,
+    "trade_days": 62,
+    "per_trade_day": -714.42,
+    "win_rate_pct": 25.8,
+    "months": {
+     "2026-01": -7281.0,
+     "2026-02": -7547.0,
+     "2026-03": -1920.0,
+     "2026-04": -960.0,
+     "2026-05": -6880.0,
+     "2026-06": -6633.0,
+     "2026-07": -2880.0,
+     "2026-08": 560.0,
+     "2026-09": -2153.0,
+     "2026-10": -8600.0
+    },
+    "halves": {
+     "H1_Jan_May": -24588.0,
+     "H2_Jun_Oct": -19706.0
+    },
+    "ex_top3": -51734.0,
+    "day_counts_trade_days": {
+     "green": 16,
+     "red": 46
+    },
+    "day_counts_all_days": {
+     "green": 16,
+     "red": 46,
+     "no_trade": 143
+    }
+   },
+   "nc_days": [],
+   "gate": {
+    "legs_detail": {
+     "total_pos_and_900_td": false,
+     "min_sample": true,
+     "nc_le_5pct": true,
+     "halves_both_pos": false,
+     "months_floor": false,
+     "ex_top3_pos": false,
+     "coin_ge95": false,
+     "beats_reversed": false,
+     "beats_time_shifted": false
+    },
+    "gate_pass": false,
+    "placebos": {
+     "coin_pct": 5.5,
+     "coin_p95": -806.0,
+     "reversed_total": -2219.3,
+     "time_shifted_total": -43308.5
+    }
+   },
+   "merge": {
+    "increment_legs": 40,
+    "increment_total": -21230.5,
+    "increment_days": 40,
+    "merged_total": 106121.0,
+    "merged_trade_days": 129,
+    "merged_per_trade_day": 822.64,
+    "merged_months": {
+     "2026-01": 18467.0,
+     "2026-02": 14617.0,
+     "2026-03": 10080.0,
+     "2026-04": 8850.0,
+     "2026-05": 21960.0,
+     "2026-06": -153.0,
+     "2026-07": 4024.0,
+     "2026-08": 2619.5,
+     "2026-09": 9207.0,
+     "2026-10": 16449.5
+    },
+    "merged_red_months": [
+     "2026-06"
+    ],
+    "merged_day_counts_trade_days": {
+     "green": 72,
+     "red": 57
+    },
+    "merged_day_counts_all_days": {
+     "green": 72,
+     "red": 57,
+     "no_trade": 76
+    }
+   },
+   "november": {
+    "family_trades": [
+     {
+      "date": "2026-11-03",
+      "side": "CE",
+      "strike": 55500,
+      "expiry": "2026-11-23",
+      "entry_time": "11:00",
+      "entry_premium": 869.2,
+      "exit_time": "11:10",
+      "exit_premium": 819.2,
+      "exit_reason": "stop",
+      "net_inr": -1720.0
+     },
+     {
+      "date": "2026-11-05",
+      "side": "CE",
+      "strike": 57100,
+      "expiry": "2026-11-23",
+      "entry_time": "11:00",
+      "entry_premium": 709.25,
+      "exit_time": "11:25",
+      "exit_premium": 799.25,
+      "exit_reason": "target",
+      "net_inr": 2480.0
+     },
+     {
+      "date": "2026-11-11",
+      "side": "CE",
+      "strike": 61100,
+      "expiry": "2026-11-23",
+      "entry_time": "11:00",
+      "entry_premium": 828.75,
+      "exit_time": "11:30",
+      "exit_premium": 918.75,
+      "exit_reason": "target",
+      "net_inr": 2480.0
+     }
+    ],
+    "family_nc_days": [],
+    "family_total_all_legs": 3240.0,
+    "increment_total_on_stack_idle": 3240.0,
+    "merged_november_total": 560.0,
+    "stack_baseline": {
+     "total": -2680.0,
+     "green": 1,
+     "red": 3,
+     "no_trade": 5
+    },
+    "merged_day_counts": {
+     "green": 3,
+     "red": 4,
+     "no_trade": 2
+    },
+    "days": {
+     "2026-11-02": {
+      "stack": null,
+      "family_all_legs": 0,
+      "family_increment_on_idle": 0,
+      "merged_day": null
+     },
+     "2026-11-03": {
+      "stack": null,
+      "family_all_legs": -1720.0,
+      "family_increment_on_idle": -1720.0,
+      "merged_day": -1720.0
+     },
+     "2026-11-04": {
+      "stack": 2480.0,
+      "family_all_legs": 0,
+      "family_increment_on_idle": 0,
+      "merged_day": 2480.0
+     },
+     "2026-11-05": {
+      "stack": null,
+      "family_all_legs": 2480.0,
+      "family_increment_on_idle": 2480.0,
+      "merged_day": 2480.0
+     },
+     "2026-11-06": {
+      "stack": null,
+      "family_all_legs": 0,
+      "family_increment_on_idle": 0,
+      "merged_day": null
+     },
+     "2026-11-09": {
+      "stack": -1720.0,
+      "family_all_legs": 0,
+      "family_increment_on_idle": 0,
+      "merged_day": -1720.0
+     },
+     "2026-11-11": {
+      "stack": null,
+      "family_all_legs": 2480.0,
+      "family_increment_on_idle": 2480.0,
+      "merged_day": 2480.0
+     },
+     "2026-11-12": {
+      "stack": -1720.0,
+      "family_all_legs": 0,
+      "family_increment_on_idle": 0,
+      "merged_day": -1720.0
+     },
+     "2026-11-13": {
+      "stack": -1720.0,
+      "family_all_legs": 0,
+      "family_increment_on_idle": 0,
+      "merged_day": -1720.0
+     }
+    }
+   },
+   "resum_ok": true
+  },
+  "OPTFLOW": {
+   "stats": {
+    "legs": 37,
+    "total": -7867.0,
+    "trade_days": 37,
+    "per_trade_day": -212.62,
+    "win_rate_pct": 37.8,
+    "months": {
+     "2026-01": 1520.0,
+     "2026-02": 2693.0,
+     "2026-03": 3040.0,
+     "2026-04": -6880.0,
+     "2026-05": -3440.0,
+     "2026-06": 760.0,
+     "2026-07": -3440.0,
+     "2026-08": -4400.0,
+     "2026-09": 4960.0,
+     "2026-10": -2680.0
+    },
+    "halves": {
+     "H1_Jan_May": -3067.0,
+     "H2_Jun_Oct": -4800.0
+    },
+    "ex_top3": -15307.0,
+    "day_counts_trade_days": {
+     "green": 14,
+     "red": 23
+    },
+    "day_counts_all_days": {
+     "green": 14,
+     "red": 23,
+     "no_trade": 168
+    }
+   },
+   "nc_days": [
+    "2026-01-21",
+    "2026-02-02",
+    "2026-02-03",
+    "2026-02-27",
+    "2026-03-04",
+    "2026-03-23",
+    "2026-04-01",
+    "2026-04-02",
+    "2026-04-10",
+    "2026-04-30",
+    "2026-05-05",
+    "2026-05-12",
+    "2026-05-14",
+    "2026-05-18",
+    "2026-06-01",
+    "2026-06-03",
+    "2026-09-15",
+    "2026-09-28"
+   ],
+   "gate": {
+    "legs_detail": {
+     "total_pos_and_900_td": false,
+     "min_sample": false,
+     "nc_le_5pct": false,
+     "halves_both_pos": false,
+     "months_floor": false,
+     "ex_top3_pos": false,
+     "coin_ge95": false,
+     "beats_reversed": true,
+     "beats_time_shifted": false
+    },
+    "gate_pass": false,
+    "placebos": {
+     "coin_pct": 68.0,
+     "coin_p95": 4257.2,
+     "reversed_total": -18052.3,
+     "time_shifted_total": -3851.5
+    }
+   },
+   "merge": {
+    "increment_legs": 20,
+    "increment_total": -11207.0,
+    "increment_days": 20,
+    "merged_total": 116144.5,
+    "merged_trade_days": 109,
+    "merged_per_trade_day": 1065.55,
+    "merged_months": {
+     "2026-01": 27268.0,
+     "2026-02": 14037.0,
+     "2026-03": 7600.0,
+     "2026-04": 4650.0,
+     "2026-05": 23680.0,
+     "2026-06": 1320.0,
+     "2026-07": 2504.0,
+     "2026-08": -620.5,
+     "2026-09": 17536.5,
+     "2026-10": 18169.5
+    },
+    "merged_red_months": [
+     "2026-08"
+    ],
+    "merged_day_counts_trade_days": {
+     "green": 66,
+     "red": 43
+    },
+    "merged_day_counts_all_days": {
+     "green": 66,
+     "red": 43,
+     "no_trade": 96
+    }
+   },
+   "november": {
+    "family_trades": [
+     {
+      "date": "2026-11-03",
+      "side": "CE",
+      "strike": 55500,
+      "expiry": "2026-11-23",
+      "entry_time": "11:00",
+      "entry_premium": 869.2,
+      "exit_time": "11:10",
+      "exit_premium": 819.2,
+      "exit_reason": "stop",
+      "net_inr": -1720.0
+     },
+     {
+      "date": "2026-11-05",
+      "side": "CE",
+      "strike": 57100,
+      "expiry": "2026-11-23",
+      "entry_time": "11:00",
+      "entry_premium": 709.25,
+      "exit_time": "11:25",
+      "exit_premium": 799.25,
+      "exit_reason": "target",
+      "net_inr": 2480.0
+     },
+     {
+      "date": "2026-11-12",
+      "side": "CE",
+      "strike": 61300,
+      "expiry": "2026-11-23",
+      "entry_time": "11:00",
+      "entry_premium": 711.7,
+      "exit_time": "11:10",
+      "exit_premium": 661.7,
+      "exit_reason": "stop",
+      "net_inr": -1720.0
+     }
+    ],
+    "family_nc_days": [
+     "2026-11-11"
+    ],
+    "family_total_all_legs": -960.0,
+    "increment_total_on_stack_idle": 760.0,
+    "merged_november_total": -1920.0,
+    "stack_baseline": {
+     "total": -2680.0,
+     "green": 1,
+     "red": 3,
+     "no_trade": 5
+    },
+    "merged_day_counts": {
+     "green": 2,
+     "red": 4,
+     "no_trade": 3
+    },
+    "days": {
+     "2026-11-02": {
+      "stack": null,
+      "family_all_legs": 0,
+      "family_increment_on_idle": 0,
+      "merged_day": null
+     },
+     "2026-11-03": {
+      "stack": null,
+      "family_all_legs": -1720.0,
+      "family_increment_on_idle": -1720.0,
+      "merged_day": -1720.0
+     },
+     "2026-11-04": {
+      "stack": 2480.0,
+      "family_all_legs": 0,
+      "family_increment_on_idle": 0,
+      "merged_day": 2480.0
+     },
+     "2026-11-05": {
+      "stack": null,
+      "family_all_legs": 2480.0,
+      "family_increment_on_idle": 2480.0,
+      "merged_day": 2480.0
+     },
+     "2026-11-06": {
+      "stack": null,
+      "family_all_legs": 0,
+      "family_increment_on_idle": 0,
+      "merged_day": null
+     },
+     "2026-11-09": {
+      "stack": -1720.0,
+      "family_all_legs": 0,
+      "family_increment_on_idle": 0,
+      "merged_day": -1720.0
+     },
+     "2026-11-11": {
+      "stack": null,
+      "family_all_legs": 0,
+      "family_increment_on_idle": 0,
+      "merged_day": null
+     },
+     "2026-11-12": {
+      "stack": -1720.0,
+      "family_all_legs": -1720.0,
+      "family_increment_on_idle": 0,
+      "merged_day": -1720.0
+     },
+     "2026-11-13": {
+      "stack": -1720.0,
+      "family_all_legs": 0,
+      "family_increment_on_idle": 0,
+      "merged_day": -1720.0
+     }
+    }
+   },
+   "resum_ok": true
+  }
+ }
+}

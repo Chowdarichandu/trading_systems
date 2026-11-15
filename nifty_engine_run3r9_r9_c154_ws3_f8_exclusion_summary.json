@@ -1,0 +1,103 @@
+{
+ "name": "r9_c154_ws3_f8_exclusion",
+ "n": 24,
+ "total": 42326.0,
+ "resum": 42326.0,
+ "resum_ok": true,
+ "ft": 8,
+ "ft_pct": 33.3,
+ "per_week": 0.59,
+ "not_computed": 0,
+ "red_month_ends": [],
+ "month_table": {
+  "2026-01": [
+   16965.75,
+   16965.75
+  ],
+  "2026-02": [
+   9239.25,
+   26205.0
+  ],
+  "2026-03": [
+   -3470.0,
+   22735.0
+  ],
+  "2026-04": [
+   210.0,
+   22945.0
+  ],
+  "2026-05": [
+   -3470.0,
+   19475.0
+  ],
+  "2026-06": [
+   -220.0,
+   19255.0
+  ],
+  "2026-07": [
+   10998.75,
+   30253.75
+  ],
+  "2026-08": [
+   -1701.0,
+   28552.75
+  ],
+  "2026-09": [
+   972.75,
+   29525.5
+  ],
+  "2026-10": [
+   12800.5,
+   42326.0
+  ]
+ },
+ "halves": {
+  "Jan-May": 19475.0,
+  "Jun-Oct": 22851.0
+ },
+ "ex_top3": 11851.0,
+ "top3": [
+  11155.0,
+  11155.0,
+  8165.0
+ ],
+ "placebo_shift30_total": 32442.75,
+ "october": 12800.5,
+ "timing_audit": {
+  "checked": 24,
+  "violations": 0
+ },
+ "nc_legs": [],
+ "may": -3470.0,
+ "august": -1701.0,
+ "june": -220.0,
+ "march": -3470.0,
+ "nc_named_not_computed": "2026-10-28 22500 PE weekly expiry 2026-11-03 \u2014 NOT_COMPUTED (registry 0 contracts, Rounds 3-6); not in any Round-9 population",
+ "gate_relative": {
+  "banked": false,
+  "checks": {
+   "net_above_baseline": false,
+   "ft_not_degraded": false,
+   "frequency_not_degraded": false,
+   "no_green_month_flips_red": false,
+   "no_red_month_ends": true,
+   "halves_both>=0": true,
+   "placebo_beaten": true,
+   "ex_top3>=0": true,
+   "timing_audit_clean": true,
+   "not_computed_zero": true,
+   "resum_exact": true
+  },
+  "green_to_red": [
+   "2026-03"
+  ],
+  "vs_label": "Round-6/7/8 standing book (Round-9 open)",
+  "vs_total": 54102.0,
+  "vs_ft_pct": 34.3,
+  "vs_per_week": 0.86
+ },
+ "old_absolute_lines_status": {
+  "FT>=42.0": false,
+  "freq>=1.00/wk": false
+ }
+}

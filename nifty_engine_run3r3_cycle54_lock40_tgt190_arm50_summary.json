@@ -1,0 +1,89 @@
+{
+ "name": "run3r3_cycle54_lock40_tgt190_arm50",
+ "n": 44,
+ "total": 109721.75,
+ "resum": 109721.75,
+ "resum_ok": true,
+ "ft": 20,
+ "ft_pct": 45.5,
+ "per_week": 1.08,
+ "not_computed": 0,
+ "red_month_ends": [],
+ "month_table": {
+  "2026-01": [
+   23974.75,
+   23974.75
+  ],
+  "2026-02": [
+   14882.25,
+   38857.0
+  ],
+  "2026-03": [
+   19124.75,
+   57981.75
+  ],
+  "2026-04": [
+   7621.0,
+   65602.75
+  ],
+  "2026-05": [
+   -2323.0,
+   63279.75
+  ],
+  "2026-06": [
+   7584.0,
+   70863.75
+  ],
+  "2026-07": [
+   18029.5,
+   88893.25
+  ],
+  "2026-08": [
+   -5187.25,
+   83706.0
+  ],
+  "2026-09": [
+   5020.0,
+   88726.0
+  ],
+  "2026-10": [
+   20995.75,
+   109721.75
+  ]
+ },
+ "halves": {
+  "Jan-May": 63279.75,
+  "Jun-Oct": 46442.0
+ },
+ "ex_top3": 74466.0,
+ "top3": [
+  12130.0,
+  12130.0,
+  10995.75
+ ],
+ "placebo_shift30_total": 66708.0,
+ "october": 20995.75,
+ "timing_audit": {
+  "checked": 44,
+  "violations": 0
+ },
+ "nc_legs": [],
+ "august": -5187.25,
+ "may": -2323.0,
+ "gate_vs_adopted": {
+  "banked": false,
+  "checks": {
+   "net_above_adopted": false,
+   "ft_not_collapsed>=42.0": true,
+   "no_green_month_flips_red": true,
+   "no_red_month_ends": true,
+   "halves_both>=0": true,
+   "placebo_beaten": true,
+   "timing_audit_clean": true,
+   "not_computed_zero": true,
+   "resum_exact": true,
+   "frequency>=1.00/wk": true
+  },
+  "green_to_red": []
+ }
+}

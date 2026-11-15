@@ -1,0 +1,103 @@
+{
+ "name": "r9_c155_ws4_causal_union",
+ "n": 52,
+ "total": 46449.0,
+ "resum": 46449.0,
+ "resum_ok": true,
+ "ft": 15,
+ "ft_pct": 28.8,
+ "per_week": 1.28,
+ "not_computed": 0,
+ "red_month_ends": [],
+ "month_table": {
+  "2026-01": [
+   20544.75,
+   20544.75
+  ],
+  "2026-02": [
+   12789.25,
+   33334.0
+  ],
+  "2026-03": [
+   8105.0,
+   41439.0
+  ],
+  "2026-04": [
+   -6730.0,
+   34709.0
+  ],
+  "2026-05": [
+   -6839.5,
+   27869.5
+  ],
+  "2026-06": [
+   -2050.0,
+   25819.5
+  ],
+  "2026-07": [
+   7528.75,
+   33348.25
+  ],
+  "2026-08": [
+   -7812.5,
+   25535.75
+  ],
+  "2026-09": [
+   4652.75,
+   30188.5
+  ],
+  "2026-10": [
+   16260.5,
+   46449.0
+  ]
+ },
+ "halves": {
+  "Jan-May": 27869.5,
+  "Jun-Oct": 18579.5
+ },
+ "ex_top3": 12984.0,
+ "top3": [
+  11155.0,
+  11155.0,
+  11155.0
+ ],
+ "placebo_shift30_total": 2414.75,
+ "october": 16260.5,
+ "timing_audit": {
+  "checked": 52,
+  "violations": 0
+ },
+ "nc_legs": [],
+ "may": -6839.5,
+ "august": -7812.5,
+ "june": -2050.0,
+ "march": 8105.0,
+ "nc_named_not_computed": "2026-10-28 22500 PE weekly expiry 2026-11-03 \u2014 NOT_COMPUTED (registry 0 contracts, Rounds 3-6); not in any Round-9 population",
+ "gate_relative": {
+  "banked": false,
+  "checks": {
+   "net_above_baseline": false,
+   "ft_not_degraded": false,
+   "frequency_not_degraded": true,
+   "no_green_month_flips_red": false,
+   "no_red_month_ends": true,
+   "halves_both>=0": true,
+   "placebo_beaten": true,
+   "ex_top3>=0": true,
+   "timing_audit_clean": true,
+   "not_computed_zero": true,
+   "resum_exact": true
+  },
+  "green_to_red": [
+   "2026-04"
+  ],
+  "vs_label": "Round-6/7/8 standing book (Round-9 open)",
+  "vs_total": 54102.0,
+  "vs_ft_pct": 34.3,
+  "vs_per_week": 0.86
+ },
+ "old_absolute_lines_status": {
+  "FT>=42.0": false,
+  "freq>=1.00/wk": true
+ }
+}

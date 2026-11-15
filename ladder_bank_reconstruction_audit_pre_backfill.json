@@ -1,0 +1,21 @@
+{
+ "build": "LADDER-BANK (owner ladder exits on Bank v21 entries)",
+ "benchmark_csv_resum": 83650.5,
+ "benchmark_january": 22748.0,
+ "legs_total": 99,
+ "reconstructed_exact": 68,
+ "failed": 31,
+ "failure_rate_pct": 31.3,
+ "stop_threshold_pct": 10,
+ "stop_rule_triggered": true,
+ "failure_cause": "prem_bank.json holds no pre-10:00 premium bars for any 2026 contract-day (10,226 contract-days; earliest first bar 10:00); all 31 failed legs entered 09:20-09:55",
+ "failed_by_family": {
+  "BASE": 22,
+  "NS3_gapclass": 7,
+  "S3-R1": 2
+ },
+ "failed_legs_net_inr": 17630.0,
+ "failed_legs_share_of_book_net_pct": 21.1,
+ "value_mismatches": 0,
+ "verdict": "STOPPED BEFORE SCORING per pre-registered stop rule. No ladder number exists; none is quoted."
+}

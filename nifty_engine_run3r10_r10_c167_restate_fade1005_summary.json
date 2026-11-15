@@ -1,0 +1,110 @@
+{
+ "name": "r10_c167_restate_fade1005",
+ "n": 84,
+ "total": 87726.75,
+ "resum": 87726.75,
+ "resum_ok": true,
+ "ft": 30,
+ "ft_pct": 35.7,
+ "per_week": 2.07,
+ "not_computed": 0,
+ "red_month_ends": [],
+ "month_table": {
+  "2026-01": [
+   20776.75,
+   20776.75
+  ],
+  "2026-02": [
+   5687.75,
+   26464.5
+  ],
+  "2026-03": [
+   -8376.5,
+   18088.0
+  ],
+  "2026-04": [
+   28416.0,
+   46504.0
+  ],
+  "2026-05": [
+   -1662.5,
+   44841.5
+  ],
+  "2026-06": [
+   -1331.0,
+   43510.5
+  ],
+  "2026-07": [
+   12995.75,
+   56506.25
+  ],
+  "2026-08": [
+   -2771.5,
+   53734.75
+  ],
+  "2026-09": [
+   13831.5,
+   67566.25
+  ],
+  "2026-10": [
+   20160.5,
+   87726.75
+  ]
+ },
+ "halves": {
+  "Jan-May": 44841.5,
+  "Jun-Oct": 42885.25
+ },
+ "ex_top3": 54261.75,
+ "top3": [
+  11155.0,
+  11155.0,
+  11155.0
+ ],
+ "placebo_shift30_total": 50702.75,
+ "october": 20160.5,
+ "timing_audit": {
+  "checked": 84,
+  "violations": 0
+ },
+ "nc_legs": [],
+ "2026-01": 20776.75,
+ "2026-02": 5687.75,
+ "2026-03": -8376.5,
+ "2026-04": 28416.0,
+ "2026-05": -1662.5,
+ "2026-06": -1331.0,
+ "2026-07": 12995.75,
+ "2026-08": -2771.5,
+ "2026-09": 13831.5,
+ "2026-10": 20160.5,
+ "nc_named_not_computed": "2026-10-28 22500 PE weekly expiry 2026-11-03 \u2014 NOT_COMPUTED (registry 0 contracts, Rounds 3-6); not in any Round-10 population",
+ "decision_support_force_no_bank": true,
+ "gate_relative": {
+  "banked": false,
+  "checks": {
+   "net_above_baseline": true,
+   "ft_not_degraded": true,
+   "frequency_not_degraded": true,
+   "no_green_month_flips_red": false,
+   "no_red_month_ends": true,
+   "halves_both>=0": true,
+   "placebo_beaten": true,
+   "ex_top3>=0": true,
+   "timing_audit_clean": true,
+   "not_computed_zero": true,
+   "resum_exact": true
+  },
+  "green_to_red": [
+   "2026-03"
+  ],
+  "vs_label": "Round-6/7/8/9 standing book (Round-10 open)",
+  "vs_total": 54102.0,
+  "vs_ft_pct": 34.3,
+  "vs_per_week": 0.86
+ },
+ "old_absolute_lines_status": {
+  "FT>=42.0": false,
+  "freq>=1.00/wk": true
+ }
+}

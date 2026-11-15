@@ -1,0 +1,99 @@
+{
+ "name": "r7_c138_ws4_expiry_day",
+ "n": 50,
+ "total": 57753.75,
+ "resum": 57753.75,
+ "resum_ok": true,
+ "ft": 16,
+ "ft_pct": 32.0,
+ "per_week": 1.23,
+ "not_computed": 0,
+ "red_month_ends": [],
+ "month_table": {
+  "2026-01": [
+   15531.25,
+   15531.25
+  ],
+  "2026-02": [
+   12140.25,
+   27671.5
+  ],
+  "2026-03": [
+   4425.0,
+   32096.5
+  ],
+  "2026-04": [
+   420.0,
+   32516.5
+  ],
+  "2026-05": [
+   -4173.5,
+   28343.0
+  ],
+  "2026-06": [
+   -3910.0,
+   24433.0
+  ],
+  "2026-07": [
+   3842.0,
+   28275.0
+  ],
+  "2026-08": [
+   1911.75,
+   30186.75
+  ],
+  "2026-09": [
+   11086.5,
+   41273.25
+  ],
+  "2026-10": [
+   16480.5,
+   57753.75
+  ]
+ },
+ "halves": {
+  "Jan-May": 28343.0,
+  "Jun-Oct": 29410.75
+ },
+ "ex_top3": 24288.75,
+ "top3": [
+  11155.0,
+  11155.0,
+  11155.0
+ ],
+ "placebo_shift30_total": 32400.5,
+ "october": 16480.5,
+ "timing_audit": {
+  "checked": 50,
+  "violations": 0
+ },
+ "nc_legs": [],
+ "may": -4173.5,
+ "august": 1911.75,
+ "nc_named_not_computed": "2026-10-28 22500 PE weekly expiry 2026-11-03 \u2014 NOT_COMPUTED (registry 0 contracts, Rounds 3-6); not in any Round-7 population",
+ "gate_relative": {
+  "banked": false,
+  "checks": {
+   "net_above_baseline": true,
+   "ft_not_degraded": false,
+   "frequency_not_degraded": true,
+   "no_green_month_flips_red": true,
+   "no_red_month_ends": true,
+   "halves_both>=0": true,
+   "placebo_beaten": true,
+   "ex_top3>=0": true,
+   "timing_audit_clean": true,
+   "not_computed_zero": true,
+   "resum_exact": true
+  },
+  "green_to_red": [],
+  "vs_label": "Round-7 standing book (round-open)",
+  "vs_total": 54102.0,
+  "vs_ft_pct": 34.3,
+  "vs_per_week": 0.86
+ },
+ "old_absolute_lines_status": {
+  "FT>=42.0": false,
+  "freq>=1.00/wk": true
+ }
+}

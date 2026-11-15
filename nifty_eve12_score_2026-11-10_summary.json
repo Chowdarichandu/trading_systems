@@ -1,0 +1,1437 @@
+{
+ "candidate": "NIFTY-EVE-12 \u2014 afternoon spot-range-break sleeve",
+ "registered_rule": "while flat, first fresh day-range break after 12:30, ATM100 on break side, DEC-S1 (S5) geometry, max 1/day, segment day-cap governs",
+ "basis": "premiums per 1 lot (65), Rs 220/trade, UNIQUE-ONCE, paper only",
+ "leg0_reproduction": {
+  "decs1": "97 legs / +91,168.50 re-summed exact; replay reproduces all 97 exits exactly",
+  "tuned_v2": "59 legs / +115,950.75 re-summed exact",
+  "expiry_calendar": "validated on 84 A/B legs"
+ },
+ "standalone": {
+  "legs": 156,
+  "net": -100604.4,
+  "ft_pct": 7.7,
+  "h1_jan_may": -39404.65,
+  "h2_jun_oct": -61199.75,
+  "ex_top3": -126077.65,
+  "months": [
+   {
+    "month": "2026-01",
+    "net": 418.0,
+    "cum": 418.0
+   },
+   {
+    "month": "2026-02",
+    "net": -7514.9,
+    "cum": -7096.9
+   },
+   {
+    "month": "2026-03",
+    "net": -1761.75,
+    "cum": -8858.65
+   },
+   {
+    "month": "2026-04",
+    "net": -7714.5,
+    "cum": -16573.15
+   },
+   {
+    "month": "2026-05",
+    "net": -22831.5,
+    "cum": -39404.65
+   },
+   {
+    "month": "2026-06",
+    "net": -27129.25,
+    "cum": -66533.9
+   },
+   {
+    "month": "2026-07",
+    "net": -11222.75,
+    "cum": -77756.65
+   },
+   {
+    "month": "2026-08",
+    "net": -9242.75,
+    "cum": -86999.4
+   },
+   {
+    "month": "2026-09",
+    "net": -6181.75,
+    "cum": -93181.15
+   },
+   {
+    "month": "2026-10",
+    "net": -7423.25,
+    "cum": -100604.4
+   }
+  ],
+  "worst_day": [
+   "2026-01-21",
+   -3470.0
+  ]
+ },
+ "no_break_days": 46,
+ "nc_legs": [
+  {
+   "date": "2026-01-27",
+   "break_time": "15:15",
+   "reason": "entry bar 15:20 absent from premium day"
+  },
+  {
+   "date": "2026-05-19",
+   "break_time": "15:20",
+   "reason": "entry bar after square-off bar"
+  },
+  {
+   "date": "2026-08-03",
+   "break_time": "15:25",
+   "reason": "no entry bar after break"
+  },
+  {
+   "date": "2026-01-27",
+   "break_time": "15:15",
+   "reason": "V2_LAYER: entry bar 15:20 absent from premium day"
+  },
+  {
+   "date": "2026-05-19",
+   "break_time": "15:20",
+   "reason": "V2_LAYER: entry bar after square-off bar"
+  },
+  {
+   "date": "2026-08-03",
+   "break_time": "15:25",
+   "reason": "V2_LAYER: no entry bar after break"
+  },
+  {
+   "date": "2026-01-27",
+   "break_time": "15:15",
+   "reason": "DECS1_LAYER: entry bar 15:20 absent from premium day"
+  },
+  {
+   "date": "2026-05-19",
+   "break_time": "15:20",
+   "reason": "DECS1_LAYER: entry bar after square-off bar"
+  },
+  {
+   "date": "2026-08-03",
+   "break_time": "15:25",
+   "reason": "DECS1_LAYER: no entry bar after break"
+  }
+ ],
+ "v2_filter_dropped": [
+  {
+   "date": "2026-01-07",
+   "break_time": "12:40",
+   "why": "book busy at break"
+  },
+  {
+   "date": "2026-01-09",
+   "break_time": "12:35",
+   "why": "book busy at break"
+  },
+  {
+   "date": "2026-01-20",
+   "break_time": "12:40",
+   "why": "book busy at break"
+  },
+  {
+   "date": "2026-02-06",
+   "break_time": "14:55",
+   "why": "book busy at break"
+  },
+  {
+   "date": "2026-02-13",
+   "break_time": "13:45",
+   "why": "book busy at break"
+  },
+  {
+   "date": "2026-02-19",
+   "break_time": "12:40",
+   "why": "book busy at break"
+  },
+  {
+   "date": "2026-02-27",
+   "break_time": "15:00",
+   "why": "book busy at break"
+  },
+  {
+   "date": "2026-03-04",
+   "break_time": "14:05",
+   "why": "book busy at break"
+  },
+  {
+   "date": "2026-03-12",
+   "break_time": "13:30",
+   "why": "book busy at break"
+  },
+  {
+   "date": "2026-03-13",
+   "break_time": "12:30",
+   "why": "book busy at break"
+  },
+  {
+   "date": "2026-03-19",
+   "break_time": "13:25",
+   "why": "book busy at break"
+  },
+  {
+   "date": "2026-03-27",
+   "break_time": "14:30",
+   "why": "day-cap: realised -3470.00 <= -3000"
+  },
+  {
+   "date": "2026-04-02",
+   "break_time": "13:20",
+   "why": "book busy at break"
+  },
+  {
+   "date": "2026-04-07",
+   "break_time": "13:30",
+   "why": "book busy at break"
+  },
+  {
+   "date": "2026-04-24",
+   "break_time": "13:00",
+   "why": "book busy at break"
+  },
+  {
+   "date": "2026-04-30",
+   "break_time": "13:40",
+   "why": "book busy at break"
+  },
+  {
+   "date": "2026-05-11",
+   "break_time": "13:50",
+   "why": "book busy at break"
+  },
+  {
+   "date": "2026-05-12",
+   "break_time": "12:30",
+   "why": "book busy at break"
+  },
+  {
+   "date": "2026-05-13",
+   "break_time": "12:50",
+   "why": "day-cap: realised -3470.00 <= -3000"
+  },
+  {
+   "date": "2026-05-20",
+   "break_time": "14:05",
+   "why": "book busy at break"
+  },
+  {
+   "date": "2026-06-02",
+   "break_time": "12:45",
+   "why": "book busy at break"
+  },
+  {
+   "date": "2026-06-19",
+   "break_time": "13:00",
+   "why": "book busy at break"
+  },
+  {
+   "date": "2026-06-29",
+   "break_time": "12:30",
+   "why": "book busy at break"
+  },
+  {
+   "date": "2026-07-08",
+   "break_time": "12:30",
+   "why": "book busy at break"
+  },
+  {
+   "date": "2026-07-13",
+   "break_time": "12:30",
+   "why": "book busy at break"
+  },
+  {
+   "date": "2026-07-14",
+   "break_time": "14:45",
+   "why": "book busy at break"
+  },
+  {
+   "date": "2026-07-20",
+   "break_time": "12:45",
+   "why": "book busy at break"
+  },
+  {
+   "date": "2026-07-21",
+   "break_time": "12:55",
+   "why": "book busy at break"
+  },
+  {
+   "date": "2026-07-22",
+   "break_time": "12:35",
+   "why": "book busy at break"
+  },
+  {
+   "date": "2026-07-24",
+   "break_time": "12:45",
+   "why": "book busy at break"
+  },
+  {
+   "date": "2026-08-04",
+   "break_time": "13:05",
+   "why": "book busy at break"
+  },
+  {
+   "date": "2026-08-18",
+   "break_time": "15:10",
+   "why": "book busy at break"
+  },
+  {
+   "date": "2026-09-02",
+   "break_time": "14:30",
+   "why": "book busy at break"
+  },
+  {
+   "date": "2026-09-07",
+   "break_time": "12:50",
+   "why": "book busy at break"
+  },
+  {
+   "date": "2026-09-08",
+   "break_time": "13:50",
+   "why": "book busy at break"
+  },
+  {
+   "date": "2026-09-11",
+   "break_time": "13:55",
+   "why": "book busy at break"
+  },
+  {
+   "date": "2026-09-22",
+   "break_time": "12:50",
+   "why": "book busy at break"
+  },
+  {
+   "date": "2026-09-24",
+   "break_time": "12:50",
+   "why": "book busy at break"
+  },
+  {
+   "date": "2026-10-08",
+   "break_time": "12:30",
+   "why": "book busy at break"
+  },
+  {
+   "date": "2026-10-21",
+   "break_time": "13:45",
+   "why": "book busy at break"
+  }
+ ],
+ "decs1_filter_dropped": [
+  {
+   "date": "2026-01-06",
+   "break_time": "14:05",
+   "why": "book busy at break"
+  },
+  {
+   "date": "2026-01-07",
+   "break_time": "12:40",
+   "why": "book busy at break"
+  },
+  {
+   "date": "2026-01-09",
+   "break_time": "12:35",
+   "why": "book busy at break"
+  },
+  {
+   "date": "2026-01-20",
+   "break_time": "12:40",
+   "why": "book busy at break"
+  },
+  {
+   "date": "2026-01-30",
+   "break_time": "13:50",
+   "why": "book busy at break"
+  },
+  {
+   "date": "2026-02-02",
+   "break_time": "13:00",
+   "why": "day-cap: realised -3470.00 <= -3000"
+  },
+  {
+   "date": "2026-02-06",
+   "break_time": "14:55",
+   "why": "book busy at break"
+  },
+  {
+   "date": "2026-02-13",
+   "break_time": "13:45",
+   "why": "book busy at break"
+  },
+  {
+   "date": "2026-02-16",
+   "break_time": "12:30",
+   "why": "book busy at break"
+  },
+  {
+   "date": "2026-02-17",
+   "break_time": "12:50",
+   "why": "book busy at break"
+  },
+  {
+   "date": "2026-02-19",
+   "break_time": "12:40",
+   "why": "book busy at break"
+  },
+  {
+   "date": "2026-02-27",
+   "break_time": "15:00",
+   "why": "book busy at break"
+  },
+  {
+   "date": "2026-03-02",
+   "break_time": "13:55",
+   "why": "day-cap: realised -3470.00 <= -3000"
+  },
+  {
+   "date": "2026-03-04",
+   "break_time": "14:05",
+   "why": "book busy at break"
+  },
+  {
+   "date": "2026-03-05",
+   "break_time": "14:40",
+   "why": "day-cap: realised -3470.00 <= -3000"
+  },
+  {
+   "date": "2026-03-12",
+   "break_time": "13:30",
+   "why": "book busy at break"
+  },
+  {
+   "date": "2026-03-13",
+   "break_time": "12:30",
+   "why": "book busy at break"
+  },
+  {
+   "date": "2026-03-17",
+   "break_time": "14:10",
+   "why": "day-cap: realised -3690.00 <= -3000"
+  },
+  {
+   "date": "2026-03-19",
+   "break_time": "13:25",
+   "why": "book busy at break"
+  },
+  {
+   "date": "2026-03-20",
+   "break_time": "14:40",
+   "why": "day-cap: realised -3470.00 <= -3000"
+  },
+  {
+   "date": "2026-03-24",
+   "break_time": "12:35",
+   "why": "day-cap: realised -3470.00 <= -3000"
+  },
+  {
+   "date": "2026-03-27",
+   "break_time": "14:30",
+   "why": "day-cap: realised -3470.00 <= -3000"
+  },
+  {
+   "date": "2026-04-02",
+   "break_time": "13:20",
+   "why": "book busy at break"
+  },
+  {
+   "date": "2026-04-07",
+   "break_time": "13:30",
+   "why": "book busy at break"
+  },
+  {
+   "date": "2026-04-08",
+   "break_time": "13:35",
+   "why": "day-cap: realised -3470.00 <= -3000"
+  },
+  {
+   "date": "2026-04-16",
+   "break_time": "12:30",
+   "why": "book busy at break"
+  },
+  {
+   "date": "2026-04-24",
+   "break_time": "13:00",
+   "why": "book busy at break"
+  },
+  {
+   "date": "2026-04-30",
+   "break_time": "13:40",
+   "why": "book busy at break"
+  },
+  {
+   "date": "2026-05-11",
+   "break_time": "13:50",
+   "why": "book busy at break"
+  },
+  {
+   "date": "2026-05-12",
+   "break_time": "12:30",
+   "why": "book busy at break"
+  },
+  {
+   "date": "2026-05-13",
+   "break_time": "12:50",
+   "why": "day-cap: realised -3470.00 <= -3000"
+  },
+  {
+   "date": "2026-05-20",
+   "break_time": "14:05",
+   "why": "book busy at break"
+  },
+  {
+   "date": "2026-05-25",
+   "break_time": "14:35",
+   "why": "book busy at break"
+  },
+  {
+   "date": "2026-06-02",
+   "break_time": "12:45",
+   "why": "book busy at break"
+  },
+  {
+   "date": "2026-06-08",
+   "break_time": "12:40",
+   "why": "book busy at break"
+  },
+  {
+   "date": "2026-06-09",
+   "break_time": "14:50",
+   "why": "day-cap: realised -3470.00 <= -3000"
+  },
+  {
+   "date": "2026-06-12",
+   "break_time": "12:40",
+   "why": "book busy at break"
+  },
+  {
+   "date": "2026-06-15",
+   "break_time": "15:05",
+   "why": "book busy at break"
+  },
+  {
+   "date": "2026-06-19",
+   "break_time": "13:00",
+   "why": "book busy at break"
+  },
+  {
+   "date": "2026-06-29",
+   "break_time": "12:30",
+   "why": "book busy at break"
+  },
+  {
+   "date": "2026-07-03",
+   "break_time": "13:30",
+   "why": "book busy at break"
+  },
+  {
+   "date": "2026-07-07",
+   "break_time": "15:05",
+   "why": "book busy at break"
+  },
+  {
+   "date": "2026-07-08",
+   "break_time": "12:30",
+   "why": "book busy at break"
+  },
+  {
+   "date": "2026-07-13",
+   "break_time": "12:30",
+   "why": "book busy at break"
+  },
+  {
+   "date": "2026-07-14",
+   "break_time": "14:45",
+   "why": "book busy at break"
+  },
+  {
+   "date": "2026-07-20",
+   "break_time": "12:45",
+   "why": "book busy at break"
+  },
+  {
+   "date": "2026-07-21",
+   "break_time": "12:55",
+   "why": "book busy at break"
+  },
+  {
+   "date": "2026-07-22",
+   "break_time": "12:35",
+   "why": "book busy at break"
+  },
+  {
+   "date": "2026-07-24",
+   "break_time": "12:45",
+   "why": "book busy at break"
+  },
+  {
+   "date": "2026-07-27",
+   "break_time": "14:00",
+   "why": "book busy at break"
+  },
+  {
+   "date": "2026-07-29",
+   "break_time": "13:05",
+   "why": "book busy at break"
+  },
+  {
+   "date": "2026-08-04",
+   "break_time": "13:05",
+   "why": "book busy at break"
+  },
+  {
+   "date": "2026-08-18",
+   "break_time": "15:10",
+   "why": "book busy at break"
+  },
+  {
+   "date": "2026-08-20",
+   "break_time": "12:45",
+   "why": "book busy at break"
+  },
+  {
+   "date": "2026-09-02",
+   "break_time": "14:30",
+   "why": "book busy at break"
+  },
+  {
+   "date": "2026-09-07",
+   "break_time": "12:50",
+   "why": "book busy at break"
+  },
+  {
+   "date": "2026-09-08",
+   "break_time": "13:50",
+   "why": "book busy at break"
+  },
+  {
+   "date": "2026-09-11",
+   "break_time": "13:55",
+   "why": "book busy at break"
+  },
+  {
+   "date": "2026-09-15",
+   "break_time": "12:55",
+   "why": "book busy at break"
+  },
+  {
+   "date": "2026-09-22",
+   "break_time": "12:50",
+   "why": "book busy at break"
+  },
+  {
+   "date": "2026-09-24",
+   "break_time": "12:50",
+   "why": "book busy at break"
+  },
+  {
+   "date": "2026-10-08",
+   "break_time": "12:30",
+   "why": "book busy at break"
+  },
+  {
+   "date": "2026-10-09",
+   "break_time": "13:55",
+   "why": "book busy at break"
+  },
+  {
+   "date": "2026-10-21",
+   "break_time": "13:45",
+   "why": "book busy at break"
+  }
+ ],
+ "increment_ex_top3_v2": -125828.4,
+ "increment_worst_day_v2": [
+  "2026-01-21",
+  -3470.0
+ ],
+ "scan_sensitivity_increment": {
+  "legs": 122,
+  "net": -112435.9,
+  "ft_pct": 5.7,
+  "h1_jan_may": -54689.15,
+  "h2_jun_oct": -57746.75,
+  "ex_top3": -128672.65,
+  "months": [
+   {
+    "month": "2026-01",
+    "net": -6896.5,
+    "cum": -6896.5
+   },
+   {
+    "month": "2026-02",
+    "net": -15396.9,
+    "cum": -22293.4
+   },
+   {
+    "month": "2026-03",
+    "net": -5321.25,
+    "cum": -27614.65
+   },
+   {
+    "month": "2026-04",
+    "net": -8253.75,
+    "cum": -35868.4
+   },
+   {
+    "month": "2026-05",
+    "net": -18820.75,
+    "cum": -54689.15
+   },
+   {
+    "month": "2026-06",
+    "net": -21610.5,
+    "cum": -76299.65
+   },
+   {
+    "month": "2026-07",
+    "net": -14575.25,
+    "cum": -90874.9
+   },
+   {
+    "month": "2026-08",
+    "net": -7824.5,
+    "cum": -98699.4
+   },
+   {
+    "month": "2026-09",
+    "net": -7276.5,
+    "cum": -105975.9
+   },
+   {
+    "month": "2026-10",
+    "net": -6460.0,
+    "cum": -112435.9
+   }
+  ],
+  "worst_day": [
+   "2026-01-21",
+   -3470.0
+  ]
+ },
+ "gate_tuned_v2": {
+  "frame": "TUNED v2 (DEC-S1 minus B PE / A CE / C CE)",
+  "incumbent": {
+   "legs": 59,
+   "net": 115950.75,
+   "ft_pct": 44.1,
+   "h1_jan_may": 67064.25,
+   "h2_jun_oct": 48886.5,
+   "ex_top3": 82485.75,
+   "months": [
+    {
+     "month": "2026-01",
+     "net": 16965.75,
+     "cum": 16965.75
+    },
+    {
+     "month": "2026-02",
+     "net": 6135.5,
+     "cum": 23101.25
+    },
+    {
+     "month": "2026-03",
+     "net": 9193.5,
+     "cum": 32294.75
+    },
+    {
+     "month": "2026-04",
+     "net": 27881.25,
+     "cum": 60176.0
+    },
+    {
+     "month": "2026-05",
+     "net": 6888.25,
+     "cum": 67064.25
+    },
+    {
+     "month": "2026-06",
+     "net": 5048.0,
+     "cum": 72112.25
+    },
+    {
+     "month": "2026-07",
+     "net": 13034.0,
+     "cum": 85146.25
+    },
+    {
+     "month": "2026-08",
+     "net": 1911.75,
+     "cum": 87058.0
+    },
+    {
+     "month": "2026-09",
+     "net": 13367.75,
+     "cum": 100425.75
+    },
+    {
+     "month": "2026-10",
+     "net": 15525.0,
+     "cum": 115950.75
+    }
+   ],
+   "worst_day": [
+    "2026-07-14",
+    -5295.5
+   ]
+  },
+  "layered": {
+   "legs": 175,
+   "net": 6359.1,
+   "ft_pct": 18.3,
+   "h1_jan_may": 13300.6,
+   "h2_jun_oct": -6941.5,
+   "ex_top3": -27105.9,
+   "months": [
+    {
+     "month": "2026-01",
+     "net": 10497.25,
+     "cum": 10497.25
+    },
+    {
+     "month": "2026-02",
+     "net": -9261.4,
+     "cum": 1235.85
+    },
+    {
+     "month": "2026-03",
+     "net": 7342.25,
+     "cum": 8578.1
+    },
+    {
+     "month": "2026-04",
+     "net": 15947.5,
+     "cum": 24525.6
+    },
+    {
+     "month": "2026-05",
+     "net": -11225.0,
+     "cum": 13300.6
+    },
+    {
+     "month": "2026-06",
+     "net": -16562.5,
+     "cum": -3261.9
+    },
+    {
+     "month": "2026-07",
+     "net": 377.5,
+     "cum": -2884.4
+    },
+    {
+     "month": "2026-08",
+     "net": -5912.75,
+     "cum": -8797.15
+    },
+    {
+     "month": "2026-09",
+     "net": 6091.25,
+     "cum": -2705.9
+    },
+    {
+     "month": "2026-10",
+     "net": 9065.0,
+     "cum": 6359.1
+    }
+   ],
+   "worst_day": [
+    "2026-07-14",
+    -5295.5
+   ]
+  },
+  "increment": {
+   "legs": 116,
+   "net": -109591.65,
+   "ft_pct": 5.2,
+   "h1_jan_may": -53763.65,
+   "h2_jun_oct": -55828.0,
+   "ex_top3": -125828.4,
+   "months": [
+    {
+     "month": "2026-01",
+     "net": -6468.5,
+     "cum": -6468.5
+    },
+    {
+     "month": "2026-02",
+     "net": -15396.9,
+     "cum": -21865.4
+    },
+    {
+     "month": "2026-03",
+     "net": -1851.25,
+     "cum": -23716.65
+    },
+    {
+     "month": "2026-04",
+     "net": -11933.75,
+     "cum": -35650.4
+    },
+    {
+     "month": "2026-05",
+     "net": -18113.25,
+     "cum": -53763.65
+    },
+    {
+     "month": "2026-06",
+     "net": -21610.5,
+     "cum": -75374.15
+    },
+    {
+     "month": "2026-07",
+     "net": -12656.5,
+     "cum": -88030.65
+    },
+    {
+     "month": "2026-08",
+     "net": -7824.5,
+     "cum": -95855.15
+    },
+    {
+     "month": "2026-09",
+     "net": -7276.5,
+     "cum": -103131.65
+    },
+    {
+     "month": "2026-10",
+     "net": -6460.0,
+     "cum": -109591.65
+    }
+   ],
+   "worst_day": [
+    "2026-01-21",
+    -3470.0
+   ]
+  },
+  "placebo_shift_increment": {
+   "legs": 104,
+   "net": -73730.15,
+   "ft_pct": 3.8,
+   "h1_jan_may": -25641.15,
+   "h2_jun_oct": -48089.0,
+   "ex_top3": -86876.15,
+   "months": [
+    {
+     "month": "2026-01",
+     "net": -12716.0,
+     "cum": -12716.0
+    },
+    {
+     "month": "2026-02",
+     "net": 6855.85,
+     "cum": -5860.15
+    },
+    {
+     "month": "2026-03",
+     "net": -1845.75,
+     "cum": -7705.9
+    },
+    {
+     "month": "2026-04",
+     "net": 546.25,
+     "cum": -7159.65
+    },
+    {
+     "month": "2026-05",
+     "net": -18481.5,
+     "cum": -25641.15
+    },
+    {
+     "month": "2026-06",
+     "net": -16886.75,
+     "cum": -42527.9
+    },
+    {
+     "month": "2026-07",
+     "net": -7064.25,
+     "cum": -49592.15
+    },
+    {
+     "month": "2026-08",
+     "net": -7380.25,
+     "cum": -56972.4
+    },
+    {
+     "month": "2026-09",
+     "net": -7736.75,
+     "cum": -64709.15
+    },
+    {
+     "month": "2026-10",
+     "net": -9021.0,
+     "cum": -73730.15
+    }
+   ],
+   "worst_day": [
+    "2026-01-13",
+    -3470.0
+   ]
+  },
+  "placebo_flip_increment": {
+   "legs": 116,
+   "net": 21410.0,
+   "ft_pct": 8.6,
+   "h1_jan_may": 8026.0,
+   "h2_jun_oct": 13384.0,
+   "ex_top3": -10173.25,
+   "months": [
+    {
+     "month": "2026-01",
+     "net": 785.5,
+     "cum": 785.5
+    },
+    {
+     "month": "2026-02",
+     "net": 4357.25,
+     "cum": 5142.75
+    },
+    {
+     "month": "2026-03",
+     "net": -14175.25,
+     "cum": -9032.5
+    },
+    {
+     "month": "2026-04",
+     "net": 5499.25,
+     "cum": -3533.25
+    },
+    {
+     "month": "2026-05",
+     "net": 11559.25,
+     "cum": 8026.0
+    },
+    {
+     "month": "2026-06",
+     "net": 20090.25,
+     "cum": 28116.25
+    },
+    {
+     "month": "2026-07",
+     "net": -4629.0,
+     "cum": 23487.25
+    },
+    {
+     "month": "2026-08",
+     "net": 2419.5,
+     "cum": 25906.75
+    },
+    {
+     "month": "2026-09",
+     "net": 2411.75,
+     "cum": 28318.5
+    },
+    {
+     "month": "2026-10",
+     "net": -6908.5,
+     "cum": 21410.0
+    }
+   ],
+   "worst_day": [
+    "2026-01-23",
+    -3470.0
+   ]
+  },
+  "green_to_red_flips": [
+   "2026-02",
+   "2026-05",
+   "2026-06",
+   "2026-08"
+  ],
+  "gate_legs": {
+   "reproduction_exact": true,
+   "increment_net_positive": false,
+   "layered_net_beats_incumbent": false,
+   "layered_ft_not_diluted": false,
+   "increment_halves_both_positive": false,
+   "layered_halves_both_positive": false,
+   "no_green_month_flips_red": false,
+   "no_red_month_end_cumulative": false,
+   "layered_ex_top3_positive": false,
+   "placebo_shift_beaten": false,
+   "placebo_flip_beaten": false,
+   "nc_zero": false,
+   "timing_clean": true
+  },
+  "verdict": "FAIL"
+ },
+ "gate_decs1_secondary": {
+  "frame": "DEC-S1 (frozen)",
+  "incumbent": {
+   "legs": 97,
+   "net": 91168.5,
+   "ft_pct": 34.0,
+   "h1_jan_may": 45393.5,
+   "h2_jun_oct": 45775.0,
+   "ex_top3": 57703.5,
+   "months": [
+    {
+     "month": "2026-01",
+     "net": 19211.25,
+     "cum": 19211.25
+    },
+    {
+     "month": "2026-02",
+     "net": 5038.75,
+     "cum": 24250.0
+    },
+    {
+     "month": "2026-03",
+     "net": -11846.5,
+     "cum": 12403.5
+    },
+    {
+     "month": "2026-04",
+     "net": 28416.0,
+     "cum": 40819.5
+    },
+    {
+     "month": "2026-05",
+     "net": 4574.0,
+     "cum": 45393.5
+    },
+    {
+     "month": "2026-06",
+     "net": -1331.0,
+     "cum": 44062.5
+    },
+    {
+     "month": "2026-07",
+     "net": 5839.0,
+     "cum": 49901.5
+    },
+    {
+     "month": "2026-08",
+     "net": 841.25,
+     "cum": 50742.75
+    },
+    {
+     "month": "2026-09",
+     "net": 20265.25,
+     "cum": 71008.0
+    },
+    {
+     "month": "2026-10",
+     "net": 20160.5,
+     "cum": 91168.5
+    }
+   ],
+   "worst_day": [
+    "2026-07-14",
+    -5295.5
+   ]
+  },
+  "layered": {
+   "legs": 189,
+   "net": 2954.1,
+   "ft_pct": 20.1,
+   "h1_jan_may": 6739.1,
+   "h2_jun_oct": -3785.0,
+   "ex_top3": -30510.9,
+   "months": [
+    {
+     "month": "2026-01",
+     "net": 14859.75,
+     "cum": 14859.75
+    },
+    {
+     "month": "2026-02",
+     "net": -9252.9,
+     "cum": 5606.85
+    },
+    {
+     "month": "2026-03",
+     "net": -4979.75,
+     "cum": 627.1
+    },
+    {
+     "month": "2026-04",
+     "net": 20412.75,
+     "cum": 21039.85
+    },
+    {
+     "month": "2026-05",
+     "net": -14300.75,
+     "cum": 6739.1
+    },
+    {
+     "month": "2026-06",
+     "net": -14807.5,
+     "cum": -8068.4
+    },
+    {
+     "month": "2026-07",
+     "net": -7403.25,
+     "cum": -15471.65
+    },
+    {
+     "month": "2026-08",
+     "net": -5343.0,
+     "cum": -20814.65
+    },
+    {
+     "month": "2026-09",
+     "net": 9308.75,
+     "cum": -11505.9
+    },
+    {
+     "month": "2026-10",
+     "net": 14460.0,
+     "cum": 2954.1
+    }
+   ],
+   "worst_day": [
+    "2026-07-14",
+    -5295.5
+   ]
+  },
+  "increment": {
+   "legs": 92,
+   "net": -88214.4,
+   "ft_pct": 5.4,
+   "h1_jan_may": -38654.4,
+   "h2_jun_oct": -49560.0,
+   "ex_top3": -104451.15,
+   "months": [
+    {
+     "month": "2026-01",
+     "net": -4351.5,
+     "cum": -4351.5
+    },
+    {
+     "month": "2026-02",
+     "net": -14291.65,
+     "cum": -18643.15
+    },
+    {
+     "month": "2026-03",
+     "net": 6866.75,
+     "cum": -11776.4
+    },
+    {
+     "month": "2026-04",
+     "net": -8003.25,
+     "cum": -19779.65
+    },
+    {
+     "month": "2026-05",
+     "net": -18874.75,
+     "cum": -38654.4
+    },
+    {
+     "month": "2026-06",
+     "net": -13476.5,
+     "cum": -52130.9
+    },
+    {
+     "month": "2026-07",
+     "net": -13242.25,
+     "cum": -65373.15
+    },
+    {
+     "month": "2026-08",
+     "net": -6184.25,
+     "cum": -71557.4
+    },
+    {
+     "month": "2026-09",
+     "net": -10956.5,
+     "cum": -82513.9
+    },
+    {
+     "month": "2026-10",
+     "net": -5700.5,
+     "cum": -88214.4
+    }
+   ],
+   "worst_day": [
+    "2026-01-21",
+    -3470.0
+   ]
+  },
+  "placebo_shift_increment": {
+   "legs": 104,
+   "net": -73730.15,
+   "ft_pct": 3.8,
+   "h1_jan_may": -25641.15,
+   "h2_jun_oct": -48089.0,
+   "ex_top3": -86876.15,
+   "months": [
+    {
+     "month": "2026-01",
+     "net": -12716.0,
+     "cum": -12716.0
+    },
+    {
+     "month": "2026-02",
+     "net": 6855.85,
+     "cum": -5860.15
+    },
+    {
+     "month": "2026-03",
+     "net": -1845.75,
+     "cum": -7705.9
+    },
+    {
+     "month": "2026-04",
+     "net": 546.25,
+     "cum": -7159.65
+    },
+    {
+     "month": "2026-05",
+     "net": -18481.5,
+     "cum": -25641.15
+    },
+    {
+     "month": "2026-06",
+     "net": -16886.75,
+     "cum": -42527.9
+    },
+    {
+     "month": "2026-07",
+     "net": -7064.25,
+     "cum": -49592.15
+    },
+    {
+     "month": "2026-08",
+     "net": -7380.25,
+     "cum": -56972.4
+    },
+    {
+     "month": "2026-09",
+     "net": -7736.75,
+     "cum": -64709.15
+    },
+    {
+     "month": "2026-10",
+     "net": -9021.0,
+     "cum": -73730.15
+    }
+   ],
+   "worst_day": [
+    "2026-01-13",
+    -3470.0
+   ]
+  },
+  "placebo_flip_increment": {
+   "legs": 116,
+   "net": 21410.0,
+   "ft_pct": 8.6,
+   "h1_jan_may": 8026.0,
+   "h2_jun_oct": 13384.0,
+   "ex_top3": -10173.25,
+   "months": [
+    {
+     "month": "2026-01",
+     "net": 785.5,
+     "cum": 785.5
+    },
+    {
+     "month": "2026-02",
+     "net": 4357.25,
+     "cum": 5142.75
+    },
+    {
+     "month": "2026-03",
+     "net": -14175.25,
+     "cum": -9032.5
+    },
+    {
+     "month": "2026-04",
+     "net": 5499.25,
+     "cum": -3533.25
+    },
+    {
+     "month": "2026-05",
+     "net": 11559.25,
+     "cum": 8026.0
+    },
+    {
+     "month": "2026-06",
+     "net": 20090.25,
+     "cum": 28116.25
+    },
+    {
+     "month": "2026-07",
+     "net": -4629.0,
+     "cum": 23487.25
+    },
+    {
+     "month": "2026-08",
+     "net": 2419.5,
+     "cum": 25906.75
+    },
+    {
+     "month": "2026-09",
+     "net": 2411.75,
+     "cum": 28318.5
+    },
+    {
+     "month": "2026-10",
+     "net": -6908.5,
+     "cum": 21410.0
+    }
+   ],
+   "worst_day": [
+    "2026-01-23",
+    -3470.0
+   ]
+  },
+  "green_to_red_flips": [
+   "2026-02",
+   "2026-05",
+   "2026-07",
+   "2026-08"
+  ],
+  "gate_legs": {
+   "reproduction_exact": true,
+   "increment_net_positive": false,
+   "layered_net_beats_incumbent": false,
+   "layered_ft_not_diluted": false,
+   "increment_halves_both_positive": false,
+   "layered_halves_both_positive": false,
+   "no_green_month_flips_red": false,
+   "no_red_month_end_cumulative": false,
+   "layered_ex_top3_positive": false,
+   "placebo_shift_beaten": false,
+   "placebo_flip_beaten": false,
+   "nc_zero": false,
+   "timing_clean": true
+  },
+  "verdict": "FAIL"
+ },
+ "november_appendix": {
+  "window": "2026-11-02..2026-11-09",
+  "status": "NOT_COMPUTED",
+  "reason": "daily2leg/spot.json NIFTY ends 2026-10-30 (no November spot days), and prem_nifty.json holds November days for only 2 contracts (sleeve-specific patches for DEC-S1's own strikes) \u2014 no afternoon ATM100-at-break population exists for November. Never estimated.",
+  "nov_spot_days_in_store": 0
+ },
+ "exit_reason_mix_standalone": {
+  "square_off": 102,
+  "runner_square_off": 5,
+  "stop": 35,
+  "be_stop": 7,
+  "runner_stop": 6,
+  "runner_target": 1
+ },
+ "exit_reason_mix_v2_increment": {
+  "square_off": 76,
+  "stop": 30,
+  "be_stop": 4,
+  "runner_square_off": 3,
+  "runner_stop": 3
+ },
+ "independent_resum_from_csv": {
+  "STANDALONE": -100604.4,
+  "V2_LAYER": -109591.65,
+  "DECS1_LAYER": -88214.4,
+  "PLACEBO_SHIFT": -73730.15,
+  "PLACEBO_FLIP": 21410.0,
+  "SENSITIVITY_SCAN": -112435.9,
+  "match": true
+ },
+ "square_off_note": "95 of 102 standalone square-off exits are at the 15:15 bar close and 7 at 15:20: most ATM-at-break premium days in the construction store end at 15:15 (the store window per the population build), so the frozen replay falls through to the last stored bar, exactly as the verbatim construction code does. No exit occurs after 15:20.",
+ "hand_verification": "Worst leg 2026-01-21 CE 25300: entry 176.65 (12:50 open), stop 126.65 hit on the 13:30 bar (low 118.7), net -3,470.00 \u2014 recomputed by hand from raw store bars, exact. Best leg 2026-07-08 PE 24200: runner_target +175 at 14:05, net +11,155.00 \u2014 exact."
+}

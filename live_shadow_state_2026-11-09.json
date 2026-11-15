@@ -1,0 +1,80 @@
+{
+  "date": "2026-11-09",
+  "indexes": {
+    "bank": {
+      "open_positions": [],
+      "closed_today": [
+        {
+          "id": "bank-2026-11-09-PE-1",
+          "direction": "PE",
+          "strike": 59300,
+          "expiry": "2026-11-23",
+          "instrument": "BANKNIFTY 59300 PE 2026-11-23",
+          "instrument_key": "NSE_FO|62286",
+          "entry_time": "2026-11-09T10:55:12+05:30",
+          "entry_premium": 906.45,
+          "latest_premium": 854.15,
+          "latest_at": "2026-11-09T11:15:14+05:30",
+          "stop": 856.45,
+          "target": 996.45,
+          "source": "Skill",
+          "runner_armed": false,
+          "exit_time": "2026-11-09T11:15:14+05:30",
+          "exit_premium": 854.15,
+          "exit_reason": "stop",
+          "net_inr": -1789.0
+        }
+      ],
+      "taken_keys": [
+        "PE"
+      ],
+      "consumed_signals": [
+        "prod-bank-2026-11-09-BASE-PE"
+      ],
+      "base_leg": {
+        "id": "bank-2026-11-09-PE-1",
+        "exited": true,
+        "exit_reason": "stop",
+        "exit_time": "11:15"
+      }
+    },
+    "nifty": {
+      "open_positions": [],
+      "closed_today": [
+        {
+          "id": "nifty-2026-11-09-PE-1",
+          "direction": "PE",
+          "strike": 25000,
+          "expiry": "2026-11-23",
+          "instrument": "NIFTY 25000 PE 2026-11-23",
+          "instrument_key": "NSE_FO|64440",
+          "entry_time": "2026-11-09T10:55:12+05:30",
+          "entry_premium": 362.25,
+          "latest_premium": 305.0,
+          "latest_at": "2026-11-09T11:36:01+05:30",
+          "stop": 312.25,
+          "target": 452.25,
+          "source": "V5+Skill",
+          "runner_armed": false,
+          "exit_time": "2026-11-09T11:36:02+05:30",
+          "exit_premium": 305.0,
+          "exit_reason": "stop",
+          "net_inr": -3941.25
+        }
+      ],
+      "taken_keys": [
+        "PE"
+      ],
+      "consumed_signals": [
+        "prod-nifty-2026-11-09-BASE-PE",
+        "intraday-nifty-2026-11-09-BASE-PE:exit-stop"
+      ],
+      "base_leg": {
+        "id": "nifty-2026-11-09-PE-1",
+        "exited": true,
+        "exit_reason": "stop",
+        "exit_time": "11:36"
+      }
+    }
+  }
+}

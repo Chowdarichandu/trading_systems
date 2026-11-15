@@ -1,0 +1,822 @@
+{
+ "classification": [
+  {
+   "date": "2026-01-07",
+   "direction": "PE",
+   "rep": "(lA) v2",
+   "recorded_entry": "12:20",
+   "recorded_strike": 26100,
+   "status": "solo_lA",
+   "t2": null,
+   "times": {
+    "(lA) v2": "12:20"
+   },
+   "adopted_net": -1182.0,
+   "causal": "kept",
+   "causal_entry": "12:20",
+   "causal_strike": 26100
+  },
+  {
+   "date": "2026-01-08",
+   "direction": "PE",
+   "rep": "Skill V3",
+   "recorded_entry": "09:35",
+   "recorded_strike": 26100,
+   "status": "violation",
+   "t2": "11:20",
+   "times": {
+    "(lA) v2": "11:20",
+    "Skill V3": "09:35"
+   },
+   "adopted_net": 5847.75,
+   "causal": "DROPPED"
+  },
+  {
+   "date": "2026-01-09",
+   "direction": "PE",
+   "rep": "(lA) v2",
+   "recorded_entry": "09:35",
+   "recorded_strike": 25800,
+   "status": "tie",
+   "t2": "09:35",
+   "times": {
+    "(lA) v2": "09:35",
+    "Skill V3": "09:35",
+    "V5 v2": "09:35"
+   },
+   "adopted_net": 4505.5,
+   "causal": "kept",
+   "causal_entry": "09:35",
+   "causal_strike": 25800
+  },
+  {
+   "date": "2026-01-20",
+   "direction": "PE",
+   "rep": "(lA) v2",
+   "recorded_entry": "09:40",
+   "recorded_strike": 25500,
+   "status": "tie",
+   "t2": "09:40",
+   "times": {
+    "(lA) v2": "09:40",
+    "Skill V3": "09:40"
+   },
+   "adopted_net": 10995.75,
+   "causal": "kept",
+   "causal_entry": "09:40",
+   "causal_strike": 25500
+  },
+  {
+   "date": "2026-01-23",
+   "direction": "PE",
+   "rep": "(lA) v2",
+   "recorded_entry": "13:20",
+   "recorded_strike": 25100,
+   "status": "solo_lA",
+   "t2": null,
+   "times": {
+    "(lA) v2": "13:20"
+   },
+   "adopted_net": 3137.25,
+   "causal": "kept",
+   "causal_entry": "13:20",
+   "causal_strike": 25100
+  },
+  {
+   "date": "2026-01-30",
+   "direction": "CE",
+   "rep": "V5 v2",
+   "recorded_entry": "09:40",
+   "recorded_strike": 25300,
+   "status": "tie",
+   "t2": "09:40",
+   "times": {
+    "Skill V3": "09:40",
+    "V5 v2": "09:40"
+   },
+   "adopted_net": 670.5,
+   "causal": "kept",
+   "causal_entry": "09:40",
+   "causal_strike": 25300
+  },
+  {
+   "date": "2026-02-02",
+   "direction": "CE",
+   "rep": "Volrix (b)",
+   "recorded_entry": "09:20",
+   "recorded_strike": 24800,
+   "status": "violation",
+   "t2": "09:35",
+   "times": {
+    "Skill V3": "09:35",
+    "Volrix (b)": "09:20"
+   },
+   "adopted_net": -220.0,
+   "causal": "RETIMED",
+   "causal_entry": "09:35",
+   "causal_strike": 24900,
+   "causal_net": -3470.0
+  },
+  {
+   "date": "2026-02-06",
+   "direction": "PE",
+   "rep": "V5 v2",
+   "recorded_entry": "09:40",
+   "recorded_strike": 25500,
+   "status": "tie",
+   "t2": "09:40",
+   "times": {
+    "(lA) v2": "10:15",
+    "Skill V3": "09:40",
+    "V5 v2": "09:40"
+   },
+   "adopted_net": -3470.0,
+   "causal": "kept",
+   "causal_entry": "09:40",
+   "causal_strike": 25500
+  },
+  {
+   "date": "2026-02-13",
+   "direction": "PE",
+   "rep": "V5 v2",
+   "recorded_entry": "09:35",
+   "recorded_strike": 25500,
+   "status": "tie",
+   "t2": "09:35",
+   "times": {
+    "(lA) v2": "10:15",
+    "Skill V3": "09:35",
+    "V5 v2": "09:35"
+   },
+   "adopted_net": 3130.75,
+   "causal": "kept",
+   "causal_entry": "09:35",
+   "causal_strike": 25500
+  },
+  {
+   "date": "2026-02-16",
+   "direction": "CE",
+   "rep": "Volrix (b)",
+   "recorded_entry": "09:20",
+   "recorded_strike": 25500,
+   "status": "violation",
+   "t2": "09:35",
+   "times": {
+    "Skill V3": "09:35",
+    "Volrix (b)": "09:20"
+   },
+   "adopted_net": 7953.75,
+   "causal": "RETIMED",
+   "causal_entry": "09:35",
+   "causal_strike": 25500,
+   "causal_net": 7030.75
+  },
+  {
+   "date": "2026-02-19",
+   "direction": "PE",
+   "rep": "(lA) v2",
+   "recorded_entry": "12:10",
+   "recorded_strike": 25600,
+   "status": "solo_lA",
+   "t2": null,
+   "times": {
+    "(lA) v2": "12:10"
+   },
+   "adopted_net": 5945.25,
+   "causal": "kept",
+   "causal_entry": "12:10",
+   "causal_strike": 25600
+  },
+  {
+   "date": "2026-02-26",
+   "direction": "PE",
+   "rep": "(lA) v2",
+   "recorded_entry": "13:00",
+   "recorded_strike": 25400,
+   "status": "solo_lA",
+   "t2": null,
+   "times": {
+    "(lA) v2": "13:00"
+   },
+   "adopted_net": -2547.0,
+   "causal": "kept",
+   "causal_entry": "13:00",
+   "causal_strike": 25400
+  },
+  {
+   "date": "2026-02-27",
+   "direction": "PE",
+   "rep": "(lA) v2",
+   "recorded_entry": "09:50",
+   "recorded_strike": 25300,
+   "status": "tie",
+   "t2": "09:50",
+   "times": {
+    "(lA) v2": "09:50",
+    "Skill V3": "09:50"
+   },
+   "adopted_net": 4089.5,
+   "causal": "kept",
+   "causal_entry": "09:50",
+   "causal_strike": 25300
+  },
+  {
+   "date": "2026-03-02",
+   "direction": "CE",
+   "rep": "Volrix (b)",
+   "recorded_entry": "09:20",
+   "recorded_strike": 24900,
+   "status": "violation",
+   "t2": "09:35",
+   "times": {
+    "Skill V3": "09:35",
+    "Volrix (b)": "09:20"
+   },
+   "adopted_net": -220.0,
+   "causal": "RETIMED",
+   "causal_entry": "09:35",
+   "causal_strike": 25000,
+   "causal_net": -3470.0
+  },
+  {
+   "date": "2026-03-11",
+   "direction": "PE",
+   "rep": "Skill V3",
+   "recorded_entry": "09:40",
+   "recorded_strike": 24200,
+   "status": "violation",
+   "t2": "10:45",
+   "times": {
+    "(lA) v2": "10:45",
+    "Skill V3": "09:40"
+   },
+   "adopted_net": 11155.0,
+   "causal": "DROPPED"
+  },
+  {
+   "date": "2026-03-13",
+   "direction": "PE",
+   "rep": "(lA) v2",
+   "recorded_entry": "09:50",
+   "recorded_strike": 23400,
+   "status": "tie",
+   "t2": "09:50",
+   "times": {
+    "(lA) v2": "09:50",
+    "Skill V3": "09:50",
+    "V5 v2": "09:50"
+   },
+   "adopted_net": 11155.0,
+   "causal": "kept",
+   "causal_entry": "09:50",
+   "causal_strike": 23400
+  },
+  {
+   "date": "2026-03-20",
+   "direction": "CE",
+   "rep": "Volrix (b)",
+   "recorded_entry": "09:20",
+   "recorded_strike": 23300,
+   "status": "violation",
+   "t2": "09:35",
+   "times": {
+    "Skill V3": "09:35",
+    "Volrix (b)": "09:20"
+   },
+   "adopted_net": -3470.0,
+   "causal": "RETIMED",
+   "causal_entry": "09:35",
+   "causal_strike": 23300,
+   "causal_net": -3470.0
+  },
+  {
+   "date": "2026-03-23",
+   "direction": "PE",
+   "rep": "V5 v2",
+   "recorded_entry": "09:55",
+   "recorded_strike": 22600,
+   "status": "tie",
+   "t2": "09:55",
+   "times": {
+    "Skill V3": "09:55",
+    "V5 v2": "09:55"
+   },
+   "adopted_net": 3030.0,
+   "causal": "kept",
+   "causal_entry": "09:55",
+   "causal_strike": 22600
+  },
+  {
+   "date": "2026-04-16",
+   "direction": "PE",
+   "rep": "Skill V3",
+   "recorded_entry": "09:40",
+   "recorded_strike": 24300,
+   "status": "violation",
+   "t2": "12:35",
+   "times": {
+    "(lA) v2": "12:35",
+    "Skill V3": "09:40"
+   },
+   "adopted_net": 3030.0,
+   "causal": "DROPPED"
+  },
+  {
+   "date": "2026-04-24",
+   "direction": "PE",
+   "rep": "(lA) v2",
+   "recorded_entry": "09:35",
+   "recorded_strike": 24000,
+   "status": "tie",
+   "t2": "09:35",
+   "times": {
+    "(lA) v2": "09:35",
+    "Skill V3": "09:35",
+    "V5 v2": "09:35"
+   },
+   "adopted_net": 3030.0,
+   "causal": "kept",
+   "causal_entry": "09:35",
+   "causal_strike": 24000
+  },
+  {
+   "date": "2026-04-27",
+   "direction": "CE",
+   "rep": "Volrix (b)",
+   "recorded_entry": "09:20",
+   "recorded_strike": 24000,
+   "status": "violation",
+   "t2": "09:50",
+   "times": {
+    "Skill V3": "09:50",
+    "Volrix (b)": "09:20"
+   },
+   "adopted_net": 1411.5,
+   "causal": "RETIMED",
+   "causal_entry": "09:50",
+   "causal_strike": 24100,
+   "causal_net": -3470.0
+  },
+  {
+   "date": "2026-05-11",
+   "direction": "PE",
+   "rep": "(lA) v2",
+   "recorded_entry": "09:40",
+   "recorded_strike": 23900,
+   "status": "tie",
+   "t2": "09:40",
+   "times": {
+    "(lA) v2": "09:40",
+    "Skill V3": "09:40"
+   },
+   "adopted_net": -3470.0,
+   "causal": "kept",
+   "causal_entry": "09:40",
+   "causal_strike": 23900
+  },
+  {
+   "date": "2026-05-12",
+   "direction": "PE",
+   "rep": "Skill V3",
+   "recorded_entry": "09:40",
+   "recorded_strike": 23600,
+   "status": "violation",
+   "t2": "10:50",
+   "times": {
+    "(lA) v2": "10:50",
+    "Skill V3": "09:40"
+   },
+   "adopted_net": 8087.0,
+   "causal": "DROPPED"
+  },
+  {
+   "date": "2026-05-13",
+   "direction": "PE",
+   "rep": "(lA) v2",
+   "recorded_entry": "09:35",
+   "recorded_strike": 23300,
+   "status": "tie",
+   "t2": "09:35",
+   "times": {
+    "(lA) v2": "09:35",
+    "Skill V3": "09:35",
+    "V5 v2": "09:35"
+   },
+   "adopted_net": -3470.0,
+   "causal": "kept",
+   "causal_entry": "09:35",
+   "causal_strike": 23300
+  },
+  {
+   "date": "2026-05-18",
+   "direction": "PE",
+   "rep": "V5 v2",
+   "recorded_entry": "09:40",
+   "recorded_strike": 23400,
+   "status": "tie",
+   "t2": "09:40",
+   "times": {
+    "(lA) v2": "09:50",
+    "Skill V3": "09:40",
+    "V5 v2": "09:40"
+   },
+   "adopted_net": -3470.0,
+   "causal": "kept",
+   "causal_entry": "09:40",
+   "causal_strike": 23400
+  },
+  {
+   "date": "2026-06-01",
+   "direction": "PE",
+   "rep": "Skill V3",
+   "recorded_entry": "09:45",
+   "recorded_strike": 23600,
+   "status": "violation",
+   "t2": "13:10",
+   "times": {
+    "(lA) v2": "13:10",
+    "Skill V3": "09:45"
+   },
+   "adopted_net": 5344.0,
+   "causal": "DROPPED"
+  },
+  {
+   "date": "2026-06-08",
+   "direction": "CE",
+   "rep": "V5 v2",
+   "recorded_entry": "09:35",
+   "recorded_strike": 23200,
+   "status": "tie",
+   "t2": "09:35",
+   "times": {
+    "Skill V3": "09:35",
+    "V5 v2": "09:35"
+   },
+   "adopted_net": -220.0,
+   "causal": "kept",
+   "causal_entry": "09:35",
+   "causal_strike": 23200
+  },
+  {
+   "date": "2026-06-19",
+   "direction": "PE",
+   "rep": "(lA) v2",
+   "recorded_entry": "13:00",
+   "recorded_strike": 23900,
+   "status": "solo_lA",
+   "t2": null,
+   "times": {
+    "(lA) v2": "13:00"
+   },
+   "adopted_net": -3470.0,
+   "causal": "kept",
+   "causal_entry": "13:00",
+   "causal_strike": 23900
+  },
+  {
+   "date": "2026-06-24",
+   "direction": "CE",
+   "rep": "Volrix (b)",
+   "recorded_entry": "09:20",
+   "recorded_strike": 23800,
+   "status": "violation",
+   "t2": "10:05",
+   "times": {
+    "Skill V3": "10:05",
+    "Volrix (b)": "09:20"
+   },
+   "adopted_net": 6150.0,
+   "causal": "DROPPED"
+  },
+  {
+   "date": "2026-06-29",
+   "direction": "PE",
+   "rep": "(lA) v2",
+   "recorded_entry": "09:35",
+   "recorded_strike": 24000,
+   "status": "tie",
+   "t2": "09:35",
+   "times": {
+    "(lA) v2": "09:35",
+    "Skill V3": "09:35",
+    "V5 v2": "09:35"
+   },
+   "adopted_net": -220.0,
+   "causal": "kept",
+   "causal_entry": "09:35",
+   "causal_strike": 24000
+  },
+  {
+   "date": "2026-07-01",
+   "direction": "CE",
+   "rep": "V5 v2",
+   "recorded_entry": "09:40",
+   "recorded_strike": 23900,
+   "status": "tie",
+   "t2": "09:40",
+   "times": {
+    "Skill V3": "09:40",
+    "V5 v2": "09:40"
+   },
+   "adopted_net": -220.0,
+   "causal": "kept",
+   "causal_entry": "09:40",
+   "causal_strike": 23900
+  },
+  {
+   "date": "2026-07-08",
+   "direction": "PE",
+   "rep": "(lA) v2",
+   "recorded_entry": "09:35",
+   "recorded_strike": 24200,
+   "status": "tie",
+   "t2": "09:35",
+   "times": {
+    "(lA) v2": "09:35",
+    "Skill V3": "09:35",
+    "V5 v2": "09:35"
+   },
+   "adopted_net": 11155.0,
+   "causal": "kept",
+   "causal_entry": "09:35",
+   "causal_strike": 24200
+  },
+  {
+   "date": "2026-07-09",
+   "direction": "CE",
+   "rep": "Volrix (b)",
+   "recorded_entry": "09:20",
+   "recorded_strike": 24000,
+   "status": "violation",
+   "t2": "09:40",
+   "times": {
+    "Skill V3": "09:40",
+    "Volrix (b)": "09:20"
+   },
+   "adopted_net": -220.0,
+   "causal": "RETIMED",
+   "causal_entry": "09:40",
+   "causal_strike": 24100,
+   "causal_net": -220.0
+  },
+  {
+   "date": "2026-07-13",
+   "direction": "CE",
+   "rep": "Skill V3",
+   "recorded_entry": "09:40",
+   "recorded_strike": 24100,
+   "status": "violation",
+   "t2": "10:00",
+   "times": {
+    "Skill V3": "09:40",
+    "V5 v2": "10:00"
+   },
+   "adopted_net": 6325.5,
+   "causal": "DROPPED"
+  },
+  {
+   "date": "2026-07-22",
+   "direction": "PE",
+   "rep": "(lA) v2",
+   "recorded_entry": "09:35",
+   "recorded_strike": 24000,
+   "status": "tie",
+   "t2": "09:35",
+   "times": {
+    "(lA) v2": "09:35",
+    "Skill V3": "09:35",
+    "V5 v2": "09:35"
+   },
+   "adopted_net": 14.0,
+   "causal": "kept",
+   "causal_entry": "09:35",
+   "causal_strike": 24000
+  },
+  {
+   "date": "2026-08-11",
+   "direction": "PE",
+   "rep": "(lA) v2",
+   "recorded_entry": "09:40",
+   "recorded_strike": 24500,
+   "status": "tie",
+   "t2": "09:40",
+   "times": {
+    "(lA) v2": "09:40",
+    "Skill V3": "09:40"
+   },
+   "adopted_net": -1152.75,
+   "causal": "kept",
+   "causal_entry": "09:40",
+   "causal_strike": 24500
+  },
+  {
+   "date": "2026-08-19",
+   "direction": "PE",
+   "rep": "(lA) v2",
+   "recorded_entry": "09:35",
+   "recorded_strike": 24100,
+   "status": "tie",
+   "t2": "09:35",
+   "times": {
+    "(lA) v2": "09:35",
+    "Skill V3": "09:35",
+    "V5 v2": "09:35"
+   },
+   "adopted_net": -564.5,
+   "causal": "kept",
+   "causal_entry": "09:35",
+   "causal_strike": 24100
+  },
+  {
+   "date": "2026-08-31",
+   "direction": "PE",
+   "rep": "Skill V3",
+   "recorded_entry": "09:45",
+   "recorded_strike": 24000,
+   "status": "violation",
+   "t2": "10:35",
+   "times": {
+    "(lA) v2": "10:35",
+    "Skill V3": "09:45"
+   },
+   "adopted_net": -3470.0,
+   "causal": "DROPPED"
+  },
+  {
+   "date": "2026-09-07",
+   "direction": "PE",
+   "rep": "V5 v2",
+   "recorded_entry": "09:55",
+   "recorded_strike": 23800,
+   "status": "tie",
+   "t2": "09:55",
+   "times": {
+    "(lA) v2": "10:15",
+    "Skill V3": "09:55",
+    "V5 v2": "09:55"
+   },
+   "adopted_net": 716.0,
+   "causal": "kept",
+   "causal_entry": "09:55",
+   "causal_strike": 23800
+  },
+  {
+   "date": "2026-09-24",
+   "direction": "PE",
+   "rep": "(lA) v2",
+   "recorded_entry": "11:55",
+   "recorded_strike": 23200,
+   "status": "solo_lA",
+   "t2": null,
+   "times": {
+    "(lA) v2": "11:55"
+   },
+   "adopted_net": 4304.0,
+   "causal": "kept",
+   "causal_entry": "11:55",
+   "causal_strike": 23200
+  },
+  {
+   "date": "2026-10-08",
+   "direction": "PE",
+   "rep": "V5 v2",
+   "recorded_entry": "09:45",
+   "recorded_strike": 22500,
+   "status": "tie",
+   "t2": "09:45",
+   "times": {
+    "(lA) v2": "11:30",
+    "Skill V3": "09:45",
+    "V5 v2": "09:45"
+   },
+   "adopted_net": 7580.0,
+   "causal": "kept",
+   "causal_entry": "09:45",
+   "causal_strike": 22500
+  },
+  {
+   "date": "2026-10-09",
+   "direction": "CE",
+   "rep": "Volrix (b)",
+   "recorded_entry": "09:20",
+   "recorded_strike": 22200,
+   "status": "violation",
+   "t2": "09:35",
+   "times": {
+    "Skill V3": "09:35",
+    "Volrix (b)": "09:20"
+   },
+   "adopted_net": 11155.0,
+   "causal": "RETIMED",
+   "causal_entry": "09:35",
+   "causal_strike": 22400,
+   "causal_net": 4655.0
+  },
+  {
+   "date": "2026-10-21",
+   "direction": "PE",
+   "rep": "(lA) v2",
+   "recorded_entry": "11:40",
+   "recorded_strike": 22800,
+   "status": "solo_lA",
+   "t2": null,
+   "times": {
+    "(lA) v2": "11:40"
+   },
+   "adopted_net": 3030.0,
+   "causal": "kept",
+   "causal_entry": "11:40",
+   "causal_strike": 22800
+  },
+  {
+   "date": "2026-10-26",
+   "direction": "CE",
+   "rep": "Skill V3",
+   "recorded_entry": "09:55",
+   "recorded_strike": 22600,
+   "status": "violation",
+   "t2": "10:00",
+   "times": {
+    "Skill V3": "09:55",
+    "V5 v2": "10:00"
+   },
+   "adopted_net": 3030.0,
+   "causal": "DROPPED"
+  }
+ ],
+ "missing_candles": [],
+ "causal_total": 50618.0,
+ "causal_summary": {
+  "name": "run3r5_ws0_causal",
+  "n": 35,
+  "total": 50618.0,
+  "resum": 50618.0,
+  "resum_ok": true,
+  "ft": 12,
+  "ft_pct": 34.3,
+  "per_week": 0.86,
+  "not_computed": 0,
+  "red_month_ends": [],
+  "month_table": {
+   "2026-01": [
+    18127.0,
+    18127.0
+   ],
+   "2026-02": [
+    10709.25,
+    28836.25
+   ],
+   "2026-03": [
+    7245.0,
+    36081.25
+   ],
+   "2026-04": [
+    -440.0,
+    35641.25
+   ],
+   "2026-05": [
+    -10410.0,
+    25231.25
+   ],
+   "2026-06": [
+    -3910.0,
+    21321.25
+   ],
+   "2026-07": [
+    10729.0,
+    32050.25
+   ],
+   "2026-08": [
+    -1717.25,
+    30333.0
+   ],
+   "2026-09": [
+    5020.0,
+    35353.0
+   ],
+   "2026-10": [
+    15265.0,
+    50618.0
+   ]
+  },
+  "halves": {
+   "Jan-May": 25231.25,
+   "Jun-Oct": 25386.75
+  },
+  "ex_top3": 17312.25,
+  "top3": [
+   11155.0,
+   11155.0,
+   10995.75
+  ],
+  "placebo_shift30_total": 23542.25,
+  "october": 15265.0,
+  "timing_audit": {
+   "checked": 35,
+   "violations": 0
+  },
+  "nc_legs": [],
+  "may": -10410.0,
+  "august": -1717.25
+ }
+}

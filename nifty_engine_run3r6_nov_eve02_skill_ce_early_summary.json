@@ -1,0 +1,105 @@
+{
+ "name": "nov_eve02_skill_ce_early",
+ "n": 35,
+ "total": 54102.0,
+ "resum": 54102.0,
+ "resum_ok": true,
+ "ft": 12,
+ "ft_pct": 34.3,
+ "per_week": 0.86,
+ "not_computed": 0,
+ "red_month_ends": [],
+ "month_table": {
+  "2026-01": [
+   17096.75,
+   17096.75
+  ],
+  "2026-02": [
+   12789.25,
+   29886.0
+  ],
+  "2026-03": [
+   7895.0,
+   37781.0
+  ],
+  "2026-04": [
+   210.0,
+   37991.0
+  ],
+  "2026-05": [
+   -10410.0,
+   27581.0
+  ],
+  "2026-06": [
+   -3910.0,
+   23671.0
+  ],
+  "2026-07": [
+   10998.75,
+   34669.75
+  ],
+  "2026-08": [
+   -1701.0,
+   32968.75
+  ],
+  "2026-09": [
+   4652.75,
+   37621.5
+  ],
+  "2026-10": [
+   16480.5,
+   54102.0
+  ]
+ },
+ "halves": {
+  "Jan-May": 27581.0,
+  "Jun-Oct": 26521.0
+ },
+ "ex_top3": 20637.0,
+ "top3": [
+  11155.0,
+  11155.0,
+  11155.0
+ ],
+ "placebo_shift30_total": 22876.0,
+ "october": 16480.5,
+ "timing_audit": {
+  "checked": 35,
+  "violations": 0
+ },
+ "nc_legs": [],
+ "may": -10410.0,
+ "august": -1701.0,
+ "nc_named_not_computed": "2026-10-28 22500 PE weekly expiry 2026-11-03 \u2014 NOT_COMPUTED (registry 0 contracts, Rounds 3-5); not in any Round-6 population",
+ "gate_relative": {
+  "banked": false,
+  "checks": {
+   "net_above_baseline": false,
+   "ft_not_degraded": true,
+   "frequency_not_degraded": true,
+   "no_green_month_flips_red": true,
+   "no_red_month_ends": true,
+   "halves_both>=0": true,
+   "placebo_beaten": true,
+   "ex_top3>=0": true,
+   "timing_audit_clean": true,
+   "not_computed_zero": true,
+   "resum_exact": true
+  },
+  "green_to_red": [],
+  "vs_label": "Standing causal book +54,102.00 (35 legs, lock60/TGT2-175 sq15:20)",
+  "vs_total": 54102.0,
+  "vs_ft_pct": 34.3,
+  "vs_per_week": 0.86
+ },
+ "old_absolute_lines_status": {
+  "FT>=42.0": false,
+  "freq>=1.00/wk": false
+ },
+ "eve_label": "EVE-02 standing + solo Skill CE entry<=09:55 (today's class)",
+ "eve_additions": 0,
+ "eve_collisions": 0,
+ "eve_sleeve_total": 0,
+ "eve_sleeve_n": 0,
+ "eve_sleeve_nc": 0
+}

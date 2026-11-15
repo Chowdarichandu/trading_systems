@@ -1,0 +1,121 @@
+{
+ "name": "run3_cycle17_ev5",
+ "n": 64,
+ "total": 81502.5,
+ "resum": 81502.5,
+ "resum_ok": true,
+ "ft": 23,
+ "ft_pct": 35.9,
+ "per_week": 1.58,
+ "not_computed": 0,
+ "red_month_ends": [],
+ "month_table": {
+  "2026-01": [
+   17176.5,
+   17176.5
+  ],
+  "2026-02": [
+   13592.0,
+   30768.5
+  ],
+  "2026-03": [
+   13630.0,
+   44398.5
+  ],
+  "2026-04": [
+   8436.5,
+   52835.0
+  ],
+  "2026-05": [
+   -9263.0,
+   43572.0
+  ],
+  "2026-06": [
+   1930.0,
+   45502.0
+  ],
+  "2026-07": [
+   12239.0,
+   57741.0
+  ],
+  "2026-08": [
+   -6289.5,
+   51451.5
+  ],
+  "2026-09": [
+   1901.0,
+   53352.5
+  ],
+  "2026-10": [
+   28150.0,
+   81502.5
+  ]
+ },
+ "halves": {
+  "Jan-May": 43572.0,
+  "Jun-Oct": 37930.5
+ },
+ "ex_top3": 47062.5,
+ "top3": [
+  11480.0,
+  11480.0,
+  11480.0
+ ],
+ "placebo_shift30_total": 7942.0,
+ "october": 28150.0,
+ "timing_audit": {
+  "checked": 64,
+  "violations": 0
+ },
+ "august": -6289.5,
+ "may": -9263.0,
+ "added_legs": [
+  {
+   "date": "2026-01-09",
+   "dir": "CE",
+   "entry_time": "09:20",
+   "rep": "Volrix (b)",
+   "entry": 281.0,
+   "exit_reason": "stop",
+   "net": -3470.0
+  },
+  {
+   "date": "2026-05-12",
+   "dir": "CE",
+   "entry_time": "09:20",
+   "rep": "Volrix (b)",
+   "entry": 371.75,
+   "exit_reason": "stop",
+   "net": -3470.0
+  },
+  {
+   "date": "2026-06-01",
+   "dir": "CE",
+   "entry_time": "09:20",
+   "rep": "Volrix (b)",
+   "entry": 451.35,
+   "exit_reason": "stop",
+   "net": -3470.0
+  },
+  {
+   "date": "2026-09-16",
+   "dir": "CE",
+   "entry_time": "09:20",
+   "rep": "Volrix (b)",
+   "entry": 289.85,
+   "exit_reason": "stop",
+   "net": -3470.0
+  },
+  {
+   "date": "2026-08-10",
+   "dir": "PE",
+   "entry_time": "09:45",
+   "rep": "(lA) v2",
+   "entry": 190.6,
+   "exit_reason": "square_off",
+   "net": -2618.5
+  }
+ ],
+ "added_sum": -16498.5,
+ "added_n": 5
+}

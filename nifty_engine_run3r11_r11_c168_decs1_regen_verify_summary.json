@@ -1,0 +1,78 @@
+{
+ "name": "r11_c168_decs1_regen_verify",
+ "n": 97,
+ "total": 91168.5,
+ "resum": 91168.5,
+ "resum_ok": true,
+ "ft": 33,
+ "ft_pct": 34.0,
+ "per_week": 2.39,
+ "not_computed": 0,
+ "red_month_ends": [],
+ "month_table": {
+  "2026-01": [
+   19211.25,
+   19211.25
+  ],
+  "2026-02": [
+   5038.75,
+   24250.0
+  ],
+  "2026-03": [
+   -11846.5,
+   12403.5
+  ],
+  "2026-04": [
+   28416.0,
+   40819.5
+  ],
+  "2026-05": [
+   4574.0,
+   45393.5
+  ],
+  "2026-06": [
+   -1331.0,
+   44062.5
+  ],
+  "2026-07": [
+   5839.0,
+   49901.5
+  ],
+  "2026-08": [
+   841.25,
+   50742.75
+  ],
+  "2026-09": [
+   20265.25,
+   71008.0
+  ],
+  "2026-10": [
+   20160.5,
+   91168.5
+  ]
+ },
+ "halves": {
+  "Jan-May": 45393.5,
+  "Jun-Oct": 45775.0
+ },
+ "ex_top3": 57703.5,
+ "top3": [
+  11155.0,
+  11155.0,
+  11155.0
+ ],
+ "placebo_shift30_total": 52867.25,
+ "october": 20160.5,
+ "timing_audit": {
+  "checked": 97,
+  "violations": 0
+ },
+ "nc_legs": [],
+ "decision_support_force_no_bank": true,
+ "shadow_label": "DEC-S1 (December shadow candidate \u2014 NOT adopted)",
+ "components": {
+  "A_standing": 35,
+  "B_fade1005": 49,
+  "C_expiry_inpair": 13
+ }
+}

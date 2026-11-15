@@ -1,0 +1,54 @@
+{
+ "standing_bleed": {
+  "worst_day": [
+   "2026-02-02",
+   -3470.0
+  ],
+  "worst_3day_streak": -10410.0,
+  "max_drawdown_day_granularity": -18010.0,
+  "trading_days": 35
+ },
+ "eve04_decs1_bleed": {
+  "worst_day": [
+   "2026-07-14",
+   -5295.5
+  ],
+  "worst_3day_streak": -10630.0,
+  "max_drawdown_day_granularity": -17360.0,
+  "trading_days": 88
+ },
+ "eve04": {
+  "cap": -3000.0,
+  "skipped": [],
+  "guarded_net": 91168.5,
+  "incumbent_net": 91168.5,
+  "verdict": "NO-OP (exact) \u2014 cap can never bind at day granularity on DEC-S1: on all 9 multi-leg days the later leg enters before any earlier leg exits, so no causal realised-cap skip exists. Guard value for this book sits only in the intraday close-based form already exercised in the BIG BUILD (FULL-arm worst day -4,232.75 vs -3,000 cap = close-based overshoot). Not a PASS, nothing promoted."
+ },
+ "eve05": {
+  "total": 49828.25,
+  "n": 35,
+  "ft_pct": 34.3,
+  "halves": {
+   "Jan-May": 27581.0,
+   "Jun-Oct": 22247.25
+  },
+  "ex_top3": 16363.25,
+  "placebo": 18956.5,
+  "nc": 0,
+  "audit": {
+   "checked": 35,
+   "violations": 0
+  },
+  "resum_ok": true,
+  "banked": false,
+  "failed": [
+   "net_above_baseline"
+  ],
+  "green_to_red": []
+ },
+ "eve06": {
+  "confirmed_keys_entry_ge_1200_in_standing": 0,
+  "confirmed_keys_entry_ge_1200_not_in_standing": [],
+  "verdict": "NOT TESTABLE \u2014 population empty"
+ }
+}

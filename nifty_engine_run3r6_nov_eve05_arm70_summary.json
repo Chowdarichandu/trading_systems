@@ -1,0 +1,100 @@
+{
+ "name": "nov_eve05_arm70",
+ "n": 35,
+ "total": 49828.25,
+ "resum": 49828.25,
+ "resum_ok": true,
+ "ft": 12,
+ "ft_pct": 34.3,
+ "per_week": 0.86,
+ "not_computed": 0,
+ "red_month_ends": [],
+ "month_table": {
+  "2026-01": [
+   17096.75,
+   17096.75
+  ],
+  "2026-02": [
+   12789.25,
+   29886.0
+  ],
+  "2026-03": [
+   7895.0,
+   37781.0
+  ],
+  "2026-04": [
+   210.0,
+   37991.0
+  ],
+  "2026-05": [
+   -10410.0,
+   27581.0
+  ],
+  "2026-06": [
+   -6146.0,
+   21435.0
+  ],
+  "2026-07": [
+   8961.0,
+   30396.0
+  ],
+  "2026-08": [
+   -1701.0,
+   28695.0
+  ],
+  "2026-09": [
+   4652.75,
+   33347.75
+  ],
+  "2026-10": [
+   16480.5,
+   49828.25
+  ]
+ },
+ "halves": {
+  "Jan-May": 27581.0,
+  "Jun-Oct": 22247.25
+ },
+ "ex_top3": 16363.25,
+ "top3": [
+  11155.0,
+  11155.0,
+  11155.0
+ ],
+ "placebo_shift30_total": 18956.5,
+ "october": 16480.5,
+ "timing_audit": {
+  "checked": 35,
+  "violations": 0
+ },
+ "nc_legs": [],
+ "may": -10410.0,
+ "august": -1701.0,
+ "nc_named_not_computed": "2026-10-28 22500 PE weekly expiry 2026-11-03 \u2014 NOT_COMPUTED (registry 0 contracts, Rounds 3-5); not in any Round-6 population",
+ "gate_relative": {
+  "banked": false,
+  "checks": {
+   "net_above_baseline": false,
+   "ft_not_degraded": true,
+   "frequency_not_degraded": true,
+   "no_green_month_flips_red": true,
+   "no_red_month_ends": true,
+   "halves_both>=0": true,
+   "placebo_beaten": true,
+   "ex_top3>=0": true,
+   "timing_audit_clean": true,
+   "not_computed_zero": true,
+   "resum_exact": true
+  },
+  "green_to_red": [],
+  "vs_label": "Standing causal book +54,102.00 (35 legs, lock60/TGT2-175 sq15:20)",
+  "vs_total": 54102.0,
+  "vs_ft_pct": 34.3,
+  "vs_per_week": 0.86
+ },
+ "old_absolute_lines_status": {
+  "FT>=42.0": false,
+  "freq>=1.00/wk": false
+ },
+ "eve_label": "EVE-05 standing book with G7 lock arm +50 -> +70 (lock +60, tgt2 +175, sq 15:20 unchanged)"
+}

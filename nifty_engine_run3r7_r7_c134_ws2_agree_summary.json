@@ -1,0 +1,66 @@
+{
+ "name": "r7_c134_ws2_agree",
+ "n": 2,
+ "total": 7360.0,
+ "resum": 7360.0,
+ "resum_ok": true,
+ "ft": 2,
+ "ft_pct": 100.0,
+ "per_week": 0.05,
+ "not_computed": 0,
+ "red_month_ends": [],
+ "month_table": {
+  "2026-03": [
+   3680.0,
+   3680.0
+  ],
+  "2026-10": [
+   3680.0,
+   7360.0
+  ]
+ },
+ "halves": {
+  "Jan-May": 3680.0,
+  "Jun-Oct": 3680.0
+ },
+ "ex_top3": 0.0,
+ "top3": [
+  3680.0,
+  3680.0
+ ],
+ "placebo_shift30_total": 804.75,
+ "october": 3680.0,
+ "timing_audit": {
+  "checked": 2,
+  "violations": 0
+ },
+ "nc_legs": [],
+ "may": 0,
+ "august": 0,
+ "nc_named_not_computed": "2026-10-28 22500 PE weekly expiry 2026-11-03 \u2014 NOT_COMPUTED (registry 0 contracts, Rounds 3-6); not in any Round-7 population",
+ "gate_relative": {
+  "banked": false,
+  "checks": {
+   "net_above_baseline": false,
+   "ft_not_degraded": true,
+   "frequency_not_degraded": false,
+   "no_green_month_flips_red": true,
+   "no_red_month_ends": true,
+   "halves_both>=0": true,
+   "placebo_beaten": true,
+   "ex_top3>=0": true,
+   "timing_audit_clean": true,
+   "not_computed_zero": true,
+   "resum_exact": true
+  },
+  "green_to_red": [],
+  "vs_label": "Round-7 standing book (round-open)",
+  "vs_total": 54102.0,
+  "vs_ft_pct": 34.3,
+  "vs_per_week": 0.86
+ },
+ "old_absolute_lines_status": {
+  "FT>=42.0": true,
+  "freq>=1.00/wk": false
+ }
+}

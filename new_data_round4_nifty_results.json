@@ -1,0 +1,564 @@
+{
+ "scope": "NIFTY \u2014 intraday futures basis (surface A mirror)",
+ "NIFTY": {
+  "D1": {
+   "real": {
+    "n": 43,
+    "total": 11219.75,
+    "months": {
+     "2026-01": 7800.75,
+     "2026-02": -7251.0,
+     "2026-03": 4205.0,
+     "2026-04": 7025.0,
+     "2026-05": 7350.0,
+     "2026-06": 8384.5,
+     "2026-07": -4282.75,
+     "2026-08": 2491.25,
+     "2026-09": -8362.5,
+     "2026-10": -6140.5
+    },
+    "h1": 19129.75,
+    "h2": -7910.0,
+    "ex_top3": -22245.25,
+    "top3": [
+     11155.0,
+     11155.0,
+     11155.0
+    ],
+    "ft": 11,
+    "pace_per_month": 1121.97,
+    "nov_n": 0,
+    "nov_total": 0,
+    "nov_trades": []
+   },
+   "nc": [],
+   "timing_violations": 0,
+   "reversed": {
+    "n": 43,
+    "total": 6845.9,
+    "months": {
+     "2026-01": -4366.6,
+     "2026-02": 13747.25,
+     "2026-03": 955.0,
+     "2026-04": -2972.0,
+     "2026-05": -2725.0,
+     "2026-06": -5730.25,
+     "2026-07": 3514.0,
+     "2026-08": -7366.0,
+     "2026-09": 4494.5,
+     "2026-10": 7295.0
+    },
+    "h1": 4638.65,
+    "h2": 2207.25,
+    "ex_top3": -26619.1,
+    "top3": [
+     11155.0,
+     11155.0,
+     11155.0
+    ],
+    "ft": 11,
+    "pace_per_month": 684.59,
+    "nov_n": 0,
+    "nov_total": 0,
+    "nov_trades": []
+   },
+   "reversed_nc": 0,
+   "coin": {
+    "n": 43,
+    "total": 845.75,
+    "months": {
+     "2026-01": 14339.75,
+     "2026-02": 13747.25,
+     "2026-03": -20820.0,
+     "2026-04": -6872.0,
+     "2026-05": 18725.0,
+     "2026-06": -15139.0,
+     "2026-07": -2856.0,
+     "2026-08": -1022.0,
+     "2026-09": 4494.5,
+     "2026-10": -3751.75
+    },
+    "h1": 19120.0,
+    "h2": -18274.25,
+    "ex_top3": -27975.0,
+    "top3": [
+     11155.0,
+     11155.0,
+     6510.75
+    ],
+    "ft": 11,
+    "pace_per_month": 84.58,
+    "nov_n": 0,
+    "nov_total": 0,
+    "nov_trades": []
+   },
+   "coin_nc": 0,
+   "shifted": {
+    "n": 43,
+    "total": -4321.75,
+    "months": {
+     "2026-01": 4063.25,
+     "2026-02": -7897.75,
+     "2026-03": 1754.5,
+     "2026-04": 13586.75,
+     "2026-05": 1246.5,
+     "2026-06": 1179.25,
+     "2026-07": -3093.25,
+     "2026-08": -1171.5,
+     "2026-09": -7897.75,
+     "2026-10": -6091.75
+    },
+    "h1": 12753.25,
+    "h2": -17075.0,
+    "ex_top3": -30058.25,
+    "top3": [
+     11155.0,
+     8366.5,
+     6215.0
+    ],
+    "ft": 9,
+    "pace_per_month": -432.18,
+    "nov_n": 0,
+    "nov_total": 0,
+    "nov_trades": []
+   },
+   "shifted_nc": 0,
+   "gate_legs": {
+    "total_pos": true,
+    "halves_pos": false,
+    "ex_top3_pos": false,
+    "beats_reversed": true,
+    "beats_coin": true,
+    "beats_shifted": true,
+    "timing_clean": true,
+    "nc_ok": true
+   },
+   "gate_pass": false
+  },
+  "T1": {
+   "real": {
+    "n": 87,
+    "total": -52881.5,
+    "months": {
+     "2026-01": -14611.5,
+     "2026-02": 7542.75,
+     "2026-03": -10826.25,
+     "2026-04": -21938.5,
+     "2026-05": -14694.25,
+     "2026-06": 15783.5,
+     "2026-07": -5823.5,
+     "2026-08": 4175.5,
+     "2026-09": -7363.25,
+     "2026-10": -5126.0
+    },
+    "h1": -54527.75,
+    "h2": 1646.25,
+    "ex_top3": -82674.0,
+    "top3": [
+     11155.0,
+     11155.0,
+     7482.5
+    ],
+    "ft": 11,
+    "pace_per_month": -5288.15,
+    "nov_n": 4,
+    "nov_total": 18555.0,
+    "nov_trades": [
+     {
+      "trade_date": "2026-11-03",
+      "direction": "CE",
+      "strike": 23650,
+      "entry": 58.2,
+      "exit": 123.6,
+      "exit_time": "15:20",
+      "exit_reason": "square_off",
+      "net": 4031.0
+     },
+     {
+      "trade_date": "2026-11-05",
+      "direction": "CE",
+      "strike": 24350,
+      "entry": 159.7,
+      "exit": 268.3,
+      "exit_time": "15:20",
+      "exit_reason": "runner_square_off",
+      "net": 6839.0
+     },
+     {
+      "trade_date": "2026-11-06",
+      "direction": "CE",
+      "strike": 24600,
+      "entry": 159.65,
+      "exit": 334.65,
+      "exit_time": "14:30",
+      "exit_reason": "runner_target",
+      "net": 11155.0
+     },
+     {
+      "trade_date": "2026-11-12",
+      "direction": "CE",
+      "strike": 25350,
+      "entry": 193.65,
+      "exit": 143.65,
+      "exit_time": "12:05",
+      "exit_reason": "stop",
+      "net": -3470.0
+     }
+    ]
+   },
+   "nc": [],
+   "timing_violations": 0,
+   "reversed": {
+    "n": 87,
+    "total": 9307.9,
+    "months": {
+     "2026-01": 7859.65,
+     "2026-02": 626.75,
+     "2026-03": 8105.0,
+     "2026-04": 9856.25,
+     "2026-05": 13743.25,
+     "2026-06": 3732.5,
+     "2026-07": -2008.0,
+     "2026-08": -11918.5,
+     "2026-09": -2611.75,
+     "2026-10": -18077.25
+    },
+    "h1": 40190.9,
+    "h2": -30883.0,
+    "ex_top3": -24157.1,
+    "top3": [
+     11155.0,
+     11155.0,
+     11155.0
+    ],
+    "ft": 20,
+    "pace_per_month": 930.79,
+    "nov_n": 4,
+    "nov_total": -9824.0,
+    "nov_trades": [
+     {
+      "trade_date": "2026-11-03",
+      "direction": "PE",
+      "strike": 23650,
+      "entry": 54.45,
+      "exit": 4.450000000000003,
+      "exit_time": "15:10",
+      "exit_reason": "stop",
+      "net": -3470.0
+     },
+     {
+      "trade_date": "2026-11-05",
+      "direction": "PE",
+      "strike": 24350,
+      "entry": 140.15,
+      "exit": 90.15,
+      "exit_time": "13:00",
+      "exit_reason": "stop",
+      "net": -3470.0
+     },
+     {
+      "trade_date": "2026-11-06",
+      "direction": "PE",
+      "strike": 24600,
+      "entry": 186.25,
+      "exit": 136.25,
+      "exit_time": "12:10",
+      "exit_reason": "stop",
+      "net": -3470.0
+     },
+     {
+      "trade_date": "2026-11-12",
+      "direction": "PE",
+      "strike": 25350,
+      "entry": 206.0,
+      "exit": 218.4,
+      "exit_time": "15:20",
+      "exit_reason": "square_off",
+      "net": 586.0
+     }
+    ]
+   },
+   "reversed_nc": 0,
+   "coin": {
+    "n": 87,
+    "total": -40823.35,
+    "months": {
+     "2026-01": -15498.1,
+     "2026-02": -13221.5,
+     "2026-03": 7698.75,
+     "2026-04": -12006.5,
+     "2026-05": -3969.25,
+     "2026-06": 16423.75,
+     "2026-07": 676.5,
+     "2026-08": 600.5,
+     "2026-09": -5764.25,
+     "2026-10": -15763.25
+    },
+    "h1": -36996.6,
+    "h2": -3826.75,
+    "ex_top3": -74288.35,
+    "top3": [
+     11155.0,
+     11155.0,
+     11155.0
+    ],
+    "ft": 12,
+    "pace_per_month": -4082.34,
+    "nov_n": 4,
+    "nov_total": 11054.0,
+    "nov_trades": [
+     {
+      "trade_date": "2026-11-03",
+      "direction": "PE",
+      "strike": 23650,
+      "entry": 54.45,
+      "exit": 4.450000000000003,
+      "exit_time": "15:10",
+      "exit_reason": "stop",
+      "net": -3470.0
+     },
+     {
+      "trade_date": "2026-11-05",
+      "direction": "CE",
+      "strike": 24350,
+      "entry": 159.7,
+      "exit": 268.3,
+      "exit_time": "15:20",
+      "exit_reason": "runner_square_off",
+      "net": 6839.0
+     },
+     {
+      "trade_date": "2026-11-06",
+      "direction": "CE",
+      "strike": 24600,
+      "entry": 159.65,
+      "exit": 334.65,
+      "exit_time": "14:30",
+      "exit_reason": "runner_target",
+      "net": 11155.0
+     },
+     {
+      "trade_date": "2026-11-12",
+      "direction": "CE",
+      "strike": 25350,
+      "entry": 193.65,
+      "exit": 143.65,
+      "exit_time": "12:05",
+      "exit_reason": "stop",
+      "net": -3470.0
+     }
+    ]
+   },
+   "coin_nc": 0,
+   "shifted": {
+    "n": 87,
+    "total": -30462.35,
+    "months": {
+     "2026-01": -9560.35,
+     "2026-02": 3789.0,
+     "2026-03": -12851.0,
+     "2026-04": -6865.0,
+     "2026-05": -11957.75,
+     "2026-06": 15419.5,
+     "2026-07": -6655.5,
+     "2026-08": -842.5,
+     "2026-09": -4698.25,
+     "2026-10": 3759.5
+    },
+    "h1": -37445.1,
+    "h2": 6982.75,
+    "ex_top3": -63927.35,
+    "top3": [
+     11155.0,
+     11155.0,
+     11155.0
+    ],
+    "ft": 9,
+    "pace_per_month": -3046.23,
+    "nov_n": 4,
+    "nov_total": 19504.0,
+    "nov_trades": [
+     {
+      "trade_date": "2026-11-03",
+      "direction": "CE",
+      "strike": 23650,
+      "entry": 72.75,
+      "exit": 123.6,
+      "exit_time": "15:20",
+      "exit_reason": "square_off",
+      "net": 3085.25
+     },
+     {
+      "trade_date": "2026-11-05",
+      "direction": "CE",
+      "strike": 24350,
+      "entry": 174.45,
+      "exit": 268.3,
+      "exit_time": "15:20",
+      "exit_reason": "runner_square_off",
+      "net": 5880.25
+     },
+     {
+      "trade_date": "2026-11-06",
+      "direction": "CE",
+      "strike": 24600,
+      "entry": 174.65,
+      "exit": 349.65,
+      "exit_time": "14:30",
+      "exit_reason": "runner_target",
+      "net": 11155.0
+     },
+     {
+      "trade_date": "2026-11-12",
+      "direction": "CE",
+      "strike": 25350,
+      "entry": 160.55,
+      "exit": 154.45,
+      "exit_time": "15:20",
+      "exit_reason": "square_off",
+      "net": -616.5
+     }
+    ]
+   },
+   "shifted_nc": 0,
+   "gate_legs": {
+    "total_pos": false,
+    "halves_pos": false,
+    "ex_top3_pos": false,
+    "beats_reversed": false,
+    "beats_coin": false,
+    "beats_shifted": false,
+    "timing_clean": true,
+    "nc_ok": true
+   },
+   "gate_pass": false
+  }
+ },
+ "resum_check": "EXACT for all scored Nifty books",
+ "merge": {
+  "tv1_anchor": {
+   "legs": 74,
+   "total": 103050.25,
+   "trade_days": 66,
+   "per_trade_day": 1561.37
+  },
+  "D1": {
+   "increment_legs": 24,
+   "increment_total": 13264.5,
+   "merged_total": 116314.75,
+   "merged_trade_days": 90,
+   "merged_per_trade_day": 1292.39,
+   "merged_months": {
+    "2026-01": 23332.0,
+    "2026-02": 8918.25,
+    "2026-03": -8156.5,
+    "2026-04": 23971.25,
+    "2026-05": 11504.0,
+    "2026-06": 11034.0,
+    "2026-07": 10673.0,
+    "2026-08": 8076.75,
+    "2026-09": 6801.5,
+    "2026-10": 20160.5
+   },
+   "merged_red_months": [
+    "2026-03"
+   ],
+   "merge_pass": true,
+   "november_family_legs": [],
+   "november_increment_legs": [],
+   "november_merged_total": 3036.5
+  },
+  "T1": {
+   "increment_legs": 60,
+   "increment_total": -58729.25,
+   "merged_total": 44321.0,
+   "merged_trade_days": 126,
+   "merged_per_trade_day": 351.75,
+   "merged_months": {
+    "2026-01": 5292.25,
+    "2026-02": 9164.0,
+    "2026-03": -8376.5,
+    "2026-04": 9632.75,
+    "2026-05": -3600.25,
+    "2026-06": 7278.0,
+    "2026-07": 3449.25,
+    "2026-08": 2808.25,
+    "2026-09": 3638.75,
+    "2026-10": 15034.5
+   },
+   "merged_red_months": [
+    "2026-03",
+    "2026-05"
+   ],
+   "merge_pass": false,
+   "november_family_legs": [
+    {
+     "trade_date": "2026-11-03",
+     "direction": "CE",
+     "strike": "23650",
+     "entry": "58.2",
+     "exit": "123.6",
+     "exit_reason": "square_off",
+     "net": "4031.0"
+    },
+    {
+     "trade_date": "2026-11-05",
+     "direction": "CE",
+     "strike": "24350",
+     "entry": "159.7",
+     "exit": "268.3",
+     "exit_reason": "runner_square_off",
+     "net": "6839.0"
+    },
+    {
+     "trade_date": "2026-11-06",
+     "direction": "CE",
+     "strike": "24600",
+     "entry": "159.65",
+     "exit": "334.65",
+     "exit_reason": "runner_target",
+     "net": "11155.0"
+    },
+    {
+     "trade_date": "2026-11-12",
+     "direction": "CE",
+     "strike": "25350",
+     "entry": "193.65",
+     "exit": "143.65",
+     "exit_reason": "stop",
+     "net": "-3470.0"
+    }
+   ],
+   "november_increment_legs": [
+    {
+     "trade_date": "2026-11-05",
+     "direction": "CE",
+     "strike": "24350",
+     "entry": "159.7",
+     "exit": "268.3",
+     "exit_reason": "runner_square_off",
+     "net": "6839.0"
+    },
+    {
+     "trade_date": "2026-11-06",
+     "direction": "CE",
+     "strike": "24600",
+     "entry": "159.65",
+     "exit": "334.65",
+     "exit_reason": "runner_target",
+     "net": "11155.0"
+    },
+    {
+     "trade_date": "2026-11-12",
+     "direction": "CE",
+     "strike": "25350",
+     "entry": "193.65",
+     "exit": "143.65",
+     "exit_reason": "stop",
+     "net": "-3470.0"
+    }
+   ],
+   "november_merged_total": 17560.5
+  }
+ }
+}

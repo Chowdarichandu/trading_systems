@@ -1,0 +1,120 @@
+{
+ "date": "2026-11-12",
+ "generated_at": "2026-11-12T12:52:00+05:30",
+ "directives": [
+  {
+   "id": "prod-nifty-2026-11-09-BASE-PE",
+   "index": "nifty",
+   "kind": "BASE",
+   "direction": "PE",
+   "signal_time": "10:40",
+   "sources": [
+    "V5",
+    "Skill"
+   ]
+  },
+  {
+   "id": "prod-bank-2026-11-09-BASE-PE",
+   "index": "bank",
+   "kind": "BASE",
+   "direction": "PE",
+   "signal_time": "10:40",
+   "sources": [
+    "Skill"
+   ]
+  },
+  {
+   "id": "intraday-nifty-2026-11-09-BASE-PE:exit-stop",
+   "index": "nifty",
+   "kind": "EXIT",
+   "direction": "PE",
+   "strike": 24800,
+   "expiry": "2026-11-23",
+   "signal_time": "10:40",
+   "entry_time": "10:45",
+   "entry_premium": 293.85,
+   "exit_time": "11:25",
+   "exit_premium": 243.85,
+   "exit_reason": "stop",
+   "net_inr": -3470.0,
+   "sources": [
+    "V5 v2",
+    "Skill V3"
+   ]
+  },
+  {
+   "id": "intraday-bank-2026-11-11-NS1_SECOND-CE",
+   "index": "bank",
+   "kind": "NS1_SECOND",
+   "direction": "CE",
+   "strike": 60800,
+   "expiry": "2026-11-23",
+   "signal_time": "13:55",
+   "entry_time": "14:00",
+   "entry_premium": 823.1,
+   "stop": 773.1,
+   "target": 913.1,
+   "sources": [
+    "Skill"
+   ],
+   "room_ratio": "inf",
+   "bias": "bullish"
+  },
+  {
+   "id": "intraday-bank-2026-11-11-NS1_SECOND-CE:exit-target",
+   "index": "bank",
+   "kind": "EXIT",
+   "direction": "CE",
+   "strike": 60800,
+   "expiry": "2026-11-23",
+   "signal_time": "13:55",
+   "entry_time": "14:00",
+   "entry_premium": 823.1,
+   "exit_time": "14:05",
+   "exit_premium": 913.1,
+   "exit_reason": "target",
+   "net_inr": 2480.0,
+   "sources": [
+    "Skill"
+   ]
+  },
+  {
+   "id": "intraday-bank-2026-11-12-NS1_SECOND-CE",
+   "index": "bank",
+   "kind": "NS1_SECOND",
+   "direction": "CE",
+   "strike": 61200,
+   "expiry": "2026-11-23",
+   "instrument_key": "NSE_FO|62339",
+   "signal_time": "12:40",
+   "entry_time": "12:45",
+   "entry_premium": 710.0,
+   "stop": 660.0,
+   "target": 800.0,
+   "sources": [
+    "Skill"
+   ],
+   "room_ratio": 2.552,
+   "bias": "neutral"
+  },
+  {
+   "id": "intraday-bank-2026-11-12-NS1_SECOND-CE:exit-target",
+   "index": "bank",
+   "kind": "EXIT",
+   "direction": "CE",
+   "strike": 61200,
+   "expiry": "2026-11-23",
+   "instrument_key": "NSE_FO|62339",
+   "signal_time": "12:40",
+   "entry_time": "12:45",
+   "entry_premium": 710.0,
+   "exit_time": "13:05",
+   "exit_premium": 800.0,
+   "exit_reason": "target",
+   "net_inr": 2480.0,
+   "sources": [
+    "Skill"
+   ]
+  }
+ ]
+}

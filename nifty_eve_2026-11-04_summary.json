@@ -1,0 +1,282 @@
+{
+ "candidate": "NIFTY-EVE-07 \u2014 DEC-S1 minus Component B PE legs (no gap-up fades)",
+ "source": "/home/hatch/workspace/trading/nifty_next_phase_trades.csv",
+ "independent_resum_base": 91168.5,
+ "dropped_legs": 23,
+ "dropped_net": -11881.75,
+ "dropped_full_stops": 8,
+ "incumbent_DEC_S1": {
+  "legs": 97,
+  "net": 91168.5,
+  "ft_pct": 34.0,
+  "h1_jan_may": 45393.5,
+  "h2_jun_oct": 45775.0,
+  "ex_top3": 57703.5,
+  "months": [
+   {
+    "month": "2026-01",
+    "net": 19211.25,
+    "cum": 19211.25
+   },
+   {
+    "month": "2026-02",
+    "net": 5038.75,
+    "cum": 24250.0
+   },
+   {
+    "month": "2026-03",
+    "net": -11846.5,
+    "cum": 12403.5
+   },
+   {
+    "month": "2026-04",
+    "net": 28416.0,
+    "cum": 40819.5
+   },
+   {
+    "month": "2026-05",
+    "net": 4574.0,
+    "cum": 45393.5
+   },
+   {
+    "month": "2026-06",
+    "net": -1331.0,
+    "cum": 44062.5
+   },
+   {
+    "month": "2026-07",
+    "net": 5839.0,
+    "cum": 49901.5
+   },
+   {
+    "month": "2026-08",
+    "net": 841.25,
+    "cum": 50742.75
+   },
+   {
+    "month": "2026-09",
+    "net": 20265.25,
+    "cum": 71008.0
+   },
+   {
+    "month": "2026-10",
+    "net": 20160.5,
+    "cum": 91168.5
+   }
+  ],
+  "worst_day": [
+   "2026-07-14",
+   -5295.5
+  ],
+  "leg_days": 88
+ },
+ "variant": {
+  "legs": 74,
+  "net": 103050.25,
+  "ft_pct": 37.8,
+  "h1_jan_may": 52319.25,
+  "h2_jun_oct": 50731.0,
+  "ex_top3": 69585.25,
+  "months": [
+   {
+    "month": "2026-01",
+    "net": 15531.25,
+    "cum": 15531.25
+   },
+   {
+    "month": "2026-02",
+    "net": 9229.25,
+    "cum": 24760.5
+   },
+   {
+    "month": "2026-03",
+    "net": -1216.5,
+    "cum": 23544.0
+   },
+   {
+    "month": "2026-04",
+    "net": 24411.25,
+    "cum": 47955.25
+   },
+   {
+    "month": "2026-05",
+    "net": 4364.0,
+    "cum": 52319.25
+   },
+   {
+    "month": "2026-06",
+    "net": 4828.0,
+    "cum": 57147.25
+   },
+   {
+    "month": "2026-07",
+    "net": 10463.0,
+    "cum": 67610.25
+   },
+   {
+    "month": "2026-08",
+    "net": 1911.75,
+    "cum": 69522.0
+   },
+   {
+    "month": "2026-09",
+    "net": 13367.75,
+    "cum": 82889.75
+   },
+   {
+    "month": "2026-10",
+    "net": 20160.5,
+    "cum": 103050.25
+   }
+  ],
+  "worst_day": [
+   "2026-07-14",
+   -5295.5
+  ],
+  "leg_days": 66
+ },
+ "placebo_mirror_drop_B_CE": {
+  "legs": 71,
+  "net": 45662.0,
+  "ft_pct": 28.2,
+  "h1_jan_may": 21207.25,
+  "h2_jun_oct": 24454.75,
+  "ex_top3": 12197.0,
+  "months": [
+   {
+    "month": "2026-01",
+    "net": 19211.25,
+    "cum": 19211.25
+   },
+   {
+    "month": "2026-02",
+    "net": 7949.75,
+    "cum": 27161.0
+   },
+   {
+    "month": "2026-03",
+    "net": -6205.0,
+    "cum": 20956.0
+   },
+   {
+    "month": "2026-04",
+    "net": 4214.75,
+    "cum": 25170.75
+   },
+   {
+    "month": "2026-05",
+    "net": -3963.5,
+    "cum": 21207.25
+   },
+   {
+    "month": "2026-06",
+    "net": -10069.0,
+    "cum": 11138.25
+   },
+   {
+    "month": "2026-07",
+    "net": -782.0,
+    "cum": 10356.25
+   },
+   {
+    "month": "2026-08",
+    "net": 841.25,
+    "cum": 11197.5
+   },
+   {
+    "month": "2026-09",
+    "net": 17984.0,
+    "cum": 29181.5
+   },
+   {
+    "month": "2026-10",
+    "net": 16480.5,
+    "cum": 45662.0
+   }
+  ],
+  "worst_day": [
+   "2026-03-17",
+   -3690.0
+  ],
+  "leg_days": 70
+ },
+ "placebo_chrono_skip_first23_B": {
+  "legs": 74,
+  "net": 89907.25,
+  "ft_pct": 33.8,
+  "h1_jan_may": 44132.25,
+  "h2_jun_oct": 45775.0,
+  "ex_top3": 56442.25,
+  "months": [
+   {
+    "month": "2026-01",
+    "net": 15531.25,
+    "cum": 15531.25
+   },
+   {
+    "month": "2026-02",
+    "net": 12140.25,
+    "cum": 27671.5
+   },
+   {
+    "month": "2026-03",
+    "net": 4425.0,
+    "cum": 32096.5
+   },
+   {
+    "month": "2026-04",
+    "net": 7461.75,
+    "cum": 39558.25
+   },
+   {
+    "month": "2026-05",
+    "net": 4574.0,
+    "cum": 44132.25
+   },
+   {
+    "month": "2026-06",
+    "net": -1331.0,
+    "cum": 42801.25
+   },
+   {
+    "month": "2026-07",
+    "net": 5839.0,
+    "cum": 48640.25
+   },
+   {
+    "month": "2026-08",
+    "net": 841.25,
+    "cum": 49481.5
+   },
+   {
+    "month": "2026-09",
+    "net": 20265.25,
+    "cum": 69746.75
+   },
+   {
+    "month": "2026-10",
+    "net": 20160.5,
+    "cum": 89907.25
+   }
+  ],
+  "worst_day": [
+   "2026-07-14",
+   -5295.5
+  ],
+  "leg_days": 69
+ },
+ "green_to_red_flips": [],
+ "gate_legs": {
+  "net_beats_incumbent": true,
+  "ft_not_diluted_vs_decs1": true,
+  "halves_both_positive": true,
+  "no_green_month_flips_red": true,
+  "no_red_month_end_cumulative": true,
+  "ex_top3_positive": true,
+  "placebo_mirror_beaten": true,
+  "placebo_chrono_beaten": true,
+  "nc_zero": true,
+  "timing_clean": true
+ },
+ "verdict": "PASS"
+}

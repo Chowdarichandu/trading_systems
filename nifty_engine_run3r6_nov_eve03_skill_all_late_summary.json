@@ -1,0 +1,112 @@
+{
+ "name": "nov_eve03_skill_all_late",
+ "n": 77,
+ "total": 9878.35,
+ "resum": 9878.35,
+ "resum_ok": true,
+ "ft": 16,
+ "ft_pct": 20.8,
+ "per_week": 1.9,
+ "not_computed": 1,
+ "red_month_ends": [
+  "2026-06",
+  "2026-07",
+  "2026-08"
+ ],
+ "month_table": {
+  "2026-01": [
+   5690.0,
+   5690.0
+  ],
+  "2026-02": [
+   7935.5,
+   13625.5
+  ],
+  "2026-03": [
+   2517.0,
+   16142.5
+  ],
+  "2026-04": [
+   1803.25,
+   17945.75
+  ],
+  "2026-05": [
+   -17350.0,
+   595.75
+  ],
+  "2026-06": [
+   -6308.75,
+   -5713.0
+  ],
+  "2026-07": [
+   -2778.5,
+   -8491.5
+  ],
+  "2026-08": [
+   1101.85,
+   -7389.65
+  ],
+  "2026-09": [
+   7727.5,
+   337.85
+  ],
+  "2026-10": [
+   9540.5,
+   9878.35
+  ]
+ },
+ "halves": {
+  "Jan-May": 595.75,
+  "Jun-Oct": 9282.6
+ },
+ "ex_top3": -23586.65,
+ "top3": [
+  11155.0,
+  11155.0,
+  11155.0
+ ],
+ "placebo_shift30_total": -11814.75,
+ "october": 9540.5,
+ "timing_audit": {
+  "checked": 77,
+  "violations": 1
+ },
+ "nc_legs": [
+  "('2026-10-28', 'PE', 22500)"
+ ],
+ "may": -17350.0,
+ "august": 1101.85,
+ "nc_named_not_computed": "2026-10-28 22500 PE weekly expiry 2026-11-03 \u2014 NOT_COMPUTED (registry 0 contracts, Rounds 3-5); not in any Round-6 population",
+ "gate_relative": {
+  "banked": false,
+  "checks": {
+   "net_above_baseline": false,
+   "ft_not_degraded": false,
+   "frequency_not_degraded": true,
+   "no_green_month_flips_red": false,
+   "no_red_month_ends": false,
+   "halves_both>=0": true,
+   "placebo_beaten": true,
+   "ex_top3>=0": false,
+   "timing_audit_clean": false,
+   "not_computed_zero": false,
+   "resum_exact": true
+  },
+  "green_to_red": [
+   "2026-07"
+  ],
+  "vs_label": "Standing causal book +54,102.00",
+  "vs_total": 54102.0,
+  "vs_ft_pct": 34.3,
+  "vs_per_week": 0.86
+ },
+ "old_absolute_lines_status": {
+  "FT>=42.0": false,
+  "freq>=1.00/wk": true
+ },
+ "eve_label": "EVE-03b standing + ALL solo Skill entry>09:55",
+ "eve_additions": 43,
+ "eve_sleeve_total": -44223.65,
+ "eve_sleeve_n": 42,
+ "eve_sleeve_nc": 1
+}

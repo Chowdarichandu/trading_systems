@@ -1,0 +1,103 @@
+{
+ "name": "r6_c121_solo_skill",
+ "n": 93,
+ "total": 28280.25,
+ "resum": 28280.25,
+ "resum_ok": true,
+ "ft": 24,
+ "ft_pct": 25.8,
+ "per_week": 2.29,
+ "not_computed": 1,
+ "red_month_ends": [],
+ "month_table": {
+  "2026-01": [
+   6800.25,
+   6800.25
+  ],
+  "2026-02": [
+   2502.75,
+   9303.0
+  ],
+  "2026-03": [
+   10780.5,
+   20083.5
+  ],
+  "2026-04": [
+   2467.0,
+   22550.5
+  ],
+  "2026-05": [
+   -12733.0,
+   9817.5
+  ],
+  "2026-06": [
+   7069.25,
+   16886.75
+  ],
+  "2026-07": [
+   -225.25,
+   16661.5
+  ],
+  "2026-08": [
+   -1761.25,
+   14900.25
+  ],
+  "2026-09": [
+   5055.0,
+   19955.25
+  ],
+  "2026-10": [
+   8325.0,
+   28280.25
+  ]
+ },
+ "halves": {
+  "Jan-May": 9817.5,
+  "Jun-Oct": 18462.75
+ },
+ "ex_top3": -5184.75,
+ "top3": [
+  11155.0,
+  11155.0,
+  11155.0
+ ],
+ "placebo_shift30_total": -3205.1,
+ "october": 8325.0,
+ "timing_audit": {
+  "checked": 93,
+  "violations": 1
+ },
+ "nc_legs": [
+  "('2026-10-28', 'PE', 22500)"
+ ],
+ "may": -12733.0,
+ "august": -1761.25,
+ "nc_named_not_computed": "2026-10-28 22500 PE weekly expiry 2026-11-03 \u2014 NOT_COMPUTED (registry 0 contracts, Rounds 3-5); not in any Round-6 population",
+ "gate_relative": {
+  "banked": false,
+  "checks": {
+   "net_above_baseline": false,
+   "ft_not_degraded": false,
+   "frequency_not_degraded": true,
+   "no_green_month_flips_red": false,
+   "no_red_month_ends": true,
+   "halves_both>=0": true,
+   "placebo_beaten": true,
+   "ex_top3>=0": false,
+   "timing_audit_clean": false,
+   "not_computed_zero": false,
+   "resum_exact": true
+  },
+  "green_to_red": [
+   "2026-07"
+  ],
+  "vs_label": "Causal book (Round-5 WS0 baseline)",
+  "vs_total": 50618.0,
+  "vs_ft_pct": 34.3,
+  "vs_per_week": 0.86
+ },
+ "old_absolute_lines_status": {
+  "FT>=42.0": false,
+  "freq>=1.00/wk": true
+ }
+}

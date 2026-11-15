@@ -1,0 +1,37 @@
+2026-11-09T10:12:35+05:30 runner start 2026-11-09 (once=False) — PAPER ONLY, real money Rs 0
+Traceback (most recent call last):
+  File "/home/hatch/workspace/trading/live_shadow_runner.py", line 410, in <module>
+    main()
+  File "/home/hatch/workspace/trading/live_shadow_runner.py", line 406, in main
+    run(day, a.once, a.no_feed)
+  File "/home/hatch/workspace/trading/live_shadow_runner.py", line 333, in run
+    instruments = Instruments()
+                  ^^^^^^^^^^^^^
+  File "/home/hatch/workspace/trading/live_shadow_runner.py", line 133, in __init__
+    raw = urllib.request.urlopen(req, timeout=120).read()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/http/client.py", line 500, in read
+    s = self._safe_read(self.length)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/http/client.py", line 650, in _safe_read
+    raise IncompleteRead(data, amt - len(data))
+http.client.IncompleteRead: IncompleteRead(817864 bytes read, 831985 more expected)
+2026-11-09T10:53:11+05:30 runner start 2026-11-09 (once=False) — PAPER ONLY, real money Rs 0
+Traceback (most recent call last):
+  File "/home/hatch/workspace/trading/live_shadow_runner.py", line 423, in <module>
+    main()
+  File "/home/hatch/workspace/trading/live_shadow_runner.py", line 419, in main
+    run(day, a.once, a.no_feed)
+  File "/home/hatch/workspace/trading/live_shadow_runner.py", line 348, in run
+    ikey = instruments.option_key(cfg["underlying"], expiry,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hatch/workspace/trading/live_shadow_runner.py", line 177, in option_key
+    raise RuntimeError(f"contract not found {underlying} {strike}{typ} {expiry}")
+RuntimeError: contract not found NIFTY 25000PE 2026-11-23
+2026-11-09T10:54:57+05:30 runner start 2026-11-09 (once=False) — PAPER ONLY, real money Rs 0
+2026-11-09T10:55:15+05:30 OPEN nifty PE 25000 @ 362.25 (LIVE-SHADOW, sources=V5+Skill)
+2026-11-09T10:57:18+05:30 OPEN bank PE 59300 @ 906.45 (LIVE-SHADOW, sources=Skill)
+2026-11-09T11:15:14+05:30 CLOSE bank PE 59300 @ 854.15 reason=stop net=-1789.00 (LIVE-SHADOW)
+2026-11-09T11:33:43+05:30 REJECT nifty intraday-nifty-2026-11-09-BASE-PE:exit-stop: unique-once: key already taken today
+2026-11-09T11:36:02+05:30 CLOSE nifty PE 25000 @ 305.0 reason=stop net=-3941.25 (LIVE-SHADOW)
+2026-11-13T11:09:05+05:30 runner start 2026-11-13 (once=False) — PAPER ONLY, real money Rs 0

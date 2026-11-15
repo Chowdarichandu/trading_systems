@@ -160,3 +160,290 @@
 - **Plateau, stated honestly:** Nifty best book +₹98,001.00 Jan–Oct = **~₹9,800/month** (59 trades, FT 39.0%, 1.45/week, no red month-ends; negative individual months May −₹5,793.00, August −₹3,671.00). Combined arithmetic (per-index lines only, no pooled verdict): Bank engine's frozen best (read-only snapshot of `bank_engine_state.json`, itself terminated SATURATED Run 2) +₹77,196.50 + Nifty +₹98,001.00 = +₹175,197.50 vs Chandu's lowered ₹200,000 Jan–Oct (₹20,000/month) combined line — **SUCCESS not reached; remaining pair gap ₹24,802.50 (₹2,480/month)**. Both engines are now saturated: every causal gate bucket on the Nifty leg set is net-positive (lessons 23–25), the stop-basis family is closed (lesson 26), and the remaining levers are outside this engine — the BLOCKED premium-candle fetch (5 U1 legs, 21 S1 legs, ±100 strike contracts), a genuinely new data source/mechanism, or Chandu's CH3 quality-for-frequency judgement (flagged variant +₹109,591.50 at 1.16/week, still untouched and unbanked).
 - **Frozen candidate for fresh-data judging:** the best book (C3L + BE50 + lock75 + TGT2-180 + EXP0, verbatim in `nifty_engine_frozen.md`) stands as the December candidate; adoption verdict belongs to the Nifty channel after fresh data. November paper NF-PAPER-C3G7 was never touched by this engine (spec/log timestamps verified unchanged, 2026-10-30).
 - Resisting month/family at exhaustion: August — its PE drift legs are entry-quality facts; gates find them only at a net cost elsewhere, exit geometry cannot reach legs that never progress, and the stop basis carries no signal.
+
+# RUN 3 — per-segment floor session (2026-11-02; Chandu's directive: Nifty must reach ₹15,000/month on its own = ≥ ₹1,50,000 Jan–Oct gated pace; starting book = Run-2 final, +₹98,001.00, gap ₹51,999)
+
+## Data wall cleared first (no cycles scored on fetched data before the gate)
+- The fetch route that blocked Runs 1–2 (expired-instruments API, browser User-Agent + script token) works from this session: `nifty_engine_run3_fetch.py` fetched the 5 dropped solo non-Skill U1 contracts (5/5 OK, entry bars verified); `nifty_engine_run3_fetch_s1.py` fetched the 21 missing BASE_S1 contracts (21/21 OK); `nifty_engine_run3_fetch_c19c20.py` + `nifty_engine_run3_fetch_weekly.py` fetched the 59 ITM ±100 strike contracts and the 59 weekly-expiry contracts (one trap caught and fixed: the first weekly pass's have-check was fooled by the candle loader's glob fallback returning monthly files — the corrected pass checked exact cache files, fetched the 44 genuinely missing, and verified content differs from the monthly files; the only identical pairs are the two legs whose weekly expiry IS the monthly expiry, 2026-10-27). Every previously NOT_COMPUTED family is now scorable; nothing in Run 3 is estimated or spot-scored.
+
+## Run 3 Cycle 1 (engine Cycle 16) — target August — CH3-R (opening-window confirmation on the EXP0 incumbent) — NOT BANKED (flagged, re-measured)
+- Frozen in `nifty_engine_frozen.md` before scoring, with the family's pre-stated banking conditions (August must not worsen; a material frequency cut → flagged, per protocol + Cycle-9 pre-registration).
+- Controls (same run, `nifty_engine_run3_cycle16.py`): incumbent reproduced exactly first (+₹98,001.00, 59 legs, 0 NC); timing audit 44/44, 0 violations; placebo (entry +30 min) +₹48,911.00 — beaten; halves Jan–May +₹62,022.00 / Jun–Oct +₹49,662.75; ex-top-3 +₹77,244.75; independent re-sum exact; 0 NOT_COMPUTED; no red month-ends.
+- Result (premiums per 1 lot, 65): **Jan–Oct +₹111,684.75** (44 trades, FT **45.5%**, **1.08/week**). Dropped 15 late confirmed legs netting −₹13,683.75 in the incumbent — but August's dropped legs net **+₹1,516.25** (24 Aug +₹4,655.00 runner-stop, 27 Aug +₹1,096.25 kept-side winners outweigh its dropped losers), so August worsens −₹3,671.00 → **−₹5,187.25**; May improves −₹5,793.00 → −₹2,323.00; October +₹28,150.00 → +₹28,370.00.
+- Gate: net ↑ and FT ↑, but the family's two pre-stated conditions fail (August worsens; frequency materially cut 1.45 → 1.08/week) → **NOT BANKED. Flagged variant updated in state at +₹111,684.75 / FT 45.5% / 1.08 per week** for Chandu's judgement; even adopted, it leaves ₹38,315.25 of the floor gap. New lesson 27. Run-3 no-bank count: 1.
+
+## Run 3 Cycle 2 (engine Cycle 17) — target August — C3L+EV5 (the five fetched dropped solo non-Skill legs) — REJECTED
+- Frozen before scoring. Controls (same run, `nifty_engine_run3_cycle17_18.py`): incumbent reproduced exactly; timing audit 64/64; placebo +₹7,942.00 beaten; halves +₹43,572.00 / +₹37,930.50; ex-top-3 +₹47,062.50; re-sum exact; 0 NOT_COMPUTED; no red month-ends.
+- Result: **Jan–Oct +₹81,502.50** (64 trades, FT 35.9%, 1.58/week). The 5 added legs sum **−₹16,498.50**: 09 Jan CE Volrix −₹3,470.00 (stop), 12 May CE Volrix −₹3,470.00 (stop), 01 Jun CE Volrix −₹3,470.00 (stop), 16 Sep CE Volrix −₹3,470.00 (stop), 10 Aug PE (lA) −₹2,618.50 (square_off). May −₹5,793.00 → −₹9,263.00; August −₹3,671.00 → −₹6,289.50.
+- Gate: net falls −₹16,498.50, FT falls → **REJECTED. Best book unchanged.** New lesson 28 (Volrix solo is not a trusted-solo family; the (lA) early instance loses too — the solo question is closed for every U1 source on complete data). Run-3 no-bank count: 2.
+
+## Run 3 Cycle 3 (engine Cycle 18) — S1-44 (BASE_S1 union challenger) — REJECTED
+- Frozen before scoring (challenger cadence satisfied). Controls (same run): incumbent reproduced exactly; timing audit 101/101; placebo +₹2,970.75 beaten; halves +₹27,305.25 / +₹20,730.00; ex-top-3 +₹13,595.25; re-sum exact; 0 NOT_COMPUTED; no red month-ends (April and June flip negative as individual months; cumulative stays green).
+- Result: **Jan–Oct +₹48,035.25** (101 trades, FT **25.7%**, 2.49/week). The 42 kept S1 legs (2 of 44 dropped by EXP0) sum **−₹49,965.75**: 20 full stops, 3 runner-stops (+₹4,655.00 each), the rest small square-offs and stops. May −₹11,768.00, June −₹13,020.50, August −₹11,214.50.
+- Gate: net collapses, FT collapses → **REJECTED, decisively. Best book unchanged.** New lesson 29. Run-3 no-bank count: 3.
+
+## Run 3 Cycle 4 (engine Cycle 19) — ITM100 (blanket one-strike in-the-money shift) — REJECTED
+- Frozen before scoring; all 59 shifted contracts' candles fetched first (50 fresh + 9 October cached), exact-tag loading used for scoring so no leg can silently fall back to another contract's file. Controls: incumbent re-validated under exact loading (+₹98,001.00, 59, 0 NC); timing audit 59/59; placebo +₹41,239.75 beaten; halves +₹53,901.75 / +₹39,377.00; ex-top-3 +₹58,838.75; re-sum exact; 0 NOT_COMPUTED; no red month-ends.
+- Result: **Jan–Oct +₹93,278.75** (59 trades, FT **42.4%**, 1.45/week) — net −₹4,722.25. August improves (−₹2,046.00) and October rises (+₹28,813.00), but May worsens (−₹9,225.00) and July collapses (+₹12,239.00 → +₹4,845.25).
+- Gate: net falls → **REJECTED. Best book unchanged.** New lesson 30 (strike family closed on full data). Run-3 no-bank count: 4.
+
+## Run 3 Cycle 5 (engine Cycle 20) — WEEKLY (weekly-expiry-in-force challenger) — REJECTED
+- Frozen before scoring; weekly expiry calendar from the expired-instruments route (earliest weekly expiry strictly after each trade date); all 59 weekly contracts' candles on exact files. Controls: timing audit 59/59; placebo +₹25,977.75 beaten; halves +₹35,893.50 / +₹45,370.00; ex-top-3 +₹47,307.75; re-sum exact; 0 NOT_COMPUTED; no red month-ends.
+- Result: **Jan–Oct +₹81,263.50** (59 trades, FT 37.3%, 1.45/week) — net −₹16,737.50. August nearly repairs (−₹515.25) and May is unchanged (−₹5,939.25), but March collapses (+₹13,630.00 → +₹305.00) and October falls (+₹25,225.00).
+- Gate: net falls, FT slips → **REJECTED. Best book unchanged.** August-weekly recorded as a noted observation only (lesson 31) — not promoted, per the fragment rule. Run-3 no-bank count: 5.
+
+## Run 3 Cycle 6 (engine Cycle 21) — SQ1525 (square-off 15:25 instead of 15:10) — REJECTED — RUN 3 SATURATED
+- Frozen before scoring. Controls (same run, `nifty_engine_run3_cycle21.py`): incumbent reproduced exactly at 15:10 under exact loading; timing audit 59/59; placebo +₹22,711.50 beaten; halves +₹47,548.00 / +₹49,851.75; ex-top-3 +₹62,959.75; re-sum exact; 0 NOT_COMPUTED; no red month-ends.
+- Result: **Jan–Oct +₹97,399.75** (59 trades, FT 39.0% held, 1.45/week) — net −₹601.25, a wash. The 19 legs open at 15:10 in the incumbent net +₹39,201.00; the last 15 minutes reshuffles them (August +₹1,166.75 of improvement, May −₹1,972.75).
+- Gate: total does not rise → **REJECTED. Best book unchanged.** New lesson 32. Run-3 no-bank count: 6 consecutive.
+
+## ENGINE TERMINATION — RUN 3 SATURATED — 2026-11-02 (Cycle 21)
+- Stop conditions met: (c) six full cycles run, and (b) genuine saturation — every family left open at the Run-2 termination has now had its full-data test in this run and failed the gate, on top of the families closed in Runs 1–2. Remaining-family audit: entry gates on this leg set (exhausted, lessons 23–25 + PDROOM/WROOM5), exit geometry incl. lock/arm/target/ratchet/stop-basis/early exits (saturated, lessons 13–18, 21, 26), square-off convention both directions (Cycles 2, 21), leg additions — NS (lesson 1), EV5 (Cycle 17), S1 union (Cycle 18) — strike shift (F5 + Cycle 19), expiry instrument (Cycle 20), streak/state gates (lesson 20). The one positive-information object left is CH3-R, whose banking is Chandu's quality-for-frequency judgement by his own protocol — not an engine cycle.
+- **Full Run-3 climb (Jan–Oct premiums per 1 lot, 65; real money ₹0; UNIQUE-ONCE; cost ₹220/trade):** starting book +₹98,001.00 → Cycle 16 CH3-R +₹111,684.75 (NOT BANKED, flagged) → Cycle 17 EV5 +₹81,502.50 (rejected) → Cycle 18 S1-44 +₹48,035.25 (rejected) → Cycle 19 ITM100 +₹93,278.75 (rejected) → Cycle 20 WEEKLY +₹81,263.50 (rejected) → Cycle 21 SQ1525 +₹97,399.75 (rejected). **Peak unchanged: the Run-2 book, +₹98,001.00.**
+- **Against the 2026-11-02 floor (Nifty alone):** +₹98,001.00 Jan–Oct = **~₹9,800/month vs the ₹15,000/month floor — SUCCESS NOT REACHED; remaining gap ₹51,999 (₹5,200/month).** The flagged CH3-R variant (+₹111,684.75 ≈ ₹11,168/month) would still leave ₹38,315.25 (₹3,832/month). No honest in-sample lever remains in this workspace: further progress needs Chandu's CH3 judgement, a genuinely new signal source/mechanism, or December fresh data judging the frozen candidate.
+- **Frozen candidate for fresh-data judging:** unchanged — C3L + BE50 + lock75 + TGT2-180 + EXP0 (`nifty_engine_frozen.md`), the December candidate. November paper NF-PAPER-C3G7 was never touched by this session (read-only at most; spec/log untouched).
+- Session record: `nifty_engine_session_2026-11-02.md`; lessons 27–32 appended; state updated (run3 section, flagged variant re-measured).
+
+## RUN 3 — ROUND 2 (2026-11-02, standing order ~12:35 IST: no saturation conclusions; combinations and permutations; minimum 12 cycles — 18 run, cycles 22–39)
+
+Machinery: nifty_engine_r2_harness.py (exact-tag candle loading, configurable lock/TGT2 geometry), nifty_engine_r2_diag.py, nifty_engine_r2_phases_abc.py, nifty_engine_r2_phase_d.py; per-cycle summaries nifty_engine_run3r2_cycle{22..39}_summary.json. Incumbent entering round 2 validated by exact replay: 59 trades, +₹98,001.00.
+
+Phase A — confirmation permutations:
+- Cycle 22 P1 (pure 2-of-4, solo-(lA) exception removed): +₹88,097.75 / 52 / FT 38.5% — NOT BANKED. The 7 solo-(lA) legs are worth +₹9,903.25.
+- Cycle 23 P2 ((lA)-mandatory): +₹66,003.00 / 41 / FT 39.0% — NOT BANKED. Non-(lA) confirmations are worth +₹31,998.00.
+- Cycle 24 P3 (solo admission, entry ≥ 10:00): +₹59,663.75 / 101 scored + 1 NOT_COMPUTED (2026-10-28 22500 PE weekly; registry empty for expiry 2026-11-03 on 3 retries; baseline net −₹3,470 → exclusion biases P3 up) / FT 26.7% — NOT BANKED; July green→red.
+
+Phase B — G7 grid (lock × TGT2 on the incumbent book; all 59 trades, FT 39.0%, controls clean in every cell):
+40/130 +₹92,196.50 · 40/150 +₹91,172.75 · 40/175 +₹95,758.50 · 50/130 +₹93,997.00 · 50/150 +₹93,623.25 · **50/175 +₹98,209.00 BANKED (cycle 30, +₹208.00 over the incumbent — plateau top, recorded at face value with its size stated)** · 60/130 +₹88,533.75 · 60/150 +₹93,360.00 · 60/175 +₹97,945.75.
+
+Phase C — expiry-week pockets:
+- Cycle 34 EXP1 (skip DTE ≤ 1): +₹87,499.50 — NOT BANKED (DTE-1 legs +₹10,501.50 on the incumbent; mirror of DTE-0).
+- Cycle 35 EW-G7 (DTE 1–4 at lock50/TGT2-150): +₹94,292.75 — NOT BANKED (−₹3,708.25). Pocket family closed both directions.
+
+Phase D — combinations (full gate + CH3 family clauses: August ≥ −₹3,671.00, frequency ≥ 1.30/wk):
+- Cycle 36 CH3-R × grid-best: **+₹114,921.75 / 44 / FT 45.5% — standard gate PASS, family clauses FAIL (Aug −₹5,187.25; 1.08/wk) — NOT BANKED, FLAGGED as the session's best variant.**
+- Cycle 37 CH3-R × EW-G7: +₹108,434.75 — NOT BANKED (same clause failures).
+- Cycle 38 CH3S (CH3-R ∩ P1): +₹101,781.50 / 37 / FT 45.9% — NOT BANKED (frequency 0.91/wk).
+- Cycle 39 CH3-R × EXP1: +₹105,838.25 / 41 / FT 46.3% — NOT BANKED (same clause failures).
+
+ROUND 2 TERMINATION: 18 cycles ≥ the 12-cycle minimum; every directed family run (permutations 3, grid 9, pockets 2, combinations 4); the combination space over the session's improving objects is fully enumerated. Ending book +₹98,209.00 (~₹9,820.90/month); floor gap ₹51,791.00. Session total: 24 cycles (16–39), one banking (+₹208.00), one flagged variant (+₹114,921.75, Chandu's call in the Nifty channel).
+
+2026-11-02 — ADOPTION (Chandu's decision, ~12:46 IST): the flagged Cycle-36 variant CH3-R × lock50/TGT2-175 (+₹114,921.75 Jan–Oct, 44 trades, FT 45.5%, 1.08/wk, standard controls gate passed in full) is ADOPTED as Nifty's December candidate book, superseding the banked +₹98,209.00 book as the candidate line; the banked book remains the clause-compliant book of record, and the Cycle-36 NOT BANKED verdict stands unedited. The adoption WAIVES the CH3 family's two pre-stated clauses for this variant — August (−₹5,187.25, vs the clause's −₹3,671.00 floor) and frequency (1.08/wk, vs 1.45/wk incumbent) — both recorded as FAILED, not passed. Full frozen definition + waiver: nifty_engine_frozen.md, ADOPTION section 2026-11-02; state: nifty_engine_state.json → december_candidate. November paper untouched.
+
+## RUN 3 — ROUND 3 (2026-11-02, standing order ~12:59 IST: engines do NOT stop until the floor is met; targeted techniques on the ADOPTED book)
+
+Starting book: the ADOPTED December candidate (Cycle 36, adopted by Chandu ~12:46 IST) = CH3-R × lock50/TGT2-175 = +₹114,921.75 Jan–Oct, 44 trades, FT 45.5%, 1.08/wk; floor gap ₹35,078.25. Round-3 gate pre-registered in nifty_engine_frozen.md (Run 3 Round 3 section) before any scoring: banked only if total > +₹114,921.75, FT ≥ 42.0%, no adopted-green month flips red, no red month-ends, halves ≥ 0, placebo beaten, audit 0, NC 0, re-sum exact, frequency ≥ 1.00/wk — all vs the adopted book. Machinery: nifty_engine_r3_harness.py (validated: reproduces the adopted book, the EXP0 book at adopted geometry, and the Cycle-30 banking exactly); per-cycle summaries nifty_engine_run3r3_cycle{40..45,47..73}_summary.json. Cycles 40–73 (34 gated cycles + 1 data workstream).
+
+WS1 — the August wound (diagnosis: nifty_engine_r3_diag_august*.py):
+- The adopted book's August is 3 legs (11 Aug PE 24500, MFE +12.5, square-off −₹1,152.75; 19 Aug PE 24100, MFE +17.2, square-off −₹564.50; 31 Aug PE 24000, MFE +5.2, full stop −₹3,470.00). The premium never progressed on any of them; spot's max favourable excursion after entry ≤ 0.224% — no-trend days, decay did the damage. Entry-known features scanned book-wide (premium band, DTE, entry time, confirmation strength, weekday, morning spot range, prior-day range, 3-day vol, pre-entry move): no separation except one tight shared state — the prior trading day's spot return shallowly negative (−0.456/−0.317/−0.394%). Frozen signature (not re-tuned after): PE leg + prior-day spot return ∈ (−0.50%, −0.25%); 6 matching adopted legs (29 Jun, 11/19/31 Aug, 07 Sep, 21 Oct), monthly sum −₹1,661.25. Recorded in the freeze: the signature is a discovery on scanned data; its face value is an upper bound.
+- **Cycle 40 — signature legs carried on the weekly expiry in force: +₹116,348.50 / 44 / FT 45.5% / 1.08/wk — BANKED (full gate: halves +65,655.50/+50,693.00, placebo +64,842.50 beaten, ex-top-3 +82,883.50, audit 44/0, NC 0, re-sum exact).** August −5,187.25 → −3,058.50; delta +₹1,426.75 over the adopted book. **Supersedes the adopted book as the December candidate.** (Stand-aside on the same signature was diagnosis arithmetic only: +₹1,661.25 but frequency 0.94/wk and it spends the +₹3,030.00 October winner — not promoted to a candidate.)
+
+WS2 — frequency recovery (all at adopted geometry):
+- Cycle 41 UNION (= EXP0 59): +₹98,209.00 / FT 39.0% — NOT BANKED (net, FT).
+- Cycle 42 DIFF standalone (the 15 legs CH3-R dropped): −₹16,712.75 / FT 20.0% / halves both negative — NOT BANKED; the dropped population is a losing book on its own.
+- Cycle 43 admission premium ≤ 200 (8 legs): +₹110,753.50 / FT 42.3% — NOT BANKED (net only; every other gate leg passes).
+- Cycle 44 admission entry ≤ 10:30 (12 legs): +₹105,414.50 / FT 41.1% — NOT BANKED (net, FT).
+- Cycle 45 admission DTE ≥ 7 (11 legs): +₹94,672.25 / FT 38.2% — NOT BANKED (net, FT); August worsens to −₹8,326.00.
+
+WS3 — the remaining blocked leg (Cycle 46, data workstream, no candidate): live retry of the expired-instruments registry for expiry 2026-11-03 returned 0 contracts on 3 attempts. The leg 2026-10-28, 22500 PE, weekly expiry 2026-11-03, entry 10:20, solo Skill V3 remains NOT_COMPUTED — named, never estimated. P3's Round-2 record stands.
+
+WS4 — adopted-book geometry micro-grid (Cycles 47–73; lock {40,50,60} × TGT2 {160,175,190} × arm {40,50,60}, full gate per cell vs the adopted book): **no cell banked.** Centre cell (Cycle 60, lock50/TGT2-175/arm50) reproduces the adopted book exactly (+₹114,921.75 — its gate "fail" is the strict-greater comparison against itself). Best off-centre cell: Cycle 69 (lock60/TGT2-175/arm50) +₹114,554.50. Arm 40 costs ~₹13–14k uniformly (FT 43.2%); arm 50 ≥ arm 60 in every row; TGT2 175 ≥ 160/190 at lock 50–60. The adopted point is the peak of its own micro-grid — the geometry plateau (lessons 17/18/36) is confirmed on the adopted leg set in all three axes jointly.
+
+WS5 — combinations: per the pre-registered freeze, combinations exist only for WS4 cells that banked. None did → no WS5 candidates; the Cycle-40 book stands.
+
+ROUND 3 TERMINATION: floor NOT reached. Ending December candidate = Cycle-40 book: **+₹116,348.50 Jan–Oct = ₹11,634.85/month vs the ₹15,000/month floor; remaining gap ₹33,651.50.** Round 3 banked exactly one improvement (+₹1,426.75, WS1 conditional weekly carriage) across 34 gated cycles + 27 grid cells; every other directed family was measured and rejected at the gate. The floor gap is not hiding in the adopted book's geometry, its dropped legs, or its blocked population (one leg, still NC). Further progress needs a genuinely new signal/mechanism or December fresh data judging this candidate. November paper NF-PAPER-C3G7 untouched (read-only at most).
+
+---
+
+## RUN 3 ROUND 4 (2026-11-02) — opened with a RETRACTION
+
+**Cycle-40 banking RETRACTED (look-ahead).** Round-4 baseline verification recomputed the frozen signature feature from `spot_daily.csv`: the six legs' recorded values (−0.456%, −0.317%, −0.394%, −0.310%, −0.496%, −0.339%) are their **own-day** close-to-close returns; their true prior-day returns are +0.054%, −0.547%, +0.352%, +0.166%, +0.102%, −1.111%. The Round-3 helper `pdret(d) = close(d)/close(prev(d)) − 1` is day d's own return; the diagnosis, the frozen signature text, and the harness all inherited the mislabel. A rule that selects legs by how their own day ended cannot be computed at entry — the +₹1,426.75 improvement is void, and with it the "conditional carriage beats global carriage" reading of lesson 42 (the carriage was applied to a set selected with future information; lesson 42 is retained in the file with this correction noted in lesson 46). **December candidate reverts to the adopted book: +₹114,921.75 (44 trades, FT 45.5%, 1.08/wk; halves +65,655.50/+49,266.25; placebo +63,269.50; ex-top-3 +81,456.75; audit 44/0; NC 0; re-sum exact — re-verified in the Round-4 harness, `run3r4_baseline`). Pace ₹11,492.18/month; floor gap ₹35,078.25.** Round 3's other verdicts (WS2 admissions, WS4 micro-grid) were measured against the adopted book and stand.
+
+**WS1 (May wound) — diagnosis complete, no signature, no cycle.** May = 4 PE legs (11 May −3,470; 12 May +8,087; 13 May −3,470; 18 May −3,470). Causal feature scan (gap, pre-entry move/range, TRUE prior-day return, prior-day range, bias position, prior vol, premium, DTE; single bands + PE conjunctions, book-wide): nothing separates the 3 losers from the book or from the 12 May winner; the only negative boxes are May-fitted premium boxes (the book's high-premium PE legs net +₹28,361 above ₹290). May is variance, not a state. Detail: frozen.md Round-4 WS1 + `nifty_engine_r4_diag_may.json`.
+
+WS2 — Volrix parameter grid (Cycles 74–91; trigger {−0.75, −1.0, −1.25%} × cooldown {5, 10, 15} × exit {book, plain}; confirmation-toggle construction, vintage calibration recorded in frozen.md): **no cell banked.** Centre cell (82) reproduces the adopted book exactly. Book-exit cells: −0.75% → 102,575.25 / 103,986.75 / 94,841.50 (cd 5/10/15); −1.0% → 114,921.75 / 114,921.75 / 110,658.00; −1.25% → 107,580.25 / 96,645.25 / 100,115.25. Plain-exit cells are uniformly worse (frozen set: 97,560.25, −17,361.50 vs book exit). The frozen (−1.0%, 10) parameterisation is the peak of its own grid; the Volrix axis is closed.
+
+WS3 — Nifty second-leg family (Cycles 92–97; NS1 transplant, room {1.4, 1.5, 1.6} × window {14:00, 14:30}): **rejected at every cell (identical books — permutations non-binding).** 3 second legs found (02-02 PE 24700 entry 11:10; 03-02 PE 24600 entry 14:00 — both contracts fetched via the expired-instruments route, 75 bars, entry bars verified; 05-11 CE 24000 entry 13:55). **All three are full stops: −₹3,470.00 each, −₹10,410.00 total** (stops at 11:30 / 14:00 / 14:45). Book with second legs: +₹104,511.75 (47 trades, FT 42.6%, 1.16/wk), fails net only. Afternoon OR re-crossings after a resolved morning leg are counter-trend traps in this segment — the second-leg family does not transplant from Bank to Nifty.
+
+WS4 — day-state admission (diagnosis only, per the frozen method): tercile nets are positive in ALL terciles of ALL three features (gap: +36,567.75/+34,832.25/+43,521.75; first-30 range ratio: +19,641.75/+60,695.75/+34,584.25; prior-day range expansion: +23,983.75/+60,104.25/+30,833.75). No negative tercile → no cycles, by the pre-registered rule.
+
+WS5 — premium-band filter (Cycles 98–99): top-decile skip +₹104,426.75, bottom-decile skip +₹108,265.00 — both fail net (and frequency, 0.99/wk). Premium level is not a bleed marker in this book at either tail.
+
+WS6 — combinations: no bankings → none. ROUND 4 TERMINATION: floor NOT reached; all six workstreams gated through (26 cycles). Ending December candidate = the adopted book, **+₹114,921.75 Jan–Oct = ₹11,492.18/month; remaining gap ₹35,078.25** (controls of record in frozen.md Round-4 close). Round 4's net effect on the candidate is zero by banking and −₹1,426.75 by correction: it removed a look-ahead improvement Round 3 had banked, and re-verified the clean book. November paper NF-PAPER-C3G7 untouched.
+
+---
+
+## RUN 3 ROUND 5 (2026-11-02) — WS0 audit round: confirmation timing
+
+**WS0 (Cycle 100) — FEATURE-CAUSALITY AUDIT: violation found and remedied before any scoring.** Per-system entry times recovered from the merge's own inputs show 16 of the adopted book's 44 legs were admitted at the earliest system's bar while their second confirming system fired later: 9 legs confirm after the 09:55 window (08 Jan t2 11:20, 11 Mar 10:45, 16 Apr 12:35, 12 May 10:50, 01 Jun 13:10, 24 Jun 10:05, 13 Jul 10:00, 31 Aug 10:35, 26 Oct 10:00) — their adopted nets sum +₹45,499.25 (eight winners incl. the book's March +₹11,155 and Round 4's "May winner" +₹8,087 — both confirmation-lag legs); 7 Volrix-rep legs confirm at 09:35–09:50 vs their recorded 09:20 entries (adopted +₹16,390.25 → causal −₹2,414.25 at the confirmation bar, ATM strike re-struck at that bar; 4 contracts fetched via the expired-instruments route). **Causal book +₹50,618.00 (35 trades, FT 34.3%, 0.86/wk; halves +25,231.25/+25,386.75; placebo +23,542.25; ex-top-3 +17,312.25; audit 35/0; NC 0; re-sum exact). Delta vs adopted −₹64,303.75 (56.0% of the headline was confirmation-lag value).** Context of record: the live producer already documents this class ("the live entry is at the confirming leg — the documented confirmation-lag class"); the audit standard (lesson 46) voids it anyway. Every other feature certified causal — certificate in the Round-5 report (V5 weekly cap certified with disclosed caveat). Baseline for all Round-5 gating = the causal book.
+
+**WS1 (Cycle 101) — August causal rescan: NO separator, no cycle.** Causal August = 11 Aug −1,152.75 + 19 Aug −564.50 (31 Aug dropped by WS0). Only morning-range notches isolate them ([0.400, 0.419] = the two legs alone; [0.377, 0.419] = 4 legs −5,407.25 with winners 0.012–0.021 outside both edges) — fitted boxes under the May standard (lesson 47); August values are mid-distribution on every certified-causal feature. August closed permanently.
+
+**WS2 (Cycles 103–104) — strike axis rejected on the causal book.** C103 ITM-100 blanket +₹37,104.50 (placebo +37,029.75 essentially tied; June flips) — fails net/FT/flip/frequency. C104 ITM-100 on DTE ≤ 4 only +₹48,508.75 — fails net/FT/frequency.
+
+**WS3 (Cycles 105–109, 112) — DTE-0 re-admission rejected under every geometry.** Population 24 Feb / 30 Jun (causal 09:45) / 29 Sep (30 Mar excluded: confirmation 11:30). Control +46,899.75; sq14:30 +47,484.75; sq15:00 +47,293.00; arm40 +46,899.75 (inert); lock40 +46,249.75; contingency sq15:00+arm40 +47,293.00 (= C107). The population contributes −3,133.25 at best. EXP0 confirmed causally.
+
+**WS4 (Cycles 110–111) — entry-time lock split rejected.** Cell A (late lock+40) +49,968.00 (net fails). Cell B (early lock+40) +50,767.50 — net +149.50 over the causal book (plateau noise) but FT 34.3% < 42.0% and 0.86/wk fail; not banked.
+
+**WS5 — no bankings, no combinations. ROUND 5 TERMINATION: floor NOT reached. Working book = the causal book +₹50,618.00 = ₹5,061.80/month; gap ₹99,382.00.** December candidate of record stays the adopted book with the WS0 annotation. Structural open item: the FT ≥ 42.0% / frequency ≥ 1.00 gate lines were calibrated on the adopted book's inadmissible-inclusive figures and cannot be met by any same-population candidate on the causal book; not relaxed mid-round (lesson 39) — re-basing is a pre-registered future decision. November paper untouched.
+
+---
+
+## RUN 3 ROUND 6 (2026-11-02) — confirmation-native rebuild on the causal book
+
+**Round open.** Baseline = the causal book (Round-5 WS0): +₹50,618.00, 35 tr, FT 34.3%, 0.86/wk; pace ₹5,061.80/month, floor gap ₹99,382.00. Gate calibration pre-registered in the Round-6 freeze (frozen.md): the RELATIVE gate is the banking test (net up, FT/frequency not degraded vs the standing baseline, no baseline-green month flips red, no red month-ends, halves ≥ 0, placebo beaten, ex-top-3 ≥ 0, audit clean, NC = 0, re-sum exact); the old absolute lines (FT ≥ 42.0%, frequency ≥ 1.00/wk) are printed as STATUS ONLY for every verdict — referred to the owner, not relaxed, not decided on. Causality certification for every candidate written in the freeze before scoring (sysmap entry times; admission bar t_k determined at t_k; strike ATM100 at the admission bar's spot open; geometry reads bars ≥ entry only). 7 contracts fetched via the expired-instruments route (all OK, 75–77 bars); the named 2026-10-28 22500 PE (weekly 2026-11-03) attempted once more: NO_KEY — stays NOT_COMPUTED, named, never estimated.
+
+**Cycle 113 — WS1 centre (validation).** Confirmation-native rebuild (systems = 2, window on t2 ≤ 09:55, solo (lA) admitted) reproduces the causal book leg-for-leg and to the paisa: +₹50,618.00, 35 tr, FT 34.3%, audit 35/0, NC 0. The native construction and the WS0 remedy are the same book. ABS status: FT FAIL / freq FAIL.
+
+**WS1 grid (Cycles 114–118) — the window axis peaks at the centre; nothing banked.** C114 systems = 3: +₹31,352.50 (16 tr, FT 43.8%, 0.39/wk) — fails net, frequency (ABS: FT PASS / freq FAIL). C115 window ≤ 10:30: +₹43,186.25 (49 tr, FT 32.7%, 1.21/wk, placebo −201.25) — fails net (−7,431.75), FT (ABS: FT FAIL / freq PASS). C116 window ≤ 11:30: +₹46,593.75 (57 tr, FT 31.6%, 1.40/wk) — fails net (−4,024.25), FT (ABS: FT FAIL / freq PASS). C117 no window: +₹44,645.75 (59 tr, FT 30.5%, 1.45/wk) — fails net (−5,972.25), FT (ABS: FT FAIL / freq PASS). C118 solo = never: +₹41,400.50 (28 tr) — fails net, FT, frequency (ABS: both FAIL); the solo (lA) legs' in-book contribution is therefore +₹9,217.50.
+
+**WS2 solo books (Cycles 119–122) — no solo system beats the confirmed book; nothing banked.** C119 solo (lA): +₹34,533.25 (41 tr, FT 26.8%, 1.01/wk) — fails net, FT (ABS: FT FAIL / freq PASS). C120 solo V5: +₹25,145.00 (29 tr, ex-top-3 −4,745.00, Feb flip) — fails net, FT, frequency, flip, ex-top-3 (ABS: both FAIL). C121 solo Skill: computable subtotal +₹28,280.25 over 93 legs, **NC = 1 — the named 2026-10-28 22500 PE (weekly expiry 2026-11-03) has no contract in the registry (fetch: NO_KEY); it is not estimated and the subtotal is not a book figure** — fails net, FT, flip (Jul), ex-top-3 (−5,184.75), audit, NC (ABS: FT FAIL / freq PASS). C122 solo Volrix: +₹22,540.25 (8 tr, FT 37.5%, ex-top-3 −2,718.50, Mar + Jul flips) — fails net, frequency, flips, ex-top-3 (ABS: both FAIL).
+
+**WS3 G7 re-grid on the causal legs (Cycles 123–127) — one banking.** C123 lock40/TGT2-175: +₹50,117.50 — fails net (−500.50). **C124 lock60/TGT2-175: +₹51,118.50 — BANKED (+500.50; all relative legs pass; ABS status FT FAIL / freq FAIL).** C125 lock40/TGT2-150: +₹45,401.75, C126 lock50/TGT2-150: +₹45,902.25 (also a flip), C127 lock60/TGT2-150: +₹46,402.75 — all fail net vs the new standing book; the TGT2-150 column is uniformly worse.
+
+**WS4 square-off axis (Cycles 128–129) — one banking.** C128 sq 14:45: +₹43,614.25 (FT 28.6%) — fails net, FT. **C129 sq 15:20: +₹54,102.00 — BANKED (+2,983.50 over the lock60 book; all relative legs pass; ABS status FT FAIL / freq FAIL).**
+
+**WS5 (Cycle 130) — combination re-gate.** The round's two bankings combined (causal legs × lock60/TGT2-175, sq 15:20) re-gated whole-book vs the round-opening baseline: **+₹54,102.00 — all relative legs pass** (net +3,484.00 over round-open; FT 34.3% and 0.86/wk unchanged; no flips; halves +27,581.00/+26,521.00; placebo +22,876.00 beaten; ex-top-3 +20,637.00; audit 35/0; NC 0; re-sum exact). ABS status: FT FAIL / freq FAIL (status only).
+
+**ROUND 6 TERMINATION: floor NOT reached. Standing (December causal candidate) = causal legs × (stop −50, BE arm +50, tgt1 +90 → lock +60, TGT2 +175, square-off 15:20) = +₹54,102.00 Jan–Oct = ₹5,410.20/month; remaining gap ₹95,898.00.** 18 cycles (113–130): WS0-equivalent validation 1, WS1 5, WS2 4, WS3 5, WS4 2, WS5 1. Banked: C124 (+500.50), C129 (+2,983.50). The confirmation concept, rebuilt honestly, peaks at its frozen centre on admission and improves only on exit geometry; every admission widening and every solo book is worse at causal entries. Open items carried: the old absolute FT/frequency lines remain referred to the owner (the standing book fails both as status: 34.3% / 0.86); the named NC leg remains NOT_COMPUTED. November paper untouched.
+
+---
+
+## RUN 3 ROUND 7 (2026-11-02) — new signal families alongside the standing book
+
+**Round open.** Baseline = the Round-6 standing book: +₹54,102.00, 35 tr, FT 34.3%, 0.86/wk; pace ₹5,410.20/month, floor gap ₹95,898.00. Gate calibration unchanged (Round-6 freeze rule): the RELATIVE gate is the banking test; the old absolute lines (FT ≥ 42.0%, frequency ≥ 1.00/wk) printed as STATUS ONLY for every verdict — referred to the owner, not relaxed, not decided on. Causality certification for every family written in the Round-7 freeze before scoring (decision/entry bars named per family; entry strictly after the signal-completing bar; strike ATM100 at the entry bar; cross-index times from the frozen merge inputs, BANKNIFTY filter; (lA) machinery validated pre-freeze by exact PE reproduction, 42/42). Fetches via the expired-instruments route: WS1 69/69 OK, WS3 10 jobs (NC 0 at scoring), WS4 15/15 OK with 3 contracts files built by discovery. Named NC leg (2026-10-28 22500 PE, weekly 2026-11-03) in no Round-7 population; stays NOT_COMPUTED.
+
+**Cycle 131 — validation.** Round-7 harness reproduces the standing book leg-for-leg and to the paisa: +₹54,102.00, 35 tr, FT 34.3%, audit 35/0, NC 0, re-sum exact. ABS status: FT FAIL / freq FAIL.
+
+**WS1 gap sleeve (Cycles 132–133) — FOLLOW destroyed, FADE real but refused.** Population 54 gap days (|gap| ≥ 0.50%, known at 09:15; entry 09:35, monthly expiry, EXP0 skip on 2026-03-30). C132 FOLLOW (46 legs after 7 standing-key exclusions): sleeve standalone −₹63,495.40; combined −₹9,393.40 — fails net, FT (17.3%), flips (Apr, Sep), red month-ends Jun–Oct, halves, placebo, ex-top-3 (ABS: FT FAIL / freq PASS). C133 FADE (49 legs after 4 exclusions): sleeve standalone +₹32,127.15; combined +₹86,229.15 (84 tr, FT 31.0%, 2.07/wk, halves +27,597.00/+58,632.15, placebo +50,286.75 beaten, ex-top-3 +52,764.15, May improves to −5,855.00) — REJECTED on FT degradation (34.3 → 31.0) and the March flip (+7,895.00 → −8,233.50). One construction per the freeze — no variants run; FADE recorded as a noted observation (lesson 61).
+
+**WS2 cross-index conditioning (Cycles 134–136) — empty by timing construction.** Bank admissions built (B2 keys ≥ 2 sources, t2_B from the Bank sysmap; 54 admissions, 0 missing-time exclusions; spot-check exact). C134 agreement filter: 2 legs (+₹7,360.00, FT 100%, expectancy ₹3,680.00/leg) — fails net, frequency (diagnostic gate, as frozen; ABS: FT PASS / freq FAIL). C135 disagreement filter: 0 legs — fails net, FT, frequency, placebo (ABS: both FAIL). Only 2 of 35 standing legs had any Bank state knowable at entry (Bank confirmation completed at/after the Nifty entry on 17 of 19 shared dates). **Cycle 136 (b) NOT RUN** — the frozen criterion fails on retention (2 < 12 legs) despite the expectancy leg passing; WS2 closes (lesson 62).
+
+**WS3 (lA) CE mirror (Cycle 137) — the (lA) edge is one-sided.** Mirror built with the identical law flipped (confirmer Bank break-up; same cutoff/width/room rules); PE machinery re-validated 42/42 inside the generator. 35 signals → 31 legs (EXP0 skips 2026-04-28, 2026-05-26, 2026-10-27; key exclusion 2026-07-01). Sleeve standalone −₹32,862.90; combined +₹21,239.10 (66 tr, FT 19.7%) — fails net, FT, red month-ends (Aug, Sep), ex-top-3 −12,225.90 (ABS: FT FAIL / freq PASS). Family closed (lesson 63).
+
+**WS4 expiry-day sleeve (Cycle 138) — near-miss, FT leg only.** 33 weekly expiry days from the expiries route (weekly-flag cross-check clean). 15 legs (Skill keys on expiry days, Skill entry 09:15–11:00, weekly contract, re-struck ATM): sleeve standalone +₹3,651.75; combined +₹57,753.75 (50 tr, FT 32.0%, 1.23/wk, halves +28,343.00/+29,410.75, placebo +32,400.50 beaten, ex-top-3 +24,288.75, no flips; August repairs to +1,911.75, May improves to −4,173.50) — REJECTED on the FT leg alone (34.3 → 32.0; sleeve FT 4/15). Recorded as a noted observation with its failing leg named (lesson 64).
+
+**WS5 (Cycles 139–140) — closure.** No bankings, so no combinations exist. C139: standing book re-gated vs the round-open baseline — all quality legs intact; the only non-passing leg is net-above-baseline, trivially (the book is the baseline). C140: candidate freeze verification re-run — identical figures, audit 35/0, NC 0, re-sum exact. ABS status: FT FAIL / freq FAIL (status only).
+
+**ROUND 7 TERMINATION: floor NOT reached; nothing banked. Standing (December causal candidate) UNCHANGED = causal 35 legs × (stop −50, BE arm +50, tgt1 +90 → lock +60, TGT2 +175, square-off 15:20) = +₹54,102.00 Jan–Oct = ₹5,410.20/month; remaining gap ₹95,898.00.** 10 cycles (131–140): validation 1, WS1 2, WS2 3 (one not-run by its frozen criterion), WS3 1, WS4 1, WS5 2. The four new families are measured: gap-follow a strong loser; gap-fade and the expiry-day sleeve real but FT-dilutive, refused on single gate legs and recorded as observations; cross-index conditioning empty by construction; the (lA) CE mirror proves (lA) one-sided. November paper untouched.
+
+---
+
+## RUN 3 ROUND 8 (2026-11-02) — gap-fade refined, expiry sleeve on its own geometry, afternoon-range sleeve
+
+**Round open.** Baseline = the Round-6/7 standing book: +₹54,102.00, 35 tr, FT 34.3%, 0.86/wk; pace ₹5,410.20/month, floor gap ₹95,898.00. Gate calibration unchanged: the RELATIVE gate is the banking test; the old absolute lines (FT ≥ 42.0%, frequency ≥ 1.00/wk) printed as STATUS ONLY — referred to the owner, never decided on, never relaxed. Freeze written before any candidate scoring (Round-8 section of `nifty_engine_frozen.md`), including the causality certification for every family (gap and pdret_prior known at 09:15, entries strictly after; afternoon range complete at 13:00, entry the bar after the break bar). **Pre-freeze March diagnosis** (a re-score of the already-gated Cycle-133 construction, validated to the paisa: 49 legs, +₹32,127.15): the flip (+7,895.00 → −8,233.50) is the sleeve's March sum −₹16,128.50 over 11 legs — seven full stops (−₹3,470 each) in a month whose gaps CONTINUED; the against-trend half (pdret_prior) holds −₹13,670.00 of it, the with-trend half −₹2,458.50. WS1(b)'s exact form frozen from this diagnosis (with-trend, pdret_prior sign; the intraday-definition variant deliberately not run). Fetches: Cycle 145 13/13 OK, Cycle 147 101/101 OK. Named NC leg (2026-10-28 22500 PE, weekly 2026-11-03) in no Round-8 population; stays NOT_COMPUTED.
+
+**Cycle 141 — validation.** Round-8 harness reproduces the standing book exactly: +₹54,102.00, 35 tr, FT 34.3%, audit 35/0, NC 0, re-sum exact. (Machinery check pre-cycle: the parameterised `replay_r8` equals `replay_r5` leg-for-leg on the standing book.) ABS status: FT FAIL / freq FAIL.
+
+**WS1 gap-fade refined (Cycles 142–145) — every form net-positive, every form refused on exactly one leg.** C142 threshold 0.75% (27 legs): sleeve +₹10,882.00; combined +₹64,984.00 (FT 29.0%, 1.53/wk, March +5,866.50 — no flip) — REJECTED on FT only (ABS: FT FAIL / freq PASS). C143 threshold 1.00% (13 legs): sleeve +₹3,458.00; combined +₹57,560.00 (FT 33.3%) — REJECTED on FT only. C144 with-trend (25 legs): sleeve +₹7,064.50; combined +₹61,166.50 (FT 30.0%, March +5,436.50 — the diagnosed non-flip) — REJECTED on FT only. **C145 entry 10:05 (49 legs) — the round's best cell:** sleeve +₹33,624.75 (above the 09:35 form's +₹32,127.15); combined **+₹87,726.75** (84 tr, FT **35.7%** — the first fade form to PASS the FT leg as an addition — 2.07/wk, halves +44,841.50/+42,885.25, placebo +50,702.75 beaten, ex-top-3 +54,261.75, May repaired to −1,662.50) — REJECTED on the March flip only (+7,895.00 → −8,376.50; sleeve March at 10:05 is −₹16,271.50: March's gaps continued all day, not just through the open). No combination cell (restriction × late entry) was frozen this round; it is recorded as the family's one remaining untested combination for a future round's freeze, not tuned here.
+
+**WS2 expiry sleeve, own geometry (Cycle 146) — the truncation destroys the sleeve.** Rebuild validated pre-scoring against the Cycle-138 record (combined +₹57,753.75, sleeve +₹3,651.75, 15 legs, FT 32.0% — exact). Under expiry geometry (stop −40, BE arm +50, tgt1 +60 → lock +30, TGT2 +110, sq 15:20): sleeve **−₹2,406.25** (FT90 count 3/15, own-target count 5/15); combined +₹51,695.75 — BELOW baseline. Reading (i) FT90 (the banking basis): FT 30.0% — fails net, FT, and a green-month flip (Apr +210.00 → −880.00). Reading (ii) own-target FT (decision support only): 34.0%, would-bank FALSE (net and FT and the April flip all fail under it too). REJECTED under both readings; the own-geometry form is NOT flagged (it is worse than the flagged form on every axis). The Round-7 standing-geometry form remains the flagged item (lesson 67).
+
+**WS3 afternoon-range sleeve (Cycle 147) — a large losing population, closed.** 12:00–13:00 spot range, first post-13:00 closing break followed, entry next bar (pre-registered; 150 legs after 13 EXP0/key exclusions): sleeve standalone −₹8,056.25; combined +₹46,045.75 (185 tr, FT 11.9%, 4.56/wk) — REJECTED on net and FT (ABS: FT FAIL / freq PASS). Midday range breaks on Nifty are noise, not signal (lesson 68).
+
+**WS4 (Cycles 148–149) — closure.** No bankings, so no combinations exist (freeze rule). C148: standing book re-gated vs the round-open baseline — all quality legs intact; only net-above-baseline non-passing, trivially. C149: candidate freeze verification — identical figures, audit 35/0, NC 0, re-sum exact. ABS status: FT FAIL / freq FAIL (status only).
+
+**ROUND 8 TERMINATION: floor NOT reached; nothing banked. Standing (December causal candidate) UNCHANGED = causal 35 legs × (stop −50, BE arm +50, tgt1 +90 → lock +60, TGT2 +175, square-off 15:20) = +₹54,102.00 Jan–Oct = ₹5,410.20/month; remaining gap ₹95,898.00.** 9 cycles (141–149): validation 1, WS1 4, WS2 1, WS3 1, WS4 2. The gap-fade is now measured in five forms: real in all of them, bankable in none — restricted forms fail FT alone, the late-entry form fails the March flip alone. The expiry sleeve's own-geometry form is dead under both FT readings. The afternoon-range family is closed. Flagged list restated at round close (see `nifty_engine_state.json` run8 block): the expiry-day sleeve's standing-geometry form (adoption value +₹3,651.75 on the unchanged book) remains the owner's pending decision. November paper untouched.
+
+## RUN 3 ROUND 9 (2026-11-02) — the fade's last cell, flagged-pair gate, causal-May diagnosis, causal union
+
+**Round open.** Baseline = the Round-6/7/8 standing book: +₹54,102.00, 35 tr, FT 34.3%, 0.86/wk; pace ₹5,410.20/month, floor gap ₹95,898.00. Gate calibration unchanged: the RELATIVE gate is the banking test; the old absolute lines (FT ≥ 42.0%, frequency ≥ 1.00/wk) printed as STATUS ONLY — referred to the owner, never decided on, never relaxed. Freeze written before any candidate scoring (Round-9 section of `nifty_engine_frozen.md`), including the causality certification for every family (gap and pdret_prior known at 09:15, WS1 entry 10:05 strictly after; WS3 features restricted to entry-bar-knowable facts, path quantities diagnosis-only; WS4 (lA) times from the merge's own input files). No fetches were needed — every population's contracts were already on disk; NC = 0 at every scoring. Named NC leg (2026-10-28 22500 PE, weekly 2026-11-03) in no Round-9 population; stays NOT_COMPUTED.
+
+**Cycle 150 — validation.** Round-9 harness reproduces the standing book exactly: +₹54,102.00, 35 tr, FT 34.3%, audit 35/0, NC 0, re-sum exact. ABS status: FT FAIL / freq FAIL.
+
+**WS1 (Cycle 151) — the fade's last cell trades the March wound for an April wound.** With-trend restriction (pdret_prior sign, the frozen Round-8 definition) × entry 10:05, threshold 0.50%: sleeve 25 legs, standalone **+₹15,937.00** (vs +₹7,064.50 for the restriction at 09:35); combined **+₹70,039.00** (60 tr, FT **35.0%** — passes as an addition, 1.48/wk, halves +30,515.50/+39,523.50, placebo +39,979.75 beaten, ex-top-3 +36,574.00). March is CURED (combined +12,443.50; sleeve March +4,548.50) — and **April flips** (+210.00 → −3,050.00; sleeve April −3,260.00): REJECTED on the no-green-month-flips leg ONLY. The fade family is closed: six gated forms, five single-leg refusals and one (this) single-leg refusal on a different month. The form is recorded as a noted observation (adoption value +₹15,937.00); the Cycle-145 form remains the flagged item.
+
+**WS2 (Cycle 152) — flagged pair priced: +₹37,066.50, not +₹37,276.50.** DECISION SUPPORT, force-no-bank (the standing book was never touched). Standing + fade-10:05 (49 legs, standalone reproduces +₹33,624.75 exactly) + expiry sleeve (13 legs inside the pair, +₹3,441.75: two of its 15 keys collide with fade keys and UNIQUE-ONCE assigns them to the fade — the ₹210.00 overlap is the pair's honesty discount on the sum of the flags). Pair **+₹91,168.50** (97 tr, FT 34.0%, 2.39/wk, halves +45,393.50/+45,775.00, placebo beaten by ₹38,301.25, ex-top-3 +57,703.50, audit 97/0, NC 0). Gate sheet: fails exactly FT (34.0% < 34.3%) and the March flip (+7,895.00 → −11,846.50); all other legs pass. If adopted, pace would be ₹9,116.85/month (gap ₹58,831.50) with a red March as the priced cost. The decision is the owner's.
+
+**WS3 (Cycles 153–154) — causal May has a true separator whose population earns; the question closes.** Diagnosis: the causal May is 3 confirmed PE legs (05-11, 05-13, 05-18), all full stops at −₹3,470.00, MFE +16.90/+37.85/+16.50 (none reached the +50 BE arm), all on down-gap/prior-day-down days with spot moving with the trade. Wound (May+Jun negatives) = 6 legs. Separator scan (Bank WS1 test, frozen F1–F12): only **F8 |gap| ≥ 0.50%** separates (wound share 66.7% vs book 31.4% = 2.12×; holds 4/6; FT share 33.3%). Candidate frozen in writing before scoring — exclude the 11 in-group legs: the excluded set nets **+₹11,776.00** for the book (the +₹11,155.00 March leg and three +₹3,680.00 runners outweigh the four wound legs it holds), so the candidate falls to **+₹42,326.00** (24 tr, FT 33.3%, 0.59/wk) and flips March (+7,895.00 → −3,470.00): REJECTED on net, FT, frequency, flip. It does repair May (−10,410.00 → −3,470.00) and June (−3,910.00 → −220.00) — bought with March and the net. No second candidate per the freeze; May is closed unrepaired (lesson 70).
+
+**WS4 (Cycle 155) — the causal union is the adverse-selection tail.** The (lA) multi-source keys the CH3-R window missed, entered at (lA)'s own bar (17 legs, all PE; 17 sibling keys already in the book): standalone **−₹7,653.00** — 8 full stops, August slice −₹6,111.50 (combined August −7,812.50), April flip (−₹6,940.00 sleeve April); combined +₹46,449.00, FT 28.8%: REJECTED on net, FT, flip. Round 3's union verdict was measured on the inadmissible book; on the causal book at causal entries the answer is the same sign for the opposite reason — the discards themselves lose (lesson 71).
+
+**WS5 (Cycles 156–158) — closure.** No bankings → no combinations (freeze rule). C156: standing book re-gated vs the round-open baseline — all quality legs intact; only net-above-baseline non-passing, trivially. C157: candidate freeze verification — identical figures, audit 35/0, NC 0, re-sum exact. C158: flagged restatement on the ending (unchanged) book — fade-10:05 +₹33,624.75 (March flip only), expiry +₹3,651.75 (FT only), pair +₹37,066.50 (FT + March flip), fade-combo +₹15,937.00 (April flip only) — all NOT adopted.
+
+**ROUND 9 TERMINATION: floor NOT reached; nothing banked. Standing (December causal candidate) UNCHANGED = causal 35 legs × (stop −50, BE arm +50, tgt1 +90 → lock +60, TGT2 +175, square-off 15:20) = +₹54,102.00 Jan–Oct = ₹5,410.20/month; remaining gap ₹95,898.00.** 9 cycles (150–158): validation 1, WS1 1, WS2 1 (decision support), WS3 2, WS4 1, WS5 3. The fade family is closed (six forms). The flagged pair is priced for the owner at +₹37,066.50 (combined +₹91,168.50). Causal May is diagnosed and closed: its separator population is a book earner. The causal union is negative. November paper untouched.
+
+================================================================
+## ENGINE RUN 3 - ROUND 10 (2026-11-02) - Bank-spot state, OR-width, post-expiry population, December freeze preparation
+Standing order unchanged: floor Rs1,50,000 Jan-Oct 2026 (Rs15,000/month).
+Starting book: standing causal book +Rs54,102.00 (35 legs, FT 34.3%, 0.86/wk), gap Rs95,898.00.
+Gate: relative gate is the banking test; old absolute lines (FT >= 42.0%, freq >= 1.00/wk) STATUS ONLY.
+Freeze: ROUND 10 section of nifty_engine_frozen.md, written BEFORE any Round-10 candidate
+scoring, with per-feature timing certifications (a)-(f), the frozen WS1 mirror rule, the WS3
+addition rule and the WS4 December specification incl. its pre-registered pass/kill.
+Data preparation (pre-freeze, recorded in the freeze): Bank spot monthly files lacked
+2026-01-30, 2026-02-26, 2026-02-27; fetched 75 real 5m candles per day (browser UA) into
+nifty_engine_r10_bank_spot_patch.csv; WS1 feature computable for all 35 legs.
+
+**Cycle 159 (validation).** Standing book reproduces EXACTLY: +Rs54,102.00, 35 legs, FT 34.3%,
+0.86/wk, halves +27,581.00/+26,521.00, placebo +22,876.00, ex-top-3 +20,637.00, audit 35/0,
+NC 0, re-sum exact. Round-open baseline set.
+
+**WS1 (Cycles 160-161) - Bank-spot early state: family closed.**
+Certified feature: Bank move at each leg's entry bar (bars strictly before), threshold +-0.20%.
+Buckets: AGREE 30 legs (book net +Rs46,882.00), NEUTRAL 5 legs (+Rs7,220.00), DISAGREE 0 legs,
+unavailable 0. C160 agreement conditioning (the 30 AGREE legs, admission-only): +Rs46,882.00,
+FT 33.3%, 0.74/wk, halves +20,141.00/+26,741.00, placebo +13,829.50, ex-top-3 +13,417.00 -
+REJECTED on net, FT, frequency and an April flip (+210.00 -> -3,470.00; the dropped neutral
+set holds April's +Rs3,680.00 anchor leg). C161 mirror: closure record under the frozen rule
+(net(disagree) = 0, rule does not fire; the disagreement population is empty by construction).
+Cross-index conditioning is closed in both forms (options R7, spot R10). Lesson 73.
+
+**WS2 (Cycles 162-163) - OR-width admission: closed.**
+Certified feature: tercile of the 09:15-09:30 width vs the trailing 20 trading days.
+Tercile nets: lower 9 legs +Rs11,634.25, middle 14 legs +Rs21,298.25, upper 12 legs
++Rs21,169.50 - every tercile earns. C162 middle-only: +Rs21,298.25, FT 35.7%, 0.34/wk,
+halves +3,951.50/+17,346.75, placebo +17,437.25, ex-top-3 -Rs749.50 - REJECTED on net,
+frequency, ex-top-3. C163 middle+upper: +Rs42,467.75, FT 38.5%, 0.64/wk, halves
++12,256.75/+30,211.00, placebo +28,177.50, ex-top-3 +11,992.75 - REJECTED on net, frequency
+and a March flip (+7,895.00 -> -3,260.00). Lesson 74.
+
+**WS3 (Cycle 164) - post-expiry-day population: adverse tail, closed.**
+48 post-expiry sessions Jan-Oct (all Wednesdays); 16 untaken pool keys, 0 named exclusions
+at build. Entered at causal bars (t2 for confirmed, own bar for solo; re-struck ATM100 when
+the entry time moved). Sleeve standalone: -Rs18,578.25 over 15 scored legs + 1 NC.
+Combined: +Rs35,523.75 (50 scored legs, FT 30.0%, 1.23/wk, halves +12,003.00/+23,520.75,
+placebo +586.25, ex-top-3 +2,058.75) - REJECTED on net, FT, April flip (+210.00 -> -3,260.00),
+timing audit and NC. The 1 NC / 1 audit entry is the carried leg itself: 2026-10-28 22500 PE,
+monthly expiry 2026-11-03 (registry 0 contracts; one re-fetch attempted, discovery EMPTY) -
+its trade date is the day after the October monthly expiry, so it belongs to THIS population;
+the freeze's prose ("in no Round-10 population") is corrected in the frozen results section.
+The leg was named, never estimated, and blocked banking under the frozen NC clause. Lesson 75.
+
+**WS5 (Cycle 165) - closure by statement.** Zero Round-10 bankings -> no combinations
+(freeze rule).
+
+**WS4 (Cycle 166) - December freeze verification: VERIFIED.** Regeneration from the frozen
+specification (native causal population: >=2 systems, t2 <= 09:55, solo-(lA) at own bar, EXP0)
+reproduces the standing book LEG-FOR-LEG (date, direction, entry time, strike, expiry) and to
+the paisa: +Rs54,102.00, 35 legs, audit 35/0, NC 0, re-sum exact; standing book re-scored
+identically. The December candidate of record is the specification (rules 1-9) transcribed in
+nifty_engine_frozen.md, judged in December under its pre-registered pass/kill.
+
+**WS5 (Cycle 167) - closure re-gate + flagged restatement on the ending (unchanged) book.**
+Closure re-gate: identity (fails only net-above-baseline vs itself, trivially; all quality
+legs intact). Flagged restatement (DECISION SUPPORT, force-no-bank; adoption values vs the
+ending book +Rs54,102.00): expiry sleeve +Rs3,651.75 (combined +Rs57,753.75, FT-only fail) .
+fade-10:05 +Rs33,624.75 (combined +Rs87,726.75, March-flip-only fail) . pair +Rs37,066.50
+(combined +Rs91,168.50, FT + March flip; the pair is worth Rs210.00 less than the sum of its
+flags - lesson 72) . fade-combo +Rs15,937.00 (combined +Rs70,039.00, April-flip-only fail).
+ALL FOUR REMAIN NOT ADOPTED; the decisions are the owner's.
+
+**ROUND 10 TERMINATION: floor NOT reached; nothing banked. Standing (December causal
+candidate) UNCHANGED = causal 35 legs x (stop -50, BE arm +50, tgt1 +90 -> lock +60,
+TGT2 +175, square-off 15:20) = +Rs54,102.00 Jan-Oct = Rs5,410.20/month; remaining gap
+Rs95,898.00.** 9 cycles (159-167): validation 1, WS1 2 (1 gated + 1 closure record), WS2 2,
+WS3 1, WS4 1 (verification), WS5 2 (closure statement + closure re-gate/restatement). The last
+two untested conditioning axes (Bank spot state, OR width) are closed; the post-expiry
+population is closed; the December candidate is frozen as a verified specification with a
+pre-registered pass/kill. November paper untouched.
+
+**ROUND 11 (2026-11-02) — December preparation, narrow scope; no new in-sample signal cycles (Round 10's exhaustion conclusion stands).**
+
+**DEC-S1 freeze (before any Round-11 scoring).** The flagged pair is frozen as a labelled December SHADOW candidate "DEC-S1" in nifty_engine_frozen.md (ROUND 11, S0-S9): assembly A (standing causal book, rules 1-7 of record) -> B (gap-fade 10:05, Cycle-145 form: |gap| >= 0.50%, fade direction, entry 10:05, ATM100 at the 10:05 spot open, monthly expiry in force, EXP0) -> C (expiry-day sleeve, Cycle-138 form: weekly-expiry days = expiries route minus monthly list, pool keys with Skill V3 among sources, entry at Skill's own sysmap bar within 09:15-11:00, strike re-struck ATM100, weekly contract expiring that day), UNIQUE-ONCE in assembly order; standing geometry for every leg; every admission condition and feature certified knowable at the decision bar in writing (S6, lessons 46/52); December expiry handling stated (monthly 2026-12-29 for A/B with 12-29 EXP0-excluded, 12-30/31 -> 2027-01-26; weekly days for C: 2026-12-01/08/15/22); NC policy identical to the standing candidate (named, never estimated, NC > 0 -> PROVISIONAL never a pass); pre-registered December pass/kill judged on December data alone (PASS: net > 0, audit clean, NC = 0; KILL: net <= -Rs3,470.00 or any timing violation; INCONCLUSIVE otherwise). DEC-S1 is NOT adopted and does NOT replace the standing December candidate; December judges both in parallel, labelled.
+
+**Cycle 168 - DEC-S1 regeneration verification: VERIFIED.** Rebuilt from the specification alone (nifty_engine_r11_verify.py), full controls gate in the same run: A 35 legs +Rs54,102.00 (audit 35/0); B 49 legs, standalone +Rs33,624.75 (exclusions named: 4 standing-key collisions, 1 EXP0); C 13 in-pair legs, standalone +Rs3,441.75 (5 key-collision exclusions vs A u B named). Whole book 97 legs, **+Rs91,168.50 to the paisa**, FT 34.0%, 2.39/wk, halves +45,393.50/+45,775.00, placebo +52,867.25 beaten, ex-top-3 +57,703.50, month table identical to Cycle 152 (Mar -11,846.50), audit 97/0, NC 0, re-sum exact. 26/26 pre-registered field checks MATCH (frozen protocol S10) - including the pair identity 54,102.00 + 33,624.75 + 3,441.75 = 91,168.50 (the two UNIQUE-ONCE collisions vs the sum of flags, lesson 72). No mismatch; nothing patched.
+
+**Cycle 169 - gate re-basing decision note (decision support, no scoring).** Recorded in nifty_engine_round11_2026-11-02.md from already-controlled verdicts. KEEP the absolute lines (FT >= 42.0%, freq >= 1.00/wk) as hard banking requirements: nothing in the causal era banks - the two Round-6 geometry bankings (lock +60 +Rs500.50; square-off 15:20 +Rs2,983.50; FT 34.3%, 0.86/wk throughout) would have been refused on both lines, and the standing book itself fails both lines, so no addition can bank unless it lifts FT by >= 7.7 pts and frequency by >= 0.14/wk past every other leg (best tested FT: fade-10:05 combined 35.7%). RE-BASE the lines to the causal book (FT >= 34.3%, freq >= 0.86/wk - numerically the relative gate's FT/frequency legs): exactly the Round-6 record stands (+Rs3,484.00 banked) and nothing else changes - every flagged item fails a leg re-basing does not touch (expiry sleeve FT 32.0% < 34.3%, its only failing leg, under both columns; pair FT 34.0% < 34.3% plus the March flip; fade-10:05 March flip only; fade-combo April flip only; the FT-only fade forms C142/C143/C144 at 29.0%/33.3%/30.0% fail even the re-based FT line). Both columns laid out with per-candidate numbers in the round report; no recommendation; the decision is the owner's.
+
+**ROUND 11 TERMINATION: freeze + verification only, as briefed. Standing book UNCHANGED (+Rs54,102.00, Rs5,410.20/month, gap Rs95,898.00); standing December candidate of record UNCHANGED (rules 1-9); DEC-S1 frozen and verified as a labelled December shadow with its own pre-registered pass/kill. November paper untouched.**

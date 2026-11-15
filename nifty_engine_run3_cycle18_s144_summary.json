@@ -1,0 +1,454 @@
+{
+ "name": "run3_cycle18_s144",
+ "n": 101,
+ "total": 48035.25,
+ "resum": 48035.25,
+ "resum_ok": true,
+ "ft": 26,
+ "ft_pct": 25.7,
+ "per_week": 2.49,
+ "not_computed": 0,
+ "red_month_ends": [],
+ "month_table": {
+  "2026-01": [
+   13706.5,
+   13706.5
+  ],
+  "2026-02": [
+   11243.0,
+   24949.5
+  ],
+  "2026-03": [
+   17660.75,
+   42610.25
+  ],
+  "2026-04": [
+   -3537.0,
+   39073.25
+  ],
+  "2026-05": [
+   -11768.0,
+   27305.25
+  ],
+  "2026-06": [
+   -13020.5,
+   14284.75
+  ],
+  "2026-07": [
+   13053.5,
+   27338.25
+  ],
+  "2026-08": [
+   -11214.5,
+   16123.75
+  ],
+  "2026-09": [
+   6078.0,
+   22201.75
+  ],
+  "2026-10": [
+   25833.5,
+   48035.25
+  ]
+ },
+ "halves": {
+  "Jan-May": 27305.25,
+  "Jun-Oct": 20730.0
+ },
+ "ex_top3": 13595.25,
+ "top3": [
+  11480.0,
+  11480.0,
+  11480.0
+ ],
+ "placebo_shift30_total": 2970.75,
+ "october": 25833.5,
+ "timing_audit": {
+  "checked": 101,
+  "violations": 0
+ },
+ "august": -11214.5,
+ "may": -11768.0,
+ "added_legs": [
+  {
+   "date": "2026-01-22",
+   "dir": "CE",
+   "entry_time": "09:55",
+   "rep": "BASE_S1",
+   "entry": 156.4,
+   "exit_reason": "stop",
+   "net": -3470.0
+  },
+  {
+   "date": "2026-01-29",
+   "dir": "PE",
+   "entry_time": "11:15",
+   "rep": "BASE_S1",
+   "entry": 281.65,
+   "exit_reason": "stop",
+   "net": -3470.0
+  },
+  {
+   "date": "2026-02-05",
+   "dir": "PE",
+   "entry_time": "10:20",
+   "rep": "BASE_S1",
+   "entry": 194.15,
+   "exit_reason": "square_off",
+   "net": -106.25
+  },
+  {
+   "date": "2026-02-09",
+   "dir": "PE",
+   "entry_time": "09:45",
+   "rep": "BASE_S1",
+   "entry": 194.2,
+   "exit_reason": "square_off",
+   "net": -1770.25
+  },
+  {
+   "date": "2026-02-10",
+   "dir": "CE",
+   "entry_time": "13:30",
+   "rep": "BASE_S1",
+   "entry": 253.0,
+   "exit_reason": "square_off",
+   "net": -603.5
+  },
+  {
+   "date": "2026-02-11",
+   "dir": "PE",
+   "entry_time": "10:20",
+   "rep": "BASE_S1",
+   "entry": 139.5,
+   "exit_reason": "square_off",
+   "net": 131.0
+  },
+  {
+   "date": "2026-03-05",
+   "dir": "PE",
+   "entry_time": "09:40",
+   "rep": "BASE_S1",
+   "entry": 397.0,
+   "exit_reason": "stop",
+   "net": -3470.0
+  },
+  {
+   "date": "2026-03-24",
+   "dir": "PE",
+   "entry_time": "10:30",
+   "rep": "BASE_S1",
+   "entry": 332.25,
+   "exit_reason": "be_stop",
+   "net": -220.0
+  },
+  {
+   "date": "2026-03-25",
+   "dir": "CE",
+   "entry_time": "09:35",
+   "rep": "BASE_S1",
+   "entry": 316.3,
+   "exit_reason": "runner_stop",
+   "net": 4655.0
+  },
+  {
+   "date": "2026-03-27",
+   "dir": "PE",
+   "entry_time": "12:00",
+   "rep": "BASE_S1",
+   "entry": 259.4,
+   "exit_reason": "square_off",
+   "net": 3065.75
+  },
+  {
+   "date": "2026-04-06",
+   "dir": "PE",
+   "entry_time": "10:10",
+   "rep": "BASE_S1",
+   "entry": 578.35,
+   "exit_reason": "stop",
+   "net": -3470.0
+  },
+  {
+   "date": "2026-04-08",
+   "dir": "CE",
+   "entry_time": "09:50",
+   "rep": "BASE_S1",
+   "entry": 470.0,
+   "exit_reason": "square_off",
+   "net": 1554.5
+  },
+  {
+   "date": "2026-04-09",
+   "dir": "PE",
+   "entry_time": "10:00",
+   "rep": "BASE_S1",
+   "entry": 409.4,
+   "exit_reason": "stop",
+   "net": -3470.0
+  },
+  {
+   "date": "2026-04-15",
+   "dir": "PE",
+   "entry_time": "09:40",
+   "rep": "BASE_S1",
+   "entry": 338.55,
+   "exit_reason": "stop",
+   "net": -3470.0
+  },
+  {
+   "date": "2026-04-21",
+   "dir": "CE",
+   "entry_time": "14:20",
+   "rep": "BASE_S1",
+   "entry": 280.15,
+   "exit_reason": "square_off",
+   "net": 352.0
+  },
+  {
+   "date": "2026-04-22",
+   "dir": "PE",
+   "entry_time": "09:55",
+   "rep": "BASE_S1",
+   "entry": 246.7,
+   "exit_reason": "stop",
+   "net": -3470.0
+  },
+  {
+   "date": "2026-05-04",
+   "dir": "CE",
+   "entry_time": "09:50",
+   "rep": "BASE_S1",
+   "entry": 442.1,
+   "exit_reason": "stop",
+   "net": -3470.0
+  },
+  {
+   "date": "2026-05-06",
+   "dir": "PE",
+   "entry_time": "09:50",
+   "rep": "BASE_S1",
+   "entry": 367.1,
+   "exit_reason": "be_stop",
+   "net": -220.0
+  },
+  {
+   "date": "2026-05-14",
+   "dir": "PE",
+   "entry_time": "09:45",
+   "rep": "BASE_S1",
+   "entry": 303.2,
+   "exit_reason": "stop",
+   "net": -3470.0
+  },
+  {
+   "date": "2026-05-15",
+   "dir": "CE",
+   "entry_time": "11:05",
+   "rep": "BASE_S1",
+   "entry": 285.0,
+   "exit_reason": "stop",
+   "net": -3470.0
+  },
+  {
+   "date": "2026-05-29",
+   "dir": "PE",
+   "entry_time": "10:05",
+   "rep": "BASE_S1",
+   "entry": 331.95,
+   "exit_reason": "runner_stop",
+   "net": 4655.0
+  },
+  {
+   "date": "2026-06-04",
+   "dir": "CE",
+   "entry_time": "10:25",
+   "rep": "BASE_S1",
+   "entry": 446.25,
+   "exit_reason": "stop",
+   "net": -3470.0
+  },
+  {
+   "date": "2026-06-09",
+   "dir": "PE",
+   "entry_time": "11:20",
+   "rep": "BASE_S1",
+   "entry": 352.0,
+   "exit_reason": "stop",
+   "net": -3470.0
+  },
+  {
+   "date": "2026-06-10",
+   "dir": "CE",
+   "entry_time": "10:10",
+   "rep": "BASE_S1",
+   "entry": 319.0,
+   "exit_reason": "stop",
+   "net": -3470.0
+  },
+  {
+   "date": "2026-06-12",
+   "dir": "PE",
+   "entry_time": "09:40",
+   "rep": "BASE_S1",
+   "entry": 276.95,
+   "exit_reason": "stop",
+   "net": -3470.0
+  },
+  {
+   "date": "2026-06-17",
+   "dir": "CE",
+   "entry_time": "11:30",
+   "rep": "BASE_S1",
+   "entry": 217.9,
+   "exit_reason": "square_off",
+   "net": -850.5
+  },
+  {
+   "date": "2026-06-18",
+   "dir": "CE",
+   "entry_time": "09:55",
+   "rep": "BASE_S1",
+   "entry": 225.45,
+   "exit_reason": "stop",
+   "net": -3470.0
+  },
+  {
+   "date": "2026-06-25",
+   "dir": "CE",
+   "entry_time": "10:05",
+   "rep": "BASE_S1",
+   "entry": 103.3,
+   "exit_reason": "be_stop",
+   "net": -220.0
+  },
+  {
+   "date": "2026-07-02",
+   "dir": "CE",
+   "entry_time": "10:00",
+   "rep": "BASE_S1",
+   "entry": 384.15,
+   "exit_reason": "square_off",
+   "net": 605.5
+  },
+  {
+   "date": "2026-07-29",
+   "dir": "CE",
+   "entry_time": "09:55",
+   "rep": "BASE_S1",
+   "entry": 350.0,
+   "exit_reason": "square_off",
+   "net": 209.0
+  },
+  {
+   "date": "2026-08-06",
+   "dir": "CE",
+   "entry_time": "09:55",
+   "rep": "BASE_S1",
+   "entry": 271.0,
+   "exit_reason": "square_off",
+   "net": -603.5
+  },
+  {
+   "date": "2026-08-07",
+   "dir": "CE",
+   "entry_time": "10:00",
+   "rep": "BASE_S1",
+   "entry": 306.15,
+   "exit_reason": "stop",
+   "net": -3470.0
+  },
+  {
+   "date": "2026-08-26",
+   "dir": "CE",
+   "entry_time": "10:00",
+   "rep": "BASE_S1",
+   "entry": 368.0,
+   "exit_reason": "stop",
+   "net": -3470.0
+  },
+  {
+   "date": "2026-09-01",
+   "dir": "PE",
+   "entry_time": "09:50",
+   "rep": "BASE_S1",
+   "entry": 194.35,
+   "exit_reason": "stop",
+   "net": -3470.0
+  },
+  {
+   "date": "2026-09-15",
+   "dir": "PE",
+   "entry_time": "09:50",
+   "rep": "BASE_S1",
+   "entry": 190.3,
+   "exit_reason": "runner_stop",
+   "net": 4655.0
+  },
+  {
+   "date": "2026-09-16",
+   "dir": "PE",
+   "entry_time": "09:50",
+   "rep": "BASE_S1",
+   "entry": 214.15,
+   "exit_reason": "stop",
+   "net": -3470.0
+  },
+  {
+   "date": "2026-09-17",
+   "dir": "CE",
+   "entry_time": "09:40",
+   "rep": "BASE_S1",
+   "entry": 206.05,
+   "exit_reason": "be_stop",
+   "net": -220.0
+  },
+  {
+   "date": "2026-09-28",
+   "dir": "PE",
+   "entry_time": "09:35",
+   "rep": "BASE_S1",
+   "entry": 74.6,
+   "exit_reason": "square_off",
+   "net": 3212.0
+  },
+  {
+   "date": "2026-10-05",
+   "dir": "CE",
+   "entry_time": "09:35",
+   "rep": "BASE_S1",
+   "entry": 364.05,
+   "exit_reason": "stop",
+   "net": -3470.0
+  },
+  {
+   "date": "2026-10-06",
+   "dir": "CE",
+   "entry_time": "10:40",
+   "rep": "BASE_S1",
+   "entry": 381.3,
+   "exit_reason": "square_off",
+   "net": 410.5
+  },
+  {
+   "date": "2026-10-07",
+   "dir": "PE",
+   "entry_time": "09:40",
+   "rep": "BASE_S1",
+   "entry": 268.45,
+   "exit_reason": "stop",
+   "net": -3470.0
+  },
+  {
+   "date": "2026-10-12",
+   "dir": "PE",
+   "entry_time": "09:55",
+   "rep": "BASE_S1",
+   "entry": 250.8,
+   "exit_reason": "square_off",
+   "net": 4213.0
+  }
+ ],
+ "added_sum": -49965.75,
+ "added_n": 42
+}

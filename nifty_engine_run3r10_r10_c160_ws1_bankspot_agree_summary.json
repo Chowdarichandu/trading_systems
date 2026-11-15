@@ -1,0 +1,109 @@
+{
+ "name": "r10_c160_ws1_bankspot_agree",
+ "n": 30,
+ "total": 46882.0,
+ "resum": 46882.0,
+ "resum_ok": true,
+ "ft": 10,
+ "ft_pct": 33.3,
+ "per_week": 0.74,
+ "not_computed": 0,
+ "red_month_ends": [],
+ "month_table": {
+  "2026-01": [
+   13416.75,
+   13416.75
+  ],
+  "2026-02": [
+   12709.25,
+   26126.0
+  ],
+  "2026-03": [
+   7895.0,
+   34021.0
+  ],
+  "2026-04": [
+   -3470.0,
+   30551.0
+  ],
+  "2026-05": [
+   -10410.0,
+   20141.0
+  ],
+  "2026-06": [
+   -3910.0,
+   16231.0
+  ],
+  "2026-07": [
+   11218.75,
+   27449.75
+  ],
+  "2026-08": [
+   -1701.0,
+   25748.75
+  ],
+  "2026-09": [
+   4652.75,
+   30401.5
+  ],
+  "2026-10": [
+   16480.5,
+   46882.0
+  ]
+ },
+ "halves": {
+  "Jan-May": 20141.0,
+  "Jun-Oct": 26741.0
+ },
+ "ex_top3": 13417.0,
+ "top3": [
+  11155.0,
+  11155.0,
+  11155.0
+ ],
+ "placebo_shift30_total": 13829.5,
+ "october": 16480.5,
+ "timing_audit": {
+  "checked": 30,
+  "violations": 0
+ },
+ "nc_legs": [],
+ "2026-01": 13416.75,
+ "2026-02": 12709.25,
+ "2026-03": 7895.0,
+ "2026-04": -3470.0,
+ "2026-05": -10410.0,
+ "2026-06": -3910.0,
+ "2026-07": 11218.75,
+ "2026-08": -1701.0,
+ "2026-09": 4652.75,
+ "2026-10": 16480.5,
+ "nc_named_not_computed": "2026-10-28 22500 PE weekly expiry 2026-11-03 \u2014 NOT_COMPUTED (registry 0 contracts, Rounds 3-6); not in any Round-10 population",
+ "gate_relative": {
+  "banked": false,
+  "checks": {
+   "net_above_baseline": false,
+   "ft_not_degraded": false,
+   "frequency_not_degraded": false,
+   "no_green_month_flips_red": false,
+   "no_red_month_ends": true,
+   "halves_both>=0": true,
+   "placebo_beaten": true,
+   "ex_top3>=0": true,
+   "timing_audit_clean": true,
+   "not_computed_zero": true,
+   "resum_exact": true
+  },
+  "green_to_red": [
+   "2026-04"
+  ],
+  "vs_label": "Round-6/7/8/9 standing book (Round-10 open)",
+  "vs_total": 54102.0,
+  "vs_ft_pct": 34.3,
+  "vs_per_week": 0.86
+ },
+ "old_absolute_lines_status": {
+  "FT>=42.0": false,
+  "freq>=1.00/wk": false
+ }
+}

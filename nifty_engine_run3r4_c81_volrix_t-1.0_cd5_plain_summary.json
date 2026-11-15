@@ -1,0 +1,93 @@
+{
+ "name": "run3r4_c81_volrix_t-1.0_cd5_plain",
+ "n": 44,
+ "total": 97560.25,
+ "resum": 97560.25,
+ "resum_ok": true,
+ "ft": 20,
+ "ft_pct": 45.5,
+ "per_week": 1.08,
+ "not_computed": 0,
+ "red_month_ends": [],
+ "month_table": {
+  "2026-01": [
+   23974.75,
+   23974.75
+  ],
+  "2026-02": [
+   9308.5,
+   33283.25
+  ],
+  "2026-03": [
+   18400.0,
+   51683.25
+  ],
+  "2026-04": [
+   7471.5,
+   59154.75
+  ],
+  "2026-05": [
+   -2323.0,
+   56831.75
+  ],
+  "2026-06": [
+   7064.0,
+   63895.75
+  ],
+  "2026-07": [
+   14561.75,
+   78457.5
+  ],
+  "2026-08": [
+   -5187.25,
+   73270.25
+  ],
+  "2026-09": [
+   5020.0,
+   78290.25
+  ],
+  "2026-10": [
+   19270.0,
+   97560.25
+  ]
+ },
+ "halves": {
+  "Jan-May": 56831.75,
+  "Jun-Oct": 40728.5
+ },
+ "ex_top3": 64095.25,
+ "top3": [
+  11155.0,
+  11155.0,
+  11155.0
+ ],
+ "placebo_shift30_total": 57257.0,
+ "october": 19270.0,
+ "timing_audit": {
+  "checked": 44,
+  "violations": 0
+ },
+ "nc_legs": [],
+ "may": -2323.0,
+ "august": -5187.25,
+ "gate_vs_current": {
+  "banked": false,
+  "flagged_freq_only": false,
+  "checks": {
+   "net_above_current": false,
+   "ft_not_collapsed>=42.0": true,
+   "no_green_month_flips_red": true,
+   "no_red_month_ends": true,
+   "halves_both>=0": true,
+   "placebo_beaten": true,
+   "ex_top3>=0": true,
+   "timing_audit_clean": true,
+   "not_computed_zero": true,
+   "resum_exact": true,
+   "frequency>=1.00/wk": true
+  },
+  "green_to_red": [],
+  "vs_label": "Adopted book (CH3-R x lock50/TGT2-175) \u2014 post-retraction baseline",
+  "vs_total": 114921.75
+ }
+}

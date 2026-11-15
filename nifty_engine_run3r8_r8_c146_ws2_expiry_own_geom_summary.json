@@ -1,0 +1,122 @@
+{
+ "name": "r8_c146_ws2_expiry_own_geom",
+ "n": 50,
+ "total": 51695.75,
+ "resum": 51695.75,
+ "resum_ok": true,
+ "ft": 15,
+ "ft_pct": 30.0,
+ "per_week": 1.23,
+ "not_computed": 0,
+ "red_month_ends": [],
+ "month_table": {
+  "2026-01": [
+   15531.25,
+   15531.25
+  ],
+  "2026-02": [
+   12140.25,
+   27671.5
+  ],
+  "2026-03": [
+   5075.0,
+   32746.5
+  ],
+  "2026-04": [
+   -880.0,
+   31866.5
+  ],
+  "2026-05": [
+   -8398.5,
+   23468.0
+  ],
+  "2026-06": [
+   -3910.0,
+   19558.0
+  ],
+  "2026-07": [
+   3842.0,
+   23400.0
+  ],
+  "2026-08": [
+   5161.75,
+   28561.75
+  ],
+  "2026-09": [
+   6653.5,
+   35215.25
+  ],
+  "2026-10": [
+   16480.5,
+   51695.75
+  ]
+ },
+ "halves": {
+  "Jan-May": 23468.0,
+  "Jun-Oct": 28227.75
+ },
+ "ex_top3": 18230.75,
+ "top3": [
+  11155.0,
+  11155.0,
+  11155.0
+ ],
+ "placebo_shift30_total": 17434.25,
+ "october": 16480.5,
+ "timing_audit": {
+  "checked": 50,
+  "violations": 0
+ },
+ "nc_legs": [],
+ "may": -8398.5,
+ "august": 5161.75,
+ "ft90_pct_banking_basis": 30.0,
+ "ft_own_target_pct_DECISION_SUPPORT_ONLY": 34.0,
+ "gate_relative_FT90_reading": {
+  "banked": false,
+  "checks": {
+   "net_above_baseline": false,
+   "ft_not_degraded": false,
+   "frequency_not_degraded": true,
+   "no_green_month_flips_red": false,
+   "no_red_month_ends": true,
+   "halves_both>=0": true,
+   "placebo_beaten": true,
+   "ex_top3>=0": true,
+   "timing_audit_clean": true,
+   "not_computed_zero": true,
+   "resum_exact": true
+  },
+  "green_to_red": [
+   "2026-04"
+  ],
+  "vs_label": "Round-6/7 standing book (Round-8 open)",
+  "vs_total": 54102.0,
+  "vs_ft_pct": 34.3,
+  "vs_per_week": 0.86
+ },
+ "old_absolute_lines_status": {
+  "FT>=42.0": false,
+  "freq>=1.00/wk": true
+ },
+ "gate_relative_OWN_TARGET_FT_reading_DECISION_SUPPORT_ONLY": {
+  "would_bank": false,
+  "checks": {
+   "net_above_baseline": false,
+   "ft_not_degraded": false,
+   "frequency_not_degraded": true,
+   "no_green_month_flips_red": false,
+   "no_red_month_ends": true,
+   "halves_both>=0": true,
+   "placebo_beaten": true,
+   "ex_top3>=0": true,
+   "timing_audit_clean": true,
+   "not_computed_zero": true,
+   "resum_exact": true
+  },
+  "green_to_red": [
+   "2026-04"
+  ],
+  "note": "Decision support for the owner's flagged decision. NEVER a banking basis."
+ }
+}
