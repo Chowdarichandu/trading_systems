@@ -1,0 +1,241 @@
+{
+ "item3_stack_janoct": {
+  "summary": {
+   "days": 205,
+   "total_hypothetical": 127351.5,
+   "total_realised": 127475.5,
+   "breaker_effect": 124.0,
+   "suppressed_hypothetical": -124.0,
+   "paused_days": 3,
+   "trips": [
+    {
+     "date": "2026-07-06",
+     "kind": "STREAK",
+     "mtd": -1937.0
+    }
+   ]
+  },
+  "trip_detail": [
+   {
+    "trip": {
+     "date": "2026-07-06",
+     "kind": "STREAK",
+     "mtd": -1937.0
+    },
+    "suppressed_next": []
+   }
+  ],
+  "trips_enriched": [
+   {
+    "trip_date": "2026-07-06",
+    "kind": "STREAK",
+    "mtd_at_trip": -1937.0,
+    "paused_days": [
+     "2026-07-07",
+     "2026-07-08",
+     "2026-07-09"
+    ],
+    "suppressed_hypothetical": -124.0,
+    "suppressed_legs_detail": [
+     [
+      "2026-07-07",
+      -884.0
+     ],
+     [
+      "2026-07-08",
+      760.0
+     ]
+    ]
+   }
+  ]
+ },
+ "item3_stack_november": {
+  "days": 9,
+  "total_hypothetical": -2680.0,
+  "total_realised": -2680.0,
+  "breaker_effect": 0.0,
+  "suppressed_hypothetical": 0,
+  "paused_days": 0,
+  "trips": []
+ },
+ "item3_legacy_november_control": {
+  "day_nets": {
+   "2026-11-02": -1720.0,
+   "2026-11-03": -1720.0,
+   "2026-11-04": -1720.0,
+   "2026-11-05": 0.0,
+   "2026-11-06": 0.0,
+   "2026-11-09": -1720.0,
+   "2026-11-11": 2480.0,
+   "2026-11-12": 2480.0,
+   "2026-11-13": 0.0
+  },
+  "summary": {
+   "days": 9,
+   "total_hypothetical": -1920.0,
+   "total_realised": -5160.0,
+   "breaker_effect": -3240.0,
+   "suppressed_hypothetical": 3240.0,
+   "paused_days": 6,
+   "trips": [
+    {
+     "date": "2026-11-04",
+     "kind": "MTD",
+     "mtd": -5160.0
+    }
+   ]
+  }
+ },
+ "item3_nifty_tunedv1_janoct": {
+  "days": 205,
+  "total_hypothetical": 103050.25,
+  "total_realised": 76432.75,
+  "breaker_effect": -26617.5,
+  "suppressed_hypothetical": 26617.5,
+  "paused_days": 28,
+  "trips": [
+   {
+    "date": "2026-02-06",
+    "kind": "MTD",
+    "mtd": -6940.0
+   },
+   {
+    "date": "2026-05-11",
+    "kind": "MTD",
+    "mtd": -6084.25
+   }
+  ]
+ },
+ "item4": {
+  "bank_no_breaker": {
+   "book": "BANK TUNED STACK v2",
+   "windows": 196,
+   "worst_window": {
+    "start": "2026-06-09",
+    "end": "2026-06-22",
+    "net": -6880.0,
+    "max_drawdown": -6880.0,
+    "worst_day": -3440.0,
+    "regime_days": 4
+   },
+   "worst_regime_concentrated": {
+    "start": "2026-06-03",
+    "end": "2026-06-16",
+    "net": -4400.0,
+    "max_drawdown": -6880.0,
+    "worst_day": -3440.0,
+    "regime_days": 8
+   },
+   "worst_drawdown_window": {
+    "start": "2026-06-03",
+    "end": "2026-06-16",
+    "net": -4400.0,
+    "max_drawdown": -6880.0,
+    "worst_day": -3440.0,
+    "regime_days": 8
+   },
+   "regime_concentrated_windows": 85
+  },
+  "bank_with_breaker": {
+   "book": "BANK TUNED STACK v2 + breaker",
+   "windows": 196,
+   "worst_window": {
+    "start": "2026-06-09",
+    "end": "2026-06-22",
+    "net": -6880.0,
+    "max_drawdown": -6880.0,
+    "worst_day": -3440.0,
+    "regime_days": 4
+   },
+   "worst_regime_concentrated": {
+    "start": "2026-06-03",
+    "end": "2026-06-16",
+    "net": -4400.0,
+    "max_drawdown": -6880.0,
+    "worst_day": -3440.0,
+    "regime_days": 8
+   },
+   "worst_drawdown_window": {
+    "start": "2026-06-03",
+    "end": "2026-06-16",
+    "net": -4400.0,
+    "max_drawdown": -6880.0,
+    "worst_day": -3440.0,
+    "regime_days": 8
+   },
+   "regime_concentrated_windows": 85
+  },
+  "nifty_no_breaker": {
+   "book": "NIFTY TUNED v1",
+   "windows": 196,
+   "worst_window": {
+    "start": "2026-03-16",
+    "end": "2026-03-30",
+    "net": -13670.0,
+    "max_drawdown": -13670.0,
+    "worst_day": -3470.0,
+    "regime_days": 8
+   },
+   "worst_regime_concentrated": {
+    "start": "2026-03-16",
+    "end": "2026-03-30",
+    "net": -13670.0,
+    "max_drawdown": -13670.0,
+    "worst_day": -3470.0,
+    "regime_days": 8
+   },
+   "worst_drawdown_window": {
+    "start": "2026-03-13",
+    "end": "2026-03-27",
+    "net": -5985.0,
+    "max_drawdown": -13670.0,
+    "worst_day": -3470.0,
+    "regime_days": 8
+   },
+   "regime_concentrated_windows": 86
+  },
+  "nifty_with_breaker": {
+   "book": "NIFTY TUNED v1 + breaker",
+   "windows": 196,
+   "worst_window": {
+    "start": "2026-03-16",
+    "end": "2026-03-30",
+    "net": -13670.0,
+    "max_drawdown": -13670.0,
+    "worst_day": -3470.0,
+    "regime_days": 8
+   },
+   "worst_regime_concentrated": {
+    "start": "2026-03-16",
+    "end": "2026-03-30",
+    "net": -13670.0,
+    "max_drawdown": -13670.0,
+    "worst_day": -3470.0,
+    "regime_days": 8
+   },
+   "worst_drawdown_window": {
+    "start": "2026-03-13",
+    "end": "2026-03-27",
+    "net": -5985.0,
+    "max_drawdown": -13670.0,
+    "worst_day": -3470.0,
+    "regime_days": 8
+   },
+   "regime_concentrated_windows": 86
+  },
+  "bank_orig_worst_under_breaker": {
+   "start": "2026-06-09",
+   "end": "2026-06-22",
+   "net": -6880.0,
+   "max_drawdown": -6880.0,
+   "worst_day": -3440.0
+  },
+  "nifty_orig_worst_under_breaker": {
+   "start": "2026-03-16",
+   "end": "2026-03-30",
+   "net": -13670.0,
+   "max_drawdown": -13670.0,
+   "worst_day": -3470.0
+  }
+ }
+}

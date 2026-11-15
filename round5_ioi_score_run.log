@@ -1,0 +1,7 @@
+replay equivalence vs frozen replay_g0: OK
+IOI-1: fired=143 n=143 total=-65321.0 H=(-19898.0,-45423.0) ex3=-72761.0 placebos rev=-23009.3 coin=-27468.8 shift=-26751.5 NC=0 PASS=False legs={'total_pos': False, 'halves_pos': False, 'ex_top3_pos': False, 'beats_reversed': False, 'beats_coin': False, 'beats_shifted': False, 'timing_clean': True, 'nc_ok': True}
+IOI-2: fired=21 n=21 total=-10006.5 H=(-460.0,-9546.5) ex3=-17446.5 placebos rev=-9949.5 coin=-4836.0 shift=9727.5 NC=0 PASS=False legs={'total_pos': False, 'halves_pos': False, 'ex_top3_pos': False, 'beats_reversed': False, 'beats_coin': False, 'beats_shifted': False, 'timing_clean': True, 'nc_ok': True}
+re-sum: EXACT for both families
+MERGE (IOI-2, STRONGEST FAILING FAMILY — merge-only evidence): incr 12 legs -6106.5 | merged 121245.0 on 101 TD = 1200.45/TD | pass=False
+NOVEMBER (IOI-2): family legs=0 incr=0.0 | merged Nov -2680.0 vs stack -2680.0
+results -> round5_ioi_gate_results.json

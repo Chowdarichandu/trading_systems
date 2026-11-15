@@ -1,0 +1,3061 @@
+{
+ "session": "tuning_bank_fast_2026-11-12",
+ "anchor": {
+  "incumbent": "TUNED STACK v2 (EVE-19)",
+  "legs": 111,
+  "total": 127351.5,
+  "leg_for_leg": "exact vs bank_positive_tuning_2026-11-10_eve19_trades.csv"
+ },
+ "streams": {
+  "A_stack": {
+   "legs": 111,
+   "fe4_total": 127351.5,
+   "fe4_battery": {
+    "n_legs": 111,
+    "n_days": 89,
+    "total": 127351.5,
+    "per_month": 12735.15,
+    "per_leg": 1147.31,
+    "legs_per_month": 11.1,
+    "legs_per_week": 2.73,
+    "months": {
+     "2026-01": 24028.0,
+     "2026-02": 15284.0,
+     "2026-03": 8560.0,
+     "2026-04": 9810.0,
+     "2026-05": 25400.0,
+     "2026-06": 3040.0,
+     "2026-07": 4224.0,
+     "2026-08": 2059.5,
+     "2026-09": 15056.5,
+     "2026-10": 19889.5
+    },
+    "H1": 83082.0,
+    "H2": 44269.5,
+    "ex_top3_legs": 100528.5,
+    "top3_legs": [
+     9680.0,
+     9680.0,
+     7463.0
+    ],
+    "ex_top3_days": 100528.5,
+    "top3_days": [
+     9680.0,
+     9680.0,
+     7463.0
+    ],
+    "worst_day": {
+     "date": "2026-03-05",
+     "net": -3440.0
+    },
+    "worst_drawdown": -7221.0,
+    "pct_positive_days": 67.4
+   }
+  },
+  "B_ns1": {
+   "legs": 16,
+   "fe4_total": 10269.5,
+   "fe4_battery": {
+    "n_legs": 16,
+    "n_days": 16,
+    "total": 10269.5,
+    "per_month": 1026.95,
+    "per_leg": 641.84,
+    "legs_per_month": 1.6,
+    "legs_per_week": 0.39,
+    "months": {
+     "2026-01": 11523.0,
+     "2026-02": -1160.0,
+     "2026-03": -3440.0,
+     "2026-04": -960.0,
+     "2026-05": 0,
+     "2026-06": 2480.0,
+     "2026-07": -3440.0,
+     "2026-08": 0,
+     "2026-09": 306.5,
+     "2026-10": 4960.0
+    },
+    "H1": 5963.0,
+    "H2": 4306.5,
+    "ex_top3_legs": -2153.5,
+    "top3_legs": [
+     7463.0,
+     2480.0,
+     2480.0
+    ],
+    "ex_top3_days": -2153.5,
+    "top3_days": [
+     7463.0,
+     2480.0,
+     2480.0
+    ],
+    "worst_day": {
+     "date": "2026-02-03",
+     "net": -1720.0
+    },
+    "worst_drawdown": -6520.0,
+    "pct_positive_days": 56.2
+   },
+   "note": "NS1_second legs of the frozen pipeline (rows21), incl. the 3 early legs EVE-19 skips inside the stack"
+  },
+  "N_nifty_v1": {
+   "legs": 74,
+   "x1_total": 103050.25,
+   "x1_battery": {
+    "n_legs": 74,
+    "n_days": 66,
+    "total": 103050.25,
+    "per_month": 10305.02,
+    "per_leg": 1392.57,
+    "legs_per_month": 7.4,
+    "legs_per_week": 1.82,
+    "months": {
+     "2026-01": 15531.25,
+     "2026-02": 9229.25,
+     "2026-03": -1216.5,
+     "2026-04": 24411.25,
+     "2026-05": 4364.0,
+     "2026-06": 4828.0,
+     "2026-07": 10463.0,
+     "2026-08": 1911.75,
+     "2026-09": 13367.75,
+     "2026-10": 20160.5
+    },
+    "H1": 52319.25,
+    "H2": 50731.0,
+    "ex_top3_legs": 69585.25,
+    "top3_legs": [
+     11155.0,
+     11155.0,
+     11155.0
+    ],
+    "ex_top3_days": 69585.25,
+    "top3_days": [
+     11155.0,
+     11155.0,
+     11155.0
+    ],
+    "worst_day": {
+     "date": "2026-07-14",
+     "net": -5295.5
+    },
+    "worst_drawdown": -13670.0,
+    "pct_positive_days": 56.1
+   },
+   "note": "TUNED v1 (DEC-S1 minus B-PE); harness anchor + CSV cross-check + loader cross-validation 74/74"
+  }
+ },
+ "partA": {
+  "bank_A_stack": {
+   "tiers": {
+    "ALL": {
+     "legs": 111,
+     "wins": 66,
+     "wr_pct": 59.5,
+     "total": 127351.5,
+     "expectancy": 1147.31
+    },
+    "SOLID": {
+     "legs": 28,
+     "wins": 15,
+     "wr_pct": 53.6,
+     "total": 26181.5,
+     "expectancy": 935.05
+    },
+    "SOLIDS+": {
+     "legs": 8,
+     "wins": 4,
+     "wr_pct": 50.0,
+     "total": 1840.0,
+     "expectancy": 230.0
+    }
+   },
+   "cuts": {
+    "family_or_component": {
+     "BASE": {
+      "legs": 52,
+      "wins": 31,
+      "wr_pct": 59.6,
+      "total": 64946.0,
+      "expectancy": 1248.96
+     },
+     "EVE06_REENTRY": {
+      "legs": 15,
+      "wins": 8,
+      "wr_pct": 53.3,
+      "total": 7839.0,
+      "expectancy": 522.6
+     },
+     "NS1_second": {
+      "legs": 13,
+      "wins": 8,
+      "wr_pct": 61.5,
+      "total": 16149.5,
+      "expectancy": 1242.27
+     },
+     "NS3_gapclass": {
+      "legs": 21,
+      "wins": 12,
+      "wr_pct": 57.1,
+      "total": 26217.0,
+      "expectancy": 1248.43
+     },
+     "S3-PDC": {
+      "legs": 1,
+      "wins": 1,
+      "wr_pct": 100.0,
+      "total": 2480.0,
+      "expectancy": 2480.0
+     },
+     "S3-R1": {
+      "legs": 9,
+      "wins": 6,
+      "wr_pct": 66.7,
+      "total": 9720.0,
+      "expectancy": 1080.0
+     }
+    },
+    "agree": {
+     "0": {
+      "legs": 25,
+      "wins": 16,
+      "wr_pct": 64.0,
+      "total": 27432.5,
+      "expectancy": 1097.3
+     },
+     "1": {
+      "legs": 56,
+      "wins": 34,
+      "wr_pct": 60.7,
+      "total": 71375.5,
+      "expectancy": 1274.56
+     },
+     "2": {
+      "legs": 22,
+      "wins": 12,
+      "wr_pct": 54.5,
+      "total": 25101.5,
+      "expectancy": 1140.98
+     },
+     "3": {
+      "legs": 8,
+      "wins": 4,
+      "wr_pct": 50.0,
+      "total": 3442.0,
+      "expectancy": 430.25
+     }
+    },
+    "direction": {
+     "CE": {
+      "legs": 21,
+      "wins": 13,
+      "wr_pct": 61.9,
+      "total": 30285.0,
+      "expectancy": 1442.14
+     },
+     "PE": {
+      "legs": 90,
+      "wins": 53,
+      "wr_pct": 58.9,
+      "total": 97066.5,
+      "expectancy": 1078.52
+     }
+    },
+    "tod": {
+     "early": {
+      "legs": 54,
+      "wins": 30,
+      "wr_pct": 55.6,
+      "total": 64302.0,
+      "expectancy": 1190.78
+     },
+     "mid": {
+      "legs": 34,
+      "wins": 21,
+      "wr_pct": 61.8,
+      "total": 44189.0,
+      "expectancy": 1299.68
+     },
+     "late": {
+      "legs": 23,
+      "wins": 15,
+      "wr_pct": 65.2,
+      "total": 18860.5,
+      "expectancy": 820.02
+     }
+    },
+    "prem_band": {
+     "low<500": {
+      "legs": 32,
+      "wins": 24,
+      "wr_pct": 75.0,
+      "total": 69749.5,
+      "expectancy": 2179.67
+     },
+     "mid500-750": {
+      "legs": 32,
+      "wins": 14,
+      "wr_pct": 43.8,
+      "total": 7087.0,
+      "expectancy": 221.47
+     },
+     "high>750": {
+      "legs": 47,
+      "wins": 28,
+      "wr_pct": 59.6,
+      "total": 50515.0,
+      "expectancy": 1074.79
+     }
+    },
+    "anchor_leg": {
+     "0": {
+      "legs": 83,
+      "wins": 50,
+      "wr_pct": 60.2,
+      "total": 103363.0,
+      "expectancy": 1245.34
+     },
+     "1": {
+      "legs": 28,
+      "wins": 16,
+      "wr_pct": 57.1,
+      "total": 23988.5,
+      "expectancy": 856.73
+     }
+    }
+   }
+  },
+  "bank_B_ns1": {
+   "tiers": {
+    "ALL": {
+     "legs": 16,
+     "wins": 9,
+     "wr_pct": 56.2,
+     "total": 10269.5,
+     "expectancy": 641.84
+    },
+    "SOLID": {
+     "legs": 0,
+     "wins": 0,
+     "wr_pct": null,
+     "total": 0.0,
+     "expectancy": null
+    },
+    "SOLIDS+": {
+     "legs": 0,
+     "wins": 0,
+     "wr_pct": null,
+     "total": 0.0,
+     "expectancy": null
+    }
+   },
+   "cuts": {
+    "family_or_component": {
+     "NS1_second": {
+      "legs": 16,
+      "wins": 9,
+      "wr_pct": 56.2,
+      "total": 10269.5,
+      "expectancy": 641.84
+     }
+    },
+    "agree": {
+     "0": {
+      "legs": 5,
+      "wins": 3,
+      "wr_pct": 60.0,
+      "total": 1376.5,
+      "expectancy": 275.3
+     },
+     "1": {
+      "legs": 11,
+      "wins": 6,
+      "wr_pct": 54.5,
+      "total": 8893.0,
+      "expectancy": 808.45
+     }
+    },
+    "direction": {
+     "PE": {
+      "legs": 16,
+      "wins": 9,
+      "wr_pct": 56.2,
+      "total": 10269.5,
+      "expectancy": 641.84
+     }
+    },
+    "tod": {
+     "early": {
+      "legs": 6,
+      "wins": 2,
+      "wr_pct": 33.3,
+      "total": -3840.0,
+      "expectancy": -640.0
+     },
+     "mid": {
+      "legs": 8,
+      "wins": 5,
+      "wr_pct": 62.5,
+      "total": 11323.0,
+      "expectancy": 1415.38
+     },
+     "late": {
+      "legs": 2,
+      "wins": 2,
+      "wr_pct": 100.0,
+      "total": 2786.5,
+      "expectancy": 1393.25
+     }
+    },
+    "prem_band": {
+     "low<500": {
+      "legs": 5,
+      "wins": 4,
+      "wr_pct": 80.0,
+      "total": 12283.0,
+      "expectancy": 2456.6
+     },
+     "mid500-750": {
+      "legs": 3,
+      "wins": 3,
+      "wr_pct": 100.0,
+      "total": 3346.5,
+      "expectancy": 1115.5
+     },
+     "high>750": {
+      "legs": 8,
+      "wins": 2,
+      "wr_pct": 25.0,
+      "total": -5360.0,
+      "expectancy": -670.0
+     }
+    },
+    "anchor_leg": {
+     "1": {
+      "legs": 16,
+      "wins": 9,
+      "wr_pct": 56.2,
+      "total": 10269.5,
+      "expectancy": 641.84
+     }
+    }
+   }
+  },
+  "nifty_v1": {
+   "tiers": {
+    "ALL": {
+     "legs": 74,
+     "wins": 38,
+     "wr_pct": 51.4,
+     "total": 103050.25,
+     "expectancy": 1392.57
+    },
+    "SOLID": {
+     "legs": 31,
+     "wins": 15,
+     "wr_pct": 48.4,
+     "total": 44003.5,
+     "expectancy": 1419.47
+    },
+    "SOLIDS+": {
+     "legs": 29,
+     "wins": 14,
+     "wr_pct": 48.3,
+     "total": 40390.75,
+     "expectancy": 1392.78
+    }
+   },
+   "cuts": {
+    "family_or_component": {
+     "DEC-S1 A": {
+      "legs": 35,
+      "wins": 18,
+      "wr_pct": 51.4,
+      "total": 54102.0,
+      "expectancy": 1545.77
+     },
+     "DEC-S1 B": {
+      "legs": 26,
+      "wins": 16,
+      "wr_pct": 61.5,
+      "total": 45506.5,
+      "expectancy": 1750.25
+     },
+     "DEC-S1 C": {
+      "legs": 13,
+      "wins": 4,
+      "wr_pct": 30.8,
+      "total": 3441.75,
+      "expectancy": 264.75
+     }
+    },
+    "agree": {
+     "0": {
+      "legs": 20,
+      "wins": 12,
+      "wr_pct": 60.0,
+      "total": 27125.0,
+      "expectancy": 1356.25
+     },
+     "1": {
+      "legs": 23,
+      "wins": 11,
+      "wr_pct": 47.8,
+      "total": 31921.75,
+      "expectancy": 1387.9
+     },
+     "2": {
+      "legs": 22,
+      "wins": 10,
+      "wr_pct": 45.5,
+      "total": 20887.0,
+      "expectancy": 949.41
+     },
+     "3": {
+      "legs": 9,
+      "wins": 5,
+      "wr_pct": 55.6,
+      "total": 23116.5,
+      "expectancy": 2568.5
+     }
+    },
+    "direction": {
+     "CE": {
+      "legs": 41,
+      "wins": 19,
+      "wr_pct": 46.3,
+      "total": 32606.0,
+      "expectancy": 795.27
+     },
+     "PE": {
+      "legs": 33,
+      "wins": 19,
+      "wr_pct": 57.6,
+      "total": 70444.25,
+      "expectancy": 2134.67
+     }
+    },
+    "tod": {
+     "early": {
+      "legs": 62,
+      "wins": 32,
+      "wr_pct": 51.6,
+      "total": 89359.0,
+      "expectancy": 1441.27
+     },
+     "mid": {
+      "legs": 9,
+      "wins": 5,
+      "wr_pct": 55.6,
+      "total": 17162.5,
+      "expectancy": 1906.94
+     },
+     "late": {
+      "legs": 3,
+      "wins": 1,
+      "wr_pct": 33.3,
+      "total": -3471.25,
+      "expectancy": -1157.08
+     }
+    },
+    "prem_band": {
+     "low<150": {
+      "legs": 22,
+      "wins": 9,
+      "wr_pct": 40.9,
+      "total": 17360.75,
+      "expectancy": 789.12
+     },
+     "mid150-300": {
+      "legs": 28,
+      "wins": 17,
+      "wr_pct": 60.7,
+      "total": 50529.75,
+      "expectancy": 1804.63
+     },
+     "high>300": {
+      "legs": 24,
+      "wins": 12,
+      "wr_pct": 50.0,
+      "total": 35159.75,
+      "expectancy": 1464.99
+     }
+    },
+    "anchor_leg": {
+     "0": {
+      "legs": 39,
+      "wins": 20,
+      "wr_pct": 51.3,
+      "total": 48948.25,
+      "expectancy": 1255.08
+     },
+     "1": {
+      "legs": 35,
+      "wins": 18,
+      "wr_pct": 51.4,
+      "total": 54102.0,
+      "expectancy": 1545.77
+     }
+    }
+   }
+  }
+ },
+ "results": {
+  "bank_A_stack|ALL|X-1": {
+   "stream": "bank_A_stack",
+   "tier": "ALL",
+   "variant": "X-1",
+   "battery": {
+    "n_legs": 111,
+    "n_days": 89,
+    "total": 127351.5,
+    "per_month": 12735.15,
+    "per_leg": 1147.31,
+    "legs_per_month": 11.1,
+    "legs_per_week": 2.73,
+    "months": {
+     "2026-01": 24028.0,
+     "2026-02": 15284.0,
+     "2026-03": 8560.0,
+     "2026-04": 9810.0,
+     "2026-05": 25400.0,
+     "2026-06": 3040.0,
+     "2026-07": 4224.0,
+     "2026-08": 2059.5,
+     "2026-09": 15056.5,
+     "2026-10": 19889.5
+    },
+    "H1": 83082.0,
+    "H2": 44269.5,
+    "ex_top3_legs": 100528.5,
+    "top3_legs": [
+     9680.0,
+     9680.0,
+     7463.0
+    ],
+    "ex_top3_days": 100528.5,
+    "top3_days": [
+     9680.0,
+     9680.0,
+     7463.0
+    ],
+    "worst_day": {
+     "date": "2026-03-05",
+     "net": -3440.0
+    },
+    "worst_drawdown": -7221.0,
+    "pct_positive_days": 67.4
+   },
+   "wr": {
+    "legs": 111,
+    "wins": 66,
+    "wr_pct": 59.5,
+    "total": 127351.5,
+    "expectancy": 1147.31
+   },
+   "hold": {
+    "median_bars": 7,
+    "pct_within_2": 20.7,
+    "reasons": {
+     "lock_stop": 2,
+     "runner_square_off": 3,
+     "runner_stop": 35,
+     "runner_target": 14,
+     "square_off": 8,
+     "stop": 40,
+     "target": 9
+    }
+   },
+   "delay1_placebo_total": null,
+   "random_placebo_p95": null,
+   "gate_fails": [],
+   "gate_pass": true,
+   "owner_bars": {
+    "wr_ge_60": false,
+    "total_positive": true,
+    "total_ge_60pct_incumbent": true
+   },
+   "incumbent_total": 127351.5,
+   "verdict": "FAIL",
+   "independent_resum": {
+    "n": 111,
+    "net": 127351.5
+   },
+   "audit_violations": []
+  },
+  "bank_A_stack|ALL|X-2": {
+   "stream": "bank_A_stack",
+   "tier": "ALL",
+   "variant": "X-2",
+   "battery": {
+    "n_legs": 111,
+    "n_days": 89,
+    "total": 76726.5,
+    "per_month": 7672.65,
+    "per_leg": 691.23,
+    "legs_per_month": 11.1,
+    "legs_per_week": 2.73,
+    "months": {
+     "2026-01": 18712.0,
+     "2026-02": -1642.0,
+     "2026-03": 4510.0,
+     "2026-04": 8610.0,
+     "2026-05": 18800.0,
+     "2026-06": -1760.0,
+     "2026-07": 12244.5,
+     "2026-08": -4101.0,
+     "2026-09": 11023.0,
+     "2026-10": 10330.0
+    },
+    "H1": 48990.0,
+    "H2": 27736.5,
+    "ex_top3_legs": 42136.5,
+    "top3_legs": [
+     14030.0,
+     11780.0,
+     8780.0
+    ],
+    "ex_top3_days": 43856.5,
+    "top3_days": [
+     12310.0,
+     11780.0,
+     8780.0
+    ],
+    "worst_day": {
+     "date": "2026-03-05",
+     "net": -3440.0
+    },
+    "worst_drawdown": -13251.0,
+    "pct_positive_days": 53.9
+   },
+   "wr": {
+    "legs": 111,
+    "wins": 60,
+    "wr_pct": 54.1,
+    "total": 76726.5,
+    "expectancy": 691.23
+   },
+   "hold": {
+    "median_bars": 9,
+    "pct_within_2": 17.1,
+    "reasons": {
+     "lock_stop": 53,
+     "square_off": 9,
+     "stop": 49
+    }
+   },
+   "delay1_placebo_total": 32983.5,
+   "random_placebo_p95": null,
+   "gate_fails": [
+    "month 2026-02 flips green->red (15284.0 -> -1642.0)",
+    "month 2026-06 flips green->red (3040.0 -> -1760.0)",
+    "month 2026-08 flips green->red (2059.5 -> -4101.0)"
+   ],
+   "gate_pass": false,
+   "owner_bars": {
+    "wr_ge_60": false,
+    "total_positive": true,
+    "total_ge_60pct_incumbent": true
+   },
+   "incumbent_total": 127351.5,
+   "verdict": "FAIL",
+   "independent_resum": {
+    "n": 111,
+    "net": 76726.5
+   },
+   "audit_violations": []
+  },
+  "bank_A_stack|ALL|X-3": {
+   "stream": "bank_A_stack",
+   "tier": "ALL",
+   "variant": "X-3",
+   "battery": {
+    "n_legs": 111,
+    "n_days": 89,
+    "total": 44352.0,
+    "per_month": 4435.2,
+    "per_leg": 399.57,
+    "legs_per_month": 11.1,
+    "legs_per_week": 2.73,
+    "months": {
+     "2026-01": 9940.0,
+     "2026-02": 1460.0,
+     "2026-03": 6700.0,
+     "2026-04": 5460.0,
+     "2026-05": 4160.0,
+     "2026-06": 1960.0,
+     "2026-07": 9492.0,
+     "2026-08": -3120.0,
+     "2026-09": 5920.0,
+     "2026-10": 2380.0
+    },
+    "H1": 27720.0,
+    "H2": 16632.0,
+    "ex_top3_legs": 29232.0,
+    "top3_legs": [
+     7940.0,
+     3740.0,
+     3440.0
+    ],
+    "ex_top3_days": 31252.0,
+    "top3_days": [
+     6220.0,
+     3740.0,
+     3140.0
+    ],
+    "worst_day": {
+     "date": "2026-08-07",
+     "net": -3440.0
+    },
+    "worst_drawdown": -6780.0,
+    "pct_positive_days": 56.2
+   },
+   "wr": {
+    "legs": 111,
+    "wins": 58,
+    "wr_pct": 52.3,
+    "total": 44352.0,
+    "expectancy": 399.57
+   },
+   "hold": {
+    "median_bars": 3,
+    "pct_within_2": 41.4,
+    "reasons": {
+     "lock_stop": 86,
+     "square_off": 1,
+     "stop": 24
+    }
+   },
+   "delay1_placebo_total": 11980.5,
+   "random_placebo_p95": null,
+   "gate_fails": [
+    "month 2026-08 flips green->red (2059.5 -> -3120.0)"
+   ],
+   "gate_pass": false,
+   "owner_bars": {
+    "wr_ge_60": false,
+    "total_positive": true,
+    "total_ge_60pct_incumbent": false
+   },
+   "incumbent_total": 127351.5,
+   "verdict": "FAIL",
+   "independent_resum": {
+    "n": 111,
+    "net": 44352.0
+   },
+   "audit_violations": []
+  },
+  "bank_A_stack|SOLID|X-1": {
+   "stream": "bank_A_stack",
+   "tier": "SOLID",
+   "variant": "X-1",
+   "battery": {
+    "n_legs": 28,
+    "n_days": 26,
+    "total": 26181.5,
+    "per_month": 2618.15,
+    "per_leg": 935.05,
+    "legs_per_month": 2.8,
+    "legs_per_week": 0.69,
+    "months": {
+     "2026-01": 9680.0,
+     "2026-02": 1942.0,
+     "2026-03": 7240.0,
+     "2026-04": 6460.0,
+     "2026-05": 1520.0,
+     "2026-06": -1720.0,
+     "2026-07": -2680.0,
+     "2026-08": -1720.0,
+     "2026-09": -1720.0,
+     "2026-10": 7179.5
+    },
+    "H1": 26842.0,
+    "H2": -660.5,
+    "ex_top3_legs": 6932.0,
+    "top3_legs": [
+     9680.0,
+     5180.0,
+     4389.5
+    ],
+    "ex_top3_days": 6932.0,
+    "top3_days": [
+     9680.0,
+     5180.0,
+     4389.5
+    ],
+    "worst_day": {
+     "date": "2026-03-11",
+     "net": -3440.0
+    },
+    "worst_drawdown": -11280.0,
+    "pct_positive_days": 57.7
+   },
+   "wr": {
+    "legs": 28,
+    "wins": 15,
+    "wr_pct": 53.6,
+    "total": 26181.5,
+    "expectancy": 935.05
+   },
+   "hold": {
+    "median_bars": 5.5,
+    "pct_within_2": 25.0,
+    "reasons": {
+     "runner_square_off": 2,
+     "runner_stop": 10,
+     "runner_target": 2,
+     "stop": 13,
+     "target": 1
+    }
+   },
+   "delay1_placebo_total": null,
+   "random_placebo_p95": 51128.0,
+   "gate_fails": [
+    "random-subset placebo not beaten: 26181.5 vs p95 51128.0",
+    "halves 26842.0/-660.5 vs incumbent 83082.0/44269.5",
+    "month 2026-06 flips green->red (3040.0 -> -1720.0)",
+    "month 2026-07 flips green->red (4224.0 -> -2680.0)",
+    "month 2026-08 flips green->red (2059.5 -> -1720.0)",
+    "month 2026-09 flips green->red (15056.5 -> -1720.0)"
+   ],
+   "gate_pass": false,
+   "owner_bars": {
+    "wr_ge_60": false,
+    "total_positive": true,
+    "total_ge_60pct_incumbent": false
+   },
+   "incumbent_total": 127351.5,
+   "verdict": "FAIL",
+   "independent_resum": {
+    "n": 28,
+    "net": 26181.5
+   },
+   "audit_violations": []
+  },
+  "bank_A_stack|SOLID|X-2": {
+   "stream": "bank_A_stack",
+   "tier": "SOLID",
+   "variant": "X-2",
+   "battery": {
+    "n_legs": 28,
+    "n_days": 26,
+    "total": 22517.0,
+    "per_month": 2251.7,
+    "per_leg": 804.18,
+    "legs_per_month": 2.8,
+    "legs_per_week": 0.69,
+    "months": {
+     "2026-01": 11780.0,
+     "2026-02": -263.0,
+     "2026-03": 4990.0,
+     "2026-04": 10810.0,
+     "2026-05": -880.0,
+     "2026-06": -1720.0,
+     "2026-07": -3130.0,
+     "2026-08": -1720.0,
+     "2026-09": -1720.0,
+     "2026-10": 4370.0
+    },
+    "H1": 26437.0,
+    "H2": -3920.0,
+    "ex_top3_legs": -4573.0,
+    "top3_legs": [
+     11780.0,
+     8780.0,
+     6530.0
+    ],
+    "ex_top3_days": -4573.0,
+    "top3_days": [
+     11780.0,
+     8780.0,
+     6530.0
+    ],
+    "worst_day": {
+     "date": "2026-03-11",
+     "net": -3440.0
+    },
+    "worst_drawdown": -15170.0,
+    "pct_positive_days": 53.8
+   },
+   "wr": {
+    "legs": 28,
+    "wins": 14,
+    "wr_pct": 50.0,
+    "total": 22517.0,
+    "expectancy": 804.18
+   },
+   "hold": {
+    "median_bars": 7.0,
+    "pct_within_2": 25.0,
+    "reasons": {
+     "lock_stop": 13,
+     "square_off": 1,
+     "stop": 14
+    }
+   },
+   "delay1_placebo_total": 5256.5,
+   "random_placebo_p95": 41762.0,
+   "gate_fails": [
+    "random-subset placebo not beaten: 22517.0 vs p95 41762.0",
+    "halves 26437.0/-3920.0 vs incumbent 83082.0/44269.5",
+    "ex-top3 legs -4573.0 < 0",
+    "month 2026-02 flips green->red (15284.0 -> -263.0)",
+    "month 2026-05 flips green->red (25400.0 -> -880.0)",
+    "month 2026-06 flips green->red (3040.0 -> -1720.0)",
+    "month 2026-07 flips green->red (4224.0 -> -3130.0)",
+    "month 2026-08 flips green->red (2059.5 -> -1720.0)",
+    "month 2026-09 flips green->red (15056.5 -> -1720.0)"
+   ],
+   "gate_pass": false,
+   "owner_bars": {
+    "wr_ge_60": false,
+    "total_positive": true,
+    "total_ge_60pct_incumbent": false
+   },
+   "incumbent_total": 127351.5,
+   "verdict": "FAIL",
+   "independent_resum": {
+    "n": 28,
+    "net": 22517.0
+   },
+   "audit_violations": []
+  },
+  "bank_A_stack|SOLID|X-3": {
+   "stream": "bank_A_stack",
+   "tier": "SOLID",
+   "variant": "X-3",
+   "battery": {
+    "n_legs": 28,
+    "n_days": 26,
+    "total": -2920.0,
+    "per_month": -292.0,
+    "per_leg": -104.29,
+    "legs_per_month": 2.8,
+    "legs_per_week": 0.69,
+    "months": {
+     "2026-01": 1520.0,
+     "2026-02": 460.0,
+     "2026-03": 1600.0,
+     "2026-04": 2020.0,
+     "2026-05": -2980.0,
+     "2026-06": -1720.0,
+     "2026-07": -2140.0,
+     "2026-08": -1720.0,
+     "2026-09": -220.0,
+     "2026-10": 260.0
+    },
+    "H1": 2620.0,
+    "H2": -5540.0,
+    "ex_top3_legs": -10420.0,
+    "top3_legs": [
+     3740.0,
+     2240.0,
+     1520.0
+    ],
+    "ex_top3_days": -10420.0,
+    "top3_days": [
+     3740.0,
+     2240.0,
+     1520.0
+    ],
+    "worst_day": {
+     "date": "2026-03-11",
+     "net": -1940.0
+    },
+    "worst_drawdown": -11180.0,
+    "pct_positive_days": 34.6
+   },
+   "wr": {
+    "legs": 28,
+    "wins": 9,
+    "wr_pct": 32.1,
+    "total": -2920.0,
+    "expectancy": -104.29
+   },
+   "hold": {
+    "median_bars": 2.0,
+    "pct_within_2": 57.1,
+    "reasons": {
+     "lock_stop": 20,
+     "stop": 8
+    }
+   },
+   "delay1_placebo_total": -4660.0,
+   "random_placebo_p95": 23060.0,
+   "gate_fails": [
+    "random-subset placebo not beaten: -2920.0 vs p95 23060.0",
+    "halves 2620.0/-5540.0 vs incumbent 83082.0/44269.5",
+    "ex-top3 legs -10420.0 < 0",
+    "month 2026-05 flips green->red (25400.0 -> -2980.0)",
+    "month 2026-06 flips green->red (3040.0 -> -1720.0)",
+    "month 2026-07 flips green->red (4224.0 -> -2140.0)",
+    "month 2026-08 flips green->red (2059.5 -> -1720.0)",
+    "month 2026-09 flips green->red (15056.5 -> -220.0)"
+   ],
+   "gate_pass": false,
+   "owner_bars": {
+    "wr_ge_60": false,
+    "total_positive": false,
+    "total_ge_60pct_incumbent": false
+   },
+   "incumbent_total": 127351.5,
+   "verdict": "FAIL",
+   "independent_resum": {
+    "n": 28,
+    "net": -2920.0
+   },
+   "audit_violations": []
+  },
+  "bank_A_stack|SOLIDS+|X-1": {
+   "stream": "bank_A_stack",
+   "tier": "SOLIDS+",
+   "variant": "X-1",
+   "battery": {
+    "n_legs": 8,
+    "n_days": 8,
+    "total": 1840.0,
+    "per_month": 184.0,
+    "per_leg": 230.0,
+    "legs_per_month": 0.8,
+    "legs_per_week": 0.2,
+    "months": {
+     "2026-01": 0,
+     "2026-02": -1720.0,
+     "2026-03": 3240.0,
+     "2026-04": 1280.0,
+     "2026-05": 760.0,
+     "2026-06": 0,
+     "2026-07": -1720.0,
+     "2026-08": 0,
+     "2026-09": 0,
+     "2026-10": 0
+    },
+    "H1": 3560.0,
+    "H2": -1720.0,
+    "ex_top3_legs": -5600.0,
+    "top3_legs": [
+     2480.0,
+     2480.0,
+     2480.0
+    ],
+    "ex_top3_days": -5600.0,
+    "top3_days": [
+     2480.0,
+     2480.0,
+     2480.0
+    ],
+    "worst_day": {
+     "date": "2026-02-27",
+     "net": -1720.0
+    },
+    "worst_drawdown": -3440.0,
+    "pct_positive_days": 50.0
+   },
+   "wr": {
+    "legs": 8,
+    "wins": 4,
+    "wr_pct": 50.0,
+    "total": 1840.0,
+    "expectancy": 230.0
+   },
+   "hold": {
+    "median_bars": 3.5,
+    "pct_within_2": 50.0,
+    "reasons": {
+     "runner_stop": 3,
+     "stop": 4,
+     "target": 1
+    }
+   },
+   "delay1_placebo_total": null,
+   "random_placebo_p95": 21460.0,
+   "gate_fails": [
+    "random-subset placebo not beaten: 1840.0 vs p95 21460.0",
+    "halves 3560.0/-1720.0 vs incumbent 83082.0/44269.5",
+    "ex-top3 legs -5600.0 < 0",
+    "month 2026-02 flips green->red (15284.0 -> -1720.0)",
+    "month 2026-07 flips green->red (4224.0 -> -1720.0)"
+   ],
+   "gate_pass": false,
+   "owner_bars": {
+    "wr_ge_60": false,
+    "total_positive": true,
+    "total_ge_60pct_incumbent": false
+   },
+   "incumbent_total": 127351.5,
+   "verdict": "FAIL",
+   "independent_resum": {
+    "n": 8,
+    "net": 1840.0
+   },
+   "audit_violations": []
+  },
+  "bank_A_stack|SOLIDS+|X-2": {
+   "stream": "bank_A_stack",
+   "tier": "SOLIDS+",
+   "variant": "X-2",
+   "battery": {
+    "n_legs": 8,
+    "n_days": 8,
+    "total": 490.0,
+    "per_month": 49.0,
+    "per_leg": 61.25,
+    "legs_per_month": 0.8,
+    "legs_per_week": 0.2,
+    "months": {
+     "2026-01": 0,
+     "2026-02": -1720.0,
+     "2026-03": 2340.0,
+     "2026-04": 2030.0,
+     "2026-05": -440.0,
+     "2026-06": 0,
+     "2026-07": -1720.0,
+     "2026-08": 0,
+     "2026-09": 0,
+     "2026-10": 0
+    },
+    "H1": 2210.0,
+    "H2": -1720.0,
+    "ex_top3_legs": -5600.0,
+    "top3_legs": [
+     2780.0,
+     2030.0,
+     1280.0
+    ],
+    "ex_top3_days": -5600.0,
+    "top3_days": [
+     2780.0,
+     2030.0,
+     1280.0
+    ],
+    "worst_day": {
+     "date": "2026-02-27",
+     "net": -1720.0
+    },
+    "worst_drawdown": -3440.0,
+    "pct_positive_days": 50.0
+   },
+   "wr": {
+    "legs": 8,
+    "wins": 4,
+    "wr_pct": 50.0,
+    "total": 490.0,
+    "expectancy": 61.25
+   },
+   "hold": {
+    "median_bars": 3.5,
+    "pct_within_2": 50.0,
+    "reasons": {
+     "lock_stop": 4,
+     "stop": 4
+    }
+   },
+   "delay1_placebo_total": -4010.0,
+   "random_placebo_p95": 20555.5,
+   "gate_fails": [
+    "random-subset placebo not beaten: 490.0 vs p95 20555.5",
+    "halves 2210.0/-1720.0 vs incumbent 83082.0/44269.5",
+    "ex-top3 legs -5600.0 < 0",
+    "month 2026-02 flips green->red (15284.0 -> -1720.0)",
+    "month 2026-05 flips green->red (25400.0 -> -440.0)",
+    "month 2026-07 flips green->red (4224.0 -> -1720.0)"
+   ],
+   "gate_pass": false,
+   "owner_bars": {
+    "wr_ge_60": false,
+    "total_positive": true,
+    "total_ge_60pct_incumbent": false
+   },
+   "incumbent_total": 127351.5,
+   "verdict": "FAIL",
+   "independent_resum": {
+    "n": 8,
+    "net": 490.0
+   },
+   "audit_violations": []
+  },
+  "bank_A_stack|SOLIDS+|X-3": {
+   "stream": "bank_A_stack",
+   "tier": "SOLIDS+",
+   "variant": "X-3",
+   "battery": {
+    "n_legs": 8,
+    "n_days": 8,
+    "total": -2900.0,
+    "per_month": -290.0,
+    "per_leg": -362.5,
+    "legs_per_month": 0.8,
+    "legs_per_week": 0.2,
+    "months": {
+     "2026-01": 0,
+     "2026-02": -220.0,
+     "2026-03": -1260.0,
+     "2026-04": 2240.0,
+     "2026-05": -1940.0,
+     "2026-06": 0,
+     "2026-07": -1720.0,
+     "2026-08": 0,
+     "2026-09": 0,
+     "2026-10": 0
+    },
+    "H1": -1180.0,
+    "H2": -1720.0,
+    "ex_top3_legs": -5600.0,
+    "top3_legs": [
+     2240.0,
+     680.0,
+     -220.0
+    ],
+    "ex_top3_days": -5600.0,
+    "top3_days": [
+     2240.0,
+     680.0,
+     -220.0
+    ],
+    "worst_day": {
+     "date": "2026-03-11",
+     "net": -1720.0
+    },
+    "worst_drawdown": -3660.0,
+    "pct_positive_days": 25.0
+   },
+   "wr": {
+    "legs": 8,
+    "wins": 2,
+    "wr_pct": 25.0,
+    "total": -2900.0,
+    "expectancy": -362.5
+   },
+   "hold": {
+    "median_bars": 2.0,
+    "pct_within_2": 62.5,
+    "reasons": {
+     "lock_stop": 5,
+     "stop": 3
+    }
+   },
+   "delay1_placebo_total": -4460.0,
+   "random_placebo_p95": 10600.0,
+   "gate_fails": [
+    "random-subset placebo not beaten: -2900.0 vs p95 10600.0",
+    "halves -1180.0/-1720.0 vs incumbent 83082.0/44269.5",
+    "ex-top3 legs -5600.0 < 0",
+    "month 2026-02 flips green->red (15284.0 -> -220.0)",
+    "month 2026-03 flips green->red (8560.0 -> -1260.0)",
+    "month 2026-05 flips green->red (25400.0 -> -1940.0)",
+    "month 2026-07 flips green->red (4224.0 -> -1720.0)"
+   ],
+   "gate_pass": false,
+   "owner_bars": {
+    "wr_ge_60": false,
+    "total_positive": false,
+    "total_ge_60pct_incumbent": false
+   },
+   "incumbent_total": 127351.5,
+   "verdict": "FAIL",
+   "independent_resum": {
+    "n": 8,
+    "net": -2900.0
+   },
+   "audit_violations": []
+  },
+  "bank_B_ns1|ALL|X-1": {
+   "stream": "bank_B_ns1",
+   "tier": "ALL",
+   "variant": "X-1",
+   "battery": {
+    "n_legs": 16,
+    "n_days": 16,
+    "total": 10269.5,
+    "per_month": 1026.95,
+    "per_leg": 641.84,
+    "legs_per_month": 1.6,
+    "legs_per_week": 0.39,
+    "months": {
+     "2026-01": 11523.0,
+     "2026-02": -1160.0,
+     "2026-03": -3440.0,
+     "2026-04": -960.0,
+     "2026-05": 0,
+     "2026-06": 2480.0,
+     "2026-07": -3440.0,
+     "2026-08": 0,
+     "2026-09": 306.5,
+     "2026-10": 4960.0
+    },
+    "H1": 5963.0,
+    "H2": 4306.5,
+    "ex_top3_legs": -2153.5,
+    "top3_legs": [
+     7463.0,
+     2480.0,
+     2480.0
+    ],
+    "ex_top3_days": -2153.5,
+    "top3_days": [
+     7463.0,
+     2480.0,
+     2480.0
+    ],
+    "worst_day": {
+     "date": "2026-02-03",
+     "net": -1720.0
+    },
+    "worst_drawdown": -6520.0,
+    "pct_positive_days": 56.2
+   },
+   "wr": {
+    "legs": 16,
+    "wins": 9,
+    "wr_pct": 56.2,
+    "total": 10269.5,
+    "expectancy": 641.84
+   },
+   "hold": {
+    "median_bars": 6.0,
+    "pct_within_2": 31.2,
+    "reasons": {
+     "runner_square_off": 1,
+     "runner_stop": 4,
+     "square_off": 2,
+     "stop": 7,
+     "target": 2
+    }
+   },
+   "delay1_placebo_total": null,
+   "random_placebo_p95": null,
+   "gate_fails": [
+    "ex-top3 legs -2153.5 < 0"
+   ],
+   "gate_pass": false,
+   "owner_bars": {
+    "wr_ge_60": false,
+    "total_positive": true,
+    "total_ge_60pct_incumbent": true
+   },
+   "incumbent_total": 10269.5,
+   "verdict": "FAIL",
+   "independent_resum": {
+    "n": 16,
+    "net": 10269.5
+   },
+   "audit_violations": []
+  },
+  "bank_B_ns1|ALL|X-2": {
+   "stream": "bank_B_ns1",
+   "tier": "ALL",
+   "variant": "X-2",
+   "battery": {
+    "n_legs": 16,
+    "n_days": 16,
+    "total": 1028.0,
+    "per_month": 102.8,
+    "per_leg": 64.25,
+    "legs_per_month": 1.6,
+    "legs_per_week": 0.39,
+    "months": {
+     "2026-01": 5340.0,
+     "2026-02": -1835.0,
+     "2026-03": -3440.0,
+     "2026-04": -2160.0,
+     "2026-05": 0,
+     "2026-06": 2780.0,
+     "2026-07": -3440.0,
+     "2026-08": 0,
+     "2026-09": 473.0,
+     "2026-10": 3310.0
+    },
+    "H1": -2095.0,
+    "H2": 3123.0,
+    "ex_top3_legs": -6562.0,
+    "top3_legs": [
+     2780.0,
+     2780.0,
+     2030.0
+    ],
+    "ex_top3_days": -6562.0,
+    "top3_days": [
+     2780.0,
+     2780.0,
+     2030.0
+    ],
+    "worst_day": {
+     "date": "2026-02-03",
+     "net": -1720.0
+    },
+    "worst_drawdown": -8095.0,
+    "pct_positive_days": 50.0
+   },
+   "wr": {
+    "legs": 16,
+    "wins": 8,
+    "wr_pct": 50.0,
+    "total": 1028.0,
+    "expectancy": 64.25
+   },
+   "hold": {
+    "median_bars": 6.5,
+    "pct_within_2": 25.0,
+    "reasons": {
+     "lock_stop": 7,
+     "square_off": 2,
+     "stop": 7
+    }
+   },
+   "delay1_placebo_total": 16896.5,
+   "random_placebo_p95": null,
+   "gate_fails": [
+    "delay-1 placebo not beaten: 1028.0 vs 16896.5",
+    "halves -2095.0/3123.0 vs incumbent 5963.0/4306.5",
+    "ex-top3 legs -6562.0 < 0"
+   ],
+   "gate_pass": false,
+   "owner_bars": {
+    "wr_ge_60": false,
+    "total_positive": true,
+    "total_ge_60pct_incumbent": false
+   },
+   "incumbent_total": 10269.5,
+   "verdict": "FAIL",
+   "independent_resum": {
+    "n": 16,
+    "net": 1028.0
+   },
+   "audit_violations": []
+  },
+  "bank_B_ns1|ALL|X-3": {
+   "stream": "bank_B_ns1",
+   "tier": "ALL",
+   "variant": "X-3",
+   "battery": {
+    "n_legs": 16,
+    "n_days": 16,
+    "total": 7040.0,
+    "per_month": 704.0,
+    "per_leg": 440.0,
+    "legs_per_month": 1.6,
+    "legs_per_week": 0.39,
+    "months": {
+     "2026-01": 4440.0,
+     "2026-02": 460.0,
+     "2026-03": -1040.0,
+     "2026-04": -900.0,
+     "2026-05": 0,
+     "2026-06": 680.0,
+     "2026-07": -1040.0,
+     "2026-08": 0,
+     "2026-09": 1520.0,
+     "2026-10": 2920.0
+    },
+    "H1": 2960.0,
+    "H2": 4080.0,
+    "ex_top3_legs": 20.0,
+    "top3_legs": [
+     2540.0,
+     2240.0,
+     2240.0
+    ],
+    "ex_top3_days": 20.0,
+    "top3_days": [
+     2540.0,
+     2240.0,
+     2240.0
+    ],
+    "worst_day": {
+     "date": "2026-03-05",
+     "net": -1720.0
+    },
+    "worst_drawdown": -2760.0,
+    "pct_positive_days": 68.8
+   },
+   "wr": {
+    "legs": 16,
+    "wins": 11,
+    "wr_pct": 68.8,
+    "total": 7040.0,
+    "expectancy": 440.0
+   },
+   "hold": {
+    "median_bars": 3.0,
+    "pct_within_2": 43.8,
+    "reasons": {
+     "lock_stop": 12,
+     "stop": 4
+    }
+   },
+   "delay1_placebo_total": 7280.0,
+   "random_placebo_p95": null,
+   "gate_fails": [
+    "delay-1 placebo not beaten: 7040.0 vs 7280.0"
+   ],
+   "gate_pass": false,
+   "owner_bars": {
+    "wr_ge_60": true,
+    "total_positive": true,
+    "total_ge_60pct_incumbent": true
+   },
+   "incumbent_total": 10269.5,
+   "verdict": "FAIL",
+   "independent_resum": {
+    "n": 16,
+    "net": 7040.0
+   },
+   "audit_violations": []
+  },
+  "bank_B_ns1|SOLID|X-1": {
+   "stream": "bank_B_ns1",
+   "tier": "SOLID",
+   "variant": "X-1",
+   "battery": {
+    "n_legs": 0,
+    "n_days": 0,
+    "total": 0.0,
+    "per_month": 0.0,
+    "per_leg": 0.0,
+    "legs_per_month": 0.0,
+    "legs_per_week": 0.0,
+    "months": {
+     "2026-01": 0.0,
+     "2026-02": 0.0,
+     "2026-03": 0.0,
+     "2026-04": 0.0,
+     "2026-05": 0.0,
+     "2026-06": 0.0,
+     "2026-07": 0.0,
+     "2026-08": 0.0,
+     "2026-09": 0.0,
+     "2026-10": 0.0
+    },
+    "H1": 0.0,
+    "H2": 0.0,
+    "ex_top3_legs": 0.0,
+    "top3_legs": [],
+    "ex_top3_days": 0.0,
+    "top3_days": [],
+    "worst_day": {
+     "date": null,
+     "net": 0.0
+    },
+    "worst_drawdown": 0.0,
+    "pct_positive_days": 0.0
+   },
+   "wr": {
+    "legs": 0,
+    "wins": 0,
+    "wr_pct": null,
+    "total": 0.0,
+    "expectancy": null
+   },
+   "hold": {},
+   "delay1_placebo_total": null,
+   "random_placebo_p95": null,
+   "gate_fails": [
+    "tier empty \u2014 no legs satisfy the registered tier rule"
+   ],
+   "gate_pass": false,
+   "owner_bars": {
+    "wr_ge_60": false,
+    "total_positive": false,
+    "total_ge_60pct_incumbent": false
+   },
+   "incumbent_total": 10269.5,
+   "verdict": "FAIL",
+   "independent_resum": {
+    "n": 0,
+    "net": 0
+   },
+   "audit_violations": []
+  },
+  "bank_B_ns1|SOLID|X-2": {
+   "stream": "bank_B_ns1",
+   "tier": "SOLID",
+   "variant": "X-2",
+   "battery": {
+    "n_legs": 0,
+    "n_days": 0,
+    "total": 0.0,
+    "per_month": 0.0,
+    "per_leg": 0.0,
+    "legs_per_month": 0.0,
+    "legs_per_week": 0.0,
+    "months": {
+     "2026-01": 0.0,
+     "2026-02": 0.0,
+     "2026-03": 0.0,
+     "2026-04": 0.0,
+     "2026-05": 0.0,
+     "2026-06": 0.0,
+     "2026-07": 0.0,
+     "2026-08": 0.0,
+     "2026-09": 0.0,
+     "2026-10": 0.0
+    },
+    "H1": 0.0,
+    "H2": 0.0,
+    "ex_top3_legs": 0.0,
+    "top3_legs": [],
+    "ex_top3_days": 0.0,
+    "top3_days": [],
+    "worst_day": {
+     "date": null,
+     "net": 0.0
+    },
+    "worst_drawdown": 0.0,
+    "pct_positive_days": 0.0
+   },
+   "wr": {
+    "legs": 0,
+    "wins": 0,
+    "wr_pct": null,
+    "total": 0.0,
+    "expectancy": null
+   },
+   "hold": {},
+   "delay1_placebo_total": 0,
+   "random_placebo_p95": null,
+   "gate_fails": [
+    "tier empty \u2014 no legs satisfy the registered tier rule"
+   ],
+   "gate_pass": false,
+   "owner_bars": {
+    "wr_ge_60": false,
+    "total_positive": false,
+    "total_ge_60pct_incumbent": false
+   },
+   "incumbent_total": 10269.5,
+   "verdict": "FAIL",
+   "independent_resum": {
+    "n": 0,
+    "net": 0
+   },
+   "audit_violations": []
+  },
+  "bank_B_ns1|SOLID|X-3": {
+   "stream": "bank_B_ns1",
+   "tier": "SOLID",
+   "variant": "X-3",
+   "battery": {
+    "n_legs": 0,
+    "n_days": 0,
+    "total": 0.0,
+    "per_month": 0.0,
+    "per_leg": 0.0,
+    "legs_per_month": 0.0,
+    "legs_per_week": 0.0,
+    "months": {
+     "2026-01": 0.0,
+     "2026-02": 0.0,
+     "2026-03": 0.0,
+     "2026-04": 0.0,
+     "2026-05": 0.0,
+     "2026-06": 0.0,
+     "2026-07": 0.0,
+     "2026-08": 0.0,
+     "2026-09": 0.0,
+     "2026-10": 0.0
+    },
+    "H1": 0.0,
+    "H2": 0.0,
+    "ex_top3_legs": 0.0,
+    "top3_legs": [],
+    "ex_top3_days": 0.0,
+    "top3_days": [],
+    "worst_day": {
+     "date": null,
+     "net": 0.0
+    },
+    "worst_drawdown": 0.0,
+    "pct_positive_days": 0.0
+   },
+   "wr": {
+    "legs": 0,
+    "wins": 0,
+    "wr_pct": null,
+    "total": 0.0,
+    "expectancy": null
+   },
+   "hold": {},
+   "delay1_placebo_total": 0,
+   "random_placebo_p95": null,
+   "gate_fails": [
+    "tier empty \u2014 no legs satisfy the registered tier rule"
+   ],
+   "gate_pass": false,
+   "owner_bars": {
+    "wr_ge_60": false,
+    "total_positive": false,
+    "total_ge_60pct_incumbent": false
+   },
+   "incumbent_total": 10269.5,
+   "verdict": "FAIL",
+   "independent_resum": {
+    "n": 0,
+    "net": 0
+   },
+   "audit_violations": []
+  },
+  "bank_B_ns1|SOLIDS+|X-1": {
+   "stream": "bank_B_ns1",
+   "tier": "SOLIDS+",
+   "variant": "X-1",
+   "battery": {
+    "n_legs": 0,
+    "n_days": 0,
+    "total": 0.0,
+    "per_month": 0.0,
+    "per_leg": 0.0,
+    "legs_per_month": 0.0,
+    "legs_per_week": 0.0,
+    "months": {
+     "2026-01": 0.0,
+     "2026-02": 0.0,
+     "2026-03": 0.0,
+     "2026-04": 0.0,
+     "2026-05": 0.0,
+     "2026-06": 0.0,
+     "2026-07": 0.0,
+     "2026-08": 0.0,
+     "2026-09": 0.0,
+     "2026-10": 0.0
+    },
+    "H1": 0.0,
+    "H2": 0.0,
+    "ex_top3_legs": 0.0,
+    "top3_legs": [],
+    "ex_top3_days": 0.0,
+    "top3_days": [],
+    "worst_day": {
+     "date": null,
+     "net": 0.0
+    },
+    "worst_drawdown": 0.0,
+    "pct_positive_days": 0.0
+   },
+   "wr": {
+    "legs": 0,
+    "wins": 0,
+    "wr_pct": null,
+    "total": 0.0,
+    "expectancy": null
+   },
+   "hold": {},
+   "delay1_placebo_total": null,
+   "random_placebo_p95": null,
+   "gate_fails": [
+    "tier empty \u2014 no legs satisfy the registered tier rule"
+   ],
+   "gate_pass": false,
+   "owner_bars": {
+    "wr_ge_60": false,
+    "total_positive": false,
+    "total_ge_60pct_incumbent": false
+   },
+   "incumbent_total": 10269.5,
+   "verdict": "FAIL",
+   "independent_resum": {
+    "n": 0,
+    "net": 0
+   },
+   "audit_violations": []
+  },
+  "bank_B_ns1|SOLIDS+|X-2": {
+   "stream": "bank_B_ns1",
+   "tier": "SOLIDS+",
+   "variant": "X-2",
+   "battery": {
+    "n_legs": 0,
+    "n_days": 0,
+    "total": 0.0,
+    "per_month": 0.0,
+    "per_leg": 0.0,
+    "legs_per_month": 0.0,
+    "legs_per_week": 0.0,
+    "months": {
+     "2026-01": 0.0,
+     "2026-02": 0.0,
+     "2026-03": 0.0,
+     "2026-04": 0.0,
+     "2026-05": 0.0,
+     "2026-06": 0.0,
+     "2026-07": 0.0,
+     "2026-08": 0.0,
+     "2026-09": 0.0,
+     "2026-10": 0.0
+    },
+    "H1": 0.0,
+    "H2": 0.0,
+    "ex_top3_legs": 0.0,
+    "top3_legs": [],
+    "ex_top3_days": 0.0,
+    "top3_days": [],
+    "worst_day": {
+     "date": null,
+     "net": 0.0
+    },
+    "worst_drawdown": 0.0,
+    "pct_positive_days": 0.0
+   },
+   "wr": {
+    "legs": 0,
+    "wins": 0,
+    "wr_pct": null,
+    "total": 0.0,
+    "expectancy": null
+   },
+   "hold": {},
+   "delay1_placebo_total": 0,
+   "random_placebo_p95": null,
+   "gate_fails": [
+    "tier empty \u2014 no legs satisfy the registered tier rule"
+   ],
+   "gate_pass": false,
+   "owner_bars": {
+    "wr_ge_60": false,
+    "total_positive": false,
+    "total_ge_60pct_incumbent": false
+   },
+   "incumbent_total": 10269.5,
+   "verdict": "FAIL",
+   "independent_resum": {
+    "n": 0,
+    "net": 0
+   },
+   "audit_violations": []
+  },
+  "bank_B_ns1|SOLIDS+|X-3": {
+   "stream": "bank_B_ns1",
+   "tier": "SOLIDS+",
+   "variant": "X-3",
+   "battery": {
+    "n_legs": 0,
+    "n_days": 0,
+    "total": 0.0,
+    "per_month": 0.0,
+    "per_leg": 0.0,
+    "legs_per_month": 0.0,
+    "legs_per_week": 0.0,
+    "months": {
+     "2026-01": 0.0,
+     "2026-02": 0.0,
+     "2026-03": 0.0,
+     "2026-04": 0.0,
+     "2026-05": 0.0,
+     "2026-06": 0.0,
+     "2026-07": 0.0,
+     "2026-08": 0.0,
+     "2026-09": 0.0,
+     "2026-10": 0.0
+    },
+    "H1": 0.0,
+    "H2": 0.0,
+    "ex_top3_legs": 0.0,
+    "top3_legs": [],
+    "ex_top3_days": 0.0,
+    "top3_days": [],
+    "worst_day": {
+     "date": null,
+     "net": 0.0
+    },
+    "worst_drawdown": 0.0,
+    "pct_positive_days": 0.0
+   },
+   "wr": {
+    "legs": 0,
+    "wins": 0,
+    "wr_pct": null,
+    "total": 0.0,
+    "expectancy": null
+   },
+   "hold": {},
+   "delay1_placebo_total": 0,
+   "random_placebo_p95": null,
+   "gate_fails": [
+    "tier empty \u2014 no legs satisfy the registered tier rule"
+   ],
+   "gate_pass": false,
+   "owner_bars": {
+    "wr_ge_60": false,
+    "total_positive": false,
+    "total_ge_60pct_incumbent": false
+   },
+   "incumbent_total": 10269.5,
+   "verdict": "FAIL",
+   "independent_resum": {
+    "n": 0,
+    "net": 0
+   },
+   "audit_violations": []
+  },
+  "nifty_v1|ALL|X-1": {
+   "stream": "nifty_v1",
+   "tier": "ALL",
+   "variant": "X-1",
+   "battery": {
+    "n_legs": 74,
+    "n_days": 66,
+    "total": 103050.25,
+    "per_month": 10305.02,
+    "per_leg": 1392.57,
+    "legs_per_month": 7.4,
+    "legs_per_week": 1.82,
+    "months": {
+     "2026-01": 15531.25,
+     "2026-02": 9229.25,
+     "2026-03": -1216.5,
+     "2026-04": 24411.25,
+     "2026-05": 4364.0,
+     "2026-06": 4828.0,
+     "2026-07": 10463.0,
+     "2026-08": 1911.75,
+     "2026-09": 13367.75,
+     "2026-10": 20160.5
+    },
+    "H1": 52319.25,
+    "H2": 50731.0,
+    "ex_top3_legs": 69585.25,
+    "top3_legs": [
+     11155.0,
+     11155.0,
+     11155.0
+    ],
+    "ex_top3_days": 69585.25,
+    "top3_days": [
+     11155.0,
+     11155.0,
+     11155.0
+    ],
+    "worst_day": {
+     "date": "2026-07-14",
+     "net": -5295.5
+    },
+    "worst_drawdown": -13670.0,
+    "pct_positive_days": 56.1
+   },
+   "wr": {
+    "legs": 74,
+    "wins": 38,
+    "wr_pct": 51.4,
+    "total": 103050.25,
+    "expectancy": 1392.57
+   },
+   "hold": {
+    "median_bars": 52.5,
+    "pct_within_2": 0.0,
+    "reasons": {
+     "be_stop": 6,
+     "runner_square_off": 10,
+     "runner_stop": 13,
+     "runner_target": 5,
+     "square_off": 24,
+     "stop": 16
+    }
+   },
+   "delay1_placebo_total": null,
+   "random_placebo_p95": null,
+   "gate_fails": [],
+   "gate_pass": true,
+   "owner_bars": {
+    "wr_ge_60": false,
+    "total_positive": true,
+    "total_ge_60pct_incumbent": true
+   },
+   "incumbent_total": 103050.25,
+   "verdict": "FAIL",
+   "independent_resum": {
+    "n": 74,
+    "net": 103050.25
+   },
+   "audit_violations": []
+  },
+  "nifty_v1|ALL|X-2": {
+   "stream": "nifty_v1",
+   "tier": "ALL",
+   "variant": "X-2",
+   "battery": {
+    "n_legs": 74,
+    "n_days": 66,
+    "total": 93774.75,
+    "per_month": 9377.48,
+    "per_leg": 1267.23,
+    "legs_per_month": 7.4,
+    "legs_per_week": 1.82,
+    "months": {
+     "2026-01": 16564.75,
+     "2026-02": 7493.75,
+     "2026-03": -469.0,
+     "2026-04": 27128.25,
+     "2026-05": 1916.75,
+     "2026-06": -294.0,
+     "2026-07": 10407.75,
+     "2026-08": 3000.5,
+     "2026-09": 10374.5,
+     "2026-10": 17651.5
+    },
+    "H1": 52634.5,
+    "H2": 41140.25,
+    "ex_top3_legs": 56338.25,
+    "top3_legs": [
+     14405.0,
+     11876.5,
+     11155.0
+    ],
+    "ex_top3_days": 56338.25,
+    "top3_days": [
+     14405.0,
+     11876.5,
+     11155.0
+    ],
+    "worst_day": {
+     "date": "2026-05-11",
+     "net": -6442.75
+    },
+    "worst_drawdown": -14320.0,
+    "pct_positive_days": 56.1
+   },
+   "wr": {
+    "legs": 74,
+    "wins": 40,
+    "wr_pct": 54.1,
+    "total": 93774.75,
+    "expectancy": 1267.23
+   },
+   "hold": {
+    "median_bars": 59.0,
+    "pct_within_2": 0.0,
+    "reasons": {
+     "lock_stop": 11,
+     "square_off": 44,
+     "stop": 19
+    }
+   },
+   "delay1_placebo_total": 94077.65,
+   "random_placebo_p95": null,
+   "gate_fails": [
+    "delay-1 placebo not beaten: 93774.75 vs 94077.65",
+    "month 2026-06 flips green->red (4828.0 -> -294.0)"
+   ],
+   "gate_pass": false,
+   "owner_bars": {
+    "wr_ge_60": false,
+    "total_positive": true,
+    "total_ge_60pct_incumbent": true
+   },
+   "incumbent_total": 103050.25,
+   "verdict": "FAIL",
+   "independent_resum": {
+    "n": 74,
+    "net": 93774.75
+   },
+   "audit_violations": []
+  },
+  "nifty_v1|ALL|X-3": {
+   "stream": "nifty_v1",
+   "tier": "ALL",
+   "variant": "X-3",
+   "battery": {
+    "n_legs": 74,
+    "n_days": 66,
+    "total": 33474.25,
+    "per_month": 3347.43,
+    "per_leg": 452.35,
+    "legs_per_month": 7.4,
+    "legs_per_week": 1.82,
+    "months": {
+     "2026-01": 13311.5,
+     "2026-02": -9854.75,
+     "2026-03": -16290.0,
+     "2026-04": 11460.0,
+     "2026-05": -5678.5,
+     "2026-06": -3336.0,
+     "2026-07": 18240.25,
+     "2026-08": 4287.5,
+     "2026-09": 7394.25,
+     "2026-10": 13940.0
+    },
+    "H1": -7051.75,
+    "H2": 40526.0,
+    "ex_top3_legs": 2508.5,
+    "top3_legs": [
+     13560.0,
+     10995.75,
+     6410.0
+    ],
+    "ex_top3_days": 2508.5,
+    "top3_days": [
+     13560.0,
+     10995.75,
+     6410.0
+    ],
+    "worst_day": {
+     "date": "2026-07-14",
+     "net": -5029.0
+    },
+    "worst_drawdown": -26364.75,
+    "pct_positive_days": 37.9
+   },
+   "wr": {
+    "legs": 74,
+    "wins": 27,
+    "wr_pct": 36.5,
+    "total": 33474.25,
+    "expectancy": 452.35
+   },
+   "hold": {
+    "median_bars": 34.0,
+    "pct_within_2": 0.0,
+    "reasons": {
+     "lock_stop": 43,
+     "square_off": 17,
+     "stop": 14
+    }
+   },
+   "delay1_placebo_total": 58428.4,
+   "random_placebo_p95": null,
+   "gate_fails": [
+    "delay-1 placebo not beaten: 33474.25 vs 58428.4",
+    "halves -7051.75/40526.0 vs incumbent 52319.25/50731.0",
+    "month 2026-02 flips green->red (9229.25 -> -9854.75)",
+    "month 2026-05 flips green->red (4364.0 -> -5678.5)",
+    "month 2026-06 flips green->red (4828.0 -> -3336.0)"
+   ],
+   "gate_pass": false,
+   "owner_bars": {
+    "wr_ge_60": false,
+    "total_positive": true,
+    "total_ge_60pct_incumbent": false
+   },
+   "incumbent_total": 103050.25,
+   "verdict": "FAIL",
+   "independent_resum": {
+    "n": 74,
+    "net": 33474.25
+   },
+   "audit_violations": []
+  },
+  "nifty_v1|SOLID|X-1": {
+   "stream": "nifty_v1",
+   "tier": "SOLID",
+   "variant": "X-1",
+   "battery": {
+    "n_legs": 31,
+    "n_days": 31,
+    "total": 44003.5,
+    "per_month": 4400.35,
+    "per_leg": 1419.47,
+    "legs_per_month": 3.1,
+    "legs_per_week": 0.76,
+    "months": {
+     "2026-01": 14966.0,
+     "2026-02": 7493.0,
+     "2026-03": 7895.0,
+     "2026-04": 210.0,
+     "2026-05": -12804.25,
+     "2026-06": -440.0,
+     "2026-07": 14678.75,
+     "2026-08": -1768.25,
+     "2026-09": 972.75,
+     "2026-10": 12800.5
+    },
+    "H1": 17759.75,
+    "H2": 26243.75,
+    "ex_top3_legs": 10538.5,
+    "top3_legs": [
+     11155.0,
+     11155.0,
+     11155.0
+    ],
+    "ex_top3_days": 10538.5,
+    "top3_days": [
+     11155.0,
+     11155.0,
+     11155.0
+    ],
+    "worst_day": {
+     "date": "2026-02-02",
+     "net": -3470.0
+    },
+    "worst_drawdown": -16934.25,
+    "pct_positive_days": 48.4
+   },
+   "wr": {
+    "legs": 31,
+    "wins": 15,
+    "wr_pct": 48.4,
+    "total": 44003.5,
+    "expectancy": 1419.47
+   },
+   "hold": {
+    "median_bars": 54,
+    "pct_within_2": 0.0,
+    "reasons": {
+     "be_stop": 4,
+     "runner_square_off": 3,
+     "runner_stop": 4,
+     "runner_target": 3,
+     "square_off": 9,
+     "stop": 8
+    }
+   },
+   "delay1_placebo_total": null,
+   "random_placebo_p95": 73975.0,
+   "gate_fails": [
+    "random-subset placebo not beaten: 44003.5 vs p95 73975.0",
+    "month 2026-05 flips green->red (4364.0 -> -12804.25)",
+    "month 2026-06 flips green->red (4828.0 -> -440.0)",
+    "month 2026-08 flips green->red (1911.75 -> -1768.25)"
+   ],
+   "gate_pass": false,
+   "owner_bars": {
+    "wr_ge_60": false,
+    "total_positive": true,
+    "total_ge_60pct_incumbent": false
+   },
+   "incumbent_total": 103050.25,
+   "verdict": "FAIL",
+   "independent_resum": {
+    "n": 31,
+    "net": 44003.5
+   },
+   "audit_violations": []
+  },
+  "nifty_v1|SOLID|X-2": {
+   "stream": "nifty_v1",
+   "tier": "SOLID",
+   "variant": "X-2",
+   "battery": {
+    "n_legs": 31,
+    "n_days": 31,
+    "total": 36112.5,
+    "per_month": 3611.25,
+    "per_leg": 1164.92,
+    "legs_per_month": 3.1,
+    "legs_per_week": 0.76,
+    "months": {
+     "2026-01": 16171.75,
+     "2026-02": 7311.0,
+     "2026-03": 3995.0,
+     "2026-04": -440.0,
+     "2026-05": -12804.25,
+     "2026-06": -2273.0,
+     "2026-07": 13323.5,
+     "2026-08": -2122.5,
+     "2026-09": 716.0,
+     "2026-10": 12235.0
+    },
+    "H1": 14233.5,
+    "H2": 21879.0,
+    "ex_top3_legs": 6056.75,
+    "top3_legs": [
+     11155.0,
+     10995.75,
+     7905.0
+    ],
+    "ex_top3_days": 6056.75,
+    "top3_days": [
+     11155.0,
+     10995.75,
+     7905.0
+    ],
+    "worst_day": {
+     "date": "2026-02-02",
+     "net": -3470.0
+    },
+    "worst_drawdown": -19744.25,
+    "pct_positive_days": 54.8
+   },
+   "wr": {
+    "legs": 31,
+    "wins": 17,
+    "wr_pct": 54.8,
+    "total": 36112.5,
+    "expectancy": 1164.92
+   },
+   "hold": {
+    "median_bars": 64,
+    "pct_within_2": 0.0,
+    "reasons": {
+     "lock_stop": 4,
+     "square_off": 17,
+     "stop": 10
+    }
+   },
+   "delay1_placebo_total": 35976.0,
+   "random_placebo_p95": 71966.5,
+   "gate_fails": [
+    "random-subset placebo not beaten: 36112.5 vs p95 71966.5",
+    "month 2026-04 flips green->red (24411.25 -> -440.0)",
+    "month 2026-05 flips green->red (4364.0 -> -12804.25)",
+    "month 2026-06 flips green->red (4828.0 -> -2273.0)",
+    "month 2026-08 flips green->red (1911.75 -> -2122.5)"
+   ],
+   "gate_pass": false,
+   "owner_bars": {
+    "wr_ge_60": false,
+    "total_positive": true,
+    "total_ge_60pct_incumbent": false
+   },
+   "incumbent_total": 103050.25,
+   "verdict": "FAIL",
+   "independent_resum": {
+    "n": 31,
+    "net": 36112.5
+   },
+   "audit_violations": []
+  },
+  "nifty_v1|SOLID|X-3": {
+   "stream": "nifty_v1",
+   "tier": "SOLID",
+   "variant": "X-3",
+   "battery": {
+    "n_legs": 31,
+    "n_days": 31,
+    "total": 19059.75,
+    "per_month": 1905.97,
+    "per_leg": 614.83,
+    "legs_per_month": 3.1,
+    "legs_per_week": 0.76,
+    "months": {
+     "2026-01": 14325.75,
+     "2026-02": -4249.25,
+     "2026-03": -5430.0,
+     "2026-04": 1640.0,
+     "2026-05": -9554.25,
+     "2026-06": -440.0,
+     "2026-07": 18010.0,
+     "2026-08": -2122.5,
+     "2026-09": -220.0,
+     "2026-10": 7100.0
+    },
+    "H1": -3267.75,
+    "H2": 22327.5,
+    "ex_top3_legs": -10606.0,
+    "top3_legs": [
+     13560.0,
+     10995.75,
+     5110.0
+    ],
+    "ex_top3_days": -10606.0,
+    "top3_days": [
+     13560.0,
+     10995.75,
+     5110.0
+    ],
+    "worst_day": {
+     "date": "2026-02-02",
+     "net": -3470.0
+    },
+    "worst_drawdown": -18473.5,
+    "pct_positive_days": 29.0
+   },
+   "wr": {
+    "legs": 31,
+    "wins": 9,
+    "wr_pct": 29.0,
+    "total": 19059.75,
+    "expectancy": 614.83
+   },
+   "hold": {
+    "median_bars": 39,
+    "pct_within_2": 0.0,
+    "reasons": {
+     "lock_stop": 18,
+     "square_off": 6,
+     "stop": 7
+    }
+   },
+   "delay1_placebo_total": 34273.0,
+   "random_placebo_p95": 39027.75,
+   "gate_fails": [
+    "delay-1 placebo not beaten: 19059.75 vs 34273.0",
+    "random-subset placebo not beaten: 19059.75 vs p95 39027.75",
+    "halves -3267.75/22327.5 vs incumbent 52319.25/50731.0",
+    "ex-top3 legs -10606.0 < 0",
+    "month 2026-02 flips green->red (9229.25 -> -4249.25)",
+    "month 2026-05 flips green->red (4364.0 -> -9554.25)",
+    "month 2026-06 flips green->red (4828.0 -> -440.0)",
+    "month 2026-08 flips green->red (1911.75 -> -2122.5)",
+    "month 2026-09 flips green->red (13367.75 -> -220.0)"
+   ],
+   "gate_pass": false,
+   "owner_bars": {
+    "wr_ge_60": false,
+    "total_positive": true,
+    "total_ge_60pct_incumbent": false
+   },
+   "incumbent_total": 103050.25,
+   "verdict": "FAIL",
+   "independent_resum": {
+    "n": 31,
+    "net": 19059.75
+   },
+   "audit_violations": []
+  },
+  "nifty_v1|SOLIDS+|X-1": {
+   "stream": "nifty_v1",
+   "tier": "SOLIDS+",
+   "variant": "X-1",
+   "battery": {
+    "n_legs": 29,
+    "n_days": 29,
+    "total": 40390.75,
+    "per_month": 4039.07,
+    "per_leg": 1392.78,
+    "legs_per_month": 2.9,
+    "legs_per_week": 0.71,
+    "months": {
+     "2026-01": 14966.0,
+     "2026-02": 7493.0,
+     "2026-03": 7895.0,
+     "2026-04": 210.0,
+     "2026-05": -12804.25,
+     "2026-06": -440.0,
+     "2026-07": 10998.75,
+     "2026-08": -1701.0,
+     "2026-09": 972.75,
+     "2026-10": 12800.5
+    },
+    "H1": 17759.75,
+    "H2": 22631.0,
+    "ex_top3_legs": 6925.75,
+    "top3_legs": [
+     11155.0,
+     11155.0,
+     11155.0
+    ],
+    "ex_top3_days": 6925.75,
+    "top3_days": [
+     11155.0,
+     11155.0,
+     11155.0
+    ],
+    "worst_day": {
+     "date": "2026-02-02",
+     "net": -3470.0
+    },
+    "worst_drawdown": -16934.25,
+    "pct_positive_days": 48.3
+   },
+   "wr": {
+    "legs": 29,
+    "wins": 14,
+    "wr_pct": 48.3,
+    "total": 40390.75,
+    "expectancy": 1392.78
+   },
+   "hold": {
+    "median_bars": 57,
+    "pct_within_2": 0.0,
+    "reasons": {
+     "be_stop": 4,
+     "runner_square_off": 3,
+     "runner_stop": 3,
+     "runner_target": 3,
+     "square_off": 8,
+     "stop": 8
+    }
+   },
+   "delay1_placebo_total": null,
+   "random_placebo_p95": 70333.0,
+   "gate_fails": [
+    "random-subset placebo not beaten: 40390.75 vs p95 70333.0",
+    "month 2026-05 flips green->red (4364.0 -> -12804.25)",
+    "month 2026-06 flips green->red (4828.0 -> -440.0)",
+    "month 2026-08 flips green->red (1911.75 -> -1701.0)"
+   ],
+   "gate_pass": false,
+   "owner_bars": {
+    "wr_ge_60": false,
+    "total_positive": true,
+    "total_ge_60pct_incumbent": false
+   },
+   "incumbent_total": 103050.25,
+   "verdict": "FAIL",
+   "independent_resum": {
+    "n": 29,
+    "net": 40390.75
+   },
+   "audit_violations": []
+  },
+  "nifty_v1|SOLIDS+|X-2": {
+   "stream": "nifty_v1",
+   "tier": "SOLIDS+",
+   "variant": "X-2",
+   "battery": {
+    "n_legs": 29,
+    "n_days": 29,
+    "total": 32015.5,
+    "per_month": 3201.55,
+    "per_leg": 1103.98,
+    "legs_per_month": 2.9,
+    "legs_per_week": 0.71,
+    "months": {
+     "2026-01": 16171.75,
+     "2026-02": 7311.0,
+     "2026-03": 3995.0,
+     "2026-04": -440.0,
+     "2026-05": -12804.25,
+     "2026-06": -2273.0,
+     "2026-07": 8821.25,
+     "2026-08": -1717.25,
+     "2026-09": 716.0,
+     "2026-10": 12235.0
+    },
+    "H1": 14233.5,
+    "H2": 17782.0,
+    "ex_top3_legs": 1959.75,
+    "top3_legs": [
+     11155.0,
+     10995.75,
+     7905.0
+    ],
+    "ex_top3_days": 1959.75,
+    "top3_days": [
+     11155.0,
+     10995.75,
+     7905.0
+    ],
+    "worst_day": {
+     "date": "2026-02-02",
+     "net": -3470.0
+    },
+    "worst_drawdown": -19744.25,
+    "pct_positive_days": 55.2
+   },
+   "wr": {
+    "legs": 29,
+    "wins": 16,
+    "wr_pct": 55.2,
+    "total": 32015.5,
+    "expectancy": 1103.98
+   },
+   "hold": {
+    "median_bars": 65,
+    "pct_within_2": 0.0,
+    "reasons": {
+     "lock_stop": 4,
+     "square_off": 15,
+     "stop": 10
+    }
+   },
+   "delay1_placebo_total": 32243.0,
+   "random_placebo_p95": 68162.0,
+   "gate_fails": [
+    "delay-1 placebo not beaten: 32015.5 vs 32243.0",
+    "random-subset placebo not beaten: 32015.5 vs p95 68162.0",
+    "month 2026-04 flips green->red (24411.25 -> -440.0)",
+    "month 2026-05 flips green->red (4364.0 -> -12804.25)",
+    "month 2026-06 flips green->red (4828.0 -> -2273.0)",
+    "month 2026-08 flips green->red (1911.75 -> -1717.25)"
+   ],
+   "gate_pass": false,
+   "owner_bars": {
+    "wr_ge_60": false,
+    "total_positive": true,
+    "total_ge_60pct_incumbent": false
+   },
+   "incumbent_total": 103050.25,
+   "verdict": "FAIL",
+   "independent_resum": {
+    "n": 29,
+    "net": 32015.5
+   },
+   "audit_violations": []
+  },
+  "nifty_v1|SOLIDS+|X-3": {
+   "stream": "nifty_v1",
+   "tier": "SOLIDS+",
+   "variant": "X-3",
+   "battery": {
+    "n_legs": 29,
+    "n_days": 29,
+    "total": 14355.0,
+    "per_month": 1435.5,
+    "per_leg": 495.0,
+    "legs_per_month": 2.9,
+    "legs_per_week": 0.71,
+    "months": {
+     "2026-01": 14325.75,
+     "2026-02": -4249.25,
+     "2026-03": -5430.0,
+     "2026-04": 1640.0,
+     "2026-05": -9554.25,
+     "2026-06": -440.0,
+     "2026-07": 12900.0,
+     "2026-08": -1717.25,
+     "2026-09": -220.0,
+     "2026-10": 7100.0
+    },
+    "H1": -3267.75,
+    "H2": 17622.75,
+    "ex_top3_legs": -15310.75,
+    "top3_legs": [
+     13560.0,
+     10995.75,
+     5110.0
+    ],
+    "ex_top3_days": -15310.75,
+    "top3_days": [
+     13560.0,
+     10995.75,
+     5110.0
+    ],
+    "worst_day": {
+     "date": "2026-02-02",
+     "net": -3470.0
+    },
+    "worst_drawdown": -18473.5,
+    "pct_positive_days": 27.6
+   },
+   "wr": {
+    "legs": 29,
+    "wins": 8,
+    "wr_pct": 27.6,
+    "total": 14355.0,
+    "expectancy": 495.0
+   },
+   "hold": {
+    "median_bars": 39,
+    "pct_within_2": 0.0,
+    "reasons": {
+     "lock_stop": 17,
+     "square_off": 5,
+     "stop": 7
+    }
+   },
+   "delay1_placebo_total": 29971.25,
+   "random_placebo_p95": 37023.75,
+   "gate_fails": [
+    "delay-1 placebo not beaten: 14355.0 vs 29971.25",
+    "random-subset placebo not beaten: 14355.0 vs p95 37023.75",
+    "halves -3267.75/17622.75 vs incumbent 52319.25/50731.0",
+    "ex-top3 legs -15310.75 < 0",
+    "month 2026-02 flips green->red (9229.25 -> -4249.25)",
+    "month 2026-05 flips green->red (4364.0 -> -9554.25)",
+    "month 2026-06 flips green->red (4828.0 -> -440.0)",
+    "month 2026-08 flips green->red (1911.75 -> -1717.25)",
+    "month 2026-09 flips green->red (13367.75 -> -220.0)"
+   ],
+   "gate_pass": false,
+   "owner_bars": {
+    "wr_ge_60": false,
+    "total_positive": true,
+    "total_ge_60pct_incumbent": false
+   },
+   "incumbent_total": 103050.25,
+   "verdict": "FAIL",
+   "independent_resum": {
+    "n": 29,
+    "net": 14355.0
+   },
+   "audit_violations": []
+  }
+ },
+ "closest": {
+  "highest_wr_among_gatepassing_profitable": {
+   "config": "bank_A_stack|ALL|X-1",
+   "wr_pct": 59.5,
+   "total": 127351.5
+  },
+  "most_profitable_among_wr_ge_55": {
+   "config": "bank_A_stack|ALL|X-1",
+   "wr_pct": 59.5,
+   "total": 127351.5
+  },
+  "passes": []
+ },
+ "november": {
+  "bank_A_stack": {
+   "anchor_x1_total": -960.0,
+   "legs": 3,
+   "configs": {
+    "ALL|X-1": {
+     "legs": 3,
+     "wins": 1,
+     "wr_pct": 33.3,
+     "total": -960.0,
+     "expectancy": -320.0
+    },
+    "ALL|X-2": {
+     "legs": 3,
+     "wins": 1,
+     "wr_pct": 33.3,
+     "total": -2160.0,
+     "expectancy": -720.0
+    },
+    "ALL|X-3": {
+     "legs": 3,
+     "wins": 1,
+     "wr_pct": 33.3,
+     "total": -2760.0,
+     "expectancy": -920.0
+    },
+    "SOLID|X-1": {
+     "legs": 0,
+     "wins": 0,
+     "wr_pct": null,
+     "total": 0.0,
+     "expectancy": null
+    },
+    "SOLID|X-2": {
+     "legs": 0,
+     "wins": 0,
+     "wr_pct": null,
+     "total": 0.0,
+     "expectancy": null
+    },
+    "SOLID|X-3": {
+     "legs": 0,
+     "wins": 0,
+     "wr_pct": null,
+     "total": 0.0,
+     "expectancy": null
+    },
+    "SOLIDS+|X-1": {
+     "legs": 0,
+     "wins": 0,
+     "wr_pct": null,
+     "total": 0.0,
+     "expectancy": null
+    },
+    "SOLIDS+|X-2": {
+     "legs": 0,
+     "wins": 0,
+     "wr_pct": null,
+     "total": 0.0,
+     "expectancy": null
+    },
+    "SOLIDS+|X-3": {
+     "legs": 0,
+     "wins": 0,
+     "wr_pct": null,
+     "total": 0.0,
+     "expectancy": null
+    }
+   },
+   "leg_detail": [
+    {
+     "date": "2026-11-04",
+     "direction": "PE",
+     "family": "S3-R1",
+     "entry_time": "09:55",
+     "agree": 0,
+     "tier_solid": false,
+     "tier_solids_plus": false,
+     "x1_net": 2480.0
+    },
+    {
+     "date": "2026-11-09",
+     "direction": "PE",
+     "family": "BASE",
+     "entry_time": "10:45",
+     "agree": 1,
+     "tier_solid": false,
+     "tier_solids_plus": false,
+     "x1_net": -1720.0
+    },
+    {
+     "date": "2026-11-12",
+     "direction": "PE",
+     "family": "S3-R1",
+     "entry_time": "11:30",
+     "agree": 0,
+     "tier_solid": false,
+     "tier_solids_plus": false,
+     "x1_net": -1720.0
+    }
+   ]
+  },
+  "bank_B_ns1": {
+   "anchor_x1_total": 1520.0,
+   "legs": 4,
+   "configs": {
+    "ALL|X-1": {
+     "legs": 4,
+     "wins": 2,
+     "wr_pct": 50.0,
+     "total": 1520.0,
+     "expectancy": 380.0
+    },
+    "ALL|X-2": {
+     "legs": 4,
+     "wins": 2,
+     "wr_pct": 50.0,
+     "total": -130.0,
+     "expectancy": -32.5
+    },
+    "ALL|X-3": {
+     "legs": 4,
+     "wins": 2,
+     "wr_pct": 50.0,
+     "total": 1280.0,
+     "expectancy": 320.0
+    },
+    "SOLID|X-1": {
+     "legs": 0,
+     "wins": 0,
+     "wr_pct": null,
+     "total": 0.0,
+     "expectancy": null
+    },
+    "SOLID|X-2": {
+     "legs": 0,
+     "wins": 0,
+     "wr_pct": null,
+     "total": 0.0,
+     "expectancy": null
+    },
+    "SOLID|X-3": {
+     "legs": 0,
+     "wins": 0,
+     "wr_pct": null,
+     "total": 0.0,
+     "expectancy": null
+    },
+    "SOLIDS+|X-1": {
+     "legs": 0,
+     "wins": 0,
+     "wr_pct": null,
+     "total": 0.0,
+     "expectancy": null
+    },
+    "SOLIDS+|X-2": {
+     "legs": 0,
+     "wins": 0,
+     "wr_pct": null,
+     "total": 0.0,
+     "expectancy": null
+    },
+    "SOLIDS+|X-3": {
+     "legs": 0,
+     "wins": 0,
+     "wr_pct": null,
+     "total": 0.0,
+     "expectancy": null
+    }
+   },
+   "leg_detail": [
+    {
+     "date": "2026-11-03",
+     "direction": "CE",
+     "family": "NS1_second",
+     "entry_time": "10:20",
+     "agree": 1,
+     "tier_solid": false,
+     "tier_solids_plus": false,
+     "x1_net": -1720.0
+    },
+    {
+     "date": "2026-11-04",
+     "direction": "CE",
+     "family": "NS1_second",
+     "entry_time": "13:40",
+     "agree": 1,
+     "tier_solid": false,
+     "tier_solids_plus": false,
+     "x1_net": -1720.0
+    },
+    {
+     "date": "2026-11-11",
+     "direction": "CE",
+     "family": "NS1_second",
+     "entry_time": "14:00",
+     "agree": 1,
+     "tier_solid": false,
+     "tier_solids_plus": false,
+     "x1_net": 2480.0
+    },
+    {
+     "date": "2026-11-12",
+     "direction": "CE",
+     "family": "NS1_second",
+     "entry_time": "12:45",
+     "agree": 1,
+     "tier_solid": false,
+     "tier_solids_plus": false,
+     "x1_net": 2480.0
+    }
+   ]
+  },
+  "nifty_v1": {
+   "anchor_x1_total": 3036.5,
+   "legs": 1,
+   "configs": {
+    "ALL|X-1": {
+     "legs": 1,
+     "wins": 1,
+     "wr_pct": 100.0,
+     "total": 3036.5,
+     "expectancy": 3036.5
+    },
+    "ALL|X-2": {
+     "legs": 1,
+     "wins": 1,
+     "wr_pct": 100.0,
+     "total": 3036.5,
+     "expectancy": 3036.5
+    },
+    "ALL|X-3": {
+     "legs": 1,
+     "wins": 0,
+     "wr_pct": 0.0,
+     "total": -220.0,
+     "expectancy": -220.0
+    },
+    "SOLID|X-1": {
+     "legs": 0,
+     "wins": 0,
+     "wr_pct": null,
+     "total": 0.0,
+     "expectancy": null
+    },
+    "SOLID|X-2": {
+     "legs": 0,
+     "wins": 0,
+     "wr_pct": null,
+     "total": 0.0,
+     "expectancy": null
+    },
+    "SOLID|X-3": {
+     "legs": 0,
+     "wins": 0,
+     "wr_pct": null,
+     "total": 0.0,
+     "expectancy": null
+    },
+    "SOLIDS+|X-1": {
+     "legs": 0,
+     "wins": 0,
+     "wr_pct": null,
+     "total": 0.0,
+     "expectancy": null
+    },
+    "SOLIDS+|X-2": {
+     "legs": 0,
+     "wins": 0,
+     "wr_pct": null,
+     "total": 0.0,
+     "expectancy": null
+    },
+    "SOLIDS+|X-3": {
+     "legs": 0,
+     "wins": 0,
+     "wr_pct": null,
+     "total": 0.0,
+     "expectancy": null
+    }
+   },
+   "leg_detail": [
+    {
+     "date": "2026-11-03",
+     "direction": "CE",
+     "family": "DEC-S1 C",
+     "entry_time": "09:50",
+     "agree": 1,
+     "tier_solid": false,
+     "tier_solids_plus": false,
+     "x1_net": 3036.5
+    }
+   ]
+  }
+ }
+}

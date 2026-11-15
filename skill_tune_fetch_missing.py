@@ -23,7 +23,7 @@ def main():
     atr._local_proxy_kwargs()
     tok = read_token()
     proxies = {"http": "http://127.0.0.1:8899", "https": "http://127.0.0.1:8899"}
-    H = {"Authorization": "Bearer " + tok, "Accept": "application/json"}
+    H = {"Authorization": "Bearer " + tok, "Accept": "application/json", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"}
     rows = list(csv.DictReader(open(Path.home() / "workspace/trading/index_options_skill_tuned_oct30_trades.csv")))
     need = sorted({(r["index"], r["date"], int(r["strike"]), r["direction"], r["expiry"])
                    for r in rows if r["premium_status"] == "NOT_COMPUTED"})

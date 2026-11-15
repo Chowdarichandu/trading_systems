@@ -1,0 +1,39 @@
+loading wide machinery...
+extra ctx: agg check 1875 bars, 0 mismatches; added {}
+NIFTY EXTENSION FAILED: nifty overlap mismatch
+regime spot-checks pass (2025-01-02, 2025-03-17, 2025-06-02, 2026-10-30); below50 on 2025-01-02: True | first 2025 day with computable ma50: 2025-01-01
+rebuilding pools (gate code path)...
+pools rebuilt (43s)
+baseline repro: True (39 tr +8724.39 ex3 -3256.65)
+failed-gate repro via S-derive: True (162 tr -4267.84 ex3 -18321.31)
+real windows: {'F4-C': ['10:30-12:00'], 'INV-LONG-C': ['09:15-10:30'], 'INV-ABOVE-C': []}
+placebo windows: {'F4-C': ['13:30-15:10'], 'INV-LONG-C': ['10:30-12:00'], 'INV-ABOVE-C': []}
+scoring S1...
+S1: 131 tr net +11673.55 ex3 -1762.49 diag {'dead_no_window': 5032, 'in_window': 4672}
+scoring S2...
+S2: 136 tr net +3255.30 ex3 -10828.62 diag {'deferred_invalid': 918, 'deferred_valid': 2191, 'synthetic_reps': 2191, 'in_window': 4672, 'dead_no_window': 1923}
+scoring PS1...
+PS1: 46 tr net +3256.06 ex3 -7962.61 diag {'dead_no_window': 9689, 'in_window': 15}
+scoring PS2...
+PS2: 136 tr net +5411.65 ex3 -8776.32 diag {'deferred_invalid': 2183, 'deferred_valid': 5611, 'synthetic_reps': 5611, 'in_window': 15, 'dead_no_window': 1895}
+S1 STAGE-1 PASS: False legs {'combined_ex_top3_gt_0': False, 'combined_ex_top3_beats_baseline': True, 'oct_not_worse': False, 'nov_not_worse': False, 'beats_placebo_ex_top3': True} (placebo ex3 -7962.61)
+S2 STAGE-1 PASS: False legs {'combined_ex_top3_gt_0': False, 'combined_ex_top3_beats_baseline': False, 'oct_not_worse': False, 'nov_not_worse': False, 'beats_placebo_ex_top3': False} (placebo ex3 -8776.32)
+truncation spot-proof (2026-10-16, 2026-11-11)...
+SPOT 2026-10-16 10:30 S1: 6 picks lock<slice — PASS
+SPOT 2026-10-16 10:30 S2: 6 picks lock<slice — PASS
+SPOT 2026-10-16 12:00 S1: 6 picks lock<slice — PASS
+SPOT 2026-10-16 12:00 S2: 6 picks lock<slice — PASS
+SPOT 2026-10-16 13:30 S1: 6 picks lock<slice — PASS
+SPOT 2026-10-16 13:30 S2: 6 picks lock<slice — PASS
+SPOT 2026-10-16 15:00 S1: 6 picks lock<slice — PASS
+SPOT 2026-10-16 15:00 S2: 6 picks lock<slice — PASS
+SPOT 2026-11-11 10:30 S1: 2 picks lock<slice — PASS
+SPOT 2026-11-11 10:30 S2: 2 picks lock<slice — PASS
+SPOT 2026-11-11 12:00 S1: 2 picks lock<slice — PASS
+SPOT 2026-11-11 12:00 S2: 2 picks lock<slice — PASS
+SPOT 2026-11-11 13:30 S1: 2 picks lock<slice — PASS
+SPOT 2026-11-11 13:30 S2: 2 picks lock<slice — PASS
+SPOT 2026-11-11 15:00 S1: 2 picks lock<slice — PASS
+SPOT 2026-11-11 15:00 S2: 2 picks lock<slice — PASS
+SPOT PROOF PASS: True
+STAGE 1 DONE in 50.0s

@@ -1,0 +1,7 @@
+NIFTY D1: n=43 total=11219.75 H=(19129.75,-7910.0) ex3=-22245.25 pace=1121.97 NC=0 PASS=False legs={'total_pos': True, 'halves_pos': False, 'ex_top3_pos': False, 'beats_reversed': True, 'beats_coin': True, 'beats_shifted': True, 'timing_clean': True, 'nc_ok': True}
+   placebos: rev=6845.9 coin=845.75 shift=-4321.75 | NOV n=0 total=0
+NIFTY T1: n=87 total=-52881.5 H=(-54527.75,1646.25) ex3=-82674.0 pace=-5288.15 NC=0 PASS=False legs={'total_pos': False, 'halves_pos': False, 'ex_top3_pos': False, 'beats_reversed': False, 'beats_coin': False, 'beats_shifted': False, 'timing_clean': True, 'nc_ok': True}
+   placebos: rev=9307.9 coin=-40823.35 shift=-30462.35 | NOV n=4 total=18555.0
+MERGE NIFTY D1: incr 24 legs 13264.5 | merged 116314.75 on 90 TD = 1292.39/TD | Nov merged 3036.5 (family Nov legs 0, incr 0)
+MERGE NIFTY T1: incr 60 legs -58729.25 | merged 44321.0 on 126 TD = 351.75/TD | Nov merged 17560.5 (family Nov legs 4, incr 3)
+re-sum: EXACT for all scored Nifty books | results -> new_data_round4_nifty_results.json

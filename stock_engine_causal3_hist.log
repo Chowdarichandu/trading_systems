@@ -1,0 +1,21 @@
+loading 25-universe machinery (full_hist)...
+extra ctx: agg check 1875 bars, 0 mismatches; added {'2026-10-29': 25, '2026-10-30': 25}
+nifty daily extended: last={'date': '2026-10-30', 'high': 23053.1, 'low': 23053.1, 'close': 23053.1}
+regime spot-checks pass (2025-01-02, 2025-03-17, 2025-06-02, 2026-10-30); below50 on 2025-01-02: True | first 2025 day with computable ma50: 2025-01-01
+{'2025': (249, '2025-01-01', '2025-12-31'), '2026': (203, '2026-01-01', '2026-10-28')}
+2025 F4: 246 tr net +91.14 WR 47.6 ex3 -9790.86 placebo -859.02
+2025 F4-C: 275 tr net -18652.98 WR 44.7 ex3 -23751.34 placebo -14513.40
+2025 INV-LONG: 220 tr net +12605.23 WR 36.4 ex3 -2495.54 placebo +17100.13
+2025 INV-LONG-C: 257 tr net -1415.04 WR 33.1 ex3 -12022.81 placebo +4242.09
+2025 INV-ABOVE: 170 tr net +5209.71 WR 34.7 ex3 -6600.08 placebo +10697.40
+2025 INV-ABOVE-C: 234 tr net -9472.44 WR 29.1 ex3 -19694.83 placebo -3024.75
+2026 F4: 347 tr net +98735.31 WR 55.6 ex3 +25315.62 placebo +82339.98
+2026 F4-C: 404 tr net +55755.51 WR 49.5 ex3 +362.81 placebo +41731.74
+2026 INV-LONG: 133 tr net +44062.10 WR 48.9 ex3 +9830.00 placebo +44335.50
+2026 INV-LONG-C: 165 tr net +41981.25 WR 43.6 ex3 +3179.46 placebo +37746.41
+2026 INV-ABOVE: 36 tr net +3349.21 WR 38.9 ex3 -746.48 placebo +6573.90
+2026 INV-ABOVE-C: 47 tr net -149.17 WR 36.2 ex3 -2638.93 placebo +3652.65
+LEG3 F4-C: collapse 2025=True 2026=False -> PASS True
+LEG3 INV-LONG-C: collapse 2025=True 2026=False -> PASS True
+LEG3 INV-ABOVE-C: collapse 2025=True 2026=True -> PASS False
+DONE leg 3 in 19.1s

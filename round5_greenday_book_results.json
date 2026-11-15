@@ -1,0 +1,1020 @@
+{
+ "meta": {
+  "book": "Bank Nifty only",
+  "basis": "option premiums per 1 lot (30)",
+  "cost": "Rs 220/trade inside stored nets",
+  "counting": "UNIQUE-ONCE",
+  "real_money_inr": 0,
+  "window": "Jan-Oct 2026 (205 trading days)",
+  "november_window": "Nov 2-13 2026 (9 trading days)"
+ },
+ "extraction_validation": {
+  "D1": {
+   "merged_total": 136324.5,
+   "merged_trade_days": 116,
+   "matches_round_report": true
+  },
+  "V3": {
+   "merged_total": 130711.5,
+   "merged_trade_days": 131,
+   "matches_round_report": true
+  },
+  "B1": {
+   "merged_total": 131911.5,
+   "merged_trade_days": 101,
+   "matches_round_report": true
+  }
+ },
+ "increment_anchors": {
+  "D1": {
+   "legs": 27,
+   "total": 8973.0
+  },
+  "V3": {
+   "legs": 42,
+   "total": 3360.0
+  },
+  "B1": {
+   "legs": 12,
+   "total": 4560.0
+  }
+ },
+ "priority_choice": {
+  "chosen_legs": 61,
+  "chosen_total": 13493.0,
+  "by_source": {
+   "D1": {
+    "legs": 27,
+    "total": 8973.0
+   },
+   "V3": {
+    "legs": 29,
+    "total": 4720.0
+   },
+   "B1": {
+    "legs": 5,
+    "total": -200.0
+   }
+  },
+  "skipped_legs": 20,
+  "skipped_total": 3400.0,
+  "skipped": [
+   {
+    "date": "2026-01-06",
+    "net": -1720.0,
+    "source": "V3",
+    "direction": "PE",
+    "detail": "PE 60100 513.55->463.54999999999995 stop",
+    "chosen_source": "D1"
+   },
+   {
+    "date": "2026-01-16",
+    "net": 2480.0,
+    "source": "V3",
+    "direction": "CE",
+    "detail": "CE 59700 578.0->668.0 target",
+    "chosen_source": "D1"
+   },
+   {
+    "date": "2026-01-19",
+    "net": -1720.0,
+    "source": "V3",
+    "direction": "CE",
+    "detail": "CE 59900 430.55->380.55 stop",
+    "chosen_source": "D1"
+   },
+   {
+    "date": "2026-02-06",
+    "net": 2480.0,
+    "source": "V3",
+    "direction": "PE",
+    "detail": "PE 60100 588.0->678.0 target",
+    "chosen_source": "D1"
+   },
+   {
+    "date": "2026-02-16",
+    "net": -1720.0,
+    "source": "V3",
+    "direction": "PE",
+    "detail": "PE 60200 409.4->359.4 stop",
+    "chosen_source": "D1"
+   },
+   {
+    "date": "2026-02-16",
+    "net": 2480.0,
+    "source": "B1",
+    "direction": "CE",
+    "detail": "CE 60200 485.5->575.5 target",
+    "chosen_source": "D1"
+   },
+   {
+    "date": "2026-03-09",
+    "net": -1720.0,
+    "source": "B1",
+    "direction": "CE",
+    "detail": "CE 55600 1660.15->1610.15 stop",
+    "chosen_source": "D1"
+   },
+   {
+    "date": "2026-03-12",
+    "net": 2480.0,
+    "source": "B1",
+    "direction": "CE",
+    "detail": "CE 54800 1409.9->1499.9 target",
+    "chosen_source": "D1"
+   },
+   {
+    "date": "2026-04-20",
+    "net": 2480.0,
+    "source": "V3",
+    "direction": "CE",
+    "detail": "CE 56700 757.25->847.25 target",
+    "chosen_source": "D1"
+   },
+   {
+    "date": "2026-07-09",
+    "net": -1720.0,
+    "source": "B1",
+    "direction": "CE",
+    "detail": "CE 57200 949.9->899.9 stop",
+    "chosen_source": "D1"
+   },
+   {
+    "date": "2026-07-14",
+    "net": 2480.0,
+    "source": "B1",
+    "direction": "PE",
+    "detail": "PE 57700 672.85->762.85 target",
+    "chosen_source": "V3"
+   },
+   {
+    "date": "2026-08-17",
+    "net": -1720.0,
+    "source": "V3",
+    "direction": "PE",
+    "detail": "PE 57300 382.65->332.65 stop",
+    "chosen_source": "D1"
+   },
+   {
+    "date": "2026-08-24",
+    "net": -1720.0,
+    "source": "V3",
+    "direction": "CE",
+    "detail": "CE 57800 215.45->165.45 stop",
+    "chosen_source": "D1"
+   },
+   {
+    "date": "2026-09-16",
+    "net": -1720.0,
+    "source": "B1",
+    "direction": "CE",
+    "detail": "CE 56100 764.5->714.5 stop",
+    "chosen_source": "V3"
+   },
+   {
+    "date": "2026-09-23",
+    "net": -1720.0,
+    "source": "V3",
+    "direction": "PE",
+    "detail": "PE 56400 274.85->224.85000000000002 stop",
+    "chosen_source": "D1"
+   },
+   {
+    "date": "2026-10-09",
+    "net": -1720.0,
+    "source": "V3",
+    "direction": "PE",
+    "detail": "PE 54700 648.2->598.2 stop",
+    "chosen_source": "D1"
+   },
+   {
+    "date": "2026-10-09",
+    "net": 2480.0,
+    "source": "B1",
+    "direction": "CE",
+    "detail": "CE 54700 907.05->997.05 target",
+    "chosen_source": "D1"
+   },
+   {
+    "date": "2026-10-15",
+    "net": 2480.0,
+    "source": "V3",
+    "direction": "PE",
+    "detail": "PE 55500 562.3->652.3 target",
+    "chosen_source": "D1"
+   },
+   {
+    "date": "2026-10-16",
+    "net": -1720.0,
+    "source": "V3",
+    "direction": "CE",
+    "detail": "CE 55700 625.95->575.95 stop",
+    "chosen_source": "D1"
+   },
+   {
+    "date": "2026-10-22",
+    "net": 2480.0,
+    "source": "V3",
+    "direction": "PE",
+    "detail": "PE 54700 370.0->460.0 target",
+    "chosen_source": "D1"
+   }
+  ]
+ },
+ "stack": {
+  "legs": 111,
+  "total": 127351.5,
+  "trade_days": 89,
+  "per_trade_day": 1430.92,
+  "per_leg": 1147.31,
+  "per_cal_day": 621.23,
+  "win_rate_pct": 59.5,
+  "green_days": 60,
+  "red_days": 29,
+  "flat_days": 0,
+  "no_trade_days": 116,
+  "green_share_trade_days_pct": 67.4,
+  "green_share_all_days_pct": 29.3,
+  "red_months": [],
+  "months": {
+   "2026-01": {
+    "total": 24028.0,
+    "legs": 8,
+    "trade_days": 7,
+    "per_trade_day": 3432.57,
+    "per_cal_day": 1201.4,
+    "green": 6,
+    "red": 1,
+    "flat": 0,
+    "no_trade": 13
+   },
+   "2026-02": {
+    "total": 15284.0,
+    "legs": 10,
+    "trade_days": 9,
+    "per_trade_day": 1698.22,
+    "per_cal_day": 727.81,
+    "green": 5,
+    "red": 4,
+    "flat": 0,
+    "no_trade": 12
+   },
+   "2026-03": {
+    "total": 8560.0,
+    "legs": 17,
+    "trade_days": 10,
+    "per_trade_day": 856.0,
+    "per_cal_day": 450.53,
+    "green": 8,
+    "red": 2,
+    "flat": 0,
+    "no_trade": 9
+   },
+   "2026-04": {
+    "total": 9810.0,
+    "legs": 12,
+    "trade_days": 9,
+    "per_trade_day": 1090.0,
+    "per_cal_day": 490.5,
+    "green": 7,
+    "red": 2,
+    "flat": 0,
+    "no_trade": 11
+   },
+   "2026-05": {
+    "total": 25400.0,
+    "legs": 10,
+    "trade_days": 9,
+    "per_trade_day": 2822.22,
+    "per_cal_day": 1336.84,
+    "green": 7,
+    "red": 2,
+    "flat": 0,
+    "no_trade": 10
+   },
+   "2026-06": {
+    "total": 3040.0,
+    "legs": 8,
+    "trade_days": 7,
+    "per_trade_day": 434.29,
+    "per_cal_day": 144.76,
+    "green": 4,
+    "red": 3,
+    "flat": 0,
+    "no_trade": 14
+   },
+   "2026-07": {
+    "total": 4224.0,
+    "legs": 18,
+    "trade_days": 13,
+    "per_trade_day": 324.92,
+    "per_cal_day": 183.65,
+    "green": 5,
+    "red": 8,
+    "flat": 0,
+    "no_trade": 10
+   },
+   "2026-08": {
+    "total": 2059.5,
+    "legs": 6,
+    "trade_days": 5,
+    "per_trade_day": 411.9,
+    "per_cal_day": 98.07,
+    "green": 3,
+    "red": 2,
+    "flat": 0,
+    "no_trade": 16
+   },
+   "2026-09": {
+    "total": 15056.5,
+    "legs": 11,
+    "trade_days": 10,
+    "per_trade_day": 1505.65,
+    "per_cal_day": 716.98,
+    "green": 6,
+    "red": 4,
+    "flat": 0,
+    "no_trade": 11
+   },
+   "2026-10": {
+    "total": 19889.5,
+    "legs": 11,
+    "trade_days": 10,
+    "per_trade_day": 1988.95,
+    "per_cal_day": 994.48,
+    "green": 9,
+    "red": 1,
+    "flat": 0,
+    "no_trade": 10
+   }
+  },
+  "halves": {
+   "H1": {
+    "total": 83082.0,
+    "legs": 57,
+    "trade_days": 44,
+    "per_trade_day": 1888.23,
+    "green": 33,
+    "red": 11
+   },
+   "H2": {
+    "total": 44269.5,
+    "legs": 54,
+    "trade_days": 45,
+    "per_trade_day": 983.77,
+    "green": 27,
+    "red": 18
+   }
+  },
+  "ex_top3_days": {
+   "removed": [
+    {
+     "date": "2026-01-21",
+     "net": 9680.0
+    },
+    {
+     "date": "2026-02-20",
+     "net": 9680.0
+    },
+    {
+     "date": "2026-01-20",
+     "net": 7463.0
+    }
+   ],
+   "total_after": 100528.5,
+   "trade_days_after": 86,
+   "per_trade_day_after": 1168.94
+  }
+ },
+ "book_priority": {
+  "legs": 172,
+  "total": 140844.5,
+  "trade_days": 150,
+  "per_trade_day": 938.96,
+  "per_leg": 818.86,
+  "per_cal_day": 687.05,
+  "win_rate_pct": 54.7,
+  "green_days": 88,
+  "red_days": 62,
+  "flat_days": 0,
+  "no_trade_days": 55,
+  "green_share_trade_days_pct": 58.7,
+  "green_share_all_days_pct": 42.9,
+  "red_months": [
+   "2026-07"
+  ],
+  "months": {
+   "2026-01": {
+    "total": 31735.5,
+    "legs": 15,
+    "trade_days": 14,
+    "per_trade_day": 2266.82,
+    "per_cal_day": 1586.78,
+    "green": 11,
+    "red": 3,
+    "flat": 0,
+    "no_trade": 6
+   },
+   "2026-02": {
+    "total": 7444.0,
+    "legs": 17,
+    "trade_days": 16,
+    "per_trade_day": 465.25,
+    "per_cal_day": 354.48,
+    "green": 6,
+    "red": 10,
+    "flat": 0,
+    "no_trade": 5
+   },
+   "2026-03": {
+    "total": 7400.0,
+    "legs": 25,
+    "trade_days": 18,
+    "per_trade_day": 411.11,
+    "per_cal_day": 389.47,
+    "green": 11,
+    "red": 7,
+    "flat": 0,
+    "no_trade": 1
+   },
+   "2026-04": {
+    "total": 13050.0,
+    "legs": 15,
+    "trade_days": 12,
+    "per_trade_day": 1087.5,
+    "per_cal_day": 652.5,
+    "green": 9,
+    "red": 3,
+    "flat": 0,
+    "no_trade": 8
+   },
+   "2026-05": {
+    "total": 30360.0,
+    "legs": 12,
+    "trade_days": 11,
+    "per_trade_day": 2760.0,
+    "per_cal_day": 1597.89,
+    "green": 9,
+    "red": 2,
+    "flat": 0,
+    "no_trade": 8
+   },
+   "2026-06": {
+    "total": 7800.0,
+    "legs": 15,
+    "trade_days": 14,
+    "per_trade_day": 557.14,
+    "per_cal_day": 371.43,
+    "green": 8,
+    "red": 6,
+    "flat": 0,
+    "no_trade": 7
+   },
+   "2026-07": {
+    "total": -176.0,
+    "legs": 23,
+    "trade_days": 18,
+    "per_trade_day": -9.78,
+    "per_cal_day": -7.65,
+    "green": 6,
+    "red": 12,
+    "flat": 0,
+    "no_trade": 5
+   },
+   "2026-08": {
+    "total": 6819.5,
+    "legs": 13,
+    "trade_days": 12,
+    "per_trade_day": 568.29,
+    "per_cal_day": 324.74,
+    "green": 7,
+    "red": 5,
+    "flat": 0,
+    "no_trade": 9
+   },
+   "2026-09": {
+    "total": 10042.0,
+    "legs": 20,
+    "trade_days": 19,
+    "per_trade_day": 528.53,
+    "per_cal_day": 478.19,
+    "green": 8,
+    "red": 11,
+    "flat": 0,
+    "no_trade": 2
+   },
+   "2026-10": {
+    "total": 26369.5,
+    "legs": 17,
+    "trade_days": 16,
+    "per_trade_day": 1648.09,
+    "per_cal_day": 1318.47,
+    "green": 13,
+    "red": 3,
+    "flat": 0,
+    "no_trade": 4
+   }
+  },
+  "halves": {
+   "H1": {
+    "total": 89989.5,
+    "legs": 84,
+    "trade_days": 71,
+    "per_trade_day": 1267.46,
+    "green": 46,
+    "red": 25
+   },
+   "H2": {
+    "total": 50855.0,
+    "legs": 88,
+    "trade_days": 79,
+    "per_trade_day": 643.73,
+    "green": 42,
+    "red": 37
+   }
+  },
+  "ex_top3_days": {
+   "removed": [
+    {
+     "date": "2026-01-21",
+     "net": 9680.0
+    },
+    {
+     "date": "2026-02-20",
+     "net": 9680.0
+    },
+    {
+     "date": "2026-01-20",
+     "net": 7463.0
+    }
+   ],
+   "total_after": 114021.5,
+   "trade_days_after": 147,
+   "per_trade_day_after": 775.66
+  }
+ },
+ "book_stack_d1": {
+  "legs": 138,
+  "total": 136324.5,
+  "trade_days": 116,
+  "per_trade_day": 1175.21,
+  "per_leg": 987.86,
+  "per_cal_day": 665.0,
+  "win_rate_pct": 57.2,
+  "green_days": 73,
+  "red_days": 43,
+  "flat_days": 0,
+  "no_trade_days": 89,
+  "green_share_trade_days_pct": 62.9,
+  "green_share_all_days_pct": 35.6,
+  "red_months": [],
+  "months": {
+   "2026-01": {
+    "total": 26015.5,
+    "legs": 11,
+    "trade_days": 10,
+    "per_trade_day": 2601.55,
+    "per_cal_day": 1300.78,
+    "green": 8,
+    "red": 2,
+    "flat": 0,
+    "no_trade": 10
+   },
+   "2026-02": {
+    "total": 12604.0,
+    "legs": 14,
+    "trade_days": 13,
+    "per_trade_day": 969.54,
+    "per_cal_day": 600.19,
+    "green": 6,
+    "red": 7,
+    "flat": 0,
+    "no_trade": 8
+   },
+   "2026-03": {
+    "total": 10080.0,
+    "legs": 21,
+    "trade_days": 14,
+    "per_trade_day": 720.0,
+    "per_cal_day": 530.53,
+    "green": 10,
+    "red": 4,
+    "flat": 0,
+    "no_trade": 5
+   },
+   "2026-04": {
+    "total": 12290.0,
+    "legs": 13,
+    "trade_days": 10,
+    "per_trade_day": 1229.0,
+    "per_cal_day": 614.5,
+    "green": 8,
+    "red": 2,
+    "flat": 0,
+    "no_trade": 10
+   },
+   "2026-05": {
+    "total": 25400.0,
+    "legs": 10,
+    "trade_days": 9,
+    "per_trade_day": 2822.22,
+    "per_cal_day": 1336.84,
+    "green": 7,
+    "red": 2,
+    "flat": 0,
+    "no_trade": 10
+   },
+   "2026-06": {
+    "total": 8760.0,
+    "legs": 12,
+    "trade_days": 11,
+    "per_trade_day": 796.36,
+    "per_cal_day": 417.14,
+    "green": 7,
+    "red": 4,
+    "flat": 0,
+    "no_trade": 10
+   },
+   "2026-07": {
+    "total": 784.0,
+    "legs": 20,
+    "trade_days": 15,
+    "per_trade_day": 52.27,
+    "per_cal_day": 34.09,
+    "green": 5,
+    "red": 10,
+    "flat": 0,
+    "no_trade": 8
+   },
+   "2026-08": {
+    "total": 5299.5,
+    "legs": 9,
+    "trade_days": 8,
+    "per_trade_day": 662.44,
+    "per_cal_day": 252.36,
+    "green": 5,
+    "red": 3,
+    "flat": 0,
+    "no_trade": 13
+   },
+   "2026-09": {
+    "total": 13682.0,
+    "legs": 13,
+    "trade_days": 12,
+    "per_trade_day": 1140.17,
+    "per_cal_day": 651.52,
+    "green": 6,
+    "red": 6,
+    "flat": 0,
+    "no_trade": 9
+   },
+   "2026-10": {
+    "total": 21409.5,
+    "legs": 15,
+    "trade_days": 14,
+    "per_trade_day": 1529.25,
+    "per_cal_day": 1070.47,
+    "green": 11,
+    "red": 3,
+    "flat": 0,
+    "no_trade": 6
+   }
+  },
+  "halves": {
+   "H1": {
+    "total": 86389.5,
+    "legs": 69,
+    "trade_days": 56,
+    "per_trade_day": 1542.67,
+    "green": 39,
+    "red": 17
+   },
+   "H2": {
+    "total": 49935.0,
+    "legs": 69,
+    "trade_days": 60,
+    "per_trade_day": 832.25,
+    "green": 34,
+    "red": 26
+   }
+  },
+  "ex_top3_days": {
+   "removed": [
+    {
+     "date": "2026-01-21",
+     "net": 9680.0
+    },
+    {
+     "date": "2026-02-20",
+     "net": 9680.0
+    },
+    {
+     "date": "2026-01-20",
+     "net": 7463.0
+    }
+   ],
+   "total_after": 109501.5,
+   "trade_days_after": 113,
+   "per_trade_day_after": 969.04
+  }
+ },
+ "verdicts": {
+  "PRIORITY": {
+   "checks": {
+    "total_beats_stack": true,
+    "per_trade_day_ge_900": true,
+    "green_share_trade_days_beats_stack": false,
+    "green_share_all_days_beats_stack": true,
+    "zero_red_months": false,
+    "halves_positive": true,
+    "ex_top3_days_positive": true,
+    "november_day_count_improves": true
+   },
+   "is_candidate": false
+  },
+  "STACK_D1": {
+   "checks": {
+    "total_beats_stack": true,
+    "per_trade_day_ge_900": true,
+    "green_share_trade_days_beats_stack": false,
+    "green_share_all_days_beats_stack": true,
+    "zero_red_months": true,
+    "halves_positive": true,
+    "ex_top3_days_positive": true,
+    "november_day_count_improves": false
+   },
+   "is_candidate": false
+  }
+ },
+ "november": {
+  "STACK": {
+   "rows": [
+    {
+     "date": "2026-11-02",
+     "stack_net": null,
+     "increment_source": null,
+     "increment_net": null,
+     "book_net": null,
+     "status": "NO_TRADE"
+    },
+    {
+     "date": "2026-11-03",
+     "stack_net": null,
+     "increment_source": null,
+     "increment_net": null,
+     "book_net": null,
+     "status": "NO_TRADE"
+    },
+    {
+     "date": "2026-11-04",
+     "stack_net": 2480.0,
+     "increment_source": null,
+     "increment_net": null,
+     "book_net": 2480.0,
+     "status": "GREEN"
+    },
+    {
+     "date": "2026-11-05",
+     "stack_net": null,
+     "increment_source": null,
+     "increment_net": null,
+     "book_net": null,
+     "status": "NO_TRADE"
+    },
+    {
+     "date": "2026-11-06",
+     "stack_net": null,
+     "increment_source": null,
+     "increment_net": null,
+     "book_net": null,
+     "status": "NO_TRADE"
+    },
+    {
+     "date": "2026-11-09",
+     "stack_net": -1720.0,
+     "increment_source": null,
+     "increment_net": null,
+     "book_net": -1720.0,
+     "status": "RED"
+    },
+    {
+     "date": "2026-11-11",
+     "stack_net": null,
+     "increment_source": null,
+     "increment_net": null,
+     "book_net": null,
+     "status": "NO_TRADE"
+    },
+    {
+     "date": "2026-11-12",
+     "stack_net": -1720.0,
+     "increment_source": null,
+     "increment_net": null,
+     "book_net": -1720.0,
+     "status": "RED"
+    },
+    {
+     "date": "2026-11-13",
+     "stack_net": -1720.0,
+     "increment_source": null,
+     "increment_net": null,
+     "book_net": -1720.0,
+     "status": "RED"
+    }
+   ],
+   "total": -2680.0,
+   "green": 1,
+   "red": 3,
+   "no_trade": 5,
+   "trade_days": 4
+  },
+  "D1": {
+   "rows": [
+    {
+     "date": "2026-11-02",
+     "stack_net": null,
+     "increment_source": null,
+     "increment_net": null,
+     "book_net": null,
+     "status": "NO_TRADE"
+    },
+    {
+     "date": "2026-11-03",
+     "stack_net": null,
+     "increment_source": null,
+     "increment_net": null,
+     "book_net": null,
+     "status": "NO_TRADE"
+    },
+    {
+     "date": "2026-11-04",
+     "stack_net": 2480.0,
+     "increment_source": null,
+     "increment_net": null,
+     "book_net": 2480.0,
+     "status": "GREEN"
+    },
+    {
+     "date": "2026-11-05",
+     "stack_net": null,
+     "increment_source": null,
+     "increment_net": null,
+     "book_net": null,
+     "status": "NO_TRADE"
+    },
+    {
+     "date": "2026-11-06",
+     "stack_net": null,
+     "increment_source": null,
+     "increment_net": null,
+     "book_net": null,
+     "status": "NO_TRADE"
+    },
+    {
+     "date": "2026-11-09",
+     "stack_net": -1720.0,
+     "increment_source": null,
+     "increment_net": null,
+     "book_net": -1720.0,
+     "status": "RED"
+    },
+    {
+     "date": "2026-11-11",
+     "stack_net": null,
+     "increment_source": null,
+     "increment_net": null,
+     "book_net": null,
+     "status": "NO_TRADE"
+    },
+    {
+     "date": "2026-11-12",
+     "stack_net": -1720.0,
+     "increment_source": null,
+     "increment_net": null,
+     "book_net": -1720.0,
+     "status": "RED"
+    },
+    {
+     "date": "2026-11-13",
+     "stack_net": -1720.0,
+     "increment_source": null,
+     "increment_net": null,
+     "book_net": -1720.0,
+     "status": "RED"
+    }
+   ],
+   "total": -2680.0,
+   "green": 1,
+   "red": 3,
+   "no_trade": 5,
+   "trade_days": 4
+  },
+  "PRIORITY": {
+   "rows": [
+    {
+     "date": "2026-11-02",
+     "stack_net": null,
+     "increment_source": "V3",
+     "increment_net": 2480.0,
+     "book_net": 2480.0,
+     "status": "GREEN"
+    },
+    {
+     "date": "2026-11-03",
+     "stack_net": null,
+     "increment_source": null,
+     "increment_net": null,
+     "book_net": null,
+     "status": "NO_TRADE"
+    },
+    {
+     "date": "2026-11-04",
+     "stack_net": 2480.0,
+     "increment_source": null,
+     "increment_net": null,
+     "book_net": 2480.0,
+     "status": "GREEN"
+    },
+    {
+     "date": "2026-11-05",
+     "stack_net": null,
+     "increment_source": null,
+     "increment_net": null,
+     "book_net": null,
+     "status": "NO_TRADE"
+    },
+    {
+     "date": "2026-11-06",
+     "stack_net": null,
+     "increment_source": null,
+     "increment_net": null,
+     "book_net": null,
+     "status": "NO_TRADE"
+    },
+    {
+     "date": "2026-11-09",
+     "stack_net": -1720.0,
+     "increment_source": null,
+     "increment_net": null,
+     "book_net": -1720.0,
+     "status": "RED"
+    },
+    {
+     "date": "2026-11-11",
+     "stack_net": null,
+     "increment_source": null,
+     "increment_net": null,
+     "book_net": null,
+     "status": "NO_TRADE"
+    },
+    {
+     "date": "2026-11-12",
+     "stack_net": -1720.0,
+     "increment_source": null,
+     "increment_net": null,
+     "book_net": -1720.0,
+     "status": "RED"
+    },
+    {
+     "date": "2026-11-13",
+     "stack_net": -1720.0,
+     "increment_source": null,
+     "increment_net": null,
+     "book_net": -1720.0,
+     "status": "RED"
+    }
+   ],
+   "total": -200.0,
+   "green": 2,
+   "red": 3,
+   "no_trade": 4,
+   "trade_days": 5
+  }
+ },
+ "resum": {
+  "stack": [
+   111,
+   127351.5
+  ],
+  "increments": {
+   "D1": [
+    27,
+    8973.0
+   ],
+   "V3": [
+    42,
+    3360.0
+   ],
+   "B1": [
+    12,
+    4560.0
+   ]
+  },
+  "day_csv": {
+   "stack": 127351.5,
+   "priority": 140844.5,
+   "d1": 136324.5
+  },
+  "ok": true
+ }
+}

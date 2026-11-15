@@ -1,0 +1,432 @@
+{
+ "median_day": "2026-06-04",
+ "families": {
+  "IOI-1": {
+   "fired_days": 143,
+   "scored": 143,
+   "scoring_nc": [],
+   "real": {
+    "n": 143,
+    "total": -65321.0,
+    "months": {
+     "2026-01": 10469.0,
+     "2026-02": -1647.0,
+     "2026-03": -9000.0,
+     "2026-04": -4800.0,
+     "2026-05": -15680.0,
+     "2026-06": -6520.0,
+     "2026-07": -12342.0,
+     "2026-08": -16644.0,
+     "2026-09": -2837.0,
+     "2026-10": -6320.0
+    },
+    "h1": -19898.0,
+    "h2": -45423.0,
+    "ex_top3": -72761.0,
+    "top3": [
+     2480.0,
+     2480.0,
+     2480.0
+    ],
+    "wins": 44,
+    "win_rate": 0.3077,
+    "ft": 41
+   },
+   "placebos": {
+    "reversed": {
+     "n": 143,
+     "total": -23009.3,
+     "months": {
+      "2026-01": -5330.5,
+      "2026-02": -10576.5,
+      "2026-03": 3600.0,
+      "2026-04": -4800.0,
+      "2026-05": 5320.0,
+      "2026-06": -6520.0,
+      "2026-07": -5014.5,
+      "2026-08": 7646.7,
+      "2026-09": -13614.5,
+      "2026-10": 6280.0
+     },
+     "h1": -11027.0,
+     "h2": -11982.3,
+     "ex_top3": -30449.3,
+     "top3": [
+      2480.0,
+      2480.0,
+      2480.0
+     ],
+     "wins": 55,
+     "win_rate": 0.3846,
+     "ft": 47
+    },
+    "coin": {
+     "n": 143,
+     "total": -27468.8,
+     "months": {
+      "2026-01": 2361.5,
+      "2026-02": -10396.5,
+      "2026-03": 3600.0,
+      "2026-04": -4800.0,
+      "2026-05": -7280.0,
+      "2026-06": -10720.0,
+      "2026-07": 258.0,
+      "2026-08": -9169.8,
+      "2026-09": -1802.0,
+      "2026-10": 10480.0
+     },
+     "h1": -15755.0,
+     "h2": -11713.8,
+     "ex_top3": -34908.8,
+     "top3": [
+      2480.0,
+      2480.0,
+      2480.0
+     ],
+     "wins": 54,
+     "win_rate": 0.3776,
+     "ft": 47
+    },
+    "shifted": {
+     "n": 143,
+     "total": -26751.5,
+     "months": {
+      "2026-01": -4186.0,
+      "2026-02": -2211.0,
+      "2026-03": 3600.0,
+      "2026-04": 12669.0,
+      "2026-05": -3023.0,
+      "2026-06": 7611.5,
+      "2026-07": -4842.0,
+      "2026-08": -17851.5,
+      "2026-09": -3798.5,
+      "2026-10": -14720.0
+     },
+     "h1": 7609.0,
+     "h2": -34360.5,
+     "ex_top3": -34191.5,
+     "top3": [
+      2480.0,
+      2480.0,
+      2480.0
+     ],
+     "wins": 51,
+     "win_rate": 0.3566,
+     "ft": 48
+    }
+   },
+   "timing_violations": 0,
+   "gate_legs": {
+    "total_pos": false,
+    "halves_pos": false,
+    "ex_top3_pos": false,
+    "beats_reversed": false,
+    "beats_coin": false,
+    "beats_shifted": false,
+    "timing_clean": true,
+    "nc_ok": true
+   },
+   "gate_pass": false,
+   "per_trade_day": -456.79,
+   "day_counts": {
+    "green": 44,
+    "red": 99,
+    "flat_or_no_trade": 62,
+    "total_days": 205
+   }
+  },
+  "IOI-2": {
+   "fired_days": 21,
+   "scored": 21,
+   "scoring_nc": [],
+   "real": {
+    "n": 21,
+    "total": -10006.5,
+    "months": {
+     "2026-01": -5160.0,
+     "2026-02": 4700.0,
+     "2026-06": 2480.0,
+     "2026-07": -3440.0,
+     "2026-08": -3226.5,
+     "2026-09": -3440.0,
+     "2026-10": -1920.0
+    },
+    "h1": -460.0,
+    "h2": -9546.5,
+    "ex_top3": -17446.5,
+    "top3": [
+     2480.0,
+     2480.0,
+     2480.0
+    ],
+    "wins": 7,
+    "win_rate": 0.3333,
+    "ft": 5
+   },
+   "placebos": {
+    "reversed": {
+     "n": 21,
+     "total": -9949.5,
+     "months": {
+      "2026-01": -76.5,
+      "2026-02": -4534.0,
+      "2026-06": -1720.0,
+      "2026-07": 760.0,
+      "2026-08": -3219.0,
+      "2026-09": 760.0,
+      "2026-10": -1920.0
+     },
+     "h1": -4610.5,
+     "h2": -5339.0,
+     "ex_top3": -17389.5,
+     "top3": [
+      2480.0,
+      2480.0,
+      2480.0
+     ],
+     "wins": 7,
+     "win_rate": 0.3333,
+     "ft": 5
+    },
+    "coin": {
+     "n": 21,
+     "total": -4836.0,
+     "months": {
+      "2026-01": -76.5,
+      "2026-02": 2846.0,
+      "2026-06": 2480.0,
+      "2026-07": -3440.0,
+      "2026-08": -1285.5,
+      "2026-09": -3440.0,
+      "2026-10": -1920.0
+     },
+     "h1": 2769.5,
+     "h2": -7605.5,
+     "ex_top3": -12276.0,
+     "top3": [
+      2480.0,
+      2480.0,
+      2480.0
+     ],
+     "wins": 9,
+     "win_rate": 0.4286,
+     "ft": 5
+    },
+    "shifted": {
+     "n": 21,
+     "total": 9727.5,
+     "months": {
+      "2026-01": -960.0,
+      "2026-02": 2520.5,
+      "2026-06": -1720.0,
+      "2026-07": -3440.0,
+      "2026-08": 1887.0,
+      "2026-09": 760.0,
+      "2026-10": 10680.0
+     },
+     "h1": 1560.5,
+     "h2": 8167.0,
+     "ex_top3": 2287.5,
+     "top3": [
+      2480.0,
+      2480.0,
+      2480.0
+     ],
+     "wins": 10,
+     "win_rate": 0.4762,
+     "ft": 10
+    }
+   },
+   "timing_violations": 0,
+   "gate_legs": {
+    "total_pos": false,
+    "halves_pos": false,
+    "ex_top3_pos": false,
+    "beats_reversed": false,
+    "beats_coin": false,
+    "beats_shifted": false,
+    "timing_clean": true,
+    "nc_ok": true
+   },
+   "gate_pass": false,
+   "per_trade_day": -476.5,
+   "day_counts": {
+    "green": 7,
+    "red": 14,
+    "flat_or_no_trade": 184,
+    "total_days": 205
+   }
+  }
+ },
+ "window": {
+  "jan_days": 205,
+  "band_nc_days": 18,
+  "band_nc_list": [
+   "2026-01-21",
+   "2026-02-02",
+   "2026-02-03",
+   "2026-02-27",
+   "2026-03-04",
+   "2026-03-23",
+   "2026-04-01",
+   "2026-04-02",
+   "2026-04-10",
+   "2026-04-30",
+   "2026-05-05",
+   "2026-05-12",
+   "2026-05-14",
+   "2026-05-18",
+   "2026-06-01",
+   "2026-06-03",
+   "2026-09-15",
+   "2026-09-28"
+  ],
+  "no_spot_days": [],
+  "complete_days": 187
+ },
+ "resum_check": "EXACT for both families",
+ "merge": {
+  "family": "IOI-2",
+  "label": "STRONGEST FAILING FAMILY \u2014 merge-only evidence",
+  "stack_anchor": {
+   "legs": 111,
+   "total": 127351.5,
+   "trade_days": 89,
+   "per_trade_day": 1430.92,
+   "day_counts": {
+    "green": 60,
+    "red": 29,
+    "flat_or_no_trade": 116,
+    "total_days": 205
+   }
+  },
+  "increment_legs": 12,
+  "increment_total": -6106.5,
+  "merged_total": 121245.0,
+  "merged_trade_days": 101,
+  "merged_per_trade_day": 1200.45,
+  "merged_months": {
+   "2026-01": 20588.0,
+   "2026-02": 20244.0,
+   "2026-03": 8560.0,
+   "2026-04": 9810.0,
+   "2026-05": 25400.0,
+   "2026-06": 3040.0,
+   "2026-07": 2504.0,
+   "2026-08": 553.0,
+   "2026-09": 11616.5,
+   "2026-10": 18929.5
+  },
+  "merged_red_months": [],
+  "merged_day_counts": {
+   "green": 64,
+   "red": 37,
+   "flat_or_no_trade": 104,
+   "total_days": 205
+  },
+  "merge_pass": false
+ },
+ "november": {
+  "stack_total": -2680.0,
+  "stack_days": {
+   "2026-11-04": 2480.0,
+   "2026-11-09": -1720.0,
+   "2026-11-12": -1720.0,
+   "2026-11-13": -1720.0
+  },
+  "family": "IOI-2",
+  "rows": [
+   {
+    "date": "2026-11-02",
+    "dataset_status": "complete",
+    "stack_net": null,
+    "family": null,
+    "family_nc": null,
+    "increment_net": 0.0,
+    "merged_day_net": 0.0
+   },
+   {
+    "date": "2026-11-03",
+    "dataset_status": "complete",
+    "stack_net": null,
+    "family": null,
+    "family_nc": null,
+    "increment_net": 0.0,
+    "merged_day_net": 0.0
+   },
+   {
+    "date": "2026-11-04",
+    "dataset_status": "complete",
+    "stack_net": 2480.0,
+    "family": null,
+    "family_nc": null,
+    "increment_net": 0.0,
+    "merged_day_net": 2480.0
+   },
+   {
+    "date": "2026-11-05",
+    "dataset_status": "complete",
+    "stack_net": null,
+    "family": null,
+    "family_nc": null,
+    "increment_net": 0.0,
+    "merged_day_net": 0.0
+   },
+   {
+    "date": "2026-11-06",
+    "dataset_status": "complete",
+    "stack_net": null,
+    "family": null,
+    "family_nc": null,
+    "increment_net": 0.0,
+    "merged_day_net": 0.0
+   },
+   {
+    "date": "2026-11-09",
+    "dataset_status": "complete",
+    "stack_net": -1720.0,
+    "family": null,
+    "family_nc": null,
+    "increment_net": 0.0,
+    "merged_day_net": -1720.0
+   },
+   {
+    "date": "2026-11-11",
+    "dataset_status": "NC_BAND",
+    "stack_net": null,
+    "family": null,
+    "family_nc": null,
+    "increment_net": 0.0,
+    "merged_day_net": 0.0
+   },
+   {
+    "date": "2026-11-12",
+    "dataset_status": "complete",
+    "stack_net": -1720.0,
+    "family": null,
+    "family_nc": null,
+    "increment_net": 0.0,
+    "merged_day_net": -1720.0
+   },
+   {
+    "date": "2026-11-13",
+    "dataset_status": "NC_NO_SPOT",
+    "stack_net": -1720.0,
+    "family": null,
+    "family_nc": null,
+    "increment_net": 0.0,
+    "merged_day_net": -1720.0
+   }
+  ],
+  "increment_total": 0.0,
+  "merged_total": -2680.0,
+  "merged_day_counts": {
+   "green": 1,
+   "red": 3,
+   "flat_or_no_trade": 5,
+   "total_days": 9
+  },
+  "family_legs": 0,
+  "family_nc": []
+ }
+}

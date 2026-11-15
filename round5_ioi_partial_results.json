@@ -1,0 +1,210 @@
+{
+ "label": "PARTIAL WINDOW \u2014 JAN\u2013JUN, 104 DAYS \u2014 NOT THE GATE",
+ "window": "PARTIAL_JANJUN",
+ "complete_days": 104,
+ "complete_by_month": {
+  "2026-01": 19,
+  "2026-02": 18,
+  "2026-03": 17,
+  "2026-04": 16,
+  "2026-05": 15,
+  "2026-06": 19
+ },
+ "nc_band_days": [
+  "2026-01-21",
+  "2026-02-02",
+  "2026-02-03",
+  "2026-02-27",
+  "2026-03-04",
+  "2026-03-23",
+  "2026-04-01",
+  "2026-04-02",
+  "2026-04-10",
+  "2026-04-30",
+  "2026-05-05",
+  "2026-05-12",
+  "2026-05-14",
+  "2026-05-18",
+  "2026-06-01",
+  "2026-06-03"
+ ],
+ "nc_band_by_month": {
+  "2026-01": 1,
+  "2026-02": 3,
+  "2026-03": 2,
+  "2026-04": 4,
+  "2026-05": 4,
+  "2026-06": 2
+ },
+ "median_complete_day": "2026-03-27",
+ "families": {
+  "IOI-1": {
+   "legs": 85,
+   "fired_days": 85,
+   "total": -27178.0,
+   "per_trade_day": -319.74,
+   "wins": 29,
+   "win_rate": 0.3412,
+   "months": {
+    "2026-01": 10469.0,
+    "2026-02": -1647.0,
+    "2026-03": -9000.0,
+    "2026-04": -4800.0,
+    "2026-05": -15680.0,
+    "2026-06": -6520.0
+   },
+   "halves_median_split": {
+    "split_day": "2026-03-27",
+    "first": -178.0,
+    "second": -27000.0,
+    "first_legs": 40,
+    "second_legs": 45
+   },
+   "quarters": {
+    "q1_jan_mar": -178.0,
+    "q2_apr_jun": -27000.0,
+    "q1_legs": 40,
+    "q2_legs": 45
+   },
+   "ex_top3": -34618.0,
+   "top3": [
+    2480.0,
+    2480.0,
+    2480.0
+   ],
+   "ft": 27,
+   "day_counts_104": {
+    "green": 29,
+    "red": 56,
+    "flat_or_no_trade": 19,
+    "total_days": 104
+   },
+   "day_counts_120": {
+    "green": 29,
+    "red": 56,
+    "flat_or_no_trade": 35,
+    "total_days": 120
+   },
+   "scoring_nc": [],
+   "timing_violations": 0
+  },
+  "IOI-2": {
+   "legs": 8,
+   "fired_days": 8,
+   "total": 2020.0,
+   "per_trade_day": 252.5,
+   "wins": 4,
+   "win_rate": 0.5,
+   "months": {
+    "2026-01": -5160.0,
+    "2026-02": 4700.0,
+    "2026-06": 2480.0
+   },
+   "halves_median_split": {
+    "split_day": "2026-03-27",
+    "first": -460.0,
+    "second": 2480.0,
+    "first_legs": 7,
+    "second_legs": 1
+   },
+   "quarters": {
+    "q1_jan_mar": -460.0,
+    "q2_apr_jun": 2480.0,
+    "q1_legs": 7,
+    "q2_legs": 1
+   },
+   "ex_top3": -5420.0,
+   "top3": [
+    2480.0,
+    2480.0,
+    2480.0
+   ],
+   "ft": 3,
+   "day_counts_104": {
+    "green": 4,
+    "red": 4,
+    "flat_or_no_trade": 96,
+    "total_days": 104
+   },
+   "day_counts_120": {
+    "green": 4,
+    "red": 4,
+    "flat_or_no_trade": 112,
+    "total_days": 120
+   },
+   "scoring_nc": [],
+   "timing_violations": 0
+  }
+ },
+ "resum_check": "EXACT for both families",
+ "stack_on_104": {
+  "legs": 51,
+  "total": 73500.0,
+  "trade_days": 39,
+  "per_trade_day": 1884.62,
+  "full_ledger_anchor": {
+   "legs": 111,
+   "total": 127351.5,
+   "trade_days": 89
+  }
+ },
+ "merge_reads_partial_window": {
+  "IOI-1": {
+   "increment_legs": 55,
+   "increment_total": -34378.0,
+   "merged_total": 39122.0,
+   "merged_trade_days": 94,
+   "merged_per_trade_day": 416.19,
+   "merged_months": {
+    "2026-01": 19097.0,
+    "2026-02": 7275.0,
+    "2026-03": -3480.0,
+    "2026-04": 5410.0,
+    "2026-05": 12380.0,
+    "2026-06": -1560.0
+   },
+   "merged_red_months": [
+    "2026-03",
+    "2026-06"
+   ],
+   "merged_day_counts_104": {
+    "green": 46,
+    "red": 48,
+    "flat_or_no_trade": 10,
+    "total_days": 104
+   },
+   "increment_positive": false,
+   "merged_beats_stack_window": false
+  },
+  "IOI-2": {
+   "increment_legs": 4,
+   "increment_total": 1520.0,
+   "merged_total": 75020.0,
+   "merged_trade_days": 43,
+   "merged_per_trade_day": 1744.65,
+   "merged_months": {
+    "2026-01": 10908.0,
+    "2026-02": 23802.0,
+    "2026-03": 6080.0,
+    "2026-04": 12490.0,
+    "2026-05": 21180.0,
+    "2026-06": 560.0
+   },
+   "merged_red_months": [],
+   "merged_day_counts_104": {
+    "green": 33,
+    "red": 10,
+    "flat_or_no_trade": 61,
+    "total_days": 104
+   },
+   "increment_positive": true,
+   "merged_beats_stack_window": true
+  }
+ },
+ "not_computed": [
+  "Jan-Oct gate verdict (window incomplete: Jul-Oct unfetched)",
+  "any Jul-Oct figure",
+  "November counterfactual (November contracts unfetched)",
+  "placebos / gate legs (Part 7 gate runs only on the full window)"
+ ]
+}

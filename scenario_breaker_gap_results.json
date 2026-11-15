@@ -1,0 +1,499 @@
+{
+ "freeze": {
+  "leg": "ROLL10",
+  "floor": -5000.0,
+  "window": 10,
+  "pause_days": 3,
+  "order": "MTD -> ROLL10 -> STREAK",
+  "criteria": {
+   "a_bank_worst_window_min": -5500.0,
+   "a_nifty_worst_window_min": -7000.0,
+   "b_max_cost_frac": 0.1,
+   "c_max_trips": 6
+  }
+ },
+ "controls_item3_reproduced": {
+  "bank_two_leg": {
+   "days": 205,
+   "total_hypothetical": 127351.5,
+   "total_realised": 127475.5,
+   "breaker_effect": 124.0,
+   "suppressed_hypothetical": -124.0,
+   "paused_days": 3,
+   "roll10_enabled": false,
+   "trips": [
+    {
+     "date": "2026-07-06",
+     "kind": "STREAK",
+     "mtd": -1937.0
+    }
+   ]
+  },
+  "nifty_two_leg": {
+   "days": 205,
+   "total_hypothetical": 103050.25,
+   "total_realised": 76432.75,
+   "breaker_effect": -26617.5,
+   "suppressed_hypothetical": 26617.5,
+   "paused_days": 28,
+   "roll10_enabled": false,
+   "trips": [
+    {
+     "date": "2026-02-06",
+     "kind": "MTD",
+     "mtd": -6940.0
+    },
+    {
+     "date": "2026-05-11",
+     "kind": "MTD",
+     "mtd": -6084.25
+    }
+   ]
+  },
+  "stack_november_two_leg": {
+   "days": 9,
+   "total_hypothetical": -2680.0,
+   "total_realised": -2680.0,
+   "breaker_effect": 0.0,
+   "suppressed_hypothetical": 0,
+   "paused_days": 0,
+   "roll10_enabled": false,
+   "trips": []
+  },
+  "legacy_november_control": {
+   "days": 9,
+   "total_hypothetical": -1920.0,
+   "total_realised": -5160.0,
+   "breaker_effect": -3240.0,
+   "suppressed_hypothetical": 3240.0,
+   "paused_days": 6,
+   "roll10_enabled": false,
+   "trips": [
+    {
+     "date": "2026-11-04",
+     "kind": "MTD",
+     "mtd": -5160.0
+    }
+   ]
+  }
+ },
+ "bank": {
+  "book": "BANK TUNED STACK v2",
+  "standing_total": 127351.5,
+  "two_leg": {
+   "summary": {
+    "days": 205,
+    "total_hypothetical": 127351.5,
+    "total_realised": 127475.5,
+    "breaker_effect": 124.0,
+    "suppressed_hypothetical": -124.0,
+    "paused_days": 3,
+    "roll10_enabled": false,
+    "trips": [
+     {
+      "date": "2026-07-06",
+      "kind": "STREAK",
+      "mtd": -1937.0
+     }
+    ]
+   },
+   "worst_window": {
+    "start": "2026-06-09",
+    "end": "2026-06-22",
+    "net": -6880.0,
+    "max_drawdown": -6880.0,
+    "worst_day": -3440.0,
+    "regime_days": 4
+   }
+  },
+  "three_leg": {
+   "summary": {
+    "days": 205,
+    "total_hypothetical": 127351.5,
+    "total_realised": 124995.5,
+    "breaker_effect": -2356.0,
+    "suppressed_hypothetical": 2356.0,
+    "paused_days": 6,
+    "roll10_enabled": true,
+    "trips": [
+     {
+      "date": "2026-06-22",
+      "kind": "ROLL10",
+      "mtd": 560.0,
+      "roll10": -6880.0
+     },
+     {
+      "date": "2026-07-06",
+      "kind": "STREAK",
+      "mtd": -1937.0
+     }
+    ]
+   },
+   "trips_enriched": [
+    {
+     "trip_date": "2026-06-22",
+     "kind": "ROLL10",
+     "mtd_at_trip": 560.0,
+     "roll10_at_trip": -6880.0,
+     "paused_days": [
+      "2026-06-23",
+      "2026-06-24",
+      "2026-06-25"
+     ],
+     "suppressed_hypothetical": 2480.0,
+     "suppressed_detail": [
+      [
+       "2026-06-24",
+       2480.0
+      ]
+     ]
+    },
+    {
+     "trip_date": "2026-07-06",
+     "kind": "STREAK",
+     "mtd_at_trip": -1937.0,
+     "roll10_at_trip": null,
+     "paused_days": [
+      "2026-07-07",
+      "2026-07-08",
+      "2026-07-09"
+     ],
+     "suppressed_hypothetical": -124.0,
+     "suppressed_detail": [
+      [
+       "2026-07-07",
+       -884.0
+      ],
+      [
+       "2026-07-08",
+       760.0
+      ]
+     ]
+    }
+   ],
+   "trips_by_kind": {
+    "ROLL10": 1,
+    "STREAK": 1
+   },
+   "paused_days": 6,
+   "total_realised": 124995.5,
+   "worst_window": {
+    "start": "2026-06-09",
+    "end": "2026-06-22",
+    "net": -6880.0,
+    "max_drawdown": -6880.0,
+    "worst_day": -3440.0,
+    "regime_days": 4
+   },
+   "worst_regime_concentrated": {
+    "start": "2026-06-03",
+    "end": "2026-06-16",
+    "net": -4400.0,
+    "max_drawdown": -6880.0,
+    "worst_day": -3440.0,
+    "regime_days": 8
+   },
+   "independent_resum": {
+    "total": 124995.5,
+    "worst_window_bruteforce": {
+     "net": -6880.0,
+     "start": "2026-06-09",
+     "end": "2026-06-22"
+    }
+   }
+  },
+  "no_breaker_worst_window": {
+   "start": "2026-06-09",
+   "end": "2026-06-22",
+   "net": -6880.0,
+   "max_drawdown": -6880.0,
+   "worst_day": -3440.0,
+   "regime_days": 4
+  },
+  "criteria": {
+   "a_worst_window_net": -6880.0,
+   "a_required_min": -5500.0,
+   "a_pass": false,
+   "b_cost": 2356.0,
+   "b_cost_cap": 12735.15,
+   "b_cost_frac": 0.0185,
+   "b_pass": true,
+   "c_trips_total": 2,
+   "c_pass": true,
+   "all_pass": false
+  }
+ },
+ "nifty": {
+  "book": "NIFTY TUNED v1",
+  "standing_total": 103050.25,
+  "two_leg": {
+   "summary": {
+    "days": 205,
+    "total_hypothetical": 103050.25,
+    "total_realised": 76432.75,
+    "breaker_effect": -26617.5,
+    "suppressed_hypothetical": 26617.5,
+    "paused_days": 28,
+    "roll10_enabled": false,
+    "trips": [
+     {
+      "date": "2026-02-06",
+      "kind": "MTD",
+      "mtd": -6940.0
+     },
+     {
+      "date": "2026-05-11",
+      "kind": "MTD",
+      "mtd": -6084.25
+     }
+    ]
+   },
+   "worst_window": {
+    "start": "2026-03-16",
+    "end": "2026-03-30",
+    "net": -13670.0,
+    "max_drawdown": -13670.0,
+    "worst_day": -3470.0,
+    "regime_days": 8
+   }
+  },
+  "three_leg": {
+   "summary": {
+    "days": 205,
+    "total_hypothetical": 103050.25,
+    "total_realised": 59693.25,
+    "breaker_effect": -43357.0,
+    "suppressed_hypothetical": 43357.0,
+    "paused_days": 34,
+    "roll10_enabled": true,
+    "trips": [
+     {
+      "date": "2026-02-06",
+      "kind": "MTD",
+      "mtd": -6940.0
+     },
+     {
+      "date": "2026-03-27",
+      "kind": "ROLL10",
+      "mtd": -1216.5,
+      "roll10": -5985.0
+     },
+     {
+      "date": "2026-04-06",
+      "kind": "ROLL10",
+      "mtd": 0.0,
+      "roll10": -10200.0
+     },
+     {
+      "date": "2026-05-11",
+      "kind": "MTD",
+      "mtd": -6084.25
+     }
+    ]
+   },
+   "trips_enriched": [
+    {
+     "trip_date": "2026-02-06",
+     "kind": "MTD",
+     "mtd_at_trip": -6940.0,
+     "roll10_at_trip": null,
+     "paused_days": [
+      "2026-02-09",
+      "2026-02-10",
+      "2026-02-11",
+      "2026-02-12",
+      "2026-02-13",
+      "2026-02-16",
+      "2026-02-17",
+      "2026-02-18",
+      "2026-02-19",
+      "2026-02-20",
+      "2026-02-23",
+      "2026-02-24",
+      "2026-02-25",
+      "2026-02-26",
+      "2026-02-27"
+     ],
+     "suppressed_hypothetical": 16169.25,
+     "suppressed_detail": [
+      [
+       "2026-02-13",
+       639.0
+      ],
+      [
+       "2026-02-16",
+       7212.75
+      ],
+      [
+       "2026-02-17",
+       -649.0
+      ],
+      [
+       "2026-02-19",
+       8109.75
+      ],
+      [
+       "2026-02-26",
+       -2813.5
+      ],
+      [
+       "2026-02-27",
+       3670.25
+      ]
+     ]
+    },
+    {
+     "trip_date": "2026-03-27",
+     "kind": "ROLL10",
+     "mtd_at_trip": -1216.5,
+     "roll10_at_trip": -5985.0,
+     "paused_days": [
+      "2026-03-30",
+      "2026-04-01",
+      "2026-04-02"
+     ],
+     "suppressed_hypothetical": 11155.0,
+     "suppressed_detail": [
+      [
+       "2026-04-02",
+       11155.0
+      ]
+     ]
+    },
+    {
+     "trip_date": "2026-04-06",
+     "kind": "ROLL10",
+     "mtd_at_trip": 0.0,
+     "roll10_at_trip": -10200.0,
+     "paused_days": [
+      "2026-04-07",
+      "2026-04-08",
+      "2026-04-09"
+     ],
+     "suppressed_hypothetical": 5584.5,
+     "suppressed_detail": [
+      [
+       "2026-04-07",
+       5584.5
+      ]
+     ]
+    },
+    {
+     "trip_date": "2026-05-11",
+     "kind": "MTD",
+     "mtd_at_trip": -6084.25,
+     "roll10_at_trip": null,
+     "paused_days": [
+      "2026-05-12",
+      "2026-05-13",
+      "2026-05-14",
+      "2026-05-15",
+      "2026-05-18",
+      "2026-05-19",
+      "2026-05-20",
+      "2026-05-21",
+      "2026-05-22",
+      "2026-05-25",
+      "2026-05-26",
+      "2026-05-27",
+      "2026-05-29"
+     ],
+     "suppressed_hypothetical": 10448.25,
+     "suppressed_detail": [
+      [
+       "2026-05-12",
+       11155.0
+      ],
+      [
+       "2026-05-13",
+       -3470.0
+      ],
+      [
+       "2026-05-18",
+       210.0
+      ],
+      [
+       "2026-05-19",
+       -2524.25
+      ],
+      [
+       "2026-05-20",
+       5077.5
+      ]
+     ]
+    }
+   ],
+   "trips_by_kind": {
+    "MTD": 2,
+    "ROLL10": 2
+   },
+   "paused_days": 34,
+   "total_realised": 59693.25,
+   "worst_window": {
+    "start": "2026-03-16",
+    "end": "2026-03-30",
+    "net": -13670.0,
+    "max_drawdown": -13670.0,
+    "worst_day": -3470.0,
+    "regime_days": 8
+   },
+   "worst_regime_concentrated": {
+    "start": "2026-03-16",
+    "end": "2026-03-30",
+    "net": -13670.0,
+    "max_drawdown": -13670.0,
+    "worst_day": -3470.0,
+    "regime_days": 8
+   },
+   "independent_resum": {
+    "total": 59693.25,
+    "worst_window_bruteforce": {
+     "net": -13670.0,
+     "start": "2026-03-16",
+     "end": "2026-03-30"
+    }
+   }
+  },
+  "no_breaker_worst_window": {
+   "start": "2026-03-16",
+   "end": "2026-03-30",
+   "net": -13670.0,
+   "max_drawdown": -13670.0,
+   "worst_day": -3470.0,
+   "regime_days": 8
+  },
+  "criteria": {
+   "a_worst_window_net": -13670.0,
+   "a_required_min": -7000.0,
+   "a_pass": false,
+   "b_cost": 43357.0,
+   "b_cost_cap": 10305.03,
+   "b_cost_frac": 0.4207,
+   "b_pass": false,
+   "c_trips_total": 4,
+   "c_pass": true,
+   "all_pass": false
+  }
+ },
+ "november_stack_standalone_three_leg": {
+  "days": 9,
+  "total_hypothetical": -2680.0,
+  "total_realised": -2680.0,
+  "breaker_effect": 0.0,
+  "suppressed_hypothetical": 0,
+  "paused_days": 0,
+  "roll10_enabled": true,
+  "trips": []
+ },
+ "november_stack_continuous_three_leg": {
+  "trips_in_november": [],
+  "november_realised": -2680.0,
+  "november_paused_days": 0,
+  "full_series_trips": 2
+ },
+ "verdict": "REJECTED",
+ "verdict_per_book": {
+  "bank": false,
+  "nifty": false
+ }
+}

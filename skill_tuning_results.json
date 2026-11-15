@@ -1,0 +1,6894 @@
+{
+ "BANKNIFTY": {
+  "legs_total": 165,
+  "diag": {
+   "no_signal": 30,
+   "blocked_0930_pe": 8
+  },
+  "validation": {
+   "jansep_stored_legs": 150,
+   "jansep_mine_legs": 150,
+   "jansep_stored_missing_from_mine": [],
+   "jansep_extra_in_mine": [],
+   "u1_skill_keys": 164,
+   "u1_skill_keys_missing_from_mine": [],
+   "my_keys_not_in_u1": 1
+  },
+  "signal_audit_problems": [],
+  "variants": {
+   "baseline": {
+    "stats": {
+     "n": 79,
+     "net": -10532.5,
+     "win_rate": 39.2,
+     "ft_rate": 34.2,
+     "months": {
+      "2026-01": {
+       "net": -3131.0,
+       "n": 5
+      },
+      "2026-02": {
+       "net": 8697.0,
+       "n": 9
+      },
+      "2026-03": {
+       "net": -2880.0,
+       "n": 9
+      },
+      "2026-04": {
+       "net": -400.0,
+       "n": 10
+      },
+      "2026-05": {
+       "net": 560.0,
+       "n": 7
+      },
+      "2026-06": {
+       "net": -2271.5,
+       "n": 5
+      },
+      "2026-07": {
+       "net": -8800.0,
+       "n": 10
+      },
+      "2026-08": {
+       "net": -6341.0,
+       "n": 8
+      },
+      "2026-09": {
+       "net": 34.0,
+       "n": 11
+      },
+      "2026-10": {
+       "net": 4000.0,
+       "n": 5
+      }
+     },
+     "neg_months": 6,
+     "h1": 574.5,
+     "h2": -11107.0,
+     "ex_top3": -17972.5,
+     "worst_drawdown": -28692.5,
+     "avg_per_leg": -133.32,
+     "pace_per_month": -1053.25
+    },
+    "nc": 86,
+    "gate": {
+     "timing_audit": "PASS",
+     "resum": "PASS",
+     "halves": "FAIL",
+     "months": "FAIL",
+     "ex_top3": "FAIL",
+     "placebo_flipped": "PASS",
+     "placebo_shifted": "PASS",
+     "placebo_random": "PASS"
+    },
+    "gate_pass": false,
+    "placebos": {
+     "flipped": {
+      "net": -15154.5,
+      "n": 78,
+      "nc": 87
+     },
+     "shifted": {
+      "net": -68481.3,
+      "n": 165,
+      "nc": 0
+     },
+     "random": {
+      "net": -68348.5,
+      "n": 154,
+      "nc": 11
+     }
+    },
+    "nc_detail": [
+     {
+      "date": "2026-01-02",
+      "direction": "CE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-01-06",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-01-07",
+      "direction": "PE",
+      "entry_time": "09:55",
+      "why": "entry_bar_absent 09:55"
+     },
+     {
+      "date": "2026-01-08",
+      "direction": "CE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-01-09",
+      "direction": "PE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-01-16",
+      "direction": "CE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-01-19",
+      "direction": "PE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-01-20",
+      "direction": "PE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-01-22",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-01-23",
+      "direction": "PE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-01-27",
+      "direction": "CE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-01-29",
+      "direction": "CE",
+      "entry_time": "09:50",
+      "why": "entry_bar_absent 09:50"
+     },
+     {
+      "date": "2026-01-30",
+      "direction": "CE",
+      "entry_time": "09:55",
+      "why": "entry_bar_absent 09:55"
+     },
+     {
+      "date": "2026-02-03",
+      "direction": "PE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-02-04",
+      "direction": "CE",
+      "entry_time": "09:50",
+      "why": "entry_bar_absent 09:50"
+     },
+     {
+      "date": "2026-02-05",
+      "direction": "PE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-02-11",
+      "direction": "PE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-02-12",
+      "direction": "CE",
+      "entry_time": "09:50",
+      "why": "entry_bar_absent 09:50"
+     },
+     {
+      "date": "2026-02-16",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-02-18",
+      "direction": "CE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-02-20",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-02-27",
+      "direction": "PE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-03-11",
+      "direction": "PE",
+      "entry_time": "09:55",
+      "why": "entry_bar_absent 09:55"
+     },
+     {
+      "date": "2026-03-12",
+      "direction": "CE",
+      "entry_time": "09:55",
+      "why": "entry_bar_absent 09:55"
+     },
+     {
+      "date": "2026-03-16",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-03-24",
+      "direction": "PE",
+      "entry_time": "09:50",
+      "why": "entry_bar_absent 09:50"
+     },
+     {
+      "date": "2026-03-25",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-04-08",
+      "direction": "CE",
+      "entry_time": "09:50",
+      "why": "entry_bar_absent 09:50"
+     },
+     {
+      "date": "2026-04-09",
+      "direction": "PE",
+      "entry_time": "09:50",
+      "why": "entry_bar_absent 09:50"
+     },
+     {
+      "date": "2026-04-15",
+      "direction": "PE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-04-16",
+      "direction": "PE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-04-21",
+      "direction": "CE",
+      "entry_time": "09:50",
+      "why": "entry_bar_absent 09:50"
+     },
+     {
+      "date": "2026-04-23",
+      "direction": "CE",
+      "entry_time": "09:50",
+      "why": "entry_bar_absent 09:50"
+     },
+     {
+      "date": "2026-04-24",
+      "direction": "PE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-04-28",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-05-04",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-05-13",
+      "direction": "PE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-05-14",
+      "direction": "PE",
+      "entry_time": "09:50",
+      "why": "entry_bar_absent 09:50"
+     },
+     {
+      "date": "2026-05-20",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-05-22",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-05-26",
+      "direction": "CE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-06-01",
+      "direction": "PE",
+      "entry_time": "09:55",
+      "why": "entry_bar_absent 09:55"
+     },
+     {
+      "date": "2026-06-02",
+      "direction": "CE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-06-04",
+      "direction": "CE",
+      "entry_time": "09:50",
+      "why": "entry_bar_absent 09:50"
+     },
+     {
+      "date": "2026-06-05",
+      "direction": "CE",
+      "entry_time": "09:55",
+      "why": "entry_bar_absent 09:55"
+     },
+     {
+      "date": "2026-06-08",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-06-11",
+      "direction": "CE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-06-16",
+      "direction": "PE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-06-18",
+      "direction": "CE",
+      "entry_time": "09:50",
+      "why": "entry_bar_absent 09:50"
+     },
+     {
+      "date": "2026-06-22",
+      "direction": "PE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-06-25",
+      "direction": "CE",
+      "entry_time": "09:50",
+      "why": "entry_bar_absent 09:50"
+     },
+     {
+      "date": "2026-06-29",
+      "direction": "PE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-06-30",
+      "direction": "PE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-07-01",
+      "direction": "CE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-07-02",
+      "direction": "CE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-07-09",
+      "direction": "CE",
+      "entry_time": "09:55",
+      "why": "entry_bar_absent 09:55"
+     },
+     {
+      "date": "2026-07-10",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-07-14",
+      "direction": "PE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-07-17",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-07-20",
+      "direction": "PE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-07-22",
+      "direction": "PE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-07-28",
+      "direction": "PE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-07-31",
+      "direction": "PE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-08-03",
+      "direction": "CE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-08-06",
+      "direction": "CE",
+      "entry_time": "09:50",
+      "why": "entry_bar_absent 09:50"
+     },
+     {
+      "date": "2026-08-10",
+      "direction": "PE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-08-11",
+      "direction": "PE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-08-14",
+      "direction": "CE",
+      "entry_time": "09:50",
+      "why": "entry_bar_absent 09:50"
+     },
+     {
+      "date": "2026-08-19",
+      "direction": "PE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-08-20",
+      "direction": "CE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-08-21",
+      "direction": "CE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-08-24",
+      "direction": "PE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-09-02",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-09-03",
+      "direction": "CE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-09-16",
+      "direction": "PE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-09-30",
+      "direction": "CE",
+      "entry_time": "09:55",
+      "why": "entry_bar_absent 09:55"
+     },
+     {
+      "date": "2026-10-06",
+      "direction": "CE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-10-09",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-10-12",
+      "direction": "PE",
+      "entry_time": "09:55",
+      "why": "entry_bar_absent 09:55"
+     },
+     {
+      "date": "2026-10-13",
+      "direction": "CE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-10-14",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-10-15",
+      "direction": "CE",
+      "entry_time": "09:55",
+      "why": "entry_bar_absent 09:55"
+     },
+     {
+      "date": "2026-10-21",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-10-23",
+      "direction": "PE",
+      "entry_time": "09:50",
+      "why": "entry_bar_absent 09:50"
+     },
+     {
+      "date": "2026-10-27",
+      "direction": "CE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-10-28",
+      "direction": "CE",
+      "entry_time": "09:50",
+      "why": "entry_bar_absent 09:50"
+     }
+    ],
+    "audit_problems": [],
+    "csv": "skill_tuning_bank_baseline_trades.csv"
+   },
+   "F1": {
+    "stats": {
+     "n": 79,
+     "net": -15305.5,
+     "win_rate": 43.0,
+     "ft_rate": 8.9,
+     "months": {
+      "2026-01": {
+       "net": 878.5,
+       "n": 5
+      },
+      "2026-02": {
+       "net": -2512.5,
+       "n": 9
+      },
+      "2026-03": {
+       "net": -9804.0,
+       "n": 9
+      },
+      "2026-04": {
+       "net": 2850.5,
+       "n": 10
+      },
+      "2026-05": {
+       "net": 4956.5,
+       "n": 7
+      },
+      "2026-06": {
+       "net": -531.5,
+       "n": 5
+      },
+      "2026-07": {
+       "net": -10313.5,
+       "n": 10
+      },
+      "2026-08": {
+       "net": -10154.0,
+       "n": 8
+      },
+      "2026-09": {
+       "net": 5237.5,
+       "n": 11
+      },
+      "2026-10": {
+       "net": 4087.0,
+       "n": 5
+      }
+     },
+     "neg_months": 5,
+     "h1": -4162.5,
+     "h2": -11143.0,
+     "ex_top3": -30680.5,
+     "worst_drawdown": -32442.5,
+     "avg_per_leg": -193.74,
+     "pace_per_month": -1530.55
+    },
+    "nc": 86,
+    "gate": {
+     "timing_audit": "PASS",
+     "resum": "PASS",
+     "halves": "FAIL",
+     "months": "FAIL",
+     "ex_top3": "FAIL",
+     "placebo_flipped": "FAIL",
+     "placebo_shifted": "PASS",
+     "placebo_random": "PASS",
+     "beats_baseline": "FAIL"
+    },
+    "gate_pass": false,
+    "placebos": {
+     "flipped": {
+      "net": -3850.5,
+      "n": 78,
+      "nc": 87
+     },
+     "shifted": {
+      "net": -75154.8,
+      "n": 165,
+      "nc": 0
+     },
+     "random": {
+      "net": -36107.2,
+      "n": 154,
+      "nc": 11
+     }
+    },
+    "nc_detail": [
+     {
+      "date": "2026-01-02",
+      "direction": "CE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-01-06",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-01-07",
+      "direction": "PE",
+      "entry_time": "09:55",
+      "why": "entry_bar_absent 09:55"
+     },
+     {
+      "date": "2026-01-08",
+      "direction": "CE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-01-09",
+      "direction": "PE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-01-16",
+      "direction": "CE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-01-19",
+      "direction": "PE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-01-20",
+      "direction": "PE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-01-22",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-01-23",
+      "direction": "PE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-01-27",
+      "direction": "CE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-01-29",
+      "direction": "CE",
+      "entry_time": "09:50",
+      "why": "entry_bar_absent 09:50"
+     },
+     {
+      "date": "2026-01-30",
+      "direction": "CE",
+      "entry_time": "09:55",
+      "why": "entry_bar_absent 09:55"
+     },
+     {
+      "date": "2026-02-03",
+      "direction": "PE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-02-04",
+      "direction": "CE",
+      "entry_time": "09:50",
+      "why": "entry_bar_absent 09:50"
+     },
+     {
+      "date": "2026-02-05",
+      "direction": "PE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-02-11",
+      "direction": "PE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-02-12",
+      "direction": "CE",
+      "entry_time": "09:50",
+      "why": "entry_bar_absent 09:50"
+     },
+     {
+      "date": "2026-02-16",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-02-18",
+      "direction": "CE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-02-20",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-02-27",
+      "direction": "PE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-03-11",
+      "direction": "PE",
+      "entry_time": "09:55",
+      "why": "entry_bar_absent 09:55"
+     },
+     {
+      "date": "2026-03-12",
+      "direction": "CE",
+      "entry_time": "09:55",
+      "why": "entry_bar_absent 09:55"
+     },
+     {
+      "date": "2026-03-16",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-03-24",
+      "direction": "PE",
+      "entry_time": "09:50",
+      "why": "entry_bar_absent 09:50"
+     },
+     {
+      "date": "2026-03-25",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-04-08",
+      "direction": "CE",
+      "entry_time": "09:50",
+      "why": "entry_bar_absent 09:50"
+     },
+     {
+      "date": "2026-04-09",
+      "direction": "PE",
+      "entry_time": "09:50",
+      "why": "entry_bar_absent 09:50"
+     },
+     {
+      "date": "2026-04-15",
+      "direction": "PE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-04-16",
+      "direction": "PE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-04-21",
+      "direction": "CE",
+      "entry_time": "09:50",
+      "why": "entry_bar_absent 09:50"
+     },
+     {
+      "date": "2026-04-23",
+      "direction": "CE",
+      "entry_time": "09:50",
+      "why": "entry_bar_absent 09:50"
+     },
+     {
+      "date": "2026-04-24",
+      "direction": "PE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-04-28",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-05-04",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-05-13",
+      "direction": "PE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-05-14",
+      "direction": "PE",
+      "entry_time": "09:50",
+      "why": "entry_bar_absent 09:50"
+     },
+     {
+      "date": "2026-05-20",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-05-22",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-05-26",
+      "direction": "CE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-06-01",
+      "direction": "PE",
+      "entry_time": "09:55",
+      "why": "entry_bar_absent 09:55"
+     },
+     {
+      "date": "2026-06-02",
+      "direction": "CE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-06-04",
+      "direction": "CE",
+      "entry_time": "09:50",
+      "why": "entry_bar_absent 09:50"
+     },
+     {
+      "date": "2026-06-05",
+      "direction": "CE",
+      "entry_time": "09:55",
+      "why": "entry_bar_absent 09:55"
+     },
+     {
+      "date": "2026-06-08",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-06-11",
+      "direction": "CE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-06-16",
+      "direction": "PE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-06-18",
+      "direction": "CE",
+      "entry_time": "09:50",
+      "why": "entry_bar_absent 09:50"
+     },
+     {
+      "date": "2026-06-22",
+      "direction": "PE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-06-25",
+      "direction": "CE",
+      "entry_time": "09:50",
+      "why": "entry_bar_absent 09:50"
+     },
+     {
+      "date": "2026-06-29",
+      "direction": "PE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-06-30",
+      "direction": "PE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-07-01",
+      "direction": "CE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-07-02",
+      "direction": "CE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-07-09",
+      "direction": "CE",
+      "entry_time": "09:55",
+      "why": "entry_bar_absent 09:55"
+     },
+     {
+      "date": "2026-07-10",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-07-14",
+      "direction": "PE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-07-17",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-07-20",
+      "direction": "PE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-07-22",
+      "direction": "PE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-07-28",
+      "direction": "PE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-07-31",
+      "direction": "PE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-08-03",
+      "direction": "CE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-08-06",
+      "direction": "CE",
+      "entry_time": "09:50",
+      "why": "entry_bar_absent 09:50"
+     },
+     {
+      "date": "2026-08-10",
+      "direction": "PE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-08-11",
+      "direction": "PE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-08-14",
+      "direction": "CE",
+      "entry_time": "09:50",
+      "why": "entry_bar_absent 09:50"
+     },
+     {
+      "date": "2026-08-19",
+      "direction": "PE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-08-20",
+      "direction": "CE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-08-21",
+      "direction": "CE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-08-24",
+      "direction": "PE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-09-02",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-09-03",
+      "direction": "CE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-09-16",
+      "direction": "PE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-09-30",
+      "direction": "CE",
+      "entry_time": "09:55",
+      "why": "entry_bar_absent 09:55"
+     },
+     {
+      "date": "2026-10-06",
+      "direction": "CE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-10-09",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-10-12",
+      "direction": "PE",
+      "entry_time": "09:55",
+      "why": "entry_bar_absent 09:55"
+     },
+     {
+      "date": "2026-10-13",
+      "direction": "CE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-10-14",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-10-15",
+      "direction": "CE",
+      "entry_time": "09:55",
+      "why": "entry_bar_absent 09:55"
+     },
+     {
+      "date": "2026-10-21",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-10-23",
+      "direction": "PE",
+      "entry_time": "09:50",
+      "why": "entry_bar_absent 09:50"
+     },
+     {
+      "date": "2026-10-27",
+      "direction": "CE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-10-28",
+      "direction": "CE",
+      "entry_time": "09:50",
+      "why": "entry_bar_absent 09:50"
+     }
+    ],
+    "audit_problems": [],
+    "csv": "skill_tuning_bank_F1_trades.csv"
+   },
+   "F2": {
+    "stats": {
+     "n": 79,
+     "net": -34084.3,
+     "win_rate": 31.6,
+     "ft_rate": 15.2,
+     "months": {
+      "2026-01": {
+       "net": -1121.0,
+       "n": 5
+      },
+      "2026-02": {
+       "net": -3438.0,
+       "n": 9
+      },
+      "2026-03": {
+       "net": -9037.8,
+       "n": 9
+      },
+      "2026-04": {
+       "net": -1406.5,
+       "n": 10
+      },
+      "2026-05": {
+       "net": 102.5,
+       "n": 7
+      },
+      "2026-06": {
+       "net": -2115.5,
+       "n": 5
+      },
+      "2026-07": {
+       "net": -10972.0,
+       "n": 10
+      },
+      "2026-08": {
+       "net": -7782.5,
+       "n": 8
+      },
+      "2026-09": {
+       "net": 1879.0,
+       "n": 11
+      },
+      "2026-10": {
+       "net": -192.5,
+       "n": 5
+      }
+     },
+     "neg_months": 8,
+     "h1": -17016.3,
+     "h2": -17068.0,
+     "ex_top3": -47299.3,
+     "worst_drawdown": -39129.8,
+     "avg_per_leg": -431.45,
+     "pace_per_month": -3408.43
+    },
+    "nc": 86,
+    "gate": {
+     "timing_audit": "PASS",
+     "resum": "PASS",
+     "halves": "FAIL",
+     "months": "FAIL",
+     "ex_top3": "FAIL",
+     "placebo_flipped": "FAIL",
+     "placebo_shifted": "PASS",
+     "placebo_random": "FAIL",
+     "beats_baseline": "FAIL"
+    },
+    "gate_pass": false,
+    "placebos": {
+     "flipped": {
+      "net": -9781.5,
+      "n": 78,
+      "nc": 87
+     },
+     "shifted": {
+      "net": -81289.8,
+      "n": 165,
+      "nc": 0
+     },
+     "random": {
+      "net": -15032.2,
+      "n": 154,
+      "nc": 11
+     }
+    },
+    "nc_detail": [
+     {
+      "date": "2026-01-02",
+      "direction": "CE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-01-06",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-01-07",
+      "direction": "PE",
+      "entry_time": "09:55",
+      "why": "entry_bar_absent 09:55"
+     },
+     {
+      "date": "2026-01-08",
+      "direction": "CE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-01-09",
+      "direction": "PE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-01-16",
+      "direction": "CE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-01-19",
+      "direction": "PE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-01-20",
+      "direction": "PE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-01-22",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-01-23",
+      "direction": "PE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-01-27",
+      "direction": "CE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-01-29",
+      "direction": "CE",
+      "entry_time": "09:50",
+      "why": "entry_bar_absent 09:50"
+     },
+     {
+      "date": "2026-01-30",
+      "direction": "CE",
+      "entry_time": "09:55",
+      "why": "entry_bar_absent 09:55"
+     },
+     {
+      "date": "2026-02-03",
+      "direction": "PE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-02-04",
+      "direction": "CE",
+      "entry_time": "09:50",
+      "why": "entry_bar_absent 09:50"
+     },
+     {
+      "date": "2026-02-05",
+      "direction": "PE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-02-11",
+      "direction": "PE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-02-12",
+      "direction": "CE",
+      "entry_time": "09:50",
+      "why": "entry_bar_absent 09:50"
+     },
+     {
+      "date": "2026-02-16",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-02-18",
+      "direction": "CE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-02-20",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-02-27",
+      "direction": "PE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-03-11",
+      "direction": "PE",
+      "entry_time": "09:55",
+      "why": "entry_bar_absent 09:55"
+     },
+     {
+      "date": "2026-03-12",
+      "direction": "CE",
+      "entry_time": "09:55",
+      "why": "entry_bar_absent 09:55"
+     },
+     {
+      "date": "2026-03-16",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-03-24",
+      "direction": "PE",
+      "entry_time": "09:50",
+      "why": "entry_bar_absent 09:50"
+     },
+     {
+      "date": "2026-03-25",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-04-08",
+      "direction": "CE",
+      "entry_time": "09:50",
+      "why": "entry_bar_absent 09:50"
+     },
+     {
+      "date": "2026-04-09",
+      "direction": "PE",
+      "entry_time": "09:50",
+      "why": "entry_bar_absent 09:50"
+     },
+     {
+      "date": "2026-04-15",
+      "direction": "PE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-04-16",
+      "direction": "PE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-04-21",
+      "direction": "CE",
+      "entry_time": "09:50",
+      "why": "entry_bar_absent 09:50"
+     },
+     {
+      "date": "2026-04-23",
+      "direction": "CE",
+      "entry_time": "09:50",
+      "why": "entry_bar_absent 09:50"
+     },
+     {
+      "date": "2026-04-24",
+      "direction": "PE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-04-28",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-05-04",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-05-13",
+      "direction": "PE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-05-14",
+      "direction": "PE",
+      "entry_time": "09:50",
+      "why": "entry_bar_absent 09:50"
+     },
+     {
+      "date": "2026-05-20",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-05-22",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-05-26",
+      "direction": "CE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-06-01",
+      "direction": "PE",
+      "entry_time": "09:55",
+      "why": "entry_bar_absent 09:55"
+     },
+     {
+      "date": "2026-06-02",
+      "direction": "CE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-06-04",
+      "direction": "CE",
+      "entry_time": "09:50",
+      "why": "entry_bar_absent 09:50"
+     },
+     {
+      "date": "2026-06-05",
+      "direction": "CE",
+      "entry_time": "09:55",
+      "why": "entry_bar_absent 09:55"
+     },
+     {
+      "date": "2026-06-08",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-06-11",
+      "direction": "CE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-06-16",
+      "direction": "PE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-06-18",
+      "direction": "CE",
+      "entry_time": "09:50",
+      "why": "entry_bar_absent 09:50"
+     },
+     {
+      "date": "2026-06-22",
+      "direction": "PE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-06-25",
+      "direction": "CE",
+      "entry_time": "09:50",
+      "why": "entry_bar_absent 09:50"
+     },
+     {
+      "date": "2026-06-29",
+      "direction": "PE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-06-30",
+      "direction": "PE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-07-01",
+      "direction": "CE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-07-02",
+      "direction": "CE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-07-09",
+      "direction": "CE",
+      "entry_time": "09:55",
+      "why": "entry_bar_absent 09:55"
+     },
+     {
+      "date": "2026-07-10",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-07-14",
+      "direction": "PE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-07-17",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-07-20",
+      "direction": "PE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-07-22",
+      "direction": "PE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-07-28",
+      "direction": "PE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-07-31",
+      "direction": "PE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-08-03",
+      "direction": "CE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-08-06",
+      "direction": "CE",
+      "entry_time": "09:50",
+      "why": "entry_bar_absent 09:50"
+     },
+     {
+      "date": "2026-08-10",
+      "direction": "PE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-08-11",
+      "direction": "PE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-08-14",
+      "direction": "CE",
+      "entry_time": "09:50",
+      "why": "entry_bar_absent 09:50"
+     },
+     {
+      "date": "2026-08-19",
+      "direction": "PE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-08-20",
+      "direction": "CE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-08-21",
+      "direction": "CE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-08-24",
+      "direction": "PE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-09-02",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-09-03",
+      "direction": "CE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-09-16",
+      "direction": "PE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-09-30",
+      "direction": "CE",
+      "entry_time": "09:55",
+      "why": "entry_bar_absent 09:55"
+     },
+     {
+      "date": "2026-10-06",
+      "direction": "CE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-10-09",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-10-12",
+      "direction": "PE",
+      "entry_time": "09:55",
+      "why": "entry_bar_absent 09:55"
+     },
+     {
+      "date": "2026-10-13",
+      "direction": "CE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-10-14",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-10-15",
+      "direction": "CE",
+      "entry_time": "09:55",
+      "why": "entry_bar_absent 09:55"
+     },
+     {
+      "date": "2026-10-21",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-10-23",
+      "direction": "PE",
+      "entry_time": "09:50",
+      "why": "entry_bar_absent 09:50"
+     },
+     {
+      "date": "2026-10-27",
+      "direction": "CE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-10-28",
+      "direction": "CE",
+      "entry_time": "09:50",
+      "why": "entry_bar_absent 09:50"
+     }
+    ],
+    "audit_problems": [],
+    "csv": "skill_tuning_bank_F2_trades.csv"
+   },
+   "F3": {
+    "stats": {
+     "n": 79,
+     "net": -25697.5,
+     "win_rate": 26.6,
+     "ft_rate": 24.1,
+     "months": {
+      "2026-01": {
+       "net": -2600.0,
+       "n": 5
+      },
+      "2026-02": {
+       "net": -180.0,
+       "n": 9
+      },
+      "2026-03": {
+       "net": -3930.0,
+       "n": 9
+      },
+      "2026-04": {
+       "net": -1450.0,
+       "n": 10
+      },
+      "2026-05": {
+       "net": -1390.0,
+       "n": 7
+      },
+      "2026-06": {
+       "net": -921.5,
+       "n": 5
+      },
+      "2026-07": {
+       "net": -5200.0,
+       "n": 10
+      },
+      "2026-08": {
+       "net": -6410.0,
+       "n": 8
+      },
+      "2026-09": {
+       "net": -4766.0,
+       "n": 11
+      },
+      "2026-10": {
+       "net": 1150.0,
+       "n": 5
+      }
+     },
+     "neg_months": 9,
+     "h1": -10471.5,
+     "h2": -15226.0,
+     "ex_top3": -33137.5,
+     "worst_drawdown": -29701.5,
+     "avg_per_leg": -325.28,
+     "pace_per_month": -2569.75
+    },
+    "nc": 86,
+    "gate": {
+     "timing_audit": "PASS",
+     "resum": "PASS",
+     "halves": "FAIL",
+     "months": "FAIL",
+     "ex_top3": "FAIL",
+     "placebo_flipped": "PASS",
+     "placebo_shifted": "PASS",
+     "placebo_random": "PASS",
+     "beats_baseline": "FAIL"
+    },
+    "gate_pass": false,
+    "placebos": {
+     "flipped": {
+      "net": -32926.5,
+      "n": 78,
+      "nc": 87
+     },
+     "shifted": {
+      "net": -76699.8,
+      "n": 165,
+      "nc": 0
+     },
+     "random": {
+      "net": -78718.0,
+      "n": 154,
+      "nc": 11
+     }
+    },
+    "nc_detail": [
+     {
+      "date": "2026-01-02",
+      "direction": "CE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-01-06",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-01-07",
+      "direction": "PE",
+      "entry_time": "09:55",
+      "why": "entry_bar_absent 09:55"
+     },
+     {
+      "date": "2026-01-08",
+      "direction": "CE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-01-09",
+      "direction": "PE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-01-16",
+      "direction": "CE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-01-19",
+      "direction": "PE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-01-20",
+      "direction": "PE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-01-22",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-01-23",
+      "direction": "PE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-01-27",
+      "direction": "CE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-01-29",
+      "direction": "CE",
+      "entry_time": "09:50",
+      "why": "entry_bar_absent 09:50"
+     },
+     {
+      "date": "2026-01-30",
+      "direction": "CE",
+      "entry_time": "09:55",
+      "why": "entry_bar_absent 09:55"
+     },
+     {
+      "date": "2026-02-03",
+      "direction": "PE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-02-04",
+      "direction": "CE",
+      "entry_time": "09:50",
+      "why": "entry_bar_absent 09:50"
+     },
+     {
+      "date": "2026-02-05",
+      "direction": "PE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-02-11",
+      "direction": "PE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-02-12",
+      "direction": "CE",
+      "entry_time": "09:50",
+      "why": "entry_bar_absent 09:50"
+     },
+     {
+      "date": "2026-02-16",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-02-18",
+      "direction": "CE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-02-20",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-02-27",
+      "direction": "PE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-03-11",
+      "direction": "PE",
+      "entry_time": "09:55",
+      "why": "entry_bar_absent 09:55"
+     },
+     {
+      "date": "2026-03-12",
+      "direction": "CE",
+      "entry_time": "09:55",
+      "why": "entry_bar_absent 09:55"
+     },
+     {
+      "date": "2026-03-16",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-03-24",
+      "direction": "PE",
+      "entry_time": "09:50",
+      "why": "entry_bar_absent 09:50"
+     },
+     {
+      "date": "2026-03-25",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-04-08",
+      "direction": "CE",
+      "entry_time": "09:50",
+      "why": "entry_bar_absent 09:50"
+     },
+     {
+      "date": "2026-04-09",
+      "direction": "PE",
+      "entry_time": "09:50",
+      "why": "entry_bar_absent 09:50"
+     },
+     {
+      "date": "2026-04-15",
+      "direction": "PE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-04-16",
+      "direction": "PE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-04-21",
+      "direction": "CE",
+      "entry_time": "09:50",
+      "why": "entry_bar_absent 09:50"
+     },
+     {
+      "date": "2026-04-23",
+      "direction": "CE",
+      "entry_time": "09:50",
+      "why": "entry_bar_absent 09:50"
+     },
+     {
+      "date": "2026-04-24",
+      "direction": "PE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-04-28",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-05-04",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-05-13",
+      "direction": "PE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-05-14",
+      "direction": "PE",
+      "entry_time": "09:50",
+      "why": "entry_bar_absent 09:50"
+     },
+     {
+      "date": "2026-05-20",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-05-22",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-05-26",
+      "direction": "CE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-06-01",
+      "direction": "PE",
+      "entry_time": "09:55",
+      "why": "entry_bar_absent 09:55"
+     },
+     {
+      "date": "2026-06-02",
+      "direction": "CE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-06-04",
+      "direction": "CE",
+      "entry_time": "09:50",
+      "why": "entry_bar_absent 09:50"
+     },
+     {
+      "date": "2026-06-05",
+      "direction": "CE",
+      "entry_time": "09:55",
+      "why": "entry_bar_absent 09:55"
+     },
+     {
+      "date": "2026-06-08",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-06-11",
+      "direction": "CE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-06-16",
+      "direction": "PE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-06-18",
+      "direction": "CE",
+      "entry_time": "09:50",
+      "why": "entry_bar_absent 09:50"
+     },
+     {
+      "date": "2026-06-22",
+      "direction": "PE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-06-25",
+      "direction": "CE",
+      "entry_time": "09:50",
+      "why": "entry_bar_absent 09:50"
+     },
+     {
+      "date": "2026-06-29",
+      "direction": "PE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-06-30",
+      "direction": "PE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-07-01",
+      "direction": "CE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-07-02",
+      "direction": "CE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-07-09",
+      "direction": "CE",
+      "entry_time": "09:55",
+      "why": "entry_bar_absent 09:55"
+     },
+     {
+      "date": "2026-07-10",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-07-14",
+      "direction": "PE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-07-17",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-07-20",
+      "direction": "PE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-07-22",
+      "direction": "PE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-07-28",
+      "direction": "PE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-07-31",
+      "direction": "PE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-08-03",
+      "direction": "CE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-08-06",
+      "direction": "CE",
+      "entry_time": "09:50",
+      "why": "entry_bar_absent 09:50"
+     },
+     {
+      "date": "2026-08-10",
+      "direction": "PE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-08-11",
+      "direction": "PE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-08-14",
+      "direction": "CE",
+      "entry_time": "09:50",
+      "why": "entry_bar_absent 09:50"
+     },
+     {
+      "date": "2026-08-19",
+      "direction": "PE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-08-20",
+      "direction": "CE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-08-21",
+      "direction": "CE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-08-24",
+      "direction": "PE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-09-02",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-09-03",
+      "direction": "CE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-09-16",
+      "direction": "PE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-09-30",
+      "direction": "CE",
+      "entry_time": "09:55",
+      "why": "entry_bar_absent 09:55"
+     },
+     {
+      "date": "2026-10-06",
+      "direction": "CE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-10-09",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-10-12",
+      "direction": "PE",
+      "entry_time": "09:55",
+      "why": "entry_bar_absent 09:55"
+     },
+     {
+      "date": "2026-10-13",
+      "direction": "CE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-10-14",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-10-15",
+      "direction": "CE",
+      "entry_time": "09:55",
+      "why": "entry_bar_absent 09:55"
+     },
+     {
+      "date": "2026-10-21",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-10-23",
+      "direction": "PE",
+      "entry_time": "09:50",
+      "why": "entry_bar_absent 09:50"
+     },
+     {
+      "date": "2026-10-27",
+      "direction": "CE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-10-28",
+      "direction": "CE",
+      "entry_time": "09:50",
+      "why": "entry_bar_absent 09:50"
+     }
+    ],
+    "audit_problems": [],
+    "csv": "skill_tuning_bank_F3_trades.csv"
+   },
+   "F4": {
+    "stats": {
+     "n": 78,
+     "net": -13012.5,
+     "win_rate": 38.5,
+     "ft_rate": 33.3,
+     "months": {
+      "2026-01": {
+       "net": -3131.0,
+       "n": 5
+      },
+      "2026-02": {
+       "net": 8697.0,
+       "n": 9
+      },
+      "2026-03": {
+       "net": -2880.0,
+       "n": 9
+      },
+      "2026-04": {
+       "net": -400.0,
+       "n": 10
+      },
+      "2026-05": {
+       "net": 560.0,
+       "n": 7
+      },
+      "2026-06": {
+       "net": -2271.5,
+       "n": 5
+      },
+      "2026-07": {
+       "net": -8800.0,
+       "n": 10
+      },
+      "2026-08": {
+       "net": -8821.0,
+       "n": 7
+      },
+      "2026-09": {
+       "net": 34.0,
+       "n": 11
+      },
+      "2026-10": {
+       "net": 4000.0,
+       "n": 5
+      }
+     },
+     "neg_months": 6,
+     "h1": 574.5,
+     "h2": -13587.0,
+     "ex_top3": -20452.5,
+     "worst_drawdown": -31172.5,
+     "avg_per_leg": -166.83,
+     "pace_per_month": -1301.25
+    },
+    "nc": 86,
+    "gate": {
+     "timing_audit": "PASS",
+     "resum": "PASS",
+     "halves": "FAIL",
+     "months": "FAIL",
+     "ex_top3": "FAIL",
+     "placebo_flipped": "PASS",
+     "placebo_shifted": "PASS",
+     "placebo_random": "PASS",
+     "beats_baseline": "FAIL"
+    },
+    "gate_pass": false,
+    "placebos": {
+     "flipped": {
+      "net": -13434.5,
+      "n": 77,
+      "nc": 87
+     },
+     "shifted": {
+      "net": -67383.5,
+      "n": 164,
+      "nc": 0
+     },
+     "random": {
+      "net": -66628.5,
+      "n": 153,
+      "nc": 11
+     }
+    },
+    "nc_detail": [
+     {
+      "date": "2026-01-02",
+      "direction": "CE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-01-06",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-01-07",
+      "direction": "PE",
+      "entry_time": "09:55",
+      "why": "entry_bar_absent 09:55"
+     },
+     {
+      "date": "2026-01-08",
+      "direction": "CE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-01-09",
+      "direction": "PE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-01-16",
+      "direction": "CE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-01-19",
+      "direction": "PE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-01-20",
+      "direction": "PE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-01-22",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-01-23",
+      "direction": "PE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-01-27",
+      "direction": "CE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-01-29",
+      "direction": "CE",
+      "entry_time": "09:50",
+      "why": "entry_bar_absent 09:50"
+     },
+     {
+      "date": "2026-01-30",
+      "direction": "CE",
+      "entry_time": "09:55",
+      "why": "entry_bar_absent 09:55"
+     },
+     {
+      "date": "2026-02-03",
+      "direction": "PE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-02-04",
+      "direction": "CE",
+      "entry_time": "09:50",
+      "why": "entry_bar_absent 09:50"
+     },
+     {
+      "date": "2026-02-05",
+      "direction": "PE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-02-11",
+      "direction": "PE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-02-12",
+      "direction": "CE",
+      "entry_time": "09:50",
+      "why": "entry_bar_absent 09:50"
+     },
+     {
+      "date": "2026-02-16",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-02-18",
+      "direction": "CE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-02-20",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-02-27",
+      "direction": "PE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-03-11",
+      "direction": "PE",
+      "entry_time": "09:55",
+      "why": "entry_bar_absent 09:55"
+     },
+     {
+      "date": "2026-03-12",
+      "direction": "CE",
+      "entry_time": "09:55",
+      "why": "entry_bar_absent 09:55"
+     },
+     {
+      "date": "2026-03-16",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-03-24",
+      "direction": "PE",
+      "entry_time": "09:50",
+      "why": "entry_bar_absent 09:50"
+     },
+     {
+      "date": "2026-03-25",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-04-08",
+      "direction": "CE",
+      "entry_time": "09:50",
+      "why": "entry_bar_absent 09:50"
+     },
+     {
+      "date": "2026-04-09",
+      "direction": "PE",
+      "entry_time": "09:50",
+      "why": "entry_bar_absent 09:50"
+     },
+     {
+      "date": "2026-04-15",
+      "direction": "PE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-04-16",
+      "direction": "PE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-04-21",
+      "direction": "CE",
+      "entry_time": "09:50",
+      "why": "entry_bar_absent 09:50"
+     },
+     {
+      "date": "2026-04-23",
+      "direction": "CE",
+      "entry_time": "09:50",
+      "why": "entry_bar_absent 09:50"
+     },
+     {
+      "date": "2026-04-24",
+      "direction": "PE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-04-28",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-05-04",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-05-13",
+      "direction": "PE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-05-14",
+      "direction": "PE",
+      "entry_time": "09:50",
+      "why": "entry_bar_absent 09:50"
+     },
+     {
+      "date": "2026-05-20",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-05-22",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-05-26",
+      "direction": "CE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-06-01",
+      "direction": "PE",
+      "entry_time": "09:55",
+      "why": "entry_bar_absent 09:55"
+     },
+     {
+      "date": "2026-06-02",
+      "direction": "CE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-06-04",
+      "direction": "CE",
+      "entry_time": "09:50",
+      "why": "entry_bar_absent 09:50"
+     },
+     {
+      "date": "2026-06-05",
+      "direction": "CE",
+      "entry_time": "09:55",
+      "why": "entry_bar_absent 09:55"
+     },
+     {
+      "date": "2026-06-08",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-06-11",
+      "direction": "CE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-06-16",
+      "direction": "PE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-06-18",
+      "direction": "CE",
+      "entry_time": "09:50",
+      "why": "entry_bar_absent 09:50"
+     },
+     {
+      "date": "2026-06-22",
+      "direction": "PE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-06-25",
+      "direction": "CE",
+      "entry_time": "09:50",
+      "why": "entry_bar_absent 09:50"
+     },
+     {
+      "date": "2026-06-29",
+      "direction": "PE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-06-30",
+      "direction": "PE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-07-01",
+      "direction": "CE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-07-02",
+      "direction": "CE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-07-09",
+      "direction": "CE",
+      "entry_time": "09:55",
+      "why": "entry_bar_absent 09:55"
+     },
+     {
+      "date": "2026-07-10",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-07-14",
+      "direction": "PE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-07-17",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-07-20",
+      "direction": "PE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-07-22",
+      "direction": "PE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-07-28",
+      "direction": "PE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-07-31",
+      "direction": "PE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-08-03",
+      "direction": "CE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-08-06",
+      "direction": "CE",
+      "entry_time": "09:50",
+      "why": "entry_bar_absent 09:50"
+     },
+     {
+      "date": "2026-08-10",
+      "direction": "PE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-08-11",
+      "direction": "PE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-08-14",
+      "direction": "CE",
+      "entry_time": "09:50",
+      "why": "entry_bar_absent 09:50"
+     },
+     {
+      "date": "2026-08-19",
+      "direction": "PE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-08-20",
+      "direction": "CE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-08-21",
+      "direction": "CE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-08-24",
+      "direction": "PE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-09-02",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-09-03",
+      "direction": "CE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-09-16",
+      "direction": "PE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-09-30",
+      "direction": "CE",
+      "entry_time": "09:55",
+      "why": "entry_bar_absent 09:55"
+     },
+     {
+      "date": "2026-10-06",
+      "direction": "CE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-10-09",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-10-12",
+      "direction": "PE",
+      "entry_time": "09:55",
+      "why": "entry_bar_absent 09:55"
+     },
+     {
+      "date": "2026-10-13",
+      "direction": "CE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-10-14",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-10-15",
+      "direction": "CE",
+      "entry_time": "09:55",
+      "why": "entry_bar_absent 09:55"
+     },
+     {
+      "date": "2026-10-21",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-10-23",
+      "direction": "PE",
+      "entry_time": "09:50",
+      "why": "entry_bar_absent 09:50"
+     },
+     {
+      "date": "2026-10-27",
+      "direction": "CE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-10-28",
+      "direction": "CE",
+      "entry_time": "09:50",
+      "why": "entry_bar_absent 09:50"
+     }
+    ],
+    "audit_problems": [],
+    "csv": "skill_tuning_bank_F4_trades.csv"
+   },
+   "F5CE": {
+    "stats": {
+     "n": 32,
+     "net": -11688.5,
+     "win_rate": 34.4,
+     "ft_rate": 28.1,
+     "months": {
+      "2026-01": {
+       "net": -2171.0,
+       "n": 2
+      },
+      "2026-02": {
+       "net": -960.0,
+       "n": 3
+      },
+      "2026-03": {
+       "net": -5160.0,
+       "n": 3
+      },
+      "2026-04": {
+       "net": 2280.0,
+       "n": 6
+      },
+      "2026-05": {
+       "net": -1720.0,
+       "n": 1
+      },
+      "2026-06": {
+       "net": -551.5,
+       "n": 4
+      },
+      "2026-07": {
+       "net": -2680.0,
+       "n": 4
+      },
+      "2026-08": {
+       "net": -3440.0,
+       "n": 2
+      },
+      "2026-09": {
+       "net": -2246.0,
+       "n": 5
+      },
+      "2026-10": {
+       "net": 4960.0,
+       "n": 2
+      }
+     },
+     "neg_months": 8,
+     "h1": -8282.5,
+     "h2": -3406.0,
+     "ex_top3": -19128.5,
+     "worst_drawdown": -17842.5,
+     "avg_per_leg": -365.27,
+     "pace_per_month": -1168.85
+    },
+    "nc": 52,
+    "gate": {
+     "timing_audit": "PASS",
+     "resum": "PASS",
+     "halves": "FAIL",
+     "months": "FAIL",
+     "ex_top3": "FAIL",
+     "placebo_flipped": "FAIL",
+     "placebo_shifted": "PASS",
+     "placebo_random": "PASS",
+     "beats_baseline": "FAIL"
+    },
+    "gate_pass": false,
+    "placebos": {
+     "flipped": {
+      "net": -1914.5,
+      "n": 32,
+      "nc": 52
+     },
+     "shifted": {
+      "net": -27643.5,
+      "n": 84,
+      "nc": 0
+     },
+     "random": {
+      "net": -59682.0,
+      "n": 81,
+      "nc": 3
+     }
+    },
+    "nc_detail": [
+     {
+      "date": "2026-01-02",
+      "direction": "CE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-01-06",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-01-08",
+      "direction": "CE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-01-16",
+      "direction": "CE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-01-22",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-01-27",
+      "direction": "CE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-01-29",
+      "direction": "CE",
+      "entry_time": "09:50",
+      "why": "entry_bar_absent 09:50"
+     },
+     {
+      "date": "2026-01-30",
+      "direction": "CE",
+      "entry_time": "09:55",
+      "why": "entry_bar_absent 09:55"
+     },
+     {
+      "date": "2026-02-04",
+      "direction": "CE",
+      "entry_time": "09:50",
+      "why": "entry_bar_absent 09:50"
+     },
+     {
+      "date": "2026-02-12",
+      "direction": "CE",
+      "entry_time": "09:50",
+      "why": "entry_bar_absent 09:50"
+     },
+     {
+      "date": "2026-02-16",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-02-18",
+      "direction": "CE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-02-20",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-03-12",
+      "direction": "CE",
+      "entry_time": "09:55",
+      "why": "entry_bar_absent 09:55"
+     },
+     {
+      "date": "2026-03-16",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-03-25",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-04-08",
+      "direction": "CE",
+      "entry_time": "09:50",
+      "why": "entry_bar_absent 09:50"
+     },
+     {
+      "date": "2026-04-21",
+      "direction": "CE",
+      "entry_time": "09:50",
+      "why": "entry_bar_absent 09:50"
+     },
+     {
+      "date": "2026-04-23",
+      "direction": "CE",
+      "entry_time": "09:50",
+      "why": "entry_bar_absent 09:50"
+     },
+     {
+      "date": "2026-04-28",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-05-04",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-05-20",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-05-22",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-05-26",
+      "direction": "CE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-06-02",
+      "direction": "CE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-06-04",
+      "direction": "CE",
+      "entry_time": "09:50",
+      "why": "entry_bar_absent 09:50"
+     },
+     {
+      "date": "2026-06-05",
+      "direction": "CE",
+      "entry_time": "09:55",
+      "why": "entry_bar_absent 09:55"
+     },
+     {
+      "date": "2026-06-08",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-06-11",
+      "direction": "CE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-06-18",
+      "direction": "CE",
+      "entry_time": "09:50",
+      "why": "entry_bar_absent 09:50"
+     },
+     {
+      "date": "2026-06-25",
+      "direction": "CE",
+      "entry_time": "09:50",
+      "why": "entry_bar_absent 09:50"
+     },
+     {
+      "date": "2026-07-01",
+      "direction": "CE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-07-02",
+      "direction": "CE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-07-09",
+      "direction": "CE",
+      "entry_time": "09:55",
+      "why": "entry_bar_absent 09:55"
+     },
+     {
+      "date": "2026-07-10",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-07-17",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-08-03",
+      "direction": "CE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-08-06",
+      "direction": "CE",
+      "entry_time": "09:50",
+      "why": "entry_bar_absent 09:50"
+     },
+     {
+      "date": "2026-08-14",
+      "direction": "CE",
+      "entry_time": "09:50",
+      "why": "entry_bar_absent 09:50"
+     },
+     {
+      "date": "2026-08-20",
+      "direction": "CE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-08-21",
+      "direction": "CE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-09-02",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-09-03",
+      "direction": "CE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-09-30",
+      "direction": "CE",
+      "entry_time": "09:55",
+      "why": "entry_bar_absent 09:55"
+     },
+     {
+      "date": "2026-10-06",
+      "direction": "CE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-10-09",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-10-13",
+      "direction": "CE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-10-14",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-10-15",
+      "direction": "CE",
+      "entry_time": "09:55",
+      "why": "entry_bar_absent 09:55"
+     },
+     {
+      "date": "2026-10-21",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-10-27",
+      "direction": "CE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-10-28",
+      "direction": "CE",
+      "entry_time": "09:50",
+      "why": "entry_bar_absent 09:50"
+     }
+    ],
+    "audit_problems": [],
+    "csv": "skill_tuning_bank_F5CE_trades.csv"
+   },
+   "F5PE": {
+    "stats": {
+     "n": 47,
+     "net": 1156.0,
+     "win_rate": 42.6,
+     "ft_rate": 38.3,
+     "months": {
+      "2026-01": {
+       "net": -960.0,
+       "n": 3
+      },
+      "2026-02": {
+       "net": 9657.0,
+       "n": 6
+      },
+      "2026-03": {
+       "net": 2280.0,
+       "n": 6
+      },
+      "2026-04": {
+       "net": -2680.0,
+       "n": 4
+      },
+      "2026-05": {
+       "net": 2280.0,
+       "n": 6
+      },
+      "2026-06": {
+       "net": -1720.0,
+       "n": 1
+      },
+      "2026-07": {
+       "net": -6120.0,
+       "n": 6
+      },
+      "2026-08": {
+       "net": -2901.0,
+       "n": 6
+      },
+      "2026-09": {
+       "net": 2280.0,
+       "n": 6
+      },
+      "2026-10": {
+       "net": -960.0,
+       "n": 3
+      }
+     },
+     "neg_months": 6,
+     "h1": 8857.0,
+     "h2": -7701.0,
+     "ex_top3": -6284.0,
+     "worst_drawdown": -18021.0,
+     "avg_per_leg": 24.6,
+     "pace_per_month": 115.6
+    },
+    "nc": 34,
+    "gate": {
+     "timing_audit": "PASS",
+     "resum": "PASS",
+     "halves": "FAIL",
+     "months": "FAIL",
+     "ex_top3": "FAIL",
+     "placebo_flipped": "PASS",
+     "placebo_shifted": "PASS",
+     "placebo_random": "PASS",
+     "beats_baseline": "PASS"
+    },
+    "gate_pass": false,
+    "placebos": {
+     "flipped": {
+      "net": -13240.0,
+      "n": 46,
+      "nc": 35
+     },
+     "shifted": {
+      "net": -40837.8,
+      "n": 81,
+      "nc": 0
+     },
+     "random": {
+      "net": -37941.0,
+      "n": 78,
+      "nc": 3
+     }
+    },
+    "nc_detail": [
+     {
+      "date": "2026-01-07",
+      "direction": "PE",
+      "entry_time": "09:55",
+      "why": "entry_bar_absent 09:55"
+     },
+     {
+      "date": "2026-01-09",
+      "direction": "PE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-01-19",
+      "direction": "PE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-01-20",
+      "direction": "PE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-01-23",
+      "direction": "PE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-02-03",
+      "direction": "PE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-02-05",
+      "direction": "PE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-02-11",
+      "direction": "PE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-02-27",
+      "direction": "PE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-03-11",
+      "direction": "PE",
+      "entry_time": "09:55",
+      "why": "entry_bar_absent 09:55"
+     },
+     {
+      "date": "2026-03-24",
+      "direction": "PE",
+      "entry_time": "09:50",
+      "why": "entry_bar_absent 09:50"
+     },
+     {
+      "date": "2026-04-09",
+      "direction": "PE",
+      "entry_time": "09:50",
+      "why": "entry_bar_absent 09:50"
+     },
+     {
+      "date": "2026-04-15",
+      "direction": "PE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-04-16",
+      "direction": "PE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-04-24",
+      "direction": "PE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-05-13",
+      "direction": "PE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-05-14",
+      "direction": "PE",
+      "entry_time": "09:50",
+      "why": "entry_bar_absent 09:50"
+     },
+     {
+      "date": "2026-06-01",
+      "direction": "PE",
+      "entry_time": "09:55",
+      "why": "entry_bar_absent 09:55"
+     },
+     {
+      "date": "2026-06-16",
+      "direction": "PE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-06-22",
+      "direction": "PE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-06-29",
+      "direction": "PE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-06-30",
+      "direction": "PE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-07-14",
+      "direction": "PE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-07-20",
+      "direction": "PE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-07-22",
+      "direction": "PE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-07-28",
+      "direction": "PE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-07-31",
+      "direction": "PE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-08-10",
+      "direction": "PE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-08-11",
+      "direction": "PE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-08-19",
+      "direction": "PE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-08-24",
+      "direction": "PE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-09-16",
+      "direction": "PE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-10-12",
+      "direction": "PE",
+      "entry_time": "09:55",
+      "why": "entry_bar_absent 09:55"
+     },
+     {
+      "date": "2026-10-23",
+      "direction": "PE",
+      "entry_time": "09:50",
+      "why": "entry_bar_absent 09:50"
+     }
+    ],
+    "audit_problems": [],
+    "csv": "skill_tuning_bank_F5PE_trades.csv"
+   }
+  },
+  "passed_families": []
+ },
+ "NIFTY": {
+  "legs_total": 165,
+  "diag": {
+   "blocked_0930_pe": 16,
+   "no_signal": 22
+  },
+  "validation": {
+   "jansep_stored_legs": 151,
+   "jansep_mine_legs": 151,
+   "jansep_stored_missing_from_mine": [],
+   "jansep_extra_in_mine": [],
+   "u1_skill_keys": 165,
+   "u1_skill_keys_missing_from_mine": [],
+   "my_keys_not_in_u1": 0
+  },
+  "signal_audit_problems": [],
+  "variants": {
+   "baseline": {
+    "stats": {
+     "n": 96,
+     "net": -4606.75,
+     "win_rate": 42.7,
+     "ft_rate": 22.9,
+     "months": {
+      "2026-01": {
+       "net": -513.25,
+       "n": 10
+      },
+      "2026-02": {
+       "net": -2683.25,
+       "n": 11
+      },
+      "2026-03": {
+       "net": -5469.5,
+       "n": 10
+      },
+      "2026-04": {
+       "net": -3156.75,
+       "n": 12
+      },
+      "2026-05": {
+       "net": -16269.0,
+       "n": 7
+      },
+      "2026-06": {
+       "net": 7148.25,
+       "n": 8
+      },
+      "2026-07": {
+       "net": -3758.0,
+       "n": 12
+      },
+      "2026-08": {
+       "net": 214.75,
+       "n": 10
+      },
+      "2026-09": {
+       "net": 14585.0,
+       "n": 12
+      },
+      "2026-10": {
+       "net": 5295.0,
+       "n": 4
+      }
+     },
+     "neg_months": 6,
+     "h1": -20943.5,
+     "h2": 16336.75,
+     "ex_top3": -33196.75,
+     "worst_drawdown": -31596.25,
+     "avg_per_leg": -47.99,
+     "pace_per_month": -460.68
+    },
+    "nc": 69,
+    "gate": {
+     "timing_audit": "PASS",
+     "resum": "PASS",
+     "halves": "FAIL",
+     "months": "FAIL",
+     "ex_top3": "FAIL",
+     "placebo_flipped": "FAIL",
+     "placebo_shifted": "PASS",
+     "placebo_random": "PASS"
+    },
+    "gate_pass": false,
+    "placebos": {
+     "flipped": {
+      "net": 22981.5,
+      "n": 69,
+      "nc": 96
+     },
+     "shifted": {
+      "net": -53034.6,
+      "n": 164,
+      "nc": 1
+     },
+     "random": {
+      "net": -84231.9,
+      "n": 155,
+      "nc": 10
+     }
+    },
+    "nc_detail": [
+     {
+      "date": "2026-01-02",
+      "direction": "CE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-01-08",
+      "direction": "PE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-01-16",
+      "direction": "CE",
+      "entry_time": "09:55",
+      "why": "entry_bar_absent 09:55"
+     },
+     {
+      "date": "2026-01-22",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-01-27",
+      "direction": "CE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-01-29",
+      "direction": "PE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-02-04",
+      "direction": "CE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-02-05",
+      "direction": "PE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-02-10",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-02-11",
+      "direction": "PE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-02-20",
+      "direction": "CE",
+      "entry_time": "09:50",
+      "why": "entry_bar_absent 09:50"
+     },
+     {
+      "date": "2026-02-24",
+      "direction": "PE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-03-05",
+      "direction": "PE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-03-11",
+      "direction": "PE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-03-25",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-03-27",
+      "direction": "PE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-03-30",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-04-06",
+      "direction": "PE",
+      "entry_time": "09:50",
+      "why": "entry_bar_absent 09:50"
+     },
+     {
+      "date": "2026-04-08",
+      "direction": "CE",
+      "entry_time": "09:50",
+      "why": "entry_bar_absent 09:50"
+     },
+     {
+      "date": "2026-04-09",
+      "direction": "PE",
+      "entry_time": "09:55",
+      "why": "entry_bar_absent 09:55"
+     },
+     {
+      "date": "2026-04-10",
+      "direction": "CE",
+      "entry_time": "09:55",
+      "why": "entry_bar_absent 09:55"
+     },
+     {
+      "date": "2026-04-21",
+      "direction": "CE",
+      "entry_time": "09:50",
+      "why": "entry_bar_absent 09:50"
+     },
+     {
+      "date": "2026-04-22",
+      "direction": "PE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-04-23",
+      "direction": "CE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-04-29",
+      "direction": "CE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-05-04",
+      "direction": "CE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-05-06",
+      "direction": "PE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-05-12",
+      "direction": "PE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-05-14",
+      "direction": "PE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-05-15",
+      "direction": "CE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-05-22",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-05-26",
+      "direction": "CE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-05-29",
+      "direction": "PE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-06-01",
+      "direction": "PE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-06-04",
+      "direction": "CE",
+      "entry_time": "09:50",
+      "why": "entry_bar_absent 09:50"
+     },
+     {
+      "date": "2026-06-10",
+      "direction": "CE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-06-11",
+      "direction": "CE",
+      "entry_time": "09:50",
+      "why": "entry_bar_absent 09:50"
+     },
+     {
+      "date": "2026-06-12",
+      "direction": "PE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-06-16",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-06-17",
+      "direction": "CE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-06-18",
+      "direction": "CE",
+      "entry_time": "09:55",
+      "why": "entry_bar_absent 09:55"
+     },
+     {
+      "date": "2026-06-23",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-06-25",
+      "direction": "CE",
+      "entry_time": "09:55",
+      "why": "entry_bar_absent 09:55"
+     },
+     {
+      "date": "2026-06-30",
+      "direction": "PE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-07-02",
+      "direction": "CE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-07-06",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-07-10",
+      "direction": "CE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-07-17",
+      "direction": "CE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-07-29",
+      "direction": "CE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-08-06",
+      "direction": "CE",
+      "entry_time": "09:50",
+      "why": "entry_bar_absent 09:50"
+     },
+     {
+      "date": "2026-08-07",
+      "direction": "CE",
+      "entry_time": "09:55",
+      "why": "entry_bar_absent 09:55"
+     },
+     {
+      "date": "2026-08-26",
+      "direction": "CE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-08-28",
+      "direction": "CE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-08-31",
+      "direction": "PE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-09-01",
+      "direction": "PE",
+      "entry_time": "09:50",
+      "why": "entry_bar_absent 09:50"
+     },
+     {
+      "date": "2026-09-16",
+      "direction": "PE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-09-17",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-09-28",
+      "direction": "PE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-09-29",
+      "direction": "PE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-10-05",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-10-06",
+      "direction": "CE",
+      "entry_time": "09:50",
+      "why": "entry_bar_absent 09:50"
+     },
+     {
+      "date": "2026-10-07",
+      "direction": "PE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-10-12",
+      "direction": "PE",
+      "entry_time": "09:55",
+      "why": "entry_bar_absent 09:55"
+     },
+     {
+      "date": "2026-10-13",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-10-15",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-10-21",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-10-26",
+      "direction": "CE",
+      "entry_time": "09:55",
+      "why": "entry_bar_absent 09:55"
+     },
+     {
+      "date": "2026-10-27",
+      "direction": "CE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-10-28",
+      "direction": "PE",
+      "entry_time": "10:20",
+      "why": "no_expiry"
+     }
+    ],
+    "audit_problems": [],
+    "csv": "skill_tuning_nifty_baseline_trades.csv"
+   },
+   "F1": {
+    "stats": {
+     "n": 96,
+     "net": -5497.25,
+     "win_rate": 47.9,
+     "ft_rate": 3.1,
+     "months": {
+      "2026-01": {
+       "net": 2148.5,
+       "n": 10
+      },
+      "2026-02": {
+       "net": -5390.5,
+       "n": 11
+      },
+      "2026-03": {
+       "net": -1618.25,
+       "n": 10
+      },
+      "2026-04": {
+       "net": -4859.75,
+       "n": 12
+      },
+      "2026-05": {
+       "net": -18615.5,
+       "n": 7
+      },
+      "2026-06": {
+       "net": 14561.5,
+       "n": 8
+      },
+      "2026-07": {
+       "net": -6793.5,
+       "n": 12
+      },
+      "2026-08": {
+       "net": 2343.5,
+       "n": 10
+      },
+      "2026-09": {
+       "net": 11461.75,
+       "n": 12
+      },
+      "2026-10": {
+       "net": 1265.0,
+       "n": 4
+      }
+     },
+     "neg_months": 5,
+     "h1": -13774.0,
+     "h2": 8276.75,
+     "ex_top3": -37912.5,
+     "worst_drawdown": -30622.5,
+     "avg_per_leg": -57.26,
+     "pace_per_month": -549.73
+    },
+    "nc": 69,
+    "gate": {
+     "timing_audit": "PASS",
+     "resum": "PASS",
+     "halves": "FAIL",
+     "months": "FAIL",
+     "ex_top3": "FAIL",
+     "placebo_flipped": "FAIL",
+     "placebo_shifted": "PASS",
+     "placebo_random": "PASS",
+     "beats_baseline": "FAIL"
+    },
+    "gate_pass": false,
+    "placebos": {
+     "flipped": {
+      "net": 43313.5,
+      "n": 69,
+      "nc": 96
+     },
+     "shifted": {
+      "net": -52667.35,
+      "n": 164,
+      "nc": 1
+     },
+     "random": {
+      "net": -75924.9,
+      "n": 155,
+      "nc": 10
+     }
+    },
+    "nc_detail": [
+     {
+      "date": "2026-01-02",
+      "direction": "CE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-01-08",
+      "direction": "PE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-01-16",
+      "direction": "CE",
+      "entry_time": "09:55",
+      "why": "entry_bar_absent 09:55"
+     },
+     {
+      "date": "2026-01-22",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-01-27",
+      "direction": "CE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-01-29",
+      "direction": "PE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-02-04",
+      "direction": "CE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-02-05",
+      "direction": "PE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-02-10",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-02-11",
+      "direction": "PE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-02-20",
+      "direction": "CE",
+      "entry_time": "09:50",
+      "why": "entry_bar_absent 09:50"
+     },
+     {
+      "date": "2026-02-24",
+      "direction": "PE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-03-05",
+      "direction": "PE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-03-11",
+      "direction": "PE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-03-25",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-03-27",
+      "direction": "PE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-03-30",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-04-06",
+      "direction": "PE",
+      "entry_time": "09:50",
+      "why": "entry_bar_absent 09:50"
+     },
+     {
+      "date": "2026-04-08",
+      "direction": "CE",
+      "entry_time": "09:50",
+      "why": "entry_bar_absent 09:50"
+     },
+     {
+      "date": "2026-04-09",
+      "direction": "PE",
+      "entry_time": "09:55",
+      "why": "entry_bar_absent 09:55"
+     },
+     {
+      "date": "2026-04-10",
+      "direction": "CE",
+      "entry_time": "09:55",
+      "why": "entry_bar_absent 09:55"
+     },
+     {
+      "date": "2026-04-21",
+      "direction": "CE",
+      "entry_time": "09:50",
+      "why": "entry_bar_absent 09:50"
+     },
+     {
+      "date": "2026-04-22",
+      "direction": "PE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-04-23",
+      "direction": "CE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-04-29",
+      "direction": "CE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-05-04",
+      "direction": "CE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-05-06",
+      "direction": "PE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-05-12",
+      "direction": "PE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-05-14",
+      "direction": "PE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-05-15",
+      "direction": "CE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-05-22",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-05-26",
+      "direction": "CE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-05-29",
+      "direction": "PE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-06-01",
+      "direction": "PE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-06-04",
+      "direction": "CE",
+      "entry_time": "09:50",
+      "why": "entry_bar_absent 09:50"
+     },
+     {
+      "date": "2026-06-10",
+      "direction": "CE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-06-11",
+      "direction": "CE",
+      "entry_time": "09:50",
+      "why": "entry_bar_absent 09:50"
+     },
+     {
+      "date": "2026-06-12",
+      "direction": "PE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-06-16",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-06-17",
+      "direction": "CE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-06-18",
+      "direction": "CE",
+      "entry_time": "09:55",
+      "why": "entry_bar_absent 09:55"
+     },
+     {
+      "date": "2026-06-23",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-06-25",
+      "direction": "CE",
+      "entry_time": "09:55",
+      "why": "entry_bar_absent 09:55"
+     },
+     {
+      "date": "2026-06-30",
+      "direction": "PE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-07-02",
+      "direction": "CE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-07-06",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-07-10",
+      "direction": "CE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-07-17",
+      "direction": "CE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-07-29",
+      "direction": "CE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-08-06",
+      "direction": "CE",
+      "entry_time": "09:50",
+      "why": "entry_bar_absent 09:50"
+     },
+     {
+      "date": "2026-08-07",
+      "direction": "CE",
+      "entry_time": "09:55",
+      "why": "entry_bar_absent 09:55"
+     },
+     {
+      "date": "2026-08-26",
+      "direction": "CE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-08-28",
+      "direction": "CE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-08-31",
+      "direction": "PE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-09-01",
+      "direction": "PE",
+      "entry_time": "09:50",
+      "why": "entry_bar_absent 09:50"
+     },
+     {
+      "date": "2026-09-16",
+      "direction": "PE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-09-17",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-09-28",
+      "direction": "PE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-09-29",
+      "direction": "PE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-10-05",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-10-06",
+      "direction": "CE",
+      "entry_time": "09:50",
+      "why": "entry_bar_absent 09:50"
+     },
+     {
+      "date": "2026-10-07",
+      "direction": "PE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-10-12",
+      "direction": "PE",
+      "entry_time": "09:55",
+      "why": "entry_bar_absent 09:55"
+     },
+     {
+      "date": "2026-10-13",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-10-15",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-10-21",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-10-26",
+      "direction": "CE",
+      "entry_time": "09:55",
+      "why": "entry_bar_absent 09:55"
+     },
+     {
+      "date": "2026-10-27",
+      "direction": "CE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-10-28",
+      "direction": "PE",
+      "entry_time": "10:20",
+      "why": "no_expiry"
+     }
+    ],
+    "audit_problems": [],
+    "csv": "skill_tuning_nifty_F1_trades.csv"
+   },
+   "F2": {
+    "stats": {
+     "n": 96,
+     "net": -28474.75,
+     "win_rate": 34.4,
+     "ft_rate": 9.4,
+     "months": {
+      "2026-01": {
+       "net": -5086.0,
+       "n": 10
+      },
+      "2026-02": {
+       "net": -7912.5,
+       "n": 11
+      },
+      "2026-03": {
+       "net": -1290.0,
+       "n": 10
+      },
+      "2026-04": {
+       "net": -7742.5,
+       "n": 12
+      },
+      "2026-05": {
+       "net": -15758.75,
+       "n": 7
+      },
+      "2026-06": {
+       "net": 3924.25,
+       "n": 8
+      },
+      "2026-07": {
+       "net": -8197.5,
+       "n": 12
+      },
+      "2026-08": {
+       "net": 855.0,
+       "n": 10
+      },
+      "2026-09": {
+       "net": 10623.25,
+       "n": 12
+      },
+      "2026-10": {
+       "net": 2110.0,
+       "n": 4
+      }
+     },
+     "neg_months": 6,
+     "h1": -33865.5,
+     "h2": 5390.75,
+     "ex_top3": -51400.0,
+     "worst_drawdown": -43788.25,
+     "avg_per_leg": -296.61,
+     "pace_per_month": -2847.47
+    },
+    "nc": 69,
+    "gate": {
+     "timing_audit": "PASS",
+     "resum": "PASS",
+     "halves": "FAIL",
+     "months": "FAIL",
+     "ex_top3": "FAIL",
+     "placebo_flipped": "FAIL",
+     "placebo_shifted": "PASS",
+     "placebo_random": "PASS",
+     "beats_baseline": "FAIL"
+    },
+    "gate_pass": false,
+    "placebos": {
+     "flipped": {
+      "net": 26088.5,
+      "n": 69,
+      "nc": 96
+     },
+     "shifted": {
+      "net": -52641.35,
+      "n": 164,
+      "nc": 1
+     },
+     "random": {
+      "net": -67494.4,
+      "n": 155,
+      "nc": 10
+     }
+    },
+    "nc_detail": [
+     {
+      "date": "2026-01-02",
+      "direction": "CE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-01-08",
+      "direction": "PE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-01-16",
+      "direction": "CE",
+      "entry_time": "09:55",
+      "why": "entry_bar_absent 09:55"
+     },
+     {
+      "date": "2026-01-22",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-01-27",
+      "direction": "CE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-01-29",
+      "direction": "PE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-02-04",
+      "direction": "CE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-02-05",
+      "direction": "PE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-02-10",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-02-11",
+      "direction": "PE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-02-20",
+      "direction": "CE",
+      "entry_time": "09:50",
+      "why": "entry_bar_absent 09:50"
+     },
+     {
+      "date": "2026-02-24",
+      "direction": "PE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-03-05",
+      "direction": "PE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-03-11",
+      "direction": "PE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-03-25",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-03-27",
+      "direction": "PE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-03-30",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-04-06",
+      "direction": "PE",
+      "entry_time": "09:50",
+      "why": "entry_bar_absent 09:50"
+     },
+     {
+      "date": "2026-04-08",
+      "direction": "CE",
+      "entry_time": "09:50",
+      "why": "entry_bar_absent 09:50"
+     },
+     {
+      "date": "2026-04-09",
+      "direction": "PE",
+      "entry_time": "09:55",
+      "why": "entry_bar_absent 09:55"
+     },
+     {
+      "date": "2026-04-10",
+      "direction": "CE",
+      "entry_time": "09:55",
+      "why": "entry_bar_absent 09:55"
+     },
+     {
+      "date": "2026-04-21",
+      "direction": "CE",
+      "entry_time": "09:50",
+      "why": "entry_bar_absent 09:50"
+     },
+     {
+      "date": "2026-04-22",
+      "direction": "PE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-04-23",
+      "direction": "CE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-04-29",
+      "direction": "CE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-05-04",
+      "direction": "CE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-05-06",
+      "direction": "PE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-05-12",
+      "direction": "PE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-05-14",
+      "direction": "PE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-05-15",
+      "direction": "CE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-05-22",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-05-26",
+      "direction": "CE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-05-29",
+      "direction": "PE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-06-01",
+      "direction": "PE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-06-04",
+      "direction": "CE",
+      "entry_time": "09:50",
+      "why": "entry_bar_absent 09:50"
+     },
+     {
+      "date": "2026-06-10",
+      "direction": "CE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-06-11",
+      "direction": "CE",
+      "entry_time": "09:50",
+      "why": "entry_bar_absent 09:50"
+     },
+     {
+      "date": "2026-06-12",
+      "direction": "PE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-06-16",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-06-17",
+      "direction": "CE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-06-18",
+      "direction": "CE",
+      "entry_time": "09:55",
+      "why": "entry_bar_absent 09:55"
+     },
+     {
+      "date": "2026-06-23",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-06-25",
+      "direction": "CE",
+      "entry_time": "09:55",
+      "why": "entry_bar_absent 09:55"
+     },
+     {
+      "date": "2026-06-30",
+      "direction": "PE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-07-02",
+      "direction": "CE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-07-06",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-07-10",
+      "direction": "CE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-07-17",
+      "direction": "CE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-07-29",
+      "direction": "CE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-08-06",
+      "direction": "CE",
+      "entry_time": "09:50",
+      "why": "entry_bar_absent 09:50"
+     },
+     {
+      "date": "2026-08-07",
+      "direction": "CE",
+      "entry_time": "09:55",
+      "why": "entry_bar_absent 09:55"
+     },
+     {
+      "date": "2026-08-26",
+      "direction": "CE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-08-28",
+      "direction": "CE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-08-31",
+      "direction": "PE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-09-01",
+      "direction": "PE",
+      "entry_time": "09:50",
+      "why": "entry_bar_absent 09:50"
+     },
+     {
+      "date": "2026-09-16",
+      "direction": "PE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-09-17",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-09-28",
+      "direction": "PE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-09-29",
+      "direction": "PE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-10-05",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-10-06",
+      "direction": "CE",
+      "entry_time": "09:50",
+      "why": "entry_bar_absent 09:50"
+     },
+     {
+      "date": "2026-10-07",
+      "direction": "PE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-10-12",
+      "direction": "PE",
+      "entry_time": "09:55",
+      "why": "entry_bar_absent 09:55"
+     },
+     {
+      "date": "2026-10-13",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-10-15",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-10-21",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-10-26",
+      "direction": "CE",
+      "entry_time": "09:55",
+      "why": "entry_bar_absent 09:55"
+     },
+     {
+      "date": "2026-10-27",
+      "direction": "CE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-10-28",
+      "direction": "PE",
+      "entry_time": "10:20",
+      "why": "no_expiry"
+     }
+    ],
+    "audit_problems": [],
+    "csv": "skill_tuning_nifty_F2_trades.csv"
+   },
+   "F3": {
+    "stats": {
+     "n": 96,
+     "net": -10798.0,
+     "win_rate": 35.4,
+     "ft_rate": 19.8,
+     "months": {
+      "2026-01": {
+       "net": 1196.25,
+       "n": 10
+      },
+      "2026-02": {
+       "net": -7334.0,
+       "n": 11
+      },
+      "2026-03": {
+       "net": 380.5,
+       "n": 10
+      },
+      "2026-04": {
+       "net": -5740.5,
+       "n": 12
+      },
+      "2026-05": {
+       "net": -10419.0,
+       "n": 7
+      },
+      "2026-06": {
+       "net": 3085.75,
+       "n": 8
+      },
+      "2026-07": {
+       "net": -12653.25,
+       "n": 12
+      },
+      "2026-08": {
+       "net": 406.5,
+       "n": 10
+      },
+      "2026-09": {
+       "net": 13034.75,
+       "n": 12
+      },
+      "2026-10": {
+       "net": 7245.0,
+       "n": 4
+      }
+     },
+     "neg_months": 4,
+     "h1": -18831.0,
+     "h2": 8033.0,
+     "ex_top3": -39388.0,
+     "worst_drawdown": -38568.0,
+     "avg_per_leg": -112.48,
+     "pace_per_month": -1079.8
+    },
+    "nc": 69,
+    "gate": {
+     "timing_audit": "PASS",
+     "resum": "PASS",
+     "halves": "FAIL",
+     "months": "FAIL",
+     "ex_top3": "FAIL",
+     "placebo_flipped": "FAIL",
+     "placebo_shifted": "PASS",
+     "placebo_random": "PASS",
+     "beats_baseline": "FAIL"
+    },
+    "gate_pass": false,
+    "placebos": {
+     "flipped": {
+      "net": 17274.5,
+      "n": 69,
+      "nc": 96
+     },
+     "shifted": {
+      "net": -28165.6,
+      "n": 164,
+      "nc": 1
+     },
+     "random": {
+      "net": -64614.9,
+      "n": 155,
+      "nc": 10
+     }
+    },
+    "nc_detail": [
+     {
+      "date": "2026-01-02",
+      "direction": "CE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-01-08",
+      "direction": "PE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-01-16",
+      "direction": "CE",
+      "entry_time": "09:55",
+      "why": "entry_bar_absent 09:55"
+     },
+     {
+      "date": "2026-01-22",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-01-27",
+      "direction": "CE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-01-29",
+      "direction": "PE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-02-04",
+      "direction": "CE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-02-05",
+      "direction": "PE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-02-10",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-02-11",
+      "direction": "PE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-02-20",
+      "direction": "CE",
+      "entry_time": "09:50",
+      "why": "entry_bar_absent 09:50"
+     },
+     {
+      "date": "2026-02-24",
+      "direction": "PE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-03-05",
+      "direction": "PE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-03-11",
+      "direction": "PE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-03-25",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-03-27",
+      "direction": "PE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-03-30",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-04-06",
+      "direction": "PE",
+      "entry_time": "09:50",
+      "why": "entry_bar_absent 09:50"
+     },
+     {
+      "date": "2026-04-08",
+      "direction": "CE",
+      "entry_time": "09:50",
+      "why": "entry_bar_absent 09:50"
+     },
+     {
+      "date": "2026-04-09",
+      "direction": "PE",
+      "entry_time": "09:55",
+      "why": "entry_bar_absent 09:55"
+     },
+     {
+      "date": "2026-04-10",
+      "direction": "CE",
+      "entry_time": "09:55",
+      "why": "entry_bar_absent 09:55"
+     },
+     {
+      "date": "2026-04-21",
+      "direction": "CE",
+      "entry_time": "09:50",
+      "why": "entry_bar_absent 09:50"
+     },
+     {
+      "date": "2026-04-22",
+      "direction": "PE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-04-23",
+      "direction": "CE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-04-29",
+      "direction": "CE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-05-04",
+      "direction": "CE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-05-06",
+      "direction": "PE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-05-12",
+      "direction": "PE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-05-14",
+      "direction": "PE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-05-15",
+      "direction": "CE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-05-22",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-05-26",
+      "direction": "CE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-05-29",
+      "direction": "PE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-06-01",
+      "direction": "PE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-06-04",
+      "direction": "CE",
+      "entry_time": "09:50",
+      "why": "entry_bar_absent 09:50"
+     },
+     {
+      "date": "2026-06-10",
+      "direction": "CE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-06-11",
+      "direction": "CE",
+      "entry_time": "09:50",
+      "why": "entry_bar_absent 09:50"
+     },
+     {
+      "date": "2026-06-12",
+      "direction": "PE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-06-16",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-06-17",
+      "direction": "CE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-06-18",
+      "direction": "CE",
+      "entry_time": "09:55",
+      "why": "entry_bar_absent 09:55"
+     },
+     {
+      "date": "2026-06-23",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-06-25",
+      "direction": "CE",
+      "entry_time": "09:55",
+      "why": "entry_bar_absent 09:55"
+     },
+     {
+      "date": "2026-06-30",
+      "direction": "PE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-07-02",
+      "direction": "CE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-07-06",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-07-10",
+      "direction": "CE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-07-17",
+      "direction": "CE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-07-29",
+      "direction": "CE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-08-06",
+      "direction": "CE",
+      "entry_time": "09:50",
+      "why": "entry_bar_absent 09:50"
+     },
+     {
+      "date": "2026-08-07",
+      "direction": "CE",
+      "entry_time": "09:55",
+      "why": "entry_bar_absent 09:55"
+     },
+     {
+      "date": "2026-08-26",
+      "direction": "CE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-08-28",
+      "direction": "CE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-08-31",
+      "direction": "PE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-09-01",
+      "direction": "PE",
+      "entry_time": "09:50",
+      "why": "entry_bar_absent 09:50"
+     },
+     {
+      "date": "2026-09-16",
+      "direction": "PE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-09-17",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-09-28",
+      "direction": "PE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-09-29",
+      "direction": "PE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-10-05",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-10-06",
+      "direction": "CE",
+      "entry_time": "09:50",
+      "why": "entry_bar_absent 09:50"
+     },
+     {
+      "date": "2026-10-07",
+      "direction": "PE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-10-12",
+      "direction": "PE",
+      "entry_time": "09:55",
+      "why": "entry_bar_absent 09:55"
+     },
+     {
+      "date": "2026-10-13",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-10-15",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-10-21",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-10-26",
+      "direction": "CE",
+      "entry_time": "09:55",
+      "why": "entry_bar_absent 09:55"
+     },
+     {
+      "date": "2026-10-27",
+      "direction": "CE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-10-28",
+      "direction": "PE",
+      "entry_time": "10:20",
+      "why": "no_expiry"
+     }
+    ],
+    "audit_problems": [],
+    "csv": "skill_tuning_nifty_F3_trades.csv"
+   },
+   "F4": {
+    "stats": {
+     "n": 95,
+     "net": -5293.5,
+     "win_rate": 42.1,
+     "ft_rate": 23.2,
+     "months": {
+      "2026-01": {
+       "net": -513.25,
+       "n": 10
+      },
+      "2026-02": {
+       "net": -2683.25,
+       "n": 11
+      },
+      "2026-03": {
+       "net": -5469.5,
+       "n": 10
+      },
+      "2026-04": {
+       "net": -3156.75,
+       "n": 12
+      },
+      "2026-05": {
+       "net": -16269.0,
+       "n": 7
+      },
+      "2026-06": {
+       "net": 7148.25,
+       "n": 8
+      },
+      "2026-07": {
+       "net": -3758.0,
+       "n": 12
+      },
+      "2026-08": {
+       "net": 214.75,
+       "n": 10
+      },
+      "2026-09": {
+       "net": 13898.25,
+       "n": 11
+      },
+      "2026-10": {
+       "net": 5295.0,
+       "n": 4
+      }
+     },
+     "neg_months": 6,
+     "h1": -20943.5,
+     "h2": 15650.0,
+     "ex_top3": -33883.5,
+     "worst_drawdown": -31596.25,
+     "avg_per_leg": -55.72,
+     "pace_per_month": -529.35
+    },
+    "nc": 69,
+    "gate": {
+     "timing_audit": "PASS",
+     "resum": "PASS",
+     "halves": "FAIL",
+     "months": "FAIL",
+     "ex_top3": "FAIL",
+     "placebo_flipped": "FAIL",
+     "placebo_shifted": "PASS",
+     "placebo_random": "PASS",
+     "beats_baseline": "FAIL"
+    },
+    "gate_pass": false,
+    "placebos": {
+     "flipped": {
+      "net": 24387.75,
+      "n": 68,
+      "nc": 96
+     },
+     "shifted": {
+      "net": -53103.85,
+      "n": 163,
+      "nc": 1
+     },
+     "random": {
+      "net": -77303.9,
+      "n": 154,
+      "nc": 10
+     }
+    },
+    "nc_detail": [
+     {
+      "date": "2026-01-02",
+      "direction": "CE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-01-08",
+      "direction": "PE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-01-16",
+      "direction": "CE",
+      "entry_time": "09:55",
+      "why": "entry_bar_absent 09:55"
+     },
+     {
+      "date": "2026-01-22",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-01-27",
+      "direction": "CE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-01-29",
+      "direction": "PE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-02-04",
+      "direction": "CE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-02-05",
+      "direction": "PE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-02-10",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-02-11",
+      "direction": "PE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-02-20",
+      "direction": "CE",
+      "entry_time": "09:50",
+      "why": "entry_bar_absent 09:50"
+     },
+     {
+      "date": "2026-02-24",
+      "direction": "PE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-03-05",
+      "direction": "PE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-03-11",
+      "direction": "PE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-03-25",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-03-27",
+      "direction": "PE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-03-30",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-04-06",
+      "direction": "PE",
+      "entry_time": "09:50",
+      "why": "entry_bar_absent 09:50"
+     },
+     {
+      "date": "2026-04-08",
+      "direction": "CE",
+      "entry_time": "09:50",
+      "why": "entry_bar_absent 09:50"
+     },
+     {
+      "date": "2026-04-09",
+      "direction": "PE",
+      "entry_time": "09:55",
+      "why": "entry_bar_absent 09:55"
+     },
+     {
+      "date": "2026-04-10",
+      "direction": "CE",
+      "entry_time": "09:55",
+      "why": "entry_bar_absent 09:55"
+     },
+     {
+      "date": "2026-04-21",
+      "direction": "CE",
+      "entry_time": "09:50",
+      "why": "entry_bar_absent 09:50"
+     },
+     {
+      "date": "2026-04-22",
+      "direction": "PE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-04-23",
+      "direction": "CE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-04-29",
+      "direction": "CE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-05-04",
+      "direction": "CE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-05-06",
+      "direction": "PE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-05-12",
+      "direction": "PE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-05-14",
+      "direction": "PE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-05-15",
+      "direction": "CE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-05-22",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-05-26",
+      "direction": "CE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-05-29",
+      "direction": "PE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-06-01",
+      "direction": "PE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-06-04",
+      "direction": "CE",
+      "entry_time": "09:50",
+      "why": "entry_bar_absent 09:50"
+     },
+     {
+      "date": "2026-06-10",
+      "direction": "CE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-06-11",
+      "direction": "CE",
+      "entry_time": "09:50",
+      "why": "entry_bar_absent 09:50"
+     },
+     {
+      "date": "2026-06-12",
+      "direction": "PE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-06-16",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-06-17",
+      "direction": "CE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-06-18",
+      "direction": "CE",
+      "entry_time": "09:55",
+      "why": "entry_bar_absent 09:55"
+     },
+     {
+      "date": "2026-06-23",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-06-25",
+      "direction": "CE",
+      "entry_time": "09:55",
+      "why": "entry_bar_absent 09:55"
+     },
+     {
+      "date": "2026-06-30",
+      "direction": "PE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-07-02",
+      "direction": "CE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-07-06",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-07-10",
+      "direction": "CE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-07-17",
+      "direction": "CE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-07-29",
+      "direction": "CE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-08-06",
+      "direction": "CE",
+      "entry_time": "09:50",
+      "why": "entry_bar_absent 09:50"
+     },
+     {
+      "date": "2026-08-07",
+      "direction": "CE",
+      "entry_time": "09:55",
+      "why": "entry_bar_absent 09:55"
+     },
+     {
+      "date": "2026-08-26",
+      "direction": "CE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-08-28",
+      "direction": "CE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-08-31",
+      "direction": "PE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-09-01",
+      "direction": "PE",
+      "entry_time": "09:50",
+      "why": "entry_bar_absent 09:50"
+     },
+     {
+      "date": "2026-09-16",
+      "direction": "PE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-09-17",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-09-28",
+      "direction": "PE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-09-29",
+      "direction": "PE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-10-05",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-10-06",
+      "direction": "CE",
+      "entry_time": "09:50",
+      "why": "entry_bar_absent 09:50"
+     },
+     {
+      "date": "2026-10-07",
+      "direction": "PE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-10-12",
+      "direction": "PE",
+      "entry_time": "09:55",
+      "why": "entry_bar_absent 09:55"
+     },
+     {
+      "date": "2026-10-13",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-10-15",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-10-21",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-10-26",
+      "direction": "CE",
+      "entry_time": "09:55",
+      "why": "entry_bar_absent 09:55"
+     },
+     {
+      "date": "2026-10-27",
+      "direction": "CE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-10-28",
+      "direction": "PE",
+      "entry_time": "10:20",
+      "why": "no_expiry"
+     }
+    ],
+    "audit_problems": [],
+    "csv": "skill_tuning_nifty_F4_trades.csv"
+   },
+   "F5CE": {
+    "stats": {
+     "n": 43,
+     "net": -23025.5,
+     "win_rate": 32.6,
+     "ft_rate": 20.9,
+     "months": {
+      "2026-01": {
+       "net": -9739.5,
+       "n": 4
+      },
+      "2026-02": {
+       "net": -1769.5,
+       "n": 5
+      },
+      "2026-03": {
+       "net": -14119.5,
+       "n": 5
+      },
+      "2026-04": {
+       "net": 4663.25,
+       "n": 6
+      },
+      "2026-05": {
+       "net": -2389.0,
+       "n": 3
+      },
+      "2026-06": {
+       "net": 8445.25,
+       "n": 5
+      },
+      "2026-07": {
+       "net": -6432.25,
+       "n": 6
+      },
+      "2026-08": {
+       "net": -662.0,
+       "n": 1
+      },
+      "2026-09": {
+       "net": 1262.75,
+       "n": 5
+      },
+      "2026-10": {
+       "net": -2285.0,
+       "n": 3
+      }
+     },
+     "neg_months": 7,
+     "h1": -14909.0,
+     "h2": -8116.5,
+     "ex_top3": -45911.75,
+     "worst_drawdown": -25628.5,
+     "avg_per_leg": -535.48,
+     "pace_per_month": -2302.55
+    },
+    "nc": 43,
+    "gate": {
+     "timing_audit": "PASS",
+     "resum": "PASS",
+     "halves": "FAIL",
+     "months": "FAIL",
+     "ex_top3": "FAIL",
+     "placebo_flipped": "FAIL",
+     "placebo_shifted": "PASS",
+     "placebo_random": "FAIL",
+     "beats_baseline": "FAIL"
+    },
+    "gate_pass": false,
+    "placebos": {
+     "flipped": {
+      "net": 17944.75,
+      "n": 34,
+      "nc": 52
+     },
+     "shifted": {
+      "net": -81660.6,
+      "n": 86,
+      "nc": 0
+     },
+     "random": {
+      "net": 26130.75,
+      "n": 82,
+      "nc": 4
+     }
+    },
+    "nc_detail": [
+     {
+      "date": "2026-01-02",
+      "direction": "CE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-01-16",
+      "direction": "CE",
+      "entry_time": "09:55",
+      "why": "entry_bar_absent 09:55"
+     },
+     {
+      "date": "2026-01-22",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-01-27",
+      "direction": "CE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-02-04",
+      "direction": "CE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-02-10",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-02-20",
+      "direction": "CE",
+      "entry_time": "09:50",
+      "why": "entry_bar_absent 09:50"
+     },
+     {
+      "date": "2026-03-25",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-03-30",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-04-08",
+      "direction": "CE",
+      "entry_time": "09:50",
+      "why": "entry_bar_absent 09:50"
+     },
+     {
+      "date": "2026-04-10",
+      "direction": "CE",
+      "entry_time": "09:55",
+      "why": "entry_bar_absent 09:55"
+     },
+     {
+      "date": "2026-04-21",
+      "direction": "CE",
+      "entry_time": "09:50",
+      "why": "entry_bar_absent 09:50"
+     },
+     {
+      "date": "2026-04-23",
+      "direction": "CE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-04-29",
+      "direction": "CE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-05-04",
+      "direction": "CE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-05-15",
+      "direction": "CE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-05-22",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-05-26",
+      "direction": "CE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-06-04",
+      "direction": "CE",
+      "entry_time": "09:50",
+      "why": "entry_bar_absent 09:50"
+     },
+     {
+      "date": "2026-06-10",
+      "direction": "CE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-06-11",
+      "direction": "CE",
+      "entry_time": "09:50",
+      "why": "entry_bar_absent 09:50"
+     },
+     {
+      "date": "2026-06-16",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-06-17",
+      "direction": "CE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-06-18",
+      "direction": "CE",
+      "entry_time": "09:55",
+      "why": "entry_bar_absent 09:55"
+     },
+     {
+      "date": "2026-06-23",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-06-25",
+      "direction": "CE",
+      "entry_time": "09:55",
+      "why": "entry_bar_absent 09:55"
+     },
+     {
+      "date": "2026-07-02",
+      "direction": "CE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-07-06",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-07-10",
+      "direction": "CE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-07-17",
+      "direction": "CE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-07-29",
+      "direction": "CE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-08-06",
+      "direction": "CE",
+      "entry_time": "09:50",
+      "why": "entry_bar_absent 09:50"
+     },
+     {
+      "date": "2026-08-07",
+      "direction": "CE",
+      "entry_time": "09:55",
+      "why": "entry_bar_absent 09:55"
+     },
+     {
+      "date": "2026-08-26",
+      "direction": "CE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-08-28",
+      "direction": "CE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-09-17",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-10-05",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-10-06",
+      "direction": "CE",
+      "entry_time": "09:50",
+      "why": "entry_bar_absent 09:50"
+     },
+     {
+      "date": "2026-10-13",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-10-15",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-10-21",
+      "direction": "CE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-10-26",
+      "direction": "CE",
+      "entry_time": "09:55",
+      "why": "entry_bar_absent 09:55"
+     },
+     {
+      "date": "2026-10-27",
+      "direction": "CE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     }
+    ],
+    "audit_problems": [],
+    "csv": "skill_tuning_nifty_F5CE_trades.csv"
+   },
+   "F5PE": {
+    "stats": {
+     "n": 53,
+     "net": 18418.75,
+     "win_rate": 50.9,
+     "ft_rate": 24.5,
+     "months": {
+      "2026-01": {
+       "net": 9226.25,
+       "n": 6
+      },
+      "2026-02": {
+       "net": -913.75,
+       "n": 6
+      },
+      "2026-03": {
+       "net": 8650.0,
+       "n": 5
+      },
+      "2026-04": {
+       "net": -7820.0,
+       "n": 6
+      },
+      "2026-05": {
+       "net": -13880.0,
+       "n": 4
+      },
+      "2026-06": {
+       "net": -1297.0,
+       "n": 3
+      },
+      "2026-07": {
+       "net": 2674.25,
+       "n": 6
+      },
+      "2026-08": {
+       "net": 876.75,
+       "n": 9
+      },
+      "2026-09": {
+       "net": 13322.25,
+       "n": 7
+      },
+      "2026-10": {
+       "net": 7580.0,
+       "n": 1
+      }
+     },
+     "neg_months": 4,
+     "h1": -6034.5,
+     "h2": 24453.25,
+     "ex_top3": -10171.25,
+     "worst_drawdown": -28104.0,
+     "avg_per_leg": 347.52,
+     "pace_per_month": 1841.88
+    },
+    "nc": 26,
+    "gate": {
+     "timing_audit": "PASS",
+     "resum": "PASS",
+     "halves": "FAIL",
+     "months": "FAIL",
+     "ex_top3": "FAIL",
+     "placebo_flipped": "PASS",
+     "placebo_shifted": "FAIL",
+     "placebo_random": "PASS",
+     "beats_baseline": "PASS"
+    },
+    "gate_pass": false,
+    "placebos": {
+     "flipped": {
+      "net": 5036.75,
+      "n": 35,
+      "nc": 44
+     },
+     "shifted": {
+      "net": 28626.0,
+      "n": 78,
+      "nc": 1
+     },
+     "random": {
+      "net": -16390.75,
+      "n": 77,
+      "nc": 2
+     }
+    },
+    "nc_detail": [
+     {
+      "date": "2026-01-08",
+      "direction": "PE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-01-29",
+      "direction": "PE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-02-05",
+      "direction": "PE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-02-11",
+      "direction": "PE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-02-24",
+      "direction": "PE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-03-05",
+      "direction": "PE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-03-11",
+      "direction": "PE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-03-27",
+      "direction": "PE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-04-06",
+      "direction": "PE",
+      "entry_time": "09:50",
+      "why": "entry_bar_absent 09:50"
+     },
+     {
+      "date": "2026-04-09",
+      "direction": "PE",
+      "entry_time": "09:55",
+      "why": "entry_bar_absent 09:55"
+     },
+     {
+      "date": "2026-04-22",
+      "direction": "PE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-05-06",
+      "direction": "PE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-05-12",
+      "direction": "PE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-05-14",
+      "direction": "PE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-05-29",
+      "direction": "PE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-06-01",
+      "direction": "PE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-06-12",
+      "direction": "PE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-06-30",
+      "direction": "PE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-08-31",
+      "direction": "PE",
+      "entry_time": "09:45",
+      "why": "entry_bar_absent 09:45"
+     },
+     {
+      "date": "2026-09-01",
+      "direction": "PE",
+      "entry_time": "09:50",
+      "why": "entry_bar_absent 09:50"
+     },
+     {
+      "date": "2026-09-16",
+      "direction": "PE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-09-28",
+      "direction": "PE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-09-29",
+      "direction": "PE",
+      "entry_time": "09:35",
+      "why": "entry_bar_absent 09:35"
+     },
+     {
+      "date": "2026-10-07",
+      "direction": "PE",
+      "entry_time": "09:40",
+      "why": "entry_bar_absent 09:40"
+     },
+     {
+      "date": "2026-10-12",
+      "direction": "PE",
+      "entry_time": "09:55",
+      "why": "entry_bar_absent 09:55"
+     },
+     {
+      "date": "2026-10-28",
+      "direction": "PE",
+      "entry_time": "10:20",
+      "why": "no_expiry"
+     }
+    ],
+    "audit_problems": [],
+    "csv": "skill_tuning_nifty_F5PE_trades.csv"
+   }
+  },
+  "passed_families": []
+ }
+}

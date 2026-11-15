@@ -1,0 +1,64 @@
+loading wide machinery...
+extra ctx: agg check 1875 bars, 0 mismatches; added {}
+NIFTY EXTENSION FAILED: nifty overlap mismatch
+regime spot-checks pass (2025-01-02, 2025-03-17, 2025-06-02, 2026-10-30); below50 on 2025-01-02: True | first 2025 day with computable ma50: 2025-01-01
+build days: ['2026-10-01', '2026-10-05', '2026-10-06', '2026-10-07', '2026-10-08', '2026-10-09', '2026-10-12', '2026-10-13', '2026-10-14', '2026-10-15', '2026-10-16', '2026-10-19', '2026-10-21', '2026-10-22', '2026-10-23', '2026-10-26', '2026-10-27', '2026-10-28', '2026-10-29', '2026-10-30', '2026-11-02', '2026-11-03', '2026-11-04', '2026-11-05', '2026-11-06', '2026-11-09', '2026-11-11']
+LEG 1 — causal truncation audit...
+LEG1 2026-10-01 slice 10:30: chain 929 checked 0 mismatch; F4 122 checked 0 mismatch
+LEG1 2026-10-01 slice 12:00: chain 1776 checked 0 mismatch; F4 157 checked 0 mismatch
+LEG1 2026-10-01 slice 13:30: chain 1913 checked 0 mismatch; F4 158 checked 0 mismatch
+LEG1 2026-10-01 slice 15:00: chain 1966 checked 0 mismatch; F4 159 checked 0 mismatch
+LEG1 2026-10-06 slice 10:30: chain 1220 checked 0 mismatch; F4 149 checked 0 mismatch
+LEG1 2026-10-06 slice 12:00: chain 2068 checked 0 mismatch; F4 188 checked 0 mismatch
+LEG1 2026-10-06 slice 13:30: chain 2194 checked 0 mismatch; F4 192 checked 0 mismatch
+LEG1 2026-10-06 slice 15:00: chain 2264 checked 0 mismatch; F4 192 checked 0 mismatch
+LEG1 2026-10-09 slice 10:30: chain 758 checked 0 mismatch; F4 115 checked 0 mismatch
+LEG1 2026-10-09 slice 12:00: chain 1499 checked 0 mismatch; F4 164 checked 0 mismatch
+LEG1 2026-10-09 slice 13:30: chain 1649 checked 0 mismatch; F4 167 checked 0 mismatch
+LEG1 2026-10-09 slice 15:00: chain 1815 checked 0 mismatch; F4 169 checked 0 mismatch
+LEG1 2026-10-13 slice 10:30: chain 856 checked 0 mismatch; F4 147 checked 0 mismatch
+LEG1 2026-10-13 slice 12:00: chain 1517 checked 0 mismatch; F4 161 checked 0 mismatch
+LEG1 2026-10-13 slice 13:30: chain 1619 checked 0 mismatch; F4 161 checked 0 mismatch
+LEG1 2026-10-13 slice 15:00: chain 1675 checked 0 mismatch; F4 165 checked 0 mismatch
+LEG1 2026-10-16 slice 10:30: chain 1052 checked 0 mismatch; F4 117 checked 0 mismatch
+LEG1 2026-10-16 slice 12:00: chain 1898 checked 0 mismatch; F4 145 checked 0 mismatch
+LEG1 2026-10-16 slice 13:30: chain 2020 checked 0 mismatch; F4 151 checked 0 mismatch
+LEG1 2026-10-16 slice 15:00: chain 2133 checked 0 mismatch; F4 153 checked 0 mismatch
+LEG1 2026-10-19 slice 10:30: chain 730 checked 0 mismatch; F4 111 checked 0 mismatch
+LEG1 2026-10-19 slice 12:00: chain 1417 checked 0 mismatch; F4 128 checked 0 mismatch
+LEG1 2026-10-19 slice 13:30: chain 1460 checked 0 mismatch; F4 130 checked 0 mismatch
+LEG1 2026-10-19 slice 15:00: chain 1485 checked 0 mismatch; F4 130 checked 0 mismatch
+LEG1 2026-10-22 slice 10:30: chain 1378 checked 0 mismatch; F4 188 checked 0 mismatch
+LEG1 2026-10-22 slice 12:00: chain 2420 checked 0 mismatch; F4 217 checked 0 mismatch
+LEG1 2026-10-22 slice 13:30: chain 2624 checked 0 mismatch; F4 218 checked 0 mismatch
+LEG1 2026-10-22 slice 15:00: chain 2707 checked 0 mismatch; F4 219 checked 0 mismatch
+LEG1 2026-10-27 slice 10:30: chain 1415 checked 0 mismatch; F4 166 checked 0 mismatch
+LEG1 2026-10-27 slice 12:00: chain 2224 checked 0 mismatch; F4 180 checked 0 mismatch
+LEG1 2026-10-27 slice 13:30: chain 2328 checked 0 mismatch; F4 182 checked 0 mismatch
+LEG1 2026-10-27 slice 15:00: chain 2409 checked 0 mismatch; F4 182 checked 0 mismatch
+LEG1 2026-10-30 slice 10:30: chain 1338 checked 0 mismatch; F4 236 checked 0 mismatch
+LEG1 2026-10-30 slice 12:00: chain 2085 checked 0 mismatch; F4 248 checked 0 mismatch
+LEG1 2026-10-30 slice 13:30: chain 2128 checked 0 mismatch; F4 249 checked 0 mismatch
+LEG1 2026-10-30 slice 15:00: chain 2154 checked 0 mismatch; F4 249 checked 0 mismatch
+LEG1 2026-11-06 slice 10:30: chain 1004 checked 0 mismatch; F4 0 checked 0 mismatch
+LEG1 2026-11-06 slice 12:00: chain 1861 checked 0 mismatch; F4 0 checked 0 mismatch
+LEG1 2026-11-06 slice 13:30: chain 1938 checked 0 mismatch; F4 0 checked 0 mismatch
+LEG1 2026-11-06 slice 15:00: chain 2009 checked 0 mismatch; F4 0 checked 0 mismatch
+LEG1 2026-11-11 slice 10:30: chain 1253 checked 0 mismatch; F4 0 checked 0 mismatch
+LEG1 2026-11-11 slice 12:00: chain 2231 checked 0 mismatch; F4 0 checked 0 mismatch
+LEG1 2026-11-11 slice 13:30: chain 2334 checked 0 mismatch; F4 0 checked 0 mismatch
+LEG1 2026-11-11 slice 15:00: chain 2410 checked 0 mismatch; F4 0 checked 0 mismatch
+LEG 1 PASS: True (37s)
+building causal chains (27d x 1081)...
+causal chain rows: 60560 (40s)
+building causal variant rows + live-4 rows...
+live4 rows: 62; causal variant rows: 12123 (41s)
+F4-C: causal {'trades': 3745, 'net': 423169.17, 'win_rate': 47.5, 'ex_top3': 269540.42, 'top3_stocks': [('BOSCHLTD', 63164.0), ('BAJAJ-AUTO', 47433.0), ('PERSISTENT', 43031.75)]} | frozen {'trades': 3236, 'net': 646384.83, 'win_rate': 52.2, 'ex_top3': 528085.33, 'top3_stocks': [('BAJAJ-AUTO', 47433.0), ('LMW', 38309.75), ('PERSISTENT', 32556.75)]}
+INV-LONG-C: causal {'trades': 5618, 'net': 3291.82, 'win_rate': 28.4, 'ex_top3': -148421.43, 'top3_stocks': [('NEULANDLAB', 72511.25), ('PTCIL', 39632.5), ('LMW', 39569.5)]} | frozen {'trades': 4116, 'net': 361328.17, 'win_rate': 31.9, 'ex_top3': 198131.42, 'top3_stocks': [('NEULANDLAB', 72511.25), ('LMW', 55998.0), ('PTCIL', 34687.5)]}
+INV-ABOVE-C: causal {'trades': 2760, 'net': 350274.29, 'win_rate': 33.5, 'ex_top3': 115196.29, 'top3_stocks': [('POWERINDIA', 105873.75), ('FORCEMOT', 99088.0), ('PTCIL', 30116.25)]} | frozen {'trades': 2289, 'net': 484876.65, 'win_rate': 37.1, 'ex_top3': 249679.9, 'top3_stocks': [('POWERINDIA', 105992.5), ('FORCEMOT', 99088.0), ('PTCIL', 30116.25)]}
+baseline reproduction (4 live comps)...
+baseline repro: True — mine 39 tr +8724.39 ex3 -3256.65 vs saved 39 tr
+combined 7-live selection...
+COMBINED: {'trades': 162, 'net': -4267.84, 'win_rate': 34.6, 'expectancy': -26.34, 'ex_top3': -18321.31, 'top3_stocks': [('CENTUM', 4760.0), ('TCS', 4716.17), ('GLAND', 4577.3)], 'fc_net': -4811.7} | Oct {'trades': 120, 'net': -7795.23, 'win_rate': 35.8, 'expectancy': -64.96, 'ex_top3': -21848.7, 'top3_stocks': [('CENTUM', 4760.0), ('TCS', 4716.17), ('GLAND', 4577.3)], 'fc_net': -3494.25} | Nov {'trades': 42, 'net': 3527.39, 'win_rate': 31.0, 'expectancy': 83.99, 'ex_top3': -6289.6, 'top3_stocks': [('M&M', 3959.87), ('GLENMARK', 3197.5), ('APLAPOLLO', 2659.62)], 'fc_net': -1317.45}
+LEG 2 PASS (ex-top-3 -18321.31 > -3256.65): False
+DONE legs 1+2 in 42.9s — leg1 True, leg2 False

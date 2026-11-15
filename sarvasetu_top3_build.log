@@ -1,0 +1,153 @@
+root build 0/1081
+root build 200/1081
+root build 400/1081
+root build 600/1081
+root build 800/1081
+root build 1000/1081
+root built: /home/hatch/workspace/trading/data/wide1081_nov (1081 symbols + NIFTY)
+loading machinery (1081 symbols)...
+extra ctx: agg check 1875 bars, 0 mismatches; added {}
+NIFTY EXTENSION FAILED: nifty overlap mismatch
+regime spot-checks pass (2025-01-02, 2025-03-17, 2025-06-02, 2026-10-30); below50 on 2025-01-02: True | first 2025 day with computable ma50: 2025-01-01
+build days (in DAYCTX): ['2026-11-02', '2026-11-03', '2026-11-04', '2026-11-05', '2026-11-06', '2026-11-09', '2026-11-11']
+building INV pool percentiles...
+pool sizes per day: {'2026-11-02': 676, '2026-11-03': 639, '2026-11-04': 963, '2026-11-06': 604, '2026-11-11': 707, '2026-11-09': 575, '2026-11-05': 644}
+production build (fidelity reference)...
+detailed build...
+FIDELITY production==detailed on Nov days: True (2827 vs 2827 rows)
+rows outside the 7 Nov days: [('2026-10-26', 'N4-V3', 'DRREDDY', 1857.5), ('2026-10-26', 'N4-V3', 'INFY', -950.16), ('2026-10-26', 'N4-V3', 'JSWSTEEL', 1769.45), ('2026-10-26', 'N4-V3', 'KOTAKBANK', 45.0), ('2026-10-27', 'P2F', 'DRREDDY', -140.0), ('2026-10-27', 'P2F', 'JSWSTEEL', 1507.13), ('2026-10-27', 'N4-V3', 'RECLTD', 392.68), ('2026-10-28', 'P2F-R2', 'DRREDDY', 1587.5), ('2026-10-28', 'P2F-R2', 'JSWSTEEL', -666.35), ('2026-10-28', 'R2-LOWBAND', 'KOTAKBANK', 65.0), ('2026-10-28', 'P2F', 'RECLTD', -183.0), ('2026-10-28', 'N4-V3', 'LT', -3117.6), ('2026-10-28', 'N4-V3', 'VEDL', 303.2), ('2026-10-29', 'P2F', 'INDUSTOWER', -227.0), ('2026-10-29', 'P2F', 'LT', -1944.0), ('2026-10-29', 'P2F-R2', 'RECLTD', -185.0), ('2026-10-29', 'P2F', 'TVSMOTOR', -2181.5), ('2026-10-29', 'P2F', 'UNITDSPR', -654.1), ('2026-10-29', 'P2F', 'VEDL', -158.0), ('2026-10-30', 'P2F-R2', 'INDUSTOWER', -231.05), ('2026-10-30', 'P2F-R2', 'LT', -1958.55), ('2026-10-30', 'P2F-R2', 'UNITDSPR', -685.55), ('2026-10-30', 'P2F-R2', 'VEDL', -157.28), ('2026-10-30', 'N4-V3', 'GODREJCP', -686.36), ('2026-10-30', 'N4-V3', 'SUNPHARMA', -1475.76)]
+ANCHOR 25-restriction vs paper log: {"log": [26, 8391.28], "mine25": [26, 8391.28], "equal": true, "mine_only": [], "log_only": []}
+coverage: {"2026-11-02": {"usable": 1075, "universe": 1081}, "2026-11-03": {"usable": 1077, "universe": 1081}, "2026-11-04": {"usable": 1079, "universe": 1081}, "2026-11-05": {"usable": 1080, "universe": 1081}, "2026-11-06": {"usable": 1080, "universe": 1081}, "2026-11-09": {"usable": 1080, "universe": 1081}, "2026-11-11": {"usable": 1081, "universe": 1081}}
+event-active pairs: 41 NOT_COMPUTED: []
+{
+ "pool_total": {
+  "trades": 2827,
+  "net": 662055.18,
+  "win_rate": 39.8
+ },
+ "pool_ex_top3": 404938.43,
+ "pool_top3_stocks": [
+  [
+   "POWERINDIA",
+   105992.5
+  ],
+  [
+   "FORCEMOT",
+   99088.0
+  ],
+  [
+   "PTCIL",
+   52036.25
+  ]
+ ],
+ "pool_per_comp": {
+  "F4": {
+   "trades": 115,
+   "net": 16630.95,
+   "win_rate": 59.1
+  },
+  "INV-LONG": {
+   "trades": 406,
+   "net": 148614.66,
+   "win_rate": 49.3
+  },
+  "INV-ABOVE": {
+   "trades": 2289,
+   "net": 484876.65,
+   "win_rate": 37.1
+  },
+  "N4-V3": {
+   "trades": 7,
+   "net": 5783.45,
+   "win_rate": 57.1
+  },
+  "P2F": {
+   "trades": 5,
+   "net": 3989.77,
+   "win_rate": 60.0
+  },
+  "P2F-R2": {
+   "trades": 3,
+   "net": 2811.55,
+   "win_rate": 33.3
+  },
+  "R2-LOWBAND": {
+   "trades": 2,
+   "net": -651.85,
+   "win_rate": 0.0
+  }
+ },
+ "pool_per_day": {
+  "2026-11-02": {
+   "trades": 522,
+   "net": 164945.37,
+   "win_rate": 51.3
+  },
+  "2026-11-03": {
+   "trades": 359,
+   "net": -39010.12,
+   "win_rate": 27.3
+  },
+  "2026-11-04": {
+   "trades": 753,
+   "net": 389056.62,
+   "win_rate": 52.2
+  },
+  "2026-11-05": {
+   "trades": 354,
+   "net": 13797.68,
+   "win_rate": 30.2
+  },
+  "2026-11-06": {
+   "trades": 210,
+   "net": 26046.13,
+   "win_rate": 26.2
+  },
+  "2026-11-09": {
+   "trades": 195,
+   "net": 17788.57,
+   "win_rate": 28.2
+  },
+  "2026-11-11": {
+   "trades": 434,
+   "net": 89430.93,
+   "win_rate": 34.6
+  }
+ },
+ "top3_total": {
+  "trades": 21,
+  "net": 13153.59,
+  "win_rate": 38.1
+ },
+ "pool_stock_days_per_day": {
+  "2026-11-02": 347,
+  "2026-11-03": 260,
+  "2026-11-04": 505,
+  "2026-11-05": 233,
+  "2026-11-06": 147,
+  "2026-11-09": 131,
+  "2026-11-11": 282
+ }
+}
+PICKS:
+  2026-11-02 #1 PTCIL INV-LONG conf=2 mag=99.85 score=299.85 net=15960.0
+  2026-11-02 #2 INDOMIM INV-LONG conf=2 mag=99.41 score=299.41 net=1425.25
+  2026-11-02 #3 RATEGAIN INV-LONG conf=2 mag=98.96 score=298.96 net=-440.7
+  2026-11-03 #1 GOODLUCK INV-ABOVE conf=1 mag=100.0 score=200.0 net=604.31
+  2026-11-03 #2 MENONBE INV-ABOVE conf=1 mag=99.84 score=199.84 net=-198.75
+  2026-11-03 #3 QPOWER INV-ABOVE conf=1 mag=99.69 score=199.69 net=-768.9
+  2026-11-04 #1 AAVAS INV-ABOVE conf=1 mag=100.0 score=200.0 net=-604.85
+  2026-11-04 #2 ACMESOLAR INV-ABOVE conf=1 mag=99.9 score=199.9 net=-249.62
+  2026-11-04 #3 AEGISVOPAK INV-ABOVE conf=1 mag=99.79 score=199.79 net=253.75
+  2026-11-05 #1 MATRIMONY INV-ABOVE conf=1 mag=100.0 score=200.0 net=658.75
+  2026-11-05 #2 GSPCROP INV-ABOVE conf=1 mag=99.84 score=199.84 net=-262.53
+  2026-11-05 #3 ABFRL INV-ABOVE conf=1 mag=94.41 score=194.41 net=-61.03
+  2026-11-06 #1 ALEMBICLTD INV-ABOVE conf=1 mag=100.0 score=200.0 net=83.08
+  2026-11-06 #2 CANTABIL INV-ABOVE conf=1 mag=99.83 score=199.83 net=-170.85
+  2026-11-06 #3 EMAMILTD INV-ABOVE conf=1 mag=99.67 score=199.67 net=444.5
+  2026-11-09 #1 GLENMARK INV-ABOVE conf=2 mag=85.57 score=285.57 net=-1369.0
+  2026-11-09 #2 RADICO INV-ABOVE conf=1 mag=100.0 score=200.0 net=-2318.85
+  2026-11-09 #3 UNOMINDA INV-ABOVE conf=1 mag=99.83 score=199.83 net=1619.63
+  2026-11-11 #1 AAVAS INV-ABOVE conf=1 mag=100.0 score=200.0 net=-610.25
+  2026-11-11 #2 ACI INV-ABOVE conf=1 mag=99.86 score=199.86 net=-253.9
+  2026-11-11 #3 HOMEFIRST INV-ABOVE conf=1 mag=99.72 score=199.72 net=-586.45

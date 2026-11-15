@@ -1,0 +1,730 @@
+{
+ "construction": "Stock Engine LIVE (causal decision points)",
+ "live_comps": [
+  "N4-V3",
+  "P2F",
+  "P2F-R2",
+  "R2-LOWBAND"
+ ],
+ "not_live_comps": [
+  "F4",
+  "INV-ABOVE",
+  "INV-LONG"
+ ],
+ "days": [
+  "2026-10-01",
+  "2026-10-05",
+  "2026-10-06",
+  "2026-10-07",
+  "2026-10-08",
+  "2026-10-09",
+  "2026-10-12",
+  "2026-10-13",
+  "2026-10-14",
+  "2026-10-15",
+  "2026-10-16",
+  "2026-10-19",
+  "2026-10-21",
+  "2026-10-22",
+  "2026-10-23",
+  "2026-10-26",
+  "2026-10-27",
+  "2026-10-28",
+  "2026-10-29",
+  "2026-10-30",
+  "2026-11-02",
+  "2026-11-03",
+  "2026-11-04",
+  "2026-11-05",
+  "2026-11-06",
+  "2026-11-09",
+  "2026-11-11"
+ ],
+ "fidelity": true,
+ "audit_a3_n4": {
+  "checked": 24,
+  "failures": []
+ },
+ "total": {
+  "trades": 39,
+  "net": 8724.39,
+  "win_rate": 43.6,
+  "expectancy": 223.7,
+  "ex_top3": -3256.65,
+  "top3_stocks": [
+   [
+    "TCS",
+    4716.17
+   ],
+   [
+    "M&M",
+    3959.87
+   ],
+   [
+    "DRREDDY",
+    3305.0
+   ]
+  ],
+  "fc_net": 634.72,
+  "fc_expectancy": 16.27,
+  "fc_win_rate": 43.6
+ },
+ "october": {
+  "trades": 28,
+  "net": 1960.01,
+  "win_rate": 46.4,
+  "expectancy": 70.0,
+  "ex_top3": -6897.97,
+  "top3_stocks": [
+   [
+    "TCS",
+    4716.17
+   ],
+   [
+    "DRREDDY",
+    3305.0
+   ],
+   [
+    "HDFCBANK",
+    836.81
+   ]
+  ],
+  "fc_net": 779.06,
+  "fc_expectancy": 27.82,
+  "fc_win_rate": 46.4
+ },
+ "november": {
+  "trades": 11,
+  "net": 6764.38,
+  "win_rate": 36.4,
+  "expectancy": 614.94,
+  "ex_top3": -1352.29,
+  "top3_stocks": [
+   [
+    "M&M",
+    3959.87
+   ],
+   [
+    "GLENMARK",
+    3197.5
+   ],
+   [
+    "KALYANKJIL",
+    959.3
+   ]
+  ],
+  "fc_net": -144.34,
+  "fc_expectancy": -13.12,
+  "fc_win_rate": 36.4
+ },
+ "per_day": {
+  "2026-10-01": {
+   "picks": 0,
+   "net": 0,
+   "fc_net": 0
+  },
+  "2026-10-05": {
+   "picks": 0,
+   "net": 0,
+   "fc_net": 0
+  },
+  "2026-10-06": {
+   "picks": 0,
+   "net": 0,
+   "fc_net": 0
+  },
+  "2026-10-07": {
+   "picks": 0,
+   "net": 0,
+   "fc_net": 0
+  },
+  "2026-10-08": {
+   "picks": 1,
+   "net": -246.32,
+   "fc_net": -238.07
+  },
+  "2026-10-09": {
+   "picks": 1,
+   "net": 3192.5,
+   "fc_net": 315.58
+  },
+  "2026-10-12": {
+   "picks": 1,
+   "net": -1132.45,
+   "fc_net": -160.17
+  },
+  "2026-10-13": {
+   "picks": 2,
+   "net": 1601.48,
+   "fc_net": 23.79
+  },
+  "2026-10-14": {
+   "picks": 1,
+   "net": 1610.0,
+   "fc_net": 257.0
+  },
+  "2026-10-15": {
+   "picks": 1,
+   "net": -712.5,
+   "fc_net": -161.05
+  },
+  "2026-10-16": {
+   "picks": 1,
+   "net": 230.21,
+   "fc_net": 332.89
+  },
+  "2026-10-19": {
+   "picks": 2,
+   "net": -1160.56,
+   "fc_net": -401.91
+  },
+  "2026-10-21": {
+   "picks": 2,
+   "net": 1701.24,
+   "fc_net": 540.74
+  },
+  "2026-10-22": {
+   "picks": 3,
+   "net": -300.51,
+   "fc_net": -56.34
+  },
+  "2026-10-23": {
+   "picks": 2,
+   "net": 1726.25,
+   "fc_net": 534.81
+  },
+  "2026-10-26": {
+   "picks": 1,
+   "net": 1857.5,
+   "fc_net": 320.53
+  },
+  "2026-10-27": {
+   "picks": 2,
+   "net": 252.68,
+   "fc_net": 273.1
+  },
+  "2026-10-28": {
+   "picks": 4,
+   "net": -1648.1,
+   "fc_net": -101.05
+  },
+  "2026-10-29": {
+   "picks": 2,
+   "net": -2366.5,
+   "fc_net": -311.77
+  },
+  "2026-10-30": {
+   "picks": 2,
+   "net": -2644.91,
+   "fc_net": -389.02
+  },
+  "2026-11-02": {
+   "picks": 1,
+   "net": -300.24,
+   "fc_net": -237.78
+  },
+  "2026-11-03": {
+   "picks": 1,
+   "net": -451.85,
+   "fc_net": -163.56
+  },
+  "2026-11-04": {
+   "picks": 2,
+   "net": -398.77,
+   "fc_net": -328.64
+  },
+  "2026-11-05": {
+   "picks": 2,
+   "net": -309.43,
+   "fc_net": -404.58
+  },
+  "2026-11-06": {
+   "picks": 1,
+   "net": 3959.87,
+   "fc_net": 239.99
+  },
+  "2026-11-09": {
+   "picks": 2,
+   "net": 3438.7,
+   "fc_net": 585.38
+  },
+  "2026-11-11": {
+   "picks": 2,
+   "net": 826.1,
+   "fc_net": 164.85
+  }
+ },
+ "component_mix": {
+  "N4-V3": {
+   "picks": 13,
+   "net": 334.64
+  },
+  "P2F": {
+   "picks": 11,
+   "net": 2486.48
+  },
+  "P2F-R2": {
+   "picks": 10,
+   "net": 5062.06
+  },
+  "R2-LOWBAND": {
+   "picks": 5,
+   "net": 841.21
+  }
+ },
+ "november_per_day_picks": {
+  "2026-11-02": [
+   {
+    "lock_time": "09:35",
+    "stock": "NTPC",
+    "comp": "N4-V3",
+    "dir": "LONG",
+    "entry": 325.3,
+    "net": -300.24
+   }
+  ],
+  "2026-11-03": [
+   {
+    "lock_time": "09:10",
+    "stock": "GODREJCP",
+    "comp": "R2-LOWBAND",
+    "dir": "SHORT",
+    "entry": 823.7,
+    "net": -451.85
+   }
+  ],
+  "2026-11-04": [
+   {
+    "lock_time": "09:10",
+    "stock": "NATIONALUM",
+    "comp": "P2F",
+    "dir": "SHORT",
+    "entry": 317.55,
+    "net": -198.77
+   },
+   {
+    "lock_time": "09:10",
+    "stock": "NTPC",
+    "comp": "R2-LOWBAND",
+    "dir": "LONG",
+    "entry": 320.0,
+    "net": -200.0
+   }
+  ],
+  "2026-11-05": [
+   {
+    "lock_time": "09:10",
+    "stock": "NATIONALUM",
+    "comp": "P2F-R2",
+    "dir": "SHORT",
+    "entry": 328.8,
+    "net": -204.4
+   },
+   {
+    "lock_time": "09:35",
+    "stock": "NHPC",
+    "comp": "N4-V3",
+    "dir": "LONG",
+    "entry": 81.29,
+    "net": -105.03
+   }
+  ],
+  "2026-11-06": [
+   {
+    "lock_time": "09:10",
+    "stock": "M&M",
+    "comp": "P2F",
+    "dir": "LONG",
+    "entry": 3199.9,
+    "net": 3959.87
+   }
+  ],
+  "2026-11-09": [
+   {
+    "lock_time": "09:10",
+    "stock": "GLENMARK",
+    "comp": "P2F-R2",
+    "dir": "LONG",
+    "entry": 2590.0,
+    "net": 3197.5
+   },
+   {
+    "lock_time": "09:35",
+    "stock": "TATASTEEL",
+    "comp": "N4-V3",
+    "dir": "SHORT",
+    "entry": 187.47,
+    "net": 241.2
+   }
+  ],
+  "2026-11-11": [
+   {
+    "lock_time": "09:10",
+    "stock": "TATASTEEL",
+    "comp": "P2F",
+    "dir": "SHORT",
+    "entry": 186.4,
+    "net": -133.2
+   },
+   {
+    "lock_time": "09:35",
+    "stock": "KALYANKJIL",
+    "comp": "N4-V3",
+    "dir": "LONG",
+    "entry": 666.2,
+    "net": 959.3
+   }
+  ]
+ },
+ "audit_a1_lock_le_entry": true,
+ "audit_a1_days": [
+  {
+   "day": "2026-10-01",
+   "picks": 0,
+   "pool_reps": 0
+  },
+  {
+   "day": "2026-10-05",
+   "picks": 0,
+   "pool_reps": 0
+  },
+  {
+   "day": "2026-10-06",
+   "picks": 0,
+   "pool_reps": 0
+  },
+  {
+   "day": "2026-10-07",
+   "picks": 0,
+   "pool_reps": 0
+  },
+  {
+   "day": "2026-10-08",
+   "picks": 1,
+   "pool_reps": 1
+  },
+  {
+   "day": "2026-10-09",
+   "picks": 1,
+   "pool_reps": 1
+  },
+  {
+   "day": "2026-10-12",
+   "picks": 1,
+   "pool_reps": 1
+  },
+  {
+   "day": "2026-10-13",
+   "picks": 2,
+   "pool_reps": 2
+  },
+  {
+   "day": "2026-10-14",
+   "picks": 1,
+   "pool_reps": 1
+  },
+  {
+   "day": "2026-10-15",
+   "picks": 1,
+   "pool_reps": 1
+  },
+  {
+   "day": "2026-10-16",
+   "picks": 1,
+   "pool_reps": 1
+  },
+  {
+   "day": "2026-10-19",
+   "picks": 2,
+   "pool_reps": 3
+  },
+  {
+   "day": "2026-10-21",
+   "picks": 2,
+   "pool_reps": 4
+  },
+  {
+   "day": "2026-10-22",
+   "picks": 3,
+   "pool_reps": 3
+  },
+  {
+   "day": "2026-10-23",
+   "picks": 2,
+   "pool_reps": 2
+  },
+  {
+   "day": "2026-10-26",
+   "picks": 1,
+   "pool_reps": 4
+  },
+  {
+   "day": "2026-10-27",
+   "picks": 2,
+   "pool_reps": 3
+  },
+  {
+   "day": "2026-10-28",
+   "picks": 4,
+   "pool_reps": 6
+  },
+  {
+   "day": "2026-10-29",
+   "picks": 2,
+   "pool_reps": 6
+  },
+  {
+   "day": "2026-10-30",
+   "picks": 2,
+   "pool_reps": 6
+  },
+  {
+   "day": "2026-11-02",
+   "picks": 1,
+   "pool_reps": 1
+  },
+  {
+   "day": "2026-11-03",
+   "picks": 1,
+   "pool_reps": 1
+  },
+  {
+   "day": "2026-11-04",
+   "picks": 2,
+   "pool_reps": 3
+  },
+  {
+   "day": "2026-11-05",
+   "picks": 2,
+   "pool_reps": 6
+  },
+  {
+   "day": "2026-11-06",
+   "picks": 1,
+   "pool_reps": 2
+  },
+  {
+   "day": "2026-11-09",
+   "picks": 2,
+   "pool_reps": 2
+  },
+  {
+   "day": "2026-11-11",
+   "picks": 2,
+   "pool_reps": 2
+  }
+ ],
+ "audit_a2_truncation": [
+  {
+   "day": "2026-10-16",
+   "slice": "10:30",
+   "chain_checked": 949,
+   "chain_mismatches": [
+    [
+     "APLAPOLLO",
+     1
+    ],
+    [
+     "ADANIGREEN",
+     1
+    ],
+    [
+     "ABREL",
+     1
+    ],
+    [
+     "BERGEPAINT",
+     1
+    ],
+    [
+     "BHEL",
+     1
+    ]
+   ],
+   "f4_checked": 112,
+   "f4_mismatches": [
+    "BERGEPAINT",
+    "BPCL",
+    "CONCOR",
+    "FSL",
+    "GRANULES"
+   ],
+   "pass": false
+  },
+  {
+   "day": "2026-10-16",
+   "slice": "13:30",
+   "chain_checked": 1694,
+   "chain_mismatches": [
+    [
+     "APLAPOLLO",
+     2
+    ],
+    [
+     "AFFLE",
+     2
+    ],
+    [
+     "CARBORUNIV",
+     2
+    ],
+    [
+     "CONCOR",
+     1
+    ],
+    [
+     "GVT&D",
+     1
+    ]
+   ],
+   "f4_checked": 138,
+   "f4_mismatches": [
+    "AFFLE",
+    "CONCOR",
+    "LT",
+    "LLOYDSME",
+    "MANAPPURAM"
+   ],
+   "pass": false
+  },
+  {
+   "day": "2026-10-30",
+   "slice": "10:30",
+   "chain_checked": 1313,
+   "chain_mismatches": [
+    [
+     "BSE",
+     1
+    ],
+    [
+     "BIOCON",
+     1
+    ],
+    [
+     "GODREJPROP",
+     1
+    ],
+    [
+     "HDFCAMC",
+     1
+    ],
+    [
+     "HINDUNILVR",
+     1
+    ]
+   ],
+   "f4_checked": 234,
+   "f4_mismatches": [
+    "BSE",
+    "UNIONBANK",
+    "VAML",
+    "PROTEAN",
+    "ARMEE"
+   ],
+   "pass": false
+  },
+  {
+   "day": "2026-10-30",
+   "slice": "13:30",
+   "chain_checked": 2063,
+   "chain_mismatches": [
+    [
+     "ICICIGI",
+     1
+    ],
+    [
+     "ONESOURCE",
+     1
+    ],
+    [
+     "ARMEE",
+     1
+    ],
+    [
+     "CANTABIL",
+     1
+    ],
+    [
+     "PGIL",
+     1
+    ]
+   ],
+   "f4_checked": 242,
+   "f4_mismatches": [
+    "ARMEE",
+    "GUFICBIO"
+   ],
+   "pass": false
+  },
+  {
+   "day": "2026-11-11",
+   "slice": "10:30",
+   "chain_checked": 1169,
+   "chain_mismatches": [
+    [
+     "ADANIENT",
+     1
+    ],
+    [
+     "ATGL",
+     1
+    ],
+    [
+     "ANANTRAJ",
+     1
+    ],
+    [
+     "APARINDS",
+     2
+    ],
+    [
+     "BHARATCOAL",
+     2
+    ]
+   ],
+   "f4_checked": 0,
+   "f4_mismatches": [],
+   "pass": false
+  },
+  {
+   "day": "2026-11-11",
+   "slice": "13:30",
+   "chain_checked": 2134,
+   "chain_mismatches": [
+    [
+     "CHOLAHLDNG",
+     2
+    ],
+    [
+     "GLENMARK",
+     1
+    ],
+    [
+     "GPIL",
+     1
+    ],
+    [
+     "HONAUT",
+     1
+    ],
+    [
+     "JUBLFOOD",
+     2
+    ]
+   ],
+   "f4_checked": 0,
+   "f4_mismatches": [],
+   "pass": false
+  }
+ ],
+ "variant_d_reference": {
+  "trades": 162,
+  "net": 24032.62,
+  "ex_top3": 8916.25,
+  "win_rate": 42.6,
+  "expectancy": 148.35,
+  "november_trades": 42,
+  "november_net": 7930.5,
+  "fc_net": 1215.08
+ }
+}

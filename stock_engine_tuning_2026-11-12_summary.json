@@ -1,0 +1,506 @@
+{
+ "started": "2026-11-12 01:27 UTC",
+ "t1_floors": {
+  "F4-C": {
+   "twin_trades": 3236,
+   "abs_floor_pct": 0.931,
+   "median": 0.712,
+   "max": 0.999
+  },
+  "INV-LONG-C": {
+   "twin_trades": 4116,
+   "abs_floor_pct": 4.257,
+   "median": 1.572,
+   "max": 15.338
+  },
+  "INV-ABOVE-C": {
+   "twin_trades": 2289,
+   "abs_floor_pct": 4.994,
+   "median": 2.116,
+   "max": 17.956
+  }
+ },
+ "harness_validation": {
+  "baseline_repro": true,
+  "failed_combined_repro": true
+ },
+ "t5_confirmation": {
+  "invl_reps": 5618,
+  "confirmed": 792
+ },
+ "stage1_variants": {
+  "T1": {
+   "stats": {
+    "trades": 162,
+    "net": -20913.42,
+    "win_rate": 27.8,
+    "expectancy": -129.1,
+    "ex_top3": -32894.46,
+    "top3_stocks": [
+     [
+      "TCS",
+      4716.17
+     ],
+     [
+      "M&M",
+      3959.87
+     ],
+     [
+      "DRREDDY",
+      3305.0
+     ]
+    ],
+    "fc_net": -9440.92
+   },
+   "october": {
+    "trades": 120,
+    "net": -19185.5,
+    "win_rate": 30.8,
+    "expectancy": -159.88,
+    "ex_top3": -31783.97,
+    "top3_stocks": [
+     [
+      "TCS",
+      4716.17
+     ],
+     [
+      "GLAND",
+      4577.3
+     ],
+     [
+      "DRREDDY",
+      3305.0
+     ]
+    ],
+    "fc_net": -5965.55
+   },
+   "november": {
+    "trades": 42,
+    "net": -1727.92,
+    "win_rate": 19.0,
+    "expectancy": -41.14,
+    "ex_top3": -10711.54,
+    "top3_stocks": [
+     [
+      "M&M",
+      3959.87
+     ],
+     [
+      "GLENMARK",
+      3197.5
+     ],
+     [
+      "CHOLAHLDNG",
+      1826.25
+     ]
+    ],
+    "fc_net": -3475.37
+   },
+   "chain_attribution": {
+    "F4-C": {
+     "picks": 33,
+     "net": -10177.65
+    },
+    "INV-ABOVE-C": {
+     "picks": 26,
+     "net": -8363.96
+    },
+    "INV-LONG-C": {
+     "picks": 64,
+     "net": -11096.2
+    }
+   },
+   "reaction_attribution": {
+    "picks": 39,
+    "net": 8724.39
+   },
+   "screen": {
+    "combined_ex_top3_gt_0": false,
+    "combined_ex_top3_beats_baseline": false,
+    "oct_not_worse": false,
+    "nov_not_worse": false
+   },
+   "screen_pass": false
+  },
+  "T2": {
+   "stats": {
+    "trades": 93,
+    "net": 3023.65,
+    "win_rate": 44.1,
+    "expectancy": 32.51,
+    "ex_top3": -8957.39,
+    "top3_stocks": [
+     [
+      "TCS",
+      4716.17
+     ],
+     [
+      "M&M",
+      3959.87
+     ],
+     [
+      "DRREDDY",
+      3305.0
+     ]
+    ],
+    "fc_net": 421.16
+   },
+   "october": {
+    "trades": 68,
+    "net": -3873.97,
+    "win_rate": 45.6,
+    "expectancy": -56.97,
+    "ex_top3": -14228.64,
+    "top3_stocks": [
+     [
+      "TCS",
+      4716.17
+     ],
+     [
+      "DRREDDY",
+      3305.0
+     ],
+     [
+      "LALPATHLAB",
+      2333.5
+     ]
+    ],
+    "fc_net": 196.73
+   },
+   "november": {
+    "trades": 25,
+    "net": 6897.62,
+    "win_rate": 40.0,
+    "expectancy": 275.9,
+    "ex_top3": -1879.38,
+    "top3_stocks": [
+     [
+      "M&M",
+      3959.87
+     ],
+     [
+      "GLENMARK",
+      3197.5
+     ],
+     [
+      "UNOMINDA",
+      1619.63
+     ]
+    ],
+    "fc_net": 224.43
+   },
+   "chain_attribution": {
+    "F4-C": {
+     "picks": 32,
+     "net": -9973.37
+    },
+    "INV-ABOVE-C": {
+     "picks": 12,
+     "net": -1502.33
+    },
+    "INV-LONG-C": {
+     "picks": 10,
+     "net": 5774.96
+    }
+   },
+   "reaction_attribution": {
+    "picks": 39,
+    "net": 8724.39
+   },
+   "screen": {
+    "combined_ex_top3_gt_0": false,
+    "combined_ex_top3_beats_baseline": false,
+    "oct_not_worse": false,
+    "nov_not_worse": false
+   },
+   "screen_pass": false
+  },
+  "T3": {
+   "stats": {
+    "trades": 159,
+    "net": 14315.27,
+    "win_rate": 42.8,
+    "expectancy": 90.03,
+    "ex_top3": 1609.13,
+    "top3_stocks": [
+     [
+      "TCS",
+      4716.17
+     ],
+     [
+      "SKFINDUS",
+      4030.1
+     ],
+     [
+      "M&M",
+      3959.87
+     ]
+    ],
+    "fc_net": -1243.69
+   },
+   "october": {
+    "trades": 118,
+    "net": 6171.38,
+    "win_rate": 44.1,
+    "expectancy": 52.3,
+    "ex_top3": -5879.89,
+    "top3_stocks": [
+     [
+      "TCS",
+      4716.17
+     ],
+     [
+      "SKFINDUS",
+      4030.1
+     ],
+     [
+      "DRREDDY",
+      3305.0
+     ]
+    ],
+    "fc_net": -1209.68
+   },
+   "november": {
+    "trades": 41,
+    "net": 8143.89,
+    "win_rate": 39.0,
+    "expectancy": 198.63,
+    "ex_top3": -1673.1,
+    "top3_stocks": [
+     [
+      "M&M",
+      3959.87
+     ],
+     [
+      "GLENMARK",
+      3197.5
+     ],
+     [
+      "APLAPOLLO",
+      2659.62
+     ]
+    ],
+    "fc_net": -34.01
+   },
+   "chain_attribution": {
+    "F4-C": {
+     "picks": 67,
+     "net": 1311.97
+    },
+    "INV-ABOVE-C": {
+     "picks": 25,
+     "net": -786.61
+    },
+    "INV-LONG-C": {
+     "picks": 28,
+     "net": 5065.52
+    }
+   },
+   "reaction_attribution": {
+    "picks": 39,
+    "net": 8724.39
+   },
+   "screen": {
+    "combined_ex_top3_gt_0": true,
+    "combined_ex_top3_beats_baseline": true,
+    "oct_not_worse": true,
+    "nov_not_worse": false
+   },
+   "screen_pass": false
+  },
+  "T4": {
+   "stats": {
+    "trades": 162,
+    "net": 439.21,
+    "win_rate": 34.0,
+    "expectancy": 2.71,
+    "ex_top3": -11541.83,
+    "top3_stocks": [
+     [
+      "TCS",
+      4716.17
+     ],
+     [
+      "M&M",
+      3959.87
+     ],
+     [
+      "DRREDDY",
+      3305.0
+     ]
+    ],
+    "fc_net": -5334.14
+   },
+   "october": {
+    "trades": 120,
+    "net": -4548.08,
+    "win_rate": 35.0,
+    "expectancy": -37.9,
+    "ex_top3": -14790.62,
+    "top3_stocks": [
+     [
+      "TCS",
+      4716.17
+     ],
+     [
+      "DRREDDY",
+      3305.0
+     ],
+     [
+      "MACPOWER",
+      2221.37
+     ]
+    ],
+    "fc_net": -4007.79
+   },
+   "november": {
+    "trades": 42,
+    "net": 4987.29,
+    "win_rate": 31.0,
+    "expectancy": 118.75,
+    "ex_top3": -4829.7,
+    "top3_stocks": [
+     [
+      "M&M",
+      3959.87
+     ],
+     [
+      "GLENMARK",
+      3197.5
+     ],
+     [
+      "APLAPOLLO",
+      2659.62
+     ]
+    ],
+    "fc_net": -1326.35
+   },
+   "chain_attribution": {
+    "F4-C": {
+     "picks": 29,
+     "net": -6582.35
+    },
+    "INV-ABOVE-C": {
+     "picks": 26,
+     "net": -1639.17
+    },
+    "INV-LONG-C": {
+     "picks": 68,
+     "net": -63.66
+    }
+   },
+   "reaction_attribution": {
+    "picks": 39,
+    "net": 8724.39
+   },
+   "screen": {
+    "combined_ex_top3_gt_0": false,
+    "combined_ex_top3_beats_baseline": false,
+    "oct_not_worse": false,
+    "nov_not_worse": false
+   },
+   "screen_pass": false
+  },
+  "T5": {
+   "stats": {
+    "trades": 162,
+    "net": -4541.53,
+    "win_rate": 36.4,
+    "expectancy": -28.03,
+    "ex_top3": -18595.0,
+    "top3_stocks": [
+     [
+      "CENTUM",
+      4760.0
+     ],
+     [
+      "TCS",
+      4716.17
+     ],
+     [
+      "GLAND",
+      4577.3
+     ]
+    ],
+    "fc_net": -3284.56
+   },
+   "october": {
+    "trades": 120,
+    "net": -11776.26,
+    "win_rate": 36.7,
+    "expectancy": -98.14,
+    "ex_top3": -25829.73,
+    "top3_stocks": [
+     [
+      "CENTUM",
+      4760.0
+     ],
+     [
+      "TCS",
+      4716.17
+     ],
+     [
+      "GLAND",
+      4577.3
+     ]
+    ],
+    "fc_net": -2819.72
+   },
+   "november": {
+    "trades": 42,
+    "net": 7234.73,
+    "win_rate": 35.7,
+    "expectancy": 172.26,
+    "ex_top3": -2582.26,
+    "top3_stocks": [
+     [
+      "M&M",
+      3959.87
+     ],
+     [
+      "GLENMARK",
+      3197.5
+     ],
+     [
+      "APLAPOLLO",
+      2659.62
+     ]
+    ],
+    "fc_net": -464.84
+   },
+   "chain_attribution": {
+    "F4-C": {
+     "picks": 37,
+     "net": -9250.84
+    },
+    "INV-ABOVE-C": {
+     "picks": 26,
+     "net": -3099.07
+    },
+    "INV-LONG-C": {
+     "picks": 60,
+     "net": -916.01
+    }
+   },
+   "reaction_attribution": {
+    "picks": 39,
+    "net": 8724.39
+   },
+   "screen": {
+    "combined_ex_top3_gt_0": false,
+    "combined_ex_top3_beats_baseline": false,
+    "oct_not_worse": false,
+    "nov_not_worse": false
+   },
+   "screen_pass": false
+  }
+ },
+ "baseline": {
+  "trades": 39,
+  "net": 8724.39,
+  "ex_top3": -3256.65,
+  "oct_ex_top3": -6897.97,
+  "nov_ex_top3": -1352.29
+ },
+ "elapsed_secs": 60.2
+}

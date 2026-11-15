@@ -1,0 +1,144 @@
+loading machinery (1081 symbols)...
+extra ctx: agg check 1875 bars, 0 mismatches; added {}
+NIFTY EXTENSION FAILED: nifty overlap mismatch
+regime spot-checks pass (2025-01-02, 2025-03-17, 2025-06-02, 2026-10-30); below50 on 2025-01-02: True | first 2025 day with computable ma50: 2025-01-01
+build days: ['2026-10-01', '2026-10-05', '2026-10-06', '2026-10-07', '2026-10-08', '2026-10-09', '2026-10-12', '2026-10-13', '2026-10-14', '2026-10-15', '2026-10-16', '2026-10-19', '2026-10-21', '2026-10-22', '2026-10-23', '2026-10-26', '2026-10-27', '2026-10-28', '2026-10-29', '2026-10-30', '2026-11-02', '2026-11-03', '2026-11-04', '2026-11-05', '2026-11-06', '2026-11-09', '2026-11-11']
+building full pool (fidelity reference)...
+FIDELITY production==detailed: True (9703 vs 9703)
+LIVE filter: 9703 pool rows -> 62 in ['N4-V3', 'P2F', 'P2F-R2', 'R2-LOWBAND']
+2026-10-01: 0 picks locked ()
+2026-10-05: 0 picks locked ()
+2026-10-06: 0 picks locked ()
+2026-10-07: 0 picks locked ()
+2026-10-08: 1 picks locked (ITC/N4-V3@09:35)
+2026-10-09: 1 picks locked (TCS/N4-V3@09:35)
+2026-10-12: 1 picks locked (TCS/P2F@09:10)
+2026-10-13: 2 picks locked (TCS/P2F-R2@09:10, HCLTECH/N4-V3@09:35)
+2026-10-14: 1 picks locked (HCLTECH/P2F@09:10)
+2026-10-15: 1 picks locked (HCLTECH/P2F-R2@09:10)
+2026-10-16: 1 picks locked (WIPRO/N4-V3@09:35)
+2026-10-19: 2 picks locked (WIPRO/P2F@09:10, AXISBANK/N4-V3@09:35)
+2026-10-21: 2 picks locked (AXISBANK/P2F@09:10, WIPRO/P2F-R2@09:10)
+2026-10-22: 3 picks locked (AXISBANK/P2F-R2@09:10, BAJFINANCE/P2F@09:10, HDFCBANK/R2-LOWBAND@09:10)
+2026-10-23: 2 picks locked (BAJFINANCE/P2F-R2@09:10, HINDZINC/R2-LOWBAND@09:10)
+2026-10-26: 1 picks locked (DRREDDY/N4-V3@09:35)
+2026-10-27: 2 picks locked (DRREDDY/P2F@09:10, RECLTD/N4-V3@09:35)
+2026-10-28: 4 picks locked (DRREDDY/P2F-R2@09:10, KOTAKBANK/R2-LOWBAND@09:10, RECLTD/P2F@09:10, LT/N4-V3@09:35)
+2026-10-29: 2 picks locked (RECLTD/P2F-R2@09:10, TVSMOTOR/P2F@09:10)
+2026-10-30: 2 picks locked (LT/P2F-R2@09:10, GODREJCP/N4-V3@09:35)
+2026-11-02: 1 picks locked (NTPC/N4-V3@09:35)
+2026-11-03: 1 picks locked (GODREJCP/R2-LOWBAND@09:10)
+2026-11-04: 2 picks locked (NATIONALUM/P2F@09:10, NTPC/R2-LOWBAND@09:10)
+2026-11-05: 2 picks locked (NATIONALUM/P2F-R2@09:10, NHPC/N4-V3@09:35)
+2026-11-06: 1 picks locked (M&M/P2F@09:10)
+2026-11-09: 2 picks locked (GLENMARK/P2F-R2@09:10, TATASTEEL/N4-V3@09:35)
+2026-11-11: 2 picks locked (TATASTEEL/P2F@09:10, KALYANKJIL/N4-V3@09:35)
+timing audit A2 (truncated rebuilds — NOT_LIVE evidence)...
+AUDIT 2026-10-16 slice 10:30: chain 949 checked 125 mismatch; F4 112 checked 21 mismatch
+AUDIT 2026-10-16 slice 13:30: chain 1694 checked 27 mismatch; F4 138 checked 9 mismatch
+AUDIT 2026-10-30 slice 10:30: chain 1313 checked 30 mismatch; F4 234 checked 8 mismatch
+AUDIT 2026-10-30 slice 13:30: chain 2063 checked 6 mismatch; F4 242 checked 2 mismatch
+AUDIT 2026-11-11 slice 10:30: chain 1169 checked 63 mismatch; F4 0 checked 0 mismatch
+AUDIT 2026-11-11 slice 13:30: chain 2134 checked 19 mismatch; F4 0 checked 0 mismatch
+timing audit A3 (N4 determinability from bars <= 09:30)...
+A3: 24 N4 rows checked, 0 failures
+{
+ "total": {
+  "trades": 39,
+  "net": 8724.39,
+  "win_rate": 43.6,
+  "expectancy": 223.7,
+  "ex_top3": -3256.65,
+  "top3_stocks": [
+   [
+    "TCS",
+    4716.17
+   ],
+   [
+    "M&M",
+    3959.87
+   ],
+   [
+    "DRREDDY",
+    3305.0
+   ]
+  ],
+  "fc_net": 634.72,
+  "fc_expectancy": 16.27,
+  "fc_win_rate": 43.6
+ },
+ "october": {
+  "trades": 28,
+  "net": 1960.01,
+  "win_rate": 46.4,
+  "expectancy": 70.0,
+  "ex_top3": -6897.97,
+  "top3_stocks": [
+   [
+    "TCS",
+    4716.17
+   ],
+   [
+    "DRREDDY",
+    3305.0
+   ],
+   [
+    "HDFCBANK",
+    836.81
+   ]
+  ],
+  "fc_net": 779.06,
+  "fc_expectancy": 27.82,
+  "fc_win_rate": 46.4
+ },
+ "november": {
+  "trades": 11,
+  "net": 6764.38,
+  "win_rate": 36.4,
+  "expectancy": 614.94,
+  "ex_top3": -1352.29,
+  "top3_stocks": [
+   [
+    "M&M",
+    3959.87
+   ],
+   [
+    "GLENMARK",
+    3197.5
+   ],
+   [
+    "KALYANKJIL",
+    959.3
+   ]
+  ],
+  "fc_net": -144.34,
+  "fc_expectancy": -13.12,
+  "fc_win_rate": 36.4
+ },
+ "component_mix": {
+  "N4-V3": {
+   "picks": 13,
+   "net": 334.64
+  },
+  "P2F": {
+   "picks": 11,
+   "net": 2486.48
+  },
+  "P2F-R2": {
+   "picks": 10,
+   "net": 5062.06
+  },
+  "R2-LOWBAND": {
+   "picks": 5,
+   "net": 841.21
+  }
+ }
+}
+NOVEMBER PER-DAY PICKS:
+  2026-11-02: 09:35 NTPC N4-V3 -300.24
+  2026-11-03: 09:10 GODREJCP R2-LOWBAND -451.85
+  2026-11-04: 09:10 NATIONALUM P2F -198.77; 09:10 NTPC R2-LOWBAND -200.00
+  2026-11-05: 09:10 NATIONALUM P2F-R2 -204.40; 09:35 NHPC N4-V3 -105.03
+  2026-11-06: 09:10 M&M P2F +3959.87
+  2026-11-09: 09:10 GLENMARK P2F-R2 +3197.50; 09:35 TATASTEEL N4-V3 +241.20
+  2026-11-11: 09:10 TATASTEEL P2F -133.20; 09:35 KALYANKJIL N4-V3 +959.30
