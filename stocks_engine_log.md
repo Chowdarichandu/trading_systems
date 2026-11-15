@@ -950,3 +950,1195 @@ Each cycle: freeze written before scoring (stocks_engine_frozen.md + v3_out/free
 ## V3 CYCLE 16 — DELETION V3C16-N4-VEDL-SHORT-EXCL: BANKED (2026-10-31; desert-phase continuation)
 - Registry re-derived at the post-C15 book (stocks_engine_v3_registry.py; v3_out/v3_registry.json): exactly 2 qualifying slices — N4-V3 × VEDL × SHORT (beats=True) and the permanent N4-V3 × HDFCBANK × LONG rotation (beats=False, unchanged). Deleted set asserted == freeze in-pass (1 trade: 2026-01-30, 09:35, −₹616.60). Gate: all six checks pass. Jan 2026 → +₹32,776.36; combined **+₹259,243.66 → +₹259,860.26**; 2026 → +₹215,131.13; 2025 unchanged +₹44,729.13. Bottom-5 unchanged (the beat registers at Jan 2026's position). no_beat stays 0. Books: stocks_engine_v3_c16_book2025_trades.csv / _book2026_trades.csv. Evidence: v3_out/v3_cycle16_result.json.
 - **The deletion frontier is now EMPTY at the standing bar** (full ≤ −₹500, each-year ≤ 0): the only remaining row is the HDFCBANK rotation, unbankable while Jul 2025 is the worst month. From here, v3 progress is additive only — the desert-month breadth phase (bulk/block-deal calendar) begins.
+
+## V3 DESERT PHASE — BULK/BLOCK-DEAL CALENDAR: BUILD ATTEMPTED, NOT BUILT (sourcing verdict, 2026-10-31)
+- **Verdict: a uniform bulk/block-deal calendar for Jan 2025–Oct 2026 CANNOT be built from this environment, and a partial one was refused.** The desert-phase order required uniform construction across both judging windows; every systematic source was tested and failed on reachability or uniformity:
+  - **NSE historical report API** (`www.nseindia.com/api/historicalOR/bulk-block-short-deals`, the documented endpoint behind the exchange's own bulk/block page; client = NseIndiaApi `nse` package, installed in `.venv_nse` for this build): the host **www.nseindia.com is unreachable from this VM** — curl timeouts at 25s and 60s, httpx read-timeout on the cookie handshake, and the web fetcher returns a network error. `archives.nseindia.com` answers (200, fast) but carries only the latest session's bulk.csv/block.csv.
+  - **BSE BulkDealData API** (api.bseindia.com, browser headers + bseindia.com referer): **Akamai 403** from this IP.
+  - **Wayback Machine** snapshots of the daily bulk.csv/block.csv: effectively absent in-window (one 301 in Jan 2025) — a snapshot calendar would fabricate no-deal days.
+  - **Ansaar** (ansaar.in — holds 89,177 NSE bulk rows, Jan 2023–Sep 2026, per its published analysis): only the latest session and a 30-session summary are readable pages; per-stock deal history is client-side only, the `?date=` parameter is ignored, and the sitemap exposes no session archive. Not a uniform source via any readable route.
+  - **Tickertape** per-stock deal tables: JS-gated — the text fetcher receives "0 of 0 results".
+  - **GitHub dataset** `shahzebkhan-os/btst`: a genuine exchange-shaped bulk-deals CSV, but **bulk-only and truncated at 2026-03-20** (no block deals; Apr–Oct 2026 missing) → non-uniform across the judging windows. NOT used; recorded here as the cross-check reference if exchange access ever opens.
+  - **Dividend/record-date rows:** no uniform source found either (the calendars' 7 dividend rows are per-event research) → not built, per the same standard.
+- **Why refused rather than approximated:** a calendar with silently missing days makes missing data impersonate no-event days, and the desert months are exactly where coverage decides the measurement — the Lesson 1 / Lesson 26 failure shape at the data layer. The calendar is re-buildable in one step if NSE/BSE access opens (endpoint + field map BD_DT_DATE/BD_SYMBOL/BD_BUY_SELL/BD_QTY_TRD/BD_TP_WATP are documented above).
+- **Also considered and refused pre-scoring:** N4-DIV (adding the calendars' existing `dividend` rows to N4-V3's event set) — the ex-date morning move is mechanically the dividend adjustment itself (e.g. ITC ₹6.50 ≈ 1.5%), so the 09:25 trigger would fire on arithmetic, not information. Not a cycle.
+- **Pivot (charter §(c), second named hunting ground):** additive variants of the proven earners buildable uniformly from in-workspace data — the untested (band × lag) cell [1.5%, 2.0%) × R+1 (C17) and INV-family structure diagnoses. Jun 2025 stays unreachable by ANY event-class challenger (zero events of any class is its definition); its only theoretical lever is non-event machinery.
+
+## CYCLE 17 (v3, desert phase) — REJECTED: CH-V3-3 P2F-MIDBAND-R1, [1.5%,2.0%) reactions followed at R+1
+- **Result: REJECTED on the Cycle-6 standard and the gate.** Component: 16 trades combined, net **−₹464.39**, expectancy **−₹29.02/trade** — negative, so the additive standard fails before the maximin question (the flip placebo was also negative, −₹64.24/trade — the Lesson-21 shape exactly: beating the placebo is necessary, not sufficient). By year: 2025 **10 tr / +₹2,309.35** (exp +₹230.94; May 2025 +₹246.50 landed as targeted, Nov 2025 −₹80.45) vs 2026 **6 tr / −₹2,773.74** (exp −₹462.29; May −₹1,959.77, Aug −₹441.97, Oct −₹881.00, Feb +₹509.00). Union: 2026 falls, combined 259,860.26 → 259,395.87, lexi beat False — gate fails on three legs. Book unchanged; evidence `v3_out/v3_cycle17_result.json`.
+- **What this closes:** the P2F reaction-strength gradient at R+1 is now measured at three adjacent bands — ≥2.5% earns (+₹19,416.63 in-sample incumbent), [2.0%,2.5%) negative (SAT-32), [1.5%,2.0%) negative-expectancy (this cycle). Reaction FOLLOWING at R+1 exists only at the top band; below it, the same entries are noise with a cost attached. One grid cell remains unrun by the Lesson-22 rule ([1.0%,1.5%)×R+1) — queued as a grid-completing cycle, not as a hope.
+- Counters: cycles_completed 17, banks 15, rejects 2 (C2, C17), no_beat_cycles 1.
+
+## CYCLE 18 (v3, desert phase) — DIAGNOSED AND REFUSED PRE-SCORING: INV-ABOVE round-1 amputation fails the both-years bar on asserted numbers
+- **Diagnosis (stocks_engine_v3_cycle18_diag.py; population rebuilt with C2's exact pick — g1 gate, round≤2, standing law — and matched to the current book row-by-row; the 19 population-only 2025 rows are exactly the v2 C24 FLAT-day stand-aside trades, Mar–May 2025, as in C1's anchor):** INV-ABOVE by round on the CURRENT book —
+  - **Round 1: 133 tr combined, net −₹2,346.67** (2025: 105 tr / **+₹1,260.61**, +₹12.01/trade ≈ zero; 2026: 28 tr / **−₹3,607.28**, −₹128.83/trade).
+  - **Round 2: 54 tr combined, net +₹13,977.13** (2025: 46 tr / +₹7,020.64; 2026: 8 tr / +₹6,956.49, +₹869.56/trade) — round 2 carries the entire component.
+- **Desert anatomy, final form:** Jul 2025's INV-ABOVE bleed (−₹2,473.45) is exactly 3 round-1 trades (GLENMARK −₹1,134.05 and −₹1,165.70, HINDCOPPER −₹173.70); Jun 2025's whole month is 7 INV-ABOVE trades (6 round-1, net −₹1,236.42; 1 round-2, +₹280.50); Nov 2025 round-1 −₹1,923.73 vs round-2 +₹285.59.
+- **The challenger that suggests itself — INV-ABOVE takes round-2 signals only — is REFUSED without scoring, because the gate arithmetic is already determined by the asserted diagnosis:** deleting round 1 would lift Jul 2025 to −₹2,615.00, Jun 2025 to +₹280.50 and Nov 2025 to −₹540.21 (a clear lexicographic beat), and 2026 would rise +₹3,607.28 — **but 2025 would FALL by ₹1,260.61**, violating the charter's hard constraint that neither year falls. The maximin constitution prices cross-year consistency above worst-month repair; a slice that is (barely) positive in one year cannot be amputated to fix months in that same year. Recorded so the axis is not re-proposed: the (component × round) axis for INV-ABOVE is CLOSED by the both-years bar, the same bar that closed INV-ABOVE-R3 (C2) from the other side.
+- Book unchanged (combined +₹259,860.26). Counters: cycles_completed 18, banks 15, scored rejects 2 (C2, C17), pre-scoring refusals 2 (N4-DIV design refusal; C18 gate-arithmetic refusal), no_beat_cycles 2.
+
+## CYCLE 19 (v3, desert phase) — REJECTED: CH-V3-4 P2F-LOWEST-R1, [1.0%,1.5%) reactions followed at R+1 — THE (band × R+1) GRID IS NOW COMPLETE
+- **Result: REJECTED.** Component: 20 trades combined, net **−₹621.05**, expectancy **−₹31.05/trade** (flip placebo −₹243.30/trade — beaten, and irrelevant: expectancy is negative, Lesson 21). By year: 2025 **10 tr / +₹1,072.71** (Nov 2025 +₹2,491.90 would have flipped that month green, but Oct 2025 −₹1,792.95 and May 2025 −₹650.00 moved the other way) vs 2026 **10 tr / −₹1,693.76**. Union: 2026 falls, combined 259,860.26 → 259,239.21, lexi beat False. Book unchanged; evidence `v3_out/v3_cycle19_result.json`.
+- **The grid, closed with evidence at every cell (R+1 following of results reactions):** ≥2.5% EARNS (incumbent P2F) · [2.0%,2.5%) negative (SAT-32) · [1.5%,2.0%) negative expectancy (C17) · [1.0%,1.5%) negative expectancy (C19). Reaction-following at R+1 is a top-band-only phenomenon; below 2.5% the entries are noise carrying a ₹40 cost. No further band cells exist to run.
+- Counters: cycles_completed 19, no_beat_cycles **3** (C17 reject, C18 gate-arithmetic refusal, C19 reject) → **the charter's saturation rule fires.**
+
+## ENGINE v3 — TERMINATED: SATURATED-V3 (2026-10-31, desert phase close)
+- **Termination rule met:** 3 consecutive maximin no-beats (C17, C18, C19) after the deletion registry exhausted (C16) and the ordered data build failed on sourcing (bulk/block calendar, Lesson 39). Every road named in the v3 charter and the desert-phase order has been walked to a recorded end: (a) (comp × stock × dir) deletions — registry exhausted, last row banked C16; (b) (comp × round) axis — INV-LONG R3 banked (C1), INV-ABOVE R3 rejected (C2), INV-ABOVE round-1 amputation barred by the both-years rule on asserted numbers (C18); (c) P2F (band × lag) grid — completed, only the incumbent ≥2.5% × R+1 cell earns; (d) new event classes — bulk/block calendar not buildable uniformly from this environment (sourcing verdict, Lesson 39); dividend/N4 variant refused on a mechanical-artefact argument pre-scoring; (e) INV earliness axis — closed in v2 (L36).
+- **Final v3 book (the C16 book; C17–C19 changed nothing): combined +₹259,860.26 = ₹11,812/month over 22 months** (provisional per 100 shares, ₹40/trade, paper, real ₹0). **2025: +₹44,729.13** (731 tr, ₹3,727/month, ex-top-3 **+₹30.76**) · **2026: +₹215,131.13** (636 tr, ₹21,513/month). v3's total lift over the frozen v2 book: **+₹20,792.92** (15 banks, 3 scored rejects, 2 pre-scoring refusals, 19 cycles).
+- **Against the user's standards, stated plainly:** red months 6 → **4** (Mar and May 2025 flipped green in v3's first phase); **the worst month, Jul 2025 −₹5,088.45, NEVER crossed ₹0** — the ₹10,000 minimum-month objective is NOT met, and the desert phase (C16–C19) added nothing to the bottom-5 (Jul −5,088.45, Oct −3,020.72, Nov −2,463.94, Jun −955.92, May +234.82 — unchanged; C16's bank landed in Jan 2026). All six regime cells × year remain positive (2025 UP +11,242.90 / DOWN +29,773.66 / FLAT +3,712.57; 2026 UP +15,888.69 / DOWN +192,179.54 / FLAT +7,062.90). The ₹15–25k/month acceptance band: met by 2026 alone (₹21,513/month), not by the 22-month average (₹11,812) and not by 2025 (₹3,727) — the remaining gap is a 2025-regime gap, concentrated in four months whose common anatomy is now fully documented (UP-regime INV-ABOVE round-1 bleed + zero/few usable events).
+- **What would reopen v3 (named, per the saturation discipline):** (1) exchange/bulk-block data access from this environment (endpoint + field map recorded in the desert-phase log entry — the calendar then builds in one step and its event class gets its frozen challengers); (2) genuinely new data (e.g. November–December 2026 fresh bars — the frozen SarvaRitu forward test is already running untouched and judges this book family on fresh data); (3) a genuinely new mechanism class not derived from the F4/INV/N4/P2F families. Re-running closed cells, loosening the gate, or re-defining the floor are not reopenings.
+- **Books of record:** `stocks_engine_v3_c16_book2025_trades.csv` / `stocks_engine_v3_c16_book2026_trades.csv`. The SarvaRitu roof registry and the frozen Nov–Dec forward test are unaffected (the forward test judges the v2-frozen book family as pre-registered; v3's book is the candidate line for a later fresh test, per the charter).
+
+---
+
+## ENGINE FLOOR SESSION (2026-11-02, user directive: Rs15,000/month pace in EACH year separately — Jan-Oct >= Rs1,50,000 in 2025 AND in 2026; provisional per 100 shares, Rs40/trade, paper, real Rs0)
+
+Incumbent adopted: the v3 C16 book (December candidate line; dominates the frozen v2 C24 reference in both years: 2025 +44,729.13 / 2026 +2,15,131.13). Baseline independently re-summed to the paisa; REGIME-CLASSIFIER-1 labels replicated exactly against both books' published cells; N4 move recomputation 56/56 vs the recorded standalone moves and 34/34 on the in-book join (stocks_engine_floor_baseline.py). Session gate frozen in stocks_engine_frozen.md before scoring (nine legs: combined rises; 2025 total + Jan-Oct do not fall; 2026 does not fall; all regime cells x year stay positive; ex-top-3 per year >= 0 and combined ex-top-3 does not fall; no green month flips; no Jan-Oct half flips; beats both pre-registered placebos; timing audit 0 + re-sum exact). Start: 2025 Jan-Oct +45,985.12 (gap Rs1,04,014.88) / 2026 Jan-Oct +2,15,131.13 (floor met).
+
+- **FLOOR-1 (N4-V3 symmetric cap |move by 09:30| >= 3.0%, whole book) — REJECTED.** The component-level pass (fix tests 2026-11-02) does not transplant: prior book law had already harvested the standalone file's losing >=3% names, so the in-book >=3% bucket splits 2025 -1,838.73 (17 tr) / 2026 +5,678.23 (14 tr). Variant combined 2,59,860.26 -> 2,56,020.76; legs (a) and (c) FAIL; all other legs pass, both placebos beaten (A 2,43,992.28 / B 2,39,932.73). A 2025-only variant is a date filter — not entertained. Evidence stocks_engine_floor_c1_result.json. Lesson 41 appended.
+- **FLOOR-2 (N4-V3 LONG over-extension cap: skip signed move >= +3.0%) — BANKED.** Direction split of the FLOOR-1 bucket: LONG >=3% negative in both years (2025 -940.81 / 10 tr / 2 W; 2026 -1,790.26 / 4 tr / 1 W); SHORT >=3% carries 2026 (10 tr / 9 W / +7,468.49). Dropping the 14 LONG trades: combined -> **+2,62,591.33 (+2,731.07)**; 2025 total +45,669.94, Jan-Oct **+47,048.67**, ex-top-3 +30.76 -> **+5,131.62**; 2026 +2,16,921.39, ex-top-3 +87,402.25. All nine legs pass; placebos A (mirror) +2,53,289.69 / B (chrono first-N) +2,47,989.60 beaten. Disclosed: one dropped trade was a winner (OBEROIRLTY 2025-10-16, +2,455.85) — October 2025 deepened while the rule and the year improved. Books: stocks_engine_floor_c2_book{2025,2026}_trades.csv. Lesson 42 appended.
+- **FLOOR-3 (challenger: P2F-family reaction-size cap) — REFUSED AT DIAGNOSIS.** reaction_ret reconstructed for all 114 in-book family trades, 0 band violations; expectancy RISES with reaction size in both years (2026: 2.5-4% +384/tr, 4-6% +865, 6-8% +85, >=8% +695; 2025 all buckets positive). No over-extension region exists to cut. Same-cycle second kill: F4 x regime-cell cross-year locked in both cells (DOWN 2025 -2,369.54 / 2026 +1,06,005.51; FLAT 2025 +2,460.68 / 2026 -2,949.58). No-bank (v3 C18 refusal precedent). Lesson 43 appended.
+- **FLOOR-4 (deletion: N4-V3 x HDFCBANK x LONG) — BANKED.** Registry re-derived at the C2 book under the gate-accurate bar (< 0 one year, <= 0 other, combined <= -500): exactly one qualifying row book-wide — 3 tr, all 2025, -836.12 (Apr -814.08 / Jul +830.00 / Oct -852.04), zero 2026 presence. Combined -> **+2,63,427.45 (+836.12)**; 2025 total +46,506.06, Jan-Oct **+47,884.79**, ex-top-3 +5,967.74; 2026 untouched. All nine legs pass; placebos A +2,59,936.58 / B +2,60,589.13 beaten. Disclosed cost (frozen in advance): the positive July leg's removal deepens the worst month (Jul 2025 -> -5,664.05) — accepted under the per-year floor objective; maximin would have refused. Books: stocks_engine_floor_c4_book{2025,2026}_trades.csv.
+- **FLOOR-5 (whole-stock axis rows) — REFUSED (aggregation).** At the C4 book: (comp x stock x dir) and (comp x cell) axes EMPTY. (comp x stock) shows P2F-R2 x RECLTD (-690.73) and N4-V3 x PFC (-561.82), both refused: each is a sum of direction slices that individually fail the -500 bar (RECLTD LONG -252.73 / SHORT -438.00, different years; PFC LONG -399.96 / SHORT -161.86 with a +568.78 winning 2026 trade inside). Aggregating sub-bar slices to clear the bar is the mirror of slicing thinner (SAT-30) — the bar binds both ways. No-bank. Lesson 44 appended.
+- **FLOOR-6 (F4 entry-hour axis) — NO-BANK (axis empty).** F4 is ~94% concentrated in the 10:00 hour in both years and that hour is the same cross-year lock (-2,703.03 in 2025 / +89,051.14 in 2026); all other hours positive in both years. No qualifying slice. Session ends on the brief's 6-cycle stop; closing no-bank streak 2 (FLOOR-5, FLOOR-6) — the formal 3-cycle saturation rule is not triggered, but every enumerated axis at the final book is empty, refused, or closed.
+
+## FLOOR SESSION — ENDING BOOK (FLOOR-C4 state)
+- **Combined +Rs2,63,427.45** (session lift +Rs3,567.19; 2 banks, 1 scored reject, 2 diagnosis refusals, 1 empty axis). Books of record: stocks_engine_floor_c4_book2025_trades.csv (718 tr) / stocks_engine_floor_c4_book2026_trades.csv (632 tr). Full scorecard: stocks_engine_session_2026-11-02.md.
+- **2026: Jan-Oct +Rs2,16,921.39 = Rs21,692.14/month — FLOOR MET (+Rs66,921.39).** All months green, halves +1,20,674.05 / +96,247.34, ex-top-3 +87,402.25, cells DOWN +1,93,697.00 / UP +16,161.49 / FLAT +7,062.90.
+- **2025: Jan-Oct +Rs47,884.79 = Rs4,788.48/month — FLOOR NOT MET; gap Rs1,02,115.21 (31.9% of the floor).** Full year +46,506.06; halves (Jan-Oct) +40,672.50 / +7,212.29; ex-top-3 +5,967.74 (session repaired it from +30.76); cells DOWN +32,605.74 / UP +11,017.75 / FLAT +2,882.57, all positive; red Jan-Oct months Jun -955.92 / Jul -5,664.05 / Oct -4,624.53.
+- **The gap's anatomy (stated plainly):** not a slice problem — every deletion axis is exhausted at the quality bar. F4 made +91.14 on 246 trades in 2025 vs +1,03,055.93 in 2026 on an identical population; the joint state was inert in 2025's tape and no ex-ante sub-population (stock, direction, cell, hour) separates the years. Families remaining open in-sample: NONE. Reopening conditions unchanged: bulk/block data access, Nov-Dec 2026 fresh data (forward test already collecting), or a genuinely new mechanism class.
+- **Book law added:** FLOOR-2 (N4-V3: no entry with signed move by 09:30 >= +3.0%) / FLOOR-4 (N4-V3: no HDFCBANK LONG). The frozen SarvaRitu forward test (v2 book) ran untouched throughout.
+
+---
+
+## ENGINE ROUND 2 (2026-11-02, user directive: different use cases, combinations and permutations until the goal is achievable; no saturation conclusions)
+
+Goal restated: Jan-Oct >= Rs1,50,000 in EACH year separately (Rs15,000/month; provisional per 100 shares, Rs40/trade, paper, real Rs0). Starting book FLOOR-C4 (2025 Jan-Oct +47,884.79 / 2026 +2,16,921.39). Same frozen nine-leg gate + cross-year rule (a candidate improving one year while degrading the other does not bank; 2026 may not fall below the floor). Every candidate construction anchored multiset-exact against the FLOOR-C4 component it replaced before scoring; timing audit 0 violations on all population builds. 28 gated cycles + 22 grid cells; full grid in stocks_engine_round2_2026-11-02.md; evidence r2_results.json.
+
+- **BANKS (2).** (1) R2-07 grid cell: INV-LONG ADR>=3.0 (unchanged), round cap <=2 -> <=3, entry cutoff 10:30 -> 11:00 — combined +11,255.92 (2025 Jan-Oct +6,620.26; 2026 +4,635.66), all nine legs, placebos beaten (1,80,365.56 / 2,20,390.77); absorbed round-3 rows de-duplicated out of INV-R3; the 10:30 control cell inside the grid reproduces the incumbent combined to the paisa, isolating the gain to the 11:00 hour + round 3. (2) R2-17: N4-V3 threshold 1.0% -> 0.8% at book geometry T150/S080 with the FLOOR-2 cap retained — combined +2,075.33 (2025 +1,831.25; 2026 +244.08), all nine legs. Session lift +13,331.25 combined.
+- **FLAGGED, NOT BANKED (user decision): R2-26 INV-ABOVE exits T150/S080** — combined +13,089.83 (2025 Jan-Oct +7,534.00; 2026 +4,122.33), passes 8 of 9 legs, fails only (f): Mar 2025 +1,091.17 -> -1,368.66. Per-cell splits do not repair it (UP-only R2-27 +8,733.80 fails (e); FLAT-only R2-28 fails the same March flip — the damage is in the FLAT cell). Adoption would put 2025 at +63,870.30 Jan-Oct. The engine does not waive its own gate (Nifty CH3-R precedent: adoption is the user's call).
+- **F4 (R2-01..06, R2-20..24): closed on this window across every axis.** Bands [0.4,0.9) / [0.6,1.2), measurement 09:45, EXCL_DIR off, per-cell geometries (DOWN/FLAT x T125/S065, T175/S095), FLAT stand-aside — all FAIL. Invariant: every F4 population change buys 2025 (+Rs12-18k) with a larger 2026 loss (-Rs20k to -1,23,440); the 09:45 measurement alone is +17-18k in 2025 and -1,15,493 in 2026. The FLAT stand-aside (R2-24) also loses to its own chrono placebo (variant 2,77,247.60 vs placebo 2,82,398.84).
+- **INV-ABOVE grid (R2-08): no cell banks** — 2025 gains in most cells (+5-9k) are paid by 2026 or beaten by the component's own SHORT-side / opposite-gate placebos (placebo books 2,37,070-3,28,119). Merged INV round-law cells (R2-09/10) fail; the split-comp structure stands.
+- **Reaction grid (R2-11..14): all four untested cells fail** — P2F >=3.0 @R+1, P2F-R2 >=3.0 @R+2, R2-LOWBAND without UP stand-aside, P2F >=2.0 @R+1. No passing cell exists to combine.
+- **N4 (R2-15/16/18):** threshold 1.2% fails (2026 pays); the 09:40 confirming-close entry is the round's most expensive idea (-16k to -22k combined in both cells) — one bar of confirmation pays the move away in both years.
+- **New mechanism PERSIST-R2 (R2-19): FAIL on the cross-year rule.** Second-day continuation with R+1 persistence and an R+2 10:00 hold: standalone 2025 +2,903.00 / 2026 -643.26; combined would rise +2,009.67 on 2025 alone; legs (c) and (e) refuse it.
+- **ROUND 2 — ENDING BOOK.** Combined +Rs2,76,758.70 full-book basis (2025 total +54,957.57 / 2026 +2,21,801.13). Books of record: stocks_engine_r2_book2025_trades.csv (776 tr) / stocks_engine_r2_book2026_trades.csv (680 tr); re-sum from file exact. **2026: Jan-Oct +2,21,801.13 = Rs22,180.11/month — FLOOR MET (+71,801.13).** All months green; cells all positive; ex-top-3-stocks +87,675.53. **2025: Jan-Oct +56,336.30 = Rs5,633.63/month — FLOOR NOT MET; gap Rs93,663.70 (37.6% of the floor).** Halves +48,410.24 / +7,926.06; ex-top-3-stocks +9,775.76 (Round 2 added +3,808.02); cells DOWN +39,226.00 / FLAT +2,882.57 / UP +14,227.73, all positive; red months Jun -955.92 / Jul -5,664.05 / Oct -4,624.53 (unchanged set, Jul is the book's worst month in both sessions). Book law added: INV-LONG rounds <=3 + cutoff 11:00; N4-V3 threshold 0.8%. Stop condition met: 28 cycles + 22 cells, enumerated space exhausted. The frozen November forward test (v2 book) ran untouched throughout.
+
+
+---
+
+# ROUND 3 — 2026-11-02 (targeted techniques on 2025; standing order: do not stop)
+
+Starting book = Round-2 ending book (verified by independent re-sum from
+the exported CSVs before any scoring): 2025 Jan–Oct **+₹56,336.30**
+(776 tr full-year, total +₹54,957.57) — gap to floor ₹93,663.70; 2026
+Jan–Oct **+₹2,21,801.13** (680 tr) — floor MET, protected by the
+cross-year rule (2026 must stay ≥ ₹1,50,000; leg x added to the gate).
+R2-26 (INV-ABOVE T150/S080) still unadopted, awaiting Chandu; not touched.
+10 cycles worked (9 gated candidates + 1 audit). **Bankings: NONE.** The
+ending book is the Round-2 ending book, unchanged to the paisa.
+
+## R3-01 — WS1 wound basket (GATED, REJECTED)
+Wound decomposition (2025 Jun −₹955.92 / Jul −₹5,664.05 / Oct −₹4,624.53;
+47 trades, −₹11,244.50): F4 −₹4,047.11 (22 tr), INV-ABOVE −₹3,637.29
+(14), N4-V3 −₹2,614.80 (5), P2F −₹486.45, P2F-R2 −₹458.85; cells UP
+−₹6,496.88, DOWN −₹5,173.10, FLAT +₹425.48. The two largest wound rows —
+F4 TVSMOTOR LONG −₹3,564.10 and SHORT −₹3,302.78 — are whole-book giants
+(+₹20,385.20 / +₹14,526.85) and are NOT deletable. Frozen basket rule
+(rows with wound net < 0 AND whole-book net in (−₹500, 0]): 7 rows,
+58 trades (F4 NTPC SHORT, F4 WIPRO SHORT, N4 INDUSTOWER SHORT, P2F
+INDUSTOWER LONG, P2F WIPRO LONG, P2F-R2 INDUSTOWER LONG, P2F-R2 WIPRO
+SHORT). Variant: 2025 → ₹58,209.83 (+₹1,873.53), 2026 → ₹2,21,623.03
+(−₹178.10). REJECTED: leg (c) 2026 fell; leg (h) — mirror-wound basket
+placebo ₹2,81,788.63 and chrono first-58 placebo ₹2,80,891.16 both beat
+the variant's ₹2,78,454.13 combined. The sub-bar registry holds nothing
+the placebos don't beat.
+
+## R3-02 — WS2 event-layer audit (AUDIT, no candidate — nothing to rebuild)
+2025 calendar is COMPLETE: 100 results rows (exactly 4 per stock), 0 with
+missing/out-of-window reaction dates; reaction candidates **100** vs
+2026's **80**; band ≥2.5% candidates 33 vs 39; [2.0,2.5) 12 vs 9; N4
+signal-days 91 vs 77. The 16 out-of-window reaction dates in the 2026
+file are 15 Nov-2025 events (placeholder "2026-01-01"; valid Nov-2025
+reaction dates sourceable from results_events_v1.csv, but those events
+sit outside the Jan–Oct judged window under either dating, so a
+"corrected calendar" candidate would change nothing judged — not built)
+plus UNITDSPR 2026-10-28, whose reaction date is unsourceable from
+stored sources (named, never invented; the incumbent treats the
+announcement day as R). 2025's family shortfall is expectancy and band
+mix (P2F-R2 −₹390.06 on 21 tr vs 2026 +₹15,149.33 on 32; P2F healthy in
+both years), NOT missing events. Workstream closed by evidence.
+
+## R3-03 — F4 15-min execution (GATED, REJECTED)
+Entries deferred to the next quarter-hour bar open; measurement, band,
+law frozen; anchors exact (std-mode population == cache; audit 0
+violations). 2025 → ₹56,564.96 (+₹228.66), 2026 → ₹1,88,799.78
+(−₹33,001.35). REJECTED legs a, c, e, h. The deferral tax lands in 2026,
+same signature as R2-03/R2-16: this book's entries lose value with every
+bar of delay, in both constructions tried.
+
+## R3-04 — INV 15-min execution (GATED, REJECTED)
+Chain entries deferred to quarter-hour opens; law frozen (INV-LONG
+rounds ≤3 <11:00; INV-ABOVE rounds ≤2 <10:30); std-chain anchor exact
+(15,453 rows). 2025 → ₹45,304.57 (−₹11,031.73), 2026 → ₹2,08,306.48
+(−₹13,494.65); Jan and Mar 2025 flip red. REJECTED on 7 legs. WS3
+closed: 15-min entry constructions are worse than 5-min for both
+families, both years. The 5-min execution bar is load-bearing.
+
+## R3-05 — GAP-FOLLOW ≥1.5% (GATED, REJECTED)
+Pre-registered diagnostic (both years pooled): follow expectancy
+−₹27.36/trade H1, −₹43.12 H2 — the 25 do not reward following overnight
+gaps at this construction. Standalone 2025 −₹22,079.40 / 2026 −₹2,219.99.
+REJECTED on 8 legs.
+
+## R3-06 — GAP-FADE ≥1.5% (GATED, REJECTED)
+Diagnostic: fade expectancy +₹3.10 H1 / +₹25.80 H2 (both halves
+positive, small). Standalone 2025 **+₹21,762.48** / 2026 **−₹15,956.71**.
+Book: 2025 → ₹78,098.78, 2026 → ₹2,05,844.42, combined FALLS −₹1,121.50;
+May 2025 flips (+₹2,498.99 → −₹7,587.51); loses to placebos. REJECTED
+legs a, c, e, f, h. The fade's 2025 gain is bought with 2026 — the
+cross-year failure mode in its purest form.
+
+## R3-07 — ORB-STOCK (GATED, REJECTED — family closed)
+Index-method port: 09:15–09:30 range, first close beyond, entry next
+bar ≤11:30, T125/S050. Standalone 2025 −₹96,573.49 (5,098 tr) / 2026
+−₹2,43,756.84 (3,929 tr) — expectancy ≈ −₹19 / −₹62 per trade. REJECTED
+on all 9 legs + leg x. Chandu's index opening-range method does not
+port to cash stocks on the 25; no second ORB cell will be run.
+
+## R3-08 — GAP-FADE ≥2.5% (GATED, REJECTED)
+Standalone 2025 +₹11,429.79 / 2026 +₹1,207.57; combined RISES
++₹9,571.17 and both years rise — but REJECTED: leg (e) ex-top-3 falls
+(gains concentrated in the top-3 stocks), leg (f) May 2025 flips
+(+₹2,498.99 → −₹2,186.79), leg (h) loses to the one-bar-late placebo.
+
+## R3-09 — GAP-FOLLOW ≥2.5% (GATED, REJECTED)
+Standalone ≈ 2025 −₹4,439.73 / 2026 +₹73.78. REJECTED legs a, b, d, e,
+f, h. The {follow, fade} × {1.5%, 2.5%} gap grid is now fully gated:
+follow is dead at both thresholds; fade is positive-2025-only at both.
+
+## R3-10 — GAP-FADE LONG-only sub-sleeve ≥1.5% (GATED, REJECTED — flagged observation)
+Sign-split diagnostic (pre-registered from the 1.5% fade population):
+fade-LONG (buying faded gap-DOWNS) expectancy +₹57.20 H1 (322 tr) /
++₹72.27 H2 (62 tr) — positive in both halves; fade-SHORT (fading
+gap-ups) −₹48.74 / −₹8.51 — negative in both. The LONG-only sub-sleeve:
+2025 → **₹83,315.69 (+₹26,979.39)**, 2026 → ₹2,17,720.37 (**−₹4,080.76**),
+combined +₹22,084.79. Passes legs a, b, d, g, h, i, x (7 of 10). REJECTED:
+leg (c) 2026 falls, leg (e) ex-top-3 2026 falls, leg (f) May 2025 flips
+(+₹2,498.99 → −₹4,762.43) and Dec 2025 flips. NOT banked — the
+cross-year rule is absolute in this engine. Recorded as the round's
+largest single 2025 improvement and a flagged observation for Chandu,
+in the same class as R2-26: adoption against named failed legs is his
+decision, not the engine's.
+
+## WS5 — combinations: VACUOUS
+No Round-3 banking exists; there is nothing to combine. The ending book
+is the Round-2 ending book unchanged.
+
+## Round-3 ending scorecard (per year, never pooled)
+- **2025: Jan–Oct +₹56,336.30 = ₹5,633.63/month — floor NOT met; gap
+  ₹93,663.70 (unchanged).** Full-year +₹54,957.57, 776 trades. Red
+  months Jun −₹955.92, Jul −₹5,664.05, Oct −₹4,624.53 unchanged.
+- **2026: Jan–Oct +₹2,21,801.13 = ₹22,180.11/month — floor MET
+  (unchanged).** 680 trades, all months green.
+Books: stocks_engine_r3_book2025_trades.csv / ...2026_trades.csv
+(identical in content to the Round-2 books — re-exported under R3 names).
+Evidence: r3_results.json (per-cycle gate legs, placebos, flips).
+R2-26's numbers are unchanged by Round 3 (+₹13,089.83, Mar-2025 flip);
+its adoption decision is still Chandu's.
+
+---
+
+# ROUND 4 (2026-11-02) — combined flags, gap-fade refinement, volume audit
+
+Starting book: Round-2 ending book (2025 JO ₹56,336.30; 2026 JO
+₹2,21,801.13). Evidence: r4_results.json. Report:
+stocks_engine_round4_2026-11-02.md.
+
+## R4-01 — COMBINED FLAGS gated whole (DECISION SUPPORT, not banked)
+R2-26 (INV-ABOVE T150/S080 swap) + R3-10 (GAP-FADE LONG-only sleeve)
+applied together. Ingredients re-anchored to the paisa first (R2-26:
+2025 JO +₹7,534.00, combined +₹13,089.83; R3-10: 2025 +₹26,979.39,
+2026 −₹4,080.76, combined +₹22,084.79). The combination is EXACTLY
+additive (disjoint components): 2025 JO → **₹90,849.69**; combined
+₹2,76,758.70 → ₹3,11,933.32. Surprise: leg (c) PASSES — 2026 JO rises
++₹41.57 because R2-26's 2026 gain (+₹4,122.33) cancels the fade's 2026
+loss (−₹4,080.76). Fails exactly two legs: (e) ex-top-3 (2026 ex-top-3
+₹87,675.53 → ₹71,201.56 under the full sleeve) and (f) May 2025 flips
+(+₹2,498.99 → −₹2,019.04) and Dec 2025 flips (+₹1,207.95 → −₹345.69) —
+both flips are the fade sleeve's. Placebos beaten (3 pre-registered).
+
+## R4-02 — GAP-FADE LONG, DOWN-cell days only (REJECTED, leg e only)
+2025 JO → ₹59,799.09 (+₹3,462.79); 2026 JO → ₹2,27,624.69 (+₹5,823.56).
+Cross-year repaired, but the DOWN-only sleeve's gains concentrate:
+ex-top-3 leg fails. One leg short.
+
+## R4-03 — GAP-FADE LONG, DOWN+FLAT cells (BANKED)
+2025 JO → **₹77,806.57 (+₹21,470.27)**; 2026 JO → **₹2,23,293.34
+(+₹1,492.21)**; combined → ₹2,99,721.18. ALL 10 legs pass: the FLAT
+cell's breadth repairs the concentration leg (2025 ex-top-3 ₹9,775.76
+→ ₹23,764.74) while the UP cell — the source of the 2026 damage
+(−₹5,572.97) — stays out. Sleeve standalone: 2025 +₹21,470.27,
+2026 +₹1,492.21. The flagged R3-10 phenomenon is now a banked
+component in cross-year-clean form. Incumbent updated.
+
+## R4-04/05/06 — threshold swaps 2.0 / 2.5 / 3.0 (ALL REJECTED)
+Unrestricted higher-threshold sleeves swapped against the banked
+sleeve: combined falls every time (₹2,89,232.22 / ₹2,89,250.65 /
+₹2,90,678.79 vs ₹2,99,721.18); 2026 standalone −₹8,493.16 / −₹1,329.35
+/ −₹3,721.67. Bigger gaps fade worse in the UP/FLAT cells the banked
+form excludes. Size is not the fade's problem; day-type is.
+
+## R4-07 — entry at 09:15 open (BANKING VOID — timing audit)
+The bar-0 cell "passed" with sleeve standalone +₹67,392.17 /
++₹22,054.04 and was banked by the script on the harness's default
+timing_violations=0. That default is wrong here: the signal IS the
+gap (bar-0 open / prior close), so a fill at bar-0's open is a fill
+at the print that first reveals the information — entry before the
+information existed, on all 390 sleeve trades. The bar-0 gain over
+the honest bar-1 sleeve (+₹41k in 2025, +₹26k in 2026) is the
+first-bar snap-back harvested at the signal print: the look-ahead
+signature. Banking VOIDED on leg (i) the same run; incumbent
+reverted to the R4-03 book; the two cells gated against the voided
+base were re-run (R4-08R / R4-09R). The open-entry convention remains
+legitimate only where the signal is fully known before the open
+(the reaction families).
+
+## R4-08R — entry 09:35 swap (REJECTED, corrected base)
+2025 JO → ₹50,193.10; 2026 → ₹1,82,500.44; 7 legs fail. Delay kills
+the fade exactly as it killed F4/INV timing variants.
+
+## R4-09R — exits T150/S080 swap (REJECTED, corrected base)
+2025 JO → ₹86,098.47 but 2026 → ₹2,09,171.26; fails (c), (e), (f).
+The wider geometry re-imports 2026 losses; T125/S050 stands.
+
+## R4-10 — banked book + R2-26 (DECISION SUPPORT — PASSES ALL LEGS)
+2025 JO → ₹85,340.57; 2026 JO → ₹2,27,415.67; combined → ₹3,12,811.01.
+ALL 10 legs pass, flip_detail empty: the Mar-2025 flip that killed
+R2-26 in Round 2 is gone — the banked sleeve's March gains
+(+₹5,033.28) absorb the swap's March loss (−₹2,459.83); March stands
+at +₹3,664.62 under the combination. Recorded UNBANKED: adopting a
+flagged variant is Chandu's decision, not the engine's.
+
+## R4-11 — sleeve swapped to the FULL R3-10 form (DECISION SUPPORT)
+Fails (a), (c), (e), (f): combined falls to ₹2,98,843.49, 2026 falls
+−₹5,572.97 (the UP cell, exactly). The banked refinement dominates
+the flagged sleeve head-to-head.
+
+## R4-12 — R2-26 + full sleeve (DECISION SUPPORT)
+= R4-01's variant re-gated on the banked base: 2025 JO ₹90,849.69,
+2026 JO ₹2,21,842.70 (BELOW the banked book's ₹2,23,293.34). Fails
+(c), (e), (f). Adopting both flags now costs 2026 ₹1,450.64 against
+the banked book and keeps both fade flips.
+
+## R4-13 — WS3 volume audit (no candidate)
+No volume field exists in any stored equity candle: every file in
+data/full_hist (25 symbols + index, 5-min and daily) is OHLC-only
+(headers: timestamp/date, open, high, low, close), and the logger
+machinery carries no volume. Volume-confirmed reactions cannot be
+built from stored data. Named gap: a volume-bearing candle build.
+Nothing fabricated; no candidate gated.
+
+## Round-4 ending scorecard (per year, never pooled)
+- **2025: Jan–Oct +₹77,806.57 = ₹7,780.66/month — floor NOT met; gap
+  ₹72,193.43** (round opened at ₹93,663.70; the banked sleeve closed
+  ₹21,470.27 of it). Full-year +₹76,427.84, 857 trades. Red months
+  Jun −₹955.92, Jul −₹5,523.29, Oct −₹4,624.53. Cells: DOWN
+  +₹42,688.79, FLAT +₹20,890.05, UP +₹12,849.00. Ex-top-3 +₹23,764.74.
+- **2026: Jan–Oct +₹2,23,293.34 = ₹22,329.33/month — floor MET**
+  (₹73,293.34 above the line). 899 trades, all months green.
+Books: stocks_engine_r4_book2025_trades.csv /
+stocks_engine_r4_book2026_trades.csv (exported and independently
+re-summed to the paisa). Evidence: r4_results.json.
+Decision state: R2-26 now carries NO failing leg on this book
+(R4-10) — adoption is Chandu's and would put 2025 at ₹85,340.57.
+R3-10's full form is dominated by the banked refinement (R4-11).
+
+
+---
+
+# ROUND 5 — 2026-11-02 (gap-fade mirror + micro-grid, non-event reversal, P2F-R2 conditioning, red-month diagnosis)
+
+Starting book: Round-4 ending book (2025 JO ₹77,806.57, gap ₹72,193.43;
+2026 JO ₹2,23,293.34, floor MET). 12 gated cycles + 1 diagnosis audit
++ 1 decision-support combination. **BANKED: ZERO.** Ending book
+identical to the paisa (exports re-summed). Evidence: r5_results.json;
+report: stocks_engine_round5_2026-11-02.md.
+
+## R5-01 — GAP-FADE SHORT >=1.5%, UP cells only (REJECTED)
+Standalone -₹13,051.53 (2025) / -₹1,746.40 (2026); book 2025 JO ->
+₹70,868.47, 2026 -> ₹2,21,546.94. Fails 8 legs (a,b,c,d,e,f,g,h) —
+and its own mirror placebo (follow-LONG book ₹3,14,289.90) beats it:
+on UP days gap-ups CONTINUE. Flips May + Dec 2025.
+
+## R5-02 — GAP-FADE SHORT >=1.5%, UP+FLAT cells (REJECTED)
+Standalone -₹12,433.50 / -₹1,137.24; fails the same 8 legs. Adding
+the FLAT cell does not rescue the short side. The fade is one-sided;
+the mirror family is CLOSED.
+
+## R5-03 — GAP-FADE LONG thr 1.25% swap, DOWN+FLAT (REJECTED — leg e only)
+2025 JO -> ₹88,401.23 (+₹10,594.66); 2026 JO -> ₹2,26,071.55
+(+₹2,778.21); combined -> ₹3,13,094.05; both placebos beaten; no
+flips. Fails ONLY (e): the incremental [1.25%, 1.5%) slice's 2026
+gains concentrate in the top-3 names (2026 ex-top-3 ₹75,557.94 ->
+₹67,253.47; combined ex-top-3 falls ₹99,322.68 -> ₹94,567.68).
+Recorded with its failing leg named (owner-decision class).
+
+## R5-04 — GAP-FADE LONG thr 1.75% swap, DOWN+FLAT (REJECTED)
+2025 JO -> ₹73,811.52; 2026 -> ₹2,19,743.09; fails (a),(b),(c).
+Standalone 2026 turns negative (-₹2,058.04): the [1.5%, 1.75%) slice
+is load-bearing in 2026.
+
+## R5-05 — GAP-FADE LONG exits T100/S065 swap (REJECTED)
+2025 JO -> ₹75,147.99; 2026 -> ₹2,23,268.97; fails (a),(b),(c).
+The tighter target / wider stop pair is worse in both years.
+
+## R5-06 — GAP-FADE LONG exits T150/S065 swap (REJECTED — leg c only)
+2025 JO -> ₹84,937.76 (+₹7,131.19); 2026 -> ₹2,16,268.73
+(-₹7,024.61); combined full-year rises (+₹106.58) and every other
+leg passes — the wider geometry pays in the weak year and bills the
+strong year, the R4-09R shape at a different stop. Leg (c) refuses.
+
+## R5-07 — NON-EVENT REVERSAL LONG (REJECTED — legs e, f)
+New mechanism, pre-registered population (non-event stock-days,
+|move by 10:30| >= 2.0%, entry 10:35, T100/S065; 180 reaction
+candidates, 539 contaminated stock-days excluded; timing violations
+counted = 0). Standalone +₹12,209.45 (2025) / +₹24,306.56 (2026) on
+691 trades; book 2025 JO -> ₹90,121.11 (+₹12,314.54), 2026 ->
+₹2,47,599.90 (+₹24,306.56); combined -> ₹3,36,237.19; beats both
+placebos (opposite-dir ₹2,34,944.85; one-bar-late ₹3,01,424.12);
+halves and cells pass. Fails (e) — gains concentrate in the top-3
+(combined ex-top-3 ₹99,322.68 -> ₹86,879.08) — and (f) — Dec 2025
+flips +₹1,207.95 -> -₹632.67. A real phenomenon the gate cannot
+bank; recorded with both failing legs named (owner-decision class).
+
+## R5-08 — NON-EVENT REVERSAL SHORT (REJECTED)
+Standalone -₹41,334.92 / -₹18,088.52 on 818 trades; fails 8 legs.
+Non-event morning rips do NOT revert — shorting them is the single
+worst sleeve of the round. The reversal phenomenon is LONG-only.
+
+## R5-09 — P2F-R2 keep DOWN+FLAT cells (REJECTED)
+Removes the 2025 UP-cell loss (+₹433.24 to 2025 JO) but bills 2026
+-₹2,389.00; fails (a),(b),(c),(e),(h) — the chrono placebo
+(₹2,99,567.23) also beats the variant (₹2,97,006.93).
+
+## R5-10 — P2F-R2 keep DOWN cells only (REJECTED)
+Same 2025 JO as R5-09; 2026 -₹4,479.17; fails (a),(b),(c),(e),(h).
+2026's FLAT-cell P2F-R2 (+₹2,090.17) is real money.
+
+## R5-11 — P2F-R2 keep band [2.5%, 4.0%) (REJECTED)
+2026 JO -> ₹2,10,568.48: the >= 4.0% band IS 2026's P2F-R2
+(+₹12,724.86 of its +₹15,149.33). Fails (a),(b),(c),(e),(h).
+
+## R5-12 — P2F-R2 keep band >= 4.0% only (REJECTED)
+Best 2025 outcome of WS4 (JO -> ₹79,105.92, +₹1,299.35) — bought
+with 2026's [2.5%, 4.0%) money (-₹2,424.47); fails (a),(c),(e).
+P2F-R2's weakness is population-wide and cross-year-opposed on
+every condition tested; the conditioning axis is CLOSED.
+
+## R5-13 — WS5 red-month diagnosis (AUDIT — no candidate)
+Jun 2025 (-₹955.92) = 7 trades, ALL INV-ABOVE. Jul (-₹5,523.29) =
+broad shallow bleed (INV-ABOVE -₹2,473.45 / 3 tr; N4-V3 -₹1,821.00 /
+2 tr; F4 -₹1,025.28 / 19 tr). Oct (-₹4,624.53) = F4 -₹3,021.83 in 3
+trades. Frozen signature rule (negative in all 3 months AND negative
+full-2025 AND sum3 <= -₹3,000): NO slice qualifies. (INV-ABOVE x UP)
+is negative in all three months (-₹3,442.37) but earns +₹6,435.21
+across 2025 — variance on an earner; (F4 x DOWN) is negative Jul+Oct
+and full-2025 but has zero Jun trades. Three months, three
+anatomies; no candidate manufactured. Table: r5_ws5_diag.json.
+
+## R5-15 — DECISION SUPPORT: R5-03 + R5-07 combined (UNBANKED)
+Exactly additive (anchors reproduced first): 2025 JO -> ₹1,00,715.77
+(₹10,071.58/mo; gap would fall to ₹49,284.23); 2026 JO ->
+₹2,50,378.11; combined -> ₹3,49,610.06; both placebos beaten. Fails
+the same two legs — (e) combined ex-top-3 -> ₹82,699.21, (f) the
+Dec-2025 flip (NE-REV's alone). Adoption is Chandu's, as a waiver of
+legs (e) and (f) — the engine banks nothing it did not pass.
+
+## Round-5 ending scorecard (per year, never pooled)
+- **2025: Jan–Oct +₹77,806.57 = ₹7,780.66/month — floor NOT met; gap
+  ₹72,193.43 (unchanged).** Full-year +₹76,427.84, 857 trades,
+  ex-top-3 +₹23,764.74. Red months Jun -₹955.92, Jul -₹5,523.29,
+  Oct -₹4,624.53.
+- **2026: Jan–Oct +₹2,23,293.34 = ₹22,329.33/month — floor MET.**
+  899 trades, all months green.
+Books: stocks_engine_r5_book2025_trades.csv /
+stocks_engine_r5_book2026_trades.csv (exported and independently
+re-summed to the paisa — identical to the Round-4 books, as nothing
+banked). Evidence: r5_results.json.
+Decision state: R2-26 still awaits Chandu (clean sheet, R4-10).
+Round 5 adds two owner-decision items — R5-07 NE-REV LONG (fails
+e/f; adoption alone -> 2025 JO ₹90,121.11) and R5-03 thr-1.25 sleeve
+(fails e only; adoption alone -> 2025 JO ₹88,401.23); combined
+(R5-15) -> 2025 JO ₹1,00,715.77, still ₹49,284.23 short of the
+floor, failing (e) and (f).
+
+
+---
+
+# ROUND 6 (2026-11-02) — triple pricing, NE-REV repairs, increment conditioning, range-expansion; causality audit
+
+Starting book: the Round-4/5 ending book (2025 JO ₹77,806.57; 2026 JO
+₹2,23,293.34). Constructions frozen in the report's pre-registration
+before scoring. 9 gated runs (R6-01 decision support + 8 candidates),
+2 audits, 1 banking, 4 rows voided by the audit. Evidence:
+r6_results.json (11 records).
+
+## R6-01 — DECISION SUPPORT: triple R2-26 + R5-03 + R5-07 (UNBANKED)
+Ingredients re-anchored to the paisa on the Round-5 book first
+(R2-26 → 85,340.57 / 2,27,415.67; R5-03 → 88,401.23 / 2,26,071.55;
+R5-07 → 90,121.11 / 2,47,599.90). The combination is EXACTLY additive:
+2025 JO → ₹1,08,249.77 (₹10,824.98/mo; gap would fall to ₹41,750.23),
+2026 JO → ₹2,54,500.44, combined → ₹3,62,699.89; all three placebos
+beaten (P1 all-placebo ₹1,62,831.09; P2 ₹3,27,886.82; P3
+₹3,16,724.72).
+Fails exactly two legs: (e) combined ex-top-3 99,322.68 → 86,720.81,
+and (f) Dec 2025 +1,207.95 → −99.76 (milder than R5-15's −632.67 —
+R2-26's December gains absorb most of NE-REV's December loss).
+Adoption is Chandu's; restated on the ending book in the report.
+
+## R6-02 — NE-REV thr 2.25% — REJECTED, leg (e) only
+Standalone +₹7,375.61 / +₹40,742.69 (545 trades). 2025 JO →
+₹84,207.51; 2026 JO → ₹2,64,036.03; combined ₹3,47,839.48 — larger
+than R5-07's combination and with NO month flips. Refused only by
+ex-top-3 (combined 99,322.68 → 97,177.38; 2025's own falls
+23,764.74 → 20,114.34). Owner-decision class (flagged).
+
+## R6-03 — NE-REV thr 2.50% — REJECTED (b, e, f)
+Standalone −₹3,572.54 / +₹34,425.59. 2025 JO falls to ₹76,388.46 and
+Dec 2025 flips (+1,207.95 → −1,495.32): the strongest dislocations
+are 2025-negative — the threshold axis is not monotone in the weak
+year; 2.25% is the family's best cell and it still fails (e).
+
+## R6-04 — NE-REV DOWN+FLAT cells — REJECTED, leg (e) only
+Standalone +₹544.11 / +₹32,422.92. 2025 JO → ₹78,350.68; 2026 JO →
+₹2,55,716.26. The restriction repairs exactly what it aimed at:
+R5-07's Dec-2025 flip is gone (the December damage was UP-cell) and
+2026 keeps most of its gain — but ex-top-3 still falls (2025
+23,764.74 → 13,867.75). Owner-decision class (flagged).
+
+## R6-05 — NE-REV entry 11:05 — REJECTED (a, b, e, f)
+Standalone −₹18,420.55 / +₹18,386.53. The 35-minute delay destroys
+2025 (−₹14,594.12 JO; Jan/May/Dec flip). Fifth delay mechanism to
+lose on this book; the entry-delay axis stays closed (R3-L4).
+
+## R6-06 — AUDIT: NE-REV carrier exclusion SKIPPED (pre-registered)
+Needs top-3 earners ranked on the PRIOR year's book for both years.
+2026-on-2025 is causal; 2025 would need a 2024 book, which does not
+exist in this workspace (calendars/populations cover 2025 +
+Jan–Oct 2026), and ranking 2025 on the 2026 book is look-ahead.
+Skipped with no substitute invented, exactly as pre-registered.
+
+## R6-07 — Fade increment [1.25,1.5), DOWN-only, 09:20 — REJECTED (e)
+Decomposition verified first (S1.25 = S1.5 + increment, disjoint and
+exhaustive; increment standalone +10,594.66 / +2,778.21). DOWN-only:
+standalone +₹9,278.66 / +₹913.63; 2025 JO → ₹87,085.23. The DOWN
+cell carries nearly all of the increment's 2025 value, but its 2026
+side still concentrates (2026 ex-top-3 75,557.94 → 68,047.39).
+
+## R6-08 — Fade increment [1.25,1.5), DOWN+FLAT, entry 09:40 — BANKED
+Standalone +₹2,305.22 / +₹4,763.03; ALL 10 legs pass, both placebos
+beaten, no flips. 2025 JO → ₹80,111.79; 2026 JO → ₹2,28,056.37.
+Entering the marginal band 20 minutes later changes its stock mix
+enough to cure the concentration that refused R5-03 and R6-07 —
+the one delay construction on this book that pays (see R6-L1).
+
+## R6-09 — RANGE-EXPANSION FOLLOW LONG — REJECTED (7 legs)
+Standalone −₹1,181.70 / −₹10,839.47 (242 trades), beaten by its own
+one-bar-late placebo, May 2025 flips. Volatility-state continuation
+on cash names does not exist on the long side.
+
+## R6-10 — RANGE-EXPANSION FOLLOW SHORT — REJECTED, leg (c) only
+Standalone +₹14,409.54 / −₹10,286.95 (237 trades). 2025 JO →
+₹96,126.79 (+₹16,015.00 against the then-incumbent); 2026 JO →
+₹2,17,769.42 (−₹10,286.95, still above the floor line). Every other
+leg passes. The cross-year opposition (Lesson 47) in a new
+mechanism; owner-decision class (flagged).
+
+## R6-11 — AUDIT: admission causality (Nifty-R5-WS0 model) — 4 ROWS VOIDED
+1,860 rows checked mechanically + machinery code certification.
+CLEAN everywhere except N4-V3's event-day tag: 1 proven violation
+(BDL 2025-01-16, +₹1,691.75 — the calendar's own detail records the
+exchange filing at 13:49 on the reaction day; entry was 09:35) and
+3 uncertifiable same-day results rows the calendar marks declared
+during market hours (HINDZINC 2026-07-24 −460.80; HINDUNILVR
+2026-10-28 −1,482.24; VEDL 2026-10-28 +303.20). All 4 voided;
+book re-baselined the same run (2025 JO → ₹78,420.04; 2026 JO →
+₹2,29,696.21; voided combined net +₹51.91 — the book was not
+carried by them). BDL 2025-03-26 disclosed, not voided (no
+timestamp in its record). Full certificate in the Round-6 report.
+
+## WS4 — combinations of Round-6 bankings
+One banking exists (R6-08); there is no second banking to combine
+it with. Closes by statement.
+
+## Round-6 ending scorecard (per year, never pooled)
+- **2025: Jan–Oct +₹78,420.04 = ₹7,842.00/month — floor NOT met; gap
+  ₹71,579.96.** Full-year +₹77,041.31, 887 trades, ex-top-3
+  +₹23,708.10. Red months Jun −₹955.92, Jul −₹7,083.39,
+  Oct −₹3,944.53.
+- **2026: Jan–Oct +₹2,29,696.21 = ₹22,969.62/month — floor MET.**
+  969 trades, all months green.
+Books: stocks_engine_r6_book2025_trades.csv /
+stocks_engine_r6_book2026_trades.csv (exported from the ending
+incumbent and independently re-summed to the paisa). Evidence:
+r6_results.json; audit detail r6_causality_audit.json.
+Decision state: the flagged list now carries R2-26 (clean),
+R5-03 (e only), R5-07 (e+f), the R6-01 triple (e+f; restated on
+this book → 2025 JO ₹1,06,558.02, gap ₹43,441.98), R6-02 (e only),
+R6-04 (e only), R6-10 (c only) — see the Round-6 report.
+
+---
+
+# ROUND 7 (2026-11-02) — REXP-SHORT repair, breadth-first sleeves
+
+Pre-registration, constructions and verdict rule frozen in
+stocks_engine_round7_2026-11-02.md BEFORE scoring. Starting book =
+the Round-6 ending book (2025 JO ₹78,420.04 / gap ₹71,579.96; 2026
+JO ₹2,29,696.21, floor MET). New discipline this round: every new
+sleeve trades only on the CERTIFIED non-event set (R6-11 standard:
+the R5 reaction windows UNION every calendar event day, any type,
+with its reaction window — 843 stock-days excluded vs the R5 set's
+539).
+
+## R7-01 — AUDIT: REXP-SHORT 2026-damage decomposition
+R6-10's population rebuilt verbatim, anchor exact (standalone
++₹14,409.54 / −₹10,286.95; 237 trades; timing violations 0).
+Jan–Oct by cell — 2025: DOWN 41 tr +₹14,870.39 · FLAT 9 tr
+−₹2,717.22 · UP 43 tr +₹3,861.83. 2026: DOWN 86 tr **−₹8,399.33** ·
+FLAT 17 tr −₹2,530.85 · UP 21 tr +₹643.23. The damage is DOWN-cell
+located — the opposite address from NE-REV's and the fade's UP-cell
+damage. 2026 worst names: TVSMOTOR −₹5,389.25, GODREJCP −₹3,380.55,
+ASTRAL −₹3,133.20, UNITDSPR −₹2,503.10.
+
+## WS1 — REXP-SHORT repair
+- **R7-02 (DOWN+FLAT): REJECTED, leg (c) only.** Standalone
+  +₹12,153.17 / −₹10,930.18 (50/103 tr); 2025 JO → ₹90,573.21;
+  2026 JO → ₹2,18,766.03. The restriction is worse for 2026 than
+  the full population (it drops UP's +₹643.23, keeps FLAT's
+  −₹2,530.85 and all of DOWN's damage). Flagged.
+- **R7-03 (DOWN only): REJECTED, leg (c) only.** Standalone
+  +₹14,870.39 / −₹8,399.33 (41/86 tr); 2025 JO → ₹93,290.43; 2026
+  JO → ₹2,21,296.88. Every other leg passes (2025 ex-top-3 →
+  ₹38,000.12; placebos beaten; no flips). Dominates R7-02 on both
+  years; the largest single-sleeve 2025 delta on the flagged list.
+  Flagged.
+
+## WS2 — R7-04 NE-REV afternoon: REJECTED on 7 legs
+Certified population 11,958 stock-days; 963 signal days/trades
+(462/501). Standalone −₹37,819.07 / +₹10,059.27; 2025 JO →
+₹44,183.07; fails a, b, d, e, f, g, h (Jan + May 2025 flip;
+beaten by placebos). The reversal is a morning phenomenon. Not
+flagged.
+
+## WS3 — R7-05 two-day dislocation reversal: REJECTED on 8 legs
+1,189 signal days; 212 skipped (no 09:20 bar, counted); 977
+trades. Standalone −₹62,345.49 / −₹43,694.93 — negative in both
+years, beaten by both placebos, 4 month flips. Two-day falls
+continue; they do not revert intraday. Not flagged.
+
+## WS4 — R7-06 quiet-name NE-REV: REJECTED on (e) + (f)
+Anchors: R5-07 reproduced exactly. Certified-population morning
+NE-REV: 661 rows, standalone +₹14,105.64 / +₹24,112.86 (the
+strengthening removed 30 rows and RAISED the weak year's
+standalone). Quiet filter kept 196 trades (77/119); standalone
++₹4,492.57 / +₹12,167.10; combined book rises, placebos beaten —
+but combined ex-top-3 falls ₹1,01,181.87 → ₹89,033.84 and Jan
+2025 flips (+₹2,200.31 → −₹1,790.60). Breadth by construction
+does not cure leg (e). Flagged.
+
+## WS5 — R7-07 combinations: closes by statement (zero bankings)
+
+## R7-08 — DECISION SUPPORT: R5-07 repriced on the certified population
+Gated whole-book, force_no_bank: 2025 JO → ₹92,537.28 (delta
++₹14,117.24), 2026 JO → ₹2,53,809.07 (delta +₹24,112.86);
+fails (e) + (f) (Jan 2025 → −₹750.61; Dec 2025 → −₹632.67).
+The certified form is the current standard's price of the flag —
+worth +₹1,802.70 more to 2025 than the birth form, same two
+failing legs.
+
+## Round-7 ending scorecard (per year, never pooled)
+- **2025: Jan–Oct +₹78,420.04 = ₹7,842.00/month — floor NOT met;
+  gap ₹71,579.96 (unchanged; zero bankings).** Full-year
+  +₹77,041.31, 887 trades, ex-top-3 +₹23,708.10. Red months Jun
+  −₹955.92, Jul −₹7,083.39, Oct −₹3,944.53.
+- **2026: Jan–Oct +₹2,29,696.21 = ₹22,969.62/month — floor MET.**
+  969 trades, all months green.
+Books: stocks_engine_r7_book2025_trades.csv /
+stocks_engine_r7_book2026_trades.csv (identical to the Round-6
+books; exported and independently re-summed to the paisa).
+Evidence: r7_results.json (8 records). Decision state: the
+flagged list now carries R2-26 (clean), R5-03 (e), R5-07 (e+f),
+R5-07-CERT (e+f), R6-02 (e), R6-04 (e), R6-10 (c), R7-02 (c),
+R7-03 (c), R7-06 (e+f), the triple (restated ₹1,06,558.02) and
+the max stack triple + R7-03 (arithmetic restatement
+₹1,21,428.41; gap ₹28,571.59) — see the Round-7 report.
+
+# ROUND 8 (2026-11-02) — Max-stack gate, drive-continuation, index-state conditioning, REXP geometry neighbour
+
+Pre-registration, constructions and verdict rule frozen in
+stocks_engine_round8_2026-11-02.md BEFORE scoring. Starting book =
+the Round-7 ending book (2025 JO ₹78,420.04 / gap ₹71,579.96; 2026
+JO ₹2,29,696.21, floor MET). All flagged variants stay unbanked —
+every Round-8 baseline is the book without them.
+
+## R8-01 — AUDIT: WS0 ingredient anchors
+Each stack ingredient applied alone reproduces its flagged-list
+price on this book to the paisa: R2-26 → JO 85,954.04 /
+2,33,818.54 · R5-03-clean (swap + GAP-FADE-INC retired) →
+86,709.48 / 2,27,711.39 · R5-07-CERT → 92,537.28 / 2,53,809.07 ·
+R7-03 → 93,290.43 / 2,21,296.88. Construction anchors inside the
+ingredients also exact; timing violations 0.
+
+## R8-02 — DECISION SUPPORT: MAX STACK gated whole (force_no_bank)
+R2-26 + R5-03-clean + R5-07-CERT + R7-03 as ONE candidate:
+exactly additive at row level (disjoint components). 2025 JO
+**₹1,23,231.11** (₹12,323.11/mo; gap would fall to ₹26,768.89);
+2026 JO ₹2,47,547.25; combined 3,70,821.53. **Fails leg (f)
+ONLY** — Jan 2025 +2,200.31 → −715.46, Dec 2025 +1,207.95 →
+−99.76. Leg (c) passes (the stack's other ingredients pay 2026
+more than R7-03 costs it) and leg (e) passes (2025 ex-top-3 →
++44,205.13) — the inherited (c)+(e) failures of the R7
+arithmetic restatement do not transfer to the assembled book.
+Placebos beaten: P1 1,57,925.25, P2 3,25,723.56, P3 3,24,846.36.
+
+## WS1 — Drive-continuation
+- **R8-03 (LONG): REJECTED on seven legs (a, b, c, d, e, f, h).**
+  Certified population, 800 signal days / 800 trades; standalone
+  −₹1,710.67 / −₹28,882.57 — negative in both years; Jan and May
+  2025 flip; the one-bar-late placebo (3,07,386.03) beats the
+  variant. Morning up-drives on quiet days are faded by the
+  close, not followed. Not flagged.
+- **R8-04 (SHORT twin): NOT SCORED.** The frozen rule required
+  the LONG standalone positive in both years; it is negative in
+  both. Audit record only.
+
+## WS2 — Index-state conditioning
+- **R8-05 (NE-REV-IDX): REJECTED on (e) + (f).** NIFTY-down
+  (≤ −0.30% at 10:30) filter kept 453/661 certified rows (208
+  dropped on state, 0 unknown). Conditioned standalone
+  +10,055.20 / +31,651.93; JO → 89,773.13 / 2,61,348.14. The
+  Jan-2025 flip is cured; Dec 2025 still flips (+1,207.95 →
+  −838.69) and combined ex-top-3 falls (the 2026 gains land in
+  carrier names). Flagged as a NE-REV-family alternative.
+- **R8-06 (banked fade × NIFTY-down): REJECTED on (c) only.**
+  350 of 404 banked fade legs already sit on NIFTY-down mornings
+  (unknown 0; bar-index violations 0). Removing the 54 not-down
+  legs: 2025 JO → 82,018.25 (removed legs were −3,598.21 there),
+  2026 JO → 2,27,218.97 (+2,477.24 there). Placebos beaten.
+  Flagged — a restriction decision on banked legs.
+
+## WS3 — R8-07 REXP-DOWN at T100/S065: REJECTED on (c) only
+Population re-anchored exactly at T125/S050 first. At T100/S065:
+standalone +₹10,243.45 / −₹5,899.72 (41/86 trades); 2025 JO →
+88,663.49; 2026 JO → 2,23,796.49; placebos beaten. The tighter
+target cuts the 2026 bleed by ₹2,499.61 and the 2025 gain by
+₹4,626.94. Flagged as the PREFERRED REXP-DOWN form with both
+prices stated (T100: +10,243.45 / −5,899.72 · T125: +14,870.39 /
+−8,399.33), per the pre-registered disposition.
+
+## WS4 — R8-08 combinations: closes by statement (zero bankings)
+
+## Round-8 ending scorecard (per year, never pooled)
+- **2025: Jan–Oct +₹78,420.04 = ₹7,842.00/month — floor NOT met;
+  gap ₹71,579.96 (unchanged; zero bankings).** Full-year
+  +₹77,041.31, 887 trades, ex-top-3 +₹23,708.10. Red months Jun
+  −₹955.92, Jul −₹7,083.39, Oct −₹3,944.53.
+- **2026: Jan–Oct +₹2,29,696.21 = ₹22,969.62/month — floor MET.**
+  969 trades, all months green.
+Books: stocks_engine_r8_book2025_trades.csv /
+stocks_engine_r8_book2026_trades.csv (identical to the Round-7
+books; exported and independently re-summed to the paisa).
+Evidence: r8_results.json (8 records). Decision state: the
+flagged list now carries R2-26 (clean), R5-03 (e), R5-07 (e+f),
+R5-07-CERT (e+f), R8-05 (e+f), R6-02 (e), R6-04 (e), R6-10 (c),
+R7-02 (c), R8-07 (c — preferred REXP-DOWN form), R7-03 (c),
+R7-06 (e+f), R8-06 (c — restriction), the triple (arithmetic)
+and the GATED max stack (R8-02: fails (f) only; adoption →
+2025 JO ₹1,23,231.11, gap ₹26,768.89) — see the Round-8 report.
+
+
+---
+
+# ROUND 9 (2026-11-02) — flip decomposition, stack-minus-flaw pricing, ATH sleeve, IDX December repair
+
+## WS0 — R9-01 flip decomposition (audit)
+Both max-stack flips belong to NE-REV-CERT alone. Jan 2025
+(delta −2,915.77): CERT −2,950.92 (66 rows, all DOWN-cell; the
+wound's address is DOWN × NIFTY 10:25 move in (−0.30%, 0):
+−5,192.36 on 12 rows), R2-26 +64.16, R5-03-clean −29.01,
+R7-03 0. Dec 2025 (delta −1,307.71): CERT −1,840.62 (6 rows,
+all UP-cell; the three index-dip rows −2,046.64, the three
+index-up rows +206.02), R2-26 +532.91, others 0. Sums verified
+against the R8-02 gate sheet in code. Evidence:
+r9_ws0_decomp.json.
+
+## WS1 — stack-minus-flaw variants (decision support, force_no_bank)
+- R9-02 Variant A (NE-REV-NOTCH slot): sleeve +18,618.88 /
+  +21,026.84 (262/332). Stack 2025 JO 1,27,134.02, 2026 JO
+  2,44,461.23; Jan cured (+4,476.90); fails (f) on Dec only.
+  Worth more than the unconditioned stack (combined
+  3,72,248.75 vs 3,70,821.53).
+- R9-03 Variant B (NE-REV-UPGUARD slot): sleeve +7,938.33 /
+  +26,626.59 (218/345). Stack JO 1,15,155.58 / 2,50,060.98;
+  Dec cured (+1,946.88), Jan flip remains; fails (e) + (f).
+- R9-04 Variant C (NOTCH+UPGUARD slot): sleeve +12,596.19 /
+  +23,744.40 (200/313). Stack JO 1,19,813.44 / 2,47,178.79;
+  Jan +4,476.90, Dec +1,946.88 — **PASSES ALL TEN LEGS**
+  (recorded decision support; clean-adoption price
+  ₹11,981.34/mo, gap ₹30,186.56).
+
+## WS2 — R9-05 ATH-proximity momentum: REJECTED on eight legs
+346 trigger days → 342 trades (113/229). Standalone
+−21,322.97 / −27,329.31; fails (a)–(h) except (i)/(x);
+Dec 2025 flips to −13,330.65. Not flagged. The follow family
+is closed at the daily timescale too (R8-L2 extended).
+
+## WS3 — NE-REV-IDX December repair
+- R9-06 (audit): IDX December = 3 UP-cell rows (−2,046.64);
+  IDX UP bucket +6,022.69 (2025) / −2,717.56 (2026).
+- R9-07 NE-REV-IDXCELL standalone: REJECTED on (e) only —
+  2025 JO 82,452.55, 2026 JO 2,64,065.70, NO flips anywhere.
+  Flagged (NE-REV family's no-flip form).
+- R9-08 stack with IDXCELL slot (decision support): JO
+  1,13,146.38 / 2,57,803.88; Jan +1,807.31, Dec +1,740.86 —
+  **PASSES ALL TEN LEGS** (second clean stack price).
+
+## WS4 — R9-09 combinations: closes by statement (zero bankings)
+
+## Round-9 ending scorecard (per year, never pooled)
+- **2025: Jan–Oct +₹78,420.04 = ₹7,842.00/month — floor NOT
+  met; gap ₹71,579.96 (unchanged; zero bankings).** Full-year
+  +₹77,041.31, 887 trades, ex-top-3 +₹23,708.10.
+- **2026: Jan–Oct +₹2,29,696.21 = ₹22,969.62/month — floor
+  MET.** 969 trades, all months green.
+Books: stocks_engine_r9_book2025_trades.csv /
+stocks_engine_r9_book2026_trades.csv (identical to the
+starting book; exported and independently re-summed to the
+paisa). Evidence: r9_results.json (9 records). Decision
+state: two stack forms now pass all ten legs as decision
+support — R9-04-STACK-NU (adoption → 2025 JO ₹1,19,813.44,
+gap ₹30,186.56) and R9-08-STACK-IDXCELL (→ ₹1,13,146.38,
+gap ₹36,853.62) — plus one-leg prices R9-02-STACK-NOTCH
+(→ ₹1,27,134.02, (f)-Dec only) and R8-MAXSTACK-GATED
+(→ ₹1,23,231.11, (f) only); R9-07-IDXCELL joins the
+NE-REV family flags ((e) only, no flips). 21 flagged
+entries — see the Round-9 report.
+
+
+---
+
+# ROUND 10 — 2026-11-02 (conditioned NE-REV standalone + July lens)
+
+Starting book: R9-FINAL (2025 JO +₹78,420.04; 2026 JO
++₹2,29,696.21). Pre-registration frozen in the Round-10
+report BEFORE any scoring (incl. the WS2 algebra consequence
+and the WS3 separator test). 8 cycles: 3 gated candidates,
+4 audits, 1 decision-support restatement. **Banked: 0.
+Voided cells: none.** Full record:
+stocks_engine_round10_2026-11-02.md; evidence
+r10_results.json; July evidence r10_july_decomp.json.
+
+- R10-01 AUDIT: starting books re-verified from the R9 CSVs;
+  NE-REV admission algebra verified per-row (IDXCELL ⊆ IDX ⊆
+  NOTCH; NU = NOTCH ∩ UPGUARD; 0 violations). Literal
+  {IDXCELL, NOTCH} combinations collapse — composed form
+  NOTCHCELL frozen instead.
+- R10-02 NE-REV-NU standalone: REJECTED on (e) only. 2025 JO
+  → 89,119.61; 2026 JO → 2,53,440.61; no flips; placebos
+  beaten. Flagged (standalone price).
+- R10-03 NE-REV-NOTCH standalone: REJECTED on (e)+(f). 2025
+  JO → 96,440.19; Dec 2025 flips to −632.67 without UPGUARD.
+  Flagged (largest 2025 standalone price).
+- R10-04 NE-REV-NOTCHCELL standalone: REJECTED on (e) only.
+  2025 JO → 84,986.53; 2026 JO → 2,56,909.60; no flips.
+  Flagged.
+- R10-05 AUDIT (July lens): offender INV-ABOVE −2,473.45
+  (3 rows, all shallow-dip state). Separator FAILS leg (iii)
+  — shallow bucket is a combined +2,445.28 earner (2026
+  +3,066.24). July loss diffuse across six components.
+- R10-06: closes by statement — no separator, no candidate.
+  Observation logged for Round 11 pre-registration:
+  INV-ABOVE hard-dip rows lose in both years (−1,230.62 /
+  −4,012.18) but have zero July rows.
+- R10-07: WS5 combinations close — zero bankings.
+- R10-08 stack prices restated on the ending book, all four
+  reproduced to the paisa (unconditioned 1,23,231.11 /
+  2,47,547.25; A 1,27,134.02 / 2,44,461.23; C 1,19,813.44 /
+  2,47,178.79; IDXCELL 1,13,146.38 / 2,57,803.88).
+
+## Round-10 ending scorecard (per year, never pooled)
+- **2025: Jan–Oct +₹78,420.04 = ₹7,842.00/month — floor NOT
+  met; gap ₹71,579.96 (unchanged; zero bankings).** Full-year
+  +₹77,041.31, 887 trades, ex-top-3 +₹23,708.10.
+- **2026: Jan–Oct +₹2,29,696.21 = ₹22,969.62/month — floor
+  MET.** 969 trades, all months green.
+Books: stocks_engine_r10_book2025_trades.csv /
+stocks_engine_r10_book2026_trades.csv (identical to the
+starting book; exported and independently re-summed).
+Decision state: the conditioned NE-REV family is fully
+mapped — 3 gated standalone prices (NU / NOTCH / NOTCHCELL,
+all failing only (e), NOTCH also (f)) + 4 gated stack-slot
+prices (C and IDXCELL pass all ten legs). 24 flagged entries
+— see stocks_engine_state.json. Lessons R10-L1…L4 appended.
+
+# ROUND 11 — 2026-11-02 (INV-ABOVE hard-dip exclusion, cross-family pair, leg-(e) anatomy, December freeze)
+Pre-registration frozen in stocks_engine_round11_2026-11-02.md
+before any scoring. 8 cycles: 2 gated candidates, 5 audits,
+1 decision-support freeze. Voided cells: none. Timing
+violations: 0 on every construction.
+
+- R11-01 AUDIT: starting books re-verified from the R10 CSVs
+  (2025 JO 78,420.04 / 887; 2026 JO 2,29,696.21 / 969).
+  INV-ABOVE state census reproduces R10-05's bucket nets to
+  the paisa (hard -1,230.62 / -4,012.18); unknown rows 0.
+- R11-02 INV-ABOVE hard-dip exclusion: REJECTED on (e) ONLY,
+  by Rs135.40 combined. Both years rise (2025 JO -> 80,171.76;
+  2026 JO -> 2,33,708.39; combined +5,242.80), no flips,
+  placebos beaten — but the removed losses sit in carrier
+  names, so ex-top-3 falls to 1,01,046.47. Flagged (owner
+  decision; a removal, composes with the pair).
+- R11-03 CROSS-FAMILY PAIR (NE-REV-NU + REXP-DOWN T100/S065):
+  BANKED — ALL TEN LEGS PASS. The (e)-only failure and the
+  (c)-only failure cure each other assembled. 2025 JO ->
+  99,363.06 (+20,943.02); 2026 JO -> 2,47,540.89
+  (+17,844.68); combined -> 3,47,421.84. June 2025 greens
+  (+1,343.41); July 2025 -2,101.93.
+- R11-04: NOTCHCELL substitution closes by statement —
+  trigger not met (the pair banked).
+- R11-05 AUDIT (leg-(e) anatomy of NU standalone): the
+  shortfall (Rs10,610.42) is entirely 2026. NU 2026 =
+  +34,926.51 INSIDE the top-3 (TVSMOTOR 18,734.26 /
+  OBEROIRLTY 11,376.19 / ASTRAL 4,816.06) and -11,182.11
+  OUTSIDE it (UNITDSPR -10,762.92). 2025 ex-top-3 rises
+  +571.69 on top-3 churn. Separator test over state slices:
+  0 qualify — the failure is a name fact, not a state fact.
+- R11-06: closes by statement — no separator, no candidate.
+- R11-07 FREEZE (decision support): banked book frozen in
+  stocks_engine_banked_book_FREEZE_dec2026.md with the
+  per-feature timing certification; regeneration identity
+  PASSED row-for-row and to the paisa; December pass/kill
+  lines pre-registered (PASS net > 0 + no week < -15,000 +
+  >= 20 trades; FLOOR LINE >= 15,000; KILL <= 0).
+- R11-08: union = the pair alone, re-gated PASS. Stack
+  totals reproduced exactly on the ending book; adoption
+  values restated (unconditioned +23,868.05 / +6.36; A
+  +27,770.96 / -3,079.66; C +20,450.38 / -362.10; IDXCELL
+  +13,783.32 / +10,262.99). Freeze addendum extends the
+  freeze to the ending book.
+
+## Round-11 ending scorecard (per year, never pooled)
+- **2025: Jan–Oct +₹99,363.06 = ₹9,936.31/month — floor NOT
+  met; gap ₹50,636.94 (was ₹71,579.96).** Full-year
+  +₹99,880.95, 1,128 trades, ex-top-3 +₹35,264.65. Red
+  Jan–Oct months: Jul −2,101.93, Oct −3,751.28.
+- **2026: Jan–Oct +₹2,47,540.89 = ₹24,754.09/month — floor
+  MET.** 1,368 trades, all months green.
+Books: stocks_engine_r11_book2025_trades.csv /
+stocks_engine_r11_book2026_trades.csv (exported and
+independently re-summed). Decision state: 25 flagged
+entries — see stocks_engine_state.json. Lessons R11-L1…L3
+appended.
+
+# ROUND 12 — 2026-11-02 (hard-dip re-gate on the pair book, single-leg flag re-tests, October + July-residual wounds)
+Pre-registration frozen in stocks_engine_round12_2026-11-02.md
+before any scoring. 9 cycles: 2 gated candidates, 7 audits
+(incl. the WS5 finalise). Voided cells: none. Timing
+violations: 0 on every construction.
+
+- R12-01 AUDIT: starting books re-verified from the R11 CSVs
+  (2025 JO 99,363.06 / 1,128; 2026 JO 2,47,540.89 / 1,368;
+  Jul -2,101.93, Oct -3,751.28 asserted). INV-ABOVE census
+  reproduces R11-01's bucket nets to the paisa (hard
+  -1,230.62 / -4,012.18); unknown rows 0.
+- R12-02 INV-ABOVE hard-dip exclusion, NEW BASELINE: BANKED
+  — ALL TEN LEGS PASS. The R11-02 construction verbatim on
+  the pair book: 2025 JO -> 1,01,114.78 (+1,751.72); 2026 JO
+  -> 2,51,553.07 (+4,012.18); combined -> 3,52,664.64. The
+  (e) failure inverts: combined ex-top-3 delta -135.40 on the
+  old baseline -> +953.74 here (base 1,03,228.30 ->
+  1,04,182.04). Placebos beaten (chrono 3,48,898.96; cross
+  3,42,973.57). The R11-02 flag is retired — banked.
+- R12-03 R5-03-clean re-gate: REJECTED on (c) + (e). Raw
+  deltas 2025 +8,289.44 (JO 1,07,652.50) / 2026 -1,984.82
+  (JO 2,45,556.07); combined rises, placebos beaten, no
+  flips — but the clean swap must now retire the banked
+  GAP-FADE-INC too, and its 2026 rows out-earn the widening;
+  combined ex-top-3 falls to 97,652.34. Flag restated:
+  adoption from the ending book +6,537.72 / -5,997.00.
+- R12-04 AUDIT (WS2 screening): every other single-leg flag
+  is pre-refused by delta-leg arithmetic, printed per flag —
+  (c)-only REXP/FADE forms displace banked rows with worse
+  2026 nets by identity (deltas -2,499.61 to -5,030.46);
+  NE-REV slot alternatives are non-additive with NU and
+  fail (b)/(c) as swaps (IDXCELL 4,032.51 / NOTCHCELL
+  6,566.49 / thr-2.25-CERT 8,523.03 vs NU 12,596.19 in
+  2025; NOTCH 21,026.84 vs NU 23,744.40 in 2026). No
+  candidate scored.
+- R12-05 AUDIT (October decomposition): Oct 2025 -3,751.28
+  on 20 rows = F4 -3,021.83 (3 trades, ALL up-state) +
+  N4-V3 -793.80 + P2F -312.98 + P2F-R2 -288.00 + INV-ABOVE
+  -207.92, partly offset (INC +680.00, NU +193.25).
+  Separator test: F4 x up passes (i) + (ii) (FY25 up-bucket
+  -9,887.43), fails (iii) — the bucket is +30,693.95
+  combined (2026 +40,581.38).
+- R12-06: closes by statement — 0 qualifying separators.
+- R12-07 AUDIT (July residual decomposition): Jul 2025
+  -2,101.93 on 41 rows. The pair already paid +4,981.46
+  into July (NU +5,255.43, REXP -273.97). Residual:
+  INV-ABOVE -2,473.45 (3 shallow-dip rows — the R10-05
+  cell), N4-V3 -1,821.00, GAP-FADE-INC -1,560.10, F4
+  -1,025.28 (mixed states). Separator: shallow passes
+  (i) + (ii), fails (iii) (+2,445.28 combined, as in
+  R10-05); hard passes (ii) + (iii) but holds zero July
+  rows.
+- R12-08: closes by statement — 0 qualifying separators.
+- R12-09: union = R12-02 alone, re-gated PASS. Stack totals
+  reproduced exactly on the ending book; adoption values
+  restated (unconditioned +22,116.33 / -4,005.82; A
+  +26,019.24 / -7,091.84; C +18,698.66 / -4,374.28;
+  IDXCELL +12,031.60 / +6,250.81) — only IDXCELL still adds
+  in both years. Freeze addendum (Round 12) extends the
+  December freeze to the ending book; regeneration
+  verification PASSED row-for-row and to the paisa.
+
+## Round-12 ending scorecard (per year, never pooled)
+- **2025: Jan–Oct +₹1,01,114.78 = ₹10,111.48/month — floor
+  NOT met; gap ₹48,885.22 (was ₹50,636.94).** Full-year
+  +₹1,01,111.57, 1,105 trades, ex-top-3 +₹35,085.01. Red
+  Jan–Oct months: Jul −2,101.93, Oct −3,751.28 (both
+  unchanged by the banking; both separator-less).
+- **2026: Jan–Oct +₹2,51,553.07 = ₹25,155.31/month — floor
+  MET.** 1,352 trades, all months green.
+Books: stocks_engine_r12_book2025_trades.csv /
+stocks_engine_r12_book2026_trades.csv (exported,
+independently re-summed, regeneration-verified). Decision
+state: 24 flagged entries — see stocks_engine_state.json.
+Lessons R12-L1…L4 appended.
+
+# ROUND 13 — 2026-11-02 (prior-day sweep + reclaim transplant, REXP and NE-REV-NU geometry neighbours)
+Pre-registration frozen in stocks_engine_round13_2026-11-02.md
+before any scoring. 8 cycles: 6 gated candidates, 2 audits
+(incl. the WS4 finalise). Voided cells: none. Timing
+violations: 0 on every construction.
+
+- R13-01 AUDIT: starting books re-verified from the R12 CSVs
+  (2025 JO 1,01,114.78 / 1,105; 2026 JO 2,51,553.07 / 1,352;
+  Jul -2,101.93, Oct -3,751.28 asserted).
+- R13-02 SWEEP-RECLAIM LONG (prior-day-low sweep + reclaim,
+  T125/S050): REJECTED on nine of ten legs. Standalone
+  -1,62,923.55 / -1,06,668.60 on 1,585/1,300 trades (2,885
+  signals); loses to both placebos (flipped book 3,20,661.65,
+  late book 1,39,743.54 vs variant combined 83,072.49).
+- R13-03 SWEEP-REJECT SHORT (prior-day-high sweep +
+  rejection): REJECTED on seven legs (a, b, c, d, e, f, h).
+  Standalone -11,893.51 / -370.85 on 1,794/1,304 trades —
+  gross zero before costs. The transplant family is CLOSED
+  in both directions.
+- R13-04 REXP-DOWN swap T125/S065: REJECTED on (a) + (c) +
+  (e). Sleeve JO +12,534.71 / -10,152.39 — the wider target
+  buys 2025 (+2,291.26) with 2026 (-4,252.67).
+- R13-05 REXP-DOWN swap T100/S050: BANKED — ALL TEN LEGS
+  PASS. Sleeve JO +12,486.11 / -4,384.34; the tighter stop
+  improves both years (+2,242.66 / +1,515.38). 2025 JO ->
+  1,03,357.44; 2026 JO -> 2,53,068.45.
+- R13-06 NE-REV-NU swap T125/S065: REJECTED on (a) + (c)
+  only — FLAGGED as an owner decision (adoption from the
+  ending book +2,326.81 / -5,998.05). Sleeve standalone
+  +15,631.27 / +17,746.35.
+- R13-07 NE-REV-NU swap T100/S050: REJECTED on (a) + (b) +
+  (c) + (f); Jun 2025 flips. The stop step that paid REXP
+  costs NU in both years. NU's T100/S065 is bracketed on
+  both axes.
+- R13-08 WS4: union = R13-05 alone, re-gated PASS. Stack
+  totals reproduced exactly on the ending book; adoption
+  values restated (unconditioned +19,873.67 / -5,521.20; A
+  +23,776.58 / -8,607.22; C +16,456.00 / -5,889.66; IDXCELL
+  +9,788.94 / +4,735.43 — IDXCELL still the only form adding
+  in both years). December freeze addendum (Round 13)
+  appended; regeneration verification PASSED.
+Books: stocks_engine_r13_book2025_trades.csv /
+stocks_engine_r13_book2026_trades.csv (exported,
+independently re-summed, regeneration-verified). Decision
+state: 25 flagged entries — see stocks_engine_state.json.
+Lessons R13-L1…L2 appended.
+
+# ROUND 14 — 2026-11-02 (exit-geometry neighbours on the original sleeves)
+Pre-registration frozen in stocks_engine_round14_2026-11-02.md
+before any scoring (the GAP-FADE cell chosen by a frozen
+excursion-diagnostic rule, disclosed in the pre-registration).
+8 cycles: 6 gated candidates, 2 audits (incl. the WS5
+finalise). Voided cells: none. Timing violations: 0 on every
+construction.
+
+- R14-01 AUDIT: starting books re-verified from the R13 CSVs
+  (2025 JO 1,03,357.44 / 1,105; 2026 JO 2,53,068.45 / 1,352;
+  Jul -2,000.01, Oct -3,751.28 asserted).
+- R14-02 F4 swap T175/S095: REJECTED on (a) + (c) — FLAGGED.
+  Sleeve +6,371.44 / +92,288.65 vs the banked cell's
+  +91.14 / +1,03,055.93 (JO deltas +6,280.30 / -10,767.28):
+  the target step is a year-trade on F4 too, on an
+  exact cross-year score (SAT-12's closure was
+  estimate-only).
+- R14-03 INV-LONG swap T150/S050: REJECTED on (a) + (c) —
+  FLAGGED. Sleeve +28,170.00 / +39,612.14 (JO deltas
+  +4,275.39 / -10,547.95) on the re-formed chain population.
+- R14-04 INV-ABOVE swap T150/S050: BANKED — ALL TEN LEGS
+  PASS. Sleeve JO +12,513.28 / +10,114.82 (JO deltas
+  +2,050.12 / +2,753.43); hard-dip exclusion re-applied at
+  the new geometry drops 22 / 15. Decomposes R2-26: its
+  March flip was the S080 stop, not the T150 target.
+- R14-05 GAP-FADE family swap T125/S065: BANKED — ALL TEN
+  LEGS PASS. Family JO +24,355.17 / +7,733.66 (JO deltas
+  +579.68 / +1,478.42). The diagnostic's stop-axis pick;
+  exact gain ~1/6 of the +12,157.87 rough estimate.
+- R14-06 N4-V3 swap to the scorecard cell T125/S050:
+  REJECTED on (a) + (b) + (c) + (e). Sleeve JO -13.80 /
+  +11,548.34 — reverting costs 2025 JO -8,137.41 / 2026 JO
+  -18,013.98 on the current population. The SAT-15 rebuild
+  is worth more now than at birth.
+- R14-07 P2F family swap T150/S050: REJECTED on (a) + (b) +
+  (e). JO rises in both years (+627.22 / +111.87) but
+  full-year 2025 and ex-top-3 fall. Attribution: Lesson
+  33's two-axis 2025 bleed was the stop widening, not the
+  target.
+- R14-08 WS5: union of R14-04 + R14-05, re-gated PASS.
+  Stack totals reproduced exactly on the ending book;
+  adoption values restated (unconditioned +17,243.87 /
+  -9,753.05; A +21,146.78 / -12,839.07; C +13,826.20 /
+  -10,121.51; IDXCELL +7,159.14 / +503.58 — IDXCELL still
+  the only form adding in both years, now marginally in
+  2026). December freeze addendum (Round 14) appended;
+  regeneration verification PASSED.
+Books: stocks_engine_r14_book2025_trades.csv /
+stocks_engine_r14_book2026_trades.csv (exported,
+independently re-summed, regeneration-verified). Decision
+state: 27 flagged entries — see stocks_engine_state.json.
+Lessons R14-L1…L5 appended.
+
+# ROUND 15 — 2026-11-02 (two-step geometry continuations + the VOLUME data axis)
+Pre-registration frozen in stocks_engine_round15_2026-11-02.md
+before any scoring (the two second steps, the volume
+causality law, the frozen rvol band and the diagnostic
+sleeve-choice rule all stated in advance).
+8 cycles: 2 gated candidates, 5 audits (build, diagnostic,
+two not-run gates, WS4 finalise), 1 verification. Voided
+cells: none. Timing violations: 0 on every construction.
+Unclassifiable volume rows: 0.
+
+- R15-01 AUDIT: starting books re-verified from the R14 CSVs
+  (2025 JO 1,05,987.24 / 1,101; 2026 JO 2,57,300.30 / 1,352;
+  Jul -2,733.21, Oct -4,152.19 asserted).
+- R15-02 INV-ABOVE swap T175/S050 (second target step):
+  REJECTED on (c) only — FLAGGED. Sleeve 15,367.09 /
+  8,916.53; JO deltas +92.57 / -1,198.29; combined full-year
+  total rises (+1,001.66) on Nov/Dec-2025 strength; no
+  flips, placebos beaten. The year-trade signature at a
+  far smaller price: T150 took nearly all the winners had.
+- R15-03 GAP-FADE family swap T125/S080 (second stop step):
+  REJECTED on (a) + (b) + (c) + (e). Family JO deltas
+  -2,548.14 / -4,790.90; GAP-FADE 2026 standalone goes
+  negative (-3,012.95) at the wider stop. The stop axis is
+  a peak at S065, not a slope. Not flagged (four legs).
+- R15-04 AUDIT (volume build): daily volume for the 25
+  stocks + NIFTY fetched via the connector path (v3
+  days/1) into the NEW dataset stocks_daily_volume.csv
+  (12,584 rows, 2024-11-15..2026-10-31; pre-2025 tail is
+  lookback only). Coverage COMPLETE for all 25 stocks in
+  both years (249/249 in 2025, 203/203 in 2026; zero
+  holes, zero zero-volume days; series also covers
+  2026-10-29/30). NIFTY volume is 0 on every day as
+  returned (an index has no traded volume) — stored as
+  returned, used by no gate. No candle file altered.
+- R15-05 AUDIT (volume diagnostic, frozen rule): keep
+  prior-day rvol >= 1.0 (trailing-20-day median; causality
+  asserted row by row). Combined JO deltas: F4 -47,355.57
+  (+1,972.94 / -49,328.51), N4-V3 -9,385.58, P2F family
+  -3,003.70. NO sleeve positive.
+- R15-06 AUDIT: volume gate 1 NOT RUN — frozen rule (no
+  positive diagnostic sleeve). WS3 closes with no gate.
+- R15-07 AUDIT: volume gate 2 NOT RUN — frozen rule.
+- R15-08 WS4: no bankings, no union to re-gate; ending
+  book == starting book. Stack totals reproduced exactly
+  on the ending book; adoption values unchanged
+  (unconditioned +17,243.87 / -9,753.05; A +21,146.78 /
+  -12,839.07; C +13,826.20 / -10,121.51; IDXCELL
+  +7,159.14 / +503.58). December freeze addendum (Round
+  15) appended: frozen book UNCHANGED; regeneration
+  verification PASSED.
+Books: stocks_engine_r15_book2025_trades.csv /
+stocks_engine_r15_book2026_trades.csv (exported,
+independently re-summed, regeneration-verified; identical
+in substance to the Round-14 books). Decision state: 28
+flagged entries — see stocks_engine_state.json. Lessons
+R15-L1…L4 appended.
+
+# ROUND 16 — 2026-11-02 (the volume MIRROR — quiet-prior-day entries)
+Pre-registration frozen in stocks_engine_round16_2026-11-02.md
+before any scoring (the mirror form as the exact complement
+of Round 15's frozen feature, the causality law, the sleeve
+anchors, and the WS3 run-condition all stated in advance).
+6 cycles: 2 gated candidates, 4 audits (verification, the
+not-run WS3 gate, WS4 pair). Voided cells: none. Timing
+violations: 0 on every construction. Unclassifiable volume
+rows: 0. Round 16 banked: 0.
+
+- R16-01 AUDIT: starting books re-verified from the R15 CSVs
+  (2025 JO 1,05,987.24 / 1,101; 2026 JO 2,57,300.30 / 1,352;
+  Jul -2,733.21, Oct -4,152.19 asserted). Sleeve anchors
+  exact; mirror kept/dropped counts reproduce the R15
+  diagnostic's low/kept counts to the row.
+- R16-02 REJECTED (F4 volume mirror, keep prior-day rvol
+  < 1.0; kept 134/165 of 246/355): 2025 JO -2,064.08, 2026
+  JO -53,727.42, combined -> 3,09,097.98; fails (a) + (b) +
+  (c) + (e) + (f) — March 2026 flips (+11,344.23 ->
+  -673.18); placebos beaten; not flagged (five legs). F4's
+  2026 value lives in BOTH volume halves (deleting the loud
+  half at R15's diagnostic cost -49,328.51; deleting the
+  quiet half costs -53,727.42 exact).
+- R16-03 REJECTED (N4-V3 volume mirror; kept 17/13 of
+  35/34): 2025 JO -3,937.27, 2026 JO -24,363.08, combined
+  -> 3,38,225.04; fails (a) + (b) + (c) + (e); no flips;
+  placebos beaten; not flagged (four legs).
+- R16-04 AUDIT (P2F volume mirror NOT RUN — the frozen WS3
+  condition required a banking or an exactly-one-leg
+  failure in WS1/WS2; five and four failed legs met
+  neither. No P2F mirror number computed.)
+- R16-05 AUDIT (WS4: no bankings, no union to re-gate;
+  ending book == starting book; stack prices restated
+  exactly on the unchanged book — unconditioned
+  1,23,231.11 / 2,47,547.25, A 1,27,134.02 / 2,44,461.23,
+  C 1,19,813.44 / 2,47,178.79, IDXCELL 1,13,146.38 /
+  2,57,803.88; flagged list unchanged at 28).
+- R16-06 AUDIT (December freeze addendum — book unchanged,
+  no volume form in either direction is frozen —
+  regeneration-verified against the R15 CSVs; ending books
+  exported to stocks_engine_r16_book{2025,2026}_trades.csv).
+  Frontier finding recorded in the report: the in-sample
+  programme stands where the other segments stand —
+  December fresh data, November forward evidence, owner
+  decisions (16 rounds, 105 recorded cycles). Lessons
+  R16-L1…L2 appended.
+
+## ADOPTION — Variant C applied by owner direction (2026-11-02, 16:48 IST)
+- ADOPT-01 VERIFICATION: Variant C rebuilt from the Round-16
+  book behind the full gate — Jan-Oct 1,19,813.44 /
+  2,47,178.79 EXACT, row-for-row identical to the R9-04
+  gated book; the R9-04 sheet reproduced exactly (all ten
+  legs pass; placebos 174,662.47 / 344,925.15 / 322,968.45;
+  timing violations 0).
+- ADOPT-02 GATE vs the pre-adoption book: 8 of 10 legs pass
+  (combined +4,054.14; 2025 rises; no flips; placebos
+  beaten; leg (x) holds). Legs (c) -10,121.51 and (e)
+  -16,352.41 fail on that comparison — the post-R9 bankings
+  out-earn the stack's frozen forms in 2026 — and stand as
+  FAILED-AND-WAIVED BY THE OWNER'S DIRECTION, recorded in
+  full in stocks_adoption_variantC_2026-11-02.md.
+- ADOPT-03 DECEMBER FREEZE: the adopted book is frozen in
+  stocks_engine_adopted_variantC_FREEZE_dec2026.md
+  (regeneration verification PASSED; PASS/KILL
+  re-registered). The Round-16 book is retained as the
+  comparison baseline (state: pre_adoption_incumbent_r16).
+  November's frozen book untouched. Candidate pace now:
+  2025 Rs11,981.34/mo (gap Rs30,186.56); 2026
+  Rs24,717.88/mo (floor met).

@@ -111,3 +111,863 @@ The engine's charter (user, 2026-10-31): recursive self-improvement — *improve
 37. **Follow-through belongs to scheduled information, not to information shocks in general (Cycle 27, CH-V2-12).** P2F's machinery transplanted verbatim onto the calendars' news classes (same ≥2.5% band, same R+1 entry, same exits) produced 6 trades for −₹140.06 combined, and in 2026 the flip placebo earned +₹1,368.89/trade against the follower's −₹522.33: unscheduled news reactions faded where results reactions continued. The mechanism's edge is therefore not "a big move happened" but "a big move happened on scheduled, interpretable news whose repricing takes days" — the event class is part of the mechanism, and a class transplant is a new hypothesis, not a scale-up of a proven one. Thin evidence disclosed (6 band candidates across two years, one reaction day lost to the results dedup): the rejection leans on the placebo inversion in the strong year, and fresh-window data could reopen the question — but on this data the follow family's universe is results-only, closed. *(Evidence: engine v2 cycle 27; stocks_engine_v2_cycle27_score.py, v2_out/v2_cycle27_result.json)*
 
 38. **The average hid the weak months; the user's standard is a floor under every month (v3 charter, user order 2026-10-31 20:55 IST).** Two engines optimised totals and averages and both times the headline concealed the distribution: v1's ₹19,761/month was one regime's photograph (Lesson 26), and v2's combined ₹10,867/month average coexisted with six red months in 2025 (worst −₹5,149.95) and a 2025 ex-top-3 of −₹12,272.78. The user's correction — "at least ten thousand should be the minimum" — is adopted as the v3 objective in his own form: **lexicographic maximin over the 22-month vector** (raise the worst month first, then the next), under the v2 hard constraints (neither year falls, no year negative, every regime cell positive, combined never falls). Corollaries: (i) a fix that fattens a strong month while the worst month stands still is NOT progress under this objective, however much it raises the total — it will be reported as a no-beat; (ii) the weak months are quiet months (Jun 2025: 7 trades), so maximin progress is mostly an ACTIVITY problem in low-opportunity regimes, not an exit or slice problem — the deletion registry is exhausted (v2 C19) and the exit axes are settled (Lessons 31/33/34), so the material must be new information breadth or proven-earner variants that would actually have traded in those months; (iii) the floor is judged per month on the same two windows that judge everything else — a worst month lifted by a change that costs another month below it is a rotation, not a lift, and the lexicographic test refuses it by construction. *(Evidence: user orders 2026-10-31 15:17 / 15:30 / 20:50 / 20:55 IST; v2 termination entry in stocks_engine_log.md — month vector, red months, band metrics; v3 charter in stocks_RECURSIVE_ENGINE.md)*
+39. **A calendar that cannot be built uniformly must not be built partially — missing days impersonate no-event days, and the impersonation is worst exactly where the measurement matters.** The v3 desert phase ordered a systematic bulk/block-deal calendar (uniform across both judging windows, frozen before scoring). Every systematic source failed on reachability or uniformity from this environment: the NSE historical-report API's host is unreachable, the BSE API is bot-walled, Wayback's daily-file snapshots are near-absent in-window, the one full-history republisher (Ansaar, 89k rows) exposes only its latest session readably, and the one public dataset file is bulk-only and truncated mid-window (Mar 2026). A truncated calendar was available and was REFUSED: scored on it, a challenger would be a different system than its definition (its missing months are unknown, not zero), and the desert months the calendar existed to serve are precisely the months where coverage gaps would decide verdicts. This is Lesson 26 at the data layer — a measurement artefact (coverage) impersonating a system property (no events) — and Lesson 1's timing discipline generalised: an input is either the thing it claims to be, on every day of both windows, or it is not an input. Corollary: when a data build fails on sourcing, the failure is recorded with the same completeness as a scoring (sources tested, failure mode of each, the exact endpoint/field map that would complete the build) so the build is resumable in one step when access changes — a sourcing verdict is a result, not an omission. *(Evidence: v3 desert phase, 2026-10-31; stocks_engine_log.md desert-phase entry; NseIndiaApi docs + installed `.venv_nse` client; GitHub shahzebkhan-os/btst file listing)*
+35-addendum-2 (v3 C18, desert phase). **The INV-ABOVE round split is measured: round 2 is the component (54 tr, +₹13,977.13 combined, positive both years); round 1 is expectancy-dead (133 tr, −₹2,346.67 combined — +₹12/trade in 2025, −₹129/trade in 2026) and is the entire desert-month bleed (Jul 2025's −₹2,473.45 = 3 round-1 trades; Jun 2025's month = 6 round-1 + 1 round-2). The amputation is nevertheless UNBANKABLE: round 1 is positive in 2025 (+₹1,260.61), so deleting it violates the neither-year-falls hard constraint even though it would lexicographically beat the month vector. Recorded as a closed axis so it is not re-proposed: a maximin engine with a cross-year floor will sometimes be unable to remove a leg it can prove is dead in one year and zero in the other — that is the constitution working as designed, not an oversight; the repair, if one exists, must come from additive material that lifts the desert months without touching the leg.** *(Evidence: v3_out/v3_cycle18_diag.json — population rebuilt with C2's exact pick, matched row-by-row to the post-C16 book; the 19 population-only rows are the C24 FLAT stand-aside set.)*
+40. **Engine v3 saturated with its objective honestly unmet — and the saturation itself is the measurement.** v3 (maximin) lifted the cross-year book +₹20,792.92 over 19 cycles and flipped two red months green, then hit three consecutive no-beats with every named road closed by evidence: the deletion registry exhausted, the (band × lag) grid completed (reaction-following earns ONLY at ≥2.5% × R+1; three lower cells are each negative on their own controlled runs), the round axis adjudicated on both gates, and the one genuinely new data class (bulk/block deals) unbuildable uniformly from this environment. The four surviving red months are all 2025 UP-regime months whose anatomy is identical — INV-ABOVE round-1 bleed plus an information desert — and the one surgical fix for that anatomy (amputate round 1) is barred by the cross-year floor because the leg is barely positive in 2025. The lesson for any successor engine: when the binding constraint becomes the constitution itself (neither-year-falls vs worst-month repair), more cycles on the same families cannot help — the frontier moves only with new DATA (an event class that actually occurs in quiet UP-regime months) or a new mechanism, and the correct terminal act is to say exactly that, with the unmet objective (worst month ≥ ₹0, then ₹10,000) stated as unmet rather than quietly re-scoped. *(Evidence: v3 cycles 16–19 + termination entry in stocks_engine_log.md; v3_out/v3_cycle1{6,7,9}_result.json; v3_out/v3_cycle18_diag.json; Lesson 39 sourcing record.)*
+41. **A component-level gate pass does not transplant into the book — the population a filter acts on is a function of book state.** The N4-V3 ≥3% move cap passed the full gate on the standalone 2026 file (book basis +₹19,977.90 → +₹20,940.28), yet at whole-book level (FLOOR-1) it was rejected: the book's own prior deletions (v2/v3 law) had already harvested the standalone file's losing ≥3% names, so the surviving in-book ≥3% bucket had flipped sign in the fitted year (2026 +₹5,678.23) while carrying the diagnosed sign in the untested year (2025 −₹1,838.73). Any fix scored on a component file must be re-gated inside the assembled book, in every year, before it is believed — the standalone universe and the in-book universe are different populations wearing the same name (extends Lesson 16 from deltas to filter populations). *(Evidence: FLOOR session cycle 1; stocks_engine_floor_c1.py, stocks_engine_floor_c1_result.json)*
+42. **An entry-quality filter can need the direction split as much as a deletion does.** The symmetric ≥3% cap failed (Lesson 41), but its LONG half was negative in both years (2025 −₹940.81 / 10 tr; 2026 −₹1,790.26 / 4 tr) while its SHORT half carried 2026 (+₹7,468.49, 9/10 winners): over-extension after a reaction is a chasing phenomenon on the LONG side of this book, and shorting an over-extended fall kept paying in 2026. The one-sided cap (skip signed move ≥ +3.0%) banked on all nine gate legs and repaired 2025's ex-top-3 from +₹30.76 to +₹5,131.62 (FLOOR-2). When a filter fails symmetric, split it by direction before abandoning it — the same discipline as Lesson 15, applied to a gate instead of a deletion. *(Evidence: FLOOR session cycle 2; stocks_engine_floor_c2.py, stocks_engine_floor_c2_result.json)*
+43. **"Over-extension" is not one phenomenon — the measurement window is the mechanism.** N4's intraday over-extension (move by 09:30 ≥ 3%) hurts, on the LONG side (Lessons 41–42). The P2F family's full-day reaction size pays MORE as it grows: expectancy by |reaction_ret| bucket rises in both years (2026: 2.5–4% +₹384/tr, 4–6% +₹865, ≥8% +₹695; 2025 positive in every bucket), so the FLOOR-3 challenger (a P2F size cap, transplanted from the N4 result) was refused at diagnosis. A morning's froth and a day's information are different axes; a cap that is medicine on one is poison on the other, and a cross-component transplant must re-derive its gradient on the target component before it is even frozen. *(Evidence: FLOOR session cycle 3; stocks_engine_floor_c3_diag.py)*
+44. **Aggregation is the mirror sin of thin slicing: the quality bar binds in both directions.** At the FLOOR-C4 book the (comp × stock) axis showed two rows over the −₹500 bar (P2F-R2 × RECLTD −₹690.73; N4-V3 × PFC −₹561.82) and both were refused: each was a sum of direction slices that individually fail the bar, in different directions and mostly different years — and the PFC row concealed a +₹568.78 winning trade (2026) that the coarser cut would have deleted. SAT-30 closed the deletion frontier against slicing THINNER to find qualifying rows; FLOOR-5 closes it against aggregating WIDER to manufacture them. A slice qualifies on its own numbers at its own unit — (mechanism × stock × direction) — or it does not qualify at all. *(Evidence: FLOOR session cycle 5; stocks_engine_floor_c5_diag.py)*
+45. **The frozen law had mis-priced the chain's tail, not killed it: INV-LONG rounds <=3 with an 11:00 cutoff banked +Rs11,255.92 combined through the full gate (Round 2, R2-07).** v2's earliness work (Lesson 36) bounded WHEN entries may occur by day-gate; inside the gated population, the round cap and the entry cutoff were separate frozen choices, and both were leaving money in both years: the grid's own control cell (rounds <=3 at the old 10:30 cutoff) reproduces the incumbent combined to the paisa, so the entire gain is the 11:00 entry hour plus round 3 at that hour — +Rs6,620.26 in the weak year, +Rs4,635.66 in the strong year. A parameter frozen by an earlier engine is a hypothesis with a date on it; the permutation cross (ADR x rounds x cutoff) is the instrument that re-tests it, and the control cell inside the grid is what makes the attribution exact rather than rhetorical. Corollary: the merged-law variants (rounds >=1 unified, R2-09/10) both failed — the INV-R3 split (FLAT-day and round>=4 rows under separate law) is load-bearing structure, not bookkeeping. *(Evidence: Round 2 R2-07 grid + R2-09/10; r2_results.json)*
+46. **A slice scored dead at one exit geometry is not scored: the cell is (population x geometry), not population alone.** The N4 [0.75,1.0) lowband was negative at T125/S050 (SAT-4) and that verdict closed the axis in v3. At the book's T150/S080 geometry the 0.8% threshold banks +Rs2,075.33 through all nine legs (Round 2, R2-17) — small, and positive in both years (2025 +1,831.25 / 2026 +244.08). Exit geometry changes which trades in a population reach target before stop, so a geometry-specific rejection cannot be promoted to a population rejection. The reverse also binds: geometry wins do not transfer across populations (F4 per-cell geometries, R2-20..23, all failed). *(Evidence: Round 2 R2-17 vs SAT-4; r2_results.json)*
+47. **Cross-year opposition is a property of the F4 population itself, not of any one axis.** Across two sessions and eleven gated F4 variants (band edges x2, measurement time, exclusions off, per-cell exit geometries x4, FLAT stand-aside), every population change moves the years in opposite directions: 2025 gains Rs12-18k while 2026 loses Rs20k-1,23,440. The DOWN cell is the same wall in label form (2025 227 tr / -2,370 vs 2026 312 tr / +1,06,006 at identical construction). The second-day continuation mechanism (PERSIST-R2, R2-19) shows the same signature in miniature (2025 +2,903.00 / 2026 -643.26). When every axis of a family flips sign across the same year boundary, the family's information is regime-conditional in a way its own features cannot express — further in-sample permutations of that family are re-rolls of the same dice, and the honest continuation is new data or a new information axis, stated as such with the numbers attached. *(Evidence: Round 2 R2-01..06, R2-19..24; stocks_engine_round2_2026-11-02.md full grid)*
+48. **Passing eight of nine legs is a terminal state with its own name — flagged — not a banking with an apology.** R2-26 (INV-ABOVE T150/S080) adds +Rs13,089.83 combined, positive in both years, cells/halves/ex-top-3/placebos all green, and fails exactly one leg: Mar 2025 flips +1,091.17 -> -1,368.66 under the wider target. The per-cell splits prove the flip is not separable from the gain (UP-only fails ex-top-3 instead; FLAT-only keeps the flip). The engine's constitution does not contain a waiver power: the variant is reported with its failing leg named and its adoption value computed (+Rs7,534.00 to the weak year), and the decision moves to the user — the same disposition as the Nifty CH3-R adoption (2026-11-02). A gate that the engine can waive when the number is pretty is not a gate. *(Evidence: Round 2 R2-26/27/28; r2_results.json)*
+49. **Confirmation is a cost, not a filter: the 09:40 confirming-close entry was the most expensive idea in Round 2.** Requiring the 09:35 bar to close beyond threshold before entering (N4, R2-16 and R2-18) costs Rs16-22k combined against the standard entry in both years — the five minutes of "confirmation" systematically pay away the move the signal identified, on the LONG and SHORT sides alike (the flipped placebo also degrades). Entry-delay variants of an event system must be presumed guilty: their burden of proof is a full gate pass, and a delay that merely reduces variance while surrendering the first bar's edge will show exactly this signature — fewer disasters, much less money. *(Evidence: Round 2 R2-16, R2-18; r2_results.json)*
+
+
+---
+
+# ROUND 3 LESSONS (2026-11-02) — targeted techniques on 2025
+
+R3-L1. **A gated basket of sub-bar deletions is worth less than its
+placebos.** The wound basket (7 rows, 58 trades, every member negative
+in the wound months AND negative whole-book) gained +₹1,873.53 in 2025
+but lost −₹178.10 in 2026 and was beaten by BOTH the mirror-months
+basket (+₹5,029.93 over base) and plain chrono removal (+₹4,132.46).
+Deleting "rows that lost in the red months" is not information; the
+wound months are mostly small-sample noise on rows whose whole-book
+sign is already known. The registry stays empty; do not re-run wound
+baskets at other month sets.
+
+R3-L2. **The biggest wound rows are the book's engines.** F4 TVSMOTOR
+LONG/SHORT lost −₹6,866.88 combined inside Jun/Jul/Oct 2025 and earned
++₹34,912.05 whole-book. Any wound treatment that touches them destroys
+the book. Wound size and row value are positively correlated here —
+variance, not rot.
+
+R3-L3. **The 2025 event layer was never incomplete.** 100/100 results
+events with valid reaction dates, 100 candidates vs 2026's 80, MORE N4
+signal-days (91 vs 77). Before rebuilding any data layer, audit it:
+the suspected hole was in the OTHER year (16 placeholder reaction
+dates, all outside the judged window). 2025's reaction-family weakness
+is expectancy (P2F-R2 −₹390 vs +₹15,149) and band mix (33 vs 39 events
+≥2.5%) — properties of the 2025 tape that no calendar repair changes.
+
+R3-L4. **Entry delay is taxed in every construction.** Quarter-hour
+deferral: F4 −₹33,001 in 2026 (2025 +₹229), INV −₹11,032 / −₹13,495.
+Together with R2-03 (09:45 measurement) and R2-16 (09:40 confirmation),
+four separate delay mechanisms all lose. The 5-min next-bar entry is
+load-bearing for F4 and INV; the entry-timing axis is CLOSED for both
+families at both the measurement and execution bars.
+
+R3-L5. **The 25 fade gap-downs and follow nothing.** Gap diagnostic,
+both halves, both years pooled: follow −₹27/−₹43 per trade; fade
++₹3/+₹26; fade-LONG-only (buy the gap-down) +₹57/+₹72; fade-SHORT
+−₹49/−₹9. A real, sign-consistent phenomenon — and it STILL does not
+bank: at book level it costs 2026 (−₹4,081 for the LONG-only sleeve;
+−₹15,957 for the full fade) and concentrates in the top-3 stocks.
+Standalone sleeve expectancy, even when positive in both diagnostic
+halves, is not book value. The cross-year and concentration legs are
+what separate a phenomenon from a component.
+
+R3-L6. **May 2025 is the gate's tripwire.** Every gap-sleeve variant
+flips May 2025 (+₹2,498.99) red — the sleeve's trades land heavily in
+that month and lose there in both years' constructions. A candidate
+that cannot survive May 2025 cannot bank, whatever it does to the
+annual total; this is leg (f) doing exactly its job.
+
+R3-L7. **Chandu's index ORB method does not port to the 25 cash
+stocks.** −₹96,573 (2025) / −₹2,43,757 (2026) standalone at ~9,000
+trades — the single worst construction ever gated by this engine.
+Level breaks on individual names at T125/S050 are information-free
+(lesson 2) at industrial scale. ORB on stocks is closed; do not run
+range-width or exit variants of it.
+
+R3-L8. **Three rounds, one shape of answer.** Rounds 1–3 have now
+gated: the full F4/INV/reaction/N4 law grids, regime cells, wound
+baskets, data completion, entry timing at both bars, and two new
+mechanism classes (4 gap cells + a sign-split sub-sleeve + ORB). 2025
+has not moved (₹56,336.30) since Round 2's two bankings, and every
+2025-positive idea found since (gap-fade family) is 2026-negative or
+top-3-concentrated. The remaining honest routes to the 2025 floor are
+outside the current information set: Nov–Dec 2025 forward evidence
+(already in the frozen test window), a genuinely new data axis (bulk/
+block deals, delivery percentages — not in the workspace), or
+Chandu-level adoption decisions on the two flagged gate-failures
+(R2-26, R3-10). Grinding the same candles further is curve-fitting
+pressure, not research.
+
+
+---
+
+# ROUND 4 LESSONS (2026-11-02) — combined flags, refinement, volume
+
+R4-L1. **Regime restriction is the correct first refinement axis for
+a cross-year failure — before thresholds, entries, or exits.** The
+fade's 2026 damage was located, not diffuse: UP cell −₹5,572.97,
+FLAT cell −₹4,331.35, DOWN cell +₹5,823.56. Excluding the UP cell
+banked the phenomenon (R4-03). But restriction can overshoot:
+DOWN-only failed the concentration leg — the FLAT cell's breadth
+(ex-top-3 2025 ₹9,775.76 → ₹23,764.74) is part of the cure, not
+collateral. Restrict by where the other year bleeds, then check
+what the restriction did to breadth.
+
+R4-L2. **A fill at the signal print is not an entry.** When the
+signal is defined by the opening print itself (gap = bar-0 open /
+prior close), entry at that print enters before the information
+exists — on every trade (390 violations, R4-07, banking voided
+the same run). The phantom improvement (+₹41k / +₹26k over the
+honest bar-1 sleeve) is the first-bar snap-back measured at the
+price that reveals it. Corollary for the harness: timing_violations
+must be derived from the construction (entry bar vs the bar that
+completes the signal), never defaulted to 0; any cell whose entry
+bar is not strictly after its signal bar needs an explicit audit
+argument, in writing, before it is scored.
+
+R4-L3. **Raising the fade's threshold re-imports what regime
+restriction removed.** Thresholds 2.0/2.5/3.0 on the unrestricted
+population are all 2026-negative standalone (−₹8,493 / −₹1,329 /
+−₹3,722): the biggest gaps fade worst precisely in the UP/FLAT
+cells. Once a failure is located in a day-type, size filters are
+the wrong tool — they re-weight the same cells instead of
+excluding the bleeding one.
+
+R4-L4. **Re-gate flagged variants after every banking; gate
+interactions are book-level, not variant-level.** R2-26's sole
+failing leg (Mar 2025 flip) vanished without the variant changing
+at all: the banked sleeve's March gains (+₹5,033.28) absorbed the
+swap's March loss (−₹2,459.83). On the Round-4 book, R2-26 passes
+all 10 legs (R4-10). A flagged variant's status is a property of
+the book it would join — reporting it frozen at its original
+gate sheet misstates the owner's decision.
+
+R4-L5. **Disjoint components combine exactly additively — verify
+it, don't assume it.** R2-26 + R3-10 reproduced the summed deltas
+to the paisa (2025 JO ₹90,849.69), and the additivity exposed the
+real story: the combination's cross-year leg passes (+₹41.57)
+because one flag's 2026 gain cancels the other's 2026 loss. The
+combination's remaining failures (ex-top-3, May/Dec flips) belong
+entirely to the full sleeve — which the banked refinement has
+since superseded (R4-11/R4-12). Combined-flag arithmetic is a
+decision tool, not a banking route.
+
+R4-L6. **Volume is not in this workspace.** Every stored equity
+candle (25 symbols + index, 5-min and daily) is OHLC-only; the
+machinery carries no volume field. A volume-confirmed sleeve is
+unbuildable from stored data — the gap is named, not filled.
+Volume joins bulk/block deals and delivery percentages on the
+list of axes that require a new data build before any cell may
+be scored.
+
+
+---
+
+# ROUND 5 LESSONS (2026-11-02) — mirror, micro-grid, new population, conditioning, diagnosis
+
+R5-L1. **The gap-fade does not mirror — its one-sidedness is now
+measured, not assumed.** Fade-SHORT restricted to UP cells loses
+-₹13,051.53 standalone in 2025 (101 trades UP+FLAT: -₹12,433.50)
+and is beaten by its own mirror placebo (the follow-LONG book,
+₹3,14,289.90, exceeds the variant by ~₹29k): on up-trend days,
+gap-ups continue. The banked phenomenon is specifically
+gap-DOWN reversion in DOWN/FLAT states. Lesson 18's discipline
+(a mirror is a new system with no inherited credibility) applied
+to the engine's newest component returns a negative verdict, and
+the mirror family is closed on both cell sets.
+
+R5-L2. **The banked sleeve is the peak of its own neighbourhood on
+the gate's terms.** Around R4-03 (thr 1.5%, T125/S050, DOWN+FLAT):
+thr 1.25% adds money in both years (+₹10,594.66 / +₹2,778.21) but
+the incremental slice's 2026 gains sit in the top-3 names (leg e);
+thr 1.75% loses both years; T100/S065 loses both years; T150/S065
+gains 2025 (+₹7,131.19) and bills 2026 (-₹7,024.61) — leg (c)
+alone, the R4-09R shape. Four neighbours, four rejections, each on
+a different leg: the cell was not merely the first that passed.
+
+R5-L3. **Non-event intraday extremes revert on the long side only —
+a real phenomenon that concentration still refuses.** On stock-days
+outside every results-reaction window, a >= 2.0% fall by 10:30
+reverts (NE-REV LONG: +₹12,209.45 / +₹24,306.56 standalone, 691
+trades, beats the opposite-direction and one-bar-late placebos,
+positive in both years, halves and cells green) while a >= 2.0%
+rise does not (SHORT: -₹41,334.92 / -₹18,088.52, 8 legs). The LONG
+sleeve still cannot bank: its gains concentrate in the top-3
+(combined ex-top-3 ₹99,322.68 -> ₹86,879.08) and it flips Dec
+2025. Third confirmation of the R3-L5 pattern — standalone
+expectancy, even placebo-beaten and cross-year positive, is not
+book value until the concentration and month legs agree.
+
+R5-L4. **P2F-R2's 2025 weakness is population-wide; no cell or band
+condition separates it.** All four restrictions fail the same way:
+whatever removes 2025's loss removes more of 2026's money. The
+>= 4.0% reaction band is 2025's only positive P2F-R2 slice
+(+₹150.80) AND 2026's engine (+₹12,724.86 of +₹15,149.33); the
+[2.5%, 4.0%) band is the reverse. The family's sign flips across
+the year boundary on every axis tested (cells x2, bands x2) —
+Lesson 47's cross-year opposition, now on the reaction axis. The
+conditioning axis for P2F-R2 is closed; its 2025 expectancy gap is
+a property of the 2025 tape (R3-L3), not of a subset.
+
+R5-L5. **The three red months have three anatomies; a frozen
+signature rule that finds nothing is a result.** Jun 2025 is 7
+INV-ABOVE trades and nothing else (an information desert, not a
+bleed). Jul is a broad shallow bleed across four components. Oct
+is 3 F4 trades. The only (comp x cell) slice negative in all
+three months — INV-ABOVE x UP, -₹3,442.37 — earns +₹6,435.21
+across full-year 2025: variance on an earner, refused by the
+rule's full-year leg. No conditional candidate was manufactured.
+Wound decomposition remains a diagnostic, not a deletion licence
+(R3-L1/L2, confirmed at cell granularity).
+
+
+---
+
+# ROUND 6 LESSONS (2026-11-02) — pricing, repairs, conditioning, audit
+
+R6-L1. **Delay is a tax on signal-following entries and a cure on
+crowded marginal ones — the population decides, not the axis.**
+Four delay mechanisms lost across Rounds 3–6 (R3-L4; R6-05's 11:05
+entry destroyed NE-REV's 2025, −₹18,420.55 standalone). But the
+gap-fade's marginal [1.25%, 1.5%) increment banked ONLY when delayed:
+at 09:20 it failed leg (e) twice (R5-03's swap, R6-07's DOWN-only
+form), at 09:40 it passed all ten legs (+₹2,305.22 / +₹4,763.03).
+The early fills of a fade are the crowded ones; waiting 20 minutes
+changed the increment's stock mix, not just its prices. The
+entry-timing axis is therefore not "closed" as a blanket — it is
+closed for follow constructions (the first bar IS the edge) and
+was the winning axis for this fade population. Judge delay per
+population, never per slogan. (No tension with R4-L2: the 09:40
+entry is honest — the gap signal completes at the 09:15 print.)
+
+R6-L2. **NE-REV's refuser is now singular and named: concentration.**
+Two independent repairs (thr 2.25%; DOWN+FLAT restriction) each
+fixed everything else — 2.25% posts the family's largest combined
+book (₹3,47,839.48) with no flips; the restriction removes the
+Dec-2025 flip exactly where the diagnosis said it lived (UP cells)
+— and both fail leg (e) alone. When different constructions of one
+phenomenon keep dying on the same leg, the leg is describing the
+phenomenon: non-event morning-dump reversion pays in the book's
+biggest names. That is an owner-decision fact (waive (e) or not),
+not an engineering defect another cell will cure.
+
+R6-L3. **A new mechanism inherits the book's cross-year opposition
+until proven otherwise.** Range-expansion follow — a genuinely new
+population (volatility state, no levels, pre-registered) — split
+exactly like everything before it: LONG dead on 7 legs, SHORT
+paying 2025 (+₹16,015.00) and billing 2026 (−₹10,286.95), failing
+leg (c) alone. Lesson 47's signature is not a property of the old
+families; on this workspace it is a property of the two tapes.
+New-mechanism rounds should budget for the (c)-leg fight from the
+start — and a (c)-only failure is the strongest owner-decision
+class there is, since 2026 stays above its floor regardless.
+
+R6-L4. **Admission causality is recomputed per component, never
+inherited from the engine's reputation — and the audit harness is
+itself an admission input.** The incumbent certified clean on every
+price-derived input (prior-close regime gates recomputed row by
+row; F4's premove and its ≥10:05 entries; both sleeves' prints;
+the reaction families' after-close entries) and failed on exactly
+one input class: N4-V3's event-day tag for same-day intraday
+announcements (4 rows voided, combined +₹51.91 — immaterial to
+the book, material to the standard). The same audit first
+"flagged" 14 rows that were innocent: 8 F4 rows whose bars live
+in the forward root, and 6 N4 rows admitted by news-class events
+a results-only harness cannot see. An auditor run on a narrower
+population definition than the machinery's would have voided
+real trades and still missed nothing — the harness's universe
+must be proven equal to the machinery's before its verdicts are
+read (the R5-L3/R3-L3 discipline applied to the audit itself).
+
+R6-L5. **Every banking and every void reprices every outstanding
+flag (R4-L4, third confirmation).** Round 6 banked ₹2,305.22 and
+voided ₹51.91 of base, and every flagged adoption total moved —
+the triple by −₹1,691.75 of void and a −₹2,305.22 clean-adoption
+net inside R5-03 — without any flagged variant changing at all.
+Decision state quoted to the owner must be restated after ANY
+book change, banking or void, in the same report that makes the
+change; a flag quoted at its birth book is a stale price.
+
+
+---
+
+# ROUND 7 LESSONS (2026-11-02) — REXP repair, breadth-first sleeves
+
+R7-L1. **Cell location is a diagnosis, not a presumption — and a
+repair aimed at the wrong cell is worse than no repair.** The
+book's two successful repairs both removed UP-cell damage (the
+fade's cross-year fix, R4-L1; NE-REV's flip fix, R6-04), which
+made "restrict the cells" the default tool. R6-10's damage,
+decomposed before any repair was aimed (R7-01), sits in the DOWN
+cell itself: +₹14,870.39 (2025) vs −₹8,399.33 (2026) on the
+identical construction. Both pre-registered restrictions keep
+DOWN whole: DOWN+FLAT is worse for 2026 than the unrestricted
+population (−₹10,930.18 vs −₹10,286.95 — it deletes UP's +₹643.23
+and keeps FLAT's −₹2,530.85), and DOWN-only still fails leg (c)
+alone at −₹8,399.33. When the two years disagree INSIDE one cell,
+the disagreement is about the mechanism's meaning on that tape,
+not about admission — Lesson 47's wall, found inside a single
+cell of a brand-new mechanism. Decompose first; a restriction is
+only a repair when the damage has an address the restriction can
+remove.
+
+R7-L2. **The reversal phenomenon is a morning phenomenon — clock
+time is part of a mechanism's identity.** The identical non-event
+dislocation (≥2% fall, certified population, same exits) measured
+at 13:25 instead of 10:25 posts −₹37,819.07 in 2025 (963 trades,
+seven legs failed, beaten by its placebos) against the morning
+form's positive weak-year standalone. Nothing about the
+construction changed except the hour: a dump measured against
+the open's information state reverts; a dump measured against
+midday's continues into the close. Extends Lesson 33 (exit pairs
+are population-specific) to measurement time: a signal's clock
+is not a parameter to be optimised later, it is part of what the
+signal IS.
+
+R7-L3. **Stretching the dislocation's horizon destroys it: a
+two-day fall is a trend state, not a reversal setup.** The
+two-session ≥3% fall, faded intraday on certified non-event
+sessions (977 trades), loses −₹62,345.49 / −₹43,694.93 — both
+years, both placebos ahead, eight legs failed, the worst
+standalone ever gated by this engine after ORB-on-stocks. The
+reversal family is now bounded on every side: one session, one
+morning measurement (R5-07 class) is the whole phenomenon;
+afternoon (R7-L2) and multi-day (here) forms are different
+animals and both are short-the-fade traps. Do not re-propose
+longer-horizon or later-clock variants of NE-REV on this data.
+
+R7-L4. **Leg (e) is a whole-book interaction, not a sleeve
+property — breadth by construction does not cure it.** The
+quiet-name sleeve was built to be (e)-clean: names selected by a
+causal trailing-range characteristic, 196 trades, standalone
+positive in both years (+₹4,492.57 / +₹12,167.10), placebos
+beaten. It still fails (e): the variant book's combined ex-top-3
+falls ₹12,148.03 because the sleeve's gains land in the book's
+carrier names (a name quiet by trailing range is not disjoint
+from the carriers), and every rupee a sleeve adds to a top-3
+name is a rupee leg (e) subtracts. No sleeve can be certified
+(e)-clean from its own population — the leg reads the assembled
+book, including which names the sleeve pushes into the top-3.
+This is R6-L2's conclusion from the other side: NE-REV fails (e)
+because its phenomenon pays in big names; NE-REV-Q fails (e)
+even after breadth engineering, because "big names" and "quiet
+names" are overlapping sets on different days. The (e) question
+is an owner decision (waive it for a named sleeve, or not), not
+an engineering target with a construction left to find.
+
+R7-L5. **Causality hygiene paid the weak year: the certified
+population is worth more than the population it replaced.** The
+R6-11 strengthening, applied to NE-REV's population for Round
+7's sleeves, excluded 304 further stock-days and removed 30 of
+R5-07's 691 rows — and the certified morning NE-REV standalone
+ROSE in 2025 (+₹12,209.45 → +₹14,105.64) while holding 2026
+(+₹24,306.56 → +₹24,112.86). The uncertifiable rows were
+carrying noise, not edge: event-adjacent days are where a
+"non-event" sleeve's premise is false, and their trades were
+net losers in the year the floor is judged on. Repriced as a
+flag (R7-08), the certified form is worth +₹1,802.70 more to
+2025 than the flag's birth form with the same two failing legs.
+Corollary: when a standard tightens, reprice the flags under it
+before quoting them — a flag's birth population may no longer
+be the population the desk would actually trade (extends
+R6-L5 from book changes to standard changes).
+
+---
+
+# ROUND 8 LESSONS (2026-11-02) — the stack gated, follow buried, conditioning priced
+
+R8-L1. **Failing legs do not inherit into an assembly — a stack
+must be gated, never summed, in both directions.** The R7
+arithmetic max stack carried (c) + (e) + (f) by inheritance from
+its components. Gated whole at R8-02, the same four ingredients
+fail **(f) alone**: leg (c) passes because the stack's other
+ingredients pay 2026 ₹26,250.37 while R7-03 charges it ₹8,399.33,
+and leg (e) passes because ex-top-3 is recomputed on the
+assembled book (2025 ₹23,708.10 → ₹44,205.13 — the CERT sleeve's
+breadth outweighs its own concentration at book level). The
+assembly was also worth MORE than the restatement quoted
+(₹1,23,231.11 vs ₹1,21,428.41: CERT form + clean R5-03). A
+flagged list's arithmetic is a lower bound on information, not a
+verdict; the owner's largest decisions deserve their own gate
+sheet before they are quoted as refused. *(Evidence: R8-01
+anchors; R8-02 gate sheet in r8_results.json)*
+
+R8-L2. **Follow is dead on the home 25 in every form now tested —
+the tapes fade strength and buy weakness; they do not chase.**
+Drive-continuation (≥2% morning up-drive on certified quiet
+days, LONG at 10:35, 800 trades) loses in both years
+(−₹1,710.67 / −₹28,882.57, seven legs, beaten by its own
+one-bar-late placebo). It joins gap-follow (R3), ORB-on-stocks
+(R3) and the P2F-news transplant (Lesson 29/37 class) in the
+closed set: every profitable direction this book owns is a fade,
+a reversal, or a scheduled-information follow (results at R+1 /
+R+2) — raw intraday price momentum is not among them, at any
+clock or horizon tried (09:20, 10:35, 13:35, two-day). Do not
+re-propose continuation sleeves on this data; the follow
+question is closed with the same completeness as the reaction
+(band × lag) grid. *(Evidence: R8-03; R8-04 non-trigger)*
+
+R8-L3. **Index-state conditioning redistributes a sleeve's
+failures; it does not remove them — and the banked book was
+already wearing most of the condition.** Conditioning NE-REV on
+NIFTY-down mornings kept 453/661 rows, cured its Jan-2025 flip,
+and kept ₹11,353.09 of 2025 value — while Dec 2025 still flipped
+and leg (e) still failed (conditioning selects days, not names;
+the gains still land in carriers, R7-L4). And the fade's own
+legs turned out to be 87% NIFTY-down mornings already (350/404):
+a sleeve built on stock-level gap-downs in DOWN+FLAT regime
+cells had implicitly selected index-down mornings, so the
+explicit restriction bought only +₹3,598.21 in 2025 at
+−₹2,477.24 in 2026 (leg (c)). Before proposing a conditioning
+axis, measure how much of it the construction already contains
+— the uncontained remainder is the whole candidate. *(Evidence:
+R8-05, R8-06)*
+
+R8-L4. **A geometry neighbour prices a leg; it does not dissolve
+it.** REXP-DOWN at T100/S065 vs the frozen T125/S050: the 2026
+bleed falls ₹8,399.33 → ₹5,899.72 and the 2025 gain falls
+₹14,870.39 → ₹10,243.45 — the tighter target truncates 2025's
+runners on the same trades whose stops it softens in 2026,
+because both years' populations share the excursion shape that
+made the family (Lesson 33's map, one cell finer). The (c)
+question for this family now exists at two honest prices, and
+choosing between them (or waiving (c) for either) is an owner
+act, not an optimisation: any further geometry cell would just
+draw another point on the same trade-off line. *(Evidence:
+R8-07, population re-anchored at the frozen geometry first)*
+
+
+---
+
+# ROUND 9 LESSONS (2026-11-02) — one ingredient owned both flips; the cures interact; follow closes at the daily scale
+
+R9-L1. **Decompose a stack's failing leg to ingredient × state
+before designing anything — the failure may have a single
+owner with two addresses.** The max stack's leg (f) read as a
+property of the assembly; attributed exactly (the ingredients
+are disjoint, so the attribution is arithmetic, not inference),
+both flips belong to NE-REV-CERT alone — January through
+DOWN-cell days when the index sat in a shallow dip, December
+through UP-cell days. Three of the four ingredients contributed
++₹64.16 / −₹29.01 / ₹0.00 to the January delta: designing
+repairs against "the stack" would have spent four ingredients'
+worth of search on one sleeve's two states. Corollary: a
+flagged stack's price is not a diagnosis; the gate sheet says
+WHICH leg, the decomposition says WHOSE rows, and only the
+row-level state table says WHY — in that order. *(Evidence:
+R9-01; r9_ws0_decomp.json)*
+
+R9-L2. **The mushy middle is a state, and a restriction that
+removes a negative bucket is a repair, not a tax.**
+NE-REV pays when a ≥2% fall is either systemic-deep (NIFTY
+≤ −0.30% by 10:25 — the index capitulates and the bounce is
+broad) or idiosyncratic against a non-falling index (≥ 0 — the
+tape lifts the name back). Between them, the shallow-dip band
+(−0.30%, 0) is the only NIFTY-state bucket negative combined
+(−₹1,427.22, 67 rows) and held January's wound
+(−₹5,192.36 of it). Excluding it (NOTCH) RAISED the sleeve's
+2025 (+₹14,105.64 → +₹18,618.88) while costing 2026
+₹3,086.02 — the sign of a restriction's price is a per-year
+fact, exactly as a band's verdict is (Lessons 28/30), and
+"conditioning always costs expectancy" is as false as
+"conditioning is free". Price the bucket being removed, in
+each year, before arguing about the rule. *(Evidence: R9
+diagnosis cross-tabs; R9-02)*
+
+R9-L3. **Cures interact inside an assembly: two single-cure
+variants failed where their combination passed all ten legs.**
+NOTCH alone left leg (f) (December); UPGUARD alone cured
+December but broke leg (e) inside the stack (its kept 2025
+population is thin and carrier-heavy, so the assembled book's
+ex-top-3 fell) and left January flipped. Only NOTCH+UPGUARD
+passed everything. A variant that fixes the named leg can
+break a leg that was passing — leg (e) is a whole-book
+interaction (R7-L4), and a sleeve-level cure says nothing
+about it. Every conditioned stack must be gated whole and
+never inferred from its ingredient's sheet (extends R8-L1
+and R4-L4 from repricing to repair design). *(Evidence:
+R9-02 / R9-03 / R9-04 gate sheets in r9_results.json)*
+
+R9-L4. **Judge a repair where it will live: a fix too expensive
+at sleeve level can be right at stack level.** IDXCELL
+removes ₹6,022.69 of 2025 standalone (the IDX form's best
+2025 cell) to cure −₹2,046.64 of December rows — as a
+standalone ingredient it still fails (e) and pays ₹4,032.51
+for its December cleanliness. Inside the stack the same rows
+pass all ten legs, because the stack's other ingredients
+re-supply the breadth leg (e) reads (2025 JO ₹1,13,146.38,
+no flips, the highest 2026 stack price). The reverse also
+held this round (UPGUARD: clean at sleeve level for
+December, (e)-breaking in the stack). A repair's verdict is
+a property of the book it joins — the R4-L4 discipline,
+applied to fixes rather than flags. *(Evidence: R9-07,
+R9-08; contrast R9-03)*
+
+R9-L5. **The follow family is closed at every timescale now —
+strength is a fade target on the home 25, full stop.**
+ATH-proximity momentum (close within 2% of the trailing
+252-session high → next-session LONG, 342 trades, no event
+filter) loses in BOTH years (−₹21,322.97 / −₹27,329.31,
+eight gate legs, beaten by its own placebos). It joins
+gap-follow, ORB, drive-continuation and the news transplant
+in the closed set (R8-L2): every profitable direction this
+book owns is a fade, a reversal, or a scheduled-information
+follow (results at R+1 / R+2) — raw price strength is not
+among them intraday (09:20–13:35), multi-day, or as a daily
+state. Do not re-propose strength-following sleeves on this
+data in any timescale dress; a future follow proposal needs
+a new information axis, not a new clock. *(Evidence: R9-05;
+population and skips counted in r9_results.json)*
+R10-L1 The conditioned NE-REV forms fail STANDALONE on leg (e) alone —
+       NU and NOTCHCELL both, with zero flips and every other leg
+       passing. Inside the stack the identical rows passed (e) because
+       the stack's other ingredients re-supply the breadth the sleeve
+       lacks. Leg (e) is a property of the whole book, not of the
+       sleeve: a concentrated sleeve can borrow breadth from a stack
+       but cannot manufacture it. Do not re-gate further conditioned
+       variants of this population standalone expecting (e) to move.
+R10-L2 UPGUARD is the December cure in every context: NOTCH standalone
+       flips Dec 2025 to -632.67 (R10-03), the same wound the unguarded
+       stack slot showed in R9-02; adding UPGUARD (NU) removes the
+       flip standalone too. A wound that reproduces across contexts is
+       a property of the population — when a condition cures it in two
+       contexts, the condition, not the context, is the mechanism.
+R10-L3 A state bucket can be a month wound and a cross-year asset at
+       once: INV-ABOVE's shallow-dip rows are its ENTIRE July-2025
+       loss (-2,473.45) yet a combined +2,445.28 earner across the
+       two years (2026 +3,066.24). A month-shaped removal test without
+       a combined-years leg will buy the patch with the other year's
+       money — the separator test's leg (iii) is the discipline, and
+       it fired correctly here (R10-05/06: July closes with no
+       candidate).
+R10-L4 An audit may find a real two-year loser the frozen test cannot
+       name: INV-ABOVE's hard-dip rows lose in BOTH years (-1,230.62 /
+       -4,012.18) but have zero July rows, so the July separator test
+       stayed silent — correctly. Such findings go into the NEXT
+       round's pre-registration; gating them in the same round would
+       convert an observation into a fitted rule.
+R11-L1 Two single-leg failures from DIFFERENT families can cure each
+       other assembled — and the minimal cure is a pair, not the
+       stack. NE-REV-NU (fails (e) only standalone, R10-02) +
+       REXP-DOWN T100/S065 (fails (c) only, R8-07) pass ALL TEN
+       legs together (R11-03): NU's 2026 volume absorbs REXP's
+       2026 cost, curing (c); REXP's profit lands outside NU's
+       carrier names, curing (e). Extends R10-L1 (breadth is a
+       book property): when two flags fail DIFFERENT single legs,
+       gate the cross-family pair before pricing either one as a
+       standalone adoption.
+R11-L2 Leg (e) can refuse a removal that makes money in both years.
+       INV-ABOVE's hard-dip rows lose in both years (-1,230.62 /
+       -4,012.18), yet deleting them LOWERS combined ex-top-3 by
+       135.40 (R11-02): the losses sit partly inside the carrier
+       names, and deleting a loss from a top-3 name raises the
+       top-3 sum one-for-one. A rotten slice inside a carrier is
+       invisible to deletion — report both numbers and let the
+       owner decide; do not call the slice clean or the gate
+       wrong.
+R11-L3 A concentration failure may have NO state address. NU's
+       leg-(e) failure decomposes exactly (R11-05) into a 2026
+       name fact: +34,926.51 inside three carriers (TVSMOTOR /
+       OBEROIRLTY / ASTRAL) against -11,182.11 OUTSIDE them —
+       the sleeve's breadth is negative, not thin. No regime
+       cell and no index-state bucket is negative in both years
+       (separator test: 0 qualify), so no conditioned variant
+       exists to gate. When the anatomy says the money is
+       names, not states, stop searching for a state condition:
+       the cures are assembly (R11-L1) or owner adoption.
+
+---
+
+# ROUND 12 LESSONS (2026-11-02) — the new baseline re-judges the flags
+
+R12-L1. **A single-leg failure can be a property of the
+baseline, not of the candidate — re-gate interaction-leg
+flags after any breadth-moving banking.** The INV-ABOVE
+hard-dip exclusion failed leg (e) by Rs135.40 on the pre-pair
+book (R11-02) and passes ALL TEN LEGS on the pair book
+(R12-02) without one row of the construction changing: the
+pair raised combined ex-top-3 (Rs1,01,181.87 ->
+Rs1,03,228.30) and moved the carrier sets, so the identical
+removal's ex-top-3 delta swung from -135.40 to +953.74. A
+flag's birth gate sheet is a price on a book that no longer
+exists; after a banking that moves breadth, the (e)/(f)-only
+flags must be re-GATED, not merely repriced — extends
+R4-L4 / R6-L5 from adoption values to verdicts.
+*(Evidence: R11-02 vs R12-02 gate sheets; r12_results.json)*
+
+R12-L2. **A swap flag silently absorbs later bankings into
+its cost — its "clean" form is defined against a book that
+keeps moving.** R5-03's recorded 2026 delta (+Rs2,778.21)
+was measured when the swap only had to beat the thr-1.5%
+sleeve. By Round 12 the same "clean" swap must also retire
+GAP-FADE-INC (banked at R6-08, after the flag was born), and
+on the pair book it fails (c) AND (e): 2026 -Rs1,984.82,
+combined ex-top-3 -Rs5,575.96 (R12-03). The mirror of
+R12-L1: baselines acquit some flags and convict others.
+Any flag whose construction references other components
+("retire X", "replace Y") must be re-derived against the
+current component inventory before it is quoted — Lesson 16
+applied to swaps, whose deltas expire on the components
+they displace, not only on the legs they touch.
+*(Evidence: R12-03 gate sheet vs the R5-03 birth sheet)*
+
+R12-L3. **Delta legs and interaction legs are different
+kinds of failure, and only one kind can be cured by a new
+baseline.** Legs (b)/(c) compare a variant's year total
+against the base's: for a replacement or restriction, the
+sign of that difference is fixed by the ingredient's own
+rows versus the rows it displaces — negative on every
+baseline, provable by arithmetic without scoring (R12-04:
+every (c)-only flag's 2026 delta vs the banked form it
+displaces is negative by row identity; every NE-REV slot
+alternative fails (b) or (c) as a swap against NU's
+standalone sums). Legs (e)/(f) are recomputed on the
+assembled book — its top-3 sets, its month balances — and
+those a new baseline genuinely moves, in both directions
+(R12-L1, R12-L2). Before re-gating any single-leg flag,
+name which kind its leg is: a delta-leg failure is closed
+on every baseline and re-scoring it is theatre; an
+interaction-leg failure is open exactly once per materially
+different baseline. *(Evidence: R12-04 screening record;
+R12-02 / R12-03 verdicts)*
+
+R12-L4. **The weak year's worst month can be the strong
+year's engine room — the separator test's combined leg is
+the only thing standing between the book and self-amputation,
+and it fired correctly twice in one round.** October 2025
+(-Rs3,751.28) is three F4 trades, all in the up index-state
+bucket; that bucket is -Rs9,887.43 in 2025 and +Rs40,581.38
+in 2026 (+Rs30,693.95 combined), so test (iii) refuses the
+removal (R12-05). July's residual is the same shape one
+component over: INV-ABOVE shallow-dip is July's whole wound
+and +Rs2,445.28 combined (R12-07, the R10-05 cell refusing
+for the second time). Lesson 47's cross-year opposition,
+found at (component x state-bucket) granularity inside
+single months: a month-shaped separator test without the
+combined-years leg would have bought both patches with the
+other year's income. *(Evidence: r12_oct_decomp.json;
+r12_july_decomp.json)*
+
+R13-L1. **An index method's level geometry does not transplant
+to single names — the sweep + reclaim is information-free on
+his 25 in both directions, at population scale.** Chandu's
+index method #4 (bear-trap / Blue-Line reclaim) was gated on
+cash stocks verbatim in spirit: prior-day-low sweep in the
+morning window, first close back above the low, next-bar
+entry, T125/S050. It produced 2,885 signals and lost
+-Rs1,62,923.55 / -Rs1,06,668.60 standalone (expectancy
+~-Rs93/trade), failing nine of ten legs and losing to both
+placebos — on identical entries the opposite direction is
+the less-bad side. The mirror (prior-day-high sweep +
+rejection SHORT, 3,098 signals) is gross-zero before costs
+(-Rs4/trade after them), Lesson 2's signature exactly. This
+is Lesson 2's family at its largest measured scale: a
+single-name prior-day level is crossed and reclaimed
+thousands of times a year and none of it is information.
+Whatever the index version earns lives in index-level
+structure (the multi-day Red bands / ledges of the frozen
+method are not a single stock's prior-day low), and the
+transplant direction for level events is now closed, not
+merely doubted. *(Evidence: R13-02 / R13-03;
+r13_results.json)*
+
+R13-L2. **The same geometry step is medicine for one sleeve
+and poison for another — in the same round, on the same
+book.** The S065 -> S050 stop step banked for REXP-DOWN
+(+Rs2,242.66 / +Rs1,515.38, both years up: its
+range-expansion entries that work do so without the extra
+room) and cost NE-REV-NU in both years (-Rs3,028.80 /
+-Rs740.22, June 2025 flipped): NU's dip-buying population
+needs the room REXP's does not. Lesson 4's population
+specificity, confirmed as a mirror pair inside one round —
+there is no book-level stop prescription even between two
+sleeves banked together. The same round brackets both
+sleeves' TARGET axis identically: T100 -> T125 buys 2025
+and charges 2026 on REXP (+2,291.26 / -4,252.67) and on NU
+(+2,326.81 / -5,998.05) alike — on this book the target step
+is a year-trade, not an improvement, whichever sleeve wears
+it; only the stop axis discriminates, and it discriminates
+in opposite directions. *(Evidence: R13-04…R13-07;
+r13_results.json)*
+
+---
+
+# ROUND 14 LESSONS (2026-11-02) — geometry neighbours on the original sleeves
+
+R14-L1. **The target step is a year-trade on the original
+sleeves too — with one measured exception that marks its
+boundary.** F4 at T175/S095: +₹6,280.30 (2025 JO) /
+−₹10,767.28 (2026 JO), fails (a) + (c). INV-LONG at
+T150/S050: +₹4,275.39 / −₹10,547.95, fails (a) + (c). The
+R13-L2 signature (REXP and NU priced the identical trade)
+is now five sleeves wide: on this book a wider target buys
+the weak year with the strong year's money wherever it is
+worn. The exception is INV-ABOVE at T150/S050, which paid
+BOTH years (+₹2,050.12 / +₹2,753.43, all ten legs) — the
+thinnest population in the family (124/20 rows), whose
+winners were genuinely being truncated at T125. A target
+step is not a book-level prescription in either direction:
+it pays exactly where the population's winners run past
+the old target in both regimes, and that is a per-sleeve
+measurement, never a prior.
+
+R14-L2. **A two-axis flag's failing leg can be decomposed
+by single-axis cells — and the clean half may bank
+outright.** The flagged R2-26 swap (INV-ABOVE T150/S080)
+failed (f) alone: a March-2025 flip. Gated separately, the
+target half at the incumbent stop (T150/S050) banks with
+no flip at all, while the flip is therefore attributable
+to the S080 stop widening. R2-26 as a whole stays flagged
+(its stop half is what fails), but its target half now
+lives in the banked book. Before pricing a two-axis flag
+for the owner, decompose it: the adoption question may be
+smaller than the flag.
+
+R14-L3. **Attribution and adoption are separate verdicts
+— a cell can be right about its axis and still not bank.**
+The P2F family at T150/S050 (target only, incumbent stop)
+settles Lesson 33's open attribution: Jan–Oct rises in
+both years (+₹627.22 / +₹111.87), so the two-axis swap's
+2025 bleed was the STOP widening, not the target. The
+cell still fails the gate — (a) + (b) + (e): full-year
+2025 falls (the family's Nov/Dec rows pay for the wider
+target) and combined ex-top-3 falls. The diagnosis the
+cell was bought for is complete and is recorded as such;
+it does not convert into a banking, and the family's
+exits stay closed at T125/S050, now with both axes
+individually measured.
+
+R14-L4. **A geometry verdict expires with its population —
+in both directions.** N4-V3 at the scorecard cell
+(T125/S050) was the incumbent before SAT-15; reverting to
+it on the CURRENT population (0.8% threshold, FLOOR-2
+one-sided cap, R6-11 voids — all postdating SAT-15) costs
+2025 JO −₹8,137.41 / 2026 JO −₹18,013.98, failing four
+legs. The SAT-15 rebuild's measured value at birth
+(+₹9,483.45 on its population) has GROWN on the
+population that replaced it. Lesson 46 said a cell is
+(population × geometry); Round 14 adds that a banking's
+worth is not a constant either — when a population is
+re-lawed, the geometry verdicts riding on it must be
+re-measured, not inherited in either direction. The book
+cell (T150/S080) and the November scorecard cell
+(T125/S050) are different systems on this population;
+the scorecard stays as frozen, and the book keeps its
+pair — the two are no longer the same trade wearing two
+labels.
+
+R14-L5. **A family swap is judged as a family — its comps
+may trade years against each other inside it.** The
+GAP-FADE family at T125/S065 banks whole (all ten legs;
+family JO +₹579.68 / +₹1,478.42) while its comps move in
+opposite directions at full-year: GAP-FADE 2026
+−₹2,786.62 against GAP-FADE-INC 2026 +₹4,265.04 (the
+increment's later, calmer entries use the wider stop
+better than the 09:20 entries do). The gate's unit was
+the family as pre-registered; decomposing the banking
+after the fact into "the good comp" would be a new
+candidate requiring its own gate, not a reading of this
+one. Same round, the estimate discipline: the frozen
+diagnostic's stop-axis rough swing was +₹12,157.87 and
+the exact banked gain is +₹2,058.10 combined full-year —
+Lesson 31's magnitude warning (right direction, ~1/6 the
+size), recorded beside R13-L2's stop-axis result: on this
+book the stop axis is where geometry money is, and it is
+always smaller than the excursion arithmetic promises.
+
+---
+
+# ROUND 15 LESSONS (2026-11-02) — second geometry steps + the volume axis
+
+R15-L1. **A banked step does not license its continuation —
+the second rung is a new measurement, and on both banked
+directions it failed.** INV-ABOVE's target axis: T150 paid
+both years (+2,050.12 / +2,753.43); T175 re-prices the
+years against each other (+92.57 / −1,198.29, leg (c)
+only). The fade family's stop axis: S065 paid both years
+(+579.68 / +1,478.42); S080 charges both (−2,548.14 /
+−4,790.90, four legs) and takes GAP-FADE's 2026 standalone
+negative. Geometry on this book is a landscape of peaks,
+not slopes: every axis measured so far has its paying cell
+at or before the first step from the incumbent.
+*(Evidence: R15-02 / R15-03; r15_results.json)*
+
+R15-L2. **The volume axis's first frozen form is dead at
+diagnostic strength, and the diagnostic did its job.**
+Keeping only entries whose prior day traded at or above
+its trailing-20-day median volume costs all three
+placebo-equipped sleeves combined money — F4 −₹47,355.57
+(the restriction deletes the days F4's 2026 winners were
+built on), N4-V3 −₹9,385.58, P2F family −₹3,003.70 — so
+no gate was spent on any of them. A diagnostic that can
+return "no cell earns a gate" is the cheapest control the
+engine owns; the round's volume spend was one fetch and
+one subset computation. *(Evidence: R15-04 / R15-05;
+r15_results.json)*
+
+R15-L3. **A diagnostic's mirror image is a new candidate,
+not a result.** The rvol ≥ 1.0 restriction losing on all
+three sleeves implies the rvol < 1.0 restriction gains on
+the same arithmetic — and that implication is NOT a
+finding. The mirror form was not pre-registered, was not
+run, and enters the record only as an untested observation
+for a future round's pre-registration, where it will face
+the full gate (placebos on the conditioned population,
+concentration, flips) like any other cell. Subset
+arithmetic chooses cells; it never banks them.
+*(Evidence: R15-05; the pre-registration's frozen rule)*
+
+R15-L4. **A data axis is built once, completely, or not at
+all.** The volume fetch returned all 484 series days for
+all 26 series with zero holes against the machinery's own
+calendar in both judged years, zero zero-volume days in
+the 25 stocks, and coverage of the two forward days
+(2026-10-29/30) the book trades on — so every downstream
+population was classifiable (0 unclassifiable rows) and
+no verdict this round carries a data caveat. The two
+named oddities are facts of the source, recorded as
+returned: an index's volume is 0 on every day (NIFTY is
+stored, and used by no gate), and the API series extends
+two days past the machinery's stored daily span. Where a
+future axis cannot be built complete, its holes must be
+named per stock-year before any gate touches it — the
+standard this build sets. *(Evidence: R15-04;
+stocks_daily_volume_coverage.json)*
+
+---
+
+# ROUND 16 LESSONS (2026-11-02) — the volume mirror
+
+R16-L1. **A restriction family is closed only when both
+directions have faced the exact gate — and the mirror can
+be the worse of the two.** Round 15's form (keep prior-day
+rvol >= 1.0) died at the diagnostic on all three sleeves,
+and the subset arithmetic pointed at the mirror: F4's 2026
+losers under that form (-Rs49,328.51) implied its winners
+sat behind quiet prior days. The exact gate refuses the
+implication. Keeping only the quiet half costs F4 MORE in
+2026 (-Rs53,727.42) than deleting it did, flips March 2026,
+and fails five legs; on N4-V3 the mirror fails the same
+four delta/concentration legs. Both halves of both
+populations carry the sleeves' value — the unrestricted
+population is the system, and prior-day relative volume at
+the trailing-20-median band separates nothing in either
+direction. R15-L3's discipline is the reason this is a
+measurement and not an embarrassment: the mirror was
+pre-registered as a candidate, gated with placebos on its
+own conditioned population, and refused on named legs.
+*(Evidence: R15-05 diagnostic; R16-02 / R16-03;
+r16_results.json)*
+
+R16-L2. **A pre-registered run-condition is a control, not
+paperwork.** WS3 froze its trigger before any scoring —
+the P2F mirror would run only if a larger sleeve banked
+the form or failed it on exactly one leg. Both refused it
+on four and five legs, so the thinnest population (the
+P2F mirror keeps 4 / 9 rows) was never scored, and the
+round spent zero gates shopping for a friendlier cell
+after unfriendly verdicts. The symmetric discipline to
+the diagnostic that assigns gates (R15-L2): a condition
+that can return "do not run" protects the round from its
+own sequence — verdicts already seen must not be allowed
+to re-choose which cells get measured.
+*(Evidence: R16-04; the Round-16 pre-registration)*
