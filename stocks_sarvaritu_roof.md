@@ -1,16 +1,18 @@
-# THE SARVARITU ROOF — every stocks strategy, one registry
+# THE STOCK BOOK ROOF — every stocks strategy, one registry
+
+**NAMING (owner order 2026-11-12 09:08 IST):** this book's ONE user-visible name is **Stock Book**. "SarvaRitu" is retired — hard for the owner to pronounce; for the record, that name (Sanskrit, "all seasons") was proposed by Muse on 2026-10-31 and the owner's explicit confirmation of the pick was never actually given. Standing text in this registry now says Stock Book; the file name keeps its sarvaritu_* form, and dated records written before 2026-11-12 are not rewritten.
 
 **User order 2026-10-31 20:59 IST: "All stocks strategies under one roof."**
-From that order, **SarvaRitu is the single umbrella for ALL of Chandu's
+From that order, **Stock Book is the single umbrella for ALL of Chandu's
 stocks work** (equity cash intraday, his 25 watchlist stocks, paper only,
 real ₹0, provisional per 100 shares, ₹40/trade). Every stocks strategy is
-either a component of the SarvaRitu book, a registered scorecard/candidate
+either a component of the Stock Book book, a registered scorecard/candidate
 feeding it, or closed. Nothing stocks-related runs as a scattered
 standalone. Index work (CRACK / ACRACK) is a different house — not here.
 
 ## THE REGISTRY RULE (binding)
 
-1. A new stocks strategy joins the roof **only as a SarvaRitu component,
+1. A new stocks strategy joins the roof **only as a Stock Book component,
    through the engine gate**: controls + timing/leak audit in the same run
    as its first scoring, scored on BOTH 2025 and 2026 (cross-year gate),
    and — under the current v3 charter — the maximin constraints (no year's
@@ -24,7 +26,7 @@ standalone. Index work (CRACK / ACRACK) is a different house — not here.
    Closed lines are not re-opened except on the fresh-evidence condition
    recorded in the lessons (`stocks_engine_lessons.md`).
 
-## A. IN THE BOOK — the SarvaRitu components (7)
+## A. IN THE BOOK — the Stock Book components (7)
 
 The frozen book (post-C24 v2 state) is under FORWARD TEST Nov–Dec 2026:
 spec `stocks_sarvaritu_forward_spec.md`, logger
@@ -74,22 +76,22 @@ November.
 
 (The M2 F4 state-gated cell from `stocks_M2_candidate_spec.md` is **not**
 a separate candidate anymore: its rule is the book's F4 component (§A.1),
-carried into the SarvaRitu forward test Nov–Dec. The v1 engine's December
+carried into the Stock Book forward test Nov–Dec. The v1 engine's December
 candidate spec, `stocks_engine_candidate_spec.md`, froze the same book
-for December judging — that judging is now executed as the SarvaRitu
+for December judging — that judging is now executed as the Stock Book
 whole-book forward test, Nov + Dec scored separately.)
 
 ## D. THE TUNING PROGRAMME — inside the roof
 
 | Programme | What it is | Status |
 |---|---|---|
-| **Engine v3 — maximin tuning** | Tunes the SarvaRitu book on history (2025 + 2026): raise the WORST month toward ≥ +₹10,000, then toward ₹15,000, under the hard constraints (neither year falls, all regime cells stay positive, combined never falls). The frozen forward test is untouched; anything v3 banks is a NEW version for a later fresh test. | RUNNING — charter: v3 section of `stocks_RECURSIVE_ENGINE.md`; state: `stocks_engine_state.json` (v3 block); lessons: `stocks_engine_lessons.md` |
+| **Engine v3 — maximin tuning** | Tunes the Stock Book book on history (2025 + 2026): raise the WORST month toward ≥ +₹10,000, then toward ₹15,000, under the hard constraints (neither year falls, all regime cells stay positive, combined never falls). The frozen forward test is untouched; anything v3 banks is a NEW version for a later fresh test. | RUNNING — charter: v3 section of `stocks_RECURSIVE_ENGINE.md`; state: `stocks_engine_state.json` (v3 block); lessons: `stocks_engine_lessons.md` |
 
 ## E. OUTSIDE THE ROOF — by the user's scope rule
 
 | Strategy | Why outside |
 |---|---|
-| **T2 P2F 3.0% band** (`stocks_T2_candidate_spec.md`) | Pooled 50-stock universe (his 25 + ext 25). His rule: "Run only on my stocks." It faces its own December judging on the pooled universe, outside SarvaRitu; the 4.0% nested variant cannot upgrade alone. |
+| **T2 P2F 3.0% band** (`stocks_T2_candidate_spec.md`) | Pooled 50-stock universe (his 25 + ext 25). His rule: "Run only on my stocks." It faces its own December judging on the pooled universe, outside Stock Book; the 4.0% nested variant cannot upgrade alone. |
 | **O2 11:00 fade** (`stocks_O2_candidate_spec.md`) | Ext-25 large caps only — the fade was flat on his 25 (a large-cap phenomenon). Outside by the same scope rule; own December judging (≥ 40 trades). |
 
 ## F. CLOSED — dead lines (one line each; evidence in `stocks_REAL_status.md` and `stocks_engine_lessons.md`)
@@ -104,10 +106,10 @@ whole-book forward test, Nov + Dec scored separately.)
 
 ## Reporting — one report under the roof
 
-The consolidated **SarvaRitu report** is the Friday roll-up of the
+The consolidated **Stock Book report** is the Friday roll-up of the
 `stocks-sarvaritu-paper-logging` cron in the Stocks chat: whole-book week
 + month-to-date vs the user's acceptance band (₹15,000–₹25,000/month for
-all SarvaRitu modules combined — his updated standard, 2026-10-31
+all Stock Book modules combined — his updated standard, 2026-10-31
 21:00 IST) and the ₹10k monthly minimum + the three component scorecards
 (§B) + one line on v3 tuning status (§D). Month
 verdicts land at November-end and after December per the frozen spec.

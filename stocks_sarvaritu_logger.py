@@ -291,7 +291,19 @@ def run_control():
 def fetch_merge(root, frm, to):
     """Append-only merge of fresh 5m + daily bars into the data root.
     Existing dates are NEVER overwritten (history is frozen); only dates
-    absent from the root are added. Returns {sym: (max_daily, max_5m)}."""
+    absent from the root are added. Returns {sym: (max_daily, max_5m)}.
+
+    Fetch-layer repair (2026-11-02, Day-1 failure): the v3
+    historical-candle RANGE endpoints serve only completed days — on the
+    run day they omit `to` entirely (probe 2026-11-02 ~16:5x IST, NTPC:
+    range minutes/5 returned 675 bars, max 2026-10-30, ZERO bars dated
+    `to`; days/1 likewise ended 2026-10-30; success payload, no error).
+    The current day's bars exist only on the v3 INTRADAY endpoint. So
+    when `to` is still uncovered after the range merge, top up from
+    /v3/historical-candle/intraday/{key}/minutes/5 (rows dated `to`
+    only), and if the daily row for `to` is still missing afterwards,
+    aggregate it from the day's merged 5m bars — the same aggregation
+    the connector's own spot step uses to build spot_daily.csv."""
     import pandas as pd
     from fetch_upstox_via_connector import call, candles_df
     keys = json.load(open(f"{WS}/data/progressive/keys.json"))
@@ -300,7 +312,9 @@ def fetch_merge(root, frm, to):
         enc = urllib.parse.quote(keys[sym], safe="")
         d5 = f"{root}/{sym}"
         os.makedirs(d5, exist_ok=True)
-        # daily
+        # daily (range) — held in memory and written AFTER the 5m merge,
+        # so a `to` row the range endpoints did not serve can be
+        # aggregated from the day's own bars (see docstring).
         df = None
         try:
             df = candles_df(call(f"/v3/historical-candle/{enc}/days/1/{to}/{frm}"))
@@ -320,14 +334,7 @@ def fetch_merge(root, frm, to):
                 if d not in have:
                     have[d] = {"date": d, "open": r["open"], "high": r["high"],
                                "low": r["low"], "close": r["close"]}
-        with open(dpath + ".tmp", "w", newline="") as f:
-            w = csv.writer(f)
-            w.writerow(["date", "open", "high", "low", "close"])
-            for d in sorted(have):
-                r = have[d]
-                w.writerow([d, r["open"], r["high"], r["low"], r["close"]])
-        os.replace(dpath + ".tmp", dpath)
-        # 5-minute
+        # 5-minute: range fetch, then intraday top-up for `to`
         payload = call(f"/v3/historical-candle/{enc}/minutes/5/{to}/{frm}")
         df5 = candles_df(payload)
         spath = f"{d5}/spot_5m.csv"
@@ -341,19 +348,53 @@ def fetch_merge(root, frm, to):
                     have_dates.add(row[0][:10])
         else:
             header = ["timestamp", "open", "high", "low", "close"]
-        if df5 is not None and not df5.empty:
-            d5f = df5.copy()
-            d5f["ts"] = (pd.to_datetime(d5f["timestamp"]).dt.tz_localize(None)
-                         .dt.strftime("%Y-%m-%d %H:%M:%S") + "+05:30")
-            new = [r for _, r in d5f.iterrows() if r["ts"][:10] not in have_dates]
+
+        def _merge5(frame):
+            if frame is None or frame.empty:
+                return
+            f5 = frame.copy()
+            f5["ts"] = (pd.to_datetime(f5["timestamp"]).dt.tz_localize(None)
+                        .dt.strftime("%Y-%m-%d %H:%M:%S") + "+05:30")
+            present = set(have_dates)
+            new = [r for _, r in f5.iterrows() if r["ts"][:10] not in present]
             for r in new:
                 lines.append([r["ts"], r["open"], r["high"], r["low"], r["close"]])
-            lines.sort(key=lambda x: x[0])
+                have_dates.add(r["ts"][:10])
+            if new:
+                lines.sort(key=lambda x: x[0])
+
+        _merge5(df5)
+        if to not in have_dates:
+            try:
+                dfi = candles_df(call(
+                    f"/v3/historical-candle/intraday/{enc}/minutes/5"))
+            except Exception as e:
+                _log(f"fetch {sym}: intraday top-up failed: {str(e)[:120]}")
+                dfi = None
+            if dfi is not None and not dfi.empty:
+                _merge5(dfi[dfi["timestamp"].dt.strftime("%Y-%m-%d") == to])
         with open(spath + ".tmp", "w", newline="") as f:
             w = csv.writer(f)
             w.writerow(header)
             w.writerows(lines)
         os.replace(spath + ".tmp", spath)
+        # daily write — aggregate `to` from the day's merged 5m bars if
+        # the range endpoints did not serve it (append-only: only when
+        # the date is absent, never an overwrite)
+        if to not in have:
+            day_bars = [ln for ln in lines if ln[0][:10] == to]
+            if day_bars:
+                have[to] = {"date": to, "open": day_bars[0][1],
+                            "high": max(float(ln[2]) for ln in day_bars),
+                            "low": min(float(ln[3]) for ln in day_bars),
+                            "close": day_bars[-1][4]}
+        with open(dpath + ".tmp", "w", newline="") as f:
+            w = csv.writer(f)
+            w.writerow(["date", "open", "high", "low", "close"])
+            for d in sorted(have):
+                r = have[d]
+                w.writerow([d, r["open"], r["high"], r["low"], r["close"]])
+        os.replace(dpath + ".tmp", dpath)
         mx_d = max(have) if have else None
         mx_5 = lines[-1][0][:10] if lines else None
         report[sym] = (mx_d, mx_5)

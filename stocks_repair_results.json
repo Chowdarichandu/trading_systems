@@ -1,0 +1,681 @@
+{
+ "control": {
+  "2025": {
+   "legs": 1064,
+   "total": 119813.44,
+   "wr": 45.39,
+   "months": {
+    "2025-01": 4476.9,
+    "2025-02": 25913.57,
+    "2025-03": 8412.63,
+    "2025-04": 53220.39,
+    "2025-05": 6518.38,
+    "2025-06": 1802.59,
+    "2025-07": -660.91,
+    "2025-08": 13486.06,
+    "2025-09": 10686.5,
+    "2025-10": -4042.67
+   },
+   "halves": [
+    98541.87,
+    21271.57
+   ]
+  },
+  "2026": {
+   "legs": 1363,
+   "total": 247178.79,
+   "wr": 44.75,
+   "months": {
+    "2026-01": 28021.1,
+    "2026-02": 12576.14,
+    "2026-03": 18225.72,
+    "2026-04": 46744.31,
+    "2026-05": 43842.74,
+    "2026-06": 6756.75,
+    "2026-07": 10284.46,
+    "2026-08": 10106.06,
+    "2026-09": 14494.14,
+    "2026-10": 56127.37
+   },
+   "halves": [
+    149410.01,
+    97768.78
+   ]
+  }
+ },
+ "candidates": {
+  "S-FIX-1": {
+   "per_year": {
+    "2025": {
+     "skipped_legs": 30,
+     "skipped_net": -4100.03,
+     "kept_legs": 1034,
+     "repaired_total": 123913.47,
+     "raw_total": 119813.44,
+     "improvement": 4100.03,
+     "degrade_pct_of_raw": 0.0,
+     "repaired_wr": 45.74,
+     "months": {
+      "2025-01": 4718.64,
+      "2025-02": 25913.57,
+      "2025-03": 9812.63,
+      "2025-04": 48525.55,
+      "2025-05": 10971.19,
+      "2025-06": 2043.1,
+      "2025-07": 1180.21,
+      "2025-08": 13486.06,
+      "2025-09": 10975.23,
+      "2025-10": -3712.71
+     },
+     "new_red_months": [],
+     "halves_repaired": [
+      99941.58,
+      23971.89
+     ],
+     "halves_raw": [
+      98541.87,
+      21271.57
+     ],
+     "half_deltas": {
+      "H1": 1399.71,
+      "H2": 2700.32
+     },
+     "half_fail_d": false,
+     "placebo_pct_beaten": 91.0,
+     "placebo_pass_c": false
+    },
+    "2026": {
+     "skipped_legs": 4,
+     "skipped_net": 2572.66,
+     "kept_legs": 1359,
+     "repaired_total": 244606.13,
+     "raw_total": 247178.79,
+     "improvement": -2572.66,
+     "degrade_pct_of_raw": 1.04,
+     "repaired_wr": 44.67,
+     "months": {
+      "2026-01": 27428.44,
+      "2026-02": 12576.14,
+      "2026-03": 18225.72,
+      "2026-04": 46744.31,
+      "2026-05": 41862.74,
+      "2026-06": 6756.75,
+      "2026-07": 10284.46,
+      "2026-08": 10106.06,
+      "2026-09": 14494.14,
+      "2026-10": 56127.37
+     },
+     "new_red_months": [],
+     "halves_repaired": [
+      146837.35,
+      97768.78
+     ],
+     "halves_raw": [
+      149410.01,
+      97768.78
+     ],
+     "half_deltas": {
+      "H1": -2572.66,
+      "H2": 0.0
+     },
+     "half_fail_d": false
+    }
+   },
+   "november": {
+    "skipped": [
+     {
+      "date": "2026-11-04",
+      "comp": "INV-ABOVE",
+      "stock": "HINDCOPPER",
+      "entry_time": "09:35",
+      "net": 460.12
+     },
+     {
+      "date": "2026-11-06",
+      "comp": "INV-ABOVE",
+      "stock": "GLENMARK",
+      "entry_time": "09:35",
+      "net": 3068.25
+     },
+     {
+      "date": "2026-11-06",
+      "comp": "INV-ABOVE",
+      "stock": "RECLTD",
+      "entry_time": "09:35",
+      "net": 330.31
+     },
+     {
+      "date": "2026-11-09",
+      "comp": "INV-ABOVE",
+      "stock": "GLENMARK",
+      "entry_time": "09:35",
+      "net": -1369.0
+     }
+    ],
+    "skipped_net": 2489.68,
+    "repaired_nov_total": 5028.26
+   },
+   "gate": {
+    "a_cross_year": true,
+    "b_no_new_red": true,
+    "c_placebo": false,
+    "d_halves": true,
+    "verdict": "FAIL",
+    "improved_years": [
+     2025
+    ],
+    "pooled_improvement": 1527.37
+   }
+  },
+  "S-FIX-2": {
+   "per_year": {
+    "2025": {
+     "skipped_legs": 55,
+     "skipped_net": -2635.88,
+     "kept_legs": 1009,
+     "repaired_total": 122449.32,
+     "raw_total": 119813.44,
+     "improvement": 2635.88,
+     "degrade_pct_of_raw": 0.0,
+     "repaired_wr": 45.79,
+     "months": {
+      "2025-01": 7147.9,
+      "2025-02": 25314.09,
+      "2025-03": 8006.84,
+      "2025-04": 54190.54,
+      "2025-05": 6518.38,
+      "2025-06": 1802.59,
+      "2025-07": -660.91,
+      "2025-08": 13486.06,
+      "2025-09": 10686.5,
+      "2025-10": -4042.67
+     },
+     "new_red_months": [],
+     "halves_repaired": [
+      101177.75,
+      21271.57
+     ],
+     "halves_raw": [
+      98541.87,
+      21271.57
+     ],
+     "half_deltas": {
+      "H1": 2635.88,
+      "H2": 0.0
+     },
+     "half_fail_d": false,
+     "placebo_pct_beaten": 89.0,
+     "placebo_pass_c": false
+    },
+    "2026": {
+     "skipped_legs": 30,
+     "skipped_net": 1289.99,
+     "kept_legs": 1333,
+     "repaired_total": 245888.8,
+     "raw_total": 247178.79,
+     "improvement": -1289.99,
+     "degrade_pct_of_raw": 0.52,
+     "repaired_wr": 45.09,
+     "months": {
+      "2026-01": 27950.25,
+      "2026-02": 12674.17,
+      "2026-03": 22420.06,
+      "2026-04": 48102.28,
+      "2026-05": 40022.69,
+      "2026-06": 4060.88,
+      "2026-07": 10284.46,
+      "2026-08": 10106.06,
+      "2026-09": 14494.14,
+      "2026-10": 55773.81
+     },
+     "new_red_months": [],
+     "halves_repaired": [
+      151169.45,
+      94719.35
+     ],
+     "halves_raw": [
+      149410.01,
+      97768.78
+     ],
+     "half_deltas": {
+      "H1": 1759.44,
+      "H2": -3049.43
+     },
+     "half_fail_d": false
+    }
+   },
+   "november": {
+    "skipped": [
+     {
+      "date": "2026-11-02",
+      "comp": "INV-LONG",
+      "stock": "HINDCOPPER",
+      "entry_time": "09:35",
+      "net": 465.19
+     }
+    ],
+    "skipped_net": 465.19,
+    "repaired_nov_total": 7052.75
+   },
+   "gate": {
+    "a_cross_year": true,
+    "b_no_new_red": true,
+    "c_placebo": false,
+    "d_halves": true,
+    "verdict": "FAIL",
+    "improved_years": [
+     2025
+    ],
+    "pooled_improvement": 1345.89
+   }
+  }
+ },
+ "november_actual": {
+  "legs": 32,
+  "total": 7517.94
+ },
+ "confidence_T70_months": {
+  "2025": {
+   "2025-01": -2238.24,
+   "2025-02": 16567.95,
+   "2025-03": 5509.78,
+   "2025-04": 47866.4,
+   "2025-05": 6518.38,
+   "2025-06": 1802.59,
+   "2025-07": -8109.0,
+   "2025-08": 13809.57,
+   "2025-09": 5297.46,
+   "2025-10": -5715.32
+  },
+  "2025_kept_legs": 745,
+  "2026": {
+   "2026-01": 17942.67,
+   "2026-02": 16989.21,
+   "2026-03": 17332.68,
+   "2026-04": 34654.49,
+   "2026-05": 26296.82,
+   "2026-06": 7929.76,
+   "2026-07": 13936.53,
+   "2026-08": 10983.35,
+   "2026-09": 4581.97,
+   "2026-10": 40110.2
+  },
+  "2026_kept_legs": 954
+ },
+ "confidence_T70_november": {
+  "kept_basis_total": 6794.44,
+  "unscored_excluded_total": 731.77,
+  "note": "UNSCORED-kept basis: only Nov 2 (4 legs) scorable; T70 idled +723.50 that day (HINDZINC F4)"
+ },
+ "anatomy_negative_cells_screened": [
+  {
+   "slice": "comp+bucket",
+   "cell": "INV-ABOVE x B1 <=09:35",
+   "2025": {
+    "legs": 30,
+    "net": -4100.03,
+    "wr": 33.33,
+    "ex_top3": -10764.68,
+    "minus_worst_leg": -1811.23,
+    "avg_per_leg": -136.67
+   },
+   "2026": {
+    "legs": 4,
+    "net": 2572.66,
+    "wr": 75.0,
+    "ex_top3": -325.36,
+    "minus_worst_leg": 2898.02,
+    "avg_per_leg": 643.16
+   },
+   "pooled_legs": 34,
+   "pooled_net": -1527.37
+  },
+  {
+   "slice": "comp+dir+bucket",
+   "cell": "INV-ABOVE x LONG x B1 <=09:35",
+   "2025": {
+    "legs": 30,
+    "net": -4100.03,
+    "wr": 33.33,
+    "ex_top3": -10764.68,
+    "minus_worst_leg": -1811.23,
+    "avg_per_leg": -136.67
+   },
+   "2026": {
+    "legs": 4,
+    "net": 2572.66,
+    "wr": 75.0,
+    "ex_top3": -325.36,
+    "minus_worst_leg": 2898.02,
+    "avg_per_leg": 643.16
+   },
+   "pooled_legs": 34,
+   "pooled_net": -1527.37
+  },
+  {
+   "slice": "comp+bucket",
+   "cell": "INV-LONG x B1 <=09:35",
+   "2025": {
+    "legs": 55,
+    "net": -2635.88,
+    "wr": 38.18,
+    "ex_top3": -8296.7,
+    "minus_worst_leg": -1347.06,
+    "avg_per_leg": -47.93
+   },
+   "2026": {
+    "legs": 30,
+    "net": 1289.99,
+    "wr": 30.0,
+    "ex_top3": -7477.5,
+    "minus_worst_leg": 3010.49,
+    "avg_per_leg": 43.0
+   },
+   "pooled_legs": 85,
+   "pooled_net": -1345.89
+  },
+  {
+   "slice": "comp+dir+bucket",
+   "cell": "INV-LONG x LONG x B1 <=09:35",
+   "2025": {
+    "legs": 55,
+    "net": -2635.88,
+    "wr": 38.18,
+    "ex_top3": -8296.7,
+    "minus_worst_leg": -1347.06,
+    "avg_per_leg": -47.93
+   },
+   "2026": {
+    "legs": 30,
+    "net": 1289.99,
+    "wr": 30.0,
+    "ex_top3": -7477.5,
+    "minus_worst_leg": 3010.49,
+    "avg_per_leg": 43.0
+   },
+   "pooled_legs": 85,
+   "pooled_net": -1345.89
+  },
+  {
+   "slice": "comp+dir+bucket",
+   "cell": "F4 x LONG x B3 >=10:30",
+   "2025": {
+    "legs": 19,
+    "net": -3502.47,
+    "wr": 57.89,
+    "ex_top3": -7682.42,
+    "minus_worst_leg": -1240.42,
+    "avg_per_leg": -184.34
+   },
+   "2026": {
+    "legs": 30,
+    "net": 9485.26,
+    "wr": 63.33,
+    "ex_top3": -1007.24,
+    "minus_worst_leg": 13167.18,
+    "avg_per_leg": 316.18
+   },
+   "pooled_legs": 49,
+   "pooled_net": 5982.79
+  },
+  {
+   "slice": "comp",
+   "cell": "REXP",
+   "2025": {
+    "legs": 41,
+    "net": 14870.39,
+    "wr": 46.34,
+    "ex_top3": 4124.15,
+    "minus_worst_leg": 16233.79,
+    "avg_per_leg": 362.69
+   },
+   "2026": {
+    "legs": 86,
+    "net": -8399.33,
+    "wr": 24.42,
+    "ex_top3": -15551.46,
+    "minus_worst_leg": -6503.78,
+    "avg_per_leg": -97.67
+   },
+   "pooled_legs": 127,
+   "pooled_net": 6471.06
+  },
+  {
+   "slice": "comp+dir",
+   "cell": "REXP x SHORT",
+   "2025": {
+    "legs": 41,
+    "net": 14870.39,
+    "wr": 46.34,
+    "ex_top3": 4124.15,
+    "minus_worst_leg": 16233.79,
+    "avg_per_leg": 362.69
+   },
+   "2026": {
+    "legs": 86,
+    "net": -8399.33,
+    "wr": 24.42,
+    "ex_top3": -15551.46,
+    "minus_worst_leg": -6503.78,
+    "avg_per_leg": -97.67
+   },
+   "pooled_legs": 127,
+   "pooled_net": 6471.06
+  },
+  {
+   "slice": "comp+bucket",
+   "cell": "REXP x B2 09:40-10:25",
+   "2025": {
+    "legs": 41,
+    "net": 14870.39,
+    "wr": 46.34,
+    "ex_top3": 4124.15,
+    "minus_worst_leg": 16233.79,
+    "avg_per_leg": 362.69
+   },
+   "2026": {
+    "legs": 86,
+    "net": -8399.33,
+    "wr": 24.42,
+    "ex_top3": -15551.46,
+    "minus_worst_leg": -6503.78,
+    "avg_per_leg": -97.67
+   },
+   "pooled_legs": 127,
+   "pooled_net": 6471.06
+  },
+  {
+   "slice": "comp+dir+bucket",
+   "cell": "REXP x SHORT x B2 09:40-10:25",
+   "2025": {
+    "legs": 41,
+    "net": 14870.39,
+    "wr": 46.34,
+    "ex_top3": 4124.15,
+    "minus_worst_leg": 16233.79,
+    "avg_per_leg": 362.69
+   },
+   "2026": {
+    "legs": 86,
+    "net": -8399.33,
+    "wr": 24.42,
+    "ex_top3": -15551.46,
+    "minus_worst_leg": -6503.78,
+    "avg_per_leg": -97.67
+   },
+   "pooled_legs": 127,
+   "pooled_net": 6471.06
+  },
+  {
+   "slice": "comp+dir",
+   "cell": "P2F-R2 x SHORT",
+   "2025": {
+    "legs": 13,
+    "net": -830.16,
+    "wr": 46.15,
+    "ex_top3": -2422.41,
+    "minus_worst_leg": 184.34,
+    "avg_per_leg": -63.86
+   },
+   "2026": {
+    "legs": 25,
+    "net": 12053.12,
+    "wr": 60.0,
+    "ex_top3": 5737.99,
+    "minus_worst_leg": 13190.07,
+    "avg_per_leg": 482.12
+   },
+   "pooled_legs": 38,
+   "pooled_net": 11222.96
+  },
+  {
+   "slice": "comp+dir+bucket",
+   "cell": "P2F-R2 x SHORT x B1 <=09:35",
+   "2025": {
+    "legs": 13,
+    "net": -830.16,
+    "wr": 46.15,
+    "ex_top3": -2422.41,
+    "minus_worst_leg": 184.34,
+    "avg_per_leg": -63.86
+   },
+   "2026": {
+    "legs": 25,
+    "net": 12053.12,
+    "wr": 60.0,
+    "ex_top3": 5737.99,
+    "minus_worst_leg": 13190.07,
+    "avg_per_leg": 482.12
+   },
+   "pooled_legs": 38,
+   "pooled_net": 11222.96
+  },
+  {
+   "slice": "comp",
+   "cell": "P2F-R2",
+   "2025": {
+    "legs": 17,
+    "net": -1148.55,
+    "wr": 41.18,
+    "ex_top3": -2740.8,
+    "minus_worst_leg": -134.05,
+    "avg_per_leg": -67.56
+   },
+   "2026": {
+    "legs": 32,
+    "net": 15149.33,
+    "wr": 59.38,
+    "ex_top3": 8834.2,
+    "minus_worst_leg": 16286.28,
+    "avg_per_leg": 473.42
+   },
+   "pooled_legs": 49,
+   "pooled_net": 14000.78
+  },
+  {
+   "slice": "comp+bucket",
+   "cell": "P2F-R2 x B1 <=09:35",
+   "2025": {
+    "legs": 17,
+    "net": -1148.55,
+    "wr": 41.18,
+    "ex_top3": -2740.8,
+    "minus_worst_leg": -134.05,
+    "avg_per_leg": -67.56
+   },
+   "2026": {
+    "legs": 32,
+    "net": 15149.33,
+    "wr": 59.38,
+    "ex_top3": 8834.2,
+    "minus_worst_leg": 16286.28,
+    "avg_per_leg": 473.42
+   },
+   "pooled_legs": 49,
+   "pooled_net": 14000.78
+  },
+  {
+   "slice": "comp+dir+bucket",
+   "cell": "F4 x SHORT x B2 09:40-10:25",
+   "2025": {
+    "legs": 99,
+    "net": -9191.31,
+    "wr": 41.41,
+    "ex_top3": -17872.04,
+    "minus_worst_leg": -5888.53,
+    "avg_per_leg": -92.84
+   },
+   "2026": {
+    "legs": 160,
+    "net": 35504.36,
+    "wr": 52.5,
+    "ex_top3": 18093.86,
+    "minus_worst_leg": 39078.74,
+    "avg_per_leg": 221.9
+   },
+   "pooled_legs": 259,
+   "pooled_net": 26313.05
+  },
+  {
+   "slice": "comp+dir",
+   "cell": "F4 x SHORT",
+   "2025": {
+    "legs": 110,
+    "net": -5090.7,
+    "wr": 42.73,
+    "ex_top3": -13906.95,
+    "minus_worst_leg": -1787.92,
+    "avg_per_leg": -46.28
+   },
+   "2026": {
+    "legs": 183,
+    "net": 55706.05,
+    "wr": 55.19,
+    "ex_top3": 38081.35,
+    "minus_worst_leg": 59280.43,
+    "avg_per_leg": 304.4
+   },
+   "pooled_legs": 293,
+   "pooled_net": 50615.35
+  },
+  {
+   "slice": "comp+bucket",
+   "cell": "F4 x B2 09:40-10:25",
+   "2025": {
+    "legs": 216,
+    "net": -507.0,
+    "wr": 46.3,
+    "ex_top3": -10996.5,
+    "minus_worst_leg": 2795.78,
+    "avg_per_leg": -2.35
+   },
+   "2026": {
+    "legs": 302,
+    "net": 73368.98,
+    "wr": 53.97,
+    "ex_top3": 55529.93,
+    "minus_worst_leg": 76943.36,
+    "avg_per_leg": 242.94
+   },
+   "pooled_legs": 518,
+   "pooled_net": 72861.98
+  }
+ ],
+ "anatomy_dimension_audit": {
+  "carried": [
+   "comp",
+   "dir (side)",
+   "entry_time bucket (B1 <=09:35 / B2 09:40-10:25 / B3 >=10:30)"
+  ],
+  "dropped": [
+   "prior-day-move band (not in gated store; not uniformly reconstructible)",
+   "price band (entry price not in gated store; partial store joins 39%)"
+  ],
+  "basis": "equity cash intraday, per 100 shares PROVISIONAL, Rs40/trade, paper only"
+ },
+ "table_repair_column": {
+  "candidate": "S-FIX-1",
+  "status": "FAILED (gate leg c, placebo)",
+  "selection": "frozen rule: no candidate passed; larger pooled improvement (S-FIX-1 +1527.37 vs S-FIX-2 +1345.89)"
+ }
+}
