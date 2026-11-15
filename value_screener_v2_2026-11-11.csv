@@ -1,0 +1,179 @@
+Section,Company,Ticker,CMP_INR,PE,BV_INR,PB,EPS_FY24,EPS_FY25,EPS_FY26,EPS_3yr_direction,PAT_FY24_Cr,PAT_FY25_Cr,PAT_FY26_Cr,LatestQtrPAT_Cr,DE_or_GNPA_NNPA,Pledge_pct,Promoter_latest_pct,Promoter_trend,SalesG3Y_pct,ProfitG3Y_pct,ROE_pct,MarketCap_Cr,W52H,W52L,Verdict_flags
+Main,HDFC Bank,HDFCBANK,814,15.7,391,2.08,42.16,46.26,49.39,Rising,65446,73440,79219,21537,GNPA/NNPA n/s,n/s,none,no promoter,27,18,13.6,1256430,1018,669,PASS-MAIN
+Main,ICICI Bank,ICICIBANK,1600,19.4,540,2.96,63.02,71.65,75.71,Rising,46081,54569,57936,17389,GNPA/NNPA n/s,n/s,none,no promoter,17,17,15.9,1148775,1617,1188,PASS-MAIN; PB near limit
+Main,State Bank of India,SBIN,1070,11.5,728,1.47,75.17,86.91,90.24,Rising,69543,80523,86666,26218,"GNPA 2.13 / NNPA 0.52 (Sep-24, latest shown)",n/s,55.45,57.49 -> 55.45,14,14,15.4,987646,1235,934,PASS-MAIN
+Main,Life Insurance Corporation of India,LICI,404,8.22,150,2.69,32.34,38.2,45.42,Rising,40916,48320,57453,12112,insurer n/a,n/s,90.0,96.50 -> 90.00,8,17,37.8,511060,461,361,PASS-MAIN; ROE as printed (small equity base)
+Main,Axis Bank,AXISBANK,1347,14.0,738,1.83,85.49,90.58,84.89,Stable,26492,28191,26548,7666,GNPA/NNPA n/s,n/s,7.86,8.20 -> 7.86,15,35,13.1,419366,1418,1150,PASS-MAIN
+Main,Oil and Natural Gas Corporation,ONGC,236,5.98,318,0.74,39.06,28.8,32.93,Dip (FY25),55273,38329,49793,18535,D/E 0.47,n/s,58.89,stable,-1,1,11.6,296769,308,218,PASS-MAIN; FLAG EPS-dip
+Main,Shriram Finance,SHRIRAMFIN,978,18.1,474,2.06,39.2,50.81,53.28,Rising,7399,9576,10024,3684,GNPA/NNPA n/s,n/s,20.3,25.43 -> 20.30,16,19,16.4,230097,1154,804,PASS-MAIN
+Main,Hindalco Industries,HINDALCO,957,9.27,710,1.35,45.19,71.2,59.59,Rising vs FY24 (off FY25 peak),10155,16002,13391,7533,D/E 0.73,n/s,34.67,stable,7,19,13.0,215149,1179,772,PASS-MAIN
+Main,Indian Oil Corporation,IOC,148,4.4,165,0.9,29.55,9.63,29.81,Dip-recovered,43161,13789,43677,22503,D/E 0.60,n/s,51.5,stable,-2,62,20.5,209489,189,125,PASS-MAIN; FLAG EPS-dip FY25
+Main,Punjab National Bank,PNB,138,6.97,140,0.99,8.27,16.08,16.0,Rising,9157,18553,18467,5918,GNPA/NNPA n/s,n/s,70.08,73.15 -> 70.08,15,76,13.0,158085,138,98.5,PASS-MAIN
+Main,Union Bank of India,UNIONBANK,200,6.9,189,1.06,18.07,23.62,25.45,Rising,13797,18027,19430,5781,GNPA/NNPA n/s,n/s,74.76,76.99 -> 74.76,10,32,15.7,152519,205,146,PASS-MAIN; v1 near-miss now in
+Main,Bank of Baroda,BANKBARODA,272,5.94,338,0.8,36.29,40.06,38.38,Stable,18869,20865,20070,6792,GNPA/NNPA n/s,n/s,63.97,stable,13,10,12.7,140480,326,224,PASS-MAIN
+Main,Bharat Petroleum Corporation,BPCL,320,9.9,234,1.37,61.91,30.74,59.57,Dip-recovered,26859,13337,25843,4863,D/E 0.62,n/s,52.98,stable,-1,107,28.8,139027,392,267,PASS-MAIN; Jun-2026 quarter was a loss (cyclical)
+Main,Indian Bank,INDIANB,957,9.72,645,1.48,62.51,83.61,86.89,Rising,8423,11264,11707,3541,GNPA 1.61 / NNPA 0.14,n/s,73.84,stable,14,28,15.4,128878,1001,764,PASS-MAIN
+Main,Bajaj Holdings & Investment,BAJAJHLDNG,11245,13.5,6630,1.7,652.98,585.9,865.89,Dip-recovered,7365,6626,9789,2137,D/E 0.00,n/s,51.46,stable,29,19,11.9,125142,12979,8588,PASS-MAIN; holdco
+Main,GAIL (India),GAIL,189,9.78,147,1.29,15.06,18.93,11.53,Dip (FY26),9903,12463,7582,4724,D/E 0.25,n/s,51.85,stable,-1,10,8.71,124039,190,134,PASS-MAIN; FLAG EPS-dip
+Main,Canara Bank,CANBK,132,5.9,141,0.94,16.84,19.34,19.7,Rising,15401,17692,19712,5383,GNPA 1.33 / NNPA 0.30,n/s,62.93,stable,14,18,16.1,119279,163,115,PASS-MAIN
+Main,Muthoot Finance,MUTHOOTFIN,2928,9.64,1094,2.68,107.71,132.84,263.79,Rising,4468,5352,10607,3278,GNPA/NNPA n/s,n/s,73.35,stable,38,43,30.9,117566,4150,2303,PASS-MAIN
+Main,Indian Railway Finance Corporation,IRFC,88.9,15.8,46.4,1.92,4.91,4.98,5.36,Rising,6412,6502,7009,1958,GNPA/NNPA n/s,n/s,82.9,86.36 -> 82.90,5,3,12.8,116140,137,73.0,PASS-MAIN; standalone page used
+Main,Power Finance Corporation,PFC,343,4.3,445,0.77,59.88,69.67,78.49,Rising,26461,30514,33625,7682,GNPA 0.55 / NNPA 0.13,n/s,55.99,stable,14,18,20.7,113210,486,310,PASS-MAIN
+Main,Indus Towers,INDUSTOWER,388,14.4,150,2.59,22.4,37.65,27.08,Dip (FY26 vs FY25 peak),6036,9932,7145,1793,D/E 0.56,n/s,51.26,68.99 -> 51.26 FLAG,5,47,18.6,102387,482,356,PASS-MAIN; FLAG EPS-dip; FLAG promoter decline
+Main,Federal Bank,FEDERALBNK,357,17.0,173,2.06,15.93,16.93,17.63,Rising,3964,4234,4491,1568,"GNPA 2.11 / NNPA 0.63 (Mar-24, latest shown)",n/s,none,no promoter,19,11,11.6,88194,372,233,PASS-MAIN
+Main,IDBI Bank,IDBI,81.3,10.5,67.4,1.21,5.38,7.1,8.57,Rising,5814,7656,9237,2226,GNPA/NNPA n/s,n/s,94.72,stable,12,35,14.1,87460,118,61,PASS-MAIN
+Main,REC,RECLTD,312,5.41,362,0.86,53.72,60.32,61.93,Rising,14145,15884,16308,3478,GNPA/NNPA n/s,n/s,52.63,stable,15,14,20.1,82209,388,282,PASS-MAIN
+Main,Steel Authority of India,SAIL,175,12.1,151,1.16,7.42,5.74,8.17,Dip-recovered,3067,2372,3373,1750,D/E 0.50,n/s,65.0,stable,2,26,6.57,72160,210,124,PASS-MAIN; FLAG EPS-dip; v1 near-miss now in
+Main,Bank of Maharashtra,MAHABANK,90.8,8.79,48.6,1.87,5.75,7.21,9.12,Rising,4072,5542,7017,2136,GNPA 1.25 / NNPA 0.12,n/s,73.6,86.46 -> 73.60 FLAG,23,39,22.6,69839,94.5,55.5,PASS-MAIN; FLAG promoter decline (GoI)
+Main,Bank of India,BANKINDIA,151,5.49,207,0.73,14.42,20.97,22.64,Rising,6567,9552,10309,3310,GNPA/NNPA n/s,n/s,73.38,stable,16,42,12.4,68631,178,124,PASS-MAIN
+Main,National Aluminium Company,NATIONALUM,327,8.42,136,2.4,10.83,28.68,31.56,Rising,1988,5268,5797,1835,D/E 0.00,n/s,51.28,stable,8,59,29.4,60095,445,249,PASS-MAIN
+Main,General Insurance Corporation of India,GICRE,338,6.59,423,0.8,38.11,42.36,55.08,Rising,6686,7432,9662,2966,insurer n/a,n/s,77.4,85.78 -> 77.40,4,12,14.6,59211,418,308,PASS-MAIN
+Main,Petronet LNG,PETRONET,330,10.7,162,2.04,24.35,26.48,26.08,Stable,3652,3973,3913,1256,D/E 0.09,n/s,50.0,stable,-10,5,18.4,49470,330,235,PASS-MAIN; CMP at 52w high
+Main,HDB Financial Services,HDBFS,564,15.8,267,2.11,31.03,27.34,30.64,Dip-recovered,2461,2176,2544,780,GNPA 2.44 / NNPA 1.09 (Mar-26),n/s,74.08,stable,14,9,13.9,46855,797,494,PASS-MAIN; standalone page used
+Main,Mahindra & Mahindra Financial Services,M&MFIN,290,10.9,198,1.46,15.22,17.81,20.54,Rising,1943,2261,2861,911,GNPA/NNPA n/s,n/s,52.48,stable,18,12,12.3,40260,415,253,PASS-MAIN
+Main,Karur Vysya Bank,KARURVYSYA,382,12.5,159,2.4,16.63,20.1,25.97,Rising,1605,1942,2510,788,GNPA 0.69 / NNPA 0.18,n/s,1.95,widely held,19,31,19.1,36884,391,237,PASS-MAIN; standalone page used; near 52w high
+Main,Housing & Urban Development Corporation,HUDCO,173,7.73,115,1.5,10.57,13.53,20.15,Rising,2117,2709,4034,911,GNPA/NNPA n/s,n/s,75.0,stable,23,33,20.0,34713,247,142,PASS-MAIN
+Main,UCO Bank,UCOBANK,25.1,10.6,27.6,0.91,1.38,1.95,2.21,Rising,1654,2445,2768,786,GNPA 1.96 / NNPA 0.18,n/s,90.95,95.39 -> 90.95,14,14,8.61,31524,32.1,21.3,PASS-MAIN; standalone page used; thin float
+Main,LIC Housing Finance,LICHSGFIN,563,5.26,798,0.71,86.59,98.94,101.87,Rising,4763,5443,5604,1507,GNPA/NNPA n/s,n/s,45.24,stable,8,25,14.4,30949,598,459,PASS-MAIN
+Main,PNB Housing Finance,PNBHOUSING,1138,12.6,776,1.47,58.06,74.49,87.94,Rising,1508,1936,2291,617,GNPA 0.95 / NNPA 0.58 (Jun-26),n/s,28.01,stable,9,30,12.7,29679,1225,730,PASS-MAIN
+Main,Central Bank of India,CENTRALBK,32.6,6.1,46.0,0.71,3.07,4.35,5.0,Rising,2677,3943,4531,1488,GNPA 2.40 / NNPA 0.32,n/s,81.19,93.08 -> 81.19 FLAG,12,39,11.9,29517,40.9,28.3,PASS-MAIN; FLAG promoter decline (GoI)
+Main,IIFL Finance,IIFL,678,11.6,362,1.87,44.9,8.92,39.05,"Dip (FY25 collapse, recovered)",1974,578,1817,805,GNPA 1.55 / NNPA 0.82 (Jun-26),n/s,24.76,stable,17,3,12.6,28953,705,409,PASS-MAIN; FLAG EPS-dip (gold-loan ban year)
+Main,Cholamandalam Financial Holdings,CHOLAHLDNG,1454,9.89,912,1.59,94.39,115.76,130.01,Rising,3851,4740,5485,1520,GNPA/NNPA n/s,n/s,46.39,stable,29,24,17.5,27299,2008,1237,PASS-MAIN; holdco
+Main,Apollo Tyres,APOLLOTYRE,425,13.1,276,1.54,27.11,17.66,21.61,Dip,1722,1121,1372,292,D/E 0.31,n/s,36.93,stable,5,26,13.1,27011,540,365,PASS-MAIN; FLAG EPS-dip
+Main,Redington,REDINGTON,340,13.2,138,2.46,15.59,20.53,19.06,Stable,1239,1821,1284,423,D/E 0.59,n/s,none,no promoter,15,5,16.9,26549,420,191,PASS-MAIN; PAT FY26 down vs FY25
+Main,City Union Bank,CUB,230,15.4,113,2.04,10.28,11.37,13.39,Rising,1016,1124,1326,416,GNPA 1.44 / NNPA 0.48,n/s,none shown,n/s,13,12,13.2,22838,249,168,PASS-MAIN; standalone page used
+Main,Gujarat Energy (formerly Gujarat Gas),GUJENERGY,239,10.3,204,1.17,16.61,59.77,29.33,Volatile (FY25 exceptional spike),1144,3979,1678,490,D/E 0.18,n/s,38.94,60.89 -> 38.94 FLAG,12,12,10.2,22466,385,206,PASS-MAIN; FLAG promoter decline; FY25 PAT spike exceptional
+Main,AWL Agri Business,AWL,169,18.8,83.8,2.02,1.14,9.43,8.04,Rising (low FY24 base),148,1226,1045,239,D/E 0.27,n/s,56.94,87.88 -> 56.94 FLAG,9,22,10.7,22004,283,160,PASS-MAIN; FLAG promoter transition Adani->Wilmar
+Main,Sagility,SAGILITY,44.9,19.8,21.8,2.06,0.53,1.15,1.98,Rising,228,539,925,284,D/E 0.09,n/s,50.95,82.39 -> 50.95 FLAG,19,86,10.6,21014,54.3,35.8,PASS-MAIN; FLAG promoter decline (sponsor sell-down); PE near limit
+Main,Aadhar Housing Finance,AADHARHFC,439,16.1,187,2.35,18.99,21.14,25.15,Rising,750,912,1096,308,GNPA 1.31 / NNPA 0.90 (Jun-26),n/s,64.51,76.48 -> 64.51 FLAG,22,25,15.9,19248,563,414,PASS-MAIN; FLAG promoter decline (Blackstone sell-down)
+Main (reference),South Indian Bank,SOUTHBANK,61.3,10.2,46.1,1.33,4.09,4.98,5.56,Rising,1070,1303,1456,426,GNPA/NNPA n/s this fetch (v1 fetch: 1.24 / 0.09),n/s,none,no promoter,11,23,13.5,16067,61.3,33.4,REFERENCE ROW - PASSES v2 spec
+Main,Natco Pharma,NATCOPHARM,816,14.0,511,1.6,76.87,104.4,78.54,Dip (FY26 vs FY25 peak),1388,1883,1418,206,D/E 0.08,n/s,46.22,49.71 -> 46.22,15,27,17.1,15999,1217,774,PASS-MAIN; FLAG EPS-dip
+Main,Jammu & Kashmir Bank,J&KBANK,134,6.28,161,0.83,16.05,18.91,21.46,Rising,1767,2082,2363,546,GNPA 2.23 / NNPA 0.51,n/s,59.4,stable,12,25,15.2,14756,202,97.4,PASS-MAIN; standalone page used
+Main-beyond-50,Tamilnad Mercantile Bank,TMB,862,8.66,680,1.27,67.7,74.68,84.47,Rising,1072,1183,1338,451,GNPA 0.61 / NNPA 0.14,n/s,n/s,no Promoters row,13,9,14.0,13649,955,492,PASS-MAIN; standalone page used
+Main-beyond-50,Zensar Technologies,ZENSARTECH,568,16.1,214,2.65,29.34,28.61,34.05,Dip (FY25),665,650,775,190,D/E 0.01,n/s,48.99,49.20 -> 48.99,5,34,17.4,12930,759,416,PASS-MAIN; FLAG EPS-dip
+Main-beyond-50,Shipping Corporation of India,SCI,268,6.21,221,1.21,14.58,18.11,29.05,Dip (FY24),679,844,1353,578,D/E 0.24,n/s,63.75,stable,0,15,15.0,12472,369,195,PASS-MAIN; FLAG EPS-dip
+Main-beyond-50,Edelweiss Financial Services,EDELWEISS,131,19.8,49.0,2.68,2.85,10.43,5.24,Stable (volatile),897,3281,1595,n/s,GNPA 1.14 / NNPA 0.73 (wholesale book),n/s,29.46,stable (new series),7,23,14.2,12434,154,92.5,PASS-MAIN; PE just inside limit; wholesale-book credit costs volatile
+Main-beyond-50,Home First Finance,HOMEFIRST,1093,18.4,445,2.45,29.54,36.75,42.86,Rising,802,1027,1257,453,GNPA 1.90 / NNPA 1.40,n/s,19.58,36.18 -> 19.58 FLAG,24,33,15.7,11425,1262,852,PASS-MAIN; FLAG promoter decline; NNPA near limit; standalone page used
+Main-beyond-50,JM Financial,JMFINANCIL,115,10.7,115,1.0,11.51,12.75,12.88,Rising,1097,1230,1281,351,GNPA 2.55 (wholesale); consolidated CRAR basis,n/s,22.6,stable,10,27,11.9,10972,202,107,PASS-MAIN
+Main-beyond-50,Can Fin Homes,CANFINHOME,770,8.95,482,1.6,43.36,46.86,54.77,Rising,718,744,792,240,GNPA 0.87 / NNPA 0.42,n/s,29.89,stable,5,20,19.7,10256,997,658,PASS-MAIN; standalone page used
+Main-beyond-50,Time Technoplast,TIMETECHNO,200,18.9,86.4,2.31,5.68,6.89,7.93,Rising,187,275,442,n/s,D/E 0.17,n/s,51.43,stable,15,28,13.1,9860,411,182,PASS-MAIN
+Main-beyond-50,Powergrid Infrastructure Investment Trust,PGINVIT,106,10.6,82.8,1.28,3.46,7.76,9.26,Rising,247,737,958,n/s,D/E 0.01,n/s,59.28,stable,n/s,88,10.5,9613,93.9,79.3,"PASS-MAIN; InvIT (equity declines by distributions); data from screener cache excerpt, 9 Nov close"
+Main-beyond-50,Welspun Enterprises,WELENT,690,17.0,242,2.85,12.36,37.99,26.26,Stable (volatile),179,551,381,n/s,D/E 0.13,n/s,46.01,stable,9,12,13.6,9551,777,501,PASS-MAIN; earnings lumpy (EPC + exceptional)
+Main-beyond-50,TSF Investments,TSFINV,422,19.3,272,1.55,15.25,19.74,23.92,Rising,337,439,526,176,financial holdco,n/s,74.98,stable,20,26,8.23,9382,496,359,PASS-MAIN; holdco
+Main-beyond-50,AAVAS Financiers,AAVAS,1137,12.8,682,1.67,33.11,41.92,50.9,Rising,611,788,982,301,NNPA 0.67 (GNPA n/s),0.0,63.65,stable,16,15,13.9,9016,1738,919,"PASS-MAIN; data from screener cache excerpt, 9 Nov close"
+Main-beyond-50,Finolex Industries,FINPIPE,145,14.8,122,1.19,7.37,9.27,10.6,Dip (FY24),916,1142,1292,378,D/E negative (net cash),0.0,47.08,stable,11,35,9.04,8976,189,127,"PASS-MAIN; FLAG EPS-dip; data from screener cache excerpt, 9 Nov close"
+Main-beyond-50,KEC International,KEC,334,18.9,229,1.46,7.04,16.51,22.22,Rising,186,443,596,343,D/E 0.62 (Mar-26); ~1.04 incl acceptances Sep-26,0.0,51.88,stable,10,55,n/s,8883,392,275,"PASS-MAIN; FLAG DE borderline; data from screener cache excerpt, 9 Nov close"
+Main-beyond-50,Sandur Manganese & Iron Ores,SANDUMA,177,10.0,76.5,2.32,13.67,10.49,15.78,Dip (FY25),739,765,1042,n/s,D/E 0.07,n/s,74.16,stable,10,37,22.5,8593,177,91.1,"PASS-MAIN; FLAG EPS-dip; data from screener cache excerpt, 9 Nov close"
+Main-beyond-50,NCC,NCC,131,10.9,130,1.01,6.98,9.02,10.2,Rising,425,550,622,290,D/E 0.22,3.8,53.98,stable,6,6,n/s,8220,165,106,"PASS-MAIN; data from screener cache excerpt, 9 Nov close"
+Main-beyond-50,NESCO,NESCO,1057,18.4,448,2.36,31.53,40.06,52.58,Rising,215,270,354,138,D/E 0.00,n/s,55.88,stable,9,11,13.8,7443,1394,950,"PASS-MAIN; data from screener cache excerpt, 9 Nov close"
+Main-beyond-50,Intellect Design Arena,INTELLECT,515,19.4,237,2.17,8.78,11.42,14.58,Rising,237,303,384,129,D/E 0.03,n/s,24.93,stable,9,11,11.5,7226,639,399,"PASS-MAIN; BORDERLINE PE: screener consolidated 19.4 vs mirrors 20.2-20.4; data from screener cache excerpt, 9 Nov close"
+Main-beyond-50,Onemi Technology (Kissht),KISSHT,349,18.8,133,2.62,7.58,12.52,21.88,Rising*,n/s,422,709,307,GNPA/NNPA n/s (NBFC),n/s,29.05,45.46 -> 29.05 FLAG,12,117,24.0,7142,350,270,"PASS-MAIN PARTIAL: FY24 PAT and annual EPS row not extractable; data from screener cache excerpt, 9 Nov close"
+Main-beyond-50,Transport Corporation of India,TCI,865,14.2,364,2.38,40.62,45.05,52.95,Rising,346,384,451,135,D/E 0.25,n/s,68.62,stable,11,12,19.2,6511,1168,795,PASS-MAIN
+Main-beyond-50,Sharda Cropchem,SHARDACROP,713,9.95,361,1.98,22.65,20.09,30.04,Dip (FY25),182,161,253,n/s,D/E 0.08,n/s,70.12,stable,7,26,23.2,6435,907,501,PASS-MAIN; FLAG EPS-dip
+Main-beyond-50,Birla Corporation,BIRLACORPN,834,12.7,995,0.84,19.32,5.72,20.83,Dip (FY25),147,43.7,160,97,D/E 0.69,n/s,61.89,stable,3,134,7.83,6423,1189,814,PASS-MAIN; FLAG EPS-dip; thin absolute profits
+Main-beyond-50,FDC,FDC,394,19.4,164,2.4,16.81,19.82,22.52,Rising,285,336,382,110,D/E 0.00,n/s,67.65,stable,4,13,11.5,6407,545,337,PASS-MAIN
+Main-beyond-50,Fedbank Financial Services,FEDFINA,161,14.0,84.3,1.91,8.23,11.47,10.16,Dip (FY26),309,430,392,158,GNPA 1.86 / NNPA 1.18,n/s,62.73,62.94 -> 62.73,18,22,12.6,6045,165,118,PASS-MAIN; FLAG EPS-dip; standalone page used
+Main-beyond-50,JK Lakshmi Cement,JKLAKSHMI,480,18.4,318,1.51,26.23,28.45,23.91,Dip (FY26),307,333,287,76,D/E 0.40,n/s,44.91,stable,7,5,10.7,5962,727,440,PASS-MAIN; FLAG EPS-dip
+Main-beyond-50,CSB Bank,CSBBANK,314,7.89,298,1.05,23.71,31.7,35.77,Rising,411,549,620,234,GNPA 1.58 / NNPA 0.33,n/s,none shown,n/s,14,5,13.5,5450,357,231,PASS-MAIN; standalone page used
+Main-beyond-50,LG Balakrishnan & Bros,LGBBROSLTD,1685,16.8,714,2.36,80.53,92.4,127.48,Rising,259,297,410,129,D/E 0.14,n/s,30.35,stable,6,10,15.5,5374,2454,1345,PASS-MAIN
+Main-beyond-50,AvenuesAI,CCAVENUE,127,15.1,140,0.91,2.36,5.44,6.9,Rising,82,189,248,n/s,D/E 0.01,n/s,17.47,stable (post-restructuring series),2,30,6.64,4440,202,88.4,PASS-MAIN
+Main-beyond-50,PTC India,PTC,142,9.05,182,0.78,12.95,13.75,15.29,Rising,388,412,460,214,D/E 0.02,n/s,0.0,no promoter,7,11,10.3,4208,170,113,PASS-MAIN
+Main-beyond-50,J Kumar Infraprojects,JKIL,442,8.57,446,0.99,39.24,44.32,50.06,Rising,297,335,378,117,D/E 0.32,n/s,43.15,stable,18,13,12.4,3344,1008,405,"PASS-MAIN; FLAG contingent liabilities Rs 4,383 cr > net worth Rs 3,369 cr"
+Main-beyond-50,Vindhya Telelinks,VINDHYATEL,2584,12.0,3900,0.66,268.68,217.55,252.84,Dip (FY25),318,258,305,n/s,D/E 0.02,n/s,40.47,stable,6,6,5.31,3062,3125,1942,PASS-MAIN; FLAG EPS-dip
+Main-beyond-50,Satin Creditcare Network,SATIN,264,5.47,287,0.92,83.61,75.96,55.27,"Dip (FY25+FY26, no 2 consecutive below FY24 rule basis)",640,719,529,114,GNPA 2.35 / NNPA 0.65,n/s,24.81,stable,49,313,12.3,2922,312,127,PASS-MAIN; FLAG EPS-dip; MFI risk
+Main-beyond-50,Ramco Industries,RAMCOIND,320,8.56,531,0.6,26.2,31.79,37.84,Rising,232,281,335,n/s,D/E 0.00,n/s,40.63,stable,2,34,6.75,2779,372,245,PASS-MAIN
+Main-beyond-50,Repco Home Finance,REPCOHOME,388,4.91,681,0.57,64.79,75.34,83.11,Rising,407,474,523,146,GNPA/NNPA n/s,n/s,37.04,stable,5,15,12.4,2430,461,305,PASS-MAIN
+Main-beyond-50,India Glycols,INDIAGLYCO,314,6.65,436,0.72,36.86,45.28,48.63,Rising,291,358,384,120,D/E 0.33,n/s,48.72,stable,10,39,11.3,2108,350,228,PASS-MAIN
+Main-beyond-50,Prakash Industries,PRAKASH,117,6.74,198,0.59,12.57,14.85,17.19,Rising,225,266,308,71,D/E 0.42,n/s,46.23,stable,12,21,9.65,2102,150,101,PASS-MAIN; standalone page used (consolidated stale); was v1 Annexure B
+No-growth,Oil India,OIL,436,8.5,358,1.22,37.39,35.77,45.87,Dip (FY25),6980,7040,7551,n/s,D/E 0.24,n/s,58.78,stable,5,-9,12.2,71001,531,396,PASS-NO-GROWTH; FLAG EPS-dip
+No-growth,Great Eastern Shipping,GESHIP,1444,4.71,1325,1.09,155.88,168.49,204.88,Rising,2614,2344,2943,373,D/E 0.09,n/s,29.13,stable,11,0,15.9,20611,1798,1056,PASS-NO-GROWTH (3Y profit growth 0%)
+No-growth,Deepak Fertilizers,DEEPAKFERT,1236,15.9,542,2.28,35.87,73.95,58.4,Stable (volatile),468,945,739,490,D/E 0.83,n/s,45.63,45.46 -> 45.63,1,-15,11.1,15604,1681,865,PASS-NO-GROWTH
+No-growth,Vardhman Textiles,VTL,524,14.9,382,1.37,21.84,30.54,25.76,Stable,637,887,753,359,D/E 0.16,n/s,65.06,64.13 -> 65.06,-1,-3,7.03,15180,688,391,PASS-NO-GROWTH
+No-growth,Gujarat State Petronet,GSPL,268,14.4,213,1.26,16.26,11.94,n/s,n/s (stale page),2184,1637,n/s,n/s,D/E 0.01,n/s,37.73,stable,4,-12,9.89,15141,329,241,"PASS-NO-GROWTH PROVISIONAL - screener page stale (May-2026 snapshot), FY26 unverifiable"
+No-growth,Galaxy Surfactants,GALAXYSURF,2197,18.7,838,2.62,85.22,86.18,75.28,Dip (FY26),302,305,267,n/s,D/E 0.09,n/s,66.85,stable,7,-10,n/s,7800,2320,1801,"PASS-NO-GROWTH; FLAG EPS-dip; data from screener cache excerpt, 9 Nov close"
+No-growth,Gujarat Ambuja Exports,GAEL,152,13.6,78.4,1.94,7.12,4.91,5.99,Dip (FY25),346,249,304,84,D/E 0.06,n/s,54.15,stable,11,-3,9.72,6960,254,133,PASS-NO-GROWTH; FLAG EPS-dip
+No-growth,Gujarat Narmada Valley Fertilizers,GNFC,471,6.6,635,0.74,33.83,40.68,55.03,Rising,497,598,809,299,D/E 0.09,n/s,19.84,stable,-7,-18,9.14,6924,601,441,PASS-NO-GROWTH; printed 3Y growth uses high FY23 base (EPS 94.68)
+No-growth,Rashtriya Chemicals & Fertilizers,RCF,107,14.2,92.9,1.15,4.08,4.39,7.75,Rising,225,242,427,n/s,D/E 0.57,n/s,75.0,stable,-14,-24,7.84,5917,191,100,PASS-NO-GROWTH; FY23-base effect (EPS 17.52)
+No-growth,Gujarat State Fertilizers & Chemicals,GSFC,144,10.1,326,0.44,14.17,14.84,16.88,Rising,564,591,673,193,D/E 0.07,n/s,20.2,stable,-3,-19,5.51,5746,268,136,PASS-NO-GROWTH; FY23-base effect; low ROE
+No-growth,PNC Infratech,PNCINFRA,136,5.59,283,0.48,35.52,31.78,32.42,Stable,909,815,832,257,"D/E 0.27; contingent 3,729 < net worth 7,248",n/s,29.18,stable,-12,-15,6.12,3481,242,129,PASS-NO-GROWTH
+No-growth,Maithan Alloys,MAITHANALL,852,5.02,1583,0.54,119.87,216.39,151.42,Volatile,349,631,441,n/s,D/E 0.00,n/s,50.98,stable,4,-65,0.54,2479,1087,706,PASS-NO-GROWTH; profits dominated by investment fair-value income; printed 3Y growth -65%
+No-growth,GIC Housing Finance,GICHFL,132,4.52,389,0.34,27.23,28.82,27.89,Stable,151,160,155,32,GNPA 3.31 (Mar-24) / NNPA 1.06; FY26 NPA n/s,n/s,42.29,stable,5,-10,7.61,713,188,124,PASS-NO-GROWTH
+Fail,Reliance Industries,RELIANCE,2528,22.0,1318,1.92,59.05,67.91,70.61,Rising,105353,121106,121840,19541,D/E 0.41,n/s,30.28,stable,11,19,10.4,3344052,2851,2332,FAIL R1 PE 22.0
+Fail,Bajaj Finance,BAJFINANCE,955,30.6,176,5.43,22.79,30.13,32.35,Rising,14230,18823,20208,8065,GNPA 2.44 / NNPA 1.19,n/s,18.16,stable,28,42,16.6,608337,1134,821,FAIL R1 PE 30.6; FAIL R2 PB 5.43
+Fail,Kotak Mahindra Bank,KOTAKBANK,2064,22.8,334,6.18,65.42,76.04,85.45,Rising,18213,21163,23865,5978,GNPA/NNPA n/s,n/s,none,no promoter,12,18,13.1,410546,2329,1865,FAIL R1 PE 22.8; FAIL R2 PB
+Fail,Vedanta,VEDL,514,13.9,32.6,8.04,16.33,26.55,43.06,Rising,13975,17472,17895,5735,D/E 1.13 (Sep-26 snapshot),n/s,56.38,stable,2,7,22.0,240697,583,303,FAIL R2 PB 8.04 (post-demerger BV); standalone used
+Fail,Tata Steel,TATASTEEL,177,19.5,242,0.73,0.94,10.32,11.39,Rising*,-4910,8303,19066,6089,D/E 0.77,n/s,33.76,stable,-4,-13,12.1,221144,186,146,FAIL R3 FY24 net loss
+Fail,NTPC,NTPC,327,13.7,157,2.09,19.05,22.2,22.73,Rising,18331,21351,23977,n/s,D/E 1.33,n/s,51.1,stable,11,7,13.6,333602,487,309,FAIL R5 D/E 1.33
+Fail,Power Grid Corporation,POWERGRID,281,17.6,111,2.54,17.44,20.78,18.83,Stable,15396,18334,17032,n/s,D/E 1.47,n/s,51.34,stable,7,2,12.2,264244,330,249,FAIL R5 D/E 1.47
+Fail,NHPC,NHPC,75.8,15.8,90.0,0.84,3.55,2.8,3.33,Dip,3758,3222,4107,n/s,D/E 1.31,n/s,67.4,stable,5,-13,7.52,76110,118,71.1,FAIL R4 EPS decline; FAIL R5 D/E 1.31
+Fail,Coal India,COALINDIA,383,7.8,74.0,5.18,60.69,57.61,50.46,Declining,36885,35053,30971,n/s,D/E 0.09,n/s,63.13,stable,-1,-15,16.3,236214,547,355,FAIL R4 EPS two consecutive declines; FAIL R2 PB
+Fail,Jindal Steel,JINDALSTEL,1116,36.9,574,1.94,64.81,69.85,37.26,Declining,6645,7157,3818,1557,D/E 0.49,n/s,61.57,62.23 -> 61.57,-2,-42,12.5,114331,1221,891,FAIL R1 PE 36.9; FAIL R4 EPS decline
+Fail,Hindustan Petroleum Corporation,HINDPETRO,449,58.9,224,2.01,33.35,39.34,-10.95,Collapse,9085,10718,-3758,-12265,D/E 1.40,n/s,54.9,stable,13,-47,4.1,102061,494,367,FAIL R1 PE 58.9; FAIL R3/R4 latest quarter and TTM EPS negative; FAIL R5 D/E 1.40
+Fail,JSW Steel,JSWSTEEL,1175,21.0,290,4.05,28.14,20.69,30.04,Stable,7165,5269,7655,1952,D/E 0.82,n/s,44.91,stable,0,15,11.2,293162,1251,935,FAIL R1 PE 21.0; FAIL R2 PB
+Fail,Indian Renewable Energy Development Agency,IREDA,130,20.9,34.3,3.8,5.31,5.72,6.67,Rising,1241,1336,1822,717,GNPA 3.75 / NNPA 1.44,n/s,75.0,stable,42,16,16.5,46549,231,129,FAIL R1 PE; FAIL R2 PB; FAIL R5F GNPA 3.75
+Fail,NLC India,NLCINDIA,250,19.9,112,2.23,11.87,12.9,14.93,Rising,1643,1789,2070,380,D/E 1.21,n/s,79.2,stable,-2,3,9.16,34680,292,211,FAIL R5 D/E 1.21
+Fail,Mangalore Refinery & Petrochemicals,MRPL,196,20.7,47.6,4.12,30.75,0.32,5.67,Collapse,5393,56,993,257,D/E 0.89,n/s,88.58,stable,17,-56,14.4,34345,280,139,FAIL R1 PE 20.7; FAIL R2 PB; FAIL R4 EPS collapse (FY25 PAT Rs 56 cr)
+Fail,Bandhan Bank,BANDHANBNK,153,13.3,147,1.05,26.48,31.68,15.88,Declining,2335,2795,1398,343,GNPA 3.11 / NNPA 0.75,n/s,39.99,39.69 -> 39.99,2,-8,10.5,24664,236,131,FAIL R4 EPS decline; FAIL R5F GNPA 3.11; standalone used
+Fail,Sun TV Network,SUNTV,443,12.7,135,3.29,41.73,33.3,30.33,Declining,1644,1313,1195,319,D/E 0.00,n/s,76.87,stable,-5,-12,18.2,17474,839,419,FAIL R2 PB; FAIL R4 EPS declines
+Fail,Kalpataru Projects International,KPIL,910,20.0,268,3.4,24.91,26.99,45.6,Rising,421,458,814,n/s,D/E 0.64,n/s,40.59,stable,8,30,14.1,15601,1480,820,FAIL R1 PE exactly 20.0 (not < 20); FAIL R2 PB
+Fail,Chennai Petroleum Corporation,CHENNPETRO,779,16.0,310,2.51,62.66,18.98,27.15,Declining,933,282,404,275,D/E 0.45,n/s,67.29,stable,-2,15,14.7,11611,784,395,FAIL R4 EPS declines
+Fail,Tata Motors Commercial Vehicles,TMCV,386,23.1,35.7,10.82,n/s,n/s,24.6,n/s (stub),n/s,n/s,3300,n/s,D/E 0.60,n/s,n/s,n/s (post-demerger),n/s,n/s,n/s,107713,427,325,FAIL R1 PE 23.1; FAIL R2 PB 10.82; PAT from segment disclosure (post-demerger stub)
+Fail,IndusInd Bank,INDUSINDBK,1115,23.6,239,4.66,104.41,32.35,10.38,Declining,7212,2206,786,161,GNPA 2.25 / NNPA 0.89,42.8,n/s,n/s,7,-41,4.32,84508,1199,665,FAIL R1 PE; FAIL R2 PB; FAIL R4 EPS collapse; FAIL R6 pledge 42.8%
+Fail,L&T Finance,LTF,297,20.2,138,2.15,9.94,11.13,12.44,Rising,2302,2614,2919,731,GNPA 3.29 (Mar-26) / NNPA 1.37,n/s,54.07,stable,16,11,11.6,58099,329,216,FAIL R1 PE 20.2; GNPA above 3 on Mar-26 print
+Fail,EID Parry (India),EIDPARRY,756,10.2,221,3.42,57.34,28.68,29.03,Declining,1017,514,548,174,D/E 0.11,n/s,47.1,stable,-3,-16,14.5,13464,1201,706,FAIL R2 PB; FAIL R4 EPS decline
+Fail,Mahanagar Gas,MGL,1179,16.0,326,3.62,59.61,52.15,50.93,Declining,1189,1040,1016,214,D/E 0.00,n/s,32.5,stable,7,-6,14.3,11646,1946,1112,FAIL R2 PB; FAIL R4 EPS declines
+Fail,JK Tyre & Industries,JKTYRE,325,9.86,343,0.95,41.33,33.23,31.5,Declining,804,599,646,134,D/E 1.01,n/s,24.87,stable,6,-11,12.6,8948,534,303,FAIL R4 EPS declines; FAIL R5 D/E 1.01
+Fail,SBFC Finance,SBFC,336,17.2,113,2.97,7.82,11.36,16.54,Rising,245,346,490,187,GNPA 2.76 / NNPA 1.55,n/s,45.26,stable,19,35,10.1,12368,361,222,FAIL R5F NNPA 1.55 > 1.5; standalone used
+Fail,KRBL,KRBL,306,10.9,322,0.95,35.04,23.93,22.89,Declining,589,402,385,87,D/E 0.07,n/s,60.47,stable,-6,-31,9.4,5156,494,261,FAIL R4 EPS two consecutive declines
+Fail,Birlasoft,BSOFT,316,17.0,83.4,3.79,20.46,22.23,18.39,Declining,572,638,529,325,D/E 0.04,n/s,40.99,stable,5,-9,16.7,8769,456,303,FAIL R2 PB; FAIL R4 EPS declines
+Fail,Senco Gold,SENCO,303,13.4,79.0,3.84,19.8,17.86,12.49,Declining,362,376,341,n/s,D/E 1.07,n/s,64.11,stable,14,17,11.9,5829,595,272,FAIL R2 PB; FAIL R4 EPS decline; FAIL R5 D/E 1.07
+Fail,Triveni Engineering,TRIVENI,369,19.3,75.7,4.87,11.95,10.86,6.96,Declining,293,265,171,82,D/E 0.52,n/s,65.54,stable,-3,-28,7.88,7551,618,302,FAIL R2 PB; FAIL R4 EPS declines
+Fail,KPI Green Energy,KPIGREEN,370,42.1,99.4,3.72,9.36,20.88,29.94,Rising,129,325,509,169,D/E 1.71,44.7,82.18,stable,45,131,14.4,9765,1285,365,FAIL R1 PE; FAIL R2 PB; FAIL R5 D/E 1.71; FAIL R6 pledge 44.7%
+Fail,Kirloskar Ferrous Industries,KIRLFER,477,19.0,170,2.81,27.52,23.85,17.37,Declining,654,555,418,n/s,D/E 0.42,n/s,50.54,59.93 -> 50.54,-1,-14,11.3,7874,712,431,FAIL R4 EPS two consecutive declines
+Fail,JK Paper,JKPAPER,333,11.1,278,1.2,55.35,50.35,24.03,Declining,938,853,407,182,D/E 0.55,n/s,46.29,stable,2,-51,13.5,5639,573,317,FAIL R4 EPS collapse (FY26 -52%)
+Fail,SIS,SIS,335,19.1,55.5,6.03,18.94,17.72,15.38,Declining,272,254,221,64,D/E 0.67,n/s,36.48,stable,10,-6,14.4,4957,421,297,FAIL R2 PB; FAIL R4 EPS declines
+Fail,Jayaswal Neco Industries,JAYNECOIND,69.4,16.4,16.5,4.21,4.41,3.17,1.39,Declining,371,267,102,n/s,D/E 0.30,99.9,68.4,stable,3,-13,10.3,6673,87,39.5,FAIL R2 PB; FAIL R4 EPS decline; FAIL R6 pledge 99.9%; data from screener cache excerpt
+Fail,Maharashtra Seamless,MAHSEAMLES,612,8.72,321,1.91,65.99,50.43,46.99,Declining,885,677,633,93,D/E 0.00,n/s,66.23,stable,2,-21,12.1,8200,801,479,FAIL R4 EPS two consecutive declines; data from screener cache excerpt
+Fail,Swan Corp,SWANCORP,488,8.19,70.4,6.93,39.31,32.57,15.17,Declining,600,571,237,36,D/E 0.35,40.7,63.7,stable,10,-21,8.23,15298,1005,446,FAIL R2 PB; FAIL R4 EPS decline; FAIL R6 pledge 40.7%; data from screener cache excerpt
+Fail,Dilip Buildcon,DBL,465,13.7,173,2.69,26.99,34.15,32.78,Stable,499,632,606,n/s,D/E 1.18,n/s,70.59,stable,-1,25,13.9,7347,635,352,FAIL R5 D/E 1.18; data from screener cache excerpt
+Fail,IDFC First Bank,IDFCFIRSTB,66.8,23.1,62.1,1.08,5.25,4.42,3.52,Declining,3682,3058,2721,1213,GNPA 2.09 / NNPA 0.53,n/s,none,no promoter,14,-10,6.84,57594,83.5,59.5,FAIL R1 PE 23.1; FAIL R4 EPS declines
+Fail,RBL Bank,RBLBANK,300,50.6,142,2.11,41.66,41.26,6.08,Declining,2261,2239,455,153,GNPA 2.34 / NNPA 0.52,n/s,none,no promoter,10,-61,5.57,19097,374,191,FAIL R1 PE 50.6; FAIL R4 EPS collapse (credit-card/MFI provisions)
+Fail,AU Small Finance Bank,AUBANK,836,22.9,249,3.36,25.43,30.39,39.26,Rising,1731,2247,3028,n/s,GNPA 2.22 / NNPA 0.80,n/s,23.03,stable,14,34,15.1,62239,925,639,FAIL R1 PE 22.9; FAIL R2 PB 3.36; standalone used
+Fail,New India Assurance,NIACL,123,blank,63.9,1.92,15.88,19.24,10.07,Declining,2090,2529,1326,-1249,insurer n/a,n/s,71.96,stable,5,-20,10.9,20444,213,121,FAIL R1 PE blank; FAIL R3 latest quarter loss
+Fail,Aurobindo Pharma,AUROPHARMA,1139,26.0,242,4.7,46.15,52.64,43.53,Stable,2692,3069,2537,510,D/E 0.19,n/s,50.79,stable,2,-1,9.0,66488,1579,994,FAIL R1 PE 26.0; FAIL R2 PB
+Fail,Dr Reddys Laboratories,DRREDDY,1219,41.1,270,4.51,61.35,69.39,59.98,Stable,5102,5773,4986,427,D/E 0.07,n/s,27.24,stable,6,0,14.1,101343,1458,1089,FAIL R1 PE 41.1; FAIL R2 PB
+Fail,Cyient,CYIENT,1084,29.6,302,3.59,55.85,60.37,51.76,Declining,629,672,576,n/s,D/E 0.24,n/s,23.25,stable,6,-7,15.2,12047,1902,952,FAIL R1 PE; FAIL R2 PB; FAIL R4 EPS decline
+Fail,ACC,ACC,1768,25.6,344,5.14,133.35,129.24,127.27,Declining,2343,2435,2395,427,D/E 0.01,n/s,50.21,stable,3,3,4.98,33206,3008,1728,FAIL R1 PE; FAIL R2 PB; FAIL R4 EPS decline (borderline)
+Fail,IRB Infrastructure Developers,IRB,38.8,20.5,31.6,1.23,3.67,3.82,7.21,Rising,474,484,880,51,D/E 1.21,n/s,31.92,stable,6,1,8.46,23427,63.8,37.0,FAIL R1 PE 20.5; FAIL R5 D/E 1.21
+Fail,UPL,UPL,763,24.5,208,3.67,6.83,22.88,31.42,Rising*,-1878,3265,7847,n/s,D/E 0.84,n/s,19.07,stable,-3,38,10.9,63958,818,618,FAIL R1 PE; FAIL R2 PB; FAIL R3 FY24 net loss
+Fail,Tata Chemicals,TATACHEM,750,blank,240,3.12,45.49,8.05,-67.32,Collapse,1350,241,-1715,155,D/E 0.33,n/s,37.21,stable,-9,-43,10.9,19107,1135,704,FAIL R1 PE blank; FAIL R2 PB; FAIL R3 FY26 net loss; FAIL R4 EPS collapse
+Fail,GHCL,GHCL,524,17.4,185,2.83,48.92,41.88,38.68,Declining,465,399,368,113,D/E 0.04,n/s,19.74,stable,-5,-15,11.1,5041,714,479,FAIL R4 EPS three straight declines
+Fail,National Fertilizers,NFL,113,10.4,57.3,1.97,1.7,2.44,2.75,Rising,84,120,135,72,D/E 1.40,n/s,74.86,stable,-12,-4,11.9,5543,193,99.2,FAIL R5 D/E 1.40
+Fail,Balrampur Chini Mills,BALRAMCHIN,436,33.0,159,2.74,18.65,17.25,14.18,Declining,376,348,286,79,D/E 0.39,n/s,42.46,stable,-6,-16,4.85,8799,657,413,FAIL R1 PE 33.0; FAIL R4 EPS declines
+Fail,Ashoka Buildcon,ASHOKA,147,16.2,72.3,2.03,20.05,47.18,28.78,Stable,332,859,436,-119,D/E 0.70,n/s,52.9,stable,4,43,12.8,4146,290,139,FAIL R3 latest quarter net loss (Sep-2026 -119)
+Fail,Archean Chemical Industries,ACI,616,53.0,136,4.53,32.91,21.79,19.62,Declining,401,266,239,77,D/E 0.18,n/s,33.26,stable,-1,-28,11.8,7567,744,453,FAIL R1 PE 53.0 on company page (screen showed 10.53 - page governs); FAIL R2 PB; FAIL R4 EPS declines
+Fail,Reliance Infrastructure,RELINFRA,237,30.1,154,1.54,n/s,n/s,-8.44,Negative,-1148,193790,612,n/s,D/E 0.27,n/s,16.5,stable,-11,9,16.8,9822,430,216,FAIL R1 PE; FAIL R3 FY24 net loss; FAIL R4 EPS negative; FY25 PAT is exceptional-gain driven
+Fail,LT Foods,LTFOODS,362,22.4,96.4,3.76,21.14,22.3,21.5,Stable,723,761,735,176,D/E 0.25,n/s,60.4,stable,19,4,16.8,12565,830,341,FAIL R1 PE 22.4; FAIL R2 PB
+Fail,West Coast Paper Mills,WSTCSTPAPR,400,11.0,238,1.68,169.42,69.9,37.48,Declining,1121,461,247,91,D/E 0.10,n/s,56.98,stable,9,-62,9.88,2641,599,383,FAIL R4 EPS collapse (-78% vs FY24)
+Fail,Jaiprakash Power Ventures,JPPOWER,18.2,27.4,9.24,1.97,1.49,1.19,0.66,Declining,1022,818,455,180,D/E 0.73,73.0,30.1,31.55 -> 30.10,-3,-48,6.23,12452,27.9,14.3,FAIL R1 PE; FAIL R4 EPS decline; FAIL R6 pledge 73.0% of promoter holding
+Fail,Patel Engineering,PATELENG,27.8,16.8,19.9,1.4,3.85,3.39,2.45,Declining,323,286,206,43,D/E 0.88,66.8,37.23,37.48 -> 37.23,7,-40,7.36,2348,62.5,21.9,FAIL R4 EPS two consecutive declines; FAIL R6 pledge 66.8% of promoter holding
+Fail,GR Infraprojects,GRINFRA,951,13.1,408,2.33,136.9,104.85,93.31,Declining,1322,1012,901,210,D/E 0.41,n/s,73.66,stable,-11,-31,12.2,9191,1919,941,FAIL R4 EPS declined every year; data from screener cache excerpt
+Fail,Equitas Small Finance Bank,EQUITASBNK,50.7,9.71,44.1,1.15,7.04,1.29,0.9,Declining,867,159,101,79,GNPA 2.71 / NNPA 1.20,n/s,4.71,low (widely held),7,-22,8.64,5794,67.9,45.6,FAIL R4 EPS collapse; standalone used
+Fail,Jana Small Finance Bank,JSFB,381,7.1,127,3.0,64.02,47.73,30.99,Declining,672,501,358,116,GNPA 2.33 / NNPA 0.90,n/s,15.36,18.15 -> 15.36 falling,2,-18,19.9,4398,633,326,"FAIL R2 PB at limit (3.00, not < 3); FAIL R4 EPS declines; standalone used"
+Fail,Pilani Investment & Industries,PILANIINVS,4875,3.2,22854,0.21,150.34,88.94,28.05,Declining,249,147,46,10,D/E 0.02,n/s,42.78,stable,30,-3,0.24,5146,7139,3625,FAIL R4 EPS collapse; ROE ~0.2%
+Fail,Kama Holdings,KAMAHOLD,2913,10.1,497,5.86,272.27,196.86,290.04,Declining*,712,515,758,209,D/E 0.00,n/s,74.28,stable,12,-2,7.19,5676,4203,2632,FAIL R2 PB; FAIL R4 EPS two consecutive declines (FY25-26 basis)
+Fail,Bengal & Assam Company,BENGALASM,7626,10.6,1169,6.52,3445.53,648.25,721.95,Declining (vs FY24 spike),3891,732,815,213,D/E 0.00,n/s,66.59,stable,31,-72,16.7,8328,10948,5880,FAIL R2 PB; FAIL R4 EPS decline vs FY24
+Fail,KNR Constructions,KNRCON,165,12.1,203,0.81,33.5,35.62,15.54,Declining,941,1002,437,64,D/E 0.08,n/s,72.1,stable,-1,-25,7.71,4642,295,159,FAIL R4 EPS decline (FY26 PAT fell to 437)
+Fail,Route Mobile,ROUTEMOBILE,632,18.7,368,1.72,59.74,50.61,37.94,Declining,406,337,253,67,D/E 0.04,n/s,41.02,stable,1,-38,13.7,4365,1160,607,FAIL R4 EPS two consecutive declines
+Fail,Muthoot Microfin,MUTHOOTMF,143,13.0,152,0.94,18.2,n/s,9.74,Declining,546,-223,271,97,GNPA 3.38 / NNPA 1.07,n/s,72.8,stable,18,-41,9.3,3359,231,126,FAIL R3 FY25 net loss; FAIL R4 EPS decline; FAIL R5F GNPA 3.38; standalone used
+Fail,Gujarat Industries Power Company,GIPCL,151,10.6,199,0.76,12.98,13.59,15.1,Rising,184,193,216,64,D/E 1.05,n/s,48.57,stable,0,9,8.49,2151,202,139,FAIL R5 D/E 1.05; standalone used (consolidated stale)
+Fail,HG Infra Engineering,HGINFRA,631,11.1,186,3.39,55.62,64.37,53.91,Declining,373,431,369,n/s,D/E 1.52,n/s,73.9,stable,6,10,16.8,4148,1270,594,FAIL R2 PB; FAIL R4 EPS decline; FAIL R5 D/E 1.52
+Fail,Kirloskar Industries,KIRLOSIND,3161,16.0,965,3.28,373.04,262.35,312.06,Declining*,370,261,310,n/s,D/E 0.07,n/s,73.73,stable,-3,3,14.9,3165,4768,2806,FAIL R2 PB; FAIL R4 EPS declines; was v1 Annexure A
+Fail,Karnataka Bank,KTKBANK,349,8.5,368,0.95,34.64,33.68,34.66,Declining (two consecutive),1307,1273,1311,436,GNPA 2.27 / NNPA 0.74,n/s,n/s,no Promoters row,7,4,10.4,13202,352,174,"FAIL R4 EPS two consecutive declines (Mar-24, Mar-25)"
+Fail,Godawari Power & Ispat,GPIL,216,17.7,86.5,2.5,13.76,12.13,11.93,Declining,936,813,802,222,D/E 0.08,n/s,63.16,63.26 -> 63.16,-2,1,15.3,14528,320,189,FAIL R4 EPS two consecutive declines
+Fail,Amara Raja Energy & Mobility,ARE&M,771,20.2,456,1.69,51.05,51.61,48.94,Dip,934,945,896,152,D/E 0.08,n/s,32.86,28.06 -> 32.86,10,-3,9.02,14117,1017,670,FAIL R1 PE 20.2
+Fail,CIE Automotive India,CIEINDIA,367,15.1,204,1.8,29.66,21.81,21.83,Declining (Dec year-end),1125,828,828,244,D/E 0.07,n/s,65.7,stable,2,127,11.8,13940,526,341,FAIL R4 EPS decline (Dec-2025 EPS >25% below Dec-2023); calendar-year reporting
+Fail,PC Jeweller,PCJEWELLER,16.0,17.5,9.48,1.69,-1.35,0.91,0.83,Negative FY24,-629,578,714,331,D/E 0.04,n/s,39.11,54.53 -> 39.11 FLAG,11,77,9.96,15683,20.2,7.45,FAIL R3 FY24 net loss; FLAG promoter decline -15.4pp
+Fail,Paradeep Phosphates,PARADEEP,146,17.5,68.8,2.12,1.23,8.12,9.6,Dip,100,662,996,121,D/E 1.38 (Sep-26); 1.02 Mar-26,n/s,57.85,56.08 -> 57.85,18,48,16.2,15131,170,99.7,FAIL R5 D/E >= 1
+Fail,Ujjivan Small Finance Bank,UJJIVANSFB,61.6,10.5,38.1,1.62,6.54,3.75,3.57,Declining,1281,726,693,365,GNPA 2.10 / NNPA 0.31,n/s,0.0,73.60 -> 0.00 (reverse merger),19,-14,10.8,12024,73.9,49.2,FAIL R4 EPS two consecutive declines; standalone used
+Fail,Rain Industries,RAIN,166,13.9,59.6,2.79,n/s,n/s,n/s,Loss years (Dec year-end),-1098,-633,1138,n/s,D/E 1.35,n/s,41.31,stable,-4,-13,5.63,5605,211,139,FAIL R3 loss years Dec-2023/Dec-2024; FAIL R5 D/E 1.35
