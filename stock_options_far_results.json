@@ -1,0 +1,81 @@
+{
+ "spec": "stock_options_far_SPEC.md",
+ "fetch_status": "complete",
+ "cost_per_position": 220.0,
+ "control_near_reproduced_from_stored_trades": {
+  "2025": "66 scored, net_per_lot -212268.75, NC 8, died 35",
+  "2026": "95 scored, net_per_lot -396390.75, NC 7, died 56"
+ },
+ "years": {
+  "2025": {
+   "trades_scored": 13,
+   "nc": {
+    "NO_OPTIONS": 2,
+    "NO_ENTRY_CANDLE": 59
+   },
+   "nc_total": 61,
+   "net_per_lot": 3988.75,
+   "net_per100": 7048.41,
+   "wr": 53.8,
+   "best": 24102.5,
+   "worst": -42070.0,
+   "halves_per_lot": [
+    -21138.75,
+    25127.5
+   ],
+   "died_at_expiry": 2,
+   "farthest_fallback_trades": 1,
+   "fallback_detail": [
+    "HINDCOPPER entry 2025-07-30 expiry 2025-07-31 dte 1"
+   ],
+   "nc_anatomy": {
+    "candles_start_after_entry": 50,
+    "file_empty_all_range": 9
+   },
+   "near_expiry": {
+    "scored": 66,
+    "nc": 8,
+    "net_per_lot": -212268.75,
+    "net_per100": -53945.74,
+    "wr": 37.9,
+    "died": 35
+   },
+   "cash_published": 42954.6,
+   "verdict": "CASH made more"
+  },
+  "2026": {
+   "trades_scored": 25,
+   "nc": {
+    "NO_ENTRY_CANDLE": 71,
+    "NO_OPTIONS": 6
+   },
+   "nc_total": 77,
+   "net_per_lot": -175865.0,
+   "net_per100": -18399.47,
+   "wr": 28.0,
+   "best": 17145.0,
+   "worst": -35188.75,
+   "halves_per_lot": [
+    -136782.5,
+    -39082.5
+   ],
+   "died_at_expiry": 6,
+   "farthest_fallback_trades": 0,
+   "fallback_detail": [],
+   "nc_anatomy": {
+    "candles_start_after_entry": 66,
+    "file_empty_all_range": 5
+   },
+   "near_expiry": {
+    "scored": 95,
+    "nc": 7,
+    "net_per_lot": -396390.75,
+    "net_per100": -50482.24,
+    "wr": 30.5,
+    "died": 56
+   },
+   "cash_published": 141328.4,
+   "verdict": "CASH made more"
+  }
+ }
+}

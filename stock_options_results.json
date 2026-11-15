@@ -1,0 +1,79 @@
+{
+ "spec": "stock_options_SPEC.md",
+ "fetch_status": "complete",
+ "cost_per_position": 220.0,
+ "sources": {
+  "EKAM2C|2025": {
+   "trades_scored": 66,
+   "nc": {
+    "NO_OPTIONS": 2,
+    "NO_ENTRY_CANDLE": 5,
+    "NO_CONTRACT": 1
+   },
+   "net_per_lot": -212268.75,
+   "net_per100": -53945.74,
+   "wr": 37.9,
+   "best": 36880.0,
+   "worst": -43155.0,
+   "halves_per_lot": [
+    -31361.5,
+    -180907.25
+   ],
+   "cash_published": 42954.6,
+   "verdict": "CASH made more"
+  },
+  "EKAM2C|2026": {
+   "trades_scored": 95,
+   "nc": {
+    "NO_ENTRY_CANDLE": 1,
+    "NO_OPTIONS": 6
+   },
+   "net_per_lot": -396390.75,
+   "net_per100": -50482.24,
+   "wr": 30.5,
+   "best": 45910.0,
+   "worst": -38060.0,
+   "halves_per_lot": [
+    -304623.75,
+    -91767.0
+   ],
+   "cash_published": 141328.4,
+   "verdict": "CASH made more"
+  },
+  "HOLD|2025": {
+   "trades_scored": 66,
+   "nc": {
+    "NO_OPTIONS": 4,
+    "NO_ENTRY_CANDLE": 13
+   },
+   "net_per_lot": -236575.25,
+   "net_per100": -33640.98,
+   "wr": 36.4,
+   "best": 56405.0,
+   "worst": -34236.25,
+   "halves_per_lot": [
+    -95756.5,
+    -140818.75
+   ],
+   "cash_published": 42163.0,
+   "verdict": "CASH made more"
+  },
+  "HOLD|2026": {
+   "trades_scored": 93,
+   "nc": {
+    "NO_OPTIONS": 10
+   },
+   "net_per_lot": -402571.75,
+   "net_per100": -28278.47,
+   "wr": 22.6,
+   "best": 65300.0,
+   "worst": -38830.0,
+   "halves_per_lot": [
+    -58003.0,
+    -344568.75
+   ],
+   "cash_published": 83963.0,
+   "verdict": "CASH made more"
+  }
+ }
+}

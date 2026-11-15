@@ -1,0 +1,10 @@
+date,row_type,status,reason,votes_long,votes_short,side,strike,expiry,entry_time,entry_premium,exit_date,exit_time,exit_premium,overnight_move_pts,spot_gap_pct,net_inr,timing_violations,notes
+2026-11-02,BACKFILL_COUNTERFACTUAL,TRADED,scored,5,1,CE,54900,2026-11-23,15:15,873.95,2026-11-03,09:30,1128.25,254.30,0.788,7409.00,0,premium=store; settled@2026-11-03 premium=store
+2026-11-03,BACKFILL_COUNTERFACTUAL,NO_TRADE,votes_below_5,0,4,,,,,,,,,,,,,
+2026-11-04,BACKFILL_COUNTERFACTUAL,NO_TRADE,votes_below_5,4,2,,,,,,,,,,,,,
+2026-11-05,BACKFILL_COUNTERFACTUAL,TRADED,scored,5,1,CE,57800,2026-11-23,15:15,740.40,2026-11-06,09:30,662.55,-77.85,0.068,-2555.50,0,premium=store; settled@2026-11-06 premium=store
+2026-11-06,BACKFILL_COUNTERFACTUAL,NO_TRADE,votes_below_5,4,1,,,,,,,,,,,,,
+2026-11-09,BACKFILL_COUNTERFACTUAL,TRADED,scored,5,0,CE,59600,2026-11-23,15:15,747.45,2026-11-11,09:30,1285.60,538.15,1.311,15924.50,0,premium=store; settled@2026-11-11 premium=store
+2026-11-11,BACKFILL_COUNTERFACTUAL,TRADED,scored,0,6,PE,60500,2026-11-23,15:15,735.65,2026-11-12,09:30,528.25,-207.40,0.016,-6442.00,0,premium=store; settled@2026-11-12 premium=store
+2026-11-12,BACKFILL_COUNTERFACTUAL,NO_TRADE,votes_below_5,4,1,,,,,,,,,,,,,
+2026-11-13,BACKFILL_COUNTERFACTUAL,NO_TRADE,votes_below_5,3,1,,,,,,,,,,,,,

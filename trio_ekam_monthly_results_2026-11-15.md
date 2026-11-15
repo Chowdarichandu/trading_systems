@@ -4,7 +4,7 @@ Built 2026-11-15 by aggregation from verified stored sources only — nothing re
 Bases: TRIO Bank/Nifty = option premiums per 1 lot; all Stocks lines = equity cash, PROVISIONAL per 100 shares.
 November 2026 = Nov 2-13 (9 trading days) everywhere below.
 
-**Verification: all 26 tie-out checks PASS** — every line's months sum exactly to its published total (listed under each table).
+**Verification: all 34 tie-out checks PASS** — every line's months sum exactly to its published total (listed under each table).
 
 **Month attribution:** TRIO and EKAM intraday lines are date-wise builds — months are by trade date. EKAM daily positions are attributed to their **ENTRY month**: the published EKAM year totals are entry-window totals (positions entered Jan-Oct of the year), and entry-month attribution is the only split that reproduces them exactly. Exit-date attribution does NOT reproduce the published totals (e.g. exit-year 2025 = -Rs47,754.40 vs the published +Rs42,954.60), so it is not used.
 
@@ -150,6 +150,44 @@ November 2026 = Nov 2-13 (9 trading days) everywhere below.
 | 2026-11 (to Nov 13) | 27 | +20,662.60 | +138,568.54 |
 | **Total (rows above)** | **1263** | **+138,568.54** | |
 
+## EKAM intraday — Bank Nifty, row T4-X1 (1 lot, option premiums) — CLOSED research
+
+Basis: option premiums per 1 lot (30), Rs220/trade, buying only. Row T4-X1 = 4-of-6 indicator votes, fixed exits (-50/+90, square-off 15:20) — the best of the four tested Bank rows, and still flat. All four Bank rows were negative across Jan-Oct 2026 (T4-X1 -Rs275.50 · T5-X1 -Rs4,375.00 · T5-X2 -Rs36,785.50 · T4-X2 -Rs40,316.50; November: T4-X1 -Rs5,360.00 · T4-X2 -Rs9,254.00 · T5-X2 -Rs11,721.50 · T5-X1 -Rs13,760.00). The EKAM intraday index lines are CLOSED; this table is shown because every month was asked for. Months by trade date, aggregated from the stored R1 trade list (ekam_intraday_bank_results.json) — nothing rescored.
+
+| Month | Trades | Net (Rs) | Running total (Rs) |
+|---|---|---|---|
+| 2026-01 | 20 | +4,789.00 | +4,789.00 |
+| 2026-02 | 21 | -14,407.50 | -9,618.50 |
+| 2026-03 | 19 | -3,280.00 | -12,898.50 |
+| 2026-04 | 19 | -3,280.00 | -16,178.50 |
+| 2026-05 | 19 | +920.00 | -15,258.50 |
+| 2026-06 | 21 | +5,880.00 | -9,378.50 |
+| 2026-07 | 23 | +12,080.50 | +2,702.00 |
+| 2026-08 | 21 | -1,815.00 | +887.00 |
+| 2026-09 | 21 | -3,802.50 | -2,915.50 |
+| 2026-10 | 18 | +2,640.00 | -275.50 |
+| 2026-11 (to Nov 13) | 8 | -5,360.00 | -5,635.50 |
+| **Total (rows above)** | **210** | **-5,635.50** | |
+
+## EKAM intraday — Nifty, row T5-X2 (1 lot, option premiums) — CLOSED research
+
+Basis: option premiums per 1 lot (65), Rs220/trade, buying only. Row T5-X2 = 5-of-6 indicator votes, vote-decay exit — the best of the four tested Nifty rows, and still deeply negative. All four Nifty rows were negative across Jan-Oct 2026 (T5-X2 -Rs82,093.75 · T5-X1 -Rs86,190.05 · T4-X2 -Rs1,12,281.25 · T4-X1 -Rs1,14,229.30; November CF: T4-X1 +Rs6,604.50 · T4-X2 +Rs1,654.75 · T5-X2 +Rs120.75 · T5-X1 -Rs2,186.75). The EKAM intraday index lines are CLOSED; this table is shown because every month was asked for. Months by trade date, aggregated from the stored R1 trade lists (ekam_intraday_nifty_trades.csv; November from the build's november_cf detail) — nothing rescored.
+
+| Month | Trades | Net (Rs) | Running total (Rs) |
+|---|---|---|---|
+| 2026-01 | 15 | -5,666.00 | -5,666.00 |
+| 2026-02 | 17 | -13,275.50 | -18,941.50 |
+| 2026-03 | 16 | +12,005.25 | -6,936.25 |
+| 2026-04 | 17 | -5,979.25 | -12,915.50 |
+| 2026-05 | 15 | -22,478.25 | -35,393.75 |
+| 2026-06 | 19 | -21,668.25 | -57,062.00 |
+| 2026-07 | 20 | -14,065.50 | -71,127.50 |
+| 2026-08 | 19 | -6,585.00 | -77,712.50 |
+| 2026-09 | 18 | -6,277.25 | -83,989.75 |
+| 2026-10 | 11 | +1,896.00 | -82,093.75 |
+| 2026-11 (to Nov 13) | 7 | +120.75 | -81,973.00 |
+| **Total (rows above)** | **174** | **-81,973.00** | |
+
 ## Tie-out checks (computed from the months above vs published totals)
 
 | Line | Check | Computed | Published | Result |
@@ -180,6 +218,14 @@ November 2026 = Nov 2-13 (9 trading days) everywhere below.
 | EKAM intraday S2 | 2026 trades | 615.00 | 615.00 | PASS |
 | EKAM intraday S2 | Nov trades | 27.00 | 27.00 | PASS |
 | EKAM intraday S2 | Nov net | 20,662.60 | 20,662.60 | PASS |
+| EKAM intraday Bank T4-X1 | Jan-Oct net | -275.50 | -275.50 | PASS |
+| EKAM intraday Bank T4-X1 | Jan-Oct trades | 202.00 | 202.00 | PASS |
+| EKAM intraday Bank T4-X1 | Nov net | -5,360.00 | -5,360.00 | PASS |
+| EKAM intraday Bank T4-X1 | Nov trades | 8.00 | 8.00 | PASS |
+| EKAM intraday Nifty T5-X2 | Jan-Oct net | -82,093.75 | -82,093.75 | PASS |
+| EKAM intraday Nifty T5-X2 | Jan-Oct trades | 167.00 | 167.00 | PASS |
+| EKAM intraday Nifty T5-X2 | Nov net | 120.75 | 120.75 | PASS |
+| EKAM intraday Nifty T5-X2 | Nov trades | 7.00 | 7.00 | PASS |
 
 ## Notes / disclosures
 
@@ -187,4 +233,5 @@ November 2026 = Nov 2-13 (9 trading days) everywhere below.
 - EKAM daily 2c: positions entered in 2024 (22 trades, -Rs72,796.00) and in Nov-Dec 2025 (19 trades, +Rs27,750.00) sit outside both Jan-Oct entry windows and are in neither published year total — excluded here, exactly as published.
 - EKAM daily 2c November: the single open position (ASTRAL, entered 2026-11-11) is a FORCED mark at the Nov 13 close (-Rs3,140.00), shown as its own row outside the Jan-Oct 2026 window. 2026 total including that mark: +Rs1,38,188.40 (103 positions). Eight further Jan-Oct 2026 positions were still open at the data edge and are force-marked at Nov 13 inside the 2026 total, per the build's convention.
 - EKAM intraday November rows are the seeded shadow-ledger backfill rows (BACKFILL_COUNTERFACTUAL), Nov 2-13.
+- EKAM intraday index lines (Bank T4-X1, Nifty T5-X2) added 2026-11-15 on the owner's order for every month: aggregated from the stored R1 trade lists only (Bank: ekam_intraday_bank_results.json trades + nov_trades; Nifty: ekam_intraday_nifty_trades.csv + the build's november_cf detail). Both lines' month columns reproduce their published totals EXACTLY (Bank Jan-Oct -Rs275.50 / Nov -Rs5,360.00; Nifty Jan-Oct -Rs82,093.75 / Nov +Rs120.75). These are CLOSED research lines — all four tested rows on each index were negative across Jan-Oct 2026.
 - Sources: trio_daily_results_2026-11-14.csv; ekam2c_trades.csv (book = EKAM2c); ekam_intraday_stocks_r5_results.json month splits (CAND-T5 = its S0 control row, identical to the R2 candidate months); november_shadow_ekam_{t5,s2}_stocks_log.csv for November.

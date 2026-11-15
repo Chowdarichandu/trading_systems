@@ -1,0 +1,367 @@
+{
+ "spec": "btst_ind_SPEC.md",
+ "seed": 20261115,
+ "arms": {
+  "stocks": {
+   "rows": {
+    "L5-X0920": {
+     "2025": {
+      "trades": 863,
+      "net": 35068.0,
+      "wr": 47.6,
+      "worst": -13140.0,
+      "h1": {
+       "trades": 514,
+       "net": 10247.0
+      },
+      "h2": {
+       "trades": 349,
+       "net": 24821.0
+      }
+     },
+     "2026": {
+      "trades": 861,
+      "net": -62815.0,
+      "wr": 46.0,
+      "worst": -14460.0,
+      "h1": {
+       "trades": 495,
+       "net": -56745.0
+      },
+      "h2": {
+       "trades": 366,
+       "net": -6070.0
+      }
+     }
+    },
+    "L5-XCLOSE": {
+     "2025": {
+      "trades": 864,
+      "net": 85935.0,
+      "wr": 48.3,
+      "worst": -9750.0,
+      "h1": {
+       "trades": 514,
+       "net": 46399.0
+      },
+      "h2": {
+       "trades": 350,
+       "net": 39536.0
+      }
+     },
+     "2026": {
+      "trades": 862,
+      "net": -180591.0,
+      "wr": 43.9,
+      "worst": -50090.0,
+      "h1": {
+       "trades": 496,
+       "net": -120928.0
+      },
+      "h2": {
+       "trades": 366,
+       "net": -59663.0
+      }
+     }
+    },
+    "L4-X0920": {
+     "2025": {
+      "trades": 926,
+      "net": -1400.0,
+      "wr": 47.7,
+      "worst": -13140.0,
+      "h1": {
+       "trades": 550,
+       "net": -13190.0
+      },
+      "h2": {
+       "trades": 376,
+       "net": 11790.0
+      }
+     },
+     "2026": {
+      "trades": 937,
+      "net": -35223.0,
+      "wr": 47.7,
+      "worst": -12190.0,
+      "h1": {
+       "trades": 547,
+       "net": -9893.0
+      },
+      "h2": {
+       "trades": 390,
+       "net": -25330.0
+      }
+     }
+    },
+    "L4-XCLOSE": {
+     "2025": {
+      "trades": 931,
+      "net": 15221.0,
+      "wr": 46.6,
+      "worst": -8865.0,
+      "h1": {
+       "trades": 550,
+       "net": 32569.0
+      },
+      "h2": {
+       "trades": 381,
+       "net": -17348.0
+      }
+     },
+     "2026": {
+      "trades": 938,
+      "net": -173245.0,
+      "wr": 44.2,
+      "worst": -50090.0,
+      "h1": {
+       "trades": 548,
+       "net": -92108.0
+      },
+      "h2": {
+       "trades": 390,
+       "net": -81137.0
+      }
+     }
+    },
+    "S5-X0920": {
+     "2025": {
+      "trades": 862,
+      "net": -155133.0,
+      "wr": 37.0,
+      "worst": -8720.0,
+      "h1": {
+       "trades": 502,
+       "net": -74350.0
+      },
+      "h2": {
+       "trades": 360,
+       "net": -80783.0
+      }
+     },
+     "2026": {
+      "trades": 860,
+      "net": 15532.0,
+      "wr": 42.3,
+      "worst": -8410.0,
+      "h1": {
+       "trades": 472,
+       "net": 30620.0
+      },
+      "h2": {
+       "trades": 388,
+       "net": -15088.0
+      }
+     }
+    },
+    "S5-XCLOSE": {
+     "2025": {
+      "trades": 868,
+      "net": -158310.0,
+      "wr": 45.5,
+      "worst": -10310.0,
+      "h1": {
+       "trades": 503,
+       "net": -102677.0
+      },
+      "h2": {
+       "trades": 365,
+       "net": -55633.0
+      }
+     },
+     "2026": {
+      "trades": 860,
+      "net": -2697.0,
+      "wr": 46.5,
+      "worst": -10090.0,
+      "h1": {
+       "trades": 472,
+       "net": 27996.0
+      },
+      "h2": {
+       "trades": 388,
+       "net": -30693.0
+      }
+     }
+    }
+   },
+   "counts": {
+    "day_lt30bars": 25,
+    "L5_2025_candidates": 1696,
+    "L5_2025_capped_out": 832,
+    "L5-X0920_nc_no_0915": 2,
+    "L4_2025_candidates": 2246,
+    "L4_2025_capped_out": 1315,
+    "L4-X0920_nc_no_0915": 6,
+    "S5_2025_candidates": 1737,
+    "S5_2025_capped_out": 869,
+    "S5-X0920_nc_no_0915": 6,
+    "L5_2026_candidates": 1770,
+    "L5_2026_capped_out": 908,
+    "L4_2026_candidates": 2325,
+    "L4_2026_capped_out": 1387,
+    "S5_2026_candidates": 1633,
+    "S5_2026_capped_out": 773
+   },
+   "placebo": {
+    "row": "L5-X0920",
+    "combined_net": -27747.0,
+    "years": {
+     "2025": {
+      "real_trades": 863,
+      "real_net": 35068.0,
+      "placebo_pct": 72.0
+     },
+     "2026": {
+      "real_trades": 861,
+      "real_net": -62815.0,
+      "placebo_pct": 28.5
+     }
+    }
+   },
+   "audit": {
+    "ok": true,
+    "checked": 114
+   }
+  },
+  "bank": {
+   "rows": {
+    "BOTH": {
+     "trades": 33,
+     "net": 54838.5,
+     "wr": 57.6,
+     "worst": -17036.5,
+     "h1": {
+      "trades": 15,
+      "net": 33319.5
+     },
+     "h2": {
+      "trades": 18,
+      "net": 21519.0
+     }
+    },
+    "VOTES": {
+     "trades": 104,
+     "net": 98630.5,
+     "wr": 50.0,
+     "worst": -17036.5,
+     "h1": {
+      "trades": 65,
+      "net": 39016.0
+     },
+     "h2": {
+      "trades": 39,
+      "net": 59614.5
+     }
+    },
+    "SIGNAL": {
+     "trades": 77,
+     "net": -55557.5,
+     "wr": 41.6,
+     "worst": -17036.5,
+     "h1": {
+      "trades": 40,
+      "net": -65722.0
+     },
+     "h2": {
+      "trades": 37,
+      "net": 10164.5
+     }
+    }
+   },
+   "counts": {
+    "VOTES_nc_no_exit_bar": 23,
+    "BOTH_nc_no_exit_bar": 9,
+    "SIGNAL_nc_no_exit_bar": 11,
+    "VOTES_nc_no_entry_bar": 1,
+    "BOTH_nc_no_entry_bar": 1,
+    "SIGNAL_nc_no_entry_bar": 1
+   },
+   "placebo": {
+    "row": "VOTES",
+    "real_trades": 104,
+    "real_net": 98630.5,
+    "placebo_pct": 97.8,
+    "iterations": 500,
+    "dropped_iterations": 0
+   },
+   "audit": {
+    "ok": true,
+    "checked": 4
+   }
+  },
+  "nifty": {
+   "rows": {
+    "BOTH": {
+     "trades": 2,
+     "net": 9066.25,
+     "wr": 100.0,
+     "worst": 2747.25,
+     "h1": {
+      "trades": 1,
+      "net": 2747.25
+     },
+     "h2": {
+      "trades": 1,
+      "net": 6319.0
+     }
+    },
+    "VOTES": {
+     "trades": 9,
+     "net": 6242.5,
+     "wr": 66.7,
+     "worst": -5657.25,
+     "h1": {
+      "trades": 6,
+      "net": 2814.0
+     },
+     "h2": {
+      "trades": 3,
+      "net": 3428.5
+     }
+    },
+    "SIGNAL": {
+     "trades": 11,
+     "net": -775.5,
+     "wr": 45.5,
+     "worst": -5712.5,
+     "h1": {
+      "trades": 7,
+      "net": -13155.5
+     },
+     "h2": {
+      "trades": 4,
+      "net": 12380.0
+     }
+    }
+   },
+   "counts": {
+    "SIGNAL_nc_no_entry_bar": 42,
+    "SIGNAL_nc_no_exit_bar": 13,
+    "VOTES_nc_no_entry_bar": 101,
+    "BOTH_nc_no_entry_bar": 24,
+    "VOTES_nc_no_exit_bar": 18,
+    "BOTH_nc_no_exit_bar": 4
+   },
+   "placebo": {
+    "row": "BOTH",
+    "real_trades": 2,
+    "real_net": 9066.25,
+    "placebo_pct": 94.1,
+    "iterations": 495,
+    "dropped_iterations": 5
+   },
+   "audit": {
+    "ok": true,
+    "checked": 1
+   }
+  }
+ },
+ "worst_trade_overall": -50090.0,
+ "verification_notes": {
+  "vedl_artefact": "The two -Rs50,090 stocks trades (L5-XCLOSE and L4-XCLOSE, VEDL 2026-04-29 -> 04-30, entry 773.5 exit 273.0) are a corporate-action price reset in the frozen store (04-29 close 775.0 -> 04-30 open 290.0), not a market loss. Ex-artefact: L5-XCLOSE 2026 = -Rs1,30,501; worst genuine stocks overnight trade = TVSMOTOR -Rs18,060 (XCLOSE), -Rs14,460 worst inside the X0920 rows. No verdict changes.",
+  "bank_votes_verification": "Bank VOTES fills re-derived through the house premium resolution path and reproduce exactly (e.g. 2026-04-07 CE 52700: 15:15 bar close 1562.2 -> 2026-04-08 09:30 bar close 2861.8, net +Rs38,768; worst 2026-03-23 PE 51400: 1084.2 -> 523.65, net -Rs17,036.50). Side mix CE 49 / PE 55. Concentration: ex-top-3 +Rs9,290.50, ex-top-5 -Rs15,766.50 \u2014 the row is top-heavy.",
+  "nifty_sparsity": "The oi_buildup_data premium store holds very few contracts per day (e.g. 3 files on 2026-01-05). Nifty VOTES fired on ~128 days; 9 scored, 101 NC no-entry-bar + 18 NC no-exit-bar. Nifty rows rest on very few trades and are reported as such.",
+  "stocks_saturation": "At the 15:00 bar most stock-days sit at >=5 votes (candidates 1,633-2,325 per row-year against a 5/day cap): the stocks rows behave close to a near-daily overnight hold of the first-hit five names, not a rare event."
+ }
+}

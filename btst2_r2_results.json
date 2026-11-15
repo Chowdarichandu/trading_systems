@@ -1,0 +1,435 @@
+{
+ "spec": "btst2_r2_SPEC.md",
+ "basis": "per 100 shares PROVISIONAL, Rs40/position",
+ "control_check": "E0-H2 reproduces btst2_2026-11-15.md exactly",
+ "years": {
+  "2025": {
+   "anatomy": {
+    "control": {
+     "trades": 1075,
+     "net": 98386.0,
+     "wr": 51.7,
+     "max_dd": -232796.0
+    },
+    "months": {
+     "2025-01": {
+      "trades": 100,
+      "net": -139860.0
+     },
+     "2025-02": {
+      "trades": 100,
+      "net": -90101.0
+     },
+     "2025-03": {
+      "trades": 100,
+      "net": 74667.0
+     },
+     "2025-04": {
+      "trades": 125,
+      "net": 219773.0
+     },
+     "2025-05": {
+      "trades": 100,
+      "net": 22842.0
+     },
+     "2025-06": {
+      "trades": 125,
+      "net": 13451.0
+     },
+     "2025-07": {
+      "trades": 100,
+      "net": -15098.0
+     },
+     "2025-08": {
+      "trades": 100,
+      "net": -14083.0
+     },
+     "2025-09": {
+      "trades": 125,
+      "net": 58856.0
+     },
+     "2025-10": {
+      "trades": 100,
+      "net": -32061.0
+     }
+    },
+    "halves": {
+     "H1": {
+      "trades": 525,
+      "net": 87321.0
+     },
+     "H2": {
+      "trades": 550,
+      "net": 11065.0
+     }
+    },
+    "n_weeks": 43,
+    "worst10_weeks": [
+     {
+      "iso_year": 2025,
+      "iso_week": 7,
+      "first_entry": "2025-02-10",
+      "trades": 25,
+      "net": -95913.0,
+      "deployed": 2056009.0
+     },
+     {
+      "iso_year": 2025,
+      "iso_week": 2,
+      "first_entry": "2025-01-06",
+      "trades": 25,
+      "net": -54521.0,
+      "deployed": 2194754.0
+     },
+     {
+      "iso_year": 2025,
+      "iso_week": 35,
+      "first_entry": "2025-08-25",
+      "trades": 25,
+      "net": -51814.0,
+      "deployed": 2211817.0
+     },
+     {
+      "iso_year": 2025,
+      "iso_week": 4,
+      "first_entry": "2025-01-20",
+      "trades": 25,
+      "net": -48958.0,
+      "deployed": 2069979.0
+     },
+     {
+      "iso_year": 2025,
+      "iso_week": 3,
+      "first_entry": "2025-01-13",
+      "trades": 25,
+      "net": -42178.0,
+      "deployed": 2067591.0
+     },
+     {
+      "iso_year": 2025,
+      "iso_week": 39,
+      "first_entry": "2025-09-22",
+      "trades": 25,
+      "net": -41369.0,
+      "deployed": 2269468.0
+     },
+     {
+      "iso_year": 2025,
+      "iso_week": 41,
+      "first_entry": "2025-10-06",
+      "trades": 25,
+      "net": -27297.0,
+      "deployed": 2232178.0
+     },
+     {
+      "iso_year": 2025,
+      "iso_week": 13,
+      "first_entry": "2025-03-24",
+      "trades": 25,
+      "net": -27276.0,
+      "deployed": 2000434.0
+     },
+     {
+      "iso_year": 2025,
+      "iso_week": 30,
+      "first_entry": "2025-07-21",
+      "trades": 25,
+      "net": -18924.0,
+      "deployed": 2252785.0
+     },
+     {
+      "iso_year": 2025,
+      "iso_week": 11,
+      "first_entry": "2025-03-10",
+      "trades": 25,
+      "net": -16856.0,
+      "deployed": 1902171.0
+     }
+    ],
+    "capital": {
+     "total_deployed": 90976961.0,
+     "avg_week": 2115743.28,
+     "max_week": 2269468.0
+    },
+    "return_on_capital_pct": 0.11,
+    "best4_weeks_net": 289521.0,
+    "best4_share_pct": 294.3
+   },
+   "filter": {
+    "weeks_skipped": 5,
+    "skipped": [
+     {
+      "iso_year": 2025,
+      "iso_week": 3,
+      "first_entry": "2025-01-13",
+      "prior_week_return_pct": -2.39,
+      "week_net": -42178.0
+     },
+     {
+      "iso_year": 2025,
+      "iso_week": 8,
+      "first_entry": "2025-02-17",
+      "prior_week_return_pct": -2.68,
+      "week_net": 8492.0
+     },
+     {
+      "iso_year": 2025,
+      "iso_week": 10,
+      "first_entry": "2025-03-03",
+      "prior_week_return_pct": -2.94,
+      "week_net": 55599.0
+     },
+     {
+      "iso_year": 2025,
+      "iso_week": 15,
+      "first_entry": "2025-04-07",
+      "prior_week_return_pct": -2.61,
+      "week_net": 107739.0
+     },
+     {
+      "iso_year": 2025,
+      "iso_week": 40,
+      "first_entry": "2025-09-29",
+      "prior_week_return_pct": -2.65,
+      "week_net": 30063.0
+     }
+    ],
+    "weeks_unknown_kept": 0,
+    "trades": 950,
+    "net": -61329.0,
+    "max_dd": -213231.0,
+    "total_deployed": 81167891.0,
+    "avg_week_deployed": 2135997.13,
+    "return_on_capital_pct": -0.08
+   }
+  },
+  "2026": {
+   "anatomy": {
+    "control": {
+     "trades": 1075,
+     "net": 303058.0,
+     "wr": 50.4,
+     "max_dd": -276472.0
+    },
+    "months": {
+     "2026-01": {
+      "trades": 100,
+      "net": 23025.0
+     },
+     "2026-02": {
+      "trades": 100,
+      "net": 147682.0
+     },
+     "2026-03": {
+      "trades": 125,
+      "net": 124563.0
+     },
+     "2026-04": {
+      "trades": 100,
+      "net": 195372.0
+     },
+     "2026-05": {
+      "trades": 100,
+      "net": -5699.0
+     },
+     "2026-06": {
+      "trades": 125,
+      "net": -70117.0
+     },
+     "2026-07": {
+      "trades": 100,
+      "net": 28844.0
+     },
+     "2026-08": {
+      "trades": 125,
+      "net": -52026.0
+     },
+     "2026-09": {
+      "trades": 100,
+      "net": -82822.0
+     },
+     "2026-10": {
+      "trades": 100,
+      "net": -5764.0
+     }
+    },
+    "halves": {
+     "H1": {
+      "trades": 525,
+      "net": 484943.0
+     },
+     "H2": {
+      "trades": 550,
+      "net": -181885.0
+     }
+    },
+    "n_weeks": 43,
+    "worst10_weeks": [
+     {
+      "iso_year": 2026,
+      "iso_week": 43,
+      "first_entry": "2026-10-19",
+      "trades": 25,
+      "net": -71187.0,
+      "deployed": 2141509.0
+     },
+     {
+      "iso_year": 2026,
+      "iso_week": 4,
+      "first_entry": "2026-01-19",
+      "trades": 25,
+      "net": -65473.0,
+      "deployed": 2326618.0
+     },
+     {
+      "iso_year": 2026,
+      "iso_week": 23,
+      "first_entry": "2026-06-01",
+      "trades": 25,
+      "net": -56192.0,
+      "deployed": 2223151.0
+     },
+     {
+      "iso_year": 2026,
+      "iso_week": 40,
+      "first_entry": "2026-09-28",
+      "trades": 25,
+      "net": -55836.0,
+      "deployed": 2206692.0
+     },
+     {
+      "iso_year": 2026,
+      "iso_week": 36,
+      "first_entry": "2026-08-31",
+      "trades": 25,
+      "net": -45511.0,
+      "deployed": 2315880.0
+     },
+     {
+      "iso_year": 2026,
+      "iso_week": 20,
+      "first_entry": "2026-05-11",
+      "trades": 25,
+      "net": -38710.0,
+      "deployed": 2287880.0
+     },
+     {
+      "iso_year": 2026,
+      "iso_week": 28,
+      "first_entry": "2026-07-06",
+      "trades": 25,
+      "net": -34094.0,
+      "deployed": 2231702.0
+     },
+     {
+      "iso_year": 2026,
+      "iso_week": 38,
+      "first_entry": "2026-09-15",
+      "trades": 25,
+      "net": -24131.0,
+      "deployed": 2218910.0
+     },
+     {
+      "iso_year": 2026,
+      "iso_week": 21,
+      "first_entry": "2026-05-18",
+      "trades": 25,
+      "net": -22249.0,
+      "deployed": 2237970.0
+     },
+     {
+      "iso_year": 2026,
+      "iso_week": 37,
+      "first_entry": "2026-09-07",
+      "trades": 25,
+      "net": -19485.0,
+      "deployed": 2262169.0
+     }
+    ],
+    "capital": {
+     "total_deployed": 96376333.0,
+     "avg_week": 2241310.07,
+     "max_week": 2372453.0
+    },
+    "return_on_capital_pct": 0.31,
+    "best4_weeks_net": 295159.0,
+    "best4_share_pct": 97.4
+   },
+   "filter": {
+    "weeks_skipped": 9,
+    "skipped": [
+     {
+      "iso_year": 2026,
+      "iso_week": 3,
+      "first_entry": "2026-01-12",
+      "prior_week_return_pct": -2.45,
+      "week_net": 11682.0
+     },
+     {
+      "iso_year": 2026,
+      "iso_week": 5,
+      "first_entry": "2026-01-27",
+      "prior_week_return_pct": -2.51,
+      "week_net": 70460.0
+     },
+     {
+      "iso_year": 2026,
+      "iso_week": 11,
+      "first_entry": "2026-03-09",
+      "prior_week_return_pct": -2.89,
+      "week_net": 11786.0
+     },
+     {
+      "iso_year": 2026,
+      "iso_week": 12,
+      "first_entry": "2026-03-16",
+      "prior_week_return_pct": -5.31,
+      "week_net": 43963.0
+     },
+     {
+      "iso_year": 2026,
+      "iso_week": 21,
+      "first_entry": "2026-05-18",
+      "prior_week_return_pct": -2.2,
+      "week_net": -22249.0
+     },
+     {
+      "iso_year": 2026,
+      "iso_week": 31,
+      "first_entry": "2026-07-27",
+      "prior_week_return_pct": -2.33,
+      "week_net": 27694.0
+     },
+     {
+      "iso_year": 2026,
+      "iso_week": 38,
+      "first_entry": "2026-09-15",
+      "prior_week_return_pct": -2.09,
+      "week_net": -24131.0
+     },
+     {
+      "iso_year": 2026,
+      "iso_week": 41,
+      "first_entry": "2026-10-05",
+      "prior_week_return_pct": -3.11,
+      "week_net": -5449.0
+     },
+     {
+      "iso_year": 2026,
+      "iso_week": 44,
+      "first_entry": "2026-10-26",
+      "prior_week_return_pct": -2.36,
+      "week_net": 48689.0
+     }
+    ],
+    "weeks_unknown_kept": 0,
+    "trades": 850,
+    "net": 140613.0,
+    "max_dd": -252108.0,
+    "total_deployed": 76451176.0,
+    "avg_week_deployed": 2248564.0,
+    "return_on_capital_pct": 0.18
+   }
+  }
+ }
+}

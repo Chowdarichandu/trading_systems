@@ -1,0 +1,272 @@
+{
+ "scope": "VIX programme 2026-11-15 \u2014 Jan-Oct 2026",
+ "vix_source": "round2_history/india_vix_daily.csv (Yahoo Finance ^INDIAVIX daily closes, Round-2 dataset; 203/205 Jan-Oct days, missing 2026-01-01 and 2026-02-01)",
+ "part_a": {
+  "BANKNIFTY": {
+   "book": "TUNED STACK v2",
+   "legs": 111,
+   "total": 127351.5,
+   "bands": {
+    "<12": {
+     "legs": 19,
+     "net": 25544.0,
+     "wr": 68.4,
+     "trade_days": 16,
+     "rs_per_trade_day": 1596.5
+    },
+    "12-14": {
+     "legs": 35,
+     "net": 37588.0,
+     "wr": 48.6,
+     "trade_days": 28,
+     "rs_per_trade_day": 1342.43
+    },
+    "14-17": {
+     "legs": 19,
+     "net": 35829.5,
+     "wr": 78.9,
+     "trade_days": 17,
+     "rs_per_trade_day": 2107.62
+    },
+    "17-20": {
+     "legs": 18,
+     "net": 20790.0,
+     "wr": 61.1,
+     "trade_days": 15,
+     "rs_per_trade_day": 1386.0
+    },
+    ">20": {
+     "legs": 19,
+     "net": 9320.0,
+     "wr": 52.6,
+     "trade_days": 12,
+     "rs_per_trade_day": 776.67
+    }
+   },
+   "nc_legs": 1,
+   "nc_dates": [
+    "2026-02-02"
+   ]
+  },
+  "NIFTY": {
+   "book": "TUNED v1",
+   "legs": 74,
+   "total": 103050.25,
+   "bands": {
+    "<12": {
+     "legs": 18,
+     "net": 38478.5,
+     "wr": 61.1,
+     "trade_days": 16,
+     "rs_per_trade_day": 2404.91
+    },
+    "12-14": {
+     "legs": 22,
+     "net": 17728.0,
+     "wr": 50.0,
+     "trade_days": 20,
+     "rs_per_trade_day": 886.4
+    },
+    "14-17": {
+     "legs": 8,
+     "net": 15595.0,
+     "wr": 50.0,
+     "trade_days": 7,
+     "rs_per_trade_day": 2227.86
+    },
+    "17-20": {
+     "legs": 15,
+     "net": 20714.25,
+     "wr": 53.3,
+     "trade_days": 14,
+     "rs_per_trade_day": 1479.59
+    },
+    ">20": {
+     "legs": 10,
+     "net": 14004.5,
+     "wr": 40.0,
+     "trade_days": 8,
+     "rs_per_trade_day": 1750.56
+    }
+   },
+   "nc_legs": 1,
+   "nc_dates": [
+    "2026-02-02"
+   ]
+  }
+ },
+ "part_b": {
+  "BANKNIFTY": {
+   "V1": {
+    "trades": 27,
+    "net": -32391.0,
+    "wr": 11.1,
+    "h1": -15951.0,
+    "h2": -16440.0,
+    "ex_top3": -39831.0,
+    "top3": [
+     2480.0,
+     2480.0,
+     2480.0
+    ],
+    "months": {
+     "2026-01": {
+      "n": 11,
+      "net": -10520.0
+     },
+     "2026-02": {
+      "n": 4,
+      "net": -5431.0
+     },
+     "2026-07": {
+      "n": 3,
+      "net": -5160.0
+     },
+     "2026-08": {
+      "n": 8,
+      "net": -9560.0
+     },
+     "2026-09": {
+      "n": 1,
+      "net": -1720.0
+     }
+    },
+    "placebo_pct": 0.0,
+    "placebo_median": -8640.0,
+    "verdict": "FAIL",
+    "failing_legs": [
+     "total <= 0",
+     "Jan-May half <= 0",
+     "Jun-Oct half <= 0",
+     "ex-top-3 <= 0",
+     "placebo percentile < 95"
+    ],
+    "nc": 0,
+    "nc_rows": []
+   },
+   "V2": {
+    "trades": 6,
+    "net": -6120.0,
+    "wr": 16.7,
+    "h1": -2680.0,
+    "h2": -3440.0,
+    "ex_top3": -5160.0,
+    "top3": [
+     2480.0,
+     -1720.0,
+     -1720.0
+    ],
+    "months": {
+     "2026-03": {
+      "n": 4,
+      "net": -2680.0
+     },
+     "2026-07": {
+      "n": 1,
+      "net": -1720.0
+     },
+     "2026-09": {
+      "n": 1,
+      "net": -1720.0
+     }
+    },
+    "placebo_pct": 30.0,
+    "placebo_median": -1920.0,
+    "verdict": "FAIL",
+    "failing_legs": [
+     "total <= 0",
+     "Jan-May half <= 0",
+     "Jun-Oct half <= 0",
+     "ex-top-3 <= 0",
+     "placebo percentile < 95"
+    ],
+    "nc": 0,
+    "nc_rows": []
+   }
+  },
+  "NIFTY": {
+   "V1": {
+    "trades": 18,
+    "net": -28179.0,
+    "wr": 27.8,
+    "h1": -21398.75,
+    "h2": -6780.25,
+    "ex_top3": -33180.5,
+    "top3": [
+     1863.25,
+     1769.0,
+     1369.25
+    ],
+    "months": {
+     "2026-01": {
+      "n": 5,
+      "net": -11847.75
+     },
+     "2026-02": {
+      "n": 4,
+      "net": -9551.0
+     },
+     "2026-07": {
+      "n": 3,
+      "net": -5093.0
+     },
+     "2026-08": {
+      "n": 6,
+      "net": -1687.25
+     }
+    },
+    "placebo_pct": 12.5,
+    "placebo_median": -11834.75,
+    "verdict": "FAIL",
+    "failing_legs": [
+     "total <= 0",
+     "Jan-May half <= 0",
+     "Jun-Oct half <= 0",
+     "ex-top-3 <= 0",
+     "placebo percentile < 95"
+    ],
+    "nc": 0,
+    "nc_rows": []
+   },
+   "V2": {
+    "trades": 6,
+    "net": -1271.25,
+    "wr": 50.0,
+    "h1": -473.75,
+    "h2": -797.5,
+    "ex_top3": -9188.0,
+    "top3": [
+     5630.0,
+     1450.5,
+     836.25
+    ],
+    "months": {
+     "2026-03": {
+      "n": 4,
+      "net": -473.75
+     },
+     "2026-07": {
+      "n": 1,
+      "net": -2248.0
+     },
+     "2026-09": {
+      "n": 1,
+      "net": 1450.5
+     }
+    },
+    "placebo_pct": 63.5,
+    "placebo_median": -3760.75,
+    "verdict": "FAIL",
+    "failing_legs": [
+     "total <= 0",
+     "Jan-May half <= 0",
+     "Jun-Oct half <= 0",
+     "ex-top-3 <= 0",
+     "placebo percentile < 95"
+    ],
+    "nc": 0,
+    "nc_rows": []
+   }
+  }
+ }
+}

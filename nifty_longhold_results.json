@@ -1,0 +1,260 @@
+{
+ "summary": {
+  "NIFTY": {
+   "1M": {
+    "2025": {
+     "positions": 5,
+     "net": -45589.25,
+     "wr": 20.0,
+     "best": 39166.75,
+     "worst": -30113.5,
+     "worst_drawdown": -84756.0,
+     "halves": {
+      "H1_JanJun": {
+       "positions": 2,
+       "net": 24975.0
+      },
+      "H2_JulDec": {
+       "positions": 3,
+       "net": -70564.25
+      }
+     }
+    },
+    "2026": {
+     "positions": 6,
+     "net": -36686.5,
+     "wr": 16.7,
+     "best": 75960.0,
+     "worst": -33015.75,
+     "worst_drawdown": -93024.0,
+     "halves": {
+      "H1_JanJun": {
+       "positions": 4,
+       "net": -93024.0
+      },
+      "H2_JulDec": {
+       "positions": 2,
+       "net": 56337.5
+      }
+     }
+    }
+   },
+   "2M": {
+    "2025": {
+     "positions": 5,
+     "net": -112276.25,
+     "wr": 20.0,
+     "best": 19908.25,
+     "worst": -55027.0,
+     "worst_drawdown": -132184.5,
+     "halves": {
+      "H1_JanJun": {
+       "positions": 2,
+       "net": 5716.5
+      },
+      "H2_JulDec": {
+       "positions": 3,
+       "net": -117992.75
+      }
+     }
+    },
+    "2026": {
+     "positions": 5,
+     "net": -56513.75,
+     "wr": 20.0,
+     "best": 58060.0,
+     "worst": -54565.5,
+     "worst_drawdown": -114573.75,
+     "halves": {
+      "H1_JanJun": {
+       "positions": 4,
+       "net": -114573.75
+      },
+      "H2_JulDec": {
+       "positions": 1,
+       "net": 58060.0
+      }
+     }
+    }
+   }
+  },
+  "BANKNIFTY": {
+   "1M": {
+    "2025": {
+     "positions": 5,
+     "net": -65271.2,
+     "wr": 40.0,
+     "best": 9834.5,
+     "worst": -30515.5,
+     "worst_drawdown": -65271.2,
+     "halves": {
+      "H1_JanJun": {
+       "positions": 2,
+       "net": -9184.7
+      },
+      "H2_JulDec": {
+       "positions": 3,
+       "net": -56086.5
+      }
+     }
+    },
+    "2026": {
+     "positions": 7,
+     "net": -113027.5,
+     "wr": 14.3,
+     "best": 11120.0,
+     "worst": -29426.5,
+     "worst_drawdown": -113027.5,
+     "halves": {
+      "H1_JanJun": {
+       "positions": 5,
+       "net": -91805.0
+      },
+      "H2_JulDec": {
+       "positions": 2,
+       "net": -21222.5
+      }
+     }
+    }
+   },
+   "2M": {
+    "2025": {
+     "positions": 5,
+     "net": -136468.7,
+     "wr": 0.0,
+     "best": -12938.0,
+     "worst": -55115.0,
+     "worst_drawdown": -136468.7,
+     "halves": {
+      "H1_JanJun": {
+       "positions": 2,
+       "net": -37900.2
+      },
+      "H2_JulDec": {
+       "positions": 3,
+       "net": -98568.5
+      }
+     }
+    },
+    "2026": {
+     "positions": 6,
+     "net": -178730.0,
+     "wr": 0.0,
+     "best": -20153.5,
+     "worst": -53513.0,
+     "worst_drawdown": -178730.0,
+     "halves": {
+      "H1_JanJun": {
+       "positions": 5,
+       "net": -125217.0
+      },
+      "H2_JulDec": {
+       "positions": 1,
+       "net": -53513.0
+      }
+     }
+    }
+   }
+  }
+ },
+ "annex": {
+  "NIFTY": {
+   "20": {
+    "events": 47,
+    "avg": 1.23,
+    "win": 61.7
+   },
+   "40": {
+    "events": 46,
+    "avg": 1.328,
+    "win": 65.2
+   },
+   "60": {
+    "events": 45,
+    "avg": 0.671,
+    "win": 51.1
+   }
+  },
+  "BANKNIFTY": {
+   "20": {
+    "events": 50,
+    "avg": -0.256,
+    "win": 44.0
+   },
+   "40": {
+    "events": 49,
+    "avg": -1.833,
+    "win": 42.9
+   },
+   "60": {
+    "events": 48,
+    "avg": -2.714,
+    "win": 39.6
+   }
+  }
+ },
+ "nc": [
+  {
+   "index": "NIFTY",
+   "signal_month": "2026-09",
+   "signal_date": "2026-09-30",
+   "trend": "DOWN",
+   "side": "PE",
+   "entry_month": "2026-10",
+   "entry_date": "2026-10-01",
+   "strike1": 22600,
+   "expiry1_nominal": "2026-10-27",
+   "expiry1": "2026-10-27",
+   "entry_premium1": 298.6,
+   "exit_premium1": 0.1,
+   "exit_date1": "2026-10-27",
+   "hold": "2M",
+   "reason": "no_contracts_second_expiry"
+  },
+  {
+   "index": "NIFTY",
+   "signal_month": "2026-10",
+   "signal_date": "2026-10-30",
+   "trend": "DOWN",
+   "side": "PE",
+   "entry_month": "2026-11",
+   "entry_date": "2026-11-02",
+   "strike1": 23050,
+   "expiry1_nominal": "2026-11-23",
+   "hold": "1M+2M",
+   "reason": "no_contracts_for_expiry"
+  },
+  {
+   "index": "BANKNIFTY",
+   "signal_month": "2026-09",
+   "signal_date": "2026-09-30",
+   "trend": "DOWN",
+   "side": "PE",
+   "entry_month": "2026-10",
+   "entry_date": "2026-10-01",
+   "strike1": 54600,
+   "expiry1_nominal": "2026-10-27",
+   "expiry1": "2026-10-27",
+   "entry_premium1": 735.0,
+   "exit_premium1": 622.4,
+   "exit_date1": "2026-10-27",
+   "hold": "2M",
+   "reason": "no_contracts_second_expiry"
+  },
+  {
+   "index": "BANKNIFTY",
+   "signal_month": "2026-10",
+   "signal_date": "2026-10-30",
+   "trend": "DOWN",
+   "side": "PE",
+   "entry_month": "2026-11",
+   "entry_date": "2026-11-02",
+   "strike1": 54700,
+   "expiry1_nominal": "2026-11-23",
+   "hold": "1M+2M",
+   "reason": "no_contracts_for_expiry"
+  }
+ ],
+ "nc_count": 4,
+ "trades_count": 44
+}

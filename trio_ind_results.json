@@ -1,0 +1,496 @@
+{
+ "spec": "trio_ind_SPEC.md",
+ "basis": "paper only, real money Rs0; indices per 1 lot, stocks per 100 shares PROVISIONAL",
+ "validation": {
+  "bank": {
+   "match": 808,
+   "mismatch": 0
+  },
+  "nifty": {
+   "match": 232,
+   "mismatch": 0
+  },
+  "stocks": {
+   "match": 3147,
+   "mismatch": 0
+  }
+ },
+ "bank": {
+  "control_check": "Jan-Oct +131,510.00 EXACT; Nov -3,440.00 EXACT",
+  "janoct": {
+   "ALL": {
+    "legs": 94,
+    "net": 131510.0,
+    "wr": 63.8,
+    "per_trade": 1399.04,
+    "trade_days": 78,
+    "per_td": 1686.03
+   },
+   "AGREE>=4": {
+    "legs": 67,
+    "net": 72611.0,
+    "wr": 59.7,
+    "per_trade": 1083.75,
+    "trade_days": 57,
+    "per_td": 1273.88
+   },
+   "AGREE>=5": {
+    "legs": 50,
+    "net": 54583.0,
+    "wr": 58.0,
+    "per_trade": 1091.66,
+    "trade_days": 45,
+    "per_td": 1212.96
+   },
+   "DISAGREE>=4": {
+    "legs": 23,
+    "net": 46090.0,
+    "wr": 69.6,
+    "per_trade": 2003.91,
+    "trade_days": 23,
+    "per_td": 2003.91
+   }
+  },
+  "janoct_halves": {
+   "ALL": {
+    "jan_jun": {
+     "legs": 60,
+     "net": 88920.0,
+     "wr": 65.0
+    },
+    "jul_oct": {
+     "legs": 34,
+     "net": 42590.0,
+     "wr": 61.8
+    }
+   },
+   "AGREE>=4": {
+    "jan_jun": {
+     "legs": 41,
+     "net": 49867.0,
+     "wr": 63.4
+    },
+    "jul_oct": {
+     "legs": 26,
+     "net": 22744.0,
+     "wr": 53.8
+    }
+   },
+   "AGREE>=5": {
+    "jan_jun": {
+     "legs": 28,
+     "net": 33872.0,
+     "wr": 60.7
+    },
+    "jul_oct": {
+     "legs": 22,
+     "net": 20711.0,
+     "wr": 54.5
+    }
+   },
+   "DISAGREE>=4": {
+    "jan_jun": {
+     "legs": 16,
+     "net": 27080.0,
+     "wr": 62.5
+    },
+    "jul_oct": {
+     "legs": 7,
+     "net": 19010.0,
+     "wr": 85.7
+    }
+   }
+  },
+  "nov": {
+   "ALL": {
+    "legs": 2,
+    "net": -3440.0,
+    "wr": 0.0,
+    "per_trade": -1720.0,
+    "trade_days": 2,
+    "per_td": -1720.0
+   },
+   "AGREE>=4": {
+    "legs": 1,
+    "net": -1720.0,
+    "wr": 0.0,
+    "per_trade": -1720.0,
+    "trade_days": 1,
+    "per_td": -1720.0
+   },
+   "AGREE>=5": {
+    "legs": 0,
+    "net": 0.0,
+    "wr": null,
+    "per_trade": null,
+    "trade_days": 0,
+    "per_td": null
+   },
+   "DISAGREE>=4": {
+    "legs": 1,
+    "net": -1720.0,
+    "wr": 0.0,
+    "per_trade": -1720.0,
+    "trade_days": 1,
+    "per_td": -1720.0
+   }
+  },
+  "nc_janoct": 0,
+  "nc_nov": 0
+ },
+ "nifty": {
+  "control_check": "Jan-Oct +117,170.00 EXACT; Nov 0 legs / Rs0 EXACT",
+  "janoct": {
+   "ALL": {
+    "legs": 66,
+    "net": 117170.0,
+    "wr": 56.1,
+    "per_trade": 1775.3,
+    "trade_days": 58,
+    "per_td": 2020.17
+   },
+   "AGREE>=4": {
+    "legs": 37,
+    "net": 75222.5,
+    "wr": 54.1,
+    "per_trade": 2033.04,
+    "trade_days": 37,
+    "per_td": 2033.04
+   },
+   "AGREE>=5": {
+    "legs": 33,
+    "net": 69862.5,
+    "wr": 57.6,
+    "per_trade": 2117.05,
+    "trade_days": 33,
+    "per_td": 2117.05
+   },
+   "DISAGREE>=4": {
+    "legs": 29,
+    "net": 41947.5,
+    "wr": 58.6,
+    "per_trade": 1446.47,
+    "trade_days": 29,
+    "per_td": 1446.47
+   }
+  },
+  "janoct_halves": {
+   "ALL": {
+    "jan_jun": {
+     "legs": 43,
+     "net": 73551.5,
+     "wr": 51.2
+    },
+    "jul_oct": {
+     "legs": 23,
+     "net": 43618.5,
+     "wr": 65.2
+    }
+   },
+   "AGREE>=4": {
+    "jan_jun": {
+     "legs": 22,
+     "net": 44186.25,
+     "wr": 50.0
+    },
+    "jul_oct": {
+     "legs": 15,
+     "net": 31036.25,
+     "wr": 60.0
+    }
+   },
+   "AGREE>=5": {
+    "jan_jun": {
+     "legs": 20,
+     "net": 38539.0,
+     "wr": 50.0
+    },
+    "jul_oct": {
+     "legs": 13,
+     "net": 31323.5,
+     "wr": 69.2
+    }
+   },
+   "DISAGREE>=4": {
+    "jan_jun": {
+     "legs": 21,
+     "net": 29365.25,
+     "wr": 52.4
+    },
+    "jul_oct": {
+     "legs": 8,
+     "net": 12582.25,
+     "wr": 75.0
+    }
+   }
+  },
+  "nov": {
+   "ALL": {
+    "legs": 0,
+    "net": 0.0,
+    "wr": null,
+    "per_trade": null,
+    "trade_days": 0,
+    "per_td": null
+   },
+   "AGREE>=4": {
+    "legs": 0,
+    "net": 0.0,
+    "wr": null,
+    "per_trade": null,
+    "trade_days": 0,
+    "per_td": null
+   },
+   "AGREE>=5": {
+    "legs": 0,
+    "net": 0.0,
+    "wr": null,
+    "per_trade": null,
+    "trade_days": 0,
+    "per_td": null
+   },
+   "DISAGREE>=4": {
+    "legs": 0,
+    "net": 0.0,
+    "wr": null,
+    "per_trade": null,
+    "trade_days": 0,
+    "per_td": null
+   }
+  },
+  "nc_janoct": 0,
+  "nc_nov": 0
+ },
+ "stocks": {
+  "2025": {
+   "janoct": {
+    "ALL": {
+     "legs": 1064,
+     "net": 119813.44,
+     "wr": 45.4,
+     "per_trade": 112.61,
+     "trade_days": 160,
+     "per_td": 748.83
+    },
+    "AGREE>=4": {
+     "legs": 677,
+     "net": 60386.26,
+     "wr": 44.5,
+     "per_trade": 89.2,
+     "trade_days": 143,
+     "per_td": 422.28
+    },
+    "AGREE>=5": {
+     "legs": 601,
+     "net": 72037.38,
+     "wr": 45.6,
+     "per_trade": 119.86,
+     "trade_days": 140,
+     "per_td": 514.55
+    },
+    "DISAGREE>=4": {
+     "legs": 320,
+     "net": 37587.19,
+     "wr": 47.2,
+     "per_trade": 117.46,
+     "trade_days": 72,
+     "per_td": 522.04
+    }
+   },
+   "janoct_halves": {
+    "ALL": {
+     "jan_jun": {
+      "legs": 878,
+      "net": 100344.46,
+      "wr": 45.6
+     },
+     "jul_oct": {
+      "legs": 186,
+      "net": 19468.98,
+      "wr": 44.6
+     }
+    },
+    "AGREE>=4": {
+     "jan_jun": {
+      "legs": 550,
+      "net": 53273.28,
+      "wr": 43.6
+     },
+     "jul_oct": {
+      "legs": 127,
+      "net": 7112.98,
+      "wr": 48.0
+     }
+    },
+    "AGREE>=5": {
+     "jan_jun": {
+      "legs": 482,
+      "net": 58117.35,
+      "wr": 44.4
+     },
+     "jul_oct": {
+      "legs": 119,
+      "net": 13920.03,
+      "wr": 50.4
+     }
+    },
+    "DISAGREE>=4": {
+     "jan_jun": {
+      "legs": 281,
+      "net": 31121.79,
+      "wr": 49.1
+     },
+     "jul_oct": {
+      "legs": 39,
+      "net": 6465.4,
+      "wr": 33.3
+     }
+    }
+   },
+   "nc_janoct": 42
+  },
+  "2026": {
+   "janoct": {
+    "ALL": {
+     "legs": 1363,
+     "net": 247178.79,
+     "wr": 44.8,
+     "per_trade": 181.35,
+     "trade_days": 181,
+     "per_td": 1365.63
+    },
+    "AGREE>=4": {
+     "legs": 646,
+     "net": 169130.14,
+     "wr": 50.2,
+     "per_trade": 261.81,
+     "trade_days": 161,
+     "per_td": 1050.5
+    },
+    "AGREE>=5": {
+     "legs": 585,
+     "net": 147197.67,
+     "wr": 50.1,
+     "per_trade": 251.62,
+     "trade_days": 158,
+     "per_td": 931.63
+    },
+    "DISAGREE>=4": {
+     "legs": 615,
+     "net": 32820.6,
+     "wr": 37.6,
+     "per_trade": 53.37,
+     "trade_days": 116,
+     "per_td": 282.94
+    }
+   },
+   "janoct_halves": {
+    "ALL": {
+     "jan_jun": {
+      "legs": 1031,
+      "net": 156166.76,
+      "wr": 42.9
+     },
+     "jul_oct": {
+      "legs": 332,
+      "net": 91012.03,
+      "wr": 50.6
+     }
+    },
+    "AGREE>=4": {
+     "jan_jun": {
+      "legs": 449,
+      "net": 95061.41,
+      "wr": 48.1
+     },
+     "jul_oct": {
+      "legs": 197,
+      "net": 74068.73,
+      "wr": 54.8
+     }
+    },
+    "AGREE>=5": {
+     "jan_jun": {
+      "legs": 405,
+      "net": 79245.97,
+      "wr": 47.7
+     },
+     "jul_oct": {
+      "legs": 180,
+      "net": 67951.7,
+      "wr": 55.6
+     }
+    },
+    "DISAGREE>=4": {
+     "jan_jun": {
+      "legs": 501,
+      "net": 28351.44,
+      "wr": 36.9
+     },
+     "jul_oct": {
+      "legs": 114,
+      "net": 4469.16,
+      "wr": 40.4
+     }
+    }
+   },
+   "nc_janoct": 66
+  },
+  "nov": {
+   "rows": {
+    "ALL": {
+     "legs": 32,
+     "net": 7517.94,
+     "wr": 50.0,
+     "per_trade": 234.94,
+     "trade_days": 9,
+     "per_td": 835.33
+    },
+    "AGREE>=4": {
+     "legs": 20,
+     "net": 4198.84,
+     "wr": 55.0,
+     "per_trade": 209.94,
+     "trade_days": 8,
+     "per_td": 524.86
+    },
+    "AGREE>=5": {
+     "legs": 10,
+     "net": 5049.14,
+     "wr": 80.0,
+     "per_trade": 504.91,
+     "trade_days": 7,
+     "per_td": 721.31
+    },
+    "DISAGREE>=4": {
+     "legs": 1,
+     "net": 460.12,
+     "wr": 100.0,
+     "per_trade": 460.12,
+     "trade_days": 1,
+     "per_td": 460.12
+    }
+   },
+   "nc": 11
+  },
+  "control_check": "2025 +119,813.44 / 1,064 EXACT; 2026 +247,178.79 / 1,363 EXACT; Nov +7,517.94 / 32 EXACT"
+ },
+ "verdicts": {
+  "bank": {
+   "best_agreement_row": "AGREE>=4",
+   "helps": false,
+   "passing_row": null
+  },
+  "nifty": {
+   "best_agreement_row": "AGREE>=5",
+   "helps": false,
+   "passing_row": null
+  },
+  "stocks": {
+   "best_agreement_row_2025": "AGREE>=5",
+   "best_agreement_row_2026": "AGREE>=4",
+   "helps": false,
+   "passing_row": null
+  }
+ }
+}

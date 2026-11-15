@@ -88,16 +88,21 @@ A shadow never trades and never changes a running book. Promotion needs forward 
 - **How:** `hold_shadow_score.py` → `hold_shadow_log.csv`; job 20:20 IST.
 - **When:** Shadow from Nov 16. Two November positions were open at the seed (BDL, HINDCOPPER — marked, labelled BACKFILL_COUNTERFACTUAL).
 
+### 17. BTST-IND — Bank votes-only (overnight)
+- **What:** The closed BTST shape rebuilt on a different decision: the EKAM 6-vote indicator state at the 15:00 bar decides, fill at the 15:15 close, exit next morning — Bank index options, 1 lot. Jan–Oct 2026: **104 trades, +₹98,630.50**, WR 50.0%, placebo 97.8th pct — but top-heavy (ex-top-3 only +₹9,290.50) and the worst night was −₹17,036.50: overnight gap risk is real and stated. The votes do the work (the same-day stack-signal control lost −₹55,557.50). The stocks arm failed the both-years test and is closed; the Nifty arm could not be scored (premium store too sparse).
+- **How:** `btstind_shadow_score.py` → `november_shadow_btstind_bank_log.csv`; job `btstind-shadow-scorer-daily` 20:35 IST Mon–Fri. Files: `btst_ind_*`.
+- **When:** Forward shadow from Nov 16, **review bound Nov 30** (enforced in the scorer). November seed (backfill, labelled BACKFILL_COUNTERFACTUAL): 4 settled trades +₹14,336. Shadow only — the gap-risk evidence is exactly why this does not trade.
+
 ---
 
 ## RESEARCH — built and gated, not armed
 
-### 17. EKAM daily 2c (stocks, daily swing)
+### 18. EKAM daily 2c (stocks, daily swing)
 - **What:** The two daily systems that tested good, merged into one book: Bollinger(20,2) band-return + RSI oversold-turn (60-day form), with the RSI-upgrade exit rule (an RSI signal during a Bollinger hold converts that position's exits to the RSI stack). One position per name. Final form after 5 tuning turns — stops and MACD were tested and rejected by the numbers.
 - **Numbers:** 2025 **+₹42,954.60** (74 trades, WR 71.6%) · 2026 **+₹1,41,328.40** (102 trades, WR 62.7%). Files: `ekam2c_*` (spec, report, results, trades); registry `ekam_strategy.md`.
 - **When:** Research only. A forward-paper start needs the **owner's explicit word** — asked 2026-11-14, still pending. Also the natural entry/exit discipline candidate for the investing discussion.
 
-### 18. Value screener v2 + investing tiers
+### 19. Value screener v2 + investing tiers
 - **What:** Fundamental screen (P/E < 20, P/B < 3, EPS positive and not declining, profit in each of last 3 years, clean balance sheet, low promoter pledge, growth): **99 names pass**. The 2026-11-14 analysis tiers them **A = 14** (all financials, clean on every field) · **B = 72** · **C = 13** (named flags). South Indian Bank (the owner's holding, bought ~₹41) is Tier B — on price extension, not on business.
 - **How:** `value_screener_v2_2026-11-11.md/.csv` (the locked list) + `investing_value_analysis_2026-11-14.md/.csv`.
 - **When:** Analysis only — no orders are placed from it. The owner does his own price-action confirmation before investing; promoter-pledge filing checks are still outstanding for most names.
@@ -106,36 +111,32 @@ A shadow never trades and never changes a running book. Promotion needs forward 
 
 ## CLOSED — do not revive without the owner's word
 
-### 19. DIAL (standalone indicator system)
+### 20. DIAL (standalone indicator system)
 Supertrend/VWAP trend + RSI/Bollinger reversion core, identical across segments. **Failed everywhere:** Bank −₹33,719 (311 trades) · Nifty −₹89,487.20 · Stocks −₹1,93,637.97 (2025) / −₹2,92,761.31 (2026). Round-2 seeds also failed. The Parameter Atlas (306 Bank + 306 Nifty + 414 stocks settings) found **zero robust intraday rows**. Registry: `dial_programme.md`. Closed on all three segments.
 
-### 20. SHORT-FOLLOW (R7-M1)
+### 21. SHORT-FOLLOW (R7-M1)
 A premium-**selling** pair that passed its backtest gate (+₹49,149.25) and was armed on an inference the owner never gave. Day 1: +₹2,483.75 paper — then **disarmed permanently on the owner's order, 2026-11-13** ("we are option buyers not seller"). Killswitch file `november_shortfollow_KILLSWITCH` stays in place. Selling is banned; this never reopens.
 
-### 21. Stock Engine
+### 22. Stock Engine
 Wide-universe (~1,000-name) live paper experiment. November final −₹2,917.46 (8 trades); **wound down 2026-11-13**, job disabled. Closed — no picks ever again unless the owner restarts it.
 
-### 22. BTST (original programme)
+### 23. BTST (original programme)
 Buy-today-sell-tomorrow overnight holds. **Both arms failed** (2026-11-13): Bank options −₹6,436 / 190 trades; stocks −₹2,89,328 / 613 trades, 10 of 10 months red. Overnight long premium is the riskiest shape measured (worst night −₹17,125.50 on 1 lot). Closed — superseded by BTST-2 research below, under much stricter gates.
 
-### 23. Retired headlines (never quote as causal)
+### 24. Retired headlines (never quote as causal)
 Nifty +₹114,921.75 (confirmation-lag artefact) · Bank v19 +₹133,898 · the Morning-Mover line (look-ahead artefact; A2/B2/B3 fell with it). Kept in the record so they are never repeated.
 
----
+### 25. BTST-2
+The HOLD grid's missing cells — dip/base entries (E0/E1/E2/E3) at 1- and 2-day holds, stocks, per 100 shares. Its biggest cell, E0-H2 (buy all 25 at the week's first open, sell 2 days later: 2025 +₹98,386 / 2026 +₹3,03,058, placebo 100th pct), was **killed by its own anatomy**: ~₹22L of rolling capital for +0.11% (2025) / +0.31% (2026) a year, the best 4 weeks = 294% of 2025's net, and the one frozen filter (skip weeks after a >2% Nifty fall) flipped 2025 negative — the cell earns on rebounds, so the filter removed its living. Verdict: rebound beta, not a book. **Closed as a candidate; no further tuning.** What survives: E1 at H1/H2 as modest cells of the HOLD family (H15 stays its adopted setting). Files: `btst2_*`, `btst2_r2_*`.
 
-## IN PROGRESS (owner's order 2026-11-15 — landing in a follow-up sync)
+### 26. Stock options (EKAM-daily / HOLD entries as bought calls)
+The proven stock signals traded as bought ATM stock options instead of cash (nearest-expiry ≥5 days out; exits mirroring the cash trades exactly; ₹220/position). **Near-expiry: cash beat options in all four source-years, by a wide margin** — EKAM-daily entries: 2025 −₹2,12,269/lot and 2026 −₹3,96,391/lot vs cash +₹42,954.60 / +₹1,41,328.40 per 100 shares; HOLD entries: 2025 −₹2,36,575/lot and 2026 −₹4,02,572/lot vs cash +₹42,163 / +₹83,963. Measured cause: 179 of 320 scored positions hit the contract's expiry before the cash exit date — a 15-to-60-day hold outlives the nearest contract — plus premium decay over multi-week holds. **Far-expiry test:** beat near-expiry in both years but still lost to cash, and only 38 of 176 signals were scoreable (far contracts mostly not yet trading). **Route closed both ways — the stocks lines stay in cash.** Files: `stock_options_*`, `stock_options_far_*`.
 
-### 24. BTST-2
-Overnight holds rebuilt under strict gates: narrow entry conditions, the circuit breaker applied, worst-night risk capped by construction. Research only until a full gate passes.
+### 27. VIX strategies
+Measured both directions and closed. **Conditioning:** both TRIO index books earn in *every* prior-day VIX band (Bank stack best 14–17: +₹35,829.50, WR 78.9%; worst band >20 still +₹9,320 · TUNED v1 best <12: +₹38,478.50; worst 12–14 still +₹17,728) — a high-VIX stand-down would have cost money on both books, so TRIO carries no VIX filter. **Standalone:** low-VIX trend-buy and VIX-spike fade both fail every gate leg on both indices (Bank trend-buy −₹32,391, placebo 0.0th pct). Files: `vix_programme_*`.
 
-### 25. Stock options programme
-Single-stock options on the watchlist names (buying only), tested against the equity-cash Stock Book basis.
-
-### 26. VIX strategies
-India VIX level and mean-reversion conditioning for the index books — when to stand down, when the premium environment favours buying.
-
-### 27. Nifty long holds
-Positional Nifty option buying on the monthly projection: buy today, hold for weeks, on the daily/weekly trend frame (the long-horizon cousin of the HOLD programme).
+### 28. Monthly long holds (Nifty + Bank)
+Month-end trend state (close vs 50/200-DMA) → buy the monthly-expiry ATM contract on the trend side, hold 1 month or roll to 2. **Failed both indices, both holds, both years:** Nifty 1M −₹45,589.25 (2025) / −₹36,686.50 (2026), 2M −₹1,12,276.25 / −₹56,513.75 · Bank 1M −₹65,271.20 / −₹1,13,027.50, 2M −₹1,36,468.70 / −₹1,78,730.00 (win rate 0% on all 11 Bank 2M positions). Mechanism, measured: 21 of 33 legs expired at ₹0.05–₹0.25 — a month of ATM premium costs more than the trend drift pays. **Closed.** Files: `nifty_longhold_*`.
 
 ---
 

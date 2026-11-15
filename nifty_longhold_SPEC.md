@@ -53,6 +53,18 @@ Nifty, 1 lot (65) per position.
   cumulative-net line ordered by exit date, and calendar halves (entries
   Jan–Jun vs Jul–Dec).
 
+## 4B. Bank Nifty arm (extension ordered 2026-11-15 10:45, before any scoring)
+Identical rules, second index. Differences only:
+- Spot: `volrix_banknifty/banknifty_daily_2019_2026.csv` (2019-07-01 onward).
+- Lot 30. Net per contract round trip = (exit − entry) × 30 − Rs220.
+- Strike step 100 (ATM = nearest 100 to the reference close).
+- Expired-instruments index key `NSE_INDEX|Nifty Bank`.
+- Monthly expiries: 2026 from the stored key files (2026-01-27 … 2026-11-23);
+  2025 by the same NSE rule (last Thursday Jan–Aug, last Tuesday Sep–Dec),
+  each verified against the contract list with day step-back on holidays.
+- The annex (§5) is computed for Bank Nifty spot as well.
+- Both indices are reported side by side, never pooled.
+
 ## 5. Annex — the long-months projection evidence (signal study, NOT option money)
 - Every signal month Aug 2019 → the last month with forward bars in the store.
 - For non-FLAT signals: direction-signed forward spot return at +20 / +40 / +60
