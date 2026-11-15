@@ -1,0 +1,11 @@
+date,row_type,component,direction,strike,expiry,entry_time,entry_premium,exit_time,exit_premium,exit_reason,decs1_net_inr,decision,v2_net_inr,v2_running_total_inr,notes
+2026-11-02,BACKFILL_COUNTERFACTUAL,B,PE,23300,2026-11-23,10:05,288.00,14:35,288.00,be_stop,-220.00,DROPPED_B_PE,0.00,0.00,DROPPED B PE: excluded from TUNED v2 by the EVE-11 definition (the DEC-S1 net stands in DEC-S1's own line only)
+2026-11-03,BACKFILL_COUNTERFACTUAL,C,CE,23600,2026-11-03,09:50,75.90,13:20,126.00,square_off,3036.50,DROPPED_C_CE,0.00,0.00,DROPPED C CE: excluded from TUNED v2 by the EVE-11 definition (the DEC-S1 net stands in DEC-S1's own line only)
+2026-11-03,BACKFILL_COUNTERFACTUAL,B,PE,23600,2026-11-23,10:05,290.05,13:35,240.05,stop,-3470.00,DROPPED_B_PE,0.00,0.00,DROPPED B PE: excluded from TUNED v2 by the EVE-11 definition (the DEC-S1 net stands in DEC-S1's own line only)
+2026-11-04,BACKFILL_COUNTERFACTUAL,,,,,,,,,,0.00,NO_V2_LEG,0.00,0.00,DEC-S1 no-trade day (its ledger row: none) — TUNED v2 takes nothing
+2026-11-05,BACKFILL_COUNTERFACTUAL,B,PE,24400,2026-11-23,10:05,273.55,13:30,223.55,stop,-3470.00,DROPPED_B_PE,0.00,0.00,DROPPED B PE: excluded from TUNED v2 by the EVE-11 definition (the DEC-S1 net stands in DEC-S1's own line only)
+2026-11-06,BACKFILL_COUNTERFACTUAL,,,,,,,,,,0.00,NO_V2_LEG,0.00,0.00,DEC-S1 no-trade day (its ledger row: none) — TUNED v2 takes nothing
+2026-11-09,BACKFILL_COUNTERFACTUAL,,,,,,,,,,0.00,NO_V2_LEG,0.00,0.00,DEC-S1 no-trade day (its ledger row: none) — TUNED v2 takes nothing
+2026-11-11,BACKFILL_COUNTERFACTUAL,B,PE,25400,2026-11-23,10:05,296.80,14:00,356.80,runner_stop,3680.00,DROPPED_B_PE,0.00,0.00,DROPPED B PE: excluded from TUNED v2 by the EVE-11 definition (the DEC-S1 net stands in DEC-S1's own line only)
+2026-11-12,BACKFILL_COUNTERFACTUAL,,,,,,,,,,0.00,NO_V2_LEG,0.00,0.00,DEC-S1 no-trade day (its ledger row: none) — TUNED v2 takes nothing
+2026-11-13,BACKFILL_COUNTERFACTUAL,,,,,,,,,,0.00,NO_V2_LEG,0.00,0.00,DEC-S1 no-trade day (its ledger row: none) — TUNED v2 takes nothing

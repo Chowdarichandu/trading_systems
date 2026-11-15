@@ -1,0 +1,15 @@
+date,book,direction,strike,entry_time,entry_premium,exit_time,exit_premium,exit_reason,net_inr,counted_in_preregistered_assembly,counted_in_identical_leg_assembly,note
+2026-11-02,LEGACY (BNF-PAPER-V1),PE,54800,10:20,681.95,10:25,631.95,stop,-1720.0,YES,YES,Skill V3
+2026-11-02,SKILL (shadow),PE,54800,10:20,681.95,10:25,631.95,stop,-1720.0,"NO — same (date,direction) as a legacy leg",NO — identical leg already in legacy,Skill V3 standalone
+2026-11-03,SKILL (shadow),CE,55500,10:00,841.85,11:30,791.85,stop,-1720.0,"NO — same (date,direction) as a legacy leg",YES,Skill V3 standalone
+2026-11-03,LEGACY (BNF-PAPER-V1),CE,55500,10:20,867.60,11:10,817.60,stop,-1720.0,YES,YES,NS1
+2026-11-04,SKILL (shadow),CE,55800,09:35,788.00,09:35,738.00,stop,-1720.0,"NO — same (date,direction) as a legacy leg",YES,Skill V3 standalone
+2026-11-04,LEGACY (BNF-PAPER-V1),CE,55900,13:40,757.00,14:00,707.00,stop,-1720.0,YES,YES,NS1
+2026-11-05,SKILL (shadow),CE,57100,11:20,729.40,11:30,819.40,target,2480.0,YES,YES,Skill V3 standalone
+2026-11-06,SKILL (shadow),CE,57800,09:50,768.25,10:25,858.25,target,2480.0,YES,YES,Skill V3 standalone
+2026-11-09,LEGACY (BNF-PAPER-V1),PE,58900,10:45,815.40,10:45,765.40,stop,-1720.0,YES,YES,Skill V3
+2026-11-09,SKILL (shadow),PE,58900,10:45,815.40,10:45,765.40,stop,-1720.0,"NO — same (date,direction) as a legacy leg",NO — identical leg already in legacy,Skill V3 standalone
+2026-11-11,SKILL (shadow),CE,60700,09:40,738.90,10:25,828.90,target,2480.0,"NO — same (date,direction) as a legacy leg",YES,Skill V3 standalone
+2026-11-11,LEGACY (BNF-PAPER-V1),CE,60800,14:00,823.10,14:05,913.10,target,2480.0,YES,YES,NS1
+2026-11-12,SKILL (shadow),CE,61300,09:35,723.40,10:10,673.40,stop,-1720.0,"NO — same (date,direction) as a legacy leg",YES,Skill V3 standalone
+2026-11-12,LEGACY (BNF-PAPER-V1),CE,61200,12:45,710.00,13:05,800.00,target,2480.0,YES,YES,NS1

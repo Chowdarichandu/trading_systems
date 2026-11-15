@@ -1,0 +1,10 @@
+date,row_type,status,reason,side,strike,expiry,event_time,retest_time,entry_time,entry_premium,exit_time,exit_premium,exit_reason,net_inr,timing_violations,notes
+2026-11-02,BACKFILL_COUNTERFACTUAL,NO_TRADE,retest_expired,,,,,,,,,,,,,spot=stored; CE:no_event; PE:expired_window_end
+2026-11-03,BACKFILL_COUNTERFACTUAL,NO_TRADE,retest_expired,,,,,,,,,,,,,spot=stored; CE:expired_window_end; PE:no_event
+2026-11-04,BACKFILL_COUNTERFACTUAL,TRADED,scored,CE,55700,2026-11-23,13:35,14:00,14:05,788.95,14:20,878.95,target,2480.00,0,spot=stored; CE:retest; PE:no_event; premium=c5; vwap=volume
+2026-11-05,BACKFILL_COUNTERFACTUAL,NO_TRADE,retest_expired,,,,,,,,,,,,,spot=stored; CE:expired_window_end; PE:no_event
+2026-11-06,BACKFILL_COUNTERFACTUAL,TRADED,scored,CE,57600,2026-11-23,09:50,10:45,10:50,867.55,10:50,817.55,stop,-1720.00,0,spot=stored; CE:retest; PE:no_event; premium=c5; vwap=volume
+2026-11-09,BACKFILL_COUNTERFACTUAL,NO_TRADE,retest_expired,,,,,,,,,,,,,spot=stored; CE:expired_close_below_vwap; PE:no_event
+2026-11-11,BACKFILL_COUNTERFACTUAL,NO_TRADE,retest_expired,,,,,,,,,,,,,spot=stored; CE:expired_window_end; PE:no_event
+2026-11-12,BACKFILL_COUNTERFACTUAL,NO_TRADE,retest_expired,,,,,,,,,,,,,spot=stored; CE:expired_close_below_vwap; PE:no_event
+2026-11-13,BACKFILL_COUNTERFACTUAL,TRADED,scored,PE,61000,2026-11-23,12:15,12:25,12:30,736.65,12:35,686.65,stop,-1720.00,0,spot=stored; CE:no_event; PE:retest; premium=c5; vwap=volume

@@ -1,1 +1,9 @@
 date,stock,direction,setup,chain_round,entry_time,entry,stop,target,exit_price,exit_time,exit_reason,gross_rs_provisional_per100,net_rs_provisional_per100,shadow_net_T10_rs_provisional_per100,nifty_prev_close,nifty_50dma,event_status,notes
+2026-11-02,HINDCOPPER,LONG,skill_or_breakout,1,09:35,404.15,402.13,409.2,409.2,10:40,target,505.19,465.19,364.15,23053.1,23254.75,no_event,INV1 condition MET (prev close 23053.1 <= 50DMA 23254.75); ADR 3.549
+2026-11-02,WIPRO,SHORT,skill_or_breakdown,1,09:35,195.84,196.82,193.39,196.82,09:45,stop,-97.92,-137.92,-137.92,23053.1,23254.75,no_event,INV1 condition MET (prev close 23053.1 <= 50DMA 23254.75); ADR 3.373
+2026-11-02,NATIONALUM,SHORT,setup3_bounce_rejection,1,09:40,322.0,323.61,317.98,323.61,09:50,stop,-161.0,-201.0,-201.0,23053.1,23254.75,no_event,INV1 condition MET (prev close 23053.1 <= 50DMA 23254.75); ADR 3.091
+2026-11-02,TVSMOTOR,SHORT,skill_or_breakdown,1,09:40,4180.8,4201.7,4128.54,4201.7,09:50,stop,-2090.4,-2130.4,-2130.4,23053.1,23254.75,event_window,INV1 condition MET (prev close 23053.1 <= 50DMA 23254.75); ADR 3.08
+2026-11-02,UNITDSPR,LONG,skill_or_breakout,1,09:40,1346.3,1339.57,1363.13,1339.57,10:00,stop,-673.15,-713.15,-713.15,23053.1,23254.75,event_window,INV1 condition MET (prev close 23053.1 <= 50DMA 23254.75); ADR 3.478
+2026-11-02,KALYANKJIL,LONG,skill_or_breakout,1,09:45,503.7,501.18,510.0,504.6,15:10,square_off,90.0,50.0,463.7,23053.1,23254.75,no_event,INV1 condition MET (prev close 23053.1 <= 50DMA 23254.75); ADR 3.678
+2026-11-02,WIPRO,SHORT,skill_or_breakdown,2,09:55,196.02,197.0,193.57,197.0,10:15,stop,-98.01,-138.01,-138.01,23053.1,23254.75,no_event,INV1 condition MET (prev close 23053.1 <= 50DMA 23254.75); ADR 3.373
+2026-11-02,VEDL,LONG,skill_or_breakout,1,10:15,242.54,241.33,245.57,245.57,13:45,target,303.17,263.17,202.54,23053.1,23254.75,event_window,INV1 condition MET (prev close 23053.1 <= 50DMA 23254.75); ADR 3.06
