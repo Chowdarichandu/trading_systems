@@ -1,0 +1,283 @@
+#!/usr/bin/env python3
+"""PREMIUM-TAPE NIFTY ROUND 2 — THE RETEST TURN (spec: premium_tape_nifty_r2_SPEC.md).
+Data/contract/indicator machinery copied verbatim from premium_tape_nifty_build.py (Round 1).
+Control first: P1-X1 must reproduce 168 trades / -Rs75,995.75 exactly, else abort.
+Research only; writes premium_tape_nifty_r2_results.json + premium_tape_nifty_r2_trades.csv.
+"""
+import json, re, random, sys
+from pathlib import Path
+from datetime import date
+import numpy as np
+import pandas as pd
+
+TR = Path.home() / "workspace" / "trading"
+OI = TR / "oi_buildup_data"
+LOT, COST = 65, 220.0
+random.seed(20261114)
+np.random.seed(20261114)
+
+BAR_TIMES = [f"{9 + (15 + 5 * i) // 60:02d}:{(15 + 5 * i) % 60:02d}" for i in range(75)]
+def ti(t): return BAR_TIMES.index(t)
+I_OR_END = ti("09:40")
+I_SIG0 = ti("09:45")
+I_SIG1 = ti("15:10")
+I_ENTRY_MAX = ti("15:15")
+I_SQ = ti("15:20")
+I_EVENT_MAX = ti("14:20")   # last break-event bar
+I_WATCH_MAX = ti("14:25")   # last retest bar (entry by 14:30)
+WATCH_BARS = 12             # 60 minutes
+
+# ---------------------------------------------------------------- spot (strike selection only)
+spot = pd.read_csv(TR / "data/progressive/NIFTY/spot_5m.csv", parse_dates=["timestamp"])
+spot = spot.sort_values("timestamp").reset_index(drop=True)
+spot["date"] = spot["timestamp"].dt.date
+spot["time"] = spot["timestamp"].dt.strftime("%H:%M")
+spot_by_day = {}
+for d, g in spot.groupby("date"):
+    spot_by_day[d] = dict(zip(g["time"], g["close"]))
+
+# ---------------------------------------------------------------- premium store
+expiry_cal = sorted({re.match(r".*candles_NIFTY_\d+(?:CE|PE)_(\d{4}-\d{2}-\d{2})_", fn.name).group(1)
+                     for fn in OI.glob("candles_NIFTY_*.json")
+                     if re.match(r".*candles_NIFTY_\d+(?:CE|PE)_(\d{4}-\d{2}-\d{2})_", fn.name)})
+def weekly_expiry(day):
+    ds = day.isoformat()
+    return next((e for e in expiry_cal if e >= ds), None)
+
+_cache = {}
+def contract_bars(day_s, strike, typ, exp):
+    key = (day_s, strike, typ, exp)
+    if key in _cache: return _cache[key]
+    fn = OI / f"candles_NIFTY_{strike}{typ}_{exp}_{day_s}.json"
+    out = None
+    if fn.exists():
+        raw = json.load(open(fn))["data"]["candles"]
+        out = {}
+        for ts, o_, h_, l_, c_, v_, oi_ in raw:
+            out[ts[11:16]] = (float(o_), float(h_), float(l_), float(c_), float(v_))
+    _cache[key] = out
+    return out
+
+def available(bars):
+    return bars is not None and all(BAR_TIMES[j] in bars for j in range(0, I_SQ + 1))
+
+class ContractDay:
+    def __init__(self, bars):
+        idx = [j for j in range(75) if BAR_TIMES[j] in bars]
+        self.o = np.array([bars[BAR_TIMES[j]][0] for j in idx])
+        self.h = np.array([bars[BAR_TIMES[j]][1] for j in idx])
+        self.l = np.array([bars[BAR_TIMES[j]][2] for j in idx])
+        self.c = np.array([bars[BAR_TIMES[j]][3] for j in idx])
+        self.v = np.array([bars[BAR_TIMES[j]][4] for j in idx])
+        self.times = [BAR_TIMES[j] for j in idx]
+        tp = (self.h + self.l + self.c) / 3.0
+        if self.v.sum() > 0:
+            self.vwap = np.cumsum(tp * self.v) / np.cumsum(self.v)
+            self.vwap_proxy = False
+        else:
+            self.vwap = np.cumsum(tp) / np.arange(1, len(tp) + 1)
+            self.vwap_proxy = True
+        self.or_high = float(self.h[:I_OR_END + 1].max())
+        self.or_low = float(self.l[:I_OR_END + 1].min())
+
+    def p1_event(self):
+        """Round-1 P1 first trigger (control): first bar close > OR high AND close > VWAP."""
+        n = len(self.c)
+        for i in range(I_SIG0, I_SIG1 + 1):
+            if i >= n: break
+            if self.c[i] > self.or_high and self.c[i] > self.vwap[i]:
+                size = (self.c[i] - self.or_high) / self.or_high if self.or_high else 0.0
+                return i, size
+        return None
+
+    def pret(self):
+        """P-RET: first break event (09:45..14:20), then watch for a retest hold.
+        Returns dict(event_i, retest_j or None, expire_reason or None)."""
+        n = len(self.c)
+        ev = None
+        for i in range(I_SIG0, I_EVENT_MAX + 1):
+            if i >= n: break
+            if self.c[i] > self.or_high and self.c[i] > self.vwap[i]:
+                ev = i
+                break
+        if ev is None:
+            return None
+        last = min(ev + WATCH_BARS, I_WATCH_MAX)
+        for j in range(ev + 1, last + 1):
+            if self.l[j] <= self.vwap[j] and self.c[j] > self.vwap[j]:
+                return {"event_i": ev, "retest_j": j, "expire": None,
+                        "depth": float(self.vwap[j] - self.l[j])}
+            if self.c[j] <= self.vwap[j]:
+                return {"event_i": ev, "retest_j": None, "expire": "close_below_vwap"}
+        return {"event_i": ev, "retest_j": None, "expire": "window_end"}
+
+def simulate(cd, entry_i, exit_kind):
+    ep = float(cd.o[entry_i])
+    if exit_kind == "X1":
+        stop, tgt = ep - 50.0, ep + 90.0
+        for j in range(entry_i, I_ENTRY_MAX + 1):
+            if cd.l[j] <= stop: return ep, stop, "stop"
+            if cd.h[j] >= tgt: return ep, tgt, "target"
+        return ep, float(cd.o[I_SQ]), "sq1520"
+    else:
+        stop = ep - 60.0
+        for j in range(entry_i, I_ENTRY_MAX + 1):
+            if cd.l[j] <= stop: return ep, stop, "hardstop"
+            if cd.c[j] < cd.vwap[j]: return ep, float(cd.c[j]), "vwap_exit"
+        return ep, float(cd.o[I_SQ]), "sq1520"
+
+def metrics(trades):
+    if not trades:
+        return {"trades": 0, "total": 0.0, "wr": 0.0, "trade_days": 0, "rs_per_td": 0.0}
+    tot = sum(t["net"] for t in trades)
+    wins = sum(1 for t in trades if t["net"] > 0)
+    tdays = len({t["date"] for t in trades})
+    return {"trades": len(trades), "total": round(tot, 2), "wr": round(100 * wins / len(trades), 1),
+            "trade_days": tdays, "rs_per_td": round(tot / tdays, 2) if tdays else 0.0}
+
+def run_window(d0, d1):
+    days = sorted(d for d in spot_by_day if d0 <= d <= d1)
+    ctrl_trades, ret_trades, nc, skipped = [], [], {}, 0
+    stats = {"events": 0, "retests": 0, "expired_close_below_vwap": 0, "expired_window_end": 0}
+    day_side_avail = {}
+    for day in days:
+        ds = day.isoformat()
+        sday = spot_by_day[day]
+        if "09:15" not in sday:
+            skipped += 1
+            continue
+        strike = int(round(sday["09:15"] / 50.0) * 50)
+        exp = weekly_expiry(day)
+        p1_events = []   # (bar_i, -size, side_order, side, cd)
+        ret_holds = []   # (retest_j, -depth, side_order, side, cd, event_i)
+        for s_order, side in enumerate(("CE", "PE")):
+            bars = contract_bars(ds, strike, side, exp)
+            if bars is None:
+                nc["nc_no_file"] = nc.get("nc_no_file", 0) + 1
+                continue
+            if not available(bars):
+                nc["nc_partial"] = nc.get("nc_partial", 0) + 1
+                continue
+            cd = ContractDay(bars)
+            day_side_avail[(ds, side)] = cd
+            if cd.vwap_proxy:
+                nc["vwap_proxy_dayside"] = nc.get("vwap_proxy_dayside", 0) + 1
+            p1 = cd.p1_event()
+            if p1 is not None:
+                p1_events.append((p1[0], -p1[1], s_order, side, cd))
+            pr = cd.pret()
+            if pr is not None:
+                stats["events"] += 1
+                if pr["retest_j"] is not None:
+                    stats["retests"] += 1
+                    ret_holds.append((pr["retest_j"], -pr["depth"], s_order, side, cd, pr["event_i"]))
+                elif pr["expire"] == "close_below_vwap":
+                    stats["expired_close_below_vwap"] += 1
+                else:
+                    stats["expired_window_end"] += 1
+        # CONTROL: Round-1 P1 book, X1 only
+        if p1_events:
+            bi, _ns, _so, side, cd = min(p1_events, key=lambda e: (e[0], e[1], e[2]))
+            ep, xp, reason = simulate(cd, bi + 1, "X1")
+            ctrl_trades.append({"date": ds, "side": side, "strike": strike, "expiry": exp,
+                                "signal_time": BAR_TIMES[bi], "entry_time": BAR_TIMES[bi + 1],
+                                "entry": ep, "exit_price": xp, "exit_reason": reason,
+                                "net": round((xp - ep) * LOT - COST, 2)})
+        # P-RET day trade: earliest retest hold across contracts
+        if ret_holds:
+            rj, _nd, _so, side, cd, ev_i = min(ret_holds, key=lambda e: (e[0], e[1], e[2]))
+            for xk in ("X1", "X2"):
+                ep, xp, reason = simulate(cd, rj + 1, xk)
+                ret_trades.append({"exit": xk, "date": ds, "side": side, "strike": strike,
+                                   "expiry": exp, "event_time": BAR_TIMES[ev_i],
+                                   "signal_time": BAR_TIMES[rj], "entry_time": BAR_TIMES[rj + 1],
+                                   "entry": ep, "exit_price": xp, "exit_reason": reason,
+                                   "net": round((xp - ep) * LOT - COST, 2),
+                                   "_signal_idx": rj, "_entry_idx": rj + 1})
+    return days, ctrl_trades, ret_trades, nc, skipped, stats, day_side_avail
+
+# ---------------------------------------------------------------- gate run
+g_days, g_ctrl, g_ret, g_nc, g_skip, g_stats, avail = run_window(date(2026, 1, 1), date(2026, 10, 31))
+ctrl_full = metrics(g_ctrl)
+print("CONTROL P1-X1:", ctrl_full)
+if not (ctrl_full["trades"] == 168 and abs(ctrl_full["total"] - (-75995.75)) < 0.01):
+    print("CONTROL MISMATCH — aborting before scoring the turn.")
+    sys.exit(1)
+print("CONTROL OK — P1-X1 reproduced exactly (168 trades, -Rs75,995.75).")
+
+def ret_tables(trades):
+    out = {}
+    for xk in ("X1", "X2"):
+        sel = [t for t in trades if t["exit"] == xk]
+        out[f"P-RET-{xk}"] = {
+            "jan_jun": metrics([t for t in sel if t["date"] <= "2026-06-30"]),
+            "jul_oct": metrics([t for t in sel if t["date"] >= "2026-07-01"]),
+            "full": metrics(sel),
+        }
+    return out
+
+tables = ret_tables(g_ret)
+best_key = max(tables, key=lambda k: tables[k]["full"]["total"])
+best_exit = best_key.split("-")[-1]
+best_trades = [t for t in g_ret if t["exit"] == best_exit]
+
+# timing audit: entry = retest bar + 1 & stored open; independent VWAP recompute at sampled retest bars
+audit = {"entry_alignment_ok": True, "recompute_checked": 0, "recompute_ok": True, "max_vwap_diff": 0.0}
+for t in g_ret:
+    if t["_entry_idx"] != t["_signal_idx"] + 1:
+        audit["entry_alignment_ok"] = False
+for t in best_trades[:25]:
+    ds, side, bi = t["date"], t["side"], t["_signal_idx"]
+    fn = OI / f"candles_NIFTY_{t['strike']}{side}_{t['expiry']}_{ds}.json"
+    raw = sorted(json.load(open(fn))["data"]["candles"], key=lambda r: r[0])
+    rows = [r for r in raw if r[0][11:16] <= BAR_TIMES[bi]]
+    tpv = [((r[2] + r[3] + r[4]) / 3.0) * r[5] for r in rows]
+    vv = [r[5] for r in rows]
+    vwap2 = sum(tpv) / sum(vv) if sum(vv) > 0 else sum((r[2] + r[3] + r[4]) / 3.0 for r in rows) / len(rows)
+    cd = avail.get((ds, side))
+    if cd is None: continue
+    audit["max_vwap_diff"] = max(audit["max_vwap_diff"], abs(float(cd.vwap[bi]) - vwap2))
+    audit["recompute_checked"] += 1
+audit["recompute_ok"] = audit["max_vwap_diff"] < 0.01
+
+# random-entry placebo on the best exit row
+avail_list = list(avail.values())
+cnt = len(best_trades)
+draws = []
+for _ in range(1000):
+    tot = 0.0
+    for _ in range(cnt):
+        cd = avail_list[random.randrange(len(avail_list))]
+        ei = random.randrange(1, I_ENTRY_MAX + 1)
+        ep, xp, _r = simulate(cd, ei, best_exit)
+        tot += (xp - ep) * LOT - COST
+    draws.append(round(tot, 2))
+real_tot = tables[best_key]["full"]["total"]
+pct = sum(1 for v in draws if v <= real_tot) / len(draws) if cnt else 0.0
+placebo = {"book": best_key, "iterations": 1000, "trades_per_draw": cnt,
+           "percentile": round(pct, 4), "mean_total": round(float(np.mean(draws)), 2),
+           "p95_total": round(float(np.percentile(draws, 95)), 2)}
+
+# ---------------------------------------------------------------- November CF
+n_days, _nc_ctrl, n_ret, n_nc, n_skip, n_stats, _na = run_window(date(2026, 11, 2), date(2026, 11, 13))
+nov = {"days": len(n_days), "nc": n_nc, "skipped_no_spot0915": n_skip,
+       "selectivity": n_stats, "tables": ret_tables(n_ret)}
+
+results = {
+    "book": "PREMIUM-TAPE NIFTY R2 (P-RET)",
+    "basis": "paper, buying only, 1 lot (65), Rs220/trade",
+    "control_p1_x1_full": ctrl_full,
+    "gate_days": len(g_days), "gate_nc": g_nc, "gate_skipped_no_spot0915": g_skip,
+    "selectivity_gate": g_stats,
+    "tables": tables, "best_full_year": best_key,
+    "timing_audit": audit, "placebo": placebo,
+    "november_cf": nov,
+    "trades": [{k: v for k, v in t.items() if not k.startswith("_")} for t in g_ret],
+    "november_trades": [{k: v for k, v in t.items() if not k.startswith("_")} for t in n_ret],
+}
+json.dump(results, open(TR / "premium_tape_nifty_r2_results.json", "w"), indent=1)
+pd.DataFrame([{k: v for k, v in t.items() if not k.startswith("_")} for t in g_ret]).to_csv(
+    TR / "premium_tape_nifty_r2_trades.csv", index=False)
+print(json.dumps({"gate_days": len(g_days), "gate_nc": g_nc, "skipped": g_skip,
+                  "selectivity": g_stats, "tables": tables, "best": best_key,
+                  "audit": audit, "placebo": placebo, "november": nov}, indent=1))

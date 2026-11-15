@@ -1,0 +1,2703 @@
+[
+ {
+  "cycle": "R2-01",
+  "label": "F4 band [0.4,0.9) @10:00",
+  "verdict": false,
+  "note": "placebos: mirror 161959.01, decoy-band 157550.09",
+  "legs": {
+   "a_combined_rises": false,
+   "b_2025_no_fall": true,
+   "c_2026_no_fall": false,
+   "d_cells_positive": true,
+   "e_extop3": true,
+   "f_no_green_month_flips": true,
+   "flip_detail": [],
+   "g_no_half_flips": true,
+   "h_beats_placebos": true,
+   "i_timing_clean": true
+  },
+  "sums": {
+   "base_combined": 263427.45,
+   "variant_combined": 255471.71
+  },
+  "base": {
+   "2025": {
+    "total": 46506.06,
+    "jan_oct": 47884.79,
+    "ex_top3": 5967.74,
+    "trades": 718
+   },
+   "2026": {
+    "total": 216921.39,
+    "jan_oct": 216921.39,
+    "ex_top3": 87402.25,
+    "trades": 632
+   }
+  },
+  "var": {
+   "2025": {
+    "total": 58993.06,
+    "jan_oct": 60371.79,
+    "ex_top3": 14315.15,
+    "trades": 774
+   },
+   "2026": {
+    "total": 196478.65,
+    "jan_oct": 196478.65,
+    "ex_top3": 82468.12,
+    "trades": 698
+   }
+  },
+  "base_cells": {
+   "2025": {
+    "DOWN": 32605.74,
+    "FLAT": 2882.57,
+    "UP": 11017.75
+   },
+   "2026": {
+    "DOWN": 193697.0,
+    "FLAT": 7062.9,
+    "UP": 16161.49
+   }
+  },
+  "var_cells": {
+   "2025": {
+    "DOWN": 42015.81,
+    "FLAT": 5959.5,
+    "UP": 11017.75
+   },
+   "2026": {
+    "DOWN": 173775.13,
+    "FLAT": 6542.03,
+    "UP": 16161.49
+   }
+  },
+  "cell": {
+   "meas": "10:00",
+   "lo": 0.4,
+   "hi": 0.9,
+   "excl": true
+  },
+  "var_f4_trades": {
+   "2025": 302,
+   "2026": 421
+  }
+ },
+ {
+  "cycle": "R2-02",
+  "label": "F4 band [0.6,1.2) @10:00",
+  "verdict": false,
+  "note": "placebos: mirror 156683.71, decoy-band 157550.09",
+  "legs": {
+   "a_combined_rises": false,
+   "b_2025_no_fall": false,
+   "c_2026_no_fall": false,
+   "d_cells_positive": true,
+   "e_extop3": false,
+   "f_no_green_month_flips": false,
+   "flip_detail": [
+    "2025-03:1687.03->-744.21"
+   ],
+   "g_no_half_flips": true,
+   "h_beats_placebos": true,
+   "i_timing_clean": true
+  },
+  "sums": {
+   "base_combined": 263427.45,
+   "variant_combined": 212033.06
+  },
+  "base": {
+   "2025": {
+    "total": 46506.06,
+    "jan_oct": 47884.79,
+    "ex_top3": 5967.74,
+    "trades": 718
+   },
+   "2026": {
+    "total": 216921.39,
+    "jan_oct": 216921.39,
+    "ex_top3": 87402.25,
+    "trades": 632
+   }
+  },
+  "var": {
+   "2025": {
+    "total": 39627.88,
+    "jan_oct": 41006.61,
+    "ex_top3": 4944.2,
+    "trades": 732
+   },
+   "2026": {
+    "total": 172405.18,
+    "jan_oct": 172405.18,
+    "ex_top3": 66850.75,
+    "trades": 599
+   }
+  },
+  "base_cells": {
+   "2025": {
+    "DOWN": 32605.74,
+    "FLAT": 2882.57,
+    "UP": 11017.75
+   },
+   "2026": {
+    "DOWN": 193697.0,
+    "FLAT": 7062.9,
+    "UP": 16161.49
+   }
+  },
+  "var_cells": {
+   "2025": {
+    "DOWN": 28292.99,
+    "FLAT": 317.14,
+    "UP": 11017.75
+   },
+   "2026": {
+    "DOWN": 145408.59,
+    "FLAT": 10835.1,
+    "UP": 16161.49
+   }
+  },
+  "cell": {
+   "meas": "10:00",
+   "lo": 0.6,
+   "hi": 1.2,
+   "excl": true
+  },
+  "var_f4_trades": {
+   "2025": 260,
+   "2026": 322
+  }
+ },
+ {
+  "cycle": "R2-03",
+  "label": "F4 band [0.5,1.0) @09:45",
+  "verdict": false,
+  "note": "placebos: mirror 174663.23, decoy-band 160670.2",
+  "legs": {
+   "a_combined_rises": false,
+   "b_2025_no_fall": true,
+   "c_2026_no_fall": false,
+   "d_cells_positive": false,
+   "e_extop3": false,
+   "f_no_green_month_flips": false,
+   "flip_detail": [
+    "2025-03:1687.03->-2237.92",
+    "2026-06:9341.38->-4449.02",
+    "2026-09:15771.88->-12304.69"
+   ],
+   "g_no_half_flips": true,
+   "h_beats_placebos": false,
+   "i_timing_clean": true
+  },
+  "sums": {
+   "base_combined": 263427.45,
+   "variant_combined": 165067.66
+  },
+  "base": {
+   "2025": {
+    "total": 46506.06,
+    "jan_oct": 47884.79,
+    "ex_top3": 5967.74,
+    "trades": 718
+   },
+   "2026": {
+    "total": 216921.39,
+    "jan_oct": 216921.39,
+    "ex_top3": 87402.25,
+    "trades": 632
+   }
+  },
+  "var": {
+   "2025": {
+    "total": 63639.56,
+    "jan_oct": 65018.29,
+    "ex_top3": 15796.54,
+    "trades": 710
+   },
+   "2026": {
+    "total": 101428.1,
+    "jan_oct": 101428.1,
+    "ex_top3": 33728.36,
+    "trades": 565
+   }
+  },
+  "base_cells": {
+   "2025": {
+    "DOWN": 32605.74,
+    "FLAT": 2882.57,
+    "UP": 11017.75
+   },
+   "2026": {
+    "DOWN": 193697.0,
+    "FLAT": 7062.9,
+    "UP": 16161.49
+   }
+  },
+  "var_cells": {
+   "2025": {
+    "DOWN": 53560.75,
+    "FLAT": -938.94,
+    "UP": 11017.75
+   },
+   "2026": {
+    "DOWN": 83233.34,
+    "FLAT": 2033.27,
+    "UP": 16161.49
+   }
+  },
+  "cell": {
+   "meas": "09:45",
+   "lo": 0.5,
+   "hi": 1.0,
+   "excl": true
+  },
+  "var_f4_trades": {
+   "2025": 238,
+   "2026": 288
+  }
+ },
+ {
+  "cycle": "R2-04",
+  "label": "F4 band [0.4,0.9) @09:45",
+  "verdict": false,
+  "note": "placebos: mirror 184295.41, decoy-band 160670.2",
+  "legs": {
+   "a_combined_rises": false,
+   "b_2025_no_fall": true,
+   "c_2026_no_fall": false,
+   "d_cells_positive": false,
+   "e_extop3": false,
+   "f_no_green_month_flips": false,
+   "flip_detail": [
+    "2026-06:9341.38->-2989.52",
+    "2026-09:15771.88->-9042.96"
+   ],
+   "g_no_half_flips": true,
+   "h_beats_placebos": false,
+   "i_timing_clean": true
+  },
+  "sums": {
+   "base_combined": 263427.45,
+   "variant_combined": 158052.68
+  },
+  "base": {
+   "2025": {
+    "total": 46506.06,
+    "jan_oct": 47884.79,
+    "ex_top3": 5967.74,
+    "trades": 718
+   },
+   "2026": {
+    "total": 216921.39,
+    "jan_oct": 216921.39,
+    "ex_top3": 87402.25,
+    "trades": 632
+   }
+  },
+  "var": {
+   "2025": {
+    "total": 64571.51,
+    "jan_oct": 65950.24,
+    "ex_top3": 16264.2,
+    "trades": 762
+   },
+   "2026": {
+    "total": 93481.17,
+    "jan_oct": 93481.17,
+    "ex_top3": 37417.38,
+    "trades": 645
+   }
+  },
+  "base_cells": {
+   "2025": {
+    "DOWN": 32605.74,
+    "FLAT": 2882.57,
+    "UP": 11017.75
+   },
+   "2026": {
+    "DOWN": 193697.0,
+    "FLAT": 7062.9,
+    "UP": 16161.49
+   }
+  },
+  "var_cells": {
+   "2025": {
+    "DOWN": 52696.87,
+    "FLAT": 856.89,
+    "UP": 11017.75
+   },
+   "2026": {
+    "DOWN": 80253.51,
+    "FLAT": -2933.83,
+    "UP": 16161.49
+   }
+  },
+  "cell": {
+   "meas": "09:45",
+   "lo": 0.4,
+   "hi": 0.9,
+   "excl": true
+  },
+  "var_f4_trades": {
+   "2025": 290,
+   "2026": 368
+  }
+ },
+ {
+  "cycle": "R2-05",
+  "label": "F4 band [0.6,1.2) @09:45",
+  "verdict": false,
+  "note": "placebos: mirror 174096.3, decoy-band 160670.2",
+  "legs": {
+   "a_combined_rises": false,
+   "b_2025_no_fall": true,
+   "c_2026_no_fall": false,
+   "d_cells_positive": false,
+   "e_extop3": false,
+   "f_no_green_month_flips": false,
+   "flip_detail": [
+    "2025-03:1687.03->-3747.42",
+    "2026-06:9341.38->-3862.27",
+    "2026-09:15771.88->-9256.91"
+   ],
+   "g_no_half_flips": true,
+   "h_beats_placebos": false,
+   "i_timing_clean": true
+  },
+  "sums": {
+   "base_combined": 263427.45,
+   "variant_combined": 155648.09
+  },
+  "base": {
+   "2025": {
+    "total": 46506.06,
+    "jan_oct": 47884.79,
+    "ex_top3": 5967.74,
+    "trades": 718
+   },
+   "2026": {
+    "total": 216921.39,
+    "jan_oct": 216921.39,
+    "ex_top3": 87402.25,
+    "trades": 632
+   }
+  },
+  "var": {
+   "2025": {
+    "total": 58475.87,
+    "jan_oct": 59854.6,
+    "ex_top3": 12919.79,
+    "trades": 676
+   },
+   "2026": {
+    "total": 97172.22,
+    "jan_oct": 97172.22,
+    "ex_top3": 36624.84,
+    "trades": 497
+   }
+  },
+  "base_cells": {
+   "2025": {
+    "DOWN": 32605.74,
+    "FLAT": 2882.57,
+    "UP": 11017.75
+   },
+   "2026": {
+    "DOWN": 193697.0,
+    "FLAT": 7062.9,
+    "UP": 16161.49
+   }
+  },
+  "var_cells": {
+   "2025": {
+    "DOWN": 53061.42,
+    "FLAT": -5603.3,
+    "UP": 11017.75
+   },
+   "2026": {
+    "DOWN": 79245.07,
+    "FLAT": 1765.66,
+    "UP": 16161.49
+   }
+  },
+  "cell": {
+   "meas": "09:45",
+   "lo": 0.6,
+   "hi": 1.2,
+   "excl": true
+  },
+  "var_f4_trades": {
+   "2025": 204,
+   "2026": 220
+  }
+ },
+ {
+  "cycle": "R2-06",
+  "label": "F4 EXCL_DIR off, band [0.5,1.0) @10:00",
+  "verdict": false,
+  "note": "placebos: mirror 158152.6, decoy-band 155776.12",
+  "legs": {
+   "a_combined_rises": false,
+   "b_2025_no_fall": true,
+   "c_2026_no_fall": false,
+   "d_cells_positive": true,
+   "e_extop3": false,
+   "f_no_green_month_flips": false,
+   "flip_detail": [
+    "2025-03:1687.03->-3152.83"
+   ],
+   "g_no_half_flips": true,
+   "h_beats_placebos": true,
+   "i_timing_clean": true
+  },
+  "sums": {
+   "base_combined": 263427.45,
+   "variant_combined": 252917.12
+  },
+  "base": {
+   "2025": {
+    "total": 46506.06,
+    "jan_oct": 47884.79,
+    "ex_top3": 5967.74,
+    "trades": 718
+   },
+   "2026": {
+    "total": 216921.39,
+    "jan_oct": 216921.39,
+    "ex_top3": 87402.25,
+    "trades": 632
+   }
+  },
+  "var": {
+   "2025": {
+    "total": 49925.45,
+    "jan_oct": 51819.1,
+    "ex_top3": 6569.5,
+    "trades": 823
+   },
+   "2026": {
+    "total": 202991.67,
+    "jan_oct": 202991.67,
+    "ex_top3": 73472.53,
+    "trades": 774
+   }
+  },
+  "base_cells": {
+   "2025": {
+    "DOWN": 32605.74,
+    "FLAT": 2882.57,
+    "UP": 11017.75
+   },
+   "2026": {
+    "DOWN": 193697.0,
+    "FLAT": 7062.9,
+    "UP": 16161.49
+   }
+  },
+  "var_cells": {
+   "2025": {
+    "DOWN": 34490.61,
+    "FLAT": 4417.09,
+    "UP": 11017.75
+   },
+   "2026": {
+    "DOWN": 184925.09,
+    "FLAT": 1905.09,
+    "UP": 16161.49
+   }
+  },
+  "cell": {
+   "meas": "10:00",
+   "lo": 0.5,
+   "hi": 1.0,
+   "excl": false
+  },
+  "var_f4_trades": {
+   "2025": 351,
+   "2026": 497
+  }
+ },
+ {
+  "cycle": "R2-07",
+  "label": "INV-LONG permutation grid (11 cells)",
+  "verdict": false,
+  "note": "INV-LONG: 2 of 11 cells pass the full gate",
+  "legs": {
+   "a_combined_rises": false,
+   "b_2025_no_fall": true,
+   "c_2026_no_fall": true,
+   "d_cells_positive": true,
+   "e_extop3": true,
+   "f_no_green_month_flips": true,
+   "flip_detail": [],
+   "g_no_half_flips": true,
+   "h_beats_placebos": true,
+   "i_timing_clean": true
+  },
+  "sums": {
+   "base_combined": 263427.45,
+   "variant_combined": 263427.45
+  },
+  "base": {
+   "2025": {
+    "total": 46506.06,
+    "jan_oct": 47884.79,
+    "ex_top3": 5967.74,
+    "trades": 718
+   },
+   "2026": {
+    "total": 216921.39,
+    "jan_oct": 216921.39,
+    "ex_top3": 87402.25,
+    "trades": 632
+   }
+  },
+  "var": {
+   "2025": {
+    "total": 46506.06,
+    "jan_oct": 47884.79,
+    "ex_top3": 5967.74,
+    "trades": 718
+   },
+   "2026": {
+    "total": 216921.39,
+    "jan_oct": 216921.39,
+    "ex_top3": 87402.25,
+    "trades": 632
+   }
+  },
+  "base_cells": {
+   "2025": {
+    "DOWN": 32605.74,
+    "FLAT": 2882.57,
+    "UP": 11017.75
+   },
+   "2026": {
+    "DOWN": 193697.0,
+    "FLAT": 7062.9,
+    "UP": 16161.49
+   }
+  },
+  "var_cells": {
+   "2025": {
+    "DOWN": 32605.74,
+    "FLAT": 2882.57,
+    "UP": 11017.75
+   },
+   "2026": {
+    "DOWN": 193697.0,
+    "FLAT": 7062.9,
+    "UP": 16161.49
+   }
+  },
+  "cells": [
+   {
+    "adr": 2.5,
+    "round_max": 2,
+    "cutoff": "10:30",
+    "verdict": "FAIL",
+    "combined": 253181.48,
+    "jo2025": 52744.2,
+    "jo2026": 201816.01,
+    "trades": {
+     "2025": 787,
+     "2026": 798
+    },
+    "failed_legs": [
+     "a_combined_rises",
+     "c_2026_no_fall",
+     "e_extop3",
+     "f_no_green_month_flips"
+    ],
+    "placebos": [
+     184635.69,
+     213794.89
+    ]
+   },
+   {
+    "adr": 2.5,
+    "round_max": 2,
+    "cutoff": "11:00",
+    "verdict": "FAIL",
+    "combined": 253887.09,
+    "jo2025": 55799.33,
+    "jo2026": 199466.49,
+    "trades": {
+     "2025": 841,
+     "2026": 875
+    },
+    "failed_legs": [
+     "a_combined_rises",
+     "c_2026_no_fall",
+     "e_extop3",
+     "f_no_green_month_flips"
+    ],
+    "placebos": [
+     192114.43,
+     209318.91
+    ]
+   },
+   {
+    "adr": 2.5,
+    "round_max": 3,
+    "cutoff": "10:30",
+    "verdict": "FAIL",
+    "combined": 253932.91,
+    "jo2025": 52113.4,
+    "jo2026": 203198.24,
+    "trades": {
+     "2025": 789,
+     "2026": 800
+    },
+    "failed_legs": [
+     "a_combined_rises",
+     "c_2026_no_fall",
+     "e_extop3",
+     "f_no_green_month_flips"
+    ],
+    "placebos": [
+     169593.78,
+     218015.62
+    ]
+   },
+   {
+    "adr": 2.5,
+    "round_max": 3,
+    "cutoff": "11:00",
+    "verdict": "FAIL",
+    "combined": 256467.72,
+    "jo2025": 56268.01,
+    "jo2026": 201578.44,
+    "trades": {
+     "2025": 863,
+     "2026": 893
+    },
+    "failed_legs": [
+     "a_combined_rises",
+     "c_2026_no_fall",
+     "e_extop3",
+     "f_no_green_month_flips"
+    ],
+    "placebos": [
+     174504.45,
+     216556.46
+    ]
+   },
+   {
+    "adr": 3.0,
+    "round_max": 2,
+    "cutoff": "11:00",
+    "verdict": "PASS",
+    "combined": 270864.83,
+    "jo2025": 50965.2,
+    "jo2026": 221278.36,
+    "trades": {
+     "2025": 757,
+     "2026": 662
+    },
+    "failed_legs": [],
+    "placebos": [
+     191635.8,
+     211576.82
+    ]
+   },
+   {
+    "adr": 3.0,
+    "round_max": 3,
+    "cutoff": "10:30",
+    "verdict": "FAIL",
+    "combined": 263427.45,
+    "jo2025": 47884.79,
+    "jo2026": 216921.39,
+    "trades": {
+     "2025": 718,
+     "2026": 632
+    },
+    "failed_legs": [
+     "a_combined_rises"
+    ],
+    "placebos": [
+     188111.21,
+     219441.95
+    ]
+   },
+   {
+    "adr": 3.0,
+    "round_max": 3,
+    "cutoff": "11:00",
+    "verdict": "PASS",
+    "combined": 274683.37,
+    "jo2025": 54505.05,
+    "jo2026": 221557.05,
+    "trades": {
+     "2025": 775,
+     "2026": 673
+    },
+    "failed_legs": [],
+    "placebos": [
+     180365.56,
+     220390.77
+    ]
+   },
+   {
+    "adr": 3.5,
+    "round_max": 2,
+    "cutoff": "10:30",
+    "verdict": "FAIL",
+    "combined": 233824.71,
+    "jo2025": 43289.8,
+    "jo2026": 191913.64,
+    "trades": {
+     "2025": 660,
+     "2026": 571
+    },
+    "failed_legs": [
+     "a_combined_rises",
+     "b_2025_no_fall",
+     "c_2026_no_fall",
+     "e_extop3",
+     "f_no_green_month_flips"
+    ],
+    "placebos": [
+     191095.07,
+     211157.9
+    ]
+   },
+   {
+    "adr": 3.5,
+    "round_max": 2,
+    "cutoff": "11:00",
+    "verdict": "FAIL",
+    "combined": 236387.13,
+    "jo2025": 44093.74,
+    "jo2026": 193672.12,
+    "trades": {
+     "2025": 682,
+     "2026": 587
+    },
+    "failed_legs": [
+     "a_combined_rises",
+     "b_2025_no_fall",
+     "c_2026_no_fall",
+     "e_extop3",
+     "f_no_green_month_flips"
+    ],
+    "placebos": [
+     181319.81,
+     211269.49
+    ]
+   },
+   {
+    "adr": 3.5,
+    "round_max": 3,
+    "cutoff": "10:30",
+    "verdict": "FAIL",
+    "combined": 233824.71,
+    "jo2025": 43289.8,
+    "jo2026": 191913.64,
+    "trades": {
+     "2025": 660,
+     "2026": 571
+    },
+    "failed_legs": [
+     "a_combined_rises",
+     "b_2025_no_fall",
+     "c_2026_no_fall",
+     "e_extop3",
+     "f_no_green_month_flips"
+    ],
+    "placebos": [
+     187676.4,
+     213369.51
+    ]
+   },
+   {
+    "adr": 3.5,
+    "round_max": 3,
+    "cutoff": "11:00",
+    "verdict": "FAIL",
+    "combined": 235422.06,
+    "jo2025": 42797.6,
+    "jo2026": 194003.19,
+    "trades": {
+     "2025": 694,
+     "2026": 595
+    },
+    "failed_legs": [
+     "a_combined_rises",
+     "b_2025_no_fall",
+     "c_2026_no_fall",
+     "e_extop3",
+     "f_no_green_month_flips"
+    ],
+    "placebos": [
+     176249.53,
+     216600.25
+    ]
+   }
+  ],
+  "grid_comp": "INV-LONG"
+ },
+ {
+  "cycle": "R2-08",
+  "label": "INV-ABOVE permutation grid (11 cells)",
+  "verdict": false,
+  "note": "INV-ABOVE: 0 of 11 cells pass the full gate",
+  "legs": {
+   "a_combined_rises": false,
+   "b_2025_no_fall": true,
+   "c_2026_no_fall": true,
+   "d_cells_positive": true,
+   "e_extop3": true,
+   "f_no_green_month_flips": true,
+   "flip_detail": [],
+   "g_no_half_flips": true,
+   "h_beats_placebos": true,
+   "i_timing_clean": true
+  },
+  "sums": {
+   "base_combined": 274683.37,
+   "variant_combined": 274683.37
+  },
+  "base": {
+   "2025": {
+    "total": 53126.32,
+    "jan_oct": 54505.05,
+    "ex_top3": 7944.51,
+    "trades": 775
+   },
+   "2026": {
+    "total": 221557.05,
+    "jan_oct": 221557.05,
+    "ex_top3": 88534.34,
+    "trades": 673
+   }
+  },
+  "var": {
+   "2025": {
+    "total": 53126.32,
+    "jan_oct": 54505.05,
+    "ex_top3": 7944.51,
+    "trades": 775
+   },
+   "2026": {
+    "total": 221557.05,
+    "jan_oct": 221557.05,
+    "ex_top3": 88534.34,
+    "trades": 673
+   }
+  },
+  "base_cells": {
+   "2025": {
+    "DOWN": 39226.0,
+    "FLAT": 2882.57,
+    "UP": 11017.75
+   },
+   "2026": {
+    "DOWN": 198332.66,
+    "FLAT": 7062.9,
+    "UP": 16161.49
+   }
+  },
+  "var_cells": {
+   "2025": {
+    "DOWN": 39226.0,
+    "FLAT": 2882.57,
+    "UP": 11017.75
+   },
+   "2026": {
+    "DOWN": 198332.66,
+    "FLAT": 7062.9,
+    "UP": 16161.49
+   }
+  },
+  "cells": [
+   {
+    "adr": 2.5,
+    "round_max": 2,
+    "cutoff": "10:30",
+    "verdict": "FAIL",
+    "combined": 272437.17,
+    "jo2025": 55577.56,
+    "jo2026": 220491.27,
+    "trades": {
+     "2025": 882,
+     "2026": 720
+    },
+    "failed_legs": [
+     "a_combined_rises",
+     "b_2025_no_fall",
+     "c_2026_no_fall",
+     "d_cells_positive",
+     "e_extop3",
+     "h_beats_placebos"
+    ],
+    "placebos": [
+     246842.18,
+     298853.86
+    ]
+   },
+   {
+    "adr": 2.5,
+    "round_max": 2,
+    "cutoff": "11:00",
+    "verdict": "FAIL",
+    "combined": 261828.81,
+    "jo2025": 56824.19,
+    "jo2026": 208214.25,
+    "trades": {
+     "2025": 937,
+     "2026": 748
+    },
+    "failed_legs": [
+     "a_combined_rises",
+     "c_2026_no_fall",
+     "d_cells_positive",
+     "e_extop3",
+     "f_no_green_month_flips",
+     "h_beats_placebos"
+    ],
+    "placebos": [
+     237070.12,
+     297895.26
+    ]
+   },
+   {
+    "adr": 2.5,
+    "round_max": 3,
+    "cutoff": "10:30",
+    "verdict": "FAIL",
+    "combined": 275817.05,
+    "jo2025": 59350.87,
+    "jo2026": 220429.61,
+    "trades": {
+     "2025": 903,
+     "2026": 724
+    },
+    "failed_legs": [
+     "c_2026_no_fall",
+     "d_cells_positive",
+     "e_extop3",
+     "h_beats_placebos"
+    ],
+    "placebos": [
+     250889.09,
+     304313.97
+    ]
+   },
+   {
+    "adr": 2.5,
+    "round_max": 3,
+    "cutoff": "11:00",
+    "verdict": "FAIL",
+    "combined": 267534.76,
+    "jo2025": 60525.6,
+    "jo2026": 207847.26,
+    "trades": {
+     "2025": 983,
+     "2026": 757
+    },
+    "failed_legs": [
+     "a_combined_rises",
+     "c_2026_no_fall",
+     "d_cells_positive",
+     "e_extop3",
+     "f_no_green_month_flips",
+     "h_beats_placebos"
+    ],
+    "placebos": [
+     236150.22,
+     305396.6
+    ]
+   },
+   {
+    "adr": 3.0,
+    "round_max": 2,
+    "cutoff": "11:00",
+    "verdict": "FAIL",
+    "combined": 268845.18,
+    "jo2025": 58220.46,
+    "jo2026": 213283.71,
+    "trades": {
+     "2025": 809,
+     "2026": 685
+    },
+    "failed_legs": [
+     "a_combined_rises",
+     "c_2026_no_fall",
+     "e_extop3",
+     "f_no_green_month_flips",
+     "h_beats_placebos"
+    ],
+    "placebos": [
+     264509.75,
+     318494.8
+    ]
+   },
+   {
+    "adr": 3.0,
+    "round_max": 3,
+    "cutoff": "10:30",
+    "verdict": "FAIL",
+    "combined": 279577.14,
+    "jo2025": 59792.25,
+    "jo2026": 221495.39,
+    "trades": {
+     "2025": 793,
+     "2026": 677
+    },
+    "failed_legs": [
+     "c_2026_no_fall",
+     "h_beats_placebos"
+    ],
+    "placebos": [
+     269553.65,
+     317808.22
+    ]
+   },
+   {
+    "adr": 3.0,
+    "round_max": 3,
+    "cutoff": "11:00",
+    "verdict": "FAIL",
+    "combined": 276757.24,
+    "jo2025": 63650.41,
+    "jo2026": 213741.29,
+    "trades": {
+     "2025": 845,
+     "2026": 691
+    },
+    "failed_legs": [
+     "c_2026_no_fall",
+     "e_extop3",
+     "f_no_green_month_flips",
+     "h_beats_placebos"
+    ],
+    "placebos": [
+     260683.27,
+     328119.05
+    ]
+   },
+   {
+    "adr": 3.5,
+    "round_max": 2,
+    "cutoff": "10:30",
+    "verdict": "FAIL",
+    "combined": 269017.42,
+    "jo2025": 51964.23,
+    "jo2026": 217201.34,
+    "trades": {
+     "2025": 693,
+     "2026": 645
+    },
+    "failed_legs": [
+     "a_combined_rises",
+     "b_2025_no_fall",
+     "c_2026_no_fall",
+     "e_extop3",
+     "h_beats_placebos"
+    ],
+    "placebos": [
+     259134.85,
+     288205.58
+    ]
+   },
+   {
+    "adr": 3.5,
+    "round_max": 2,
+    "cutoff": "11:00",
+    "verdict": "FAIL",
+    "combined": 269238.56,
+    "jo2025": 52455.87,
+    "jo2026": 217201.34,
+    "trades": {
+     "2025": 707,
+     "2026": 645
+    },
+    "failed_legs": [
+     "a_combined_rises",
+     "b_2025_no_fall",
+     "c_2026_no_fall",
+     "e_extop3",
+     "f_no_green_month_flips",
+     "h_beats_placebos"
+    ],
+    "placebos": [
+     258192.59,
+     288318.49
+    ]
+   },
+   {
+    "adr": 3.5,
+    "round_max": 3,
+    "cutoff": "10:30",
+    "verdict": "FAIL",
+    "combined": 270819.89,
+    "jo2025": 53228.05,
+    "jo2026": 217859.03,
+    "trades": {
+     "2025": 704,
+     "2026": 646
+    },
+    "failed_legs": [
+     "a_combined_rises",
+     "b_2025_no_fall",
+     "c_2026_no_fall",
+     "e_extop3",
+     "h_beats_placebos"
+    ],
+    "placebos": [
+     259611.94,
+     293454.96
+    ]
+   },
+   {
+    "adr": 3.5,
+    "round_max": 3,
+    "cutoff": "11:00",
+    "verdict": "FAIL",
+    "combined": 274249.27,
+    "jo2025": 55231.87,
+    "jo2026": 218592.34,
+    "trades": {
+     "2025": 729,
+     "2026": 647
+    },
+    "failed_legs": [
+     "a_combined_rises",
+     "c_2026_no_fall",
+     "e_extop3",
+     "h_beats_placebos"
+    ],
+    "placebos": [
+     256868.85,
+     291900.91
+    ]
+   }
+  ],
+  "grid_comp": "INV-ABOVE"
+ },
+ {
+  "cycle": "R2-09",
+  "label": "INV merged rounds>=1, FLAT stand-aside ON",
+  "verdict": false,
+  "note": "placebos [175810.87, 214091.6]",
+  "legs": {
+   "a_combined_rises": false,
+   "b_2025_no_fall": false,
+   "c_2026_no_fall": false,
+   "d_cells_positive": true,
+   "e_extop3": false,
+   "f_no_green_month_flips": true,
+   "flip_detail": [],
+   "g_no_half_flips": true,
+   "h_beats_placebos": true,
+   "i_timing_clean": true
+  },
+  "sums": {
+   "base_combined": 274683.37,
+   "variant_combined": 263727.45
+  },
+  "base": {
+   "2025": {
+    "total": 53126.32,
+    "jan_oct": 54505.05,
+    "ex_top3": 7944.51,
+    "trades": 775
+   },
+   "2026": {
+    "total": 221557.05,
+    "jan_oct": 221557.05,
+    "ex_top3": 88534.34,
+    "trades": 673
+   }
+  },
+  "var": {
+   "2025": {
+    "total": 46506.06,
+    "jan_oct": 47884.79,
+    "ex_top3": 5967.74,
+    "trades": 718
+   },
+   "2026": {
+    "total": 217221.39,
+    "jan_oct": 217221.39,
+    "ex_top3": 87702.25,
+    "trades": 631
+   }
+  },
+  "base_cells": {
+   "2025": {
+    "DOWN": 39226.0,
+    "FLAT": 2882.57,
+    "UP": 11017.75
+   },
+   "2026": {
+    "DOWN": 198332.66,
+    "FLAT": 7062.9,
+    "UP": 16161.49
+   }
+  },
+  "var_cells": {
+   "2025": {
+    "DOWN": 32605.74,
+    "FLAT": 2882.57,
+    "UP": 11017.75
+   },
+   "2026": {
+    "DOWN": 193697.0,
+    "FLAT": 7362.9,
+    "UP": 16161.49
+   }
+  },
+  "merged_trades": {
+   "2025": 238,
+   "2026": 144
+  }
+ },
+ {
+  "cycle": "R2-10",
+  "label": "INV merged rounds>=1, FLAT stand-aside OFF",
+  "verdict": false,
+  "note": "placebos [178031.41, 213751.07]",
+  "legs": {
+   "a_combined_rises": false,
+   "b_2025_no_fall": false,
+   "c_2026_no_fall": false,
+   "d_cells_positive": true,
+   "e_extop3": false,
+   "f_no_green_month_flips": true,
+   "flip_detail": [],
+   "g_no_half_flips": true,
+   "h_beats_placebos": true,
+   "i_timing_clean": true
+  },
+  "sums": {
+   "base_combined": 274683.37,
+   "variant_combined": 258087.48
+  },
+  "base": {
+   "2025": {
+    "total": 53126.32,
+    "jan_oct": 54505.05,
+    "ex_top3": 7944.51,
+    "trades": 775
+   },
+   "2026": {
+    "total": 221557.05,
+    "jan_oct": 221557.05,
+    "ex_top3": 88534.34,
+    "trades": 673
+   }
+  },
+  "var": {
+   "2025": {
+    "total": 43766.81,
+    "jan_oct": 45145.54,
+    "ex_top3": 3228.49,
+    "trades": 727
+   },
+   "2026": {
+    "total": 214320.67,
+    "jan_oct": 214320.67,
+    "ex_top3": 85611.83,
+    "trades": 643
+   }
+  },
+  "base_cells": {
+   "2025": {
+    "DOWN": 39226.0,
+    "FLAT": 2882.57,
+    "UP": 11017.75
+   },
+   "2026": {
+    "DOWN": 198332.66,
+    "FLAT": 7062.9,
+    "UP": 16161.49
+   }
+  },
+  "var_cells": {
+   "2025": {
+    "DOWN": 32605.74,
+    "FLAT": 143.32,
+    "UP": 11017.75
+   },
+   "2026": {
+    "DOWN": 193697.0,
+    "FLAT": 4462.18,
+    "UP": 16161.49
+   }
+  },
+  "merged_trades": {
+   "2025": 247,
+   "2026": 156
+  }
+ },
+ {
+  "cycle": "R2-11",
+  "label": "P2F band >=3.0 @ R+1",
+  "verdict": false,
+  "note": "placebos: flipped band-3.0 book; chrono first-N removal",
+  "legs": {
+   "a_combined_rises": false,
+   "b_2025_no_fall": false,
+   "c_2026_no_fall": false,
+   "d_cells_positive": true,
+   "e_extop3": false,
+   "f_no_green_month_flips": true,
+   "flip_detail": [],
+   "g_no_half_flips": true,
+   "h_beats_placebos": true,
+   "i_timing_clean": true
+  },
+  "sums": {
+   "base_combined": 274683.37,
+   "variant_combined": 270379.72
+  },
+  "base": {
+   "2025": {
+    "total": 53126.32,
+    "jan_oct": 54505.05,
+    "ex_top3": 7944.51,
+    "trades": 775
+   },
+   "2026": {
+    "total": 221557.05,
+    "jan_oct": 221557.05,
+    "ex_top3": 88534.34,
+    "trades": 673
+   }
+  },
+  "var": {
+   "2025": {
+    "total": 50302.65,
+    "jan_oct": 51826.38,
+    "ex_top3": 5120.84,
+    "trades": 770
+   },
+   "2026": {
+    "total": 220077.07,
+    "jan_oct": 220077.07,
+    "ex_top3": 87054.36,
+    "trades": 668
+   }
+  },
+  "base_cells": {
+   "2025": {
+    "DOWN": 39226.0,
+    "FLAT": 2882.57,
+    "UP": 11017.75
+   },
+   "2026": {
+    "DOWN": 198332.66,
+    "FLAT": 7062.9,
+    "UP": 16161.49
+   }
+  },
+  "var_cells": {
+   "2025": {
+    "DOWN": 39479.5,
+    "FLAT": 3056.04,
+    "UP": 7767.11
+   },
+   "2026": {
+    "DOWN": 198504.66,
+    "FLAT": 6686.29,
+    "UP": 14886.12
+   }
+  }
+ },
+ {
+  "cycle": "R2-12",
+  "label": "P2F-R2 band >=3.0 @ R+2",
+  "verdict": false,
+  "note": "placebos: flipped band-3.0 book; chrono first-N removal",
+  "legs": {
+   "a_combined_rises": false,
+   "b_2025_no_fall": false,
+   "c_2026_no_fall": false,
+   "d_cells_positive": true,
+   "e_extop3": false,
+   "f_no_green_month_flips": true,
+   "flip_detail": [],
+   "g_no_half_flips": true,
+   "h_beats_placebos": false,
+   "i_timing_clean": true
+  },
+  "sums": {
+   "base_combined": 274683.37,
+   "variant_combined": 274158.49
+  },
+  "base": {
+   "2025": {
+    "total": 53126.32,
+    "jan_oct": 54505.05,
+    "ex_top3": 7944.51,
+    "trades": 775
+   },
+   "2026": {
+    "total": 221557.05,
+    "jan_oct": 221557.05,
+    "ex_top3": 88534.34,
+    "trades": 673
+   }
+  },
+  "var": {
+   "2025": {
+    "total": 52650.92,
+    "jan_oct": 54408.9,
+    "ex_top3": 7469.11,
+    "trades": 771
+   },
+   "2026": {
+    "total": 221507.57,
+    "jan_oct": 221507.57,
+    "ex_top3": 88484.86,
+    "trades": 667
+   }
+  },
+  "base_cells": {
+   "2025": {
+    "DOWN": 39226.0,
+    "FLAT": 2882.57,
+    "UP": 11017.75
+   },
+   "2026": {
+    "DOWN": 198332.66,
+    "FLAT": 7062.9,
+    "UP": 16161.49
+   }
+  },
+  "var_cells": {
+   "2025": {
+    "DOWN": 38730.0,
+    "FLAT": 2882.57,
+    "UP": 11038.35
+   },
+   "2026": {
+    "DOWN": 199533.18,
+    "FLAT": 7062.9,
+    "UP": 14911.49
+   }
+  }
+ },
+ {
+  "cycle": "R2-13",
+  "label": "R2-LOWBAND without UP stand-aside",
+  "verdict": false,
+  "note": "placebos: flipped no-aside book; decoy band [1.5,2.0) no-aside book",
+  "legs": {
+   "a_combined_rises": false,
+   "b_2025_no_fall": false,
+   "c_2026_no_fall": false,
+   "d_cells_positive": true,
+   "e_extop3": false,
+   "f_no_green_month_flips": false,
+   "flip_detail": [
+    "2025-05:667.74->-2208.31"
+   ],
+   "g_no_half_flips": true,
+   "h_beats_placebos": false,
+   "i_timing_clean": true
+  },
+  "sums": {
+   "base_combined": 274683.37,
+   "variant_combined": 271154.62
+  },
+  "base": {
+   "2025": {
+    "total": 53126.32,
+    "jan_oct": 54505.05,
+    "ex_top3": 7944.51,
+    "trades": 775
+   },
+   "2026": {
+    "total": 221557.05,
+    "jan_oct": 221557.05,
+    "ex_top3": 88534.34,
+    "trades": 673
+   }
+  },
+  "var": {
+   "2025": {
+    "total": 49620.15,
+    "jan_oct": 51766.38,
+    "ex_top3": 6023.99,
+    "trades": 784
+   },
+   "2026": {
+    "total": 221534.47,
+    "jan_oct": 221534.47,
+    "ex_top3": 88511.76,
+    "trades": 677
+   }
+  },
+  "base_cells": {
+   "2025": {
+    "DOWN": 39226.0,
+    "FLAT": 2882.57,
+    "UP": 11017.75
+   },
+   "2026": {
+    "DOWN": 198332.66,
+    "FLAT": 7062.9,
+    "UP": 16161.49
+   }
+  },
+  "var_cells": {
+   "2025": {
+    "DOWN": 39226.0,
+    "FLAT": 2882.57,
+    "UP": 7511.58
+   },
+   "2026": {
+    "DOWN": 198332.66,
+    "FLAT": 7062.9,
+    "UP": 16138.91
+   }
+  }
+ },
+ {
+  "cycle": "R2-14",
+  "label": "P2F band >=2.0 @ R+1",
+  "verdict": false,
+  "note": "placebos: flipped band-2.0 book; decoy band [1.5,2.0) book",
+  "legs": {
+   "a_combined_rises": false,
+   "b_2025_no_fall": true,
+   "c_2026_no_fall": false,
+   "d_cells_positive": true,
+   "e_extop3": true,
+   "f_no_green_month_flips": false,
+   "flip_detail": [
+    "2025-05:667.74->-636.61"
+   ],
+   "g_no_half_flips": true,
+   "h_beats_placebos": true,
+   "i_timing_clean": true
+  },
+  "sums": {
+   "base_combined": 274683.37,
+   "variant_combined": 274113.45
+  },
+  "base": {
+   "2025": {
+    "total": 53126.32,
+    "jan_oct": 54505.05,
+    "ex_top3": 7944.51,
+    "trades": 775
+   },
+   "2026": {
+    "total": 221557.05,
+    "jan_oct": 221557.05,
+    "ex_top3": 88534.34,
+    "trades": 673
+   }
+  },
+  "var": {
+   "2025": {
+    "total": 54018.85,
+    "jan_oct": 55397.58,
+    "ex_top3": 10422.29,
+    "trades": 785
+   },
+   "2026": {
+    "total": 220094.6,
+    "jan_oct": 220094.6,
+    "ex_top3": 88944.39,
+    "trades": 681
+   }
+  },
+  "base_cells": {
+   "2025": {
+    "DOWN": 39226.0,
+    "FLAT": 2882.57,
+    "UP": 11017.75
+   },
+   "2026": {
+    "DOWN": 198332.66,
+    "FLAT": 7062.9,
+    "UP": 16161.49
+   }
+  },
+  "var_cells": {
+   "2025": {
+    "DOWN": 42955.91,
+    "FLAT": 2882.57,
+    "UP": 8180.37
+   },
+   "2026": {
+    "DOWN": 196672.33,
+    "FLAT": 6921.41,
+    "UP": 16500.86
+   }
+  }
+ },
+ {
+  "cycle": "R2-15",
+  "label": "N4-V3 threshold 1.2%, std entry",
+  "verdict": false,
+  "note": "placebos [238592.77, 270900.14]",
+  "legs": {
+   "a_combined_rises": false,
+   "b_2025_no_fall": true,
+   "c_2026_no_fall": false,
+   "d_cells_positive": true,
+   "e_extop3": false,
+   "f_no_green_month_flips": true,
+   "flip_detail": [],
+   "g_no_half_flips": true,
+   "h_beats_placebos": true,
+   "i_timing_clean": true
+  },
+  "sums": {
+   "base_combined": 274683.37,
+   "variant_combined": 272881.73
+  },
+  "base": {
+   "2025": {
+    "total": 53126.32,
+    "jan_oct": 54505.05,
+    "ex_top3": 7944.51,
+    "trades": 775
+   },
+   "2026": {
+    "total": 221557.05,
+    "jan_oct": 221557.05,
+    "ex_top3": 88534.34,
+    "trades": 673
+   }
+  },
+  "var": {
+   "2025": {
+    "total": 54301.25,
+    "jan_oct": 55229.86,
+    "ex_top3": 9119.44,
+    "trades": 770
+   },
+   "2026": {
+    "total": 218580.48,
+    "jan_oct": 218580.48,
+    "ex_top3": 85557.77,
+    "trades": 671
+   }
+  },
+  "base_cells": {
+   "2025": {
+    "DOWN": 39226.0,
+    "FLAT": 2882.57,
+    "UP": 11017.75
+   },
+   "2026": {
+    "DOWN": 198332.66,
+    "FLAT": 7062.9,
+    "UP": 16161.49
+   }
+  },
+  "var_cells": {
+   "2025": {
+    "DOWN": 39267.53,
+    "FLAT": 2882.57,
+    "UP": 12151.15
+   },
+   "2026": {
+    "DOWN": 198732.62,
+    "FLAT": 3686.37,
+    "UP": 16161.49
+   }
+  },
+  "var_trades": {
+   "2025": 30,
+   "2026": 28
+  }
+ },
+ {
+  "cycle": "R2-16",
+  "label": "N4-V3 09:40 confirming-close entry (thr 1.0)",
+  "verdict": false,
+  "note": "placebos [241292.84, 270595.14]",
+  "legs": {
+   "a_combined_rises": false,
+   "b_2025_no_fall": false,
+   "c_2026_no_fall": false,
+   "d_cells_positive": true,
+   "e_extop3": false,
+   "f_no_green_month_flips": true,
+   "flip_detail": [],
+   "g_no_half_flips": true,
+   "h_beats_placebos": false,
+   "i_timing_clean": true
+  },
+  "sums": {
+   "base_combined": 274683.37,
+   "variant_combined": 258335.15
+  },
+  "base": {
+   "2025": {
+    "total": 53126.32,
+    "jan_oct": 54505.05,
+    "ex_top3": 7944.51,
+    "trades": 775
+   },
+   "2026": {
+    "total": 221557.05,
+    "jan_oct": 221557.05,
+    "ex_top3": 88534.34,
+    "trades": 673
+   }
+  },
+  "var": {
+   "2025": {
+    "total": 45377.36,
+    "jan_oct": 46315.77,
+    "ex_top3": 3958.02,
+    "trades": 769
+   },
+   "2026": {
+    "total": 212957.79,
+    "jan_oct": 212957.79,
+    "ex_top3": 87863.82,
+    "trades": 671
+   }
+  },
+  "base_cells": {
+   "2025": {
+    "DOWN": 39226.0,
+    "FLAT": 2882.57,
+    "UP": 11017.75
+   },
+   "2026": {
+    "DOWN": 198332.66,
+    "FLAT": 7062.9,
+    "UP": 16161.49
+   }
+  },
+  "var_cells": {
+   "2025": {
+    "DOWN": 33772.68,
+    "FLAT": 3633.25,
+    "UP": 7971.43
+   },
+   "2026": {
+    "DOWN": 190827.8,
+    "FLAT": 5845.73,
+    "UP": 16284.26
+   }
+  },
+  "var_trades": {
+   "2025": 29,
+   "2026": 28
+  }
+ },
+ {
+  "cycle": "R2-17",
+  "label": "N4-V3 threshold 0.8%, std entry",
+  "verdict": true,
+  "note": "placebos [231004.84]",
+  "legs": {
+   "a_combined_rises": true,
+   "b_2025_no_fall": true,
+   "c_2026_no_fall": true,
+   "d_cells_positive": true,
+   "e_extop3": true,
+   "f_no_green_month_flips": true,
+   "flip_detail": [],
+   "g_no_half_flips": true,
+   "h_beats_placebos": true,
+   "i_timing_clean": true
+  },
+  "sums": {
+   "base_combined": 274683.37,
+   "variant_combined": 276758.7
+  },
+  "base": {
+   "2025": {
+    "total": 53126.32,
+    "jan_oct": 54505.05,
+    "ex_top3": 7944.51,
+    "trades": 775
+   },
+   "2026": {
+    "total": 221557.05,
+    "jan_oct": 221557.05,
+    "ex_top3": 88534.34,
+    "trades": 673
+   }
+  },
+  "var": {
+   "2025": {
+    "total": 54957.57,
+    "jan_oct": 56336.3,
+    "ex_top3": 9775.76,
+    "trades": 776
+   },
+   "2026": {
+    "total": 221801.13,
+    "jan_oct": 221801.13,
+    "ex_top3": 87675.53,
+    "trades": 680
+   }
+  },
+  "base_cells": {
+   "2025": {
+    "DOWN": 39226.0,
+    "FLAT": 2882.57,
+    "UP": 11017.75
+   },
+   "2026": {
+    "DOWN": 198332.66,
+    "FLAT": 7062.9,
+    "UP": 16161.49
+   }
+  },
+  "var_cells": {
+   "2025": {
+    "DOWN": 39226.0,
+    "FLAT": 2882.57,
+    "UP": 12849.0
+   },
+   "2026": {
+    "DOWN": 196194.09,
+    "FLAT": 9546.35,
+    "UP": 16060.69
+   }
+  },
+  "var_trades": {
+   "2025": 36,
+   "2026": 37
+  }
+ },
+ {
+  "cycle": "R2-18",
+  "label": "N4-V3 threshold 1.2% x 09:40 confirm entry",
+  "verdict": false,
+  "note": "placebos [241292.84, 266947.34]",
+  "legs": {
+   "a_combined_rises": false,
+   "b_2025_no_fall": false,
+   "c_2026_no_fall": false,
+   "d_cells_positive": true,
+   "e_extop3": false,
+   "f_no_green_month_flips": true,
+   "flip_detail": [],
+   "g_no_half_flips": true,
+   "h_beats_placebos": false,
+   "i_timing_clean": true
+  },
+  "sums": {
+   "base_combined": 276758.7,
+   "variant_combined": 254761.54
+  },
+  "base": {
+   "2025": {
+    "total": 54957.57,
+    "jan_oct": 56336.3,
+    "ex_top3": 9775.76,
+    "trades": 776
+   },
+   "2026": {
+    "total": 221801.13,
+    "jan_oct": 221801.13,
+    "ex_top3": 87675.53,
+    "trades": 680
+   }
+  },
+  "var": {
+   "2025": {
+    "total": 45741.4,
+    "jan_oct": 46679.81,
+    "ex_top3": 4322.06,
+    "trades": 767
+   },
+   "2026": {
+    "total": 209020.14,
+    "jan_oct": 209020.14,
+    "ex_top3": 83926.17,
+    "trades": 668
+   }
+  },
+  "base_cells": {
+   "2025": {
+    "DOWN": 39226.0,
+    "FLAT": 2882.57,
+    "UP": 12849.0
+   },
+   "2026": {
+    "DOWN": 196194.09,
+    "FLAT": 9546.35,
+    "UP": 16060.69
+   }
+  },
+  "var_cells": {
+   "2025": {
+    "DOWN": 33772.68,
+    "FLAT": 3633.25,
+    "UP": 8335.47
+   },
+   "2026": {
+    "DOWN": 190267.9,
+    "FLAT": 2467.98,
+    "UP": 16284.26
+   }
+  },
+  "var_trades": {
+   "2025": 27,
+   "2026": 25
+  }
+ },
+ {
+  "cycle": "R2-19",
+  "label": "NEW MECHANISM PERSIST-R2 (reaction>=2.5% + R+1 persistence + R+2 10:00 hold, T125/S050)",
+  "verdict": false,
+  "note": "placebos [277014.28, 277724.25] (flipped entries; unconditioned sibling)",
+  "legs": {
+   "a_combined_rises": true,
+   "b_2025_no_fall": true,
+   "c_2026_no_fall": false,
+   "d_cells_positive": true,
+   "e_extop3": false,
+   "f_no_green_month_flips": true,
+   "flip_detail": [],
+   "g_no_half_flips": true,
+   "h_beats_placebos": true,
+   "i_timing_clean": true
+  },
+  "sums": {
+   "base_combined": 276758.7,
+   "variant_combined": 278768.37
+  },
+  "base": {
+   "2025": {
+    "total": 54957.57,
+    "jan_oct": 56336.3,
+    "ex_top3": 9775.76,
+    "trades": 776
+   },
+   "2026": {
+    "total": 221801.13,
+    "jan_oct": 221801.13,
+    "ex_top3": 87675.53,
+    "trades": 680
+   }
+  },
+  "var": {
+   "2025": {
+    "total": 57610.5,
+    "jan_oct": 59239.3,
+    "ex_top3": 10508.69,
+    "trades": 784
+   },
+   "2026": {
+    "total": 221157.87,
+    "jan_oct": 221157.87,
+    "ex_top3": 86044.02,
+    "trades": 694
+   }
+  },
+  "base_cells": {
+   "2025": {
+    "DOWN": 39226.0,
+    "FLAT": 2882.57,
+    "UP": 12849.0
+   },
+   "2026": {
+    "DOWN": 196194.09,
+    "FLAT": 9546.35,
+    "UP": 16060.69
+   }
+  },
+  "var_cells": {
+   "2025": {
+    "DOWN": 42129.0,
+    "FLAT": 2882.57,
+    "UP": 12598.93
+   },
+   "2026": {
+    "DOWN": 193489.9,
+    "FLAT": 12387.1,
+    "UP": 15280.87
+   }
+  },
+  "var_trades": {
+   "2025": 8,
+   "2026": 14
+  },
+  "standalone": {
+   "2025": 2652.93,
+   "2026": -643.26
+  }
+ },
+ {
+  "cycle": "R2-20",
+  "label": "F4 DOWN-cell exits T125/S065",
+  "verdict": false,
+  "note": "placebos [276142.47]",
+  "legs": {
+   "a_combined_rises": false,
+   "b_2025_no_fall": false,
+   "c_2026_no_fall": false,
+   "d_cells_positive": true,
+   "e_extop3": false,
+   "f_no_green_month_flips": true,
+   "flip_detail": [],
+   "g_no_half_flips": true,
+   "h_beats_placebos": false,
+   "i_timing_clean": true
+  },
+  "sums": {
+   "base_combined": 276758.7,
+   "variant_combined": 244886.68
+  },
+  "base": {
+   "2025": {
+    "total": 54957.57,
+    "jan_oct": 56336.3,
+    "ex_top3": 9775.76,
+    "trades": 776
+   },
+   "2026": {
+    "total": 221801.13,
+    "jan_oct": 221801.13,
+    "ex_top3": 87675.53,
+    "trades": 680
+   }
+  },
+  "var": {
+   "2025": {
+    "total": 50976.9,
+    "jan_oct": 52355.63,
+    "ex_top3": 6524.62,
+    "trades": 776
+   },
+   "2026": {
+    "total": 193909.78,
+    "jan_oct": 193909.78,
+    "ex_top3": 71802.0,
+    "trades": 680
+   }
+  },
+  "base_cells": {
+   "2025": {
+    "DOWN": 39226.0,
+    "FLAT": 2882.57,
+    "UP": 12849.0
+   },
+   "2026": {
+    "DOWN": 196194.09,
+    "FLAT": 9546.35,
+    "UP": 16060.69
+   }
+  },
+  "var_cells": {
+   "2025": {
+    "DOWN": 35245.33,
+    "FLAT": 2882.57,
+    "UP": 12849.0
+   },
+   "2026": {
+    "DOWN": 168302.74,
+    "FLAT": 9546.35,
+    "UP": 16060.69
+   }
+  }
+ },
+ {
+  "cycle": "R2-21",
+  "label": "F4 DOWN-cell exits T175/S095",
+  "verdict": false,
+  "note": "placebos [276520.84]",
+  "legs": {
+   "a_combined_rises": false,
+   "b_2025_no_fall": true,
+   "c_2026_no_fall": false,
+   "d_cells_positive": true,
+   "e_extop3": true,
+   "f_no_green_month_flips": true,
+   "flip_detail": [],
+   "g_no_half_flips": true,
+   "h_beats_placebos": false,
+   "i_timing_clean": true
+  },
+  "sums": {
+   "base_combined": 276758.7,
+   "variant_combined": 272509.58
+  },
+  "base": {
+   "2025": {
+    "total": 54957.57,
+    "jan_oct": 56336.3,
+    "ex_top3": 9775.76,
+    "trades": 776
+   },
+   "2026": {
+    "total": 221801.13,
+    "jan_oct": 221801.13,
+    "ex_top3": 87675.53,
+    "trades": 680
+   }
+  },
+  "var": {
+   "2025": {
+    "total": 61426.13,
+    "jan_oct": 62804.86,
+    "ex_top3": 13237.02,
+    "trades": 776
+   },
+   "2026": {
+    "total": 211083.45,
+    "jan_oct": 211083.45,
+    "ex_top3": 86951.1,
+    "trades": 680
+   }
+  },
+  "base_cells": {
+   "2025": {
+    "DOWN": 39226.0,
+    "FLAT": 2882.57,
+    "UP": 12849.0
+   },
+   "2026": {
+    "DOWN": 196194.09,
+    "FLAT": 9546.35,
+    "UP": 16060.69
+   }
+  },
+  "var_cells": {
+   "2025": {
+    "DOWN": 45694.56,
+    "FLAT": 2882.57,
+    "UP": 12849.0
+   },
+   "2026": {
+    "DOWN": 185476.41,
+    "FLAT": 9546.35,
+    "UP": 16060.69
+   }
+  }
+ },
+ {
+  "cycle": "R2-22",
+  "label": "F4 FLAT-cell exits T125/S065",
+  "verdict": false,
+  "note": "placebos [244886.68]",
+  "legs": {
+   "a_combined_rises": false,
+   "b_2025_no_fall": false,
+   "c_2026_no_fall": true,
+   "d_cells_positive": false,
+   "e_extop3": true,
+   "f_no_green_month_flips": true,
+   "flip_detail": [],
+   "g_no_half_flips": true,
+   "h_beats_placebos": true,
+   "i_timing_clean": true
+  },
+  "sums": {
+   "base_combined": 276758.7,
+   "variant_combined": 276142.47
+  },
+  "base": {
+   "2025": {
+    "total": 54957.57,
+    "jan_oct": 56336.3,
+    "ex_top3": 9775.76,
+    "trades": 776
+   },
+   "2026": {
+    "total": 221801.13,
+    "jan_oct": 221801.13,
+    "ex_top3": 87675.53,
+    "trades": 680
+   }
+  },
+  "var": {
+   "2025": {
+    "total": 50934.42,
+    "jan_oct": 52313.15,
+    "ex_top3": 9462.86,
+    "trades": 776
+   },
+   "2026": {
+    "total": 225208.05,
+    "jan_oct": 225208.05,
+    "ex_top3": 89585.91,
+    "trades": 680
+   }
+  },
+  "base_cells": {
+   "2025": {
+    "DOWN": 39226.0,
+    "FLAT": 2882.57,
+    "UP": 12849.0
+   },
+   "2026": {
+    "DOWN": 196194.09,
+    "FLAT": 9546.35,
+    "UP": 16060.69
+   }
+  },
+  "var_cells": {
+   "2025": {
+    "DOWN": 39226.0,
+    "FLAT": -1140.58,
+    "UP": 12849.0
+   },
+   "2026": {
+    "DOWN": 196194.09,
+    "FLAT": 12953.27,
+    "UP": 16060.69
+   }
+  }
+ },
+ {
+  "cycle": "R2-23",
+  "label": "F4 FLAT-cell exits T175/S095",
+  "verdict": false,
+  "note": "placebos [272509.58]",
+  "legs": {
+   "a_combined_rises": false,
+   "b_2025_no_fall": false,
+   "c_2026_no_fall": false,
+   "d_cells_positive": true,
+   "e_extop3": false,
+   "f_no_green_month_flips": true,
+   "flip_detail": [],
+   "g_no_half_flips": true,
+   "h_beats_placebos": true,
+   "i_timing_clean": true
+  },
+  "sums": {
+   "base_combined": 276758.7,
+   "variant_combined": 276520.84
+  },
+  "base": {
+   "2025": {
+    "total": 54957.57,
+    "jan_oct": 56336.3,
+    "ex_top3": 9775.76,
+    "trades": 776
+   },
+   "2026": {
+    "total": 221801.13,
+    "jan_oct": 221801.13,
+    "ex_top3": 87675.53,
+    "trades": 680
+   }
+  },
+  "var": {
+   "2025": {
+    "total": 54769.31,
+    "jan_oct": 56148.04,
+    "ex_top3": 9536.05,
+    "trades": 776
+   },
+   "2026": {
+    "total": 221751.53,
+    "jan_oct": 221751.53,
+    "ex_top3": 87625.93,
+    "trades": 680
+   }
+  },
+  "base_cells": {
+   "2025": {
+    "DOWN": 39226.0,
+    "FLAT": 2882.57,
+    "UP": 12849.0
+   },
+   "2026": {
+    "DOWN": 196194.09,
+    "FLAT": 9546.35,
+    "UP": 16060.69
+   }
+  },
+  "var_cells": {
+   "2025": {
+    "DOWN": 39226.0,
+    "FLAT": 2694.31,
+    "UP": 12849.0
+   },
+   "2026": {
+    "DOWN": 196194.09,
+    "FLAT": 9496.75,
+    "UP": 16060.69
+   }
+  }
+ },
+ {
+  "cycle": "R2-24",
+  "label": "F4 x FLAT stand-aside (delete FLAT-cell F4)",
+  "verdict": false,
+  "note": "placebos [282398.84] (chrono first-N of F4, N=62)",
+  "legs": {
+   "a_combined_rises": true,
+   "b_2025_no_fall": false,
+   "c_2026_no_fall": true,
+   "d_cells_positive": true,
+   "e_extop3": true,
+   "f_no_green_month_flips": true,
+   "flip_detail": [],
+   "g_no_half_flips": true,
+   "h_beats_placebos": false,
+   "i_timing_clean": true
+  },
+  "sums": {
+   "base_combined": 276758.7,
+   "variant_combined": 277247.6
+  },
+  "base": {
+   "2025": {
+    "total": 54957.57,
+    "jan_oct": 56336.3,
+    "ex_top3": 9775.76,
+    "trades": 776
+   },
+   "2026": {
+    "total": 221801.13,
+    "jan_oct": 221801.13,
+    "ex_top3": 87675.53,
+    "trades": 680
+   }
+  },
+  "var": {
+   "2025": {
+    "total": 52496.89,
+    "jan_oct": 53875.62,
+    "ex_top3": 10135.94,
+    "trades": 757
+   },
+   "2026": {
+    "total": 224750.71,
+    "jan_oct": 224750.71,
+    "ex_top3": 88516.12,
+    "trades": 637
+   }
+  },
+  "base_cells": {
+   "2025": {
+    "DOWN": 39226.0,
+    "FLAT": 2882.57,
+    "UP": 12849.0
+   },
+   "2026": {
+    "DOWN": 196194.09,
+    "FLAT": 9546.35,
+    "UP": 16060.69
+   }
+  },
+  "var_cells": {
+   "2025": {
+    "DOWN": 39226.0,
+    "FLAT": 421.89,
+    "UP": 12849.0
+   },
+   "2026": {
+    "DOWN": 196194.09,
+    "FLAT": 12495.93,
+    "UP": 16060.69
+   }
+  }
+ },
+ {
+  "cycle": "R2-25",
+  "label": "INV-LONG exits T150/S080 (banked cell settings)",
+  "verdict": false,
+  "note": "placebos [189371.11]",
+  "legs": {
+   "a_combined_rises": false,
+   "b_2025_no_fall": true,
+   "c_2026_no_fall": false,
+   "d_cells_positive": true,
+   "e_extop3": true,
+   "f_no_green_month_flips": false,
+   "flip_detail": [
+    "2025-01:5997.81->-542.88"
+   ],
+   "g_no_half_flips": true,
+   "h_beats_placebos": true,
+   "i_timing_clean": true
+  },
+  "sums": {
+   "base_combined": 276758.7,
+   "variant_combined": 276537.16
+  },
+  "base": {
+   "2025": {
+    "total": 54957.57,
+    "jan_oct": 56336.3,
+    "ex_top3": 9775.76,
+    "trades": 776
+   },
+   "2026": {
+    "total": 221801.13,
+    "jan_oct": 221801.13,
+    "ex_top3": 87675.53,
+    "trades": 680
+   }
+  },
+  "var": {
+   "2025": {
+    "total": 59340.36,
+    "jan_oct": 60719.09,
+    "ex_top3": 12816.16,
+    "trades": 714
+   },
+   "2026": {
+    "total": 217196.8,
+    "jan_oct": 217196.8,
+    "ex_top3": 89389.11,
+    "trades": 648
+   }
+  },
+  "base_cells": {
+   "2025": {
+    "DOWN": 39226.0,
+    "FLAT": 2882.57,
+    "UP": 12849.0
+   },
+   "2026": {
+    "DOWN": 196194.09,
+    "FLAT": 9546.35,
+    "UP": 16060.69
+   }
+  },
+  "var_cells": {
+   "2025": {
+    "DOWN": 43608.79,
+    "FLAT": 2882.57,
+    "UP": 12849.0
+   },
+   "2026": {
+    "DOWN": 191589.76,
+    "FLAT": 9546.35,
+    "UP": 16060.69
+   }
+  }
+ },
+ {
+  "cycle": "R2-26",
+  "label": "INV-ABOVE exits T150/S080",
+  "verdict": false,
+  "note": "placebos [261218.73]",
+  "legs": {
+   "a_combined_rises": true,
+   "b_2025_no_fall": true,
+   "c_2026_no_fall": true,
+   "d_cells_positive": true,
+   "e_extop3": true,
+   "f_no_green_month_flips": false,
+   "flip_detail": [
+    "2025-03:1091.17->-1368.66"
+   ],
+   "g_no_half_flips": true,
+   "h_beats_placebos": true,
+   "i_timing_clean": true
+  },
+  "sums": {
+   "base_combined": 276758.7,
+   "variant_combined": 289848.53
+  },
+  "base": {
+   "2025": {
+    "total": 54957.57,
+    "jan_oct": 56336.3,
+    "ex_top3": 9775.76,
+    "trades": 776
+   },
+   "2026": {
+    "total": 221801.13,
+    "jan_oct": 221801.13,
+    "ex_top3": 87675.53,
+    "trades": 680
+   }
+  },
+  "var": {
+   "2025": {
+    "total": 63925.07,
+    "jan_oct": 63870.3,
+    "ex_top3": 13401.03,
+    "trades": 756
+   },
+   "2026": {
+    "total": 225923.46,
+    "jan_oct": 225923.46,
+    "ex_top3": 87277.22,
+    "trades": 675
+   }
+  },
+  "base_cells": {
+   "2025": {
+    "DOWN": 39226.0,
+    "FLAT": 2882.57,
+    "UP": 12849.0
+   },
+   "2026": {
+    "DOWN": 196194.09,
+    "FLAT": 9546.35,
+    "UP": 16060.69
+   }
+  },
+  "var_cells": {
+   "2025": {
+    "DOWN": 39226.0,
+    "FLAT": 6318.31,
+    "UP": 18380.76
+   },
+   "2026": {
+    "DOWN": 196194.09,
+    "FLAT": 10466.64,
+    "UP": 19262.73
+   }
+  }
+ },
+ {
+  "cycle": "R2-27",
+  "label": "INV-ABOVE exits T150/S080 on UP-cell days only",
+  "verdict": false,
+  "note": "placebos [265023.67] (SHORT-side per-cell book)",
+  "legs": {
+   "a_combined_rises": true,
+   "b_2025_no_fall": true,
+   "c_2026_no_fall": true,
+   "d_cells_positive": true,
+   "e_extop3": false,
+   "f_no_green_month_flips": true,
+   "flip_detail": [],
+   "g_no_half_flips": true,
+   "h_beats_placebos": true,
+   "i_timing_clean": true
+  },
+  "sums": {
+   "base_combined": 276758.7,
+   "variant_combined": 285492.5
+  },
+  "base": {
+   "2025": {
+    "total": 54957.57,
+    "jan_oct": 56336.3,
+    "ex_top3": 9775.76,
+    "trades": 776
+   },
+   "2026": {
+    "total": 221801.13,
+    "jan_oct": 221801.13,
+    "ex_top3": 87675.53,
+    "trades": 680
+   }
+  },
+  "var": {
+   "2025": {
+    "total": 60489.33,
+    "jan_oct": 60434.56,
+    "ex_top3": 8792.87,
+    "trades": 759
+   },
+   "2026": {
+    "total": 225003.17,
+    "jan_oct": 225003.17,
+    "ex_top3": 88155.42,
+    "trades": 679
+   }
+  },
+  "base_cells": {
+   "2025": {
+    "DOWN": 39226.0,
+    "FLAT": 2882.57,
+    "UP": 12849.0
+   },
+   "2026": {
+    "DOWN": 196194.09,
+    "FLAT": 9546.35,
+    "UP": 16060.69
+   }
+  },
+  "var_cells": {
+   "2025": {
+    "DOWN": 39226.0,
+    "FLAT": 2882.57,
+    "UP": 18380.76
+   },
+   "2026": {
+    "DOWN": 196194.09,
+    "FLAT": 9546.35,
+    "UP": 19262.73
+   }
+  }
+ },
+ {
+  "cycle": "R2-28",
+  "label": "INV-ABOVE exits T150/S080 on FLAT-cell days only",
+  "verdict": false,
+  "note": "placebos [267790.1] (SHORT-side per-cell book)",
+  "legs": {
+   "a_combined_rises": true,
+   "b_2025_no_fall": true,
+   "c_2026_no_fall": true,
+   "d_cells_positive": true,
+   "e_extop3": true,
+   "f_no_green_month_flips": false,
+   "flip_detail": [
+    "2025-03:1091.17->-1181.4"
+   ],
+   "g_no_half_flips": true,
+   "h_beats_placebos": true,
+   "i_timing_clean": true
+  },
+  "sums": {
+   "base_combined": 276758.7,
+   "variant_combined": 281114.73
+  },
+  "base": {
+   "2025": {
+    "total": 54957.57,
+    "jan_oct": 56336.3,
+    "ex_top3": 9775.76,
+    "trades": 776
+   },
+   "2026": {
+    "total": 221801.13,
+    "jan_oct": 221801.13,
+    "ex_top3": 87675.53,
+    "trades": 680
+   }
+  },
+  "var": {
+   "2025": {
+    "total": 58393.31,
+    "jan_oct": 59772.04,
+    "ex_top3": 14734.68,
+    "trades": 773
+   },
+   "2026": {
+    "total": 222721.42,
+    "jan_oct": 222721.42,
+    "ex_top3": 86797.33,
+    "trades": 676
+   }
+  },
+  "base_cells": {
+   "2025": {
+    "DOWN": 39226.0,
+    "FLAT": 2882.57,
+    "UP": 12849.0
+   },
+   "2026": {
+    "DOWN": 196194.09,
+    "FLAT": 9546.35,
+    "UP": 16060.69
+   }
+  },
+  "var_cells": {
+   "2025": {
+    "DOWN": 39226.0,
+    "FLAT": 6318.31,
+    "UP": 12849.0
+   },
+   "2026": {
+    "DOWN": 196194.09,
+    "FLAT": 10466.64,
+    "UP": 16060.69
+   }
+  }
+ }
+]

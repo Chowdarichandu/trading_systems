@@ -1,0 +1,502 @@
+[
+ {
+  "cycle": "R12-01",
+  "type": "audit",
+  "label": "Starting-book verification + INV-ABOVE index-state census (audit \u2014 no candidate scored)",
+  "note": "Starting books re-summed independently from the Round-11 CSVs: 2025 1128 rows, JO 99363.06, full 99880.95; 2026 1368 rows, JO 247540.89, full 247540.89 \u2014 exact vs the recorded totals. Month nets asserted: Jul 2025 -2101.93, Oct 2025 -3751.28. INV-ABOVE census by frozen R10-05 state buckets reproduces R11-01's bucket nets to the paisa (2025: hard 23 rows / -1230.62, shallow 33 rows / -620.96, up 95 rows / 10132.83; 2026: hard 16 rows / -4012.18, shallow 10 rows / 3066.24, up 10 rows / 4295.15); unknown-state rows 0 in both years \u2014 the pair left INV-ABOVE untouched, as constructed.",
+  "banked": false,
+  "book_check": {
+   "2025": [
+    1128,
+    99363.06,
+    99880.95
+   ],
+   "2026": [
+    1368,
+    247540.89,
+    247540.89
+   ]
+  },
+  "jul_2025": -2101.93,
+  "oct_2025": -3751.28,
+  "inv_above_census": {
+   "2025": {
+    "shallow": [
+     33,
+     -620.96
+    ],
+    "hard": [
+     23,
+     -1230.62
+    ],
+    "up": [
+     95,
+     10132.83
+    ]
+   },
+   "2026": {
+    "up": [
+     10,
+     4295.15
+    ],
+    "shallow": [
+     10,
+     3066.24
+    ],
+    "hard": [
+     16,
+     -4012.18
+    ]
+   }
+  }
+ },
+ {
+  "cycle": "R12-02",
+  "label": "INV-ABOVE hard-dip exclusion re-gated on the Round-11 ending book (pair baseline)",
+  "note": "removed rows 23/16 netting -1230.62 / -4012.18 (the R11-01 hard-bucket nets, reproduced in R12-01). Placebos: chrono removal book 348898.96; cross-bucket removal book 342973.57. Timing violations 0 (state = the bar completing at each row's entry instant, asserted per removed row). Failed legs: [].",
+  "verdict": true,
+  "legs": {
+   "a_combined_rises": true,
+   "b_2025_no_fall": true,
+   "c_2026_no_fall": true,
+   "d_cells_positive": true,
+   "e_extop3": true,
+   "f_no_green_month_flips": true,
+   "flip_detail": [],
+   "g_no_half_flips": true,
+   "h_beats_placebos": true,
+   "i_timing_clean": true,
+   "x_2026_floor_holds": true
+  },
+  "sums": {
+   "base_combined": 347421.84,
+   "variant_combined": 352664.64
+  },
+  "base": {
+   "2025": {
+    "total": 99880.95,
+    "jan_oct": 99363.06,
+    "ex_top3": 35264.65,
+    "trades": 1128
+   },
+   "2026": {
+    "total": 247540.89,
+    "jan_oct": 247540.89,
+    "ex_top3": 67963.65,
+    "trades": 1368
+   }
+  },
+  "var": {
+   "2025": {
+    "total": 101111.57,
+    "jan_oct": 101114.78,
+    "ex_top3": 35085.01,
+    "trades": 1105
+   },
+   "2026": {
+    "total": 251553.07,
+    "jan_oct": 251553.07,
+    "ex_top3": 69097.03,
+    "trades": 1352
+   }
+  },
+  "base_cells": {
+   "2025": {
+    "DOWN": 54605.96,
+    "FLAT": 26396.29,
+    "UP": 18878.7
+   },
+   "2026": {
+    "DOWN": 227663.13,
+    "FLAT": 6825.26,
+    "UP": 13052.5
+   }
+  },
+  "var_cells": {
+   "2025": {
+    "DOWN": 54605.96,
+    "FLAT": 26197.65,
+    "UP": 20307.96
+   },
+   "2026": {
+    "DOWN": 227663.13,
+    "FLAT": 10893.36,
+    "UP": 12996.58
+   }
+  },
+  "banked": true,
+  "removed_standalone": {
+   "2025": -1230.62,
+   "2026": -4012.18
+  },
+  "removed_trades": {
+   "2025": 23,
+   "2026": 16
+  },
+  "failed_legs": []
+ },
+ {
+  "cycle": "R12-03",
+  "label": "R5-03-clean re-gated on the Round-11 ending book (GAP-FADE thr 1.25% swap, DOWN+FLAT, 09:20; GAP-FADE-INC retired)",
+  "note": "banked fade rows replaced: GAP-FADE + GAP-FADE-INC netting 23775.49 / 6255.24; sleeve125 anchored 32064.93 / 4270.42 on 112/292 rows. Birth record: fails (e) only (R5-03). Placebos: mirror-swapped book 283779.8; late-swapped book 307751.29. Timing violations 0 (gap completes at the bar-0 open print; entries at bar 1). Failed legs: ['c_2026_no_fall', 'e_extop3'].",
+  "verdict": false,
+  "legs": {
+   "a_combined_rises": true,
+   "b_2025_no_fall": true,
+   "c_2026_no_fall": false,
+   "d_cells_positive": true,
+   "e_extop3": false,
+   "f_no_green_month_flips": true,
+   "flip_detail": [],
+   "g_no_half_flips": true,
+   "h_beats_placebos": true,
+   "i_timing_clean": true,
+   "x_2026_floor_holds": true
+  },
+  "sums": {
+   "base_combined": 347421.84,
+   "variant_combined": 353726.46
+  },
+  "base": {
+   "2025": {
+    "total": 99880.95,
+    "jan_oct": 99363.06,
+    "ex_top3": 35264.65,
+    "trades": 1128
+   },
+   "2026": {
+    "total": 247540.89,
+    "jan_oct": 247540.89,
+    "ex_top3": 67963.65,
+    "trades": 1368
+   }
+  },
+  "var": {
+   "2025": {
+    "total": 108170.39,
+    "jan_oct": 107652.5,
+    "ex_top3": 38269.15,
+    "trades": 1128
+   },
+   "2026": {
+    "total": 245556.07,
+    "jan_oct": 245556.07,
+    "ex_top3": 59383.19,
+    "trades": 1368
+   }
+  },
+  "base_cells": {
+   "2025": {
+    "DOWN": 54605.96,
+    "FLAT": 26396.29,
+    "UP": 18878.7
+   },
+   "2026": {
+    "DOWN": 227663.13,
+    "FLAT": 6825.26,
+    "UP": 13052.5
+   }
+  },
+  "var_cells": {
+   "2025": {
+    "DOWN": 61940.03,
+    "FLAT": 27351.66,
+    "UP": 18878.7
+   },
+   "2026": {
+    "DOWN": 221508.51,
+    "FLAT": 10995.06,
+    "UP": 13052.5
+   }
+  },
+  "banked": false,
+  "fade_old": {
+   "2025": 23775.49,
+   "2026": 6255.24
+  },
+  "sleeve125": {
+   "2025": 32064.93,
+   "2026": 4270.42
+  },
+  "failed_legs": [
+   "c_2026_no_fall",
+   "e_extop3"
+  ]
+ },
+ {
+  "cycle": "R12-04",
+  "type": "audit",
+  "label": "WS2 screening arithmetic for the single-leg flags NOT re-gated (audit \u2014 no candidate scored)",
+  "note": "(c)-only flags displace the banked REXP-DOWN T100/S065 leg (2026 -5899.72): R6-10 REXP full population T125/S050: 2026 -10286.95 vs banked form -5899.72 -> delta -4387.23; R7-02 REXP DOWN+FLAT T125/S050: 2026 -10930.18 vs banked form -5899.72 -> delta -5030.46; R7-03/R8-07 REXP-DOWN T125/S050: 2026 -8399.33 vs banked form -5899.72 -> delta -2499.61; R8-06 FADE-IDX removes banked fade legs netting +2,477.24 in 2026 (recorded) -> delta -2,477.24. Every (c)-only variant's 2026 delta is negative by row identity, so leg (c) fails on ANY baseline \u2014 pre-refused, not scored. NE-REV slot standalone full-year sums (2025 / 2026): NU (banked): 12596.19 / 23744.4; R10-03 NOTCH: 18618.88 / 21026.84; R10-04 NOTCHCELL: 6566.49 / 27213.39; R9-07 IDXCELL: 4032.51 / 34369.49; R6-02 thr 2.25 (CERT rebuild): 8523.03 / 39963.33. Every alternative is non-additive with the banked NU rows (shared certified population); as slot swaps, IDXCELL / NOTCHCELL / R6-02-CERT price 2025 below NU's 12596.19 (leg (b) fails arithmetically) and NOTCH prices 2026 below NU's 23744.4 (leg (c) fails arithmetically); R6-04's recorded 2025 delta (+544.11 JO) is below NU's on its face. Pre-refused, not scored. R5-03-clean (R12-03) is the only flagged ingredient whose sole failing leg is an interaction leg on a disjoint family.",
+  "banked": false,
+  "screen_c_only": {
+   "R6-10 REXP full population T125/S050": {
+    "2025": 14409.54,
+    "2026": -10286.95
+   },
+   "R7-02 REXP DOWN+FLAT T125/S050": {
+    "2025": 12153.17,
+    "2026": -10930.18
+   },
+   "R7-03/R8-07 REXP-DOWN T125/S050": {
+    "2025": 14870.39,
+    "2026": -8399.33
+   }
+  },
+  "slot_standalone": {
+   "NU (banked)": {
+    "2025": 12596.19,
+    "2026": 23744.4
+   },
+   "R10-03 NOTCH": {
+    "2025": 18618.88,
+    "2026": 21026.84
+   },
+   "R10-04 NOTCHCELL": {
+    "2025": 6566.49,
+    "2026": 27213.39
+   },
+   "R9-07 IDXCELL": {
+    "2025": 4032.51,
+    "2026": 34369.49
+   },
+   "R6-02 thr 2.25 (CERT rebuild)": {
+    "2025": 8523.03,
+    "2026": 39963.33
+   }
+  }
+ },
+ {
+  "cycle": "R12-05",
+  "type": "audit",
+  "label": "2025-10 wound decomposition by component x index-state bucket (audit \u2014 no candidate scored)",
+  "note": "2025-10 = -3751.28 on 20 rows (asserted). By component: F4 -3021.83; GAP-FADE-INC 680.0; INV-ABOVE -207.92; N4-V3 -793.8; NE-REV-NU 193.25; P2F -312.98; P2F-R2 -288.0. Offending component: F4 (-3021.83). Its month state split: hard 0.0, shallow 0.0, up -3021.83, unknown 0.0. Frozen separator test: qualifying (component, bucket) pairs = []. Full table in r12_oct_decomp.json.",
+  "banked": false,
+  "month": "2025-10",
+  "month_net": -3751.28,
+  "by_comp": {
+   "F4": -3021.83,
+   "GAP-FADE-INC": 680.0,
+   "INV-ABOVE": -207.92,
+   "N4-V3": -793.8,
+   "NE-REV-NU": 193.25,
+   "P2F": -312.98,
+   "P2F-R2": -288.0
+  },
+  "offender": "F4",
+  "by_comp_bucket": {
+   "F4|up": [
+    3,
+    -3021.83
+   ],
+   "GAP-FADE-INC|shallow": [
+    1,
+    680.0
+   ],
+   "INV-ABOVE|up": [
+    4,
+    -207.92
+   ],
+   "N4-V3|up": [
+    3,
+    -793.8
+   ],
+   "NE-REV-NU|up": [
+    5,
+    193.25
+   ],
+   "P2F|unknown": [
+    2,
+    -312.98
+   ],
+   "P2F-R2|unknown": [
+    2,
+    -288.0
+   ]
+  },
+  "offender_full_year_buckets": {
+   "2025": {
+    "shallow": 10362.95,
+    "up": -9887.43,
+    "hard": -384.38
+   },
+   "2026": {
+    "up": 40581.38,
+    "hard": 31155.38,
+    "shallow": 26998.55,
+    "unknown": 4320.62
+   }
+  },
+  "separator_test": {
+   "hard": {
+    "month": 0.0,
+    "i": false,
+    "fy2025": -384.38,
+    "ii": true,
+    "combined": 30771.0,
+    "iii": false
+   },
+   "shallow": {
+    "month": 0.0,
+    "i": false,
+    "fy2025": 10362.95,
+    "ii": false,
+    "combined": 37361.5,
+    "iii": false
+   },
+   "up": {
+    "month": -3021.83,
+    "i": true,
+    "fy2025": -9887.43,
+    "ii": true,
+    "combined": 30693.95,
+    "iii": false
+   }
+  },
+  "qualifying_separators": []
+ },
+ {
+  "cycle": "R12-06",
+  "type": "audit",
+  "label": "2025-10 conditioned variant \u2014 closes by statement",
+  "note": "Separator test produced 0 qualifying buckets for F4 ([]); the frozen rule requires exactly one. No candidate is designed or scored \u2014 the workstream closes with the decomposition as its result.",
+  "banked": false
+ },
+ {
+  "cycle": "R12-07",
+  "type": "audit",
+  "label": "2025-07 wound decomposition by component x index-state bucket (audit \u2014 no candidate scored)",
+  "note": "2025-07 = -2101.93 on 41 rows (asserted). By component: F4 -1025.28; GAP-FADE 140.76; GAP-FADE-INC -1560.1; INV-ABOVE -2473.45; N4-V3 -1821.0; NE-REV-NU 5255.43; P2F -173.47; P2F-R2 -170.85; REXP -273.97. Offending component: INV-ABOVE (-2473.45). Its month state split: hard 0.0, shallow -2473.45, up 0.0, unknown 0.0. Frozen separator test: qualifying (component, bucket) pairs = []. Full table in r12_july_decomp.json.",
+  "banked": false,
+  "month": "2025-07",
+  "month_net": -2101.93,
+  "by_comp": {
+   "F4": -1025.28,
+   "GAP-FADE": 140.76,
+   "GAP-FADE-INC": -1560.1,
+   "INV-ABOVE": -2473.45,
+   "N4-V3": -1821.0,
+   "NE-REV-NU": 5255.43,
+   "P2F": -173.47,
+   "P2F-R2": -170.85,
+   "REXP": -273.97
+  },
+  "offender": "INV-ABOVE",
+  "by_comp_bucket": {
+   "F4|hard": [
+    8,
+    2229.3
+   ],
+   "F4|shallow": [
+    5,
+    -569.59
+   ],
+   "F4|up": [
+    6,
+    -2684.99
+   ],
+   "GAP-FADE|hard": [
+    3,
+    306.66
+   ],
+   "GAP-FADE|shallow": [
+    1,
+    -165.9
+   ],
+   "GAP-FADE-INC|hard": [
+    3,
+    -1560.1
+   ],
+   "INV-ABOVE|shallow": [
+    3,
+    -2473.45
+   ],
+   "N4-V3|hard": [
+    1,
+    -332.12
+   ],
+   "N4-V3|up": [
+    1,
+    -1488.88
+   ],
+   "NE-REV-NU|hard": [
+    5,
+    5459.72
+   ],
+   "NE-REV-NU|up": [
+    1,
+    -204.29
+   ],
+   "P2F|unknown": [
+    1,
+    -173.47
+   ],
+   "P2F-R2|unknown": [
+    1,
+    -170.85
+   ],
+   "REXP|hard": [
+    2,
+    -273.97
+   ]
+  },
+  "offender_full_year_buckets": {
+   "2025": {
+    "shallow": -620.96,
+    "hard": -1230.62,
+    "up": 10132.83
+   },
+   "2026": {
+    "up": 4295.15,
+    "shallow": 3066.24,
+    "hard": -4012.18
+   }
+  },
+  "separator_test": {
+   "hard": {
+    "month": 0.0,
+    "i": false,
+    "fy2025": -1230.62,
+    "ii": true,
+    "combined": -5242.8,
+    "iii": true
+   },
+   "shallow": {
+    "month": -2473.45,
+    "i": true,
+    "fy2025": -620.96,
+    "ii": true,
+    "combined": 2445.28,
+    "iii": false
+   },
+   "up": {
+    "month": 0.0,
+    "i": false,
+    "fy2025": 10132.83,
+    "ii": false,
+    "combined": 14427.98,
+    "iii": false
+   }
+  },
+  "qualifying_separators": []
+ },
+ {
+  "cycle": "R12-08",
+  "type": "audit",
+  "label": "2025-07 conditioned variant \u2014 closes by statement",
+  "note": "Separator test produced 0 qualifying buckets for INV-ABOVE ([]); the frozen rule requires exactly one. No candidate is designed or scored \u2014 the workstream closes with the decomposition as its result.",
+  "banked": false
+ },
+ {
+  "cycle": "R12-09",
+  "type": "audit",
+  "label": "WS5 combinations + stack-price maintenance + December freeze addendum + finalise",
+  "note": "Union of Round-12 bankings = R12-02 alone (R12-03 rejected on (c) + (e); R12-06 / R12-08 produced no candidate). Re-gated whole-book: verdict PASS (2025 JO 101114.78; 2026 JO 251553.07; combined 352664.64) \u2014 identical to the R12-02 gate, as it must be. Ending book exported to stocks_engine_r12_book{2025,2026}_trades.csv, independently re-summed, and regeneration-verified against a fresh rebuild from the Round-11 CSVs (multiset identity, both years). Stack prices restated on the ending book (see report). December freeze addendum (Round 12) appended.",
+  "banked": false,
+  "union_verdict": true,
+  "ending_jo": {
+   "2025": 101114.78,
+   "2026": 251553.07
+  }
+ }
+]

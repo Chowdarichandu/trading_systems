@@ -1,0 +1,429 @@
+[
+ {
+  "cycle": "R10-01",
+  "type": "audit",
+  "label": "Starting-book verification + WS2 admission-rule algebra (audit \u2014 no candidate scored)",
+  "note": "Starting books re-summed independently from the Round-9 CSVs: 2025 887 rows, JO 78420.04, full 77041.31; 2026 969 rows, JO 229696.21, full 229696.21 \u2014 exact vs the recorded totals. Algebra on CERT (291/370): IDXCELL (139/233) subset IDX (201/252) subset CERT, and every IDX row verified per-row to carry NIFTY 10:25 move <= -0.30 (0 violations), hence to satisfy NOTCH (IDX subset of NOTCH's 262/332 rows); NU row set == NOTCH cap UPGUARD exactly in both years. The literal set-combinations of {IDXCELL, NOTCH} therefore collapse to already-gated forms (cap = IDXCELL, R9-07; cup = NOTCH, R10-03) \u2014 the distinct composed form is NE-REV-NOTCHCELL as frozen in the Round-10 pre-registration, gated in R10-04.",
+  "banked": false,
+  "book_check": {
+   "2025": [
+    887,
+    78420.04,
+    77041.31
+   ],
+   "2026": [
+    969,
+    229696.21,
+    229696.21
+   ]
+  },
+  "algebra": {
+   "2025": {
+    "cert": 291,
+    "idx": 201,
+    "idxcell": 139,
+    "notch": 262,
+    "upguard": 218,
+    "nu": 200,
+    "idx_mv_violations": 0,
+    "idx_subset_cert": true,
+    "idxcell_subset_idx": true,
+    "idx_subset_notch": true,
+    "nu_eq_notch_cap_upguard": true
+   },
+   "2026": {
+    "cert": 370,
+    "idx": 252,
+    "idxcell": 233,
+    "notch": 332,
+    "upguard": 345,
+    "nu": 313,
+    "idx_mv_violations": 0,
+    "idx_subset_cert": true,
+    "idxcell_subset_idx": true,
+    "idx_subset_notch": true,
+    "nu_eq_notch_cap_upguard": true
+   }
+  }
+ },
+ {
+  "cycle": "R10-02",
+  "label": "NE-REV-NU standalone (NOTCH+UPGUARD conditioned NE-REV; the R9-04 stack-slot ingredient gated on the banked book)",
+  "note": "standalone addition of the exact Round-9 ingredient rows: standalone 12596.19 (2025) / 23744.4 (2026) on 200/313 rows; state-unknown rows dropped 0 (counted, never guessed). Placebos (identical conditions): flipped book 261912.79; one-bar-late book 319059.64. Timing violations 0. Failed legs: ['e_extop3'].",
+  "verdict": false,
+  "legs": {
+   "a_combined_rises": true,
+   "b_2025_no_fall": true,
+   "c_2026_no_fall": true,
+   "d_cells_positive": true,
+   "e_extop3": false,
+   "f_no_green_month_flips": true,
+   "flip_detail": [],
+   "g_no_half_flips": true,
+   "h_beats_placebos": true,
+   "i_timing_clean": true,
+   "x_2026_floor_holds": true
+  },
+  "sums": {
+   "base_combined": 306737.52,
+   "variant_combined": 343078.11
+  },
+  "base": {
+   "2025": {
+    "total": 77041.31,
+    "jan_oct": 78420.04,
+    "ex_top3": 23708.1,
+    "trades": 887
+   },
+   "2026": {
+    "total": 229696.21,
+    "jan_oct": 229696.21,
+    "ex_top3": 77473.77,
+    "trades": 969
+   }
+  },
+  "var": {
+   "2025": {
+    "total": 89637.5,
+    "jan_oct": 89119.61,
+    "ex_top3": 24279.79,
+    "trades": 1087
+   },
+   "2026": {
+    "total": 253440.61,
+    "jan_oct": 253440.61,
+    "ex_top3": 66291.66,
+    "trades": 1282
+   }
+  },
+  "base_cells": {
+   "2025": {
+    "DOWN": 42941.63,
+    "FLAT": 21250.68,
+    "UP": 12849.0
+   },
+   "2026": {
+    "DOWN": 210264.94,
+    "FLAT": 2909.78,
+    "UP": 16521.49
+   }
+  },
+  "var_cells": {
+   "2025": {
+    "DOWN": 44362.51,
+    "FLAT": 26396.29,
+    "UP": 18878.7
+   },
+   "2026": {
+    "DOWN": 233562.85,
+    "FLAT": 6825.26,
+    "UP": 13052.5
+   }
+  },
+  "banked": false,
+  "standalone": {
+   "2025": 12596.19,
+   "2026": 23744.4
+  },
+  "population_trades": {
+   "2025": 200,
+   "2026": 313
+  },
+  "failed_legs": [
+   "e_extop3"
+  ]
+ },
+ {
+  "cycle": "R10-03",
+  "label": "NE-REV-NOTCH standalone (NOTCH conditioned NE-REV; the R9-02 stack-slot ingredient gated on the banked book)",
+  "note": "standalone addition of the exact Round-9 ingredient rows: standalone 18618.88 (2025) / 21026.84 (2026) on 262/332 rows; state-unknown rows dropped 0 (counted, never guessed). Placebos (identical conditions): flipped book 248121.49; one-bar-late book 308924.05. Timing violations 0. Failed legs: ['e_extop3', 'f_no_green_month_flips'].",
+  "verdict": false,
+  "legs": {
+   "a_combined_rises": true,
+   "b_2025_no_fall": true,
+   "c_2026_no_fall": true,
+   "d_cells_positive": true,
+   "e_extop3": false,
+   "f_no_green_month_flips": false,
+   "flip_detail": [
+    "2025-12:1207.95->-632.67"
+   ],
+   "g_no_half_flips": true,
+   "h_beats_placebos": true,
+   "i_timing_clean": true,
+   "x_2026_floor_holds": true
+  },
+  "sums": {
+   "base_combined": 306737.52,
+   "variant_combined": 346383.24
+  },
+  "base": {
+   "2025": {
+    "total": 77041.31,
+    "jan_oct": 78420.04,
+    "ex_top3": 23708.1,
+    "trades": 887
+   },
+   "2026": {
+    "total": 229696.21,
+    "jan_oct": 229696.21,
+    "ex_top3": 77473.77,
+    "trades": 969
+   }
+  },
+  "var": {
+   "2025": {
+    "total": 95660.19,
+    "jan_oct": 96440.19,
+    "ex_top3": 27239.49,
+    "trades": 1149
+   },
+   "2026": {
+    "total": 250723.05,
+    "jan_oct": 250723.05,
+    "ex_top3": 64463.13,
+    "trades": 1301
+   }
+  },
+  "base_cells": {
+   "2025": {
+    "DOWN": 42941.63,
+    "FLAT": 21250.68,
+    "UP": 12849.0
+   },
+   "2026": {
+    "DOWN": 210264.94,
+    "FLAT": 2909.78,
+    "UP": 16521.49
+   }
+  },
+  "var_cells": {
+   "2025": {
+    "DOWN": 44362.51,
+    "FLAT": 26396.29,
+    "UP": 24901.39
+   },
+   "2026": {
+    "DOWN": 233562.85,
+    "FLAT": 6825.26,
+    "UP": 10334.94
+   }
+  },
+  "banked": false,
+  "standalone": {
+   "2025": 18618.88,
+   "2026": 21026.84
+  },
+  "population_trades": {
+   "2025": 262,
+   "2026": 332
+  },
+  "failed_legs": [
+   "e_extop3",
+   "f_no_green_month_flips"
+  ]
+ },
+ {
+  "cycle": "R10-04",
+  "label": "NE-REV-NOTCHCELL standalone (NOTCH x DOWN+FLAT-cell restriction on the CERT population)",
+  "note": "composed form standalone: 6566.49 (2025) / 27213.39 (2026) on 181/293 rows of CERT 291/370; state-unknown rows dropped 0 (counted, never guessed). Distinctness verified in code: IDXCELL is a proper subset in both years and the form differs from NE-REV-NU's row set in both years. Placebos (identical composed condition): flipped book 261220.48; one-bar-late book 315927.36. Timing violations 0. Failed legs: ['e_extop3'].",
+  "verdict": false,
+  "legs": {
+   "a_combined_rises": true,
+   "b_2025_no_fall": true,
+   "c_2026_no_fall": true,
+   "d_cells_positive": true,
+   "e_extop3": false,
+   "f_no_green_month_flips": true,
+   "flip_detail": [],
+   "g_no_half_flips": true,
+   "h_beats_placebos": true,
+   "i_timing_clean": true,
+   "x_2026_floor_holds": true
+  },
+  "sums": {
+   "base_combined": 306737.52,
+   "variant_combined": 340517.4
+  },
+  "base": {
+   "2025": {
+    "total": 77041.31,
+    "jan_oct": 78420.04,
+    "ex_top3": 23708.1,
+    "trades": 887
+   },
+   "2026": {
+    "total": 229696.21,
+    "jan_oct": 229696.21,
+    "ex_top3": 77473.77,
+    "trades": 969
+   }
+  },
+  "var": {
+   "2025": {
+    "total": 83607.8,
+    "jan_oct": 84986.53,
+    "ex_top3": 21216.69,
+    "trades": 1068
+   },
+   "2026": {
+    "total": 256909.6,
+    "jan_oct": 256909.6,
+    "ex_top3": 69426.6,
+    "trades": 1262
+   }
+  },
+  "base_cells": {
+   "2025": {
+    "DOWN": 42941.63,
+    "FLAT": 21250.68,
+    "UP": 12849.0
+   },
+   "2026": {
+    "DOWN": 210264.94,
+    "FLAT": 2909.78,
+    "UP": 16521.49
+   }
+  },
+  "var_cells": {
+   "2025": {
+    "DOWN": 44362.51,
+    "FLAT": 26396.29,
+    "UP": 12849.0
+   },
+   "2026": {
+    "DOWN": 233562.85,
+    "FLAT": 6825.26,
+    "UP": 16521.49
+   }
+  },
+  "banked": false,
+  "standalone": {
+   "2025": 6566.49,
+   "2026": 27213.39
+  },
+  "population_trades": {
+   "2025": 181,
+   "2026": 293
+  },
+  "failed_legs": [
+   "e_extop3"
+  ]
+ },
+ {
+  "cycle": "R10-05",
+  "type": "audit",
+  "label": "July-2025 wound decomposition by component x index-state bucket (audit \u2014 no candidate scored)",
+  "note": "July 2025 = -7083.39 on 33 rows (asserted). By component: F4 -1025.28; GAP-FADE 140.76; GAP-FADE-INC -1560.1; INV-ABOVE -2473.45; N4-V3 -1821.0; P2F -173.47; P2F-R2 -170.85. Offending component: INV-ABOVE (-2473.45). Its July state split: hard 0.0, shallow -2473.45, up 0.0, unknown 0.0. Frozen separator test: qualifying (component, bucket) pairs = []. Full table in r10_july_decomp.json.",
+  "banked": false,
+  "july_net": -7083.39,
+  "by_comp": {
+   "F4": -1025.28,
+   "GAP-FADE": 140.76,
+   "GAP-FADE-INC": -1560.1,
+   "INV-ABOVE": -2473.45,
+   "N4-V3": -1821.0,
+   "P2F": -173.47,
+   "P2F-R2": -170.85
+  },
+  "offender": "INV-ABOVE",
+  "by_comp_bucket": {
+   "F4|hard": [
+    8,
+    2229.3
+   ],
+   "F4|shallow": [
+    5,
+    -569.59
+   ],
+   "F4|up": [
+    6,
+    -2684.99
+   ],
+   "GAP-FADE|hard": [
+    3,
+    306.66
+   ],
+   "GAP-FADE|shallow": [
+    1,
+    -165.9
+   ],
+   "GAP-FADE-INC|hard": [
+    3,
+    -1560.1
+   ],
+   "INV-ABOVE|shallow": [
+    3,
+    -2473.45
+   ],
+   "N4-V3|hard": [
+    1,
+    -332.12
+   ],
+   "N4-V3|up": [
+    1,
+    -1488.88
+   ],
+   "P2F|unknown": [
+    1,
+    -173.47
+   ],
+   "P2F-R2|unknown": [
+    1,
+    -170.85
+   ]
+  },
+  "offender_full_year_buckets": {
+   "2025": {
+    "shallow": -620.96,
+    "hard": -1230.62,
+    "up": 10132.83
+   },
+   "2026": {
+    "up": 4295.15,
+    "shallow": 3066.24,
+    "hard": -4012.18
+   }
+  },
+  "qualifying_separators": []
+ },
+ {
+  "cycle": "R10-06",
+  "type": "audit",
+  "label": "July conditioned variant \u2014 closes by statement",
+  "note": "Separator test produced 0 qualifying buckets for INV-ABOVE ([]); the frozen rule requires exactly one. No candidate is designed or scored \u2014 WS3 closes with the decomposition as its result.",
+  "banked": false
+ },
+ {
+  "cycle": "R10-07",
+  "type": "audit",
+  "label": "WS5 combinations of Round-10 bankings \u2014 closes by statement",
+  "note": "Round 10 banked ZERO candidates: R10-02 NE-REV-NU standalone fails leg (e) only (2025 JO -> 89,119.61; no flips); R10-03 NE-REV-NOTCH standalone fails (e)+(f) (2025 JO -> 96,440.19; Dec 2025 flips to -632.67); R10-04 NE-REV-NOTCHCELL standalone fails leg (e) only (2025 JO -> 84,986.53; 2026 JO -> 2,56,909.60; no flips); R10-06 produced no candidate (no separator). With no bankings there is no union to re-gate. The three conditioned NE-REV forms join the flagged list as standalone owner decisions; their stack-slot prices stand as restated in R10-08.",
+  "banked": false
+ },
+ {
+  "cycle": "R10-08",
+  "type": "audit",
+  "label": "WS4 stack-price maintenance + finalise (decision support)",
+  "note": "Ending book is the starting book (zero bankings); exported to stocks_engine_r10_book{2025,2026}_trades.csv and independently re-summed to the paisa (2025 JO 78,420.04 / 887 rows; 2026 JO 2,29,696.21 / 969 rows). Stack prices restated on the ending book by full rebuild (NE-REV slot dedupe vacuous \u2014 the book carries no NE-REV rows; asserted) and reproduced EXACTLY: unconditioned (R8-02) 2025 JO 1,23,231.11 / 2026 JO 2,47,547.25 (fails (f)); Variant A NOTCH (R9-02) 1,27,134.02 / 2,44,461.23 (fails (f) Dec only); Variant C NOTCH+UPGUARD (R9-04) 1,19,813.44 / 2,47,178.79 (passes all ten legs); IDXCELL slot (R9-08) 1,13,146.38 / 2,57,803.88 (passes all ten legs). Adoption values on the ending book are unchanged from Round 9. Stack forms remain alternatives \u2014 never additive.",
+  "banked": false,
+  "stack_prices_restated": {
+   "unconditioned_R8-02": {
+    "2025": 123231.11,
+    "2026": 247547.25
+   },
+   "A_NOTCH_R9-02": {
+    "2025": 127134.02,
+    "2026": 244461.23
+   },
+   "C_NOTCHUPGUARD_R9-04": {
+    "2025": 119813.44,
+    "2026": 247178.79
+   },
+   "IDXCELL_R9-08": {
+    "2025": 113146.38,
+    "2026": 257803.88
+   }
+  }
+ }
+]

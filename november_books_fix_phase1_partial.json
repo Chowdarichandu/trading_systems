@@ -1,0 +1,107 @@
+{
+ "books": {
+  "BANK_STACK": {
+   "legs": 111,
+   "total": 127351.5
+  },
+  "BANK_LEGACY": {
+   "legs": 99,
+   "total": 83650.5
+  },
+  "NIFTY_TUNED_V1": {
+   "legs": 74,
+   "total": 103050.25
+  },
+  "NIFTY_DECS1": {
+   "legs": 97,
+   "total": 91168.5
+  }
+ },
+ "parallel_janoct": {
+  "stack": {
+   "total": 127351.5,
+   "green": 60,
+   "red": 29,
+   "no_trade": 114
+  },
+  "regime_rev": {
+   "total": 15872.0,
+   "green": 16,
+   "red": 15,
+   "no_trade": 172
+  },
+  "combined": {
+   "total": 143223.5,
+   "green": 71,
+   "red": 33,
+   "no_trade": 99
+  }
+ },
+ "parallel_november": {
+  "stack": {
+   "total": -2680.0,
+   "green": 1,
+   "red": 3,
+   "no_trade": 5
+  },
+  "regime_rev": {
+   "total": 2141.0,
+   "green": 2,
+   "red": 2,
+   "no_trade": 5
+  },
+  "combined": {
+   "total": -539.0,
+   "green": 3,
+   "red": 5,
+   "no_trade": 1
+  }
+ },
+ "parallel_november_days": {
+  "2026-11-02": {
+   "stack": 0.0,
+   "regime_rev": 2480.0,
+   "combined": 2480.0
+  },
+  "2026-11-03": {
+   "stack": 0.0,
+   "regime_rev": -1099.0,
+   "combined": -1099.0
+  },
+  "2026-11-04": {
+   "stack": 2480.0,
+   "regime_rev": 0.0,
+   "combined": 2480.0
+  },
+  "2026-11-05": {
+   "stack": 0.0,
+   "regime_rev": 2480.0,
+   "combined": 2480.0
+  },
+  "2026-11-06": {
+   "stack": 0.0,
+   "regime_rev": 0.0,
+   "combined": 0.0
+  },
+  "2026-11-09": {
+   "stack": -1720.0,
+   "regime_rev": 0.0,
+   "combined": -1720.0
+  },
+  "2026-11-11": {
+   "stack": 0.0,
+   "regime_rev": -1720.0,
+   "combined": -1720.0
+  },
+  "2026-11-12": {
+   "stack": -1720.0,
+   "regime_rev": 0.0,
+   "combined": -1720.0
+  },
+  "2026-11-13": {
+   "stack": -1720.0,
+   "regime_rev": 0.0,
+   "combined": -1720.0
+  }
+ }
+}

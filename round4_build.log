@@ -1,0 +1,48 @@
+spot extra 2026-11-12: 75 candles
+spot extra 2026-11-13: 0 candles
+calendar days 2026-01-01 -> 2026-11-12: 214
+FUT5 2026-01-27: 2925 bars (fetched); in-force days 17; short after retry: []
+FUT5 2026-02-24: 3075 bars (fetched); in-force days 21; short after retry: []
+FUT5 2026-03-30: 3000 bars (fetched); in-force days 22; short after retry: []
+FUT5 2026-04-28: 2775 bars (fetched); in-force days 18; short after retry: []
+FUT5 2026-05-26: 2850 bars (fetched); in-force days 19; short after retry: []
+FUT5 2026-06-30: 3000 bars (fetched); in-force days 23; short after retry: []
+FUT5 2026-07-28: 3075 bars (fetched); in-force days 20; short after retry: []
+FUT5 2026-08-25: 3184 bars (fetched); in-force days 20; short after retry: []
+FUT5 2026-09-29: 3157 bars (fetched); in-force days 24; short after retry: []
+FUT5 2026-10-27: 3003 bars (fetched); in-force days 18; short after retry: []
+FUT5 2026-11-23: 2403 bars (fetched); in-force days 12; short after retry: ['2026-11-08']
+morning rows: 214 (gate 205, Nov 9); partial/missing: ['2026-11-08']
+{
+ "rows": 214,
+ "partial": [
+  "2026-11-08"
+ ],
+ "gate_complete": 205,
+ "gate_days": 205,
+ "spot_morning_pct_dist": {
+  "n": 205,
+  "min": -2.0408,
+  "p25": -0.3582,
+  "median": -0.0255,
+  "p75": 0.3137,
+  "max": 1.6317
+ },
+ "dbasis_pct_dist": {
+  "n": 205,
+  "min": -0.2151,
+  "p25": -0.0563,
+  "median": 0.0031,
+  "p75": 0.0467,
+  "max": 0.2393
+ },
+ "basis_open_pct_dist": {
+  "n": 205,
+  "min": -0.0932,
+  "p25": 0.1692,
+  "median": 0.2904,
+  "p75": 0.4671,
+  "max": 0.8625
+ }
+}
+BUILD DONE

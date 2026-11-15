@@ -1,0 +1,550 @@
+[
+ {
+  "cycle": "R14-01",
+  "type": "audit",
+  "label": "Starting-book verification (Round-13 ending book)",
+  "note": "Books re-summed from stocks_engine_r13_book{2025,2026}_trades.csv: 2025 JO 103357.44 / full 103354.23 / 1105 rows; 2026 JO 253068.45 / full 253068.45 / 1352 rows \u2014 exact vs the Round-13 record. Red 2025 Jan-Oct months asserted: Jul -2000.01, Oct -3751.28. No scoring preceded this audit.",
+  "banked": false
+ },
+ {
+  "cycle": "R14-02",
+  "label": "F4 geometry swap T150/S095 -> T175/S095 (target step only, whole sleeve)",
+  "note": "Sleeve standalone 6371.44 / 92288.65 (JO 6371.44 / 92288.65) on 246/355 rows vs the banked cell's 91.14 / 103055.93. Anchors: pop, re-score (flavour 'plain') and T175 cross-check all exact. Placebos: flipped swap book 152811.29; late swap book 342422.71. Timing violations 0 \u2014 the population is the audited banked population; exits only. Failed legs: ['a_combined_rises', 'c_2026_no_fall'].",
+  "verdict": false,
+  "legs": {
+   "a_combined_rises": false,
+   "b_2025_no_fall": true,
+   "c_2026_no_fall": false,
+   "d_cells_positive": true,
+   "e_extop3": true,
+   "f_no_green_month_flips": true,
+   "flip_detail": [],
+   "g_no_half_flips": true,
+   "h_beats_placebos": true,
+   "i_timing_clean": true,
+   "x_2026_floor_holds": true
+  },
+  "sums": {
+   "base_combined": 356422.68,
+   "variant_combined": 351935.7
+  },
+  "base": {
+   "2025": {
+    "total": 103354.23,
+    "jan_oct": 103357.44,
+    "ex_top3": 36946.62,
+    "trades": 1105
+   },
+   "2026": {
+    "total": 253068.45,
+    "jan_oct": 253068.45,
+    "ex_top3": 70074.3,
+    "trades": 1352
+   }
+  },
+  "var": {
+   "2025": {
+    "total": 109634.53,
+    "jan_oct": 109637.74,
+    "ex_top3": 40168.17,
+    "trades": 1105
+   },
+   "2026": {
+    "total": 242301.17,
+    "jan_oct": 242301.17,
+    "ex_top3": 69300.27,
+    "trades": 1352
+   }
+  },
+  "base_cells": {
+   "2025": {
+    "DOWN": 56848.62,
+    "FLAT": 26197.65,
+    "UP": 20307.96
+   },
+   "2026": {
+    "DOWN": 229178.51,
+    "FLAT": 10893.36,
+    "UP": 12996.58
+   }
+  },
+  "var_cells": {
+   "2025": {
+    "DOWN": 63317.18,
+    "FLAT": 26009.39,
+    "UP": 20307.96
+   },
+   "2026": {
+    "DOWN": 218460.83,
+    "FLAT": 10843.76,
+    "UP": 12996.58
+   }
+  },
+  "banked": false,
+  "sleeve_standalone": {
+   "2025": 6371.44,
+   "2026": 92288.65
+  },
+  "sleeve_jo": {
+   "2025": 6371.44,
+   "2026": 92288.65
+  },
+  "failed_legs": [
+   "a_combined_rises",
+   "c_2026_no_fall"
+  ]
+ },
+ {
+  "cycle": "R14-03",
+  "label": "INV-LONG geometry swap T125/S050 -> T150/S050 (target step only)",
+  "note": "Sleeve standalone 28170.0 / 39612.14 (JO 28170.0 / 39612.14) on 277/174 rows vs the banked cell's 23894.61 / 50160.09. Population re-formed at the candidate geometry under the R2-07 law (rounds <= 3, < 11:00). Placebo: SHORT-side swap book 249087.14 (chain's own opposite side at the candidate geometry, R2-25/26 precedent). Timing violations 0 \u2014 run_chain picks never read exit outcomes; round-1 identity asserted. Failed legs: ['a_combined_rises', 'c_2026_no_fall'].",
+  "verdict": false,
+  "legs": {
+   "a_combined_rises": false,
+   "b_2025_no_fall": true,
+   "c_2026_no_fall": false,
+   "d_cells_positive": true,
+   "e_extop3": true,
+   "f_no_green_month_flips": true,
+   "flip_detail": [],
+   "g_no_half_flips": true,
+   "h_beats_placebos": true,
+   "i_timing_clean": true,
+   "x_2026_floor_holds": true
+  },
+  "sums": {
+   "base_combined": 356422.68,
+   "variant_combined": 350150.12
+  },
+  "base": {
+   "2025": {
+    "total": 103354.23,
+    "jan_oct": 103357.44,
+    "ex_top3": 36946.62,
+    "trades": 1105
+   },
+   "2026": {
+    "total": 253068.45,
+    "jan_oct": 253068.45,
+    "ex_top3": 70074.3,
+    "trades": 1352
+   }
+  },
+  "var": {
+   "2025": {
+    "total": 107629.62,
+    "jan_oct": 107632.83,
+    "ex_top3": 40419.66,
+    "trades": 1091
+   },
+   "2026": {
+    "total": 242520.5,
+    "jan_oct": 242520.5,
+    "ex_top3": 70431.17,
+    "trades": 1344
+   }
+  },
+  "base_cells": {
+   "2025": {
+    "DOWN": 56848.62,
+    "FLAT": 26197.65,
+    "UP": 20307.96
+   },
+   "2026": {
+    "DOWN": 229178.51,
+    "FLAT": 10893.36,
+    "UP": 12996.58
+   }
+  },
+  "var_cells": {
+   "2025": {
+    "DOWN": 61124.01,
+    "FLAT": 26197.65,
+    "UP": 20307.96
+   },
+   "2026": {
+    "DOWN": 218630.56,
+    "FLAT": 10893.36,
+    "UP": 12996.58
+   }
+  },
+  "banked": false,
+  "sleeve_standalone": {
+   "2025": 28170.0,
+   "2026": 39612.14
+  },
+  "sleeve_jo": {
+   "2025": 28170.0,
+   "2026": 39612.14
+  },
+  "failed_legs": [
+   "a_combined_rises",
+   "c_2026_no_fall"
+  ]
+ },
+ {
+  "cycle": "R14-04",
+  "label": "INV-ABOVE geometry swap T125/S050 -> T150/S050 (target step only)",
+  "note": "Sleeve standalone 13167.14 / 10114.82 (JO 12513.28 / 10114.82) on 124/20 rows vs the banked cell's 9511.87 / 7361.39. Population re-formed at the candidate geometry under the incumbent law; the R12-02 hard-dip exclusion re-applied to the new rows drops 22 / 15 rows (book cell: 23 / 16). This cell decomposes the flagged R2-26 swap (T150/S080): the wider target at the incumbent stop. Placebo: SHORT-side swap book 338855.6 (chain's own opposite side at the candidate geometry, R2-25/26 precedent). Timing violations 0 \u2014 run_chain picks never read exit outcomes; round-1 identity asserted. Failed legs: [].",
+  "verdict": true,
+  "legs": {
+   "a_combined_rises": true,
+   "b_2025_no_fall": true,
+   "c_2026_no_fall": true,
+   "d_cells_positive": true,
+   "e_extop3": true,
+   "f_no_green_month_flips": true,
+   "flip_detail": [],
+   "g_no_half_flips": true,
+   "h_beats_placebos": true,
+   "i_timing_clean": true,
+   "x_2026_floor_holds": true
+  },
+  "sums": {
+   "base_combined": 356422.68,
+   "variant_combined": 362831.38
+  },
+  "base": {
+   "2025": {
+    "total": 103354.23,
+    "jan_oct": 103357.44,
+    "ex_top3": 36946.62,
+    "trades": 1105
+   },
+   "2026": {
+    "total": 253068.45,
+    "jan_oct": 253068.45,
+    "ex_top3": 70074.3,
+    "trades": 1352
+   }
+  },
+  "var": {
+   "2025": {
+    "total": 107009.5,
+    "jan_oct": 105407.56,
+    "ex_top3": 39744.79,
+    "trades": 1101
+   },
+   "2026": {
+    "total": 255821.88,
+    "jan_oct": 255821.88,
+    "ex_top3": 70969.28,
+    "trades": 1352
+   }
+  },
+  "base_cells": {
+   "2025": {
+    "DOWN": 56848.62,
+    "FLAT": 26197.65,
+    "UP": 20307.96
+   },
+   "2026": {
+    "DOWN": 229178.51,
+    "FLAT": 10893.36,
+    "UP": 12996.58
+   }
+  },
+  "var_cells": {
+   "2025": {
+    "DOWN": 56848.62,
+    "FLAT": 25845.48,
+    "UP": 24315.4
+   },
+   "2026": {
+    "DOWN": 229178.51,
+    "FLAT": 12780.89,
+    "UP": 13862.48
+   }
+  },
+  "banked": true,
+  "sleeve_standalone": {
+   "2025": 13167.14,
+   "2026": 10114.82
+  },
+  "sleeve_jo": {
+   "2025": 12513.28,
+   "2026": 10114.82
+  },
+  "failed_legs": []
+ },
+ {
+  "cycle": "R14-05",
+  "label": "GAP-FADE family geometry swap T125/S050 -> T125/S065 (stop step only, both comps)",
+  "note": "Sleeve standalone: GAP-FADE 23436.31 / -1294.41 (banked cell 21470.27 / 1492.21); GAP-FADE-INC 918.86 / 9028.07 (banked cell 2305.22 / 4763.03). Cell chosen by the frozen excursion diagnostic (stop-axis rough swing +12,157.87 vs target-axis -1,556.33; stocks_engine_r14_diag.py). Placebos: mirror (follow) swap book 289375.45; one-bar-late swap book 315521.88. Timing violations 0 \u2014 entries are the banked ones; exits only. Failed legs: [].",
+  "verdict": true,
+  "legs": {
+   "a_combined_rises": true,
+   "b_2025_no_fall": true,
+   "c_2026_no_fall": true,
+   "d_cells_positive": true,
+   "e_extop3": true,
+   "f_no_green_month_flips": true,
+   "flip_detail": [],
+   "g_no_half_flips": true,
+   "h_beats_placebos": true,
+   "i_timing_clean": true,
+   "x_2026_floor_holds": true
+  },
+  "sums": {
+   "base_combined": 356422.68,
+   "variant_combined": 358480.78
+  },
+  "base": {
+   "2025": {
+    "total": 103354.23,
+    "jan_oct": 103357.44,
+    "ex_top3": 36946.62,
+    "trades": 1105
+   },
+   "2026": {
+    "total": 253068.45,
+    "jan_oct": 253068.45,
+    "ex_top3": 70074.3,
+    "trades": 1352
+   }
+  },
+  "var": {
+   "2025": {
+    "total": 103933.91,
+    "jan_oct": 103937.12,
+    "ex_top3": 38829.27,
+    "trades": 1105
+   },
+   "2026": {
+    "total": 254546.87,
+    "jan_oct": 254546.87,
+    "ex_top3": 75242.48,
+    "trades": 1352
+   }
+  },
+  "base_cells": {
+   "2025": {
+    "DOWN": 56848.62,
+    "FLAT": 26197.65,
+    "UP": 20307.96
+   },
+   "2026": {
+    "DOWN": 229178.51,
+    "FLAT": 10893.36,
+    "UP": 12996.58
+   }
+  },
+  "var_cells": {
+   "2025": {
+    "DOWN": 57746.14,
+    "FLAT": 25879.81,
+    "UP": 20307.96
+   },
+   "2026": {
+    "DOWN": 226844.32,
+    "FLAT": 14705.97,
+    "UP": 12996.58
+   }
+  },
+  "banked": true,
+  "sleeve_standalone": {
+   "GAP-FADE": {
+    "2025": 23436.31,
+    "2026": -1294.41
+   },
+   "GAP-FADE-INC": {
+    "2025": 918.86,
+    "2026": 9028.07
+   }
+  },
+  "failed_legs": []
+ },
+ {
+  "cycle": "R14-06",
+  "label": "N4-V3 geometry swap T150/S080 -> T125/S050 (the November scorecard cell)",
+  "note": "Sleeve standalone -2141.65 / 11548.34 (JO -13.8 / 11548.34) on 35/34 rows vs the banked cell's 5851.63 / 29562.32. Population: the current one (thr 0.8%, law + FLOOR-2 cap, four R6-11 voids removed in every set). Placebos: flipped swap book 318677.81; one-bar-late (09:35-close entry) swap book 320404.16. Timing violations 0. Failed legs: ['a_combined_rises', 'b_2025_no_fall', 'c_2026_no_fall', 'e_extop3'].",
+  "verdict": false,
+  "legs": {
+   "a_combined_rises": false,
+   "b_2025_no_fall": false,
+   "c_2026_no_fall": false,
+   "d_cells_positive": true,
+   "e_extop3": false,
+   "f_no_green_month_flips": true,
+   "flip_detail": [],
+   "g_no_half_flips": true,
+   "h_beats_placebos": true,
+   "i_timing_clean": true,
+   "x_2026_floor_holds": true
+  },
+  "sums": {
+   "base_combined": 356422.68,
+   "variant_combined": 330415.42
+  },
+  "base": {
+   "2025": {
+    "total": 103354.23,
+    "jan_oct": 103357.44,
+    "ex_top3": 36946.62,
+    "trades": 1105
+   },
+   "2026": {
+    "total": 253068.45,
+    "jan_oct": 253068.45,
+    "ex_top3": 70074.3,
+    "trades": 1352
+   }
+  },
+  "var": {
+   "2025": {
+    "total": 95360.95,
+    "jan_oct": 95220.03,
+    "ex_top3": 32145.11,
+    "trades": 1105
+   },
+   "2026": {
+    "total": 235054.47,
+    "jan_oct": 235054.47,
+    "ex_top3": 60032.32,
+    "trades": 1352
+   }
+  },
+  "base_cells": {
+   "2025": {
+    "DOWN": 56848.62,
+    "FLAT": 26197.65,
+    "UP": 20307.96
+   },
+   "2026": {
+    "DOWN": 229178.51,
+    "FLAT": 10893.36,
+    "UP": 12996.58
+   }
+  },
+  "var_cells": {
+   "2025": {
+    "DOWN": 52027.78,
+    "FLAT": 26595.41,
+    "UP": 16737.76
+   },
+   "2026": {
+    "DOWN": 218505.99,
+    "FLAT": 5099.16,
+    "UP": 11449.32
+   }
+  },
+  "banked": false,
+  "sleeve_standalone": {
+   "2025": -2141.65,
+   "2026": 11548.34
+  },
+  "sleeve_jo": {
+   "2025": -13.8,
+   "2026": 11548.34
+  },
+  "failed_legs": [
+   "a_combined_rises",
+   "b_2025_no_fall",
+   "c_2026_no_fall",
+   "e_extop3"
+  ]
+ },
+ {
+  "cycle": "R14-07",
+  "label": "P2F family geometry swap T125/S050 -> T150/S050 (target step only, P2F + P2F-R2)",
+  "note": "Sleeve standalone: P2F 14851.06 / 21737.18 (banked cell 15884.42 / 20116.78); P2F-R2 -137.02 / 13640.8 (banked cell -390.06 / 15149.33). Stated reason (frozen in the pre-registration): both prior family tests moved target and stop together (T150/S080), so the 2025 bleed was unattributable; this cell isolates the target at the incumbent stop. One P2F-R2 row (WIPRO 2025-10-21, the Muhurat special session) carries the nominal 09:15 label on a day whose first bar is 13:45; it is scored from the session's opening bar \u2014 the convention its own lineage used, and the anchor reproduces its banked net (-59.0) exactly. Placebos: flipped swap book 282286.28; one-bar-late swap book 324289.97. Timing violations 0 \u2014 entries are the banked ones; exits only. Failed legs: ['a_combined_rises', 'b_2025_no_fall', 'e_extop3'].",
+  "verdict": false,
+  "legs": {
+   "a_combined_rises": false,
+   "b_2025_no_fall": false,
+   "c_2026_no_fall": true,
+   "d_cells_positive": true,
+   "e_extop3": false,
+   "f_no_green_month_flips": true,
+   "flip_detail": [],
+   "g_no_half_flips": true,
+   "h_beats_placebos": true,
+   "i_timing_clean": true,
+   "x_2026_floor_holds": true
+  },
+  "sums": {
+   "base_combined": 356422.68,
+   "variant_combined": 355754.23
+  },
+  "base": {
+   "2025": {
+    "total": 103354.23,
+    "jan_oct": 103357.44,
+    "ex_top3": 36946.62,
+    "trades": 1105
+   },
+   "2026": {
+    "total": 253068.45,
+    "jan_oct": 253068.45,
+    "ex_top3": 70074.3,
+    "trades": 1352
+   }
+  },
+  "var": {
+   "2025": {
+    "total": 102573.91,
+    "jan_oct": 103984.66,
+    "ex_top3": 34866.8,
+    "trades": 1105
+   },
+   "2026": {
+    "total": 253180.32,
+    "jan_oct": 253180.32,
+    "ex_top3": 70678.27,
+    "trades": 1352
+   }
+  },
+  "base_cells": {
+   "2025": {
+    "DOWN": 56848.62,
+    "FLAT": 26197.65,
+    "UP": 20307.96
+   },
+   "2026": {
+    "DOWN": 229178.51,
+    "FLAT": 10893.36,
+    "UP": 12996.58
+   }
+  },
+  "var_cells": {
+   "2025": {
+    "DOWN": 56740.49,
+    "FLAT": 26197.65,
+    "UP": 19635.77
+   },
+   "2026": {
+    "DOWN": 229690.22,
+    "FLAT": 11286.79,
+    "UP": 12203.31
+   }
+  },
+  "banked": false,
+  "sleeve_standalone": {
+   "P2F": {
+    "2025": 14851.06,
+    "2026": 21737.18
+   },
+   "P2F-R2": {
+    "2025": -137.02,
+    "2026": 13640.8
+   }
+  },
+  "failed_legs": [
+   "a_combined_rises",
+   "b_2025_no_fall",
+   "e_extop3"
+  ]
+ },
+ {
+  "cycle": "R14-08",
+  "type": "audit",
+  "label": "WS5 combinations + stack-price maintenance + December freeze addendum + finalise",
+  "note": "Union of Round-14 bankings = R14-04 (INV-ABOVE T150/S050) + R14-05 (GAP-FADE family T125/S065), re-gated whole-book against the starting book: verdict PASS (2025 JO 105987.24; 2026 JO 257300.3; combined 364889.48; placebos: fade-flip + INV-side book 271808.37, fade-late + INV-side book 297954.8). R14-02 rejected on (a)+(c); R14-03 on (a)+(c); R14-06 on (a)+(b)+(c)+(e); R14-07 on (a)+(b)+(e). Ending book exported to stocks_engine_r14_book{2025,2026}_trades.csv, independently re-summed, and regeneration-verified against a fresh rebuild from the Round-13 CSVs (multiset identity, both years). Stack prices restated on the ending book (see report). December freeze addendum (Round 14) appended.",
+  "banked": false,
+  "union_verdict": true,
+  "ending_jo": {
+   "2025": 105987.24,
+   "2026": 257300.3
+  }
+ }
+]

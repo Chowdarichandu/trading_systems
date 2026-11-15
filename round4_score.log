@@ -1,0 +1,7 @@
+BANKNIFTY D1: n=50 total=-7241.0 H=(-4866.5,-2374.5) ex3=-14681.0 pace=-724.1 NC=0 PASS=False legs={'total_pos': False, 'halves_pos': False, 'ex_top3_pos': False, 'beats_reversed': False, 'beats_coin': False, 'beats_shifted': True, 'timing_clean': True, 'nc_ok': True}
+   placebos: rev=-6200.0 coin=12664.0 shift=-45282.5 | NOV n=1 total=2480.0
+BANKNIFTY T1: n=120 total=-37648.5 H=(-26919.0,-10729.5) ex3=-45088.5 pace=-3764.85 NC=0 PASS=False legs={'total_pos': False, 'halves_pos': False, 'ex_top3_pos': False, 'beats_reversed': False, 'beats_coin': False, 'beats_shifted': True, 'timing_clean': True, 'nc_ok': True}
+   placebos: rev=-19666.5 coin=-12834.0 shift=-70426.5 | NOV n=3 total=7440.0
+MERGE D1: incr 27 legs 8973.0 | merged 136324.5 on 116 TD = 1175.21/TD | Nov merged -2680.0 (family Nov legs 1, incr 0)
+MERGE T1: incr 70 legs -19171.0 | merged 108180.5 on 159 TD = 680.38/TD | Nov merged 2280.0 (family Nov legs 3, incr 2)
+re-sum: EXACT for all scored Bank books | results -> new_data_round4_results.json

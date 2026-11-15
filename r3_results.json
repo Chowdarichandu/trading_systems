@@ -1,0 +1,759 @@
+[
+ {
+  "cycle": "R3-01",
+  "label": "WS1 wound basket: delete (comp x stock x dir) rows with 2025 Jun/Jul/Oct net < 0 AND whole-book net in (-500, 0]",
+  "verdict": false,
+  "note": "members [('F4', 'NTPC', 'SHORT'), ('F4', 'WIPRO', 'SHORT'), ('N4-V3', 'INDUSTOWER', 'SHORT'), ('P2F', 'INDUSTOWER', 'LONG'), ('P2F', 'WIPRO', 'LONG'), ('P2F-R2', 'INDUSTOWER', 'LONG'), ('P2F-R2', 'WIPRO', 'SHORT')]; removed 58 trades; placebos: mirror-wound basket 281788.63, chrono first-N 280891.16",
+  "legs": {
+   "a_combined_rises": true,
+   "b_2025_no_fall": true,
+   "c_2026_no_fall": false,
+   "d_cells_positive": true,
+   "e_extop3": true,
+   "f_no_green_month_flips": true,
+   "flip_detail": [],
+   "g_no_half_flips": true,
+   "h_beats_placebos": false,
+   "i_timing_clean": true,
+   "x_2026_floor_holds": true
+  },
+  "sums": {
+   "base_combined": 276758.7,
+   "variant_combined": 278454.13
+  },
+  "base": {
+   "2025": {
+    "total": 54957.57,
+    "jan_oct": 56336.3,
+    "ex_top3": 9775.76,
+    "trades": 776
+   },
+   "2026": {
+    "total": 221801.13,
+    "jan_oct": 221801.13,
+    "ex_top3": 87675.53,
+    "trades": 680
+   }
+  },
+  "var": {
+   "2025": {
+    "total": 56831.1,
+    "jan_oct": 58209.83,
+    "ex_top3": 11649.29,
+    "trades": 752
+   },
+   "2026": {
+    "total": 221623.03,
+    "jan_oct": 221623.03,
+    "ex_top3": 87497.43,
+    "trades": 646
+   }
+  },
+  "base_cells": {
+   "2025": {
+    "DOWN": 39226.0,
+    "FLAT": 2882.57,
+    "UP": 12849.0
+   },
+   "2026": {
+    "DOWN": 196194.09,
+    "FLAT": 9546.35,
+    "UP": 16060.69
+   }
+  },
+  "var_cells": {
+   "2025": {
+    "DOWN": 40205.5,
+    "FLAT": 3165.68,
+    "UP": 13459.92
+   },
+   "2026": {
+    "DOWN": 195665.25,
+    "FLAT": 9897.09,
+    "UP": 16060.69
+   }
+  }
+ },
+ {
+  "cycle": "R3-02",
+  "type": "audit_no_candidate",
+  "label": "WS2 event-layer audit: 2025 population completeness",
+  "banked": false,
+  "finding": "2025 calendar COMPLETE: 100 results rows (4/stock), 0 with missing/out-of-window reaction_date; reaction candidates 100 vs 2026's 80; band>=2.5% candidates 33 vs 39; N4 signal-days 91 vs 77. Nothing missing to rebuild. The 16 out-of-window rows in the 2026 file are 15 Nov-2025 events (placeholder reaction 2026-01-01; valid Nov-2025 dates sourceable from results_events_v1.csv but outside the judged window either way) + UNITDSPR 2026-10-28 (reaction date unsourceable; incumbent treats announcement day as R). 2025 family weakness is expectancy (P2F-R2 -390.06 on 21 tr vs 2026 +15,149.33 on 32) and band mix, not coverage.",
+  "note": "no candidate gated: no hole exists in the judged window"
+ },
+ {
+  "cycle": "R3-03",
+  "label": "F4 15-min execution (entries deferred to next quarter-hour bar open; meas @10:00, band [0.5,1.0), T150/S095 frozen)",
+  "note": "placebos: quarter-hour FADE book 164748.1; one-bar-late (5-min) entry book 260460.55; audit violations 0",
+  "verdict": false,
+  "legs": {
+   "a_combined_rises": false,
+   "b_2025_no_fall": true,
+   "c_2026_no_fall": false,
+   "d_cells_positive": true,
+   "e_extop3": false,
+   "f_no_green_month_flips": true,
+   "flip_detail": [],
+   "g_no_half_flips": true,
+   "h_beats_placebos": false,
+   "i_timing_clean": true,
+   "x_2026_floor_holds": true
+  },
+  "sums": {
+   "base_combined": 276758.7,
+   "variant_combined": 243986.01
+  },
+  "base": {
+   "2025": {
+    "total": 54957.57,
+    "jan_oct": 56336.3,
+    "ex_top3": 9775.76,
+    "trades": 776
+   },
+   "2026": {
+    "total": 221801.13,
+    "jan_oct": 221801.13,
+    "ex_top3": 87675.53,
+    "trades": 680
+   }
+  },
+  "var": {
+   "2025": {
+    "total": 55186.23,
+    "jan_oct": 56564.96,
+    "ex_top3": 10273.71,
+    "trades": 776
+   },
+   "2026": {
+    "total": 188799.78,
+    "jan_oct": 188799.78,
+    "ex_top3": 71162.06,
+    "trades": 680
+   }
+  },
+  "base_cells": {
+   "2025": {
+    "DOWN": 39226.0,
+    "FLAT": 2882.57,
+    "UP": 12849.0
+   },
+   "2026": {
+    "DOWN": 196194.09,
+    "FLAT": 9546.35,
+    "UP": 16060.69
+   }
+  },
+  "var_cells": {
+   "2025": {
+    "DOWN": 42214.91,
+    "FLAT": 122.32,
+    "UP": 12849.0
+   },
+   "2026": {
+    "DOWN": 166335.25,
+    "FLAT": 6403.84,
+    "UP": 16060.69
+   }
+  },
+  "banked": false,
+  "standalone": {
+   "2025": 319.8,
+   "2026": 70054.58
+  }
+ },
+ {
+  "cycle": "R3-04",
+  "label": "INV 15-min execution (chain entries deferred to next quarter-hour bar open; INV-LONG r<=3 <11:00, INV-ABOVE r<=2 <10:30, law frozen)",
+  "note": "placebos: quarter-hour SHORT-mirror components book 190979.03; one-bar-late chain book 278152.19",
+  "verdict": false,
+  "legs": {
+   "a_combined_rises": false,
+   "b_2025_no_fall": false,
+   "c_2026_no_fall": false,
+   "d_cells_positive": false,
+   "e_extop3": false,
+   "f_no_green_month_flips": false,
+   "flip_detail": [
+    "2025-01:5997.81->-1957.45",
+    "2025-03:1091.17->-894.78"
+   ],
+   "g_no_half_flips": true,
+   "h_beats_placebos": false,
+   "i_timing_clean": true,
+   "x_2026_floor_holds": true
+  },
+  "sums": {
+   "base_combined": 276758.7,
+   "variant_combined": 253414.44
+  },
+  "base": {
+   "2025": {
+    "total": 54957.57,
+    "jan_oct": 56336.3,
+    "ex_top3": 9775.76,
+    "trades": 776
+   },
+   "2026": {
+    "total": 221801.13,
+    "jan_oct": 221801.13,
+    "ex_top3": 87675.53,
+    "trades": 680
+   }
+  },
+  "var": {
+   "2025": {
+    "total": 45107.96,
+    "jan_oct": 45304.57,
+    "ex_top3": 5158.31,
+    "trades": 715
+   },
+   "2026": {
+    "total": 208306.48,
+    "jan_oct": 208306.48,
+    "ex_top3": 81980.52,
+    "trades": 651
+   }
+  },
+  "base_cells": {
+   "2025": {
+    "DOWN": 39226.0,
+    "FLAT": 2882.57,
+    "UP": 12849.0
+   },
+   "2026": {
+    "DOWN": 196194.09,
+    "FLAT": 9546.35,
+    "UP": 16060.69
+   }
+  },
+  "var_cells": {
+   "2025": {
+    "DOWN": 28045.81,
+    "FLAT": -3182.49,
+    "UP": 20244.64
+   },
+   "2026": {
+    "DOWN": 185202.79,
+    "FLAT": 5803.64,
+    "UP": 17300.05
+   }
+  },
+  "banked": false,
+  "standalone": {
+   "INV-LONG": {
+    "2025": 12714.42,
+    "2026": 39168.79
+   },
+   "INV-ABOVE": {
+    "2025": 9611.83,
+    "2026": 845.86
+   }
+  }
+ },
+ {
+  "cycle": "R3-05",
+  "label": "NEW SLEEVE GAP-FOLLOW (gap >=1.5%, entry 09:20 open, T125/S050)",
+  "note": "diagnostic H1/H2 expectancy {'H1': (658, -27.36, -18003.7), 'H2': (146, -43.12, -6295.69)}; placebos: opposite-direction book 283943.2; one-bar-late entry book 233150.79",
+  "verdict": false,
+  "legs": {
+   "a_combined_rises": false,
+   "b_2025_no_fall": false,
+   "c_2026_no_fall": false,
+   "d_cells_positive": false,
+   "e_extop3": false,
+   "f_no_green_month_flips": false,
+   "flip_detail": [
+    "2025-03:1091.17->-3215.11",
+    "2025-12:1207.95->-1150.35"
+   ],
+   "g_no_half_flips": false,
+   "h_beats_placebos": false,
+   "i_timing_clean": true,
+   "x_2026_floor_holds": true
+  },
+  "sums": {
+   "base_combined": 276758.7,
+   "variant_combined": 249897.38
+  },
+  "base": {
+   "2025": {
+    "total": 54957.57,
+    "jan_oct": 56336.3,
+    "ex_top3": 9775.76,
+    "trades": 776
+   },
+   "2026": {
+    "total": 221801.13,
+    "jan_oct": 221801.13,
+    "ex_top3": 87675.53,
+    "trades": 680
+   }
+  },
+  "var": {
+   "2025": {
+    "total": 30316.24,
+    "jan_oct": 34256.9,
+    "ex_top3": -7669.03,
+    "trades": 1115
+   },
+   "2026": {
+    "total": 219581.14,
+    "jan_oct": 219581.14,
+    "ex_top3": 76491.74,
+    "trades": 1175
+   }
+  },
+  "base_cells": {
+   "2025": {
+    "DOWN": 39226.0,
+    "FLAT": 2882.57,
+    "UP": 12849.0
+   },
+   "2026": {
+    "DOWN": 196194.09,
+    "FLAT": 9546.35,
+    "UP": 16060.69
+   }
+  },
+  "var_cells": {
+   "2025": {
+    "DOWN": 35105.55,
+    "FLAT": -7119.24,
+    "UP": 2329.93
+   },
+   "2026": {
+    "DOWN": 191465.25,
+    "FLAT": -1430.68,
+    "UP": 29546.57
+   }
+  },
+  "banked": false,
+  "standalone": {
+   "2025": -24641.33,
+   "2026": -2219.99
+  }
+ },
+ {
+  "cycle": "R3-06",
+  "label": "NEW SLEEVE GAP-FADE (gap >=1.5%, entry 09:20 open, T125/S050)",
+  "note": "diagnostic H1/H2 expectancy {'H1': (658, 3.1, 2039.44), 'H2': (146, 25.8, 3766.33)}; placebos: opposite-direction book 253838.04; one-bar-late entry book 277051.54",
+  "verdict": false,
+  "legs": {
+   "a_combined_rises": false,
+   "b_2025_no_fall": true,
+   "c_2026_no_fall": false,
+   "d_cells_positive": true,
+   "e_extop3": false,
+   "f_no_green_month_flips": false,
+   "flip_detail": [
+    "2025-05:2498.99->-7587.51",
+    "2025-12:1207.95->-4217.38"
+   ],
+   "g_no_half_flips": true,
+   "h_beats_placebos": false,
+   "i_timing_clean": true,
+   "x_2026_floor_holds": true
+  },
+  "sums": {
+   "base_combined": 276758.7,
+   "variant_combined": 275637.2
+  },
+  "base": {
+   "2025": {
+    "total": 54957.57,
+    "jan_oct": 56336.3,
+    "ex_top3": 9775.76,
+    "trades": 776
+   },
+   "2026": {
+    "total": 221801.13,
+    "jan_oct": 221801.13,
+    "ex_top3": 87675.53,
+    "trades": 680
+   }
+  },
+  "var": {
+   "2025": {
+    "total": 69792.78,
+    "jan_oct": 78098.78,
+    "ex_top3": 16672.64,
+    "trades": 1115
+   },
+   "2026": {
+    "total": 205844.42,
+    "jan_oct": 205844.42,
+    "ex_top3": 71607.8,
+    "trades": 1175
+   }
+  },
+  "base_cells": {
+   "2025": {
+    "DOWN": 39226.0,
+    "FLAT": 2882.57,
+    "UP": 12849.0
+   },
+   "2026": {
+    "DOWN": 196194.09,
+    "FLAT": 9546.35,
+    "UP": 16060.69
+   }
+  },
+  "var_cells": {
+   "2025": {
+    "DOWN": 43791.95,
+    "FLAT": 21508.08,
+    "UP": 4492.75
+   },
+   "2026": {
+    "DOWN": 191278.94,
+    "FLAT": 5824.16,
+    "UP": 8741.32
+   }
+  },
+  "banked": false,
+  "standalone": {
+   "2025": 14835.21,
+   "2026": -15956.71
+  }
+ },
+ {
+  "cycle": "R3-07",
+  "label": "NEW SLEEVE ORB-STOCK (09:15-09:30 range break close, entry next bar open <=11:30, T125/S050)",
+  "note": "placebos: flipped (fade) book -92354.87; one-bar-later entry book -51208.47",
+  "verdict": false,
+  "legs": {
+   "a_combined_rises": false,
+   "b_2025_no_fall": false,
+   "c_2026_no_fall": false,
+   "d_cells_positive": false,
+   "e_extop3": false,
+   "f_no_green_month_flips": false,
+   "flip_detail": [
+    "2025-01:5997.81->-15659.41",
+    "2025-03:1091.17->-12882.2",
+    "2025-05:2498.99->-15653.19",
+    "2025-08:13766.58->-7580.09",
+    "2026-01:33684.05->-1949.73",
+    "2026-02:20734.89->-21906.61",
+    "2026-04:13095.59->-95.0",
+    "2026-06:7934.71->-29548.11",
+    "2026-07:8025.74->-37690.22",
+    "2026-08:10310.86->-13336.91",
+    "2026-09:14794.18->-11155.05"
+   ],
+   "g_no_half_flips": false,
+   "h_beats_placebos": false,
+   "i_timing_clean": true,
+   "x_2026_floor_holds": false
+  },
+  "sums": {
+   "base_combined": 276758.7,
+   "variant_combined": -69342.29
+  },
+  "base": {
+   "2025": {
+    "total": 54957.57,
+    "jan_oct": 56336.3,
+    "ex_top3": 9775.76,
+    "trades": 776
+   },
+   "2026": {
+    "total": 221801.13,
+    "jan_oct": 221801.13,
+    "ex_top3": 87675.53,
+    "trades": 680
+   }
+  },
+  "var": {
+   "2025": {
+    "total": -47386.58,
+    "jan_oct": -40237.19,
+    "ex_top3": -120310.85,
+    "trades": 5874
+   },
+   "2026": {
+    "total": -21955.71,
+    "jan_oct": -21955.71,
+    "ex_top3": -98543.31,
+    "trades": 4609
+   }
+  },
+  "base_cells": {
+   "2025": {
+    "DOWN": 39226.0,
+    "FLAT": 2882.57,
+    "UP": 12849.0
+   },
+   "2026": {
+    "DOWN": 196194.09,
+    "FLAT": 9546.35,
+    "UP": 16060.69
+   }
+  },
+  "var_cells": {
+   "2025": {
+    "DOWN": 5702.5,
+    "FLAT": -39057.08,
+    "UP": -14032.0
+   },
+   "2026": {
+    "DOWN": 95182.08,
+    "FLAT": -56553.21,
+    "UP": -60584.58
+   }
+  },
+  "banked": false,
+  "standalone": {
+   "2025": -102344.15,
+   "2026": -243756.84
+  }
+ },
+ {
+  "cycle": "R3-08",
+  "label": "NEW SLEEVE GAP-FADE @ >=2.5% (entry 09:20 open, T125/S050)",
+  "note": "placebos: opposite-direction book 273771.48; one-bar-late book 297565.47. ",
+  "verdict": false,
+  "legs": {
+   "a_combined_rises": true,
+   "b_2025_no_fall": true,
+   "c_2026_no_fall": true,
+   "d_cells_positive": true,
+   "e_extop3": false,
+   "f_no_green_month_flips": false,
+   "flip_detail": [
+    "2025-05:2498.99->-2186.79"
+   ],
+   "g_no_half_flips": true,
+   "h_beats_placebos": false,
+   "i_timing_clean": true,
+   "x_2026_floor_holds": true
+  },
+  "sums": {
+   "base_combined": 276758.7,
+   "variant_combined": 286329.87
+  },
+  "base": {
+   "2025": {
+    "total": 54957.57,
+    "jan_oct": 56336.3,
+    "ex_top3": 9775.76,
+    "trades": 776
+   },
+   "2026": {
+    "total": 221801.13,
+    "jan_oct": 221801.13,
+    "ex_top3": 87675.53,
+    "trades": 680
+   }
+  },
+  "var": {
+   "2025": {
+    "total": 63321.17,
+    "jan_oct": 67766.09,
+    "ex_top3": 15733.31,
+    "trades": 915
+   },
+   "2026": {
+    "total": 223008.7,
+    "jan_oct": 223008.7,
+    "ex_top3": 80606.94,
+    "trades": 857
+   }
+  },
+  "base_cells": {
+   "2025": {
+    "DOWN": 39226.0,
+    "FLAT": 2882.57,
+    "UP": 12849.0
+   },
+   "2026": {
+    "DOWN": 196194.09,
+    "FLAT": 9546.35,
+    "UP": 16060.69
+   }
+  },
+  "var_cells": {
+   "2025": {
+    "DOWN": 37998.99,
+    "FLAT": 23123.87,
+    "UP": 2198.31
+   },
+   "2026": {
+    "DOWN": 202786.36,
+    "FLAT": 6749.85,
+    "UP": 13472.49
+   }
+  },
+  "banked": false,
+  "standalone": {
+   "2025": 8363.6,
+   "2026": 1207.57
+  }
+ },
+ {
+  "cycle": "R3-09",
+  "label": "NEW SLEEVE GAP-FOLLOW @ >=2.5% (entry 09:20 open, T125/S050)",
+  "note": "placebos: opposite-direction book 290774.79; one-bar-late book 265580.73. ",
+  "verdict": false,
+  "legs": {
+   "a_combined_rises": false,
+   "b_2025_no_fall": false,
+   "c_2026_no_fall": true,
+   "d_cells_positive": false,
+   "e_extop3": false,
+   "f_no_green_month_flips": false,
+   "flip_detail": [
+    "2025-03:1091.17->-268.33"
+   ],
+   "g_no_half_flips": true,
+   "h_beats_placebos": false,
+   "i_timing_clean": true,
+   "x_2026_floor_holds": true
+  },
+  "sums": {
+   "base_combined": 276758.7,
+   "variant_combined": 273017.75
+  },
+  "base": {
+   "2025": {
+    "total": 54957.57,
+    "jan_oct": 56336.3,
+    "ex_top3": 9775.76,
+    "trades": 776
+   },
+   "2026": {
+    "total": 221801.13,
+    "jan_oct": 221801.13,
+    "ex_top3": 87675.53,
+    "trades": 680
+   }
+  },
+  "var": {
+   "2025": {
+    "total": 51142.84,
+    "jan_oct": 51896.57,
+    "ex_top3": 7257.24,
+    "trades": 915
+   },
+   "2026": {
+    "total": 221874.91,
+    "jan_oct": 221874.91,
+    "ex_top3": 86029.69,
+    "trades": 857
+   }
+  },
+  "base_cells": {
+   "2025": {
+    "DOWN": 39226.0,
+    "FLAT": 2882.57,
+    "UP": 12849.0
+   },
+   "2026": {
+    "DOWN": 196194.09,
+    "FLAT": 9546.35,
+    "UP": 16060.69
+   }
+  },
+  "var_cells": {
+   "2025": {
+    "DOWN": 45422.38,
+    "FLAT": -7069.11,
+    "UP": 12789.57
+   },
+   "2026": {
+    "DOWN": 192866.84,
+    "FLAT": 7712.85,
+    "UP": 21295.22
+   }
+  },
+  "banked": false,
+  "standalone": {
+   "2025": -3814.73,
+   "2026": 73.78
+  }
+ },
+ {
+  "cycle": "R3-10",
+  "label": "GAP-FADE LONG-only sub-sleeve @ >=1.5% (diagnosis-led sign split, T125/S050)",
+  "note": "placebos: opposite-direction book 245006.92; one-bar-late book 261863.62. sign-split diagnostic: LONG {'H1': (322, 57.2), 'H2': (62, 72.27)}, SHORT {'H1': (336, -48.74), 'H2': (84, -8.51)}",
+  "verdict": false,
+  "legs": {
+   "a_combined_rises": true,
+   "b_2025_no_fall": true,
+   "c_2026_no_fall": false,
+   "d_cells_positive": true,
+   "e_extop3": false,
+   "f_no_green_month_flips": false,
+   "flip_detail": [
+    "2025-05:2498.99->-4762.43",
+    "2025-12:1207.95->-878.6"
+   ],
+   "g_no_half_flips": true,
+   "h_beats_placebos": true,
+   "i_timing_clean": true,
+   "x_2026_floor_holds": true
+  },
+  "sums": {
+   "base_combined": 276758.7,
+   "variant_combined": 298843.49
+  },
+  "base": {
+   "2025": {
+    "total": 54957.57,
+    "jan_oct": 56336.3,
+    "ex_top3": 9775.76,
+    "trades": 776
+   },
+   "2026": {
+    "total": 221801.13,
+    "jan_oct": 221801.13,
+    "ex_top3": 87675.53,
+    "trades": 680
+   }
+  },
+  "var": {
+   "2025": {
+    "total": 81123.12,
+    "jan_oct": 83315.69,
+    "ex_top3": 20497.94,
+    "trades": 917
+   },
+   "2026": {
+    "total": 217720.37,
+    "jan_oct": 217720.37,
+    "ex_top3": 71599.87,
+    "trades": 929
+   }
+  },
+  "base_cells": {
+   "2025": {
+    "DOWN": 39226.0,
+    "FLAT": 2882.57,
+    "UP": 12849.0
+   },
+   "2026": {
+    "DOWN": 196194.09,
+    "FLAT": 9546.35,
+    "UP": 16060.69
+   }
+  },
+  "var_cells": {
+   "2025": {
+    "DOWN": 42688.79,
+    "FLAT": 20890.05,
+    "UP": 17544.28
+   },
+   "2026": {
+    "DOWN": 202017.65,
+    "FLAT": 5215.0,
+    "UP": 10487.72
+   }
+  },
+  "banked": false,
+  "standalone": {
+   "2025": 26165.55,
+   "2026": -4080.76
+  }
+ }
+]

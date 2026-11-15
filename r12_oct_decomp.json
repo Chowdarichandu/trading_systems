@@ -1,0 +1,84 @@
+{
+ "month": "2025-10",
+ "month_net": -3751.28,
+ "by_comp": {
+  "F4": -3021.83,
+  "GAP-FADE-INC": 680.0,
+  "INV-ABOVE": -207.92,
+  "N4-V3": -793.8,
+  "NE-REV-NU": 193.25,
+  "P2F": -312.98,
+  "P2F-R2": -288.0
+ },
+ "offender": "F4",
+ "by_comp_bucket": {
+  "F4|up": [
+   3,
+   -3021.83
+  ],
+  "GAP-FADE-INC|shallow": [
+   1,
+   680.0
+  ],
+  "INV-ABOVE|up": [
+   4,
+   -207.92
+  ],
+  "N4-V3|up": [
+   3,
+   -793.8
+  ],
+  "NE-REV-NU|up": [
+   5,
+   193.25
+  ],
+  "P2F|unknown": [
+   2,
+   -312.98
+  ],
+  "P2F-R2|unknown": [
+   2,
+   -288.0
+  ]
+ },
+ "offender_full_year_buckets": {
+  "2025": {
+   "shallow": 10362.95,
+   "up": -9887.43,
+   "hard": -384.38
+  },
+  "2026": {
+   "up": 40581.38,
+   "hard": 31155.38,
+   "shallow": 26998.55,
+   "unknown": 4320.62
+  }
+ },
+ "separator_test": {
+  "hard": {
+   "month": 0.0,
+   "i": false,
+   "fy2025": -384.38,
+   "ii": true,
+   "combined": 30771.0,
+   "iii": false
+  },
+  "shallow": {
+   "month": 0.0,
+   "i": false,
+   "fy2025": 10362.95,
+   "ii": false,
+   "combined": 37361.5,
+   "iii": false
+  },
+  "up": {
+   "month": -3021.83,
+   "i": true,
+   "fy2025": -9887.43,
+   "ii": true,
+   "combined": 30693.95,
+   "iii": false
+  }
+ },
+ "qualifying_separators": []
+}

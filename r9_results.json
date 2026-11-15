@@ -1,0 +1,566 @@
+[
+ {
+  "cycle": "R9-01",
+  "type": "audit",
+  "label": "WS0 flip decomposition of the R8-02 max stack (audit \u2014 no candidate scored)",
+  "note": "per-ingredient month deltas computed by applying each ingredient alone to the starting book; Jan-2025 and Dec-2025 sums verified against the R8-02 gate sheet (-2,915.77 / -1,307.71). Full table + row detail in r9_ws0_decomp.json and the Round-9 report.",
+  "banked": false,
+  "jan_2025_deltas": {
+   "R2-26 (INV-ABOVE T150/S080 swap)": 64.16,
+   "R5-03-clean (fade>=1.25% swap, INC retired)": -29.01,
+   "R5-07-CERT (NE-REV certified add)": -2950.92,
+   "R7-03 (REXP-SHORT DOWN add)": 0.0
+  },
+  "dec_2025_deltas": {
+   "R2-26 (INV-ABOVE T150/S080 swap)": 532.91,
+   "R5-03-clean (fade>=1.25% swap, INC retired)": 0.0,
+   "R5-07-CERT (NE-REV certified add)": -1840.62,
+   "R7-03 (REXP-SHORT DOWN add)": 0.0
+  }
+ },
+ {
+  "cycle": "R9-02",
+  "label": "DECISION SUPPORT: MAX STACK with NE-REV-NOTCH \u2014 NOT a banking",
+  "note": "Variant A \u2014 stack with NE-REV-NOTCH (CERT rows admitted only when NIFTY's 10:25-bar move vs prior close is NOT in (-0.30%, 0)). Conditioned sleeve standalone: 18618.88 (2025) / 21026.84 (2026) on 262/332 rows (CERT population 291/370; state-unknown rows dropped 0, counted, never guessed). Stack months: Jan 2025 -> 4476.9 (base +2,200.31; unconditioned stack -715.46); Dec 2025 -> -99.76 (base +1,207.95; unconditioned stack -99.76). Failing legs: ['f_no_green_month_flips']; flips: ['2025-12:1207.95->-99.76']. Placebos: P1 all-placebo 160871.17; P2 conditioned NE-REV late 334789.56; P3 gap sleeve late 326273.58. Timing violations 0. Adoption is Chandu's; nothing banked here regardless of verdict.",
+  "verdict": false,
+  "legs": {
+   "a_combined_rises": true,
+   "b_2025_no_fall": true,
+   "c_2026_no_fall": true,
+   "d_cells_positive": true,
+   "e_extop3": true,
+   "f_no_green_month_flips": false,
+   "flip_detail": [
+    "2025-12:1207.95->-99.76"
+   ],
+   "g_no_half_flips": true,
+   "h_beats_placebos": true,
+   "i_timing_clean": true,
+   "x_2026_floor_holds": true
+  },
+  "sums": {
+   "base_combined": 306737.52,
+   "variant_combined": 372248.75
+  },
+  "base": {
+   "2025": {
+    "total": 77041.31,
+    "jan_oct": 78420.04,
+    "ex_top3": 23708.1,
+    "trades": 887
+   },
+   "2026": {
+    "total": 229696.21,
+    "jan_oct": 229696.21,
+    "ex_top3": 77473.77,
+    "trades": 969
+   }
+  },
+  "var": {
+   "2025": {
+    "total": 127787.52,
+    "jan_oct": 127134.02,
+    "ex_top3": 48144.98,
+    "trades": 1170
+   },
+   "2026": {
+    "total": 244461.23,
+    "jan_oct": 244461.23,
+    "ex_top3": 53728.63,
+    "trades": 1382
+   }
+  },
+  "base_cells": {
+   "2025": {
+    "DOWN": 42941.63,
+    "FLAT": 21250.68,
+    "UP": 12849.0
+   },
+   "2026": {
+    "DOWN": 210264.94,
+    "FLAT": 2909.78,
+    "UP": 16521.49
+   }
+  },
+  "var_cells": {
+   "2025": {
+    "DOWN": 66566.97,
+    "FLAT": 30787.4,
+    "UP": 30433.15
+   },
+   "2026": {
+    "DOWN": 219008.9,
+    "FLAT": 11915.35,
+    "UP": 13536.98
+   }
+  },
+  "banked": false,
+  "sleeve_standalone": {
+   "2025": 18618.88,
+   "2026": 21026.84
+  },
+  "stack_jan_2025": 4476.9,
+  "stack_dec_2025": -99.76,
+  "failed_legs": [
+   "f_no_green_month_flips"
+  ]
+ },
+ {
+  "cycle": "R9-03",
+  "label": "DECISION SUPPORT: MAX STACK with NE-REV-UPGUARD \u2014 NOT a banking",
+  "note": "Variant B \u2014 stack with NE-REV-UPGUARD (CERT rows on UP-regime days admitted only when NIFTY's 10:25-bar move >= 0). Conditioned sleeve standalone: 7938.33 (2025) / 26626.59 (2026) on 218/345 rows (CERT population 291/370; state-unknown rows dropped 0, counted, never guessed). Stack months: Jan 2025 -> -715.46 (base +2,200.31; unconditioned stack -715.46); Dec 2025 -> 1946.88 (base +1,207.95; unconditioned stack -99.76). Failing legs: ['e_extop3', 'f_no_green_month_flips']; flips: ['2025-01:2200.31->-715.46']. Placebos: P1 all-placebo 173175.1; P2 conditioned NE-REV late 340863.18; P3 gap sleeve late 321192.78. Timing violations 0. Adoption is Chandu's; nothing banked here regardless of verdict.",
+  "verdict": false,
+  "legs": {
+   "a_combined_rises": true,
+   "b_2025_no_fall": true,
+   "c_2026_no_fall": true,
+   "d_cells_positive": true,
+   "e_extop3": false,
+   "f_no_green_month_flips": false,
+   "flip_detail": [
+    "2025-01:2200.31->-715.46"
+   ],
+   "g_no_half_flips": true,
+   "h_beats_placebos": true,
+   "i_timing_clean": true,
+   "x_2026_floor_holds": true
+  },
+  "sums": {
+   "base_combined": 306737.52,
+   "variant_combined": 367167.95
+  },
+  "base": {
+   "2025": {
+    "total": 77041.31,
+    "jan_oct": 78420.04,
+    "ex_top3": 23708.1,
+    "trades": 887
+   },
+   "2026": {
+    "total": 229696.21,
+    "jan_oct": 229696.21,
+    "ex_top3": 77473.77,
+    "trades": 969
+   }
+  },
+  "var": {
+   "2025": {
+    "total": 117106.97,
+    "jan_oct": 115155.58,
+    "ex_top3": 40244.34,
+    "trades": 1126
+   },
+   "2026": {
+    "total": 250060.98,
+    "jan_oct": 250060.98,
+    "ex_top3": 59169.78,
+    "trades": 1395
+   }
+  },
+  "base_cells": {
+   "2025": {
+    "DOWN": 42941.63,
+    "FLAT": 21250.68,
+    "UP": 12849.0
+   },
+   "2026": {
+    "DOWN": 210264.94,
+    "FLAT": 2909.78,
+    "UP": 16521.49
+   }
+  },
+  "var_cells": {
+   "2025": {
+    "DOWN": 60575.51,
+    "FLAT": 32121.0,
+    "UP": 24410.46
+   },
+   "2026": {
+    "DOWN": 222197.46,
+    "FLAT": 11608.98,
+    "UP": 16254.54
+   }
+  },
+  "banked": false,
+  "sleeve_standalone": {
+   "2025": 7938.33,
+   "2026": 26626.59
+  },
+  "stack_jan_2025": -715.46,
+  "stack_dec_2025": 1946.88,
+  "failed_legs": [
+   "e_extop3",
+   "f_no_green_month_flips"
+  ]
+ },
+ {
+  "cycle": "R9-04",
+  "label": "DECISION SUPPORT: MAX STACK with NE-REV-NU \u2014 NOT a banking",
+  "note": "Variant C \u2014 stack with NE-REV-NOTCH+UPGUARD (both frozen conditions). Conditioned sleeve standalone: 12596.19 (2025) / 23744.4 (2026) on 200/313 rows (CERT population 291/370; state-unknown rows dropped 0, counted, never guessed). Stack months: Jan 2025 -> 4476.9 (base +2,200.31; unconditioned stack -715.46); Dec 2025 -> 1946.88 (base +1,207.95; unconditioned stack -99.76). Failing legs: []; flips: []. Placebos: P1 all-placebo 174662.47; P2 conditioned NE-REV late 344925.15; P3 gap sleeve late 322968.45. Timing violations 0. Adoption is Chandu's; nothing banked here regardless of verdict.",
+  "verdict": false,
+  "legs": {
+   "a_combined_rises": true,
+   "b_2025_no_fall": true,
+   "c_2026_no_fall": true,
+   "d_cells_positive": true,
+   "e_extop3": true,
+   "f_no_green_month_flips": true,
+   "flip_detail": [],
+   "g_no_half_flips": true,
+   "h_beats_placebos": true,
+   "i_timing_clean": true,
+   "x_2026_floor_holds": true
+  },
+  "sums": {
+   "base_combined": 306737.52,
+   "variant_combined": 368943.62
+  },
+  "base": {
+   "2025": {
+    "total": 77041.31,
+    "jan_oct": 78420.04,
+    "ex_top3": 23708.1,
+    "trades": 887
+   },
+   "2026": {
+    "total": 229696.21,
+    "jan_oct": 229696.21,
+    "ex_top3": 77473.77,
+    "trades": 969
+   }
+  },
+  "var": {
+   "2025": {
+    "total": 121764.83,
+    "jan_oct": 119813.44,
+    "ex_top3": 46266.8,
+    "trades": 1108
+   },
+   "2026": {
+    "total": 247178.79,
+    "jan_oct": 247178.79,
+    "ex_top3": 55557.16,
+    "trades": 1363
+   }
+  },
+  "base_cells": {
+   "2025": {
+    "DOWN": 42941.63,
+    "FLAT": 21250.68,
+    "UP": 12849.0
+   },
+   "2026": {
+    "DOWN": 210264.94,
+    "FLAT": 2909.78,
+    "UP": 16521.49
+   }
+  },
+  "var_cells": {
+   "2025": {
+    "DOWN": 66566.97,
+    "FLAT": 30787.4,
+    "UP": 24410.46
+   },
+   "2026": {
+    "DOWN": 219008.9,
+    "FLAT": 11915.35,
+    "UP": 16254.54
+   }
+  },
+  "banked": false,
+  "decision_support_only": true,
+  "sleeve_standalone": {
+   "2025": 12596.19,
+   "2026": 23744.4
+  },
+  "stack_jan_2025": 4476.9,
+  "stack_dec_2025": 1946.88,
+  "failed_legs": []
+ },
+ {
+  "cycle": "R9-05",
+  "label": "ATH-PROXIMITY MOMENTUM (close within 2% of trailing 252-session high -> LONG next session 09:35, T125/S050, no event exclusion)",
+  "note": "population: 346 trigger days -> 342 trades (113 in 2025, 229 in 2026 \u2014 the 252-session history requirement means the 2025 population only exists once a full trailing year is on file). Standalone: -21322.97 (2025) / -27329.31 (2026). Skips counted: no next session 0, weekend entry 1, missing 09:35 bar 3, missing 09:40 bar (late placebo only) 0. Timing audit: every input (252-session high, trigger close) is known at the trigger session's close; every entry is the NEXT session's 09:35 open \u2014 violations counted in code = 0. Placebos: opposite-direction book 329283.89; one-bar-late book 268804.96. Failed legs: ['a_combined_rises', 'b_2025_no_fall', 'c_2026_no_fall', 'd_cells_positive', 'e_extop3', 'f_no_green_month_flips', 'g_no_half_flips', 'h_beats_placebos'].",
+  "verdict": false,
+  "legs": {
+   "a_combined_rises": false,
+   "b_2025_no_fall": false,
+   "c_2026_no_fall": false,
+   "d_cells_positive": false,
+   "e_extop3": false,
+   "f_no_green_month_flips": false,
+   "flip_detail": [
+    "2025-12:1207.95->-13330.65"
+   ],
+   "g_no_half_flips": false,
+   "h_beats_placebos": false,
+   "i_timing_clean": true,
+   "x_2026_floor_holds": true
+  },
+  "sums": {
+   "base_combined": 306737.52,
+   "variant_combined": 258085.24
+  },
+  "base": {
+   "2025": {
+    "total": 77041.31,
+    "jan_oct": 78420.04,
+    "ex_top3": 23708.1,
+    "trades": 887
+   },
+   "2026": {
+    "total": 229696.21,
+    "jan_oct": 229696.21,
+    "ex_top3": 77473.77,
+    "trades": 969
+   }
+  },
+  "var": {
+   "2025": {
+    "total": 55718.34,
+    "jan_oct": 73381.33,
+    "ex_top3": 2385.13,
+    "trades": 1000
+   },
+   "2026": {
+    "total": 202366.9,
+    "jan_oct": 202366.9,
+    "ex_top3": 65550.85,
+    "trades": 1198
+   }
+  },
+  "base_cells": {
+   "2025": {
+    "DOWN": 42941.63,
+    "FLAT": 21250.68,
+    "UP": 12849.0
+   },
+   "2026": {
+    "DOWN": 210264.94,
+    "FLAT": 2909.78,
+    "UP": 16521.49
+   }
+  },
+  "var_cells": {
+   "2025": {
+    "DOWN": 42941.63,
+    "FLAT": 18801.56,
+    "UP": -6024.85
+   },
+   "2026": {
+    "DOWN": 203701.9,
+    "FLAT": 507.61,
+    "UP": -1842.61
+   }
+  },
+  "banked": false,
+  "standalone": {
+   "2025": -21322.97,
+   "2026": -27329.31
+  },
+  "population_trades": {
+   "2025": 113,
+   "2026": 229
+  },
+  "trigger_days": 346
+ },
+ {
+  "cycle": "R9-06",
+  "type": "audit",
+  "label": "WS3 decomposition of NE-REV-IDX December rows (audit \u2014 no candidate scored)",
+  "note": "IDX December rows: 2025: 3 rows net -2046.64 (2025-12-08 BDL -991.79; 2025-12-16 HINDCOPPER -125.00; 2025-12-16 BDL -929.85 \u2014 every one on an UP-regime day, every one with NIFTY <= -0.30% by the form's own admission rule); 2026: 0 rows. The IDX UP-cell bucket overall: 2025 62 rows net 6022.69; 2026 19 rows net -2717.56 \u2014 the December wound is 3 rows inside a bucket that is the form's best 2025 cell and its only negative 2026 cell. The frozen separator (Round-9 pre-registration) is the regime cell itself: IDXCELL drops UP-cell rows. Stated cost before scoring: the repair removes +6,022.69 of 2025 standalone to remove -2,046.64 of December rows.",
+  "banked": false,
+  "idx_dec_rows": {
+   "2025": [
+    3,
+    -2046.64
+   ],
+   "2026": [
+    0,
+    0
+   ]
+  },
+  "idx_up_bucket": {
+   "2025": [
+    62,
+    6022.69
+   ],
+   "2026": [
+    19,
+    -2717.56
+   ]
+  }
+ },
+ {
+  "cycle": "R9-07",
+  "label": "NE-REV-IDXCELL (R8-05 IDX rows restricted to DOWN+FLAT regime cells)",
+  "note": "repaired ingredient standalone: 4032.51 (2025) / 34369.49 (2026) on 139/233 rows (IDX population 201/252; the UP-cell restriction removes 62/19 rows). December-2025 delta of the repaired form: 0 (the unrepaired IDX form: -2,046.64) \u2014 no December rows remain, so the (f) exposure is removed by construction. Placebos (same cell restriction): flipped book 262002.66; one-bar-late book 323014.03. Timing violations 0. Failed legs: ['e_extop3'].",
+  "verdict": false,
+  "legs": {
+   "a_combined_rises": true,
+   "b_2025_no_fall": true,
+   "c_2026_no_fall": true,
+   "d_cells_positive": true,
+   "e_extop3": false,
+   "f_no_green_month_flips": true,
+   "flip_detail": [],
+   "g_no_half_flips": true,
+   "h_beats_placebos": true,
+   "i_timing_clean": true,
+   "x_2026_floor_holds": true
+  },
+  "sums": {
+   "base_combined": 306737.52,
+   "variant_combined": 345139.52
+  },
+  "base": {
+   "2025": {
+    "total": 77041.31,
+    "jan_oct": 78420.04,
+    "ex_top3": 23708.1,
+    "trades": 887
+   },
+   "2026": {
+    "total": 229696.21,
+    "jan_oct": 229696.21,
+    "ex_top3": 77473.77,
+    "trades": 969
+   }
+  },
+  "var": {
+   "2025": {
+    "total": 81073.82,
+    "jan_oct": 82452.55,
+    "ex_top3": 24769.86,
+    "trades": 1026
+   },
+   "2026": {
+    "total": 264065.7,
+    "jan_oct": 264065.7,
+    "ex_top3": 75515.96,
+    "trades": 1202
+   }
+  },
+  "base_cells": {
+   "2025": {
+    "DOWN": 42941.63,
+    "FLAT": 21250.68,
+    "UP": 12849.0
+   },
+   "2026": {
+    "DOWN": 210264.94,
+    "FLAT": 2909.78,
+    "UP": 16521.49
+   }
+  },
+  "var_cells": {
+   "2025": {
+    "DOWN": 41118.0,
+    "FLAT": 27106.82,
+    "UP": 12849.0
+   },
+   "2026": {
+    "DOWN": 242342.84,
+    "FLAT": 5201.37,
+    "UP": 16521.49
+   }
+  },
+  "banked": false,
+  "standalone": {
+   "2025": 4032.51,
+   "2026": 34369.49
+  },
+  "population_trades": {
+   "2025": 139,
+   "2026": 233
+  }
+ },
+ {
+  "cycle": "R9-08",
+  "label": "DECISION SUPPORT: MAX STACK with NE-REV-IDXCELL in the NE-REV slot \u2014 NOT a banking",
+  "note": "stack months: Jan 2025 -> 1807.31 (base +2,200.31; unconditioned stack -715.46; IDX-slot stack cured Jan at R8-05's sleeve level); Dec 2025 -> 1740.86 (base +1,207.95; unconditioned stack -99.76; the repaired slot carries no December rows). Failing legs: []; flips: []. Placebos: P1 all-placebo 174752.34; P2 IDXCELL late 348879.54; P3 gap sleeve late 325029.86. Timing violations 0. Adoption is Chandu's; nothing banked here regardless of verdict.",
+  "verdict": false,
+  "legs": {
+   "a_combined_rises": true,
+   "b_2025_no_fall": true,
+   "c_2026_no_fall": true,
+   "d_cells_positive": true,
+   "e_extop3": true,
+   "f_no_green_month_flips": true,
+   "flip_detail": [],
+   "g_no_half_flips": true,
+   "h_beats_placebos": true,
+   "i_timing_clean": true,
+   "x_2026_floor_holds": true
+  },
+  "sums": {
+   "base_combined": 306737.52,
+   "variant_combined": 371005.03
+  },
+  "base": {
+   "2025": {
+    "total": 77041.31,
+    "jan_oct": 78420.04,
+    "ex_top3": 23708.1,
+    "trades": 887
+   },
+   "2026": {
+    "total": 229696.21,
+    "jan_oct": 229696.21,
+    "ex_top3": 77473.77,
+    "trades": 969
+   }
+  },
+  "var": {
+   "2025": {
+    "total": 113201.15,
+    "jan_oct": 113146.38,
+    "ex_top3": 45675.35,
+    "trades": 1047
+   },
+   "2026": {
+    "total": 257803.88,
+    "jan_oct": 257803.88,
+    "ex_top3": 64781.46,
+    "trades": 1283
+   }
+  },
+  "base_cells": {
+   "2025": {
+    "DOWN": 42941.63,
+    "FLAT": 21250.68,
+    "UP": 12849.0
+   },
+   "2026": {
+    "DOWN": 210264.94,
+    "FLAT": 2909.78,
+    "UP": 16521.49
+   }
+  },
+  "var_cells": {
+   "2025": {
+    "DOWN": 63322.46,
+    "FLAT": 31497.93,
+    "UP": 18380.76
+   },
+   "2026": {
+    "DOWN": 227788.89,
+    "FLAT": 10291.46,
+    "UP": 19723.53
+   }
+  },
+  "banked": false,
+  "decision_support_only": true,
+  "stack_jan_2025": 1807.31,
+  "stack_dec_2025": 1740.86,
+  "failed_legs": []
+ },
+ {
+  "cycle": "R9-09",
+  "type": "audit",
+  "label": "WS4 combinations of Round-9 bankings \u2014 closes by statement; finalise",
+  "note": "Round 9 banked ZERO candidates (R9-05 ATH rejected on eight legs; R9-07 IDXCELL rejected on (e) alone; R9-02 / R9-03 / R9-04 / R9-08 are decision support by construction). With no bankings there is no combination to re-gate. Ending books exported to the r9 CSVs and independently re-summed to the paisa (2025 JO 78,420.04 / 887 rows; 2026 JO 2,29,696.21 / 969 rows \u2014 the starting book unchanged). Flagged list and stack prices restated on the ending book in the state file and the Round-9 report.",
+  "banked": false,
+  "banked_round9": 0
+ }
+]

@@ -1,0 +1,478 @@
+[
+ {
+  "cycle": "R8-01",
+  "type": "audit",
+  "label": "WS0 ingredient anchors on the starting book (audit \u2014 no combination scored)",
+  "note": "all four stack ingredients reproduce their flagged-list prices on the Round-7 book exactly: R2-26 -> JO (85954.04, 233818.54); R5-03-clean (swap + GAP-FADE-INC retired) -> (86709.48, 227711.39); R5-07-CERT -> (92537.28, 253809.07); R7-03 -> (93290.43, 221296.88). Construction anchors inside the ingredients also exact: gap sleeve125 standalone +32,064.93 / +4,270.42; NE-REV-CERT +14,105.64 / +24,112.86 (291/370 rows); REXP DOWN +14,870.39 / -8,399.33 (41/86 rows). Timing violations counted: NE-REV 0, REXP 0.",
+  "banked": false,
+  "anchors_jo": {
+   "R2-26": [
+    85954.04,
+    233818.54
+   ],
+   "R5-03-clean": [
+    86709.48,
+    227711.39
+   ],
+   "R5-07-CERT": [
+    92537.28,
+    253809.07
+   ],
+   "R7-03": [
+    93290.43,
+    221296.88
+   ]
+  }
+ },
+ {
+  "cycle": "R8-02",
+  "label": "DECISION SUPPORT: MAX STACK \u2014 R2-26 + R5-03 (clean) + R5-07-CERT + R7-03, gated as ONE whole-book candidate \u2014 NOT a banking",
+  "note": "ingredients re-anchored to the paisa on this base at R8-01 before scoring. Purely-additive expectation: 2025 JO 123231.11 / 2026 JO 247547.25; actual: 123231.11 / 247547.25 (exactly additive: True \u2014 the four ingredients act on disjoint components). 2025 pace if adopted: Rs12323.11/month; gap would fall to Rs26768.89. Failing legs: ['f_no_green_month_flips']; flips: ['2025-01:2200.31->-715.46', '2025-12:1207.95->-99.76']. Placebos: P1 all-placebo 157925.25; P2 swaps + sleeves late 325723.56; P3 R2-26 + sleeve late + real sleeves 324846.36. Timing violations 0 (NE-REV entries 10:35 strictly after the 10:25 signal bar; REXP entries 10:20 strictly after the 10:10 signal bar; gap entries at bar >= 1 after the bar-0 print; all counted in code). Adoption is Chandu's; nothing banked here regardless of verdict.",
+  "verdict": false,
+  "legs": {
+   "a_combined_rises": true,
+   "b_2025_no_fall": true,
+   "c_2026_no_fall": true,
+   "d_cells_positive": true,
+   "e_extop3": true,
+   "f_no_green_month_flips": false,
+   "flip_detail": [
+    "2025-01:2200.31->-715.46",
+    "2025-12:1207.95->-99.76"
+   ],
+   "g_no_half_flips": true,
+   "h_beats_placebos": true,
+   "i_timing_clean": true,
+   "x_2026_floor_holds": true
+  },
+  "sums": {
+   "base_combined": 306737.52,
+   "variant_combined": 370821.53
+  },
+  "base": {
+   "2025": {
+    "total": 77041.31,
+    "jan_oct": 78420.04,
+    "ex_top3": 23708.1,
+    "trades": 887
+   },
+   "2026": {
+    "total": 229696.21,
+    "jan_oct": 229696.21,
+    "ex_top3": 77473.77,
+    "trades": 969
+   }
+  },
+  "var": {
+   "2025": {
+    "total": 123274.28,
+    "jan_oct": 123231.11,
+    "ex_top3": 44205.13,
+    "trades": 1199
+   },
+   "2026": {
+    "total": 247547.25,
+    "jan_oct": 247547.25,
+    "ex_top3": 57545.08,
+    "trades": 1420
+   }
+  },
+  "base_cells": {
+   "2025": {
+    "DOWN": 42941.63,
+    "FLAT": 21250.68,
+    "UP": 12849.0
+   },
+   "2026": {
+    "DOWN": 210264.94,
+    "FLAT": 2909.78,
+    "UP": 16521.49
+   }
+  },
+  "var_cells": {
+   "2025": {
+    "DOWN": 60575.51,
+    "FLAT": 32121.0,
+    "UP": 30577.77
+   },
+   "2026": {
+    "DOWN": 222197.46,
+    "FLAT": 11608.98,
+    "UP": 13740.81
+   }
+  },
+  "banked": false,
+  "expected_if_additive": {
+   "2025_JO": 123231.11,
+   "2026_JO": 247547.25
+  },
+  "actual": {
+   "2025_JO": 123231.11,
+   "2026_JO": 247547.25
+  },
+  "failed_legs": [
+   "f_no_green_month_flips"
+  ]
+ },
+ {
+  "cycle": "R8-03",
+  "label": "DRIVE-CONTINUATION LONG (certified non-event, 10:25 move >= +2.00%, entry 10:35, T125/S050)",
+  "note": "population stock-days 11958, signal days 800; standalone -1710.67 (2025) / -28882.57 (2026) on 428/372 trades. Timing audit: entry bar (10:35) strictly after the 10:25 signal bar on every row, violations counted = 0. Placebos: opposite-direction book 262766.01; one-bar-late book 307386.03. Failed legs: ['a_combined_rises', 'b_2025_no_fall', 'c_2026_no_fall', 'd_cells_positive', 'e_extop3', 'f_no_green_month_flips', 'h_beats_placebos'].",
+  "verdict": false,
+  "legs": {
+   "a_combined_rises": false,
+   "b_2025_no_fall": false,
+   "c_2026_no_fall": false,
+   "d_cells_positive": false,
+   "e_extop3": false,
+   "f_no_green_month_flips": false,
+   "flip_detail": [
+    "2025-01:2200.31->-2094.51",
+    "2025-05:2498.99->-2501.92"
+   ],
+   "g_no_half_flips": true,
+   "h_beats_placebos": false,
+   "i_timing_clean": true,
+   "x_2026_floor_holds": true
+  },
+  "sums": {
+   "base_combined": 306737.52,
+   "variant_combined": 276144.28
+  },
+  "base": {
+   "2025": {
+    "total": 77041.31,
+    "jan_oct": 78420.04,
+    "ex_top3": 23708.1,
+    "trades": 887
+   },
+   "2026": {
+    "total": 229696.21,
+    "jan_oct": 229696.21,
+    "ex_top3": 77473.77,
+    "trades": 969
+   }
+  },
+  "var": {
+   "2025": {
+    "total": 75330.64,
+    "jan_oct": 73389.15,
+    "ex_top3": 14610.5,
+    "trades": 1315
+   },
+   "2026": {
+    "total": 200813.64,
+    "jan_oct": 200813.64,
+    "ex_top3": 40690.62,
+    "trades": 1341
+   }
+  },
+  "base_cells": {
+   "2025": {
+    "DOWN": 42941.63,
+    "FLAT": 21250.68,
+    "UP": 12849.0
+   },
+   "2026": {
+    "DOWN": 210264.94,
+    "FLAT": 2909.78,
+    "UP": 16521.49
+   }
+  },
+  "var_cells": {
+   "2025": {
+    "DOWN": 41483.58,
+    "FLAT": 17268.35,
+    "UP": 16578.71
+   },
+   "2026": {
+    "DOWN": 188367.46,
+    "FLAT": -4583.08,
+    "UP": 17029.26
+   }
+  },
+  "banked": false,
+  "standalone": {
+   "2025": -1710.67,
+   "2026": -28882.57
+  },
+  "population_trades": {
+   "2025": 428,
+   "2026": 372
+  }
+ },
+ {
+  "cycle": "R8-04",
+  "type": "audit",
+  "label": "DRIVE SHORT twin \u2014 NOT SCORED (frozen twin rule not triggered)",
+  "note": "the frozen rule gates the SHORT follow twin only if the R8-03 LONG standalone is positive in BOTH years; actual LONG standalone: 2025 -1710.67, 2026 -28882.57. Rule not triggered; no twin construction was scored.",
+  "banked": false
+ },
+ {
+  "cycle": "R8-05",
+  "label": "NE-REV-IDX (certified NE-REV admitted only when NIFTY 10:25-bar close <= -0.30% vs prior close; entry 10:35, T100/S065)",
+  "note": "unconditioned certified anchor reproduced first (+14,105.64 / +24,112.86; 661 rows). Day filter kept 201/252 rows; dropped 208 signal rows on state (NIFTY not down >= 0.30%) and 0 on state-unknown (missing NIFTY bar or prior close \u2014 counted, never guessed). Conditioned standalone: 10055.2 (2025) / 31651.93 (2026). Timing audit: the state bar completes at 10:30 and every entry is at 10:35, strictly after both the stock's and the index's 10:25 bars; violations counted = 0 (stock construction) and the day filter uses only the completed 10:25 index bar. Placebos under the same filter: opposite-direction book 248211.36; one-bar-late book 312878.44. Failed legs: ['e_extop3', 'f_no_green_month_flips'].",
+  "verdict": false,
+  "legs": {
+   "a_combined_rises": true,
+   "b_2025_no_fall": true,
+   "c_2026_no_fall": true,
+   "d_cells_positive": true,
+   "e_extop3": false,
+   "f_no_green_month_flips": false,
+   "flip_detail": [
+    "2025-12:1207.95->-838.69"
+   ],
+   "g_no_half_flips": true,
+   "h_beats_placebos": true,
+   "i_timing_clean": true,
+   "x_2026_floor_holds": true
+  },
+  "sums": {
+   "base_combined": 306737.52,
+   "variant_combined": 348444.65
+  },
+  "base": {
+   "2025": {
+    "total": 77041.31,
+    "jan_oct": 78420.04,
+    "ex_top3": 23708.1,
+    "trades": 887
+   },
+   "2026": {
+    "total": 229696.21,
+    "jan_oct": 229696.21,
+    "ex_top3": 77473.77,
+    "trades": 969
+   }
+  },
+  "var": {
+   "2025": {
+    "total": 87096.51,
+    "jan_oct": 89773.13,
+    "ex_top3": 26317.76,
+    "trades": 1088
+   },
+   "2026": {
+    "total": 261348.14,
+    "jan_oct": 261348.14,
+    "ex_top3": 73687.43,
+    "trades": 1221
+   }
+  },
+  "base_cells": {
+   "2025": {
+    "DOWN": 42941.63,
+    "FLAT": 21250.68,
+    "UP": 12849.0
+   },
+   "2026": {
+    "DOWN": 210264.94,
+    "FLAT": 2909.78,
+    "UP": 16521.49
+   }
+  },
+  "var_cells": {
+   "2025": {
+    "DOWN": 41118.0,
+    "FLAT": 27106.82,
+    "UP": 18871.69
+   },
+   "2026": {
+    "DOWN": 242342.84,
+    "FLAT": 5201.37,
+    "UP": 13803.93
+   }
+  },
+  "banked": false,
+  "standalone": {
+   "2025": 10055.2,
+   "2026": 31651.93
+  },
+  "population_trades": {
+   "2025": 201,
+   "2026": 252
+  },
+  "dropped_state": 208,
+  "dropped_unknown": 0
+ },
+ {
+  "cycle": "R8-06",
+  "label": "BANKED FADE x NIFTY-DOWN STATE (GAP-FADE + GAP-FADE-INC legs kept only when NIFTY's 09:15-bar close < prior-day close)",
+  "note": "banked fade legs 404 (both comps, both years); state down on 350, not-down on 54 (incl. 0 state-unknown, counted and treated as not-down \u2014 never guessed); variant removes the 54 not-down legs. Kept-leg standalone (full year): 27373.7 (2025) / 3778.0 (2026). Timing audit: state = close of NIFTY's 09:15 bar (bar index 0, completes 09:20); every fade entry is at 09:20 (index 1) or 09:40 (index 5) \u2014 strictly after the state bar in the engine's bar-index form; violations counted = 0. Placebos: P1 mirror restriction (not-down legs kept) book 275585.82; P2 chrono restriction (same count removed earliest-first) book 299587.78. Failed legs: ['c_2026_no_fall'].",
+  "verdict": false,
+  "legs": {
+   "a_combined_rises": true,
+   "b_2025_no_fall": true,
+   "c_2026_no_fall": false,
+   "d_cells_positive": true,
+   "e_extop3": true,
+   "f_no_green_month_flips": true,
+   "flip_detail": [],
+   "g_no_half_flips": true,
+   "h_beats_placebos": true,
+   "i_timing_clean": true,
+   "x_2026_floor_holds": true
+  },
+  "sums": {
+   "base_combined": 306737.52,
+   "variant_combined": 307858.49
+  },
+  "base": {
+   "2025": {
+    "total": 77041.31,
+    "jan_oct": 78420.04,
+    "ex_top3": 23708.1,
+    "trades": 887
+   },
+   "2026": {
+    "total": 229696.21,
+    "jan_oct": 229696.21,
+    "ex_top3": 77473.77,
+    "trades": 969
+   }
+  },
+  "var": {
+   "2025": {
+    "total": 80639.52,
+    "jan_oct": 82018.25,
+    "ex_top3": 24749.26,
+    "trades": 876
+   },
+   "2026": {
+    "total": 227218.97,
+    "jan_oct": 227218.97,
+    "ex_top3": 83309.0,
+    "trades": 926
+   }
+  },
+  "base_cells": {
+   "2025": {
+    "DOWN": 42941.63,
+    "FLAT": 21250.68,
+    "UP": 12849.0
+   },
+   "2026": {
+    "DOWN": 210264.94,
+    "FLAT": 2909.78,
+    "UP": 16521.49
+   }
+  },
+  "var_cells": {
+   "2025": {
+    "DOWN": 46366.26,
+    "FLAT": 21424.26,
+    "UP": 12849.0
+   },
+   "2026": {
+    "DOWN": 203945.46,
+    "FLAT": 6752.02,
+    "UP": 16521.49
+   }
+  },
+  "banked": false,
+  "fade_legs": 404,
+  "down_legs": 350,
+  "removed_legs": 54,
+  "unknown_state_legs": 0,
+  "kept_standalone": {
+   "2025": 27373.7,
+   "2026": 3778.0
+  }
+ },
+ {
+  "cycle": "R8-07",
+  "label": "REXP-SHORT DOWN-only at T100/S065 (geometry neighbour of the flagged R7-03 T125/S050 form)",
+  "note": "population re-anchored exactly at the frozen geometry first (T125/S050 standalone +14,870.39 / -8,399.33; 41/86 trades). At T100/S065: standalone 10243.45 (2025) / -5899.72 (2026), same 41/86 trades. Timing audit: entry bar (10:20) strictly after the 10:10 signal bar on every row, violations counted = 0. Placebos: opposite-direction (LONG, DOWN, T100/S065) book 292764.73; one-bar-late book 308710.39. Failed legs: ['c_2026_no_fall']. Frozen disposition: if banked, it displaces the T125/S050 form as the live REXP-DOWN sleeve; if not, the flagged list carries this T100/S065 form as the preferred REXP-DOWN flag with both prices stated.",
+  "verdict": false,
+  "legs": {
+   "a_combined_rises": true,
+   "b_2025_no_fall": true,
+   "c_2026_no_fall": false,
+   "d_cells_positive": true,
+   "e_extop3": true,
+   "f_no_green_month_flips": true,
+   "flip_detail": [],
+   "g_no_half_flips": true,
+   "h_beats_placebos": true,
+   "i_timing_clean": true,
+   "x_2026_floor_holds": true
+  },
+  "sums": {
+   "base_combined": 306737.52,
+   "variant_combined": 311081.25
+  },
+  "base": {
+   "2025": {
+    "total": 77041.31,
+    "jan_oct": 78420.04,
+    "ex_top3": 23708.1,
+    "trades": 887
+   },
+   "2026": {
+    "total": 229696.21,
+    "jan_oct": 229696.21,
+    "ex_top3": 77473.77,
+    "trades": 969
+   }
+  },
+  "var": {
+   "2025": {
+    "total": 87284.76,
+    "jan_oct": 88663.49,
+    "ex_top3": 34371.3,
+    "trades": 928
+   },
+   "2026": {
+    "total": 223796.49,
+    "jan_oct": 223796.49,
+    "ex_top3": 79145.76,
+    "trades": 1055
+   }
+  },
+  "base_cells": {
+   "2025": {
+    "DOWN": 42941.63,
+    "FLAT": 21250.68,
+    "UP": 12849.0
+   },
+   "2026": {
+    "DOWN": 210264.94,
+    "FLAT": 2909.78,
+    "UP": 16521.49
+   }
+  },
+  "var_cells": {
+   "2025": {
+    "DOWN": 53185.08,
+    "FLAT": 21250.68,
+    "UP": 12849.0
+   },
+   "2026": {
+    "DOWN": 204365.22,
+    "FLAT": 2909.78,
+    "UP": 16521.49
+   }
+  },
+  "banked": false,
+  "standalone": {
+   "2025": 10243.45,
+   "2026": -5899.72
+  },
+  "standalone_T125S050": {
+   "2025": 14870.39,
+   "2026": -8399.33
+  },
+  "population_trades": {
+   "2025": 41,
+   "2026": 86
+  }
+ },
+ {
+  "cycle": "R8-08",
+  "type": "audit",
+  "label": "WS4 combinations of Round-8 bankings \u2014 closes by statement; finalise",
+  "note": "Round 8 banked ZERO candidates (R8-03 rejected on seven legs; R8-04 twin not triggered under its frozen rule; R8-05 on (e)+(f); R8-06 and R8-07 on (c) alone; R8-02 is decision support by construction). With no bankings there is no combination to re-gate. Closes by statement, per the pre-registration. Ending books exported to the r8 CSVs and independently re-summed; flagged list restated on the unchanged book.",
+  "banked": false
+ }
+]

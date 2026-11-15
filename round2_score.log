@@ -1,0 +1,11 @@
+A1: n=106 total=-56152.0 H=(-27274.5,-28877.5) ex3=-63592.0 pace=-5615.2 NC=1 PASS=False legs={'total_pos': False, 'halves_pos': False, 'ex_top3_pos': False, 'beats_reversed': False, 'beats_coin': False, 'beats_shifted': False, 'timing_clean': True, 'nc_ok': True}
+   placebos: rev=-18458.5 coin=-52925.5 shift=-18581.5 | NOV n=3 total=-960.0
+A2: n=30 total=-7779.0 H=(-7379.0,-400.0) ex3=-15219.0 pace=-777.9 NC=0 PASS=False legs={'total_pos': False, 'halves_pos': False, 'ex_top3_pos': False, 'beats_reversed': True, 'beats_coin': True, 'beats_shifted': True, 'timing_clean': True, 'nc_ok': True}
+   placebos: rev=-7954.5 coin=-13800.0 shift=-26400.0 | NOV n=0 total=0
+B1: n=22 total=-4240.0 H=(1120.0,-5360.0) ex3=-11680.0 pace=-424.0 NC=1 PASS=False legs={'total_pos': False, 'halves_pos': False, 'ex_top3_pos': False, 'beats_reversed': True, 'beats_coin': False, 'beats_shifted': True, 'timing_clean': True, 'nc_ok': True}
+   placebos: rev=-8440.0 coin=4160.0 shift=-8440.0 | NOV n=0 total=0
+B2: kept 92/111 legs total=118031.5 TD=77 /TD=1532.88 H=(73762.0,44269.5) ex3=91208.5 PASS=False legs={'total_beats_stack': False, 'per_trade_day_beats_stack': True, 'halves_pos': True, 'ex_top3_pos': True, 'beats_reversed': True, 'beats_coin': True, 'beats_shifted': True}
+   placebos: rev=9320.0 coin=101617.0 shift=113611.5 | dropped 19 legs; missing-prior-VIX legs: ['2026-02-02']; Nov filtered total -2680.0
+Nov13 supplementary: {'signal_date': '2026-11-12', 'basis_pct': -0.2941, 'vix_close': 16.62, 'A1_dbasis_pct': -0.0398, 'A1': None, 'A2_z': -1.626, 'A2': 'CE', 'B1_dvix_pct': -5.35, 'spot_chg_pts_nov12': 726.1, 'B1': None, 'spot_open_proxy': 61094.55, 'A1_trade': 'no signal', 'A2_trade': 'NC — no premium candles', 'B1_trade': 'no signal'}
+MERGE B1: incr 12 legs 4560.0 | merged 131911.5 on 101 TD = 1306.05/TD | Nov merged -2680.0 (family Nov legs 0, incr 0)
+re-sum: EXACT for all scored books | results -> new_data_round2_results.json

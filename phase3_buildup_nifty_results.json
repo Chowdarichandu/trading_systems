@@ -1,0 +1,1190 @@
+{
+ "control": {
+  "legs": 74,
+  "total": 103050.25,
+  "wr": 51.4,
+  "wins": 38,
+  "trade_days": 66,
+  "rs_per_td": 1561.37,
+  "green": 37,
+  "red": 29,
+  "no_trade": 139,
+  "months": {
+   "2026-01": 15531.25,
+   "2026-02": 9229.25,
+   "2026-03": -1216.5,
+   "2026-04": 24411.25,
+   "2026-05": 4364.0,
+   "2026-06": 4828.0,
+   "2026-07": 10463.0,
+   "2026-08": 1911.75,
+   "2026-09": 13367.75,
+   "2026-10": 20160.5
+  },
+  "h1": 52319.25,
+  "h2": 50731.0,
+  "ex_top3": 69585.25,
+  "red_months": [
+   "2026-03"
+  ]
+ },
+ "coverage_leg_days": {
+  "10:00": {
+   "buildup_nc": 0,
+   "relvol_nc": 0,
+   "relvol5_nc": 0,
+   "crowd_nc": 7,
+   "leg_days": 66
+  },
+  "11:00": {
+   "buildup_nc": 0,
+   "relvol_nc": 0,
+   "relvol5_nc": 0,
+   "crowd_nc": 8,
+   "leg_days": 66
+  }
+ },
+ "grid": [
+  {
+   "read": "10:00",
+   "rule": "ALIGN",
+   "kept": {
+    "legs": 32,
+    "total": 61232.75,
+    "wr": 53.1,
+    "wins": 17,
+    "trade_days": 32,
+    "rs_per_td": 1913.52,
+    "green": 17,
+    "red": 15,
+    "no_trade": 173,
+    "months": {
+     "2026-01": 14966.0,
+     "2026-02": 7493.0,
+     "2026-03": 7895.0,
+     "2026-04": 3890.0,
+     "2026-05": 745.0,
+     "2026-06": -440.0,
+     "2026-07": 10998.75,
+     "2026-08": -1768.25,
+     "2026-09": 972.75,
+     "2026-10": 16480.5
+    },
+    "h1": 34989.0,
+    "h2": 26243.75,
+    "ex_top3": 27767.75,
+    "red_months": [
+     "2026-06",
+     "2026-08"
+    ]
+   },
+   "conditioned_pop": 45,
+   "kept_conditioned": 3,
+   "dropped": 42,
+   "dropped_total": 41817.5,
+   "kept_cond_mean": 2430.92,
+   "dropped_cond_mean": 995.65,
+   "nc_kept": 0,
+   "placebo_pct": 0.715,
+   "dropped_control_pass": true,
+   "verdict": "FAIL",
+   "fails": [
+    "WR 53.1 < 60",
+    "total 61232.75 < 61830.15",
+    "placebo 0.715 < 0.95",
+    "new red months ['2026-06', '2026-08']"
+   ]
+  },
+  {
+   "read": "10:00",
+   "rule": "ALIGN+SPEC",
+   "kept": {
+    "legs": 36,
+    "total": 77012.25,
+    "wr": 55.6,
+    "wins": 20,
+    "trade_days": 35,
+    "rs_per_td": 2200.35,
+    "green": 20,
+    "red": 15,
+    "no_trade": 170,
+    "months": {
+     "2026-01": 14966.0,
+     "2026-02": 4679.5,
+     "2026-03": 7895.0,
+     "2026-04": 22296.75,
+     "2026-05": 525.0,
+     "2026-06": -440.0,
+     "2026-07": 10998.75,
+     "2026-08": -1701.0,
+     "2026-09": 1311.75,
+     "2026-10": 16480.5
+    },
+    "h1": 50362.25,
+    "h2": 26650.0,
+    "ex_top3": 43547.25,
+    "red_months": [
+     "2026-06",
+     "2026-08"
+    ]
+   },
+   "conditioned_pop": 40,
+   "kept_conditioned": 2,
+   "dropped": 38,
+   "dropped_total": 26038.0,
+   "kept_cond_mean": 3680.0,
+   "dropped_cond_mean": 685.21,
+   "nc_kept": 5,
+   "placebo_pct": 0.79,
+   "dropped_control_pass": true,
+   "verdict": "FAIL",
+   "fails": [
+    "WR 55.6 < 60",
+    "placebo 0.79 < 0.95",
+    "new red months ['2026-06', '2026-08']"
+   ]
+  },
+  {
+   "read": "10:00",
+   "rule": "VOL-1.0",
+   "kept": {
+    "legs": 56,
+    "total": 81390.5,
+    "wr": 51.8,
+    "wins": 29,
+    "trade_days": 49,
+    "rs_per_td": 1661.03,
+    "green": 28,
+    "red": 21,
+    "no_trade": 156,
+    "months": {
+     "2026-01": 13400.5,
+     "2026-02": 3933.0,
+     "2026-03": 5723.5,
+     "2026-04": 11141.75,
+     "2026-05": 4205.0,
+     "2026-06": 4828.0,
+     "2026-07": 10078.75,
+     "2026-08": -1768.25,
+     "2026-09": 13367.75,
+     "2026-10": 16480.5
+    },
+    "h1": 38403.75,
+    "h2": 42986.75,
+    "ex_top3": 47925.5,
+    "red_months": [
+     "2026-08"
+    ]
+   },
+   "conditioned_pop": 45,
+   "kept_conditioned": 27,
+   "dropped": 18,
+   "dropped_total": 21659.75,
+   "kept_cond_mean": 1016.69,
+   "dropped_cond_mean": 1203.32,
+   "nc_kept": 0,
+   "placebo_pct": 0.435,
+   "dropped_control_pass": false,
+   "verdict": "FAIL",
+   "fails": [
+    "WR 51.8 < 60",
+    "placebo 0.435 < 0.95",
+    "dropped-set control",
+    "new red months ['2026-08']"
+   ]
+  },
+  {
+   "read": "10:00",
+   "rule": "VOL-1.1",
+   "kept": {
+    "legs": 52,
+    "total": 83716.75,
+    "wr": 53.8,
+    "wins": 28,
+    "trade_days": 47,
+    "rs_per_td": 1781.21,
+    "green": 27,
+    "red": 20,
+    "no_trade": 158,
+    "months": {
+     "2026-01": 13400.5,
+     "2026-02": 3933.0,
+     "2026-03": 9193.5,
+     "2026-04": 11141.75,
+     "2026-05": 525.0,
+     "2026-06": 4828.0,
+     "2026-07": 12547.75,
+     "2026-08": -1701.0,
+     "2026-09": 13367.75,
+     "2026-10": 16480.5
+    },
+    "h1": 38193.75,
+    "h2": 45523.0,
+    "ex_top3": 50251.75,
+    "red_months": [
+     "2026-08"
+    ]
+   },
+   "conditioned_pop": 45,
+   "kept_conditioned": 23,
+   "dropped": 22,
+   "dropped_total": 19333.5,
+   "kept_cond_mean": 1294.64,
+   "dropped_cond_mean": 878.8,
+   "nc_kept": 0,
+   "placebo_pct": 0.65,
+   "dropped_control_pass": true,
+   "verdict": "FAIL",
+   "fails": [
+    "WR 53.8 < 60",
+    "placebo 0.65 < 0.95",
+    "new red months ['2026-08']"
+   ]
+  },
+  {
+   "read": "10:00",
+   "rule": "VOL-1.25",
+   "kept": {
+    "legs": 45,
+    "total": 81269.0,
+    "wr": 57.8,
+    "wins": 26,
+    "trade_days": 42,
+    "rs_per_td": 1934.98,
+    "green": 25,
+    "red": 17,
+    "no_trade": 163,
+    "months": {
+     "2026-01": 14966.0,
+     "2026-02": 4582.0,
+     "2026-03": 12663.5,
+     "2026-04": 11141.75,
+     "2026-05": 745.0,
+     "2026-06": -2901.5,
+     "2026-07": 14678.75,
+     "2026-08": -1701.0,
+     "2026-09": 10614.0,
+     "2026-10": 16480.5
+    },
+    "h1": 44098.25,
+    "h2": 37170.75,
+    "ex_top3": 47804.0,
+    "red_months": [
+     "2026-06",
+     "2026-08"
+    ]
+   },
+   "conditioned_pop": 45,
+   "kept_conditioned": 16,
+   "dropped": 29,
+   "dropped_total": 21781.25,
+   "kept_cond_mean": 1708.06,
+   "dropped_cond_mean": 751.08,
+   "nc_kept": 0,
+   "placebo_pct": 0.815,
+   "dropped_control_pass": true,
+   "verdict": "FAIL",
+   "fails": [
+    "WR 57.8 < 60",
+    "placebo 0.815 < 0.95",
+    "new red months ['2026-06', '2026-08']"
+   ]
+  },
+  {
+   "read": "10:00",
+   "rule": "VOL5-1.1",
+   "kept": {
+    "legs": 46,
+    "total": 76528.25,
+    "wr": 52.2,
+    "wins": 24,
+    "trade_days": 43,
+    "rs_per_td": 1779.73,
+    "green": 24,
+    "red": 19,
+    "no_trade": 162,
+    "months": {
+     "2026-01": 13400.5,
+     "2026-02": 4582.0,
+     "2026-03": 12883.5,
+     "2026-04": 3991.75,
+     "2026-05": 525.0,
+     "2026-06": 7289.5,
+     "2026-07": 12209.75,
+     "2026-08": -1768.25,
+     "2026-09": 6934.0,
+     "2026-10": 16480.5
+    },
+    "h1": 35382.75,
+    "h2": 41145.5,
+    "ex_top3": 43063.25,
+    "red_months": [
+     "2026-08"
+    ]
+   },
+   "conditioned_pop": 45,
+   "kept_conditioned": 17,
+   "dropped": 28,
+   "dropped_total": 26522.0,
+   "kept_cond_mean": 1328.72,
+   "dropped_cond_mean": 947.21,
+   "nc_kept": 0,
+   "placebo_pct": 0.65,
+   "dropped_control_pass": true,
+   "verdict": "FAIL",
+   "fails": [
+    "WR 52.2 < 60",
+    "placebo 0.65 < 0.95",
+    "new red months ['2026-08']"
+   ]
+  },
+  {
+   "read": "10:00",
+   "rule": "PF-ALIGN",
+   "kept": {
+    "legs": 57,
+    "total": 103059.25,
+    "wr": 56.1,
+    "wins": 32,
+    "trade_days": 52,
+    "rs_per_td": 1981.91,
+    "green": 32,
+    "red": 20,
+    "no_trade": 153,
+    "months": {
+     "2026-01": 14966.0,
+     "2026-02": 4582.0,
+     "2026-03": 2253.5,
+     "2026-04": 24411.25,
+     "2026-05": 9282.5,
+     "2026-06": 8298.0,
+     "2026-07": 17619.75,
+     "2026-08": -1768.25,
+     "2026-09": 3254.0,
+     "2026-10": 20160.5
+    },
+    "h1": 55495.25,
+    "h2": 47564.0,
+    "ex_top3": 69594.25,
+    "red_months": [
+     "2026-08"
+    ]
+   },
+   "conditioned_pop": 45,
+   "kept_conditioned": 28,
+   "dropped": 17,
+   "dropped_total": -9.0,
+   "kept_cond_mean": 1754.26,
+   "dropped_cond_mean": -0.53,
+   "nc_kept": 0,
+   "placebo_pct": 0.92,
+   "dropped_control_pass": true,
+   "verdict": "FAIL",
+   "fails": [
+    "WR 56.1 < 60",
+    "placebo 0.92 < 0.95",
+    "new red months ['2026-08']"
+   ]
+  },
+  {
+   "read": "10:00",
+   "rule": "PF-ALIGN+SPEC",
+   "kept": {
+    "legs": 57,
+    "total": 100313.0,
+    "wr": 56.1,
+    "wins": 32,
+    "trade_days": 52,
+    "rs_per_td": 1929.1,
+    "green": 32,
+    "red": 20,
+    "no_trade": 153,
+    "months": {
+     "2026-01": 14966.0,
+     "2026-02": 1768.5,
+     "2026-03": 2253.5,
+     "2026-04": 24411.25,
+     "2026-05": 9282.5,
+     "2026-06": 8298.0,
+     "2026-07": 17619.75,
+     "2026-08": -1701.0,
+     "2026-09": 3254.0,
+     "2026-10": 20160.5
+    },
+    "h1": 52681.75,
+    "h2": 47631.25,
+    "ex_top3": 66848.0,
+    "red_months": [
+     "2026-08"
+    ]
+   },
+   "conditioned_pop": 44,
+   "kept_conditioned": 27,
+   "dropped": 17,
+   "dropped_total": 2737.25,
+   "kept_cond_mean": 1821.72,
+   "dropped_cond_mean": 161.01,
+   "nc_kept": 1,
+   "placebo_pct": 0.905,
+   "dropped_control_pass": true,
+   "verdict": "FAIL",
+   "fails": [
+    "WR 56.1 < 60",
+    "placebo 0.905 < 0.95",
+    "new red months ['2026-08']"
+   ]
+  },
+  {
+   "read": "10:00",
+   "rule": "FB-ONLY",
+   "kept": {
+    "legs": 73,
+    "total": 99370.25,
+    "wr": 50.7,
+    "wins": 37,
+    "trade_days": 65,
+    "rs_per_td": 1528.77,
+    "green": 36,
+    "red": 29,
+    "no_trade": 140,
+    "months": {
+     "2026-01": 15531.25,
+     "2026-02": 9229.25,
+     "2026-03": -1216.5,
+     "2026-04": 20731.25,
+     "2026-05": 4364.0,
+     "2026-06": 4828.0,
+     "2026-07": 10463.0,
+     "2026-08": 1911.75,
+     "2026-09": 13367.75,
+     "2026-10": 20160.5
+    },
+    "h1": 48639.25,
+    "h2": 50731.0,
+    "ex_top3": 65905.25,
+    "red_months": [
+     "2026-03"
+    ]
+   },
+   "conditioned_pop": 45,
+   "kept_conditioned": 44,
+   "dropped": 1,
+   "dropped_total": 3680.0,
+   "kept_cond_mean": 1032.51,
+   "dropped_cond_mean": 3680.0,
+   "nc_kept": 0,
+   "placebo_pct": 0.21,
+   "dropped_control_pass": false,
+   "verdict": "FAIL",
+   "fails": [
+    "WR 50.7 < 60",
+    "placebo 0.21 < 0.95",
+    "dropped-set control"
+   ]
+  },
+  {
+   "read": "10:00",
+   "rule": "FB-COMBO",
+   "kept": {
+    "legs": 56,
+    "total": 99379.25,
+    "wr": 55.4,
+    "wins": 31,
+    "trade_days": 51,
+    "rs_per_td": 1948.61,
+    "green": 31,
+    "red": 20,
+    "no_trade": 154,
+    "months": {
+     "2026-01": 14966.0,
+     "2026-02": 4582.0,
+     "2026-03": 2253.5,
+     "2026-04": 20731.25,
+     "2026-05": 9282.5,
+     "2026-06": 8298.0,
+     "2026-07": 17619.75,
+     "2026-08": -1768.25,
+     "2026-09": 3254.0,
+     "2026-10": 20160.5
+    },
+    "h1": 51815.25,
+    "h2": 47564.0,
+    "ex_top3": 65914.25,
+    "red_months": [
+     "2026-08"
+    ]
+   },
+   "conditioned_pop": 45,
+   "kept_conditioned": 27,
+   "dropped": 18,
+   "dropped_total": 3671.0,
+   "kept_cond_mean": 1682.94,
+   "dropped_cond_mean": 203.94,
+   "nc_kept": 0,
+   "placebo_pct": 0.9,
+   "dropped_control_pass": true,
+   "verdict": "FAIL",
+   "fails": [
+    "WR 55.4 < 60",
+    "placebo 0.9 < 0.95",
+    "new red months ['2026-08']"
+   ]
+  },
+  {
+   "read": "11:00",
+   "rule": "ALIGN",
+   "kept": {
+    "legs": 68,
+    "total": 95124.0,
+    "wr": 51.5,
+    "wins": 35,
+    "trade_days": 62,
+    "rs_per_td": 1534.26,
+    "green": 35,
+    "red": 27,
+    "no_trade": 143,
+    "months": {
+     "2026-01": 13400.5,
+     "2026-02": 1119.5,
+     "2026-03": -1216.5,
+     "2026-04": 24411.25,
+     "2026-05": 6888.25,
+     "2026-06": 8298.0,
+     "2026-07": 10463.0,
+     "2026-08": 1911.75,
+     "2026-09": 9687.75,
+     "2026-10": 20160.5
+    },
+    "h1": 44603.0,
+    "h2": 50521.0,
+    "ex_top3": 61659.0,
+    "red_months": [
+     "2026-03"
+    ]
+   },
+   "conditioned_pop": 8,
+   "kept_conditioned": 2,
+   "dropped": 6,
+   "dropped_total": 7926.25,
+   "kept_cond_mean": 433.25,
+   "dropped_cond_mean": 1321.04,
+   "nc_kept": 0,
+   "placebo_pct": 0.38,
+   "dropped_control_pass": false,
+   "verdict": "FAIL",
+   "fails": [
+    "WR 51.5 < 60",
+    "placebo 0.38 < 0.95",
+    "dropped-set control"
+   ]
+  },
+  {
+   "read": "11:00",
+   "rule": "ALIGN+SPEC",
+   "kept": {
+    "legs": 67,
+    "total": 91444.0,
+    "wr": 50.7,
+    "wins": 34,
+    "trade_days": 61,
+    "rs_per_td": 1499.08,
+    "green": 34,
+    "red": 27,
+    "no_trade": 144,
+    "months": {
+     "2026-01": 13400.5,
+     "2026-02": 1119.5,
+     "2026-03": -1216.5,
+     "2026-04": 24411.25,
+     "2026-05": 6888.25,
+     "2026-06": 8298.0,
+     "2026-07": 10463.0,
+     "2026-08": 1911.75,
+     "2026-09": 9687.75,
+     "2026-10": 16480.5
+    },
+    "h1": 44603.0,
+    "h2": 46841.0,
+    "ex_top3": 57979.0,
+    "red_months": [
+     "2026-03"
+    ]
+   },
+   "conditioned_pop": 7,
+   "kept_conditioned": 0,
+   "dropped": 7,
+   "dropped_total": 11606.25,
+   "kept_cond_mean": null,
+   "dropped_cond_mean": 1658.04,
+   "nc_kept": 1,
+   "placebo_pct": 0.0,
+   "dropped_control_pass": false,
+   "verdict": "FAIL",
+   "fails": [
+    "WR 50.7 < 60",
+    "placebo 0.0 < 0.95",
+    "dropped-set control"
+   ]
+  },
+  {
+   "read": "11:00",
+   "rule": "VOL-1.0",
+   "kept": {
+    "legs": 69,
+    "total": 98147.5,
+    "wr": 52.2,
+    "wins": 36,
+    "trade_days": 61,
+    "rs_per_td": 1608.98,
+    "green": 35,
+    "red": 26,
+    "no_trade": 144,
+    "months": {
+     "2026-01": 13400.5,
+     "2026-02": 3933.0,
+     "2026-03": -1216.5,
+     "2026-04": 24411.25,
+     "2026-05": 6888.25,
+     "2026-06": 4828.0,
+     "2026-07": 10463.0,
+     "2026-08": 1911.75,
+     "2026-09": 13367.75,
+     "2026-10": 20160.5
+    },
+    "h1": 47416.5,
+    "h2": 50731.0,
+    "ex_top3": 64682.5,
+    "red_months": [
+     "2026-03"
+    ]
+   },
+   "conditioned_pop": 8,
+   "kept_conditioned": 3,
+   "dropped": 5,
+   "dropped_total": 4902.75,
+   "kept_cond_mean": 1296.67,
+   "dropped_cond_mean": 980.55,
+   "nc_kept": 0,
+   "placebo_pct": 0.48,
+   "dropped_control_pass": true,
+   "verdict": "FAIL",
+   "fails": [
+    "WR 52.2 < 60",
+    "placebo 0.48 < 0.95"
+   ]
+  },
+  {
+   "read": "11:00",
+   "rule": "VOL-1.1",
+   "kept": {
+    "legs": 69,
+    "total": 98147.5,
+    "wr": 52.2,
+    "wins": 36,
+    "trade_days": 61,
+    "rs_per_td": 1608.98,
+    "green": 35,
+    "red": 26,
+    "no_trade": 144,
+    "months": {
+     "2026-01": 13400.5,
+     "2026-02": 3933.0,
+     "2026-03": -1216.5,
+     "2026-04": 24411.25,
+     "2026-05": 6888.25,
+     "2026-06": 4828.0,
+     "2026-07": 10463.0,
+     "2026-08": 1911.75,
+     "2026-09": 13367.75,
+     "2026-10": 20160.5
+    },
+    "h1": 47416.5,
+    "h2": 50731.0,
+    "ex_top3": 64682.5,
+    "red_months": [
+     "2026-03"
+    ]
+   },
+   "conditioned_pop": 8,
+   "kept_conditioned": 3,
+   "dropped": 5,
+   "dropped_total": 4902.75,
+   "kept_cond_mean": 1296.67,
+   "dropped_cond_mean": 980.55,
+   "nc_kept": 0,
+   "placebo_pct": 0.54,
+   "dropped_control_pass": true,
+   "verdict": "FAIL",
+   "fails": [
+    "WR 52.2 < 60",
+    "placebo 0.54 < 0.95"
+   ]
+  },
+  {
+   "read": "11:00",
+   "rule": "VOL-1.25",
+   "kept": {
+    "legs": 69,
+    "total": 98147.5,
+    "wr": 52.2,
+    "wins": 36,
+    "trade_days": 61,
+    "rs_per_td": 1608.98,
+    "green": 35,
+    "red": 26,
+    "no_trade": 144,
+    "months": {
+     "2026-01": 13400.5,
+     "2026-02": 3933.0,
+     "2026-03": -1216.5,
+     "2026-04": 24411.25,
+     "2026-05": 6888.25,
+     "2026-06": 4828.0,
+     "2026-07": 10463.0,
+     "2026-08": 1911.75,
+     "2026-09": 13367.75,
+     "2026-10": 20160.5
+    },
+    "h1": 47416.5,
+    "h2": 50731.0,
+    "ex_top3": 64682.5,
+    "red_months": [
+     "2026-03"
+    ]
+   },
+   "conditioned_pop": 8,
+   "kept_conditioned": 3,
+   "dropped": 5,
+   "dropped_total": 4902.75,
+   "kept_cond_mean": 1296.67,
+   "dropped_cond_mean": 980.55,
+   "nc_kept": 0,
+   "placebo_pct": 0.435,
+   "dropped_control_pass": true,
+   "verdict": "FAIL",
+   "fails": [
+    "WR 52.2 < 60",
+    "placebo 0.435 < 0.95"
+   ]
+  },
+  {
+   "read": "11:00",
+   "rule": "VOL5-1.1",
+   "kept": {
+    "legs": 68,
+    "total": 101617.5,
+    "wr": 52.9,
+    "wins": 36,
+    "trade_days": 61,
+    "rs_per_td": 1665.86,
+    "green": 36,
+    "red": 25,
+    "no_trade": 144,
+    "months": {
+     "2026-01": 13400.5,
+     "2026-02": 3933.0,
+     "2026-03": -1216.5,
+     "2026-04": 24411.25,
+     "2026-05": 6888.25,
+     "2026-06": 8298.0,
+     "2026-07": 10463.0,
+     "2026-08": 1911.75,
+     "2026-09": 13367.75,
+     "2026-10": 20160.5
+    },
+    "h1": 47416.5,
+    "h2": 54201.0,
+    "ex_top3": 68152.5,
+    "red_months": [
+     "2026-03"
+    ]
+   },
+   "conditioned_pop": 8,
+   "kept_conditioned": 2,
+   "dropped": 6,
+   "dropped_total": 1432.75,
+   "kept_cond_mean": 3680.0,
+   "dropped_cond_mean": 238.79,
+   "nc_kept": 0,
+   "placebo_pct": 0.88,
+   "dropped_control_pass": true,
+   "verdict": "FAIL",
+   "fails": [
+    "WR 52.9 < 60",
+    "placebo 0.88 < 0.95"
+   ]
+  },
+  {
+   "read": "11:00",
+   "rule": "PF-ALIGN",
+   "kept": {
+    "legs": 68,
+    "total": 95124.0,
+    "wr": 51.5,
+    "wins": 35,
+    "trade_days": 62,
+    "rs_per_td": 1534.26,
+    "green": 35,
+    "red": 27,
+    "no_trade": 143,
+    "months": {
+     "2026-01": 13400.5,
+     "2026-02": 1119.5,
+     "2026-03": -1216.5,
+     "2026-04": 24411.25,
+     "2026-05": 6888.25,
+     "2026-06": 8298.0,
+     "2026-07": 10463.0,
+     "2026-08": 1911.75,
+     "2026-09": 9687.75,
+     "2026-10": 20160.5
+    },
+    "h1": 44603.0,
+    "h2": 50521.0,
+    "ex_top3": 61659.0,
+    "red_months": [
+     "2026-03"
+    ]
+   },
+   "conditioned_pop": 8,
+   "kept_conditioned": 2,
+   "dropped": 6,
+   "dropped_total": 7926.25,
+   "kept_cond_mean": 433.25,
+   "dropped_cond_mean": 1321.04,
+   "nc_kept": 0,
+   "placebo_pct": 0.365,
+   "dropped_control_pass": false,
+   "verdict": "FAIL",
+   "fails": [
+    "WR 51.5 < 60",
+    "placebo 0.365 < 0.95",
+    "dropped-set control"
+   ]
+  },
+  {
+   "read": "11:00",
+   "rule": "PF-ALIGN+SPEC",
+   "kept": {
+    "legs": 67,
+    "total": 91444.0,
+    "wr": 50.7,
+    "wins": 34,
+    "trade_days": 61,
+    "rs_per_td": 1499.08,
+    "green": 34,
+    "red": 27,
+    "no_trade": 144,
+    "months": {
+     "2026-01": 13400.5,
+     "2026-02": 1119.5,
+     "2026-03": -1216.5,
+     "2026-04": 24411.25,
+     "2026-05": 6888.25,
+     "2026-06": 8298.0,
+     "2026-07": 10463.0,
+     "2026-08": 1911.75,
+     "2026-09": 9687.75,
+     "2026-10": 16480.5
+    },
+    "h1": 44603.0,
+    "h2": 46841.0,
+    "ex_top3": 57979.0,
+    "red_months": [
+     "2026-03"
+    ]
+   },
+   "conditioned_pop": 7,
+   "kept_conditioned": 0,
+   "dropped": 7,
+   "dropped_total": 11606.25,
+   "kept_cond_mean": null,
+   "dropped_cond_mean": 1658.04,
+   "nc_kept": 1,
+   "placebo_pct": 0.0,
+   "dropped_control_pass": false,
+   "verdict": "FAIL",
+   "fails": [
+    "WR 50.7 < 60",
+    "placebo 0.0 < 0.95",
+    "dropped-set control"
+   ]
+  },
+  {
+   "read": "11:00",
+   "rule": "FB-ONLY",
+   "kept": {
+    "legs": 74,
+    "total": 103050.25,
+    "wr": 51.4,
+    "wins": 38,
+    "trade_days": 66,
+    "rs_per_td": 1561.37,
+    "green": 37,
+    "red": 29,
+    "no_trade": 139,
+    "months": {
+     "2026-01": 15531.25,
+     "2026-02": 9229.25,
+     "2026-03": -1216.5,
+     "2026-04": 24411.25,
+     "2026-05": 4364.0,
+     "2026-06": 4828.0,
+     "2026-07": 10463.0,
+     "2026-08": 1911.75,
+     "2026-09": 13367.75,
+     "2026-10": 20160.5
+    },
+    "h1": 52319.25,
+    "h2": 50731.0,
+    "ex_top3": 69585.25,
+    "red_months": [
+     "2026-03"
+    ]
+   },
+   "conditioned_pop": 8,
+   "kept_conditioned": 8,
+   "dropped": 0,
+   "dropped_total": 0,
+   "kept_cond_mean": 1099.09,
+   "dropped_cond_mean": null,
+   "nc_kept": 0,
+   "placebo_pct": 0.0,
+   "dropped_control_pass": false,
+   "verdict": "FAIL",
+   "fails": [
+    "WR 51.4 < 60",
+    "placebo 0.0 < 0.95",
+    "dropped-set control"
+   ]
+  },
+  {
+   "read": "11:00",
+   "rule": "FB-COMBO",
+   "kept": {
+    "legs": 68,
+    "total": 95124.0,
+    "wr": 51.5,
+    "wins": 35,
+    "trade_days": 62,
+    "rs_per_td": 1534.26,
+    "green": 35,
+    "red": 27,
+    "no_trade": 143,
+    "months": {
+     "2026-01": 13400.5,
+     "2026-02": 1119.5,
+     "2026-03": -1216.5,
+     "2026-04": 24411.25,
+     "2026-05": 6888.25,
+     "2026-06": 8298.0,
+     "2026-07": 10463.0,
+     "2026-08": 1911.75,
+     "2026-09": 9687.75,
+     "2026-10": 20160.5
+    },
+    "h1": 44603.0,
+    "h2": 50521.0,
+    "ex_top3": 61659.0,
+    "red_months": [
+     "2026-03"
+    ]
+   },
+   "conditioned_pop": 8,
+   "kept_conditioned": 2,
+   "dropped": 6,
+   "dropped_total": 7926.25,
+   "kept_cond_mean": 433.25,
+   "dropped_cond_mean": 1321.04,
+   "nc_kept": 0,
+   "placebo_pct": 0.4,
+   "dropped_control_pass": false,
+   "verdict": "FAIL",
+   "fails": [
+    "WR 51.5 < 60",
+    "placebo 0.4 < 0.95",
+    "dropped-set control"
+   ]
+  }
+ ],
+ "diagnostics": {
+  "by_buildup_R10": {
+   "LONG_BUILDUP": {
+    "n": 1,
+    "total": 3680.0,
+    "mean": 3680.0
+   },
+   "LONG_BUILDUP|B": {
+    "n": 1,
+    "total": 3680.0,
+    "mean": 3680.0
+   },
+   "LONG_BUILDUP|AC": {
+    "n": 0,
+    "total": 0,
+    "mean": null
+   },
+   "SHORT_COVERING": {
+    "n": 0,
+    "total": 0,
+    "mean": null
+   },
+   "SHORT_COVERING|B": {
+    "n": 0,
+    "total": 0,
+    "mean": null
+   },
+   "SHORT_COVERING|AC": {
+    "n": 0,
+    "total": 0,
+    "mean": null
+   },
+   "SHORT_BUILDUP": {
+    "n": 11,
+    "total": 9787.0,
+    "mean": 889.73
+   },
+   "SHORT_BUILDUP|B": {
+    "n": 10,
+    "total": 9854.25,
+    "mean": 985.42
+   },
+   "SHORT_BUILDUP|AC": {
+    "n": 1,
+    "total": -67.25,
+    "mean": -67.25
+   },
+   "LONG_UNWINDING": {
+    "n": 1,
+    "total": 3680.0,
+    "mean": 3680.0
+   },
+   "LONG_UNWINDING|B": {
+    "n": 0,
+    "total": 0,
+    "mean": null
+   },
+   "LONG_UNWINDING|AC": {
+    "n": 1,
+    "total": 3680.0,
+    "mean": 3680.0
+   },
+   "NEUTRAL": {
+    "n": 32,
+    "total": 31963.25,
+    "mean": 998.85
+   },
+   "NEUTRAL|B": {
+    "n": 15,
+    "total": 31972.25,
+    "mean": 2131.48
+   },
+   "NEUTRAL|AC": {
+    "n": 17,
+    "total": -9.0,
+    "mean": -0.53
+   }
+  },
+  "familyB_R10": {
+   "agrees": {
+    "n": 1,
+    "total": 3680.0,
+    "mean": 3680.0
+   },
+   "opposes": {
+    "n": 10,
+    "total": 9854.25,
+    "mean": 985.42
+   },
+   "neutral": {
+    "n": 15,
+    "total": 31972.25,
+    "mean": 2131.48
+   }
+  },
+  "by_crowd_R10": {
+   "LONG": {
+    "n": 30,
+    "total": 22383.5,
+    "mean": 746.12
+   },
+   "SHORT": {
+    "n": 10,
+    "total": 11014.5,
+    "mean": 1101.45
+   },
+   "FLAT": {
+    "n": 0,
+    "total": 0,
+    "mean": null
+   }
+  },
+  "relvol_terciles_R10": {
+   "low": {
+    "n": 15,
+    "total": 19450.0,
+    "mean": 1296.67
+   },
+   "mid": {
+    "n": 15,
+    "total": 6011.25,
+    "mean": 400.75
+   },
+   "high": {
+    "n": 15,
+    "total": 23649.0,
+    "mean": 1576.6
+   },
+   "range": [
+    0.2587,
+    3.1623
+   ]
+  }
+ },
+ "november_nov3": {
+  "10:00": {
+   "buildup": "NEUTRAL",
+   "relvol": 1.1082,
+   "relvol5": 1.3331,
+   "crowd": null,
+   "spec_idx": null,
+   "dp": 0.2882,
+   "doi": -0.2523,
+   "exp": "2026-11-23",
+   "would_say": {
+    "ALIGN": false,
+    "ALIGN+SPEC": null,
+    "VOL-1.0": true,
+    "VOL-1.1": true,
+    "VOL-1.25": false,
+    "VOL5-1.1": true,
+    "PF-ALIGN": false,
+    "PF-ALIGN+SPEC": null,
+    "FB-ONLY": true,
+    "FB-COMBO": false
+   }
+  },
+  "11:00": {
+   "buildup": "SHORT_COVERING",
+   "relvol": 1.1471,
+   "relvol5": 1.1759,
+   "crowd": null,
+   "spec_idx": null,
+   "dp": 0.4475,
+   "doi": -0.91,
+   "exp": "2026-11-23",
+   "would_say": {
+    "ALIGN": true,
+    "ALIGN+SPEC": null,
+    "VOL-1.0": true,
+    "VOL-1.1": true,
+    "VOL-1.25": false,
+    "VOL5-1.1": true,
+    "PF-ALIGN": true,
+    "PF-ALIGN+SPEC": null,
+    "FB-ONLY": true,
+    "FB-COMBO": true
+   }
+  }
+ }
+}

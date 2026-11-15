@@ -1,0 +1,243 @@
+[
+ {
+  "cycle": "R16-01",
+  "type": "audit",
+  "label": "Starting-book verification (Round-15 ending book)",
+  "note": "Books re-summed from stocks_engine_r15_book{2025,2026}_trades.csv: 2025 JO 105987.24 / full 107589.18 / 1101 rows; 2026 JO 257300.30 / full 257300.30 / 1352 rows \u2014 exact vs the Round-15 record (asserted in code at load). Red 2025 Jan-Oct months asserted: Jul -2733.21, Oct -4152.19. No scoring preceded this audit.",
+  "banked": false
+ },
+ {
+  "cycle": "R16-02",
+  "label": "F4 volume MIRROR: keep prior-day rvol < 1.0 (trailing-20-day median)",
+  "note": "Mirror-conditioned population: kept {2025: 134, 2026: 165} of the sleeve's rows (dropped rvol >= 1.0: {2025: 112, 2026: 190}; unclassifiable \u2014 excluded from every set, never estimated: {2025: 0, 2026: 0}). Every volume input dated strictly before its entry date (prior trading day P; 20-day window ending on P) \u2014 asserted row by row in code; timing violations 0. Placebos on the SAME mirror-conditioned population: flipped swap book 215958.51; one-bar-late swap book 295094.67. Failed legs: ['a_combined_rises', 'b_2025_no_fall', 'c_2026_no_fall', 'e_extop3', 'f_no_green_month_flips'].",
+  "verdict": false,
+  "legs": {
+   "a_combined_rises": false,
+   "b_2025_no_fall": false,
+   "c_2026_no_fall": false,
+   "d_cells_positive": true,
+   "e_extop3": false,
+   "f_no_green_month_flips": false,
+   "flip_detail": [
+    "2026-03:11344.23->-673.18"
+   ],
+   "g_no_half_flips": true,
+   "h_beats_placebos": true,
+   "i_timing_clean": true,
+   "x_2026_floor_holds": true
+  },
+  "sums": {
+   "base_combined": 364889.48,
+   "variant_combined": 309097.98
+  },
+  "base": {
+   "2025": {
+    "total": 107589.18,
+    "jan_oct": 105987.24,
+    "ex_top3": 42038.91,
+    "trades": 1101
+   },
+   "2026": {
+    "total": 257300.3,
+    "jan_oct": 257300.3,
+    "ex_top3": 76137.46,
+    "trades": 1352
+   }
+  },
+  "var": {
+   "2025": {
+    "total": 105525.1,
+    "jan_oct": 103923.16,
+    "ex_top3": 43162.69,
+    "trades": 989
+   },
+   "2026": {
+    "total": 203572.88,
+    "jan_oct": 203572.88,
+    "ex_top3": 53737.89,
+    "trades": 1162
+   }
+  },
+  "base_cells": {
+   "2025": {
+    "DOWN": 57746.14,
+    "FLAT": 25527.64,
+    "UP": 24315.4
+   },
+   "2026": {
+    "DOWN": 226844.32,
+    "FLAT": 16593.5,
+    "UP": 13862.48
+   }
+  },
+  "var_cells": {
+   "2025": {
+    "DOWN": 59139.26,
+    "FLAT": 22070.44,
+    "UP": 24315.4
+   },
+   "2026": {
+    "DOWN": 171716.03,
+    "FLAT": 17994.37,
+    "UP": 13862.48
+   }
+  },
+  "banked": false,
+  "conditioned_stats": {
+   "kept": {
+    "2025": 134,
+    "2026": 165
+   },
+   "high": {
+    "2025": 112,
+    "2026": 190
+   },
+   "unclass": {
+    "2025": 0,
+    "2026": 0
+   }
+  },
+  "failed_legs": [
+   "a_combined_rises",
+   "b_2025_no_fall",
+   "c_2026_no_fall",
+   "e_extop3",
+   "f_no_green_month_flips"
+  ],
+  "placebos": [
+   215958.51,
+   295094.67
+  ]
+ },
+ {
+  "cycle": "R16-03",
+  "label": "N4-V3 volume MIRROR: keep prior-day rvol < 1.0 (trailing-20-day median)",
+  "note": "Mirror-conditioned population: kept {2025: 17, 2026: 13} of the sleeve's rows (dropped rvol >= 1.0: {2025: 18, 2026: 21}; unclassifiable \u2014 excluded from every set, never estimated: {2025: 0, 2026: 0}). Every volume input dated strictly before its entry date (prior trading day P; 20-day window ending on P) \u2014 asserted row by row in code; timing violations 0. Placebos on the SAME mirror-conditioned population: flipped swap book 317077.28; one-bar-late swap book 335825.08. Failed legs: ['a_combined_rises', 'b_2025_no_fall', 'c_2026_no_fall', 'e_extop3'].",
+  "verdict": false,
+  "legs": {
+   "a_combined_rises": false,
+   "b_2025_no_fall": false,
+   "c_2026_no_fall": false,
+   "d_cells_positive": true,
+   "e_extop3": false,
+   "f_no_green_month_flips": true,
+   "flip_detail": [],
+   "g_no_half_flips": true,
+   "h_beats_placebos": true,
+   "i_timing_clean": true,
+   "x_2026_floor_holds": true
+  },
+  "sums": {
+   "base_combined": 364889.48,
+   "variant_combined": 338225.04
+  },
+  "base": {
+   "2025": {
+    "total": 107589.18,
+    "jan_oct": 105987.24,
+    "ex_top3": 42038.91,
+    "trades": 1101
+   },
+   "2026": {
+    "total": 257300.3,
+    "jan_oct": 257300.3,
+    "ex_top3": 76137.46,
+    "trades": 1352
+   }
+  },
+  "var": {
+   "2025": {
+    "total": 105287.82,
+    "jan_oct": 102049.97,
+    "ex_top3": 39737.55,
+    "trades": 1083
+   },
+   "2026": {
+    "total": 232937.22,
+    "jan_oct": 232937.22,
+    "ex_top3": 63181.28,
+    "trades": 1331
+   }
+  },
+  "base_cells": {
+   "2025": {
+    "DOWN": 57746.14,
+    "FLAT": 25527.64,
+    "UP": 24315.4
+   },
+   "2026": {
+    "DOWN": 226844.32,
+    "FLAT": 16593.5,
+    "UP": 13862.48
+   }
+  },
+  "var_cells": {
+   "2025": {
+    "DOWN": 55721.47,
+    "FLAT": 26778.32,
+    "UP": 22788.03
+   },
+   "2026": {
+    "DOWN": 212961.97,
+    "FLAT": 8044.32,
+    "UP": 11930.93
+   }
+  },
+  "banked": false,
+  "conditioned_stats": {
+   "kept": {
+    "2025": 17,
+    "2026": 13
+   },
+   "high": {
+    "2025": 18,
+    "2026": 21
+   },
+   "unclass": {
+    "2025": 0,
+    "2026": 0
+   }
+  },
+  "failed_legs": [
+   "a_combined_rises",
+   "b_2025_no_fall",
+   "c_2026_no_fall",
+   "e_extop3"
+  ],
+  "placebos": [
+   317077.28,
+   335825.08
+  ]
+ },
+ {
+  "cycle": "R16-04",
+  "type": "audit",
+  "label": "P2F volume MIRROR \u2014 NOT RUN (frozen WS3 condition)",
+  "note": "Neither WS1 (F4 mirror) nor WS2 (N4-V3 mirror) banked or failed on exactly one leg, so per the condition frozen in this round's pre-registration the P2F-family mirror gate does not run and no P2F mirror number is computed.",
+  "banked": false
+ },
+ {
+  "cycle": "R16-05",
+  "type": "audit",
+  "label": "WS4 combinations + stack-price maintenance",
+  "note": "Combinations: NOTHING banked in Round 16, so there is no union to re-gate \u2014 the ending book is the starting (Round-15) book unchanged (2025 JO 105987.24; 2026 JO 257300.30). R16-02 (F4 mirror) rejected on (a) + (b) + (c) + (e) + (f); R16-03 (N4-V3 mirror) rejected on (a) + (b) + (c) + (e); R16-04 (P2F mirror) not run under the frozen WS3 condition. Neither rejection is flagged (both fail more than two legs; the standing rule flags at most two). Stack prices restated on the ending book (see report) \u2014 totals reproduce the recorded prices exactly, adoption values unchanged from Round 15.",
+  "banked": false,
+  "ending_jo": {
+   "2025": 105987.24,
+   "2026": 257300.3
+  },
+  "banked_round16": 0
+ },
+ {
+  "cycle": "R16-06",
+  "type": "audit",
+  "label": "December freeze addendum + finalise",
+  "note": "December freeze addendum (Round 16) appended: the frozen book is UNCHANGED by Round 16 \u2014 neither mirror form enters it. Ending book exported to stocks_engine_r16_book{2025,2026}_trades.csv, independently re-summed, and regeneration-verified against a fresh load of the Round-15 CSVs (multiset identity, both years). The volume axis at the frozen band is closed in both directions (see report).",
+  "banked": false,
+  "ending_jo": {
+   "2025": 105987.24,
+   "2026": 257300.3
+  },
+  "banked_round16": 0
+ }
+]

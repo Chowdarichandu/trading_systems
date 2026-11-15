@@ -1,0 +1,300 @@
+[
+ {
+  "cycle": "R11-01",
+  "type": "audit",
+  "label": "Starting-book verification + INV-ABOVE index-state census (audit \u2014 no candidate scored)",
+  "note": "Starting books re-summed independently from the Round-10 CSVs: 2025 887 rows, JO 78420.04, full 77041.31; 2026 969 rows, JO 229696.21, full 229696.21 \u2014 exact vs the recorded totals. INV-ABOVE census by frozen R10-05 state buckets reproduces R10-05's full-year bucket nets to the paisa (2025: hard 23 rows / -1230.62, shallow 33 rows / -620.96, up 95 rows / 10132.83; 2026: hard 16 rows / -4012.18, shallow 10 rows / 3066.24, up 10 rows / 4295.15); unknown-state rows 0 in both years. The hard-dip rows lose in BOTH years and carry zero July-2025 rows (R10-05) \u2014 the WS1 removal population.",
+  "banked": false,
+  "book_check": {
+   "2025": [
+    887,
+    78420.04,
+    77041.31
+   ],
+   "2026": [
+    969,
+    229696.21,
+    229696.21
+   ]
+  },
+  "inv_above_census": {
+   "2025": {
+    "shallow": [
+     33,
+     -620.96
+    ],
+    "hard": [
+     23,
+     -1230.62
+    ],
+    "up": [
+     95,
+     10132.83
+    ]
+   },
+   "2026": {
+    "up": [
+     10,
+     4295.15
+    ],
+    "shallow": [
+     10,
+     3066.24
+    ],
+    "hard": [
+     16,
+     -4012.18
+    ]
+   }
+  }
+ },
+ {
+  "cycle": "R11-02",
+  "label": "INV-ABOVE hard-dip exclusion (banked book minus INV-ABOVE rows on hard-dip index-state mornings, both years)",
+  "note": "removed rows 23/16 netting -1230.62 / -4012.18 (the R10-05 full-year hard-bucket nets, reproduced in R11-01). Placebos: chrono removal book 308214.64; cross-bucket removal book 302289.25. Timing violations 0 (state = the bar completing at each row's entry instant, asserted per removed row). Failed legs: ['e_extop3'].",
+  "verdict": false,
+  "legs": {
+   "a_combined_rises": true,
+   "b_2025_no_fall": true,
+   "c_2026_no_fall": true,
+   "d_cells_positive": true,
+   "e_extop3": false,
+   "f_no_green_month_flips": true,
+   "flip_detail": [],
+   "g_no_half_flips": true,
+   "h_beats_placebos": true,
+   "i_timing_clean": true,
+   "x_2026_floor_holds": true
+  },
+  "sums": {
+   "base_combined": 306737.52,
+   "variant_combined": 311980.32
+  },
+  "base": {
+   "2025": {
+    "total": 77041.31,
+    "jan_oct": 78420.04,
+    "ex_top3": 23708.1,
+    "trades": 887
+   },
+   "2026": {
+    "total": 229696.21,
+    "jan_oct": 229696.21,
+    "ex_top3": 77473.77,
+    "trades": 969
+   }
+  },
+  "var": {
+   "2025": {
+    "total": 78271.93,
+    "jan_oct": 80171.76,
+    "ex_top3": 22438.32,
+    "trades": 864
+   },
+   "2026": {
+    "total": 233708.39,
+    "jan_oct": 233708.39,
+    "ex_top3": 78607.15,
+    "trades": 953
+   }
+  },
+  "base_cells": {
+   "2025": {
+    "DOWN": 42941.63,
+    "FLAT": 21250.68,
+    "UP": 12849.0
+   },
+   "2026": {
+    "DOWN": 210264.94,
+    "FLAT": 2909.78,
+    "UP": 16521.49
+   }
+  },
+  "var_cells": {
+   "2025": {
+    "DOWN": 42941.63,
+    "FLAT": 21052.04,
+    "UP": 14278.26
+   },
+   "2026": {
+    "DOWN": 210264.94,
+    "FLAT": 6977.88,
+    "UP": 16465.57
+   }
+  },
+  "banked": false,
+  "removed_standalone": {
+   "2025": -1230.62,
+   "2026": -4012.18
+  },
+  "removed_trades": {
+   "2025": 23,
+   "2026": 16
+  },
+  "failed_legs": [
+   "e_extop3"
+  ]
+ },
+ {
+  "cycle": "R11-03",
+  "label": "Cross-family pair: NE-REV-NU + REXP-DOWN (T100/S065) on the banked book",
+  "note": "NU standalone 12596.19 / 23744.4 on 200/313 rows (fails (e) alone standalone, R10-02); REXP-DOWN T100/S065 Jan-Oct 10243.45 / -5899.72 on 41/86 rows (fails (c) alone standalone, R8-07). Placebos: flipped pair book 247940.0; late pair book 321032.51. Timing violations 0. Failed legs: [].",
+  "verdict": true,
+  "legs": {
+   "a_combined_rises": true,
+   "b_2025_no_fall": true,
+   "c_2026_no_fall": true,
+   "d_cells_positive": true,
+   "e_extop3": true,
+   "f_no_green_month_flips": true,
+   "flip_detail": [],
+   "g_no_half_flips": true,
+   "h_beats_placebos": true,
+   "i_timing_clean": true,
+   "x_2026_floor_holds": true
+  },
+  "sums": {
+   "base_combined": 306737.52,
+   "variant_combined": 347421.84
+  },
+  "base": {
+   "2025": {
+    "total": 77041.31,
+    "jan_oct": 78420.04,
+    "ex_top3": 23708.1,
+    "trades": 887
+   },
+   "2026": {
+    "total": 229696.21,
+    "jan_oct": 229696.21,
+    "ex_top3": 77473.77,
+    "trades": 969
+   }
+  },
+  "var": {
+   "2025": {
+    "total": 99880.95,
+    "jan_oct": 99363.06,
+    "ex_top3": 35264.65,
+    "trades": 1128
+   },
+   "2026": {
+    "total": 247540.89,
+    "jan_oct": 247540.89,
+    "ex_top3": 67963.65,
+    "trades": 1368
+   }
+  },
+  "base_cells": {
+   "2025": {
+    "DOWN": 42941.63,
+    "FLAT": 21250.68,
+    "UP": 12849.0
+   },
+   "2026": {
+    "DOWN": 210264.94,
+    "FLAT": 2909.78,
+    "UP": 16521.49
+   }
+  },
+  "var_cells": {
+   "2025": {
+    "DOWN": 54605.96,
+    "FLAT": 26396.29,
+    "UP": 18878.7
+   },
+   "2026": {
+    "DOWN": 227663.13,
+    "FLAT": 6825.26,
+    "UP": 13052.5
+   }
+  },
+  "banked": true,
+  "nu_standalone": {
+   "2025": 12596.19,
+   "2026": 23744.4
+  },
+  "rexp_jo": {
+   "2025": 10243.45,
+   "2026": -5899.72
+  },
+  "rexp_full": {
+   "2025": 10243.45,
+   "2026": -5899.72
+  },
+  "failed_legs": []
+ },
+ {
+  "cycle": "R11-04",
+  "type": "audit",
+  "label": "NOTCHCELL substitution \u2014 closes by statement",
+  "note": "Pre-registered trigger not met: R11-03 BANKED \u2014 the substitution runs only when the pair fails with (c) or (e) among the failed legs. No second candidate is designed or scored.",
+  "banked": false
+ },
+ {
+  "cycle": "R11-05",
+  "type": "audit",
+  "label": "Leg-(e) anatomy of NE-REV-NU standalone (audit \u2014 no candidate scored)",
+  "note": "Combined ex-top-3 101181.87 -> 90571.45: shortfall 10610.42. Decomposition (exact, asserted in code): 2025: NU profit inside the variant top-3 12043.1 of 12596.19 standalone; delta 571.69 = outside 553.09 + leaving 8324.51 - entering 8305.91; 2026: NU profit inside the variant top-3 34926.51 of 23744.4 standalone; delta -11182.11 = outside -11182.11 + leaving 0 - entering 0. The failure is a 2026 phenomenon \u2014 NU's 2026 profit lands inside the variant's own top-3 names, where leg (e) cannot see it, while 2025 ex-top-3 actually rises. Separator test over the frozen state slices (regime cell x 10:25 bucket; shallow bucket verified empty in NU): threshold |combined| >= 5305.21; qualifying slices = []. Full tables in r11_nu_anatomy.json.",
+  "banked": false,
+  "shortfall": 10610.42,
+  "threshold": 5305.21,
+  "qualifying_slices": [],
+  "slices": {
+   "cell:DOWN": {
+    "2025": 1420.88,
+    "2026": 23297.91,
+    "n25": 145,
+    "n26": 240
+   },
+   "cell:FLAT": {
+    "2025": 5145.61,
+    "2026": 3915.48,
+    "n25": 36,
+    "n26": 53
+   },
+   "cell:UP": {
+    "2025": 6029.7,
+    "2026": -3468.99,
+    "n25": 19,
+    "n26": 20
+   },
+   "bucket1025:up": {
+    "2025": 8563.68,
+    "2026": -10625.09,
+    "n25": 61,
+    "n26": 80
+   },
+   "bucket1025:hard": {
+    "2025": 4032.51,
+    "2026": 34369.49,
+    "n25": 139,
+    "n26": 233
+   }
+  }
+ },
+ {
+  "cycle": "R11-06",
+  "type": "audit",
+  "label": "Conditioned NE-REV-NU variant \u2014 closes by statement",
+  "note": "Separator test produced 0 qualifying slices ([]); the frozen rule requires exactly one. No candidate is designed or scored \u2014 WS3 closes with the anatomy as its result.",
+  "banked": false
+ },
+ {
+  "cycle": "R11-07",
+  "type": "audit",
+  "label": "December freeze of the banked book (decision support)",
+  "note": "Specification frozen in writing to stocks_engine_banked_book_FREEZE_dec2026.md with a per-feature timing-certification table. Regeneration verification PASSED: rebuilt through the documented chain (R8 ending CSVs -> R9/R10 identity chain), the book matches the Round-10 CSVs row-for-row (multiset identity on comp/date/stock/dir/entry_time/net) and to the paisa in both years (2025 JO 78,420.04 / 887 rows; 2026 JO 2,29,696.21 / 969 rows). Structural audit clean: all 1,856 rows inside the 25-name universe, valid intraday entry times, dates inside their file years. Frozen-book controls printed into the freeze doc (months, halves both positive both years, cells all positive, ex-top-3 +23,708.10 / +77,473.77). December lines pre-registered in the doc: PASS = December net > 0, no ISO week < -15,000, >= 20 trades; FLOOR LINE = December net >= 15,000; KILL = December net <= 0; <20 trades extends to January. Flagged forms are NOT frozen.",
+  "banked": false,
+  "regen_identity": true,
+  "doc": "stocks_engine_banked_book_FREEZE_dec2026.md"
+ },
+ {
+  "cycle": "R11-08",
+  "type": "audit",
+  "label": "WS5 combinations + stack-price maintenance + finalise",
+  "note": "Union of Round-11 bankings = the R11-03 pair alone (R11-02 rejected; R11-04 / R11-06 produced no candidate). Re-gated whole-book: verdict PASS (2025 JO 99363.06; 2026 JO 247540.89; combined 347421.84) \u2014 identical to the R11-03 gate, as it must be. Ending book exported to stocks_engine_r11_book{2025,2026}_trades.csv and independently re-summed. Stack prices restated on the ending book (see below).",
+  "banked": false,
+  "union_verdict": true
+ }
+]

@@ -1,0 +1,1037 @@
+{
+ "control": {
+  "2025": {
+   "n": 1064,
+   "total": 119813.44,
+   "wr": 45.39,
+   "trade_days": 160,
+   "red_months": [
+    "2025-07",
+    "2025-10"
+   ],
+   "months": {
+    "2025-01": 4476.9,
+    "2025-02": 25913.57,
+    "2025-03": 8412.63,
+    "2025-04": 53220.39,
+    "2025-05": 6518.38,
+    "2025-06": 1802.59,
+    "2025-07": -660.91,
+    "2025-08": 13486.06,
+    "2025-09": 10686.5,
+    "2025-10": -4042.67
+   }
+  },
+  "2026": {
+   "n": 1363,
+   "total": 247178.79,
+   "wr": 44.75,
+   "trade_days": 181,
+   "red_months": [],
+   "months": {
+    "2026-01": 28021.1,
+    "2026-02": 12576.14,
+    "2026-03": 18225.72,
+    "2026-04": 46744.31,
+    "2026-05": 43842.74,
+    "2026-06": 6756.75,
+    "2026-07": 10284.46,
+    "2026-08": 10106.06,
+    "2026-09": 14494.14,
+    "2026-10": 56127.37
+   }
+  }
+ },
+ "validation": {
+  "nov_log_labels": [
+   [
+    "2026-11-02",
+    "DOWN",
+    [
+     "DOWN"
+    ]
+   ],
+   [
+    "2026-11-03",
+    "FLAT",
+    [
+     "FLAT"
+    ]
+   ]
+  ],
+  "volrix_vs_progressive_janoct2026": [
+   203,
+   200,
+   98.52
+  ]
+ },
+ "basis": "equity cash intraday, per 100 shares PROVISIONAL, Rs40/trade, paper only, real Rs0",
+ "year_2025": {
+  "coverage_pct": {
+   "S2_lab": 100.0,
+   "S3_raw": 100.0,
+   "S4_raw": 100.0,
+   "S1_raw": 100.0,
+   "S5_raw": 100.0
+  },
+  "full": {
+   "kept": 1064,
+   "total": 119813.44,
+   "wr": 45.39,
+   "rs_per_trading_day": 748.83,
+   "red_months": [
+    "2025-07",
+    "2025-10"
+   ],
+   "months": {
+    "2025-01": 4476.9,
+    "2025-02": 25913.57,
+    "2025-03": 8412.63,
+    "2025-04": 53220.39,
+    "2025-05": 6518.38,
+    "2025-06": 1802.59,
+    "2025-07": -660.91,
+    "2025-08": 13486.06,
+    "2025-09": 10686.5,
+    "2025-10": -4042.67
+   },
+   "h1_jan_may": 98541.87,
+   "h2_jun_oct": 21271.57,
+   "ex_top3": 107481.57
+  },
+  "levels": {
+   "T70": {
+    "kept": 745,
+    "total": 81309.57,
+    "wr": 44.3,
+    "rs_per_trading_day": 508.18,
+    "red_months": [
+     "2025-01",
+     "2025-07",
+     "2025-10"
+    ],
+    "months": {
+     "2025-01": -2238.24,
+     "2025-02": 16567.95,
+     "2025-03": 5509.78,
+     "2025-04": 47866.4,
+     "2025-05": 6518.38,
+     "2025-06": 1802.59,
+     "2025-07": -8109.0,
+     "2025-08": 13809.57,
+     "2025-09": 5297.46,
+     "2025-10": -5715.32
+    },
+    "h1_jan_may": 74224.27,
+    "h2_jun_oct": 7085.3,
+    "ex_top3": 69994.54,
+    "cut_score": 0.3836,
+    "placebo_pct": 39.0,
+    "legs": {
+     "wr_above_full": false,
+     "total_ge_60pct": true,
+     "no_new_red_month": false,
+     "halves_positive": true,
+     "ex_top3_positive": true,
+     "placebo_ge_95": false
+    },
+    "PASS": false,
+    "failing": [
+     "wr_above_full",
+     "no_new_red_month",
+     "placebo_ge_95"
+    ]
+   },
+   "T60": {
+    "kept": 638,
+    "total": 74898.84,
+    "wr": 43.57,
+    "rs_per_trading_day": 468.12,
+    "red_months": [
+     "2025-01",
+     "2025-07",
+     "2025-10"
+    ],
+    "months": {
+     "2025-01": -1325.87,
+     "2025-02": 20614.32,
+     "2025-03": 1928.65,
+     "2025-04": 45715.65,
+     "2025-05": 6518.38,
+     "2025-06": 1517.79,
+     "2025-07": -7864.92,
+     "2025-08": 10908.34,
+     "2025-09": 3201.86,
+     "2025-10": -6315.36
+    },
+    "h1_jan_may": 73451.13,
+    "h2_jun_oct": 1447.71,
+    "ex_top3": 63583.81,
+    "cut_score": 0.4244,
+    "placebo_pct": 57.5,
+    "legs": {
+     "wr_above_full": false,
+     "total_ge_60pct": true,
+     "no_new_red_month": false,
+     "halves_positive": true,
+     "ex_top3_positive": true,
+     "placebo_ge_95": false
+    },
+    "PASS": false,
+    "failing": [
+     "wr_above_full",
+     "no_new_red_month",
+     "placebo_ge_95"
+    ]
+   },
+   "T50": {
+    "kept": 532,
+    "total": 55188.39,
+    "wr": 43.8,
+    "rs_per_trading_day": 344.93,
+    "red_months": [
+     "2025-01",
+     "2025-03",
+     "2025-07",
+     "2025-10"
+    ],
+    "months": {
+     "2025-01": -1122.5,
+     "2025-02": 14031.78,
+     "2025-03": -1272.89,
+     "2025-04": 34781.1,
+     "2025-05": 6518.38,
+     "2025-06": 1761.67,
+     "2025-07": -7460.18,
+     "2025-08": 11682.58,
+     "2025-09": 3103.81,
+     "2025-10": -6835.36
+    },
+    "h1_jan_may": 52935.87,
+    "h2_jun_oct": 2252.52,
+    "ex_top3": 44450.99,
+    "cut_score": 0.4581,
+    "placebo_pct": 30.5,
+    "legs": {
+     "wr_above_full": false,
+     "total_ge_60pct": false,
+     "no_new_red_month": false,
+     "halves_positive": true,
+     "ex_top3_positive": true,
+     "placebo_ge_95": false
+    },
+    "PASS": false,
+    "failing": [
+     "wr_above_full",
+     "total_ge_60pct",
+     "no_new_red_month",
+     "placebo_ge_95"
+    ]
+   }
+  }
+ },
+ "year_2026": {
+  "coverage_pct": {
+   "S2_lab": 100.0,
+   "S3_raw": 100.0,
+   "S4_raw": 100.0,
+   "S1_raw": 100.0,
+   "S5_raw": 100.0
+  },
+  "full": {
+   "kept": 1363,
+   "total": 247178.79,
+   "wr": 44.75,
+   "rs_per_trading_day": 1365.63,
+   "red_months": [],
+   "months": {
+    "2026-01": 28021.1,
+    "2026-02": 12576.14,
+    "2026-03": 18225.72,
+    "2026-04": 46744.31,
+    "2026-05": 43842.74,
+    "2026-06": 6756.75,
+    "2026-07": 10284.46,
+    "2026-08": 10106.06,
+    "2026-09": 14494.14,
+    "2026-10": 56127.37
+   },
+   "h1_jan_may": 149410.01,
+   "h2_jun_oct": 97768.78,
+   "ex_top3": 228933.24
+  },
+  "levels": {
+   "T70": {
+    "kept": 954,
+    "total": 190757.68,
+    "wr": 43.82,
+    "rs_per_trading_day": 1053.91,
+    "red_months": [],
+    "months": {
+     "2026-01": 17942.67,
+     "2026-02": 16989.21,
+     "2026-03": 17332.68,
+     "2026-04": 34654.49,
+     "2026-05": 26296.82,
+     "2026-06": 7929.76,
+     "2026-07": 13936.53,
+     "2026-08": 10983.35,
+     "2026-09": 4581.97,
+     "2026-10": 40110.2
+    },
+    "h1_jan_may": 113215.87,
+    "h2_jun_oct": 77541.81,
+    "ex_top3": 172918.63,
+    "cut_score": 0.3983,
+    "placebo_pct": 82.0,
+    "legs": {
+     "wr_above_full": false,
+     "total_ge_60pct": true,
+     "no_new_red_month": true,
+     "halves_positive": true,
+     "ex_top3_positive": true,
+     "placebo_ge_95": false
+    },
+    "PASS": false,
+    "failing": [
+     "wr_above_full",
+     "placebo_ge_95"
+    ]
+   },
+   "T60": {
+    "kept": 818,
+    "total": 169248.37,
+    "wr": 44.01,
+    "rs_per_trading_day": 935.07,
+    "red_months": [],
+    "months": {
+     "2026-01": 22147.16,
+     "2026-02": 10059.93,
+     "2026-03": 11898.57,
+     "2026-04": 21889.34,
+     "2026-05": 26405.25,
+     "2026-06": 6481.51,
+     "2026-07": 15236.03,
+     "2026-08": 10576.97,
+     "2026-09": 3159.3,
+     "2026-10": 41394.31
+    },
+    "h1_jan_may": 92400.25,
+    "h2_jun_oct": 76848.12,
+    "ex_top3": 151623.67,
+    "cut_score": 0.4253,
+    "placebo_pct": 86.0,
+    "legs": {
+     "wr_above_full": false,
+     "total_ge_60pct": true,
+     "no_new_red_month": true,
+     "halves_positive": true,
+     "ex_top3_positive": true,
+     "placebo_ge_95": false
+    },
+    "PASS": false,
+    "failing": [
+     "wr_above_full",
+     "placebo_ge_95"
+    ]
+   },
+   "T50": {
+    "kept": 682,
+    "total": 163697.0,
+    "wr": 44.72,
+    "rs_per_trading_day": 904.4,
+    "red_months": [],
+    "months": {
+     "2026-01": 27332.62,
+     "2026-02": 9925.54,
+     "2026-03": 13702.01,
+     "2026-04": 16434.48,
+     "2026-05": 20294.41,
+     "2026-06": 3845.39,
+     "2026-07": 15455.2,
+     "2026-08": 9936.97,
+     "2026-09": 3937.08,
+     "2026-10": 42833.3
+    },
+    "h1_jan_may": 87689.06,
+    "h2_jun_oct": 76007.94,
+    "ex_top3": 146072.3,
+    "cut_score": 0.4566,
+    "placebo_pct": 99.0,
+    "legs": {
+     "wr_above_full": false,
+     "total_ge_60pct": true,
+     "no_new_red_month": true,
+     "halves_positive": true,
+     "ex_top3_positive": true,
+     "placebo_ge_95": true
+    },
+    "PASS": false,
+    "failing": [
+     "wr_above_full"
+    ]
+   }
+  }
+ },
+ "november": {
+  "actual_total": 7517.94,
+  "levels": {
+   "T70": {
+    "cut_score": 0.3983,
+    "filtered_total_unscored_kept": 6794.44,
+    "filtered_total_unscored_excluded": 731.77,
+    "n_kept": 3,
+    "n_idled": 1,
+    "n_unscored": 28,
+    "days": {
+     "2026-11-02": {
+      "actual": 1455.27,
+      "kept": 731.77,
+      "idled": 723.5,
+      "unscored": 0,
+      "n_kept": 3,
+      "n_idled": 1,
+      "n_unscored": 0
+     },
+     "2026-11-03": {
+      "actual": -451.85,
+      "kept": 0,
+      "idled": 0,
+      "unscored": -451.85,
+      "n_kept": 0,
+      "n_idled": 0,
+      "n_unscored": 1
+     },
+     "2026-11-04": {
+      "actual": -420.94,
+      "kept": 0,
+      "idled": 0,
+      "unscored": -420.94,
+      "n_kept": 0,
+      "n_idled": 0,
+      "n_unscored": 6
+     },
+     "2026-11-05": {
+      "actual": -299.28,
+      "kept": 0,
+      "idled": 0,
+      "unscored": -299.28,
+      "n_kept": 0,
+      "n_idled": 0,
+      "n_unscored": 5
+     },
+     "2026-11-06": {
+      "actual": 6577.68,
+      "kept": 0,
+      "idled": 0,
+      "unscored": 6577.68,
+      "n_kept": 0,
+      "n_idled": 0,
+      "n_unscored": 4
+     },
+     "2026-11-09": {
+      "actual": 704.3,
+      "kept": 0,
+      "idled": 0,
+      "unscored": 704.3,
+      "n_kept": 0,
+      "n_idled": 0,
+      "n_unscored": 4
+     },
+     "2026-11-11": {
+      "actual": 826.1,
+      "kept": 0,
+      "idled": 0,
+      "unscored": 826.1,
+      "n_kept": 0,
+      "n_idled": 0,
+      "n_unscored": 2
+     },
+     "2026-11-12": {
+      "actual": -425.54,
+      "kept": 0,
+      "idled": 0,
+      "unscored": -425.54,
+      "n_kept": 0,
+      "n_idled": 0,
+      "n_unscored": 4
+     },
+     "2026-11-13": {
+      "actual": -447.8,
+      "kept": 0,
+      "idled": 0,
+      "unscored": -447.8,
+      "n_kept": 0,
+      "n_idled": 0,
+      "n_unscored": 2
+     }
+    }
+   },
+   "T60": {
+    "cut_score": 0.4253,
+    "filtered_total_unscored_kept": 6329.25,
+    "filtered_total_unscored_excluded": 266.58,
+    "n_kept": 2,
+    "n_idled": 2,
+    "n_unscored": 28,
+    "days": {
+     "2026-11-02": {
+      "actual": 1455.27,
+      "kept": 266.58,
+      "idled": 1188.69,
+      "unscored": 0,
+      "n_kept": 2,
+      "n_idled": 2,
+      "n_unscored": 0
+     },
+     "2026-11-03": {
+      "actual": -451.85,
+      "kept": 0,
+      "idled": 0,
+      "unscored": -451.85,
+      "n_kept": 0,
+      "n_idled": 0,
+      "n_unscored": 1
+     },
+     "2026-11-04": {
+      "actual": -420.94,
+      "kept": 0,
+      "idled": 0,
+      "unscored": -420.94,
+      "n_kept": 0,
+      "n_idled": 0,
+      "n_unscored": 6
+     },
+     "2026-11-05": {
+      "actual": -299.28,
+      "kept": 0,
+      "idled": 0,
+      "unscored": -299.28,
+      "n_kept": 0,
+      "n_idled": 0,
+      "n_unscored": 5
+     },
+     "2026-11-06": {
+      "actual": 6577.68,
+      "kept": 0,
+      "idled": 0,
+      "unscored": 6577.68,
+      "n_kept": 0,
+      "n_idled": 0,
+      "n_unscored": 4
+     },
+     "2026-11-09": {
+      "actual": 704.3,
+      "kept": 0,
+      "idled": 0,
+      "unscored": 704.3,
+      "n_kept": 0,
+      "n_idled": 0,
+      "n_unscored": 4
+     },
+     "2026-11-11": {
+      "actual": 826.1,
+      "kept": 0,
+      "idled": 0,
+      "unscored": 826.1,
+      "n_kept": 0,
+      "n_idled": 0,
+      "n_unscored": 2
+     },
+     "2026-11-12": {
+      "actual": -425.54,
+      "kept": 0,
+      "idled": 0,
+      "unscored": -425.54,
+      "n_kept": 0,
+      "n_idled": 0,
+      "n_unscored": 4
+     },
+     "2026-11-13": {
+      "actual": -447.8,
+      "kept": 0,
+      "idled": 0,
+      "unscored": -447.8,
+      "n_kept": 0,
+      "n_idled": 0,
+      "n_unscored": 2
+     }
+    }
+   },
+   "T50": {
+    "cut_score": 0.4566,
+    "filtered_total_unscored_kept": 6329.25,
+    "filtered_total_unscored_excluded": 266.58,
+    "n_kept": 2,
+    "n_idled": 2,
+    "n_unscored": 28,
+    "days": {
+     "2026-11-02": {
+      "actual": 1455.27,
+      "kept": 266.58,
+      "idled": 1188.69,
+      "unscored": 0,
+      "n_kept": 2,
+      "n_idled": 2,
+      "n_unscored": 0
+     },
+     "2026-11-03": {
+      "actual": -451.85,
+      "kept": 0,
+      "idled": 0,
+      "unscored": -451.85,
+      "n_kept": 0,
+      "n_idled": 0,
+      "n_unscored": 1
+     },
+     "2026-11-04": {
+      "actual": -420.94,
+      "kept": 0,
+      "idled": 0,
+      "unscored": -420.94,
+      "n_kept": 0,
+      "n_idled": 0,
+      "n_unscored": 6
+     },
+     "2026-11-05": {
+      "actual": -299.28,
+      "kept": 0,
+      "idled": 0,
+      "unscored": -299.28,
+      "n_kept": 0,
+      "n_idled": 0,
+      "n_unscored": 5
+     },
+     "2026-11-06": {
+      "actual": 6577.68,
+      "kept": 0,
+      "idled": 0,
+      "unscored": 6577.68,
+      "n_kept": 0,
+      "n_idled": 0,
+      "n_unscored": 4
+     },
+     "2026-11-09": {
+      "actual": 704.3,
+      "kept": 0,
+      "idled": 0,
+      "unscored": 704.3,
+      "n_kept": 0,
+      "n_idled": 0,
+      "n_unscored": 4
+     },
+     "2026-11-11": {
+      "actual": 826.1,
+      "kept": 0,
+      "idled": 0,
+      "unscored": 826.1,
+      "n_kept": 0,
+      "n_idled": 0,
+      "n_unscored": 2
+     },
+     "2026-11-12": {
+      "actual": -425.54,
+      "kept": 0,
+      "idled": 0,
+      "unscored": -425.54,
+      "n_kept": 0,
+      "n_idled": 0,
+      "n_unscored": 4
+     },
+     "2026-11-13": {
+      "actual": -447.8,
+      "kept": 0,
+      "idled": 0,
+      "unscored": -447.8,
+      "n_kept": 0,
+      "n_idled": 0,
+      "n_unscored": 2
+     }
+    }
+   }
+  }
+ },
+ "november_legs": [
+  {
+   "date": "2026-11-02",
+   "comp": "INV-LONG",
+   "stock": "HINDCOPPER",
+   "dir": "LONG",
+   "entry_time": "09:35",
+   "net": 465.19,
+   "score": 0.4054,
+   "missing": []
+  },
+  {
+   "date": "2026-11-02",
+   "comp": "N4-V3",
+   "stock": "NTPC",
+   "dir": "LONG",
+   "entry_time": "09:35",
+   "net": -300.24,
+   "score": 0.4923,
+   "missing": []
+  },
+  {
+   "date": "2026-11-02",
+   "comp": "F4",
+   "stock": "HINDCOPPER",
+   "dir": "LONG",
+   "entry_time": "10:05",
+   "net": 566.82,
+   "score": 0.4634,
+   "missing": []
+  },
+  {
+   "date": "2026-11-02",
+   "comp": "F4",
+   "stock": "HINDZINC",
+   "dir": "LONG",
+   "entry_time": "10:05",
+   "net": 723.5,
+   "score": 0.3877,
+   "missing": []
+  },
+  {
+   "date": "2026-11-03",
+   "comp": "R2-LOWBAND",
+   "stock": "GODREJCP",
+   "dir": "SHORT",
+   "entry_time": "09:15",
+   "net": -451.85,
+   "score": null,
+   "missing": [
+    "S4_prior_day_relative_volume (volume store ends 2026-10-30)"
+   ]
+  },
+  {
+   "date": "2026-11-04",
+   "comp": "P2F",
+   "stock": "ITC",
+   "dir": "LONG",
+   "entry_time": "09:15",
+   "net": 301.12,
+   "score": null,
+   "missing": [
+    "S4_prior_day_relative_volume (volume store ends 2026-10-30)"
+   ]
+  },
+  {
+   "date": "2026-11-04",
+   "comp": "P2F",
+   "stock": "NATIONALUM",
+   "dir": "SHORT",
+   "entry_time": "09:15",
+   "net": -198.77,
+   "score": null,
+   "missing": [
+    "S4_prior_day_relative_volume (volume store ends 2026-10-30)"
+   ]
+  },
+  {
+   "date": "2026-11-04",
+   "comp": "R2-LOWBAND",
+   "stock": "NTPC",
+   "dir": "LONG",
+   "entry_time": "09:15",
+   "net": -200.0,
+   "score": null,
+   "missing": [
+    "S4_prior_day_relative_volume (volume store ends 2026-10-30)"
+   ]
+  },
+  {
+   "date": "2026-11-04",
+   "comp": "INV-ABOVE",
+   "stock": "HINDCOPPER",
+   "dir": "LONG",
+   "entry_time": "09:35",
+   "net": 460.12,
+   "score": null,
+   "missing": [
+    "S4_prior_day_relative_volume (volume store ends 2026-10-30)"
+   ]
+  },
+  {
+   "date": "2026-11-04",
+   "comp": "INV-ABOVE",
+   "stock": "GLENMARK",
+   "dir": "LONG",
+   "entry_time": "10:10",
+   "net": -1249.1,
+   "score": null,
+   "missing": [
+    "S4_prior_day_relative_volume (volume store ends 2026-10-30)"
+   ]
+  },
+  {
+   "date": "2026-11-04",
+   "comp": "INV-ABOVE",
+   "stock": "HINDCOPPER",
+   "dir": "LONG",
+   "entry_time": "10:20",
+   "net": 465.69,
+   "score": null,
+   "missing": [
+    "S4_prior_day_relative_volume (volume store ends 2026-10-30)"
+   ]
+  },
+  {
+   "date": "2026-11-05",
+   "comp": "P2F-R2",
+   "stock": "ITC",
+   "dir": "LONG",
+   "entry_time": "09:15",
+   "net": -181.55,
+   "score": null,
+   "missing": [
+    "S4_prior_day_relative_volume (volume store ends 2026-10-30)"
+   ]
+  },
+  {
+   "date": "2026-11-05",
+   "comp": "P2F-R2",
+   "stock": "NATIONALUM",
+   "dir": "SHORT",
+   "entry_time": "09:15",
+   "net": -204.4,
+   "score": null,
+   "missing": [
+    "S4_prior_day_relative_volume (volume store ends 2026-10-30)"
+   ]
+  },
+  {
+   "date": "2026-11-05",
+   "comp": "N4-V3",
+   "stock": "NHPC",
+   "dir": "LONG",
+   "entry_time": "09:35",
+   "net": -105.03,
+   "score": null,
+   "missing": [
+    "S4_prior_day_relative_volume (volume store ends 2026-10-30)"
+   ]
+  },
+  {
+   "date": "2026-11-05",
+   "comp": "N4-V3",
+   "stock": "PFC",
+   "dir": "LONG",
+   "entry_time": "09:35",
+   "net": 448.77,
+   "score": null,
+   "missing": [
+    "S4_prior_day_relative_volume (volume store ends 2026-10-30)"
+   ]
+  },
+  {
+   "date": "2026-11-05",
+   "comp": "INV-ABOVE",
+   "stock": "HINDCOPPER",
+   "dir": "LONG",
+   "entry_time": "10:25",
+   "net": -257.07,
+   "score": null,
+   "missing": [
+    "S4_prior_day_relative_volume (volume store ends 2026-10-30)"
+   ]
+  },
+  {
+   "date": "2026-11-06",
+   "comp": "P2F",
+   "stock": "NHPC",
+   "dir": "LONG",
+   "entry_time": "09:15",
+   "net": 60.75,
+   "score": null,
+   "missing": [
+    "S4_prior_day_relative_volume (volume store ends 2026-10-30)"
+   ]
+  },
+  {
+   "date": "2026-11-06",
+   "comp": "INV-ABOVE",
+   "stock": "GLENMARK",
+   "dir": "LONG",
+   "entry_time": "09:35",
+   "net": 3068.25,
+   "score": null,
+   "missing": [
+    "S4_prior_day_relative_volume (volume store ends 2026-10-30)"
+   ]
+  },
+  {
+   "date": "2026-11-06",
+   "comp": "INV-ABOVE",
+   "stock": "RECLTD",
+   "dir": "LONG",
+   "entry_time": "09:35",
+   "net": 330.31,
+   "score": null,
+   "missing": [
+    "S4_prior_day_relative_volume (volume store ends 2026-10-30)"
+   ]
+  },
+  {
+   "date": "2026-11-06",
+   "comp": "INV-ABOVE",
+   "stock": "GLENMARK",
+   "dir": "LONG",
+   "entry_time": "09:55",
+   "net": 3118.37,
+   "score": null,
+   "missing": [
+    "S4_prior_day_relative_volume (volume store ends 2026-10-30)"
+   ]
+  },
+  {
+   "date": "2026-11-09",
+   "comp": "P2F-R2",
+   "stock": "GLENMARK",
+   "dir": "LONG",
+   "entry_time": "09:15",
+   "net": 3197.5,
+   "score": null,
+   "missing": [
+    "S4_prior_day_relative_volume (volume store ends 2026-10-30)"
+   ]
+  },
+  {
+   "date": "2026-11-09",
+   "comp": "INV-ABOVE",
+   "stock": "GLENMARK",
+   "dir": "LONG",
+   "entry_time": "09:35",
+   "net": -1369.0,
+   "score": null,
+   "missing": [
+    "S4_prior_day_relative_volume (volume store ends 2026-10-30)"
+   ]
+  },
+  {
+   "date": "2026-11-09",
+   "comp": "N4-V3",
+   "stock": "TATASTEEL",
+   "dir": "SHORT",
+   "entry_time": "09:35",
+   "net": 241.2,
+   "score": null,
+   "missing": [
+    "S4_prior_day_relative_volume (volume store ends 2026-10-30)"
+   ]
+  },
+  {
+   "date": "2026-11-09",
+   "comp": "INV-ABOVE",
+   "stock": "GLENMARK",
+   "dir": "LONG",
+   "entry_time": "09:40",
+   "net": -1365.4,
+   "score": null,
+   "missing": [
+    "S4_prior_day_relative_volume (volume store ends 2026-10-30)"
+   ]
+  },
+  {
+   "date": "2026-11-11",
+   "comp": "P2F",
+   "stock": "TATASTEEL",
+   "dir": "SHORT",
+   "entry_time": "09:15",
+   "net": -133.2,
+   "score": null,
+   "missing": [
+    "S4_prior_day_relative_volume (volume store ends 2026-10-30)"
+   ]
+  },
+  {
+   "date": "2026-11-11",
+   "comp": "N4-V3",
+   "stock": "KALYANKJIL",
+   "dir": "LONG",
+   "entry_time": "09:35",
+   "net": 959.3,
+   "score": null,
+   "missing": [
+    "S4_prior_day_relative_volume (volume store ends 2026-10-30)"
+   ]
+  },
+  {
+   "date": "2026-11-12",
+   "comp": "P2F",
+   "stock": "KALYANKJIL",
+   "dir": "LONG",
+   "entry_time": "09:15",
+   "net": 803.75,
+   "score": null,
+   "missing": [
+    "S4_prior_day_relative_volume (volume store ends 2026-10-30)"
+   ]
+  },
+  {
+   "date": "2026-11-12",
+   "comp": "P2F-R2",
+   "stock": "TATASTEEL",
+   "dir": "SHORT",
+   "entry_time": "09:15",
+   "net": -134.37,
+   "score": null,
+   "missing": [
+    "S4_prior_day_relative_volume (volume store ends 2026-10-30)"
+   ]
+  },
+  {
+   "date": "2026-11-12",
+   "comp": "N4-V3",
+   "stock": "HINDCOPPER",
+   "dir": "LONG",
+   "entry_time": "09:35",
+   "net": -404.32,
+   "score": null,
+   "missing": [
+    "S4_prior_day_relative_volume (volume store ends 2026-10-30)"
+   ]
+  },
+  {
+   "date": "2026-11-12",
+   "comp": "INV-ABOVE",
+   "stock": "ASTRAL",
+   "dir": "LONG",
+   "entry_time": "09:55",
+   "net": -690.6,
+   "score": null,
+   "missing": [
+    "S4_prior_day_relative_volume (volume store ends 2026-10-30)"
+   ]
+  },
+  {
+   "date": "2026-11-13",
+   "comp": "N4-V3",
+   "stock": "IRCTC",
+   "dir": "SHORT",
+   "entry_time": "09:35",
+   "net": 230.0,
+   "score": null,
+   "missing": [
+    "S4_prior_day_relative_volume (volume store ends 2026-10-30)"
+   ]
+  },
+  {
+   "date": "2026-11-13",
+   "comp": "INV-ABOVE",
+   "stock": "ASTRAL",
+   "dir": "LONG",
+   "entry_time": "09:40",
+   "net": -677.8,
+   "score": null,
+   "missing": [
+    "S4_prior_day_relative_volume (volume store ends 2026-10-30)"
+   ]
+  }
+ ],
+ "cuts_2026": {
+  "T70": 0.3983,
+  "T60": 0.4253,
+  "T50": 0.4566
+ }
+}

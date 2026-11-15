@@ -1,0 +1,10 @@
+NIFTY V1: n=141 total=-29635.5 H=(-26522.5,-3113.0) ex3=-63100.5 pace=-2963.55 NC=0 PASS=False legs={'total_pos': False, 'halves_pos': False, 'ex_top3_pos': False, 'beats_reversed': False, 'beats_coin': False, 'beats_shifted': False, 'timing_clean': True, 'nc_ok': True}
+   placebos: rev=7862.35 coin=-5484.75 shift=-27155.1 | NOV n=6 total=-7170.0
+NIFTY V2: n=202 total=-57569.35 H=(-43413.35,-14156.0) ex3=-91034.35 pace=-5756.93 NC=0 PASS=False legs={'total_pos': False, 'halves_pos': False, 'ex_top3_pos': False, 'beats_reversed': False, 'beats_coin': False, 'beats_shifted': False, 'timing_clean': True, 'nc_ok': True}
+   placebos: rev=-32840.75 coin=3825.1 shift=-20370.85 | NOV n=6 total=-7170.0
+NIFTY V3: n=62 total=-28153.85 H=(-16890.85,-11263.0) ex3=-61618.85 pace=-2815.38 NC=0 PASS=False legs={'total_pos': False, 'halves_pos': False, 'ex_top3_pos': False, 'beats_reversed': True, 'beats_coin': False, 'beats_shifted': False, 'timing_clean': True, 'nc_ok': True}
+   placebos: rev=-44173.1 coin=-26074.5 shift=5410.5 | NOV n=0 total=0
+MERGE-N V1: incr 96 legs -41077.6 | merged 61972.65 on 162 TD = 382.55/TD | Nov merged -7813.5 (family Nov legs 6, incr 5)
+MERGE-N V2: incr 136 legs -81734.1 | merged 21316.15 on 202 TD = 105.53/TD | Nov merged -7813.5 (family Nov legs 6, incr 5)
+MERGE-N V3: incr 41 legs -40876.5 | merged 62173.75 on 107 TD = 581.06/TD | Nov merged 3036.5 (family Nov legs 0, incr 0)
+re-sum NIFTY: EXACT for all scored Nifty books | results -> oi_buildup_results.json

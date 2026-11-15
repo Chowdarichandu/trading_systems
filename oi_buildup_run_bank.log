@@ -1,0 +1,11 @@
+BANKNIFTY V1: n=132 total=-21178.5 H=(-11947.0,-9231.5) ex3=-28618.5 pace=-2117.85 NC=0 PASS=False legs={'total_pos': False, 'halves_pos': False, 'ex_top3_pos': False, 'beats_reversed': True, 'beats_coin': True, 'beats_shifted': True, 'timing_clean': True, 'nc_ok': True}
+   placebos: rev=-55719.0 coin=-55596.0 shift=-47962.0 | NOV n=4 total=-2680.0
+BANKNIFTY V2: n=194 total=-39618.5 H=(-12187.0,-27431.5) ex3=-47058.5 pace=-3961.85 NC=0 PASS=False legs={'total_pos': False, 'halves_pos': False, 'ex_top3_pos': False, 'beats_reversed': True, 'beats_coin': False, 'beats_shifted': True, 'timing_clean': True, 'nc_ok': True}
+   placebos: rev=-67236.5 coin=-35136.5 shift=-68882.0 | NOV n=5 total=-200.0
+BANKNIFTY V3: n=66 total=-12720.0 H=(2240.0,-14960.0) ex3=-20160.0 pace=-1272.0 NC=0 PASS=False legs={'total_pos': False, 'halves_pos': False, 'ex_top3_pos': False, 'beats_reversed': True, 'beats_coin': False, 'beats_shifted': True, 'timing_clean': True, 'nc_ok': True}
+   placebos: rev=-14197.5 coin=-4320.0 shift=-21880.0 | NOV n=1 total=2480.0
+Nov13 supplementary: {'signal_date': '2026-11-12', 'source': 'option_chain_archive pre-open bucket 2026-11-13T05:35', 'quadrants': {'CE': 'LONG_BUILDUP', 'PE': 'SHORT_BUILDUP'}, 'directions': {'V1': 'CE', 'V2': 'CE', 'V3': None}, 'spot_open_0920': 61094.55, 'spot_proxy': 'archive 09:15 bucket spot (day open)', 'strike': 61100, 'trade': 'NC — no premium candles'}
+MERGE V1: incr 69 legs -9418.5 | merged 117933.0 on 158 TD = 746.41/TD | Nov merged -1920.0 (family Nov legs 4, incr 2)
+MERGE V2: incr 108 legs -9298.5 | merged 118053.0 on 197 TD = 599.25/TD | Nov merged 560.0 (family Nov legs 5, incr 3)
+MERGE V3: incr 42 legs 3360.0 | merged 130711.5 on 131 TD = 997.8/TD | Nov merged -200.0 (family Nov legs 1, incr 1)
+re-sum: EXACT for all scored Bank books | results -> oi_buildup_results.json

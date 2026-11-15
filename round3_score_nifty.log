@@ -1,0 +1,7 @@
+NIFTY F1: n=87 total=-54110.0 H=(-35619.5,-18490.5) ex3=-87575.0 pace=-5411.0 NC=2 PASS=False legs={'total_pos': False, 'halves_pos': False, 'ex_top3_pos': False, 'beats_reversed': False, 'beats_coin': False, 'beats_shifted': False, 'timing_clean': True, 'nc_ok': True}
+   placebos: rev=-7430.9 coin=-44831.25 shift=-47190.75 | NOV n=6 total=-10420.0
+NIFTY F2: n=204 total=-102772.25 H=(-31479.65,-71292.6) ex3=-136237.25 pace=-10277.23 NC=2 PASS=False legs={'total_pos': False, 'halves_pos': False, 'ex_top3_pos': False, 'beats_reversed': False, 'beats_coin': False, 'beats_shifted': True, 'timing_clean': True, 'nc_ok': True}
+   placebos: rev=8882.15 coin=-52473.95 shift=-105634.85 | NOV n=8 total=-10210.0
+NIFTY Nov13 supplementary: {'signal_date': '2026-11-12', 'spot_open_proxy': 25136.2, 'F1': 'PE', 'F1_trade': 'NC — no premium candles', 'F2': 'CE', 'F2_trade': 'NC — no premium candles'}
+NIFTY MERGE F1: incr 60 legs -64039.75 | merged 39010.5 on 126 TD = 309.61/TD | Nov merged -7383.5 (family Nov legs 6, incr 6)
+NIFTY re-sum: EXACT for all scored books | results -> new_data_round3_nifty_results.json

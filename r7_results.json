@@ -1,0 +1,798 @@
+[
+ {
+  "cycle": "R7-01",
+  "type": "audit",
+  "label": "REXP-SHORT 2026-damage decomposition (R6-10 population rebuilt verbatim, anchor exact)",
+  "note": "R6-10 anchor reproduced exactly (standalone +14,409.54 / -10,286.95; 237 trades; timing violations 0). 2026 Jan-Oct by regime cell: {'DOWN': (86, -8399.33), 'FLAT': (17, -2530.85), 'UP': (21, 643.23)}. 2025 Jan-Oct by cell: {'DOWN': (41, 14870.39), 'FLAT': (9, -2717.22), 'UP': (43, 3861.83)}. 2026 by stock (worst first): TVSMOTOR -5389.25 (3 tr); GODREJCP -3380.55 (6 tr); ASTRAL -3133.2 (4 tr); UNITDSPR -2503.1 (7 tr); KALYANKJIL -1735.87 (10 tr); PFC -1103.73 (8 tr); HINDALCO -1046.9 (2 tr); RECLTD -977.51 (8 tr). Decomposition only \u2014 no candidate scored in this cycle.",
+  "banked": false,
+  "cells_2026_JO": {
+   "DOWN": {
+    "trades": 86,
+    "net": -8399.33
+   },
+   "FLAT": {
+    "trades": 17,
+    "net": -2530.85
+   },
+   "UP": {
+    "trades": 21,
+    "net": 643.23
+   }
+  },
+  "cells_2025_JO": {
+   "DOWN": {
+    "trades": 41,
+    "net": 14870.39
+   },
+   "FLAT": {
+    "trades": 9,
+    "net": -2717.22
+   },
+   "UP": {
+    "trades": 43,
+    "net": 3861.83
+   }
+  },
+  "stocks_2026_JO": {
+   "TVSMOTOR": {
+    "trades": 3,
+    "net": -5389.25
+   },
+   "GODREJCP": {
+    "trades": 6,
+    "net": -3380.55
+   },
+   "ASTRAL": {
+    "trades": 4,
+    "net": -3133.2
+   },
+   "UNITDSPR": {
+    "trades": 7,
+    "net": -2503.1
+   },
+   "KALYANKJIL": {
+    "trades": 10,
+    "net": -1735.87
+   },
+   "PFC": {
+    "trades": 8,
+    "net": -1103.73
+   },
+   "HINDALCO": {
+    "trades": 2,
+    "net": -1046.9
+   },
+   "RECLTD": {
+    "trades": 8,
+    "net": -977.51
+   },
+   "VEDL": {
+    "trades": 3,
+    "net": -575.4
+   },
+   "NTPC": {
+    "trades": 4,
+    "net": -561.15
+   },
+   "INDUSTOWER": {
+    "trades": 2,
+    "net": -491.24
+   },
+   "OIL": {
+    "trades": 8,
+    "net": -479.81
+   },
+   "ITC": {
+    "trades": 6,
+    "net": -477.77
+   },
+   "HINDCOPPER": {
+    "trades": 4,
+    "net": -463.58
+   },
+   "NHPC": {
+    "trades": 5,
+    "net": -129.35
+   },
+   "OBEROIRLTY": {
+    "trades": 3,
+    "net": 135.75
+   },
+   "TATASTEEL": {
+    "trades": 6,
+    "net": 136.06
+   },
+   "WIPRO": {
+    "trades": 7,
+    "net": 319.49
+   },
+   "BDL": {
+    "trades": 3,
+    "net": 374.45
+   },
+   "IRCTC": {
+    "trades": 4,
+    "net": 412.25
+   },
+   "HINDZINC": {
+    "trades": 3,
+    "net": 1030.36
+   },
+   "NATIONALUM": {
+    "trades": 5,
+    "net": 1423.64
+   },
+   "HDFCBANK": {
+    "trades": 4,
+    "net": 2342.18
+   },
+   "HINDUNILVR": {
+    "trades": 4,
+    "net": 2661.98
+   },
+   "GLENMARK": {
+    "trades": 5,
+    "net": 3325.3
+   }
+  }
+ },
+ {
+  "cycle": "R7-02",
+  "label": "REXP-SHORT restricted to DOWN+FLAT regime cells (R6-10 repair: first-hour range >= 2x trailing median, bottom-quartile close, entry 10:20, T125/S050)",
+  "note": "population trades {'2025': 50, '2026': 103}; standalone {'2025': 12153.17, '2026': -10930.18}; timing audit: entry bar (10:20) strictly after the signal bar (10:10) on every row, violations counted = 0; placebos: opposite-direction book 306606.18; one-bar-late book 305994.68. Cell restriction per the R7-01 decomposition; the banked GAP-FADE sleeves are untouched.",
+  "verdict": false,
+  "legs": {
+   "a_combined_rises": true,
+   "b_2025_no_fall": true,
+   "c_2026_no_fall": false,
+   "d_cells_positive": true,
+   "e_extop3": true,
+   "f_no_green_month_flips": true,
+   "flip_detail": [],
+   "g_no_half_flips": true,
+   "h_beats_placebos": true,
+   "i_timing_clean": true,
+   "x_2026_floor_holds": true
+  },
+  "sums": {
+   "base_combined": 306737.52,
+   "variant_combined": 307960.51
+  },
+  "base": {
+   "2025": {
+    "total": 77041.31,
+    "jan_oct": 78420.04,
+    "ex_top3": 23708.1,
+    "trades": 887
+   },
+   "2026": {
+    "total": 229696.21,
+    "jan_oct": 229696.21,
+    "ex_top3": 77473.77,
+    "trades": 969
+   }
+  },
+  "var": {
+   "2025": {
+    "total": 89194.48,
+    "jan_oct": 90573.21,
+    "ex_top3": 35282.9,
+    "trades": 937
+   },
+   "2026": {
+    "total": 218766.03,
+    "jan_oct": 218766.03,
+    "ex_top3": 74930.29,
+    "trades": 1072
+   }
+  },
+  "base_cells": {
+   "2025": {
+    "DOWN": 42941.63,
+    "FLAT": 21250.68,
+    "UP": 12849.0
+   },
+   "2026": {
+    "DOWN": 210264.94,
+    "FLAT": 2909.78,
+    "UP": 16521.49
+   }
+  },
+  "var_cells": {
+   "2025": {
+    "DOWN": 57812.02,
+    "FLAT": 18533.46,
+    "UP": 12849.0
+   },
+   "2026": {
+    "DOWN": 201865.61,
+    "FLAT": 378.93,
+    "UP": 16521.49
+   }
+  },
+  "banked": false,
+  "standalone": {
+   "2025": 12153.17,
+   "2026": -10930.18
+  },
+  "population_trades": {
+   "2025": 50,
+   "2026": 103
+  }
+ },
+ {
+  "cycle": "R7-03",
+  "label": "REXP-SHORT restricted to DOWN regime cells only (R6-10 repair, narrower form)",
+  "note": "population trades {'2025': 41, '2026': 86}; standalone {'2025': 14870.39, '2026': -8399.33}; timing audit: entry bar (10:20) strictly after the signal bar (10:10) on every row, violations counted = 0; placebos: opposite-direction book 298669.21; one-bar-late book 307990.4. Gated as a swap of the REXP-SHORT comp if R7-02 banked, else as an addition.",
+  "verdict": false,
+  "legs": {
+   "a_combined_rises": true,
+   "b_2025_no_fall": true,
+   "c_2026_no_fall": false,
+   "d_cells_positive": true,
+   "e_extop3": true,
+   "f_no_green_month_flips": true,
+   "flip_detail": [],
+   "g_no_half_flips": true,
+   "h_beats_placebos": true,
+   "i_timing_clean": true,
+   "x_2026_floor_holds": true
+  },
+  "sums": {
+   "base_combined": 306737.52,
+   "variant_combined": 313208.58
+  },
+  "base": {
+   "2025": {
+    "total": 77041.31,
+    "jan_oct": 78420.04,
+    "ex_top3": 23708.1,
+    "trades": 887
+   },
+   "2026": {
+    "total": 229696.21,
+    "jan_oct": 229696.21,
+    "ex_top3": 77473.77,
+    "trades": 969
+   }
+  },
+  "var": {
+   "2025": {
+    "total": 91911.7,
+    "jan_oct": 93290.43,
+    "ex_top3": 38000.12,
+    "trades": 928
+   },
+   "2026": {
+    "total": 221296.88,
+    "jan_oct": 221296.88,
+    "ex_top3": 75718.04,
+    "trades": 1055
+   }
+  },
+  "base_cells": {
+   "2025": {
+    "DOWN": 42941.63,
+    "FLAT": 21250.68,
+    "UP": 12849.0
+   },
+   "2026": {
+    "DOWN": 210264.94,
+    "FLAT": 2909.78,
+    "UP": 16521.49
+   }
+  },
+  "var_cells": {
+   "2025": {
+    "DOWN": 57812.02,
+    "FLAT": 21250.68,
+    "UP": 12849.0
+   },
+   "2026": {
+    "DOWN": 201865.61,
+    "FLAT": 2909.78,
+    "UP": 16521.49
+   }
+  },
+  "banked": false,
+  "standalone": {
+   "2025": 14870.39,
+   "2026": -8399.33
+  },
+  "population_trades": {
+   "2025": 41,
+   "2026": 86
+  }
+ },
+ {
+  "cycle": "R7-04",
+  "label": "NE-REV AFTERNOON (non-event reversal, signal 13:25 close <= -2.00%, entry 13:35, T100/S065)",
+  "note": "population trades {'2025': 462, '2026': 501}; standalone {'2025': -37819.07, '2026': 10059.27}; certified population stock-days 11958, signal days 963; timing audit: entry bar (13:35) strictly after the signal bar (13:25) on every row, violations counted = 0; placebos: opposite-direction book 279630.02; one-bar-late book 277164.58",
+  "verdict": false,
+  "legs": {
+   "a_combined_rises": false,
+   "b_2025_no_fall": false,
+   "c_2026_no_fall": true,
+   "d_cells_positive": false,
+   "e_extop3": false,
+   "f_no_green_month_flips": false,
+   "flip_detail": [
+    "2025-01:2200.31->-10815.16",
+    "2025-05:2498.99->-5088.98"
+   ],
+   "g_no_half_flips": false,
+   "h_beats_placebos": false,
+   "i_timing_clean": true,
+   "x_2026_floor_holds": true
+  },
+  "sums": {
+   "base_combined": 306737.52,
+   "variant_combined": 278977.72
+  },
+  "base": {
+   "2025": {
+    "total": 77041.31,
+    "jan_oct": 78420.04,
+    "ex_top3": 23708.1,
+    "trades": 887
+   },
+   "2026": {
+    "total": 229696.21,
+    "jan_oct": 229696.21,
+    "ex_top3": 77473.77,
+    "trades": 969
+   }
+  },
+  "var": {
+   "2025": {
+    "total": 39222.24,
+    "jan_oct": 44183.07,
+    "ex_top3": -7769.24,
+    "trades": 1349
+   },
+   "2026": {
+    "total": 239755.48,
+    "jan_oct": 239755.48,
+    "ex_top3": 47609.3,
+    "trades": 1470
+   }
+  },
+  "base_cells": {
+   "2025": {
+    "DOWN": 42941.63,
+    "FLAT": 21250.68,
+    "UP": 12849.0
+   },
+   "2026": {
+    "DOWN": 210264.94,
+    "FLAT": 2909.78,
+    "UP": 16521.49
+   }
+  },
+  "var_cells": {
+   "2025": {
+    "DOWN": 27551.86,
+    "FLAT": 23312.29,
+    "UP": -11641.91
+   },
+   "2026": {
+    "DOWN": 216237.3,
+    "FLAT": 1589.91,
+    "UP": 21928.27
+   }
+  },
+  "banked": false,
+  "standalone": {
+   "2025": -37819.07,
+   "2026": 10059.27
+  },
+  "population_trades": {
+   "2025": 462,
+   "2026": 501
+  },
+  "signal_days": 963
+ },
+ {
+  "cycle": "R7-05",
+  "label": "TWO-DAY DISLOCATION REVERSAL (2-session fall >= 3.00%, certified non-event sessions, entry 09:20, T125/S050)",
+  "note": "population trades {'2025': 498, '2026': 479}; standalone {'2025': -62345.49, '2026': -43694.93}; signal days 1189, skipped for a missing 09:20 bar 212; timing audit: the signal uses only closes of sessions strictly before the trade day and every entry is at the 09:20 bar, violations counted = 0; placebos: opposite-direction book 308470.54; one-bar-late book 253421.55",
+  "verdict": false,
+  "legs": {
+   "a_combined_rises": false,
+   "b_2025_no_fall": false,
+   "c_2026_no_fall": false,
+   "d_cells_positive": false,
+   "e_extop3": false,
+   "f_no_green_month_flips": false,
+   "flip_detail": [
+    "2025-01:2200.31->-10698.77",
+    "2025-12:1207.95->-1227.6",
+    "2026-06:5677.99->-7476.36",
+    "2026-09:15499.6->-1674.19"
+   ],
+   "g_no_half_flips": false,
+   "h_beats_placebos": false,
+   "i_timing_clean": true,
+   "x_2026_floor_holds": true
+  },
+  "sums": {
+   "base_combined": 306737.52,
+   "variant_combined": 200697.1
+  },
+  "base": {
+   "2025": {
+    "total": 77041.31,
+    "jan_oct": 78420.04,
+    "ex_top3": 23708.1,
+    "trades": 887
+   },
+   "2026": {
+    "total": 229696.21,
+    "jan_oct": 229696.21,
+    "ex_top3": 77473.77,
+    "trades": 969
+   }
+  },
+  "var": {
+   "2025": {
+    "total": 14695.82,
+    "jan_oct": 25051.87,
+    "ex_top3": -22677.33,
+    "trades": 1385
+   },
+   "2026": {
+    "total": 186001.28,
+    "jan_oct": 186001.28,
+    "ex_top3": 26049.88,
+    "trades": 1448
+   }
+  },
+  "base_cells": {
+   "2025": {
+    "DOWN": 42941.63,
+    "FLAT": 21250.68,
+    "UP": 12849.0
+   },
+   "2026": {
+    "DOWN": 210264.94,
+    "FLAT": 2909.78,
+    "UP": 16521.49
+   }
+  },
+  "var_cells": {
+   "2025": {
+    "DOWN": -4432.99,
+    "FLAT": 27333.16,
+    "UP": -8204.35
+   },
+   "2026": {
+    "DOWN": 179067.41,
+    "FLAT": -6617.92,
+    "UP": 13551.79
+   }
+  },
+  "banked": false,
+  "standalone": {
+   "2025": -62345.49,
+   "2026": -43694.93
+  },
+  "population_trades": {
+   "2025": 498,
+   "2026": 479
+  },
+  "signal_days": 1189,
+  "skipped_no_0920": 212
+ },
+ {
+  "cycle": "R7-06",
+  "label": "QUIET-NAME NE-REV (morning NE-REV on the certified population, names with trailing-20-session median daily range% strictly below the day's watchlist median)",
+  "note": "population trades {'2025': 77, '2026': 119}; standalone {'2025': 4492.57, '2026': 12167.1}. Anchors first: R5-07 reproduced exactly (+12,209.45 / +24,306.56; 303/388 rows). Certified-population morning NE-REV standalone {2025: 14105.64, 2026: 24112.86} on 661 rows \u2014 the R6-11 strengthening removed 30 population rows [('2025-01-27', 'TATASTEEL'), ('2025-01-28', 'HINDZINC'), ('2025-02-07', 'OIL'), ('2025-02-10', 'NATIONALUM'), ('2025-02-11', 'IRCTC'), ('2025-02-12', 'PFC'), ('2025-02-14', 'GLENMARK'), ('2025-04-25', 'HINDZINC'), ('2025-05-28', 'ITC'), ('2025-08-12', 'BDL'), ('2025-09-05', 'ITC'), ('2025-11-06', 'NHPC'), ('2026-01-01', 'ITC'), ('2026-01-02', 'ITC'), ('2026-01-05', 'OIL'), ('2026-01-30', 'NATIONALUM'), ('2026-02-05', 'HINDCOPPER'), ('2026-02-06', 'KALYANKJIL'), ('2026-03-04', 'GLENMARK'), ('2026-04-30', 'NATIONALUM'), ('2026-05-15', 'HINDCOPPER'), ('2026-05-18', 'ASTRAL'), ('2026-05-27', 'ITC'), ('2026-06-19', 'HDFCBANK'), ('2026-07-22', 'GLENMARK'), ('2026-07-28', 'HINDUNILVR'), ('2026-08-31', 'TATASTEEL'), ('2026-10-08', 'ITC'), ('2026-10-28', 'HINDUNILVR'), ('2026-10-28', 'INDUSTOWER')]. Quiet filter rejected 465 of 661 signal days. Timing audit: entry bar (10:35) strictly after the signal bar (10:25) on every row, violations counted = 0; quiet characteristic uses trailing daily bars strictly before the trade day. Placebos: opposite-direction book 281071.17; one-bar-late book 304046.47",
+  "verdict": false,
+  "legs": {
+   "a_combined_rises": true,
+   "b_2025_no_fall": true,
+   "c_2026_no_fall": true,
+   "d_cells_positive": true,
+   "e_extop3": false,
+   "f_no_green_month_flips": false,
+   "flip_detail": [
+    "2025-01:2200.31->-1790.6"
+   ],
+   "g_no_half_flips": true,
+   "h_beats_placebos": true,
+   "i_timing_clean": true,
+   "x_2026_floor_holds": true
+  },
+  "sums": {
+   "base_combined": 306737.52,
+   "variant_combined": 323397.19
+  },
+  "base": {
+   "2025": {
+    "total": 77041.31,
+    "jan_oct": 78420.04,
+    "ex_top3": 23708.1,
+    "trades": 887
+   },
+   "2026": {
+    "total": 229696.21,
+    "jan_oct": 229696.21,
+    "ex_top3": 77473.77,
+    "trades": 969
+   }
+  },
+  "var": {
+   "2025": {
+    "total": 81533.88,
+    "jan_oct": 82466.59,
+    "ex_top3": 22640.6,
+    "trades": 964
+   },
+   "2026": {
+    "total": 241863.31,
+    "jan_oct": 241863.31,
+    "ex_top3": 66393.24,
+    "trades": 1088
+   }
+  },
+  "base_cells": {
+   "2025": {
+    "DOWN": 42941.63,
+    "FLAT": 21250.68,
+    "UP": 12849.0
+   },
+   "2026": {
+    "DOWN": 210264.94,
+    "FLAT": 2909.78,
+    "UP": 16521.49
+   }
+  },
+  "var_cells": {
+   "2025": {
+    "DOWN": 40152.29,
+    "FLAT": 25124.92,
+    "UP": 16256.67
+   },
+   "2026": {
+    "DOWN": 224325.82,
+    "FLAT": 4801.04,
+    "UP": 12736.45
+   }
+  },
+  "banked": false,
+  "standalone": {
+   "2025": 4492.57,
+   "2026": 12167.1
+  },
+  "population_trades": {
+   "2025": 77,
+   "2026": 119
+  },
+  "certified_population_standalone": {
+   "2025": 14105.64,
+   "2026": 24112.86
+  },
+  "removed_population_rows": [
+   [
+    "2025-01-27",
+    "TATASTEEL"
+   ],
+   [
+    "2025-01-28",
+    "HINDZINC"
+   ],
+   [
+    "2025-02-07",
+    "OIL"
+   ],
+   [
+    "2025-02-10",
+    "NATIONALUM"
+   ],
+   [
+    "2025-02-11",
+    "IRCTC"
+   ],
+   [
+    "2025-02-12",
+    "PFC"
+   ],
+   [
+    "2025-02-14",
+    "GLENMARK"
+   ],
+   [
+    "2025-04-25",
+    "HINDZINC"
+   ],
+   [
+    "2025-05-28",
+    "ITC"
+   ],
+   [
+    "2025-08-12",
+    "BDL"
+   ],
+   [
+    "2025-09-05",
+    "ITC"
+   ],
+   [
+    "2025-11-06",
+    "NHPC"
+   ],
+   [
+    "2026-01-01",
+    "ITC"
+   ],
+   [
+    "2026-01-02",
+    "ITC"
+   ],
+   [
+    "2026-01-05",
+    "OIL"
+   ],
+   [
+    "2026-01-30",
+    "NATIONALUM"
+   ],
+   [
+    "2026-02-05",
+    "HINDCOPPER"
+   ],
+   [
+    "2026-02-06",
+    "KALYANKJIL"
+   ],
+   [
+    "2026-03-04",
+    "GLENMARK"
+   ],
+   [
+    "2026-04-30",
+    "NATIONALUM"
+   ],
+   [
+    "2026-05-15",
+    "HINDCOPPER"
+   ],
+   [
+    "2026-05-18",
+    "ASTRAL"
+   ],
+   [
+    "2026-05-27",
+    "ITC"
+   ],
+   [
+    "2026-06-19",
+    "HDFCBANK"
+   ],
+   [
+    "2026-07-22",
+    "GLENMARK"
+   ],
+   [
+    "2026-07-28",
+    "HINDUNILVR"
+   ],
+   [
+    "2026-08-31",
+    "TATASTEEL"
+   ],
+   [
+    "2026-10-08",
+    "ITC"
+   ],
+   [
+    "2026-10-28",
+    "HINDUNILVR"
+   ],
+   [
+    "2026-10-28",
+    "INDUSTOWER"
+   ]
+  ],
+  "quiet_rejected": 465,
+  "signal_days": 661
+ },
+ {
+  "cycle": "R7-07",
+  "type": "audit",
+  "label": "WS5 combinations of Round-7 bankings \u2014 closes by statement",
+  "note": "Round 7 banked ZERO candidates (R7-02 and R7-03 rejected on leg (c) alone; R7-04 on seven legs; R7-05 on eight legs; R7-06 on legs (e) and (f)). With no bankings there is no combination to re-gate. Closes by statement, per the pre-registration.",
+  "banked": false
+ },
+ {
+  "cycle": "R7-08",
+  "label": "DECISION SUPPORT: R5-07 repriced on the CERTIFIED population (morning NE-REV, R6-11-strengthened non-event set) \u2014 NOT a banking",
+  "note": "the R5-07 flag rebuilt on the certified population (843 stock-days excluded vs the R5 set's 539; 30 of R5-07's 691 population rows removed, and the certified standalone is HIGHER in 2025: +14,105.64 vs +12,209.45 \u2014 the removed rows were net losers in the weak year). Adoption on the ending book -> 2025 JO 92537.28, 2026 JO 253809.07 (JO deltas 14117.24 / 24112.86); failing legs: ['e_extop3', 'f_no_green_month_flips']. Timing violations 0. Recorded with force_no_bank \u2014 adoption is Chandu's, exactly as for the R5-population flag.",
+  "verdict": false,
+  "legs": {
+   "a_combined_rises": true,
+   "b_2025_no_fall": true,
+   "c_2026_no_fall": true,
+   "d_cells_positive": true,
+   "e_extop3": false,
+   "f_no_green_month_flips": false,
+   "flip_detail": [
+    "2025-01:2200.31->-750.61",
+    "2025-12:1207.95->-632.67"
+   ],
+   "g_no_half_flips": true,
+   "h_beats_placebos": true,
+   "i_timing_clean": true,
+   "x_2026_floor_holds": true
+  },
+  "sums": {
+   "base_combined": 306737.52,
+   "variant_combined": 344956.02
+  },
+  "base": {
+   "2025": {
+    "total": 77041.31,
+    "jan_oct": 78420.04,
+    "ex_top3": 23708.1,
+    "trades": 887
+   },
+   "2026": {
+    "total": 229696.21,
+    "jan_oct": 229696.21,
+    "ex_top3": 77473.77,
+    "trades": 969
+   }
+  },
+  "var": {
+   "2025": {
+    "total": 91146.95,
+    "jan_oct": 92537.28,
+    "ex_top3": 23299.64,
+    "trades": 1178
+   },
+   "2026": {
+    "total": 253809.07,
+    "jan_oct": 253809.07,
+    "ex_top3": 68279.58,
+    "trades": 1339
+   }
+  },
+  "base_cells": {
+   "2025": {
+    "DOWN": 42941.63,
+    "FLAT": 21250.68,
+    "UP": 12849.0
+   },
+   "2026": {
+    "DOWN": 210264.94,
+    "FLAT": 2909.78,
+    "UP": 16521.49
+   }
+  },
+  "var_cells": {
+   "2025": {
+    "DOWN": 38371.05,
+    "FLAT": 27729.89,
+    "UP": 25046.01
+   },
+   "2026": {
+    "DOWN": 236751.41,
+    "FLAT": 6518.89,
+    "UP": 10538.77
+   }
+  },
+  "banked": false,
+  "jo_deltas": {
+   "2025": 14117.24,
+   "2026": 24112.86
+  },
+  "adoption_jo": {
+   "2025": 92537.28,
+   "2026": 253809.07
+  },
+  "failed_legs": [
+   "e_extop3",
+   "f_no_green_month_flips"
+  ]
+ }
+]

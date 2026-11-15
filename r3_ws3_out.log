@@ -1,0 +1,11 @@
+extra ctx: agg check 1875 bars, 0 mismatches; added {'2026-10-29': 25, '2026-10-30': 25}
+nifty daily extended: last={'date': '2026-10-30', 'high': 23053.1, 'low': 23053.1, 'close': 23053.1}
+regime spot-checks pass (2025-01-02, 2025-03-17, 2025-06-02, 2026-10-30); below50 on 2025-01-02: True | first 2025 day with computable ma50: 2025-01-01
+anchors OK: cached pops + current law == book F4 / INV-LONG / INV-ABOVE
+F4 std anchor OK (1090 raw rows); audit violations 0
+INV std chain anchor OK (15453 rows)
+[R3-03] F4 15-min execution (entries deferred to next quarter-hour bar open; meas @10:00, band [0.5,1.0), T150/S095 frozen): REJECTED | 2025 JO 56336.3 -> 56564.96 | 2026 JO 221801.13 -> 188799.78 | combined 276758.7 -> 243986.01
+    failed legs: ['a_combined_rises', 'c_2026_no_fall', 'e_extop3', 'h_beats_placebos']; flips: []
+[R3-04] INV 15-min execution (chain entries deferred to next quarter-hour bar open; INV-LONG r<=3 <11:00, INV-ABOVE r<=2 <10:30, law frozen): REJECTED | 2025 JO 56336.3 -> 45304.57 | 2026 JO 221801.13 -> 208306.48 | combined 276758.7 -> 253414.44
+    failed legs: ['a_combined_rises', 'b_2025_no_fall', 'c_2026_no_fall', 'd_cells_positive', 'e_extop3', 'f_no_green_month_flips', 'h_beats_placebos']; flips: ['2025-01:5997.81->-1957.45', '2025-03:1091.17->-894.78']
+WS3 done. Incumbent Jan-Oct: {2025: 56336.3, 2026: 221801.13}

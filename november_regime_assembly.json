@@ -1,0 +1,117 @@
+{
+ "regime_rev_merge": {
+  "increment_legs": 15,
+  "increment_total": -2808.0,
+  "merged": {
+   "total": 124543.5,
+   "green": 65,
+   "red": 39,
+   "no_trade": 101
+  }
+ },
+ "regime_rev_h1_legs": 18,
+ "regime_rev_h2_legs": 13,
+ "regime_rev_resum": 15872.0,
+ "ioi1_increment": {
+  "legs": 86,
+  "total": -59681.0,
+  "merged": {
+   "total": 67670.5,
+   "green": 82,
+   "red": 93,
+   "no_trade": 30
+  }
+ },
+ "ioi1_day_counts": {
+  "green": 44,
+  "red": 99,
+  "trade_days": 143
+ },
+ "ioi2_day_counts": {
+  "green": 7,
+  "red": 14,
+  "trade_days": 21
+ },
+ "nov_ioi1": {
+  "increment_total": 5720.0,
+  "merged": {
+   "total": 3040.0,
+   "green": 4,
+   "red": 4,
+   "no_trade": 1,
+   "days": {
+    "2026-11-02": 2480.0,
+    "2026-11-03": -1720.0,
+    "2026-11-04": 2480.0,
+    "2026-11-05": 2480.0,
+    "2026-11-06": 2480.0,
+    "2026-11-09": -1720.0,
+    "2026-11-11": 0.0,
+    "2026-11-12": -1720.0,
+    "2026-11-13": -1720.0
+   }
+  }
+ },
+ "nov_regime_rev": {
+  "increment_total": 2141.0,
+  "merged": {
+   "total": -539.0,
+   "green": 3,
+   "red": 5,
+   "no_trade": 1,
+   "days": {
+    "2026-11-02": 2480.0,
+    "2026-11-03": -1099.0,
+    "2026-11-04": 2480.0,
+    "2026-11-05": 2480.0,
+    "2026-11-06": 0.0,
+    "2026-11-09": -1720.0,
+    "2026-11-11": -1720.0,
+    "2026-11-12": -1720.0,
+    "2026-11-13": -1720.0
+   }
+  },
+  "legs": [
+   {
+    "date": "2026-11-02",
+    "side": "PE",
+    "strike": 54900,
+    "conf_time": "11:00",
+    "entry": 688.35,
+    "exit": 778.35,
+    "exit_reason": "target",
+    "net": 2480.0
+   },
+   {
+    "date": "2026-11-03",
+    "side": "PE",
+    "strike": 55300,
+    "conf_time": "14:50",
+    "entry": 677.2,
+    "exit": 647.9,
+    "exit_reason": "square_off",
+    "net": -1099.0
+   },
+   {
+    "date": "2026-11-05",
+    "side": "CE",
+    "strike": 57100,
+    "conf_time": "11:00",
+    "entry": 709.5,
+    "exit": 799.5,
+    "exit_reason": "target",
+    "net": 2480.0
+   },
+   {
+    "date": "2026-11-11",
+    "side": "PE",
+    "strike": 60700,
+    "conf_time": "13:30",
+    "entry": 822.0,
+    "exit": 772.0,
+    "exit_reason": "stop",
+    "net": -1720.0
+   }
+  ]
+ }
+}

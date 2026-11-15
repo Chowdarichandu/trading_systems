@@ -1,0 +1,555 @@
+{
+ "run": "november_books_fix_2026-11-14",
+ "owner_order": "2026-11-14 ~07:51 IST \u2014 November books mostly red, fix ordered under free hands; settlement untouched clause superseded for the PAPER run only; real money Rs0",
+ "basis": "option premiums per 1 lot (Bank 30 / Nifty 65), Rs220/trade inside stored nets, buying only, paper",
+ "phase1_anatomy": {
+  "book_totals": {
+   "BANK_STACK": {
+    "legs": 111,
+    "total": 127351.5
+   },
+   "BANK_LEGACY": {
+    "legs": 99,
+    "total": 83650.5
+   },
+   "NIFTY_TUNED_V1": {
+    "legs": 74,
+    "total": 103050.25
+   },
+   "NIFTY_DECS1": {
+    "legs": 97,
+    "total": 91168.5
+   }
+  },
+  "full_cross_losing_cells": {
+   "BANK_STACK": {},
+   "BANK_LEGACY": {},
+   "NIFTY_TUNED_V1": {},
+   "NIFTY_DECS1": {}
+  },
+  "parallel_stack_plus_regimerev_janoct": {
+   "stack": {
+    "total": 127351.5,
+    "green": 60,
+    "red": 29,
+    "no_trade": 114
+   },
+   "regime_rev": {
+    "total": 15872.0,
+    "green": 16,
+    "red": 15,
+    "no_trade": 172
+   },
+   "combined": {
+    "total": 143223.5,
+    "green": 71,
+    "red": 33,
+    "no_trade": 99
+   }
+  },
+  "parallel_november": {
+   "stack": {
+    "total": -2680.0,
+    "green": 1,
+    "red": 3,
+    "no_trade": 5
+   },
+   "regime_rev": {
+    "total": 2141.0,
+    "green": 2,
+    "red": 2,
+    "no_trade": 5
+   },
+   "combined": {
+    "total": -539.0,
+    "green": 3,
+    "red": 5,
+    "no_trade": 1
+   }
+  },
+  "parallel_november_days": {
+   "2026-11-02": {
+    "stack": 0.0,
+    "regime_rev": 2480.0,
+    "combined": 2480.0
+   },
+   "2026-11-03": {
+    "stack": 0.0,
+    "regime_rev": -1099.0,
+    "combined": -1099.0
+   },
+   "2026-11-04": {
+    "stack": 2480.0,
+    "regime_rev": 0.0,
+    "combined": 2480.0
+   },
+   "2026-11-05": {
+    "stack": 0.0,
+    "regime_rev": 2480.0,
+    "combined": 2480.0
+   },
+   "2026-11-06": {
+    "stack": 0.0,
+    "regime_rev": 0.0,
+    "combined": 0.0
+   },
+   "2026-11-09": {
+    "stack": -1720.0,
+    "regime_rev": 0.0,
+    "combined": -1720.0
+   },
+   "2026-11-11": {
+    "stack": 0.0,
+    "regime_rev": -1720.0,
+    "combined": -1720.0
+   },
+   "2026-11-12": {
+    "stack": -1720.0,
+    "regime_rev": 0.0,
+    "combined": -1720.0
+   },
+   "2026-11-13": {
+    "stack": -1720.0,
+    "regime_rev": 0.0,
+    "combined": -1720.0
+   }
+  }
+ },
+ "phase2_gates": {
+  "bank": {
+   "label": "B-FIX-1",
+   "book": "BANK_STACK",
+   "standing_total": 127351.5,
+   "cell_legs": 17,
+   "cell_net": -4158.5,
+   "cell_detail": [
+    {
+     "date": "2026-02-27",
+     "side": "PE",
+     "family": "BASE",
+     "rep": "(lA) v2",
+     "entry_time": "09:55",
+     "entry_premium": 728.45,
+     "gap_pct": -0.06473312928622177,
+     "net": -1720.0
+    },
+    {
+     "date": "2026-02-27",
+     "side": "PE",
+     "family": "EVE06_REENTRY",
+     "rep": "EVE06a",
+     "entry_time": "15:05",
+     "entry_premium": 679.7,
+     "gap_pct": -0.06473312928622177,
+     "net": -118.0
+    },
+    {
+     "date": "2026-03-27",
+     "side": "PE",
+     "family": "NS3_gapclass",
+     "rep": "NS3_NS3-GD",
+     "entry_time": "09:35",
+     "entry_premium": 623.35,
+     "gap_pct": -0.8301367388123794,
+     "net": -1720.0
+    },
+    {
+     "date": "2026-03-27",
+     "side": "PE",
+     "family": "EVE06_REENTRY",
+     "rep": "EVE06a",
+     "entry_time": "14:25",
+     "entry_premium": 534.0,
+     "gap_pct": -0.8301367388123794,
+     "net": 2480.0
+    },
+    {
+     "date": "2026-05-18",
+     "side": "PE",
+     "family": "BASE",
+     "rep": "V5 v2",
+     "entry_time": "09:50",
+     "entry_premium": 753.85,
+     "gap_pct": -0.9299527911599196,
+     "net": -1720.0
+    },
+    {
+     "date": "2026-07-08",
+     "side": "PE",
+     "family": "NS3_gapclass",
+     "rep": "NS3_NS3-GD",
+     "entry_time": "09:35",
+     "entry_premium": 699.9,
+     "gap_pct": -0.37198221365970296,
+     "net": -1720.0
+    },
+    {
+     "date": "2026-07-08",
+     "side": "PE",
+     "family": "EVE06_REENTRY",
+     "rep": "EVE06a",
+     "entry_time": "13:50",
+     "entry_premium": 692.5,
+     "gap_pct": -0.37198221365970296,
+     "net": 2480.0
+    },
+    {
+     "date": "2026-07-30",
+     "side": "PE",
+     "family": "BASE",
+     "rep": "V5 v2",
+     "entry_time": "09:40",
+     "entry_premium": 797.95,
+     "gap_pct": -0.11635917305432013,
+     "net": -1720.0
+    },
+    {
+     "date": "2026-08-04",
+     "side": "PE",
+     "family": "BASE",
+     "rep": "Skill V3",
+     "entry_time": "11:35",
+     "entry_premium": 629.95,
+     "gap_pct": -0.30730695243351913,
+     "net": 2480.0
+    },
+    {
+     "date": "2026-08-07",
+     "side": "PE",
+     "family": "BASE",
+     "rep": "Skill V3",
+     "entry_time": "11:05",
+     "entry_premium": 571.4,
+     "gap_pct": -0.31284633329114075,
+     "net": -1720.0
+    },
+    {
+     "date": "2026-08-07",
+     "side": "PE",
+     "family": "EVE06_REENTRY",
+     "rep": "EVE06a",
+     "entry_time": "14:55",
+     "entry_premium": 527.1,
+     "gap_pct": -0.31284633329114075,
+     "net": -1267.0
+    },
+    {
+     "date": "2026-09-01",
+     "side": "PE",
+     "family": "NS1_second",
+     "rep": "NS1_second",
+     "entry_time": "13:50",
+     "entry_premium": 581.05,
+     "gap_pct": -0.8007762178166362,
+     "net": 306.5
+    },
+    {
+     "date": "2026-09-30",
+     "side": "PE",
+     "family": "S3-R1",
+     "rep": "S3-R1",
+     "entry_time": "09:50",
+     "entry_premium": 713.85,
+     "gap_pct": -0.1549024648935276,
+     "net": -1720.0
+    },
+    {
+     "date": "2026-10-07",
+     "side": "PE",
+     "family": "BASE",
+     "rep": "(lA) v2",
+     "entry_time": "09:40",
+     "entry_premium": 736.9,
+     "gap_pct": -0.2896873480819403,
+     "net": -1720.0
+    },
+    {
+     "date": "2026-10-08",
+     "side": "PE",
+     "family": "BASE",
+     "rep": "Skill V3",
+     "entry_time": "11:30",
+     "entry_premium": 717.65,
+     "gap_pct": -0.022976793438629628,
+     "net": -1720.0
+    },
+    {
+     "date": "2026-10-08",
+     "side": "PE",
+     "family": "EVE06_REENTRY",
+     "rep": "EVE06a",
+     "entry_time": "13:00",
+     "entry_premium": 690.4,
+     "gap_pct": -0.022976793438629628,
+     "net": 2480.0
+    },
+    {
+     "date": "2026-10-13",
+     "side": "PE",
+     "family": "S3-R1",
+     "rep": "S3-R1",
+     "entry_time": "10:40",
+     "entry_premium": 547.35,
+     "gap_pct": -0.01902836956917056,
+     "net": 2480.0
+    }
+   ],
+   "repaired_total": 131510.0,
+   "leg_i_pass": true,
+   "leg_i_floor": 114616.35,
+   "leg_ii_cell_after": 0.0,
+   "leg_ii_pass": true,
+   "placebo_p95": 124715.98,
+   "placebo_beaten": 200,
+   "leg_iii_pass": true,
+   "halves": {
+    "H1": 85880.0,
+    "H2": 45630.0
+   },
+   "leg_iv_pass": true,
+   "verdict": "PASS",
+   "november": {
+    "actual_total": -2680.0,
+    "actual_counts": [
+     1,
+     3,
+     5
+    ],
+    "repaired_total": -3440.0,
+    "repaired_counts": [
+     0,
+     2,
+     7
+    ],
+    "stood_down": [
+     {
+      "date": "2026-11-04",
+      "side": "PE",
+      "net": 2480.0,
+      "entry_premium": 715.3,
+      "gap_pct": -0.09893761348793234
+     },
+     {
+      "date": "2026-11-13",
+      "side": "PE",
+      "net": -1720.0,
+      "entry_premium": 705.0,
+      "gap_pct": -0.3542836707656999
+     }
+    ],
+    "days": {
+     "2026-11-02": {
+      "actual": 0.0,
+      "repaired": 0.0
+     },
+     "2026-11-03": {
+      "actual": 0.0,
+      "repaired": 0.0
+     },
+     "2026-11-04": {
+      "actual": 2480.0,
+      "repaired": 0.0
+     },
+     "2026-11-05": {
+      "actual": 0.0,
+      "repaired": 0.0
+     },
+     "2026-11-06": {
+      "actual": 0.0,
+      "repaired": 0.0
+     },
+     "2026-11-09": {
+      "actual": -1720.0,
+      "repaired": -1720.0
+     },
+     "2026-11-11": {
+      "actual": 0.0,
+      "repaired": 0.0
+     },
+     "2026-11-12": {
+      "actual": -1720.0,
+      "repaired": -1720.0
+     },
+     "2026-11-13": {
+      "actual": -1720.0,
+      "repaired": 0.0
+     }
+    }
+   }
+  },
+  "nifty": {
+   "label": "N-FIX-1",
+   "book": "NIFTY_TUNED_V1",
+   "standing_total": 103050.25,
+   "cell_legs": 8,
+   "cell_net": -14119.75,
+   "cell_detail": [
+    {
+     "date": "2026-02-02",
+     "side": "CE",
+     "family": "A",
+     "rep": "Volrix (b)",
+     "entry_time": "09:35",
+     "entry_premium": 394.95,
+     "gap_pct": 0.11506782945736435,
+     "net": -3470.0
+    },
+    {
+     "date": "2026-03-20",
+     "side": "CE",
+     "family": "A",
+     "rep": "Volrix (b)",
+     "entry_time": "09:35",
+     "entry_premium": 377.6,
+     "gap_pct": 0.09658759910516965,
+     "net": -3470.0
+    },
+    {
+     "date": "2026-04-27",
+     "side": "CE",
+     "family": "A",
+     "rep": "Volrix (b)",
+     "entry_time": "09:50",
+     "entry_premium": 113.1,
+     "gap_pct": 0.17361147425425505,
+     "net": -3470.0
+    },
+    {
+     "date": "2026-07-09",
+     "side": "CE",
+     "family": "A",
+     "rep": "Volrix (b)",
+     "entry_time": "09:40",
+     "entry_premium": 274.9,
+     "gap_pct": 0.13914637361533666,
+     "net": -220.0
+    },
+    {
+     "date": "2026-10-09",
+     "side": "CE",
+     "family": "A",
+     "rep": "Volrix (b)",
+     "entry_time": "09:35",
+     "entry_premium": 318.15,
+     "gap_pct": 0.3740138000521841,
+     "net": 4635.5
+    },
+    {
+     "date": "2026-03-17",
+     "side": "CE",
+     "family": "C",
+     "rep": "R8-EXP-SLEEVE",
+     "entry_time": "10:00",
+     "entry_premium": 72.1,
+     "gap_pct": 0.5891520663138698,
+     "net": -3470.0
+    },
+    {
+     "date": "2026-05-19",
+     "side": "CE",
+     "family": "C",
+     "rep": "R8-EXP-SLEEVE",
+     "entry_time": "11:00",
+     "entry_premium": 35.55,
+     "gap_pct": 0.13047459340351983,
+     "net": -2524.25
+    },
+    {
+     "date": "2026-07-07",
+     "side": "CE",
+     "family": "C",
+     "rep": "R8-EXP-SLEEVE",
+     "entry_time": "10:10",
+     "entry_premium": 29.45,
+     "gap_pct": 0.1658208438847934,
+     "net": -2131.0
+    }
+   ],
+   "repaired_total": 117170.0,
+   "leg_i_pass": true,
+   "leg_i_floor": 92745.23,
+   "leg_ii_cell_after": 0.0,
+   "leg_ii_pass": true,
+   "placebo_p95": 108558.31,
+   "placebo_beaten": 199,
+   "leg_iii_pass": true,
+   "halves": {
+    "H1": 68723.5,
+    "H2": 48446.5
+   },
+   "leg_iv_pass": true,
+   "verdict": "PASS",
+   "november": {
+    "actual_total": 3036.5,
+    "actual_counts": [
+     1,
+     0,
+     8
+    ],
+    "repaired_total": 0,
+    "repaired_counts": [
+     0,
+     0,
+     9
+    ],
+    "stood_down": [
+     {
+      "date": "2026-11-03",
+      "side": "CE",
+      "net": 3036.5,
+      "entry_premium": 75.9,
+      "gap_pct": 0.6034
+     }
+    ],
+    "days": {
+     "2026-11-02": {
+      "actual": 0.0,
+      "repaired": 0.0
+     },
+     "2026-11-03": {
+      "actual": 3036.5,
+      "repaired": 0.0
+     },
+     "2026-11-04": {
+      "actual": 0.0,
+      "repaired": 0.0
+     },
+     "2026-11-05": {
+      "actual": 0.0,
+      "repaired": 0.0
+     },
+     "2026-11-06": {
+      "actual": 0.0,
+      "repaired": 0.0
+     },
+     "2026-11-09": {
+      "actual": 0.0,
+      "repaired": 0.0
+     },
+     "2026-11-11": {
+      "actual": 0.0,
+      "repaired": 0.0
+     },
+     "2026-11-12": {
+      "actual": 0.0,
+      "repaired": 0.0
+     },
+     "2026-11-13": {
+      "actual": 0.0,
+      "repaired": 0.0
+     }
+    }
+   }
+  }
+ },
+ "phase3_application": {
+  "nifty_lead_switch": "DONE \u2014 TUNED v1 lead from Mon 2026-11-16; v1 forward legs produced by drop-only derivation from the DEC-S1 shadow ledger (november_shadow_decs1_nifty_log.csv, 15:32 shadow job), now a standing machine (nifty_nfix1_score.py); C3G7 continues as scored control; daily-stats job amended + read back; MAP + tracker dated entries written",
+  "bank_repaired_line": "B-FIX-1 GATE PASS -> REPAIRED LEAD \u2014 TUNED STACK v2 + B-FIX-1 from Mon 2026-11-16; scorer bank_bfix1_score.py; ledger november_repaired_bfix1_bank_log.csv; job bank-bfix1-scorer-daily 18:50 IST Mon-Fri; original stack untouched as primary/control",
+  "nifty_repaired_line": "N-FIX-1 GATE PASS -> LEAD \u2014 TUNED v1 + N-FIX-1 from Mon 2026-11-16; scorer nifty_nfix1_score.py; ledger november_repaired_nfix1_nifty_log.csv; job nifty-nfix1-scorer-daily 19:05 IST Mon-Fri; TUNED v1 original + C3G7 + DEC-S1 continue as control lines",
+  "dry_runs": "Bank backfill Nov 2-13: -2,680.00 -> -3,440.00 EXACT match to Phase-2 counterfactual (assertion in scorer). Nifty backfill: +3,036.50 -> 0.00 EXACT match (assertion in scorer)"
+ },
+ "headline": {
+  "bank": "B-FIX-1 PASS: repaired Jan-Oct +131,510.00 vs standing +127,351.50; Nov counterfactual -3,440 (0G/2R/7NT) vs actual -2,680 (1G/3R/5NT)",
+  "nifty": "N-FIX-1 PASS: repaired Jan-Oct +117,170.00 vs standing +103,050.25; Nov counterfactual 0 (0G/0R/9NT) vs actual TUNED v1 +3,036.50 (1G/0R/8NT)"
+ }
+}

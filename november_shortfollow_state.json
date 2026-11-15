@@ -1,0 +1,87 @@
+{
+ "book": "SHORT-FOLLOW-T2 (R7-M1)",
+ "run_start": "2026-11-13",
+ "target_days": 20,
+ "extended": false,
+ "status": "DISARMED_BY_OWNER_2026-11-13",
+ "days": {
+  "2026-11-13": {
+   "date": "2026-11-13",
+   "status": "OK",
+   "legs": {
+    "BANKNIFTY": {
+     "move": -236.15,
+     "gap2": null,
+     "side": "PE",
+     "strike": 61100,
+     "expiry": "2026-11-23",
+     "key": "NSE_FO|62338",
+     "spot_open_0915": 61300.55,
+     "spot_close_0955": 61064.4,
+     "entry": 765.9,
+     "entry_time": "10:00",
+     "closes": {
+      "10:00": 752.2,
+      "10:05": 760.0,
+      "10:10": 771.6,
+      "10:15": 779.5,
+      "10:20": 774.35,
+      "10:25": 785.3,
+      "10:30": 723.8
+     },
+     "closed": {
+      "exit_time": "10:30",
+      "net": 1043.0,
+      "reason": "CEILING"
+     },
+     "exit_time": "10:30",
+     "net": 1043.0,
+     "exit_reason": "CEILING",
+     "peak_mark": 1043.0
+    },
+    "NIFTY": {
+     "move": -9.5,
+     "gap2": null,
+     "side": "PE",
+     "strike": 25200,
+     "expiry": "2026-11-17",
+     "key": "NSE_FO|45395",
+     "spot_open_0915": 25209.85,
+     "spot_close_0955": 25200.35,
+     "entry": 162.85,
+     "entry_time": "10:00",
+     "closes": {
+      "10:00": 157.8,
+      "10:05": 153.45,
+      "10:10": 155.15,
+      "10:15": 166.55,
+      "10:20": 154.4,
+      "10:25": 161.4,
+      "10:30": 137.3
+     },
+     "closed": {
+      "exit_time": "10:30",
+      "net": 1440.75,
+      "reason": "CEILING"
+     },
+     "exit_time": "10:30",
+     "net": 1440.75,
+     "exit_reason": "CEILING",
+     "peak_mark": 1440.75
+    }
+   },
+   "day_net": 2483.75
+  }
+ },
+ "counted": [
+  "2026-11-13"
+ ],
+ "pending_messages": [],
+ "delivered_messages": [
+  "\ud83d\udfe2 [SHORT-FOLLOW] Sold Bank Nifty 61100 PE @ \u20b9765.90 \u2014 morning move -236 pts (down \u2192 sold the inflated put). Expiry 2026-11-23. 1 lot (30), paper. Combined day ceiling +\u20b92,000 \u00b7 day stop \u2212\u20b91,500.",
+  "\ud83d\udfe2 [SHORT-FOLLOW] Sold Nifty 25200 PE @ \u20b9162.85 \u2014 morning move -10 pts (down \u2192 sold the inflated put). Expiry 2026-11-17. 1 lot (65), paper. Combined day ceiling +\u20b92,000 \u00b7 day stop \u2212\u20b91,500.",
+  "\ud83d\udd34 [SHORT-FOLLOW] Closed Bank Nifty 61100 PE @ \u20b9723.80 \u2014 day ceiling +\u20b92,000 hit \u2705. +\u20b91,043.00 (1 lot, after \u20b9220 cost).",
+  "\ud83d\udd34 [SHORT-FOLLOW] Closed Nifty 25200 PE @ \u20b9137.30 \u2014 day ceiling +\u20b92,000 hit \u2705. +\u20b91,440.75 (1 lot, after \u20b9220 cost).",
+  "\ud83d\udcd8 [SHORT-FOLLOW] Day 1/20 (2026-11-13) \u2014 +\u20b92,483.75 (Bank +\u20b91,043.00 \u00b7 Nifty +\u20b91,440.75). Run: 1 computed day(s), mean +\u20b92,483.75/day, total +\u20b92,483.75, worst +\u20b92,483.75 (2026-11-13). PASS needs \u226515 computed days with mean > 0, ex-top-3 \u2265 0, no day < \u2212\u20b95,000. KILL lines: clear."
+ ]
+}

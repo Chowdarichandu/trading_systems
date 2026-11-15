@@ -1,0 +1,82 @@
+nov spot BANKNIFTY: ['2026-11-02', '2026-11-03', '2026-11-04', '2026-11-05', '2026-11-06', '2026-11-08', '2026-11-09', '2026-11-11']
+nov spot NIFTY: ['2026-11-02', '2026-11-03', '2026-11-04', '2026-11-05', '2026-11-06', '2026-11-08', '2026-11-09', '2026-11-11']
+trading days in span: 220 (2025-12-22 -> 2026-11-11)
+BANKNIFTY expiries (11): 2026-01-27 -> 2026-11-23
+NIFTY expiries (51): 2025-12-02 -> 2026-11-17
+BANKNIFTY 2026-01-27: window 2025-12-22->2026-01-27 (24d), band-union 28 strikes, contracts ok 56, missing 0
+BANKNIFTY 2026-02-24: window 2026-01-28->2026-02-24 (21d), band-union 42 strikes, contracts ok 84, missing 0
+BANKNIFTY 2026-03-30: window 2026-02-25->2026-03-30 (22d), band-union 118 strikes, contracts ok 236, missing 0
+BANKNIFTY 2026-04-28: window 2026-04-01->2026-04-28 (18d), band-union 60 strikes, contracts ok 120, missing 0
+BANKNIFTY 2026-05-26: window 2026-04-29->2026-05-26 (19d), band-union 38 strikes, contracts ok 76, missing 0
+BANKNIFTY 2026-06-30: window 2026-05-27->2026-06-30 (23d), band-union 51 strikes, contracts ok 102, missing 0
+BANKNIFTY 2026-07-28: window 2026-07-01->2026-07-28 (20d), band-union 31 strikes, contracts ok 62, missing 0
+BANKNIFTY 2026-08-25: window 2026-07-29->2026-08-25 (20d), band-union 22 strikes, contracts ok 44, missing 0
+BANKNIFTY 2026-09-29: window 2026-08-26->2026-09-29 (24d), band-union 48 strikes, contracts ok 96, missing 0
+BANKNIFTY 2026-10-27: window 2026-09-30->2026-10-27 (18d), band-union 29 strikes, contracts ok 58, missing 0
+BANKNIFTY 2026-11-23: window 2026-10-28->2026-11-11 (11d), band-union 68 strikes, contracts ok 136, missing 0
+BANKNIFTY: dataset 213 days — complete 205, partial 8, nodata 0
+NIFTY 2025-12-23: window 2025-12-22->2025-12-23 (2d), band-union 11 strikes, contracts ok 22, missing 0
+NIFTY 2025-12-30: window 2025-12-24->2025-12-30 (4d), band-union 15 strikes, contracts ok 30, missing 0
+NIFTY 2026-01-06: window 2025-12-31->2026-01-06 (5d), band-union 15 strikes, contracts ok 30, missing 0
+NIFTY 2026-01-13: window 2026-01-07->2026-01-13 (5d), band-union 20 strikes, contracts ok 40, missing 0
+NIFTY 2026-01-20: window 2026-01-14->2026-01-20 (4d), band-union 20 strikes, contracts ok 40, missing 0
+NIFTY 2026-01-27: window 2026-01-21->2026-01-27 (4d), band-union 16 strikes, contracts ok 32, missing 0
+NIFTY 2026-02-03: window 2026-01-28->2026-02-03 (6d), band-union 30 strikes, contracts ok 60, missing 0
+NIFTY 2026-02-10: window 2026-02-04->2026-02-10 (5d), band-union 16 strikes, contracts ok 20, missing 12
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/urllib/request.py", line 1344, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "/usr/lib/python3.12/http/client.py", line 1365, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.12/http/client.py", line 1411, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.12/http/client.py", line 1360, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.12/http/client.py", line 1120, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.12/http/client.py", line 1064, in send
+    self.connect()
+  File "/usr/lib/python3.12/http/client.py", line 1499, in connect
+    super().connect()
+  File "/usr/lib/python3.12/http/client.py", line 1030, in connect
+    self.sock = self._create_connection(
+                ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/socket.py", line 852, in create_connection
+    raise exceptions[0]
+  File "/usr/lib/python3.12/socket.py", line 837, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/hatch/workspace/trading/oi_history_build.py", line 215, in <module>
+    cmap, route = contract_map(idx, exp)
+                  ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hatch/workspace/trading/oi_history_build.py", line 151, in contract_map
+    body = get_safe(url)
+           ^^^^^^^^^^^^^
+  File "/home/hatch/workspace/trading/oi_history_build.py", line 53, in get_safe
+    return get(url)
+           ^^^^^^^^
+  File "/home/hatch/workspace/trading/oi_history_build.py", line 45, in get
+    with urllib.request.urlopen(req, timeout=90) as r:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/urllib/request.py", line 215, in urlopen
+    return opener.open(url, data, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/urllib/request.py", line 515, in open
+    response = self._open(req, data)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/urllib/request.py", line 532, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/urllib/request.py", line 492, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "/usr/lib/python3.12/urllib/request.py", line 1392, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/urllib/request.py", line 1347, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [Errno 111] Connection refused>

@@ -1,0 +1,7 @@
+F1: n=87 total=-7047.0 H=(-5402.5,-1644.5) ex3=-14487.0 pace=-704.7 NC=2 PASS=False legs={'total_pos': False, 'halves_pos': False, 'ex_top3_pos': False, 'beats_reversed': True, 'beats_coin': True, 'beats_shifted': False, 'timing_clean': True, 'nc_ok': True}
+   placebos: rev=-30219.0 coin=-43968.0 shift=-7047.0 | NOV n=6 total=-10320.0
+F2: n=204 total=-65983.5 H=(-32339.0,-33644.5) ex3=-73423.5 pace=-6598.35 NC=2 PASS=False legs={'total_pos': False, 'halves_pos': False, 'ex_top3_pos': False, 'beats_reversed': False, 'beats_coin': False, 'beats_shifted': True, 'timing_clean': True, 'nc_ok': True}
+   placebos: rev=-41671.5 coin=-29713.5 shift=-80259.0 | NOV n=8 total=-1160.0
+Nov13 supplementary: {'signal_date': '2026-11-12', 'spot_open_proxy': 61094.55, 'F1': 'PE', 'F1_trade': 'NC — no premium candles', 'F2': 'CE', 'F2_trade': 'NC — no premium candles'}
+MERGE F1: incr 42 legs -9447.0 | merged 117904.5 on 131 TD = 900.03/TD | Nov merged -7840.0 (family Nov legs 6, incr 3)
+re-sum: EXACT for all scored books | results -> new_data_round3_results.json

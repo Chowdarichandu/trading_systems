@@ -1,0 +1,288 @@
+[
+ {
+  "cycle": "R15-01",
+  "type": "audit",
+  "label": "Starting-book verification (Round-14 ending book)",
+  "note": "Books re-summed from stocks_engine_r14_book{2025,2026}_trades.csv: 2025 JO 105987.24 / full 107589.18 / 1101 rows; 2026 JO 257300.30 / full 257300.30 / 1352 rows \u2014 exact vs the Round-14 record. Red 2025 Jan-Oct months asserted: Jul -2733.21, Oct -4152.19. No scoring preceded this audit.",
+  "banked": false
+ },
+ {
+  "cycle": "R15-02",
+  "label": "INV-ABOVE geometry swap T150/S050 -> T175/S050 (target step only, second step in the R14-04 direction)",
+  "note": "Sleeve standalone 15367.09 / 8916.53 (JO 12605.85 / 8916.53) on 122/20 rows vs the banked cell's 13167.14 / 10114.82. Population re-formed at the candidate geometry under the incumbent law; the R12-02 hard-dip exclusion re-applied to the new rows drops 22 / 14 rows (book cell: 22 / 15). Placebo: SHORT-side swap book 349729.4 (chain's own opposite side at the candidate geometry, R2-25/26 precedent). Timing violations 0 \u2014 run_chain picks never read exit outcomes; round-1 identity asserted. Failed legs: ['c_2026_no_fall'].",
+  "verdict": false,
+  "legs": {
+   "a_combined_rises": true,
+   "b_2025_no_fall": true,
+   "c_2026_no_fall": false,
+   "d_cells_positive": true,
+   "e_extop3": true,
+   "f_no_green_month_flips": true,
+   "flip_detail": [],
+   "g_no_half_flips": true,
+   "h_beats_placebos": true,
+   "i_timing_clean": true,
+   "x_2026_floor_holds": true
+  },
+  "sums": {
+   "base_combined": 364889.48,
+   "variant_combined": 365891.14
+  },
+  "base": {
+   "2025": {
+    "total": 107589.18,
+    "jan_oct": 105987.24,
+    "ex_top3": 42038.91,
+    "trades": 1101
+   },
+   "2026": {
+    "total": 257300.3,
+    "jan_oct": 257300.3,
+    "ex_top3": 76137.46,
+    "trades": 1352
+   }
+  },
+  "var": {
+   "2025": {
+    "total": 109789.13,
+    "jan_oct": 106079.81,
+    "ex_top3": 43464.07,
+    "trades": 1099
+   },
+   "2026": {
+    "total": 256102.01,
+    "jan_oct": 256102.01,
+    "ex_top3": 76336.77,
+    "trades": 1352
+   }
+  },
+  "base_cells": {
+   "2025": {
+    "DOWN": 57746.14,
+    "FLAT": 25527.64,
+    "UP": 24315.4
+   },
+   "2026": {
+    "DOWN": 226844.32,
+    "FLAT": 16593.5,
+    "UP": 13862.48
+   }
+  },
+  "var_cells": {
+   "2025": {
+    "DOWN": 57746.14,
+    "FLAT": 25294.92,
+    "UP": 26748.07
+   },
+   "2026": {
+    "DOWN": 226844.32,
+    "FLAT": 15041.45,
+    "UP": 14216.24
+   }
+  },
+  "banked": false,
+  "sleeve_standalone": {
+   "2025": 15367.09,
+   "2026": 8916.53
+  },
+  "sleeve_jo": {
+   "2025": 12605.85,
+   "2026": 8916.53
+  },
+  "failed_legs": [
+   "c_2026_no_fall"
+  ]
+ },
+ {
+  "cycle": "R15-03",
+  "label": "GAP-FADE family geometry swap T125/S065 -> T125/S080 (stop step only, both comps, second step in the R14-05 direction)",
+  "note": "Sleeve standalone: GAP-FADE 22154.57 / -3012.95 (banked cell 23436.31 / -1294.41); GAP-FADE-INC -347.54 / 5955.71 (banked cell 918.86 / 9028.07). Placebos: mirror (follow) swap book 300581.47; one-bar-late swap book 310266.9. Timing violations 0 \u2014 entries are the banked ones; exits only. Failed legs: ['a_combined_rises', 'b_2025_no_fall', 'c_2026_no_fall', 'e_extop3'].",
+  "verdict": false,
+  "legs": {
+   "a_combined_rises": false,
+   "b_2025_no_fall": false,
+   "c_2026_no_fall": false,
+   "d_cells_positive": true,
+   "e_extop3": false,
+   "f_no_green_month_flips": true,
+   "flip_detail": [],
+   "g_no_half_flips": true,
+   "h_beats_placebos": true,
+   "i_timing_clean": true,
+   "x_2026_floor_holds": true
+  },
+  "sums": {
+   "base_combined": 364889.48,
+   "variant_combined": 357550.44
+  },
+  "base": {
+   "2025": {
+    "total": 107589.18,
+    "jan_oct": 105987.24,
+    "ex_top3": 42038.91,
+    "trades": 1101
+   },
+   "2026": {
+    "total": 257300.3,
+    "jan_oct": 257300.3,
+    "ex_top3": 76137.46,
+    "trades": 1352
+   }
+  },
+  "var": {
+   "2025": {
+    "total": 105041.04,
+    "jan_oct": 103439.1,
+    "ex_top3": 40830.25,
+    "trades": 1101
+   },
+   "2026": {
+    "total": 252509.4,
+    "jan_oct": 252509.4,
+    "ex_top3": 66882.57,
+    "trades": 1352
+   }
+  },
+  "base_cells": {
+   "2025": {
+    "DOWN": 57746.14,
+    "FLAT": 25527.64,
+    "UP": 24315.4
+   },
+   "2026": {
+    "DOWN": 226844.32,
+    "FLAT": 16593.5,
+    "UP": 13862.48
+   }
+  },
+  "var_cells": {
+   "2025": {
+    "DOWN": 55179.12,
+    "FLAT": 25546.52,
+    "UP": 24315.4
+   },
+   "2026": {
+    "DOWN": 222422.03,
+    "FLAT": 16224.89,
+    "UP": 13862.48
+   }
+  },
+  "banked": false,
+  "sleeve_standalone": {
+   "GAP-FADE": {
+    "2025": 22154.57,
+    "2026": -3012.95
+   },
+   "GAP-FADE-INC": {
+    "2025": -347.54,
+    "2026": 5955.71
+   }
+  },
+  "failed_legs": [
+   "a_combined_rises",
+   "b_2025_no_fall",
+   "c_2026_no_fall",
+   "e_extop3"
+  ]
+ },
+ {
+  "cycle": "R15-04",
+  "type": "audit",
+  "label": "Volume data axis BUILD (daily volume, 25 stocks + NIFTY)",
+  "note": "Fetched via the registered connector path (v3 days/1, browser UA header; credential via surrogate only). Stored NEW dataset stocks_daily_volume.csv (12584 rows, span 2024-11-15..2026-10-31; the pre-2025 tail is lookback only for the trailing-20-day median). No existing candle file altered. Coverage per stock-year (expected = machinery daily days): ALL 25 stocks COMPLETE in both years \u2014 2025: 249/249 days each, 2026: 203/203 each; holes: NONE (0 stock-years with holes); zero-volume days in the 25 stocks: NONE. The 2026 series carries 2 days beyond the machinery's stored daily span (2026-10-29/30) \u2014 present in the API series, not holes. NIFTY (index, no traded volume): series stored as returned \u2014 volume 0 on all 249 expected days of 2025 and all of 2026; reported as returned, never estimated, and used by no gate. Fetch errors: {}.",
+  "banked": false,
+  "dataset_rows": 12584,
+  "holes": {},
+  "zero_volume_stock_years": [
+   "NIFTY|2025",
+   "NIFTY|2026"
+  ]
+ },
+ {
+  "cycle": "R15-05",
+  "type": "audit",
+  "label": "Volume diagnostic (frozen rule: keep rvol >= 1.0; sleeve choice by combined Jan-Oct delta, banked nets only)",
+  "note": "Combined JO deltas of the rvol >= 1.0 restriction, by sleeve: F4: 2025 +1972.94 / 2026 -49328.51 (combined -47355.57; kept {2025: 112, 2026: 190}, dropped-low {2025: 134, 2026: 165}, unclassifiable {2025: 0, 2026: 0}); N4-V3: 2025 -4186.34 / 2026 -5199.24 (combined -9385.58; kept {2025: 18, 2026: 21}, dropped-low {2025: 17, 2026: 13}, unclassifiable {2025: 0, 2026: 0}); P2F family: 2025 -106.05 / 2026 -2897.65 (combined -3003.7; kept {2025: 43, 2026: 54}, dropped-low {2025: 4, 2026: 9}, unclassifiable {2025: 0, 2026: 0}). Frozen ranking for gates: []. Causality asserted per row (prior day P < entry date; window ends on P). The diagnostic scores nothing \u2014 it only assigns the at-most-two gated cells.",
+  "banked": false,
+  "diagnostic": {
+   "F4": {
+    "2025": 1972.94,
+    "2026": -49328.51,
+    "combined": -47355.57,
+    "kept": {
+     "2025": 112,
+     "2026": 190
+    },
+    "low": {
+     "2025": 134,
+     "2026": 165
+    },
+    "unclass": {
+     "2025": 0,
+     "2026": 0
+    }
+   },
+   "N4-V3": {
+    "2025": -4186.34,
+    "2026": -5199.24,
+    "combined": -9385.58,
+    "kept": {
+     "2025": 18,
+     "2026": 21
+    },
+    "low": {
+     "2025": 17,
+     "2026": 13
+    },
+    "unclass": {
+     "2025": 0,
+     "2026": 0
+    }
+   },
+   "P2F family": {
+    "2025": -106.05,
+    "2026": -2897.65,
+    "combined": -3003.7,
+    "kept": {
+     "2025": 43,
+     "2026": 54
+    },
+    "low": {
+     "2025": 4,
+     "2026": 9
+    },
+    "unclass": {
+     "2025": 0,
+     "2026": 0
+    }
+   }
+  },
+  "gate_order": []
+ },
+ {
+  "cycle": "R15-06",
+  "type": "audit",
+  "label": "Volume gate 1 \u2014 NOT RUN",
+  "note": "No sleeve showed a strictly-positive combined diagnostic delta; per the frozen rule WS3 closes with no gate.",
+  "banked": false
+ },
+ {
+  "cycle": "R15-07",
+  "type": "audit",
+  "label": "Volume gate 2 \u2014 NOT RUN",
+  "note": "Fewer than two sleeves showed a strictly-positive combined diagnostic delta; per the frozen rule no second volume gate is run.",
+  "banked": false
+ },
+ {
+  "cycle": "R15-08",
+  "type": "audit",
+  "label": "WS4 combinations + stack-price maintenance + December freeze addendum + finalise",
+  "note": "Combinations: NOTHING banked in Round 15, so there is no union to re-gate \u2014 the ending book is the starting (Round-14) book unchanged (2025 JO 105987.24; 2026 JO 257300.30). R15-02 rejected on (c) only \u2014 FLAGGED as an owner decision; R15-03 rejected on (a) + (b) + (c) + (e) \u2014 not flagged. Volume: coverage complete for every gated population (0 unclassifiable rows), the frozen diagnostic negative on all three sleeves, no volume gate ran and nothing volume-based is in the book. Ending book exported to stocks_engine_r15_book{2025,2026}_trades.csv, independently re-summed, and regeneration-verified against a fresh load of the Round-14 CSVs (multiset identity, both years). Stack prices restated on the ending book (see report). December freeze addendum (Round 15) appended: the frozen book is unchanged.",
+  "banked": false,
+  "ending_jo": {
+   "2025": 105987.24,
+   "2026": 257300.3
+  },
+  "banked_round15": 0
+ }
+]

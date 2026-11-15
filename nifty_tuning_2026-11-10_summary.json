@@ -1,0 +1,714 @@
+{
+ "eve17_reproduction": {
+  "exact": 35,
+  "mismatch": []
+ },
+ "eve17_population": {
+  "construction_store_legs": 35,
+  "aggressive_day_exact_files": 31,
+  "aggressive_agree_every_shared_bar": 10,
+  "aggressive_differ_every_shared_bar": [
+   {
+    "date": "2026-01-07",
+    "strike": "26100",
+    "direction": "PE",
+    "shared_bars": 75,
+    "disagree_bars": 75
+   },
+   {
+    "date": "2026-01-09",
+    "strike": "25800",
+    "direction": "PE",
+    "shared_bars": 75,
+    "disagree_bars": 75
+   },
+   {
+    "date": "2026-01-30",
+    "strike": "25300",
+    "direction": "CE",
+    "shared_bars": 75,
+    "disagree_bars": 75
+   },
+   {
+    "date": "2026-02-06",
+    "strike": "25500",
+    "direction": "PE",
+    "shared_bars": 75,
+    "disagree_bars": 75
+   },
+   {
+    "date": "2026-02-13",
+    "strike": "25500",
+    "direction": "PE",
+    "shared_bars": 75,
+    "disagree_bars": 75
+   },
+   {
+    "date": "2026-02-16",
+    "strike": "25500",
+    "direction": "CE",
+    "shared_bars": 75,
+    "disagree_bars": 75
+   },
+   {
+    "date": "2026-02-26",
+    "strike": "25400",
+    "direction": "PE",
+    "shared_bars": 75,
+    "disagree_bars": 75
+   },
+   {
+    "date": "2026-02-27",
+    "strike": "25300",
+    "direction": "PE",
+    "shared_bars": 75,
+    "disagree_bars": 75
+   },
+   {
+    "date": "2026-03-13",
+    "strike": "23400",
+    "direction": "PE",
+    "shared_bars": 75,
+    "disagree_bars": 75
+   },
+   {
+    "date": "2026-03-20",
+    "strike": "23300",
+    "direction": "CE",
+    "shared_bars": 75,
+    "disagree_bars": 75
+   },
+   {
+    "date": "2026-03-23",
+    "strike": "22600",
+    "direction": "PE",
+    "shared_bars": 75,
+    "disagree_bars": 75
+   },
+   {
+    "date": "2026-05-11",
+    "strike": "23900",
+    "direction": "PE",
+    "shared_bars": 75,
+    "disagree_bars": 75
+   },
+   {
+    "date": "2026-05-13",
+    "strike": "23300",
+    "direction": "PE",
+    "shared_bars": 75,
+    "disagree_bars": 75
+   },
+   {
+    "date": "2026-05-18",
+    "strike": "23400",
+    "direction": "PE",
+    "shared_bars": 75,
+    "disagree_bars": 75
+   },
+   {
+    "date": "2026-06-08",
+    "strike": "23200",
+    "direction": "CE",
+    "shared_bars": 75,
+    "disagree_bars": 75
+   },
+   {
+    "date": "2026-06-19",
+    "strike": "23900",
+    "direction": "PE",
+    "shared_bars": 75,
+    "disagree_bars": 75
+   },
+   {
+    "date": "2026-07-01",
+    "strike": "23900",
+    "direction": "CE",
+    "shared_bars": 75,
+    "disagree_bars": 75
+   },
+   {
+    "date": "2026-07-08",
+    "strike": "24200",
+    "direction": "PE",
+    "shared_bars": 75,
+    "disagree_bars": 75
+   },
+   {
+    "date": "2026-08-11",
+    "strike": "24500",
+    "direction": "PE",
+    "shared_bars": 77,
+    "disagree_bars": 77
+   },
+   {
+    "date": "2026-09-07",
+    "strike": "23800",
+    "direction": "PE",
+    "shared_bars": 77,
+    "disagree_bars": 77
+   },
+   {
+    "date": "2026-10-08",
+    "strike": "22500",
+    "direction": "PE",
+    "shared_bars": 77,
+    "disagree_bars": 77
+   }
+  ],
+  "note": "2026-11-09 coverage check used a date-OR-expiry filename glob and overstated day-exact aggressive coverage (31/35 day-exact). Of those 31 files, 10 agree with the construction store on every shared bar (incl. the 3 fetched 2026-11-10); 21 differ at every shared bar (a different contract series under the same label). Replay population is the frozen construction store (prem_day), the population the stored exits were produced from; aggressive files audited as a diagnostic only."
+ },
+ "EVE-17": {
+  "candidate": "NIFTY-EVE-17 \u2014 standing book + no-development cut (bar-3 close, runmax < entry+15)",
+  "frame": "standing causal book (A, 35 legs, +54,102.00)",
+  "incumbent": {
+   "legs": 35,
+   "net": 54102.0,
+   "ft_pct": 34.3,
+   "h1_jan_may": 27581.0,
+   "h2_jun_oct": 26521.0,
+   "ex_top3": 20637.0,
+   "months": [
+    {
+     "month": "2026-01",
+     "net": 17096.75,
+     "cum": 17096.75
+    },
+    {
+     "month": "2026-02",
+     "net": 12789.25,
+     "cum": 29886.0
+    },
+    {
+     "month": "2026-03",
+     "net": 7895.0,
+     "cum": 37781.0
+    },
+    {
+     "month": "2026-04",
+     "net": 210.0,
+     "cum": 37991.0
+    },
+    {
+     "month": "2026-05",
+     "net": -10410.0,
+     "cum": 27581.0
+    },
+    {
+     "month": "2026-06",
+     "net": -3910.0,
+     "cum": 23671.0
+    },
+    {
+     "month": "2026-07",
+     "net": 10998.75,
+     "cum": 34669.75
+    },
+    {
+     "month": "2026-08",
+     "net": -1701.0,
+     "cum": 32968.75
+    },
+    {
+     "month": "2026-09",
+     "net": 4652.75,
+     "cum": 37621.5
+    },
+    {
+     "month": "2026-10",
+     "net": 16480.5,
+     "cum": 54102.0
+    }
+   ],
+   "worst_day": [
+    "2026-02-02",
+    -3470.0
+   ]
+  },
+  "variant": {
+   "legs": 35,
+   "net": 23048.25,
+   "ft_pct": 20.0,
+   "h1_jan_may": 20739.75,
+   "h2_jun_oct": 2308.5,
+   "ex_top3": -7371.5,
+   "months": [
+    {
+     "month": "2026-01",
+     "net": 12699.5,
+     "cum": 12699.5
+    },
+    {
+     "month": "2026-02",
+     "net": 2548.5,
+     "cum": 15248.0
+    },
+    {
+     "month": "2026-03",
+     "net": 9084.5,
+     "cum": 24332.5
+    },
+    {
+     "month": "2026-04",
+     "net": 3372.25,
+     "cum": 27704.75
+    },
+    {
+     "month": "2026-05",
+     "net": -6965.0,
+     "cum": 20739.75
+    },
+    {
+     "month": "2026-06",
+     "net": -1644.75,
+     "cum": 19095.0
+    },
+    {
+     "month": "2026-07",
+     "net": -2215.75,
+     "cum": 16879.25
+    },
+    {
+     "month": "2026-08",
+     "net": -1541.75,
+     "cum": 15337.5
+    },
+    {
+     "month": "2026-09",
+     "net": 164.5,
+     "cum": 15502.0
+    },
+    {
+     "month": "2026-10",
+     "net": 7546.25,
+     "cum": 23048.25
+    }
+   ],
+   "worst_day": [
+    "2026-02-02",
+    -3470.0
+   ]
+  },
+  "placebo_mirror": {
+   "legs": 35,
+   "net": 27279.75,
+   "ft_pct": 14.3,
+   "h1_jan_may": 4574.25,
+   "h2_jun_oct": 22705.5,
+   "ex_top3": 747.0,
+   "months": [
+    {
+     "month": "2026-01",
+     "net": 5276.5,
+     "cum": 5276.5
+    },
+    {
+     "month": "2026-02",
+     "net": 8473.25,
+     "cum": 13749.75
+    },
+    {
+     "month": "2026-03",
+     "net": -3512.5,
+     "cum": 10237.25
+    },
+    {
+     "month": "2026-04",
+     "net": -1454.0,
+     "cum": 8783.25
+    },
+    {
+     "month": "2026-05",
+     "net": -4209.0,
+     "cum": 4574.25
+    },
+    {
+     "month": "2026-06",
+     "net": -3910.0,
+     "cum": 664.25
+    },
+    {
+     "month": "2026-07",
+     "net": 12253.25,
+     "cum": 12917.5
+    },
+    {
+     "month": "2026-08",
+     "net": -1701.0,
+     "cum": 11216.5
+    },
+    {
+     "month": "2026-09",
+     "net": 4652.75,
+     "cum": 15869.25
+    },
+    {
+     "month": "2026-10",
+     "net": 11410.5,
+     "cum": 27279.75
+    }
+   ],
+   "worst_day": [
+    "2026-02-06",
+    -3470.0
+   ]
+  },
+  "placebo_shift": {
+   "legs": 35,
+   "net": 23669.0,
+   "ft_pct": 20.0,
+   "h1_jan_may": 22299.75,
+   "h2_jun_oct": 1369.25,
+   "ex_top3": -6750.75,
+   "months": [
+    {
+     "month": "2026-01",
+     "net": 13343.0,
+     "cum": 13343.0
+    },
+    {
+     "month": "2026-02",
+     "net": 5028.25,
+     "cum": 18371.25
+    },
+    {
+     "month": "2026-03",
+     "net": 8987.0,
+     "cum": 27358.25
+    },
+    {
+     "month": "2026-04",
+     "net": 2631.25,
+     "cum": 29989.5
+    },
+    {
+     "month": "2026-05",
+     "net": -7689.75,
+     "cum": 22299.75
+    },
+    {
+     "month": "2026-06",
+     "net": -2603.5,
+     "cum": 19696.25
+    },
+    {
+     "month": "2026-07",
+     "net": -3028.25,
+     "cum": 16668.0
+    },
+    {
+     "month": "2026-08",
+     "net": -1278.5,
+     "cum": 15389.5
+    },
+    {
+     "month": "2026-09",
+     "net": 307.5,
+     "cum": 15697.0
+    },
+    {
+     "month": "2026-10",
+     "net": 7972.0,
+     "cum": 23669.0
+    }
+   ],
+   "worst_day": [
+    "2026-02-02",
+    -3470.0
+   ]
+  },
+  "green_to_red_flips": [
+   "2026-07"
+  ],
+  "gate_legs": {
+   "net_beats_incumbent": false,
+   "ft_not_diluted": false,
+   "halves_both_positive": true,
+   "no_green_month_flips_red": false,
+   "no_red_month_end_cumulative": true,
+   "ex_top3_positive": false,
+   "placebo_mirror_beaten": false,
+   "placebo_shift_beaten": false,
+   "nc_zero": true,
+   "timing_clean": true
+  },
+  "verdict": "FAIL",
+  "timing_audit": {
+   "checked": 105,
+   "violations": 0
+  },
+  "diagnostics": {
+   "cut_legs": 21,
+   "cut_detail": [
+    {
+     "date": "2026-01-07",
+     "direction": "PE",
+     "entry_time": "12:20",
+     "stored_exit": [
+      "15:20",
+      "square_off",
+      -681.5
+     ],
+     "cut_exit_time": "12:35",
+     "cut_net": -363.0
+    },
+    {
+     "date": "2026-01-09",
+     "direction": "PE",
+     "entry_time": "09:35",
+     "stored_exit": [
+      "13:35",
+      "runner_stop",
+      3680.0
+     ],
+     "cut_exit_time": "09:50",
+     "cut_net": -1035.75
+    },
+    {
+     "date": "2026-02-06",
+     "direction": "PE",
+     "entry_time": "09:40",
+     "stored_exit": [
+      "15:05",
+      "stop",
+      -3470.0
+     ],
+     "cut_exit_time": "09:55",
+     "cut_net": -454.0
+    },
+    {
+     "date": "2026-02-13",
+     "direction": "PE",
+     "entry_time": "09:35",
+     "stored_exit": [
+      "15:20",
+      "square_off",
+      3550.0
+     ],
+     "cut_exit_time": "09:50",
+     "cut_net": -285.0
+    },
+    {
+     "date": "2026-02-16",
+     "direction": "CE",
+     "entry_time": "09:35",
+     "stored_exit": [
+      "15:20",
+      "runner_square_off",
+      7212.75
+     ],
+     "cut_exit_time": "09:50",
+     "cut_net": -1559.0
+    },
+    {
+     "date": "2026-02-26",
+     "direction": "PE",
+     "entry_time": "13:00",
+     "stored_exit": [
+      "15:20",
+      "square_off",
+      -2813.5
+     ],
+     "cut_exit_time": "13:15",
+     "cut_net": -12.0
+    },
+    {
+     "date": "2026-02-27",
+     "direction": "PE",
+     "entry_time": "09:50",
+     "stored_exit": [
+      "15:20",
+      "square_off",
+      3670.25
+     ],
+     "cut_exit_time": "10:05",
+     "cut_net": 218.75
+    },
+    {
+     "date": "2026-03-20",
+     "direction": "CE",
+     "entry_time": "09:35",
+     "stored_exit": [
+      "10:15",
+      "stop",
+      -3470.0
+     ],
+     "cut_exit_time": "09:50",
+     "cut_net": -2280.5
+    },
+    {
+     "date": "2026-04-27",
+     "direction": "CE",
+     "entry_time": "09:50",
+     "stored_exit": [
+      "11:35",
+      "stop",
+      -3470.0
+     ],
+     "cut_exit_time": "10:05",
+     "cut_net": -307.75
+    },
+    {
+     "date": "2026-05-11",
+     "direction": "PE",
+     "entry_time": "09:40",
+     "stored_exit": [
+      "11:40",
+      "stop",
+      -3470.0
+     ],
+     "cut_exit_time": "09:55",
+     "cut_net": -25.0
+    },
+    {
+     "date": "2026-06-08",
+     "direction": "CE",
+     "entry_time": "09:35",
+     "stored_exit": [
+      "13:40",
+      "be_stop",
+      -220.0
+     ],
+     "cut_exit_time": "09:50",
+     "cut_net": -337.0
+    },
+    {
+     "date": "2026-06-19",
+     "direction": "PE",
+     "entry_time": "13:00",
+     "stored_exit": [
+      "15:00",
+      "stop",
+      -3470.0
+     ],
+     "cut_exit_time": "13:15",
+     "cut_net": 404.0
+    },
+    {
+     "date": "2026-06-29",
+     "direction": "PE",
+     "entry_time": "09:35",
+     "stored_exit": [
+      "15:00",
+      "be_stop",
+      -220.0
+     ],
+     "cut_exit_time": "09:50",
+     "cut_net": -1711.75
+    },
+    {
+     "date": "2026-07-08",
+     "direction": "PE",
+     "entry_time": "09:35",
+     "stored_exit": [
+      "14:05",
+      "runner_target",
+      11155.0
+     ],
+     "cut_exit_time": "09:50",
+     "cut_net": -1386.75
+    },
+    {
+     "date": "2026-07-09",
+     "direction": "CE",
+     "entry_time": "09:40",
+     "stored_exit": [
+      "10:45",
+      "be_stop",
+      -220.0
+     ],
+     "cut_exit_time": "09:55",
+     "cut_net": -538.5
+    },
+    {
+     "date": "2026-07-22",
+     "direction": "PE",
+     "entry_time": "09:35",
+     "stored_exit": [
+      "15:20",
+      "square_off",
+      283.75
+     ],
+     "cut_exit_time": "09:50",
+     "cut_net": -70.5
+    },
+    {
+     "date": "2026-08-11",
+     "direction": "PE",
+     "entry_time": "09:40",
+     "stored_exit": [
+      "15:20",
+      "square_off",
+      -948.0
+     ],
+     "cut_exit_time": "09:55",
+     "cut_net": -574.25
+    },
+    {
+     "date": "2026-08-19",
+     "direction": "PE",
+     "entry_time": "09:35",
+     "stored_exit": [
+      "15:20",
+      "square_off",
+      -753.0
+     ],
+     "cut_exit_time": "09:50",
+     "cut_net": -967.5
+    },
+    {
+     "date": "2026-09-07",
+     "direction": "PE",
+     "entry_time": "09:55",
+     "stored_exit": [
+      "15:20",
+      "square_off",
+      972.75
+     ],
+     "cut_exit_time": "10:10",
+     "cut_net": 111.5
+    },
+    {
+     "date": "2026-09-24",
+     "direction": "PE",
+     "entry_time": "11:55",
+     "stored_exit": [
+      "14:50",
+      "runner_stop",
+      3680.0
+     ],
+     "cut_exit_time": "12:10",
+     "cut_net": 53.0
+    },
+    {
+     "date": "2026-10-08",
+     "direction": "PE",
+     "entry_time": "09:45",
+     "stored_exit": [
+      "15:20",
+      "runner_square_off",
+      8165.0
+     ],
+     "cut_exit_time": "10:00",
+     "cut_net": -769.25
+    }
+   ],
+   "cut_stored_net": 19163.5,
+   "cut_variant_net": -11890.25,
+   "full_stops_in_A": 9,
+   "full_stops_cut": 5
+  }
+ },
+ "EVE-18": {
+  "candidate": "NIFTY-EVE-18 \u2014 day-level second-source agreement admission for solo Skill legs",
+  "verdict": "NOT TESTABLE",
+  "failed_leg": "population (empty by construction)",
+  "population": {
+   "pool_legs": 108,
+   "distinct_date_direction_keys": 108,
+   "solo_skill_exp0_legs": 43,
+   "admissible_under_registered_rule": 0
+  },
+  "note": "The U1 pool holds exactly one leg per (date, direction) \u2014 108 legs, 108 distinct keys \u2014 with the firing systems merged into the key's source set. A same-day, same-direction key from another system is therefore not a separate object: had another system fired that direction that day, it would be inside this key's sources, making the key confirmed (standing) by definition. The registered admission set is empty by construction, so no gate ran and no number is quoted (EVE-06 / early-solo-slice precedent). The day-level-agreement route to RSI-NIFTY-008 is closed on the stored pool: loosening C3 requires new signal data outside the pool key structure, not a new filter on it."
+ }
+}

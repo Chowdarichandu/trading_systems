@@ -1,0 +1,1200 @@
+{
+ "BANKNIFTY_janoct": {
+  "real": {
+   "legs": 31,
+   "total": 15872.0,
+   "trade_days": 31,
+   "per_trade_day": 512.0,
+   "per_leg": 512.0,
+   "win_rate": 51.6,
+   "h1": 15240.0,
+   "h2": 632.0,
+   "ex_top3": 8432.0,
+   "months": {
+    "2026-01": 760.0,
+    "2026-03": -3640.0,
+    "2026-04": 8200.0,
+    "2026-05": 9920.0,
+    "2026-06": -4400.0,
+    "2026-07": 1792.0,
+    "2026-09": 3240.0
+   },
+   "green_days": 16,
+   "red_days": 15
+  },
+  "p1_nonregime": {
+   "legs": 88,
+   "total": -9767.5,
+   "trade_days": 88,
+   "per_trade_day": -110.99,
+   "per_leg": -110.99,
+   "win_rate": 40.9,
+   "h1": 6362.0,
+   "h2": -16129.5,
+   "ex_top3": -17207.5,
+   "months": {
+    "2026-01": -693.0,
+    "2026-02": 3015.5,
+    "2026-03": -3440.0,
+    "2026-04": 1959.5,
+    "2026-05": 5520.0,
+    "2026-06": 399.5,
+    "2026-07": 338.5,
+    "2026-08": -4741.5,
+    "2026-09": 874.0,
+    "2026-10": -13000.0
+   },
+   "green_days": 36,
+   "red_days": 52
+  },
+  "p2_flip": {
+   "legs": 31,
+   "total": -17636.5,
+   "trade_days": 31,
+   "per_trade_day": -568.92,
+   "per_leg": -568.92,
+   "win_rate": 29.0,
+   "h1": -18360.0,
+   "h2": 723.5,
+   "ex_top3": -25076.5,
+   "months": {
+    "2026-01": -3440.0,
+    "2026-03": 560.0,
+    "2026-04": -8600.0,
+    "2026-05": -6880.0,
+    "2026-06": 4000.0,
+    "2026-07": -2316.5,
+    "2026-09": -960.0
+   },
+   "green_days": 9,
+   "red_days": 22
+  },
+  "p3_delay": {
+   "legs": 31,
+   "total": 8345.0,
+   "trade_days": 31,
+   "per_trade_day": 269.19,
+   "per_leg": 269.19,
+   "win_rate": 45.2,
+   "h1": 11040.0,
+   "h2": -2695.0,
+   "ex_top3": 905.0,
+   "months": {
+    "2026-01": 760.0,
+    "2026-03": 560.0,
+    "2026-04": 8200.0,
+    "2026-05": 1520.0,
+    "2026-06": -200.0,
+    "2026-07": 2665.0,
+    "2026-09": -5160.0
+   },
+   "green_days": 14,
+   "red_days": 17
+  },
+  "nc": [],
+  "fired_regime": 31,
+  "fired_nonregime": 88,
+  "real_legs": [
+   {
+    "date": "2026-01-21",
+    "side": "CE",
+    "strike": 58900,
+    "expiry": "2026-01-27",
+    "conf_time": "12:35",
+    "entry_time": "12:35",
+    "entry": 491.75,
+    "exit": 581.75,
+    "exit_time": "12:45",
+    "exit_reason": "target",
+    "net": 2480.0
+   },
+   {
+    "date": "2026-01-30",
+    "side": "PE",
+    "strike": 59700,
+    "expiry": "2026-02-24",
+    "conf_time": "11:15",
+    "entry_time": "11:15",
+    "entry": 783.7,
+    "exit": 733.7,
+    "exit_time": "11:25",
+    "exit_reason": "stop",
+    "net": -1720.0
+   },
+   {
+    "date": "2026-03-02",
+    "side": "PE",
+    "strike": 59700,
+    "expiry": "2026-03-30",
+    "conf_time": "12:35",
+    "entry_time": "12:35",
+    "entry": 772.05,
+    "exit": 862.05,
+    "exit_time": "13:50",
+    "exit_reason": "target",
+    "net": 2480.0
+   },
+   {
+    "date": "2026-03-04",
+    "side": "PE",
+    "strike": 58600,
+    "expiry": "2026-03-30",
+    "conf_time": "11:00",
+    "entry_time": "11:00",
+    "entry": 950.6,
+    "exit": 900.6,
+    "exit_time": "14:05",
+    "exit_reason": "stop",
+    "net": -1720.0
+   },
+   {
+    "date": "2026-03-09",
+    "side": "CE",
+    "strike": 55800,
+    "expiry": "2026-03-30",
+    "conf_time": "11:25",
+    "entry_time": "11:25",
+    "entry": 1641.55,
+    "exit": 1591.55,
+    "exit_time": "12:00",
+    "exit_reason": "stop",
+    "net": -1720.0
+   },
+   {
+    "date": "2026-03-17",
+    "side": "CE",
+    "strike": 54500,
+    "expiry": "2026-03-30",
+    "conf_time": "11:00",
+    "entry_time": "11:00",
+    "entry": 1058.4,
+    "exit": 1008.4000000000001,
+    "exit_time": "11:10",
+    "exit_reason": "stop",
+    "net": -1720.0
+   },
+   {
+    "date": "2026-03-19",
+    "side": "PE",
+    "strike": 53800,
+    "expiry": "2026-03-30",
+    "conf_time": "11:10",
+    "entry_time": "11:10",
+    "entry": 919.0,
+    "exit": 869.0,
+    "exit_time": "11:45",
+    "exit_reason": "stop",
+    "net": -1720.0
+   },
+   {
+    "date": "2026-03-20",
+    "side": "PE",
+    "strike": 53900,
+    "expiry": "2026-03-30",
+    "conf_time": "11:50",
+    "entry_time": "11:50",
+    "entry": 860.0,
+    "exit": 950.0,
+    "exit_time": "12:05",
+    "exit_reason": "target",
+    "net": 2480.0
+   },
+   {
+    "date": "2026-03-24",
+    "side": "CE",
+    "strike": 52300,
+    "expiry": "2026-03-30",
+    "conf_time": "12:20",
+    "entry_time": "12:20",
+    "entry": 885.5,
+    "exit": 835.5,
+    "exit_time": "12:25",
+    "exit_reason": "stop",
+    "net": -1720.0
+   },
+   {
+    "date": "2026-04-01",
+    "side": "CE",
+    "strike": 51600,
+    "expiry": "2026-04-28",
+    "conf_time": "12:00",
+    "entry_time": "12:00",
+    "entry": 1804.8,
+    "exit": 1894.8,
+    "exit_time": "12:40",
+    "exit_reason": "target",
+    "net": 2480.0
+   },
+   {
+    "date": "2026-04-02",
+    "side": "CE",
+    "strike": 50400,
+    "expiry": "2026-04-28",
+    "conf_time": "12:35",
+    "entry_time": "12:35",
+    "entry": 1807.25,
+    "exit": 1897.25,
+    "exit_time": "13:00",
+    "exit_reason": "target",
+    "net": 2480.0
+   },
+   {
+    "date": "2026-04-07",
+    "side": "CE",
+    "strike": 52200,
+    "expiry": "2026-04-28",
+    "conf_time": "11:20",
+    "entry_time": "11:20",
+    "entry": 1628.75,
+    "exit": 1578.75,
+    "exit_time": "13:00",
+    "exit_reason": "stop",
+    "net": -1720.0
+   },
+   {
+    "date": "2026-04-28",
+    "side": "PE",
+    "strike": 55900,
+    "expiry": "2026-04-28",
+    "conf_time": "11:05",
+    "entry_time": "11:05",
+    "entry": 110.7,
+    "exit": 200.7,
+    "exit_time": "11:25",
+    "exit_reason": "target",
+    "net": 2480.0
+   },
+   {
+    "date": "2026-04-30",
+    "side": "CE",
+    "strike": 54700,
+    "expiry": "2026-05-26",
+    "conf_time": "12:10",
+    "entry_time": "12:10",
+    "entry": 1339.8,
+    "exit": 1429.8,
+    "exit_time": "13:20",
+    "exit_reason": "target",
+    "net": 2480.0
+   },
+   {
+    "date": "2026-05-06",
+    "side": "CE",
+    "strike": 55600,
+    "expiry": "2026-05-26",
+    "conf_time": "14:20",
+    "entry_time": "14:20",
+    "entry": 1159.75,
+    "exit": 1249.75,
+    "exit_time": "14:25",
+    "exit_reason": "target",
+    "net": 2480.0
+   },
+   {
+    "date": "2026-05-11",
+    "side": "CE",
+    "strike": 54600,
+    "expiry": "2026-05-26",
+    "conf_time": "11:10",
+    "entry_time": "11:10",
+    "entry": 1061.0,
+    "exit": 1151.0,
+    "exit_time": "11:40",
+    "exit_reason": "target",
+    "net": 2480.0
+   },
+   {
+    "date": "2026-05-14",
+    "side": "CE",
+    "strike": 53600,
+    "expiry": "2026-05-26",
+    "conf_time": "11:20",
+    "entry_time": "11:20",
+    "entry": 949.65,
+    "exit": 1039.65,
+    "exit_time": "11:30",
+    "exit_reason": "target",
+    "net": 2480.0
+   },
+   {
+    "date": "2026-05-18",
+    "side": "CE",
+    "strike": 53100,
+    "expiry": "2026-05-26",
+    "conf_time": "11:00",
+    "entry_time": "11:00",
+    "entry": 820.6,
+    "exit": 910.6,
+    "exit_time": "11:30",
+    "exit_reason": "target",
+    "net": 2480.0
+   },
+   {
+    "date": "2026-06-02",
+    "side": "PE",
+    "strike": 53300,
+    "expiry": "2026-06-30",
+    "conf_time": "11:00",
+    "entry_time": "11:00",
+    "entry": 972.45,
+    "exit": 922.45,
+    "exit_time": "11:20",
+    "exit_reason": "stop",
+    "net": -1720.0
+   },
+   {
+    "date": "2026-06-03",
+    "side": "CE",
+    "strike": 53500,
+    "expiry": "2026-06-30",
+    "conf_time": "12:30",
+    "entry_time": "12:30",
+    "entry": 1290.0,
+    "exit": 1380.0,
+    "exit_time": "12:35",
+    "exit_reason": "target",
+    "net": 2480.0
+   },
+   {
+    "date": "2026-06-04",
+    "side": "PE",
+    "strike": 54100,
+    "expiry": "2026-06-30",
+    "conf_time": "13:10",
+    "entry_time": "13:10",
+    "entry": 1002.5,
+    "exit": 952.5,
+    "exit_time": "13:55",
+    "exit_reason": "stop",
+    "net": -1720.0
+   },
+   {
+    "date": "2026-06-08",
+    "side": "PE",
+    "strike": 54100,
+    "expiry": "2026-06-30",
+    "conf_time": "11:10",
+    "entry_time": "11:10",
+    "entry": 974.0,
+    "exit": 924.0,
+    "exit_time": "12:10",
+    "exit_reason": "stop",
+    "net": -1720.0
+   },
+   {
+    "date": "2026-06-12",
+    "side": "PE",
+    "strike": 55800,
+    "expiry": "2026-06-30",
+    "conf_time": "12:10",
+    "entry_time": "12:10",
+    "entry": 838.95,
+    "exit": 788.95,
+    "exit_time": "12:25",
+    "exit_reason": "stop",
+    "net": -1720.0
+   },
+   {
+    "date": "2026-07-13",
+    "side": "PE",
+    "strike": 57800,
+    "expiry": "2026-07-28",
+    "conf_time": "11:55",
+    "entry_time": "11:55",
+    "entry": 680.9,
+    "exit": 630.9,
+    "exit_time": "12:10",
+    "exit_reason": "stop",
+    "net": -1720.0
+   },
+   {
+    "date": "2026-07-20",
+    "side": "CE",
+    "strike": 57800,
+    "expiry": "2026-07-28",
+    "conf_time": "13:10",
+    "entry_time": "13:10",
+    "entry": 587.4,
+    "exit": 677.4,
+    "exit_time": "13:45",
+    "exit_reason": "target",
+    "net": 2480.0
+   },
+   {
+    "date": "2026-07-24",
+    "side": "CE",
+    "strike": 56200,
+    "expiry": "2026-07-28",
+    "conf_time": "11:20",
+    "entry_time": "11:20",
+    "entry": 417.5,
+    "exit": 507.5,
+    "exit_time": "12:00",
+    "exit_reason": "target",
+    "net": 2480.0
+   },
+   {
+    "date": "2026-07-27",
+    "side": "CE",
+    "strike": 57200,
+    "expiry": "2026-07-28",
+    "conf_time": "14:25",
+    "entry_time": "14:25",
+    "entry": 194.0,
+    "exit": 169.4,
+    "exit_time": "15:10",
+    "exit_reason": "square_off",
+    "net": -958.0
+   },
+   {
+    "date": "2026-07-29",
+    "side": "CE",
+    "strike": 57100,
+    "expiry": "2026-08-25",
+    "conf_time": "11:00",
+    "entry_time": "11:00",
+    "entry": 969.6,
+    "exit": 960.6,
+    "exit_time": "15:10",
+    "exit_reason": "square_off",
+    "net": -490.0
+   },
+   {
+    "date": "2026-09-01",
+    "side": "CE",
+    "strike": 57500,
+    "expiry": "2026-09-29",
+    "conf_time": "11:00",
+    "entry_time": "11:00",
+    "entry": 891.7,
+    "exit": 981.7,
+    "exit_time": "11:15",
+    "exit_reason": "target",
+    "net": 2480.0
+   },
+   {
+    "date": "2026-09-02",
+    "side": "PE",
+    "strike": 57000,
+    "expiry": "2026-09-29",
+    "conf_time": "11:20",
+    "entry_time": "11:20",
+    "entry": 590.4,
+    "exit": 540.4,
+    "exit_time": "12:10",
+    "exit_reason": "stop",
+    "net": -1720.0
+   },
+   {
+    "date": "2026-09-11",
+    "side": "CE",
+    "strike": 56000,
+    "expiry": "2026-09-29",
+    "conf_time": "11:00",
+    "entry_time": "11:00",
+    "entry": 790.3,
+    "exit": 880.3,
+    "exit_time": "11:10",
+    "exit_reason": "target",
+    "net": 2480.0
+   }
+  ]
+ },
+ "BANKNIFTY_november": {
+  "real": {
+   "legs": 4,
+   "total": 2141.0,
+   "trade_days": 4,
+   "per_trade_day": 535.25,
+   "per_leg": 535.25,
+   "win_rate": 50.0,
+   "h1": 0,
+   "h2": 2141.0,
+   "ex_top3": -1720.0,
+   "months": {
+    "2026-11": 2141.0
+   },
+   "green_days": 2,
+   "red_days": 2
+  },
+  "p1_nonregime": {
+   "legs": 3,
+   "total": 3240.0,
+   "trade_days": 3,
+   "per_trade_day": 1080.0,
+   "per_leg": 1080.0,
+   "win_rate": 66.7,
+   "h1": 0,
+   "h2": 3240.0,
+   "ex_top3": 0.0,
+   "months": {
+    "2026-11": 3240.0
+   },
+   "green_days": 2,
+   "red_days": 1
+  },
+  "p2_flip": {
+   "legs": 4,
+   "total": -6880.0,
+   "trade_days": 4,
+   "per_trade_day": -1720.0,
+   "per_leg": -1720.0,
+   "win_rate": 0.0,
+   "h1": 0,
+   "h2": -6880.0,
+   "ex_top3": -1720.0,
+   "months": {
+    "2026-11": -6880.0
+   },
+   "green_days": 0,
+   "red_days": 4
+  },
+  "p3_delay": {
+   "legs": 3,
+   "total": -960.0,
+   "trade_days": 3,
+   "per_trade_day": -320.0,
+   "per_leg": -320.0,
+   "win_rate": 33.3,
+   "h1": 0,
+   "h2": -960.0,
+   "ex_top3": 0.0,
+   "months": {
+    "2026-11": -960.0
+   },
+   "green_days": 1,
+   "red_days": 2
+  },
+  "nc": [],
+  "fired_regime": 4,
+  "fired_nonregime": 3,
+  "real_legs": [
+   {
+    "date": "2026-11-02",
+    "side": "PE",
+    "strike": 54900,
+    "expiry": "2026-11-23",
+    "conf_time": "11:00",
+    "entry_time": "11:00",
+    "entry": 688.35,
+    "exit": 778.35,
+    "exit_time": "13:05",
+    "exit_reason": "target",
+    "net": 2480.0
+   },
+   {
+    "date": "2026-11-03",
+    "side": "PE",
+    "strike": 55300,
+    "expiry": "2026-11-23",
+    "conf_time": "14:50",
+    "entry_time": "14:50",
+    "entry": 677.2,
+    "exit": 647.9,
+    "exit_time": "15:10",
+    "exit_reason": "square_off",
+    "net": -1099.0
+   },
+   {
+    "date": "2026-11-05",
+    "side": "CE",
+    "strike": 57100,
+    "expiry": "2026-11-23",
+    "conf_time": "11:00",
+    "entry_time": "11:00",
+    "entry": 709.5,
+    "exit": 799.5,
+    "exit_time": "11:25",
+    "exit_reason": "target",
+    "net": 2480.0
+   },
+   {
+    "date": "2026-11-11",
+    "side": "PE",
+    "strike": 60700,
+    "expiry": "2026-11-23",
+    "conf_time": "13:30",
+    "entry_time": "13:30",
+    "entry": 822.0,
+    "exit": 772.0,
+    "exit_time": "13:40",
+    "exit_reason": "stop",
+    "net": -1720.0
+   }
+  ]
+ },
+ "NIFTY_janoct": {
+  "real": {
+   "legs": 3,
+   "total": 6480.25,
+   "trade_days": 3,
+   "per_trade_day": 2160.08,
+   "per_leg": 2160.08,
+   "win_rate": 66.7,
+   "h1": 0,
+   "h2": 6480.25,
+   "ex_top3": 0.0,
+   "months": {
+    "2026-06": 8890.75,
+    "2026-07": -2410.5
+   },
+   "green_days": 2,
+   "red_days": 1
+  },
+  "p1_nonregime": {
+   "legs": 10,
+   "total": -1722.25,
+   "trade_days": 10,
+   "per_trade_day": -172.22,
+   "per_leg": -172.22,
+   "win_rate": 40.0,
+   "h1": 5630.0,
+   "h2": -7352.25,
+   "ex_top3": -15788.0,
+   "months": {
+    "2026-05": 5630.0,
+    "2026-06": -3470.0,
+    "2026-08": -3911.0,
+    "2026-09": -198.5,
+    "2026-10": 227.25
+   },
+   "green_days": 4,
+   "red_days": 6
+  },
+  "p2_flip": {
+   "legs": 3,
+   "total": -7813.25,
+   "trade_days": 3,
+   "per_trade_day": -2604.42,
+   "per_leg": -2604.42,
+   "win_rate": 0.0,
+   "h1": 0,
+   "h2": -7813.25,
+   "ex_top3": 0.0,
+   "months": {
+    "2026-06": -6940.0,
+    "2026-08": -873.25
+   },
+   "green_days": 0,
+   "red_days": 3
+  },
+  "p3_delay": {
+   "legs": 3,
+   "total": 7237.5,
+   "trade_days": 3,
+   "per_trade_day": 2412.5,
+   "per_leg": 2412.5,
+   "win_rate": 66.7,
+   "h1": 0,
+   "h2": 7237.5,
+   "ex_top3": 0.0,
+   "months": {
+    "2026-06": 8725.0,
+    "2026-07": -1487.5
+   },
+   "green_days": 2,
+   "red_days": 1
+  },
+  "nc": [
+   [
+    "2026-01-05",
+    "p1:series_starts_after_0920"
+   ],
+   [
+    "2026-01-06",
+    "p1:series_starts_after_0920"
+   ],
+   [
+    "2026-01-07",
+    "p1:series_starts_after_0920"
+   ],
+   [
+    "2026-01-12",
+    "p1:no_premium_store"
+   ],
+   [
+    "2026-01-13",
+    "p1:series_starts_after_0920"
+   ],
+   [
+    "2026-01-14",
+    "p1:no_premium_store"
+   ],
+   [
+    "2026-01-16",
+    "p1:series_starts_after_0920"
+   ],
+   [
+    "2026-01-19",
+    "p1:series_starts_after_0920"
+   ],
+   [
+    "2026-01-21",
+    "p1:series_starts_after_0920"
+   ],
+   [
+    "2026-01-27",
+    "p1:series_starts_after_0920"
+   ],
+   [
+    "2026-01-28",
+    "p1:series_starts_after_0920"
+   ],
+   [
+    "2026-01-29",
+    "p1:series_starts_after_0920"
+   ],
+   [
+    "2026-01-30",
+    "real:series_starts_after_0920"
+   ],
+   [
+    "2026-02-01",
+    "p1:series_starts_after_0920"
+   ],
+   [
+    "2026-02-02",
+    "p1:series_starts_after_0920"
+   ],
+   [
+    "2026-02-06",
+    "p1:series_starts_after_0920"
+   ],
+   [
+    "2026-02-09",
+    "real:series_starts_after_0920"
+   ],
+   [
+    "2026-02-10",
+    "p1:series_starts_after_0920"
+   ],
+   [
+    "2026-02-11",
+    "p1:series_starts_after_0920"
+   ],
+   [
+    "2026-02-13",
+    "real:series_starts_after_0920"
+   ],
+   [
+    "2026-02-18",
+    "p1:series_starts_after_0920"
+   ],
+   [
+    "2026-02-23",
+    "p1:series_starts_after_0920"
+   ],
+   [
+    "2026-02-25",
+    "p1:series_starts_after_0920"
+   ],
+   [
+    "2026-02-26",
+    "p1:series_starts_after_0920"
+   ],
+   [
+    "2026-03-02",
+    "real:series_starts_after_0920"
+   ],
+   [
+    "2026-03-04",
+    "real:series_starts_after_0920"
+   ],
+   [
+    "2026-03-05",
+    "real:series_starts_after_0920"
+   ],
+   [
+    "2026-03-09",
+    "real:series_starts_after_0920"
+   ],
+   [
+    "2026-03-10",
+    "real:series_starts_after_0920"
+   ],
+   [
+    "2026-03-12",
+    "real:series_starts_after_0920"
+   ],
+   [
+    "2026-03-13",
+    "real:series_starts_after_0920"
+   ],
+   [
+    "2026-03-16",
+    "p1:series_starts_after_0920"
+   ],
+   [
+    "2026-03-17",
+    "real:series_starts_after_0920"
+   ],
+   [
+    "2026-03-19",
+    "real:series_starts_after_0920"
+   ],
+   [
+    "2026-03-20",
+    "real:series_starts_after_0920"
+   ],
+   [
+    "2026-03-24",
+    "real:series_starts_after_0920"
+   ],
+   [
+    "2026-04-01",
+    "real:series_starts_after_0920"
+   ],
+   [
+    "2026-04-02",
+    "real:series_starts_after_0920"
+   ],
+   [
+    "2026-04-06",
+    "p1:series_starts_after_0920"
+   ],
+   [
+    "2026-04-09",
+    "p1:series_starts_after_0920"
+   ],
+   [
+    "2026-04-15",
+    "real:series_starts_after_0920"
+   ],
+   [
+    "2026-04-22",
+    "p1:series_starts_after_0920"
+   ],
+   [
+    "2026-04-23",
+    "real:series_starts_after_0920"
+   ],
+   [
+    "2026-04-27",
+    "p1:series_starts_after_0920"
+   ],
+   [
+    "2026-04-28",
+    "p1:series_starts_after_0920"
+   ],
+   [
+    "2026-04-30",
+    "real:series_starts_after_0920"
+   ],
+   [
+    "2026-05-04",
+    "p1:series_starts_after_0920"
+   ],
+   [
+    "2026-05-05",
+    "p1:series_starts_after_0920"
+   ],
+   [
+    "2026-05-06",
+    "p1:no_premium_store"
+   ],
+   [
+    "2026-05-07",
+    "p1:series_starts_after_0920"
+   ],
+   [
+    "2026-05-08",
+    "p1:series_starts_after_0920"
+   ],
+   [
+    "2026-05-11",
+    "real:series_starts_after_0920"
+   ],
+   [
+    "2026-05-15",
+    "p1:series_starts_after_0920"
+   ],
+   [
+    "2026-05-18",
+    "real:series_starts_after_0920"
+   ],
+   [
+    "2026-05-19",
+    "p1:series_starts_after_0920"
+   ],
+   [
+    "2026-05-22",
+    "p1:series_starts_after_0920"
+   ],
+   [
+    "2026-05-25",
+    "real:series_starts_after_0920"
+   ],
+   [
+    "2026-05-26",
+    "p1:series_starts_after_0920"
+   ],
+   [
+    "2026-05-27",
+    "p1:series_starts_after_0920"
+   ],
+   [
+    "2026-05-29",
+    "p1:series_starts_after_0920"
+   ],
+   [
+    "2026-06-02",
+    "real:series_starts_after_0920"
+   ],
+   [
+    "2026-06-03",
+    "real:no_premium_store"
+   ],
+   [
+    "2026-06-04",
+    "p1:series_starts_after_0920"
+   ],
+   [
+    "2026-06-05",
+    "p1:series_starts_after_0920"
+   ],
+   [
+    "2026-06-08",
+    "real:no_premium_store"
+   ],
+   [
+    "2026-06-09",
+    "real:series_starts_after_0920"
+   ],
+   [
+    "2026-06-10",
+    "p1:no_premium_store"
+   ],
+   [
+    "2026-06-17",
+    "p1:series_starts_after_0920"
+   ],
+   [
+    "2026-06-18",
+    "p1:series_starts_after_0920"
+   ],
+   [
+    "2026-06-19",
+    "real:series_starts_after_0920"
+   ],
+   [
+    "2026-06-22",
+    "p1:series_starts_after_0920"
+   ],
+   [
+    "2026-06-23",
+    "p1:series_starts_after_0920"
+   ],
+   [
+    "2026-06-25",
+    "p1:series_starts_after_0920"
+   ],
+   [
+    "2026-06-29",
+    "p1:series_starts_after_0920"
+   ],
+   [
+    "2026-06-30",
+    "p1:series_starts_after_0920"
+   ],
+   [
+    "2026-07-02",
+    "p1:series_starts_after_0920"
+   ],
+   [
+    "2026-07-03",
+    "real:series_starts_after_0920"
+   ],
+   [
+    "2026-07-07",
+    "p1:series_starts_after_0920"
+   ],
+   [
+    "2026-07-08",
+    "p1:series_starts_after_0920"
+   ],
+   [
+    "2026-07-09",
+    "p1:series_starts_after_0920"
+   ],
+   [
+    "2026-07-10",
+    "real:series_starts_after_0920"
+   ],
+   [
+    "2026-07-14",
+    "real:series_starts_after_0920"
+   ],
+   [
+    "2026-07-15",
+    "p1:series_starts_after_0920"
+   ],
+   [
+    "2026-07-16",
+    "p1:series_starts_after_0920"
+   ],
+   [
+    "2026-07-20",
+    "real:series_starts_after_0920"
+   ],
+   [
+    "2026-07-23",
+    "p1:series_starts_after_0920"
+   ],
+   [
+    "2026-07-24",
+    "real:series_starts_after_0920"
+   ],
+   [
+    "2026-07-28",
+    "p1:series_starts_after_0920"
+   ],
+   [
+    "2026-07-30",
+    "p1:series_starts_after_0920"
+   ],
+   [
+    "2026-07-31",
+    "p1:series_starts_after_0920"
+   ],
+   [
+    "2026-08-07",
+    "p1:no_premium_store"
+   ],
+   [
+    "2026-08-10",
+    "p1:no_premium_store"
+   ],
+   [
+    "2026-08-13",
+    "p1:series_starts_after_0920"
+   ],
+   [
+    "2026-08-14",
+    "p1:series_starts_after_0920"
+   ],
+   [
+    "2026-08-17",
+    "p1:series_starts_after_0920"
+   ],
+   [
+    "2026-08-20",
+    "real:series_starts_after_0920"
+   ],
+   [
+    "2026-08-21",
+    "p1:series_starts_after_0920"
+   ],
+   [
+    "2026-08-25",
+    "p1:series_starts_after_0920"
+   ],
+   [
+    "2026-08-28",
+    "p1:series_starts_after_0920"
+   ],
+   [
+    "2026-08-31",
+    "p1:series_starts_after_0920"
+   ],
+   [
+    "2026-09-01",
+    "p1:series_starts_after_0920"
+   ],
+   [
+    "2026-09-02",
+    "real:series_starts_after_0920"
+   ],
+   [
+    "2026-09-04",
+    "p1:series_starts_after_0920"
+   ],
+   [
+    "2026-09-17",
+    "p1:series_starts_after_0920"
+   ],
+   [
+    "2026-09-18",
+    "p1:series_starts_after_0920"
+   ],
+   [
+    "2026-09-24",
+    "real:series_starts_after_0920"
+   ],
+   [
+    "2026-09-25",
+    "p1:series_starts_after_0920"
+   ],
+   [
+    "2026-09-29",
+    "p1:series_starts_after_0920"
+   ],
+   [
+    "2026-10-07",
+    "p1:series_starts_after_0920"
+   ],
+   [
+    "2026-10-14",
+    "p1:series_starts_after_0920"
+   ],
+   [
+    "2026-10-22",
+    "p1:series_starts_after_0920"
+   ],
+   [
+    "2026-10-26",
+    "p1:series_starts_after_0920"
+   ],
+   [
+    "2026-10-27",
+    "p1:series_starts_after_0920"
+   ],
+   [
+    "2026-10-28",
+    "p1:series_starts_after_0920"
+   ]
+  ],
+  "fired_regime": 38,
+  "fired_nonregime": 89,
+  "real_legs": [
+   {
+    "date": "2026-06-12",
+    "side": "CE",
+    "strike": 23450,
+    "expiry": "2026-06-16",
+    "conf_time": "13:30",
+    "entry_time": "13:30",
+    "entry": 121.2,
+    "exit": 211.2,
+    "exit_time": "14:25",
+    "exit_reason": "target",
+    "net": 5630.0
+   },
+   {
+    "date": "2026-06-15",
+    "side": "PE",
+    "strike": 23950,
+    "expiry": "2026-06-16",
+    "conf_time": "11:10",
+    "entry_time": "11:10",
+    "entry": 92.0,
+    "exit": 145.55,
+    "exit_time": "15:10",
+    "exit_reason": "square_off",
+    "net": 3260.75
+   },
+   {
+    "date": "2026-07-27",
+    "side": "PE",
+    "strike": 23900,
+    "expiry": "2026-07-28",
+    "conf_time": "11:10",
+    "entry_time": "11:10",
+    "entry": 54.55,
+    "exit": 20.85,
+    "exit_time": "15:10",
+    "exit_reason": "square_off",
+    "net": -2410.5
+   }
+  ]
+ }
+}

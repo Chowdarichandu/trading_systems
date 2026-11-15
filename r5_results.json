@@ -1,0 +1,1056 @@
+[
+ {
+  "cycle": "R5-01",
+  "label": "GAP-FADE SHORT >=1.5%, UP-cell days only (09:20, T125/S050)",
+  "note": "sleeve trades {'2025': 93, '2026': 18}; timing: entries at bar 1, signal complete at bar-0 open print -> 0 violations by construction; placebos: mirror-follow book 314289.9; one-bar-late book 288110.62",
+  "verdict": false,
+  "legs": {
+   "a_combined_rises": false,
+   "b_2025_no_fall": false,
+   "c_2026_no_fall": false,
+   "d_cells_positive": false,
+   "e_extop3": false,
+   "f_no_green_month_flips": false,
+   "flip_detail": [
+    "2025-05:2498.99->-326.09",
+    "2025-12:1207.95->-2130.83"
+   ],
+   "g_no_half_flips": false,
+   "h_beats_placebos": false,
+   "i_timing_clean": true,
+   "x_2026_floor_holds": true
+  },
+  "sums": {
+   "base_combined": 299721.18,
+   "variant_combined": 284923.25
+  },
+  "base": {
+   "2025": {
+    "total": 76427.84,
+    "jan_oct": 77806.57,
+    "ex_top3": 23764.74,
+    "trades": 857
+   },
+   "2026": {
+    "total": 223293.34,
+    "jan_oct": 223293.34,
+    "ex_top3": 75557.94,
+    "trades": 899
+   }
+  },
+  "var": {
+   "2025": {
+    "total": 63376.31,
+    "jan_oct": 70868.47,
+    "ex_top3": 12227.85,
+    "trades": 950
+   },
+   "2026": {
+    "total": 221546.94,
+    "jan_oct": 221546.94,
+    "ex_top3": 74625.64,
+    "trades": 917
+   }
+  },
+  "base_cells": {
+   "2025": {
+    "DOWN": 42688.79,
+    "FLAT": 20890.05,
+    "UP": 12849.0
+   },
+   "2026": {
+    "DOWN": 202017.65,
+    "FLAT": 5215.0,
+    "UP": 16060.69
+   }
+  },
+  "var_cells": {
+   "2025": {
+    "DOWN": 42688.79,
+    "FLAT": 20890.05,
+    "UP": -202.53
+   },
+   "2026": {
+    "DOWN": 202017.65,
+    "FLAT": 5215.0,
+    "UP": 14314.29
+   }
+  },
+  "banked": false,
+  "standalone": {
+   "2025": -13051.53,
+   "2026": -1746.4
+  }
+ },
+ {
+  "cycle": "R5-02",
+  "label": "GAP-FADE SHORT >=1.5%, UP+FLAT-cell days (09:20, T125/S050)",
+  "note": "sleeve trades {'2025': 101, '2026': 69}; timing: entries at bar 1, signal complete at bar-0 open print -> 0 violations by construction; placebos: mirror-follow book 304912.96; one-bar-late book 291204.85",
+  "verdict": false,
+  "legs": {
+   "a_combined_rises": false,
+   "b_2025_no_fall": false,
+   "c_2026_no_fall": false,
+   "d_cells_positive": false,
+   "e_extop3": false,
+   "f_no_green_month_flips": false,
+   "flip_detail": [
+    "2025-05:2498.99->-326.09",
+    "2025-12:1207.95->-2130.83"
+   ],
+   "g_no_half_flips": false,
+   "h_beats_placebos": false,
+   "i_timing_clean": true,
+   "x_2026_floor_holds": true
+  },
+  "sums": {
+   "base_combined": 299721.18,
+   "variant_combined": 286150.44
+  },
+  "base": {
+   "2025": {
+    "total": 76427.84,
+    "jan_oct": 77806.57,
+    "ex_top3": 23764.74,
+    "trades": 857
+   },
+   "2026": {
+    "total": 223293.34,
+    "jan_oct": 223293.34,
+    "ex_top3": 75557.94,
+    "trades": 899
+   }
+  },
+  "var": {
+   "2025": {
+    "total": 63994.34,
+    "jan_oct": 71486.5,
+    "ex_top3": 13584.38,
+    "trades": 958
+   },
+   "2026": {
+    "total": 222156.1,
+    "jan_oct": 222156.1,
+    "ex_top3": 78769.15,
+    "trades": 968
+   }
+  },
+  "base_cells": {
+   "2025": {
+    "DOWN": 42688.79,
+    "FLAT": 20890.05,
+    "UP": 12849.0
+   },
+   "2026": {
+    "DOWN": 202017.65,
+    "FLAT": 5215.0,
+    "UP": 16060.69
+   }
+  },
+  "var_cells": {
+   "2025": {
+    "DOWN": 42688.79,
+    "FLAT": 21508.08,
+    "UP": -202.53
+   },
+   "2026": {
+    "DOWN": 202017.65,
+    "FLAT": 5824.16,
+    "UP": 14314.29
+   }
+  },
+  "banked": false,
+  "standalone": {
+   "2025": -12433.5,
+   "2026": -1137.24
+  }
+ },
+ {
+  "cycle": "R5-03",
+  "label": "GAP-FADE LONG >=1.25% swap (DOWN+FLAT, 09:20, T125/S050)",
+  "note": "sleeve trades {'2025': 112, '2026': 292}; timing: entries at bar 1, signal complete at bar-0 open print -> 0 violations by construction; placebos: mirror-follow book 243147.39; one-bar-late book 267118.88",
+  "verdict": false,
+  "legs": {
+   "a_combined_rises": true,
+   "b_2025_no_fall": true,
+   "c_2026_no_fall": true,
+   "d_cells_positive": true,
+   "e_extop3": false,
+   "f_no_green_month_flips": true,
+   "flip_detail": [],
+   "g_no_half_flips": true,
+   "h_beats_placebos": true,
+   "i_timing_clean": true,
+   "x_2026_floor_holds": true
+  },
+  "sums": {
+   "base_combined": 299721.18,
+   "variant_combined": 313094.05
+  },
+  "base": {
+   "2025": {
+    "total": 76427.84,
+    "jan_oct": 77806.57,
+    "ex_top3": 23764.74,
+    "trades": 857
+   },
+   "2026": {
+    "total": 223293.34,
+    "jan_oct": 223293.34,
+    "ex_top3": 75557.94,
+    "trades": 899
+   }
+  },
+  "var": {
+   "2025": {
+    "total": 87022.5,
+    "jan_oct": 88401.23,
+    "ex_top3": 27314.21,
+    "trades": 888
+   },
+   "2026": {
+    "total": 226071.55,
+    "jan_oct": 226071.55,
+    "ex_top3": 67253.47,
+    "trades": 972
+   }
+  },
+  "base_cells": {
+   "2025": {
+    "DOWN": 42688.79,
+    "FLAT": 20890.05,
+    "UP": 12849.0
+   },
+   "2026": {
+    "DOWN": 202017.65,
+    "FLAT": 5215.0,
+    "UP": 16060.69
+   }
+  },
+  "var_cells": {
+   "2025": {
+    "DOWN": 51967.45,
+    "FLAT": 22206.05,
+    "UP": 12849.0
+   },
+   "2026": {
+    "DOWN": 202931.28,
+    "FLAT": 7079.58,
+    "UP": 16060.69
+   }
+  },
+  "banked": false,
+  "standalone": {
+   "2025": 32064.93,
+   "2026": 4270.42
+  }
+ },
+ {
+  "cycle": "R5-04",
+  "label": "GAP-FADE LONG >=1.75% swap (DOWN+FLAT, 09:20, T125/S050)",
+  "note": "sleeve trades {'2025': 63, '2026': 156}; timing: entries at bar 1, signal complete at bar-0 open print -> 0 violations by construction; placebos: mirror-follow book 273367.43; one-bar-late book 261140.16",
+  "verdict": false,
+  "legs": {
+   "a_combined_rises": false,
+   "b_2025_no_fall": false,
+   "c_2026_no_fall": false,
+   "d_cells_positive": true,
+   "e_extop3": true,
+   "f_no_green_month_flips": true,
+   "flip_detail": [],
+   "g_no_half_flips": true,
+   "h_beats_placebos": true,
+   "i_timing_clean": true,
+   "x_2026_floor_holds": true
+  },
+  "sums": {
+   "base_combined": 299721.18,
+   "variant_combined": 292175.88
+  },
+  "base": {
+   "2025": {
+    "total": 76427.84,
+    "jan_oct": 77806.57,
+    "ex_top3": 23764.74,
+    "trades": 857
+   },
+   "2026": {
+    "total": 223293.34,
+    "jan_oct": 223293.34,
+    "ex_top3": 75557.94,
+    "trades": 899
+   }
+  },
+  "var": {
+   "2025": {
+    "total": 72432.79,
+    "jan_oct": 73811.52,
+    "ex_top3": 21786.03,
+    "trades": 839
+   },
+   "2026": {
+    "total": 219743.09,
+    "jan_oct": 219743.09,
+    "ex_top3": 78441.76,
+    "trades": 836
+   }
+  },
+  "base_cells": {
+   "2025": {
+    "DOWN": 42688.79,
+    "FLAT": 20890.05,
+    "UP": 12849.0
+   },
+   "2026": {
+    "DOWN": 202017.65,
+    "FLAT": 5215.0,
+    "UP": 16060.69
+   }
+  },
+  "var_cells": {
+   "2025": {
+    "DOWN": 38463.27,
+    "FLAT": 21120.52,
+    "UP": 12849.0
+   },
+   "2026": {
+    "DOWN": 197129.08,
+    "FLAT": 6553.32,
+    "UP": 16060.69
+   }
+  },
+  "banked": false,
+  "standalone": {
+   "2025": 17475.22,
+   "2026": -2058.04
+  }
+ },
+ {
+  "cycle": "R5-05",
+  "label": "GAP-FADE LONG exits T100/S065 swap (thr 1.5, DOWN+FLAT, 09:20)",
+  "note": "sleeve trades {'2025': 81, '2026': 219}; timing: entries at bar 1, signal complete at bar-0 open print -> 0 violations by construction; placebos: mirror-follow book 244463.84; one-bar-late book 268186.78",
+  "verdict": false,
+  "legs": {
+   "a_combined_rises": false,
+   "b_2025_no_fall": false,
+   "c_2026_no_fall": false,
+   "d_cells_positive": true,
+   "e_extop3": true,
+   "f_no_green_month_flips": true,
+   "flip_detail": [],
+   "g_no_half_flips": true,
+   "h_beats_placebos": true,
+   "i_timing_clean": true,
+   "x_2026_floor_holds": true
+  },
+  "sums": {
+   "base_combined": 299721.18,
+   "variant_combined": 297038.23
+  },
+  "base": {
+   "2025": {
+    "total": 76427.84,
+    "jan_oct": 77806.57,
+    "ex_top3": 23764.74,
+    "trades": 857
+   },
+   "2026": {
+    "total": 223293.34,
+    "jan_oct": 223293.34,
+    "ex_top3": 75557.94,
+    "trades": 899
+   }
+  },
+  "var": {
+   "2025": {
+    "total": 73769.26,
+    "jan_oct": 75147.99,
+    "ex_top3": 23108.76,
+    "trades": 857
+   },
+   "2026": {
+    "total": 223268.97,
+    "jan_oct": 223268.97,
+    "ex_top3": 80728.38,
+    "trades": 899
+   }
+  },
+  "base_cells": {
+   "2025": {
+    "DOWN": 42688.79,
+    "FLAT": 20890.05,
+    "UP": 12849.0
+   },
+   "2026": {
+    "DOWN": 202017.65,
+    "FLAT": 5215.0,
+    "UP": 16060.69
+   }
+  },
+  "var_cells": {
+   "2025": {
+    "DOWN": 44338.71,
+    "FLAT": 16581.55,
+    "UP": 12849.0
+   },
+   "2026": {
+    "DOWN": 196646.23,
+    "FLAT": 10562.05,
+    "UP": 16060.69
+   }
+  },
+  "banked": false,
+  "standalone": {
+   "2025": 18811.69,
+   "2026": 1467.84
+  }
+ },
+ {
+  "cycle": "R5-06",
+  "label": "GAP-FADE LONG exits T150/S065 swap (thr 1.5, DOWN+FLAT, 09:20)",
+  "note": "sleeve trades {'2025': 81, '2026': 219}; timing: entries at bar 1, signal complete at bar-0 open print -> 0 violations by construction; placebos: mirror-follow book 243318.55; one-bar-late book 248467.9",
+  "verdict": false,
+  "legs": {
+   "a_combined_rises": true,
+   "b_2025_no_fall": true,
+   "c_2026_no_fall": false,
+   "d_cells_positive": true,
+   "e_extop3": true,
+   "f_no_green_month_flips": true,
+   "flip_detail": [],
+   "g_no_half_flips": true,
+   "h_beats_placebos": true,
+   "i_timing_clean": true,
+   "x_2026_floor_holds": true
+  },
+  "sums": {
+   "base_combined": 299721.18,
+   "variant_combined": 299827.76
+  },
+  "base": {
+   "2025": {
+    "total": 76427.84,
+    "jan_oct": 77806.57,
+    "ex_top3": 23764.74,
+    "trades": 857
+   },
+   "2026": {
+    "total": 223293.34,
+    "jan_oct": 223293.34,
+    "ex_top3": 75557.94,
+    "trades": 899
+   }
+  },
+  "var": {
+   "2025": {
+    "total": 83559.03,
+    "jan_oct": 84937.76,
+    "ex_top3": 29287.48,
+    "trades": 857
+   },
+   "2026": {
+    "total": 216268.73,
+    "jan_oct": 216268.73,
+    "ex_top3": 75464.9,
+    "trades": 899
+   }
+  },
+  "base_cells": {
+   "2025": {
+    "DOWN": 42688.79,
+    "FLAT": 20890.05,
+    "UP": 12849.0
+   },
+   "2026": {
+    "DOWN": 202017.65,
+    "FLAT": 5215.0,
+    "UP": 16060.69
+   }
+  },
+  "var_cells": {
+   "2025": {
+    "DOWN": 46913.81,
+    "FLAT": 23796.22,
+    "UP": 12849.0
+   },
+   "2026": {
+    "DOWN": 193508.43,
+    "FLAT": 6699.61,
+    "UP": 16060.69
+   }
+  },
+  "banked": false,
+  "standalone": {
+   "2025": 28601.46,
+   "2026": -5532.4
+  }
+ },
+ {
+  "cycle": "R5-07",
+  "label": "NON-EVENT REVERSAL LONG (|move by 10:30| >=2.0% on non-event days, entry 10:35, T100/S065)",
+  "note": "population trades {'2025': 303, '2026': 388}; timing audit: entry bar (10:35) strictly after signal bar (10:25) on every row, violations counted = 0; placebos: opposite-direction book 234944.85; one-bar-late book 301424.12",
+  "verdict": false,
+  "legs": {
+   "a_combined_rises": true,
+   "b_2025_no_fall": true,
+   "c_2026_no_fall": true,
+   "d_cells_positive": true,
+   "e_extop3": false,
+   "f_no_green_month_flips": false,
+   "flip_detail": [
+    "2025-12:1207.95->-632.67"
+   ],
+   "g_no_half_flips": true,
+   "h_beats_placebos": true,
+   "i_timing_clean": true,
+   "x_2026_floor_holds": true
+  },
+  "sums": {
+   "base_combined": 299721.18,
+   "variant_combined": 336237.19
+  },
+  "base": {
+   "2025": {
+    "total": 76427.84,
+    "jan_oct": 77806.57,
+    "ex_top3": 23764.74,
+    "trades": 857
+   },
+   "2026": {
+    "total": 223293.34,
+    "jan_oct": 223293.34,
+    "ex_top3": 75557.94,
+    "trades": 899
+   }
+  },
+  "var": {
+   "2025": {
+    "total": 88637.29,
+    "jan_oct": 90121.11,
+    "ex_top3": 21800.93,
+    "trades": 1160
+   },
+   "2026": {
+    "total": 247599.9,
+    "jan_oct": 247599.9,
+    "ex_top3": 65078.15,
+    "trades": 1287
+   }
+  },
+  "base_cells": {
+   "2025": {
+    "DOWN": 42688.79,
+    "FLAT": 20890.05,
+    "UP": 12849.0
+   },
+   "2026": {
+    "DOWN": 202017.65,
+    "FLAT": 5215.0,
+    "UP": 16060.69
+   }
+  },
+  "var_cells": {
+   "2025": {
+    "DOWN": 36753.69,
+    "FLAT": 27369.26,
+    "UP": 24514.34
+   },
+   "2026": {
+    "DOWN": 229027.27,
+    "FLAT": 10628.3,
+    "UP": 7944.33
+   }
+  },
+  "banked": false,
+  "standalone": {
+   "2025": 12209.45,
+   "2026": 24306.56
+  },
+  "population_trades": {
+   "2025": 303,
+   "2026": 388
+  }
+ },
+ {
+  "cycle": "R5-08",
+  "label": "NON-EVENT REVERSAL SHORT (|move by 10:30| >=2.0% on non-event days, entry 10:35, T100/S065)",
+  "note": "population trades {'2025': 436, '2026': 382}; timing audit: entry bar (10:35) strictly after signal bar (10:25) on every row, violations counted = 0; placebos: opposite-direction book 280764.41; one-bar-late book 248784.34",
+  "verdict": false,
+  "legs": {
+   "a_combined_rises": false,
+   "b_2025_no_fall": false,
+   "c_2026_no_fall": false,
+   "d_cells_positive": false,
+   "e_extop3": false,
+   "f_no_green_month_flips": false,
+   "flip_detail": [
+    "2025-12:1207.95->-2485.26",
+    "2026-07:7806.57->-779.34"
+   ],
+   "g_no_half_flips": false,
+   "h_beats_placebos": false,
+   "i_timing_clean": true,
+   "x_2026_floor_holds": true
+  },
+  "sums": {
+   "base_combined": 299721.18,
+   "variant_combined": 240297.74
+  },
+  "base": {
+   "2025": {
+    "total": 76427.84,
+    "jan_oct": 77806.57,
+    "ex_top3": 23764.74,
+    "trades": 857
+   },
+   "2026": {
+    "total": 223293.34,
+    "jan_oct": 223293.34,
+    "ex_top3": 75557.94,
+    "trades": 899
+   }
+  },
+  "var": {
+   "2025": {
+    "total": 35092.92,
+    "jan_oct": 41903.46,
+    "ex_top3": -12385.76,
+    "trades": 1293
+   },
+   "2026": {
+    "total": 205204.82,
+    "jan_oct": 205204.82,
+    "ex_top3": 70301.23,
+    "trades": 1281
+   }
+  },
+  "base_cells": {
+   "2025": {
+    "DOWN": 42688.79,
+    "FLAT": 20890.05,
+    "UP": 12849.0
+   },
+   "2026": {
+    "DOWN": 202017.65,
+    "FLAT": 5215.0,
+    "UP": 16060.69
+   }
+  },
+  "var_cells": {
+   "2025": {
+    "DOWN": 25567.39,
+    "FLAT": 21825.12,
+    "UP": -12299.59
+   },
+   "2026": {
+    "DOWN": 190273.56,
+    "FLAT": 4272.9,
+    "UP": 10658.36
+   }
+  },
+  "banked": false,
+  "standalone": {
+   "2025": -41334.92,
+   "2026": -18088.52
+  },
+  "population_trades": {
+   "2025": 436,
+   "2026": 382
+  }
+ },
+ {
+  "cycle": "R5-09",
+  "label": "P2F-R2 keep DOWN+FLAT entry cells only",
+  "note": "removed 14 P2F-R2 trades (2025 JO removed net -433.24; 2026 JO removed net 2389.0); timing: filter on existing audited rows, no new entries -> 0 violations; placebos: chrono-removal book 299567.23; complement-removal book 287676.16",
+  "verdict": false,
+  "legs": {
+   "a_combined_rises": false,
+   "b_2025_no_fall": false,
+   "c_2026_no_fall": false,
+   "d_cells_positive": true,
+   "e_extop3": false,
+   "f_no_green_month_flips": true,
+   "flip_detail": [],
+   "g_no_half_flips": true,
+   "h_beats_placebos": false,
+   "i_timing_clean": true,
+   "x_2026_floor_holds": true
+  },
+  "sums": {
+   "base_combined": 299721.18,
+   "variant_combined": 297006.93
+  },
+  "base": {
+   "2025": {
+    "total": 76427.84,
+    "jan_oct": 77806.57,
+    "ex_top3": 23764.74,
+    "trades": 857
+   },
+   "2026": {
+    "total": 223293.34,
+    "jan_oct": 223293.34,
+    "ex_top3": 75557.94,
+    "trades": 899
+   }
+  },
+  "var": {
+   "2025": {
+    "total": 76102.59,
+    "jan_oct": 78239.81,
+    "ex_top3": 23439.49,
+    "trades": 848
+   },
+   "2026": {
+    "total": 220904.34,
+    "jan_oct": 220904.34,
+    "ex_top3": 73168.94,
+    "trades": 894
+   }
+  },
+  "base_cells": {
+   "2025": {
+    "DOWN": 42688.79,
+    "FLAT": 20890.05,
+    "UP": 12849.0
+   },
+   "2026": {
+    "DOWN": 202017.65,
+    "FLAT": 5215.0,
+    "UP": 16060.69
+   }
+  },
+  "var_cells": {
+   "2025": {
+    "DOWN": 42688.79,
+    "FLAT": 20890.05,
+    "UP": 12523.75
+   },
+   "2026": {
+    "DOWN": 202017.65,
+    "FLAT": 5215.0,
+    "UP": 13671.69
+   }
+  },
+  "banked": false,
+  "removed_trades": 14
+ },
+ {
+  "cycle": "R5-10",
+  "label": "P2F-R2 keep DOWN entry cells only",
+  "note": "removed 19 P2F-R2 trades (2025 JO removed net -433.24; 2026 JO removed net 4479.17); timing: filter on existing audited rows, no new entries -> 0 violations; placebos: chrono-removal book 300785.48; complement-removal book 289766.33",
+  "verdict": false,
+  "legs": {
+   "a_combined_rises": false,
+   "b_2025_no_fall": false,
+   "c_2026_no_fall": false,
+   "d_cells_positive": true,
+   "e_extop3": false,
+   "f_no_green_month_flips": true,
+   "flip_detail": [],
+   "g_no_half_flips": true,
+   "h_beats_placebos": false,
+   "i_timing_clean": true,
+   "x_2026_floor_holds": true
+  },
+  "sums": {
+   "base_combined": 299721.18,
+   "variant_combined": 294916.76
+  },
+  "base": {
+   "2025": {
+    "total": 76427.84,
+    "jan_oct": 77806.57,
+    "ex_top3": 23764.74,
+    "trades": 857
+   },
+   "2026": {
+    "total": 223293.34,
+    "jan_oct": 223293.34,
+    "ex_top3": 75557.94,
+    "trades": 899
+   }
+  },
+  "var": {
+   "2025": {
+    "total": 76102.59,
+    "jan_oct": 78239.81,
+    "ex_top3": 23439.49,
+    "trades": 848
+   },
+   "2026": {
+    "total": 218814.17,
+    "jan_oct": 218814.17,
+    "ex_top3": 71078.77,
+    "trades": 889
+   }
+  },
+  "base_cells": {
+   "2025": {
+    "DOWN": 42688.79,
+    "FLAT": 20890.05,
+    "UP": 12849.0
+   },
+   "2026": {
+    "DOWN": 202017.65,
+    "FLAT": 5215.0,
+    "UP": 16060.69
+   }
+  },
+  "var_cells": {
+   "2025": {
+    "DOWN": 42688.79,
+    "FLAT": 20890.05,
+    "UP": 12523.75
+   },
+   "2026": {
+    "DOWN": 202017.65,
+    "FLAT": 3124.83,
+    "UP": 13671.69
+   }
+  },
+  "banked": false,
+  "removed_trades": 19
+ },
+ {
+  "cycle": "R5-11",
+  "label": "P2F-R2 keep reaction band [2.5%, 4.0%) only",
+  "note": "removed 27 P2F-R2 trades (2025 JO removed net 150.8; 2026 JO removed net 12724.86); timing: filter on existing audited rows, no new entries -> 0 violations; placebos: chrono-removal book 296763.98; complement-removal book 298511.81",
+  "verdict": false,
+  "legs": {
+   "a_combined_rises": false,
+   "b_2025_no_fall": false,
+   "c_2026_no_fall": false,
+   "d_cells_positive": true,
+   "e_extop3": false,
+   "f_no_green_month_flips": true,
+   "flip_detail": [],
+   "g_no_half_flips": true,
+   "h_beats_placebos": false,
+   "i_timing_clean": true,
+   "x_2026_floor_holds": true
+  },
+  "sums": {
+   "base_combined": 299721.18,
+   "variant_combined": 286171.28
+  },
+  "base": {
+   "2025": {
+    "total": 76427.84,
+    "jan_oct": 77806.57,
+    "ex_top3": 23764.74,
+    "trades": 857
+   },
+   "2026": {
+    "total": 223293.34,
+    "jan_oct": 223293.34,
+    "ex_top3": 75557.94,
+    "trades": 899
+   }
+  },
+  "var": {
+   "2025": {
+    "total": 75602.8,
+    "jan_oct": 77655.77,
+    "ex_top3": 22014.7,
+    "trades": 847
+   },
+   "2026": {
+    "total": 210568.48,
+    "jan_oct": 210568.48,
+    "ex_top3": 66694.46,
+    "trades": 882
+   }
+  },
+  "base_cells": {
+   "2025": {
+    "DOWN": 42688.79,
+    "FLAT": 20890.05,
+    "UP": 12849.0
+   },
+   "2026": {
+    "DOWN": 202017.65,
+    "FLAT": 5215.0,
+    "UP": 16060.69
+   }
+  },
+  "var_cells": {
+   "2025": {
+    "DOWN": 42504.6,
+    "FLAT": 20890.05,
+    "UP": 12208.15
+   },
+   "2026": {
+    "DOWN": 192725.66,
+    "FLAT": 1987.88,
+    "UP": 15854.94
+   }
+  },
+  "banked": false,
+  "removed_trades": 27
+ },
+ {
+  "cycle": "R5-12",
+  "label": "P2F-R2 keep reaction band >= 4.0% only",
+  "note": "removed 26 P2F-R2 trades (2025 JO removed net -1299.35; 2026 JO removed net 2424.47); timing: filter on existing audited rows, no new entries -> 0 violations; placebos: chrono-removal book 296397.31; complement-removal book 286171.28",
+  "verdict": false,
+  "legs": {
+   "a_combined_rises": false,
+   "b_2025_no_fall": true,
+   "c_2026_no_fall": false,
+   "d_cells_positive": true,
+   "e_extop3": false,
+   "f_no_green_month_flips": true,
+   "flip_detail": [],
+   "g_no_half_flips": true,
+   "h_beats_placebos": true,
+   "i_timing_clean": true,
+   "x_2026_floor_holds": true
+  },
+  "sums": {
+   "base_combined": 299721.18,
+   "variant_combined": 298511.81
+  },
+  "base": {
+   "2025": {
+    "total": 76427.84,
+    "jan_oct": 77806.57,
+    "ex_top3": 23764.74,
+    "trades": 857
+   },
+   "2026": {
+    "total": 223293.34,
+    "jan_oct": 223293.34,
+    "ex_top3": 75557.94,
+    "trades": 899
+   }
+  },
+  "var": {
+   "2025": {
+    "total": 77642.94,
+    "jan_oct": 79105.92,
+    "ex_top3": 24082.83,
+    "trades": 846
+   },
+   "2026": {
+    "total": 220868.87,
+    "jan_oct": 220868.87,
+    "ex_top3": 73133.47,
+    "trades": 884
+   }
+  },
+  "base_cells": {
+   "2025": {
+    "DOWN": 42688.79,
+    "FLAT": 20890.05,
+    "UP": 12849.0
+   },
+   "2026": {
+    "DOWN": 202017.65,
+    "FLAT": 5215.0,
+    "UP": 16060.69
+   }
+  },
+  "var_cells": {
+   "2025": {
+    "DOWN": 43588.29,
+    "FLAT": 20890.05,
+    "UP": 13164.6
+   },
+   "2026": {
+    "DOWN": 200639.48,
+    "FLAT": 6351.95,
+    "UP": 13877.44
+   }
+  },
+  "banked": false,
+  "removed_trades": 26
+ },
+ {
+  "cycle": "R5-13",
+  "type": "audit",
+  "label": "WS5 red-month diagnosis (Jun/Jul/Oct 2025, comp x cell)",
+  "note": "Jun total -955.92, Jul -5523.29, Oct -4624.53. Worst comps per month: 2025-06: INV-ABOVE -955.92; 2025-07: INV-ABOVE -2473.45, N4-V3 -1821.0, F4 -1025.28; 2025-10: F4 -3021.83, N4-V3 -793.8, P2F -312.98. Frozen signature rule (neg in all 3 months AND neg full-2025 AND sum3 <= -3000): qualifying slices = []. Full table: r5_ws5_diag.json.",
+  "banked": false,
+  "diag_file": "r5_ws5_diag.json",
+  "qualifying": []
+ },
+ {
+  "cycle": "R5-15",
+  "label": "DECISION SUPPORT: R5-03 sleeve (thr 1.25) + R5-07 NE-REV-LONG, combined",
+  "note": "WS6: no Round-5 bankings exist to combine; this is the R4-WS4 disposition applied to the round's two near-misses, gated whole and recorded UNBANKED regardless of verdict (adoption is Chandu's). Anchors reproduced first (R5-03: 88401.23/226071.55; R5-07: 90121.11/247599.90). Timing: gap entries bar 1 after the bar-0 print; NE-REV entries 10:35 after the 10:25 signal bar -> 0 violations. Placebos: both sleeves one bar late 268821.82; both mirrors 178371.06.",
+  "verdict": false,
+  "legs": {
+   "a_combined_rises": true,
+   "b_2025_no_fall": true,
+   "c_2026_no_fall": true,
+   "d_cells_positive": true,
+   "e_extop3": false,
+   "f_no_green_month_flips": false,
+   "flip_detail": [
+    "2025-12:1207.95->-632.67"
+   ],
+   "g_no_half_flips": true,
+   "h_beats_placebos": true,
+   "i_timing_clean": true,
+   "x_2026_floor_holds": true
+  },
+  "sums": {
+   "base_combined": 299721.18,
+   "variant_combined": 349610.06
+  },
+  "base": {
+   "2025": {
+    "total": 76427.84,
+    "jan_oct": 77806.57,
+    "ex_top3": 23764.74,
+    "trades": 857
+   },
+   "2026": {
+    "total": 223293.34,
+    "jan_oct": 223293.34,
+    "ex_top3": 75557.94,
+    "trades": 899
+   }
+  },
+  "var": {
+   "2025": {
+    "total": 99231.95,
+    "jan_oct": 100715.77,
+    "ex_top3": 25925.53,
+    "trades": 1191
+   },
+   "2026": {
+    "total": 250378.11,
+    "jan_oct": 250378.11,
+    "ex_top3": 56773.68,
+    "trades": 1360
+   }
+  },
+  "base_cells": {
+   "2025": {
+    "DOWN": 42688.79,
+    "FLAT": 20890.05,
+    "UP": 12849.0
+   },
+   "2026": {
+    "DOWN": 202017.65,
+    "FLAT": 5215.0,
+    "UP": 16060.69
+   }
+  },
+  "var_cells": {
+   "2025": {
+    "DOWN": 46032.35,
+    "FLAT": 28685.26,
+    "UP": 24514.34
+   },
+   "2026": {
+    "DOWN": 229940.9,
+    "FLAT": 12492.88,
+    "UP": 7944.33
+   }
+  },
+  "banked": false
+ }
+]

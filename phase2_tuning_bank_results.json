@@ -1,0 +1,276 @@
+{
+ "control": {
+  "legs": 111,
+  "total": 127351.5,
+  "trade_days": 89,
+  "per_trade_day": 1430.92,
+  "win_rate_pct": 59.5,
+  "green_days": 60,
+  "red_days": 29,
+  "no_trade_days": 116,
+  "months": {
+   "2026-01": 24028.0,
+   "2026-02": 15284.0,
+   "2026-03": 8560.0,
+   "2026-04": 9810.0,
+   "2026-05": 25400.0,
+   "2026-06": 3040.0,
+   "2026-07": 4224.0,
+   "2026-08": 2059.5,
+   "2026-09": 15056.5,
+   "2026-10": 19889.5
+  },
+  "red_months": [],
+  "halves": {
+   "H1": 83082.0,
+   "H2": 44269.5
+  },
+  "ex_top3_total": 100528.5
+ },
+ "control_ok": true,
+ "f6": {
+  "resolved": 16,
+  "unresolved": 12
+ },
+ "thresholds": {
+  "T70": {
+   "target_keep": 78,
+   "cut_score": 0.5,
+   "metrics": {
+    "legs": 88,
+    "total": 122337.5,
+    "trade_days": 76,
+    "per_trade_day": 1609.7,
+    "win_rate_pct": 62.5,
+    "green_days": 53,
+    "red_days": 23,
+    "no_trade_days": 129,
+    "months": {
+     "2026-01": 21513.0,
+     "2026-02": 15284.0,
+     "2026-03": 8760.0,
+     "2026-04": 9050.0,
+     "2026-05": 20440.0,
+     "2026-06": 1520.0,
+     "2026-07": 9525.0,
+     "2026-08": 2059.5,
+     "2026-09": 16776.5,
+     "2026-10": 17409.5
+    },
+    "red_months": [],
+    "halves": {
+     "H1": 75047.0,
+     "H2": 47290.5
+    },
+    "ex_top3_total": 95514.5
+   },
+   "placebo": {
+    "draws": 200,
+    "p95_total": 118112.0,
+    "kept_percentile": 97.0
+   },
+   "overlap_bfix1": {
+    "bfix1_kept": 94,
+    "intersection": 71,
+    "share_of_kept_also_bfix1_kept_pct": 80.7,
+    "jaccard_pct": 64.0
+   },
+   "checks": {
+    "wr_ge_60": true,
+    "per_td_ge_900": true,
+    "total_ge_60pct": true,
+    "halves_positive": true,
+    "ex_top3_positive": true,
+    "placebo_beats_95pct": true,
+    "no_red_month": true
+   },
+   "verdict": "PASS",
+   "failing": []
+  },
+  "T60": {
+   "target_keep": 67,
+   "cut_score": 0.5,
+   "metrics": {
+    "legs": 88,
+    "total": 122337.5,
+    "trade_days": 76,
+    "per_trade_day": 1609.7,
+    "win_rate_pct": 62.5,
+    "green_days": 53,
+    "red_days": 23,
+    "no_trade_days": 129,
+    "months": {
+     "2026-01": 21513.0,
+     "2026-02": 15284.0,
+     "2026-03": 8760.0,
+     "2026-04": 9050.0,
+     "2026-05": 20440.0,
+     "2026-06": 1520.0,
+     "2026-07": 9525.0,
+     "2026-08": 2059.5,
+     "2026-09": 16776.5,
+     "2026-10": 17409.5
+    },
+    "red_months": [],
+    "halves": {
+     "H1": 75047.0,
+     "H2": 47290.5
+    },
+    "ex_top3_total": 95514.5
+   },
+   "placebo": {
+    "draws": 200,
+    "p95_total": 121059.5,
+    "kept_percentile": 97.0
+   },
+   "overlap_bfix1": {
+    "bfix1_kept": 94,
+    "intersection": 71,
+    "share_of_kept_also_bfix1_kept_pct": 80.7,
+    "jaccard_pct": 64.0
+   },
+   "checks": {
+    "wr_ge_60": true,
+    "per_td_ge_900": true,
+    "total_ge_60pct": true,
+    "halves_positive": true,
+    "ex_top3_positive": true,
+    "placebo_beats_95pct": true,
+    "no_red_month": true
+   },
+   "verdict": "PASS",
+   "failing": []
+  },
+  "T50": {
+   "target_keep": 56,
+   "cut_score": 1.0,
+   "metrics": {
+    "legs": 63,
+    "total": 82911.0,
+    "trade_days": 55,
+    "per_trade_day": 1507.47,
+    "win_rate_pct": 60.3,
+    "green_days": 36,
+    "red_days": 19,
+    "no_trade_days": 150,
+    "months": {
+     "2026-01": 21513.0,
+     "2026-02": 7844.0,
+     "2026-03": 9720.0,
+     "2026-04": 4830.0,
+     "2026-05": 13600.0,
+     "2026-06": 760.0,
+     "2026-07": 2765.0,
+     "2026-08": 253.0,
+     "2026-09": 7456.5,
+     "2026-10": 14169.5
+    },
+    "red_months": [],
+    "halves": {
+     "H1": 57507.0,
+     "H2": 25404.0
+    },
+    "ex_top3_total": 56088.0
+   },
+   "placebo": {
+    "draws": 200,
+    "p95_total": 95487.0,
+    "kept_percentile": 79.0
+   },
+   "overlap_bfix1": {
+    "bfix1_kept": 94,
+    "intersection": 49,
+    "share_of_kept_also_bfix1_kept_pct": 77.8,
+    "jaccard_pct": 45.4
+   },
+   "checks": {
+    "wr_ge_60": true,
+    "per_td_ge_900": true,
+    "total_ge_60pct": true,
+    "halves_positive": true,
+    "ex_top3_positive": true,
+    "placebo_beats_95pct": false,
+    "no_red_month": true
+   },
+   "verdict": "FAIL",
+   "failing": [
+    "placebo_beats_95pct"
+   ]
+  }
+ },
+ "november": {
+  "actual_total": -2680.0,
+  "legs": [
+   {
+    "date": "2026-11-04",
+    "rep": "S3-R1",
+    "side": "PE",
+    "entry_time": "09:55",
+    "premium": 715.3,
+    "gap_pct": -0.09893761348793234,
+    "tod": "early",
+    "score": 0.75,
+    "net": 2480.0
+   },
+   {
+    "date": "2026-11-09",
+    "rep": "Skill V3",
+    "side": "PE",
+    "entry_time": "10:45",
+    "premium": 815.4,
+    "gap_pct": 0.22670344920962174,
+    "tod": "mid",
+    "score": -0.5,
+    "net": -1720.0
+   },
+   {
+    "date": "2026-11-12",
+    "rep": "S3-R1",
+    "side": "PE",
+    "entry_time": "11:30",
+    "premium": 841.5,
+    "gap_pct": 0.015544706246170721,
+    "tod": "mid",
+    "score": 0.0,
+    "net": -1720.0
+   },
+   {
+    "date": "2026-11-13",
+    "rep": "NS3_NS3-GD",
+    "side": "PE",
+    "entry_time": "12:20",
+    "premium": 705.0,
+    "gap_pct": -0.3542836707656999,
+    "tod": "mid",
+    "score": 0.5,
+    "net": -1720.0
+   }
+  ],
+  "by_threshold": {
+   "T70": {
+    "cut_score": 0.5,
+    "kept_legs": 2,
+    "kept_dates": [
+     "2026-11-04",
+     "2026-11-13"
+    ],
+    "total": 760.0
+   },
+   "T60": {
+    "cut_score": 0.5,
+    "kept_legs": 2,
+    "kept_dates": [
+     "2026-11-04",
+     "2026-11-13"
+    ],
+    "total": 760.0
+   },
+   "T50": {
+    "cut_score": 1.0,
+    "kept_legs": 0,
+    "kept_dates": [],
+    "total": 0
+   }
+  }
+ }
+}
