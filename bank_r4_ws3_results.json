@@ -1,0 +1,1145 @@
+{
+ "S3F_standalone": {
+  "cycle": 89,
+  "label": "Cycle 89 WS3 S3F standalone (v17+S3F)",
+  "controls": {
+   "n": 85,
+   "net": 108629.0,
+   "ft_pct": 51.8,
+   "ft90_pct": 52.9,
+   "per_week": 2.09,
+   "per_week_raw": 2.0936,
+   "not_computed": 0,
+   "red_month_ends": [],
+   "month_table": {
+    "2026-01": [
+     29163.0,
+     29163.0
+    ],
+    "2026-02": [
+     24120.0,
+     53283.0
+    ],
+    "2026-03": [
+     15880.0,
+     69163.0
+    ],
+    "2026-04": [
+     6810.0,
+     75973.0
+    ],
+    "2026-05": [
+     15340.0,
+     91313.0
+    ],
+    "2026-06": [
+     -3640.0,
+     87673.0
+    ],
+    "2026-07": [
+     -13061.0,
+     74612.0
+    ],
+    "2026-08": [
+     8806.5,
+     83418.5
+    ],
+    "2026-09": [
+     601.0,
+     84019.5
+    ],
+    "2026-10": [
+     24609.5,
+     108629.0
+    ]
+   },
+   "months": {
+    "01": 29163.0,
+    "02": 24120.0,
+    "03": 15880.0,
+    "04": 6810.0,
+    "05": 15340.0,
+    "06": -3640.0,
+    "07": -13061.0,
+    "08": 8806.5,
+    "09": 601.0,
+    "10": 24609.5
+   },
+   "halves": {
+    "jan_may": 91313.0,
+    "jun_oct": 17316.0
+   },
+   "timing_violations": [],
+   "timing_entry_bars_checked": 85,
+   "timing_external_rows": 0,
+   "placebo": {
+    "n": 83,
+    "net": 18659.5,
+    "not_computed": 0
+   },
+   "ex_top3_total": 79589.0,
+   "top3": [
+    [
+     "2026-01-21",
+     "PE",
+     9680.0
+    ],
+    [
+     "2026-01-23",
+     "PE",
+     9680.0
+    ],
+    [
+     "2026-02-19",
+     "PE",
+     9680.0
+    ]
+   ]
+  },
+  "banked": false,
+  "gate_why": [
+   "FT90 52.9 < ref 53.7"
+  ],
+  "detail": [
+   {
+    "family": "NS3",
+    "candidates": 0,
+    "admitted": 0,
+    "key_dropped": 0,
+    "band_dropped": 0,
+    "nc_legs": 0,
+    "scored_nc": 0,
+    "net": 0,
+    "ft90_legs": 0
+   },
+   {
+    "family": "EXTRA0",
+    "candidates": 7,
+    "admitted": 3,
+    "key_dropped": 4,
+    "band_dropped": 0,
+    "nc_legs": 0,
+    "scored_nc": 0,
+    "net": 699.0,
+    "ft90_legs": 1
+   }
+  ],
+  "ft90_legs": 45,
+  "ft90_needed": 46
+ },
+ "S3G_standalone": {
+  "cycle": 90,
+  "label": "Cycle 90 WS3 S3G standalone (v17+S3G)",
+  "controls": {
+   "n": 85,
+   "net": 108629.0,
+   "ft_pct": 51.8,
+   "ft90_pct": 52.9,
+   "per_week": 2.09,
+   "per_week_raw": 2.0936,
+   "not_computed": 0,
+   "red_month_ends": [],
+   "month_table": {
+    "2026-01": [
+     29163.0,
+     29163.0
+    ],
+    "2026-02": [
+     24120.0,
+     53283.0
+    ],
+    "2026-03": [
+     15880.0,
+     69163.0
+    ],
+    "2026-04": [
+     6810.0,
+     75973.0
+    ],
+    "2026-05": [
+     15340.0,
+     91313.0
+    ],
+    "2026-06": [
+     -3640.0,
+     87673.0
+    ],
+    "2026-07": [
+     -13061.0,
+     74612.0
+    ],
+    "2026-08": [
+     8806.5,
+     83418.5
+    ],
+    "2026-09": [
+     601.0,
+     84019.5
+    ],
+    "2026-10": [
+     24609.5,
+     108629.0
+    ]
+   },
+   "months": {
+    "01": 29163.0,
+    "02": 24120.0,
+    "03": 15880.0,
+    "04": 6810.0,
+    "05": 15340.0,
+    "06": -3640.0,
+    "07": -13061.0,
+    "08": 8806.5,
+    "09": 601.0,
+    "10": 24609.5
+   },
+   "halves": {
+    "jan_may": 91313.0,
+    "jun_oct": 17316.0
+   },
+   "timing_violations": [],
+   "timing_entry_bars_checked": 85,
+   "timing_external_rows": 0,
+   "placebo": {
+    "n": 83,
+    "net": 18659.5,
+    "not_computed": 0
+   },
+   "ex_top3_total": 79589.0,
+   "top3": [
+    [
+     "2026-01-21",
+     "PE",
+     9680.0
+    ],
+    [
+     "2026-01-23",
+     "PE",
+     9680.0
+    ],
+    [
+     "2026-02-19",
+     "PE",
+     9680.0
+    ]
+   ]
+  },
+  "banked": false,
+  "gate_why": [
+   "FT90 52.9 < ref 53.7"
+  ],
+  "detail": [
+   {
+    "family": "NS3",
+    "candidates": 0,
+    "admitted": 0,
+    "key_dropped": 0,
+    "band_dropped": 0,
+    "nc_legs": 0,
+    "scored_nc": 0,
+    "net": 0,
+    "ft90_legs": 0
+   },
+   {
+    "family": "EXTRA0",
+    "candidates": 8,
+    "admitted": 3,
+    "key_dropped": 4,
+    "band_dropped": 1,
+    "nc_legs": 0,
+    "scored_nc": 0,
+    "net": 699.0,
+    "ft90_legs": 1
+   }
+  ],
+  "ft90_legs": 45,
+  "ft90_needed": 46
+ },
+ "S3H_standalone": {
+  "cycle": 91,
+  "label": "Cycle 91 WS3 S3H standalone (v17+S3H)",
+  "controls": {
+   "n": 87,
+   "net": 107730.0,
+   "ft_pct": 51.7,
+   "ft90_pct": 52.9,
+   "per_week": 2.14,
+   "per_week_raw": 2.1429,
+   "not_computed": 0,
+   "red_month_ends": [],
+   "month_table": {
+    "2026-01": [
+     29163.0,
+     29163.0
+    ],
+    "2026-02": [
+     22400.0,
+     51563.0
+    ],
+    "2026-03": [
+     18360.0,
+     69923.0
+    ],
+    "2026-04": [
+     6810.0,
+     76733.0
+    ],
+    "2026-05": [
+     15340.0,
+     92073.0
+    ],
+    "2026-06": [
+     -3640.0,
+     88433.0
+    ],
+    "2026-07": [
+     -14720.0,
+     73713.0
+    ],
+    "2026-08": [
+     8806.5,
+     82519.5
+    ],
+    "2026-09": [
+     2321.0,
+     84840.5
+    ],
+    "2026-10": [
+     22889.5,
+     107730.0
+    ]
+   },
+   "months": {
+    "01": 29163.0,
+    "02": 22400.0,
+    "03": 18360.0,
+    "04": 6810.0,
+    "05": 15340.0,
+    "06": -3640.0,
+    "07": -14720.0,
+    "08": 8806.5,
+    "09": 2321.0,
+    "10": 22889.5
+   },
+   "halves": {
+    "jan_may": 92073.0,
+    "jun_oct": 15657.0
+   },
+   "timing_violations": [],
+   "timing_entry_bars_checked": 87,
+   "timing_external_rows": 0,
+   "placebo": {
+    "n": 85,
+    "net": 13980.5,
+    "not_computed": 0
+   },
+   "ex_top3_total": 78690.0,
+   "top3": [
+    [
+     "2026-01-21",
+     "PE",
+     9680.0
+    ],
+    [
+     "2026-01-23",
+     "PE",
+     9680.0
+    ],
+    [
+     "2026-02-19",
+     "PE",
+     9680.0
+    ]
+   ]
+  },
+  "banked": false,
+  "gate_why": [
+   "net 107730.0 !> ref 107930.0",
+   "FT90 52.9 < ref 53.7"
+  ],
+  "detail": [
+   {
+    "family": "NS3",
+    "candidates": 0,
+    "admitted": 0,
+    "key_dropped": 0,
+    "band_dropped": 0,
+    "nc_legs": 0,
+    "scored_nc": 0,
+    "net": 0,
+    "ft90_legs": 0
+   },
+   {
+    "family": "EXTRA0",
+    "candidates": 10,
+    "admitted": 5,
+    "key_dropped": 3,
+    "band_dropped": 2,
+    "nc_legs": 0,
+    "scored_nc": 0,
+    "net": -200.0,
+    "ft90_legs": 2
+   }
+  ],
+  "ft90_legs": 46,
+  "ft90_needed": 47
+ },
+ "S3I_standalone": {
+  "cycle": 92,
+  "label": "Cycle 92 WS3 S3I standalone (v17+S3I)",
+  "controls": {
+   "n": 85,
+   "net": 106970.0,
+   "ft_pct": 51.8,
+   "ft90_pct": 52.9,
+   "per_week": 2.09,
+   "per_week_raw": 2.0936,
+   "not_computed": 0,
+   "red_month_ends": [],
+   "month_table": {
+    "2026-01": [
+     29163.0,
+     29163.0
+    ],
+    "2026-02": [
+     22400.0,
+     51563.0
+    ],
+    "2026-03": [
+     18360.0,
+     69923.0
+    ],
+    "2026-04": [
+     6810.0,
+     76733.0
+    ],
+    "2026-05": [
+     15340.0,
+     92073.0
+    ],
+    "2026-06": [
+     -6120.0,
+     85953.0
+    ],
+    "2026-07": [
+     -14720.0,
+     71233.0
+    ],
+    "2026-08": [
+     8806.5,
+     80039.5
+    ],
+    "2026-09": [
+     2321.0,
+     82360.5
+    ],
+    "2026-10": [
+     24609.5,
+     106970.0
+    ]
+   },
+   "months": {
+    "01": 29163.0,
+    "02": 22400.0,
+    "03": 18360.0,
+    "04": 6810.0,
+    "05": 15340.0,
+    "06": -6120.0,
+    "07": -14720.0,
+    "08": 8806.5,
+    "09": 2321.0,
+    "10": 24609.5
+   },
+   "halves": {
+    "jan_may": 92073.0,
+    "jun_oct": 14897.0
+   },
+   "timing_violations": [],
+   "timing_entry_bars_checked": 85,
+   "timing_external_rows": 0,
+   "placebo": {
+    "n": 83,
+    "net": 13220.5,
+    "not_computed": 0
+   },
+   "ex_top3_total": 77930.0,
+   "top3": [
+    [
+     "2026-01-21",
+     "PE",
+     9680.0
+    ],
+    [
+     "2026-01-23",
+     "PE",
+     9680.0
+    ],
+    [
+     "2026-02-19",
+     "PE",
+     9680.0
+    ]
+   ]
+  },
+  "banked": false,
+  "gate_why": [
+   "net 106970.0 !> ref 107930.0",
+   "FT90 52.9 < ref 53.7"
+  ],
+  "detail": [
+   {
+    "family": "NS3",
+    "candidates": 0,
+    "admitted": 0,
+    "key_dropped": 0,
+    "band_dropped": 0,
+    "nc_legs": 0,
+    "scored_nc": 0,
+    "net": 0,
+    "ft90_legs": 0
+   },
+   {
+    "family": "EXTRA0",
+    "candidates": 9,
+    "admitted": 3,
+    "key_dropped": 3,
+    "band_dropped": 2,
+    "nc_legs": 1,
+    "scored_nc": 0,
+    "net": -960.0,
+    "ft90_legs": 1
+   }
+  ],
+  "ft90_legs": 45,
+  "ft90_needed": 46
+ },
+ "S3J_standalone": {
+  "cycle": 93,
+  "label": "Cycle 93 WS3 S3J standalone (v17+S3J)",
+  "controls": {
+   "n": 86,
+   "net": 109450.0,
+   "ft_pct": 52.3,
+   "ft90_pct": 53.5,
+   "per_week": 2.12,
+   "per_week_raw": 2.1182,
+   "not_computed": 0,
+   "red_month_ends": [],
+   "month_table": {
+    "2026-01": [
+     29163.0,
+     29163.0
+    ],
+    "2026-02": [
+     22400.0,
+     51563.0
+    ],
+    "2026-03": [
+     14160.0,
+     65723.0
+    ],
+    "2026-04": [
+     6810.0,
+     72533.0
+    ],
+    "2026-05": [
+     17820.0,
+     90353.0
+    ],
+    "2026-06": [
+     -3640.0,
+     86713.0
+    ],
+    "2026-07": [
+     -13000.0,
+     73713.0
+    ],
+    "2026-08": [
+     8806.5,
+     82519.5
+    ],
+    "2026-09": [
+     2321.0,
+     84840.5
+    ],
+    "2026-10": [
+     24609.5,
+     109450.0
+    ]
+   },
+   "months": {
+    "01": 29163.0,
+    "02": 22400.0,
+    "03": 14160.0,
+    "04": 6810.0,
+    "05": 17820.0,
+    "06": -3640.0,
+    "07": -13000.0,
+    "08": 8806.5,
+    "09": 2321.0,
+    "10": 24609.5
+   },
+   "halves": {
+    "jan_may": 90353.0,
+    "jun_oct": 19097.0
+   },
+   "timing_violations": [],
+   "timing_entry_bars_checked": 86,
+   "timing_external_rows": 0,
+   "placebo": {
+    "n": 84,
+    "net": 15700.5,
+    "not_computed": 0
+   },
+   "ex_top3_total": 80410.0,
+   "top3": [
+    [
+     "2026-01-21",
+     "PE",
+     9680.0
+    ],
+    [
+     "2026-01-23",
+     "PE",
+     9680.0
+    ],
+    [
+     "2026-02-19",
+     "PE",
+     9680.0
+    ]
+   ]
+  },
+  "banked": false,
+  "gate_why": [
+   "FT90 53.5 < ref 53.7"
+  ],
+  "detail": [
+   {
+    "family": "NS3",
+    "candidates": 0,
+    "admitted": 0,
+    "key_dropped": 0,
+    "band_dropped": 0,
+    "nc_legs": 0,
+    "scored_nc": 0,
+    "net": 0,
+    "ft90_legs": 0
+   },
+   {
+    "family": "EXTRA0",
+    "candidates": 4,
+    "admitted": 4,
+    "key_dropped": 0,
+    "band_dropped": 0,
+    "nc_legs": 0,
+    "scored_nc": 0,
+    "net": 1520.0,
+    "ft90_legs": 2
+   }
+  ],
+  "ft90_legs": 46,
+  "ft90_needed": 47
+ },
+ "S3F_instack": {
+  "cycle": 94,
+  "label": "Cycle 94 WS3 S3F in flagged stack (family net standalone +699.00)",
+  "controls": {
+   "n": 108,
+   "net": 127369.5,
+   "ft_pct": 51.9,
+   "ft90_pct": 52.8,
+   "per_week": 2.66,
+   "per_week_raw": 2.6601,
+   "not_computed": 0,
+   "red_month_ends": [],
+   "month_table": {
+    "2026-01": [
+     30893.0,
+     30893.0
+    ],
+    "2026-02": [
+     25158.0,
+     56051.0
+    ],
+    "2026-03": [
+     21600.0,
+     77651.0
+    ],
+    "2026-04": [
+     5090.0,
+     82741.0
+    ],
+    "2026-05": [
+     23000.0,
+     105741.0
+    ],
+    "2026-06": [
+     -5360.0,
+     100381.0
+    ],
+    "2026-07": [
+     -13650.0,
+     86731.0
+    ],
+    "2026-08": [
+     9848.0,
+     96579.0
+    ],
+    "2026-09": [
+     6181.0,
+     102760.0
+    ],
+    "2026-10": [
+     24609.5,
+     127369.5
+    ]
+   },
+   "months": {
+    "01": 30893.0,
+    "02": 25158.0,
+    "03": 21600.0,
+    "04": 5090.0,
+    "05": 23000.0,
+    "06": -5360.0,
+    "07": -13650.0,
+    "08": 9848.0,
+    "09": 6181.0,
+    "10": 24609.5
+   },
+   "halves": {
+    "jan_may": 105741.0,
+    "jun_oct": 21628.5
+   },
+   "timing_violations": [],
+   "timing_entry_bars_checked": 108,
+   "timing_external_rows": 0,
+   "placebo": {
+    "n": 105,
+    "net": 15367.5,
+    "not_computed": 1
+   },
+   "ex_top3_total": 98329.5,
+   "top3": [
+    [
+     "2026-01-21",
+     "PE",
+     9680.0
+    ],
+    [
+     "2026-01-23",
+     "PE",
+     9680.0
+    ],
+    [
+     "2026-02-19",
+     "PE",
+     9680.0
+    ]
+   ]
+  },
+  "banked": false,
+  "gate_why": [
+   "FT90 52.8 < ref 53.7"
+  ],
+  "detail": [
+   {
+    "family": "NS3",
+    "candidates": 58,
+    "admitted": 19,
+    "key_dropped": 31,
+    "band_dropped": 8,
+    "nc_legs": 0,
+    "scored_nc": 0,
+    "net": 14679.5,
+    "ft90_legs": 9
+   },
+   {
+    "family": "S3A",
+    "candidates": 15,
+    "admitted": 6,
+    "key_dropped": 6,
+    "band_dropped": 3,
+    "nc_legs": 0,
+    "scored_nc": 0,
+    "net": 2280.0,
+    "ft90_legs": 3
+   },
+   {
+    "family": "S3E",
+    "candidates": 4,
+    "admitted": 1,
+    "key_dropped": 3,
+    "band_dropped": 0,
+    "nc_legs": 0,
+    "scored_nc": 0,
+    "net": 2480.0,
+    "ft90_legs": 1
+   },
+   {
+    "family": "S3D",
+    "candidates": 7,
+    "admitted": 0,
+    "key_dropped": 7,
+    "band_dropped": 0,
+    "nc_legs": 0,
+    "scored_nc": 0,
+    "net": 0,
+    "ft90_legs": 0
+   },
+   {
+    "family": "EXTRA0",
+    "candidates": 7,
+    "admitted": 0,
+    "key_dropped": 7,
+    "band_dropped": 0,
+    "nc_legs": 0,
+    "scored_nc": 0,
+    "net": 0,
+    "ft90_legs": 0
+   }
+  ],
+  "ft90_legs": 57,
+  "ft90_needed": 58,
+  "gate_vs_stack": {
+   "passed": false,
+   "failed": [
+    "net 127369.5 !> ref 127369.5"
+   ]
+  }
+ },
+ "S3G_instack": {
+  "cycle": 95,
+  "label": "Cycle 95 WS3 S3G in flagged stack (family net standalone +699.00)",
+  "controls": {
+   "n": 108,
+   "net": 127369.5,
+   "ft_pct": 51.9,
+   "ft90_pct": 52.8,
+   "per_week": 2.66,
+   "per_week_raw": 2.6601,
+   "not_computed": 0,
+   "red_month_ends": [],
+   "month_table": {
+    "2026-01": [
+     30893.0,
+     30893.0
+    ],
+    "2026-02": [
+     25158.0,
+     56051.0
+    ],
+    "2026-03": [
+     21600.0,
+     77651.0
+    ],
+    "2026-04": [
+     5090.0,
+     82741.0
+    ],
+    "2026-05": [
+     23000.0,
+     105741.0
+    ],
+    "2026-06": [
+     -5360.0,
+     100381.0
+    ],
+    "2026-07": [
+     -13650.0,
+     86731.0
+    ],
+    "2026-08": [
+     9848.0,
+     96579.0
+    ],
+    "2026-09": [
+     6181.0,
+     102760.0
+    ],
+    "2026-10": [
+     24609.5,
+     127369.5
+    ]
+   },
+   "months": {
+    "01": 30893.0,
+    "02": 25158.0,
+    "03": 21600.0,
+    "04": 5090.0,
+    "05": 23000.0,
+    "06": -5360.0,
+    "07": -13650.0,
+    "08": 9848.0,
+    "09": 6181.0,
+    "10": 24609.5
+   },
+   "halves": {
+    "jan_may": 105741.0,
+    "jun_oct": 21628.5
+   },
+   "timing_violations": [],
+   "timing_entry_bars_checked": 108,
+   "timing_external_rows": 0,
+   "placebo": {
+    "n": 105,
+    "net": 15367.5,
+    "not_computed": 1
+   },
+   "ex_top3_total": 98329.5,
+   "top3": [
+    [
+     "2026-01-21",
+     "PE",
+     9680.0
+    ],
+    [
+     "2026-01-23",
+     "PE",
+     9680.0
+    ],
+    [
+     "2026-02-19",
+     "PE",
+     9680.0
+    ]
+   ]
+  },
+  "banked": false,
+  "gate_why": [
+   "FT90 52.8 < ref 53.7"
+  ],
+  "detail": [
+   {
+    "family": "NS3",
+    "candidates": 58,
+    "admitted": 19,
+    "key_dropped": 31,
+    "band_dropped": 8,
+    "nc_legs": 0,
+    "scored_nc": 0,
+    "net": 14679.5,
+    "ft90_legs": 9
+   },
+   {
+    "family": "S3A",
+    "candidates": 15,
+    "admitted": 6,
+    "key_dropped": 6,
+    "band_dropped": 3,
+    "nc_legs": 0,
+    "scored_nc": 0,
+    "net": 2280.0,
+    "ft90_legs": 3
+   },
+   {
+    "family": "S3E",
+    "candidates": 4,
+    "admitted": 1,
+    "key_dropped": 3,
+    "band_dropped": 0,
+    "nc_legs": 0,
+    "scored_nc": 0,
+    "net": 2480.0,
+    "ft90_legs": 1
+   },
+   {
+    "family": "S3D",
+    "candidates": 7,
+    "admitted": 0,
+    "key_dropped": 7,
+    "band_dropped": 0,
+    "nc_legs": 0,
+    "scored_nc": 0,
+    "net": 0,
+    "ft90_legs": 0
+   },
+   {
+    "family": "EXTRA0",
+    "candidates": 8,
+    "admitted": 0,
+    "key_dropped": 7,
+    "band_dropped": 1,
+    "nc_legs": 0,
+    "scored_nc": 0,
+    "net": 0,
+    "ft90_legs": 0
+   }
+  ],
+  "ft90_legs": 57,
+  "ft90_needed": 58,
+  "gate_vs_stack": {
+   "passed": false,
+   "failed": [
+    "net 127369.5 !> ref 127369.5"
+   ]
+  }
+ },
+ "S3J_instack": {
+  "cycle": 96,
+  "label": "Cycle 96 WS3 S3J in flagged stack (family net standalone +1,520.00)",
+  "controls": {
+   "n": 108,
+   "net": 127369.5,
+   "ft_pct": 51.9,
+   "ft90_pct": 52.8,
+   "per_week": 2.66,
+   "per_week_raw": 2.6601,
+   "not_computed": 0,
+   "red_month_ends": [],
+   "month_table": {
+    "2026-01": [
+     30893.0,
+     30893.0
+    ],
+    "2026-02": [
+     25158.0,
+     56051.0
+    ],
+    "2026-03": [
+     21600.0,
+     77651.0
+    ],
+    "2026-04": [
+     5090.0,
+     82741.0
+    ],
+    "2026-05": [
+     23000.0,
+     105741.0
+    ],
+    "2026-06": [
+     -5360.0,
+     100381.0
+    ],
+    "2026-07": [
+     -13650.0,
+     86731.0
+    ],
+    "2026-08": [
+     9848.0,
+     96579.0
+    ],
+    "2026-09": [
+     6181.0,
+     102760.0
+    ],
+    "2026-10": [
+     24609.5,
+     127369.5
+    ]
+   },
+   "months": {
+    "01": 30893.0,
+    "02": 25158.0,
+    "03": 21600.0,
+    "04": 5090.0,
+    "05": 23000.0,
+    "06": -5360.0,
+    "07": -13650.0,
+    "08": 9848.0,
+    "09": 6181.0,
+    "10": 24609.5
+   },
+   "halves": {
+    "jan_may": 105741.0,
+    "jun_oct": 21628.5
+   },
+   "timing_violations": [],
+   "timing_entry_bars_checked": 108,
+   "timing_external_rows": 0,
+   "placebo": {
+    "n": 105,
+    "net": 15367.5,
+    "not_computed": 1
+   },
+   "ex_top3_total": 98329.5,
+   "top3": [
+    [
+     "2026-01-21",
+     "PE",
+     9680.0
+    ],
+    [
+     "2026-01-23",
+     "PE",
+     9680.0
+    ],
+    [
+     "2026-02-19",
+     "PE",
+     9680.0
+    ]
+   ]
+  },
+  "banked": false,
+  "gate_why": [
+   "FT90 52.8 < ref 53.7"
+  ],
+  "detail": [
+   {
+    "family": "NS3",
+    "candidates": 58,
+    "admitted": 19,
+    "key_dropped": 31,
+    "band_dropped": 8,
+    "nc_legs": 0,
+    "scored_nc": 0,
+    "net": 14679.5,
+    "ft90_legs": 9
+   },
+   {
+    "family": "S3A",
+    "candidates": 15,
+    "admitted": 6,
+    "key_dropped": 6,
+    "band_dropped": 3,
+    "nc_legs": 0,
+    "scored_nc": 0,
+    "net": 2280.0,
+    "ft90_legs": 3
+   },
+   {
+    "family": "S3E",
+    "candidates": 4,
+    "admitted": 1,
+    "key_dropped": 3,
+    "band_dropped": 0,
+    "nc_legs": 0,
+    "scored_nc": 0,
+    "net": 2480.0,
+    "ft90_legs": 1
+   },
+   {
+    "family": "S3D",
+    "candidates": 7,
+    "admitted": 0,
+    "key_dropped": 7,
+    "band_dropped": 0,
+    "nc_legs": 0,
+    "scored_nc": 0,
+    "net": 0,
+    "ft90_legs": 0
+   },
+   {
+    "family": "EXTRA0",
+    "candidates": 4,
+    "admitted": 0,
+    "key_dropped": 4,
+    "band_dropped": 0,
+    "nc_legs": 0,
+    "scored_nc": 0,
+    "net": 0,
+    "ft90_legs": 0
+   }
+  ],
+  "ft90_legs": 57,
+  "ft90_needed": 58,
+  "gate_vs_stack": {
+   "passed": false,
+   "failed": [
+    "net 127369.5 !> ref 127369.5"
+   ]
+  }
+ }
+}

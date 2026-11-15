@@ -1,0 +1,168 @@
+# BANK AGGRESSIVE TUNE — 2026-11-04
+
+Owner direction (2026-11-04): tune v21/v22 MORE aggressively — the phase 1/2 assembly was too timid. Recursive gated cycles, back-to-back, on the Bank book. Frozen files (v21/v22 assemblies, December candidates, November books/logs/specs) are never modified; every banked improvement creates the next base as a NEW candidate file set. Nothing armed, no crons, no November changes.
+
+**Base (verified by re-sum before cycle 1):** v22 + EVE-06(a) = +Rs 97,569.50, 106 legs, Rs 9,756.95/month (bank_v22_phase1_trades.csv 90 legs +Rs 91,450.50 + phase-2 (a) increments 16 legs +Rs 6,119.00). Target Rs 15,000/month = Rs 1,50,000 Jan–Oct. Gap Rs 52,430.50.
+
+**Banking rule (per cycle, all required):** full gate in the same run — timing audit 0 violations; mechanism-appropriate placebo beaten; halves both >= base halves OR total up with neither half negative; ex-top-3 legs and days positive and >= base; no green month flips red; independent re-sum exact — AND total > base total. Stop conditions: (i) base >= Rs 1,50,000 SUCCESS; (ii) 3 consecutive no-bank cycles SATURATED; (iii) after all 6 families, one more pass with distinct variants, (ii) counting from the last bank.
+
+Base battery: H1 +67,720.00 / H2 +29,849.50; ex-top-3 legs +70,746.50 / days +70,746.50; months {'2026-01': 24468.0, '2026-02': 11402.0, '2026-03': 8340.0, '2026-04': 2390.0, '2026-05': 21120.0, '2026-06': 560.0, '2026-07': 1524.0, '2026-08': -420.5, '2026-09': 10776.5, '2026-10': 17409.5}; worst drawdown -9,701.00; placebo twin of the base +12,417.00.
+
+# PASS 1
+
+## c1a — F1a entry expansion — causal solo-dropped Skill legs (<=09:55)
+
+**Freeze (before scoring):** Re-admit the component Skill V3 legs the pool_b2 causal solo rule dropped (entry <= 09:55 with no other-system leg on the key at/before it — the construction's own first filter, so this is the first excluded family in construction order). Admission: UNIQUE-ONCE vs the current book, earliest leg per (date,direction). Exits: base-book geometry (stream-state segment params, PLAIN on expiry day). Placebo: the same legs entered 6 bars later.
+
+**Verdict: REJECTED** — candidate +53,399.00 (163 legs, 5,339.90/mo) vs base +97,569.50; delta -44,170.50; placebo +81,893.00; H1 +39,492.00 / H2 +13,907.00; exT3 legs +24,359.00 / days +24,359.00; worst DD -21,811.00.
+Gate failures: total 53399.0 !> base 97569.5; placebo not beaten: cand 53399.0 vs placebo 81893.0; ex-top3 legs 24359.0 vs base 70746.5; ex-top3 days 24359.0 vs base 70746.5; month 2026-06 flips green->red (560.0 -> -11170.0); month 2026-07 flips green->red (1524.0 -> -1356.0)
+November implication: No — the running November v22 shadow runs the frozen v22 spec; this mechanism is outside that spec. Nothing is wired into November.
+No-bank. Consecutive no-bank count: 1.
+
+## c1b — F1b entry expansion — Skill CE pooled reps (CE block)
+
+**Freeze (before scoring):** Re-admit the pooled representative legs pool_b2's CE block removed (rep == Skill V3, direction CE). Same admission/geometry/placebo as c1a.
+
+**Verdict: REJECTED** — candidate +85,969.00 (125 legs, 8,596.90/mo) vs base +97,569.50; delta -11,600.50; placebo +83,836.00; H1 +56,809.00 / H2 +29,160.00; exT3 legs +59,146.00 / days +59,146.00; worst DD -11,923.50.
+Gate failures: total 85969.0 !> base 97569.5; ex-top3 legs 59146.0 vs base 70746.5; ex-top3 days 59146.0 vs base 70746.5; month 2026-04 flips green->red (2390.0 -> -290.0); month 2026-07 flips green->red (1524.0 -> -1916.0)
+November implication: No — the running November v22 shadow runs the frozen v22 spec; this mechanism is outside that spec. Nothing is wired into November.
+No-bank. Consecutive no-bank count: 2.
+
+## c1c — F1c entry expansion — NS1 CE second legs (drop_ns1_ce filter)
+
+**Freeze (before scoring):** Re-admit the audited NS1 second legs FILTERS[drop_ns1_ce] removed from the assembly pool (all CE second legs). Same admission/geometry/placebo as c1a (NS1 legs take base-row segment geometry in build_base_rows).
+
+**Verdict: REJECTED** — candidate +90,310.00 (128 legs, 9,031.00/mo) vs base +97,569.50; delta -7,259.50; placebo +94,801.00; H1 +65,300.50 / H2 +25,009.50; exT3 legs +63,487.00 / days +63,487.00; worst DD -11,861.00.
+Gate failures: total 90310.0 !> base 97569.5; placebo not beaten: cand 90310.0 vs placebo 94801.0; ex-top3 legs 63487.0 vs base 70746.5; ex-top3 days 63487.0 vs base 70746.5; month 2026-06 flips green->red (560.0 -> -3320.0)
+November implication: No — the running November v22 shadow runs the frozen v22 spec; this mechanism is outside that spec. Nothing is wired into November.
+No-bank. Consecutive no-bank count: 3.
+
+**STOP: SATURATED** after c1c.
+
+# FINAL SUMMARY
+
+**Verdict: SATURATED**
+
+Cycles run: ['c1a', 'c1b', 'c1c']. Banked: [].
+
+Final book: **+97,569.50** (106 legs, 9,756.95/month, 920.47/leg, 10.6 legs/month). Remaining gap to Rs 1,50,000: **52,430.50** (5,243.05/month).
+
+Gap arithmetic at the final book's rates: needs 16.3 legs/month at 920.47/leg (extra 5.7/month), or 1,415.09/leg at 10.6 legs/month (extra 494.62/leg), or a mix.
+
+Final battery: H1 +67,720.00 / H2 +29,849.50; ex-top-3 legs +70,746.50 / days +70,746.50; months {'2026-01': 24468.0, '2026-02': 11402.0, '2026-03': 8340.0, '2026-04': 2390.0, '2026-05': 21120.0, '2026-06': 560.0, '2026-07': 1524.0, '2026-08': -420.5, '2026-09': 10776.5, '2026-10': 17409.5}; worst day {'date': '2026-03-05', 'net': -3440.0}; worst drawdown -9,701.00; positive days 62.7%. Independent re-sum of bank_aggr_final_trades.csv: {'n': 106, 'net': 97569.5}.
+
+---
+
+**Postscript — stop-rule interpretation (recorded by the executing agent, 2026-11-04):** Stop condition (ii) fired after three consecutive no-bank cycles, all inside Family 1 (entry expansion). The brief's own wording supports this reading: Family 1's instruction is to "re-admit ONE excluded family per cycle", i.e. each excluded group is a cycle, and (ii) counts "3 consecutive no-bank cycles across families". The consequence, stated plainly: the saturation verdict rests on the entry-expansion family alone. The fourth excluded group (c1d, premium-band [400,550) pool legs, 18 legs) and Families 2–6 (BE-arm, scope-restricted give-back lock, runner extension, NS1 widening 1.5→1.25, second re-entry) were never scored, and Pass 2 never ran. If the owner intends saturation to count across the six named families rather than across Family 1's sub-cycles, the programme can be resumed from c1d with the same machinery (bank_aggressive_tune_score.py) and the same banking gate; no result above changes either way — the three scored increments are decisively negative (−44,170.50 / −11,600.50 / −7,259.50, admitted win rates 21% / 26% / 18%), so the construction filters v21 applied to these populations were carrying real information.
+
+# RESUME — clarified stop rule (2026-11-04)
+
+The first run stopped after c1c on a literal reading of stop rule (ii) (3 consecutive no-banks, all inside Family 1). Owner clarification, which supersedes that reading: stop at SUCCESS (base >= Rs 1,50,000) at any point; otherwise cycle ALL six families; declare SATURATED only if, after every family has been cycled at least once, the last 3 consecutive cycles banked nothing AND those 3 span at least 2 different families. A bank resets the streak and becomes the new base; families not yet run are built against the then-current base (the lazy builders already do this — F3's scope, F5's filters and F6's arm state all read STATE at build time). Families already cycled are not re-run in this pass; Pass 2 runs each family's distinct variant per the original brief's condition (iii). Cycles c1a/c1b/c1c stand as scored above (all rejected; base unchanged). This resume runs c1d, then Families 2-6, back-to-back, same scorer machinery, same banking gate.
+
+Resume base re-verified in-run: H1 +67,720.00 / H2 +29,849.50; ex-top-3 legs +70,746.50 / days +70,746.50; placebo twin of the base +12,417.00.
+
+# PASS 1 (resumed)
+
+## c1d — F1d entry expansion — premium-band [400,550) dropped pool legs
+
+**Freeze (before scoring):** Re-admit the pooled/NS1 legs FILTERS[drop_prem_400_550] removed after the CE filter (entry premium in [400,550)). Same admission/geometry/placebo as c1a.
+
+**Verdict: REJECTED** — candidate +91,839.50 (124 legs, 9,183.95/mo) vs base +97,569.50; delta -5,730.00; placebo +95,354.00; H1 +69,462.00 / H2 +22,377.50; exT3 legs +65,016.50 / days +65,016.50; worst DD -10,483.00.
+Gate failures: total 91839.5 !> base 97569.5; placebo not beaten: cand 91839.5 vs placebo 95354.0; ex-top3 legs 65016.5 vs base 70746.5; ex-top3 days 65016.5 vs base 70746.5; month 2026-07 flips green->red (1524.0 -> -416.0)
+November implication: No — the running November v22 shadow runs the frozen v22 spec; this mechanism is outside that spec. Nothing is wired into November.
+No-bank. Consecutive no-bank count: 1.
+
+## c2 — F2 BE-arm — pre-target break-even arm at +50 (all base legs)
+
+**Freeze (before scoring):** Once any bar's high >= entry+50 premium, the stop for subsequent bars moves -50 -> entry (arm evaluated after that bar's stop/target checks, exactly the pipeline's overlay position). Applied to every base leg: pipeline/add-on legs via the replay, EVE-06 re-entry legs via the G0 sim. This is Nifty's banked BE50 analogue, never tested in this form on Bank; EVE-04 was a post-arm +30 lock on NS1 legs only — mechanically distinct (threshold +50 vs +30, all legs vs NS1-only). Placebo: the delay-6 twin book under the same arm + shifted re-entries.
+
+**Verdict: REJECTED** — candidate +60,488.00 (106 legs, 6,048.80/mo) vs base +97,569.50; delta -37,081.50; placebo +6,333.00; H1 +45,415.00 / H2 +15,073.00; exT3 legs +33,665.00 / days +33,665.00; worst DD -10,901.00.
+Gate failures: total 60488.0 !> base 97569.5; ex-top3 legs 33665.0 vs base 70746.5; ex-top3 days 33665.0 vs base 70746.5; month 2026-04 flips green->red (2390.0 -> -1060.0); month 2026-06 flips green->red (560.0 -> -640.0); month 2026-07 flips green->red (1524.0 -> -2376.0)
+November implication: Not wired — the running November v22 shadow keeps the frozen v22 exits; if the owner adopted this candidate, shadow exits on legs it takes would change. Nothing is wired into November.
+No-bank. Consecutive no-bank count: 2.
+
+## c3 — F3 give-back lock — scope-restricted to net-negative developed->stop families
+
+**Freeze (before scoring):** Developed->stop legs in the CURRENT base (stop exit with a prior bar's high >= entry+30), net by family: {'S3-R1': -3440.0, 'BASE': -13760.0, 'NS3_gapclass': -6880.0} (counts {'S3-R1': 2, 'BASE': 8, 'NS3_gapclass': 4}). The FC-2 lock (bar high >= entry+30 -> stop = entry for subsequent bars) is applied ONLY to families whose developed->stop legs are net-negative: scope = ['BASE', 'NS3_gapclass', 'S3-R1']. Book-wide FC-2 failed before (dip-shaped winners share the shape); NS1 already carries this lock via EVE-04. Placebo: delay-6 twin under the same scoped lock.
+
+**Verdict: REJECTED** — candidate +46,688.00 (106 legs, 4,668.80/mo) vs base +97,569.50; delta -50,881.50; placebo +2,433.00; H1 +31,615.00 / H2 +15,073.00; exT3 legs +25,155.50 / days +24,585.00; worst DD -7,901.00.
+Gate failures: total 46688.0 !> base 97569.5; ex-top3 legs 25155.5 vs base 70746.5; ex-top3 days 24585.0 vs base 70746.5; month 2026-02 flips green->red (11402.0 -> -898.0); month 2026-04 flips green->red (2390.0 -> -1060.0)
+November implication: Not wired — the running November v22 shadow keeps the frozen v22 exits; if the owner adopted this candidate, shadow exits on legs it takes would change. Nothing is wired into November.
+No-bank. Consecutive no-bank count: 3.
+
+## c4 — F4 runner extension — plain-target legs run with the warm runner
+
+**Freeze (before scoring):** Legs whose params are PLAIN (lock/tgt2 None — the ge400_cold segment) and which are NOT expiry-day legs currently exit flat at the +90 target. Variant: when such a leg reaches +90 it does not exit; it runs under the book's own runner convention for its premium band (ge400_warm: lock +90, second target +180), phase 1 unchanged. Motivation: the ladder build's T4 anatomy — profit concentrates in full-hunt legs. Placebo: delay-6 twin under the same extension.
+
+**Verdict: BANKED** — candidate +102,969.50 (106 legs, 10,296.95/mo) vs base +97,569.50; delta +5,400.00; placebo +12,417.00; H1 +70,420.00 / H2 +32,549.50; exT3 legs +76,146.50 / days +76,146.50; worst DD -9,701.00.
+November implication: Not wired — the running November v22 shadow keeps the frozen v22 exits; if the owner adopted this candidate, shadow exits on legs it takes would change. Nothing is wired into November.
+New base after c4: +102,969.50 (106 legs, 10,296.95/mo). Gap to Rs 1,50,000: 47,030.50.
+
+## c5 — F5 NS1 second-leg widening — room_ratio 1.5 -> 1.25
+
+**Freeze (before scoring):** One step down the registered ladder: NS1 second legs admitted at room_ratio >= 1.25 instead of >= 1.5 (principle: admit the near-miss band — the 2026-11-02 primary day fell into it at 1.49). All other NS1 conditions unchanged (first leg resolved target/stop by 13:30, crossing after the first leg's exit, CE-on-bearish still blocked by the generator; standing construction filters — NS1-CE block and premium band — apply unless those families banked earlier in this tune). Candidates = gen(1.25) minus gen(1.5) under the generator that reproduces the audited NS1 population. Geometry: base-row segment params. Placebo: admitted legs entered 6 bars later.
+
+**Verdict: REJECTED** — candidate +102,969.50 (106 legs, 10,296.95/mo) vs base +102,969.50; delta +0.00; placebo +102,969.50; H1 +70,420.00 / H2 +32,549.50; exT3 legs +76,146.50 / days +76,146.50; worst DD -9,701.00.
+Gate failures: total 102969.5 !> base 102969.5; placebo not beaten: cand 102969.5 vs placebo 102969.5
+November implication: No — the running November v22 shadow runs the frozen v22 spec; this mechanism is outside that spec. Nothing is wired into November.
+No-bank. Consecutive no-bank count: 1.
+
+## c6 — F6 second re-entry — a second same-day reclaim after a stopped re-entry
+
+**Freeze (before scoring):** On days whose EVE-06(a) re-entry leg itself stopped: if spot later makes a FRESH close back through the morning-range extreme (previous bar's close not beyond it) strictly after the re-entry's exit bar, re-enter once more (max 2 re-entries/day), ATM at next bar open, G0 exits, day-cap -Rs 3,000 on realised-to-trigger nets still governs. Placebo: the same search started +60 min after the re-entry's exit.
+
+**Verdict: REJECTED** — candidate +102,969.50 (106 legs, 10,296.95/mo) vs base +102,969.50; delta +0.00; placebo +102,969.50; H1 +70,420.00 / H2 +32,549.50; exT3 legs +76,146.50 / days +76,146.50; worst DD -9,701.00.
+Gate failures: total 102969.5 !> base 102969.5; placebo not beaten: cand 102969.5 vs placebo 102969.5
+November implication: No — the running November v22 shadow runs the frozen v22 spec; this mechanism is outside that spec. Nothing is wired into November.
+No-bank. Consecutive no-bank count: 2.
+
+# PASS 2
+
+## v1 — F1 variant — add-on band-dropped legs (NS3/S3 pool)
+
+**Freeze (before scoring):** Mechanically distinct population from F1a-d: the 9 NS3/S3 add-on candidates admit() band-dropped in the v21 assembly (premium in [400,550)), re-admitted with their own family geometry (NS3 @ P21; S3 @ stream-state addon params), UNIQUE-ONCE vs the current book. Placebo: admitted legs entered 6 bars later.
+
+**Verdict: BANKED** — candidate +123,471.50 (115 legs, 12,347.15/mo) vs base +102,969.50; delta +20,502.00; placebo +111,056.00; H1 +79,202.00 / H2 +44,269.50; exT3 legs +96,648.50 / days +96,648.50; worst DD -7,221.00.
+November implication: No — the running November v22 shadow runs the frozen v22 spec; this mechanism is outside that spec. Nothing is wired into November.
+New base after v1: +123,471.50 (115 legs, 12,347.15/mo). Gap to Rs 1,50,000: 26,528.50.
+
+## v2 — F2 variant — BE-arm at +50 with the armed stop at entry+10
+
+**Freeze (before scoring):** Same +50 arm as F2, but the armed stop locks entry+10 instead of entry+0 (principle: cover the Rs 220 cost + slippage, ~7.3 premium points, rounded to 10 — the locked floor is a true net-positive). Placebo: delay-6 twin under the same arm.
+
+**Verdict: REJECTED** — candidate +55,475.00 (115 legs, 5,547.50/mo) vs base +123,471.50; delta -67,996.50; placebo +9,903.00; H1 +31,682.00 / H2 +23,793.00; exT3 legs +37,125.50 / days +36,445.50; worst DD -7,601.00.
+Gate failures: total 55475.0 !> base 123471.5; ex-top3 legs 37125.5 vs base 96648.5; ex-top3 days 36445.5 vs base 96648.5; month 2026-07 flips green->red (4224.0 -> -1176.0); month 2026-08 flips green->red (2059.5 -> -2067.0)
+November implication: Not wired — the running November v22 shadow keeps the frozen v22 exits; if the owner adopted this candidate, shadow exits on legs it takes would change. Nothing is wired into November.
+No-bank. Consecutive no-bank count: 1.
+
+## v3 — F3 variant — scoped give-back lock arming at +50 instead of +30
+
+**Freeze (before scoring):** The scoped lock of F3 (same scope rule: families whose developed->stop legs are net-negative in the current base; scope now ['BASE', 'NS3_gapclass', 'S3-R1']) but the lock arms only once a bar's high >= entry+50 — a developed-more lock that leaves shallow dips un-locked. NS1's EVE-04 lock stays at +30. Placebo: delay-6 twin under the same lock.
+
+**Verdict: REJECTED** — candidate +76,808.00 (115 legs, 7,680.80/mo) vs base +123,471.50; delta -46,663.50; placebo +9,919.50; H1 +51,515.00 / H2 +25,293.00; exT3 legs +49,985.00 / days +49,985.00; worst DD -9,443.00.
+Gate failures: total 76808.0 !> base 123471.5; ex-top3 legs 49985.0 vs base 96648.5; ex-top3 days 49985.0 vs base 96648.5; month 2026-07 flips green->red (4224.0 -> -3876.0); month 2026-08 flips green->red (2059.5 -> -2667.0)
+November implication: Not wired — the running November v22 shadow keeps the frozen v22 exits; if the owner adopted this candidate, shadow exits on legs it takes would change. Nothing is wired into November.
+No-bank. Consecutive no-bank count: 2.
+
+## v4 — F4 variant — runner extension extended to expiry-day PLAIN legs
+
+**Freeze (before scoring):** F4's runner treatment (lock +90 / target2 +180 after +90) applied also to expiry-day PLAIN legs, the one population F4 excluded (the book's construction keeps expiry-day legs plain; this variant tests that convention). Placebo: delay-6 twin under the same extension.
+
+**Verdict: REJECTED** — candidate +123,471.50 (115 legs, 12,347.15/mo) vs base +123,471.50; delta +0.00; placebo +20,503.50; H1 +79,202.00 / H2 +44,269.50; exT3 legs +96,648.50 / days +96,648.50; worst DD -7,221.00.
+Gate failures: total 123471.5 !> base 123471.5
+November implication: Not wired — the running November v22 shadow keeps the frozen v22 exits; if the owner adopted this candidate, shadow exits on legs it takes would change. Nothing is wired into November.
+No-bank. Consecutive no-bank count: 3.
+
+**STOP: SATURATED** after v4.
+
+# FINAL SUMMARY
+
+**Verdict: SATURATED**
+
+Cycles run: ['c1a', 'c1b', 'c1c', 'c1d', 'c2', 'c3', 'c4', 'c5', 'c6', 'v1', 'v2', 'v3', 'v4']. Banked: ['c4', 'v1'].
+
+Final book: **+123,471.50** (115 legs, 12,347.15/month, 1,073.67/leg, 11.5 legs/month). Remaining gap to Rs 1,50,000: **26,528.50** (2,652.85/month).
+
+Gap arithmetic at the final book's rates: needs 13.97 legs/month at 1,073.67/leg (extra 2.47/month), or 1,304.35/leg at 11.5 legs/month (extra 230.68/leg), or a mix.
+
+Final battery: H1 +79,202.00 / H2 +44,269.50; ex-top-3 legs +96,648.50 / days +96,648.50; months {'2026-01': 24028.0, '2026-02': 15064.0, '2026-03': 8340.0, '2026-04': 6370.0, '2026-05': 25400.0, '2026-06': 3040.0, '2026-07': 4224.0, '2026-08': 2059.5, '2026-09': 15056.5, '2026-10': 19889.5}; worst day {'date': '2026-03-05', 'net': -3440.0}; worst drawdown -7,221.00; positive days 65.2%. Independent re-sum of bank_aggr_final_trades.csv: {'n': 115, 'net': 123471.5}.

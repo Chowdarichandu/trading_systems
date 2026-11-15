@@ -1,0 +1,180 @@
+still missing after fetch: []
+detail: [{'family': 'NS3', 'candidates': 51, 'admitted': 15, 'key_dropped': 30, 'band_dropped': 6, 'nc_legs': 0, 'net': 7755.0}, {'family': 'S3A', 'candidates': 15, 'admitted': 6, 'key_dropped': 6, 'band_dropped': 3, 'nc_legs': 0, 'net': 2280.0}, {'family': 'S3E', 'candidates': 4, 'admitted': 1, 'key_dropped': 3, 'band_dropped': 0, 'nc_legs': 0, 'net': 2480.0}, {'family': 'S3D', 'candidates': 7, 'admitted': 0, 'key_dropped': 7, 'band_dropped': 0, 'nc_legs': 0, 'net': 0}]
+{
+ "n": 102,
+ "net": 69940.5,
+ "ft_pct": 47.1,
+ "ft90_pct": 48.0,
+ "per_week": 2.51,
+ "per_week_raw": 2.5123,
+ "not_computed": 0,
+ "red_month_ends": [],
+ "month_table": {
+  "2026-01": [
+   22748.0,
+   22748.0
+  ],
+  "2026-02": [
+   20480.0,
+   43228.0
+  ],
+  "2026-03": [
+   3600.0,
+   46828.0
+  ],
+  "2026-04": [
+   -1810.0,
+   45018.0
+  ],
+  "2026-05": [
+   13250.0,
+   58268.0
+  ],
+  "2026-06": [
+   -3640.0,
+   54628.0
+  ],
+  "2026-07": [
+   -10500.0,
+   44128.0
+  ],
+  "2026-08": [
+   -873.5,
+   43254.5
+  ],
+  "2026-09": [
+   9726.5,
+   52981.0
+  ],
+  "2026-10": [
+   16959.5,
+   69940.5
+  ]
+ },
+ "months": {
+  "01": 22748.0,
+  "02": 20480.0,
+  "03": 3600.0,
+  "04": -1810.0,
+  "05": 13250.0,
+  "06": -3640.0,
+  "07": -10500.0,
+  "08": -873.5,
+  "09": 9726.5,
+  "10": 16959.5
+ },
+ "halves": {
+  "jan_may": 58268.0,
+  "jun_oct": 11672.5
+ },
+ "timing_violations": [],
+ "timing_entry_bars_checked": 102,
+ "timing_external_rows": 0,
+ "placebo": {
+  "n": 103,
+  "net": -7223.5,
+  "not_computed": 0
+ },
+ "ex_top3_total": 40900.5,
+ "top3": [
+  [
+   "2026-01-21",
+   "PE",
+   9680.0
+  ],
+  [
+   "2026-02-19",
+   "PE",
+   9680.0
+  ],
+  [
+   "2026-02-20",
+   "CE",
+   9680.0
+  ]
+ ],
+ "independent_resum": {
+  "n": 102,
+  "net": 69940.5
+ },
+ "resum_matches": true
+}
+
+--- leg diff vs v19 ---
+('2026-01-22', 'PE', '10:50') v19: None -> audited: ('NS1_second', 2030.0)
+('2026-01-22', 'PE', '10:55') v19: ('NS1_second', 2030.0) -> audited: None
+('2026-01-23', 'PE', '11:20') v19: None -> audited: ('NS1_second', 2030.0)
+('2026-01-23', 'PE', '13:15') v19: ('NS1_second', 9680.0) -> audited: None
+('2026-01-29', 'CE', '13:35') v19: None -> audited: ('NS3_gapclass', 1235.0)
+('2026-01-29', 'CE', '15:10') v19: ('NS3_gapclass', 1730.0) -> audited: None
+('2026-02-03', 'PE', '10:05') v19: None -> audited: ('NS1_second', -1720.0)
+('2026-02-03', 'PE', '10:10') v19: ('NS1_second', -1720.0) -> audited: None
+('2026-02-05', 'PE', '10:30') v19: None -> audited: ('NS1_second', 560.0)
+('2026-02-05', 'PE', '14:10') v19: ('NS1_second', -1720.0) -> audited: None
+('2026-02-13', 'PE', '10:35') v19: ('NS3_gapclass', 4478.0) -> audited: None
+('2026-02-27', 'PE', '09:45') v19: ('BASE', 2480.0) -> audited: None
+('2026-02-27', 'PE', '09:55') v19: None -> audited: ('BASE', -1720.0)
+('2026-03-05', 'PE', '11:50') v19: None -> audited: ('NS1_second', -1720.0)
+('2026-03-05', 'PE', '12:25') v19: ('NS1_second', -1720.0) -> audited: None
+('2026-03-11', 'PE', '09:55') v19: ('BASE', 5180.0) -> audited: None
+('2026-03-11', 'PE', '10:45') v19: None -> audited: ('BASE', -1720.0)
+('2026-03-20', 'CE', '09:35') v19: None -> audited: ('NS3_gapclass', -1720.0)
+('2026-03-20', 'CE', '09:40') v19: ('NS3_gapclass', -1720.0) -> audited: None
+('2026-03-24', 'PE', '10:05') v19: None -> audited: ('NS1_second', -1720.0)
+('2026-03-24', 'PE', '10:25') v19: ('NS1_second', 5180.0) -> audited: None
+('2026-03-27', 'PE', '09:35') v19: None -> audited: ('NS3_gapclass', -1720.0)
+('2026-03-27', 'PE', '11:15') v19: ('NS3_gapclass', 1730.0) -> audited: None
+('2026-04-09', 'PE', '12:05') v19: None -> audited: ('NS1_second', -1720.0)
+('2026-04-09', 'PE', '12:10') v19: ('NS1_second', 2480.0) -> audited: None
+('2026-04-13', 'CE', '10:30') v19: ('BASE', 5180.0) -> audited: ('BASE', 2480.0)
+('2026-04-15', 'PE', '11:00') v19: None -> audited: ('NS1_second', 2480.0)
+('2026-04-15', 'PE', '11:05') v19: ('NS1_second', 2480.0) -> audited: None
+('2026-04-16', 'PE', '09:45') v19: ('BASE', -1720.0) -> audited: None
+('2026-04-16', 'PE', '10:00') v19: None -> audited: ('NS1_second', -1720.0)
+('2026-04-28', 'CE', '10:00') v19: None -> audited: ('NS3_gapclass', -1720.0)
+('2026-04-28', 'CE', '10:35') v19: ('NS3_gapclass', -1720.0) -> audited: None
+('2026-05-08', 'PE', '12:15') v19: None -> audited: ('NS3_gapclass', 5030.0)
+('2026-05-08', 'PE', '12:20') v19: ('NS3_gapclass', 5030.0) -> audited: None
+('2026-05-14', 'PE', '09:50') v19: ('BASE', 5180.0) -> audited: None
+('2026-05-14', 'PE', '11:00') v19: None -> audited: ('BASE', -1720.0)
+('2026-05-29', 'PE', '10:30') v19: ('BASE', 5180.0) -> audited: ('BASE', 2480.0)
+('2026-06-01', 'PE', '11:25') v19: None -> audited: ('NS1_second', 2480.0)
+('2026-06-01', 'PE', '11:55') v19: ('NS1_second', 2480.0) -> audited: None
+('2026-06-10', 'CE', '10:55') v19: None -> audited: ('NS3_gapclass', -1720.0)
+('2026-06-10', 'CE', '12:40') v19: ('NS3_gapclass', -1720.0) -> audited: None
+('2026-06-16', 'PE', '09:45') v19: ('BASE', -1720.0) -> audited: None
+('2026-06-16', 'PE', '10:10') v19: None -> audited: ('BASE', -1720.0)
+('2026-06-30', 'PE', '09:45') v19: ('BASE', -1720.0) -> audited: None
+('2026-07-01', 'CE', '10:15') v19: None -> audited: ('BASE', 2480.0)
+('2026-07-02', 'PE', '11:10') v19: None -> audited: ('NS1_second', -1720.0)
+('2026-07-02', 'PE', '11:35') v19: ('NS1_second', -1720.0) -> audited: None
+('2026-07-07', 'PE', '13:15') v19: None -> audited: ('NS3_gapclass', -1720.0)
+('2026-07-07', 'PE', '13:40') v19: ('NS3_gapclass', -1720.0) -> audited: None
+('2026-07-08', 'PE', '09:35') v19: None -> audited: ('NS3_gapclass', -1720.0)
+('2026-07-08', 'PE', '09:45') v19: ('NS3_gapclass', -1720.0) -> audited: None
+('2026-07-13', 'CE', '09:40') v19: None -> audited: ('NS3_gapclass', 1730.0)
+('2026-07-13', 'CE', '10:20') v19: ('NS3_gapclass', 1730.0) -> audited: None
+('2026-07-14', 'PE', '09:40') v19: ('BASE', -1720.0) -> audited: None
+('2026-07-23', 'PE', '11:50') v19: None -> audited: ('NS3_gapclass', 1730.0)
+('2026-07-23', 'PE', '12:00') v19: ('NS3_gapclass', 5030.0) -> audited: None
+('2026-08-24', 'PE', '09:40') v19: ('BASE', 9680.0) -> audited: None
+('2026-09-01', 'CE', '11:15') v19: None -> audited: ('NS3_gapclass', -1720.0)
+('2026-09-01', 'CE', '13:00') v19: ('NS3_gapclass', -1720.0) -> audited: None
+('2026-09-01', 'PE', '13:50') v19: None -> audited: ('NS1_second', 306.5)
+('2026-09-01', 'PE', '14:00') v19: ('NS1_second', -469.0) -> audited: None
+('2026-09-11', 'CE', '10:15') v19: None -> audited: ('NS3_gapclass', 1730.0)
+('2026-09-11', 'CE', '10:30') v19: ('NS3_gapclass', 5030.0) -> audited: None
+('2026-09-15', 'PE', '09:55') v19: ('NS3_gapclass', 1730.0) -> audited: None
+('2026-09-17', 'CE', '09:35') v19: None -> audited: ('NS3_gapclass', -1720.0)
+('2026-09-17', 'CE', '10:35') v19: ('NS3_gapclass', -1720.0) -> audited: None
+('2026-09-24', 'PE', '09:40') v19: None -> audited: ('NS3_gapclass', 5030.0)
+('2026-09-24', 'PE', '13:40') v19: ('NS3_gapclass', 5030.0) -> audited: None
+('2026-09-28', 'PE', '09:35') v19: None -> audited: ('NS3_gapclass', 5030.0)
+('2026-09-28', 'PE', '10:05') v19: ('NS3_gapclass', 1730.0) -> audited: None
+('2026-10-12', 'PE', '10:30') v19: None -> audited: ('NS1_second', 2480.0)
+('2026-10-12', 'PE', '10:50') v19: ('NS1_second', 2480.0) -> audited: None
+('2026-10-23', 'PE', '09:50') v19: ('BASE', 9680.0) -> audited: None
+('2026-10-23', 'PE', '10:00') v19: None -> audited: ('BASE', 2030.0)
+('2026-10-27', 'PE', '13:10') v19: None -> audited: ('NS1_second', 2480.0)
+('2026-10-27', 'PE', '13:25') v19: ('NS1_second', 2480.0) -> audited: None
+v19 net 133898.0 -> audited net 69940.5

@@ -1,0 +1,203 @@
+{
+ "EVE-09": {
+  "base": {
+   "label": "v21 frozen book",
+   "n": 99,
+   "net": 83650.5,
+   "halves": {
+    "H1": 61938.0,
+    "H2": 21712.5
+   },
+   "months": {
+    "2026-01": 22748.0,
+    "2026-02": 20480.0,
+    "2026-03": 1120.0,
+    "2026-04": -90.0,
+    "2026-05": 17680.0,
+    "2026-06": 560.0,
+    "2026-07": -3680.0,
+    "2026-08": -873.5,
+    "2026-09": 10776.5,
+    "2026-10": 14929.5
+   },
+   "ex_top3": 54610.5
+  },
+  "variant": {
+   "label": "EVE-09 skip early NS1 (<10:30)",
+   "n": 96,
+   "net": 88810.5,
+   "halves": {
+    "H1": 67098.0,
+    "H2": 21712.5
+   },
+   "months": {
+    "2026-01": 22748.0,
+    "2026-02": 22200.0,
+    "2026-03": 2840.0,
+    "2026-04": 1630.0,
+    "2026-05": 17680.0,
+    "2026-06": 560.0,
+    "2026-07": -3680.0,
+    "2026-08": -873.5,
+    "2026-09": 10776.5,
+    "2026-10": 14929.5
+   },
+   "ex_top3": 59770.5
+  },
+  "skipped": [
+   [
+    "2026-02-03",
+    "PE",
+    "10:05",
+    "stop",
+    "-1720.0"
+   ],
+   [
+    "2026-03-24",
+    "PE",
+    "10:05",
+    "stop",
+    "-1720.0"
+   ],
+   [
+    "2026-04-16",
+    "PE",
+    "10:00",
+    "stop",
+    "-1720.0"
+   ]
+  ],
+  "skipped_net": -5160.0,
+  "placebo": {
+   "label": "placebo (skip same count, latest-entry NS1 legs)",
+   "n": 96,
+   "net": 82584.0,
+   "halves": {
+    "H1": 63658.0,
+    "H2": 18926.0
+   },
+   "months": {
+    "2026-01": 22748.0,
+    "2026-02": 20480.0,
+    "2026-03": 1120.0,
+    "2026-04": 1630.0,
+    "2026-05": 17680.0,
+    "2026-06": 560.0,
+    "2026-07": -3680.0,
+    "2026-08": -873.5,
+    "2026-09": 10470.0,
+    "2026-10": 12449.5
+   },
+   "ex_top3": 53544.0
+  },
+  "placebo_skipped": [
+   [
+    "2026-09-01",
+    "13:50",
+    "306.5"
+   ],
+   [
+    "2026-10-27",
+    "13:10",
+    "2480.0"
+   ],
+   [
+    "2026-04-09",
+    "12:05",
+    "-1720.0"
+   ]
+  ],
+  "green_flips": [],
+  "timing_audit": "skip input is entry_time, known at entry \u2014 0 violations by construction",
+  "verdict": "PASS"
+ },
+ "EVE-10": {
+  "b2_pool_legs": 89,
+  "b2_pool_columns": [
+   "date",
+   "index",
+   "direction",
+   "representative_system",
+   "source_systems",
+   "entry_time",
+   "entry_spot",
+   "strike",
+   "expiry",
+   "lot",
+   "entry_premium",
+   "exit_premium",
+   "exit_time",
+   "exit_reason",
+   "net_rs",
+   "status",
+   "not_computed_reason",
+   "old_spot_net_rs",
+   "old_spot_exit_reason",
+   "note"
+  ],
+  "note": "The stored B2 pool holds only legs the frozen B2 rule KEPT; blocked Skill V3 CE solo keys were never logged as trades in any stored Bank file, so the admission population for a late-CE-solo candidate does not exist in the stored record.",
+  "verdict": "NOT TESTABLE \u2014 no score quoted"
+ },
+ "nov4_s3_winner": {
+  "entry": 715.3,
+  "exit": 805.3,
+  "exit_reason": "runner_stop",
+  "mfe_pts": 112.7,
+  "mae_pts": -0.5,
+  "path_bars": [
+   [
+    "09:55",
+    715.3,
+    775.0,
+    714.8,
+    761.3
+   ],
+   [
+    "10:00",
+    760.55,
+    773.65,
+    735.2,
+    737.55
+   ],
+   [
+    "10:05",
+    738.5,
+    745.0,
+    715.05,
+    715.05
+   ],
+   [
+    "10:10",
+    715.55,
+    736.5,
+    715.0,
+    730.15
+   ],
+   [
+    "10:15",
+    732.1,
+    793.2,
+    724.0,
+    782.3
+   ],
+   [
+    "10:20",
+    784.95,
+    816.95,
+    772.6,
+    795.95
+   ],
+   [
+    "10:25",
+    794.85,
+    828.0,
+    785.7,
+    825.6
+   ]
+  ]
+ },
+ "today_tuned_shadow_v2": {
+  "primary_legs_today": 0,
+  "note": "Primary frame produced no B2 base leg and no NS1 second leg on 2026-11-05 (only key: Skill V3 CE solo 11:15/11:20, blocked by the frozen Skill-CE block, which v2 does not alter; NS1: S1 base exited by target 11:30, no fresh OR crossing after). TUNED SHADOW v2 therefore also has no trade today."
+ }
+}

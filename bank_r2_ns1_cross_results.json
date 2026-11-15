@@ -1,0 +1,256 @@
+{
+ "room1.3_win14:00_itm0": {
+  "n": 82,
+  "net": 106517.0,
+  "ft90_pct": 53.7,
+  "per_week_raw": 2.0197,
+  "not_computed": 0,
+  "gate_pass": false,
+  "placebo_net": 18365.2,
+  "stream_nc": 0,
+  "gate_failed": [
+   "net 106517.0 !> ref 106517.0"
+  ]
+ },
+ "room1.3_win14:00_itm1": {
+  "n": 80,
+  "net": 98159.5,
+  "ft90_pct": 52.5,
+  "per_week_raw": 1.9704,
+  "not_computed": 0,
+  "gate_pass": false,
+  "placebo_net": 16747.7,
+  "stream_nc": 1,
+  "gate_failed": [
+   "net 98159.5 !> ref 106517.0",
+   "FT90 52.5 < ref 53.7",
+   "frequency 1.9704/wk < 2.0",
+   "stream NOT_COMPUTED 1"
+  ]
+ },
+ "room1.3_win15:00_itm0": {
+  "n": 83,
+  "net": 106192.0,
+  "ft90_pct": 53.0,
+  "per_week_raw": 2.0443,
+  "not_computed": 0,
+  "gate_pass": false,
+  "placebo_net": 18365.2,
+  "stream_nc": 0,
+  "gate_failed": [
+   "net 106192.0 !> ref 106517.0",
+   "FT90 53.0 < ref 53.7"
+  ]
+ },
+ "room1.3_win15:00_itm1": {
+  "n": 80,
+  "net": 98159.5,
+  "ft90_pct": 52.5,
+  "per_week_raw": 1.9704,
+  "not_computed": 0,
+  "gate_pass": false,
+  "placebo_net": 16747.7,
+  "stream_nc": 2,
+  "gate_failed": [
+   "net 98159.5 !> ref 106517.0",
+   "FT90 52.5 < ref 53.7",
+   "frequency 1.9704/wk < 2.0",
+   "stream NOT_COMPUTED 2"
+  ]
+ },
+ "room1.4_win14:00_itm0": {
+  "n": 82,
+  "net": 106517.0,
+  "ft90_pct": 53.7,
+  "per_week_raw": 2.0197,
+  "not_computed": 0,
+  "gate_pass": false,
+  "placebo_net": 18365.2,
+  "stream_nc": 0,
+  "gate_failed": [
+   "net 106517.0 !> ref 106517.0"
+  ]
+ },
+ "room1.4_win14:00_itm1": {
+  "n": 80,
+  "net": 98159.5,
+  "ft90_pct": 52.5,
+  "per_week_raw": 1.9704,
+  "not_computed": 0,
+  "gate_pass": false,
+  "placebo_net": 16747.7,
+  "stream_nc": 1,
+  "gate_failed": [
+   "net 98159.5 !> ref 106517.0",
+   "FT90 52.5 < ref 53.7",
+   "frequency 1.9704/wk < 2.0",
+   "stream NOT_COMPUTED 1"
+  ]
+ },
+ "room1.4_win15:00_itm0": {
+  "n": 83,
+  "net": 106192.0,
+  "ft90_pct": 53.0,
+  "per_week_raw": 2.0443,
+  "not_computed": 0,
+  "gate_pass": false,
+  "placebo_net": 18365.2,
+  "stream_nc": 0,
+  "gate_failed": [
+   "net 106192.0 !> ref 106517.0",
+   "FT90 53.0 < ref 53.7"
+  ]
+ },
+ "room1.4_win15:00_itm1": {
+  "n": 80,
+  "net": 98159.5,
+  "ft90_pct": 52.5,
+  "per_week_raw": 1.9704,
+  "not_computed": 0,
+  "gate_pass": false,
+  "placebo_net": 16747.7,
+  "stream_nc": 2,
+  "gate_failed": [
+   "net 98159.5 !> ref 106517.0",
+   "FT90 52.5 < ref 53.7",
+   "frequency 1.9704/wk < 2.0",
+   "stream NOT_COMPUTED 2"
+  ]
+ },
+ "room1.6_win14:00_itm0": {
+  "n": 82,
+  "net": 106517.0,
+  "ft90_pct": 53.7,
+  "per_week_raw": 2.0197,
+  "not_computed": 0,
+  "gate_pass": false,
+  "placebo_net": 18365.2,
+  "stream_nc": 0,
+  "gate_failed": [
+   "net 106517.0 !> ref 106517.0"
+  ]
+ },
+ "room1.6_win14:00_itm1": {
+  "n": 80,
+  "net": 98159.5,
+  "ft90_pct": 52.5,
+  "per_week_raw": 1.9704,
+  "not_computed": 0,
+  "gate_pass": false,
+  "placebo_net": 16747.7,
+  "stream_nc": 0,
+  "gate_failed": [
+   "net 98159.5 !> ref 106517.0",
+   "FT90 52.5 < ref 53.7",
+   "frequency 1.9704/wk < 2.0"
+  ]
+ },
+ "room1.6_win15:00_itm0": {
+  "n": 83,
+  "net": 106192.0,
+  "ft90_pct": 53.0,
+  "per_week_raw": 2.0443,
+  "not_computed": 0,
+  "gate_pass": false,
+  "placebo_net": 18365.2,
+  "stream_nc": 0,
+  "gate_failed": [
+   "net 106192.0 !> ref 106517.0",
+   "FT90 53.0 < ref 53.7"
+  ]
+ },
+ "room1.6_win15:00_itm1": {
+  "n": 80,
+  "net": 98159.5,
+  "ft90_pct": 52.5,
+  "per_week_raw": 1.9704,
+  "not_computed": 0,
+  "gate_pass": false,
+  "placebo_net": 16747.7,
+  "stream_nc": 1,
+  "gate_failed": [
+   "net 98159.5 !> ref 106517.0",
+   "FT90 52.5 < ref 53.7",
+   "frequency 1.9704/wk < 2.0",
+   "stream NOT_COMPUTED 1"
+  ]
+ },
+ "room1.3_win14:30_itm1": {
+  "n": 80,
+  "net": 98159.5,
+  "ft90_pct": 52.5,
+  "per_week_raw": 1.9704,
+  "not_computed": 0,
+  "gate_pass": false,
+  "placebo_net": 16747.7,
+  "stream_nc": 1,
+  "gate_failed": [
+   "net 98159.5 !> ref 106517.0",
+   "FT90 52.5 < ref 53.7",
+   "frequency 1.9704/wk < 2.0",
+   "stream NOT_COMPUTED 1"
+  ]
+ },
+ "room1.4_win14:30_itm1": {
+  "n": 80,
+  "net": 98159.5,
+  "ft90_pct": 52.5,
+  "per_week_raw": 1.9704,
+  "not_computed": 0,
+  "gate_pass": false,
+  "placebo_net": 16747.7,
+  "stream_nc": 1,
+  "gate_failed": [
+   "net 98159.5 !> ref 106517.0",
+   "FT90 52.5 < ref 53.7",
+   "frequency 1.9704/wk < 2.0",
+   "stream NOT_COMPUTED 1"
+  ]
+ },
+ "room1.6_win14:30_itm1": {
+  "n": 80,
+  "net": 98159.5,
+  "ft90_pct": 52.5,
+  "per_week_raw": 1.9704,
+  "not_computed": 0,
+  "gate_pass": false,
+  "placebo_net": 16747.7,
+  "stream_nc": 0,
+  "gate_failed": [
+   "net 98159.5 !> ref 106517.0",
+   "FT90 52.5 < ref 53.7",
+   "frequency 1.9704/wk < 2.0"
+  ]
+ },
+ "room1.5_win14:00_itm1": {
+  "n": 80,
+  "net": 98159.5,
+  "ft90_pct": 52.5,
+  "per_week_raw": 1.9704,
+  "not_computed": 0,
+  "gate_pass": false,
+  "placebo_net": 16747.7,
+  "stream_nc": 0,
+  "gate_failed": [
+   "net 98159.5 !> ref 106517.0",
+   "FT90 52.5 < ref 53.7",
+   "frequency 1.9704/wk < 2.0"
+  ]
+ },
+ "room1.5_win15:00_itm1": {
+  "n": 80,
+  "net": 98159.5,
+  "ft90_pct": 52.5,
+  "per_week_raw": 1.9704,
+  "not_computed": 0,
+  "gate_pass": false,
+  "placebo_net": 16747.7,
+  "stream_nc": 1,
+  "gate_failed": [
+   "net 98159.5 !> ref 106517.0",
+   "FT90 52.5 < ref 53.7",
+   "frequency 1.9704/wk < 2.0",
+   "stream NOT_COMPUTED 1"
+  ]
+ }
+}

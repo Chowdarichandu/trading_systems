@@ -1,0 +1,1197 @@
+{
+ "books": {
+  "STACK": {
+   "metrics": {
+    "legs": 111,
+    "total": 127351.5,
+    "trade_days": 89,
+    "no_trade_days": 116,
+    "per_trade_day": 1430.92,
+    "per_leg": 1147.31,
+    "per_cal_day": 621.23,
+    "win_rate_pct": 59.5,
+    "months": {
+     "2026-01": {
+      "total": 24028.0,
+      "cal_days": 20,
+      "per_cal_day": 1201.4,
+      "trade_days": 7,
+      "per_trade_day": 3432.57,
+      "legs": 8
+     },
+     "2026-02": {
+      "total": 15284.0,
+      "cal_days": 21,
+      "per_cal_day": 727.81,
+      "trade_days": 9,
+      "per_trade_day": 1698.22,
+      "legs": 10
+     },
+     "2026-03": {
+      "total": 8560.0,
+      "cal_days": 19,
+      "per_cal_day": 450.53,
+      "trade_days": 10,
+      "per_trade_day": 856.0,
+      "legs": 17
+     },
+     "2026-04": {
+      "total": 9810.0,
+      "cal_days": 20,
+      "per_cal_day": 490.5,
+      "trade_days": 9,
+      "per_trade_day": 1090.0,
+      "legs": 12
+     },
+     "2026-05": {
+      "total": 25400.0,
+      "cal_days": 19,
+      "per_cal_day": 1336.84,
+      "trade_days": 9,
+      "per_trade_day": 2822.22,
+      "legs": 10
+     },
+     "2026-06": {
+      "total": 3040.0,
+      "cal_days": 21,
+      "per_cal_day": 144.76,
+      "trade_days": 7,
+      "per_trade_day": 434.29,
+      "legs": 8
+     },
+     "2026-07": {
+      "total": 4224.0,
+      "cal_days": 23,
+      "per_cal_day": 183.65,
+      "trade_days": 13,
+      "per_trade_day": 324.92,
+      "legs": 18
+     },
+     "2026-08": {
+      "total": 2059.5,
+      "cal_days": 21,
+      "per_cal_day": 98.07,
+      "trade_days": 5,
+      "per_trade_day": 411.9,
+      "legs": 6
+     },
+     "2026-09": {
+      "total": 15056.5,
+      "cal_days": 21,
+      "per_cal_day": 716.98,
+      "trade_days": 10,
+      "per_trade_day": 1505.65,
+      "legs": 11
+     },
+     "2026-10": {
+      "total": 19889.5,
+      "cal_days": 20,
+      "per_cal_day": 994.48,
+      "trade_days": 10,
+      "per_trade_day": 1988.95,
+      "legs": 11
+     }
+    },
+    "red_months": [],
+    "zero_months": [],
+    "halves": {
+     "H1": {
+      "total": 83082.0,
+      "trade_days": 44,
+      "per_trade_day": 1888.23
+     },
+     "H2": {
+      "total": 44269.5,
+      "trade_days": 45,
+      "per_trade_day": 983.77
+     }
+    },
+    "day_dist": {
+     "share_ge900_pct": 58.4,
+     "share_pos_pct": 67.4,
+     "median": 2030.0,
+     "worst": -3440.0,
+     "best": 9680.0
+    },
+    "ex_top3": {
+     "total": 100528.5,
+     "trade_days": 86,
+     "per_trade_day": 1168.94,
+     "removed": [
+      9680.0,
+      9680.0,
+      7463.0
+     ]
+    }
+   },
+   "resum_ok": true,
+   "gate": {
+    "g1_avg_ge900": true,
+    "g2_total_pos": true,
+    "g3_halves": true,
+    "g4_no_red_month": true,
+    "g5_extop3_pos": true,
+    "placebo": {
+     "note": "own-pool draw is the book itself (degenerate); supplementary percentile vs UNION pool of 123 known Bank legs",
+     "statistic": 1430.92,
+     "percentile": 99.9,
+     "p95_of_draws": 1293.35,
+     "draws": 2000,
+     "seed": 42
+    },
+    "g6_placebo_ge95": null,
+    "gate_pass": true
+   }
+  },
+  "LEGACY": {
+   "metrics": {
+    "legs": 99,
+    "total": 83650.5,
+    "trade_days": 92,
+    "no_trade_days": 113,
+    "per_trade_day": 909.24,
+    "per_leg": 844.95,
+    "per_cal_day": 408.05,
+    "win_rate_pct": 52.5,
+    "months": {
+     "2026-01": {
+      "total": 22748.0,
+      "cal_days": 20,
+      "per_cal_day": 1137.4,
+      "trade_days": 6,
+      "per_trade_day": 3791.33,
+      "legs": 7
+     },
+     "2026-02": {
+      "total": 20480.0,
+      "cal_days": 21,
+      "per_cal_day": 975.24,
+      "trade_days": 10,
+      "per_trade_day": 2048.0,
+      "legs": 10
+     },
+     "2026-03": {
+      "total": 1120.0,
+      "cal_days": 19,
+      "per_cal_day": 58.95,
+      "trade_days": 12,
+      "per_trade_day": 93.33,
+      "legs": 14
+     },
+     "2026-04": {
+      "total": -90.0,
+      "cal_days": 20,
+      "per_cal_day": -4.5,
+      "trade_days": 10,
+      "per_trade_day": -9.0,
+      "legs": 12
+     },
+     "2026-05": {
+      "total": 17680.0,
+      "cal_days": 19,
+      "per_cal_day": 930.53,
+      "trade_days": 10,
+      "per_trade_day": 1768.0,
+      "legs": 11
+     },
+     "2026-06": {
+      "total": 560.0,
+      "cal_days": 21,
+      "per_cal_day": 26.67,
+      "trade_days": 7,
+      "per_trade_day": 80.0,
+      "legs": 7
+     },
+     "2026-07": {
+      "total": -3680.0,
+      "cal_days": 23,
+      "per_cal_day": -160.0,
+      "trade_days": 14,
+      "per_trade_day": -262.86,
+      "legs": 14
+     },
+     "2026-08": {
+      "total": -873.5,
+      "cal_days": 21,
+      "per_cal_day": -41.6,
+      "trade_days": 5,
+      "per_trade_day": -174.7,
+      "legs": 5
+     },
+     "2026-09": {
+      "total": 10776.5,
+      "cal_days": 21,
+      "per_cal_day": 513.17,
+      "trade_days": 9,
+      "per_trade_day": 1197.39,
+      "legs": 10
+     },
+     "2026-10": {
+      "total": 14929.5,
+      "cal_days": 20,
+      "per_cal_day": 746.48,
+      "trade_days": 9,
+      "per_trade_day": 1658.83,
+      "legs": 9
+     }
+    },
+    "red_months": [
+     "2026-04",
+     "2026-07",
+     "2026-08"
+    ],
+    "zero_months": [],
+    "halves": {
+     "H1": {
+      "total": 61938.0,
+      "trade_days": 48,
+      "per_trade_day": 1290.38
+     },
+     "H2": {
+      "total": 21712.5,
+      "trade_days": 44,
+      "per_trade_day": 493.47
+     }
+    },
+    "day_dist": {
+     "share_ge900_pct": 47.8,
+     "share_pos_pct": 53.3,
+     "median": 760.0,
+     "worst": -1720.0,
+     "best": 9680.0
+    },
+    "ex_top3": {
+     "total": 54610.5,
+     "trade_days": 89,
+     "per_trade_day": 613.6,
+     "removed": [
+      9680.0,
+      9680.0,
+      9680.0
+     ]
+    }
+   },
+   "resum_ok": true,
+   "gate": {
+    "g1_avg_ge900": true,
+    "g2_total_pos": true,
+    "g3_halves": true,
+    "g4_no_red_month": false,
+    "g5_extop3_pos": true,
+    "placebo": {
+     "note": "own-pool draw is the book itself (degenerate); supplementary percentile vs UNION pool of 123 known Bank legs",
+     "statistic": 909.24,
+     "percentile": 5.5,
+     "p95_of_draws": 1344.72,
+     "draws": 2000,
+     "seed": 42
+    },
+    "g6_placebo_ge95": null,
+    "gate_pass": false
+   }
+  },
+  "PB1": {
+   "metrics": {
+    "legs": 32,
+    "total": 69749.5,
+    "trade_days": 28,
+    "no_trade_days": 177,
+    "per_trade_day": 2491.05,
+    "per_leg": 2179.67,
+    "per_cal_day": 340.24,
+    "win_rate_pct": 75.0,
+    "months": {
+     "2026-01": {
+      "total": 21513.0,
+      "cal_days": 20,
+      "per_cal_day": 1075.65,
+      "trade_days": 5,
+      "per_trade_day": 4302.6,
+      "legs": 6
+     },
+     "2026-02": {
+      "total": 14102.0,
+      "cal_days": 21,
+      "per_cal_day": 671.52,
+      "trade_days": 4,
+      "per_trade_day": 3525.5,
+      "legs": 4
+     },
+     "2026-03": {
+      "total": 760.0,
+      "cal_days": 19,
+      "per_cal_day": 40.0,
+      "trade_days": 1,
+      "per_trade_day": 760.0,
+      "legs": 2
+     },
+     "2026-04": {
+      "total": 4070.0,
+      "cal_days": 20,
+      "per_cal_day": 203.5,
+      "trade_days": 3,
+      "per_trade_day": 1356.67,
+      "legs": 4
+     },
+     "2026-05": {
+      "total": 4280.0,
+      "cal_days": 19,
+      "per_cal_day": 225.26,
+      "trade_days": 1,
+      "per_trade_day": 4280.0,
+      "legs": 1
+     },
+     "2026-06": {
+      "total": 2480.0,
+      "cal_days": 21,
+      "per_cal_day": 118.1,
+      "trade_days": 1,
+      "per_trade_day": 2480.0,
+      "legs": 1
+     },
+     "2026-07": {
+      "total": 1985.0,
+      "cal_days": 23,
+      "per_cal_day": 86.3,
+      "trade_days": 3,
+      "per_trade_day": 661.67,
+      "legs": 4
+     },
+     "2026-08": {
+      "total": 760.0,
+      "cal_days": 21,
+      "per_cal_day": 36.19,
+      "trade_days": 2,
+      "per_trade_day": 380.0,
+      "legs": 2
+     },
+     "2026-09": {
+      "total": 8870.0,
+      "cal_days": 21,
+      "per_cal_day": 422.38,
+      "trade_days": 4,
+      "per_trade_day": 2217.5,
+      "legs": 4
+     },
+     "2026-10": {
+      "total": 10929.5,
+      "cal_days": 20,
+      "per_cal_day": 546.48,
+      "trade_days": 4,
+      "per_trade_day": 2732.38,
+      "legs": 4
+     }
+    },
+    "red_months": [],
+    "zero_months": [],
+    "halves": {
+     "H1": {
+      "total": 44725.0,
+      "trade_days": 14,
+      "per_trade_day": 3194.64
+     },
+     "H2": {
+      "total": 25024.5,
+      "trade_days": 14,
+      "per_trade_day": 1787.46
+     }
+    },
+    "day_dist": {
+     "share_ge900_pct": 71.4,
+     "share_pos_pct": 78.6,
+     "median": 2255.0,
+     "worst": -1720.0,
+     "best": 9680.0
+    },
+    "ex_top3": {
+     "total": 42926.5,
+     "trade_days": 25,
+     "per_trade_day": 1717.06,
+     "removed": [
+      9680.0,
+      9680.0,
+      7463.0
+     ]
+    }
+   },
+   "resum_ok": true,
+   "gate": {
+    "g1_avg_ge900": true,
+    "g2_total_pos": true,
+    "g3_halves": true,
+    "g4_no_red_month": true,
+    "g5_extop3_pos": true,
+    "placebo": {
+     "statistic": 2491.05,
+     "percentile": 99.9,
+     "p95_of_draws": 1913.6,
+     "draws": 2000,
+     "seed": 42
+    },
+    "g6_placebo_ge95": true,
+    "gate_pass": true
+   }
+  },
+  "PB3": {
+   "metrics": {
+    "legs": 35,
+    "total": 75989.5,
+    "trade_days": 31,
+    "no_trade_days": 174,
+    "per_trade_day": 2451.27,
+    "per_leg": 2171.13,
+    "per_cal_day": 370.68,
+    "win_rate_pct": 71.4,
+    "months": {
+     "2026-01": {
+      "total": 21513.0,
+      "cal_days": 20,
+      "per_cal_day": 1075.65,
+      "trade_days": 5,
+      "per_trade_day": 4302.6,
+      "legs": 6
+     },
+     "2026-02": {
+      "total": 23782.0,
+      "cal_days": 21,
+      "per_cal_day": 1132.48,
+      "trade_days": 5,
+      "per_trade_day": 4756.4,
+      "legs": 5
+     },
+     "2026-03": {
+      "total": 760.0,
+      "cal_days": 19,
+      "per_cal_day": 40.0,
+      "trade_days": 1,
+      "per_trade_day": 760.0,
+      "legs": 2
+     },
+     "2026-04": {
+      "total": 4070.0,
+      "cal_days": 20,
+      "per_cal_day": 203.5,
+      "trade_days": 3,
+      "per_trade_day": 1356.67,
+      "legs": 4
+     },
+     "2026-05": {
+      "total": 4280.0,
+      "cal_days": 19,
+      "per_cal_day": 225.26,
+      "trade_days": 1,
+      "per_trade_day": 4280.0,
+      "legs": 1
+     },
+     "2026-06": {
+      "total": 2480.0,
+      "cal_days": 21,
+      "per_cal_day": 118.1,
+      "trade_days": 1,
+      "per_trade_day": 2480.0,
+      "legs": 1
+     },
+     "2026-07": {
+      "total": 265.0,
+      "cal_days": 23,
+      "per_cal_day": 11.52,
+      "trade_days": 4,
+      "per_trade_day": 66.25,
+      "legs": 5
+     },
+     "2026-08": {
+      "total": -960.0,
+      "cal_days": 21,
+      "per_cal_day": -45.71,
+      "trade_days": 3,
+      "per_trade_day": -320.0,
+      "legs": 3
+     },
+     "2026-09": {
+      "total": 8870.0,
+      "cal_days": 21,
+      "per_cal_day": 422.38,
+      "trade_days": 4,
+      "per_trade_day": 2217.5,
+      "legs": 4
+     },
+     "2026-10": {
+      "total": 10929.5,
+      "cal_days": 20,
+      "per_cal_day": 546.48,
+      "trade_days": 4,
+      "per_trade_day": 2732.38,
+      "legs": 4
+     }
+    },
+    "red_months": [
+     "2026-08"
+    ],
+    "zero_months": [],
+    "halves": {
+     "H1": {
+      "total": 54405.0,
+      "trade_days": 15,
+      "per_trade_day": 3627.0
+     },
+     "H2": {
+      "total": 21584.5,
+      "trade_days": 16,
+      "per_trade_day": 1349.03
+     }
+    },
+    "day_dist": {
+     "share_ge900_pct": 67.7,
+     "share_pos_pct": 74.2,
+     "median": 2030.0,
+     "worst": -1720.0,
+     "best": 9680.0
+    },
+    "ex_top3": {
+     "total": 46949.5,
+     "trade_days": 28,
+     "per_trade_day": 1676.77,
+     "removed": [
+      9680.0,
+      9680.0,
+      9680.0
+     ]
+    }
+   },
+   "resum_ok": true,
+   "gate": {
+    "g1_avg_ge900": true,
+    "g2_total_pos": true,
+    "g3_halves": true,
+    "g4_no_red_month": false,
+    "g5_extop3_pos": true,
+    "placebo": {
+     "statistic": 2451.27,
+     "percentile": 100.0,
+     "p95_of_draws": 1684.48,
+     "draws": 2000,
+     "seed": 42
+    },
+    "g6_placebo_ge95": true,
+    "gate_pass": false
+   }
+  },
+  "PB4": {
+   "metrics": {
+    "legs": 52,
+    "total": 82611.5,
+    "trade_days": 44,
+    "no_trade_days": 161,
+    "per_trade_day": 1877.53,
+    "per_leg": 1588.68,
+    "per_cal_day": 402.98,
+    "win_rate_pct": 65.4,
+    "months": {
+     "2026-01": {
+      "total": 22793.0,
+      "cal_days": 20,
+      "per_cal_day": 1139.65,
+      "trade_days": 6,
+      "per_trade_day": 3798.83,
+      "legs": 7
+     },
+     "2026-02": {
+      "total": 23562.0,
+      "cal_days": 21,
+      "per_cal_day": 1122.0,
+      "trade_days": 6,
+      "per_trade_day": 3927.0,
+      "legs": 6
+     },
+     "2026-03": {
+      "total": 1520.0,
+      "cal_days": 19,
+      "per_cal_day": 80.0,
+      "trade_days": 2,
+      "per_trade_day": 760.0,
+      "legs": 4
+     },
+     "2026-04": {
+      "total": 4070.0,
+      "cal_days": 20,
+      "per_cal_day": 203.5,
+      "trade_days": 3,
+      "per_trade_day": 1356.67,
+      "legs": 4
+     },
+     "2026-05": {
+      "total": 4280.0,
+      "cal_days": 19,
+      "per_cal_day": 225.26,
+      "trade_days": 1,
+      "per_trade_day": 4280.0,
+      "legs": 1
+     },
+     "2026-06": {
+      "total": 2480.0,
+      "cal_days": 21,
+      "per_cal_day": 118.1,
+      "trade_days": 1,
+      "per_trade_day": 2480.0,
+      "legs": 1
+     },
+     "2026-07": {
+      "total": -4059.0,
+      "cal_days": 23,
+      "per_cal_day": -176.48,
+      "trade_days": 6,
+      "per_trade_day": -676.5,
+      "legs": 9
+     },
+     "2026-08": {
+      "total": 339.5,
+      "cal_days": 21,
+      "per_cal_day": 16.17,
+      "trade_days": 6,
+      "per_trade_day": 56.58,
+      "legs": 7
+     },
+     "2026-09": {
+      "total": 11736.5,
+      "cal_days": 21,
+      "per_cal_day": 558.88,
+      "trade_days": 7,
+      "per_trade_day": 1676.64,
+      "legs": 7
+     },
+     "2026-10": {
+      "total": 15889.5,
+      "cal_days": 20,
+      "per_cal_day": 794.48,
+      "trade_days": 6,
+      "per_trade_day": 2648.25,
+      "legs": 6
+     }
+    },
+    "red_months": [
+     "2026-07"
+    ],
+    "zero_months": [],
+    "halves": {
+     "H1": {
+      "total": 56225.0,
+      "trade_days": 18,
+      "per_trade_day": 3123.61
+     },
+     "H2": {
+      "total": 26386.5,
+      "trade_days": 26,
+      "per_trade_day": 1014.87
+     }
+    },
+    "day_dist": {
+     "share_ge900_pct": 61.4,
+     "share_pos_pct": 70.5,
+     "median": 2030.0,
+     "worst": -3440.0,
+     "best": 9680.0
+    },
+    "ex_top3": {
+     "total": 53571.5,
+     "trade_days": 41,
+     "per_trade_day": 1306.62,
+     "removed": [
+      9680.0,
+      9680.0,
+      9680.0
+     ]
+    }
+   },
+   "resum_ok": true,
+   "gate": {
+    "g1_avg_ge900": true,
+    "g2_total_pos": true,
+    "g3_halves": true,
+    "g4_no_red_month": false,
+    "g5_extop3_pos": true,
+    "placebo": {
+     "statistic": 1877.53,
+     "percentile": 99.7,
+     "p95_of_draws": 1544.01,
+     "draws": 2000,
+     "seed": 42
+    },
+    "g6_placebo_ge95": true,
+    "gate_pass": false
+   }
+  },
+  "PB0": {
+   "metrics": {
+    "legs": 27,
+    "total": 59902.5,
+    "trade_days": 25,
+    "no_trade_days": 180,
+    "per_trade_day": 2396.1,
+    "per_leg": 2218.61,
+    "per_cal_day": 292.21,
+    "win_rate_pct": 66.7,
+    "months": {
+     "2026-01": {
+      "total": 23233.0,
+      "cal_days": 20,
+      "per_cal_day": 1161.65,
+      "trade_days": 4,
+      "per_trade_day": 5808.25,
+      "legs": 5
+     },
+     "2026-02": {
+      "total": 20120.0,
+      "cal_days": 21,
+      "per_cal_day": 958.1,
+      "trade_days": 4,
+      "per_trade_day": 5030.0,
+      "legs": 4
+     },
+     "2026-03": {
+      "total": -1720.0,
+      "cal_days": 19,
+      "per_cal_day": -90.53,
+      "trade_days": 1,
+      "per_trade_day": -1720.0,
+      "legs": 1
+     },
+     "2026-04": {
+      "total": 2790.0,
+      "cal_days": 20,
+      "per_cal_day": 139.5,
+      "trade_days": 2,
+      "per_trade_day": 1395.0,
+      "legs": 3
+     },
+     "2026-05": {
+      "total": 0,
+      "cal_days": 19,
+      "per_cal_day": 0.0,
+      "trade_days": 0,
+      "per_trade_day": null,
+      "legs": 0
+     },
+     "2026-06": {
+      "total": 0,
+      "cal_days": 21,
+      "per_cal_day": 0.0,
+      "trade_days": 0,
+      "per_trade_day": null,
+      "legs": 0
+     },
+     "2026-07": {
+      "total": -880.0,
+      "cal_days": 23,
+      "per_cal_day": -38.26,
+      "trade_days": 4,
+      "per_trade_day": -220.0,
+      "legs": 4
+     },
+     "2026-08": {
+      "total": -3440.0,
+      "cal_days": 21,
+      "per_cal_day": -163.81,
+      "trade_days": 2,
+      "per_trade_day": -1720.0,
+      "legs": 2
+     },
+     "2026-09": {
+      "total": 8870.0,
+      "cal_days": 21,
+      "per_cal_day": 422.38,
+      "trade_days": 4,
+      "per_trade_day": 2217.5,
+      "legs": 4
+     },
+     "2026-10": {
+      "total": 10929.5,
+      "cal_days": 20,
+      "per_cal_day": 546.48,
+      "trade_days": 4,
+      "per_trade_day": 2732.38,
+      "legs": 4
+     }
+    },
+    "red_months": [
+     "2026-03",
+     "2026-07",
+     "2026-08"
+    ],
+    "zero_months": [
+     "2026-05",
+     "2026-06"
+    ],
+    "halves": {
+     "H1": {
+      "total": 44423.0,
+      "trade_days": 11,
+      "per_trade_day": 4038.45
+     },
+     "H2": {
+      "total": 15479.5,
+      "trade_days": 14,
+      "per_trade_day": 1105.68
+     }
+    },
+    "day_dist": {
+     "share_ge900_pct": 64.0,
+     "share_pos_pct": 68.0,
+     "median": 2030.0,
+     "worst": -1720.0,
+     "best": 9680.0
+    },
+    "ex_top3": {
+     "total": 30862.5,
+     "trade_days": 22,
+     "per_trade_day": 1402.84,
+     "removed": [
+      9680.0,
+      9680.0,
+      9680.0
+     ]
+    }
+   },
+   "resum_ok": true,
+   "gate": {
+    "g1_avg_ge900": true,
+    "g2_total_pos": true,
+    "g3_halves": true,
+    "g4_no_red_month": false,
+    "g5_extop3_pos": true,
+    "placebo": {
+     "statistic": 2396.1,
+     "percentile": 99.7,
+     "p95_of_draws": 1668.44,
+     "draws": 2000,
+     "seed": 42
+    },
+    "g6_placebo_ge95": true,
+    "gate_pass": false
+   }
+  },
+  "PB2": {
+   "metrics": {
+    "legs": 49,
+    "total": 76371.5,
+    "trade_days": 41,
+    "no_trade_days": 164,
+    "per_trade_day": 1862.72,
+    "per_leg": 1558.6,
+    "per_cal_day": 372.54,
+    "win_rate_pct": 67.3,
+    "months": {
+     "2026-01": {
+      "total": 22793.0,
+      "cal_days": 20,
+      "per_cal_day": 1139.65,
+      "trade_days": 6,
+      "per_trade_day": 3798.83,
+      "legs": 7
+     },
+     "2026-02": {
+      "total": 13882.0,
+      "cal_days": 21,
+      "per_cal_day": 661.05,
+      "trade_days": 5,
+      "per_trade_day": 2776.4,
+      "legs": 5
+     },
+     "2026-03": {
+      "total": 1520.0,
+      "cal_days": 19,
+      "per_cal_day": 80.0,
+      "trade_days": 2,
+      "per_trade_day": 760.0,
+      "legs": 4
+     },
+     "2026-04": {
+      "total": 4070.0,
+      "cal_days": 20,
+      "per_cal_day": 203.5,
+      "trade_days": 3,
+      "per_trade_day": 1356.67,
+      "legs": 4
+     },
+     "2026-05": {
+      "total": 4280.0,
+      "cal_days": 19,
+      "per_cal_day": 225.26,
+      "trade_days": 1,
+      "per_trade_day": 4280.0,
+      "legs": 1
+     },
+     "2026-06": {
+      "total": 2480.0,
+      "cal_days": 21,
+      "per_cal_day": 118.1,
+      "trade_days": 1,
+      "per_trade_day": 2480.0,
+      "legs": 1
+     },
+     "2026-07": {
+      "total": -2339.0,
+      "cal_days": 23,
+      "per_cal_day": -101.7,
+      "trade_days": 5,
+      "per_trade_day": -467.8,
+      "legs": 8
+     },
+     "2026-08": {
+      "total": 2059.5,
+      "cal_days": 21,
+      "per_cal_day": 98.07,
+      "trade_days": 5,
+      "per_trade_day": 411.9,
+      "legs": 6
+     },
+     "2026-09": {
+      "total": 11736.5,
+      "cal_days": 21,
+      "per_cal_day": 558.88,
+      "trade_days": 7,
+      "per_trade_day": 1676.64,
+      "legs": 7
+     },
+     "2026-10": {
+      "total": 15889.5,
+      "cal_days": 20,
+      "per_cal_day": 794.48,
+      "trade_days": 6,
+      "per_trade_day": 2648.25,
+      "legs": 6
+     }
+    },
+    "red_months": [
+     "2026-07"
+    ],
+    "zero_months": [],
+    "halves": {
+     "H1": {
+      "total": 46545.0,
+      "trade_days": 17,
+      "per_trade_day": 2737.94
+     },
+     "H2": {
+      "total": 29826.5,
+      "trade_days": 24,
+      "per_trade_day": 1242.77
+     }
+    },
+    "day_dist": {
+     "share_ge900_pct": 63.4,
+     "share_pos_pct": 73.2,
+     "median": 2030.0,
+     "worst": -3440.0,
+     "best": 9680.0
+    },
+    "ex_top3": {
+     "total": 49548.5,
+     "trade_days": 38,
+     "per_trade_day": 1303.91,
+     "removed": [
+      9680.0,
+      9680.0,
+      7463.0
+     ]
+    }
+   },
+   "resum_ok": true,
+   "gate": {
+    "g1_avg_ge900": true,
+    "g2_total_pos": true,
+    "g3_halves": true,
+    "g4_no_red_month": false,
+    "g5_extop3_pos": true,
+    "placebo": {
+     "statistic": 1862.72,
+     "percentile": 98.0,
+     "p95_of_draws": 1744.75,
+     "draws": 2000,
+     "seed": 42
+    },
+    "g6_placebo_ge95": true,
+    "gate_pass": false
+   }
+  },
+  "U1": {
+   "metrics": {
+    "legs": 123,
+    "total": 118111.5,
+    "trade_days": 101,
+    "no_trade_days": 104,
+    "per_trade_day": 1169.42,
+    "per_leg": 960.26,
+    "per_cal_day": 576.15,
+    "win_rate_pct": 54.5,
+    "months": {
+     "2026-01": {
+      "total": 22308.0,
+      "cal_days": 20,
+      "per_cal_day": 1115.4,
+      "trade_days": 8,
+      "per_trade_day": 2788.5,
+      "legs": 9
+     },
+     "2026-02": {
+      "total": 23244.0,
+      "cal_days": 21,
+      "per_cal_day": 1106.86,
+      "trade_days": 11,
+      "per_trade_day": 2113.09,
+      "legs": 12
+     },
+     "2026-03": {
+      "total": 5120.0,
+      "cal_days": 19,
+      "per_cal_day": 269.47,
+      "trade_days": 12,
+      "per_trade_day": 426.67,
+      "legs": 19
+     },
+     "2026-04": {
+      "total": 6370.0,
+      "cal_days": 20,
+      "per_cal_day": 318.5,
+      "trade_days": 11,
+      "per_trade_day": 579.09,
+      "legs": 14
+     },
+     "2026-05": {
+      "total": 21960.0,
+      "cal_days": 19,
+      "per_cal_day": 1155.79,
+      "trade_days": 11,
+      "per_trade_day": 1996.36,
+      "legs": 12
+     },
+     "2026-06": {
+      "total": 1320.0,
+      "cal_days": 21,
+      "per_cal_day": 62.86,
+      "trade_days": 8,
+      "per_trade_day": 165.0,
+      "legs": 9
+     },
+     "2026-07": {
+      "total": 2504.0,
+      "cal_days": 23,
+      "per_cal_day": 108.87,
+      "trade_days": 14,
+      "per_trade_day": 178.86,
+      "legs": 19
+     },
+     "2026-08": {
+      "total": 339.5,
+      "cal_days": 21,
+      "per_cal_day": 16.17,
+      "trade_days": 6,
+      "per_trade_day": 56.58,
+      "legs": 7
+     },
+     "2026-09": {
+      "total": 15056.5,
+      "cal_days": 21,
+      "per_cal_day": 716.98,
+      "trade_days": 10,
+      "per_trade_day": 1505.65,
+      "legs": 11
+     },
+     "2026-10": {
+      "total": 19889.5,
+      "cal_days": 20,
+      "per_cal_day": 994.48,
+      "trade_days": 10,
+      "per_trade_day": 1988.95,
+      "legs": 11
+     }
+    },
+    "red_months": [],
+    "zero_months": [],
+    "halves": {
+     "H1": {
+      "total": 79002.0,
+      "trade_days": 53,
+      "per_trade_day": 1490.6
+     },
+     "H2": {
+      "total": 39109.5,
+      "trade_days": 48,
+      "per_trade_day": 814.78
+     }
+    },
+    "day_dist": {
+     "share_ge900_pct": 52.5,
+     "share_pos_pct": 60.4,
+     "median": 1280.0,
+     "worst": -3440.0,
+     "best": 9680.0
+    },
+    "ex_top3": {
+     "total": 89071.5,
+     "trade_days": 98,
+     "per_trade_day": 908.89,
+     "removed": [
+      9680.0,
+      9680.0,
+      9680.0
+     ]
+    }
+   },
+   "resum_ok": true,
+   "gate": {
+    "g1_avg_ge900": true,
+    "g2_total_pos": true,
+    "g3_halves": true,
+    "g4_no_red_month": true,
+    "g5_extop3_pos": true,
+    "placebo": {
+     "note": "own-pool draw is the book itself (degenerate); supplementary percentile vs UNION pool of 123 known Bank legs",
+     "statistic": 1169.42,
+     "percentile": 0.0,
+     "p95_of_draws": 1169.42,
+     "draws": 2000,
+     "seed": 42
+    },
+    "g6_placebo_ge95": null,
+    "gate_pass": false,
+    "declared_note": "NOT A PASS \u2014 bank_2000 binding leg failed: union total Rs 118,111.50 does not beat its best parent (STACK Rs 127,351.50); supplementary percentile 0.0 vs its own pool by construction (it is the pool)."
+   }
+  }
+ },
+ "november_stack": {
+  "legs": 4,
+  "trade_days": 4,
+  "total": -2680.0,
+  "per_trade_day": -670.0,
+  "days": {
+   "2026-11-04": 2480.0,
+   "2026-11-09": -1720.0,
+   "2026-11-12": -1720.0,
+   "2026-11-13": -1720.0
+  },
+  "entry_premiums": [
+   715.3,
+   815.4,
+   841.5,
+   705.0
+  ]
+ },
+ "november_bands": {
+  "all_parent_entry_premiums": [
+   681.95,
+   705.0,
+   710.0,
+   715.3,
+   757.0,
+   815.4,
+   823.1,
+   841.5,
+   867.6
+  ],
+  "min_premium": 681.95,
+  "PB1_admitted": 0,
+  "PB3_admitted": 0,
+  "PB4_admitted": 0,
+  "note": "distinct November parent entry premiums across stack log + legacy PRIMARY log; band books admit legs by entry premium only"
+ }
+}

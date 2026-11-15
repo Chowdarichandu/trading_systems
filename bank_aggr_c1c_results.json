@@ -1,0 +1,964 @@
+{
+ "cid": "c1c",
+ "title": "F1c entry expansion \u2014 NS1 CE second legs (drop_ns1_ce filter)",
+ "banked": false,
+ "fails": [
+  "total 90310.0 !> base 97569.5",
+  "placebo not beaten: cand 90310.0 vs placebo 94801.0",
+  "ex-top3 legs 63487.0 vs base 70746.5",
+  "ex-top3 days 63487.0 vs base 70746.5",
+  "month 2026-06 flips green->red (560.0 -> -3320.0)"
+ ],
+ "battery": {
+  "n_legs": 128,
+  "n_days": 103,
+  "total": 90310.0,
+  "per_month": 9031.0,
+  "per_leg": 705.55,
+  "legs_per_month": 12.8,
+  "legs_per_week": 3.15,
+  "months": {
+   "2026-01": 20808.0,
+   "2026-02": 12222.5,
+   "2026-03": 7900.0,
+   "2026-04": 2930.0,
+   "2026-05": 21440.0,
+   "2026-06": -3320.0,
+   "2026-07": 4004.0,
+   "2026-08": -2140.5,
+   "2026-09": 10776.5,
+   "2026-10": 15689.5
+  },
+  "H1": 65300.5,
+  "H2": 25009.5,
+  "ex_top3_legs": 63487.0,
+  "top3_legs": [
+   9680.0,
+   9680.0,
+   7463.0
+  ],
+  "ex_top3_days": 63487.0,
+  "top3_days": [
+   9680.0,
+   9680.0,
+   7463.0
+  ],
+  "worst_day": {
+   "date": "2026-03-05",
+   "net": -3440.0
+  },
+  "worst_drawdown": -11861.0,
+  "pct_positive_days": 54.4
+ },
+ "base_total": 97569.5,
+ "placebo_total": 94801.0,
+ "delta": -7259.5,
+ "november": "No \u2014 the running November v22 shadow runs the frozen v22 spec; this mechanism is outside that spec. Nothing is wired into November.",
+ "extra": {
+  "admitted": [
+   [
+    {
+     "date": "2026-01-01",
+     "index": "BANKNIFTY",
+     "direction": "CE",
+     "entry_time": "11:20",
+     "strike": 59700,
+     "expiry": "2026-01-27",
+     "lot": 30,
+     "family": "NS1_second",
+     "rep": "NS1_second",
+     "sources": "NS1",
+     "_signal": "11:15"
+    },
+    {
+     "stop": 50.0,
+     "trig": 90.0,
+     "lock": 90.0,
+     "tgt2": 180.0
+    },
+    {
+     "date": "2026-01-01",
+     "direction": "CE",
+     "family": "NS1_second",
+     "rep": "NS1_second",
+     "entry_time": "11:20",
+     "entry_premium": 758.0,
+     "exit_time": "12:15",
+     "exit_premium": 708.0,
+     "exit_reason": "stop",
+     "net": -1720.0,
+     "leg_key": [
+      "2026-01-01",
+      "CE",
+      "11:20"
+     ],
+     "dev30": false,
+     "maxfav": 8.5,
+     "src": "addon"
+    }
+   ],
+   [
+    {
+     "date": "2026-01-14",
+     "index": "BANKNIFTY",
+     "direction": "CE",
+     "entry_time": "13:00",
+     "strike": 59700,
+     "expiry": "2026-01-27",
+     "lot": 30,
+     "family": "NS1_second",
+     "rep": "NS1_second",
+     "sources": "NS1",
+     "_signal": "12:55"
+    },
+    {
+     "stop": 50.0,
+     "trig": 90.0,
+     "lock": 90.0,
+     "tgt2": 180.0
+    },
+    {
+     "date": "2026-01-14",
+     "direction": "CE",
+     "family": "NS1_second",
+     "rep": "NS1_second",
+     "entry_time": "13:00",
+     "entry_premium": 555.25,
+     "exit_time": "13:30",
+     "exit_premium": 555.25,
+     "exit_reason": "lock_stop",
+     "net": -220.0,
+     "leg_key": [
+      "2026-01-14",
+      "CE",
+      "13:00"
+     ],
+     "dev30": true,
+     "maxfav": 69.54999999999995,
+     "src": "addon"
+    }
+   ],
+   [
+    {
+     "date": "2026-01-28",
+     "index": "BANKNIFTY",
+     "direction": "CE",
+     "entry_time": "11:25",
+     "strike": 59700,
+     "expiry": "2026-02-24",
+     "lot": 30,
+     "family": "NS1_second",
+     "rep": "NS1_second",
+     "sources": "NS1",
+     "_signal": "11:20"
+    },
+    {
+     "stop": 50.0,
+     "trig": 90.0,
+     "lock": 90.0,
+     "tgt2": 180.0
+    },
+    {
+     "date": "2026-01-28",
+     "direction": "CE",
+     "family": "NS1_second",
+     "rep": "NS1_second",
+     "entry_time": "11:25",
+     "entry_premium": 1046.6,
+     "exit_time": "11:40",
+     "exit_premium": 996.5999999999999,
+     "exit_reason": "stop",
+     "net": -1720.0,
+     "leg_key": [
+      "2026-01-28",
+      "CE",
+      "11:25"
+     ],
+     "dev30": false,
+     "maxfav": 28.40000000000009,
+     "src": "addon"
+    }
+   ],
+   [
+    {
+     "date": "2026-02-10",
+     "index": "BANKNIFTY",
+     "direction": "CE",
+     "entry_time": "12:50",
+     "strike": 60800,
+     "expiry": "2026-02-24",
+     "lot": 30,
+     "family": "NS1_second",
+     "rep": "NS1_second",
+     "sources": "NS1",
+     "_signal": "12:45"
+    },
+    {
+     "stop": 50.0,
+     "trig": 90.0,
+     "lock": 90.0,
+     "tgt2": 180.0
+    },
+    {
+     "date": "2026-02-10",
+     "direction": "CE",
+     "family": "NS1_second",
+     "rep": "NS1_second",
+     "entry_time": "12:50",
+     "entry_premium": 509.15,
+     "exit_time": "13:20",
+     "exit_premium": 459.15,
+     "exit_reason": "stop",
+     "net": -1720.0,
+     "leg_key": [
+      "2026-02-10",
+      "CE",
+      "12:50"
+     ],
+     "dev30": false,
+     "maxfav": 5.850000000000023,
+     "src": "addon"
+    }
+   ],
+   [
+    {
+     "date": "2026-02-12",
+     "index": "BANKNIFTY",
+     "direction": "CE",
+     "entry_time": "13:05",
+     "strike": 60800,
+     "expiry": "2026-02-24",
+     "lot": 30,
+     "family": "NS1_second",
+     "rep": "NS1_second",
+     "sources": "NS1",
+     "_signal": "13:00"
+    },
+    {
+     "stop": 50.0,
+     "trig": 90.0,
+     "lock": 90.0,
+     "tgt2": 180.0
+    },
+    {
+     "date": "2026-02-12",
+     "direction": "CE",
+     "family": "NS1_second",
+     "rep": "NS1_second",
+     "entry_time": "13:05",
+     "entry_premium": 456.15,
+     "exit_time": "14:45",
+     "exit_premium": 406.15,
+     "exit_reason": "stop",
+     "net": -1720.0,
+     "leg_key": [
+      "2026-02-12",
+      "CE",
+      "13:05"
+     ],
+     "dev30": false,
+     "maxfav": 9.850000000000023,
+     "src": "addon"
+    }
+   ],
+   [
+    {
+     "date": "2026-02-18",
+     "index": "BANKNIFTY",
+     "direction": "CE",
+     "entry_time": "11:35",
+     "strike": 61300,
+     "expiry": "2026-02-24",
+     "lot": 30,
+     "family": "NS1_second",
+     "rep": "NS1_second",
+     "sources": "NS1",
+     "_signal": "11:30"
+    },
+    {
+     "stop": 50.0,
+     "trig": 105.0,
+     "lock": 75.0,
+     "tgt2": 330.0
+    },
+    {
+     "date": "2026-02-18",
+     "direction": "CE",
+     "family": "NS1_second",
+     "rep": "NS1_second",
+     "entry_time": "11:35",
+     "entry_premium": 305.3,
+     "exit_time": "15:20",
+     "exit_premium": 454.65,
+     "exit_reason": "runner_square_off",
+     "net": 4260.5,
+     "leg_key": [
+      "2026-02-18",
+      "CE",
+      "11:35"
+     ],
+     "dev30": true,
+     "maxfav": 49.5,
+     "src": "addon"
+    }
+   ],
+   [
+    {
+     "date": "2026-03-18",
+     "index": "BANKNIFTY",
+     "direction": "CE",
+     "entry_time": "11:30",
+     "strike": 55200,
+     "expiry": "2026-03-30",
+     "lot": 30,
+     "family": "NS1_second",
+     "rep": "NS1_second",
+     "sources": "NS1",
+     "_signal": "11:25"
+    },
+    {
+     "stop": 50.0,
+     "trig": 90.0,
+     "lock": 90.0,
+     "tgt2": 180.0
+    },
+    {
+     "date": "2026-03-18",
+     "direction": "CE",
+     "family": "NS1_second",
+     "rep": "NS1_second",
+     "entry_time": "11:30",
+     "entry_premium": 852.8,
+     "exit_time": "11:35",
+     "exit_premium": 852.8,
+     "exit_reason": "lock_stop",
+     "net": -220.0,
+     "leg_key": [
+      "2026-03-18",
+      "CE",
+      "11:30"
+     ],
+     "dev30": true,
+     "maxfav": 47.200000000000045,
+     "src": "addon"
+    }
+   ],
+   [
+    {
+     "date": "2026-03-25",
+     "index": "BANKNIFTY",
+     "direction": "CE",
+     "entry_time": "09:45",
+     "strike": 53700,
+     "expiry": "2026-03-30",
+     "lot": 30,
+     "family": "NS1_second",
+     "rep": "NS1_second",
+     "sources": "NS1",
+     "_signal": "09:40"
+    },
+    {
+     "stop": 50.0,
+     "trig": 90.0,
+     "lock": null,
+     "tgt2": null
+    },
+    {
+     "date": "2026-03-25",
+     "direction": "CE",
+     "family": "NS1_second",
+     "rep": "NS1_second",
+     "entry_time": "09:45",
+     "entry_premium": 768.6,
+     "exit_time": "09:50",
+     "exit_premium": 768.6,
+     "exit_reason": "lock_stop",
+     "net": -220.0,
+     "leg_key": [
+      "2026-03-25",
+      "CE",
+      "09:45"
+     ],
+     "dev30": true,
+     "maxfav": 30.25,
+     "src": "addon"
+    }
+   ],
+   [
+    {
+     "date": "2026-04-02",
+     "index": "BANKNIFTY",
+     "direction": "CE",
+     "entry_time": "13:30",
+     "strike": 50700,
+     "expiry": "2026-04-28",
+     "lot": 30,
+     "family": "NS1_second",
+     "rep": "NS1_second",
+     "sources": "NS1",
+     "_signal": "13:25"
+    },
+    {
+     "stop": 50.0,
+     "trig": 90.0,
+     "lock": null,
+     "tgt2": null
+    },
+    {
+     "date": "2026-04-02",
+     "direction": "CE",
+     "family": "NS1_second",
+     "rep": "NS1_second",
+     "entry_time": "13:30",
+     "entry_premium": 1898.25,
+     "exit_time": "13:30",
+     "exit_premium": 1848.25,
+     "exit_reason": "stop",
+     "net": -1720.0,
+     "leg_key": [
+      "2026-04-02",
+      "CE",
+      "13:30"
+     ],
+     "dev30": false,
+     "maxfav": 0.0,
+     "src": "addon"
+    }
+   ],
+   [
+    {
+     "date": "2026-04-08",
+     "index": "BANKNIFTY",
+     "direction": "CE",
+     "entry_time": "10:20",
+     "strike": 55300,
+     "expiry": "2026-04-28",
+     "lot": 30,
+     "family": "NS1_second",
+     "rep": "NS1_second",
+     "sources": "NS1",
+     "_signal": "10:15"
+    },
+    {
+     "stop": 50.0,
+     "trig": 90.0,
+     "lock": null,
+     "tgt2": null
+    },
+    {
+     "date": "2026-04-08",
+     "direction": "CE",
+     "family": "NS1_second",
+     "rep": "NS1_second",
+     "entry_time": "10:20",
+     "entry_premium": 1143.0,
+     "exit_time": "10:50",
+     "exit_premium": 1233.0,
+     "exit_reason": "target",
+     "net": 2480.0,
+     "leg_key": [
+      "2026-04-08",
+      "CE",
+      "10:20"
+     ],
+     "dev30": true,
+     "maxfav": 81.90000000000009,
+     "src": "addon"
+    }
+   ],
+   [
+    {
+     "date": "2026-04-20",
+     "index": "BANKNIFTY",
+     "direction": "CE",
+     "entry_time": "12:25",
+     "strike": 56900,
+     "expiry": "2026-04-28",
+     "lot": 30,
+     "family": "NS1_second",
+     "rep": "NS1_second",
+     "sources": "NS1",
+     "_signal": "12:20"
+    },
+    {
+     "stop": 50.0,
+     "trig": 90.0,
+     "lock": null,
+     "tgt2": null
+    },
+    {
+     "date": "2026-04-20",
+     "direction": "CE",
+     "family": "NS1_second",
+     "rep": "NS1_second",
+     "entry_time": "12:25",
+     "entry_premium": 794.35,
+     "exit_time": "13:00",
+     "exit_premium": 794.35,
+     "exit_reason": "lock_stop",
+     "net": -220.0,
+     "leg_key": [
+      "2026-04-20",
+      "CE",
+      "12:25"
+     ],
+     "dev30": true,
+     "maxfav": 49.64999999999998,
+     "src": "addon"
+    }
+   ],
+   [
+    {
+     "date": "2026-05-04",
+     "index": "BANKNIFTY",
+     "direction": "CE",
+     "entry_time": "10:30",
+     "strike": 55400,
+     "expiry": "2026-05-26",
+     "lot": 30,
+     "family": "NS1_second",
+     "rep": "NS1_second",
+     "sources": "NS1",
+     "_signal": "10:25"
+    },
+    {
+     "stop": 50.0,
+     "trig": 90.0,
+     "lock": 90.0,
+     "tgt2": 180.0
+    },
+    {
+     "date": "2026-05-04",
+     "direction": "CE",
+     "family": "NS1_second",
+     "rep": "NS1_second",
+     "entry_time": "10:30",
+     "entry_premium": 1237.05,
+     "exit_time": "10:50",
+     "exit_premium": 1237.05,
+     "exit_reason": "lock_stop",
+     "net": -220.0,
+     "leg_key": [
+      "2026-05-04",
+      "CE",
+      "10:30"
+     ],
+     "dev30": true,
+     "maxfav": 33.299999999999955,
+     "src": "addon"
+    }
+   ],
+   [
+    {
+     "date": "2026-05-06",
+     "index": "BANKNIFTY",
+     "direction": "CE",
+     "entry_time": "14:25",
+     "strike": 55600,
+     "expiry": "2026-05-26",
+     "lot": 30,
+     "family": "NS1_second",
+     "rep": "NS1_second",
+     "sources": "NS1",
+     "_signal": "14:20"
+    },
+    {
+     "stop": 50.0,
+     "trig": 90.0,
+     "lock": 90.0,
+     "tgt2": 180.0
+    },
+    {
+     "date": "2026-05-06",
+     "direction": "CE",
+     "family": "NS1_second",
+     "rep": "NS1_second",
+     "entry_time": "14:25",
+     "entry_premium": 1169.3,
+     "exit_time": "14:30",
+     "exit_premium": 1259.3,
+     "exit_reason": "runner_stop",
+     "net": 2480.0,
+     "leg_key": [
+      "2026-05-06",
+      "CE",
+      "14:25"
+     ],
+     "dev30": false,
+     "maxfav": 0.0,
+     "src": "addon"
+    }
+   ],
+   [
+    {
+     "date": "2026-05-25",
+     "index": "BANKNIFTY",
+     "direction": "CE",
+     "entry_time": "10:35",
+     "strike": 55000,
+     "expiry": "2026-05-26",
+     "lot": 30,
+     "family": "NS1_second",
+     "rep": "NS1_second",
+     "sources": "NS1",
+     "_signal": "10:30"
+    },
+    {
+     "stop": 50.0,
+     "trig": 105.0,
+     "lock": 75.0,
+     "tgt2": 330.0
+    },
+    {
+     "date": "2026-05-25",
+     "direction": "CE",
+     "family": "NS1_second",
+     "rep": "NS1_second",
+     "entry_time": "10:35",
+     "entry_premium": 338.8,
+     "exit_time": "12:00",
+     "exit_premium": 338.8,
+     "exit_reason": "lock_stop",
+     "net": -220.0,
+     "leg_key": [
+      "2026-05-25",
+      "CE",
+      "10:35"
+     ],
+     "dev30": true,
+     "maxfav": 44.19999999999999,
+     "src": "addon"
+    }
+   ],
+   [
+    {
+     "date": "2026-05-26",
+     "index": "BANKNIFTY",
+     "direction": "CE",
+     "entry_time": "10:40",
+     "strike": 55500,
+     "expiry": "2026-05-26",
+     "lot": 30,
+     "family": "NS1_second",
+     "rep": "NS1_second",
+     "sources": "NS1",
+     "_signal": "10:35"
+    },
+    {
+     "stop": 50.0,
+     "trig": 90.0,
+     "lock": null,
+     "tgt2": null
+    },
+    {
+     "date": "2026-05-26",
+     "direction": "CE",
+     "family": "NS1_second",
+     "rep": "NS1_second",
+     "entry_time": "10:40",
+     "entry_premium": 125.75,
+     "exit_time": "11:15",
+     "exit_premium": 75.75,
+     "exit_reason": "stop",
+     "net": -1720.0,
+     "leg_key": [
+      "2026-05-26",
+      "CE",
+      "10:40"
+     ],
+     "dev30": false,
+     "maxfav": 23.55000000000001,
+     "src": "addon"
+    }
+   ],
+   [
+    {
+     "date": "2026-06-05",
+     "index": "BANKNIFTY",
+     "direction": "CE",
+     "entry_time": "10:20",
+     "strike": 54600,
+     "expiry": "2026-06-30",
+     "lot": 30,
+     "family": "NS1_second",
+     "rep": "NS1_second",
+     "sources": "NS1",
+     "_signal": "10:15"
+    },
+    {
+     "stop": 50.0,
+     "trig": 90.0,
+     "lock": 90.0,
+     "tgt2": 180.0
+    },
+    {
+     "date": "2026-06-05",
+     "direction": "CE",
+     "family": "NS1_second",
+     "rep": "NS1_second",
+     "entry_time": "10:20",
+     "entry_premium": 1244.65,
+     "exit_time": "10:20",
+     "exit_premium": 1194.65,
+     "exit_reason": "stop",
+     "net": -1720.0,
+     "leg_key": [
+      "2026-06-05",
+      "CE",
+      "10:20"
+     ],
+     "dev30": false,
+     "maxfav": 0.0,
+     "src": "addon"
+    }
+   ],
+   [
+    {
+     "date": "2026-06-18",
+     "index": "BANKNIFTY",
+     "direction": "CE",
+     "entry_time": "11:50",
+     "strike": 57800,
+     "expiry": "2026-06-30",
+     "lot": 30,
+     "family": "NS1_second",
+     "rep": "NS1_second",
+     "sources": "NS1",
+     "_signal": "11:45"
+    },
+    {
+     "stop": 50.0,
+     "trig": 90.0,
+     "lock": null,
+     "tgt2": null
+    },
+    {
+     "date": "2026-06-18",
+     "direction": "CE",
+     "family": "NS1_second",
+     "rep": "NS1_second",
+     "entry_time": "11:50",
+     "entry_premium": 577.6,
+     "exit_time": "13:20",
+     "exit_premium": 577.6,
+     "exit_reason": "lock_stop",
+     "net": -220.0,
+     "leg_key": [
+      "2026-06-18",
+      "CE",
+      "11:50"
+     ],
+     "dev30": true,
+     "maxfav": 42.39999999999998,
+     "src": "addon"
+    }
+   ],
+   [
+    {
+     "date": "2026-06-22",
+     "index": "BANKNIFTY",
+     "direction": "CE",
+     "entry_time": "11:35",
+     "strike": 57900,
+     "expiry": "2026-06-30",
+     "lot": 30,
+     "family": "NS1_second",
+     "rep": "NS1_second",
+     "sources": "NS1",
+     "_signal": "11:30"
+    },
+    {
+     "stop": 50.0,
+     "trig": 90.0,
+     "lock": null,
+     "tgt2": null
+    },
+    {
+     "date": "2026-06-22",
+     "direction": "CE",
+     "family": "NS1_second",
+     "rep": "NS1_second",
+     "entry_time": "11:35",
+     "entry_premium": 529.1,
+     "exit_time": "12:45",
+     "exit_premium": 479.1,
+     "exit_reason": "stop",
+     "net": -1720.0,
+     "leg_key": [
+      "2026-06-22",
+      "CE",
+      "11:35"
+     ],
+     "dev30": false,
+     "maxfav": 10.899999999999977,
+     "src": "addon"
+    }
+   ],
+   [
+    {
+     "date": "2026-06-25",
+     "index": "BANKNIFTY",
+     "direction": "CE",
+     "entry_time": "12:00",
+     "strike": 58600,
+     "expiry": "2026-06-30",
+     "lot": 30,
+     "family": "NS1_second",
+     "rep": "NS1_second",
+     "sources": "NS1",
+     "_signal": "11:55"
+    },
+    {
+     "stop": 50.0,
+     "trig": 105.0,
+     "lock": 75.0,
+     "tgt2": 330.0
+    },
+    {
+     "date": "2026-06-25",
+     "direction": "CE",
+     "family": "NS1_second",
+     "rep": "NS1_second",
+     "entry_time": "12:00",
+     "entry_premium": 284.25,
+     "exit_time": "12:25",
+     "exit_premium": 284.25,
+     "exit_reason": "lock_stop",
+     "net": -220.0,
+     "leg_key": [
+      "2026-06-25",
+      "CE",
+      "12:00"
+     ],
+     "dev30": true,
+     "maxfav": 71.75,
+     "src": "addon"
+    }
+   ],
+   [
+    {
+     "date": "2026-07-10",
+     "index": "BANKNIFTY",
+     "direction": "CE",
+     "entry_time": "12:05",
+     "strike": 57900,
+     "expiry": "2026-07-28",
+     "lot": 30,
+     "family": "NS1_second",
+     "rep": "NS1_second",
+     "sources": "NS1",
+     "_signal": "12:00"
+    },
+    {
+     "stop": 50.0,
+     "trig": 90.0,
+     "lock": null,
+     "tgt2": null
+    },
+    {
+     "date": "2026-07-10",
+     "direction": "CE",
+     "family": "NS1_second",
+     "rep": "NS1_second",
+     "entry_time": "12:05",
+     "entry_premium": 802.0,
+     "exit_time": "13:00",
+     "exit_premium": 892.0,
+     "exit_reason": "target",
+     "net": 2480.0,
+     "leg_key": [
+      "2026-07-10",
+      "CE",
+      "12:05"
+     ],
+     "dev30": true,
+     "maxfav": 75.54999999999995,
+     "src": "addon"
+    }
+   ],
+   [
+    {
+     "date": "2026-08-20",
+     "index": "BANKNIFTY",
+     "direction": "CE",
+     "entry_time": "12:50",
+     "strike": 57600,
+     "expiry": "2026-08-25",
+     "lot": 30,
+     "family": "NS1_second",
+     "rep": "NS1_second",
+     "sources": "NS1",
+     "_signal": "12:45"
+    },
+    {
+     "stop": 50.0,
+     "trig": 90.0,
+     "lock": null,
+     "tgt2": null
+    },
+    {
+     "date": "2026-08-20",
+     "direction": "CE",
+     "family": "NS1_second",
+     "rep": "NS1_second",
+     "entry_time": "12:50",
+     "entry_premium": 400.0,
+     "exit_time": "14:05",
+     "exit_premium": 350.0,
+     "exit_reason": "stop",
+     "net": -1720.0,
+     "leg_key": [
+      "2026-08-20",
+      "CE",
+      "12:50"
+     ],
+     "dev30": false,
+     "maxfav": 29.25,
+     "src": "addon"
+    }
+   ],
+   [
+    {
+     "date": "2026-10-06",
+     "index": "BANKNIFTY",
+     "direction": "CE",
+     "entry_time": "10:35",
+     "strike": 55000,
+     "expiry": "2026-10-27",
+     "lot": 30,
+     "family": "NS1_second",
+     "rep": "NS1_second",
+     "sources": "NS1",
+     "_signal": "10:30"
+    },
+    {
+     "stop": 50.0,
+     "trig": 90.0,
+     "lock": 90.0,
+     "tgt2": 180.0
+    },
+    {
+     "date": "2026-10-06",
+     "direction": "CE",
+     "family": "NS1_second",
+     "rep": "NS1_second",
+     "entry_time": "10:35",
+     "entry_premium": 956.7,
+     "exit_time": "10:50",
+     "exit_premium": 906.7,
+     "exit_reason": "stop",
+     "net": -1720.0,
+     "leg_key": [
+      "2026-10-06",
+      "CE",
+      "10:35"
+     ],
+     "dev30": false,
+     "maxfav": 10.049999999999955,
+     "src": "addon"
+    }
+   ]
+  ],
+  "key_dropped": 4
+ }
+}

@@ -1,0 +1,1495 @@
+{
+ "build": "Bank v21 + S/R rejection layer",
+ "date": "2026-11-04",
+ "window": "2026-01-01..2026-10-30 (205 trading days)",
+ "detection": {
+  "rejection_events": 569,
+  "first_tests": 3772,
+  "cross_check_v1_v2": "PASS",
+  "events_by_source": {
+   "ORH": 24,
+   "ORL": 22,
+   "PDC": 24,
+   "PDH": 11,
+   "PDL": 15,
+   "SWH": 235,
+   "SWL": 238
+  }
+ },
+ "A_standalone": {
+  "gate": {
+   "base": {
+    "legs": 290,
+    "total": -113958.5,
+    "mean_per_leg": -392.96,
+    "win_rate_pct": 34.5,
+    "ft_rate_pct": 23.1,
+    "months": {
+     "2026-01": -11494.0,
+     "2026-02": -21929.5,
+     "2026-03": -11320.0,
+     "2026-04": -9607.5,
+     "2026-05": -12677.0,
+     "2026-06": -11321.5,
+     "2026-07": -14535.5,
+     "2026-08": -7342.0,
+     "2026-09": 211.0,
+     "2026-10": -13942.5
+    },
+    "halves": {
+     "H1_Jan_May": -67028.0,
+     "H2_Jun_Oct": -46930.5
+    },
+    "ex_top3_legs": -121398.5,
+    "days": 183,
+    "worst_day": -3440.0,
+    "bleed_days_le_3000": 34,
+    "negative_months": [
+     "2026-01",
+     "2026-02",
+     "2026-03",
+     "2026-04",
+     "2026-05",
+     "2026-06",
+     "2026-07",
+     "2026-08",
+     "2026-10"
+    ],
+    "worst_drawdown": -116969.0
+   },
+   "flipped": {
+    "total": -73083.5,
+    "legs": 290,
+    "nc": []
+   },
+   "shifted30": {
+    "total": -67429.5,
+    "legs": 276,
+    "nc": [],
+    "no_time": [
+     [
+      "2026-01-30",
+      "shifted entry past 15:05"
+     ],
+     [
+      "2026-02-02",
+      "shifted entry past 15:05"
+     ],
+     [
+      "2026-02-17",
+      "shifted entry past 15:05"
+     ],
+     [
+      "2026-02-17",
+      "shifted entry past 15:05"
+     ],
+     [
+      "2026-03-17",
+      "shifted entry past 15:05"
+     ],
+     [
+      "2026-03-25",
+      "shifted entry past 15:05"
+     ],
+     [
+      "2026-04-23",
+      "shifted entry past 15:05"
+     ],
+     [
+      "2026-05-07",
+      "shifted entry past 15:05"
+     ],
+     [
+      "2026-06-25",
+      "shifted entry past 15:05"
+     ],
+     [
+      "2026-07-02",
+      "shifted entry past 15:05"
+     ],
+     [
+      "2026-07-22",
+      "shifted entry past 15:05"
+     ],
+     [
+      "2026-07-29",
+      "shifted entry past 15:05"
+     ],
+     [
+      "2026-08-31",
+      "shifted entry past 15:05"
+     ],
+     [
+      "2026-10-01",
+      "shifted entry past 15:05"
+     ]
+    ]
+   },
+   "random": {
+    "total": -80603.0,
+    "legs": 290,
+    "failed_draws": 0,
+    "seed": 20261104
+   }
+  },
+  "nc": [
+   {
+    "date": "2026-01-27",
+    "pattern_time": "09:15",
+    "direction": "PE",
+    "entry_time": "09:20",
+    "level_source": "PDC",
+    "level_value": 58501.1,
+    "why": "entry bar 09:20 absent for 2026-01-27|58400|PE 2026-01-27"
+   },
+   {
+    "date": "2026-01-29",
+    "pattern_time": "09:40",
+    "direction": "PE",
+    "entry_time": "09:45",
+    "level_source": "SWH",
+    "level_value": 59498.35,
+    "why": "entry bar 09:45 absent for 2026-02-24|59500|PE 2026-01-29"
+   },
+   {
+    "date": "2026-02-01",
+    "pattern_time": "09:15",
+    "direction": "CE",
+    "entry_time": "09:20",
+    "level_source": "PDC",
+    "level_value": 59577.6,
+    "why": "entry bar 09:20 absent for 2026-02-24|59600|CE 2026-02-01"
+   },
+   {
+    "date": "2026-02-01",
+    "pattern_time": "09:50",
+    "direction": "CE",
+    "entry_time": "09:55",
+    "level_source": "PDL",
+    "level_value": 59501.8,
+    "why": "entry bar 09:55 absent for 2026-02-24|59600|CE 2026-02-01"
+   },
+   {
+    "date": "2026-02-03",
+    "pattern_time": "09:45",
+    "direction": "CE",
+    "entry_time": "09:50",
+    "level_source": "ORL",
+    "level_value": 59932.2,
+    "why": "entry bar 09:50 absent for 2026-02-24|60100|CE 2026-02-03"
+   },
+   {
+    "date": "2026-02-04",
+    "pattern_time": "09:15",
+    "direction": "CE",
+    "entry_time": "09:20",
+    "level_source": "PDC",
+    "level_value": 59986.7,
+    "why": "entry bar 09:20 absent for 2026-02-24|60200|CE 2026-02-04"
+   },
+   {
+    "date": "2026-02-04",
+    "pattern_time": "09:45",
+    "direction": "PE",
+    "entry_time": "09:50",
+    "level_source": "ORH",
+    "level_value": 60287.95,
+    "why": "entry bar 09:50 absent for 2026-02-24|60300|PE 2026-02-04"
+   },
+   {
+    "date": "2026-02-12",
+    "pattern_time": "09:15",
+    "direction": "CE",
+    "entry_time": "09:20",
+    "level_source": "PDC",
+    "level_value": 60743.95,
+    "why": "entry bar 09:20 absent for 2026-02-24|60700|CE 2026-02-12"
+   },
+   {
+    "date": "2026-02-18",
+    "pattern_time": "09:15",
+    "direction": "CE",
+    "entry_time": "09:20",
+    "level_source": "PDC",
+    "level_value": 61144.15,
+    "why": "entry bar 09:20 absent for 2026-02-24|61200|CE 2026-02-18"
+   },
+   {
+    "date": "2026-03-06",
+    "pattern_time": "09:45",
+    "direction": "PE",
+    "entry_time": "09:50",
+    "level_source": "SWH",
+    "level_value": 58614.05,
+    "why": "entry bar 09:50 absent for 2026-03-30|58600|PE 2026-03-06"
+   },
+   {
+    "date": "2026-03-25",
+    "pattern_time": "09:45",
+    "direction": "PE",
+    "entry_time": "09:50",
+    "level_source": "ORH",
+    "level_value": 53695.4,
+    "why": "entry bar 09:50 absent for 2026-03-30|53700|PE 2026-03-25"
+   },
+   {
+    "date": "2026-04-17",
+    "pattern_time": "09:15",
+    "direction": "CE",
+    "entry_time": "09:20",
+    "level_source": "PDC",
+    "level_value": 56036.4,
+    "why": "entry bar 09:20 absent for 2026-04-28|56100|CE 2026-04-17"
+   },
+   {
+    "date": "2026-04-20",
+    "pattern_time": "09:15",
+    "direction": "CE",
+    "entry_time": "09:20",
+    "level_source": "PDH",
+    "level_value": 56628.7,
+    "why": "entry bar 09:20 absent for 2026-04-28|56700|CE 2026-04-20"
+   },
+   {
+    "date": "2026-04-21",
+    "pattern_time": "09:20",
+    "direction": "PE",
+    "entry_time": "09:25",
+    "level_source": "PDH",
+    "level_value": 57085.1,
+    "why": "entry bar 09:25 absent for 2026-04-28|57000|PE 2026-04-21"
+   },
+   {
+    "date": "2026-05-13",
+    "pattern_time": "09:15",
+    "direction": "PE",
+    "entry_time": "09:20",
+    "level_source": "PDC",
+    "level_value": 53705.1,
+    "why": "entry bar 09:20 absent for 2026-05-26|53600|PE 2026-05-13"
+   },
+   {
+    "date": "2026-05-14",
+    "pattern_time": "09:45",
+    "direction": "PE",
+    "entry_time": "09:50",
+    "level_source": "ORL",
+    "level_value": 53637.5,
+    "why": "entry bar 09:50 absent for 2026-05-26|53600|PE 2026-05-14"
+   },
+   {
+    "date": "2026-05-19",
+    "pattern_time": "09:15",
+    "direction": "PE",
+    "entry_time": "09:20",
+    "level_source": "PDH",
+    "level_value": 53667.55,
+    "why": "entry bar 09:20 absent for 2026-05-26|53600|PE 2026-05-19"
+   },
+   {
+    "date": "2026-05-19",
+    "pattern_time": "09:20",
+    "direction": "CE",
+    "entry_time": "09:25",
+    "level_source": "PDC",
+    "level_value": 53527.55,
+    "why": "entry bar 09:25 absent for 2026-05-26|53600|CE 2026-05-19"
+   },
+   {
+    "date": "2026-05-22",
+    "pattern_time": "09:45",
+    "direction": "PE",
+    "entry_time": "09:50",
+    "level_source": "ORH",
+    "level_value": 53999.0,
+    "why": "entry bar 09:50 absent for 2026-05-26|54000|PE 2026-05-22"
+   },
+   {
+    "date": "2026-05-26",
+    "pattern_time": "09:20",
+    "direction": "PE",
+    "entry_time": "09:25",
+    "level_source": "PDH",
+    "level_value": 55405.2,
+    "why": "entry bar 09:25 absent for 2026-05-26|55400|PE 2026-05-26"
+   },
+   {
+    "date": "2026-06-01",
+    "pattern_time": "09:15",
+    "direction": "CE",
+    "entry_time": "09:20",
+    "level_source": "PDC",
+    "level_value": 54364.6,
+    "why": "entry bar 09:20 absent for 2026-06-30|54400|CE 2026-06-01"
+   },
+   {
+    "date": "2026-06-05",
+    "pattern_time": "09:15",
+    "direction": "PE",
+    "entry_time": "09:20",
+    "level_source": "PDH",
+    "level_value": 54461.0,
+    "why": "entry bar 09:20 absent for 2026-06-30|54300|PE 2026-06-05"
+   },
+   {
+    "date": "2026-06-11",
+    "pattern_time": "09:20",
+    "direction": "PE",
+    "entry_time": "09:25",
+    "level_source": "PDL",
+    "level_value": 55026.15,
+    "why": "entry bar 09:25 absent for 2026-06-30|55000|PE 2026-06-11"
+   },
+   {
+    "date": "2026-06-11",
+    "pattern_time": "09:40",
+    "direction": "CE",
+    "entry_time": "09:45",
+    "level_source": "PDC",
+    "level_value": 55104.3,
+    "why": "entry bar 09:45 absent for 2026-06-30|55200|CE 2026-06-11"
+   },
+   {
+    "date": "2026-06-19",
+    "pattern_time": "09:30",
+    "direction": "CE",
+    "entry_time": "09:35",
+    "level_source": "PDL",
+    "level_value": 57583.2,
+    "why": "entry bar 09:35 absent for 2026-06-30|57600|CE 2026-06-19"
+   },
+   {
+    "date": "2026-06-29",
+    "pattern_time": "09:15",
+    "direction": "PE",
+    "entry_time": "09:20",
+    "level_source": "PDC",
+    "level_value": 58193.2,
+    "why": "entry bar 09:20 absent for 2026-06-30|58200|PE 2026-06-29"
+   },
+   {
+    "date": "2026-06-30",
+    "pattern_time": "09:15",
+    "direction": "CE",
+    "entry_time": "09:20",
+    "level_source": "PDC",
+    "level_value": 57828.05,
+    "why": "entry bar 09:20 absent for 2026-06-30|57900|CE 2026-06-30"
+   },
+   {
+    "date": "2026-07-01",
+    "pattern_time": "09:45",
+    "direction": "PE",
+    "entry_time": "09:50",
+    "level_source": "PDC",
+    "level_value": 57690.6,
+    "why": "entry bar 09:50 absent for 2026-07-28|57600|PE 2026-07-01"
+   },
+   {
+    "date": "2026-07-02",
+    "pattern_time": "09:15",
+    "direction": "PE",
+    "entry_time": "09:20",
+    "level_source": "PDH",
+    "level_value": 58134.15,
+    "why": "entry bar 09:20 absent for 2026-07-28|58100|PE 2026-07-02"
+   },
+   {
+    "date": "2026-07-10",
+    "pattern_time": "09:45",
+    "direction": "PE",
+    "entry_time": "09:50",
+    "level_source": "ORH",
+    "level_value": 57928.55,
+    "why": "entry bar 09:50 absent for 2026-07-28|57900|PE 2026-07-10"
+   },
+   {
+    "date": "2026-07-14",
+    "pattern_time": "09:40",
+    "direction": "CE",
+    "entry_time": "09:45",
+    "level_source": "PDL",
+    "level_value": 57492.05,
+    "why": "entry bar 09:45 absent for 2026-07-28|57600|CE 2026-07-14"
+   },
+   {
+    "date": "2026-07-17",
+    "pattern_time": "09:45",
+    "direction": "PE",
+    "entry_time": "09:50",
+    "level_source": "ORH",
+    "level_value": 57931.6,
+    "why": "entry bar 09:50 absent for 2026-07-28|57900|PE 2026-07-17"
+   },
+   {
+    "date": "2026-07-28",
+    "pattern_time": "09:45",
+    "direction": "CE",
+    "entry_time": "09:50",
+    "level_source": "ORL",
+    "level_value": 56858.35,
+    "why": "entry bar 09:50 absent for 2026-07-28|56900|CE 2026-07-28"
+   },
+   {
+    "date": "2026-08-03",
+    "pattern_time": "09:45",
+    "direction": "PE",
+    "entry_time": "09:50",
+    "level_source": "ORH",
+    "level_value": 57771.9,
+    "why": "entry bar 09:50 absent for 2026-08-25|57800|PE 2026-08-03"
+   },
+   {
+    "date": "2026-08-10",
+    "pattern_time": "09:15",
+    "direction": "PE",
+    "entry_time": "09:20",
+    "level_source": "PDH",
+    "level_value": 57994.45,
+    "why": "entry bar 09:20 absent for 2026-08-25|57900|PE 2026-08-10"
+   },
+   {
+    "date": "2026-08-18",
+    "pattern_time": "09:15",
+    "direction": "PE",
+    "entry_time": "09:20",
+    "level_source": "PDC",
+    "level_value": 57497.8,
+    "why": "entry bar 09:20 absent for 2026-08-25|57400|PE 2026-08-18"
+   },
+   {
+    "date": "2026-08-24",
+    "pattern_time": "09:30",
+    "direction": "CE",
+    "entry_time": "09:35",
+    "level_source": "PDC",
+    "level_value": 57761.95,
+    "why": "entry bar 09:35 absent for 2026-08-25|57800|CE 2026-08-24"
+   },
+   {
+    "date": "2026-08-25",
+    "pattern_time": "09:15",
+    "direction": "CE",
+    "entry_time": "09:20",
+    "level_source": "PDL",
+    "level_value": 57245.95,
+    "why": "entry bar 09:20 absent for 2026-08-25|57500|CE 2026-08-25"
+   },
+   {
+    "date": "2026-08-25",
+    "pattern_time": "09:20",
+    "direction": "PE",
+    "entry_time": "09:25",
+    "level_source": "PDC",
+    "level_value": 57525.95,
+    "why": "entry bar 09:25 absent for 2026-08-25|57500|PE 2026-08-25"
+   },
+   {
+    "date": "2026-08-26",
+    "pattern_time": "09:40",
+    "direction": "PE",
+    "entry_time": "09:45",
+    "level_source": "SWH",
+    "level_value": 57996.05,
+    "why": "entry bar 09:45 absent for 2026-09-29|58000|PE 2026-08-26"
+   },
+   {
+    "date": "2026-09-01",
+    "pattern_time": "09:45",
+    "direction": "CE",
+    "entry_time": "09:50",
+    "level_source": "ORL",
+    "level_value": 57342.15,
+    "why": "entry bar 09:50 absent for 2026-09-29|57400|CE 2026-09-01"
+   },
+   {
+    "date": "2026-09-03",
+    "pattern_time": "09:45",
+    "direction": "PE",
+    "entry_time": "09:50",
+    "level_source": "ORH",
+    "level_value": 57741.5,
+    "why": "entry bar 09:50 absent for 2026-09-29|57700|PE 2026-09-03"
+   },
+   {
+    "date": "2026-10-01",
+    "pattern_time": "09:50",
+    "direction": "PE",
+    "entry_time": "09:55",
+    "level_source": "ORH",
+    "level_value": 54947.8,
+    "why": "entry bar 09:55 absent for 2026-10-27|54900|PE 2026-10-01"
+   },
+   {
+    "date": "2026-10-14",
+    "pattern_time": "09:45",
+    "direction": "PE",
+    "entry_time": "09:50",
+    "level_source": "ORH",
+    "level_value": 55634.9,
+    "why": "entry bar 09:50 absent for 2026-10-27|55600|PE 2026-10-14"
+   },
+   {
+    "date": "2026-10-15",
+    "pattern_time": "09:15",
+    "direction": "CE",
+    "entry_time": "09:20",
+    "level_source": "PDC",
+    "level_value": 55316.0,
+    "why": "entry bar 09:20 absent for 2026-10-27|55500|CE 2026-10-15"
+   },
+   {
+    "date": "2026-10-22",
+    "pattern_time": "09:15",
+    "direction": "CE",
+    "entry_time": "09:20",
+    "level_source": "PDL",
+    "level_value": 54696.45,
+    "why": "entry bar 09:20 absent for 2026-10-27|54700|CE 2026-10-22"
+   },
+   {
+    "date": "2026-10-27",
+    "pattern_time": "09:50",
+    "direction": "PE",
+    "entry_time": "09:55",
+    "level_source": "ORH",
+    "level_value": 54618.3,
+    "why": "entry bar 09:55 absent for 2026-10-27|54600|PE 2026-10-27"
+   },
+   {
+    "date": "2026-10-30",
+    "pattern_time": "09:50",
+    "direction": "PE",
+    "entry_time": "09:55",
+    "level_source": "SWH",
+    "level_value": 54849.9,
+    "why": "entry bar 09:55 absent for 2026-11-23|54800|PE 2026-10-30"
+   }
+  ],
+  "n_nc": 48,
+  "over_cap_events": 163,
+  "deduped_within_sr": 68
+ },
+ "B_added_book": {
+  "increment_gate": {
+   "base": {
+    "legs": 279,
+    "total": -120238.5,
+    "mean_per_leg": -430.96,
+    "win_rate_pct": 33.7,
+    "ft_rate_pct": 21.9,
+    "months": {
+     "2026-01": -13974.0,
+     "2026-02": -24409.5,
+     "2026-03": -12080.0,
+     "2026-04": -14567.5,
+     "2026-05": -10957.0,
+     "2026-06": -9601.5,
+     "2026-07": -15295.5,
+     "2026-08": -7342.0,
+     "2026-09": 1931.0,
+     "2026-10": -13942.5
+    },
+    "halves": {
+     "H1_Jan_May": -75988.0,
+     "H2_Jun_Oct": -44250.5
+    },
+    "ex_top3_legs": -127678.5,
+    "days": 183,
+    "worst_day": -3440.0,
+    "bleed_days_le_3000": 29,
+    "negative_months": [
+     "2026-01",
+     "2026-02",
+     "2026-03",
+     "2026-04",
+     "2026-05",
+     "2026-06",
+     "2026-07",
+     "2026-08",
+     "2026-10"
+    ],
+    "worst_drawdown": -123249.0
+   },
+   "flipped": {
+    "total": -66763.5,
+    "legs": 279,
+    "nc": []
+   },
+   "shifted30": {
+    "total": -67029.5,
+    "legs": 266,
+    "nc": [],
+    "no_time": [
+     [
+      "2026-01-30",
+      "shifted entry past 15:05"
+     ],
+     [
+      "2026-02-17",
+      "shifted entry past 15:05"
+     ],
+     [
+      "2026-02-17",
+      "shifted entry past 15:05"
+     ],
+     [
+      "2026-03-17",
+      "shifted entry past 15:05"
+     ],
+     [
+      "2026-03-25",
+      "shifted entry past 15:05"
+     ],
+     [
+      "2026-04-23",
+      "shifted entry past 15:05"
+     ],
+     [
+      "2026-05-07",
+      "shifted entry past 15:05"
+     ],
+     [
+      "2026-06-25",
+      "shifted entry past 15:05"
+     ],
+     [
+      "2026-07-02",
+      "shifted entry past 15:05"
+     ],
+     [
+      "2026-07-22",
+      "shifted entry past 15:05"
+     ],
+     [
+      "2026-07-29",
+      "shifted entry past 15:05"
+     ],
+     [
+      "2026-08-31",
+      "shifted entry past 15:05"
+     ],
+     [
+      "2026-10-01",
+      "shifted entry past 15:05"
+     ]
+    ]
+   },
+   "random": {
+    "total": -99814.5,
+    "legs": 279,
+    "failed_draws": 0,
+    "seed": 20261104
+   }
+  },
+  "combined": {
+   "legs": 378,
+   "total": -36588.0,
+   "mean_per_leg": -96.79,
+   "win_rate_pct": 38.6,
+   "ft_rate_pct": 19.0,
+   "months": {
+    "2026-01": 8774.0,
+    "2026-02": -3929.5,
+    "2026-03": -10960.0,
+    "2026-04": -14657.5,
+    "2026-05": 6723.0,
+    "2026-06": -9041.5,
+    "2026-07": -18975.5,
+    "2026-08": -8215.5,
+    "2026-09": 12707.5,
+    "2026-10": 987.0
+   },
+   "halves": {
+    "H1_Jan_May": -14050.0,
+    "H2_Jun_Oct": -22538.0
+   },
+   "ex_top3_legs": -65628.0,
+   "days": 191,
+   "worst_day": -5160.0,
+   "bleed_days_le_3000": 39,
+   "negative_months": [
+    "2026-02",
+    "2026-03",
+    "2026-04",
+    "2026-06",
+    "2026-07",
+    "2026-08"
+   ],
+   "worst_drawdown": -63103.0
+  },
+  "v21_total": 83650.5,
+  "combined_total": -36588.0,
+  "increment_total": -120238.5,
+  "nc": [
+   {
+    "date": "2026-01-27",
+    "pattern_time": "09:15",
+    "direction": "PE",
+    "entry_time": "09:20",
+    "level_source": "PDC",
+    "level_value": 58501.1,
+    "why": "entry bar 09:20 absent for 2026-01-27|58400|PE 2026-01-27"
+   },
+   {
+    "date": "2026-01-29",
+    "pattern_time": "09:40",
+    "direction": "PE",
+    "entry_time": "09:45",
+    "level_source": "SWH",
+    "level_value": 59498.35,
+    "why": "entry bar 09:45 absent for 2026-02-24|59500|PE 2026-01-29"
+   },
+   {
+    "date": "2026-02-01",
+    "pattern_time": "09:15",
+    "direction": "CE",
+    "entry_time": "09:20",
+    "level_source": "PDC",
+    "level_value": 59577.6,
+    "why": "entry bar 09:20 absent for 2026-02-24|59600|CE 2026-02-01"
+   },
+   {
+    "date": "2026-02-01",
+    "pattern_time": "09:50",
+    "direction": "CE",
+    "entry_time": "09:55",
+    "level_source": "PDL",
+    "level_value": 59501.8,
+    "why": "entry bar 09:55 absent for 2026-02-24|59600|CE 2026-02-01"
+   },
+   {
+    "date": "2026-02-03",
+    "pattern_time": "09:45",
+    "direction": "CE",
+    "entry_time": "09:50",
+    "level_source": "ORL",
+    "level_value": 59932.2,
+    "why": "entry bar 09:50 absent for 2026-02-24|60100|CE 2026-02-03"
+   },
+   {
+    "date": "2026-02-04",
+    "pattern_time": "09:15",
+    "direction": "CE",
+    "entry_time": "09:20",
+    "level_source": "PDC",
+    "level_value": 59986.7,
+    "why": "entry bar 09:20 absent for 2026-02-24|60200|CE 2026-02-04"
+   },
+   {
+    "date": "2026-02-04",
+    "pattern_time": "09:45",
+    "direction": "PE",
+    "entry_time": "09:50",
+    "level_source": "ORH",
+    "level_value": 60287.95,
+    "why": "entry bar 09:50 absent for 2026-02-24|60300|PE 2026-02-04"
+   },
+   {
+    "date": "2026-02-12",
+    "pattern_time": "09:15",
+    "direction": "CE",
+    "entry_time": "09:20",
+    "level_source": "PDC",
+    "level_value": 60743.95,
+    "why": "entry bar 09:20 absent for 2026-02-24|60700|CE 2026-02-12"
+   },
+   {
+    "date": "2026-02-18",
+    "pattern_time": "09:15",
+    "direction": "CE",
+    "entry_time": "09:20",
+    "level_source": "PDC",
+    "level_value": 61144.15,
+    "why": "entry bar 09:20 absent for 2026-02-24|61200|CE 2026-02-18"
+   },
+   {
+    "date": "2026-03-06",
+    "pattern_time": "09:45",
+    "direction": "PE",
+    "entry_time": "09:50",
+    "level_source": "SWH",
+    "level_value": 58614.05,
+    "why": "entry bar 09:50 absent for 2026-03-30|58600|PE 2026-03-06"
+   },
+   {
+    "date": "2026-03-25",
+    "pattern_time": "09:45",
+    "direction": "PE",
+    "entry_time": "09:50",
+    "level_source": "ORH",
+    "level_value": 53695.4,
+    "why": "entry bar 09:50 absent for 2026-03-30|53700|PE 2026-03-25"
+   },
+   {
+    "date": "2026-04-17",
+    "pattern_time": "09:15",
+    "direction": "CE",
+    "entry_time": "09:20",
+    "level_source": "PDC",
+    "level_value": 56036.4,
+    "why": "entry bar 09:20 absent for 2026-04-28|56100|CE 2026-04-17"
+   },
+   {
+    "date": "2026-04-20",
+    "pattern_time": "09:15",
+    "direction": "CE",
+    "entry_time": "09:20",
+    "level_source": "PDH",
+    "level_value": 56628.7,
+    "why": "entry bar 09:20 absent for 2026-04-28|56700|CE 2026-04-20"
+   },
+   {
+    "date": "2026-04-21",
+    "pattern_time": "09:20",
+    "direction": "PE",
+    "entry_time": "09:25",
+    "level_source": "PDH",
+    "level_value": 57085.1,
+    "why": "entry bar 09:25 absent for 2026-04-28|57000|PE 2026-04-21"
+   },
+   {
+    "date": "2026-05-13",
+    "pattern_time": "09:15",
+    "direction": "PE",
+    "entry_time": "09:20",
+    "level_source": "PDC",
+    "level_value": 53705.1,
+    "why": "entry bar 09:20 absent for 2026-05-26|53600|PE 2026-05-13"
+   },
+   {
+    "date": "2026-05-14",
+    "pattern_time": "09:45",
+    "direction": "PE",
+    "entry_time": "09:50",
+    "level_source": "ORL",
+    "level_value": 53637.5,
+    "why": "entry bar 09:50 absent for 2026-05-26|53600|PE 2026-05-14"
+   },
+   {
+    "date": "2026-05-19",
+    "pattern_time": "09:15",
+    "direction": "PE",
+    "entry_time": "09:20",
+    "level_source": "PDH",
+    "level_value": 53667.55,
+    "why": "entry bar 09:20 absent for 2026-05-26|53600|PE 2026-05-19"
+   },
+   {
+    "date": "2026-05-19",
+    "pattern_time": "09:20",
+    "direction": "CE",
+    "entry_time": "09:25",
+    "level_source": "PDC",
+    "level_value": 53527.55,
+    "why": "entry bar 09:25 absent for 2026-05-26|53600|CE 2026-05-19"
+   },
+   {
+    "date": "2026-05-22",
+    "pattern_time": "09:45",
+    "direction": "PE",
+    "entry_time": "09:50",
+    "level_source": "ORH",
+    "level_value": 53999.0,
+    "why": "entry bar 09:50 absent for 2026-05-26|54000|PE 2026-05-22"
+   },
+   {
+    "date": "2026-05-26",
+    "pattern_time": "09:20",
+    "direction": "PE",
+    "entry_time": "09:25",
+    "level_source": "PDH",
+    "level_value": 55405.2,
+    "why": "entry bar 09:25 absent for 2026-05-26|55400|PE 2026-05-26"
+   },
+   {
+    "date": "2026-06-01",
+    "pattern_time": "09:15",
+    "direction": "CE",
+    "entry_time": "09:20",
+    "level_source": "PDC",
+    "level_value": 54364.6,
+    "why": "entry bar 09:20 absent for 2026-06-30|54400|CE 2026-06-01"
+   },
+   {
+    "date": "2026-06-05",
+    "pattern_time": "09:15",
+    "direction": "PE",
+    "entry_time": "09:20",
+    "level_source": "PDH",
+    "level_value": 54461.0,
+    "why": "entry bar 09:20 absent for 2026-06-30|54300|PE 2026-06-05"
+   },
+   {
+    "date": "2026-06-11",
+    "pattern_time": "09:20",
+    "direction": "PE",
+    "entry_time": "09:25",
+    "level_source": "PDL",
+    "level_value": 55026.15,
+    "why": "entry bar 09:25 absent for 2026-06-30|55000|PE 2026-06-11"
+   },
+   {
+    "date": "2026-06-11",
+    "pattern_time": "09:40",
+    "direction": "CE",
+    "entry_time": "09:45",
+    "level_source": "PDC",
+    "level_value": 55104.3,
+    "why": "entry bar 09:45 absent for 2026-06-30|55200|CE 2026-06-11"
+   },
+   {
+    "date": "2026-06-19",
+    "pattern_time": "09:30",
+    "direction": "CE",
+    "entry_time": "09:35",
+    "level_source": "PDL",
+    "level_value": 57583.2,
+    "why": "entry bar 09:35 absent for 2026-06-30|57600|CE 2026-06-19"
+   },
+   {
+    "date": "2026-06-29",
+    "pattern_time": "09:15",
+    "direction": "PE",
+    "entry_time": "09:20",
+    "level_source": "PDC",
+    "level_value": 58193.2,
+    "why": "entry bar 09:20 absent for 2026-06-30|58200|PE 2026-06-29"
+   },
+   {
+    "date": "2026-06-30",
+    "pattern_time": "09:15",
+    "direction": "CE",
+    "entry_time": "09:20",
+    "level_source": "PDC",
+    "level_value": 57828.05,
+    "why": "entry bar 09:20 absent for 2026-06-30|57900|CE 2026-06-30"
+   },
+   {
+    "date": "2026-07-01",
+    "pattern_time": "09:45",
+    "direction": "PE",
+    "entry_time": "09:50",
+    "level_source": "PDC",
+    "level_value": 57690.6,
+    "why": "entry bar 09:50 absent for 2026-07-28|57600|PE 2026-07-01"
+   },
+   {
+    "date": "2026-07-02",
+    "pattern_time": "09:15",
+    "direction": "PE",
+    "entry_time": "09:20",
+    "level_source": "PDH",
+    "level_value": 58134.15,
+    "why": "entry bar 09:20 absent for 2026-07-28|58100|PE 2026-07-02"
+   },
+   {
+    "date": "2026-07-10",
+    "pattern_time": "09:45",
+    "direction": "PE",
+    "entry_time": "09:50",
+    "level_source": "ORH",
+    "level_value": 57928.55,
+    "why": "entry bar 09:50 absent for 2026-07-28|57900|PE 2026-07-10"
+   },
+   {
+    "date": "2026-07-14",
+    "pattern_time": "09:40",
+    "direction": "CE",
+    "entry_time": "09:45",
+    "level_source": "PDL",
+    "level_value": 57492.05,
+    "why": "entry bar 09:45 absent for 2026-07-28|57600|CE 2026-07-14"
+   },
+   {
+    "date": "2026-07-17",
+    "pattern_time": "09:45",
+    "direction": "PE",
+    "entry_time": "09:50",
+    "level_source": "ORH",
+    "level_value": 57931.6,
+    "why": "entry bar 09:50 absent for 2026-07-28|57900|PE 2026-07-17"
+   },
+   {
+    "date": "2026-07-28",
+    "pattern_time": "09:45",
+    "direction": "CE",
+    "entry_time": "09:50",
+    "level_source": "ORL",
+    "level_value": 56858.35,
+    "why": "entry bar 09:50 absent for 2026-07-28|56900|CE 2026-07-28"
+   },
+   {
+    "date": "2026-08-03",
+    "pattern_time": "09:45",
+    "direction": "PE",
+    "entry_time": "09:50",
+    "level_source": "ORH",
+    "level_value": 57771.9,
+    "why": "entry bar 09:50 absent for 2026-08-25|57800|PE 2026-08-03"
+   },
+   {
+    "date": "2026-08-10",
+    "pattern_time": "09:15",
+    "direction": "PE",
+    "entry_time": "09:20",
+    "level_source": "PDH",
+    "level_value": 57994.45,
+    "why": "entry bar 09:20 absent for 2026-08-25|57900|PE 2026-08-10"
+   },
+   {
+    "date": "2026-08-18",
+    "pattern_time": "09:15",
+    "direction": "PE",
+    "entry_time": "09:20",
+    "level_source": "PDC",
+    "level_value": 57497.8,
+    "why": "entry bar 09:20 absent for 2026-08-25|57400|PE 2026-08-18"
+   },
+   {
+    "date": "2026-08-24",
+    "pattern_time": "09:30",
+    "direction": "CE",
+    "entry_time": "09:35",
+    "level_source": "PDC",
+    "level_value": 57761.95,
+    "why": "entry bar 09:35 absent for 2026-08-25|57800|CE 2026-08-24"
+   },
+   {
+    "date": "2026-08-25",
+    "pattern_time": "09:15",
+    "direction": "CE",
+    "entry_time": "09:20",
+    "level_source": "PDL",
+    "level_value": 57245.95,
+    "why": "entry bar 09:20 absent for 2026-08-25|57500|CE 2026-08-25"
+   },
+   {
+    "date": "2026-08-25",
+    "pattern_time": "09:20",
+    "direction": "PE",
+    "entry_time": "09:25",
+    "level_source": "PDC",
+    "level_value": 57525.95,
+    "why": "entry bar 09:25 absent for 2026-08-25|57500|PE 2026-08-25"
+   },
+   {
+    "date": "2026-08-26",
+    "pattern_time": "09:40",
+    "direction": "PE",
+    "entry_time": "09:45",
+    "level_source": "SWH",
+    "level_value": 57996.05,
+    "why": "entry bar 09:45 absent for 2026-09-29|58000|PE 2026-08-26"
+   },
+   {
+    "date": "2026-09-01",
+    "pattern_time": "09:45",
+    "direction": "CE",
+    "entry_time": "09:50",
+    "level_source": "ORL",
+    "level_value": 57342.15,
+    "why": "entry bar 09:50 absent for 2026-09-29|57400|CE 2026-09-01"
+   },
+   {
+    "date": "2026-09-03",
+    "pattern_time": "09:45",
+    "direction": "PE",
+    "entry_time": "09:50",
+    "level_source": "ORH",
+    "level_value": 57741.5,
+    "why": "entry bar 09:50 absent for 2026-09-29|57700|PE 2026-09-03"
+   },
+   {
+    "date": "2026-10-01",
+    "pattern_time": "09:50",
+    "direction": "PE",
+    "entry_time": "09:55",
+    "level_source": "ORH",
+    "level_value": 54947.8,
+    "why": "entry bar 09:55 absent for 2026-10-27|54900|PE 2026-10-01"
+   },
+   {
+    "date": "2026-10-14",
+    "pattern_time": "09:45",
+    "direction": "PE",
+    "entry_time": "09:50",
+    "level_source": "ORH",
+    "level_value": 55634.9,
+    "why": "entry bar 09:50 absent for 2026-10-27|55600|PE 2026-10-14"
+   },
+   {
+    "date": "2026-10-15",
+    "pattern_time": "09:15",
+    "direction": "CE",
+    "entry_time": "09:20",
+    "level_source": "PDC",
+    "level_value": 55316.0,
+    "why": "entry bar 09:20 absent for 2026-10-27|55500|CE 2026-10-15"
+   },
+   {
+    "date": "2026-10-22",
+    "pattern_time": "09:15",
+    "direction": "CE",
+    "entry_time": "09:20",
+    "level_source": "PDL",
+    "level_value": 54696.45,
+    "why": "entry bar 09:20 absent for 2026-10-27|54700|CE 2026-10-22"
+   },
+   {
+    "date": "2026-10-27",
+    "pattern_time": "09:50",
+    "direction": "PE",
+    "entry_time": "09:55",
+    "level_source": "ORH",
+    "level_value": 54618.3,
+    "why": "entry bar 09:55 absent for 2026-10-27|54600|PE 2026-10-27"
+   },
+   {
+    "date": "2026-10-30",
+    "pattern_time": "09:50",
+    "direction": "PE",
+    "entry_time": "09:55",
+    "level_source": "SWH",
+    "level_value": 54849.9,
+    "why": "entry bar 09:55 absent for 2026-11-23|54800|PE 2026-10-30"
+   }
+  ],
+  "n_nc": 48,
+  "over_cap_events": 136,
+  "deduped_vs_v21_or_sr": 70,
+  "cap_blocked": [
+   {
+    "date": "2026-01-13",
+    "pattern_time": "15:00",
+    "direction": "PE",
+    "entry_time": "15:05",
+    "realised_at_pattern": -3440.0
+   },
+   {
+    "date": "2026-01-14",
+    "pattern_time": "13:15",
+    "direction": "PE",
+    "entry_time": "13:20",
+    "realised_at_pattern": -3440.0
+   },
+   {
+    "date": "2026-01-14",
+    "pattern_time": "13:45",
+    "direction": "CE",
+    "entry_time": "13:50",
+    "realised_at_pattern": -3440.0
+   },
+   {
+    "date": "2026-01-14",
+    "pattern_time": "13:55",
+    "direction": "CE",
+    "entry_time": "14:00",
+    "realised_at_pattern": -3440.0
+   },
+   {
+    "date": "2026-02-02",
+    "pattern_time": "14:35",
+    "direction": "CE",
+    "entry_time": "14:40",
+    "realised_at_pattern": -3440.0
+   },
+   {
+    "date": "2026-02-03",
+    "pattern_time": "13:25",
+    "direction": "CE",
+    "entry_time": "13:30",
+    "realised_at_pattern": -3440.0
+   },
+   {
+    "date": "2026-02-03",
+    "pattern_time": "14:30",
+    "direction": "CE",
+    "entry_time": "14:35",
+    "realised_at_pattern": -3440.0
+   },
+   {
+    "date": "2026-02-23",
+    "pattern_time": "13:15",
+    "direction": "CE",
+    "entry_time": "13:20",
+    "realised_at_pattern": -3440.0
+   },
+   {
+    "date": "2026-03-04",
+    "pattern_time": "13:25",
+    "direction": "PE",
+    "entry_time": "13:30",
+    "realised_at_pattern": -3440.0
+   },
+   {
+    "date": "2026-03-04",
+    "pattern_time": "14:15",
+    "direction": "PE",
+    "entry_time": "14:20",
+    "realised_at_pattern": -3440.0
+   },
+   {
+    "date": "2026-03-18",
+    "pattern_time": "10:55",
+    "direction": "PE",
+    "entry_time": "11:00",
+    "realised_at_pattern": -3440.0
+   },
+   {
+    "date": "2026-03-18",
+    "pattern_time": "13:15",
+    "direction": "PE",
+    "entry_time": "13:20",
+    "realised_at_pattern": -3440.0
+   },
+   {
+    "date": "2026-03-18",
+    "pattern_time": "14:05",
+    "direction": "CE",
+    "entry_time": "14:10",
+    "realised_at_pattern": -3440.0
+   },
+   {
+    "date": "2026-03-18",
+    "pattern_time": "14:35",
+    "direction": "CE",
+    "entry_time": "14:40",
+    "realised_at_pattern": -3440.0
+   },
+   {
+    "date": "2026-03-24",
+    "pattern_time": "12:25",
+    "direction": "PE",
+    "entry_time": "12:30",
+    "realised_at_pattern": -5160.0
+   },
+   {
+    "date": "2026-03-24",
+    "pattern_time": "12:40",
+    "direction": "PE",
+    "entry_time": "12:45",
+    "realised_at_pattern": -5160.0
+   },
+   {
+    "date": "2026-03-24",
+    "pattern_time": "14:20",
+    "direction": "CE",
+    "entry_time": "14:25",
+    "realised_at_pattern": -5160.0
+   },
+   {
+    "date": "2026-03-30",
+    "pattern_time": "11:45",
+    "direction": "CE",
+    "entry_time": "11:50",
+    "realised_at_pattern": -3440.0
+   },
+   {
+    "date": "2026-03-30",
+    "pattern_time": "12:20",
+    "direction": "PE",
+    "entry_time": "12:25",
+    "realised_at_pattern": -3440.0
+   },
+   {
+    "date": "2026-04-02",
+    "pattern_time": "12:05",
+    "direction": "CE",
+    "entry_time": "12:10",
+    "realised_at_pattern": -3440.0
+   },
+   {
+    "date": "2026-04-02",
+    "pattern_time": "12:20",
+    "direction": "CE",
+    "entry_time": "12:25",
+    "realised_at_pattern": -3440.0
+   },
+   {
+    "date": "2026-04-02",
+    "pattern_time": "13:05",
+    "direction": "CE",
+    "entry_time": "13:10",
+    "realised_at_pattern": -3440.0
+   },
+   {
+    "date": "2026-04-09",
+    "pattern_time": "13:45",
+    "direction": "CE",
+    "entry_time": "13:50",
+    "realised_at_pattern": -5160.0
+   },
+   {
+    "date": "2026-04-09",
+    "pattern_time": "15:00",
+    "direction": "PE",
+    "entry_time": "15:05",
+    "realised_at_pattern": -5160.0
+   },
+   {
+    "date": "2026-04-16",
+    "pattern_time": "13:10",
+    "direction": "CE",
+    "entry_time": "13:15",
+    "realised_at_pattern": -3440.0
+   },
+   {
+    "date": "2026-05-18",
+    "pattern_time": "12:35",
+    "direction": "PE",
+    "entry_time": "12:40",
+    "realised_at_pattern": -3440.0
+   },
+   {
+    "date": "2026-05-18",
+    "pattern_time": "13:55",
+    "direction": "PE",
+    "entry_time": "14:00",
+    "realised_at_pattern": -3440.0
+   },
+   {
+    "date": "2026-05-21",
+    "pattern_time": "12:15",
+    "direction": "CE",
+    "entry_time": "12:20",
+    "realised_at_pattern": -3440.0
+   },
+   {
+    "date": "2026-06-04",
+    "pattern_time": "13:05",
+    "direction": "CE",
+    "entry_time": "13:10",
+    "realised_at_pattern": -3440.0
+   },
+   {
+    "date": "2026-06-09",
+    "pattern_time": "13:00",
+    "direction": "PE",
+    "entry_time": "13:05",
+    "realised_at_pattern": -3440.0
+   },
+   {
+    "date": "2026-06-09",
+    "pattern_time": "14:20",
+    "direction": "CE",
+    "entry_time": "14:25",
+    "realised_at_pattern": -3440.0
+   },
+   {
+    "date": "2026-07-03",
+    "pattern_time": "12:25",
+    "direction": "CE",
+    "entry_time": "12:30",
+    "realised_at_pattern": -3440.0
+   },
+   {
+    "date": "2026-07-07",
+    "pattern_time": "14:55",
+    "direction": "PE",
+    "entry_time": "15:00",
+    "realised_at_pattern": -3440.0
+   },
+   {
+    "date": "2026-07-08",
+    "pattern_time": "11:25",
+    "direction": "PE",
+    "entry_time": "11:30",
+    "realised_at_pattern": -3440.0
+   },
+   {
+    "date": "2026-08-07",
+    "pattern_time": "13:50",
+    "direction": "PE",
+    "entry_time": "13:55",
+    "realised_at_pattern": -3440.0
+   },
+   {
+    "date": "2026-09-30",
+    "pattern_time": "13:30",
+    "direction": "PE",
+    "entry_time": "13:35",
+    "realised_at_pattern": -3440.0
+   }
+  ],
+  "n_cap_blocked": 36
+ },
+ "anatomy": {
+  "A": {
+   "ORH": {
+    "legs": 9,
+    "total": -9798.0
+   },
+   "ORL": {
+    "legs": 14,
+    "total": 12104.5
+   },
+   "PDC": {
+    "legs": 4,
+    "total": -6880.0
+   },
+   "PDH": {
+    "legs": 2,
+    "total": -3440.0
+   },
+   "PDL": {
+    "legs": 6,
+    "total": -1920.0
+   },
+   "SWH": {
+    "legs": 124,
+    "total": -52961.5
+   },
+   "SWL": {
+    "legs": 131,
+    "total": -51063.5
+   }
+  },
+  "B": {
+   "ORH": {
+    "legs": 7,
+    "total": -6358.0
+   },
+   "ORL": {
+    "legs": 13,
+    "total": 9624.5
+   },
+   "PDC": {
+    "legs": 4,
+    "total": -6880.0
+   },
+   "PDH": {
+    "legs": 2,
+    "total": -3440.0
+   },
+   "PDL": {
+    "legs": 6,
+    "total": -1920.0
+   },
+   "SWH": {
+    "legs": 121,
+    "total": -52001.5
+   },
+   "SWL": {
+    "legs": 126,
+    "total": -59263.5
+   }
+  }
+ },
+ "timing_audit": "PASS (level usable_time <= pattern bar for every event; entry = next bar; entry premium == store open; exits within [entry, 15:10]; detection v2 reproduces v1 event-for-event)",
+ "independent_resum": {
+  "passed": true,
+  "combined": -36588.0,
+  "v21": 83650.5,
+  "increment": -120238.5
+ },
+ "verdict": "REJECTED",
+ "verdict_checks": {
+  "increment_positive": false,
+  "halves_ok": false,
+  "ex_top3_positive": false,
+  "beats_flipped": false,
+  "beats_shifted": false,
+  "beats_random": false
+ }
+}

@@ -1,0 +1,143 @@
+{
+ "baseline": {
+  "net": 18731.5,
+  "n": 89,
+  "H1": 32497.0,
+  "H2": -13765.5,
+  "ex_top3": 11291.5,
+  "months": {
+   "2026-01": -1920.0,
+   "2026-02": 15377.0,
+   "2026-03": 9720.0,
+   "2026-04": 2080.0,
+   "2026-05": 7240.0,
+   "2026-06": -9560.0,
+   "2026-07": -8800.0,
+   "2026-08": -7301.0,
+   "2026-09": -2024.5,
+   "2026-10": 13920.0
+  },
+  "flips": [],
+  "quick_or": 14,
+  "FT": 39
+ },
+ "candidates": {
+  "EVE-01_skip_OR_entry_before_1000": {
+   "skipped_n": 35,
+   "skipped_net": -5600.0,
+   "skipped_quick": 10,
+   "stats": {
+    "net": 24331.5,
+    "n": 54,
+    "H1": 19737.0,
+    "H2": 4594.5,
+    "ex_top3": 16891.5,
+    "months": {
+     "2026-01": -2680.0,
+     "2026-02": 13857.0,
+     "2026-03": 2280.0,
+     "2026-04": 2280.0,
+     "2026-05": 4000.0,
+     "2026-06": -2680.0,
+     "2026-07": -200.0,
+     "2026-08": -2901.0,
+     "2026-09": -2784.5,
+     "2026-10": 13160.0
+    },
+    "flips": [],
+    "quick_or": 4,
+    "FT": 26
+   },
+   "placebo_net": 9535.5,
+   "gates": {
+    "G1_timing": "PASS - skip inputs (entry_time/direction/frozen source list) known at entry; no future bar used; 0 violations",
+    "G2_resum": "PASS - baseline re-summed 89 legs = +18731.50 exact",
+    "G3_net_improvement": true,
+    "G4_placebo_beaten": true,
+    "G5_halves_both_ge0": true,
+    "G6_ex_top3_ge0": true,
+    "G7_no_green_month_flips": true,
+    "G8_quick_stops_fall": true
+   },
+   "verdict": "PASS"
+  },
+  "EVE-02_skip_SkillV3_solo_OR": {
+   "skipped_n": 18,
+   "skipped_net": -1560.0,
+   "skipped_quick": 4,
+   "stats": {
+    "net": 20291.5,
+    "n": 71,
+    "H1": 32897.0,
+    "H2": -12605.5,
+    "ex_top3": 12851.5,
+    "months": {
+     "2026-01": -200.0,
+     "2026-02": 10417.0,
+     "2026-03": 11440.0,
+     "2026-04": 3040.0,
+     "2026-05": 8200.0,
+     "2026-06": -7840.0,
+     "2026-07": -9560.0,
+     "2026-08": -6341.0,
+     "2026-09": -304.5,
+     "2026-10": 11440.0
+    },
+    "flips": [],
+    "quick_or": 10,
+    "FT": 32
+   },
+   "placebo_net": 314.5,
+   "gates": {
+    "G1_timing": "PASS - skip inputs (entry_time/direction/frozen source list) known at entry; no future bar used; 0 violations",
+    "G2_resum": "PASS - baseline re-summed 89 legs = +18731.50 exact",
+    "G3_net_improvement": true,
+    "G4_placebo_beaten": true,
+    "G5_halves_both_ge0": false,
+    "G6_ex_top3_ge0": true,
+    "G7_no_green_month_flips": true,
+    "G8_quick_stops_fall": true
+   },
+   "verdict": "FAIL"
+  },
+  "EVE-03_skip_OR_PE_entry_before_1000": {
+   "skipped_n": 27,
+   "skipped_net": -8640.0,
+   "skipped_quick": 8,
+   "stats": {
+    "net": 27371.5,
+    "n": 62,
+    "H1": 25457.0,
+    "H2": 1914.5,
+    "ex_top3": 19931.5,
+    "months": {
+     "2026-01": -200.0,
+     "2026-02": 16337.0,
+     "2026-03": 2280.0,
+     "2026-04": 3040.0,
+     "2026-05": 4000.0,
+     "2026-06": -4400.0,
+     "2026-07": -1920.0,
+     "2026-08": -4621.0,
+     "2026-09": -304.5,
+     "2026-10": 13160.0
+    },
+    "flips": [],
+    "quick_or": 6,
+    "FT": 30
+   },
+   "placebo_net": 7394.5,
+   "gates": {
+    "G1_timing": "PASS - skip inputs (entry_time/direction/frozen source list) known at entry; no future bar used; 0 violations",
+    "G2_resum": "PASS - baseline re-summed 89 legs = +18731.50 exact",
+    "G3_net_improvement": true,
+    "G4_placebo_beaten": true,
+    "G5_halves_both_ge0": true,
+    "G6_ex_top3_ge0": true,
+    "G7_no_green_month_flips": true,
+    "G8_quick_stops_fall": true
+   },
+   "verdict": "PASS"
+  }
+ }
+}

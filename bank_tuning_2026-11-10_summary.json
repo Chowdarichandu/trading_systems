@@ -1,0 +1,425 @@
+{
+ "session": "bank_tuning_2026-11-10",
+ "eve16": {
+  "incumbent": {
+   "label": "v22 incumbent",
+   "n_legs": 90,
+   "n_days": 83,
+   "total": 91450.5,
+   "per_month": 9145.05,
+   "per_leg": 1016.12,
+   "months": {
+    "2026-01": 24468.0,
+    "2026-02": 11520.0,
+    "2026-03": 4340.0,
+    "2026-04": 1630.0,
+    "2026-05": 21120.0,
+    "2026-06": 2280.0,
+    "2026-07": -460.0,
+    "2026-08": 846.5,
+    "2026-09": 10776.5,
+    "2026-10": 14929.5
+   },
+   "H1": 63078.0,
+   "H2": 28372.5,
+   "ex_top3_legs": 64627.5,
+   "ex_top3_days": 64627.5,
+   "worst_day": -1720.0
+  },
+  "combined": {
+   "label": "v22+EVE06a combined",
+   "n_legs": 106,
+   "n_days": 83,
+   "total": 97569.5,
+   "per_month": 9756.95,
+   "per_leg": 920.47,
+   "months": {
+    "2026-01": 24468.0,
+    "2026-02": 11402.0,
+    "2026-03": 8340.0,
+    "2026-04": 2390.0,
+    "2026-05": 21120.0,
+    "2026-06": 560.0,
+    "2026-07": 1524.0,
+    "2026-08": -420.5,
+    "2026-09": 10776.5,
+    "2026-10": 17409.5
+   },
+   "H1": 67720.0,
+   "H2": 29849.5,
+   "ex_top3_legs": 70746.5,
+   "ex_top3_days": 70746.5,
+   "worst_day": -3440.0
+  },
+  "placebo_book": {
+   "label": "v22+shift60 placebo",
+   "n_legs": 105,
+   "n_days": 83,
+   "total": 92533.5,
+   "per_month": 9253.35,
+   "per_leg": 881.27,
+   "months": {
+    "2026-01": 24468.0,
+    "2026-02": 11402.0,
+    "2026-03": 8340.0,
+    "2026-04": 2390.0,
+    "2026-05": 21120.0,
+    "2026-06": 560.0,
+    "2026-07": 688.0,
+    "2026-08": -420.5,
+    "2026-09": 10776.5,
+    "2026-10": 13209.5
+   },
+   "H1": 67720.0,
+   "H2": 24813.5,
+   "ex_top3_legs": 65710.5,
+   "ex_top3_days": 65710.5,
+   "worst_day": -3440.0
+  },
+  "increment": {
+   "label": "EVE06a increment",
+   "n_legs": 16,
+   "n_days": 16,
+   "total": 6119.0,
+   "per_month": 611.9,
+   "per_leg": 382.44,
+   "months": {
+    "2026-01": 0,
+    "2026-02": -118.0,
+    "2026-03": 4000.0,
+    "2026-04": 760.0,
+    "2026-05": 0,
+    "2026-06": -1720.0,
+    "2026-07": 1984.0,
+    "2026-08": -1267.0,
+    "2026-09": 0,
+    "2026-10": 2480.0
+   },
+   "H1": 4642.0,
+   "H2": 1477.0,
+   "ex_top3_legs": -1321.0,
+   "ex_top3_days": -1321.0,
+   "worst_day": -1720.0
+  },
+  "increment_ex_top3_legs": -1321.0,
+  "cross_validation": {
+   "p2_nonsleeve_rows": 106,
+   "p2_nonsleeve_net": 97569.5,
+   "matches_combined": true
+  },
+  "bleed_incumbent": {
+   "worst_day": [
+    "2026-02-02",
+    -1720.0
+   ],
+   "worst_3day": -5160.0,
+   "worst_drawdown": -9780.0,
+   "pos_days": 47
+  },
+  "bleed_combined": {
+   "worst_day": [
+    "2026-03-05",
+    -3440.0
+   ],
+   "worst_3day": -5160.0,
+   "worst_drawdown": -9701.0,
+   "pos_days": 52
+  },
+  "timing_violations": [],
+  "green_to_red_flips": [
+   "2026-08"
+  ],
+  "gate": {
+   "G1_timing_0_violations": true,
+   "G2_placebo_beaten": true,
+   "G3_net_beats_incumbent": true,
+   "G5_halves_both_nonneg": true,
+   "G6_ex_top3_legs_positive": true,
+   "G7_no_green_month_flips_red": false
+  },
+  "verdict": "FAIL"
+ },
+ "eve17": {
+  "incumbent_rebuilt": {
+   "label": "v22 incumbent (rebuilt)",
+   "n_legs": 90,
+   "n_days": 83,
+   "total": 91450.5,
+   "per_month": 9145.05,
+   "per_leg": 1016.12,
+   "months": {
+    "2026-01": 24468.0,
+    "2026-02": 11520.0,
+    "2026-03": 4340.0,
+    "2026-04": 1630.0,
+    "2026-05": 21120.0,
+    "2026-06": 2280.0,
+    "2026-07": -460.0,
+    "2026-08": 846.5,
+    "2026-09": 10776.5,
+    "2026-10": 14929.5
+   },
+   "H1": 63078.0,
+   "H2": 28372.5,
+   "ex_top3_legs": 64627.5,
+   "ex_top3_days": 64627.5,
+   "worst_day": -1720.0
+  },
+  "variant": {
+   "label": "EVE-17 variant",
+   "n_legs": 90,
+   "n_days": 83,
+   "total": 91344.0,
+   "per_month": 9134.4,
+   "per_leg": 1014.93,
+   "months": {
+    "2026-01": 24468.0,
+    "2026-02": 11520.0,
+    "2026-03": 4340.0,
+    "2026-04": 1523.5,
+    "2026-05": 21120.0,
+    "2026-06": 2280.0,
+    "2026-07": -460.0,
+    "2026-08": 846.5,
+    "2026-09": 10776.5,
+    "2026-10": 14929.5
+   },
+   "H1": 62971.5,
+   "H2": 28372.5,
+   "ex_top3_legs": 64521.0,
+   "ex_top3_days": 64521.0,
+   "worst_day": -1826.5
+  },
+  "placebo_p1": {
+   "label": "EVE-17 placebo P1 (non-OR non-NS1 window)",
+   "n_legs": 90,
+   "n_days": 83,
+   "total": 90573.0,
+   "per_month": 9057.3,
+   "per_leg": 1006.37,
+   "months": {
+    "2026-01": 24468.0,
+    "2026-02": 9946.5,
+    "2026-03": 7520.0,
+    "2026-04": 1630.0,
+    "2026-05": 18958.5,
+    "2026-06": 2280.0,
+    "2026-07": -694.0,
+    "2026-08": 780.5,
+    "2026-09": 10776.5,
+    "2026-10": 14907.0
+   },
+   "H1": 62523.0,
+   "H2": 28050.0,
+   "ex_top3_legs": 63750.0,
+   "ex_top3_days": 63750.0,
+   "worst_day": -3881.5
+  },
+  "placebo_p2": {
+   "label": "EVE-17 placebo P2 (level -70)",
+   "n_legs": 90,
+   "n_days": 83,
+   "total": 90835.5,
+   "per_month": 9083.55,
+   "per_leg": 1009.28,
+   "months": {
+    "2026-01": 24468.0,
+    "2026-02": 11520.0,
+    "2026-03": 4340.0,
+    "2026-04": 1015.0,
+    "2026-05": 21120.0,
+    "2026-06": 2280.0,
+    "2026-07": -460.0,
+    "2026-08": 846.5,
+    "2026-09": 10776.5,
+    "2026-10": 14929.5
+   },
+   "H1": 62463.0,
+   "H2": 28372.5,
+   "ex_top3_legs": 64012.5,
+   "ex_top3_days": 64012.5,
+   "worst_day": -2335.0
+  },
+  "flaw": {
+   "scope_legs": 13,
+   "quick_stops_incumbent": 1,
+   "quick_stop_cohort": [
+    {
+     "date": "2026-04-02",
+     "direction": "PE",
+     "entry_time": "10:50",
+     "exit_time": "10:55",
+     "net": -1720.0
+    }
+   ],
+   "cohort_net_incumbent": -1720.0,
+   "cohort_net_variant": -1826.5,
+   "variant_closestop_exits": 1,
+   "changed_legs": [
+    {
+     "date": "2026-04-02",
+     "direction": "PE",
+     "entry_time": "10:50",
+     "family": "BASE",
+     "old_reason": "stop",
+     "new_reason": "closestop_win",
+     "old_exit_time": "10:55",
+     "new_exit_time": "10:55",
+     "old_net": -1720.0,
+     "new_net": -1826.5,
+     "delta": -106.5
+    }
+   ]
+  },
+  "placebo_p1_changed": [
+   {
+    "date": "2026-02-02",
+    "direction": "PE",
+    "entry_time": "09:45",
+    "family": "BASE",
+    "old_reason": "stop",
+    "new_reason": "closestop_win",
+    "old_exit_time": "09:45",
+    "new_exit_time": "09:50",
+    "old_net": -1720.0,
+    "new_net": -3293.5,
+    "delta": -1573.5
+   },
+   {
+    "date": "2026-03-16",
+    "direction": "CE",
+    "entry_time": "09:20",
+    "family": "BASE",
+    "old_reason": "stop",
+    "new_reason": "runner_stop",
+    "old_exit_time": "09:20",
+    "new_exit_time": "09:35",
+    "old_net": -1720.0,
+    "new_net": 2480.0,
+    "delta": 4200.0
+   },
+   {
+    "date": "2026-03-20",
+    "direction": "CE",
+    "entry_time": "09:35",
+    "family": "NS3_gapclass",
+    "old_reason": "stop",
+    "new_reason": "closestop_win",
+    "old_exit_time": "09:40",
+    "new_exit_time": "09:40",
+    "old_net": -1720.0,
+    "new_net": -2740.0,
+    "delta": -1020.0
+   },
+   {
+    "date": "2026-05-14",
+    "direction": "PE",
+    "entry_time": "11:00",
+    "family": "BASE",
+    "old_reason": "stop",
+    "new_reason": "closestop_win",
+    "old_exit_time": "11:10",
+    "new_exit_time": "11:10",
+    "old_net": -1720.0,
+    "new_net": -3881.5,
+    "delta": -2161.5
+   },
+   {
+    "date": "2026-07-08",
+    "direction": "PE",
+    "entry_time": "09:35",
+    "family": "NS3_gapclass",
+    "old_reason": "stop",
+    "new_reason": "closestop_win",
+    "old_exit_time": "09:45",
+    "new_exit_time": "09:45",
+    "old_net": -1720.0,
+    "new_net": -1954.0,
+    "delta": -234.0
+   },
+   {
+    "date": "2026-08-25",
+    "direction": "CE",
+    "entry_time": "09:35",
+    "family": "BASE",
+    "old_reason": "stop",
+    "new_reason": "closestop_win",
+    "old_exit_time": "09:40",
+    "new_exit_time": "09:45",
+    "old_net": -1720.0,
+    "new_net": -1786.0,
+    "delta": -66.0
+   },
+   {
+    "date": "2026-10-07",
+    "direction": "PE",
+    "entry_time": "09:40",
+    "family": "BASE",
+    "old_reason": "stop",
+    "new_reason": "closestop_win",
+    "old_exit_time": "09:40",
+    "new_exit_time": "09:45",
+    "old_net": -1720.0,
+    "new_net": -1742.5,
+    "delta": -22.5
+   }
+  ],
+  "placebo_p2_changed": [
+   {
+    "date": "2026-04-02",
+    "direction": "PE",
+    "entry_time": "10:50",
+    "family": "BASE",
+    "old_reason": "stop",
+    "new_reason": "closestop_win",
+    "old_exit_time": "10:55",
+    "new_exit_time": "11:00",
+    "old_net": -1720.0,
+    "new_net": -2335.0,
+    "delta": -615.0
+   }
+  ],
+  "timing_violations": [],
+  "crosscheck_nc": [
+   [
+    "2026-08-27",
+    "PE",
+    "10:45"
+   ]
+  ],
+  "green_to_red_flips": [],
+  "gate": {
+   "G1_timing_fill_audit_clean": true,
+   "G2_placebos_beaten": true,
+   "G3_net_beats_incumbent": false,
+   "G5_halves_both_nonneg": true,
+   "G6_ex_top3_legs_positive": true,
+   "G7_no_green_month_flips_red": true,
+   "G8_flaw_cohort_improves": false,
+   "crosscheck_nc_legs_named_not_estimated": [
+    [
+     "2026-08-27",
+     "PE",
+     "10:45"
+    ]
+   ],
+   "note": "Timing/fill audit clean (0 violations). One cross-check NC: 2026-08-27 PE 10:45 \u2014 the prem store disagrees with the frozen r6 record for this leg; scoring used the aggressive candle store, which reproduces the frozen record for all 99 v21 legs including this one. The leg is unchanged by the variant."
+  },
+  "verdict": "FAIL",
+  "independent_resum": {
+   "n": 90,
+   "net": 91344.0,
+   "matches": true
+  }
+ },
+ "eve16_verdict": "FAIL",
+ "eve17_verdict": "FAIL",
+ "candidate3": {
+  "decision": "NOT RUN \u2014 stopped at 2 candidates per the session remit",
+  "reason": "v22-frame Jan-Oct population for RSI-BANK-007 is exactly 1 leg; the two natural widenings were already measured inside the EVE-17 run as placebos and both lost (scope-widening P1 -877.50; level-widening P2 -615.00); any further variant in this family would be fitted to a single leg."
+ },
+ "promotion": {
+  "decision": "NONE \u2014 no candidate passed the full gate",
+  "detail": "Bank TUNED SHADOW BOOK stays v3 (primary frame, live since 2026-11-06); SHADOW v22 continues unchanged. EVE-16's combined book stays a documented December candidate with a recorded gate FAIL (month integrity); adopting it would require an owner waiver at the 2026-11-30 December decision."
+ }
+}

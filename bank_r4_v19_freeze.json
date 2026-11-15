@@ -1,0 +1,152 @@
+{
+ "label": "Cycle 102 RE-FREEZE v19 = v17+NS3(GD+GU)@T90L65G175+S3A+S3E",
+ "controls": {
+  "n": 106,
+  "net": 133898.0,
+  "ft_pct": 52.8,
+  "ft90_pct": 53.8,
+  "per_week": 2.61,
+  "per_week_raw": 2.6108,
+  "not_computed": 0,
+  "red_month_ends": [],
+  "month_table": {
+   "2026-01": [
+    30893.0,
+    30893.0
+   ],
+   "2026-02": [
+    26878.0,
+    57771.0
+   ],
+   "2026-03": [
+    20850.0,
+    78621.0
+   ],
+   "2026-04": [
+    5090.0,
+    83711.0
+   ],
+   "2026-05": [
+    22850.0,
+    106561.0
+   ],
+   "2026-06": [
+    -5360.0,
+    101201.0
+   ],
+   "2026-07": [
+    -11400.0,
+    89801.0
+   ],
+   "2026-08": [
+    8806.5,
+    98607.5
+   ],
+   "2026-09": [
+    10681.0,
+    109288.5
+   ],
+   "2026-10": [
+    24609.5,
+    133898.0
+   ]
+  },
+  "months": {
+   "01": 30893.0,
+   "02": 26878.0,
+   "03": 20850.0,
+   "04": 5090.0,
+   "05": 22850.0,
+   "06": -5360.0,
+   "07": -11400.0,
+   "08": 8806.5,
+   "09": 10681.0,
+   "10": 24609.5
+  },
+  "halves": {
+   "jan_may": 106561.0,
+   "jun_oct": 27337.0
+  },
+  "timing_violations": [],
+  "timing_entry_bars_checked": 106,
+  "timing_external_rows": 0,
+  "placebo": {
+   "n": 103,
+   "net": 11211.5,
+   "not_computed": 1
+  },
+  "ex_top3_total": 104858.0,
+  "top3": [
+   [
+    "2026-01-21",
+    "PE",
+    9680.0
+   ],
+   [
+    "2026-01-23",
+    "PE",
+    9680.0
+   ],
+   [
+    "2026-02-19",
+    "PE",
+    9680.0
+   ]
+  ],
+  "independent_resum": {
+   "n": 106,
+   "net": 133898.0
+  },
+  "resum_matches": true
+ },
+ "banked": true,
+ "gate_why": [],
+ "detail": [
+  {
+   "family": "NS3",
+   "candidates": 51,
+   "admitted": 17,
+   "key_dropped": 30,
+   "band_dropped": 4,
+   "nc_legs": 0,
+   "scored_nc": 0,
+   "net": 21208.0,
+   "ft90_legs": 9
+  },
+  {
+   "family": "S3A",
+   "candidates": 15,
+   "admitted": 6,
+   "key_dropped": 6,
+   "band_dropped": 3,
+   "nc_legs": 0,
+   "scored_nc": 0,
+   "net": 2280.0,
+   "ft90_legs": 3
+  },
+  {
+   "family": "S3E",
+   "candidates": 4,
+   "admitted": 1,
+   "key_dropped": 3,
+   "band_dropped": 0,
+   "nc_legs": 0,
+   "scored_nc": 0,
+   "net": 2480.0,
+   "ft90_legs": 1
+  },
+  {
+   "family": "S3D",
+   "candidates": 7,
+   "admitted": 0,
+   "key_dropped": 7,
+   "band_dropped": 0,
+   "nc_legs": 0,
+   "scored_nc": 0,
+   "net": 0,
+   "ft90_legs": 0
+  }
+ ],
+ "ft90_legs": 57,
+ "ft90_needed": 57
+}

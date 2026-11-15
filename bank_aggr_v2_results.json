@@ -1,0 +1,58 @@
+{
+ "cid": "v2",
+ "title": "F2 variant \u2014 BE-arm at +50 with the armed stop at entry+10",
+ "banked": false,
+ "fails": [
+  "total 55475.0 !> base 123471.5",
+  "ex-top3 legs 37125.5 vs base 96648.5",
+  "ex-top3 days 36445.5 vs base 96648.5",
+  "month 2026-07 flips green->red (4224.0 -> -1176.0)",
+  "month 2026-08 flips green->red (2059.5 -> -2067.0)"
+ ],
+ "battery": {
+  "n_legs": 115,
+  "n_days": 92,
+  "total": 55475.0,
+  "per_month": 5547.5,
+  "per_leg": 482.39,
+  "legs_per_month": 11.5,
+  "legs_per_week": 2.83,
+  "months": {
+   "2026-01": 13540.0,
+   "2026-02": 3382.0,
+   "2026-03": 5040.0,
+   "2026-04": 1120.0,
+   "2026-05": 8600.0,
+   "2026-06": 40.0,
+   "2026-07": -1176.0,
+   "2026-08": -2067.0,
+   "2026-09": 13856.5,
+   "2026-10": 13139.5
+  },
+  "H1": 31682.0,
+  "H2": 23793.0,
+  "ex_top3_legs": 37125.5,
+  "top3_legs": [
+   9680.0,
+   4389.5,
+   4280.0
+  ],
+  "ex_top3_days": 36445.5,
+  "top3_days": [
+   9680.0,
+   4960.0,
+   4389.5
+  ],
+  "worst_day": {
+   "date": "2026-04-16",
+   "net": -3440.0
+  },
+  "worst_drawdown": -7601.0,
+  "pct_positive_days": 72.8
+ },
+ "base_total": 123471.5,
+ "placebo_total": 9903.0,
+ "delta": -67996.5,
+ "november": "Not wired \u2014 the running November v22 shadow keeps the frozen v22 exits; if the owner adopted this candidate, shadow exits on legs it takes would change. Nothing is wired into November.",
+ "extra": {}
+}

@@ -1,0 +1,9 @@
+C158 STRIKE ITM-100 BLANKET: fetch still-missing: []
+C158 STRIKE ITM-100 BLANKET: net=+74,170.00 n=101 FT90=49.5 freq=2.4877 placebo=-9,024.00 ex_top3=+45,130.00 nc=0/0 banked=False why=['net 74170.0 !> ref 83650.5']
+Traceback (most recent call last):
+  File "/home/hatch/workspace/trading/bank_r7_ws4.py", line 75, in <module>
+    run_cell("C158 STRIKE ITM-100 BLANKET", False, ref, pooled, ns1)
+  File "/home/hatch/workspace/trading/bank_r7_ws4.py", line 65, in run_cell
+    print(f"   NC accounting: pooled/ns1 nc={r['nc']} addon nc={nc_detail} "
+                                             ~^^^^^^
+KeyError: 'nc'

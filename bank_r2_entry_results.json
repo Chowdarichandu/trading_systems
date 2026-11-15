@@ -1,0 +1,72 @@
+{
+ "r2c34_cutoff1130": {
+  "n": 80,
+  "net": 104857.0,
+  "ft_pct": 52.5,
+  "ft90_pct": 53.8,
+  "per_week_raw": 1.9704,
+  "halves": {
+   "jan_may": 87300.0,
+   "jun_oct": 17557.0
+  },
+  "months": {
+   "01": 28080.0,
+   "02": 21640.0,
+   "03": 15880.0,
+   "04": 6360.0,
+   "05": 15340.0,
+   "06": -4400.0,
+   "07": -13000.0,
+   "08": 8499.0,
+   "09": 2487.5,
+   "10": 23970.5
+  },
+  "ex_top3_total": 75817.0,
+  "not_computed": 0,
+  "gate_pass": false,
+  "gate_failed_legs": [
+   "net 104857.0 !> ref 105167.0",
+   "frequency 1.9704/wk < 2.0"
+  ],
+  "placebo_net": 16000.7
+ },
+ "r2c35_cutoff1230": {
+  "n": 80,
+  "net": 104857.0,
+  "ft_pct": 52.5,
+  "ft90_pct": 53.8,
+  "per_week_raw": 1.9704,
+  "halves": {
+   "jan_may": 87300.0,
+   "jun_oct": 17557.0
+  },
+  "months": {
+   "01": 28080.0,
+   "02": 21640.0,
+   "03": 15880.0,
+   "04": 6360.0,
+   "05": 15340.0,
+   "06": -4400.0,
+   "07": -13000.0,
+   "08": 8499.0,
+   "09": 2487.5,
+   "10": 23970.5
+  },
+  "ex_top3_total": 75817.0,
+  "not_computed": 0,
+  "gate_pass": false,
+  "gate_failed_legs": [
+   "net 104857.0 !> ref 105167.0",
+   "frequency 1.9704/wk < 2.0"
+  ],
+  "placebo_net": 20200.7
+ },
+ "r2c36_bias_40_85": {
+  "removal_set_new": [],
+  "verdict": "book identical to v15 by construction"
+ },
+ "r2c36_bias_30_75": {
+  "removal_set_new": [],
+  "verdict": "book identical to v15 by construction"
+ }
+}

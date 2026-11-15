@@ -1,0 +1,211 @@
+{
+ "candidate": "BANK-EVE-21 \u2014 NS1 lock floor entry-20 (arm +30 unchanged), on v3's NS1 treatment (EVE-09 skip kept)",
+ "verifications": {
+  "v21_reproduction": {
+   "n": 99,
+   "net": 83650.5,
+   "mismatches": 0
+  },
+  "nolock_replay_total": 83650.5,
+  "eve04_scope_total": 87370.5
+ },
+ "incumbent_frame": {
+  "label": "incumbent frame: v21 + EVE-09 skip + EVE-04 lock (floor 0)",
+  "n": 96,
+  "net": 89530.5,
+  "halves": {
+   "H1": 66318.0,
+   "H2": 23212.5
+  },
+  "months": {
+   "2026-01": 22748.0,
+   "2026-02": 21420.0,
+   "2026-03": 2840.0,
+   "2026-04": 1630.0,
+   "2026-05": 17680.0,
+   "2026-06": 560.0,
+   "2026-07": -2180.0,
+   "2026-08": -873.5,
+   "2026-09": 10776.5,
+   "2026-10": 14929.5
+  },
+  "ex_top3": 60490.5,
+  "top3": [
+   [
+    "2026-01-21",
+    9680.0
+   ],
+   [
+    "2026-02-19",
+    9680.0
+   ],
+   [
+    "2026-02-20",
+    9680.0
+   ]
+  ]
+ },
+ "candidate_frame": {
+  "label": "BANK-EVE-21: NS1 lock floor entry-20 (arm +30)",
+  "n": 96,
+  "net": 89710.5,
+  "halves": {
+   "H1": 67098.0,
+   "H2": 22612.5
+  },
+  "months": {
+   "2026-01": 22748.0,
+   "2026-02": 22200.0,
+   "2026-03": 2840.0,
+   "2026-04": 1630.0,
+   "2026-05": 17680.0,
+   "2026-06": 560.0,
+   "2026-07": -2780.0,
+   "2026-08": -873.5,
+   "2026-09": 10776.5,
+   "2026-10": 14929.5
+  },
+  "ex_top3": 60670.5,
+  "top3": [
+   [
+    "2026-01-21",
+    9680.0
+   ],
+   [
+    "2026-02-19",
+    9680.0
+   ],
+   [
+    "2026-02-20",
+    9680.0
+   ]
+  ]
+ },
+ "placebo_mirror_base_lock": {
+  "label": "placebo mirror: floor-0 lock on BASE legs, NS1 raw (EVE-09 skip kept)",
+  "n": 96,
+  "net": 51384.0,
+  "halves": {
+   "H1": 36948.0,
+   "H2": 14436.0
+  },
+  "months": {
+   "2026-01": 22748.0,
+   "2026-02": 8400.0,
+   "2026-03": 1940.0,
+   "2026-04": -1820.0,
+   "2026-05": 5680.0,
+   "2026-06": 860.0,
+   "2026-07": -4580.0,
+   "2026-08": -1400.0,
+   "2026-09": 12276.5,
+   "2026-10": 7279.5
+  },
+  "ex_top3": 24561.0,
+  "top3": [
+   [
+    "2026-01-21",
+    9680.0
+   ],
+   [
+    "2026-02-19",
+    9680.0
+   ],
+   [
+    "2026-01-20",
+    7463.0
+   ]
+  ]
+ },
+ "placebo_shifted_arm60": {
+  "label": "placebo shifted-arm: NS1 lock floor -20, arm +60",
+  "n": 96,
+  "net": 89710.5,
+  "halves": {
+   "H1": 67098.0,
+   "H2": 22612.5
+  },
+  "months": {
+   "2026-01": 22748.0,
+   "2026-02": 22200.0,
+   "2026-03": 2840.0,
+   "2026-04": 1630.0,
+   "2026-05": 17680.0,
+   "2026-06": 560.0,
+   "2026-07": -2780.0,
+   "2026-08": -873.5,
+   "2026-09": 10776.5,
+   "2026-10": 14929.5
+  },
+  "ex_top3": 60670.5,
+  "top3": [
+   [
+    "2026-01-21",
+    9680.0
+   ],
+   [
+    "2026-02-19",
+    9680.0
+   ],
+   [
+    "2026-02-20",
+    9680.0
+   ]
+  ]
+ },
+ "green_flips": [],
+ "flaw_cohort_changed_legs": [
+  {
+   "date": "2026-02-05",
+   "entry_time": "10:30",
+   "frozen": 560.0,
+   "incumbent_lock0": -220.0,
+   "candidate_lock_m20": 560.0,
+   "inc_reason": "lock_stop",
+   "cand_reason": "square_off"
+  },
+  {
+   "date": "2026-07-02",
+   "entry_time": "11:10",
+   "frozen": -1720.0,
+   "incumbent_lock0": -220.0,
+   "candidate_lock_m20": -820.0,
+   "inc_reason": "lock_stop",
+   "cand_reason": "lock_stop"
+  }
+ ],
+ "timing_audit": "lock input is completed-bar highs at/after entry; skip input is entry_time \u2014 0 violations by construction",
+ "november_counterfactual_2026-11-12": {
+  "frozen (legacy)": {
+   "net": 2480.0,
+   "exit_reason": "target",
+   "exit_time": "13:05",
+   "ft": 1,
+   "ft90": 1,
+   "entry": 710.0,
+   "exit": 800.0
+  },
+  "EVE-04 floor 0 (tuned v3 derivation)": {
+   "net": -220.0,
+   "exit_reason": "lock_stop",
+   "exit_time": "12:55",
+   "ft": 0,
+   "ft90": 0,
+   "entry": 710.0,
+   "exit": 710.0
+  },
+  "EVE-21 floor -20 (candidate)": {
+   "net": 2480.0,
+   "exit_reason": "target",
+   "exit_time": "13:05",
+   "ft": 1,
+   "ft90": 1,
+   "entry": 710.0,
+   "exit": 800.0
+  }
+ },
+ "verdict": "FAIL",
+ "failed_legs": [
+  "placebo-shifted-arm"
+ ]
+}

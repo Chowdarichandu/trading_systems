@@ -1,0 +1,864 @@
+{
+ "cid": "c1d",
+ "title": "F1d entry expansion \u2014 premium-band [400,550) dropped pool legs",
+ "banked": false,
+ "fails": [
+  "total 91839.5 !> base 97569.5",
+  "placebo not beaten: cand 91839.5 vs placebo 95354.0",
+  "ex-top3 legs 65016.5 vs base 70746.5",
+  "ex-top3 days 65016.5 vs base 70746.5",
+  "month 2026-07 flips green->red (1524.0 -> -416.0)"
+ ],
+ "battery": {
+  "n_legs": 124,
+  "n_days": 99,
+  "total": 91839.5,
+  "per_month": 9183.95,
+  "per_leg": 740.64,
+  "legs_per_month": 12.4,
+  "legs_per_week": 3.05,
+  "months": {
+   "2026-01": 19308.0,
+   "2026-02": 15824.0,
+   "2026-03": 8340.0,
+   "2026-04": 4870.0,
+   "2026-05": 21120.0,
+   "2026-06": 1320.0,
+   "2026-07": -416.0,
+   "2026-08": -2140.5,
+   "2026-09": 5444.5,
+   "2026-10": 18169.5
+  },
+  "H1": 69462.0,
+  "H2": 22377.5,
+  "ex_top3_legs": 65016.5,
+  "top3_legs": [
+   9680.0,
+   9680.0,
+   7463.0
+  ],
+  "ex_top3_days": 65016.5,
+  "top3_days": [
+   9680.0,
+   9680.0,
+   7463.0
+  ],
+  "worst_day": {
+   "date": "2026-03-05",
+   "net": -3440.0
+  },
+  "worst_drawdown": -10483.0,
+  "pct_positive_days": 57.6
+ },
+ "base_total": 97569.5,
+ "placebo_total": 95354.0,
+ "delta": -5730.0,
+ "november": "No \u2014 the running November v22 shadow runs the frozen v22 spec; this mechanism is outside that spec. Nothing is wired into November.",
+ "extra": {
+  "admitted": [
+   [
+    {
+     "date": "2026-01-08",
+     "index": "BANKNIFTY",
+     "direction": "PE",
+     "entry_time": "11:25",
+     "strike": 59700,
+     "expiry": "2026-01-27",
+     "lot": 30,
+     "rep": "(lA) v2",
+     "sources": "(lA) v2",
+     "family": "BASE",
+     "_signal": "11:20",
+     "_systems": [
+      "(lA) v2"
+     ]
+    },
+    {
+     "stop": 50.0,
+     "trig": 90.0,
+     "lock": 90.0,
+     "tgt2": 180.0
+    },
+    {
+     "date": "2026-01-08",
+     "direction": "PE",
+     "family": "BASE",
+     "rep": "(lA) v2",
+     "entry_time": "11:25",
+     "entry_premium": 477.05,
+     "exit_time": "14:15",
+     "exit_premium": 427.05,
+     "exit_reason": "stop",
+     "net": -1720.0,
+     "leg_key": [
+      "2026-01-08",
+      "PE",
+      "11:25"
+     ],
+     "dev30": true,
+     "maxfav": 67.94999999999999,
+     "src": "addon"
+    }
+   ],
+   [
+    {
+     "date": "2026-01-09",
+     "index": "BANKNIFTY",
+     "direction": "PE",
+     "entry_time": "09:35",
+     "strike": 59500,
+     "expiry": "2026-01-27",
+     "lot": 30,
+     "rep": "(lA) v2",
+     "sources": "(lA) v2",
+     "family": "BASE",
+     "_signal": "09:30",
+     "_systems": [
+      "(lA) v2",
+      "Skill V3",
+      "V5 v2"
+     ]
+    },
+    {
+     "stop": 50.0,
+     "trig": 90.0,
+     "lock": 90.0,
+     "tgt2": 180.0
+    },
+    {
+     "date": "2026-01-09",
+     "direction": "PE",
+     "family": "BASE",
+     "rep": "(lA) v2",
+     "entry_time": "09:35",
+     "entry_premium": 440.25,
+     "exit_time": "10:00",
+     "exit_premium": 390.25,
+     "exit_reason": "stop",
+     "net": -1720.0,
+     "leg_key": [
+      "2026-01-09",
+      "PE",
+      "09:35"
+     ],
+     "dev30": false,
+     "maxfav": 18.600000000000023,
+     "src": "addon"
+    }
+   ],
+   [
+    {
+     "date": "2026-01-12",
+     "index": "BANKNIFTY",
+     "direction": "PE",
+     "entry_time": "11:20",
+     "strike": 59000,
+     "expiry": "2026-01-27",
+     "lot": 30,
+     "rep": "(lA) v2",
+     "sources": "(lA) v2",
+     "family": "BASE",
+     "_signal": "11:15",
+     "_systems": [
+      "(lA) v2",
+      "Skill V3",
+      "V5 v2"
+     ]
+    },
+    {
+     "stop": 50.0,
+     "trig": 90.0,
+     "lock": 90.0,
+     "tgt2": 180.0
+    },
+    {
+     "date": "2026-01-12",
+     "direction": "PE",
+     "family": "BASE",
+     "rep": "(lA) v2",
+     "entry_time": "11:20",
+     "entry_premium": 440.0,
+     "exit_time": "12:15",
+     "exit_premium": 390.0,
+     "exit_reason": "stop",
+     "net": -1720.0,
+     "leg_key": [
+      "2026-01-12",
+      "PE",
+      "11:20"
+     ],
+     "dev30": true,
+     "maxfav": 60.75,
+     "src": "addon"
+    }
+   ],
+   [
+    {
+     "date": "2026-02-06",
+     "index": "BANKNIFTY",
+     "direction": "PE",
+     "entry_time": "10:15",
+     "strike": 59900,
+     "expiry": "2026-02-24",
+     "lot": 30,
+     "rep": "Skill V3",
+     "sources": "Skill V3",
+     "family": "BASE",
+     "_signal": "10:10",
+     "_systems": [
+      "(lA) v2",
+      "Skill V3"
+     ]
+    },
+    {
+     "stop": 50.0,
+     "trig": 90.0,
+     "lock": 90.0,
+     "tgt2": 180.0
+    },
+    {
+     "date": "2026-02-06",
+     "direction": "PE",
+     "family": "BASE",
+     "rep": "Skill V3",
+     "entry_time": "10:15",
+     "entry_premium": 548.95,
+     "exit_time": "10:45",
+     "exit_premium": 638.95,
+     "exit_reason": "runner_stop",
+     "net": 2480.0,
+     "leg_key": [
+      "2026-02-06",
+      "PE",
+      "10:15"
+     ],
+     "dev30": true,
+     "maxfav": 80.44999999999993,
+     "src": "addon"
+    }
+   ],
+   [
+    {
+     "date": "2026-02-11",
+     "index": "BANKNIFTY",
+     "direction": "PE",
+     "entry_time": "09:40",
+     "strike": 60500,
+     "expiry": "2026-02-24",
+     "lot": 30,
+     "rep": "(lA) v2",
+     "sources": "(lA) v2",
+     "family": "BASE",
+     "_signal": "09:35",
+     "_systems": [
+      "(lA) v2",
+      "Skill V3",
+      "V5 v2"
+     ]
+    },
+    {
+     "stop": 50.0,
+     "trig": 90.0,
+     "lock": 90.0,
+     "tgt2": 180.0
+    },
+    {
+     "date": "2026-02-11",
+     "direction": "PE",
+     "family": "BASE",
+     "rep": "(lA) v2",
+     "entry_time": "09:40",
+     "entry_premium": 432.45,
+     "exit_time": "09:55",
+     "exit_premium": 382.45,
+     "exit_reason": "stop",
+     "net": -1720.0,
+     "leg_key": [
+      "2026-02-11",
+      "PE",
+      "09:40"
+     ],
+     "dev30": false,
+     "maxfav": 4.150000000000034,
+     "src": "addon"
+    }
+   ],
+   [
+    {
+     "date": "2026-02-13",
+     "index": "BANKNIFTY",
+     "direction": "PE",
+     "entry_time": "10:15",
+     "strike": 60400,
+     "expiry": "2026-02-24",
+     "lot": 30,
+     "rep": "(lA) v2",
+     "sources": "(lA) v2",
+     "family": "BASE",
+     "_signal": "10:10",
+     "_systems": [
+      "(lA) v2",
+      "Skill V3"
+     ]
+    },
+    {
+     "stop": 50.0,
+     "trig": 90.0,
+     "lock": 90.0,
+     "tgt2": 180.0
+    },
+    {
+     "date": "2026-02-13",
+     "direction": "PE",
+     "family": "BASE",
+     "rep": "(lA) v2",
+     "entry_time": "10:15",
+     "entry_premium": 401.65,
+     "exit_time": "15:25",
+     "exit_premium": 531.05,
+     "exit_reason": "runner_square_off",
+     "net": 3662.0,
+     "leg_key": [
+      "2026-02-13",
+      "PE",
+      "10:15"
+     ],
+     "dev30": true,
+     "maxfav": 62.35000000000002,
+     "src": "addon"
+    }
+   ],
+   [
+    {
+     "date": "2026-04-24",
+     "index": "BANKNIFTY",
+     "direction": "PE",
+     "entry_time": "09:35",
+     "strike": 56100,
+     "expiry": "2026-04-28",
+     "lot": 30,
+     "rep": "(lA) v2",
+     "sources": "(lA) v2",
+     "family": "BASE",
+     "_signal": "09:30",
+     "_systems": [
+      "(lA) v2",
+      "Skill V3",
+      "V5 v2"
+     ]
+    },
+    {
+     "stop": 50.0,
+     "trig": 90.0,
+     "lock": null,
+     "tgt2": null
+    },
+    {
+     "date": "2026-04-24",
+     "direction": "PE",
+     "family": "BASE",
+     "rep": "(lA) v2",
+     "entry_time": "09:35",
+     "entry_premium": 467.2,
+     "exit_time": "09:45",
+     "exit_premium": 557.2,
+     "exit_reason": "target",
+     "net": 2480.0,
+     "leg_key": [
+      "2026-04-24",
+      "PE",
+      "09:35"
+     ],
+     "dev30": true,
+     "maxfav": 51.44999999999999,
+     "src": "addon"
+    }
+   ],
+   [
+    {
+     "date": "2026-06-24",
+     "index": "BANKNIFTY",
+     "direction": "CE",
+     "entry_time": "09:20",
+     "strike": 57400,
+     "expiry": "2026-06-30",
+     "lot": 30,
+     "rep": "Volrix (b)",
+     "sources": "Volrix (b)",
+     "family": "BASE",
+     "_trigger": "2026-06-23",
+     "_systems": [
+      "Skill V3",
+      "Volrix (b)"
+     ]
+    },
+    {
+     "stop": 50.0,
+     "trig": 90.0,
+     "lock": null,
+     "tgt2": null
+    },
+    {
+     "date": "2026-06-24",
+     "direction": "CE",
+     "family": "BASE",
+     "rep": "Volrix (b)",
+     "entry_time": "09:20",
+     "entry_premium": 457.5,
+     "exit_time": "09:50",
+     "exit_premium": 407.5,
+     "exit_reason": "stop",
+     "net": -1720.0,
+     "leg_key": [
+      "2026-06-24",
+      "CE",
+      "09:20"
+     ],
+     "dev30": true,
+     "maxfav": 81.79999999999995,
+     "src": "addon"
+    }
+   ],
+   [
+    {
+     "date": "2026-06-24",
+     "index": "BANKNIFTY",
+     "direction": "PE",
+     "entry_time": "09:35",
+     "strike": 57500,
+     "expiry": "2026-06-30",
+     "lot": 30,
+     "rep": "V5 v2",
+     "sources": "V5 v2",
+     "family": "BASE",
+     "_signal": "09:30",
+     "_systems": [
+      "V5 v2"
+     ]
+    },
+    {
+     "stop": 50.0,
+     "trig": 90.0,
+     "lock": null,
+     "tgt2": null
+    },
+    {
+     "date": "2026-06-24",
+     "direction": "PE",
+     "family": "BASE",
+     "rep": "V5 v2",
+     "entry_time": "09:35",
+     "entry_premium": 400.9,
+     "exit_time": "09:50",
+     "exit_premium": 490.9,
+     "exit_reason": "target",
+     "net": 2480.0,
+     "leg_key": [
+      "2026-06-24",
+      "PE",
+      "09:35"
+     ],
+     "dev30": true,
+     "maxfav": 68.75,
+     "src": "addon"
+    }
+   ],
+   [
+    {
+     "date": "2026-07-21",
+     "index": "BANKNIFTY",
+     "direction": "CE",
+     "entry_time": "09:20",
+     "strike": 58200,
+     "expiry": "2026-07-28",
+     "lot": 30,
+     "rep": "Volrix (b)",
+     "sources": "Volrix (b)",
+     "family": "BASE",
+     "_trigger": "2026-07-20",
+     "_systems": [
+      "Volrix (b)"
+     ]
+    },
+    {
+     "stop": 50.0,
+     "trig": 90.0,
+     "lock": null,
+     "tgt2": null
+    },
+    {
+     "date": "2026-07-21",
+     "direction": "CE",
+     "family": "BASE",
+     "rep": "Volrix (b)",
+     "entry_time": "09:20",
+     "entry_premium": 525.15,
+     "exit_time": "09:20",
+     "exit_premium": 475.15,
+     "exit_reason": "stop",
+     "net": -1720.0,
+     "leg_key": [
+      "2026-07-21",
+      "CE",
+      "09:20"
+     ],
+     "dev30": false,
+     "maxfav": 0.0,
+     "src": "addon"
+    }
+   ],
+   [
+    {
+     "date": "2026-07-22",
+     "index": "BANKNIFTY",
+     "direction": "PE",
+     "entry_time": "10:15",
+     "strike": 57300,
+     "expiry": "2026-07-28",
+     "lot": 30,
+     "family": "NS1_second",
+     "rep": "NS1_second",
+     "sources": "NS1",
+     "_signal": "10:10"
+    },
+    {
+     "stop": 50.0,
+     "trig": 90.0,
+     "lock": null,
+     "tgt2": null
+    },
+    {
+     "date": "2026-07-22",
+     "direction": "PE",
+     "family": "NS1_second",
+     "rep": "NS1_second",
+     "entry_time": "10:15",
+     "entry_premium": 414.85,
+     "exit_time": "11:20",
+     "exit_premium": 414.85,
+     "exit_reason": "lock_stop",
+     "net": -220.0,
+     "leg_key": [
+      "2026-07-22",
+      "PE",
+      "10:15"
+     ],
+     "dev30": true,
+     "maxfav": 72.14999999999998,
+     "src": "addon"
+    }
+   ],
+   [
+    {
+     "date": "2026-08-11",
+     "index": "BANKNIFTY",
+     "direction": "PE",
+     "entry_time": "09:40",
+     "strike": 57200,
+     "expiry": "2026-08-25",
+     "lot": 30,
+     "rep": "(lA) v2",
+     "sources": "(lA) v2",
+     "family": "BASE",
+     "_signal": "09:35",
+     "_systems": [
+      "(lA) v2"
+     ]
+    },
+    {
+     "stop": 50.0,
+     "trig": 90.0,
+     "lock": null,
+     "tgt2": null
+    },
+    {
+     "date": "2026-08-11",
+     "direction": "PE",
+     "family": "BASE",
+     "rep": "(lA) v2",
+     "entry_time": "09:40",
+     "entry_premium": 507.2,
+     "exit_time": "10:40",
+     "exit_premium": 457.2,
+     "exit_reason": "stop",
+     "net": -1720.0,
+     "leg_key": [
+      "2026-08-11",
+      "PE",
+      "09:40"
+     ],
+     "dev30": false,
+     "maxfav": 22.900000000000034,
+     "src": "addon"
+    }
+   ],
+   [
+    {
+     "date": "2026-09-07",
+     "index": "BANKNIFTY",
+     "direction": "PE",
+     "entry_time": "10:15",
+     "strike": 57100,
+     "expiry": "2026-09-29",
+     "lot": 30,
+     "rep": "(lA) v2",
+     "sources": "(lA) v2",
+     "family": "BASE",
+     "_signal": "10:10",
+     "_systems": [
+      "(lA) v2",
+      "Skill V3",
+      "V5 v2"
+     ]
+    },
+    {
+     "stop": 50.0,
+     "trig": 90.0,
+     "lock": null,
+     "tgt2": null
+    },
+    {
+     "date": "2026-09-07",
+     "direction": "PE",
+     "family": "BASE",
+     "rep": "(lA) v2",
+     "entry_time": "10:15",
+     "entry_premium": 534.6,
+     "exit_time": "13:50",
+     "exit_premium": 484.6,
+     "exit_reason": "stop",
+     "net": -1720.0,
+     "leg_key": [
+      "2026-09-07",
+      "PE",
+      "10:15"
+     ],
+     "dev30": true,
+     "maxfav": 37.60000000000002,
+     "src": "addon"
+    }
+   ],
+   [
+    {
+     "date": "2026-09-08",
+     "index": "BANKNIFTY",
+     "direction": "PE",
+     "entry_time": "12:05",
+     "strike": 56800,
+     "expiry": "2026-09-29",
+     "lot": 30,
+     "rep": "(lA) v2",
+     "sources": "(lA) v2",
+     "family": "BASE",
+     "_signal": "12:00",
+     "_systems": [
+      "(lA) v2"
+     ]
+    },
+    {
+     "stop": 50.0,
+     "trig": 90.0,
+     "lock": null,
+     "tgt2": null
+    },
+    {
+     "date": "2026-09-08",
+     "direction": "PE",
+     "family": "BASE",
+     "rep": "(lA) v2",
+     "entry_time": "12:05",
+     "entry_premium": 479.15,
+     "exit_time": "15:20",
+     "exit_premium": 480.75,
+     "exit_reason": "square_off",
+     "net": -172.0,
+     "leg_key": [
+      "2026-09-08",
+      "PE",
+      "12:05"
+     ],
+     "dev30": true,
+     "maxfav": 40.55000000000007,
+     "src": "addon"
+    }
+   ],
+   [
+    {
+     "date": "2026-09-18",
+     "index": "BANKNIFTY",
+     "direction": "PE",
+     "entry_time": "10:40",
+     "strike": 56100,
+     "expiry": "2026-09-29",
+     "lot": 30,
+     "rep": "Skill V3",
+     "sources": "Skill V3",
+     "family": "BASE",
+     "_signal": "10:35",
+     "_systems": [
+      "Skill V3"
+     ]
+    },
+    {
+     "stop": 50.0,
+     "trig": 90.0,
+     "lock": null,
+     "tgt2": null
+    },
+    {
+     "date": "2026-09-18",
+     "direction": "PE",
+     "family": "BASE",
+     "rep": "Skill V3",
+     "entry_time": "10:40",
+     "entry_premium": 411.45,
+     "exit_time": "12:20",
+     "exit_premium": 361.45,
+     "exit_reason": "stop",
+     "net": -1720.0,
+     "leg_key": [
+      "2026-09-18",
+      "PE",
+      "10:40"
+     ],
+     "dev30": true,
+     "maxfav": 37.30000000000001,
+     "src": "addon"
+    }
+   ],
+   [
+    {
+     "date": "2026-09-25",
+     "index": "BANKNIFTY",
+     "direction": "CE",
+     "entry_time": "09:20",
+     "strike": 55600,
+     "expiry": "2026-09-29",
+     "lot": 30,
+     "rep": "Volrix (b)",
+     "sources": "Volrix (b)",
+     "family": "BASE",
+     "_trigger": "2026-09-24",
+     "_systems": [
+      "Volrix (b)"
+     ]
+    },
+    {
+     "stop": 50.0,
+     "trig": 90.0,
+     "lock": null,
+     "tgt2": null
+    },
+    {
+     "date": "2026-09-25",
+     "direction": "CE",
+     "family": "BASE",
+     "rep": "Volrix (b)",
+     "entry_time": "09:20",
+     "entry_premium": 403.0,
+     "exit_time": "09:35",
+     "exit_premium": 353.0,
+     "exit_reason": "stop",
+     "net": -1720.0,
+     "leg_key": [
+      "2026-09-25",
+      "CE",
+      "09:20"
+     ],
+     "dev30": false,
+     "maxfav": 22.0,
+     "src": "addon"
+    }
+   ],
+   [
+    {
+     "date": "2026-10-13",
+     "index": "BANKNIFTY",
+     "direction": "PE",
+     "entry_time": "10:40",
+     "strike": 55200,
+     "expiry": "2026-10-27",
+     "lot": 30,
+     "rep": "V5 v2",
+     "sources": "V5 v2",
+     "family": "BASE",
+     "_signal": "10:35",
+     "_systems": [
+      "V5 v2"
+     ]
+    },
+    {
+     "stop": 50.0,
+     "trig": 90.0,
+     "lock": 90.0,
+     "tgt2": 180.0
+    },
+    {
+     "date": "2026-10-13",
+     "direction": "PE",
+     "family": "BASE",
+     "rep": "V5 v2",
+     "entry_time": "10:40",
+     "entry_premium": 547.35,
+     "exit_time": "11:50",
+     "exit_premium": 637.35,
+     "exit_reason": "runner_stop",
+     "net": 2480.0,
+     "leg_key": [
+      "2026-10-13",
+      "PE",
+      "10:40"
+     ],
+     "dev30": true,
+     "maxfav": 39.0,
+     "src": "addon"
+    }
+   ],
+   [
+    {
+     "date": "2026-10-26",
+     "index": "BANKNIFTY",
+     "direction": "CE",
+     "entry_time": "09:20",
+     "strike": 53900,
+     "expiry": "2026-10-27",
+     "lot": 30,
+     "rep": "Volrix (b)",
+     "sources": "Volrix (b)",
+     "family": "BASE",
+     "_trigger": "2026-10-23",
+     "_systems": [
+      "Volrix (b)"
+     ]
+    },
+    {
+     "stop": 50.0,
+     "trig": 90.0,
+     "lock": 90.0,
+     "tgt2": 180.0
+    },
+    {
+     "date": "2026-10-26",
+     "direction": "CE",
+     "family": "BASE",
+     "rep": "Volrix (b)",
+     "entry_time": "09:20",
+     "entry_premium": 440.7,
+     "exit_time": "09:25",
+     "exit_premium": 390.7,
+     "exit_reason": "stop",
+     "net": -1720.0,
+     "leg_key": [
+      "2026-10-26",
+      "CE",
+      "09:20"
+     ],
+     "dev30": false,
+     "maxfav": 13.5,
+     "src": "addon"
+    }
+   ]
+  ],
+  "key_dropped": 0
+ }
+}

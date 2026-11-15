@@ -1,0 +1,2905 @@
+{
+ "ref": {
+  "n": 82,
+  "net": 104567.0,
+  "ft_pct": 53.7,
+  "ft90_pct": 53.7,
+  "months": {
+   "01": 23730.0,
+   "02": 23670.0,
+   "03": 15880.0,
+   "04": 6360.0,
+   "05": 15340.0,
+   "06": -6120.0,
+   "07": -9250.0,
+   "08": 8499.0,
+   "09": 2487.5,
+   "10": 23970.5
+  },
+  "halves": {
+   "jan_may": 84980.0,
+   "jun_oct": 19587.0
+  },
+  "placebo": {
+   "n": 80,
+   "net": 10830.7,
+   "not_computed": 0
+  },
+  "ex_top3_total": 75527.0
+ },
+ "cells": [
+  {
+   "mode": "A",
+   "stop": 40.0,
+   "trig": 75.0,
+   "lock": null,
+   "n": 82,
+   "net": 88143.5,
+   "ft": 51.2,
+   "ft90": 51.2,
+   "per_week": 2.0197,
+   "halves": {
+    "jan_may": 81725.0,
+    "jun_oct": 6418.5
+   },
+   "jun": -5820.0,
+   "jul": -12100.0,
+   "placebo": 8928.7,
+   "ex_top3": 59103.5,
+   "reds": [],
+   "nc": 0,
+   "viol": 0,
+   "gate_pass": false,
+   "gate_failed": [
+    "net 88143.5 !> ref 104567.0",
+    "FT90 51.2 < ref 53.7"
+   ]
+  },
+  {
+   "mode": "A",
+   "stop": 40.0,
+   "trig": 75.0,
+   "lock": 50.0,
+   "n": 82,
+   "net": 81317.0,
+   "ft": 51.2,
+   "ft90": 43.9,
+   "per_week": 2.0197,
+   "halves": {
+    "jan_may": 66380.0,
+    "jun_oct": 14937.0
+   },
+   "jun": -5820.0,
+   "jul": -9400.0,
+   "placebo": 15366.7,
+   "ex_top3": 52277.0,
+   "reds": [],
+   "nc": 0,
+   "viol": 0,
+   "gate_pass": false,
+   "gate_failed": [
+    "net 81317.0 !> ref 104567.0",
+    "FT90 43.9 < ref 53.7"
+   ]
+  },
+  {
+   "mode": "A",
+   "stop": 40.0,
+   "trig": 75.0,
+   "lock": 75.0,
+   "n": 82,
+   "net": 74646.5,
+   "ft": 51.2,
+   "ft90": 37.8,
+   "per_week": 2.0197,
+   "halves": {
+    "jan_may": 58880.0,
+    "jun_oct": 15766.5
+   },
+   "jun": -5820.0,
+   "jul": -8650.0,
+   "placebo": 15216.7,
+   "ex_top3": 45606.5,
+   "reds": [],
+   "nc": 0,
+   "viol": 0,
+   "gate_pass": false,
+   "gate_failed": [
+    "net 74646.5 !> ref 104567.0",
+    "FT90 37.8 < ref 53.7"
+   ]
+  },
+  {
+   "mode": "A",
+   "stop": 40.0,
+   "trig": 75.0,
+   "lock": 90.0,
+   "n": 82,
+   "net": 58896.5,
+   "ft": 51.2,
+   "ft90": 35.4,
+   "per_week": 2.0197,
+   "halves": {
+    "jan_may": 55280.0,
+    "jun_oct": 3616.5
+   },
+   "jun": -5820.0,
+   "jul": -8200.0,
+   "placebo": 20166.7,
+   "ex_top3": 43356.5,
+   "reds": [],
+   "nc": 0,
+   "viol": 0,
+   "gate_pass": false,
+   "gate_failed": [
+    "net 58896.5 !> ref 104567.0",
+    "FT90 35.4 < ref 53.7"
+   ]
+  },
+  {
+   "mode": "A",
+   "stop": 40.0,
+   "trig": 90.0,
+   "lock": null,
+   "n": 82,
+   "net": 88143.5,
+   "ft": 51.2,
+   "ft90": 51.2,
+   "per_week": 2.0197,
+   "halves": {
+    "jan_may": 81725.0,
+    "jun_oct": 6418.5
+   },
+   "jun": -5820.0,
+   "jul": -12100.0,
+   "placebo": 8928.7,
+   "ex_top3": 59103.5,
+   "reds": [],
+   "nc": 0,
+   "viol": 0,
+   "gate_pass": false,
+   "gate_failed": [
+    "net 88143.5 !> ref 104567.0",
+    "FT90 51.2 < ref 53.7"
+   ]
+  },
+  {
+   "mode": "A",
+   "stop": 40.0,
+   "trig": 90.0,
+   "lock": 50.0,
+   "n": 82,
+   "net": 98117.0,
+   "ft": 51.2,
+   "ft90": 51.2,
+   "per_week": 2.0197,
+   "halves": {
+    "jan_may": 83180.0,
+    "jun_oct": 14937.0
+   },
+   "jun": -5820.0,
+   "jul": -9400.0,
+   "placebo": 17475.7,
+   "ex_top3": 69077.0,
+   "reds": [],
+   "nc": 0,
+   "viol": 0,
+   "gate_pass": false,
+   "gate_failed": [
+    "net 98117.0 !> ref 104567.0",
+    "FT90 51.2 < ref 53.7"
+   ]
+  },
+  {
+   "mode": "A",
+   "stop": 40.0,
+   "trig": 90.0,
+   "lock": 75.0,
+   "n": 82,
+   "net": 99767.0,
+   "ft": 51.2,
+   "ft90": 51.2,
+   "per_week": 2.0197,
+   "halves": {
+    "jan_may": 81830.0,
+    "jun_oct": 17937.0
+   },
+   "jun": -5820.0,
+   "jul": -8650.0,
+   "placebo": 10980.7,
+   "ex_top3": 70727.0,
+   "reds": [],
+   "nc": 0,
+   "viol": 0,
+   "gate_pass": false,
+   "gate_failed": [
+    "net 99767.0 !> ref 104567.0",
+    "FT90 51.2 < ref 53.7"
+   ]
+  },
+  {
+   "mode": "A",
+   "stop": 40.0,
+   "trig": 90.0,
+   "lock": 90.0,
+   "n": 82,
+   "net": 89417.0,
+   "ft": 51.2,
+   "ft90": 51.2,
+   "per_week": 2.0197,
+   "halves": {
+    "jan_may": 69680.0,
+    "jun_oct": 19737.0
+   },
+   "jun": -5820.0,
+   "jul": -8200.0,
+   "placebo": 14580.7,
+   "ex_top3": 60377.0,
+   "reds": [],
+   "nc": 0,
+   "viol": 0,
+   "gate_pass": false,
+   "gate_failed": [
+    "net 89417.0 !> ref 104567.0",
+    "FT90 51.2 < ref 53.7"
+   ]
+  },
+  {
+   "mode": "A",
+   "stop": 40.0,
+   "trig": 105.0,
+   "lock": null,
+   "n": 82,
+   "net": 88143.5,
+   "ft": 48.8,
+   "ft90": 51.2,
+   "per_week": 2.0197,
+   "halves": {
+    "jan_may": 81725.0,
+    "jun_oct": 6418.5
+   },
+   "jun": -5820.0,
+   "jul": -12100.0,
+   "placebo": 8928.7,
+   "ex_top3": 59103.5,
+   "reds": [],
+   "nc": 0,
+   "viol": 0,
+   "gate_pass": false,
+   "gate_failed": [
+    "net 88143.5 !> ref 104567.0",
+    "FT90 51.2 < ref 53.7"
+   ]
+  },
+  {
+   "mode": "A",
+   "stop": 40.0,
+   "trig": 105.0,
+   "lock": 50.0,
+   "n": 82,
+   "net": 92717.0,
+   "ft": 48.8,
+   "ft90": 51.2,
+   "per_week": 2.0197,
+   "halves": {
+    "jan_may": 80480.0,
+    "jun_oct": 12237.0
+   },
+   "jun": -5820.0,
+   "jul": -12100.0,
+   "placebo": 17475.7,
+   "ex_top3": 63677.0,
+   "reds": [],
+   "nc": 0,
+   "viol": 0,
+   "gate_pass": false,
+   "gate_failed": [
+    "net 92717.0 !> ref 104567.0",
+    "FT90 51.2 < ref 53.7"
+   ]
+  },
+  {
+   "mode": "A",
+   "stop": 40.0,
+   "trig": 105.0,
+   "lock": 75.0,
+   "n": 82,
+   "net": 97217.0,
+   "ft": 48.8,
+   "ft90": 51.2,
+   "per_week": 2.0197,
+   "halves": {
+    "jan_may": 82730.0,
+    "jun_oct": 14487.0
+   },
+   "jun": -5820.0,
+   "jul": -12100.0,
+   "placebo": 18630.7,
+   "ex_top3": 68177.0,
+   "reds": [],
+   "nc": 0,
+   "viol": 0,
+   "gate_pass": false,
+   "gate_failed": [
+    "net 97217.0 !> ref 104567.0",
+    "FT90 51.2 < ref 53.7"
+   ]
+  },
+  {
+   "mode": "A",
+   "stop": 40.0,
+   "trig": 105.0,
+   "lock": 90.0,
+   "n": 82,
+   "net": 81617.0,
+   "ft": 48.8,
+   "ft90": 51.2,
+   "per_week": 2.0197,
+   "halves": {
+    "jan_may": 65780.0,
+    "jun_oct": 15837.0
+   },
+   "jun": -5820.0,
+   "jul": -12100.0,
+   "placebo": 21780.7,
+   "ex_top3": 52577.0,
+   "reds": [],
+   "nc": 0,
+   "viol": 0,
+   "gate_pass": false,
+   "gate_failed": [
+    "net 81617.0 !> ref 104567.0",
+    "FT90 51.2 < ref 53.7"
+   ]
+  },
+  {
+   "mode": "A",
+   "stop": 50.0,
+   "trig": 75.0,
+   "lock": null,
+   "n": 82,
+   "net": 83643.5,
+   "ft": 53.7,
+   "ft90": 53.7,
+   "per_week": 2.0197,
+   "halves": {
+    "jan_may": 80225.0,
+    "jun_oct": 3418.5
+   },
+   "jun": -6120.0,
+   "jul": -13000.0,
+   "placebo": 3528.7,
+   "ex_top3": 54603.5,
+   "reds": [],
+   "nc": 0,
+   "viol": 0,
+   "gate_pass": false,
+   "gate_failed": [
+    "net 83643.5 !> ref 104567.0"
+   ]
+  },
+  {
+   "mode": "A",
+   "stop": 50.0,
+   "trig": 75.0,
+   "lock": 50.0,
+   "n": 82,
+   "net": 84617.0,
+   "ft": 53.7,
+   "ft90": 46.3,
+   "per_week": 2.0197,
+   "halves": {
+    "jan_may": 68780.0,
+    "jun_oct": 15837.0
+   },
+   "jun": -6120.0,
+   "jul": -10000.0,
+   "placebo": 14766.7,
+   "ex_top3": 55577.0,
+   "reds": [],
+   "nc": 0,
+   "viol": 0,
+   "gate_pass": false,
+   "gate_failed": [
+    "net 84617.0 !> ref 104567.0",
+    "FT90 46.3 < ref 53.7"
+   ]
+  },
+  {
+   "mode": "A",
+   "stop": 50.0,
+   "trig": 75.0,
+   "lock": 75.0,
+   "n": 82,
+   "net": 79446.5,
+   "ft": 53.7,
+   "ft90": 40.2,
+   "per_week": 2.0197,
+   "halves": {
+    "jan_may": 62030.0,
+    "jun_oct": 17416.5
+   },
+   "jun": -6120.0,
+   "jul": -9250.0,
+   "placebo": 15366.7,
+   "ex_top3": 50406.5,
+   "reds": [],
+   "nc": 0,
+   "viol": 0,
+   "gate_pass": false,
+   "gate_failed": [
+    "net 79446.5 !> ref 104567.0",
+    "FT90 40.2 < ref 53.7"
+   ]
+  },
+  {
+   "mode": "A",
+   "stop": 50.0,
+   "trig": 75.0,
+   "lock": 90.0,
+   "n": 82,
+   "net": 64596.5,
+   "ft": 53.7,
+   "ft90": 37.8,
+   "per_week": 2.0197,
+   "halves": {
+    "jan_may": 58880.0,
+    "jun_oct": 5716.5
+   },
+   "jun": -6120.0,
+   "jul": -8800.0,
+   "placebo": 20766.7,
+   "ex_top3": 49056.5,
+   "reds": [],
+   "nc": 0,
+   "viol": 0,
+   "gate_pass": false,
+   "gate_failed": [
+    "net 64596.5 !> ref 104567.0",
+    "FT90 37.8 < ref 53.7"
+   ]
+  },
+  {
+   "mode": "A",
+   "stop": 50.0,
+   "trig": 90.0,
+   "lock": null,
+   "n": 82,
+   "net": 83643.5,
+   "ft": 53.7,
+   "ft90": 53.7,
+   "per_week": 2.0197,
+   "halves": {
+    "jan_may": 80225.0,
+    "jun_oct": 3418.5
+   },
+   "jun": -6120.0,
+   "jul": -13000.0,
+   "placebo": 3528.7,
+   "ex_top3": 54603.5,
+   "reds": [],
+   "nc": 0,
+   "viol": 0,
+   "gate_pass": false,
+   "gate_failed": [
+    "net 83643.5 !> ref 104567.0"
+   ]
+  },
+  {
+   "mode": "A",
+   "stop": 50.0,
+   "trig": 90.0,
+   "lock": 50.0,
+   "n": 82,
+   "net": 101417.0,
+   "ft": 53.7,
+   "ft90": 53.7,
+   "per_week": 2.0197,
+   "halves": {
+    "jan_may": 85580.0,
+    "jun_oct": 15837.0
+   },
+   "jun": -6120.0,
+   "jul": -10000.0,
+   "placebo": 16575.7,
+   "ex_top3": 72377.0,
+   "reds": [],
+   "nc": 0,
+   "viol": 0,
+   "gate_pass": false,
+   "gate_failed": [
+    "net 101417.0 !> ref 104567.0"
+   ]
+  },
+  {
+   "mode": "A",
+   "stop": 50.0,
+   "trig": 90.0,
+   "lock": 75.0,
+   "n": 82,
+   "net": 104567.0,
+   "ft": 53.7,
+   "ft90": 53.7,
+   "per_week": 2.0197,
+   "halves": {
+    "jan_may": 84980.0,
+    "jun_oct": 19587.0
+   },
+   "jun": -6120.0,
+   "jul": -9250.0,
+   "placebo": 10830.7,
+   "ex_top3": 75527.0,
+   "reds": [],
+   "nc": 0,
+   "viol": 0,
+   "gate_pass": false,
+   "gate_failed": [
+    "net 104567.0 !> ref 104567.0"
+   ]
+  },
+  {
+   "mode": "A",
+   "stop": 50.0,
+   "trig": 90.0,
+   "lock": 90.0,
+   "n": 82,
+   "net": 95117.0,
+   "ft": 53.7,
+   "ft90": 53.7,
+   "per_week": 2.0197,
+   "halves": {
+    "jan_may": 73280.0,
+    "jun_oct": 21837.0
+   },
+   "jun": -6120.0,
+   "jul": -8800.0,
+   "placebo": 14880.7,
+   "ex_top3": 66077.0,
+   "reds": [],
+   "nc": 0,
+   "viol": 0,
+   "gate_pass": false,
+   "gate_failed": [
+    "net 95117.0 !> ref 104567.0"
+   ]
+  },
+  {
+   "mode": "A",
+   "stop": 50.0,
+   "trig": 105.0,
+   "lock": null,
+   "n": 82,
+   "net": 83643.5,
+   "ft": 52.4,
+   "ft90": 53.7,
+   "per_week": 2.0197,
+   "halves": {
+    "jan_may": 80225.0,
+    "jun_oct": 3418.5
+   },
+   "jun": -6120.0,
+   "jul": -13000.0,
+   "placebo": 3528.7,
+   "ex_top3": 54603.5,
+   "reds": [],
+   "nc": 0,
+   "viol": 0,
+   "gate_pass": false,
+   "gate_failed": [
+    "net 83643.5 !> ref 104567.0"
+   ]
+  },
+  {
+   "mode": "A",
+   "stop": 50.0,
+   "trig": 105.0,
+   "lock": 50.0,
+   "n": 82,
+   "net": 98417.0,
+   "ft": 52.4,
+   "ft90": 53.7,
+   "per_week": 2.0197,
+   "halves": {
+    "jan_may": 85580.0,
+    "jun_oct": 12837.0
+   },
+   "jun": -6120.0,
+   "jul": -13000.0,
+   "placebo": 16575.7,
+   "ex_top3": 69377.0,
+   "reds": [],
+   "nc": 0,
+   "viol": 0,
+   "gate_pass": false,
+   "gate_failed": [
+    "net 98417.0 !> ref 104567.0"
+   ]
+  },
+  {
+   "mode": "A",
+   "stop": 50.0,
+   "trig": 105.0,
+   "lock": 75.0,
+   "n": 82,
+   "net": 105167.0,
+   "ft": 52.4,
+   "ft90": 53.7,
+   "per_week": 2.0197,
+   "halves": {
+    "jan_may": 89330.0,
+    "jun_oct": 15837.0
+   },
+   "jun": -6120.0,
+   "jul": -13000.0,
+   "placebo": 18480.7,
+   "ex_top3": 76127.0,
+   "reds": [],
+   "nc": 0,
+   "viol": 0,
+   "gate_pass": true,
+   "gate_failed": []
+  },
+  {
+   "mode": "A",
+   "stop": 50.0,
+   "trig": 105.0,
+   "lock": 90.0,
+   "n": 82,
+   "net": 90917.0,
+   "ft": 52.4,
+   "ft90": 53.7,
+   "per_week": 2.0197,
+   "halves": {
+    "jan_may": 73280.0,
+    "jun_oct": 17637.0
+   },
+   "jun": -6120.0,
+   "jul": -13000.0,
+   "placebo": 22080.7,
+   "ex_top3": 61877.0,
+   "reds": [],
+   "nc": 0,
+   "viol": 0,
+   "gate_pass": false,
+   "gate_failed": [
+    "net 90917.0 !> ref 104567.0"
+   ]
+  },
+  {
+   "mode": "A",
+   "stop": 60.0,
+   "trig": 75.0,
+   "lock": null,
+   "n": 82,
+   "net": 80654.0,
+   "ft": 53.7,
+   "ft90": 53.7,
+   "per_week": 2.0197,
+   "halves": {
+    "jan_may": 78725.0,
+    "jun_oct": 1929.0
+   },
+   "jun": -6420.0,
+   "jul": -13348.0,
+   "placebo": 13134.7,
+   "ex_top3": 51614.0,
+   "reds": [],
+   "nc": 0,
+   "viol": 0,
+   "gate_pass": false,
+   "gate_failed": [
+    "net 80654.0 !> ref 104567.0"
+   ]
+  },
+  {
+   "mode": "A",
+   "stop": 60.0,
+   "trig": 75.0,
+   "lock": 50.0,
+   "n": 82,
+   "net": 83475.5,
+   "ft": 53.7,
+   "ft90": 46.3,
+   "per_week": 2.0197,
+   "halves": {
+    "jan_may": 68480.0,
+    "jun_oct": 14995.5
+   },
+   "jun": -6420.0,
+   "jul": -10600.0,
+   "placebo": 23166.7,
+   "ex_top3": 54435.5,
+   "reds": [],
+   "nc": 0,
+   "viol": 0,
+   "gate_pass": false,
+   "gate_failed": [
+    "net 83475.5 !> ref 104567.0",
+    "FT90 46.3 < ref 53.7"
+   ]
+  },
+  {
+   "mode": "A",
+   "stop": 60.0,
+   "trig": 75.0,
+   "lock": 75.0,
+   "n": 82,
+   "net": 78305.0,
+   "ft": 53.7,
+   "ft90": 40.2,
+   "per_week": 2.0197,
+   "halves": {
+    "jan_may": 61730.0,
+    "jun_oct": 16575.0
+   },
+   "jun": -6420.0,
+   "jul": -9850.0,
+   "placebo": 16116.7,
+   "ex_top3": 49265.0,
+   "reds": [],
+   "nc": 0,
+   "viol": 0,
+   "gate_pass": false,
+   "gate_failed": [
+    "net 78305.0 !> ref 104567.0",
+    "FT90 40.2 < ref 53.7"
+   ]
+  },
+  {
+   "mode": "A",
+   "stop": 60.0,
+   "trig": 75.0,
+   "lock": 90.0,
+   "n": 82,
+   "net": 63455.0,
+   "ft": 53.7,
+   "ft90": 37.8,
+   "per_week": 2.0197,
+   "halves": {
+    "jan_may": 58580.0,
+    "jun_oct": 4875.0
+   },
+   "jun": -6420.0,
+   "jul": -9400.0,
+   "placebo": 21966.7,
+   "ex_top3": 47915.0,
+   "reds": [],
+   "nc": 0,
+   "viol": 0,
+   "gate_pass": false,
+   "gate_failed": [
+    "net 63455.0 !> ref 104567.0",
+    "FT90 37.8 < ref 53.7"
+   ]
+  },
+  {
+   "mode": "A",
+   "stop": 60.0,
+   "trig": 90.0,
+   "lock": null,
+   "n": 82,
+   "net": 80654.0,
+   "ft": 53.7,
+   "ft90": 53.7,
+   "per_week": 2.0197,
+   "halves": {
+    "jan_may": 78725.0,
+    "jun_oct": 1929.0
+   },
+   "jun": -6420.0,
+   "jul": -13348.0,
+   "placebo": 13134.7,
+   "ex_top3": 51614.0,
+   "reds": [],
+   "nc": 0,
+   "viol": 0,
+   "gate_pass": false,
+   "gate_failed": [
+    "net 80654.0 !> ref 104567.0"
+   ]
+  },
+  {
+   "mode": "A",
+   "stop": 60.0,
+   "trig": 90.0,
+   "lock": 50.0,
+   "n": 82,
+   "net": 100275.5,
+   "ft": 53.7,
+   "ft90": 53.7,
+   "per_week": 2.0197,
+   "halves": {
+    "jan_may": 85280.0,
+    "jun_oct": 14995.5
+   },
+   "jun": -6420.0,
+   "jul": -10600.0,
+   "placebo": 24675.7,
+   "ex_top3": 71235.5,
+   "reds": [],
+   "nc": 0,
+   "viol": 0,
+   "gate_pass": false,
+   "gate_failed": [
+    "net 100275.5 !> ref 104567.0"
+   ]
+  },
+  {
+   "mode": "A",
+   "stop": 60.0,
+   "trig": 90.0,
+   "lock": 75.0,
+   "n": 82,
+   "net": 103425.5,
+   "ft": 53.7,
+   "ft90": 53.7,
+   "per_week": 2.0197,
+   "halves": {
+    "jan_may": 84680.0,
+    "jun_oct": 18745.5
+   },
+   "jun": -6420.0,
+   "jul": -9850.0,
+   "placebo": 11280.7,
+   "ex_top3": 74385.5,
+   "reds": [],
+   "nc": 0,
+   "viol": 0,
+   "gate_pass": false,
+   "gate_failed": [
+    "net 103425.5 !> ref 104567.0"
+   ]
+  },
+  {
+   "mode": "A",
+   "stop": 60.0,
+   "trig": 90.0,
+   "lock": 90.0,
+   "n": 82,
+   "net": 93975.5,
+   "ft": 53.7,
+   "ft90": 53.7,
+   "per_week": 2.0197,
+   "halves": {
+    "jan_may": 72980.0,
+    "jun_oct": 20995.5
+   },
+   "jun": -6420.0,
+   "jul": -9400.0,
+   "placebo": 15780.7,
+   "ex_top3": 64935.5,
+   "reds": [],
+   "nc": 0,
+   "viol": 0,
+   "gate_pass": false,
+   "gate_failed": [
+    "net 93975.5 !> ref 104567.0"
+   ]
+  },
+  {
+   "mode": "A",
+   "stop": 60.0,
+   "trig": 105.0,
+   "lock": null,
+   "n": 82,
+   "net": 80654.0,
+   "ft": 52.4,
+   "ft90": 53.7,
+   "per_week": 2.0197,
+   "halves": {
+    "jan_may": 78725.0,
+    "jun_oct": 1929.0
+   },
+   "jun": -6420.0,
+   "jul": -13348.0,
+   "placebo": 13134.7,
+   "ex_top3": 51614.0,
+   "reds": [],
+   "nc": 0,
+   "viol": 0,
+   "gate_pass": false,
+   "gate_failed": [
+    "net 80654.0 !> ref 104567.0"
+   ]
+  },
+  {
+   "mode": "A",
+   "stop": 60.0,
+   "trig": 105.0,
+   "lock": 50.0,
+   "n": 82,
+   "net": 97527.5,
+   "ft": 52.4,
+   "ft90": 53.7,
+   "per_week": 2.0197,
+   "halves": {
+    "jan_may": 85280.0,
+    "jun_oct": 12247.5
+   },
+   "jun": -6420.0,
+   "jul": -13348.0,
+   "placebo": 24675.7,
+   "ex_top3": 68487.5,
+   "reds": [],
+   "nc": 0,
+   "viol": 0,
+   "gate_pass": false,
+   "gate_failed": [
+    "net 97527.5 !> ref 104567.0"
+   ]
+  },
+  {
+   "mode": "A",
+   "stop": 60.0,
+   "trig": 105.0,
+   "lock": 75.0,
+   "n": 82,
+   "net": 104277.5,
+   "ft": 52.4,
+   "ft90": 53.7,
+   "per_week": 2.0197,
+   "halves": {
+    "jan_may": 89030.0,
+    "jun_oct": 15247.5
+   },
+   "jun": -6420.0,
+   "jul": -13348.0,
+   "placebo": 18930.7,
+   "ex_top3": 75237.5,
+   "reds": [],
+   "nc": 0,
+   "viol": 0,
+   "gate_pass": false,
+   "gate_failed": [
+    "net 104277.5 !> ref 104567.0"
+   ]
+  },
+  {
+   "mode": "A",
+   "stop": 60.0,
+   "trig": 105.0,
+   "lock": 90.0,
+   "n": 82,
+   "net": 90027.5,
+   "ft": 52.4,
+   "ft90": 53.7,
+   "per_week": 2.0197,
+   "halves": {
+    "jan_may": 72980.0,
+    "jun_oct": 17047.5
+   },
+   "jun": -6420.0,
+   "jul": -13348.0,
+   "placebo": 22980.7,
+   "ex_top3": 60987.5,
+   "reds": [],
+   "nc": 0,
+   "viol": 0,
+   "gate_pass": false,
+   "gate_failed": [
+    "net 90027.5 !> ref 104567.0"
+   ]
+  },
+  {
+   "mode": "B",
+   "stop": 40.0,
+   "trig": 75.0,
+   "lock": null,
+   "n": 82,
+   "net": 92745.5,
+   "ft": 52.4,
+   "ft90": 45.1,
+   "per_week": 2.0197,
+   "halves": {
+    "jan_may": 72750.5,
+    "jun_oct": 19995.0
+   },
+   "jun": -2220.0,
+   "jul": -4450.0,
+   "placebo": 7110.7,
+   "ex_top3": 63705.5,
+   "reds": [],
+   "nc": 0,
+   "viol": 0,
+   "gate_pass": false,
+   "gate_failed": [
+    "net 92745.5 !> ref 104567.0",
+    "FT90 45.1 < ref 53.7"
+   ]
+  },
+  {
+   "mode": "B",
+   "stop": 40.0,
+   "trig": 75.0,
+   "lock": 50.0,
+   "n": 82,
+   "net": 91298.0,
+   "ft": 52.4,
+   "ft90": 40.2,
+   "per_week": 2.0197,
+   "halves": {
+    "jan_may": 66080.0,
+    "jun_oct": 25218.0
+   },
+   "jun": 480.0,
+   "jul": -4450.0,
+   "placebo": 8580.7,
+   "ex_top3": 62258.0,
+   "reds": [],
+   "nc": 0,
+   "viol": 0,
+   "gate_pass": false,
+   "gate_failed": [
+    "net 91298.0 !> ref 104567.0",
+    "FT90 40.2 < ref 53.7"
+   ]
+  },
+  {
+   "mode": "B",
+   "stop": 40.0,
+   "trig": 75.0,
+   "lock": 75.0,
+   "n": 82,
+   "net": 88448.0,
+   "ft": 52.4,
+   "ft90": 35.4,
+   "per_week": 2.0197,
+   "halves": {
+    "jan_may": 64130.0,
+    "jun_oct": 24318.0
+   },
+   "jun": -1920.0,
+   "jul": -4450.0,
+   "placebo": 7530.7,
+   "ex_top3": 59408.0,
+   "reds": [],
+   "nc": 0,
+   "viol": 0,
+   "gate_pass": false,
+   "gate_failed": [
+    "net 88448.0 !> ref 104567.0",
+    "FT90 35.4 < ref 53.7"
+   ]
+  },
+  {
+   "mode": "B",
+   "stop": 40.0,
+   "trig": 75.0,
+   "lock": 90.0,
+   "n": 82,
+   "net": 96098.0,
+   "ft": 52.4,
+   "ft90": 35.4,
+   "per_week": 2.0197,
+   "halves": {
+    "jan_may": 69980.0,
+    "jun_oct": 26118.0
+   },
+   "jun": -1020.0,
+   "jul": -4450.0,
+   "placebo": 11580.7,
+   "ex_top3": 67058.0,
+   "reds": [],
+   "nc": 0,
+   "viol": 0,
+   "gate_pass": false,
+   "gate_failed": [
+    "net 96098.0 !> ref 104567.0",
+    "FT90 35.4 < ref 53.7"
+   ]
+  },
+  {
+   "mode": "B",
+   "stop": 40.0,
+   "trig": 90.0,
+   "lock": null,
+   "n": 82,
+   "net": 86214.5,
+   "ft": 47.6,
+   "ft90": 47.6,
+   "per_week": 2.0197,
+   "halves": {
+    "jan_may": 72750.5,
+    "jun_oct": 13464.0
+   },
+   "jun": -2220.0,
+   "jul": -11350.0,
+   "placebo": 4260.7,
+   "ex_top3": 57174.5,
+   "reds": [],
+   "nc": 0,
+   "viol": 0,
+   "gate_pass": false,
+   "gate_failed": [
+    "net 86214.5 !> ref 104567.0",
+    "FT90 47.6 < ref 53.7"
+   ]
+  },
+  {
+   "mode": "B",
+   "stop": 40.0,
+   "trig": 90.0,
+   "lock": 50.0,
+   "n": 82,
+   "net": 89867.0,
+   "ft": 47.6,
+   "ft90": 47.6,
+   "per_week": 2.0197,
+   "halves": {
+    "jan_may": 73880.0,
+    "jun_oct": 15987.0
+   },
+   "jun": -2220.0,
+   "jul": -11350.0,
+   "placebo": 1860.7,
+   "ex_top3": 60827.0,
+   "reds": [],
+   "nc": 0,
+   "viol": 0,
+   "gate_pass": false,
+   "gate_failed": [
+    "net 89867.0 !> ref 104567.0",
+    "FT90 47.6 < ref 53.7"
+   ]
+  },
+  {
+   "mode": "B",
+   "stop": 40.0,
+   "trig": 90.0,
+   "lock": 75.0,
+   "n": 82,
+   "net": 87917.0,
+   "ft": 47.6,
+   "ft90": 47.6,
+   "per_week": 2.0197,
+   "halves": {
+    "jan_may": 73580.0,
+    "jun_oct": 14337.0
+   },
+   "jun": -5370.0,
+   "jul": -11350.0,
+   "placebo": 1710.7,
+   "ex_top3": 58877.0,
+   "reds": [],
+   "nc": 0,
+   "viol": 0,
+   "gate_pass": false,
+   "gate_failed": [
+    "net 87917.0 !> ref 104567.0",
+    "FT90 47.6 < ref 53.7"
+   ]
+  },
+  {
+   "mode": "B",
+   "stop": 40.0,
+   "trig": 90.0,
+   "lock": 90.0,
+   "n": 82,
+   "net": 91067.0,
+   "ft": 47.6,
+   "ft90": 47.6,
+   "per_week": 2.0197,
+   "halves": {
+    "jan_may": 75380.0,
+    "jun_oct": 15687.0
+   },
+   "jun": -4920.0,
+   "jul": -11350.0,
+   "placebo": 930.7,
+   "ex_top3": 62027.0,
+   "reds": [],
+   "nc": 0,
+   "viol": 0,
+   "gate_pass": false,
+   "gate_failed": [
+    "net 91067.0 !> ref 104567.0",
+    "FT90 47.6 < ref 53.7"
+   ]
+  },
+  {
+   "mode": "B",
+   "stop": 40.0,
+   "trig": 105.0,
+   "lock": null,
+   "n": 82,
+   "net": 87114.5,
+   "ft": 45.1,
+   "ft90": 47.6,
+   "per_week": 2.0197,
+   "halves": {
+    "jan_may": 72750.5,
+    "jun_oct": 14364.0
+   },
+   "jun": -2220.0,
+   "jul": -11350.0,
+   "placebo": 6336.7,
+   "ex_top3": 58074.5,
+   "reds": [],
+   "nc": 0,
+   "viol": 0,
+   "gate_pass": false,
+   "gate_failed": [
+    "net 87114.5 !> ref 104567.0",
+    "FT90 47.6 < ref 53.7"
+   ]
+  },
+  {
+   "mode": "B",
+   "stop": 40.0,
+   "trig": 105.0,
+   "lock": 50.0,
+   "n": 82,
+   "net": 85367.0,
+   "ft": 45.1,
+   "ft90": 47.6,
+   "per_week": 2.0197,
+   "halves": {
+    "jan_may": 68480.0,
+    "jun_oct": 16887.0
+   },
+   "jun": -2220.0,
+   "jul": -11350.0,
+   "placebo": 5136.7,
+   "ex_top3": 56327.0,
+   "reds": [],
+   "nc": 0,
+   "viol": 0,
+   "gate_pass": false,
+   "gate_failed": [
+    "net 85367.0 !> ref 104567.0",
+    "FT90 47.6 < ref 53.7"
+   ]
+  },
+  {
+   "mode": "B",
+   "stop": 40.0,
+   "trig": 105.0,
+   "lock": 75.0,
+   "n": 82,
+   "net": 81917.0,
+   "ft": 45.1,
+   "ft90": 47.6,
+   "per_week": 2.0197,
+   "halves": {
+    "jan_may": 66680.0,
+    "jun_oct": 15237.0
+   },
+   "jun": -5370.0,
+   "jul": -11350.0,
+   "placebo": 3486.7,
+   "ex_top3": 52877.0,
+   "reds": [],
+   "nc": 0,
+   "viol": 0,
+   "gate_pass": false,
+   "gate_failed": [
+    "net 81917.0 !> ref 104567.0",
+    "FT90 47.6 < ref 53.7"
+   ]
+  },
+  {
+   "mode": "B",
+   "stop": 40.0,
+   "trig": 105.0,
+   "lock": 90.0,
+   "n": 82,
+   "net": 84167.0,
+   "ft": 45.1,
+   "ft90": 47.6,
+   "per_week": 2.0197,
+   "halves": {
+    "jan_may": 67580.0,
+    "jun_oct": 16587.0
+   },
+   "jun": -4920.0,
+   "jul": -11350.0,
+   "placebo": 1806.7,
+   "ex_top3": 55127.0,
+   "reds": [],
+   "nc": 0,
+   "viol": 0,
+   "gate_pass": false,
+   "gate_failed": [
+    "net 84167.0 !> ref 104567.0",
+    "FT90 47.6 < ref 53.7"
+   ]
+  },
+  {
+   "mode": "B",
+   "stop": 50.0,
+   "trig": 75.0,
+   "lock": null,
+   "n": 82,
+   "net": 95445.5,
+   "ft": 57.3,
+   "ft90": 50.0,
+   "per_week": 2.0197,
+   "halves": {
+    "jan_may": 79650.5,
+    "jun_oct": 15795.0
+   },
+   "jun": -3420.0,
+   "jul": -5950.0,
+   "placebo": 11010.7,
+   "ex_top3": 66405.5,
+   "reds": [],
+   "nc": 0,
+   "viol": 0,
+   "gate_pass": false,
+   "gate_failed": [
+    "net 95445.5 !> ref 104567.0",
+    "FT90 50.0 < ref 53.7"
+   ]
+  },
+  {
+   "mode": "B",
+   "stop": 50.0,
+   "trig": 75.0,
+   "lock": 50.0,
+   "n": 82,
+   "net": 97898.0,
+   "ft": 57.3,
+   "ft90": 43.9,
+   "per_week": 2.0197,
+   "halves": {
+    "jan_may": 73280.0,
+    "jun_oct": 24618.0
+   },
+   "jun": -420.0,
+   "jul": -5950.0,
+   "placebo": 13680.7,
+   "ex_top3": 68858.0,
+   "reds": [],
+   "nc": 0,
+   "viol": 0,
+   "gate_pass": false,
+   "gate_failed": [
+    "net 97898.0 !> ref 104567.0",
+    "FT90 43.9 < ref 53.7"
+   ]
+  },
+  {
+   "mode": "B",
+   "stop": 50.0,
+   "trig": 75.0,
+   "lock": 75.0,
+   "n": 82,
+   "net": 97298.0,
+   "ft": 57.3,
+   "ft90": 39.0,
+   "per_week": 2.0197,
+   "halves": {
+    "jan_may": 72830.0,
+    "jun_oct": 24468.0
+   },
+   "jun": -2820.0,
+   "jul": -5950.0,
+   "placebo": 12630.7,
+   "ex_top3": 68258.0,
+   "reds": [],
+   "nc": 0,
+   "viol": 0,
+   "gate_pass": false,
+   "gate_failed": [
+    "net 97298.0 !> ref 104567.0",
+    "FT90 39.0 < ref 53.7"
+   ]
+  },
+  {
+   "mode": "B",
+   "stop": 50.0,
+   "trig": 75.0,
+   "lock": 90.0,
+   "n": 82,
+   "net": 103598.0,
+   "ft": 57.3,
+   "ft90": 37.8,
+   "per_week": 2.0197,
+   "halves": {
+    "jan_may": 76880.0,
+    "jun_oct": 26718.0
+   },
+   "jun": -1920.0,
+   "jul": -5950.0,
+   "placebo": 16680.7,
+   "ex_top3": 74558.0,
+   "reds": [],
+   "nc": 0,
+   "viol": 0,
+   "gate_pass": false,
+   "gate_failed": [
+    "net 103598.0 !> ref 104567.0",
+    "FT90 37.8 < ref 53.7"
+   ]
+  },
+  {
+   "mode": "B",
+   "stop": 50.0,
+   "trig": 90.0,
+   "lock": null,
+   "n": 82,
+   "net": 92514.5,
+   "ft": 53.7,
+   "ft90": 53.7,
+   "per_week": 2.0197,
+   "halves": {
+    "jan_may": 79650.5,
+    "jun_oct": 12864.0
+   },
+   "jun": -3420.0,
+   "jul": -9250.0,
+   "placebo": 13560.7,
+   "ex_top3": 63474.5,
+   "reds": [],
+   "nc": 0,
+   "viol": 0,
+   "gate_pass": false,
+   "gate_failed": [
+    "net 92514.5 !> ref 104567.0"
+   ]
+  },
+  {
+   "mode": "B",
+   "stop": 50.0,
+   "trig": 90.0,
+   "lock": 50.0,
+   "n": 82,
+   "net": 99767.0,
+   "ft": 53.7,
+   "ft90": 53.7,
+   "per_week": 2.0197,
+   "halves": {
+    "jan_may": 81080.0,
+    "jun_oct": 18687.0
+   },
+   "jun": -3420.0,
+   "jul": -9250.0,
+   "placebo": 11760.7,
+   "ex_top3": 70727.0,
+   "reds": [],
+   "nc": 0,
+   "viol": 0,
+   "gate_pass": false,
+   "gate_failed": [
+    "net 99767.0 !> ref 104567.0"
+   ]
+  },
+  {
+   "mode": "B",
+   "stop": 50.0,
+   "trig": 90.0,
+   "lock": 75.0,
+   "n": 82,
+   "net": 100067.0,
+   "ft": 53.7,
+   "ft90": 53.7,
+   "per_week": 2.0197,
+   "halves": {
+    "jan_may": 82280.0,
+    "jun_oct": 17787.0
+   },
+   "jun": -6570.0,
+   "jul": -9250.0,
+   "placebo": 11610.7,
+   "ex_top3": 71027.0,
+   "reds": [],
+   "nc": 0,
+   "viol": 0,
+   "gate_pass": false,
+   "gate_failed": [
+    "net 100067.0 !> ref 104567.0"
+   ]
+  },
+  {
+   "mode": "B",
+   "stop": 50.0,
+   "trig": 90.0,
+   "lock": 90.0,
+   "n": 82,
+   "net": 104567.0,
+   "ft": 53.7,
+   "ft90": 53.7,
+   "per_week": 2.0197,
+   "halves": {
+    "jan_may": 84980.0,
+    "jun_oct": 19587.0
+   },
+   "jun": -6120.0,
+   "jul": -9250.0,
+   "placebo": 10830.7,
+   "ex_top3": 75527.0,
+   "reds": [],
+   "nc": 0,
+   "viol": 0,
+   "gate_pass": false,
+   "gate_failed": [
+    "net 104567.0 !> ref 104567.0"
+   ]
+  },
+  {
+   "mode": "B",
+   "stop": 50.0,
+   "trig": 105.0,
+   "lock": null,
+   "n": 82,
+   "net": 93864.5,
+   "ft": 51.2,
+   "ft90": 53.7,
+   "per_week": 2.0197,
+   "halves": {
+    "jan_may": 79650.5,
+    "jun_oct": 14214.0
+   },
+   "jun": -3420.0,
+   "jul": -8800.0,
+   "placebo": 10680.7,
+   "ex_top3": 64824.5,
+   "reds": [],
+   "nc": 0,
+   "viol": 0,
+   "gate_pass": false,
+   "gate_failed": [
+    "net 93864.5 !> ref 104567.0"
+   ]
+  },
+  {
+   "mode": "B",
+   "stop": 50.0,
+   "trig": 105.0,
+   "lock": 50.0,
+   "n": 82,
+   "net": 95117.0,
+   "ft": 51.2,
+   "ft90": 53.7,
+   "per_week": 2.0197,
+   "halves": {
+    "jan_may": 75080.0,
+    "jun_oct": 20037.0
+   },
+   "jun": -3420.0,
+   "jul": -8800.0,
+   "placebo": 9780.7,
+   "ex_top3": 66077.0,
+   "reds": [],
+   "nc": 0,
+   "viol": 0,
+   "gate_pass": false,
+   "gate_failed": [
+    "net 95117.0 !> ref 104567.0"
+   ]
+  },
+  {
+   "mode": "B",
+   "stop": 50.0,
+   "trig": 105.0,
+   "lock": 75.0,
+   "n": 82,
+   "net": 93917.0,
+   "ft": 51.2,
+   "ft90": 53.7,
+   "per_week": 2.0197,
+   "halves": {
+    "jan_may": 74780.0,
+    "jun_oct": 19137.0
+   },
+   "jun": -6570.0,
+   "jul": -8800.0,
+   "placebo": 8130.7,
+   "ex_top3": 64877.0,
+   "reds": [],
+   "nc": 0,
+   "viol": 0,
+   "gate_pass": false,
+   "gate_failed": [
+    "net 93917.0 !> ref 104567.0"
+   ]
+  },
+  {
+   "mode": "B",
+   "stop": 50.0,
+   "trig": 105.0,
+   "lock": 90.0,
+   "n": 82,
+   "net": 97517.0,
+   "ft": 51.2,
+   "ft90": 53.7,
+   "per_week": 2.0197,
+   "halves": {
+    "jan_may": 76580.0,
+    "jun_oct": 20937.0
+   },
+   "jun": -6120.0,
+   "jul": -8800.0,
+   "placebo": 6450.7,
+   "ex_top3": 68477.0,
+   "reds": [],
+   "nc": 0,
+   "viol": 0,
+   "gate_pass": false,
+   "gate_failed": [
+    "net 97517.0 !> ref 104567.0"
+   ]
+  },
+  {
+   "mode": "B",
+   "stop": 60.0,
+   "trig": 75.0,
+   "lock": null,
+   "n": 82,
+   "net": 84945.5,
+   "ft": 57.3,
+   "ft90": 50.0,
+   "per_week": 2.0197,
+   "halves": {
+    "jan_may": 73350.5,
+    "jun_oct": 11595.0
+   },
+   "jun": -4620.0,
+   "jul": -7450.0,
+   "placebo": 16149.7,
+   "ex_top3": 55905.5,
+   "reds": [],
+   "nc": 0,
+   "viol": 0,
+   "gate_pass": false,
+   "gate_failed": [
+    "net 84945.5 !> ref 104567.0",
+    "FT90 50.0 < ref 53.7"
+   ]
+  },
+  {
+   "mode": "B",
+   "stop": 60.0,
+   "trig": 75.0,
+   "lock": 50.0,
+   "n": 82,
+   "net": 89798.0,
+   "ft": 57.3,
+   "ft90": 43.9,
+   "per_week": 2.0197,
+   "halves": {
+    "jan_may": 68480.0,
+    "jun_oct": 21318.0
+   },
+   "jun": -1320.0,
+   "jul": -7450.0,
+   "placebo": 16119.7,
+   "ex_top3": 60758.0,
+   "reds": [],
+   "nc": 0,
+   "viol": 0,
+   "gate_pass": false,
+   "gate_failed": [
+    "net 89798.0 !> ref 104567.0",
+    "FT90 43.9 < ref 53.7"
+   ]
+  },
+  {
+   "mode": "B",
+   "stop": 60.0,
+   "trig": 75.0,
+   "lock": 75.0,
+   "n": 82,
+   "net": 89198.0,
+   "ft": 57.3,
+   "ft90": 39.0,
+   "per_week": 2.0197,
+   "halves": {
+    "jan_may": 68030.0,
+    "jun_oct": 21168.0
+   },
+   "jun": -3720.0,
+   "jul": -7450.0,
+   "placebo": 15819.7,
+   "ex_top3": 60158.0,
+   "reds": [],
+   "nc": 0,
+   "viol": 0,
+   "gate_pass": false,
+   "gate_failed": [
+    "net 89198.0 !> ref 104567.0",
+    "FT90 39.0 < ref 53.7"
+   ]
+  },
+  {
+   "mode": "B",
+   "stop": 60.0,
+   "trig": 75.0,
+   "lock": 90.0,
+   "n": 82,
+   "net": 95498.0,
+   "ft": 57.3,
+   "ft90": 37.8,
+   "per_week": 2.0197,
+   "halves": {
+    "jan_may": 72080.0,
+    "jun_oct": 23418.0
+   },
+   "jun": -2820.0,
+   "jul": -7450.0,
+   "placebo": 17619.7,
+   "ex_top3": 66458.0,
+   "reds": [],
+   "nc": 0,
+   "viol": 0,
+   "gate_pass": false,
+   "gate_failed": [
+    "net 95498.0 !> ref 104567.0",
+    "FT90 37.8 < ref 53.7"
+   ]
+  },
+  {
+   "mode": "B",
+   "stop": 60.0,
+   "trig": 90.0,
+   "lock": null,
+   "n": 82,
+   "net": 81714.5,
+   "ft": 53.7,
+   "ft90": 53.7,
+   "per_week": 2.0197,
+   "halves": {
+    "jan_may": 73350.5,
+    "jun_oct": 8364.0
+   },
+   "jun": -4620.0,
+   "jul": -11050.0,
+   "placebo": 18399.7,
+   "ex_top3": 52674.5,
+   "reds": [],
+   "nc": 0,
+   "viol": 0,
+   "gate_pass": false,
+   "gate_failed": [
+    "net 81714.5 !> ref 104567.0"
+   ]
+  },
+  {
+   "mode": "B",
+   "stop": 60.0,
+   "trig": 90.0,
+   "lock": 50.0,
+   "n": 82,
+   "net": 91067.0,
+   "ft": 53.7,
+   "ft90": 53.7,
+   "per_week": 2.0197,
+   "halves": {
+    "jan_may": 76280.0,
+    "jun_oct": 14787.0
+   },
+   "jun": -4620.0,
+   "jul": -11050.0,
+   "placebo": 13299.7,
+   "ex_top3": 62027.0,
+   "reds": [],
+   "nc": 0,
+   "viol": 0,
+   "gate_pass": false,
+   "gate_failed": [
+    "net 91067.0 !> ref 104567.0"
+   ]
+  },
+  {
+   "mode": "B",
+   "stop": 60.0,
+   "trig": 90.0,
+   "lock": 75.0,
+   "n": 82,
+   "net": 91367.0,
+   "ft": 53.7,
+   "ft90": 53.7,
+   "per_week": 2.0197,
+   "halves": {
+    "jan_may": 77480.0,
+    "jun_oct": 13887.0
+   },
+   "jun": -7770.0,
+   "jul": -11050.0,
+   "placebo": 13899.7,
+   "ex_top3": 62327.0,
+   "reds": [],
+   "nc": 0,
+   "viol": 0,
+   "gate_pass": false,
+   "gate_failed": [
+    "net 91367.0 !> ref 104567.0"
+   ]
+  },
+  {
+   "mode": "B",
+   "stop": 60.0,
+   "trig": 90.0,
+   "lock": 90.0,
+   "n": 82,
+   "net": 95867.0,
+   "ft": 53.7,
+   "ft90": 53.7,
+   "per_week": 2.0197,
+   "halves": {
+    "jan_may": 80180.0,
+    "jun_oct": 15687.0
+   },
+   "jun": -7320.0,
+   "jul": -11050.0,
+   "placebo": 10869.7,
+   "ex_top3": 66827.0,
+   "reds": [],
+   "nc": 0,
+   "viol": 0,
+   "gate_pass": false,
+   "gate_failed": [
+    "net 95867.0 !> ref 104567.0"
+   ]
+  },
+  {
+   "mode": "B",
+   "stop": 60.0,
+   "trig": 105.0,
+   "lock": null,
+   "n": 82,
+   "net": 83064.5,
+   "ft": 51.2,
+   "ft90": 53.7,
+   "per_week": 2.0197,
+   "halves": {
+    "jan_may": 73350.5,
+    "jun_oct": 9714.0
+   },
+   "jun": -4620.0,
+   "jul": -10600.0,
+   "placebo": 15219.7,
+   "ex_top3": 54024.5,
+   "reds": [],
+   "nc": 0,
+   "viol": 0,
+   "gate_pass": false,
+   "gate_failed": [
+    "net 83064.5 !> ref 104567.0"
+   ]
+  },
+  {
+   "mode": "B",
+   "stop": 60.0,
+   "trig": 105.0,
+   "lock": 50.0,
+   "n": 82,
+   "net": 85817.0,
+   "ft": 51.2,
+   "ft90": 53.7,
+   "per_week": 2.0197,
+   "halves": {
+    "jan_may": 69680.0,
+    "jun_oct": 16137.0
+   },
+   "jun": -4620.0,
+   "jul": -10600.0,
+   "placebo": 10719.7,
+   "ex_top3": 56777.0,
+   "reds": [],
+   "nc": 0,
+   "viol": 0,
+   "gate_pass": false,
+   "gate_failed": [
+    "net 85817.0 !> ref 104567.0"
+   ]
+  },
+  {
+   "mode": "B",
+   "stop": 60.0,
+   "trig": 105.0,
+   "lock": 75.0,
+   "n": 82,
+   "net": 84617.0,
+   "ft": 51.2,
+   "ft90": 53.7,
+   "per_week": 2.0197,
+   "halves": {
+    "jan_may": 69380.0,
+    "jun_oct": 15237.0
+   },
+   "jun": -7770.0,
+   "jul": -10600.0,
+   "placebo": 9819.7,
+   "ex_top3": 55577.0,
+   "reds": [],
+   "nc": 0,
+   "viol": 0,
+   "gate_pass": false,
+   "gate_failed": [
+    "net 84617.0 !> ref 104567.0"
+   ]
+  },
+  {
+   "mode": "B",
+   "stop": 60.0,
+   "trig": 105.0,
+   "lock": 90.0,
+   "n": 82,
+   "net": 88217.0,
+   "ft": 51.2,
+   "ft90": 53.7,
+   "per_week": 2.0197,
+   "halves": {
+    "jan_may": 71180.0,
+    "jun_oct": 17037.0
+   },
+   "jun": -7320.0,
+   "jul": -10600.0,
+   "placebo": 5889.7,
+   "ex_top3": 59177.0,
+   "reds": [],
+   "nc": 0,
+   "viol": 0,
+   "gate_pass": false,
+   "gate_failed": [
+    "net 88217.0 !> ref 104567.0"
+   ]
+  },
+  {
+   "mode": "AB",
+   "stop": 40.0,
+   "trig": 75.0,
+   "lock": null,
+   "n": 82,
+   "net": 76322.0,
+   "ft": 50.0,
+   "ft90": 42.7,
+   "per_week": 2.0197,
+   "halves": {
+    "jan_may": 69495.5,
+    "jun_oct": 6826.5
+   },
+   "jun": -1920.0,
+   "jul": -7300.0,
+   "placebo": 5208.7,
+   "ex_top3": 47282.0,
+   "reds": [],
+   "nc": 0,
+   "viol": 0,
+   "gate_pass": false,
+   "gate_failed": [
+    "net 76322.0 !> ref 104567.0",
+    "FT90 42.7 < ref 53.7"
+   ]
+  },
+  {
+   "mode": "AB",
+   "stop": 40.0,
+   "trig": 75.0,
+   "lock": 50.0,
+   "n": 82,
+   "net": 68048.0,
+   "ft": 50.0,
+   "ft90": 30.5,
+   "per_week": 2.0197,
+   "halves": {
+    "jan_may": 47480.0,
+    "jun_oct": 20568.0
+   },
+   "jun": 780.0,
+   "jul": -4600.0,
+   "placebo": 13116.7,
+   "ex_top3": 39008.0,
+   "reds": [],
+   "nc": 0,
+   "viol": 0,
+   "gate_pass": false,
+   "gate_failed": [
+    "net 68048.0 !> ref 104567.0",
+    "FT90 30.5 < ref 53.7"
+   ]
+  },
+  {
+   "mode": "AB",
+   "stop": 40.0,
+   "trig": 75.0,
+   "lock": 75.0,
+   "n": 82,
+   "net": 58527.5,
+   "ft": 50.0,
+   "ft90": 19.5,
+   "per_week": 2.0197,
+   "halves": {
+    "jan_may": 38030.0,
+    "jun_oct": 20497.5
+   },
+   "jun": -1620.0,
+   "jul": -3850.0,
+   "placebo": 11916.7,
+   "ex_top3": 29487.5,
+   "reds": [],
+   "nc": 0,
+   "viol": 0,
+   "gate_pass": false,
+   "gate_failed": [
+    "net 58527.5 !> ref 104567.0",
+    "FT90 19.5 < ref 53.7"
+   ]
+  },
+  {
+   "mode": "AB",
+   "stop": 40.0,
+   "trig": 75.0,
+   "lock": 90.0,
+   "n": 82,
+   "net": 50427.5,
+   "ft": 50.0,
+   "ft90": 17.1,
+   "per_week": 2.0197,
+   "halves": {
+    "jan_may": 40280.0,
+    "jun_oct": 10147.5
+   },
+   "jun": -720.0,
+   "jul": -3400.0,
+   "placebo": 20916.7,
+   "ex_top3": 34887.5,
+   "reds": [],
+   "nc": 0,
+   "viol": 0,
+   "gate_pass": false,
+   "gate_failed": [
+    "net 50427.5 !> ref 104567.0",
+    "FT90 17.1 < ref 53.7"
+   ]
+  },
+  {
+   "mode": "AB",
+   "stop": 40.0,
+   "trig": 90.0,
+   "lock": null,
+   "n": 82,
+   "net": 69791.0,
+   "ft": 45.1,
+   "ft90": 45.1,
+   "per_week": 2.0197,
+   "halves": {
+    "jan_may": 69495.5,
+    "jun_oct": 295.5
+   },
+   "jun": -1920.0,
+   "jul": -14200.0,
+   "placebo": 2358.7,
+   "ex_top3": 40751.0,
+   "reds": [],
+   "nc": 0,
+   "viol": 0,
+   "gate_pass": false,
+   "gate_failed": [
+    "net 69791.0 !> ref 104567.0",
+    "FT90 45.1 < ref 53.7"
+   ]
+  },
+  {
+   "mode": "AB",
+   "stop": 40.0,
+   "trig": 90.0,
+   "lock": 50.0,
+   "n": 82,
+   "net": 83417.0,
+   "ft": 45.1,
+   "ft90": 45.1,
+   "per_week": 2.0197,
+   "halves": {
+    "jan_may": 72080.0,
+    "jun_oct": 11337.0
+   },
+   "jun": -1920.0,
+   "jul": -11500.0,
+   "placebo": 8505.7,
+   "ex_top3": 54377.0,
+   "reds": [],
+   "nc": 0,
+   "viol": 0,
+   "gate_pass": false,
+   "gate_failed": [
+    "net 83417.0 !> ref 104567.0",
+    "FT90 45.1 < ref 53.7"
+   ]
+  },
+  {
+   "mode": "AB",
+   "stop": 40.0,
+   "trig": 90.0,
+   "lock": 75.0,
+   "n": 82,
+   "net": 83117.0,
+   "ft": 45.1,
+   "ft90": 45.1,
+   "per_week": 2.0197,
+   "halves": {
+    "jan_may": 70430.0,
+    "jun_oct": 12687.0
+   },
+   "jun": -5070.0,
+   "jul": -10750.0,
+   "placebo": 1860.7,
+   "ex_top3": 54077.0,
+   "reds": [],
+   "nc": 0,
+   "viol": 0,
+   "gate_pass": false,
+   "gate_failed": [
+    "net 83117.0 !> ref 104567.0",
+    "FT90 45.1 < ref 53.7"
+   ]
+  },
+  {
+   "mode": "AB",
+   "stop": 40.0,
+   "trig": 90.0,
+   "lock": 90.0,
+   "n": 82,
+   "net": 75917.0,
+   "ft": 45.1,
+   "ft90": 45.1,
+   "per_week": 2.0197,
+   "halves": {
+    "jan_may": 60080.0,
+    "jun_oct": 15837.0
+   },
+   "jun": -4620.0,
+   "jul": -10300.0,
+   "placebo": 4680.7,
+   "ex_top3": 46877.0,
+   "reds": [],
+   "nc": 0,
+   "viol": 0,
+   "gate_pass": false,
+   "gate_failed": [
+    "net 75917.0 !> ref 104567.0",
+    "FT90 45.1 < ref 53.7"
+   ]
+  },
+  {
+   "mode": "AB",
+   "stop": 40.0,
+   "trig": 105.0,
+   "lock": null,
+   "n": 82,
+   "net": 70691.0,
+   "ft": 40.2,
+   "ft90": 45.1,
+   "per_week": 2.0197,
+   "halves": {
+    "jan_may": 69495.5,
+    "jun_oct": 1195.5
+   },
+   "jun": -1920.0,
+   "jul": -14200.0,
+   "placebo": 4434.7,
+   "ex_top3": 41651.0,
+   "reds": [],
+   "nc": 0,
+   "viol": 0,
+   "gate_pass": false,
+   "gate_failed": [
+    "net 70691.0 !> ref 104567.0",
+    "FT90 45.1 < ref 53.7"
+   ]
+  },
+  {
+   "mode": "AB",
+   "stop": 40.0,
+   "trig": 105.0,
+   "lock": 50.0,
+   "n": 82,
+   "net": 73517.0,
+   "ft": 40.2,
+   "ft90": 45.1,
+   "per_week": 2.0197,
+   "halves": {
+    "jan_may": 63980.0,
+    "jun_oct": 9537.0
+   },
+   "jun": -1920.0,
+   "jul": -14200.0,
+   "placebo": 11781.7,
+   "ex_top3": 44477.0,
+   "reds": [],
+   "nc": 0,
+   "viol": 0,
+   "gate_pass": false,
+   "gate_failed": [
+    "net 73517.0 !> ref 104567.0",
+    "month 04 flips green->red (6360.0 -> -2340.0)",
+    "FT90 45.1 < ref 53.7"
+   ]
+  },
+  {
+   "mode": "AB",
+   "stop": 40.0,
+   "trig": 105.0,
+   "lock": 75.0,
+   "n": 82,
+   "net": 74567.0,
+   "ft": 40.2,
+   "ft90": 45.1,
+   "per_week": 2.0197,
+   "halves": {
+    "jan_may": 64430.0,
+    "jun_oct": 10137.0
+   },
+   "jun": -5070.0,
+   "jul": -14200.0,
+   "placebo": 11286.7,
+   "ex_top3": 45527.0,
+   "reds": [],
+   "nc": 0,
+   "viol": 0,
+   "gate_pass": false,
+   "gate_failed": [
+    "net 74567.0 !> ref 104567.0",
+    "month 04 flips green->red (6360.0 -> -3240.0)",
+    "FT90 45.1 < ref 53.7"
+   ]
+  },
+  {
+   "mode": "AB",
+   "stop": 40.0,
+   "trig": 105.0,
+   "lock": 90.0,
+   "n": 82,
+   "net": 61217.0,
+   "ft": 40.2,
+   "ft90": 45.1,
+   "per_week": 2.0197,
+   "halves": {
+    "jan_may": 48380.0,
+    "jun_oct": 12837.0
+   },
+   "jun": -4620.0,
+   "jul": -14200.0,
+   "placebo": 12756.7,
+   "ex_top3": 32177.0,
+   "reds": [],
+   "nc": 0,
+   "viol": 0,
+   "gate_pass": false,
+   "gate_failed": [
+    "net 61217.0 !> ref 104567.0",
+    "month 04 flips green->red (6360.0 -> -1440.0)",
+    "FT90 45.1 < ref 53.7"
+   ]
+  },
+  {
+   "mode": "AB",
+   "stop": 50.0,
+   "trig": 75.0,
+   "lock": null,
+   "n": 82,
+   "net": 74522.0,
+   "ft": 57.3,
+   "ft90": 50.0,
+   "per_week": 2.0197,
+   "halves": {
+    "jan_may": 74895.5,
+    "jun_oct": -373.5
+   },
+   "jun": -3420.0,
+   "jul": -9700.0,
+   "placebo": 3708.7,
+   "ex_top3": 45482.0,
+   "reds": [],
+   "nc": 0,
+   "viol": 0,
+   "gate_pass": false,
+   "gate_failed": [
+    "net 74522.0 !> ref 104567.0",
+    "FT90 50.0 < ref 53.7",
+    "a half is negative {'jan_may': 74895.5, 'jun_oct': -373.5}"
+   ]
+  },
+  {
+   "mode": "AB",
+   "stop": 50.0,
+   "trig": 75.0,
+   "lock": 50.0,
+   "n": 82,
+   "net": 77948.0,
+   "ft": 57.3,
+   "ft90": 36.6,
+   "per_week": 2.0197,
+   "halves": {
+    "jan_may": 57080.0,
+    "jun_oct": 20868.0
+   },
+   "jun": -420.0,
+   "jul": -6700.0,
+   "placebo": 17616.7,
+   "ex_top3": 48908.0,
+   "reds": [],
+   "nc": 0,
+   "viol": 0,
+   "gate_pass": false,
+   "gate_failed": [
+    "net 77948.0 !> ref 104567.0",
+    "FT90 36.6 < ref 53.7"
+   ]
+  },
+  {
+   "mode": "AB",
+   "stop": 50.0,
+   "trig": 75.0,
+   "lock": 75.0,
+   "n": 82,
+   "net": 72177.5,
+   "ft": 57.3,
+   "ft90": 25.6,
+   "per_week": 2.0197,
+   "halves": {
+    "jan_may": 49880.0,
+    "jun_oct": 22297.5
+   },
+   "jun": -2820.0,
+   "jul": -5950.0,
+   "placebo": 17166.7,
+   "ex_top3": 43137.5,
+   "reds": [],
+   "nc": 0,
+   "viol": 0,
+   "gate_pass": false,
+   "gate_failed": [
+    "net 72177.5 !> ref 104567.0",
+    "FT90 25.6 < ref 53.7"
+   ]
+  },
+  {
+   "mode": "AB",
+   "stop": 50.0,
+   "trig": 75.0,
+   "lock": 90.0,
+   "n": 82,
+   "net": 63627.5,
+   "ft": 57.3,
+   "ft90": 22.0,
+   "per_week": 2.0197,
+   "halves": {
+    "jan_may": 50780.0,
+    "jun_oct": 12847.5
+   },
+   "jun": -1920.0,
+   "jul": -5500.0,
+   "placebo": 26616.7,
+   "ex_top3": 48087.5,
+   "reds": [],
+   "nc": 0,
+   "viol": 0,
+   "gate_pass": false,
+   "gate_failed": [
+    "net 63627.5 !> ref 104567.0",
+    "FT90 22.0 < ref 53.7"
+   ]
+  },
+  {
+   "mode": "AB",
+   "stop": 50.0,
+   "trig": 90.0,
+   "lock": null,
+   "n": 82,
+   "net": 71591.0,
+   "ft": 53.7,
+   "ft90": 53.7,
+   "per_week": 2.0197,
+   "halves": {
+    "jan_may": 74895.5,
+    "jun_oct": -3304.5
+   },
+   "jun": -3420.0,
+   "jul": -13000.0,
+   "placebo": 6258.7,
+   "ex_top3": 42551.0,
+   "reds": [],
+   "nc": 0,
+   "viol": 0,
+   "gate_pass": false,
+   "gate_failed": [
+    "net 71591.0 !> ref 104567.0",
+    "a half is negative {'jan_may': 74895.5, 'jun_oct': -3304.5}"
+   ]
+  },
+  {
+   "mode": "AB",
+   "stop": 50.0,
+   "trig": 90.0,
+   "lock": 50.0,
+   "n": 82,
+   "net": 96617.0,
+   "ft": 53.7,
+   "ft90": 53.7,
+   "per_week": 2.0197,
+   "halves": {
+    "jan_may": 81680.0,
+    "jun_oct": 14937.0
+   },
+   "jun": -3420.0,
+   "jul": -10000.0,
+   "placebo": 17505.7,
+   "ex_top3": 67577.0,
+   "reds": [],
+   "nc": 0,
+   "viol": 0,
+   "gate_pass": false,
+   "gate_failed": [
+    "net 96617.0 !> ref 104567.0"
+   ]
+  },
+  {
+   "mode": "AB",
+   "stop": 50.0,
+   "trig": 90.0,
+   "lock": 75.0,
+   "n": 82,
+   "net": 100067.0,
+   "ft": 53.7,
+   "ft90": 53.7,
+   "per_week": 2.0197,
+   "halves": {
+    "jan_may": 82280.0,
+    "jun_oct": 17787.0
+   },
+   "jun": -6570.0,
+   "jul": -9250.0,
+   "placebo": 11610.7,
+   "ex_top3": 71027.0,
+   "reds": [],
+   "nc": 0,
+   "viol": 0,
+   "gate_pass": false,
+   "gate_failed": [
+    "net 100067.0 !> ref 104567.0"
+   ]
+  },
+  {
+   "mode": "AB",
+   "stop": 50.0,
+   "trig": 90.0,
+   "lock": 90.0,
+   "n": 82,
+   "net": 95117.0,
+   "ft": 53.7,
+   "ft90": 53.7,
+   "per_week": 2.0197,
+   "halves": {
+    "jan_may": 73280.0,
+    "jun_oct": 21837.0
+   },
+   "jun": -6120.0,
+   "jul": -8800.0,
+   "placebo": 14880.7,
+   "ex_top3": 66077.0,
+   "reds": [],
+   "nc": 0,
+   "viol": 0,
+   "gate_pass": false,
+   "gate_failed": [
+    "net 95117.0 !> ref 104567.0"
+   ]
+  },
+  {
+   "mode": "AB",
+   "stop": 50.0,
+   "trig": 105.0,
+   "lock": null,
+   "n": 82,
+   "net": 72941.0,
+   "ft": 50.0,
+   "ft90": 53.7,
+   "per_week": 2.0197,
+   "halves": {
+    "jan_may": 74895.5,
+    "jun_oct": -1954.5
+   },
+   "jun": -3420.0,
+   "jul": -12550.0,
+   "placebo": 3378.7,
+   "ex_top3": 43901.0,
+   "reds": [],
+   "nc": 0,
+   "viol": 0,
+   "gate_pass": false,
+   "gate_failed": [
+    "net 72941.0 !> ref 104567.0",
+    "a half is negative {'jan_may': 74895.5, 'jun_oct': -1954.5}"
+   ]
+  },
+  {
+   "mode": "AB",
+   "stop": 50.0,
+   "trig": 105.0,
+   "lock": 50.0,
+   "n": 82,
+   "net": 88967.0,
+   "ft": 50.0,
+   "ft90": 53.7,
+   "per_week": 2.0197,
+   "halves": {
+    "jan_may": 75680.0,
+    "jun_oct": 13287.0
+   },
+   "jun": -3420.0,
+   "jul": -12550.0,
+   "placebo": 15525.7,
+   "ex_top3": 59927.0,
+   "reds": [],
+   "nc": 0,
+   "viol": 0,
+   "gate_pass": false,
+   "gate_failed": [
+    "net 88967.0 !> ref 104567.0"
+   ]
+  },
+  {
+   "mode": "AB",
+   "stop": 50.0,
+   "trig": 105.0,
+   "lock": 75.0,
+   "n": 82,
+   "net": 94517.0,
+   "ft": 50.0,
+   "ft90": 53.7,
+   "per_week": 2.0197,
+   "halves": {
+    "jan_may": 79130.0,
+    "jun_oct": 15387.0
+   },
+   "jun": -6570.0,
+   "jul": -12550.0,
+   "placebo": 15780.7,
+   "ex_top3": 65477.0,
+   "reds": [],
+   "nc": 0,
+   "viol": 0,
+   "gate_pass": false,
+   "gate_failed": [
+    "net 94517.0 !> ref 104567.0"
+   ]
+  },
+  {
+   "mode": "AB",
+   "stop": 50.0,
+   "trig": 105.0,
+   "lock": 90.0,
+   "n": 82,
+   "net": 83867.0,
+   "ft": 50.0,
+   "ft90": 53.7,
+   "per_week": 2.0197,
+   "halves": {
+    "jan_may": 64880.0,
+    "jun_oct": 18987.0
+   },
+   "jun": -6120.0,
+   "jul": -12550.0,
+   "placebo": 17700.7,
+   "ex_top3": 54827.0,
+   "reds": [],
+   "nc": 0,
+   "viol": 0,
+   "gate_pass": false,
+   "gate_failed": [
+    "net 83867.0 !> ref 104567.0"
+   ]
+  },
+  {
+   "mode": "AB",
+   "stop": 60.0,
+   "trig": 75.0,
+   "lock": null,
+   "n": 82,
+   "net": 61032.5,
+   "ft": 57.3,
+   "ft90": 50.0,
+   "per_week": 2.0197,
+   "halves": {
+    "jan_may": 67095.5,
+    "jun_oct": -6063.0
+   },
+   "jun": -4920.0,
+   "jul": -11548.0,
+   "placebo": 18453.7,
+   "ex_top3": 31992.5,
+   "reds": [],
+   "nc": 0,
+   "viol": 0,
+   "gate_pass": false,
+   "gate_failed": [
+    "net 61032.5 !> ref 104567.0",
+    "FT90 50.0 < ref 53.7",
+    "a half is negative {'jan_may': 67095.5, 'jun_oct': -6063.0}"
+   ]
+  },
+  {
+   "mode": "AB",
+   "stop": 60.0,
+   "trig": 75.0,
+   "lock": 50.0,
+   "n": 82,
+   "net": 68706.5,
+   "ft": 57.3,
+   "ft90": 36.6,
+   "per_week": 2.0197,
+   "halves": {
+    "jan_may": 51980.0,
+    "jun_oct": 16726.5
+   },
+   "jun": -1620.0,
+   "jul": -8800.0,
+   "placebo": 28455.7,
+   "ex_top3": 39666.5,
+   "reds": [],
+   "nc": 0,
+   "viol": 0,
+   "gate_pass": false,
+   "gate_failed": [
+    "net 68706.5 !> ref 104567.0",
+    "FT90 36.6 < ref 53.7"
+   ]
+  },
+  {
+   "mode": "AB",
+   "stop": 60.0,
+   "trig": 75.0,
+   "lock": 75.0,
+   "n": 82,
+   "net": 62936.0,
+   "ft": 57.3,
+   "ft90": 25.6,
+   "per_week": 2.0197,
+   "halves": {
+    "jan_may": 44780.0,
+    "jun_oct": 18156.0
+   },
+   "jun": -4020.0,
+   "jul": -8050.0,
+   "placebo": 21105.7,
+   "ex_top3": 33896.0,
+   "reds": [],
+   "nc": 0,
+   "viol": 0,
+   "gate_pass": false,
+   "gate_failed": [
+    "net 62936.0 !> ref 104567.0",
+    "FT90 25.6 < ref 53.7"
+   ]
+  },
+  {
+   "mode": "AB",
+   "stop": 60.0,
+   "trig": 75.0,
+   "lock": 90.0,
+   "n": 82,
+   "net": 54386.0,
+   "ft": 57.3,
+   "ft90": 22.0,
+   "per_week": 2.0197,
+   "halves": {
+    "jan_may": 45680.0,
+    "jun_oct": 8706.0
+   },
+   "jun": -3120.0,
+   "jul": -7600.0,
+   "placebo": 28755.7,
+   "ex_top3": 38846.0,
+   "reds": [],
+   "nc": 0,
+   "viol": 0,
+   "gate_pass": false,
+   "gate_failed": [
+    "net 54386.0 !> ref 104567.0",
+    "FT90 22.0 < ref 53.7"
+   ]
+  },
+  {
+   "mode": "AB",
+   "stop": 60.0,
+   "trig": 90.0,
+   "lock": null,
+   "n": 82,
+   "net": 57801.5,
+   "ft": 53.7,
+   "ft90": 53.7,
+   "per_week": 2.0197,
+   "halves": {
+    "jan_may": 67095.5,
+    "jun_oct": -9294.0
+   },
+   "jun": -4920.0,
+   "jul": -15148.0,
+   "placebo": 20703.7,
+   "ex_top3": 28761.5,
+   "reds": [],
+   "nc": 0,
+   "viol": 0,
+   "gate_pass": false,
+   "gate_failed": [
+    "net 57801.5 !> ref 104567.0",
+    "a half is negative {'jan_may': 67095.5, 'jun_oct': -9294.0}"
+   ]
+  },
+  {
+   "mode": "AB",
+   "stop": 60.0,
+   "trig": 90.0,
+   "lock": 50.0,
+   "n": 82,
+   "net": 86775.5,
+   "ft": 53.7,
+   "ft90": 53.7,
+   "per_week": 2.0197,
+   "halves": {
+    "jan_may": 76580.0,
+    "jun_oct": 10195.5
+   },
+   "jun": -4920.0,
+   "jul": -12400.0,
+   "placebo": 27144.7,
+   "ex_top3": 57735.5,
+   "reds": [],
+   "nc": 0,
+   "viol": 0,
+   "gate_pass": false,
+   "gate_failed": [
+    "net 86775.5 !> ref 104567.0"
+   ]
+  },
+  {
+   "mode": "AB",
+   "stop": 60.0,
+   "trig": 90.0,
+   "lock": 75.0,
+   "n": 82,
+   "net": 90225.5,
+   "ft": 53.7,
+   "ft90": 53.7,
+   "per_week": 2.0197,
+   "halves": {
+    "jan_may": 77180.0,
+    "jun_oct": 13045.5
+   },
+   "jun": -8070.0,
+   "jul": -11650.0,
+   "placebo": 14349.7,
+   "ex_top3": 61185.5,
+   "reds": [],
+   "nc": 0,
+   "viol": 0,
+   "gate_pass": false,
+   "gate_failed": [
+    "net 90225.5 !> ref 104567.0"
+   ]
+  },
+  {
+   "mode": "AB",
+   "stop": 60.0,
+   "trig": 90.0,
+   "lock": 90.0,
+   "n": 82,
+   "net": 85275.5,
+   "ft": 53.7,
+   "ft90": 53.7,
+   "per_week": 2.0197,
+   "halves": {
+    "jan_may": 68180.0,
+    "jun_oct": 17095.5
+   },
+   "jun": -7620.0,
+   "jul": -11200.0,
+   "placebo": 15819.7,
+   "ex_top3": 56235.5,
+   "reds": [],
+   "nc": 0,
+   "viol": 0,
+   "gate_pass": false,
+   "gate_failed": [
+    "net 85275.5 !> ref 104567.0"
+   ]
+  },
+  {
+   "mode": "AB",
+   "stop": 60.0,
+   "trig": 105.0,
+   "lock": null,
+   "n": 82,
+   "net": 59151.5,
+   "ft": 50.0,
+   "ft90": 53.7,
+   "per_week": 2.0197,
+   "halves": {
+    "jan_may": 67095.5,
+    "jun_oct": -7944.0
+   },
+   "jun": -4920.0,
+   "jul": -14698.0,
+   "placebo": 17523.7,
+   "ex_top3": 30111.5,
+   "reds": [],
+   "nc": 0,
+   "viol": 0,
+   "gate_pass": false,
+   "gate_failed": [
+    "net 59151.5 !> ref 104567.0",
+    "a half is negative {'jan_may': 67095.5, 'jun_oct': -7944.0}"
+   ]
+  },
+  {
+   "mode": "AB",
+   "stop": 60.0,
+   "trig": 105.0,
+   "lock": 50.0,
+   "n": 82,
+   "net": 78777.5,
+   "ft": 50.0,
+   "ft90": 53.7,
+   "per_week": 2.0197,
+   "halves": {
+    "jan_may": 69980.0,
+    "jun_oct": 8797.5
+   },
+   "jun": -4920.0,
+   "jul": -14698.0,
+   "placebo": 24564.7,
+   "ex_top3": 49737.5,
+   "reds": [],
+   "nc": 0,
+   "viol": 0,
+   "gate_pass": false,
+   "gate_failed": [
+    "net 78777.5 !> ref 104567.0"
+   ]
+  },
+  {
+   "mode": "AB",
+   "stop": 60.0,
+   "trig": 105.0,
+   "lock": 75.0,
+   "n": 82,
+   "net": 84327.5,
+   "ft": 50.0,
+   "ft90": 53.7,
+   "per_week": 2.0197,
+   "halves": {
+    "jan_may": 73430.0,
+    "jun_oct": 10897.5
+   },
+   "jun": -8070.0,
+   "jul": -14698.0,
+   "placebo": 17919.7,
+   "ex_top3": 55287.5,
+   "reds": [],
+   "nc": 0,
+   "viol": 0,
+   "gate_pass": false,
+   "gate_failed": [
+    "net 84327.5 !> ref 104567.0"
+   ]
+  },
+  {
+   "mode": "AB",
+   "stop": 60.0,
+   "trig": 105.0,
+   "lock": 90.0,
+   "n": 82,
+   "net": 73677.5,
+   "ft": 50.0,
+   "ft90": 53.7,
+   "per_week": 2.0197,
+   "halves": {
+    "jan_may": 59180.0,
+    "jun_oct": 14497.5
+   },
+   "jun": -7620.0,
+   "jul": -14698.0,
+   "placebo": 18039.7,
+   "ex_top3": 44637.5,
+   "reds": [],
+   "nc": 0,
+   "viol": 0,
+   "gate_pass": false,
+   "gate_failed": [
+    "net 73677.5 !> ref 104567.0"
+   ]
+  }
+ ]
+}

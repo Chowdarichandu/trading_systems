@@ -1,0 +1,13 @@
+v21 ref: net=+83,650.50 n=99 FT90=49.5
+C150 validation: frozen V5 legs 40, regenerated 40, unresolved 0, skipped 0
+  only-frozen: []
+  only-regen:   []
+C150 PASS: regeneration reproduces the frozen V5 leg set exactly.
+C151 V5 min_target 250: net=+83,650.50 n=99 FT90=49.5 freq=2.4384 placebo=-4,313.50 ex_top3=+54,610.50 nc=0/0 banked=False why=['net 83650.5 !> ref 83650.5']
+   detail: [{'family': 'NS3', 'candidates': 51, 'admitted': 15, 'key_dropped': 30, 'band_dropped': 6, 'nc_legs': 0, 'net': 13155.0}, {'family': 'S3A', 'candidates': 15, 'admitted': 6, 'key_dropped': 6, 'band_dropped': 3, 'nc_legs': 0, 'net': 2280.0}, {'family': 'S3E', 'candidates': 4, 'admitted': 1, 'key_dropped': 3, 'band_dropped': 0, 'nc_legs': 0, 'net': 2480.0}, {'family': 'S3D', 'candidates': 7, 'admitted': 0, 'key_dropped': 7, 'band_dropped': 0, 'nc_legs': 0, 'net': 0}]
+C152 V5 min_target 1000: net=+83,650.50 n=99 FT90=49.5 freq=2.4384 placebo=-4,313.50 ex_top3=+54,610.50 nc=0/0 banked=False why=['net 83650.5 !> ref 83650.5']
+   detail: [{'family': 'NS3', 'candidates': 51, 'admitted': 15, 'key_dropped': 30, 'band_dropped': 6, 'nc_legs': 0, 'net': 13155.0}, {'family': 'S3A', 'candidates': 15, 'admitted': 6, 'key_dropped': 6, 'band_dropped': 3, 'nc_legs': 0, 'net': 2280.0}, {'family': 'S3E', 'candidates': 4, 'admitted': 1, 'key_dropped': 3, 'band_dropped': 0, 'nc_legs': 0, 'net': 2480.0}, {'family': 'S3D', 'candidates': 7, 'admitted': 0, 'key_dropped': 7, 'band_dropped': 0, 'nc_legs': 0, 'net': 0}]
+C153 V5 cap_index 5: net=+83,650.50 n=99 FT90=49.5 freq=2.4384 placebo=-4,313.50 ex_top3=+54,610.50 nc=0/0 banked=False why=['net 83650.5 !> ref 83650.5']
+   detail: [{'family': 'NS3', 'candidates': 51, 'admitted': 15, 'key_dropped': 30, 'band_dropped': 6, 'nc_legs': 0, 'net': 13155.0}, {'family': 'S3A', 'candidates': 15, 'admitted': 6, 'key_dropped': 6, 'band_dropped': 3, 'nc_legs': 0, 'net': 2280.0}, {'family': 'S3E', 'candidates': 4, 'admitted': 1, 'key_dropped': 3, 'band_dropped': 0, 'nc_legs': 0, 'net': 2480.0}, {'family': 'S3D', 'candidates': 7, 'admitted': 0, 'key_dropped': 7, 'band_dropped': 0, 'nc_legs': 0, 'net': 0}]
+C154 V5 cap_index 2: net=+83,650.50 n=99 FT90=49.5 freq=2.4384 placebo=-4,313.50 ex_top3=+54,610.50 nc=0/0 banked=False why=['net 83650.5 !> ref 83650.5']
+   detail: [{'family': 'NS3', 'candidates': 51, 'admitted': 15, 'key_dropped': 30, 'band_dropped': 6, 'nc_legs': 0, 'net': 13155.0}, {'family': 'S3A', 'candidates': 15, 'admitted': 6, 'key_dropped': 6, 'band_dropped': 3, 'nc_legs': 0, 'net': 2280.0}, {'family': 'S3E', 'candidates': 4, 'admitted': 1, 'key_dropped': 3, 'band_dropped': 0, 'nc_legs': 0, 'net': 2480.0}, {'family': 'S3D', 'candidates': 7, 'admitted': 0, 'key_dropped': 7, 'band_dropped': 0, 'nc_legs': 0, 'net': 0}]

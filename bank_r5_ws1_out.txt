@@ -1,0 +1,45 @@
+audited rows 102 net +69,940.50
+months: {'2026-01': 22748.0, '2026-02': 20480.0, '2026-03': 3600.0, '2026-04': -1810.0, '2026-05': 13250.0, '2026-06': -3640.0, '2026-07': -10500.0, '2026-08': -873.5, '2026-09': 9726.5, '2026-10': 16959.5}
+two worst months: ['2026-07', '2026-06']
+worst 10 legs:
+  2026-01-28 PE 10:10 BASE/Skill V3 bias=bullish net=-1,720.00 exit=stop
+  2026-02-02 PE 09:45 BASE/V5 v2 bias=bearish net=-1,720.00 exit=stop
+  2026-02-03 PE 10:05 NS1_second/NS1_second bias=bullish net=-1,720.00 exit=stop
+  2026-02-23 PE 11:50 S3-R1/S3-R1 bias=neutral net=-1,720.00 exit=stop
+  2026-02-27 PE 09:55 BASE/(lA) v2 bias=neutral net=-1,720.00 exit=stop
+  2026-03-05 PE 11:50 NS1_second/NS1_second bias=neutral net=-1,720.00 exit=stop
+  2026-03-09 CE 09:20 BASE/Volrix (b) bias=bearish net=-1,720.00 exit=stop
+  2026-03-11 PE 10:45 BASE/(lA) v2 bias=bullish net=-1,720.00 exit=stop
+  2026-03-18 PE 10:05 BASE/Skill V3 bias=bullish net=-1,720.00 exit=stop
+  2026-03-20 CE 09:35 NS3_gapclass/NS3_NS3-GD bias=neutral net=-1,720.00 exit=stop
+
+wound legs (negatives in ['2026-07', '2026-06']): 16 net -27,520.00
+all negative legs: 50 net -86,000.00
+negatives by family: {'BASE': (32, -55040), 'NS1_second': (7, -12040), 'NS3_gapclass': (8, -13760), 'S3-R1': (3, -5160)}
+negatives by direction: {'CE': (10, -17200), 'PE': (40, -68800)}
+negatives by bias: {'bearish': (21, -36120), 'bullish': (11, -18920), 'neutral': (18, -30960)}
+negatives by hour: {'early': (20, -34400), 'late': (2, -3440), 'mid': (28, -48160)}
+negatives by band: {'200-400': (6, -10320), 'ge400': (41, -70520), 'lt200': (3, -5160)}
+
+separator test (wound = negatives in the two worst months):
+  family=BASE: book 64 (63%) wound share 62% FT share 65% net +47,156 -> no
+  family=NS1_second: book 16 (16%) wound share 12% FT share 15% net +10,270 -> no
+  family=NS3_gapclass: book 15 (15%) wound share 19% FT share 12% net +7,755 -> no
+  family=S3-PDC: book 1 (1%) wound share 0% FT share 2% net +2,480 -> no
+  family=S3-R1: book 6 (6%) wound share 6% FT share 6% net +2,280 -> no
+  direction=CE: book 22 (22%) wound share 19% FT share 23% net +16,115 -> no
+  direction=PE: book 80 (78%) wound share 81% FT share 77% net +53,826 -> no
+  bias=bearish: book 36 (35%) wound share 56% FT share 31% net +18,440 -> no
+  bias=bullish: book 19 (19%) wound share 12% FT share 15% net +8,496 -> no
+  bias=neutral: book 47 (46%) wound share 31% FT share 54% net +43,004 -> no
+  hour=early: book 34 (33%) wound share 38% FT share 29% net +10,970 -> no
+  hour=late: book 10 (10%) wound share 6% FT share 12% net +20,514 -> no
+  hour=mid: book 58 (57%) wound share 56% FT share 58% net +38,456 -> no
+  band=200-400: book 22 (22%) wound share 12% FT share 33% net +58,602 -> no
+  band=ge400: book 74 (73%) wound share 81% FT share 60% net +9,058 -> no
+  band=lt200: book 6 (6%) wound share 6% FT share 6% net +2,280 -> no
+  family=BASE & dir=PE: book 50 (49%) wound share 50% FT share 46% net +27,136 -> no
+  family=BASE & dir=CE: book 14 (14%) wound share 12% FT share 19% net +20,020 -> no
+  bias=bearish & dir=CE: book 8 (8%) wound share 12% FT share 8% net +9,790 -> no
+  bias=bullish & dir=PE: book 15 (15%) wound share 6% FT share 12% net +11,176 -> no
+qualifying separators: []

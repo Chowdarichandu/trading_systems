@@ -1,0 +1,2409 @@
+{
+ "audit": {
+  "base": [
+   {
+    "date": "2026-01-21",
+    "direction": "PE",
+    "entry_time": "10:00",
+    "net": 9680.0,
+    "rep": "V5 v2",
+    "sources": "(lA) v2;Skill V3;V5 v2",
+    "b1_rep": "V5 v2",
+    "b1_entry": "10:00",
+    "system_entries": {
+     "(lA) v2": "10:25",
+     "V5 v2": "10:00",
+     "Skill V3": "10:00"
+    },
+    "own_signal": "09:55",
+    "own_entry": "10:00",
+    "verdict": "CAUSAL",
+    "vsk": false
+   },
+   {
+    "date": "2026-01-22",
+    "direction": "CE",
+    "entry_time": "09:20",
+    "net": 2030.0,
+    "rep": "Volrix (b)",
+    "sources": "Skill V3;Volrix (b)",
+    "b1_rep": "Volrix (b)",
+    "b1_entry": "09:20",
+    "system_entries": {
+     "Skill V3": "09:35",
+     "Volrix (b)": "09:20"
+    },
+    "own_signal": "PRIOR_DAY",
+    "own_entry": "09:20",
+    "volrix_trigger_ret": -1.063,
+    "verdict": "CAUSAL",
+    "vsk": false
+   },
+   {
+    "date": "2026-01-28",
+    "direction": "PE",
+    "entry_time": "10:10",
+    "net": -1720.0,
+    "rep": "Skill V3",
+    "sources": "Skill V3",
+    "b1_rep": "Skill V3",
+    "b1_entry": "10:10",
+    "system_entries": {
+     "Skill V3": "10:10"
+    },
+    "own_signal": "10:05",
+    "own_entry": "10:10",
+    "verdict": "CAUSAL",
+    "vsk": false
+   },
+   {
+    "date": "2026-02-02",
+    "direction": "PE",
+    "entry_time": "09:45",
+    "net": -1720.0,
+    "rep": "V5 v2",
+    "sources": "Skill V3;V5 v2",
+    "b1_rep": "V5 v2",
+    "b1_entry": "09:45",
+    "system_entries": {
+     "V5 v2": "09:45",
+     "Skill V3": "11:10"
+    },
+    "own_signal": "09:40",
+    "own_entry": "09:45",
+    "verdict": "CAUSAL",
+    "vsk": false
+   },
+   {
+    "date": "2026-02-19",
+    "direction": "PE",
+    "entry_time": "10:10",
+    "net": 9680.0,
+    "rep": "Skill V3",
+    "sources": "(lA) v2;Skill V3",
+    "b1_rep": "Skill V3",
+    "b1_entry": "10:10",
+    "system_entries": {
+     "(lA) v2": "12:15",
+     "Skill V3": "10:10"
+    },
+    "own_signal": "10:05",
+    "own_entry": "10:10",
+    "verdict": "CAUSAL",
+    "vsk": false
+   },
+   {
+    "date": "2026-02-20",
+    "direction": "CE",
+    "entry_time": "09:20",
+    "net": 9680.0,
+    "rep": "Volrix (b)",
+    "sources": "Skill V3;Volrix (b)",
+    "b1_rep": "Volrix (b)",
+    "b1_entry": "09:20",
+    "system_entries": {
+     "Skill V3": "09:35",
+     "Volrix (b)": "09:20"
+    },
+    "own_signal": "PRIOR_DAY",
+    "own_entry": "09:20",
+    "volrix_trigger_ret": -1.397,
+    "verdict": "CAUSAL",
+    "vsk": false
+   },
+   {
+    "date": "2026-02-24",
+    "direction": "PE",
+    "entry_time": "12:45",
+    "net": 2480.0,
+    "rep": "(lA) v2",
+    "sources": "(lA) v2",
+    "b1_rep": "(lA) v2",
+    "b1_entry": "12:45",
+    "system_entries": {
+     "(lA) v2": "12:45"
+    },
+    "own_signal": "12:40",
+    "own_entry": "12:45",
+    "verdict": "CAUSAL",
+    "vsk": false
+   },
+   {
+    "date": "2026-02-25",
+    "direction": "PE",
+    "entry_time": "10:50",
+    "net": 2480.0,
+    "rep": "Skill V3",
+    "sources": "Skill V3",
+    "b1_rep": "Skill V3",
+    "b1_entry": "10:50",
+    "system_entries": {
+     "Skill V3": "10:50"
+    },
+    "own_signal": "10:45",
+    "own_entry": "10:50",
+    "verdict": "CAUSAL",
+    "vsk": false
+   },
+   {
+    "date": "2026-02-26",
+    "direction": "PE",
+    "entry_time": "10:40",
+    "net": 2480.0,
+    "rep": "Skill V3",
+    "sources": "Skill V3",
+    "b1_rep": "Skill V3",
+    "b1_entry": "10:40",
+    "system_entries": {
+     "Skill V3": "10:40"
+    },
+    "own_signal": "10:35",
+    "own_entry": "10:40",
+    "verdict": "CAUSAL",
+    "vsk": false
+   },
+   {
+    "date": "2026-02-27",
+    "direction": "PE",
+    "entry_time": "09:45",
+    "net": 2480.0,
+    "rep": "Skill V3",
+    "sources": "(lA) v2;Skill V3;V5 v2",
+    "b1_rep": "Skill V3",
+    "b1_entry": "09:45",
+    "system_entries": {
+     "(lA) v2": "09:55",
+     "V5 v2": "09:55",
+     "Skill V3": "09:45"
+    },
+    "own_signal": "09:40",
+    "own_entry": "09:45",
+    "verdict": "V-SK",
+    "vsk": true,
+    "t2": "09:55"
+   },
+   {
+    "date": "2026-03-06",
+    "direction": "PE",
+    "entry_time": "10:05",
+    "net": 2480.0,
+    "rep": "V5 v2",
+    "sources": "(lA) v2;Skill V3;V5 v2",
+    "b1_rep": "V5 v2",
+    "b1_entry": "10:05",
+    "system_entries": {
+     "(lA) v2": "10:50",
+     "V5 v2": "10:05",
+     "Skill V3": "10:05"
+    },
+    "own_signal": "10:00",
+    "own_entry": "10:05",
+    "verdict": "CAUSAL",
+    "vsk": false
+   },
+   {
+    "date": "2026-03-09",
+    "direction": "CE",
+    "entry_time": "09:20",
+    "net": -1720.0,
+    "rep": "Volrix (b)",
+    "sources": "Volrix (b)",
+    "b1_rep": "Volrix (b)",
+    "b1_entry": "09:20",
+    "system_entries": {
+     "Volrix (b)": "09:20"
+    },
+    "own_signal": "PRIOR_DAY",
+    "own_entry": "09:20",
+    "volrix_trigger_ret": -2.014,
+    "verdict": "CAUSAL",
+    "vsk": false
+   },
+   {
+    "date": "2026-03-11",
+    "direction": "PE",
+    "entry_time": "09:55",
+    "net": 5180.0,
+    "rep": "Skill V3",
+    "sources": "(lA) v2;Skill V3",
+    "b1_rep": "Skill V3",
+    "b1_entry": "09:55",
+    "system_entries": {
+     "(lA) v2": "10:45",
+     "Skill V3": "09:55"
+    },
+    "own_signal": "09:50",
+    "own_entry": "09:55",
+    "verdict": "V-SK",
+    "vsk": true,
+    "t2": "10:45"
+   },
+   {
+    "date": "2026-03-13",
+    "direction": "PE",
+    "entry_time": "09:50",
+    "net": 2480.0,
+    "rep": "(lA) v2",
+    "sources": "(lA) v2;Skill V3;V5 v2",
+    "b1_rep": "(lA) v2",
+    "b1_entry": "09:50",
+    "system_entries": {
+     "(lA) v2": "09:50",
+     "V5 v2": "09:50",
+     "Skill V3": "09:50"
+    },
+    "own_signal": "09:45",
+    "own_entry": "09:50",
+    "verdict": "CAUSAL",
+    "vsk": false
+   },
+   {
+    "date": "2026-03-16",
+    "direction": "PE",
+    "entry_time": "10:25",
+    "net": 2480.0,
+    "rep": "(lA) v2",
+    "sources": "(lA) v2;V5 v2",
+    "b1_rep": "(lA) v2",
+    "b1_entry": "10:25",
+    "system_entries": {
+     "(lA) v2": "10:25",
+     "V5 v2": "10:25"
+    },
+    "own_signal": "10:20",
+    "own_entry": "10:25",
+    "verdict": "CAUSAL",
+    "vsk": false
+   },
+   {
+    "date": "2026-03-18",
+    "direction": "PE",
+    "entry_time": "10:05",
+    "net": -1720.0,
+    "rep": "Skill V3",
+    "sources": "Skill V3",
+    "b1_rep": "Skill V3",
+    "b1_entry": "10:05",
+    "system_entries": {
+     "Skill V3": "10:05"
+    },
+    "own_signal": "10:00",
+    "own_entry": "10:05",
+    "verdict": "CAUSAL",
+    "vsk": false
+   },
+   {
+    "date": "2026-03-23",
+    "direction": "PE",
+    "entry_time": "09:50",
+    "net": 2480.0,
+    "rep": "V5 v2",
+    "sources": "Skill V3;V5 v2",
+    "b1_rep": "V5 v2",
+    "b1_entry": "09:50",
+    "system_entries": {
+     "V5 v2": "09:50",
+     "Skill V3": "09:50"
+    },
+    "own_signal": "09:45",
+    "own_entry": "09:50",
+    "verdict": "CAUSAL",
+    "vsk": false
+   },
+   {
+    "date": "2026-03-24",
+    "direction": "CE",
+    "entry_time": "09:20",
+    "net": 2480.0,
+    "rep": "Volrix (b)",
+    "sources": "Volrix (b)",
+    "b1_rep": "Volrix (b)",
+    "b1_entry": "09:20",
+    "system_entries": {
+     "Volrix (b)": "09:20"
+    },
+    "own_signal": "PRIOR_DAY",
+    "own_entry": "09:20",
+    "volrix_trigger_ret": -3.756,
+    "verdict": "CAUSAL",
+    "vsk": false
+   },
+   {
+    "date": "2026-03-30",
+    "direction": "PE",
+    "entry_time": "10:55",
+    "net": -1720.0,
+    "rep": "V5 v2",
+    "sources": "Skill V3;V5 v2",
+    "b1_rep": "V5 v2",
+    "b1_entry": "10:55",
+    "system_entries": {
+     "V5 v2": "10:55",
+     "Skill V3": "10:55"
+    },
+    "own_signal": "10:50",
+    "own_entry": "10:55",
+    "verdict": "CAUSAL",
+    "vsk": false
+   },
+   {
+    "date": "2026-04-01",
+    "direction": "PE",
+    "entry_time": "09:35",
+    "net": -1720.0,
+    "rep": "V5 v2",
+    "sources": "Skill V3;V5 v2",
+    "b1_rep": "V5 v2",
+    "b1_entry": "09:35",
+    "system_entries": {
+     "V5 v2": "09:35",
+     "Skill V3": "10:25"
+    },
+    "own_signal": "09:30",
+    "own_entry": "09:35",
+    "verdict": "CAUSAL",
+    "vsk": false
+   },
+   {
+    "date": "2026-04-02",
+    "direction": "PE",
+    "entry_time": "10:50",
+    "net": -1720.0,
+    "rep": "Skill V3",
+    "sources": "Skill V3",
+    "b1_rep": "Skill V3",
+    "b1_entry": "10:50",
+    "system_entries": {
+     "Skill V3": "10:50"
+    },
+    "own_signal": "10:45",
+    "own_entry": "10:50",
+    "verdict": "CAUSAL",
+    "vsk": false
+   },
+   {
+    "date": "2026-04-10",
+    "direction": "CE",
+    "entry_time": "09:20",
+    "net": 2480.0,
+    "rep": "Volrix (b)",
+    "sources": "Skill V3;Volrix (b)",
+    "b1_rep": "Volrix (b)",
+    "b1_entry": "09:20",
+    "system_entries": {
+     "Skill V3": "09:40",
+     "Volrix (b)": "09:20"
+    },
+    "own_signal": "PRIOR_DAY",
+    "own_entry": "09:20",
+    "volrix_trigger_ret": -1.682,
+    "verdict": "CAUSAL",
+    "vsk": false
+   },
+   {
+    "date": "2026-04-10",
+    "direction": "PE",
+    "entry_time": "09:35",
+    "net": -1720.0,
+    "rep": "V5 v2",
+    "sources": "V5 v2",
+    "b1_rep": "V5 v2",
+    "b1_entry": "09:35",
+    "system_entries": {
+     "V5 v2": "09:35"
+    },
+    "own_signal": "09:30",
+    "own_entry": "09:35",
+    "verdict": "CAUSAL",
+    "vsk": false
+   },
+   {
+    "date": "2026-04-13",
+    "direction": "CE",
+    "entry_time": "10:30",
+    "net": 5180.0,
+    "rep": "V5 v2",
+    "sources": "Skill V3;V5 v2",
+    "b1_rep": "V5 v2",
+    "b1_entry": "10:30",
+    "system_entries": {
+     "V5 v2": "10:30",
+     "Skill V3": "10:30"
+    },
+    "own_signal": "10:25",
+    "own_entry": "10:30",
+    "verdict": "CAUSAL",
+    "vsk": false
+   },
+   {
+    "date": "2026-04-16",
+    "direction": "PE",
+    "entry_time": "09:45",
+    "net": -1720.0,
+    "rep": "Skill V3",
+    "sources": "(lA) v2;Skill V3",
+    "b1_rep": "Skill V3",
+    "b1_entry": "09:45",
+    "system_entries": {
+     "(lA) v2": "12:05",
+     "Skill V3": "09:45"
+    },
+    "own_signal": "09:40",
+    "own_entry": "09:45",
+    "verdict": "V-SK",
+    "vsk": true,
+    "t2": "12:05"
+   },
+   {
+    "date": "2026-04-27",
+    "direction": "PE",
+    "entry_time": "10:30",
+    "net": 2030.0,
+    "rep": "Skill V3",
+    "sources": "Skill V3",
+    "b1_rep": "Skill V3",
+    "b1_entry": "10:30",
+    "system_entries": {
+     "Skill V3": "10:30"
+    },
+    "own_signal": "10:25",
+    "own_entry": "10:30",
+    "verdict": "CAUSAL",
+    "vsk": false
+   },
+   {
+    "date": "2026-04-28",
+    "direction": "PE",
+    "entry_time": "11:25",
+    "net": 2480.0,
+    "rep": "V5 v2",
+    "sources": "V5 v2",
+    "b1_rep": "V5 v2",
+    "b1_entry": "11:25",
+    "system_entries": {
+     "V5 v2": "11:25"
+    },
+    "own_signal": "11:20",
+    "own_entry": "11:25",
+    "verdict": "CAUSAL",
+    "vsk": false
+   },
+   {
+    "date": "2026-04-29",
+    "direction": "CE",
+    "entry_time": "09:20",
+    "net": -1720.0,
+    "rep": "Volrix (b)",
+    "sources": "Skill V3;Volrix (b)",
+    "b1_rep": "Volrix (b)",
+    "b1_entry": "09:20",
+    "system_entries": {
+     "Skill V3": "10:05",
+     "Volrix (b)": "09:20"
+    },
+    "own_signal": "PRIOR_DAY",
+    "own_entry": "09:20",
+    "volrix_trigger_ret": -1.575,
+    "verdict": "CAUSAL",
+    "vsk": false
+   },
+   {
+    "date": "2026-04-30",
+    "direction": "PE",
+    "entry_time": "10:25",
+    "net": -1720.0,
+    "rep": "Skill V3",
+    "sources": "Skill V3",
+    "b1_rep": "Skill V3",
+    "b1_entry": "10:25",
+    "system_entries": {
+     "Skill V3": "10:25"
+    },
+    "own_signal": "10:20",
+    "own_entry": "10:25",
+    "verdict": "CAUSAL",
+    "vsk": false
+   },
+   {
+    "date": "2026-05-05",
+    "direction": "PE",
+    "entry_time": "10:35",
+    "net": 2480.0,
+    "rep": "(lA) v2",
+    "sources": "(lA) v2;Skill V3;V5 v2",
+    "b1_rep": "(lA) v2",
+    "b1_entry": "10:35",
+    "system_entries": {
+     "(lA) v2": "10:35",
+     "V5 v2": "10:35",
+     "Skill V3": "10:35"
+    },
+    "own_signal": "10:30",
+    "own_entry": "10:35",
+    "verdict": "CAUSAL",
+    "vsk": false
+   },
+   {
+    "date": "2026-05-06",
+    "direction": "PE",
+    "entry_time": "10:00",
+    "net": -1720.0,
+    "rep": "Skill V3",
+    "sources": "Skill V3",
+    "b1_rep": "Skill V3",
+    "b1_entry": "10:00",
+    "system_entries": {
+     "Skill V3": "10:00"
+    },
+    "own_signal": "09:55",
+    "own_entry": "10:00",
+    "verdict": "CAUSAL",
+    "vsk": false
+   },
+   {
+    "date": "2026-05-11",
+    "direction": "PE",
+    "entry_time": "09:40",
+    "net": 2480.0,
+    "rep": "(lA) v2",
+    "sources": "(lA) v2;Skill V3",
+    "b1_rep": "(lA) v2",
+    "b1_entry": "09:40",
+    "system_entries": {
+     "(lA) v2": "09:40",
+     "Skill V3": "09:40"
+    },
+    "own_signal": "09:35",
+    "own_entry": "09:40",
+    "verdict": "CAUSAL",
+    "vsk": false
+   },
+   {
+    "date": "2026-05-12",
+    "direction": "PE",
+    "entry_time": "10:50",
+    "net": 5180.0,
+    "rep": "Skill V3",
+    "sources": "Skill V3",
+    "b1_rep": "Skill V3",
+    "b1_entry": "10:50",
+    "system_entries": {
+     "Skill V3": "10:50"
+    },
+    "own_signal": "10:45",
+    "own_entry": "10:50",
+    "verdict": "CAUSAL",
+    "vsk": false
+   },
+   {
+    "date": "2026-05-14",
+    "direction": "PE",
+    "entry_time": "09:50",
+    "net": 5180.0,
+    "rep": "Skill V3",
+    "sources": "(lA) v2;Skill V3;V5 v2",
+    "b1_rep": "Skill V3",
+    "b1_entry": "09:50",
+    "system_entries": {
+     "(lA) v2": "11:00",
+     "V5 v2": "11:00",
+     "Skill V3": "09:50"
+    },
+    "own_signal": "09:45",
+    "own_entry": "09:50",
+    "verdict": "V-SK",
+    "vsk": true,
+    "t2": "11:00"
+   },
+   {
+    "date": "2026-05-18",
+    "direction": "PE",
+    "entry_time": "09:50",
+    "net": -1720.0,
+    "rep": "V5 v2",
+    "sources": "Skill V3;V5 v2",
+    "b1_rep": "V5 v2",
+    "b1_entry": "09:50",
+    "system_entries": {
+     "V5 v2": "09:50",
+     "Skill V3": "09:50"
+    },
+    "own_signal": "09:45",
+    "own_entry": "09:50",
+    "verdict": "CAUSAL",
+    "vsk": false
+   },
+   {
+    "date": "2026-05-27",
+    "direction": "PE",
+    "entry_time": "10:00",
+    "net": -1720.0,
+    "rep": "Skill V3",
+    "sources": "Skill V3",
+    "b1_rep": "Skill V3",
+    "b1_entry": "10:00",
+    "system_entries": {
+     "Skill V3": "10:00"
+    },
+    "own_signal": "09:55",
+    "own_entry": "10:00",
+    "verdict": "CAUSAL",
+    "vsk": false
+   },
+   {
+    "date": "2026-05-29",
+    "direction": "PE",
+    "entry_time": "10:30",
+    "net": 5180.0,
+    "rep": "V5 v2",
+    "sources": "V5 v2",
+    "b1_rep": "V5 v2",
+    "b1_entry": "10:30",
+    "system_entries": {
+     "V5 v2": "10:30"
+    },
+    "own_signal": "10:25",
+    "own_entry": "10:30",
+    "verdict": "CAUSAL",
+    "vsk": false
+   },
+   {
+    "date": "2026-06-01",
+    "direction": "CE",
+    "entry_time": "09:20",
+    "net": -1720.0,
+    "rep": "Volrix (b)",
+    "sources": "Volrix (b)",
+    "b1_rep": "Volrix (b)",
+    "b1_entry": "09:20",
+    "system_entries": {
+     "Volrix (b)": "09:20"
+    },
+    "own_signal": "PRIOR_DAY",
+    "own_entry": "09:20",
+    "volrix_trigger_ret": -0.924,
+    "verdict": "CAUSAL",
+    "calibration_note": "trigger return -0.924% on stored daily data vs frozen -1.0% threshold (2026-06-01 leg)",
+    "vsk": false
+   },
+   {
+    "date": "2026-06-09",
+    "direction": "PE",
+    "entry_time": "09:45",
+    "net": -1720.0,
+    "rep": "V5 v2",
+    "sources": "V5 v2",
+    "b1_rep": "V5 v2",
+    "b1_entry": "09:45",
+    "system_entries": {
+     "V5 v2": "09:45"
+    },
+    "own_signal": "09:40",
+    "own_entry": "09:45",
+    "verdict": "CAUSAL",
+    "vsk": false
+   },
+   {
+    "date": "2026-06-12",
+    "direction": "PE",
+    "entry_time": "10:05",
+    "net": -1720.0,
+    "rep": "Skill V3",
+    "sources": "Skill V3",
+    "b1_rep": "Skill V3",
+    "b1_entry": "10:05",
+    "system_entries": {
+     "Skill V3": "10:05"
+    },
+    "own_signal": "10:00",
+    "own_entry": "10:05",
+    "verdict": "CAUSAL",
+    "vsk": false
+   },
+   {
+    "date": "2026-06-16",
+    "direction": "PE",
+    "entry_time": "09:45",
+    "net": -1720.0,
+    "rep": "Skill V3",
+    "sources": "Skill V3;V5 v2",
+    "b1_rep": "Skill V3",
+    "b1_entry": "09:45",
+    "system_entries": {
+     "V5 v2": "10:10",
+     "Skill V3": "09:45"
+    },
+    "own_signal": "09:40",
+    "own_entry": "09:45",
+    "verdict": "V-SK",
+    "vsk": true,
+    "t2": "10:10"
+   },
+   {
+    "date": "2026-06-30",
+    "direction": "PE",
+    "entry_time": "09:45",
+    "net": -1720.0,
+    "rep": "Skill V3",
+    "sources": "(lA) v2;Skill V3",
+    "b1_rep": "Skill V3",
+    "b1_entry": "09:45",
+    "system_entries": {
+     "(lA) v2": "13:25",
+     "Skill V3": "09:45"
+    },
+    "own_signal": "09:40",
+    "own_entry": "09:45",
+    "verdict": "V-SK",
+    "vsk": true,
+    "t2": "13:25"
+   },
+   {
+    "date": "2026-07-03",
+    "direction": "PE",
+    "entry_time": "11:15",
+    "net": -1720.0,
+    "rep": "Skill V3",
+    "sources": "Skill V3",
+    "b1_rep": "Skill V3",
+    "b1_entry": "11:15",
+    "system_entries": {
+     "Skill V3": "11:15"
+    },
+    "own_signal": "11:10",
+    "own_entry": "11:15",
+    "verdict": "CAUSAL",
+    "vsk": false
+   },
+   {
+    "date": "2026-07-09",
+    "direction": "CE",
+    "entry_time": "09:20",
+    "net": -1720.0,
+    "rep": "Volrix (b)",
+    "sources": "Skill V3;Volrix (b)",
+    "b1_rep": "Volrix (b)",
+    "b1_entry": "09:20",
+    "system_entries": {
+     "Skill V3": "09:55",
+     "Volrix (b)": "09:20"
+    },
+    "own_signal": "PRIOR_DAY",
+    "own_entry": "09:20",
+    "volrix_trigger_ret": -2.249,
+    "verdict": "CAUSAL",
+    "vsk": false
+   },
+   {
+    "date": "2026-07-14",
+    "direction": "PE",
+    "entry_time": "09:40",
+    "net": -1720.0,
+    "rep": "Skill V3",
+    "sources": "(lA) v2;Skill V3",
+    "b1_rep": "Skill V3",
+    "b1_entry": "09:40",
+    "system_entries": {
+     "(lA) v2": "10:20",
+     "Skill V3": "09:40"
+    },
+    "own_signal": "09:35",
+    "own_entry": "09:40",
+    "verdict": "V-SK",
+    "vsk": true,
+    "t2": "10:20"
+   },
+   {
+    "date": "2026-07-15",
+    "direction": "PE",
+    "entry_time": "09:45",
+    "net": 2480.0,
+    "rep": "V5 v2",
+    "sources": "V5 v2",
+    "b1_rep": "V5 v2",
+    "b1_entry": "09:45",
+    "system_entries": {
+     "V5 v2": "09:45"
+    },
+    "own_signal": "09:40",
+    "own_entry": "09:45",
+    "verdict": "CAUSAL",
+    "vsk": false
+   },
+   {
+    "date": "2026-07-16",
+    "direction": "PE",
+    "entry_time": "10:30",
+    "net": -1720.0,
+    "rep": "Skill V3",
+    "sources": "(lA) v2;Skill V3",
+    "b1_rep": "Skill V3",
+    "b1_entry": "10:30",
+    "system_entries": {
+     "(lA) v2": "13:30",
+     "Skill V3": "10:30"
+    },
+    "own_signal": "10:25",
+    "own_entry": "10:30",
+    "verdict": "CAUSAL",
+    "vsk": false
+   },
+   {
+    "date": "2026-07-24",
+    "direction": "PE",
+    "entry_time": "09:50",
+    "net": -1720.0,
+    "rep": "V5 v2",
+    "sources": "(lA) v2;Skill V3;V5 v2",
+    "b1_rep": "V5 v2",
+    "b1_entry": "09:50",
+    "system_entries": {
+     "(lA) v2": "10:05",
+     "V5 v2": "09:50",
+     "Skill V3": "09:50"
+    },
+    "own_signal": "09:45",
+    "own_entry": "09:50",
+    "verdict": "CAUSAL",
+    "vsk": false
+   },
+   {
+    "date": "2026-07-27",
+    "direction": "PE",
+    "entry_time": "10:00",
+    "net": -1720.0,
+    "rep": "Skill V3",
+    "sources": "Skill V3",
+    "b1_rep": "Skill V3",
+    "b1_entry": "10:00",
+    "system_entries": {
+     "Skill V3": "10:00"
+    },
+    "own_signal": "09:55",
+    "own_entry": "10:00",
+    "verdict": "CAUSAL",
+    "vsk": false
+   },
+   {
+    "date": "2026-07-30",
+    "direction": "PE",
+    "entry_time": "09:40",
+    "net": -1720.0,
+    "rep": "V5 v2",
+    "sources": "Skill V3;V5 v2",
+    "b1_rep": "V5 v2",
+    "b1_entry": "09:40",
+    "system_entries": {
+     "V5 v2": "09:40",
+     "Skill V3": "09:40"
+    },
+    "own_signal": "09:35",
+    "own_entry": "09:40",
+    "verdict": "CAUSAL",
+    "vsk": false
+   },
+   {
+    "date": "2026-08-04",
+    "direction": "PE",
+    "entry_time": "11:35",
+    "net": 2480.0,
+    "rep": "Skill V3",
+    "sources": "Skill V3",
+    "b1_rep": "Skill V3",
+    "b1_entry": "11:35",
+    "system_entries": {
+     "Skill V3": "11:35"
+    },
+    "own_signal": "11:30",
+    "own_entry": "11:35",
+    "verdict": "CAUSAL",
+    "vsk": false
+   },
+   {
+    "date": "2026-08-07",
+    "direction": "PE",
+    "entry_time": "11:05",
+    "net": -1720.0,
+    "rep": "Skill V3",
+    "sources": "Skill V3",
+    "b1_rep": "Skill V3",
+    "b1_entry": "11:05",
+    "system_entries": {
+     "Skill V3": "11:05"
+    },
+    "own_signal": "11:00",
+    "own_entry": "11:05",
+    "verdict": "CAUSAL",
+    "vsk": false
+   },
+   {
+    "date": "2026-08-18",
+    "direction": "PE",
+    "entry_time": "10:05",
+    "net": -1720.0,
+    "rep": "Skill V3",
+    "sources": "Skill V3",
+    "b1_rep": "Skill V3",
+    "b1_entry": "10:05",
+    "system_entries": {
+     "Skill V3": "10:05"
+    },
+    "own_signal": "10:00",
+    "own_entry": "10:05",
+    "verdict": "CAUSAL",
+    "vsk": false
+   },
+   {
+    "date": "2026-08-24",
+    "direction": "PE",
+    "entry_time": "09:40",
+    "net": 9680.0,
+    "rep": "Skill V3",
+    "sources": "(lA) v2;Skill V3",
+    "b1_rep": "Skill V3",
+    "b1_entry": "09:40",
+    "system_entries": {
+     "(lA) v2": "11:10",
+     "Skill V3": "09:40"
+    },
+    "own_signal": "09:35",
+    "own_entry": "09:40",
+    "verdict": "V-SK",
+    "vsk": true,
+    "t2": "11:10"
+   },
+   {
+    "date": "2026-08-25",
+    "direction": "CE",
+    "entry_time": "09:35",
+    "net": -1720.0,
+    "rep": "V5 v2",
+    "sources": "Skill V3;V5 v2",
+    "b1_rep": "V5 v2",
+    "b1_entry": "09:35",
+    "system_entries": {
+     "V5 v2": "09:35",
+     "Skill V3": "09:35"
+    },
+    "own_signal": "09:30",
+    "own_entry": "09:35",
+    "verdict": "CAUSAL",
+    "vsk": false
+   },
+   {
+    "date": "2026-08-27",
+    "direction": "PE",
+    "entry_time": "10:45",
+    "net": 1806.5,
+    "rep": "Skill V3",
+    "sources": "(lA) v2;Skill V3",
+    "b1_rep": "Skill V3",
+    "b1_entry": "10:45",
+    "system_entries": {
+     "(lA) v2": "12:25",
+     "Skill V3": "10:45"
+    },
+    "own_signal": "10:40",
+    "own_entry": "10:45",
+    "verdict": "CAUSAL",
+    "vsk": false
+   },
+   {
+    "date": "2026-09-02",
+    "direction": "CE",
+    "entry_time": "09:20",
+    "net": 2480.0,
+    "rep": "Volrix (b)",
+    "sources": "Skill V3;V5 v2;Volrix (b)",
+    "b1_rep": "Volrix (b)",
+    "b1_entry": "09:20",
+    "system_entries": {
+     "V5 v2": "10:25",
+     "Skill V3": "09:35",
+     "Volrix (b)": "09:20"
+    },
+    "own_signal": "PRIOR_DAY",
+    "own_entry": "09:20",
+    "volrix_trigger_ret": -1.06,
+    "verdict": "CAUSAL",
+    "vsk": false
+   },
+   {
+    "date": "2026-09-22",
+    "direction": "PE",
+    "entry_time": "10:35",
+    "net": 2030.0,
+    "rep": "Skill V3",
+    "sources": "(lA) v2;Skill V3",
+    "b1_rep": "Skill V3",
+    "b1_entry": "10:35",
+    "system_entries": {
+     "(lA) v2": "11:40",
+     "Skill V3": "10:35"
+    },
+    "own_signal": "10:30",
+    "own_entry": "10:35",
+    "verdict": "CAUSAL",
+    "vsk": false
+   },
+   {
+    "date": "2026-09-29",
+    "direction": "PE",
+    "entry_time": "09:35",
+    "net": -1720.0,
+    "rep": "V5 v2",
+    "sources": "Skill V3;V5 v2",
+    "b1_rep": "V5 v2",
+    "b1_entry": "09:35",
+    "system_entries": {
+     "V5 v2": "09:35",
+     "Skill V3": "09:35"
+    },
+    "own_signal": "09:30",
+    "own_entry": "09:35",
+    "verdict": "CAUSAL",
+    "vsk": false
+   },
+   {
+    "date": "2026-10-01",
+    "direction": "CE",
+    "entry_time": "10:00",
+    "net": 2480.0,
+    "rep": "V5 v2",
+    "sources": "Skill V3;V5 v2",
+    "b1_rep": "V5 v2",
+    "b1_entry": "10:00",
+    "system_entries": {
+     "V5 v2": "10:00",
+     "Skill V3": "10:00"
+    },
+    "own_signal": "09:55",
+    "own_entry": "10:00",
+    "verdict": "CAUSAL",
+    "vsk": false
+   },
+   {
+    "date": "2026-10-05",
+    "direction": "PE",
+    "entry_time": "10:55",
+    "net": 2480.0,
+    "rep": "Skill V3",
+    "sources": "Skill V3",
+    "b1_rep": "Skill V3",
+    "b1_entry": "10:55",
+    "system_entries": {
+     "Skill V3": "10:55"
+    },
+    "own_signal": "10:50",
+    "own_entry": "10:55",
+    "verdict": "CAUSAL",
+    "vsk": false
+   },
+   {
+    "date": "2026-10-07",
+    "direction": "PE",
+    "entry_time": "09:40",
+    "net": -1720.0,
+    "rep": "(lA) v2",
+    "sources": "(lA) v2;Skill V3",
+    "b1_rep": "(lA) v2",
+    "b1_entry": "09:40",
+    "system_entries": {
+     "(lA) v2": "09:40",
+     "Skill V3": "09:40"
+    },
+    "own_signal": "09:35",
+    "own_entry": "09:40",
+    "verdict": "CAUSAL",
+    "vsk": false
+   },
+   {
+    "date": "2026-10-08",
+    "direction": "PE",
+    "entry_time": "11:30",
+    "net": -1720.0,
+    "rep": "Skill V3",
+    "sources": "(lA) v2;Skill V3",
+    "b1_rep": "Skill V3",
+    "b1_entry": "11:30",
+    "system_entries": {
+     "(lA) v2": "13:20",
+     "Skill V3": "11:30"
+    },
+    "own_signal": "11:25",
+    "own_entry": "11:30",
+    "verdict": "CAUSAL",
+    "vsk": false
+   },
+   {
+    "date": "2026-10-21",
+    "direction": "PE",
+    "entry_time": "11:20",
+    "net": 4389.5,
+    "rep": "(lA) v2",
+    "sources": "(lA) v2;V5 v2",
+    "b1_rep": "(lA) v2",
+    "b1_entry": "11:20",
+    "system_entries": {
+     "(lA) v2": "11:20",
+     "V5 v2": "11:20"
+    },
+    "own_signal": "11:15",
+    "own_entry": "11:20",
+    "verdict": "CAUSAL",
+    "vsk": false
+   },
+   {
+    "date": "2026-10-23",
+    "direction": "PE",
+    "entry_time": "09:50",
+    "net": 9680.0,
+    "rep": "Skill V3",
+    "sources": "(lA) v2;Skill V3",
+    "b1_rep": "Skill V3",
+    "b1_entry": "09:50",
+    "system_entries": {
+     "(lA) v2": "10:00",
+     "Skill V3": "09:50"
+    },
+    "own_signal": "09:45",
+    "own_entry": "09:50",
+    "verdict": "V-SK",
+    "vsk": true,
+    "t2": "10:00"
+   },
+   {
+    "date": "2026-10-26",
+    "direction": "CE",
+    "entry_time": "09:20",
+    "net": 2030.0,
+    "rep": "Volrix (b)",
+    "sources": "Volrix (b)",
+    "b1_rep": "Volrix (b)",
+    "b1_entry": "09:20",
+    "system_entries": {
+     "Volrix (b)": "09:20"
+    },
+    "own_signal": "PRIOR_DAY",
+    "own_entry": "09:20",
+    "volrix_trigger_ret": -1.162,
+    "verdict": "CAUSAL",
+    "vsk": false
+   },
+   {
+    "date": "2026-10-26",
+    "direction": "PE",
+    "entry_time": "10:20",
+    "net": 2030.0,
+    "rep": "V5 v2",
+    "sources": "V5 v2",
+    "b1_rep": "V5 v2",
+    "b1_entry": "10:20",
+    "system_entries": {
+     "V5 v2": "10:20"
+    },
+    "own_signal": "10:15",
+    "own_entry": "10:20",
+    "verdict": "CAUSAL",
+    "vsk": false
+   }
+  ],
+  "ns1": [
+   {
+    "date": "2026-01-20",
+    "direction": "PE",
+    "entry_time": "12:05",
+    "net": 7463.0,
+    "signal_time": "12:00",
+    "recorded_entry": "12:05",
+    "true_entry": "12:05",
+    "s1_exit_reason": "stop",
+    "s1_exit_time": "11:50",
+    "precond_ok": true,
+    "entry_spot_csv": 59767.65,
+    "spot_open_true_entry": 59767.65,
+    "strike_basis_ok": true,
+    "verdict": "CAUSAL"
+   },
+   {
+    "date": "2026-01-22",
+    "direction": "PE",
+    "entry_time": "10:55",
+    "net": 2030.0,
+    "signal_time": "10:45",
+    "recorded_entry": "10:55",
+    "true_entry": "10:50",
+    "s1_exit_reason": "stop",
+    "s1_exit_time": "09:50",
+    "precond_ok": true,
+    "entry_spot_csv": 59050.75,
+    "spot_open_true_entry": 59050.75,
+    "strike_basis_ok": true,
+    "verdict": "V-NS"
+   },
+   {
+    "date": "2026-01-23",
+    "direction": "PE",
+    "entry_time": "13:15",
+    "net": 9680.0,
+    "signal_time": "11:15",
+    "recorded_entry": "13:15",
+    "true_entry": "11:20",
+    "s1_exit_reason": "stop",
+    "s1_exit_time": "10:30",
+    "precond_ok": true,
+    "entry_spot_csv": 59100.85,
+    "spot_open_true_entry": 59100.85,
+    "strike_basis_ok": true,
+    "verdict": "V-NS"
+   },
+   {
+    "date": "2026-02-03",
+    "direction": "PE",
+    "entry_time": "10:10",
+    "net": -1720.0,
+    "signal_time": "10:00",
+    "recorded_entry": "10:10",
+    "true_entry": "10:05",
+    "s1_exit_reason": "stop",
+    "s1_exit_time": "09:50",
+    "precond_ok": true,
+    "entry_spot_csv": 60003.9,
+    "spot_open_true_entry": 60003.9,
+    "strike_basis_ok": true,
+    "verdict": "V-NS"
+   },
+   {
+    "date": "2026-02-05",
+    "direction": "PE",
+    "entry_time": "14:10",
+    "net": -1720.0,
+    "signal_time": "10:25",
+    "recorded_entry": "14:10",
+    "true_entry": "10:30",
+    "s1_exit_reason": "stop",
+    "s1_exit_time": "10:20",
+    "precond_ok": true,
+    "entry_spot_csv": 60146.55,
+    "spot_open_true_entry": 60146.55,
+    "strike_basis_ok": true,
+    "verdict": "V-NS"
+   },
+   {
+    "date": "2026-03-05",
+    "direction": "PE",
+    "entry_time": "12:25",
+    "net": -1720.0,
+    "signal_time": "11:45",
+    "recorded_entry": "12:25",
+    "true_entry": "11:50",
+    "s1_exit_reason": "stop",
+    "s1_exit_time": "11:25",
+    "precond_ok": true,
+    "entry_spot_csv": 58756.95,
+    "spot_open_true_entry": 58756.95,
+    "strike_basis_ok": true,
+    "verdict": "V-NS"
+   },
+   {
+    "date": "2026-03-24",
+    "direction": "PE",
+    "entry_time": "10:25",
+    "net": 5180.0,
+    "signal_time": "10:00",
+    "recorded_entry": "10:25",
+    "true_entry": "10:05",
+    "s1_exit_reason": "stop",
+    "s1_exit_time": "09:55",
+    "precond_ok": true,
+    "entry_spot_csv": 52115.05,
+    "spot_open_true_entry": 52115.05,
+    "strike_basis_ok": true,
+    "verdict": "V-NS"
+   },
+   {
+    "date": "2026-04-09",
+    "direction": "PE",
+    "entry_time": "12:10",
+    "net": 2480.0,
+    "signal_time": "12:00",
+    "recorded_entry": "12:10",
+    "true_entry": "12:05",
+    "s1_exit_reason": "stop",
+    "s1_exit_time": "10:10",
+    "precond_ok": true,
+    "entry_spot_csv": 55219.55,
+    "spot_open_true_entry": 55219.55,
+    "strike_basis_ok": true,
+    "verdict": "V-NS"
+   },
+   {
+    "date": "2026-04-15",
+    "direction": "PE",
+    "entry_time": "11:05",
+    "net": 2480.0,
+    "signal_time": "10:55",
+    "recorded_entry": "11:05",
+    "true_entry": "11:00",
+    "s1_exit_reason": "stop",
+    "s1_exit_time": "09:40",
+    "precond_ok": true,
+    "entry_spot_csv": 56333.25,
+    "spot_open_true_entry": 56333.25,
+    "strike_basis_ok": true,
+    "verdict": "V-NS"
+   },
+   {
+    "date": "2026-06-01",
+    "direction": "PE",
+    "entry_time": "11:55",
+    "net": 2480.0,
+    "signal_time": "11:20",
+    "recorded_entry": "11:55",
+    "true_entry": "11:25",
+    "s1_exit_reason": "target",
+    "s1_exit_time": "10:25",
+    "precond_ok": true,
+    "entry_spot_csv": 54109.35,
+    "spot_open_true_entry": 54109.35,
+    "strike_basis_ok": true,
+    "verdict": "V-NS"
+   },
+   {
+    "date": "2026-07-02",
+    "direction": "PE",
+    "entry_time": "11:35",
+    "net": -1720.0,
+    "signal_time": "11:05",
+    "recorded_entry": "11:35",
+    "true_entry": "11:10",
+    "s1_exit_reason": "stop",
+    "s1_exit_time": "10:00",
+    "precond_ok": true,
+    "entry_spot_csv": 58072.65,
+    "spot_open_true_entry": 58072.65,
+    "strike_basis_ok": true,
+    "verdict": "V-NS"
+   },
+   {
+    "date": "2026-07-28",
+    "direction": "PE",
+    "entry_time": "10:30",
+    "net": -1720.0,
+    "signal_time": "10:25",
+    "recorded_entry": "10:30",
+    "true_entry": "10:30",
+    "s1_exit_reason": "stop",
+    "s1_exit_time": "10:15",
+    "precond_ok": true,
+    "entry_spot_csv": 56882.85,
+    "spot_open_true_entry": 56882.85,
+    "strike_basis_ok": true,
+    "verdict": "CAUSAL"
+   },
+   {
+    "date": "2026-09-01",
+    "direction": "PE",
+    "entry_time": "14:00",
+    "net": -469.0,
+    "signal_time": "13:45",
+    "recorded_entry": "14:00",
+    "true_entry": "13:50",
+    "s1_exit_reason": "stop",
+    "s1_exit_time": "13:00",
+    "precond_ok": true,
+    "entry_spot_csv": 57311.75,
+    "spot_open_true_entry": 57311.75,
+    "strike_basis_ok": true,
+    "verdict": "V-NS"
+   },
+   {
+    "date": "2026-10-12",
+    "direction": "PE",
+    "entry_time": "10:50",
+    "net": 2480.0,
+    "signal_time": "10:25",
+    "recorded_entry": "10:50",
+    "true_entry": "10:30",
+    "precond_ok": null,
+    "strike_basis_ok": null,
+    "verdict": "V-NS"
+   },
+   {
+    "date": "2026-10-27",
+    "direction": "PE",
+    "entry_time": "13:25",
+    "net": 2480.0,
+    "signal_time": "13:05",
+    "recorded_entry": "13:25",
+    "true_entry": "13:10",
+    "precond_ok": null,
+    "strike_basis_ok": null,
+    "verdict": "V-NS"
+   }
+  ],
+  "ns3": [
+   {
+    "date": "2026-01-29",
+    "direction": "CE",
+    "entry_time": "15:10",
+    "net": 1730.0,
+    "rep": "NS3_NS3-GD",
+    "signal_time": "13:30",
+    "recorded_entry": "15:10",
+    "true_entry": "13:35",
+    "entry_spot_csv": 59897.9,
+    "spot_open_true_entry": 59897.9,
+    "strike_basis_ok": true,
+    "verdict": "V-NS"
+   },
+   {
+    "date": "2026-02-13",
+    "direction": "PE",
+    "entry_time": "10:35",
+    "net": 4478.0,
+    "rep": "NS3_NS3-GD",
+    "signal_time": "10:10",
+    "recorded_entry": "10:35",
+    "true_entry": "10:15",
+    "entry_spot_csv": 60420.7,
+    "spot_open_true_entry": 60420.7,
+    "strike_basis_ok": true,
+    "verdict": "V-NS"
+   },
+   {
+    "date": "2026-03-20",
+    "direction": "CE",
+    "entry_time": "09:40",
+    "net": -1720.0,
+    "rep": "NS3_NS3-GD",
+    "signal_time": "09:30",
+    "recorded_entry": "09:40",
+    "true_entry": "09:35",
+    "entry_spot_csv": 54362.4,
+    "spot_open_true_entry": 54362.4,
+    "strike_basis_ok": true,
+    "verdict": "V-NS"
+   },
+   {
+    "date": "2026-03-27",
+    "direction": "PE",
+    "entry_time": "11:15",
+    "net": 1730.0,
+    "rep": "NS3_NS3-GD",
+    "signal_time": "09:30",
+    "recorded_entry": "11:15",
+    "true_entry": "09:35",
+    "entry_spot_csv": 52740.5,
+    "spot_open_true_entry": 52740.5,
+    "strike_basis_ok": true,
+    "verdict": "V-NS"
+   },
+   {
+    "date": "2026-04-28",
+    "direction": "CE",
+    "entry_time": "10:35",
+    "net": -1720.0,
+    "rep": "NS3_NS3-GD",
+    "signal_time": "09:55",
+    "recorded_entry": "10:35",
+    "true_entry": "10:00",
+    "entry_spot_csv": 56094.7,
+    "spot_open_true_entry": 56094.7,
+    "strike_basis_ok": true,
+    "verdict": "V-NS"
+   },
+   {
+    "date": "2026-05-08",
+    "direction": "PE",
+    "entry_time": "12:20",
+    "net": 5030.0,
+    "rep": "NS3_NS3-GD",
+    "signal_time": "12:10",
+    "recorded_entry": "12:20",
+    "true_entry": "12:15",
+    "entry_spot_csv": 55503.75,
+    "spot_open_true_entry": 55503.75,
+    "strike_basis_ok": true,
+    "verdict": "V-NS"
+   },
+   {
+    "date": "2026-06-10",
+    "direction": "CE",
+    "entry_time": "12:40",
+    "net": -1720.0,
+    "rep": "NS3_NS3-GD",
+    "signal_time": "10:50",
+    "recorded_entry": "12:40",
+    "true_entry": "10:55",
+    "entry_spot_csv": 55417.4,
+    "spot_open_true_entry": 55417.4,
+    "strike_basis_ok": true,
+    "verdict": "V-NS"
+   },
+   {
+    "date": "2026-07-07",
+    "direction": "PE",
+    "entry_time": "13:40",
+    "net": -1720.0,
+    "rep": "NS3_NS3-GU",
+    "signal_time": "13:10",
+    "recorded_entry": "13:40",
+    "true_entry": "13:15",
+    "entry_spot_csv": 58247.7,
+    "spot_open_true_entry": 58247.7,
+    "strike_basis_ok": true,
+    "verdict": "V-NS"
+   },
+   {
+    "date": "2026-07-08",
+    "direction": "PE",
+    "entry_time": "09:45",
+    "net": -1720.0,
+    "rep": "NS3_NS3-GD",
+    "signal_time": "09:30",
+    "recorded_entry": "09:45",
+    "true_entry": "09:35",
+    "entry_spot_csv": 57744.0,
+    "spot_open_true_entry": 57744.0,
+    "strike_basis_ok": true,
+    "verdict": "V-NS"
+   },
+   {
+    "date": "2026-07-13",
+    "direction": "CE",
+    "entry_time": "10:20",
+    "net": 1730.0,
+    "rep": "NS3_NS3-GD",
+    "signal_time": "09:35",
+    "recorded_entry": "10:20",
+    "true_entry": "09:40",
+    "entry_spot_csv": 57736.55,
+    "spot_open_true_entry": 57736.55,
+    "strike_basis_ok": true,
+    "verdict": "V-NS"
+   },
+   {
+    "date": "2026-07-23",
+    "direction": "PE",
+    "entry_time": "12:00",
+    "net": 5030.0,
+    "rep": "NS3_NS3-GD",
+    "signal_time": "11:45",
+    "recorded_entry": "12:00",
+    "true_entry": "11:50",
+    "entry_spot_csv": 56630.4,
+    "spot_open_true_entry": 56630.4,
+    "strike_basis_ok": true,
+    "verdict": "V-NS"
+   },
+   {
+    "date": "2026-09-01",
+    "direction": "CE",
+    "entry_time": "13:00",
+    "net": -1720.0,
+    "rep": "NS3_NS3-GD",
+    "signal_time": "11:10",
+    "recorded_entry": "13:00",
+    "true_entry": "11:15",
+    "entry_spot_csv": 57652.25,
+    "spot_open_true_entry": 57652.25,
+    "strike_basis_ok": true,
+    "verdict": "V-NS"
+   },
+   {
+    "date": "2026-09-11",
+    "direction": "CE",
+    "entry_time": "10:30",
+    "net": 5030.0,
+    "rep": "NS3_NS3-GD",
+    "signal_time": "10:10",
+    "recorded_entry": "10:30",
+    "true_entry": "10:15",
+    "entry_spot_csv": 56022.0,
+    "spot_open_true_entry": 56022.0,
+    "strike_basis_ok": true,
+    "verdict": "V-NS"
+   },
+   {
+    "date": "2026-09-15",
+    "direction": "PE",
+    "entry_time": "09:55",
+    "net": 1730.0,
+    "rep": "NS3_NS3-GU",
+    "signal_time": "09:30",
+    "recorded_entry": "09:55",
+    "true_entry": "09:35",
+    "entry_spot_csv": 56476.2,
+    "spot_open_true_entry": 56476.2,
+    "strike_basis_ok": true,
+    "verdict": "V-NS"
+   },
+   {
+    "date": "2026-09-17",
+    "direction": "CE",
+    "entry_time": "10:35",
+    "net": -1720.0,
+    "rep": "NS3_NS3-GD",
+    "signal_time": "09:30",
+    "recorded_entry": "10:35",
+    "true_entry": "09:35",
+    "entry_spot_csv": 56497.6,
+    "spot_open_true_entry": 56497.6,
+    "strike_basis_ok": true,
+    "verdict": "V-NS"
+   },
+   {
+    "date": "2026-09-24",
+    "direction": "PE",
+    "entry_time": "13:40",
+    "net": 5030.0,
+    "rep": "NS3_NS3-GD",
+    "signal_time": "09:35",
+    "recorded_entry": "13:40",
+    "true_entry": "09:40",
+    "entry_spot_csv": 55614.85,
+    "spot_open_true_entry": 55614.85,
+    "strike_basis_ok": true,
+    "verdict": "V-NS"
+   },
+   {
+    "date": "2026-09-28",
+    "direction": "PE",
+    "entry_time": "10:05",
+    "net": 1730.0,
+    "rep": "NS3_NS3-GD",
+    "signal_time": "09:30",
+    "recorded_entry": "10:05",
+    "true_entry": "09:35",
+    "entry_spot_csv": 54818.05,
+    "spot_open_true_entry": 54818.05,
+    "strike_basis_ok": true,
+    "verdict": "V-NS"
+   }
+  ],
+  "s3": [
+   {
+    "date": "2026-02-23",
+    "direction": "PE",
+    "entry_time": "11:50",
+    "net": -1720.0,
+    "rep": "S3-R1",
+    "signal_time": "11:45",
+    "verdict": "CAUSAL"
+   },
+   {
+    "date": "2026-03-17",
+    "direction": "PE",
+    "entry_time": "10:55",
+    "net": 2480.0,
+    "rep": "S3-R1",
+    "signal_time": "10:50",
+    "verdict": "CAUSAL"
+   },
+   {
+    "date": "2026-03-20",
+    "direction": "PE",
+    "entry_time": "09:45",
+    "net": 2480.0,
+    "rep": "S3-R1",
+    "signal_time": "09:40",
+    "verdict": "CAUSAL"
+   },
+   {
+    "date": "2026-05-04",
+    "direction": "PE",
+    "entry_time": "14:25",
+    "net": 2480.0,
+    "rep": "S3-PDC",
+    "signal_time": "14:20",
+    "verdict": "CAUSAL"
+   },
+   {
+    "date": "2026-06-08",
+    "direction": "PE",
+    "entry_time": "12:55",
+    "net": 2480.0,
+    "rep": "S3-R1",
+    "signal_time": "12:50",
+    "verdict": "CAUSAL"
+   },
+   {
+    "date": "2026-07-06",
+    "direction": "PE",
+    "entry_time": "10:15",
+    "net": -1720.0,
+    "rep": "S3-R1",
+    "signal_time": "10:10",
+    "verdict": "CAUSAL"
+   },
+   {
+    "date": "2026-09-30",
+    "direction": "PE",
+    "entry_time": "09:50",
+    "net": -1720.0,
+    "rep": "S3-R1",
+    "signal_time": "09:45",
+    "verdict": "CAUSAL"
+   }
+  ]
+ },
+ "summary": {
+  "base_census": {
+   "CAUSAL": [
+    58,
+    54926.0
+   ],
+   "V-SK": [
+    9,
+    25320.0
+   ]
+  },
+  "ns1_census": {
+   "CAUSAL": [
+    2,
+    5743.0
+   ],
+   "V-NS": [
+    13,
+    21941.0
+   ]
+  },
+  "ns3_census": {
+   "V-NS": [
+    17,
+    21208.0
+   ]
+  },
+  "s3_census": {
+   "CAUSAL": [
+    7,
+    4760.0
+   ]
+  },
+  "b1_legs": 110,
+  "b2_legs": 89,
+  "dropped": 21,
+  "b2_rule_consistent": true,
+  "b2_rule_mismatches": [],
+  "state_pipeline": {
+   "stream_legs": 88,
+   "taken_frozen": 82,
+   "taken_rederived": 82,
+   "sets_equal": true
+  },
+  "problems": [
+   {
+    "date": "2026-02-27",
+    "direction": "PE",
+    "entry_time": "09:45",
+    "net": 2480.0,
+    "rep": "Skill V3",
+    "sources": "(lA) v2;Skill V3;V5 v2",
+    "b1_rep": "Skill V3",
+    "b1_entry": "09:45",
+    "system_entries": {
+     "(lA) v2": "09:55",
+     "V5 v2": "09:55",
+     "Skill V3": "09:45"
+    },
+    "own_signal": "09:40",
+    "own_entry": "09:45",
+    "verdict": "V-SK",
+    "vsk": true,
+    "t2": "09:55"
+   },
+   {
+    "date": "2026-03-11",
+    "direction": "PE",
+    "entry_time": "09:55",
+    "net": 5180.0,
+    "rep": "Skill V3",
+    "sources": "(lA) v2;Skill V3",
+    "b1_rep": "Skill V3",
+    "b1_entry": "09:55",
+    "system_entries": {
+     "(lA) v2": "10:45",
+     "Skill V3": "09:55"
+    },
+    "own_signal": "09:50",
+    "own_entry": "09:55",
+    "verdict": "V-SK",
+    "vsk": true,
+    "t2": "10:45"
+   },
+   {
+    "date": "2026-04-16",
+    "direction": "PE",
+    "entry_time": "09:45",
+    "net": -1720.0,
+    "rep": "Skill V3",
+    "sources": "(lA) v2;Skill V3",
+    "b1_rep": "Skill V3",
+    "b1_entry": "09:45",
+    "system_entries": {
+     "(lA) v2": "12:05",
+     "Skill V3": "09:45"
+    },
+    "own_signal": "09:40",
+    "own_entry": "09:45",
+    "verdict": "V-SK",
+    "vsk": true,
+    "t2": "12:05"
+   },
+   {
+    "date": "2026-05-14",
+    "direction": "PE",
+    "entry_time": "09:50",
+    "net": 5180.0,
+    "rep": "Skill V3",
+    "sources": "(lA) v2;Skill V3;V5 v2",
+    "b1_rep": "Skill V3",
+    "b1_entry": "09:50",
+    "system_entries": {
+     "(lA) v2": "11:00",
+     "V5 v2": "11:00",
+     "Skill V3": "09:50"
+    },
+    "own_signal": "09:45",
+    "own_entry": "09:50",
+    "verdict": "V-SK",
+    "vsk": true,
+    "t2": "11:00"
+   },
+   {
+    "date": "2026-06-16",
+    "direction": "PE",
+    "entry_time": "09:45",
+    "net": -1720.0,
+    "rep": "Skill V3",
+    "sources": "Skill V3;V5 v2",
+    "b1_rep": "Skill V3",
+    "b1_entry": "09:45",
+    "system_entries": {
+     "V5 v2": "10:10",
+     "Skill V3": "09:45"
+    },
+    "own_signal": "09:40",
+    "own_entry": "09:45",
+    "verdict": "V-SK",
+    "vsk": true,
+    "t2": "10:10"
+   },
+   {
+    "date": "2026-06-30",
+    "direction": "PE",
+    "entry_time": "09:45",
+    "net": -1720.0,
+    "rep": "Skill V3",
+    "sources": "(lA) v2;Skill V3",
+    "b1_rep": "Skill V3",
+    "b1_entry": "09:45",
+    "system_entries": {
+     "(lA) v2": "13:25",
+     "Skill V3": "09:45"
+    },
+    "own_signal": "09:40",
+    "own_entry": "09:45",
+    "verdict": "V-SK",
+    "vsk": true,
+    "t2": "13:25"
+   },
+   {
+    "date": "2026-07-14",
+    "direction": "PE",
+    "entry_time": "09:40",
+    "net": -1720.0,
+    "rep": "Skill V3",
+    "sources": "(lA) v2;Skill V3",
+    "b1_rep": "Skill V3",
+    "b1_entry": "09:40",
+    "system_entries": {
+     "(lA) v2": "10:20",
+     "Skill V3": "09:40"
+    },
+    "own_signal": "09:35",
+    "own_entry": "09:40",
+    "verdict": "V-SK",
+    "vsk": true,
+    "t2": "10:20"
+   },
+   {
+    "date": "2026-08-24",
+    "direction": "PE",
+    "entry_time": "09:40",
+    "net": 9680.0,
+    "rep": "Skill V3",
+    "sources": "(lA) v2;Skill V3",
+    "b1_rep": "Skill V3",
+    "b1_entry": "09:40",
+    "system_entries": {
+     "(lA) v2": "11:10",
+     "Skill V3": "09:40"
+    },
+    "own_signal": "09:35",
+    "own_entry": "09:40",
+    "verdict": "V-SK",
+    "vsk": true,
+    "t2": "11:10"
+   },
+   {
+    "date": "2026-10-23",
+    "direction": "PE",
+    "entry_time": "09:50",
+    "net": 9680.0,
+    "rep": "Skill V3",
+    "sources": "(lA) v2;Skill V3",
+    "b1_rep": "Skill V3",
+    "b1_entry": "09:50",
+    "system_entries": {
+     "(lA) v2": "10:00",
+     "Skill V3": "09:50"
+    },
+    "own_signal": "09:45",
+    "own_entry": "09:50",
+    "verdict": "V-SK",
+    "vsk": true,
+    "t2": "10:00"
+   },
+   {
+    "date": "2026-01-22",
+    "direction": "PE",
+    "entry_time": "10:55",
+    "net": 2030.0,
+    "signal_time": "10:45",
+    "recorded_entry": "10:55",
+    "true_entry": "10:50",
+    "s1_exit_reason": "stop",
+    "s1_exit_time": "09:50",
+    "precond_ok": true,
+    "entry_spot_csv": 59050.75,
+    "spot_open_true_entry": 59050.75,
+    "strike_basis_ok": true,
+    "verdict": "V-NS"
+   },
+   {
+    "date": "2026-01-23",
+    "direction": "PE",
+    "entry_time": "13:15",
+    "net": 9680.0,
+    "signal_time": "11:15",
+    "recorded_entry": "13:15",
+    "true_entry": "11:20",
+    "s1_exit_reason": "stop",
+    "s1_exit_time": "10:30",
+    "precond_ok": true,
+    "entry_spot_csv": 59100.85,
+    "spot_open_true_entry": 59100.85,
+    "strike_basis_ok": true,
+    "verdict": "V-NS"
+   },
+   {
+    "date": "2026-02-03",
+    "direction": "PE",
+    "entry_time": "10:10",
+    "net": -1720.0,
+    "signal_time": "10:00",
+    "recorded_entry": "10:10",
+    "true_entry": "10:05",
+    "s1_exit_reason": "stop",
+    "s1_exit_time": "09:50",
+    "precond_ok": true,
+    "entry_spot_csv": 60003.9,
+    "spot_open_true_entry": 60003.9,
+    "strike_basis_ok": true,
+    "verdict": "V-NS"
+   },
+   {
+    "date": "2026-02-05",
+    "direction": "PE",
+    "entry_time": "14:10",
+    "net": -1720.0,
+    "signal_time": "10:25",
+    "recorded_entry": "14:10",
+    "true_entry": "10:30",
+    "s1_exit_reason": "stop",
+    "s1_exit_time": "10:20",
+    "precond_ok": true,
+    "entry_spot_csv": 60146.55,
+    "spot_open_true_entry": 60146.55,
+    "strike_basis_ok": true,
+    "verdict": "V-NS"
+   },
+   {
+    "date": "2026-03-05",
+    "direction": "PE",
+    "entry_time": "12:25",
+    "net": -1720.0,
+    "signal_time": "11:45",
+    "recorded_entry": "12:25",
+    "true_entry": "11:50",
+    "s1_exit_reason": "stop",
+    "s1_exit_time": "11:25",
+    "precond_ok": true,
+    "entry_spot_csv": 58756.95,
+    "spot_open_true_entry": 58756.95,
+    "strike_basis_ok": true,
+    "verdict": "V-NS"
+   },
+   {
+    "date": "2026-03-24",
+    "direction": "PE",
+    "entry_time": "10:25",
+    "net": 5180.0,
+    "signal_time": "10:00",
+    "recorded_entry": "10:25",
+    "true_entry": "10:05",
+    "s1_exit_reason": "stop",
+    "s1_exit_time": "09:55",
+    "precond_ok": true,
+    "entry_spot_csv": 52115.05,
+    "spot_open_true_entry": 52115.05,
+    "strike_basis_ok": true,
+    "verdict": "V-NS"
+   },
+   {
+    "date": "2026-04-09",
+    "direction": "PE",
+    "entry_time": "12:10",
+    "net": 2480.0,
+    "signal_time": "12:00",
+    "recorded_entry": "12:10",
+    "true_entry": "12:05",
+    "s1_exit_reason": "stop",
+    "s1_exit_time": "10:10",
+    "precond_ok": true,
+    "entry_spot_csv": 55219.55,
+    "spot_open_true_entry": 55219.55,
+    "strike_basis_ok": true,
+    "verdict": "V-NS"
+   },
+   {
+    "date": "2026-04-15",
+    "direction": "PE",
+    "entry_time": "11:05",
+    "net": 2480.0,
+    "signal_time": "10:55",
+    "recorded_entry": "11:05",
+    "true_entry": "11:00",
+    "s1_exit_reason": "stop",
+    "s1_exit_time": "09:40",
+    "precond_ok": true,
+    "entry_spot_csv": 56333.25,
+    "spot_open_true_entry": 56333.25,
+    "strike_basis_ok": true,
+    "verdict": "V-NS"
+   },
+   {
+    "date": "2026-06-01",
+    "direction": "PE",
+    "entry_time": "11:55",
+    "net": 2480.0,
+    "signal_time": "11:20",
+    "recorded_entry": "11:55",
+    "true_entry": "11:25",
+    "s1_exit_reason": "target",
+    "s1_exit_time": "10:25",
+    "precond_ok": true,
+    "entry_spot_csv": 54109.35,
+    "spot_open_true_entry": 54109.35,
+    "strike_basis_ok": true,
+    "verdict": "V-NS"
+   },
+   {
+    "date": "2026-07-02",
+    "direction": "PE",
+    "entry_time": "11:35",
+    "net": -1720.0,
+    "signal_time": "11:05",
+    "recorded_entry": "11:35",
+    "true_entry": "11:10",
+    "s1_exit_reason": "stop",
+    "s1_exit_time": "10:00",
+    "precond_ok": true,
+    "entry_spot_csv": 58072.65,
+    "spot_open_true_entry": 58072.65,
+    "strike_basis_ok": true,
+    "verdict": "V-NS"
+   },
+   {
+    "date": "2026-09-01",
+    "direction": "PE",
+    "entry_time": "14:00",
+    "net": -469.0,
+    "signal_time": "13:45",
+    "recorded_entry": "14:00",
+    "true_entry": "13:50",
+    "s1_exit_reason": "stop",
+    "s1_exit_time": "13:00",
+    "precond_ok": true,
+    "entry_spot_csv": 57311.75,
+    "spot_open_true_entry": 57311.75,
+    "strike_basis_ok": true,
+    "verdict": "V-NS"
+   },
+   {
+    "date": "2026-10-12",
+    "direction": "PE",
+    "entry_time": "10:50",
+    "net": 2480.0,
+    "signal_time": "10:25",
+    "recorded_entry": "10:50",
+    "true_entry": "10:30",
+    "precond_ok": null,
+    "strike_basis_ok": null,
+    "verdict": "V-NS"
+   },
+   {
+    "date": "2026-10-27",
+    "direction": "PE",
+    "entry_time": "13:25",
+    "net": 2480.0,
+    "signal_time": "13:05",
+    "recorded_entry": "13:25",
+    "true_entry": "13:10",
+    "precond_ok": null,
+    "strike_basis_ok": null,
+    "verdict": "V-NS"
+   },
+   {
+    "date": "2026-01-29",
+    "direction": "CE",
+    "entry_time": "15:10",
+    "net": 1730.0,
+    "rep": "NS3_NS3-GD",
+    "signal_time": "13:30",
+    "recorded_entry": "15:10",
+    "true_entry": "13:35",
+    "entry_spot_csv": 59897.9,
+    "spot_open_true_entry": 59897.9,
+    "strike_basis_ok": true,
+    "verdict": "V-NS"
+   },
+   {
+    "date": "2026-02-13",
+    "direction": "PE",
+    "entry_time": "10:35",
+    "net": 4478.0,
+    "rep": "NS3_NS3-GD",
+    "signal_time": "10:10",
+    "recorded_entry": "10:35",
+    "true_entry": "10:15",
+    "entry_spot_csv": 60420.7,
+    "spot_open_true_entry": 60420.7,
+    "strike_basis_ok": true,
+    "verdict": "V-NS"
+   },
+   {
+    "date": "2026-03-20",
+    "direction": "CE",
+    "entry_time": "09:40",
+    "net": -1720.0,
+    "rep": "NS3_NS3-GD",
+    "signal_time": "09:30",
+    "recorded_entry": "09:40",
+    "true_entry": "09:35",
+    "entry_spot_csv": 54362.4,
+    "spot_open_true_entry": 54362.4,
+    "strike_basis_ok": true,
+    "verdict": "V-NS"
+   },
+   {
+    "date": "2026-03-27",
+    "direction": "PE",
+    "entry_time": "11:15",
+    "net": 1730.0,
+    "rep": "NS3_NS3-GD",
+    "signal_time": "09:30",
+    "recorded_entry": "11:15",
+    "true_entry": "09:35",
+    "entry_spot_csv": 52740.5,
+    "spot_open_true_entry": 52740.5,
+    "strike_basis_ok": true,
+    "verdict": "V-NS"
+   },
+   {
+    "date": "2026-04-28",
+    "direction": "CE",
+    "entry_time": "10:35",
+    "net": -1720.0,
+    "rep": "NS3_NS3-GD",
+    "signal_time": "09:55",
+    "recorded_entry": "10:35",
+    "true_entry": "10:00",
+    "entry_spot_csv": 56094.7,
+    "spot_open_true_entry": 56094.7,
+    "strike_basis_ok": true,
+    "verdict": "V-NS"
+   },
+   {
+    "date": "2026-05-08",
+    "direction": "PE",
+    "entry_time": "12:20",
+    "net": 5030.0,
+    "rep": "NS3_NS3-GD",
+    "signal_time": "12:10",
+    "recorded_entry": "12:20",
+    "true_entry": "12:15",
+    "entry_spot_csv": 55503.75,
+    "spot_open_true_entry": 55503.75,
+    "strike_basis_ok": true,
+    "verdict": "V-NS"
+   },
+   {
+    "date": "2026-06-10",
+    "direction": "CE",
+    "entry_time": "12:40",
+    "net": -1720.0,
+    "rep": "NS3_NS3-GD",
+    "signal_time": "10:50",
+    "recorded_entry": "12:40",
+    "true_entry": "10:55",
+    "entry_spot_csv": 55417.4,
+    "spot_open_true_entry": 55417.4,
+    "strike_basis_ok": true,
+    "verdict": "V-NS"
+   },
+   {
+    "date": "2026-07-07",
+    "direction": "PE",
+    "entry_time": "13:40",
+    "net": -1720.0,
+    "rep": "NS3_NS3-GU",
+    "signal_time": "13:10",
+    "recorded_entry": "13:40",
+    "true_entry": "13:15",
+    "entry_spot_csv": 58247.7,
+    "spot_open_true_entry": 58247.7,
+    "strike_basis_ok": true,
+    "verdict": "V-NS"
+   },
+   {
+    "date": "2026-07-08",
+    "direction": "PE",
+    "entry_time": "09:45",
+    "net": -1720.0,
+    "rep": "NS3_NS3-GD",
+    "signal_time": "09:30",
+    "recorded_entry": "09:45",
+    "true_entry": "09:35",
+    "entry_spot_csv": 57744.0,
+    "spot_open_true_entry": 57744.0,
+    "strike_basis_ok": true,
+    "verdict": "V-NS"
+   },
+   {
+    "date": "2026-07-13",
+    "direction": "CE",
+    "entry_time": "10:20",
+    "net": 1730.0,
+    "rep": "NS3_NS3-GD",
+    "signal_time": "09:35",
+    "recorded_entry": "10:20",
+    "true_entry": "09:40",
+    "entry_spot_csv": 57736.55,
+    "spot_open_true_entry": 57736.55,
+    "strike_basis_ok": true,
+    "verdict": "V-NS"
+   },
+   {
+    "date": "2026-07-23",
+    "direction": "PE",
+    "entry_time": "12:00",
+    "net": 5030.0,
+    "rep": "NS3_NS3-GD",
+    "signal_time": "11:45",
+    "recorded_entry": "12:00",
+    "true_entry": "11:50",
+    "entry_spot_csv": 56630.4,
+    "spot_open_true_entry": 56630.4,
+    "strike_basis_ok": true,
+    "verdict": "V-NS"
+   },
+   {
+    "date": "2026-09-01",
+    "direction": "CE",
+    "entry_time": "13:00",
+    "net": -1720.0,
+    "rep": "NS3_NS3-GD",
+    "signal_time": "11:10",
+    "recorded_entry": "13:00",
+    "true_entry": "11:15",
+    "entry_spot_csv": 57652.25,
+    "spot_open_true_entry": 57652.25,
+    "strike_basis_ok": true,
+    "verdict": "V-NS"
+   },
+   {
+    "date": "2026-09-11",
+    "direction": "CE",
+    "entry_time": "10:30",
+    "net": 5030.0,
+    "rep": "NS3_NS3-GD",
+    "signal_time": "10:10",
+    "recorded_entry": "10:30",
+    "true_entry": "10:15",
+    "entry_spot_csv": 56022.0,
+    "spot_open_true_entry": 56022.0,
+    "strike_basis_ok": true,
+    "verdict": "V-NS"
+   },
+   {
+    "date": "2026-09-15",
+    "direction": "PE",
+    "entry_time": "09:55",
+    "net": 1730.0,
+    "rep": "NS3_NS3-GU",
+    "signal_time": "09:30",
+    "recorded_entry": "09:55",
+    "true_entry": "09:35",
+    "entry_spot_csv": 56476.2,
+    "spot_open_true_entry": 56476.2,
+    "strike_basis_ok": true,
+    "verdict": "V-NS"
+   },
+   {
+    "date": "2026-09-17",
+    "direction": "CE",
+    "entry_time": "10:35",
+    "net": -1720.0,
+    "rep": "NS3_NS3-GD",
+    "signal_time": "09:30",
+    "recorded_entry": "10:35",
+    "true_entry": "09:35",
+    "entry_spot_csv": 56497.6,
+    "spot_open_true_entry": 56497.6,
+    "strike_basis_ok": true,
+    "verdict": "V-NS"
+   },
+   {
+    "date": "2026-09-24",
+    "direction": "PE",
+    "entry_time": "13:40",
+    "net": 5030.0,
+    "rep": "NS3_NS3-GD",
+    "signal_time": "09:35",
+    "recorded_entry": "13:40",
+    "true_entry": "09:40",
+    "entry_spot_csv": 55614.85,
+    "spot_open_true_entry": 55614.85,
+    "strike_basis_ok": true,
+    "verdict": "V-NS"
+   },
+   {
+    "date": "2026-09-28",
+    "direction": "PE",
+    "entry_time": "10:05",
+    "net": 1730.0,
+    "rep": "NS3_NS3-GD",
+    "signal_time": "09:30",
+    "recorded_entry": "10:05",
+    "true_entry": "09:35",
+    "entry_spot_csv": 54818.05,
+    "spot_open_true_entry": 54818.05,
+    "strike_basis_ok": true,
+    "verdict": "V-NS"
+   }
+  ]
+ }
+}
