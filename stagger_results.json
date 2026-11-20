@@ -1,0 +1,513 @@
+{
+ "basis": "equity cash intraday, per 100 shares PROVISIONAL, Rs40/trade, paper only, real money Rs0; VWAP = equal-weighted typical-price proxy",
+ "spec": "stagger_SPEC.md (frozen 2026-11-17, before scoring)",
+ "control_reproduced": true,
+ "timing_audit": {
+  "truncated_recompute_checked": 313,
+  "truncated_recompute_mismatches": 0
+ },
+ "books": {
+  "CAND-T5": {
+   "control": {
+    "stats": {
+     "2025": {
+      "trades": 1035,
+      "net": 62164.57,
+      "wr": 35.56,
+      "losing_share_pct": 64.44,
+      "avg_loss": -595.67,
+      "worst_day": -5023.99,
+      "max_drawdown": -26599.28,
+      "ex_top3": 29064.57,
+      "cluster_days": 10,
+      "cluster_day_total": -21803.12,
+      "cluster_stop_net": -31868.12
+     },
+     "2026": {
+      "trades": 1025,
+      "net": 63883.6,
+      "wr": 35.71,
+      "losing_share_pct": 64.29,
+      "avg_loss": -597.57,
+      "worst_day": -6039.0,
+      "max_drawdown": -37574.55,
+      "ex_top3": 39713.6,
+      "cluster_days": 9,
+      "cluster_day_total": -37284.25,
+      "cluster_stop_net": -33641.25
+     },
+     "november": {
+      "trades": 45,
+      "net": 24528.65,
+      "wr": 48.89,
+      "losing_share_pct": 51.11,
+      "avg_loss": -500.49,
+      "worst_day": -3415.5,
+      "max_drawdown": -5843.45,
+      "ex_top3": 6783.65,
+      "cluster_days": 0,
+      "cluster_day_total": 0,
+      "cluster_stop_net": 0
+     }
+    },
+    "halves": {
+     "2025": {
+      "jan_jun": {
+       "trades": 615,
+       "total": 62951.63,
+       "wr": 35.61,
+       "expectancy": 102.36
+      },
+      "jul_oct": {
+       "trades": 420,
+       "total": -787.06,
+       "wr": 35.48,
+       "expectancy": -1.87
+      }
+     },
+     "2026": {
+      "jan_jun": {
+       "trades": 600,
+       "total": 66314.25,
+       "wr": 36.17,
+       "expectancy": 110.52
+      },
+      "jul_oct": {
+       "trades": 425,
+       "total": -2430.65,
+       "wr": 35.06,
+       "expectancy": -5.72
+      }
+     }
+    }
+   },
+   "variants": {
+    "SLOT30": {
+     "stats": {
+      "2025": {
+       "trades": 1031,
+       "net": 24735.31,
+       "wr": 32.98,
+       "losing_share_pct": 67.02,
+       "avg_loss": -469.32,
+       "worst_day": -4470.5,
+       "max_drawdown": -21764.4,
+       "ex_top3": -2009.69,
+       "cluster_days": 1,
+       "cluster_day_total": -3831.15,
+       "cluster_stop_net": -4461.15
+      },
+      "2026": {
+       "trades": 1025,
+       "net": 10265.38,
+       "wr": 32.0,
+       "losing_share_pct": 68.0,
+       "avg_loss": -495.69,
+       "worst_day": -4282.4,
+       "max_drawdown": -46251.22,
+       "ex_top3": -20364.62,
+       "cluster_days": 0,
+       "cluster_day_total": 0,
+       "cluster_stop_net": 0
+      },
+      "november": {
+       "trades": 45,
+       "net": 5275.0,
+       "wr": 28.89,
+       "losing_share_pct": 71.11,
+       "avg_loss": -464.22,
+       "worst_day": -3235.0,
+       "max_drawdown": -5955.0,
+       "ex_top3": -7200.0,
+       "cluster_days": 0,
+       "cluster_day_total": 0,
+       "cluster_stop_net": 0
+      }
+     },
+     "verdict": {
+      "2025": {
+       "net_ge_75pct": false,
+       "dd_le_70pct": false,
+       "losing_share_lower": false,
+       "pass": false
+      },
+      "2026": {
+       "net_ge_75pct": false,
+       "dd_le_70pct": false,
+       "losing_share_lower": false,
+       "pass": false
+      },
+      "PASS": false
+     }
+    },
+    "SLOT60": {
+     "stats": {
+      "2025": {
+       "trades": 1031,
+       "net": 8410.74,
+       "wr": 33.95,
+       "losing_share_pct": 66.05,
+       "avg_loss": -455.31,
+       "worst_day": -5762.1,
+       "max_drawdown": -22158.62,
+       "ex_top3": -18334.26,
+       "cluster_days": 1,
+       "cluster_day_total": -5762.1,
+       "cluster_stop_net": -4547.1
+      },
+      "2026": {
+       "trades": 1025,
+       "net": 23233.95,
+       "wr": 34.15,
+       "losing_share_pct": 65.85,
+       "avg_loss": -479.74,
+       "worst_day": -5108.65,
+       "max_drawdown": -26707.75,
+       "ex_top3": -7396.05,
+       "cluster_days": 3,
+       "cluster_day_total": 1304.65,
+       "cluster_stop_net": -7860.35
+      },
+      "november": {
+       "trades": 45,
+       "net": 13720.0,
+       "wr": 42.22,
+       "losing_share_pct": 57.78,
+       "avg_loss": -405.77,
+       "worst_day": -1265.0,
+       "max_drawdown": -2790.0,
+       "ex_top3": 1405.0,
+       "cluster_days": 0,
+       "cluster_day_total": 0,
+       "cluster_stop_net": 0
+      }
+     },
+     "verdict": {
+      "2025": {
+       "net_ge_75pct": false,
+       "dd_le_70pct": false,
+       "losing_share_lower": false,
+       "pass": false
+      },
+      "2026": {
+       "net_ge_75pct": false,
+       "dd_le_70pct": false,
+       "losing_share_lower": false,
+       "pass": false
+      },
+      "PASS": false
+     }
+    },
+    "LATE": {
+     "stats": {
+      "2025": {
+       "trades": 1035,
+       "net": -32599.8,
+       "wr": 30.14,
+       "losing_share_pct": 69.86,
+       "avg_loss": -479.76,
+       "worst_day": -4588.6,
+       "max_drawdown": -50404.06,
+       "ex_top3": -58144.8,
+       "cluster_days": 3,
+       "cluster_day_total": -11120.4,
+       "cluster_stop_net": -9871.4
+      },
+      "2026": {
+       "trades": 1025,
+       "net": 975.17,
+       "wr": 29.95,
+       "losing_share_pct": 70.05,
+       "avg_loss": -459.23,
+       "worst_day": -5415.6,
+       "max_drawdown": -34203.15,
+       "ex_top3": -22624.83,
+       "cluster_days": 1,
+       "cluster_day_total": -5415.6,
+       "cluster_stop_net": -4720.6
+      },
+      "november": {
+       "trades": 45,
+       "net": 14260.05,
+       "wr": 40.0,
+       "losing_share_pct": 60.0,
+       "avg_loss": -458.15,
+       "worst_day": -2750.0,
+       "max_drawdown": -5679.95,
+       "ex_top3": -4364.95,
+       "cluster_days": 0,
+       "cluster_day_total": 0,
+       "cluster_stop_net": 0
+      }
+     },
+     "verdict": {
+      "2025": {
+       "net_ge_75pct": false,
+       "dd_le_70pct": false,
+       "losing_share_lower": false,
+       "pass": false
+      },
+      "2026": {
+       "net_ge_75pct": false,
+       "dd_le_70pct": false,
+       "losing_share_lower": false,
+       "pass": false
+      },
+      "PASS": false
+     }
+    }
+   }
+  },
+  "S2": {
+   "control": {
+    "stats": {
+     "2025": {
+      "trades": 621,
+      "net": 45300.64,
+      "wr": 34.94,
+      "losing_share_pct": 65.06,
+      "avg_loss": -747.34,
+      "worst_day": -4480.3,
+      "max_drawdown": -27976.77,
+      "ex_top3": 12200.64,
+      "cluster_days": 3,
+      "cluster_day_total": -9535.39,
+      "cluster_stop_net": -9535.39
+     },
+     "2026": {
+      "trades": 615,
+      "net": 72605.3,
+      "wr": 36.75,
+      "losing_share_pct": 63.25,
+      "avg_loss": -692.5,
+      "worst_day": -4816.4,
+      "max_drawdown": -25974.35,
+      "ex_top3": 49415.3,
+      "cluster_days": 1,
+      "cluster_day_total": -4816.4,
+      "cluster_stop_net": -4816.4
+     },
+     "november": {
+      "trades": 27,
+      "net": 20662.6,
+      "wr": 55.56,
+      "losing_share_pct": 44.44,
+      "avg_loss": -636.45,
+      "worst_day": -3550.0,
+      "max_drawdown": -6320.0,
+      "ex_top3": 2917.6,
+      "cluster_days": 0,
+      "cluster_day_total": 0,
+      "cluster_stop_net": 0
+     }
+    },
+    "halves": {
+     "2025": {
+      "jan_jun": {
+       "trades": 369,
+       "total": 52610.81,
+       "wr": 34.69,
+       "expectancy": 142.58
+      },
+      "jul_oct": {
+       "trades": 252,
+       "total": -7310.17,
+       "wr": 35.32,
+       "expectancy": -29.01
+      }
+     },
+     "2026": {
+      "jan_jun": {
+       "trades": 360,
+       "total": 71329.45,
+       "wr": 36.67,
+       "expectancy": 198.14
+      },
+      "jul_oct": {
+       "trades": 255,
+       "total": 1275.85,
+       "wr": 36.86,
+       "expectancy": 5.0
+      }
+     }
+    }
+   },
+   "variants": {
+    "SLOT30": {
+     "stats": {
+      "2025": {
+       "trades": 619,
+       "net": 44011.21,
+       "wr": 36.03,
+       "losing_share_pct": 63.97,
+       "avg_loss": -540.59,
+       "worst_day": -4299.5,
+       "max_drawdown": -21933.4,
+       "ex_top3": 17266.21,
+       "cluster_days": 1,
+       "cluster_day_total": -2951.55,
+       "cluster_stop_net": -2951.55
+      },
+      "2026": {
+       "trades": 615,
+       "net": 16211.73,
+       "wr": 33.98,
+       "losing_share_pct": 66.02,
+       "avg_loss": -553.6,
+       "worst_day": -3937.5,
+       "max_drawdown": -32029.9,
+       "ex_top3": -9138.27,
+       "cluster_days": 0,
+       "cluster_day_total": 0,
+       "cluster_stop_net": 0
+      },
+      "november": {
+       "trades": 27,
+       "net": 5790.0,
+       "wr": 33.33,
+       "losing_share_pct": 66.67,
+       "avg_loss": -636.94,
+       "worst_day": -2710.0,
+       "max_drawdown": -6765.0,
+       "ex_top3": -6525.0,
+       "cluster_days": 0,
+       "cluster_day_total": 0,
+       "cluster_stop_net": 0
+      }
+     },
+     "verdict": {
+      "2025": {
+       "net_ge_75pct": true,
+       "dd_le_70pct": false,
+       "losing_share_lower": true,
+       "pass": false
+      },
+      "2026": {
+       "net_ge_75pct": false,
+       "dd_le_70pct": false,
+       "losing_share_lower": false,
+       "pass": false
+      },
+      "PASS": false
+     }
+    },
+    "SLOT60": {
+     "stats": {
+      "2025": {
+       "trades": 619,
+       "net": 21790.07,
+       "wr": 35.22,
+       "losing_share_pct": 64.78,
+       "avg_loss": -524.85,
+       "worst_day": -3953.7,
+       "max_drawdown": -17855.69,
+       "ex_top3": -4954.93,
+       "cluster_days": 1,
+       "cluster_day_total": -3953.7,
+       "cluster_stop_net": -3953.7
+      },
+      "2026": {
+       "trades": 615,
+       "net": 28852.5,
+       "wr": 32.52,
+       "losing_share_pct": 67.48,
+       "avg_loss": -537.78,
+       "worst_day": -3930.0,
+       "max_drawdown": -18606.6,
+       "ex_top3": -1777.5,
+       "cluster_days": 0,
+       "cluster_day_total": 0,
+       "cluster_stop_net": 0
+      },
+      "november": {
+       "trades": 27,
+       "net": 8305.0,
+       "wr": 33.33,
+       "losing_share_pct": 66.67,
+       "avg_loss": -426.94,
+       "worst_day": -1895.0,
+       "max_drawdown": -2670.0,
+       "ex_top3": -4010.0,
+       "cluster_days": 0,
+       "cluster_day_total": 0,
+       "cluster_stop_net": 0
+      }
+     },
+     "verdict": {
+      "2025": {
+       "net_ge_75pct": false,
+       "dd_le_70pct": true,
+       "losing_share_lower": true,
+       "pass": false
+      },
+      "2026": {
+       "net_ge_75pct": false,
+       "dd_le_70pct": false,
+       "losing_share_lower": false,
+       "pass": false
+      },
+      "PASS": false
+     }
+    },
+    "LATE": {
+     "stats": {
+      "2025": {
+       "trades": 621,
+       "net": -9678.34,
+       "wr": 31.24,
+       "losing_share_pct": 68.76,
+       "avg_loss": -611.61,
+       "worst_day": -3574.7,
+       "max_drawdown": -29700.79,
+       "ex_top3": -35223.34,
+       "cluster_days": 0,
+       "cluster_day_total": 0,
+       "cluster_stop_net": 0
+      },
+      "2026": {
+       "trades": 615,
+       "net": 31847.45,
+       "wr": 33.5,
+       "losing_share_pct": 66.5,
+       "avg_loss": -562.05,
+       "worst_day": -4120.0,
+       "max_drawdown": -14787.1,
+       "ex_top3": 10517.45,
+       "cluster_days": 0,
+       "cluster_day_total": 0,
+       "cluster_stop_net": 0
+      },
+      "november": {
+       "trades": 27,
+       "net": 11620.0,
+       "wr": 33.33,
+       "losing_share_pct": 66.67,
+       "avg_loss": -527.78,
+       "worst_day": -2685.0,
+       "max_drawdown": -4695.0,
+       "ex_top3": -6270.0,
+       "cluster_days": 0,
+       "cluster_day_total": 0,
+       "cluster_stop_net": 0
+      }
+     },
+     "verdict": {
+      "2025": {
+       "net_ge_75pct": false,
+       "dd_le_70pct": false,
+       "losing_share_lower": false,
+       "pass": false
+      },
+      "2026": {
+       "net_ge_75pct": false,
+       "dd_le_70pct": true,
+       "losing_share_lower": false,
+       "pass": false
+      },
+      "PASS": false
+     }
+    }
+   }
+  }
+ }
+}

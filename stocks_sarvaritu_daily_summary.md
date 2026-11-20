@@ -14,3 +14,7 @@ Frozen book, paper only, real Rs0, provisional per 100 shares, Rs40/trade.
 - 2026-11-11 | regime UP | trades 2 (N4-V3 1, P2F 1) | day net +826.10 | 2026-11 running +8391.28 (26 tr) | DATA_MISSING: none
 - 2026-11-12 | regime UP | trades 4 (INV-ABOVE 1, N4-V3 1, P2F 1, P2F-R2 1) | day net -425.54 | 2026-11 running +7965.74 (30 tr) | DATA_MISSING: none
 - 2026-11-13 | regime UP | trades 2 (INV-ABOVE 1, N4-V3 1) | day net -447.80 | 2026-11 running +7517.94 (32 tr) | DATA_MISSING: none
+- 2026-11-16 | regime UP | trades 1 (P2F 1) | day net +530.25 | 2026-11 running +8048.19 (33 tr) | DATA_MISSING: none
+- 2026-11-17 | regime UP | trades 2 (INV-ABOVE 1, P2F-R2 1) | day net -938.00 | 2026-11 running +7110.19 (35 tr) | DATA_MISSING: none
+- 2026-11-18 | regime UP | trades 0 (none) | day net +0.00 | 2026-11 running +7110.19 (35 tr) | DATA_MISSING: none
+- 2026-11-19 | regime UP | trades 1 (INV-ABOVE 1) | day net +1190.00 | 2026-11 running +8300.19 (36 tr) | DATA_MISSING: none

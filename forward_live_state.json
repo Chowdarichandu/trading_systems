@@ -1,0 +1,81 @@
+{
+ "date": "2026-11-20",
+ "meta": {},
+ "books": {
+  "TARANG-C1": {
+   "entered": [
+    "MAXHEALTH"
+   ],
+   "open": {},
+   "closed": [
+    "MAXHEALTH"
+   ],
+   "emitted": [
+    "entry:MAXHEALTH",
+    "exit:MAXHEALTH"
+   ],
+   "trades": [
+    {
+     "date": "2026-11-20",
+     "book": "TARANG-C1",
+     "sym": "MAXHEALTH",
+     "side": "SHORT",
+     "gap_pct": 0.023399,
+     "entry_time": "09:15",
+     "entry_price": 1065.0,
+     "exit_time": "09:20",
+     "exit_price": 1075.65,
+     "exit_reason": "stop",
+     "net": -1105.0
+    }
+   ],
+   "running_total": -1105.0
+  },
+  "TARANG-C2": {
+   "entered": [
+    "MAXHEALTH"
+   ],
+   "open": {},
+   "closed": [
+    "MAXHEALTH"
+   ],
+   "emitted": [
+    "entry:MAXHEALTH",
+    "exit:MAXHEALTH"
+   ],
+   "trades": [
+    {
+     "date": "2026-11-20",
+     "book": "TARANG-C2",
+     "sym": "MAXHEALTH",
+     "side": "SHORT",
+     "gap_pct": 0.023399,
+     "entry_time": "09:15",
+     "entry_price": 1065.0,
+     "exit_time": "09:20",
+     "exit_price": 1068.9,
+     "exit_reason": "trailstop",
+     "net": -430.0
+    }
+   ],
+   "running_total": -430.0
+  },
+  "SAPTA-C1": {
+   "entered": [],
+   "open": {},
+   "closed": [],
+   "emitted": [],
+   "trades": [],
+   "running_total": 0.0
+  },
+  "SAPTA-C2": {
+   "entered": [],
+   "open": {},
+   "closed": [],
+   "emitted": [],
+   "trades": [],
+   "running_total": 0.0
+  }
+ },
+ "last_run": "2026-11-20T14:38:18+05:30"
+}

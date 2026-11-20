@@ -1,0 +1,19 @@
+EKAM MACHINERY CONTROL — running EKAM's own vote machinery on the frozen 25 ...
+EKAM CONTROL: {"CAND-T5": {"2025": {"trades": 1035, "net": 62164.57, "published": 62164.57, "diff": 0.0}, "2026": {"trades": 1025, "net": 63883.6, "published": 63883.6, "diff": -0.0}}, "S2": {"2025": {"trades": 621, "net": 45300.64, "published": 45300.64, "diff": 0.0}, "2026": {"trades": 615, "net": 72605.3, "published": 72605.3, "diff": -0.0}}, "reproduced": true}
+EKAM INDICATOR PARITY: {'names': 25, 'rsi_max_abs_diff': 0.0, 'hist_max_abs_diff': 2.036593116372387e-12, 'adx_max_abs_diff': 0.0, 'e9_max_abs_diff': 2.7284841053187847e-12, 'e21_max_abs_diff': 4.547473508864641e-12, 'stdir_compared': 866878, 'stdir_agree': 866878}
+DESIGN 22 universe: 127 verified names
+data + vote series ready
+ENGINE/VALIDATOR PARITY: {'names': 127, 'defined_bars_compared': 4396328, 'v_mismatch_bars': 0, 'transition_sets_compared': 127, 'transition_mismatches': 0}
+TARANG-T22: raw candidate stream 105035 entries | anatomy: {2025: {'trades': 55881, 'gross_inr': 872850.0, 'gross_per_trade': 15.62, 'net_inr': -1362390.0, 'net_per_trade': -24.38, 'long_trades': 27970, 'short_trades': 27911}, 2026: {'trades': 49154, 'gross_inr': 371573.5, 'gross_per_trade': 7.56, 'net_inr': -1594586.5, 'net_per_trade': -32.44, 'long_trades': 24484, 'short_trades': 24670}}
+TARANG-T22: 4636 trades from 105035 candidates, net -183660.0
+TARANG-T22 FLIP: {2025: -93300.0, 2026: -23677.5}
+TARANG-T22 RANDOM: p90 {2025: -41564.95, 2026: -33596.9} percentiles {2025: 86.0, 2026: 2.0}
+TARANG-T22 AUDIT: {'entry_not_after_signal': 0, 'entry_offset_wrong': 0, 'entry_outside_window': 0, 'signal_invalid': 0, 'v_mismatch': 0, 'range_mismatch': 0, 'exit_inconsistent': 0, 'squareoff_price_mismatch': 0, 'net_mismatch': 0, 'cap_name_day': 0, 'cap_book_day': 0, 'overlap_same_name': 0, 'allocation_mismatch': 0, 'total_violations': 0, 'parity_violations': 0} | spot: {'checked': 30, 'mismatches': 0}
+TARANG-T22 GATE: NO PASS | legs: {'net_positive_2025': False, 'net_positive_2026': False, 'beats_random_p90_2025': False, 'beats_random_p90_2026': False, 'ex_top3_positive_2025': False, 'ex_top3_positive_2026': False, 'no_month_worse_than_-15000': False, 'timing_audit_clean': True, 'november_slice_not_worse_than_-3000': False}
+TARANG-T22 RESOLUTION MIX: {'stop': {'trades': 2579, 'net': -1517606.0}, 'squareoff': {'trades': 2057, 'net': 1333946.0}}
+TARANG-T22 MIX BY YEAR: {2025: {'stop': {'trades': 1334, 'share_pct': 53.6, 'net': -787314.0, 'per_trade': -590.19}, 'squareoff': {'trades': 1156, 'share_pct': 46.4, 'net': 736310.0, 'per_trade': 636.95}}, 2026: {'stop': {'trades': 1245, 'share_pct': 58.0, 'net': -730292.0, 'per_trade': -586.58}, 'squareoff': {'trades': 901, 'share_pct': 42.0, 'net': 597636.0, 'per_trade': 663.3}}}
+TARANG-T22 COST ANATOMY: {'all': {'trades': 4636, 'gross_inr': 1780.0, 'cost_inr': 185440.0, 'net_inr': -183660.0, 'gross_per_trade': 0.38, 'cost_per_trade': 40.0, 'net_per_trade': -39.62}, '2025': {'trades': 2490, 'gross_inr': 48596.0, 'cost_inr': 99600.0, 'net_inr': -51004.0, 'gross_per_trade': 19.52, 'cost_per_trade': 40.0, 'net_per_trade': -20.48}, '2026': {'trades': 2146, 'gross_inr': -46816.0, 'cost_inr': 85840.0, 'net_inr': -132656.0, 'gross_per_trade': -21.82, 'cost_per_trade': 40.0, 'net_per_trade': -61.82}}
+TARANG-T22 STOP-DIST STATS: {'mean_pct': 0.814, 'median_pct': 0.69, 'p10_pct': 0.365, 'p90_pct': 1.389, 'share_tighter_than_flat_1pct': 0.7487, 'share_wider_than_flat_1pct': 0.2513, 'share_equal_flat_1pct': 0.0}
+TARANG-T22: trades CSV written incrementally (4636 rows so far)
+RE-SUM: {'TARANG-T22': {2025: -51004.0, 2026: -132656.0, 'match': True}}
+DESIGN 22 SCORING DONE

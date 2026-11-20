@@ -1,0 +1,18 @@
+
+
+# SAPTA Design 18 — registry section (sapta_d18_SPEC.md)
+
+C-12a EKAM machinery control ...
+C-18a imported-machinery verification (prepping 127 names) ...
+C-18b Design 16 anchor reproduction ...
+## D18 CONTROLS PASS: C-12a EKAM exact; C-18a ORB30 / ORB30-SHORT / VOLSHOCK on the 127 exact vs D23/D24 published; C-18b D16 union anchor exact (424 trades, +1,36,826.29/+24,893.52).
+Survey scoring (7 streams, SAPTA rotating universe) ...
+## D18 STREAM GF-FILL3: 135/160 trades | gpt 195.5/187.99 | net +20,992/+23,679 | full +44,671 | survey PASS
+## D18 STREAM GF-ON2: 135/162 trades | gpt 461.62/47.27 | net +56,918/+1,178 | full +58,096 | survey PASS
+## D18 STREAM VOLSHOCK: 2437/1924 trades | gpt 29.76/27.6 | net -24,943/-23,860 | full -48,803 | survey FAIL
+## D18 STREAM GF-ON1: 135/162 trades | gpt 444.29/21.32 | net +54,579/-3,027 | full +51,552 | survey FAIL
+## D18 STREAM ORB30-SHORT: 2042/1516 trades | gpt 16.62/20.41 | net -47,749/-29,703 | full -77,452 | survey FAIL
+## D18 STREAM GF-LATE: 44/61 trades | gpt -2.97/-26.77 | net -1,891/-4,073 | full -5,964 | survey FAIL
+## D18 STREAM GF-BAR2: 135/162 trades | gpt 106.76/-123.75 | net +9,013/-26,527 | full -17,514 | survey FAIL
+## D18 SURVEY COMPLETE: passing ['GF-FILL3', 'GF-ON2'] of 7. Ranked by binding year: [('GF-FILL3', 195.5, 187.99), ('GF-ON2', 461.62, 47.27), ('VOLSHOCK', 29.76, 27.6), ('GF-ON1', 444.29, 21.32), ('ORB30-SHORT', 16.62, 20.41), ('GF-LATE', -2.97, -26.77), ('GF-BAR2', 106.76, -123.75)]
+MAIN RUN COMPLETE (verdict in report; audit runs separately)

@@ -1,0 +1,18 @@
+DESIGN 8 universe: 127 verified names (Round 6 basis)
+data loaded
+PARITY: 147718 engine signals, mismatches: []
+PARITY CLEAN — engine and validator signal sets identical on all 127 names
+TARANG-T8: 4640 trades from 95185 candidate entries, net -157712.36
+TARANG-T8 FLIP: {2025: -122208.72, 2026: -113488.56}
+TARANG-T8 RANDOM: p90 {2025: -63763.84, 2026: -45402.23} percentiles {2025: 63.5, 2026: 66.0}
+TARANG-T8 AUDIT: {'entry_not_after_signal': 0, 'entry_before_0945': 0, 'entry_after_1430': 0, 'entry_not_next_bar': 0, 'exit_inconsistent': 0, 'signal_invalid': 0, 'cap_name_day': 0, 'cap_book_day': 0, 'overlap_same_name': 0, 'net_mismatch': 0, 'squareoff_price_mismatch': 0, 'volratio_mismatch': 0, 'depth_mismatch': 0, 'snap_mismatch': 0, 'allocation_mismatch': 0, 'total_violations': 0} | spot: {'checked': 30, 'mismatches': 0}
+TARANG-T8 GATE: NO PASS | legs: {'net_positive_2025': False, 'net_positive_2026': False, 'beats_random_p90_2025': False, 'beats_random_p90_2026': False, 'ex_top3_positive_2025': False, 'ex_top3_positive_2026': False, 'no_month_worse_than_-15000': False, 'timing_audit_clean': True, 'november_slice_not_worse_than_-3000': False}
+TARANG-T8 RESOLUTION MIX: {'all': {'stop': {'trades': 2689, 'net': -1182191.74}, 'target': {'trades': 1612, 'net': 996829.38}, 'squareoff': {'trades': 339, 'net': 27650.0}, 'stop_share_of_resolved_pct': 62.5}, '2025': {'stop': {'trades': 1442, 'net': -629921.13}, 'target': {'trades': 843, 'net': 528776.76}, 'squareoff': {'trades': 205, 'net': 15872.0}, 'stop_share_of_resolved_pct': 63.1}, '2026': {'stop': {'trades': 1247, 'net': -552270.61}, 'target': {'trades': 769, 'net': 468052.62}, 'squareoff': {'trades': 134, 'net': 11778.0}, 'stop_share_of_resolved_pct': 61.9}}
+TARANG-T8-Q: 4640 trades from 95185 candidate entries, net -97132.04
+TARANG-T8-Q FLIP: {2025: -152409.16, 2026: -125410.8}
+TARANG-T8-Q RANDOM: p90 {2025: -63763.84, 2026: -45402.23} percentiles {2025: 85.5, 2026: 96.0}
+TARANG-T8-Q AUDIT: {'entry_not_after_signal': 0, 'entry_before_0945': 0, 'entry_after_1430': 0, 'entry_not_next_bar': 0, 'exit_inconsistent': 0, 'signal_invalid': 0, 'cap_name_day': 0, 'cap_book_day': 0, 'overlap_same_name': 0, 'net_mismatch': 0, 'squareoff_price_mismatch': 0, 'volratio_mismatch': 0, 'depth_mismatch': 0, 'snap_mismatch': 0, 'allocation_mismatch': 0, 'total_violations': 0} | spot: {'checked': 30, 'mismatches': 0}
+TARANG-T8-Q GATE: NO PASS | legs: {'net_positive_2025': False, 'net_positive_2026': False, 'beats_random_p90_2025': False, 'beats_random_p90_2026': True, 'ex_top3_positive_2025': False, 'ex_top3_positive_2026': False, 'no_month_worse_than_-15000': False, 'timing_audit_clean': True, 'november_slice_not_worse_than_-3000': True}
+TARANG-T8-Q RESOLUTION MIX: {'all': {'stop': {'trades': 2626, 'net': -1206641.45}, 'target': {'trades': 1624, 'net': 1074151.41}, 'squareoff': {'trades': 390, 'net': 35358.0}, 'stop_share_of_resolved_pct': 61.8}, '2025': {'stop': {'trades': 1407, 'net': -640322.06}, 'target': {'trades': 837, 'net': 552363.73}, 'squareoff': {'trades': 246, 'net': 21627.0}, 'stop_share_of_resolved_pct': 62.7}, '2026': {'stop': {'trades': 1219, 'net': -566319.39}, 'target': {'trades': 787, 'net': 521787.68}, 'squareoff': {'trades': 144, 'net': 13731.0}, 'stop_share_of_resolved_pct': 60.8}}
+RE-SUM: {'TARANG-T8': {2025: -85272.37, 2026: -72439.99, 'match': True}, 'TARANG-T8-Q': {2025: -66331.33, 2026: -30800.71, 'match': True}}
+DESIGN 8 SCORING DONE

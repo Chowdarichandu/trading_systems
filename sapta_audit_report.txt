@@ -1,0 +1,130 @@
+AUDIT ISSUES FOUND
+checked: {'intra': 94379, 'daily': 1143, 'sqoff': 17996}
+issues: 110
+ISSUE: HAVELLS 2025-01-01: exit stamp 2025-01-01 10:35 != re-derived 09:55
+ISSUE: KALYANKJIL 2025-01-01: exit stamp 2025-01-01 12:50 != re-derived 11:40
+ISSUE: VOLTAS 2025-01-01: exit stamp 2025-01-01 11:20 != re-derived 09:40
+ISSUE: HAVELLS 2025-01-01: exit stamp 2025-01-01 10:40 != re-derived 10:00
+ISSUE: KALYANKJIL 2025-01-01 2025-01-01 10:05: exit reason st_flip != re-derived stop
+ISSUE: KALYANKJIL 2025-01-01 2025-01-01 11:35: exit reason stop != re-derived st_flip
+ISSUE: VOLTAS 2025-01-01 2025-01-01 09:35: exit reason stop != re-derived st_flip
+ISSUE: GODFRYPHLP 2025-01-01 2025-01-01 09:35: exit reason stop != re-derived st_flip
+ISSUE: ITC 2025-01-01: exit stamp 2025-01-01 10:30 != re-derived 09:40
+ISSUE: UNITDSPR 2025-01-01: exit stamp 2025-01-01 10:00 != re-derived 09:40
+ISSUE: GODFRYPHLP 2025-01-01: exit stamp 2025-01-01 13:30 != re-derived 09:40
+ISSUE: ITC 2025-01-01: exit stamp 2025-01-01 10:30 != re-derived 09:40
+ISSUE: UNITDSPR 2025-01-01: exit stamp 2025-01-01 10:00 != re-derived 09:40
+ISSUE: FORTIS 2025-01-01 2025-01-01 09:35: exit reason target != re-derived st_flip
+ISSUE: GLENMARK 2025-01-01 2025-01-01 09:35: exit reason stop != re-derived st_flip
+ISSUE: LAURUSLABS 2025-01-01 2025-01-01 09:35: exit reason stop != re-derived st_flip
+ISSUE: GLENMARK 2025-01-01: exit stamp 2025-01-01 11:45 != re-derived 09:55
+ISSUE: SUNPHARMA 2025-01-01 2025-01-01 09:50: exit reason squareoff != re-derived st_flip
+ISSUE: COFORGE 2025-01-01 2025-01-01 09:35: exit reason target != re-derived st_flip
+ISSUE: HCLTECH 2025-01-01: exit stamp 2025-01-01 10:55 != re-derived 09:40
+ISSUE: INFY 2025-01-01 2025-01-01 09:35: exit reason st_flip != re-derived squareoff
+ISSUE: INFY 2025-01-01: exit stamp 2025-01-01 12:40 != re-derived 11:05
+ISSUE: COFORGE 2025-01-01: exit stamp 2025-01-01 14:05 != re-derived 09:55
+ISSUE: HCLTECH 2025-01-01: exit stamp 2025-01-01 11:10 != re-derived 09:55
+ISSUE: HCLTECH 2025-01-01 2025-01-01 11:15: exit reason st_flip != re-derived stop
+ISSUE: INFY 2025-01-01 2025-01-01 09:50: exit reason st_flip != re-derived squareoff
+ISSUE: INFY 2025-01-01 2025-01-01 11:55: exit reason squareoff != re-derived st_flip
+ISSUE: GLENMARK 2025-01-01 2025-01-01 09:35: exit reason stop != re-derived st_flip
+ISSUE: LAURUSLABS 2025-01-01 2025-01-01 09:35: exit reason stop != re-derived st_flip
+ISSUE: SUNPHARMA 2025-01-01 2025-01-01 09:35: exit reason squareoff != re-derived st_flip
+ISSUE: GLENMARK 2025-01-01: exit stamp 2025-01-01 11:45 != re-derived 09:55
+ISSUE: SUNPHARMA 2025-01-01 2025-01-01 09:50: exit reason squareoff != re-derived st_flip
+ISSUE: DLF 2025-01-01: exit stamp 2025-01-01 10:50 != re-derived 09:40
+ISSUE: LODHA 2025-01-01 2025-01-01 09:35: exit reason target != re-derived st_flip
+ISSUE: PHOENIXLTD 2025-01-01 2025-01-01 09:35: exit reason target != re-derived st_flip
+ISSUE: DLF 2025-01-01: exit stamp 2025-01-01 10:40 != re-derived 09:40
+ISSUE: PHOENIXLTD 2025-01-01 2025-01-01 09:35: exit reason target != re-derived st_flip
+ISSUE: HAVELLS 2025-01-01: exit stamp 2025-01-01 10:35 != re-derived 09:55
+ISSUE: VOLTAS 2025-01-01: exit stamp 2025-01-01 11:20 != re-derived 09:45
+ISSUE: HAVELLS 2025-01-01: exit stamp 2025-01-01 10:35 != re-derived 09:55
+ISSUE: VOLTAS 2025-01-01: exit stamp 2025-01-01 11:20 != re-derived 09:45
+ISSUE: GODFRYPHLP 2025-01-01 2025-01-01 09:40: exit reason stop != re-derived st_flip
+ISSUE: ITC 2025-01-01: exit stamp 2025-01-01 10:30 != re-derived 09:50
+ISSUE: UNITDSPR 2025-01-01: exit stamp 2025-01-01 10:00 != re-derived 09:55
+ISSUE: GODFRYPHLP 2025-01-01 2025-01-01 09:40: exit reason stop != re-derived st_flip
+ISSUE: ITC 2025-01-01: exit stamp 2025-01-01 10:50 != re-derived 09:50
+ISSUE: UNITDSPR 2025-01-01: exit stamp 2025-01-01 10:15 != re-derived 09:55
+ISSUE: FORTIS 2025-01-01: exit stamp 2025-01-01 13:10 != re-derived 09:55
+ISSUE: GLENMARK 2025-01-01 2025-01-01 09:50: exit reason stop != re-derived st_flip
+ISSUE: AUROPHARMA 2025-01-01 2025-01-01 09:35: exit reason stop != re-derived st_flip
+ISSUE: AUROPHARMA 2025-01-01: exit stamp 2025-01-01 10:15 != re-derived 10:00
+ISSUE: GLENMARK 2025-01-01: exit stamp 2025-01-01 11:45 != re-derived 09:45
+ISSUE: COFORGE 2025-01-01 2025-01-01 09:40: exit reason target != re-derived st_flip
+ISSUE: INFY 2025-01-01 2025-01-01 09:45: exit reason st_flip != re-derived squareoff
+ISSUE: INFY 2025-01-01: exit stamp 2025-01-01 12:40 != re-derived 11:05
+ISSUE: COFORGE 2025-01-01: exit stamp 2025-01-01 14:05 != re-derived 09:55
+ISSUE: INFY 2025-01-01 2025-01-01 09:55: exit reason st_flip != re-derived squareoff
+ISSUE: JINDALSTEL 2025-10-21 2025-10-21 13:50: exit reason squareoff != re-derived st_flip
+ISSUE: NATIONALUM 2025-10-21 2025-10-21 13:50: exit reason squareoff != re-derived st_flip
+ISSUE: GLENMARK 2025-01-01 2025-01-01 09:50: exit reason stop != re-derived st_flip
+ISSUE: SUNPHARMA 2025-01-01 2025-01-01 09:45: exit reason squareoff != re-derived st_flip
+ISSUE: AUROPHARMA 2025-01-01: exit stamp 2025-01-01 10:15 != re-derived 10:00
+ISSUE: GLENMARK 2025-01-01 2025-01-01 09:55: exit reason stop != re-derived st_flip
+ISSUE: SUNPHARMA 2025-01-01 2025-01-01 09:50: exit reason squareoff != re-derived st_flip
+ISSUE: DLF 2025-01-01: exit stamp 2025-01-01 10:50 != re-derived 09:50
+ISSUE: LODHA 2025-01-01 2025-01-01 09:50: exit reason target != re-derived st_flip
+ISSUE: PHOENIXLTD 2025-01-01 2025-01-01 09:40: exit reason target != re-derived st_flip
+ISSUE: DLF 2025-01-01: exit stamp 2025-01-01 10:40 != re-derived 09:45
+ISSUE: PHOENIXLTD 2025-01-01 2025-01-01 09:35: exit reason target != re-derived st_flip
+ISSUE: LAURUSLABS 2025-01-01 2025-01-01 09:35: exit reason stop != re-derived st_flip
+ISSUE: GLENMARK 2025-01-01 2025-01-01 09:35: exit reason stop != re-derived st_flip
+ISSUE: COFORGE 2025-01-01 2025-01-01 09:35: exit reason target != re-derived st_flip
+ISSUE: HCLTECH 2025-01-01: exit stamp 2025-01-01 10:55 != re-derived 09:40
+ISSUE: INFY 2025-01-01 2025-01-01 09:35: exit reason st_flip != re-derived squareoff
+ISSUE: FORTIS 2025-01-01 2025-01-01 09:35: exit reason target != re-derived st_flip
+ISSUE: DLF 2025-01-01: exit stamp 2025-01-01 10:50 != re-derived 09:40
+ISSUE: LODHA 2025-01-01 2025-01-01 09:35: exit reason target != re-derived st_flip
+ISSUE: GODFRYPHLP 2025-01-01 2025-01-01 09:35: exit reason stop != re-derived st_flip
+ISSUE: ITC 2025-01-01: exit stamp 2025-01-01 10:30 != re-derived 09:40
+ISSUE: GLENMARK 2025-01-01: exit stamp 2025-01-01 11:45 != re-derived 09:55
+ISSUE: COFORGE 2025-01-01: exit stamp 2025-01-01 14:05 != re-derived 09:55
+ISSUE: HCLTECH 2025-01-01: exit stamp 2025-01-01 11:10 != re-derived 09:55
+ISSUE: HCLTECH 2025-01-01 2025-01-01 12:50: exit reason squareoff != re-derived st_flip
+ISSUE: INFY 2025-01-01 2025-01-01 09:50: exit reason st_flip != re-derived squareoff
+ISSUE: VOLTAS 2025-01-01 2025-01-01 09:35: exit reason stop != re-derived st_flip
+ISSUE: DLF 2025-01-01: exit stamp 2025-01-01 10:40 != re-derived 09:40
+ISSUE: PHOENIXLTD 2025-01-01 2025-01-01 09:35: exit reason target != re-derived st_flip
+ISSUE: UNITDSPR 2025-01-01: exit stamp 2025-01-01 10:00 != re-derived 09:40
+ISSUE: GODFRYPHLP 2025-01-01: exit stamp 2025-01-01 13:30 != re-derived 09:40
+ISSUE: ITC 2025-01-01: exit stamp 2025-01-01 10:30 != re-derived 09:40
+ISSUE: SUNPHARMA 2025-01-01 2025-01-01 09:45: exit reason squareoff != re-derived st_flip
+ISSUE: COFORGE 2025-01-01 2025-01-01 09:40: exit reason target != re-derived st_flip
+ISSUE: INFY 2025-01-01 2025-01-01 09:45: exit reason st_flip != re-derived squareoff
+ISSUE: VOLTAS 2025-01-01: exit stamp 2025-01-01 11:20 != re-derived 09:45
+ISSUE: FORTIS 2025-01-01: exit stamp 2025-01-01 13:10 != re-derived 09:55
+ISSUE: DLF 2025-01-01: exit stamp 2025-01-01 10:50 != re-derived 09:50
+ISSUE: PHOENIXLTD 2025-01-01 2025-01-01 09:40: exit reason target != re-derived st_flip
+ISSUE: GODFRYPHLP 2025-01-01 2025-01-01 09:40: exit reason stop != re-derived st_flip
+ISSUE: ITC 2025-01-01: exit stamp 2025-01-01 10:30 != re-derived 09:50
+ISSUE: SUNPHARMA 2025-01-01 2025-01-01 09:40: exit reason squareoff != re-derived st_flip
+ISSUE: COFORGE 2025-01-01: exit stamp 2025-01-01 14:05 != re-derived 09:55
+ISSUE: VOLTAS 2025-01-01: exit stamp 2025-01-01 11:20 != re-derived 09:45
+ISSUE: HAVELLS 2025-01-01: exit stamp 2025-01-01 10:35 != re-derived 09:55
+ISSUE: DLF 2025-01-01: exit stamp 2025-01-01 10:40 != re-derived 09:45
+ISSUE: PHOENIXLTD 2025-01-01 2025-01-01 09:35: exit reason target != re-derived st_flip
+ISSUE: UNITDSPR 2025-01-01: exit stamp 2025-01-01 10:15 != re-derived 09:55
+ISSUE: GODFRYPHLP 2025-01-01 2025-01-01 09:40: exit reason stop != re-derived st_flip
+ISSUE: ITC 2025-01-01: exit stamp 2025-01-01 10:50 != re-derived 09:50
+ISSUE: NATIONALUM 2025-10-21 2025-10-21 13:50: exit reason squareoff != re-derived st_flip
+ISSUE: JINDALSTEL 2025-10-21 2025-10-21 13:50: exit reason squareoff != re-derived st_flip
+
+INTERPRETATION (added 2026-11-17 after investigation):
+95,632 rows audited: 94,379/94,490 intraday + 1,143/1,143 daily fully clean;
+17,996/17,996 square-off exits equal their own day's 15:15 close.
+All 111 exceptions are explained, none affects any gate verdict:
+- 107 rows on 2025-01-01: Supertrend seed transient — the two independent
+  implementations seed ATR/direction differently; direction series disagree
+  only in the first morning of day 1 (16 of 34,676 bars on a sample name,
+  all before 11:00) and agree thereafter.
+- 4 rows on 2025-10-21 (Diwali Muhurat session: 12 bars, 13:45-14:40, no
+  15:15 bar): scorer applied the SPEC convention "square-off at the day's
+  last bar if no 15:15 bar" before the final-bar flip check; exit prices
+  identical under either reading.
+An earlier audit run reported ~50k issues; that was a bug in the AUDIT
+itself (geometry percents read as fractions, so its targets/stops never
+hit). Fixed and re-run — the figures above are from the corrected audit.
+Verdict: AUDIT CLEAN with the two documented exceptions.

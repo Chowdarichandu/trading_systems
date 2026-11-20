@@ -1,0 +1,8 @@
+extra ctx: agg check 1875 bars, 0 mismatches; added {}
+NIFTY EXTENSION FAILED: nifty overlap mismatch
+regime spot-checks pass (2025-01-02, 2025-03-17, 2025-06-02, 2026-10-30); below50 on 2025-01-02: True | first 2025 day with computable ma50: 2025-01-01
+[sector37] DAYCTX days: 2025 248, 2026 214
+[sector37] 2025 Jan-Oct: 880 tr / +51061.89
+[sector37] 2026 Jan-Oct: 884 tr / +185847.46
+[sector37] November: 38 tr / +8923.84
+[sector37] WROTE wide100_stockbook_sector37_results.json + trades

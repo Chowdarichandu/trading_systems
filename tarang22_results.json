@@ -1,0 +1,568 @@
+{
+ "strategy": "TARANG Design 22 \u2014 T20-A FROZEN with a RANGE-SCALED STOP: Design 19/20's entries (six standard votes, net V in -6..+6, transitions across +/-4, next-bar-open fills), A4 volume-priority allocation, drift exits (15:15 square-off, no vote-decay); the single change is the disaster stop: dist = 1.5 x the transition bar's own range (high-low, rounded to 4 dp at the source), measured from entry, replacing the flat -1.0%",
+ "spec": "tarang22_SPEC.md (pre-registered 2026-11-17, before any Design 22 scoring)",
+ "basis": "equity cash, PROVISIONAL per 100 shares, Rs 40/trade, paper only, real money Rs 0",
+ "entry_logic": "LONG when V crosses up to >= +4 (prev bar < +4), SHORT when V crosses down to <= -4; fill at next bar open inside [09:30, 14:30]; one open position per name; re-entry on a fresh transition after a close (all frozen as T20-A)",
+ "allocation": "A4 volume-priority (vol_ratio desc, strength desc); caps 1 open/name, 2/name/day, 10/day",
+ "exits": "disaster stop at entry -/+ 1.5 x the transition bar's range, stop-first (gap fills at open), 15:15 square-off close; NO vote-decay",
+ "design20_reference_t20a": {
+  "net": {
+   "2025": -34649.28,
+   "2026": -146219.06
+  },
+  "trades": 4636,
+  "resolution_mix": {
+   "stop": {
+    "trades": 1911,
+    "share_pct": 41.2,
+    "net": -1554645.34,
+    "per_trade": -813.52
+   },
+   "squareoff": {
+    "trades": 2725,
+    "share_pct": 58.8,
+    "net": 1373777.0,
+    "per_trade": 504.14
+   }
+  },
+  "placebo_percentile_by_year": {
+   "2025": 92.0,
+   "2026": 3.5
+  },
+  "worst_month": {
+   "month": "2025-06",
+   "net": -49558.95
+  },
+  "candidate_stream_gross_per_trade": {
+   "2025": 19.67,
+   "2026": -0.16
+  },
+  "verdict": "NO PASS"
+ },
+ "universe": [
+  "ABCAPITAL",
+  "ADANIENSOL",
+  "ADANIGREEN",
+  "ADANIPORTS",
+  "ADANIPOWER",
+  "AMBUJACEM",
+  "ASHOKLEY",
+  "ASTRAL",
+  "AUBANK",
+  "AUROPHARMA",
+  "AXISBANK",
+  "BAJAJFINSV",
+  "BAJFINANCE",
+  "BANKBARODA",
+  "BANKINDIA",
+  "BDL",
+  "BEL",
+  "BHARATFORG",
+  "BHEL",
+  "BIOCON",
+  "BLUESTARCO",
+  "BPCL",
+  "CANBK",
+  "CGPOWER",
+  "CHOLAFIN",
+  "CIPLA",
+  "COALINDIA",
+  "COCHINSHIP",
+  "COLPAL",
+  "CONCOR",
+  "DABUR",
+  "DLF",
+  "DRREDDY",
+  "ETERNAL",
+  "FEDERALBNK",
+  "FORTIS",
+  "GAIL",
+  "GMRAIRPORT",
+  "GODREJCP",
+  "GODREJPROP",
+  "HAVELLS",
+  "HCLTECH",
+  "HDFCBANK",
+  "HDFCLIFE",
+  "HINDALCO",
+  "HINDPETRO",
+  "HINDUNILVR",
+  "HINDZINC",
+  "ICICIBANK",
+  "ICICIGI",
+  "ICICILIFE",
+  "IDEA",
+  "IDFCFIRSTB",
+  "INDHOTEL",
+  "INDIANB",
+  "INDUSINDBK",
+  "INDUSTOWER",
+  "INFY",
+  "IOC",
+  "IREDA",
+  "IRFC",
+  "ITC",
+  "JINDALSTEL",
+  "JIOFIN",
+  "JSWENERGY",
+  "JSWSTEEL",
+  "JUBLFOOD",
+  "KALYANKJIL",
+  "KOTAKBANK",
+  "LICHSGFIN",
+  "LICI",
+  "LODHA",
+  "LTF",
+  "LUPIN",
+  "MAHABANK",
+  "MARICO",
+  "MAXHEALTH",
+  "MAZDOCK",
+  "MFSL",
+  "MOTHERSON",
+  "MOTILALOFS",
+  "NATIONALUM",
+  "NAUKRI",
+  "NESTLEIND",
+  "NHPC",
+  "NMDC",
+  "NTPC",
+  "NYKAA",
+  "OBEROIRLTY",
+  "OIL",
+  "ONGC",
+  "PAYTM",
+  "PETRONET",
+  "PFC",
+  "PIDILITIND",
+  "PIIND",
+  "PNB",
+  "POLICYBZR",
+  "POWERGRID",
+  "PREMIERENE",
+  "PRESTIGE",
+  "RECLTD",
+  "RELIANCE",
+  "RVNL",
+  "SAIL",
+  "SBICARD",
+  "SBILIFE",
+  "SBIN",
+  "SHRIRAMFIN",
+  "SUNPHARMA",
+  "SUZLON",
+  "SWIGGY",
+  "TATACONSUM",
+  "TATAPOWER",
+  "TATASTEEL",
+  "TECHM",
+  "TMPV",
+  "UNIONBANK",
+  "UNITDSPR",
+  "UPL",
+  "VBL",
+  "VEDL",
+  "VMM",
+  "VOLTAS",
+  "WIPRO",
+  "YESBANK",
+  "ZYDUSLIFE"
+ ],
+ "books": {
+  "TARANG-T22": {
+   "summary": {
+    "trades": 4636,
+    "net": -183660.0,
+    "wr_pct": 33.3,
+    "long_trades": 2288,
+    "short_trades": 2348,
+    "long_net": -153935.5,
+    "short_net": -29724.5,
+    "max_dd": -245509.5,
+    "years": {
+     "2025": {
+      "trades": 2490,
+      "net": -51004.0,
+      "wr_pct": 34.7,
+      "long_trades": 1240,
+      "short_trades": 1250,
+      "long_net": -90286.0,
+      "short_net": 39282.0,
+      "h1_net": -15649.5,
+      "h2_net": -35354.5,
+      "ex_top3_net": -88219.0,
+      "monthly_pace": -4250.33,
+      "months_present": 12,
+      "max_dd": -112245.5,
+      "profitable_names": 42,
+      "names_traded": 127
+     },
+     "2026": {
+      "trades": 2146,
+      "net": -132656.0,
+      "wr_pct": 31.6,
+      "long_trades": 1048,
+      "short_trades": 1098,
+      "long_net": -63649.5,
+      "short_net": -69006.5,
+      "h1_net": -77367.5,
+      "h2_net": -55288.5,
+      "ex_top3_net": -159196.0,
+      "monthly_pace": -12059.64,
+      "months_present": 11,
+      "max_dd": -148261.5,
+      "profitable_names": 41,
+      "names_traded": 127
+     }
+    },
+    "months": {
+     "2025-01": 52582.5,
+     "2025-02": -34539.5,
+     "2025-03": -12637.5,
+     "2025-04": 19847.5,
+     "2025-05": 10837.0,
+     "2025-06": -51739.5,
+     "2025-07": -13639.5,
+     "2025-08": 7233.0,
+     "2025-09": -18891.0,
+     "2025-10": 6009.0,
+     "2025-11": -2766.5,
+     "2025-12": -13299.5,
+     "2026-01": 7776.0,
+     "2026-02": -20896.0,
+     "2026-03": -19204.0,
+     "2026-04": -32686.5,
+     "2026-05": 4562.5,
+     "2026-06": -16919.5,
+     "2026-07": -5711.0,
+     "2026-08": -30387.5,
+     "2026-09": 10678.5,
+     "2026-10": -18750.0,
+     "2026-11": -11118.5
+    },
+    "november_2026": {
+     "trades": 96,
+     "net": -11118.5
+    }
+   },
+   "candidate_entries": 105035,
+   "candidate_stream": {
+    "2025": {
+     "trades": 55881,
+     "gross_inr": 872850.0,
+     "gross_per_trade": 15.62,
+     "net_inr": -1362390.0,
+     "net_per_trade": -24.38,
+     "long_trades": 27970,
+     "short_trades": 27911
+    },
+    "2026": {
+     "trades": 49154,
+     "gross_inr": 371573.5,
+     "gross_per_trade": 7.56,
+     "net_inr": -1594586.5,
+     "net_per_trade": -32.44,
+     "long_trades": 24484,
+     "short_trades": 24670
+    }
+   },
+   "allocation": "A4",
+   "resolution_mix": {
+    "stop": {
+     "trades": 2579,
+     "net": -1517606.0
+    },
+    "squareoff": {
+     "trades": 2057,
+     "net": 1333946.0
+    }
+   },
+   "resolution_mix_by_year": {
+    "2025": {
+     "stop": {
+      "trades": 1334,
+      "share_pct": 53.6,
+      "net": -787314.0,
+      "per_trade": -590.19
+     },
+     "squareoff": {
+      "trades": 1156,
+      "share_pct": 46.4,
+      "net": 736310.0,
+      "per_trade": 636.95
+     }
+    },
+    "2026": {
+     "stop": {
+      "trades": 1245,
+      "share_pct": 58.0,
+      "net": -730292.0,
+      "per_trade": -586.58
+     },
+     "squareoff": {
+      "trades": 901,
+      "share_pct": 42.0,
+      "net": 597636.0,
+      "per_trade": 663.3
+     }
+    }
+   },
+   "cost_anatomy": {
+    "all": {
+     "trades": 4636,
+     "gross_inr": 1780.0,
+     "cost_inr": 185440.0,
+     "net_inr": -183660.0,
+     "gross_per_trade": 0.38,
+     "cost_per_trade": 40.0,
+     "net_per_trade": -39.62
+    },
+    "2025": {
+     "trades": 2490,
+     "gross_inr": 48596.0,
+     "cost_inr": 99600.0,
+     "net_inr": -51004.0,
+     "gross_per_trade": 19.52,
+     "cost_per_trade": 40.0,
+     "net_per_trade": -20.48
+    },
+    "2026": {
+     "trades": 2146,
+     "gross_inr": -46816.0,
+     "cost_inr": 85840.0,
+     "net_inr": -132656.0,
+     "gross_per_trade": -21.82,
+     "cost_per_trade": 40.0,
+     "net_per_trade": -61.82
+    }
+   },
+   "stop_distance_stats": {
+    "mean_pct": 0.814,
+    "median_pct": 0.69,
+    "p10_pct": 0.365,
+    "p90_pct": 1.389,
+    "share_tighter_than_flat_1pct": 0.7487,
+    "share_wider_than_flat_1pct": 0.2513,
+    "share_equal_flat_1pct": 0.0
+   },
+   "placebo_direction_flip_net_by_year": {
+    "2025": -93300.0,
+    "2026": -23677.5
+   },
+   "placebo_random_entry": {
+    "2025": {
+     "p90": -41564.95,
+     "median": -88801.75,
+     "draws": 200
+    },
+    "2026": {
+     "p90": -33596.9,
+     "median": -72205.25,
+     "draws": 200
+    }
+   },
+   "placebo_percentile_by_year": {
+    "2025": 86.0,
+    "2026": 2.0
+   },
+   "timing_audit": {
+    "entry_not_after_signal": 0,
+    "entry_offset_wrong": 0,
+    "entry_outside_window": 0,
+    "signal_invalid": 0,
+    "v_mismatch": 0,
+    "range_mismatch": 0,
+    "exit_inconsistent": 0,
+    "squareoff_price_mismatch": 0,
+    "net_mismatch": 0,
+    "cap_name_day": 0,
+    "cap_book_day": 0,
+    "overlap_same_name": 0,
+    "allocation_mismatch": 0,
+    "total_violations": 0,
+    "parity_violations": 0
+   },
+   "truncation_spotcheck": {
+    "checked": 30,
+    "mismatches": 0
+   },
+   "gate_legs": {
+    "net_positive_2025": false,
+    "net_positive_2026": false,
+    "beats_random_p90_2025": false,
+    "beats_random_p90_2026": false,
+    "ex_top3_positive_2025": false,
+    "ex_top3_positive_2026": false,
+    "no_month_worse_than_-15000": false,
+    "timing_audit_clean": true,
+    "november_slice_not_worse_than_-3000": false
+   },
+   "worst_month": {
+    "month": "2025-06",
+    "net": -51739.5
+   },
+   "verdict": "NO PASS",
+   "top10_contributors": {
+    "2025": [
+     {
+      "symbol": "MAZDOCK",
+      "net": 19085.0,
+      "trades": 27
+     },
+     {
+      "symbol": "LUPIN",
+      "net": 16585.0,
+      "trades": 16
+     },
+     {
+      "symbol": "PIIND",
+      "net": 16397.5,
+      "trades": 14
+     },
+     {
+      "symbol": "COLPAL",
+      "net": 15346.5,
+      "trades": 28
+     },
+     {
+      "symbol": "POLICYBZR",
+      "net": 14067.5,
+      "trades": 15
+     },
+     {
+      "symbol": "OBEROIRLTY",
+      "net": 12447.5,
+      "trades": 21
+     },
+     {
+      "symbol": "INDHOTEL",
+      "net": 10075.0,
+      "trades": 18
+     },
+     {
+      "symbol": "AUROPHARMA",
+      "net": 9322.5,
+      "trades": 23
+     },
+     {
+      "symbol": "BAJFINANCE",
+      "net": 8857.5,
+      "trades": 17
+     },
+     {
+      "symbol": "KALYANKJIL",
+      "net": 8792.5,
+      "trades": 24
+     }
+    ],
+    "2026": [
+     {
+      "symbol": "PAYTM",
+      "net": 27080.0,
+      "trades": 23
+     },
+     {
+      "symbol": "MAZDOCK",
+      "net": 12745.0,
+      "trades": 13
+     },
+     {
+      "symbol": "COCHINSHIP",
+      "net": 8090.0,
+      "trades": 20
+     },
+     {
+      "symbol": "BDL",
+      "net": 7980.0,
+      "trades": 17
+     },
+     {
+      "symbol": "TATACONSUM",
+      "net": 6541.5,
+      "trades": 18
+     },
+     {
+      "symbol": "AUBANK",
+      "net": 5729.0,
+      "trades": 17
+     },
+     {
+      "symbol": "PRESTIGE",
+      "net": 4970.0,
+      "trades": 10
+     },
+     {
+      "symbol": "JSWSTEEL",
+      "net": 4695.0,
+      "trades": 9
+     },
+     {
+      "symbol": "NESTLEIND",
+      "net": 4465.0,
+      "trades": 16
+     },
+     {
+      "symbol": "DRREDDY",
+      "net": 4285.0,
+      "trades": 17
+     }
+    ]
+   }
+  }
+ },
+ "ekam_machinery_control": {
+  "CAND-T5": {
+   "2025": {
+    "trades": 1035,
+    "net": 62164.57,
+    "published": 62164.57,
+    "diff": 0.0
+   },
+   "2026": {
+    "trades": 1025,
+    "net": 63883.6,
+    "published": 63883.6,
+    "diff": -0.0
+   }
+  },
+  "S2": {
+   "2025": {
+    "trades": 621,
+    "net": 45300.64,
+    "published": 45300.64,
+    "diff": 0.0
+   },
+   "2026": {
+    "trades": 615,
+    "net": 72605.3,
+    "published": 72605.3,
+    "diff": -0.0
+   }
+  },
+  "reproduced": true
+ },
+ "ekam_indicator_parity": {
+  "names": 25,
+  "rsi_max_abs_diff": 0.0,
+  "hist_max_abs_diff": 2.036593116372387e-12,
+  "adx_max_abs_diff": 0.0,
+  "e9_max_abs_diff": 2.7284841053187847e-12,
+  "e21_max_abs_diff": 4.547473508864641e-12,
+  "stdir_compared": 866878,
+  "stdir_agree": 866878
+ },
+ "engine_validator_parity": {
+  "names": 127,
+  "defined_bars_compared": 4396328,
+  "v_mismatch_bars": 0,
+  "transition_sets_compared": 127,
+  "transition_mismatches": 0
+ },
+ "independent_resum": {
+  "TARANG-T22": {
+   "2025": -51004.0,
+   "2026": -132656.0,
+   "match": true
+  }
+ }
+}

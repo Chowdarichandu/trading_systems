@@ -1,0 +1,457 @@
+{
+ "timing_audit": {
+  "checked": 1249,
+  "mismatches": 0
+ },
+ "pre_cap_candidates": 46191,
+ "books": {
+  "CAND-T5": {
+   "years": {
+    "2025": {
+     "jan_jun": {
+      "trades": 615,
+      "total": 140459.49,
+      "wr": 32.36,
+      "expectancy": 228.39
+     },
+     "jul_oct": {
+      "trades": 420,
+      "total": 15137.14,
+      "wr": 28.1,
+      "expectancy": 36.04
+     },
+     "jan_oct": {
+      "trades": 1035,
+      "total": 155596.63,
+      "wr": 30.63,
+      "expectancy": 150.33
+     },
+     "months": {
+      "2025-01": {
+       "trades": 115,
+       "total": 18799.37
+      },
+      "2025-02": {
+       "trades": 100,
+       "total": 70993.83
+      },
+      "2025-03": {
+       "trades": 95,
+       "total": 3373.64
+      },
+      "2025-04": {
+       "trades": 95,
+       "total": -34983.98
+      },
+      "2025-05": {
+       "trades": 105,
+       "total": 85327.39
+      },
+      "2025-06": {
+       "trades": 105,
+       "total": -3050.76
+      },
+      "2025-07": {
+       "trades": 115,
+       "total": -15713.94
+      },
+      "2025-08": {
+       "trades": 95,
+       "total": 39073.37
+      },
+      "2025-09": {
+       "trades": 110,
+       "total": -16711.6
+      },
+      "2025-10": {
+       "trades": 100,
+       "total": 8489.31
+      }
+     },
+     "ex_top3": 42111.63,
+     "placebo_pct": 99.5
+    },
+    "2026": {
+     "jan_jun": {
+      "trades": 600,
+      "total": -41608.91,
+      "wr": 36.17,
+      "expectancy": -69.35
+     },
+     "jul_oct": {
+      "trades": 425,
+      "total": 340374.07,
+      "wr": 36.47,
+      "expectancy": 800.88
+     },
+     "jan_oct": {
+      "trades": 1025,
+      "total": 298765.16,
+      "wr": 36.29,
+      "expectancy": 291.48
+     },
+     "months": {
+      "2026-01": {
+       "trades": 100,
+       "total": 11489.3
+      },
+      "2026-02": {
+       "trades": 105,
+       "total": -35765.24
+      },
+      "2026-03": {
+       "trades": 95,
+       "total": 78582.39
+      },
+      "2026-04": {
+       "trades": 100,
+       "total": -50068.62
+      },
+      "2026-05": {
+       "trades": 95,
+       "total": -6423.63
+      },
+      "2026-06": {
+       "trades": 105,
+       "total": -39423.11
+      },
+      "2026-07": {
+       "trades": 115,
+       "total": 42178.14
+      },
+      "2026-08": {
+       "trades": 105,
+       "total": 55951.33
+      },
+      "2026-09": {
+       "trades": 105,
+       "total": 102782.87
+      },
+      "2026-10": {
+       "trades": 100,
+       "total": 139461.73
+      }
+     },
+     "ex_top3": 32585.16,
+     "placebo_pct": 100.0
+    }
+   },
+   "extra": {
+    "2025": {
+     "max_drawdown": -71393.6,
+     "top5_names": [
+      [
+       "APARINDS",
+       161854.75
+      ],
+      [
+       "APOLLOHOSP",
+       13250.8
+      ],
+      [
+       "ADANIGREEN",
+       10224.21
+      ],
+      [
+       "BAJAJ-AUTO",
+       9673.6
+      ],
+      [
+       "ASTRAL",
+       7595.8
+      ]
+     ],
+     "top5_share_pct": 130.2,
+     "names_traded": 20,
+     "names_positive": 10
+    },
+    "2026": {
+     "max_drawdown": -126360.74,
+     "top5_names": [
+      [
+       "APARINDS",
+       232022.0
+      ],
+      [
+       "ADANIENT",
+       36929.9
+      ],
+      [
+       "BSE",
+       23990.0
+      ],
+      [
+       "ADANIGREEN",
+       22532.15
+      ],
+      [
+       "APOLLOHOSP",
+       20983.0
+      ]
+     ],
+     "top5_share_pct": 112.6,
+     "names_traded": 21,
+     "names_positive": 8
+    },
+    "november": {
+     "max_drawdown": -15127.0,
+     "top5_names": [
+      [
+       "APARINDS",
+       51120.0
+      ],
+      [
+       "APOLLOHOSP",
+       5390.0
+      ],
+      [
+       "BAJFINANCE",
+       3615.0
+      ],
+      [
+       "AXISBANK",
+       2730.0
+      ],
+      [
+       "APOLLO",
+       2701.65
+      ]
+     ],
+     "top5_share_pct": 115.9,
+     "names_traded": 14,
+     "names_positive": 9
+    }
+   },
+   "november_cf": {
+    "trades": 45,
+    "total": 56558.55,
+    "wr": 46.67,
+    "expectancy": 1256.86
+   }
+  },
+  "S2": {
+   "years": {
+    "2025": {
+     "jan_jun": {
+      "trades": 369,
+      "total": 38530.1,
+      "wr": 33.06,
+      "expectancy": 104.42
+     },
+     "jul_oct": {
+      "trades": 252,
+      "total": -18965.29,
+      "wr": 25.79,
+      "expectancy": -75.26
+     },
+     "jan_oct": {
+      "trades": 621,
+      "total": 19564.81,
+      "wr": 30.11,
+      "expectancy": 31.51
+     },
+     "months": {
+      "2025-01": {
+       "trades": 69,
+       "total": 14559.84
+      },
+      "2025-02": {
+       "trades": 60,
+       "total": 20218.13
+      },
+      "2025-03": {
+       "trades": 57,
+       "total": 31370.47
+      },
+      "2025-04": {
+       "trades": 57,
+       "total": -24600.14
+      },
+      "2025-05": {
+       "trades": 63,
+       "total": 5189.07
+      },
+      "2025-06": {
+       "trades": 63,
+       "total": -8207.27
+      },
+      "2025-07": {
+       "trades": 69,
+       "total": -46963.95
+      },
+      "2025-08": {
+       "trades": 57,
+       "total": 18444.7
+      },
+      "2025-09": {
+       "trades": 66,
+       "total": -23352.25
+      },
+      "2025-10": {
+       "trades": 60,
+       "total": 32906.21
+      }
+     },
+     "ex_top3": -58630.19,
+     "placebo_pct": 75.5
+    },
+    "2026": {
+     "jan_jun": {
+      "trades": 360,
+      "total": -17040.91,
+      "wr": 35.83,
+      "expectancy": -47.34
+     },
+     "jul_oct": {
+      "trades": 255,
+      "total": 272894.51,
+      "wr": 34.51,
+      "expectancy": 1070.17
+     },
+     "jan_oct": {
+      "trades": 615,
+      "total": 255853.6,
+      "wr": 35.28,
+      "expectancy": 416.02
+     },
+     "months": {
+      "2026-01": {
+       "trades": 60,
+       "total": 13484.79
+      },
+      "2026-02": {
+       "trades": 63,
+       "total": 16656.11
+      },
+      "2026-03": {
+       "trades": 57,
+       "total": 5422.71
+      },
+      "2026-04": {
+       "trades": 60,
+       "total": -26930.38
+      },
+      "2026-05": {
+       "trades": 57,
+       "total": 22426.93
+      },
+      "2026-06": {
+       "trades": 63,
+       "total": -48101.07
+      },
+      "2026-07": {
+       "trades": 69,
+       "total": 50338.14
+      },
+      "2026-08": {
+       "trades": 63,
+       "total": 38850.05
+      },
+      "2026-09": {
+       "trades": 63,
+       "total": 90888.62
+      },
+      "2026-10": {
+       "trades": 60,
+       "total": 92817.7
+      }
+     },
+     "ex_top3": 30673.6,
+     "placebo_pct": 100.0
+    }
+   },
+   "extra": {
+    "2025": {
+     "max_drawdown": -96727.39,
+     "top5_names": [
+      [
+       "APARINDS",
+       25691.4
+      ],
+      [
+       "BAJAJ-AUTO",
+       19570.0
+      ],
+      [
+       "ADANIGREEN",
+       10224.21
+      ],
+      [
+       "ADANIENT",
+       6071.8
+      ],
+      [
+       "BDL",
+       2050.0
+      ]
+     ],
+     "top5_share_pct": 325.1,
+     "names_traded": 16,
+     "names_positive": 7
+    },
+    "2026": {
+     "max_drawdown": -85002.21,
+     "top5_names": [
+      [
+       "APARINDS",
+       208816.5
+      ],
+      [
+       "ADANIENT",
+       36929.9
+      ],
+      [
+       "ADANIGREEN",
+       22532.15
+      ],
+      [
+       "BAJAJ-AUTO",
+       8733.0
+      ],
+      [
+       "ASTRAL",
+       4200.0
+      ]
+     ],
+     "top5_share_pct": 109.9,
+     "names_traded": 15,
+     "names_positive": 5
+    },
+    "november": {
+     "max_drawdown": -8540.0,
+     "top5_names": [
+      [
+       "APARINDS",
+       51120.0
+      ],
+      [
+       "APOLLOHOSP",
+       5160.0
+      ],
+      [
+       "APOLLO",
+       3835.0
+      ],
+      [
+       "ADANIPORTS",
+       2500.0
+      ],
+      [
+       "ADANIENSOL",
+       490.0
+      ]
+     ],
+     "top5_share_pct": 102.2,
+     "names_traded": 9,
+     "names_positive": 7
+    }
+   },
+   "november_cf": {
+    "trades": 27,
+    "total": 61734.0,
+    "wr": 51.85,
+    "expectancy": 2286.44
+   }
+  }
+ }
+}

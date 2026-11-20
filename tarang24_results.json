@@ -1,0 +1,234 @@
+{
+ "ekam_machinery_control": {
+  "CAND-T5": {
+   "2025": {
+    "trades": 1035,
+    "net": 62164.57,
+    "published": 62164.57,
+    "diff": 0.0
+   },
+   "2026": {
+    "trades": 1025,
+    "net": 63883.6,
+    "published": 63883.6,
+    "diff": -0.0
+   }
+  },
+  "S2": {
+   "2025": {
+    "trades": 621,
+    "net": 45300.64,
+    "published": 45300.64,
+    "diff": 0.0
+   },
+   "2026": {
+    "trades": 615,
+    "net": 72605.3,
+    "published": 72605.3,
+    "diff": -0.0
+   }
+  },
+  "reproduced": true
+ },
+ "families": {
+  "GAPW2": {
+   "raw_signals": 13201,
+   "unfilled": 0,
+   "skipped_days": 127,
+   "signal_parity": "EXACT",
+   "engine_signals": 13201,
+   "validator_signals": 13201,
+   "streams": {
+    "GAP-FADE-15": {
+     "2025": {
+      "trades": 1782,
+      "gross_inr": 836391.06,
+      "gross_per_trade": 469.36,
+      "net_inr": 765111.06,
+      "net_per_trade": 429.36,
+      "win_rate": 0.4371,
+      "long_gross_per_trade": 762.92,
+      "short_gross_per_trade": 220.25,
+      "stop_share": 0.5107,
+      "squareoff_gross_per_trade": 1765.53
+     },
+     "2026": {
+      "trades": 2329,
+      "gross_inr": 151859.27,
+      "gross_per_trade": 65.2,
+      "net_inr": 58699.27,
+      "net_per_trade": 25.2,
+      "win_rate": 0.3207,
+      "long_gross_per_trade": 55.46,
+      "short_gross_per_trade": 74.1,
+      "stop_share": 0.6204,
+      "squareoff_gross_per_trade": 1328.05
+     },
+     "survey_pass": true
+    },
+    "GAP-FADE-20": {
+     "2025": {
+      "trades": 1060,
+      "gross_inr": 658415.87,
+      "gross_per_trade": 621.15,
+      "net_inr": 616015.87,
+      "net_per_trade": 581.15,
+      "win_rate": 0.4528,
+      "long_gross_per_trade": 904.28,
+      "short_gross_per_trade": 363.52,
+      "stop_share": 0.4991,
+      "squareoff_gross_per_trade": 2031.73
+     },
+     "2026": {
+      "trades": 1348,
+      "gross_inr": 201752.21,
+      "gross_per_trade": 149.67,
+      "net_inr": 147832.21,
+      "net_per_trade": 109.67,
+      "win_rate": 0.3279,
+      "long_gross_per_trade": 181.4,
+      "short_gross_per_trade": 121.41,
+      "stop_share": 0.618,
+      "squareoff_gross_per_trade": 1508.81
+     },
+     "survey_pass": true
+    },
+    "GAP-FADE-UP": {
+     "2025": {
+      "trades": 2069,
+      "gross_inr": 344857.91,
+      "gross_per_trade": 166.68,
+      "net_inr": 262097.91,
+      "net_per_trade": 126.68,
+      "win_rate": 0.3876,
+      "long_gross_per_trade": null,
+      "short_gross_per_trade": 166.68,
+      "stop_share": 0.5462,
+      "squareoff_gross_per_trade": 1275.34
+     },
+     "2026": {
+      "trades": 2432,
+      "gross_inr": 95595.2,
+      "gross_per_trade": 39.31,
+      "net_inr": -1684.8,
+      "net_per_trade": -0.69,
+      "win_rate": 0.3458,
+      "long_gross_per_trade": null,
+      "short_gross_per_trade": 39.31,
+      "stop_share": 0.5789,
+      "squareoff_gross_per_trade": 1116.18
+     },
+     "survey_pass": false
+    },
+    "GAP-FADE-UP-15": {
+     "2025": {
+      "trades": 964,
+      "gross_inr": 212318.47,
+      "gross_per_trade": 220.25,
+      "net_inr": 173758.47,
+      "net_per_trade": 180.25,
+      "win_rate": 0.3683,
+      "long_gross_per_trade": null,
+      "short_gross_per_trade": 220.25,
+      "stop_share": 0.5695,
+      "squareoff_gross_per_trade": 1508.39
+     },
+     "2026": {
+      "trades": 1217,
+      "gross_inr": 90182.73,
+      "gross_per_trade": 74.1,
+      "net_inr": 41502.73,
+      "net_per_trade": 34.1,
+      "win_rate": 0.3287,
+      "long_gross_per_trade": null,
+      "short_gross_per_trade": 74.1,
+      "stop_share": 0.6064,
+      "squareoff_gross_per_trade": 1267.72
+     },
+     "survey_pass": true
+    }
+   }
+  },
+  "FHMOMSHORT": {
+   "raw_signals": 31483,
+   "unfilled": 0,
+   "skipped_days": 258,
+   "signal_parity": "EXACT",
+   "engine_signals": 31483,
+   "validator_signals": 31483,
+   "streams": {
+    "FHMOM-SHORT": {
+     "2025": {
+      "trades": 16721,
+      "gross_inr": 469939.67,
+      "gross_per_trade": 28.1,
+      "net_inr": -198900.33,
+      "net_per_trade": -11.9,
+      "win_rate": 0.4305,
+      "long_gross_per_trade": null,
+      "short_gross_per_trade": 28.1,
+      "stop_share": 0.3265,
+      "squareoff_gross_per_trade": 432.7
+     },
+     "2026": {
+      "trades": 14762,
+      "gross_inr": 417903.5,
+      "gross_per_trade": 28.31,
+      "net_inr": -172576.5,
+      "net_per_trade": -11.69,
+      "win_rate": 0.4299,
+      "long_gross_per_trade": null,
+      "short_gross_per_trade": 28.31,
+      "stop_share": 0.3502,
+      "squareoff_gross_per_trade": 477.37
+     },
+     "survey_pass": false
+    }
+   }
+  },
+  "ORB30SHORT": {
+   "raw_signals": 28511,
+   "unfilled": 257,
+   "skipped_days": 258,
+   "signal_parity": "EXACT",
+   "engine_signals": 28511,
+   "validator_signals": 28511,
+   "streams": {
+    "ORB30-SHORT": {
+     "2025": {
+      "trades": 15251,
+      "gross_inr": 482882.09,
+      "gross_per_trade": 31.66,
+      "net_inr": -127157.91,
+      "net_per_trade": -8.34,
+      "win_rate": 0.4245,
+      "long_gross_per_trade": null,
+      "short_gross_per_trade": 31.66,
+      "stop_share": 0.2892,
+      "squareoff_gross_per_trade": 365.84
+     },
+     "2026": {
+      "trades": 13003,
+      "gross_inr": 376773.11,
+      "gross_per_trade": 28.98,
+      "net_inr": -143346.89,
+      "net_per_trade": -11.02,
+      "win_rate": 0.427,
+      "long_gross_per_trade": null,
+      "short_gross_per_trade": 28.98,
+      "stop_share": 0.3111,
+      "squareoff_gross_per_trade": 400.79
+     },
+     "survey_pass": false
+    }
+   }
+  }
+ },
+ "audits": {
+  "exit_parity_mismatches": 0,
+  "exit_parity_trades": 72938,
+  "truncation_spotcheck_n": 30,
+  "truncation_spotcheck_misses": 0,
+  "resum_ok": true
+ }
+}

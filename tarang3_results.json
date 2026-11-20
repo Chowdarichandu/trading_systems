@@ -1,0 +1,458 @@
+{
+ "strategy": "TARANG Round 3",
+ "spec": "tarang3_SPEC.md (pre-registered 2026-11-17 18:26 IST)",
+ "basis": "equity cash, PROVISIONAL per 100 shares, Rs 40/trade, paper only, real money Rs 0",
+ "data_store": "data/tarang_vol/<SYM>/spot_5m_vol.csv",
+ "candidates": {
+  "TARANG-A2": {
+   "summary": {
+    "trades": 4638,
+    "net": 440325.25,
+    "wr_pct": 51.7,
+    "long_trades": 2375,
+    "short_trades": 2263,
+    "long_net": 132557.09,
+    "short_net": 307768.16,
+    "max_dd": -15743.69,
+    "years": {
+     "2025": {
+      "trades": 2490,
+      "net": 182601.47,
+      "wr_pct": 50.1,
+      "long_trades": 1280,
+      "short_trades": 1210,
+      "long_net": 59207.35,
+      "short_net": 123394.12,
+      "h1_net": 93371.98,
+      "h2_net": 89229.49,
+      "ex_top3_net": 173966.03,
+      "monthly_pace": 15216.79,
+      "months_present": 12,
+      "max_dd": -15743.69,
+      "profitable_names": 23,
+      "names_traded": 25
+     },
+     "2026": {
+      "trades": 2148,
+      "net": 257723.78,
+      "wr_pct": 53.4,
+      "long_trades": 1095,
+      "short_trades": 1053,
+      "long_net": 73349.74,
+      "short_net": 184374.04,
+      "h1_net": 151498.91,
+      "h2_net": 106224.87,
+      "ex_top3_net": 247070.98,
+      "monthly_pace": 23429.43,
+      "months_present": 11,
+      "max_dd": -12572.55,
+      "profitable_names": 21,
+      "names_traded": 25
+     }
+    },
+    "months": {
+     "2025-01": 28407.6,
+     "2025-02": 31497.75,
+     "2025-03": 2039.1,
+     "2025-04": 12074.02,
+     "2025-05": 4099.52,
+     "2025-06": 15253.99,
+     "2025-07": 3651.54,
+     "2025-08": 3125.96,
+     "2025-09": 23089.21,
+     "2025-10": 3086.37,
+     "2025-11": 35340.24,
+     "2025-12": 20936.17,
+     "2026-01": 32569.32,
+     "2026-02": 30987.59,
+     "2026-03": 4418.05,
+     "2026-04": 24146.36,
+     "2026-05": 51264.82,
+     "2026-06": 8112.77,
+     "2026-07": 15240.06,
+     "2026-08": 26162.53,
+     "2026-09": 36870.21,
+     "2026-10": 34942.56,
+     "2026-11": -6990.49
+    },
+    "november_2026": {
+     "trades": 98,
+     "net": -6990.49
+    }
+   },
+   "sensitivity_no_tvsmotor": {
+    "trades": 4638,
+    "net": 418119.9,
+    "wr_pct": 52.0,
+    "long_trades": 2367,
+    "short_trades": 2271,
+    "long_net": 310113.0,
+    "short_net": 108006.9,
+    "max_dd": -18662.2,
+    "years": {
+     "2025": {
+      "trades": 2490,
+      "net": 184224.34,
+      "wr_pct": 50.4,
+      "long_trades": 1277,
+      "short_trades": 1213,
+      "long_net": 133226.56,
+      "short_net": 50997.78,
+      "h1_net": 99113.0,
+      "h2_net": 85111.34,
+      "ex_top3_net": 177990.66,
+      "monthly_pace": 15352.03,
+      "months_present": 12,
+      "max_dd": -18662.2,
+      "profitable_names": 18,
+      "names_traded": 24
+     },
+     "2026": {
+      "trades": 2148,
+      "net": 233895.56,
+      "wr_pct": 53.9,
+      "long_trades": 1090,
+      "short_trades": 1058,
+      "long_net": 176886.44,
+      "short_net": 57009.12,
+      "h1_net": 146124.2,
+      "h2_net": 87771.36,
+      "ex_top3_net": 228081.4,
+      "monthly_pace": 21263.23,
+      "months_present": 11,
+      "max_dd": -12589.55,
+      "profitable_names": 20,
+      "names_traded": 24
+     }
+    },
+    "months": {
+     "2025-01": 35525.58,
+     "2025-02": 33283.15,
+     "2025-03": 6602.79,
+     "2025-04": 6149.23,
+     "2025-05": 2299.8,
+     "2025-06": 15252.45,
+     "2025-07": 5036.57,
+     "2025-08": 4754.6,
+     "2025-09": 21346.1,
+     "2025-10": 8105.93,
+     "2025-11": 24010.3,
+     "2025-12": 21857.84,
+     "2026-01": 36922.02,
+     "2026-02": 25470.12,
+     "2026-03": 7617.68,
+     "2026-04": 17681.99,
+     "2026-05": 40228.78,
+     "2026-06": 18203.61,
+     "2026-07": 14752.83,
+     "2026-08": 28121.94,
+     "2026-09": 32208.5,
+     "2026-10": 23617.39,
+     "2026-11": -10929.3
+    },
+    "november_2026": {
+     "trades": 98,
+     "net": -10929.3
+    }
+   },
+   "placebo_direction_flip_net_by_year": {
+    "2025": 259536.35,
+    "2026": 137616.96
+   },
+   "placebo_random_entry": {
+    "2025": {
+     "p90": 260464.32,
+     "median": 206679.05,
+     "draws": 200
+    },
+    "2026": {
+     "p90": 242177.73,
+     "median": 197418.34,
+     "draws": 200
+    }
+   },
+   "placebo_percentile_by_year": {
+    "2025": 28.0,
+    "2026": 93.5
+   },
+   "timing_audit": {
+    "entry_not_after_signal": 0,
+    "entry_before_0945": 0,
+    "entry_not_next_bar": 0,
+    "exit_inconsistent": 0,
+    "signal_invalid": 0,
+    "cap_name_day": 0,
+    "cap_book_day": 0,
+    "overlap_same_name": 0,
+    "net_mismatch": 0,
+    "total_violations": 0
+   },
+   "truncation_spotcheck": {
+    "checked": 30,
+    "mismatches": 0
+   },
+   "gate_legs": {
+    "net_positive_2025": true,
+    "net_positive_2026": true,
+    "beats_random_p90_2025": false,
+    "beats_random_p90_2026": true,
+    "ex_top3_positive_2025": true,
+    "ex_top3_positive_2026": true,
+    "no_month_worse_than_-15000": true,
+    "timing_audit_clean": true,
+    "november_slice_not_worse_than_-3000": false
+   },
+   "worst_month": {
+    "month": "2026-11",
+    "net": -6990.49
+   },
+   "verdict": "NO PASS"
+  },
+  "TARANG-A3": {
+   "summary": {
+    "trades": 4634,
+    "net": 522600.82,
+    "wr_pct": 50.4,
+    "long_trades": 2480,
+    "short_trades": 2154,
+    "long_net": 200166.81,
+    "short_net": 322434.01,
+    "max_dd": -12958.46,
+    "years": {
+     "2025": {
+      "trades": 2488,
+      "net": 276315.71,
+      "wr_pct": 50.4,
+      "long_trades": 1327,
+      "short_trades": 1161,
+      "long_net": 112961.67,
+      "short_net": 163354.04,
+      "h1_net": 146065.35,
+      "h2_net": 130250.36,
+      "ex_top3_net": 267572.27,
+      "monthly_pace": 23026.31,
+      "months_present": 12,
+      "max_dd": -10682.19,
+      "profitable_names": 19,
+      "names_traded": 25
+     },
+     "2026": {
+      "trades": 2146,
+      "net": 246285.11,
+      "wr_pct": 50.4,
+      "long_trades": 1153,
+      "short_trades": 993,
+      "long_net": 87205.14,
+      "short_net": 159079.97,
+      "h1_net": 137441.13,
+      "h2_net": 108843.98,
+      "ex_top3_net": 235930.15,
+      "monthly_pace": 22389.56,
+      "months_present": 11,
+      "max_dd": -12958.46,
+      "profitable_names": 18,
+      "names_traded": 25
+     }
+    },
+    "months": {
+     "2025-01": 33300.34,
+     "2025-02": 44393.1,
+     "2025-03": 30814.16,
+     "2025-04": 5504.34,
+     "2025-05": 19723.67,
+     "2025-06": 12329.74,
+     "2025-07": 27001.77,
+     "2025-08": 16569.76,
+     "2025-09": 19663.25,
+     "2025-10": 21218.78,
+     "2025-11": 11602.71,
+     "2025-12": 34194.09,
+     "2026-01": 23075.67,
+     "2026-02": 45408.18,
+     "2026-03": 22085.52,
+     "2026-04": 17331.95,
+     "2026-05": 36992.47,
+     "2026-06": -7452.66,
+     "2026-07": 26716.06,
+     "2026-08": 14256.0,
+     "2026-09": 48732.9,
+     "2026-10": 22776.18,
+     "2026-11": -3637.16
+    },
+    "november_2026": {
+     "trades": 96,
+     "net": -3637.16
+    }
+   },
+   "sensitivity_no_tvsmotor": {
+    "trades": 4633,
+    "net": 409166.92,
+    "wr_pct": 50.1,
+    "long_trades": 2486,
+    "short_trades": 2147,
+    "long_net": 366781.66,
+    "short_net": 42385.26,
+    "max_dd": -12940.51,
+    "years": {
+     "2025": {
+      "trades": 2487,
+      "net": 193874.73,
+      "wr_pct": 49.6,
+      "long_trades": 1337,
+      "short_trades": 1150,
+      "long_net": 161331.8,
+      "short_net": 32542.93,
+      "h1_net": 117645.88,
+      "h2_net": 76228.85,
+      "ex_top3_net": 187657.13,
+      "monthly_pace": 16156.23,
+      "months_present": 12,
+      "max_dd": -12940.51,
+      "profitable_names": 18,
+      "names_traded": 24
+     },
+     "2026": {
+      "trades": 2146,
+      "net": 215292.19,
+      "wr_pct": 50.7,
+      "long_trades": 1149,
+      "short_trades": 997,
+      "long_net": 205449.86,
+      "short_net": 9842.33,
+      "h1_net": 125679.59,
+      "h2_net": 89612.6,
+      "ex_top3_net": 209273.71,
+      "monthly_pace": 19572.02,
+      "months_present": 11,
+      "max_dd": -9348.2,
+      "profitable_names": 18,
+      "names_traded": 24
+     }
+    },
+    "months": {
+     "2025-01": 29973.83,
+     "2025-02": 52498.8,
+     "2025-03": 27345.35,
+     "2025-04": -3387.67,
+     "2025-05": 13949.91,
+     "2025-06": -2734.34,
+     "2025-07": 19065.54,
+     "2025-08": 8322.9,
+     "2025-09": 12025.33,
+     "2025-10": 14312.31,
+     "2025-11": 2488.43,
+     "2025-12": 20014.34,
+     "2026-01": 26766.79,
+     "2026-02": 24330.66,
+     "2026-03": 25220.6,
+     "2026-04": 12352.95,
+     "2026-05": 37265.64,
+     "2026-06": -257.05,
+     "2026-07": 18820.96,
+     "2026-08": 22455.89,
+     "2026-09": 32820.91,
+     "2026-10": 15860.7,
+     "2026-11": -345.86
+    },
+    "november_2026": {
+     "trades": 96,
+     "net": -345.86
+    }
+   },
+   "placebo_direction_flip_net_by_year": {
+    "2025": 198246.83,
+    "2026": 216280.7
+   },
+   "placebo_random_entry": {
+    "2025": {
+     "p90": 263721.64,
+     "median": 207215.23,
+     "draws": 200
+    },
+    "2026": {
+     "p90": 249625.64,
+     "median": 195475.72,
+     "draws": 200
+    }
+   },
+   "placebo_percentile_by_year": {
+    "2025": 95.5,
+    "2026": 89.5
+   },
+   "timing_audit": {
+    "entry_not_after_signal": 0,
+    "entry_before_0945": 0,
+    "entry_not_next_bar": 0,
+    "exit_inconsistent": 0,
+    "signal_invalid": 0,
+    "cap_name_day": 0,
+    "cap_book_day": 0,
+    "overlap_same_name": 0,
+    "net_mismatch": 0,
+    "total_violations": 0
+   },
+   "truncation_spotcheck": {
+    "checked": 30,
+    "mismatches": 0
+   },
+   "gate_legs": {
+    "net_positive_2025": true,
+    "net_positive_2026": true,
+    "beats_random_p90_2025": true,
+    "beats_random_p90_2026": false,
+    "ex_top3_positive_2025": true,
+    "ex_top3_positive_2026": true,
+    "no_month_worse_than_-15000": true,
+    "timing_audit_clean": true,
+    "november_slice_not_worse_than_-3000": false
+   },
+   "worst_month": {
+    "month": "2026-06",
+    "net": -7452.66
+   },
+   "verdict": "NO PASS"
+  }
+ },
+ "baseline_tarang_a": {
+  "net_by_year": {
+   "2025": 239391.25,
+   "2026": 343982.79
+  },
+  "placebo_p90_by_year": {
+   "2025": 260464.32,
+   "2026": 243002.69
+  },
+  "placebo_median_by_year": {
+   "2025": 206679.05,
+   "2026": 197746.14
+  },
+  "percentile_by_year": {
+   "2025": 76.0,
+   "2026": 100.0
+  },
+  "regeneration_verified_vs_round2": {
+   "2025": {
+    "p90_match": true,
+    "median_match": true,
+    "net_match": true
+   },
+   "2026": {
+    "p90_match": true,
+    "median_match": true,
+    "net_match": true
+   }
+  }
+ },
+ "independent_resum": {
+  "TARANG-A2": {
+   "2025": 182601.47,
+   "2026": 257723.78,
+   "match": true
+  },
+  "TARANG-A3": {
+   "2025": 276315.71,
+   "2026": 246285.11,
+   "match": true
+  }
+ }
+}

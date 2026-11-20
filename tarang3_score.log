@@ -1,0 +1,16 @@
+data loaded
+A baseline: nets {2025: 239391.25, 2026: 343982.79} percentiles {2025: 76.0, 2026: 100.0} verify {2025: {'p90_match': True, 'median_match': True, 'net_match': True}, 2026: {'p90_match': True, 'median_match': True, 'net_match': True}}
+TARANG-A2: 4638 trades, net 440325.25
+TARANG-A2 NO-TVSMOTOR: 4638 trades, net 418119.9
+TARANG-A2 FLIP: {2025: 259536.35, 2026: 137616.96}
+TARANG-A2 RANDOM: p90 {2025: 260464.32, 2026: 242177.73} percentiles {2025: 28.0, 2026: 93.5}
+TARANG-A2 AUDIT: {'entry_not_after_signal': 0, 'entry_before_0945': 0, 'entry_not_next_bar': 0, 'exit_inconsistent': 0, 'signal_invalid': 0, 'cap_name_day': 0, 'cap_book_day': 0, 'overlap_same_name': 0, 'net_mismatch': 0, 'total_violations': 0} | spot: {'checked': 30, 'mismatches': 0}
+TARANG-A2 VERDICT: NO PASS | legs: {'net_positive_2025': True, 'net_positive_2026': True, 'beats_random_p90_2025': False, 'beats_random_p90_2026': True, 'ex_top3_positive_2025': True, 'ex_top3_positive_2026': True, 'no_month_worse_than_-15000': True, 'timing_audit_clean': True, 'november_slice_not_worse_than_-3000': False}
+TARANG-A3: 4634 trades, net 522600.82
+TARANG-A3 NO-TVSMOTOR: 4633 trades, net 409166.92
+TARANG-A3 FLIP: {2025: 198246.83, 2026: 216280.7}
+TARANG-A3 RANDOM: p90 {2025: 263721.64, 2026: 249625.64} percentiles {2025: 95.5, 2026: 89.5}
+TARANG-A3 AUDIT: {'entry_not_after_signal': 0, 'entry_before_0945': 0, 'entry_not_next_bar': 0, 'exit_inconsistent': 0, 'signal_invalid': 0, 'cap_name_day': 0, 'cap_book_day': 0, 'overlap_same_name': 0, 'net_mismatch': 0, 'total_violations': 0} | spot: {'checked': 30, 'mismatches': 0}
+TARANG-A3 VERDICT: NO PASS | legs: {'net_positive_2025': True, 'net_positive_2026': True, 'beats_random_p90_2025': True, 'beats_random_p90_2026': False, 'ex_top3_positive_2025': True, 'ex_top3_positive_2026': True, 'no_month_worse_than_-15000': True, 'timing_audit_clean': True, 'november_slice_not_worse_than_-3000': False}
+RE-SUM: {'TARANG-A2': {2025: 182601.47, 2026: 257723.78, 'match': True}, 'TARANG-A3': {2025: 276315.71, 2026: 246285.11, 'match': True}}
+ROUND 3 SCORING DONE

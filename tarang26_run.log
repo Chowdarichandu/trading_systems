@@ -1,0 +1,33 @@
+prepping data (127 names) ...
+TARANG-T26-A-SKIP: 1508 trades (520 removed), audit {'subset_violation': 0, 'cap_day_breach': 0, 'cap_nameday_breach': 0, 'cluster_guard_violation': 0, 'total_violations': 0}
+TARANG-T26-A-SKIP FLIP: {2025: -136845.52, 2026: -6197.27}
+TARANG-T26-A-SKIP: GATE (spot leg settled in audit step): NO PASS
+TARANG-T26-A-CAP3: 1664 trades (364 removed), audit {'subset_violation': 0, 'cap_day_breach': 0, 'cap_nameday_breach': 0, 'cluster_guard_violation': 0, 'total_violations': 0}
+TARANG-T26-A-CAP3 FLIP: {2025: -156420.89, 2026: 33098.96}
+TARANG-T26-A-CAP3: GATE (spot leg settled in audit step): NO PASS
+TARANG-T26-B-SKIP: 966 trades (290 removed), audit {'subset_violation': 0, 'cap_day_breach': 0, 'cap_nameday_breach': 0, 'cluster_guard_violation': 0, 'total_violations': 0}
+TARANG-T26-B-SKIP FLIP: {2025: -113369.05, 2026: -5678.61}
+TARANG-T26-B-SKIP: GATE (spot leg settled in audit step): NO PASS
+TARANG-T26-B-CAP3: 1053 trades (203 removed), audit {'subset_violation': 0, 'cap_day_breach': 0, 'cap_nameday_breach': 0, 'cluster_guard_violation': 0, 'total_violations': 0}
+TARANG-T26-B-CAP3 FLIP: {2025: -122491.03, 2026: 43530.62}
+TARANG-T26-B-CAP3: GATE (spot leg settled in audit step): NO PASS
+ws2 done.
+prepping data (127 names) ...
+T25-C entries: 1111
+TARANG-T26-C-TARGET: 1111 trades, audit {'exit_parity_mismatch': 0, 'half_level_mismatch': 0, 'entry_mismatch': 0, 'net_mismatch': 0, 'total_violations': 0}
+TARANG-T26-C-TARGET FLIP: {2025: -120922.93, 2026: -103015.3}
+TARANG-T26-C-TARGET: GATE (spot leg settled in audit step): PASS
+TARANG-T26-C-TRAIL: 1111 trades, audit {'exit_parity_mismatch': 0, 'half_level_mismatch': 0, 'entry_mismatch': 0, 'net_mismatch': 0, 'total_violations': 0}
+TARANG-T26-C-TRAIL FLIP: {2025: -91648.93, 2026: -87694.8}
+TARANG-T26-C-TRAIL: GATE (spot leg settled in audit step): PASS
+ws3 done.
+final audit: spot-checks + re-sum ...
+WS2 truncation spot-check: 30 trades, 0 misses
+WS3 truncation spot-check: 30 trades, 0 misses
+re-sum from tarang26_trades.csv: OK
+TARANG-T26-A-SKIP FINAL GATE: NO PASS | {'net_positive_2025': True, 'net_positive_2026': True, 'beats_random_p90_2025': True, 'beats_random_p90_2026': True, 'ex_top3_positive_2025': True, 'ex_top3_positive_2026': False, 'no_month_worse_than_-15000': False, 'timing_audit_clean': True, 'november_slice_not_worse_than_-3000': False}
+TARANG-T26-A-CAP3 FINAL GATE: NO PASS | {'net_positive_2025': True, 'net_positive_2026': True, 'beats_random_p90_2025': True, 'beats_random_p90_2026': True, 'ex_top3_positive_2025': True, 'ex_top3_positive_2026': False, 'no_month_worse_than_-15000': True, 'timing_audit_clean': True, 'november_slice_not_worse_than_-3000': False}
+TARANG-T26-B-SKIP FINAL GATE: NO PASS | {'net_positive_2025': True, 'net_positive_2026': True, 'beats_random_p90_2025': True, 'beats_random_p90_2026': False, 'ex_top3_positive_2025': True, 'ex_top3_positive_2026': False, 'no_month_worse_than_-15000': False, 'timing_audit_clean': True, 'november_slice_not_worse_than_-3000': True}
+TARANG-T26-B-CAP3 FINAL GATE: NO PASS | {'net_positive_2025': True, 'net_positive_2026': True, 'beats_random_p90_2025': True, 'beats_random_p90_2026': False, 'ex_top3_positive_2025': True, 'ex_top3_positive_2026': False, 'no_month_worse_than_-15000': False, 'timing_audit_clean': True, 'november_slice_not_worse_than_-3000': True}
+TARANG-T26-C-TARGET FINAL GATE: PASS | {'net_positive_2025': True, 'net_positive_2026': True, 'beats_random_p90_2025': True, 'beats_random_p90_2026': True, 'ex_top3_positive_2025': True, 'ex_top3_positive_2026': True, 'no_month_worse_than_-15000': True, 'timing_audit_clean': True, 'november_slice_not_worse_than_-3000': True}
+TARANG-T26-C-TRAIL FINAL GATE: PASS | {'net_positive_2025': True, 'net_positive_2026': True, 'beats_random_p90_2025': True, 'beats_random_p90_2026': True, 'ex_top3_positive_2025': True, 'ex_top3_positive_2026': True, 'no_month_worse_than_-15000': True, 'timing_audit_clean': True, 'november_slice_not_worse_than_-3000': True}

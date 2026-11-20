@@ -1,0 +1,35 @@
+data loaded
+TARANG-R1 SIGNAL CHECK: {'names_checked': 25, 'engine_signals': 4088, 'validator_signals': 4088, 'set_mismatch_names': 0, 'depth_mismatch': 0}
+TARANG-R1: 2941 trades, net -112498.29
+TARANG-R1 ENTRY CHECK: {'corrected_entries': 2941, 'stored_entries': 3341, 'corrected_vs_stored_only_corrected': 129, 'corrected_vs_stored_only_stored': 529, 'defective_machinery_reproduces_stored_entries': True, 'defective_repro_only': 0, 'defective_repro_missing': 0, 'resolution': 'Stored taken sets are exact outputs of the defective machinery (occupancy consumed defective exit indices); corrected taken sets differ only through corrected occupancy. See tarang5_2026-11-17.md S.1.'}
+TARANG-R1 AUDIT: {'entry_not_after_signal': 0, 'entry_before_0945': 0, 'entry_not_next_bar': 0, 'exit_inconsistent': 0, 'signal_invalid': 0, 'cap_name_day': 0, 'cap_book_day': 0, 'overlap_same_name': 0, 'net_mismatch': 0, 'squareoff_price_mismatch': 0, 'total_violations': 0} | spot: {'checked': 30, 'mismatches': 0}
+TARANG-B SIGNAL CHECK: {'names_checked': 25, 'engine_signals': 77282, 'validator_signals': 77282, 'set_mismatch_names': 0, 'depth_mismatch': 0}
+TARANG-B: 4640 trades, net -182221.19
+TARANG-B ENTRY CHECK: {'corrected_entries': 4640, 'stored_entries': 4640, 'corrected_vs_stored_only_corrected': 416, 'corrected_vs_stored_only_stored': 416, 'defective_machinery_reproduces_stored_entries': True, 'defective_repro_only': 0, 'defective_repro_missing': 0, 'resolution': 'Stored taken sets are exact outputs of the defective machinery (occupancy consumed defective exit indices); corrected taken sets differ only through corrected occupancy. See tarang5_2026-11-17.md S.1.'}
+TARANG-B AUDIT: {'entry_not_after_signal': 0, 'entry_before_0945': 0, 'entry_not_next_bar': 0, 'exit_inconsistent': 0, 'signal_invalid': 0, 'cap_name_day': 0, 'cap_book_day': 0, 'overlap_same_name': 0, 'net_mismatch': 0, 'squareoff_price_mismatch': 0, 'total_violations': 0} | spot: {'checked': 30, 'mismatches': 0}
+TARANG-A2 SIGNAL CHECK: {'names_checked': 25, 'engine_signals': 47380, 'validator_signals': 47380, 'set_mismatch_names': 0, 'depth_mismatch': 0}
+TARANG-A2: 4636 trades, net -213605.45
+TARANG-A2 ENTRY CHECK: {'corrected_entries': 4636, 'stored_entries': 4638, 'corrected_vs_stored_only_corrected': 504, 'corrected_vs_stored_only_stored': 506, 'defective_machinery_reproduces_stored_entries': True, 'defective_repro_only': 0, 'defective_repro_missing': 0, 'resolution': 'Stored taken sets are exact outputs of the defective machinery (occupancy consumed defective exit indices); corrected taken sets differ only through corrected occupancy. See tarang5_2026-11-17.md S.1.'}
+TARANG-A2 AUDIT: {'entry_not_after_signal': 0, 'entry_before_0945': 0, 'entry_not_next_bar': 0, 'exit_inconsistent': 0, 'signal_invalid': 0, 'cap_name_day': 0, 'cap_book_day': 0, 'overlap_same_name': 0, 'net_mismatch': 0, 'squareoff_price_mismatch': 0, 'total_violations': 0} | spot: {'checked': 30, 'mismatches': 0}
+TARANG-A3 SIGNAL CHECK: {'names_checked': 25, 'engine_signals': 32686, 'validator_signals': 32686, 'set_mismatch_names': 0, 'depth_mismatch': 0}
+TARANG-A3: 4633 trades, net -212161.89
+TARANG-A3 ENTRY CHECK: {'corrected_entries': 4633, 'stored_entries': 4634, 'corrected_vs_stored_only_corrected': 409, 'corrected_vs_stored_only_stored': 410, 'defective_machinery_reproduces_stored_entries': True, 'defective_repro_only': 0, 'defective_repro_missing': 0, 'resolution': 'Stored taken sets are exact outputs of the defective machinery (occupancy consumed defective exit indices); corrected taken sets differ only through corrected occupancy. See tarang5_2026-11-17.md S.1.'}
+TARANG-A3 AUDIT: {'entry_not_after_signal': 0, 'entry_before_0945': 0, 'entry_not_next_bar': 0, 'exit_inconsistent': 0, 'signal_invalid': 0, 'cap_name_day': 0, 'cap_book_day': 0, 'overlap_same_name': 0, 'net_mismatch': 0, 'squareoff_price_mismatch': 0, 'total_violations': 0} | spot: {'checked': 30, 'mismatches': 0}
+TARANG-R1 NO-TVSMOTOR: 2849 trades, net -101978.42
+TARANG-R1 FLIP: {2025: -52817.8, 2026: -38958.22}
+TARANG-R1 RANDOM: p90 {2025: -26161.34, 2026: -16103.04} percentiles {2025: 63.5, 2026: 37.5}
+TARANG-R1 GATE: NO PASS | legs: {'net_positive_2025': False, 'net_positive_2026': False, 'beats_random_p90_2025': False, 'beats_random_p90_2026': False, 'ex_top3_positive_2025': False, 'ex_top3_positive_2026': False, 'no_month_worse_than_-15000': False, 'timing_audit_clean': True, 'november_slice_not_worse_than_-3000': False}
+TARANG-B NO-TVSMOTOR: 4640 trades, net -212552.92
+TARANG-B FLIP: {2025: -98571.84, 2026: -105081.81}
+TARANG-B RANDOM: p90 {2025: -60329.98, 2026: -44524.32} percentiles {2025: 78.0, 2026: 19.0}
+TARANG-B GATE: NO PASS | legs: {'net_positive_2025': False, 'net_positive_2026': False, 'beats_random_p90_2025': False, 'beats_random_p90_2026': False, 'ex_top3_positive_2025': False, 'ex_top3_positive_2026': False, 'no_month_worse_than_-15000': False, 'timing_audit_clean': True, 'november_slice_not_worse_than_-3000': False}
+TARANG-A2 NO-TVSMOTOR: 4636 trades, net -191449.91
+TARANG-A2 FLIP: {2025: -59968.19, 2026: -59839.48}
+TARANG-A2 RANDOM: p90 {2025: -60329.98, 2026: -42485.72} percentiles {2025: 48.0, 2026: 16.0}
+TARANG-A2 GATE: NO PASS | legs: {'net_positive_2025': False, 'net_positive_2026': False, 'beats_random_p90_2025': False, 'beats_random_p90_2026': False, 'ex_top3_positive_2025': False, 'ex_top3_positive_2026': False, 'no_month_worse_than_-15000': False, 'timing_audit_clean': True, 'november_slice_not_worse_than_-3000': True}
+TARANG-A3 NO-TVSMOTOR: 4632 trades, net -213330.56
+TARANG-A3 FLIP: {2025: -86591.81, 2026: -77143.58}
+TARANG-A3 RANDOM: p90 {2025: -53952.56, 2026: -36477.46} percentiles {2025: 30.5, 2026: 27.5}
+TARANG-A3 GATE: NO PASS | legs: {'net_positive_2025': False, 'net_positive_2026': False, 'beats_random_p90_2025': False, 'beats_random_p90_2026': False, 'ex_top3_positive_2025': False, 'ex_top3_positive_2026': False, 'no_month_worse_than_-15000': False, 'timing_audit_clean': True, 'november_slice_not_worse_than_-3000': True}
+RE-SUM: {'TARANG-R1': {2025: -50943.16, 2026: -61555.13, 'match': True}, 'TARANG-B': {2025: -70380.97, 2026: -111840.22, 'match': True}, 'TARANG-A2': {2025: -92792.6, 2026: -120812.85, 'match': True}, 'TARANG-A3': {2025: -108448.88, 2026: -103713.01, 'match': True}}
+ROUND 5 SCORING DONE

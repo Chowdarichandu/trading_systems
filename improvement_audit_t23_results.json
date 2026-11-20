@@ -1,0 +1,557 @@
+{
+ "trades_out": [
+  {
+   "thread": "T3e",
+   "book": "EKAM-Daily",
+   "sym": "OBEROIRLTY",
+   "entry_date": "2025-01-20",
+   "exit_date": "2025-04-21",
+   "entry": 2002.0,
+   "net": -38540.0,
+   "worst_unrealised_per100": -55005.0
+  },
+  {
+   "thread": "T3e",
+   "book": "EKAM-Daily",
+   "sym": "TVSMOTOR",
+   "entry_date": "2026-03-11",
+   "exit_date": "2026-04-09",
+   "entry": 3780.0,
+   "net": -7510.0,
+   "worst_unrealised_per100": -49770.0
+  },
+  {
+   "thread": "T3e",
+   "book": "EKAM-Daily",
+   "sym": "BDL",
+   "entry_date": "2025-07-22",
+   "exit_date": "2025-09-11",
+   "entry": 1726.9,
+   "net": -22500.0,
+   "worst_unrealised_per100": -31330.0
+  },
+  {
+   "thread": "T3e",
+   "book": "EKAM-Daily",
+   "sym": "GLENMARK",
+   "entry_date": "2026-09-30",
+   "exit_date": "2026-10-29",
+   "entry": 2391.0,
+   "net": -8040.0,
+   "worst_unrealised_per100": -28940.0
+  },
+  {
+   "thread": "T3e",
+   "book": "EKAM-Daily",
+   "sym": "TVSMOTOR",
+   "entry_date": "2026-10-06",
+   "exit_date": "2026-11-05",
+   "entry": 4030.0,
+   "net": 40260.0,
+   "worst_unrealised_per100": -28810.0
+  }
+ ],
+ "thread2a": {
+  "window_2026": {
+   "days": 205,
+   "pairs": {
+    "EKAM Cand-1 ~ EKAM Cand-2": 0.909,
+    "EKAM Cand-1 ~ Stock Book": 0.088,
+    "EKAM Cand-1 ~ Bank repaired": 0.095,
+    "EKAM Cand-1 ~ Nifty repaired": 0.111,
+    "EKAM Cand-1 ~ EKAM Daily": 0.12,
+    "EKAM Cand-2 ~ Stock Book": 0.026,
+    "EKAM Cand-2 ~ Bank repaired": 0.059,
+    "EKAM Cand-2 ~ Nifty repaired": 0.145,
+    "EKAM Cand-2 ~ EKAM Daily": 0.099,
+    "Stock Book ~ Bank repaired": 0.148,
+    "Stock Book ~ Nifty repaired": 0.161,
+    "Stock Book ~ EKAM Daily": 0.03,
+    "Bank repaired ~ Nifty repaired": 0.15,
+    "Bank repaired ~ EKAM Daily": -0.02,
+    "Nifty repaired ~ EKAM Daily": -0.034
+   }
+  },
+  "window_2025": {
+   "days": 208,
+   "pairs": {
+    "EKAM Cand-1 ~ EKAM Cand-2": 0.918,
+    "EKAM Cand-1 ~ Stock Book": 0.02,
+    "EKAM Cand-1 ~ EKAM Daily": 0.077,
+    "EKAM Cand-2 ~ Stock Book": -0.001,
+    "EKAM Cand-2 ~ EKAM Daily": 0.03,
+    "Stock Book ~ EKAM Daily": -0.008
+   }
+  },
+  "cand1_worst_decile_2026": {
+   "n_days": 20,
+   "cutoff_net": -2986.6,
+   "cand1_avg": -4204.78,
+   "others_on_those_days": {
+    "Stock Book": {
+     "avg": 1893.44,
+     "total": 37868.77,
+     "green_days": 9
+    },
+    "Bank repaired": {
+     "avg": 362.15,
+     "total": 7243.0,
+     "green_days": 4
+    },
+    "Nifty repaired": {
+     "avg": 158.3,
+     "total": 3166.0,
+     "green_days": 4
+    },
+    "EKAM Cand-2": {
+     "avg": -2875.47,
+     "total": -57509.5,
+     "green_days": 0
+    },
+    "EKAM Daily": {
+     "avg": 805.95,
+     "total": 16119.0,
+     "green_days": 6
+    }
+   }
+  },
+  "combined_2026": {
+   "individual_max_dd": {
+    "EKAM Cand-1": -36636.9,
+    "EKAM Cand-2": -25694.35,
+    "Stock Book": -12179.31,
+    "Bank repaired": -7221.0,
+    "Nifty repaired": -6730.0,
+    "EKAM Daily": -19872.0
+   },
+   "sum_of_individual_dd": -108333.56,
+   "combined_max_dd": -27222.98,
+   "combined_net_jan_oct": 771853.19,
+   "worst_combined_days": [
+    [
+     "2026-02-05",
+     -10336.75
+    ],
+    [
+     "2026-05-05",
+     -10159.52
+    ],
+    [
+     "2026-02-06",
+     -9732.93
+    ],
+    [
+     "2026-04-29",
+     -9652.38
+    ],
+    [
+     "2026-01-13",
+     -9609.29
+    ],
+    [
+     "2026-04-16",
+     -9080.07
+    ],
+    [
+     "2026-09-08",
+     -8383.48
+    ],
+    [
+     "2026-05-15",
+     -8359.77
+    ]
+   ],
+   "joint_red_days_ge3_books": [
+    [
+     "2026-01-06",
+     -2475.13,
+     4
+    ],
+    [
+     "2026-01-13",
+     -9609.29,
+     4
+    ],
+    [
+     "2026-01-16",
+     -3989.7,
+     3
+    ],
+    [
+     "2026-02-05",
+     -10336.75,
+     4
+    ],
+    [
+     "2026-02-17",
+     -7629.04,
+     4
+    ],
+    [
+     "2026-02-18",
+     -1922.72,
+     3
+    ],
+    [
+     "2026-03-24",
+     -7074.03,
+     3
+    ],
+    [
+     "2026-04-17",
+     -3957.88,
+     3
+    ],
+    [
+     "2026-04-20",
+     -5222.58,
+     3
+    ],
+    [
+     "2026-04-22",
+     -6990.0,
+     3
+    ],
+    [
+     "2026-04-29",
+     -9652.38,
+     3
+    ],
+    [
+     "2026-05-15",
+     -8359.77,
+     3
+    ],
+    [
+     "2026-07-02",
+     -5479.15,
+     3
+    ],
+    [
+     "2026-07-03",
+     -8336.3,
+     3
+    ],
+    [
+     "2026-07-30",
+     -6610.0,
+     3
+    ],
+    [
+     "2026-08-07",
+     -3133.5,
+     3
+    ],
+    [
+     "2026-08-18",
+     -2999.65,
+     3
+    ],
+    [
+     "2026-08-19",
+     -2253.0,
+     3
+    ],
+    [
+     "2026-08-25",
+     -6565.0,
+     3
+    ],
+    [
+     "2026-09-16",
+     -2960.22,
+     3
+    ],
+    [
+     "2026-09-17",
+     -4754.08,
+     4
+    ],
+    [
+     "2026-09-30",
+     -6744.81,
+     3
+    ],
+    [
+     "2026-10-07",
+     -4489.04,
+     4
+    ],
+    [
+     "2026-10-15",
+     -2653.36,
+     3
+    ]
+   ]
+  }
+ },
+ "thread2c": {
+  "candidate": "BTST-IND Bank VOTES (overnight, entry-date attribution)",
+  "trades": 104,
+  "net_2026_jan_oct": 98630.5,
+  "corr_with_cand1": -0.013,
+  "avg_on_cand1_worst_decile": 3155.68,
+  "total_on_cand1_worst_decile": 63113.5,
+  "combined_dd_6_lines": -27222.98,
+  "combined_dd_7_lines": -28497.98,
+  "combined_net_7_lines": 870483.69,
+  "candidate_worst_day": -17036.5,
+  "gate_legs": {
+   "C1_both_years": false,
+   "C2_corr_lt_0.20": true,
+   "C3_avg_on_cand1_worst_decile_gt_0": true,
+   "C4_combined_dd_improves": false,
+   "C5_worst_day_within_1.5x": false
+  },
+  "verdict": "NO PASS"
+ },
+ "thread2b": {
+  "day_table": [
+   {
+    "date": "2026-11-02",
+    "cand1": 6755.0,
+    "cand2": 5690.0,
+    "stock_book": 1455.27,
+    "bank_stack": 0.0,
+    "nifty_tuned_v1": 0.0,
+    "ekam_total": 12445.0,
+    "others_total": 1455.27,
+    "combined": 13900.27
+   },
+   {
+    "date": "2026-11-03",
+    "cand1": 5015.0,
+    "cand2": 3800.0,
+    "stock_book": -451.85,
+    "bank_stack": 0.0,
+    "nifty_tuned_v1": 3036.5,
+    "ekam_total": 8815.0,
+    "others_total": 2584.65,
+    "combined": 11399.65
+   },
+   {
+    "date": "2026-11-04",
+    "cand1": 12065.0,
+    "cand2": 12995.0,
+    "stock_book": -420.94,
+    "bank_stack": 2480.0,
+    "nifty_tuned_v1": 0.0,
+    "ekam_total": 25060.0,
+    "others_total": 2059.06,
+    "combined": 27119.06
+   },
+   {
+    "date": "2026-11-05",
+    "cand1": 2252.6,
+    "cand2": 1422.6,
+    "stock_book": -299.28,
+    "bank_stack": 0.0,
+    "nifty_tuned_v1": 0.0,
+    "ekam_total": 3675.2,
+    "others_total": -299.28,
+    "combined": 3375.92
+   },
+   {
+    "date": "2026-11-06",
+    "cand1": 3206.55,
+    "cand2": 2285.0,
+    "stock_book": 6577.68,
+    "bank_stack": 0.0,
+    "nifty_tuned_v1": 0.0,
+    "ekam_total": 5491.55,
+    "others_total": 6577.68,
+    "combined": 12069.23
+   },
+   {
+    "date": "2026-11-09",
+    "cand1": -1005.0,
+    "cand2": -215.0,
+    "stock_book": 704.3,
+    "bank_stack": -1720.0,
+    "nifty_tuned_v1": 0.0,
+    "ekam_total": -1220.0,
+    "others_total": -1015.7,
+    "combined": -2235.7
+   },
+   {
+    "date": "2026-11-11",
+    "cand1": 775.0,
+    "cand2": -440.0,
+    "stock_book": 826.1,
+    "bank_stack": 0.0,
+    "nifty_tuned_v1": 0.0,
+    "ekam_total": 335.0,
+    "others_total": 826.1,
+    "combined": 1161.1
+   },
+   {
+    "date": "2026-11-12",
+    "cand1": -1120.0,
+    "cand2": -1325.0,
+    "stock_book": -425.54,
+    "bank_stack": -1720.0,
+    "nifty_tuned_v1": 0.0,
+    "ekam_total": -2445.0,
+    "others_total": -2145.54,
+    "combined": -4590.54
+   },
+   {
+    "date": "2026-11-13",
+    "cand1": -3415.5,
+    "cand2": -3550.0,
+    "stock_book": -447.8,
+    "bank_stack": -1720.0,
+    "nifty_tuned_v1": 0.0,
+    "ekam_total": -6965.5,
+    "others_total": -2167.8,
+    "combined": -9133.3
+   },
+   {
+    "date": "2026-11-16",
+    "cand1": 1340.0,
+    "cand2": 1205.0,
+    "stock_book": 530.25,
+    "bank_stack": 0.0,
+    "nifty_tuned_v1": 0.0,
+    "ekam_total": 2545.0,
+    "others_total": 530.25,
+    "combined": 3075.25
+   },
+   {
+    "date": "2026-11-17",
+    "cand1": -2279.25,
+    "cand2": -1005.0,
+    "stock_book": -265.75,
+    "bank_stack": 0.0,
+    "nifty_tuned_v1": 0.0,
+    "ekam_total": -3284.25,
+    "others_total": -265.75,
+    "combined": -3550.0
+   }
+  ],
+  "ekam_red_days": 4,
+  "ekam_red_days_offset": [
+   {
+    "date": "2026-11-09",
+    "ekam": -1220.0,
+    "others": -1015.7,
+    "combined": -2235.7
+   },
+   {
+    "date": "2026-11-12",
+    "ekam": -2445.0,
+    "others": -2145.54,
+    "combined": -4590.54
+   },
+   {
+    "date": "2026-11-13",
+    "ekam": -6965.5,
+    "others": -2167.8,
+    "combined": -9133.3
+   },
+   {
+    "date": "2026-11-17",
+    "ekam": -3284.25,
+    "others": -265.75,
+    "combined": -3550.0
+   }
+  ],
+  "month_totals": {
+   "cand1": 23589.4,
+   "cand2": 20862.6,
+   "stock_book": 7782.44,
+   "bank_stack": -2680.0,
+   "nifty_tuned_v1": 3036.5,
+   "combined": 52590.94
+  }
+ },
+ "thread3c": {
+  "CAND-T5": {
+   "2025": {
+    "candidate_days": 207,
+    "days_cap_bound": 207.0,
+    "unfilled_candidates": 4139,
+    "unfilled_counterfactual_net": -61657.91
+   },
+   "2026": {
+    "candidate_days": 205,
+    "days_cap_bound": 205.0,
+    "unfilled_candidates": 4100,
+    "unfilled_counterfactual_net": -129768.14
+   }
+  },
+  "S2": {
+   "2025": {
+    "candidate_days": 207,
+    "days_cap_bound": 207.0,
+    "unfilled_candidates": 4553,
+    "unfilled_counterfactual_net": -44793.98
+   },
+   "2026": {
+    "candidate_days": 205,
+    "days_cap_bound": 205.0,
+    "unfilled_candidates": 4510,
+    "unfilled_counterfactual_net": -138489.84
+   }
+  }
+ },
+ "thread3e": {
+  "astral_carried": {
+   "entry": 1285.0,
+   "entry_date": "2026-11-11",
+   "worst_low": 1248.1,
+   "worst_low_date": "2026-11-16",
+   "worst_unrealised_per100_low_basis": -3690.0,
+   "worst_close": 1254.0,
+   "worst_unrealised_per100_close_basis": -3100.0,
+   "nov17_ltp_1233": 1249.3,
+   "nov17_unrealised_per100": -3570.0
+  },
+  "backtest_positions": 201,
+  "deepest_5": [
+   {
+    "sym": "OBEROIRLTY",
+    "entry_date": "2025-01-20",
+    "exit_date": "2025-04-21",
+    "entry": 2002.0,
+    "net": -38540.0,
+    "worst_unrealised_per100": -55005.0
+   },
+   {
+    "sym": "TVSMOTOR",
+    "entry_date": "2026-03-11",
+    "exit_date": "2026-04-09",
+    "entry": 3780.0,
+    "net": -7510.0,
+    "worst_unrealised_per100": -49770.0
+   },
+   {
+    "sym": "BDL",
+    "entry_date": "2025-07-22",
+    "exit_date": "2025-09-11",
+    "entry": 1726.9,
+    "net": -22500.0,
+    "worst_unrealised_per100": -31330.0
+   },
+   {
+    "sym": "GLENMARK",
+    "entry_date": "2026-09-30",
+    "exit_date": "2026-10-29",
+    "entry": 2391.0,
+    "net": -8040.0,
+    "worst_unrealised_per100": -28940.0
+   },
+   {
+    "sym": "TVSMOTOR",
+    "entry_date": "2026-10-06",
+    "exit_date": "2026-11-05",
+    "entry": 4030.0,
+    "net": 40260.0,
+    "worst_unrealised_per100": -28810.0
+   }
+  ],
+  "median_worst_unrealised_per100": -2040.0,
+  "p10_worst_unrealised_per100": -14305.0,
+  "share_positions_ever_below_minus5000": 30.3
+ }
+}

@@ -1,0 +1,2 @@
+## D24 AUDIT: CLEAN (0 issues; RS63 + RS63-F25 re-derived independently, trade-for-trade match, re-sums exact). parquet-vs-5m close cross-check (data note, SPEC s.7): 972 sampled name-days, 786 mismatches at Rs 0.05 tolerance.
+AUDIT CLEAN: {'csv_rows': 83, 'audit_trades': 83, 'key_missing_in_audit': 0, 'key_extra_in_audit': 0, 'entry_price_mismatch': 0, 'exit_price_mismatch': 0, 'exit_date_mismatch': 0, 'exit_reason_mismatch': 0, 'gross_mismatch': 0, 'net_mismatch': 0, 'resum_mismatch_books': 0}

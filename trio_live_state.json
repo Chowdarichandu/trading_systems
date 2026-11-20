@@ -1,0 +1,49 @@
+{
+ "date": "2026-11-18",
+ "meta": {},
+ "books": {
+  "BANK_D1": {
+   "entered": {},
+   "open": {},
+   "closed": [],
+   "emitted": [],
+   "skipped": {},
+   "running_total": 0.0
+  },
+  "NIFTY_REP": {
+   "entered": {
+    "DEC-S1-A|PE|25300|09:40": {
+     "family": "DEC-S1-A",
+     "rep": "DEC-S1 A",
+     "direction": "PE",
+     "strike": 25300,
+     "expiry": "2026-11-23",
+     "entry_time": "09:40",
+     "entry_price": 199.65,
+     "stop_price": 149.65,
+     "target_price": 289.65
+    }
+   },
+   "open": {
+    "DEC-S1-A|PE|25300|09:40": {
+     "family": "DEC-S1-A",
+     "rep": "DEC-S1 A",
+     "direction": "PE",
+     "strike": 25300,
+     "expiry": "2026-11-23",
+     "entry_time": "09:40",
+     "entry_price": 199.65,
+     "stop_price": 149.65,
+     "target_price": 289.65
+    }
+   },
+   "closed": [],
+   "emitted": [
+    "entry:DEC-S1-A|PE|25300|09:40"
+   ],
+   "skipped": {},
+   "running_total": 0.0
+  }
+ },
+ "last_run": "2026-11-18T11:23:55+05:30"
+}

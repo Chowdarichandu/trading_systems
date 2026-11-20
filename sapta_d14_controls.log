@@ -1,0 +1,17 @@
+/home/hatch/workspace/trading/sapta_d5_engine.py:85: RuntimeWarning: Mean of empty slice
+  mean_r = np.nanmean(M, axis=0) if M.shape[0] else np.full(NCAL, np.nan)
+intraday-ready 69/69; daily-ready 69
+
+
+# SAPTA Design 14 — registry section (sapta_d14_SPEC.md)
+
+CONTROL C-1: building EKAM frozen-25 stocks ...
+CONTROL C-1 CAND-T5: reproduced=True (2025 {'trades': 1035, 'total': 62164.57, 'wr': 35.56, 'expectancy': 60.06}, 2026 {'trades': 1025, 'total': 63883.6, 'wr': 35.71, 'expectancy': 62.33})
+CONTROL C-1 S2: reproduced=True (2025 {'trades': 621, 'total': 45300.64, 'wr': 34.94, 'expectancy': 72.95}, 2026 {'trades': 615, 'total': 72605.3, 'wr': 36.75, 'expectancy': 118.06})
+CONTROL C-2 exit prices: 53820 cells, 0 mismatches
+CONTROL C-3a frozen-25 votes: 314 checked, 0 mismatches
+CONTROL C-3b SAPTA votes: 204 sampled of 7541, 0 mismatches
+CONTROL C-4 daily: BB+RSI lists True, stats True, MACD-only lists True (218 trades)
+C-12a EKAM machinery control ...
+C-13a/C-13b T25-C + TRAIL reproduction (prepping 127 names) ...
+CONTROLS ONLY — stopping before scoring

@@ -1,0 +1,22 @@
+EKAM MACHINERY CONTROL — running first ...
+EKAM CONTROL: {"CAND-T5": {"2025": {"trades": 1035, "net": 62164.57, "published": 62164.57, "diff": 0.0}, "2026": {"trades": 1025, "net": 63883.6, "published": 63883.6, "diff": -0.0}}, "S2": {"2025": {"trades": 621, "net": 45300.64, "published": 45300.64, "diff": 0.0}, "2026": {"trades": 615, "net": 72605.3, "published": 72605.3, "diff": -0.0}}, "reproduced": true}
+prepping data (127 names) ...
+pool parity GAP-FADE-UP-15: engine 2181 vs validator 2181 — EXACT
+pool parity GAP-FADE-25: engine 703 vs validator 703 — EXACT
+SHORT identity vs D25 GAP-FADE-UP-15 pool: 2181 vs 2181, 0 mismatches
+LONG-25 subset of GAP-FADE-20 LONG: 703 of 1140 parent candidates, 0 mismatches
+pool parity vs D24 published: 2884 union candidates, 0 mismatches
+union disjoint (sym,date): True
+removed band (2.0-2.5% down-gap LONG): 437 candidates, band verification failures 0, standalone net {'2025': 117482.68, '2026': -12454.03}
+TARANG-T28-A-ASYM-25: 2884 union candidates (2181 SHORT + 703 LONG) -> 1514 taken (cap-bound days 42, vol-key decisive 0, sensitivity diff 0)
+prepping data for TARANG-T28-A-ASYM-25 ...
+TARANG-T28-A-ASYM-25: 1514 trades, net 285628.39
+TARANG-T28-A-ASYM-25 FLIP: {2025: -138431.65, 2026: -689.51}
+TARANG-T28-A-ASYM-25 RANDOM: p90 {2025: 2077.58, 2026: 9357.14} percentiles {2025: 100.0, 2026: 95.5}
+TARANG-T28-A-ASYM-25 AUDIT: {'exit_parity_mismatch': 0, 'entry_not_first_bar': 0, 'entry_price_mismatch': 0, 'gap_mismatch': 0, 'first_store_day_trade': 0, 'net_mismatch': 0, 'cap_day_breach': 0, 'cap_nameday_breach': 0, 'allocation_rebuild_mismatch': 0, 'total_violations': 0}
+TARANG-T28-A-ASYM-25 GATE (spot-check leg settled in audit step): NO PASS | legs: {'net_positive_2025': True, 'net_positive_2026': True, 'beats_random_p90_2025': True, 'beats_random_p90_2026': True, 'ex_top3_positive_2025': True, 'ex_top3_positive_2026': False, 'no_month_worse_than_-15000': False, 'timing_audit_clean': True, 'november_slice_not_worse_than_-3000': True}
+TARANG-T28-A-ASYM-25: results written.
+final audit: spot-check + re-sum ...
+truncation spot-check: 30 trades, 0 misses
+re-sum from tarang28_trades.csv: OK
+TARANG-T28-A-ASYM-25 FINAL GATE: NO PASS | {'net_positive_2025': True, 'net_positive_2026': True, 'beats_random_p90_2025': True, 'beats_random_p90_2026': True, 'ex_top3_positive_2025': True, 'ex_top3_positive_2026': False, 'no_month_worse_than_-15000': False, 'timing_audit_clean': True, 'november_slice_not_worse_than_-3000': True}

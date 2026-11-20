@@ -1,0 +1,14 @@
+DESIGN 7 universe: 127 verified names (Round 6 basis)
+data loaded
+TARANG-T7: 4640 trades, net -167409.38
+TARANG-T7 FLIP: {2025: -118135.11, 2026: -103385.55}
+TARANG-T7 RANDOM: p90 {2025: -63763.84, 2026: -45402.23} percentiles {2025: 56.5, 2026: 59.5}
+TARANG-T7 AUDIT: {'entry_not_after_signal': 0, 'entry_before_0945': 0, 'entry_after_1430': 0, 'entry_not_next_bar': 0, 'exit_inconsistent': 0, 'signal_invalid': 0, 'cap_name_day': 0, 'cap_book_day': 0, 'overlap_same_name': 0, 'net_mismatch': 0, 'squareoff_price_mismatch': 0, 'volratio_mismatch': 0, 'depth_mismatch': 0, 'allocation_mismatch': 0, 'total_violations': 0} | spot: {'checked': 30, 'mismatches': 0}
+TARANG-T7 GATE: NO PASS | legs: {'net_positive_2025': False, 'net_positive_2026': False, 'beats_random_p90_2025': False, 'beats_random_p90_2026': False, 'ex_top3_positive_2025': False, 'ex_top3_positive_2026': False, 'no_month_worse_than_-15000': False, 'timing_audit_clean': True, 'november_slice_not_worse_than_-3000': False}
+TARANG-T7-V: 4640 trades, net -181603.8
+TARANG-T7-V FLIP: {2025: -76663.24, 2026: -123348.66}
+TARANG-T7-V RANDOM: p90 {2025: -63763.84, 2026: -45402.23} percentiles {2025: 7.5, 2026: 91.0}
+TARANG-T7-V AUDIT: {'entry_not_after_signal': 0, 'entry_before_0945': 0, 'entry_after_1430': 0, 'entry_not_next_bar': 0, 'exit_inconsistent': 0, 'signal_invalid': 0, 'cap_name_day': 0, 'cap_book_day': 0, 'overlap_same_name': 0, 'net_mismatch': 0, 'squareoff_price_mismatch': 0, 'volratio_mismatch': 0, 'depth_mismatch': 0, 'allocation_mismatch': 0, 'total_violations': 0} | spot: {'checked': 30, 'mismatches': 0}
+TARANG-T7-V GATE: NO PASS | legs: {'net_positive_2025': False, 'net_positive_2026': False, 'beats_random_p90_2025': False, 'beats_random_p90_2026': True, 'ex_top3_positive_2025': False, 'ex_top3_positive_2026': False, 'no_month_worse_than_-15000': False, 'timing_audit_clean': True, 'november_slice_not_worse_than_-3000': False}
+RE-SUM: {'TARANG-T7': {2025: -90648.61, 2026: -76760.77, 'match': True}, 'TARANG-T7-V': {2025: -138002.46, 2026: -43601.34, 'match': True}}
+DESIGN 7 SCORING DONE

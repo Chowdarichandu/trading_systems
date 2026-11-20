@@ -1,0 +1,9 @@
+PRIMARY: 3341 trades, net 159005.87
+NO-TVSMOTOR: 3245 trades, net 144156.33
+ABL pullback-only: 583374.04 | trend-only: 371692.48
+FLIP placebo: {2025: 206076.43, 2026: 196326.57}
+RANDOM placebo: {2025: {'p90': 198035.89, 'median': 158492.96, 'draws': 200}, 2026: {'p90': 181191.3, 'median': 142556.91, 'draws': 200}}
+AUDIT: {'entry_not_after_signal': 0, 'entry_before_0945': 0, 'entry_not_next_bar': 0, 'exit_inconsistent': 0, 'signal_invalid': 0, 'cap_name_day': 0, 'cap_book_day': 0, 'overlap_same_name': 0, 'net_mismatch': 0, 'total_violations': 0} | truncation spotcheck: {'checked': 30, 'mismatches': 0}
+RE-SUM from CSV: {2025: 91975.12, 2026: 67030.75} vs engine {2025: 91975.12, 2026: 67030.75} -> match=True
+VERDICT: NO PASS | legs: {'net_positive_2025': True, 'net_positive_2026': True, 'beats_random_p90_2025': False, 'beats_random_p90_2026': False, 'ex_top3_positive_2025': True, 'ex_top3_positive_2026': True, 'no_month_worse_than_-15000': True, 'timing_audit_clean': True, 'november_slice_not_worse_than_-3000': True}
+SCORING DONE

@@ -1,0 +1,7 @@
+# SAPTA Design 13 — audit report (independent path)
+
+Daily basket-native: audit 351 trades vs csv 351; trade mismatches 0; re-sum {2025: (80813.5, 80813.5), 2026: (62296.0, 62296.0)}.
+Intraday gap-fade+TRAIL: candidates re-derived 297; taken audit 278 vs csv 278; counters {'gap_mismatch': 0, 'entry_fill_mismatch': 0, 'exit_mismatch': 0, 'net_mismatch': 0, 'candidate_mismatch': 0, 'allocation_mismatch': 0, 'cap_day_breach': 0, 'cap_nameday_breach': 0, 'spotcheck_miss': 0, 'd12_set_mismatch': 0}; spot-check 30 trades; re-sum {2025: (70321.53, 70321.53), 2026: (21825.75, 21825.75)}.
+Issues: 0
+
+**AUDIT CLEAN — 0 issues.**

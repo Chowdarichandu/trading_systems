@@ -1,0 +1,65 @@
+/home/hatch/workspace/trading/sapta_d5_engine.py:85: RuntimeWarning: Mean of empty slice
+  mean_r = np.nanmean(M, axis=0) if M.shape[0] else np.full(NCAL, np.nan)
+intraday-ready 69/69; daily-ready 69
+
+
+# SAPTA Design 14 — registry section (sapta_d14_SPEC.md)
+
+CONTROL C-1: building EKAM frozen-25 stocks ...
+CONTROL C-1 CAND-T5: reproduced=True (2025 {'trades': 1035, 'total': 62164.57, 'wr': 35.56, 'expectancy': 60.06}, 2026 {'trades': 1025, 'total': 63883.6, 'wr': 35.71, 'expectancy': 62.33})
+CONTROL C-1 S2: reproduced=True (2025 {'trades': 621, 'total': 45300.64, 'wr': 34.94, 'expectancy': 72.95}, 2026 {'trades': 615, 'total': 72605.3, 'wr': 36.75, 'expectancy': 118.06})
+CONTROL C-2 exit prices: 53820 cells, 0 mismatches
+CONTROL C-3a frozen-25 votes: 314 checked, 0 mismatches
+CONTROL C-3b SAPTA votes: 204 sampled of 7541, 0 mismatches
+CONTROL C-4 daily: BB+RSI lists True, stats True, MACD-only lists True (218 trades)
+C-12a EKAM machinery control ...
+C-13a/C-13b T25-C + TRAIL reproduction (prepping 127 names) ...
+
+## D14 BOOK DAILY-BASKET-MID [no signal: MID schedule, native governed exits TIME/CAP/BAND]: trades 344 | net25 +166,974 net26 +33,626 nov +0 | pct 92.5/10.0 | extop +119,348/+10,100 | trades 344 WR 61.9% DD -39,500 | legs 2/4 FAIL
+
+## D14 BOOK DAILY-BASKET-DOWN [no signal: DOWN schedule, native governed exits TIME/CAP/BAND]: trades 355 | net25 -221,200 net26 -101,011 nov -12,429 | pct 0.0/0.0 | extop -251,575/-119,281 | trades 355 WR 30.4% DD -325,556 | legs 0/4 FAIL
+## D14 intraday data notes
+- ADANIPOWER: 5m verified vs reference 34676 bars, 0 mismatches
+- ASHOKLEY: 5m store /home/hatch/workspace/trading/data/sapta_vol/ASHOKLEY/spot_5m_vol.csv (no reference store)
+- AUBANK: 5m store /home/hatch/workspace/trading/data/sapta_vol/AUBANK/spot_5m_vol.csv (no reference store)
+- AUROPHARMA: 5m store /home/hatch/workspace/trading/data/sapta_vol/AUROPHARMA/spot_5m_vol.csv (no reference store)
+- BANKINDIA: 5m store /home/hatch/workspace/trading/data/sapta_vol/BANKINDIA/spot_5m_vol.csv (no reference store)
+- BIOCON: 5m store /home/hatch/workspace/trading/data/sapta_vol/BIOCON/spot_5m_vol.csv (no reference store)
+- CANBK: 5m verified vs reference 34676 bars, 0 mismatches
+- COFORGE: 5m verified vs reference 34676 bars, 0 mismatches
+- DLF: 5m store /home/hatch/workspace/trading/data/sapta_vol/DLF/spot_5m_vol.csv (no reference store)
+- FEDERALBNK: 5m verified vs reference 34676 bars, 0 mismatches
+- FORTIS: 5m store /home/hatch/workspace/trading/data/sapta_vol/FORTIS/spot_5m_vol.csv (no reference store)
+- GLENMARK: 5m verified vs reference 34676 bars, 0 mismatches
+- GODFRYPHLP: 5m store /home/hatch/workspace/trading/data/sapta_vol/GODFRYPHLP/spot_5m_vol.csv (no reference store)
+- HAVELLS: 5m store /home/hatch/workspace/trading/data/sapta_vol/HAVELLS/spot_5m_vol.csv (no reference store)
+- HCLTECH: 5m verified vs reference 34676 bars, 0 mismatches
+- HINDZINC: 5m verified vs reference 34676 bars, 0 mismatches
+- INDIANB: 5m store /home/hatch/workspace/trading/data/sapta_vol/INDIANB/spot_5m_vol.csv (no reference store)
+- INFY: 5m verified vs reference 34676 bars, 0 mismatches
+- ITC: 5m verified vs reference 34672 bars, 0 mismatches
+- KALYANKJIL: 5m verified vs reference 34676 bars, 0 mismatches
+- LAURUSLABS: 5m verified vs reference 34676 bars, 0 mismatches
+- LODHA: 5m store /home/hatch/workspace/trading/data/sapta_vol/LODHA/spot_5m_vol.csv (no reference store)
+- MOTHERSON: 5m store /home/hatch/workspace/trading/data/sapta_vol/MOTHERSON/spot_5m_vol.csv (no reference store)
+- NATIONALUM: 5m verified vs reference 34676 bars, 0 mismatches
+- PHOENIXLTD: 5m store /home/hatch/workspace/trading/data/sapta_vol/PHOENIXLTD/spot_5m_vol.csv (no reference store)
+- SUNPHARMA: 5m verified vs reference 34676 bars, 0 mismatches
+- UNITDSPR: 5m verified vs reference 34676 bars, 0 mismatches
+- UNOMINDA: 5m store /home/hatch/workspace/trading/data/sapta_vol/UNOMINDA/spot_5m_vol.csv (no reference store)
+- VEDL: 5m verified vs reference 34667 bars, 0 mismatches
+- VOLTAS: 5m store /home/hatch/workspace/trading/data/sapta_vol/VOLTAS/spot_5m_vol.csv (no reference store)
+
+## D14 BOOK INTRADAY-GAPFADE-TRAIL-FROZEN [T25-C+TRAIL frozen, SAPTA Q1-frozen universe]: candidates 314 -> trades 289 | net25 +66,259 net26 +758 nov -2,179 | pct 100.0/73.0 | extop +32,264/-10,552 | trades 289 WR 25.6% DD -17,323 | legs 2/4 FAIL
+## D14 GAPFADE-TRAIL-FROZEN SLEEVE Nifty Auto: trades 36 | net25 +0 net26 -1,733 nov -1,656 | pct 0.0/47.0 | extop +0/-7,148 | trades 36 WR 11.1% DD -5,942 | legs 1/4 FAIL
+## D14 GAPFADE-TRAIL-FROZEN SLEEVE Nifty Bank: trades 26 | net25 +0 net26 +7,644 nov +1,634 | pct 0.0/97.5 | extop +0/-2,096 | trades 26 WR 34.6% DD -2,248 | legs 1/4 FAIL
+## D14 GAPFADE-TRAIL-FROZEN SLEEVE Nifty Consumer Durables: trades 18 | net25 +21,943 net26 +0 nov +0 | pct 100.0/0.0 | extop +118/+0 | trades 18 WR 33.3% DD -2,943 | legs 1/4 FAIL
+## D14 GAPFADE-TRAIL-FROZEN SLEEVE Nifty FMCG: trades 30 | net25 +31,728 net26 +0 nov +0 | pct 100.0/0.0 | extop -1,452/+0 | trades 30 WR 43.3% DD -15,752 | legs 1/4 FAIL
+## D14 GAPFADE-TRAIL-FROZEN SLEEVE Nifty Healthcare: trades 9 | net25 +6,858 net26 -1,033 nov +0 | pct 97.5/13.5 | extop +3,478/-993 | trades 9 WR 33.3% DD -1,668 | legs 1/4 FAIL
+## D14 GAPFADE-TRAIL-FROZEN SLEEVE Nifty IT: trades 28 | net25 -8,936 net26 +0 nov +0 | pct 8.5/0.0 | extop -17,706/+0 | trades 28 WR 25.0% DD -13,310 | legs 1/4 FAIL
+## D14 GAPFADE-TRAIL-FROZEN SLEEVE Nifty Infrastructure: trades 17 | net25 +0 net26 +674 nov -40 | pct 0.0/74.5 | extop +0/-1,111 | trades 17 WR 35.3% DD -1,109 | legs 1/4 FAIL
+## D14 GAPFADE-TRAIL-FROZEN SLEEVE Nifty Metal: trades 51 | net25 +0 net26 +3,100 nov -601 | pct 0.0/92.5 | extop +0/-4,805 | trades 51 WR 25.5% DD -6,315 | legs 1/4 FAIL
+## D14 GAPFADE-TRAIL-FROZEN SLEEVE Nifty PSU Bank: trades 17 | net25 +0 net26 -4,479 nov -1,085 | pct 0.0/6.0 | extop +0/-5,059 | trades 17 WR 5.9% DD -4,278 | legs 1/4 FAIL
+## D14 GAPFADE-TRAIL-FROZEN SLEEVE Nifty Pharma: trades 30 | net25 +4,901 net26 -3,414 nov -432 | pct 94.0/14.5 | extop -10,749/-7,484 | trades 30 WR 16.7% DD -11,683 | legs 1/4 FAIL
+## D14 GAPFADE-TRAIL-FROZEN SLEEVE Nifty Realty: trades 27 | net25 +9,765 net26 +0 nov +0 | pct 98.0/0.0 | extop -3,385/+0 | trades 27 WR 25.9% DD -5,767 | legs 1/4 FAIL
+MAIN RUN COMPLETE (verdict + audit run separately)

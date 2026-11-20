@@ -1,0 +1,100 @@
+{
+ "spec": "sapta_d11_SPEC.md s.1/s.2",
+ "pair_entities": {
+  "Nifty Realty": {
+   "quarters_in_top7": [
+    {
+     "quarter_index": 0,
+     "ranking_date": "2025-01-01",
+     "picks": [
+      "DLF",
+      "LODHA",
+      "PHOENIXLTD"
+     ]
+    },
+    {
+     "quarter_index": 7,
+     "ranking_date": "2026-10-01",
+     "picks": [
+      "LODHA",
+      "PHOENIXLTD",
+      "DLF"
+     ]
+    }
+   ],
+   "names": {
+    "DLF": 92,
+    "LODHA": 92,
+    "PHOENIXLTD": 92
+   }
+  },
+  "Nifty Pharma": {
+   "quarters_in_top7": [
+    {
+     "quarter_index": 0,
+     "ranking_date": "2025-01-01",
+     "picks": [
+      "LAURUSLABS",
+      "GLENMARK",
+      "SUNPHARMA"
+     ]
+    },
+    {
+     "quarter_index": 1,
+     "ranking_date": "2025-04-01",
+     "picks": [
+      "LAURUSLABS",
+      "GLENMARK",
+      "BIOCON"
+     ]
+    },
+    {
+     "quarter_index": 4,
+     "ranking_date": "2026-01-01",
+     "picks": [
+      "LAURUSLABS",
+      "BIOCON",
+      "AUROPHARMA"
+     ]
+    },
+    {
+     "quarter_index": 5,
+     "ranking_date": "2026-04-01",
+     "picks": [
+      "AUROPHARMA",
+      "LAURUSLABS",
+      "SUNPHARMA"
+     ]
+    },
+    {
+     "quarter_index": 6,
+     "ranking_date": "2026-07-01",
+     "picks": [
+      "LAURUSLABS",
+      "AUROPHARMA",
+      "ZYDUSLIFE"
+     ]
+    },
+    {
+     "quarter_index": 7,
+     "ranking_date": "2026-10-01",
+     "picks": [
+      "LAURUSLABS",
+      "ZYDUSLIFE",
+      "AUROPHARMA"
+     ]
+    }
+   ],
+   "names": {
+    "AUROPHARMA": 215,
+    "BIOCON": 121,
+    "GLENMARK": 123,
+    "LAURUSLABS": 338,
+    "SUNPHARMA": 122,
+    "ZYDUSLIFE": 95
+   }
+  }
+ },
+ "pair_union_names": 9,
+ "daily_union_names": 69
+}

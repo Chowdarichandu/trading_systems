@@ -1,0 +1,578 @@
+{
+ "frozen25": [
+  "ASTRAL",
+  "BDL",
+  "GLENMARK",
+  "GODREJCP",
+  "HDFCBANK",
+  "HINDALCO",
+  "HINDCOPPER",
+  "HINDUNILVR",
+  "HINDZINC",
+  "INDUSTOWER",
+  "IRCTC",
+  "ITC",
+  "KALYANKJIL",
+  "NATIONALUM",
+  "NHPC",
+  "NTPC",
+  "OBEROIRLTY",
+  "OIL",
+  "PFC",
+  "RECLTD",
+  "TATASTEEL",
+  "TVSMOTOR",
+  "UNITDSPR",
+  "VEDL",
+  "WIPRO"
+ ],
+ "rule": "median daily traded value (close*volume) over Oct-2026 sessions in universe_daily dump; eligibility: >=15 Oct-2026 sessions, dump history from <=2025-01-15, last bar 2026-11-13; frozen 25 excluded; top 75",
+ "top75": [
+  {
+   "sym": "RELIANCE",
+   "median_traded_value_rs": 17451571567.0,
+   "oct_sessions": 20,
+   "first": "2019-01-01"
+  },
+  {
+   "sym": "INFY",
+   "median_traded_value_rs": 16834325421.175001,
+   "oct_sessions": 20,
+   "first": "2019-01-01"
+  },
+  {
+   "sym": "ICICIBANK",
+   "median_traded_value_rs": 16259746560.5,
+   "oct_sessions": 20,
+   "first": "2019-01-01"
+  },
+  {
+   "sym": "BHARTIARTL",
+   "median_traded_value_rs": 13890438265.0,
+   "oct_sessions": 20,
+   "first": "2019-01-01"
+  },
+  {
+   "sym": "BSE",
+   "median_traded_value_rs": 12517863277.3,
+   "oct_sessions": 20,
+   "first": "2019-01-01"
+  },
+  {
+   "sym": "TCS",
+   "median_traded_value_rs": 10897870531.95,
+   "oct_sessions": 20,
+   "first": "2019-01-01"
+  },
+  {
+   "sym": "PCJEWELLER",
+   "median_traded_value_rs": 10579376379.244999,
+   "oct_sessions": 20,
+   "first": "2019-01-01"
+  },
+  {
+   "sym": "KOTAKBANK",
+   "median_traded_value_rs": 10270014348.25,
+   "oct_sessions": 20,
+   "first": "2019-01-01"
+  },
+  {
+   "sym": "AXISBANK",
+   "median_traded_value_rs": 9148436409.3,
+   "oct_sessions": 20,
+   "first": "2019-01-01"
+  },
+  {
+   "sym": "ETERNAL",
+   "median_traded_value_rs": 8357892974.5,
+   "oct_sessions": 20,
+   "first": "2021-07-23"
+  },
+  {
+   "sym": "SBIN",
+   "median_traded_value_rs": 7844166385.5,
+   "oct_sessions": 20,
+   "first": "2019-01-01"
+  },
+  {
+   "sym": "BAJFINANCE",
+   "median_traded_value_rs": 7550054442.575001,
+   "oct_sessions": 20,
+   "first": "2019-01-01"
+  },
+  {
+   "sym": "LT",
+   "median_traded_value_rs": 6877433861.049999,
+   "oct_sessions": 20,
+   "first": "2019-01-01"
+  },
+  {
+   "sym": "M&M",
+   "median_traded_value_rs": 6790171451.4,
+   "oct_sessions": 20,
+   "first": "2019-01-01"
+  },
+  {
+   "sym": "NETWEB",
+   "median_traded_value_rs": 6163103983.849999,
+   "oct_sessions": 20,
+   "first": "2023-07-27"
+  },
+  {
+   "sym": "CUPID",
+   "median_traded_value_rs": 6096164602.425,
+   "oct_sessions": 20,
+   "first": "2019-01-01"
+  },
+  {
+   "sym": "TECHM",
+   "median_traded_value_rs": 5351552258.6,
+   "oct_sessions": 20,
+   "first": "2019-01-01"
+  },
+  {
+   "sym": "DIVISLAB",
+   "median_traded_value_rs": 5230246370.0,
+   "oct_sessions": 20,
+   "first": "2019-01-01"
+  },
+  {
+   "sym": "BHEL",
+   "median_traded_value_rs": 5204937052.5,
+   "oct_sessions": 20,
+   "first": "2019-01-01"
+  },
+  {
+   "sym": "SHRIRAMFIN",
+   "median_traded_value_rs": 4988359670.700001,
+   "oct_sessions": 20,
+   "first": "2019-01-01"
+  },
+  {
+   "sym": "HCLTECH",
+   "median_traded_value_rs": 4962191686.65,
+   "oct_sessions": 20,
+   "first": "2019-01-01"
+  },
+  {
+   "sym": "MCX",
+   "median_traded_value_rs": 4951767505.6,
+   "oct_sessions": 20,
+   "first": "2019-01-01"
+  },
+  {
+   "sym": "MARUTI",
+   "median_traded_value_rs": 4869123043.0,
+   "oct_sessions": 20,
+   "first": "2019-01-01"
+  },
+  {
+   "sym": "COFORGE",
+   "median_traded_value_rs": 4690769725.4,
+   "oct_sessions": 20,
+   "first": "2019-01-01"
+  },
+  {
+   "sym": "APOLLOHOSP",
+   "median_traded_value_rs": 4298697583.5,
+   "oct_sessions": 20,
+   "first": "2019-01-01"
+  },
+  {
+   "sym": "PERSISTENT",
+   "median_traded_value_rs": 4247271851.75,
+   "oct_sessions": 20,
+   "first": "2019-01-01"
+  },
+  {
+   "sym": "PAYTM",
+   "median_traded_value_rs": 4185923207.85,
+   "oct_sessions": 20,
+   "first": "2021-11-18"
+  },
+  {
+   "sym": "IDEA",
+   "median_traded_value_rs": 4062397410.23,
+   "oct_sessions": 20,
+   "first": "2019-01-01"
+  },
+  {
+   "sym": "ADANIPORTS",
+   "median_traded_value_rs": 3969834016.0,
+   "oct_sessions": 20,
+   "first": "2019-01-01"
+  },
+  {
+   "sym": "ADANIENT",
+   "median_traded_value_rs": 3773625921.1,
+   "oct_sessions": 20,
+   "first": "2019-01-01"
+  },
+  {
+   "sym": "ADANIPOWER",
+   "median_traded_value_rs": 3746611246.19,
+   "oct_sessions": 20,
+   "first": "2019-01-01"
+  },
+  {
+   "sym": "BEL",
+   "median_traded_value_rs": 3587103147.075,
+   "oct_sessions": 20,
+   "first": "2019-01-01"
+  },
+  {
+   "sym": "WELCORP",
+   "median_traded_value_rs": 3515100019.4,
+   "oct_sessions": 20,
+   "first": "2019-01-01"
+  },
+  {
+   "sym": "HAL",
+   "median_traded_value_rs": 3166049830.6,
+   "oct_sessions": 20,
+   "first": "2019-01-01"
+  },
+  {
+   "sym": "DIXON",
+   "median_traded_value_rs": 3086220226.0,
+   "oct_sessions": 20,
+   "first": "2019-01-01"
+  },
+  {
+   "sym": "INDHOTEL",
+   "median_traded_value_rs": 3074187207.2,
+   "oct_sessions": 20,
+   "first": "2019-01-01"
+  },
+  {
+   "sym": "LAURUSLABS",
+   "median_traded_value_rs": 3005718292.2,
+   "oct_sessions": 20,
+   "first": "2019-01-01"
+  },
+  {
+   "sym": "ULTRACEMCO",
+   "median_traded_value_rs": 2986467707.0,
+   "oct_sessions": 20,
+   "first": "2019-01-01"
+  },
+  {
+   "sym": "POWERINDIA",
+   "median_traded_value_rs": 2908596060.0,
+   "oct_sessions": 20,
+   "first": "2020-03-30"
+  },
+  {
+   "sym": "POLICYBZR",
+   "median_traded_value_rs": 2904198165.25,
+   "oct_sessions": 20,
+   "first": "2021-11-15"
+  },
+  {
+   "sym": "MAXHEALTH",
+   "median_traded_value_rs": 2864865062.0,
+   "oct_sessions": 20,
+   "first": "2020-08-21"
+  },
+  {
+   "sym": "APOLLO",
+   "median_traded_value_rs": 2838639398.25,
+   "oct_sessions": 20,
+   "first": "2019-01-01"
+  },
+  {
+   "sym": "SUZLON",
+   "median_traded_value_rs": 2817533979.08,
+   "oct_sessions": 20,
+   "first": "2019-01-01"
+  },
+  {
+   "sym": "TITAN",
+   "median_traded_value_rs": 2802524439.6,
+   "oct_sessions": 20,
+   "first": "2019-01-01"
+  },
+  {
+   "sym": "POWERGRID",
+   "median_traded_value_rs": 2765444169.775,
+   "oct_sessions": 20,
+   "first": "2019-01-01"
+  },
+  {
+   "sym": "JIOFIN",
+   "median_traded_value_rs": 2758404368.8149996,
+   "oct_sessions": 20,
+   "first": "2023-08-21"
+  },
+  {
+   "sym": "POLYCAB",
+   "median_traded_value_rs": 2740032096.0,
+   "oct_sessions": 20,
+   "first": "2019-04-16"
+  },
+  {
+   "sym": "GVT&D",
+   "median_traded_value_rs": 2724115402.25,
+   "oct_sessions": 20,
+   "first": "2019-01-01"
+  },
+  {
+   "sym": "INDIGO",
+   "median_traded_value_rs": 2703318689.0,
+   "oct_sessions": 20,
+   "first": "2019-01-01"
+  },
+  {
+   "sym": "EICHERMOT",
+   "median_traded_value_rs": 2685187926.25,
+   "oct_sessions": 20,
+   "first": "2019-01-01"
+  },
+  {
+   "sym": "CHOLAFIN",
+   "median_traded_value_rs": 2660833576.2,
+   "oct_sessions": 20,
+   "first": "2019-01-01"
+  },
+  {
+   "sym": "SUNPHARMA",
+   "median_traded_value_rs": 2547476695.5,
+   "oct_sessions": 20,
+   "first": "2019-01-01"
+  },
+  {
+   "sym": "CHENNPETRO",
+   "median_traded_value_rs": 2530560206.25,
+   "oct_sessions": 20,
+   "first": "2019-01-01"
+  },
+  {
+   "sym": "BAJAJ-AUTO",
+   "median_traded_value_rs": 2490744608.0,
+   "oct_sessions": 20,
+   "first": "2019-01-01"
+  },
+  {
+   "sym": "COALINDIA",
+   "median_traded_value_rs": 2468463013.0,
+   "oct_sessions": 20,
+   "first": "2019-01-01"
+  },
+  {
+   "sym": "UNIONBANK",
+   "median_traded_value_rs": 2467519430.3999996,
+   "oct_sessions": 20,
+   "first": "2019-01-01"
+  },
+  {
+   "sym": "HEROMOTOCO",
+   "median_traded_value_rs": 2431474245.0,
+   "oct_sessions": 20,
+   "first": "2019-01-01"
+  },
+  {
+   "sym": "SWIGGY",
+   "median_traded_value_rs": 2426957780.7250004,
+   "oct_sessions": 20,
+   "first": "2024-11-13"
+  },
+  {
+   "sym": "SOLARINDS",
+   "median_traded_value_rs": 2365329590.0,
+   "oct_sessions": 20,
+   "first": "2019-01-01"
+  },
+  {
+   "sym": "FEDERALBNK",
+   "median_traded_value_rs": 2357191768.2,
+   "oct_sessions": 20,
+   "first": "2019-01-01"
+  },
+  {
+   "sym": "APARINDS",
+   "median_traded_value_rs": 2336914360.0,
+   "oct_sessions": 20,
+   "first": "2019-01-01"
+  },
+  {
+   "sym": "TRENT",
+   "median_traded_value_rs": 2309081544.0,
+   "oct_sessions": 20,
+   "first": "2019-01-01"
+  },
+  {
+   "sym": "TDPOWERSYS",
+   "median_traded_value_rs": 2303678483.625,
+   "oct_sessions": 20,
+   "first": "2019-01-01"
+  },
+  {
+   "sym": "DRREDDY",
+   "median_traded_value_rs": 2238536309.4,
+   "oct_sessions": 20,
+   "first": "2019-01-01"
+  },
+  {
+   "sym": "JSWSTEEL",
+   "median_traded_value_rs": 2225111369.4,
+   "oct_sessions": 20,
+   "first": "2019-01-01"
+  },
+  {
+   "sym": "LICI",
+   "median_traded_value_rs": 2221524502.325,
+   "oct_sessions": 20,
+   "first": "2022-05-17"
+  },
+  {
+   "sym": "SAIL",
+   "median_traded_value_rs": 2203052013.965,
+   "oct_sessions": 20,
+   "first": "2019-01-01"
+  },
+  {
+   "sym": "TMPV",
+   "median_traded_value_rs": 2199888629.6,
+   "oct_sessions": 20,
+   "first": "2019-01-01"
+  },
+  {
+   "sym": "CUMMINSIND",
+   "median_traded_value_rs": 2160760092.5,
+   "oct_sessions": 20,
+   "first": "2019-01-01"
+  },
+  {
+   "sym": "SBILIFE",
+   "median_traded_value_rs": 2157954132.5,
+   "oct_sessions": 20,
+   "first": "2019-01-01"
+  },
+  {
+   "sym": "NESTLEIND",
+   "median_traded_value_rs": 2150790875.4,
+   "oct_sessions": 20,
+   "first": "2019-01-01"
+  },
+  {
+   "sym": "ADANIGREEN",
+   "median_traded_value_rs": 2134327323.5,
+   "oct_sessions": 20,
+   "first": "2019-01-01"
+  },
+  {
+   "sym": "CANBK",
+   "median_traded_value_rs": 2124644463.065,
+   "oct_sessions": 20,
+   "first": "2019-01-01"
+  },
+  {
+   "sym": "ADANIENSOL",
+   "median_traded_value_rs": 2107877621.95,
+   "oct_sessions": 20,
+   "first": "2019-01-01"
+  },
+  {
+   "sym": "TFCILTD",
+   "median_traded_value_rs": 2106250058.655,
+   "oct_sessions": 20,
+   "first": "2019-01-01"
+  }
+ ],
+ "raw_top75_excluded_by_eligibility": [
+  {
+   "sym": "JPL",
+   "first": "2026-10-28",
+   "oct_sessions": 3,
+   "median_traded_value_rs": 96327931595.2
+  },
+  {
+   "sym": "TONBO",
+   "first": "2026-10-23",
+   "oct_sessions": 6,
+   "median_traded_value_rs": 9432361436.375
+  },
+  {
+   "sym": "MONEYVIEW",
+   "first": "2026-10-01",
+   "oct_sessions": 20,
+   "median_traded_value_rs": 6864176102.5
+  },
+  {
+   "sym": "ATHERENERG",
+   "first": "2025-05-06",
+   "oct_sessions": 20,
+   "median_traded_value_rs": 4522481376.700001
+  },
+  {
+   "sym": "KANOHAR",
+   "first": "2026-09-16",
+   "oct_sessions": 20,
+   "median_traded_value_rs": 3756539974.3
+  },
+  {
+   "sym": "GROWW",
+   "first": "2025-11-12",
+   "oct_sessions": 20,
+   "median_traded_value_rs": 3506130741.2799997
+  },
+  {
+   "sym": "BONFIG",
+   "first": "2026-10-23",
+   "oct_sessions": 6,
+   "median_traded_value_rs": 3033476782.3
+  },
+  {
+   "sym": "MEESHO",
+   "first": "2025-12-10",
+   "oct_sessions": 20,
+   "median_traded_value_rs": 2734941264.95
+  },
+  {
+   "sym": "ZETWERK",
+   "first": "2026-10-23",
+   "oct_sessions": 6,
+   "median_traded_value_rs": 2721136490.07
+  },
+  {
+   "sym": "PARASHLTH",
+   "first": "2026-10-28",
+   "oct_sessions": 3,
+   "median_traded_value_rs": 2651282752.2
+  },
+  {
+   "sym": "HEROMOTORS",
+   "first": "2026-09-23",
+   "oct_sessions": 20,
+   "median_traded_value_rs": 2638726547.67
+  },
+  {
+   "sym": "SMT",
+   "first": "2026-10-23",
+   "oct_sessions": 6,
+   "median_traded_value_rs": 2303378462.175
+  }
+ ],
+ "next5_below_cut": [
+  {
+   "sym": "OFSS",
+   "median_traded_value_rs": 2094769080.0
+  },
+  {
+   "sym": "CGPOWER",
+   "median_traded_value_rs": 2084606808.9
+  },
+  {
+   "sym": "KAYNES",
+   "median_traded_value_rs": 2058231485.1
+  },
+  {
+   "sym": "ONGC",
+   "median_traded_value_rs": 2055023322.7
+  },
+  {
+   "sym": "PNB",
+   "median_traded_value_rs": 2037260195.6100001
+  }
+ ]
+}

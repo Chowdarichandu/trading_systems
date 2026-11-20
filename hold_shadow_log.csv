@@ -1,3 +1,7 @@
 date,row_type,status,sym,signal_date,entry_date,entry_price,exit_date,exit_price,exit_kind,age_days,mark_price,net_inr,fwd_running_total_inr,notes
-2026-11-04,BACKFILL_COUNTERFACTUAL,OPEN,BDL,2026-11-03,2026-11-04,1010.10,,,,7,1030.00,1950.00,,"open — marked at the 2026-11-13 close (unrealised); exit due at the close of day 15 after entry; per 100 shares provisional, Rs40/position"
-2026-11-05,BACKFILL_COUNTERFACTUAL,OPEN,HINDCOPPER,2026-11-04,2026-11-05,432.00,,,,6,439.40,700.00,,"open — marked at the 2026-11-13 close (unrealised); exit due at the close of day 15 after entry; per 100 shares provisional, Rs40/position"
+2026-11-04,BACKFILL_COUNTERFACTUAL,OPEN,BDL,2026-11-03,2026-11-04,1010.10,,,,11,1032.45,2195.00,,"open — marked at the 2026-11-19 close (unrealised); exit due at the close of day 15 after entry; per 100 shares provisional, Rs40/position"
+2026-11-05,BACKFILL_COUNTERFACTUAL,OPEN,HINDCOPPER,2026-11-04,2026-11-05,432.00,,,,10,426.00,-640.00,,"open — marked at the 2026-11-19 close (unrealised); exit due at the close of day 15 after entry; per 100 shares provisional, Rs40/position"
+2026-11-16,LIVE,DAY,,,,,,,,,,,,"entries: none; exits: none; open: 2 (BDL age 8 marked +2,250.00, HINDCOPPER age 7 marked -240.00); signals for next open: none; per 100 shares provisional, Rs40/position, paper"
+2026-11-17,LIVE,DAY,,,,,,,,,,,,"entries: none; exits: none; open: 2 (BDL age 9 marked +1,660.00, HINDCOPPER age 8 marked -55.00); signals for next open: none; per 100 shares provisional, Rs40/position, paper"
+2026-11-18,LIVE,DAY,,,,,,,,,,,,"entries: none; exits: none; open: 2 (BDL age 10 marked +290.00, HINDCOPPER age 9 marked -1,280.00); signals for next open: none; per 100 shares provisional, Rs40/position, paper"
+2026-11-19,LIVE,DAY,,,,,,,,,,,,"entries: none; exits: none; open: 2 (BDL age 11 marked +2,195.00, HINDCOPPER age 10 marked -640.00); signals for next open: ASTRAL; per 100 shares provisional, Rs40/position, paper"

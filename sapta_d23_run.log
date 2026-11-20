@@ -1,0 +1,24 @@
+
+
+# SAPTA Design 23 — registry section (sapta_d23_SPEC.md)
+
+intraday-ready 69/69; daily-ready 69
+C-1..C-4 programme controls (sapta_d3_run.controls) ...
+CONTROL C-1: building EKAM frozen-25 stocks ...
+CONTROL C-1 CAND-T5: reproduced=True (2025 {'trades': 1035, 'total': 62164.57, 'wr': 35.56, 'expectancy': 60.06}, 2026 {'trades': 1025, 'total': 63883.6, 'wr': 35.71, 'expectancy': 62.33})
+CONTROL C-1 S2: reproduced=True (2025 {'trades': 621, 'total': 45300.64, 'wr': 34.94, 'expectancy': 72.95}, 2026 {'trades': 615, 'total': 72605.3, 'wr': 36.75, 'expectancy': 118.06})
+CONTROL C-2 exit prices: 53820 cells, 0 mismatches
+CONTROL C-3a frozen-25 votes: 314 checked, 0 mismatches
+CONTROL C-3b SAPTA votes: 204 sampled of 7541, 0 mismatches
+CONTROL C-4 daily: BB+RSI lists True, stats True, MACD-only lists True (218 trades)
+C-23a Design 16 anchor reproduction ...
+C-23b Design 18 survey anchor reproduction ...
+## D23 CONTROLS PASS: C-1..C-4 verbatim; C-23a D16 union anchor exact (424 trades, +1,36,826.29/+24,893.52); C-23b all seven D18 stream figures reproduced on this run's data.
+Survey scoring (5 streams, SAPTA rotating universe) ...
+## D23 STREAM CLR-FADE: 845/734 trades | gpt 32.12/107.82 | net -6,659/+49,779 | full +43,120 | nov26 -6,105 | survey FAIL
+## D23 STREAM MRB: 2739/2086 trades | gpt 25.56/4.82 | net -39,552/-73,383 | full -112,936 | nov26 +7,973 | survey FAIL
+## D23 STREAM CLR-FOLLOW: 845/734 trades | gpt 80.65/-8.78 | net +34,349/-35,802 | full -1,453 | nov26 -6,455 | survey FAIL
+## D23 STREAM FHR: 1418/1252 trades | gpt -36.93/32.07 | net -109,089/-9,930 | full -119,019 | nov26 +13,215 | survey FAIL
+## D23 STREAM SDC: 928/937 trades | gpt 33.64/-106.14 | net -5,898/-136,937 | full -142,835 | nov26 -5,803 | survey FAIL
+## D23 SURVEY COMPLETE: passing NONE of 5. Ranked by binding year: [('CLR-FADE', 32.12, 107.82), ('MRB', 25.56, 4.82), ('CLR-FOLLOW', 80.65, -8.78), ('FHR', -36.93, 32.07), ('SDC', 33.64, -106.14)]
+MAIN RUN COMPLETE (verdict in report; audit runs separately)

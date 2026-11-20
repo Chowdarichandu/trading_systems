@@ -1,0 +1,8 @@
+/home/hatch/workspace/trading/sapta_d2_audit.py:411: DtypeWarning: Columns (21,23,24,25) have mixed types. Specify dtype option on import or set low_memory=False.
+  rows = pd.read_csv(os.path.join(BASE, 'sapta_d2_trades.csv')).to_dict('records')
+{
+ "intraday_trades": 37252,
+ "daily_trades": 269,
+ "squareoff": 6210
+}
+clean: True | issues: 0 | seed notes: 0

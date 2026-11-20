@@ -1,0 +1,44 @@
+trade rows: 95632
+checked intraday OK: 94379, daily OK: 1143, square-off regression checks: 17996
+issues: 110
+  ISSUE: HAVELLS 2025-01-01: exit stamp 2025-01-01 10:35 != re-derived 09:55
+  ISSUE: KALYANKJIL 2025-01-01: exit stamp 2025-01-01 12:50 != re-derived 11:40
+  ISSUE: VOLTAS 2025-01-01: exit stamp 2025-01-01 11:20 != re-derived 09:40
+  ISSUE: HAVELLS 2025-01-01: exit stamp 2025-01-01 10:40 != re-derived 10:00
+  ISSUE: KALYANKJIL 2025-01-01 2025-01-01 10:05: exit reason st_flip != re-derived stop
+  ISSUE: KALYANKJIL 2025-01-01 2025-01-01 11:35: exit reason stop != re-derived st_flip
+  ISSUE: VOLTAS 2025-01-01 2025-01-01 09:35: exit reason stop != re-derived st_flip
+  ISSUE: GODFRYPHLP 2025-01-01 2025-01-01 09:35: exit reason stop != re-derived st_flip
+  ISSUE: ITC 2025-01-01: exit stamp 2025-01-01 10:30 != re-derived 09:40
+  ISSUE: UNITDSPR 2025-01-01: exit stamp 2025-01-01 10:00 != re-derived 09:40
+  ISSUE: GODFRYPHLP 2025-01-01: exit stamp 2025-01-01 13:30 != re-derived 09:40
+  ISSUE: ITC 2025-01-01: exit stamp 2025-01-01 10:30 != re-derived 09:40
+  ISSUE: UNITDSPR 2025-01-01: exit stamp 2025-01-01 10:00 != re-derived 09:40
+  ISSUE: FORTIS 2025-01-01 2025-01-01 09:35: exit reason target != re-derived st_flip
+  ISSUE: GLENMARK 2025-01-01 2025-01-01 09:35: exit reason stop != re-derived st_flip
+  ISSUE: LAURUSLABS 2025-01-01 2025-01-01 09:35: exit reason stop != re-derived st_flip
+  ISSUE: GLENMARK 2025-01-01: exit stamp 2025-01-01 11:45 != re-derived 09:55
+  ISSUE: SUNPHARMA 2025-01-01 2025-01-01 09:50: exit reason squareoff != re-derived st_flip
+  ISSUE: COFORGE 2025-01-01 2025-01-01 09:35: exit reason target != re-derived st_flip
+  ISSUE: HCLTECH 2025-01-01: exit stamp 2025-01-01 10:55 != re-derived 09:40
+  ISSUE: INFY 2025-01-01 2025-01-01 09:35: exit reason st_flip != re-derived squareoff
+  ISSUE: INFY 2025-01-01: exit stamp 2025-01-01 12:40 != re-derived 11:05
+  ISSUE: COFORGE 2025-01-01: exit stamp 2025-01-01 14:05 != re-derived 09:55
+  ISSUE: HCLTECH 2025-01-01: exit stamp 2025-01-01 11:10 != re-derived 09:55
+  ISSUE: HCLTECH 2025-01-01 2025-01-01 11:15: exit reason st_flip != re-derived stop
+  ISSUE: INFY 2025-01-01 2025-01-01 09:50: exit reason st_flip != re-derived squareoff
+  ISSUE: INFY 2025-01-01 2025-01-01 11:55: exit reason squareoff != re-derived st_flip
+  ISSUE: GLENMARK 2025-01-01 2025-01-01 09:35: exit reason stop != re-derived st_flip
+  ISSUE: LAURUSLABS 2025-01-01 2025-01-01 09:35: exit reason stop != re-derived st_flip
+  ISSUE: SUNPHARMA 2025-01-01 2025-01-01 09:35: exit reason squareoff != re-derived st_flip
+  ISSUE: GLENMARK 2025-01-01: exit stamp 2025-01-01 11:45 != re-derived 09:55
+  ISSUE: SUNPHARMA 2025-01-01 2025-01-01 09:50: exit reason squareoff != re-derived st_flip
+  ISSUE: DLF 2025-01-01: exit stamp 2025-01-01 10:50 != re-derived 09:40
+  ISSUE: LODHA 2025-01-01 2025-01-01 09:35: exit reason target != re-derived st_flip
+  ISSUE: PHOENIXLTD 2025-01-01 2025-01-01 09:35: exit reason target != re-derived st_flip
+  ISSUE: DLF 2025-01-01: exit stamp 2025-01-01 10:40 != re-derived 09:40
+  ISSUE: PHOENIXLTD 2025-01-01 2025-01-01 09:35: exit reason target != re-derived st_flip
+  ISSUE: HAVELLS 2025-01-01: exit stamp 2025-01-01 10:35 != re-derived 09:55
+  ISSUE: VOLTAS 2025-01-01: exit stamp 2025-01-01 11:20 != re-derived 09:45
+  ISSUE: HAVELLS 2025-01-01: exit stamp 2025-01-01 10:35 != re-derived 09:55
+AUDIT ISSUES FOUND

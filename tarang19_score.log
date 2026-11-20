@@ -1,0 +1,25 @@
+EKAM MACHINERY CONTROL — running EKAM's own vote machinery on the frozen 25 ...
+EKAM CONTROL: {"CAND-T5": {"2025": {"trades": 1035, "net": 62164.57, "published": 62164.57, "diff": 0.0}, "2026": {"trades": 1025, "net": 63883.6, "published": 63883.6, "diff": -0.0}}, "S2": {"2025": {"trades": 621, "net": 45300.64, "published": 45300.64, "diff": 0.0}, "2026": {"trades": 615, "net": 72605.3, "published": 72605.3, "diff": -0.0}}, "reproduced": true}
+EKAM INDICATOR PARITY: {'names': 25, 'rsi_max_abs_diff': 0.0, 'hist_max_abs_diff': 2.036593116372387e-12, 'adx_max_abs_diff': 0.0, 'e9_max_abs_diff': 2.7284841053187847e-12, 'e21_max_abs_diff': 4.547473508864641e-12, 'stdir_compared': 866878, 'stdir_agree': 866878}
+DESIGN 19 universe: 127 verified names
+data + vote series ready
+ENGINE/VALIDATOR PARITY: {'names': 127, 'defined_bars_compared': 4396328, 'v_mismatch_bars': 0, 'transition_sets_compared': 127, 'transition_mismatches': 0}
+candidate entries (raw vote-transition stream): 166671 | stream anatomy: {2025: {'trades': 90234, 'gross_inr': 560599.28, 'gross_per_trade': 6.21, 'net_inr': -3048760.72, 'net_per_trade': -33.79, 'long_trades': 44950, 'short_trades': 45284}, 2026: {'trades': 76437, 'gross_inr': 419902.17, 'gross_per_trade': 5.49, 'net_inr': -2637577.83, 'net_per_trade': -34.51, 'long_trades': 38167, 'short_trades': 38270}}
+TARANG-T19-A: 4636 trades from 166671 candidates, net -288467.25
+TARANG-T19-A FLIP: {2025: -109832.45, 2026: -40885.07}
+TARANG-T19-A RANDOM: p90 {2025: -62115.65, 2026: -52050.81} percentiles {2025: 70.5, 2026: 0.0}
+TARANG-T19-A AUDIT: {'entry_not_after_signal': 0, 'entry_not_signal_plus1': 0, 'entry_outside_window': 0, 'signal_invalid': 0, 'v_mismatch': 0, 'exit_inconsistent': 0, 'squareoff_price_mismatch': 0, 'net_mismatch': 0, 'cap_name_day': 0, 'cap_book_day': 0, 'overlap_same_name': 0, 'allocation_mismatch': 0, 'total_violations': 0, 'parity_violations': 0} | spot: {'checked': 30, 'mismatches': 0}
+TARANG-T19-A GATE: NO PASS | legs: {'net_positive_2025': False, 'net_positive_2026': False, 'beats_random_p90_2025': False, 'beats_random_p90_2026': False, 'ex_top3_positive_2025': False, 'ex_top3_positive_2026': False, 'no_month_worse_than_-15000': False, 'timing_audit_clean': True, 'november_slice_not_worse_than_-3000': False}
+TARANG-T19-A RESOLUTION MIX: {'decay': {'trades': 4330, 'net': -259866.0}, 'squareoff': {'trades': 86, 'net': 154706.0}, 'stop': {'trades': 220, 'net': -183307.25}}
+TARANG-T19-A COST ANATOMY: {'all': {'trades': 4636, 'gross_inr': -103027.25, 'cost_inr': 185440.0, 'net_inr': -288467.25, 'gross_per_trade': -22.22, 'cost_per_trade': 40.0, 'net_per_trade': -62.22}, '2025': {'trades': 2490, 'gross_inr': 18823.74, 'cost_inr': 99600.0, 'net_inr': -80776.26, 'gross_per_trade': 7.56, 'cost_per_trade': 40.0, 'net_per_trade': -32.44}, '2026': {'trades': 2146, 'gross_inr': -121850.99, 'cost_inr': 85840.0, 'net_inr': -207690.99, 'gross_per_trade': -56.78, 'cost_per_trade': 40.0, 'net_per_trade': -96.78}}
+TARANG-T19-A: trades CSV written incrementally (4636 rows so far)
+TARANG-T19-B: 4636 trades from 166671 candidates, net -335471.36
+TARANG-T19-B FLIP: {2025: -107017.44, 2026: -33362.81}
+TARANG-T19-B RANDOM: p90 {2025: -62115.65, 2026: -52050.81} percentiles {2025: 47.5, 2026: 0.0}
+TARANG-T19-B AUDIT: {'entry_not_after_signal': 0, 'entry_not_signal_plus1': 0, 'entry_outside_window': 0, 'signal_invalid': 0, 'v_mismatch': 0, 'exit_inconsistent': 0, 'squareoff_price_mismatch': 0, 'net_mismatch': 0, 'cap_name_day': 0, 'cap_book_day': 0, 'overlap_same_name': 0, 'allocation_mismatch': 0, 'total_violations': 0, 'parity_violations': 0} | spot: {'checked': 30, 'mismatches': 0}
+TARANG-T19-B GATE: NO PASS | legs: {'net_positive_2025': False, 'net_positive_2026': False, 'beats_random_p90_2025': False, 'beats_random_p90_2026': False, 'ex_top3_positive_2025': False, 'ex_top3_positive_2026': False, 'no_month_worse_than_-15000': False, 'timing_audit_clean': True, 'november_slice_not_worse_than_-3000': False}
+TARANG-T19-B RESOLUTION MIX: {'squareoff': {'trades': 75, 'net': 144024.0}, 'decay': {'trades': 4402, 'net': -334099.0}, 'stop': {'trades': 159, 'net': -145396.36}}
+TARANG-T19-B COST ANATOMY: {'all': {'trades': 4636, 'gross_inr': -150031.36, 'cost_inr': 185440.0, 'net_inr': -335471.36, 'gross_per_trade': -32.36, 'cost_per_trade': 40.0, 'net_per_trade': -72.36}, '2025': {'trades': 2490, 'gross_inr': 3148.82, 'cost_inr': 99600.0, 'net_inr': -96451.18, 'gross_per_trade': 1.26, 'cost_per_trade': 40.0, 'net_per_trade': -38.74}, '2026': {'trades': 2146, 'gross_inr': -153180.18, 'cost_inr': 85840.0, 'net_inr': -239020.18, 'gross_per_trade': -71.38, 'cost_per_trade': 40.0, 'net_per_trade': -111.38}}
+TARANG-T19-B: trades CSV written incrementally (9272 rows so far)
+RE-SUM: {'TARANG-T19-A': {2025: -80776.26, 2026: -207690.99, 'match': True}, 'TARANG-T19-B': {2025: -96451.18, 2026: -239020.18, 'match': True}}
+DESIGN 19 SCORING DONE

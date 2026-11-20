@@ -1,0 +1,155 @@
+{
+ "stage": "control",
+ "official_close_control": {
+  "passed": true,
+  "detail": {
+   "2025": {
+    "match": true,
+    "got": {
+     "trades": 79,
+     "total": 63621.5,
+     "wr": 77.22,
+     "avg_hold": 21.1,
+     "worst": -38540.0,
+     "months": {
+      "1": {
+       "trades": 15,
+       "net": 541.0
+      },
+      "2": {
+       "trades": 10,
+       "net": 17840.5
+      },
+      "3": {
+       "trades": 2,
+       "net": 7895.0
+      },
+      "4": {
+       "trades": 7,
+       "net": 11889.1
+      },
+      "5": {
+       "trades": 2,
+       "net": 215.0
+      },
+      "6": {
+       "trades": 11,
+       "net": 4137.0
+      },
+      "7": {
+       "trades": 11,
+       "net": -18506.0
+      },
+      "8": {
+       "trades": 12,
+       "net": 10183.9
+      },
+      "9": {
+       "trades": 6,
+       "net": 6758.0
+      },
+      "10": {
+       "trades": 3,
+       "net": 22668.0
+      }
+     },
+     "halves": {
+      "H1": {
+       "trades": 47,
+       "net": 42517.6
+      },
+      "H2": {
+       "trades": 32,
+       "net": 21103.9
+      }
+     },
+     "ex_top3": 20301.5,
+     "max_dd": -41990.1,
+     "peak_concurrent": 17,
+     "forced": 0
+    }
+   },
+   "2026": {
+    "match": true,
+    "got": {
+     "trades": 102,
+     "total": 150777.4,
+     "wr": 64.71,
+     "avg_hold": 20.2,
+     "worst": -11240.0,
+     "months": {
+      "1": {
+       "trades": 9,
+       "net": 13561.0
+      },
+      "2": {
+       "trades": 3,
+       "net": 11780.0
+      },
+      "3": {
+       "trades": 17,
+       "net": 8139.0
+      },
+      "4": {
+       "trades": 4,
+       "net": 3090.0
+      },
+      "5": {
+       "trades": 12,
+       "net": 35603.5
+      },
+      "6": {
+       "trades": 14,
+       "net": 8237.0
+      },
+      "7": {
+       "trades": 7,
+       "net": 13565.0
+      },
+      "8": {
+       "trades": 6,
+       "net": -12591.0
+      },
+      "9": {
+       "trades": 17,
+       "net": -1364.0
+      },
+      "10": {
+       "trades": 13,
+       "net": 70756.9
+      }
+     },
+     "halves": {
+      "H1": {
+       "trades": 59,
+       "net": 80410.5
+      },
+      "H2": {
+       "trades": 43,
+       "net": 70366.9
+      }
+     },
+     "ex_top3": 77116.4,
+     "max_dd": -35540.0,
+     "peak_concurrent": 21,
+     "forced": 8
+    }
+   }
+  },
+  "headline": {
+   "2025": [
+    79,
+    63621.5
+   ],
+   "2026": [
+    102,
+    150777.4
+   ]
+  }
+ },
+ "stats_wide_crosscheck": {
+  "2025": true,
+  "2026": true
+ },
+ "control_trades": 729
+}

@@ -1,0 +1,24 @@
+DESIGN 12 universe: 127 verified names (Round 6 basis)
+data loaded
+BASE REPRODUCTION: 147718 engine / 147718 validator signals, mismatches: []
+BASE REPRODUCTION CLEAN — Design 12 machinery at the base configuration reproduces Design 8 exactly (147,718 signals, engine and validator)
+TARANG-T12-A PARITY: 116450 engine signals, mismatches: [], subset violations: []
+TARANG-T12-A: 4630 trades from 81430 candidate entries, net -251270.94
+TARANG-T12-A FLIP: {2025: -62391.1, 2026: -52300.26}
+TARANG-T12-A RANDOM: p90 {2025: -63763.84, 2026: -45585.54} percentiles {2025: 11.5, 2026: 11.5}
+TARANG-T12-A AUDIT: {'entry_not_after_signal': 0, 'entry_before_0945': 0, 'entry_after_1430': 0, 'entry_not_at_fill_bar': 0, 'exit_inconsistent': 0, 'signal_invalid': 0, 'cap_name_day': 0, 'cap_book_day': 0, 'overlap_same_name': 0, 'net_mismatch': 0, 'squareoff_price_mismatch': 0, 'volratio_mismatch': 0, 'depth_mismatch': 0, 'snap_mismatch': 0, 'allocation_mismatch': 0, 'total_violations': 0} | spot: {'checked': 30, 'mismatches': 0}
+TARANG-T12-A GATE: NO PASS | legs: {'net_positive_2025': False, 'net_positive_2026': False, 'beats_random_p90_2025': False, 'beats_random_p90_2026': False, 'ex_top3_positive_2025': False, 'ex_top3_positive_2026': False, 'no_month_worse_than_-15000': False, 'timing_audit_clean': True, 'november_slice_not_worse_than_-3000': True}
+TARANG-T12-A RESOLUTION MIX: {'all': {'stop': {'trades': 2682, 'net': -1235883.44}, 'target': {'trades': 1490, 'net': 951361.5}, 'squareoff': {'trades': 458, 'net': 33251.0}, 'stop_share_of_resolved_pct': 64.3}, '2025': {'stop': {'trades': 1422, 'net': -653267.95}, 'target': {'trades': 785, 'net': 500043.35}, 'squareoff': {'trades': 283, 'net': 23010.0}, 'stop_share_of_resolved_pct': 64.4}, '2026': {'stop': {'trades': 1260, 'net': -582615.49}, 'target': {'trades': 705, 'net': 451318.15}, 'squareoff': {'trades': 175, 'net': 10241.0}, 'stop_share_of_resolved_pct': 64.1}}
+TARANG-T12-A COST ANATOMY: {'all': {'trades': 4630, 'gross_inr': -66070.94, 'cost_inr': 185200.0, 'net_inr': -251270.94, 'gross_per_trade': -14.27, 'cost_per_trade': 40.0, 'net_per_trade': -54.27}, '2025': {'trades': 2490, 'gross_inr': -30614.6, 'cost_inr': 99600.0, 'net_inr': -130214.6, 'gross_per_trade': -12.3, 'cost_per_trade': 40.0, 'net_per_trade': -52.3}, '2026': {'trades': 2140, 'gross_inr': -35456.34, 'cost_inr': 85600.0, 'net_inr': -121056.34, 'gross_per_trade': -16.57, 'cost_per_trade': 40.0, 'net_per_trade': -56.57}}
+TARANG-T12-A: trades CSV written incrementally (4630 rows so far)
+TARANG-T12-B PARITY: 141895 engine signals, mismatches: [], subset violations: []
+TARANG-T12-B: 4640 trades from 90545 candidate entries, net -88074.16
+TARANG-T12-B FLIP: {2025: -157074.66, 2026: -132741.68}
+TARANG-T12-B RANDOM: p90 {2025: -63763.84, 2026: -45402.23} percentiles {2025: 93.0, 2026: 96.5}
+TARANG-T12-B AUDIT: {'entry_not_after_signal': 0, 'entry_before_0945': 0, 'entry_after_1430': 0, 'entry_not_at_fill_bar': 0, 'exit_inconsistent': 0, 'signal_invalid': 0, 'cap_name_day': 0, 'cap_book_day': 0, 'overlap_same_name': 0, 'net_mismatch': 0, 'squareoff_price_mismatch': 0, 'volratio_mismatch': 0, 'depth_mismatch': 0, 'snap_mismatch': 0, 'allocation_mismatch': 0, 'total_violations': 0} | spot: {'checked': 30, 'mismatches': 0}
+TARANG-T12-B GATE: NO PASS | legs: {'net_positive_2025': False, 'net_positive_2026': False, 'beats_random_p90_2025': True, 'beats_random_p90_2026': True, 'ex_top3_positive_2025': False, 'ex_top3_positive_2026': False, 'no_month_worse_than_-15000': False, 'timing_audit_clean': True, 'november_slice_not_worse_than_-3000': True}
+TARANG-T12-B RESOLUTION MIX: {'all': {'stop': {'trades': 2622, 'net': -1204380.35}, 'target': {'trades': 1623, 'net': 1078576.19}, 'squareoff': {'trades': 395, 'net': 37730.0}, 'stop_share_of_resolved_pct': 61.8}, '2025': {'stop': {'trades': 1404, 'net': -637243.63}, 'target': {'trades': 837, 'net': 553205.94}, 'squareoff': {'trades': 249, 'net': 24137.0}, 'stop_share_of_resolved_pct': 62.7}, '2026': {'stop': {'trades': 1218, 'net': -567136.72}, 'target': {'trades': 786, 'net': 525370.25}, 'squareoff': {'trades': 146, 'net': 13593.0}, 'stop_share_of_resolved_pct': 60.8}}
+TARANG-T12-B COST ANATOMY: {'all': {'trades': 4640, 'gross_inr': 97525.84, 'cost_inr': 185600.0, 'net_inr': -88074.16, 'gross_per_trade': 21.02, 'cost_per_trade': 40.0, 'net_per_trade': -18.98}, '2025': {'trades': 2490, 'gross_inr': 39699.31, 'cost_inr': 99600.0, 'net_inr': -59900.69, 'gross_per_trade': 15.94, 'cost_per_trade': 40.0, 'net_per_trade': -24.06}, '2026': {'trades': 2150, 'gross_inr': 57826.53, 'cost_inr': 86000.0, 'net_inr': -28173.47, 'gross_per_trade': 26.9, 'cost_per_trade': 40.0, 'net_per_trade': -13.1}}
+TARANG-T12-B: trades CSV written incrementally (9270 rows so far)
+RE-SUM: {'TARANG-T12-A': {2025: -130214.6, 2026: -121056.34, 'match': True}, 'TARANG-T12-B': {2025: -59900.69, 2026: -28173.47, 'match': True}}
+DESIGN 12 SCORING DONE

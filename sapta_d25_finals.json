@@ -1,0 +1,123 @@
+{
+ "audit_clean": true,
+ "issues": [],
+ "checked": {
+  "trades": 293,
+  "names": 69
+ },
+ "c25a_independent": {
+  "2025": {
+   "audit": {
+    "trades": 74,
+    "total": 42954.6,
+    "wr": 71.62
+   },
+   "published": {
+    "trades": 74,
+    "total": 42954.6,
+    "wr": 71.62
+   },
+   "match": true
+  },
+  "2026": {
+   "audit": {
+    "trades": 102,
+    "total": 141328.4,
+    "wr": 62.75
+   },
+   "published": {
+    "trades": 102,
+    "total": 141328.4,
+    "wr": 62.75
+   },
+   "match": true
+  }
+ },
+ "c25a_independent_ok": true,
+ "streams": {
+  "EKAM-2c": {
+   "summary": {
+    "2025": {
+     "trades": 58,
+     "gross_inr": 39002.1,
+     "gross_per_trade": 672.45,
+     "net_inr": 36682.1
+    },
+    "2026": {
+     "trades": 53,
+     "gross_inr": 29703.0,
+     "gross_per_trade": 560.43,
+     "net_inr": 27583.0
+    }
+   },
+   "november_2026": {
+    "entries": 0,
+    "closed_trades": 0,
+    "closed_net": 0,
+    "open_marked": 0,
+    "open_marked_net": 0,
+    "earlier_open_marked": 3,
+    "earlier_open_marked_net": -10720.0
+   },
+   "full_window_net": 64355.1,
+   "survey_pass": true,
+   "trades_checked": 121
+  },
+  "BB-REV-D": {
+   "summary": {
+    "2025": {
+     "trades": 63,
+     "gross_inr": 55300.0,
+     "gross_per_trade": 877.78,
+     "net_inr": 52780.0
+    },
+    "2026": {
+     "trades": 57,
+     "gross_inr": 31842.0,
+     "gross_per_trade": 558.63,
+     "net_inr": 29562.0
+    }
+   },
+   "november_2026": {
+    "entries": 0,
+    "closed_trades": 0,
+    "closed_net": 0,
+    "open_marked": 0,
+    "open_marked_net": 0,
+    "earlier_open_marked": 0,
+    "earlier_open_marked_net": 0
+   },
+   "full_window_net": 79852.0,
+   "survey_pass": true,
+   "trades_checked": 130
+  },
+  "RSI-REV": {
+   "summary": {
+    "2025": {
+     "trades": 28,
+     "gross_inr": 58803.0,
+     "gross_per_trade": 2100.11,
+     "net_inr": 57683.0
+    },
+    "2026": {
+     "trades": 13,
+     "gross_inr": 49044.5,
+     "gross_per_trade": 3772.65,
+     "net_inr": 48524.5
+    }
+   },
+   "november_2026": {
+    "entries": 0,
+    "closed_trades": 0,
+    "closed_net": 0,
+    "open_marked": 0,
+    "open_marked_net": 0,
+    "earlier_open_marked": 2,
+    "earlier_open_marked_net": 6730.0
+   },
+   "full_window_net": 104587.5,
+   "survey_pass": true,
+   "trades_checked": 42
+  }
+ }
+}

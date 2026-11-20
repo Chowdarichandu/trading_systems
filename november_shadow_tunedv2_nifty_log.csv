@@ -9,3 +9,7 @@ date,row_type,component,direction,strike,expiry,entry_time,entry_premium,exit_ti
 2026-11-11,BACKFILL_COUNTERFACTUAL,B,PE,25400,2026-11-23,10:05,296.80,14:00,356.80,runner_stop,3680.00,DROPPED_B_PE,0.00,0.00,DROPPED B PE: excluded from TUNED v2 by the EVE-11 definition (the DEC-S1 net stands in DEC-S1's own line only)
 2026-11-12,BACKFILL_COUNTERFACTUAL,,,,,,,,,,0.00,NO_V2_LEG,0.00,0.00,DEC-S1 no-trade day (its ledger row: none) — TUNED v2 takes nothing
 2026-11-13,BACKFILL_COUNTERFACTUAL,,,,,,,,,,0.00,NO_V2_LEG,0.00,0.00,DEC-S1 no-trade day (its ledger row: none) — TUNED v2 takes nothing
+2026-11-16,LIVE,,,,,,,,,,0.00,NO_V2_LEG,0.00,0.00,DEC-S1 no-trade day (its ledger row: none) — TUNED v2 takes nothing
+2026-11-17,LIVE,C,CE,25400,2026-11-17,09:50,38.80,13:05,38.80,be_stop,-220.00,DROPPED_C_CE,0.00,0.00,DROPPED C CE: excluded from TUNED v2 by the EVE-11 definition (the DEC-S1 net stands in DEC-S1's own line only)
+2026-11-18,LIVE,A,PE,25300,2026-11-23,09:40,199.65,13:50,199.65,be_stop,-220.00,KEPT,-220.00,-220.00,KEPT by EVE-11: A PE is a TUNED v2 class (v2 = DEC-S1 - B PE - A CE - C CE)
+2026-11-19,LIVE,,,,,,,,,,0.00,NO_V2_LEG,0.00,-220.00,DEC-S1 no-trade day (its ledger row: none) — TUNED v2 takes nothing

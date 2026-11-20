@@ -1,0 +1,94 @@
+/home/hatch/workspace/trading/sapta_d5_engine.py:85: RuntimeWarning: Mean of empty slice
+  mean_r = np.nanmean(M, axis=0) if M.shape[0] else np.full(NCAL, np.nan)
+intraday-ready 69/69; daily-ready 69
+
+
+# SAPTA Design 6 — registry section (sapta_d6_SPEC.md)
+
+## D6 data notes
+- ADANIENSOL: 5m verified vs reference 34676 bars, 0 mismatches
+- ADANIGREEN: 5m verified vs reference 34676 bars, 0 mismatches
+- ADANIPOWER: 5m verified vs reference 34676 bars, 0 mismatches
+- APLAPOLLO: 5m store /home/hatch/workspace/trading/data/sapta_vol/APLAPOLLO/spot_5m_vol.csv (no reference store)
+- ASHOKLEY: 5m store /home/hatch/workspace/trading/data/sapta_vol/ASHOKLEY/spot_5m_vol.csv (no reference store)
+- AUBANK: 5m store /home/hatch/workspace/trading/data/sapta_vol/AUBANK/spot_5m_vol.csv (no reference store)
+- AUROPHARMA: 5m store /home/hatch/workspace/trading/data/sapta_vol/AUROPHARMA/spot_5m_vol.csv (no reference store)
+- BAJFINANCE: 5m verified vs reference 34676 bars, 0 mismatches
+- BANKINDIA: 5m store /home/hatch/workspace/trading/data/sapta_vol/BANKINDIA/spot_5m_vol.csv (no reference store)
+- BHARATFORG: 5m store /home/hatch/workspace/trading/data/sapta_vol/BHARATFORG/spot_5m_vol.csv (no reference store)
+- BHEL: 5m verified vs reference 34676 bars, 0 mismatches
+- BIOCON: 5m store /home/hatch/workspace/trading/data/sapta_vol/BIOCON/spot_5m_vol.csv (no reference store)
+- BPCL: 5m store /home/hatch/workspace/trading/data/sapta_vol/BPCL/spot_5m_vol.csv (no reference store)
+- BSE: 5m verified vs reference 34676 bars, 0 mismatches
+- CANBK: 5m verified vs reference 34676 bars, 0 mismatches
+- CGPOWER: 5m store /home/hatch/workspace/trading/data/sapta_vol/CGPOWER/spot_5m_vol.csv (no reference store)
+- COALINDIA: 5m verified vs reference 34676 bars, 0 mismatches
+- COFORGE: 5m verified vs reference 34676 bars, 0 mismatches
+- DLF: 5m store /home/hatch/workspace/trading/data/sapta_vol/DLF/spot_5m_vol.csv (no reference store)
+- FEDERALBNK: 5m verified vs reference 34676 bars, 0 mismatches
+- FORTIS: 5m store /home/hatch/workspace/trading/data/sapta_vol/FORTIS/spot_5m_vol.csv (no reference store)
+- GAIL: 5m store /home/hatch/workspace/trading/data/sapta_vol/GAIL/spot_5m_vol.csv (no reference store)
+- GLENMARK: 5m verified vs reference 34676 bars, 0 mismatches
+- GODFRYPHLP: 5m store /home/hatch/workspace/trading/data/sapta_vol/GODFRYPHLP/spot_5m_vol.csv (no reference store)
+- HAVELLS: 5m store /home/hatch/workspace/trading/data/sapta_vol/HAVELLS/spot_5m_vol.csv (no reference store)
+- HCLTECH: 5m verified vs reference 34676 bars, 0 mismatches
+- HDFCBANK: 5m verified vs reference 34676 bars, 0 mismatches
+- HINDALCO: 5m verified vs reference 34676 bars, 0 mismatches
+- HINDZINC: 5m verified vs reference 34676 bars, 0 mismatches
+- ICICIBANK: 5m verified vs reference 34676 bars, 0 mismatches
+- INDIANB: 5m store /home/hatch/workspace/trading/data/sapta_vol/INDIANB/spot_5m_vol.csv (no reference store)
+- INDUSTOWER: 5m verified vs reference 34676 bars, 0 mismatches
+- INFY: 5m verified vs reference 34676 bars, 0 mismatches
+- IOC: 5m store /home/hatch/workspace/trading/data/sapta_vol/IOC/spot_5m_vol.csv (no reference store)
+- ITC: 5m verified vs reference 34672 bars, 0 mismatches
+- JINDALSTEL: 5m store /home/hatch/workspace/trading/data/sapta_vol/JINDALSTEL/spot_5m_vol.csv (no reference store)
+- JIOFIN: 5m verified vs reference 34676 bars, 0 mismatches
+- JSWSTEEL: 5m verified vs reference 34676 bars, 0 mismatches
+- KALYANKJIL: 5m verified vs reference 34676 bars, 0 mismatches
+- KOTAKBANK: 5m verified vs reference 34676 bars, 0 mismatches
+- LAURUSLABS: 5m verified vs reference 34676 bars, 0 mismatches
+- LODHA: 5m store /home/hatch/workspace/trading/data/sapta_vol/LODHA/spot_5m_vol.csv (no reference store)
+- MARICO: 5m store /home/hatch/workspace/trading/data/sapta_vol/MARICO/spot_5m_vol.csv (no reference store)
+- MAXHEALTH: 5m verified vs reference 34676 bars, 0 mismatches
+- MFSL: 5m store /home/hatch/workspace/trading/data/sapta_vol/MFSL/spot_5m_vol.csv (no reference store)
+- MOTHERSON: 5m store /home/hatch/workspace/trading/data/sapta_vol/MOTHERSON/spot_5m_vol.csv (no reference store)
+- NATIONALUM: 5m verified vs reference 34676 bars, 0 mismatches
+- NESTLEIND: 5m verified vs reference 34676 bars, 0 mismatches
+- OIL: 5m verified vs reference 34676 bars, 0 mismatches
+- ONGC: 5m store /home/hatch/workspace/trading/data/sapta_vol/ONGC/spot_5m_vol.csv (no reference store)
+- PATANJALI: 5m store /home/hatch/workspace/trading/data/sapta_vol/PATANJALI/spot_5m_vol.csv (no reference store)
+- PETRONET: 5m store /home/hatch/workspace/trading/data/sapta_vol/PETRONET/spot_5m_vol.csv (no reference store)
+- PHOENIXLTD: 5m store /home/hatch/workspace/trading/data/sapta_vol/PHOENIXLTD/spot_5m_vol.csv (no reference store)
+- RELIANCE: 5m verified vs reference 34676 bars, 0 mismatches
+- SAIL: 5m verified vs reference 34676 bars, 0 mismatches
+- SBICARD: 5m store /home/hatch/workspace/trading/data/sapta_vol/SBICARD/spot_5m_vol.csv (no reference store)
+- SBILIFE: 5m verified vs reference 34676 bars, 0 mismatches
+- SUNPHARMA: 5m verified vs reference 34676 bars, 0 mismatches
+- TATACONSUM: 5m store /home/hatch/workspace/trading/data/sapta_vol/TATACONSUM/spot_5m_vol.csv (no reference store)
+- TATASTEEL: 5m verified vs reference 34676 bars, 0 mismatches
+- UNIONBANK: 5m verified vs reference 34676 bars, 0 mismatches
+- UNITDSPR: 5m verified vs reference 34676 bars, 0 mismatches
+- UNOMINDA: 5m store /home/hatch/workspace/trading/data/sapta_vol/UNOMINDA/spot_5m_vol.csv (no reference store)
+- VBL: 5m store /home/hatch/workspace/trading/data/sapta_vol/VBL/spot_5m_vol.csv (no reference store)
+- VEDL: 5m verified vs reference 34667 bars, 0 mismatches
+- VOLTAS: 5m store /home/hatch/workspace/trading/data/sapta_vol/VOLTAS/spot_5m_vol.csv (no reference store)
+- WIPRO: 5m verified vs reference 34676 bars, 0 mismatches
+- YESBANK: 5m store /home/hatch/workspace/trading/data/sapta_vol/YESBANK/spot_5m_vol.csv (no reference store)
+- ZYDUSLIFE: 5m store /home/hatch/workspace/trading/data/sapta_vol/ZYDUSLIFE/spot_5m_vol.csv (no reference store)
+- BANKBARODA: 5m store /home/hatch/workspace/trading/data/tarang_wide_vol/BANKBARODA/spot_5m_vol.csv (no reference store) (D6 liquidity pick)
+- CIPLA: 5m store /home/hatch/workspace/trading/data/tarang_wide_vol/CIPLA/spot_5m_vol.csv (no reference store) (D6 liquidity pick)
+- DRREDDY: 5m verified vs reference 34676 bars, 0 mismatches (D6 liquidity pick)
+- PRESTIGE: 5m store /home/hatch/workspace/trading/data/tarang_wide_vol/PRESTIGE/spot_5m_vol.csv (no reference store) (D6 liquidity pick)
+- SBIN: 5m verified vs reference 34676 bars, 0 mismatches (D6 liquidity pick)
+- SUZLON: 5m verified vs reference 34676 bars, 0 mismatches (D6 liquidity pick)
+- TMPV: 5m verified vs reference 34667 bars, 0 mismatches (D6 liquidity pick)
+CONTROL C-1: building EKAM frozen-25 stocks ...
+CONTROL C-1 CAND-T5: reproduced=True (2025 {'trades': 1035, 'total': 62164.57, 'wr': 35.56, 'expectancy': 60.06}, 2026 {'trades': 1025, 'total': 63883.6, 'wr': 35.71, 'expectancy': 62.33})
+CONTROL C-1 S2: reproduced=True (2025 {'trades': 621, 'total': 45300.64, 'wr': 34.94, 'expectancy': 72.95}, 2026 {'trades': 615, 'total': 72605.3, 'wr': 36.75, 'expectancy': 118.06})
+CONTROL C-2 exit prices: 59280 cells, 0 mismatches
+CONTROL C-3a frozen-25 votes: 314 checked, 0 mismatches
+CONTROL C-3b SAPTA votes: 204 sampled of 7541, 0 mismatches
+CONTROL C-4 daily: BB+RSI lists True, stats True, MACD-only lists True (218 trades)
+
+## D6 ABORTED — C-8 selection replica mismatch; no scoring.
+C-8 FAILURE — aborting

@@ -1,0 +1,23 @@
+data loaded
+MACHINERY CHECK (signal set == A): {'names_checked': 25, 'signal_count_engine': 93421, 'signal_count_R4': 93421, 'set_mismatch': 0, 'depth_mismatch': 0}
+TARANG-A-CORRECTED: 4640 trades, net -156219.03
+TARANG-A-CORRECTED NO-TVSMOTOR: 4640 trades, net -175133.34
+TARANG-A-CORRECTED FLIP: {2025: -128579.1, 2026: -72899.63}
+TARANG-A-CORRECTED RANDOM: p90 {2025: -60329.98, 2026: -44524.32} percentiles {2025: 80.0, 2026: 49.0}
+TARANG-A-CORRECTED AUDIT: {'entry_not_after_signal': 0, 'entry_before_0945': 0, 'entry_not_next_bar': 0, 'exit_inconsistent': 0, 'signal_invalid': 0, 'cap_name_day': 0, 'cap_book_day': 0, 'overlap_same_name': 0, 'net_mismatch': 0, 'squareoff_price_mismatch': 0, 'total_violations': 0} | spot: {'checked': 30, 'mismatches': 0}
+TARANG-A-CORRECTED GATE: NO PASS | legs: {'net_positive_2025': False, 'net_positive_2026': False, 'beats_random_p90_2025': False, 'beats_random_p90_2026': False, 'ex_top3_positive_2025': False, 'ex_top3_positive_2026': False, 'no_month_worse_than_-15000': False, 'timing_audit_clean': True, 'november_slice_not_worse_than_-3000': True}
+TARANG-A4: 4640 trades, net -130656.87
+TARANG-A4 NO-TVSMOTOR: 4640 trades, net -160471.0
+TARANG-A4 FLIP: {2025: -126318.77, 2026: -94020.87}
+TARANG-A4 RANDOM: p90 {2025: -60329.98, 2026: -44524.32} percentiles {2025: 92.0, 2026: 63.5}
+TARANG-A4 AUDIT: {'entry_not_after_signal': 0, 'entry_before_0945': 0, 'entry_not_next_bar': 0, 'exit_inconsistent': 0, 'signal_invalid': 0, 'cap_name_day': 0, 'cap_book_day': 0, 'overlap_same_name': 0, 'net_mismatch': 0, 'squareoff_price_mismatch': 0, 'volratio_mismatch': 0, 'allocation_mismatch': 0, 'total_violations': 0} | spot: {'checked': 30, 'mismatches': 0}
+TARANG-A4 GATE: NO PASS | legs: {'net_positive_2025': False, 'net_positive_2026': False, 'beats_random_p90_2025': True, 'beats_random_p90_2026': False, 'ex_top3_positive_2025': False, 'ex_top3_positive_2026': False, 'no_month_worse_than_-15000': False, 'timing_audit_clean': True, 'november_slice_not_worse_than_-3000': True}
+TARANG-A5: 4640 trades, net -159978.93
+TARANG-A5 NO-TVSMOTOR: 4640 trades, net -144536.73
+TARANG-A5 FLIP: {2025: -102447.37, 2026: -105498.15}
+TARANG-A5 RANDOM: p90 {2025: -78673.83, 2026: -62800.13} percentiles {2025: 91.5, 2026: 70.0}
+TARANG-A5 AUDIT: {'entry_not_after_signal': 0, 'entry_before_0945': 0, 'entry_not_next_bar': 0, 'exit_inconsistent': 0, 'signal_invalid': 0, 'cap_name_day': 0, 'cap_book_day': 0, 'overlap_same_name': 0, 'net_mismatch': 0, 'squareoff_price_mismatch': 0, 'total_violations': 0} | spot: {'checked': 30, 'mismatches': 0}
+TARANG-A5 GATE: NO PASS | legs: {'net_positive_2025': False, 'net_positive_2026': False, 'beats_random_p90_2025': True, 'beats_random_p90_2026': False, 'ex_top3_positive_2025': False, 'ex_top3_positive_2026': False, 'no_month_worse_than_-15000': False, 'timing_audit_clean': True, 'november_slice_not_worse_than_-3000': True}
+RE-SUM: {'TARANG-A-CORRECTED': {2025: -68545.71, 2026: -87673.32, 'match': True}, 'TARANG-A4': {2025: -56521.09, 2026: -74135.78, 'match': True}, 'TARANG-A5': {2025: -77142.82, 2026: -82836.11, 'match': True}}
+ROUND 4 SCORING DONE
+EXIT=0

@@ -1,0 +1,328 @@
+{
+ "ekam_machinery_control": {
+  "CAND-T5": {
+   "2025": {
+    "trades": 1035,
+    "net": 62164.57,
+    "published": 62164.57,
+    "diff": 0.0
+   },
+   "2026": {
+    "trades": 1025,
+    "net": 63883.6,
+    "published": 63883.6,
+    "diff": -0.0
+   }
+  },
+  "S2": {
+   "2025": {
+    "trades": 621,
+    "net": 45300.64,
+    "published": 45300.64,
+    "diff": 0.0
+   },
+   "2026": {
+    "trades": 615,
+    "net": 72605.3,
+    "published": 72605.3,
+    "diff": -0.0
+   }
+  },
+  "reproduced": true
+ },
+ "families": {
+  "ORB30": {
+   "raw_signals": 52647,
+   "unfilled": 512,
+   "skipped_days": 258,
+   "signal_parity": "EXACT",
+   "engine_signals": 52647,
+   "validator_signals": 52647,
+   "streams": {
+    "ORB30": {
+     "2025": {
+      "trades": 28058,
+      "gross_inr": 750127.89,
+      "gross_per_trade": 26.73,
+      "net_inr": -372192.11,
+      "net_per_trade": -13.27,
+      "win_rate": 0.4171,
+      "long_gross_per_trade": 20.87,
+      "short_gross_per_trade": 31.66,
+      "stop_share": 0.2975,
+      "squareoff_gross_per_trade": 372.02
+     },
+     "2026": {
+      "trades": 24077,
+      "gross_inr": 274968.75,
+      "gross_per_trade": 11.42,
+      "net_inr": -688111.25,
+      "net_per_trade": -28.58,
+      "win_rate": 0.4146,
+      "long_gross_per_trade": -9.19,
+      "short_gross_per_trade": 28.98,
+      "stop_share": 0.3187,
+      "squareoff_gross_per_trade": 394.49
+     },
+     "survey_pass": false
+    }
+   }
+  },
+  "PDHL": {
+   "raw_signals": 46800,
+   "unfilled": 491,
+   "skipped_days": 127,
+   "signal_parity": "EXACT",
+   "engine_signals": 46800,
+   "validator_signals": 46800,
+   "streams": {
+    "PDHL": {
+     "2025": {
+      "trades": 24768,
+      "gross_inr": 580356.65,
+      "gross_per_trade": 23.43,
+      "net_inr": -410363.35,
+      "net_per_trade": -16.57,
+      "win_rate": 0.3966,
+      "long_gross_per_trade": 12.14,
+      "short_gross_per_trade": 34.67,
+      "stop_share": 0.3647,
+      "squareoff_gross_per_trade": 489.71
+     },
+     "2026": {
+      "trades": 21541,
+      "gross_inr": -17480.27,
+      "gross_per_trade": -0.81,
+      "net_inr": -879120.27,
+      "net_per_trade": -40.81,
+      "win_rate": 0.3815,
+      "long_gross_per_trade": -20.81,
+      "short_gross_per_trade": 17.57,
+      "stop_share": 0.3929,
+      "squareoff_gross_per_trade": 511.99
+     },
+     "survey_pass": false
+    }
+   }
+  },
+  "VWAPSNAP": {
+   "raw_signals": 39626,
+   "unfilled": 1145,
+   "skipped_days": 0,
+   "signal_parity": "EXACT",
+   "engine_signals": 39626,
+   "validator_signals": 39626,
+   "streams": {
+    "VWAPSNAP": {
+     "2025": {
+      "trades": 20074,
+      "gross_inr": -246740.69,
+      "gross_per_trade": -12.29,
+      "net_inr": -1049700.69,
+      "net_per_trade": -52.29,
+      "win_rate": 0.3808,
+      "long_gross_per_trade": -10.86,
+      "short_gross_per_trade": -13.81,
+      "stop_share": 0.3118,
+      "squareoff_gross_per_trade": 331.69
+     },
+     "2026": {
+      "trades": 18407,
+      "gross_inr": 243531.41,
+      "gross_per_trade": 13.23,
+      "net_inr": -492748.59,
+      "net_per_trade": -26.77,
+      "win_rate": 0.3989,
+      "long_gross_per_trade": 7.16,
+      "short_gross_per_trade": 19.64,
+      "stop_share": 0.303,
+      "squareoff_gross_per_trade": 366.06
+     },
+     "survey_pass": false
+    }
+   }
+  },
+  "GAP": {
+   "raw_signals": 16228,
+   "unfilled": 0,
+   "skipped_days": 127,
+   "signal_parity": "EXACT",
+   "engine_signals": 16228,
+   "validator_signals": 16228,
+   "streams": {
+    "GAP-FADE": {
+     "2025": {
+      "trades": 3554,
+      "gross_inr": 1193195.02,
+      "gross_per_trade": 335.73,
+      "net_inr": 1051035.02,
+      "net_per_trade": 295.73,
+      "win_rate": 0.4364,
+      "long_gross_per_trade": 571.27,
+      "short_gross_per_trade": 166.68,
+      "stop_share": 0.5003,
+      "squareoff_gross_per_trade": 1438.19
+     },
+     "2026": {
+      "trades": 4560,
+      "gross_inr": 52839.25,
+      "gross_per_trade": 11.59,
+      "net_inr": -129560.75,
+      "net_per_trade": -28.41,
+      "win_rate": 0.3265,
+      "long_gross_per_trade": -20.09,
+      "short_gross_per_trade": 39.31,
+      "stop_share": 0.6002,
+      "squareoff_gross_per_trade": 1152.95
+     },
+     "survey_pass": false
+    },
+    "GAP-GO": {
+     "2025": {
+      "trades": 3554,
+      "gross_inr": -656567.33,
+      "gross_per_trade": -184.74,
+      "net_inr": -798727.33,
+      "net_per_trade": -224.74,
+      "win_rate": 0.2355,
+      "long_gross_per_trade": -110.77,
+      "short_gross_per_trade": -287.8,
+      "stop_share": 0.7068,
+      "squareoff_gross_per_trade": 1230.95
+     },
+     "2026": {
+      "trades": 4560,
+      "gross_inr": 71916.29,
+      "gross_per_trade": 15.77,
+      "net_inr": -110483.71,
+      "net_per_trade": -24.23,
+      "win_rate": 0.3382,
+      "long_gross_per_trade": -45.42,
+      "short_gross_per_trade": 85.7,
+      "stop_share": 0.5868,
+      "squareoff_gross_per_trade": 1134.01
+     },
+     "survey_pass": false
+    }
+   }
+  },
+  "RSI2": {
+   "raw_signals": 58851,
+   "unfilled": 18,
+   "skipped_days": 0,
+   "signal_parity": "EXACT",
+   "engine_signals": 58851,
+   "validator_signals": 58851,
+   "streams": {
+    "RSI2": {
+     "2025": {
+      "trades": 31570,
+      "gross_inr": 107349.78,
+      "gross_per_trade": 3.4,
+      "net_inr": -1155450.22,
+      "net_per_trade": -36.6,
+      "win_rate": 0.399,
+      "long_gross_per_trade": -4.36,
+      "short_gross_per_trade": 11.02,
+      "stop_share": 0.3863,
+      "squareoff_gross_per_trade": 497.54
+     },
+     "2026": {
+      "trades": 27263,
+      "gross_inr": 114483.08,
+      "gross_per_trade": 4.2,
+      "net_inr": -976036.92,
+      "net_per_trade": -35.8,
+      "win_rate": 0.3996,
+      "long_gross_per_trade": -13.29,
+      "short_gross_per_trade": 21.57,
+      "stop_share": 0.4032,
+      "squareoff_gross_per_trade": 540.45
+     },
+     "survey_pass": false
+    }
+   }
+  },
+  "FHMOM": {
+   "raw_signals": 58318,
+   "unfilled": 0,
+   "skipped_days": 258,
+   "signal_parity": "EXACT",
+   "engine_signals": 58318,
+   "validator_signals": 58318,
+   "streams": {
+    "FHMOM": {
+     "2025": {
+      "trades": 31281,
+      "gross_inr": 988771.96,
+      "gross_per_trade": 31.61,
+      "net_inr": -262468.04,
+      "net_per_trade": -8.39,
+      "win_rate": 0.4229,
+      "long_gross_per_trade": 35.63,
+      "short_gross_per_trade": 28.1,
+      "stop_share": 0.3272,
+      "squareoff_gross_per_trade": 435.28
+     },
+     "2026": {
+      "trades": 27037,
+      "gross_inr": 104848.69,
+      "gross_per_trade": 3.88,
+      "net_inr": -976631.31,
+      "net_per_trade": -36.12,
+      "win_rate": 0.41,
+      "long_gross_per_trade": -25.5,
+      "short_gross_per_trade": 28.31,
+      "stop_share": 0.3614,
+      "squareoff_gross_per_trade": 463.37
+     },
+     "survey_pass": false
+    }
+   }
+  },
+  "VOLSHOCK": {
+   "raw_signals": 37717,
+   "unfilled": 2709,
+   "skipped_days": 254,
+   "signal_parity": "EXACT",
+   "engine_signals": 37717,
+   "validator_signals": 37717,
+   "streams": {
+    "VOLSHOCK": {
+     "2025": {
+      "trades": 18353,
+      "gross_inr": 199327.19,
+      "gross_per_trade": 10.86,
+      "net_inr": -534792.81,
+      "net_per_trade": -29.14,
+      "win_rate": 0.3822,
+      "long_gross_per_trade": 8.76,
+      "short_gross_per_trade": 13.4,
+      "stop_share": 0.1386,
+      "squareoff_gross_per_trade": 136.08
+     },
+     "2026": {
+      "trades": 16655,
+      "gross_inr": 402078.96,
+      "gross_per_trade": 24.14,
+      "net_inr": -264121.04,
+      "net_per_trade": -15.86,
+      "win_rate": 0.3875,
+      "long_gross_per_trade": 17.16,
+      "short_gross_per_trade": 32.16,
+      "stop_share": 0.1501,
+      "squareoff_gross_per_trade": 166.59
+     },
+     "survey_pass": false
+    }
+   }
+  }
+ },
+ "audits": {
+  "exit_parity_mismatches": 0,
+  "exit_parity_trades": 305312,
+  "truncation_spotcheck_n": 30,
+  "truncation_spotcheck_misses": 0,
+  "resum_ok": true
+ }
+}

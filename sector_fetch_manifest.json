@@ -1,0 +1,124 @@
+{
+ "programme": "SECTOR-ADDITIONS stage 5 \u2014 data for the 12 proposed additions",
+ "route": "Programme Upstox route (browser User-Agent, surrogate auth), fetched by the wide-100 build this morning (wide100_fetch.py); verified in place for this test \u2014 no re-fetch needed, no 429 encountered",
+ "layout": "data/wide100/<SYM>/{spot_5m.csv, spot_daily.csv} \u2014 the frozen stores' exact layout",
+ "window": "5m 2025-01-01 -> 2026-11-13; daily 2024-10-01 -> 2026-11-13",
+ "symbols": {
+  "HDFCBANK": {
+   "bars_5m": 34676,
+   "distinct_sessions": 464,
+   "first": "2025-01-01 09:15:00+05:30",
+   "last": "2026-11-13 15:25:00+05:30",
+   "status": "verified_existing",
+   "role": "frozen-25 reference"
+  },
+  "ULTRACEMCO": {
+   "bars_5m": 34676,
+   "distinct_sessions": 464,
+   "first": "2025-01-01 09:15:00+05:30",
+   "last": "2026-11-13 15:25:00+05:30",
+   "status": "verified_existing",
+   "missing_sessions_vs_reference": 0,
+   "extra_sessions_vs_reference": 0
+  },
+  "LT": {
+   "bars_5m": 34676,
+   "distinct_sessions": 464,
+   "first": "2025-01-01 09:15:00+05:30",
+   "last": "2026-11-13 15:25:00+05:30",
+   "status": "verified_existing",
+   "missing_sessions_vs_reference": 0,
+   "extra_sessions_vs_reference": 0
+  },
+  "SBILIFE": {
+   "bars_5m": 34676,
+   "distinct_sessions": 464,
+   "first": "2025-01-01 09:15:00+05:30",
+   "last": "2026-11-13 15:25:00+05:30",
+   "status": "verified_existing",
+   "missing_sessions_vs_reference": 0,
+   "extra_sessions_vs_reference": 0
+  },
+  "APOLLOHOSP": {
+   "bars_5m": 34676,
+   "distinct_sessions": 464,
+   "first": "2025-01-01 09:15:00+05:30",
+   "last": "2026-11-13 15:25:00+05:30",
+   "status": "verified_existing",
+   "missing_sessions_vs_reference": 0,
+   "extra_sessions_vs_reference": 0
+  },
+  "ICICIBANK": {
+   "bars_5m": 34676,
+   "distinct_sessions": 464,
+   "first": "2025-01-01 09:15:00+05:30",
+   "last": "2026-11-13 15:25:00+05:30",
+   "status": "verified_existing",
+   "missing_sessions_vs_reference": 0,
+   "extra_sessions_vs_reference": 0
+  },
+  "SBIN": {
+   "bars_5m": 34676,
+   "distinct_sessions": 464,
+   "first": "2025-01-01 09:15:00+05:30",
+   "last": "2026-11-13 15:25:00+05:30",
+   "status": "verified_existing",
+   "missing_sessions_vs_reference": 0,
+   "extra_sessions_vs_reference": 0
+  },
+  "RELIANCE": {
+   "bars_5m": 34676,
+   "distinct_sessions": 464,
+   "first": "2025-01-01 09:15:00+05:30",
+   "last": "2026-11-13 15:25:00+05:30",
+   "status": "verified_existing",
+   "missing_sessions_vs_reference": 0,
+   "extra_sessions_vs_reference": 0
+  },
+  "INFY": {
+   "bars_5m": 34676,
+   "distinct_sessions": 464,
+   "first": "2025-01-01 09:15:00+05:30",
+   "last": "2026-11-13 15:25:00+05:30",
+   "status": "verified_existing",
+   "missing_sessions_vs_reference": 0,
+   "extra_sessions_vs_reference": 0
+  },
+  "M&M": {
+   "bars_5m": 34676,
+   "distinct_sessions": 464,
+   "first": "2025-01-01 09:15:00+05:30",
+   "last": "2026-11-13 15:25:00+05:30",
+   "status": "verified_existing",
+   "missing_sessions_vs_reference": 0,
+   "extra_sessions_vs_reference": 0
+  },
+  "BHARTIARTL": {
+   "bars_5m": 34676,
+   "distinct_sessions": 464,
+   "first": "2025-01-01 09:15:00+05:30",
+   "last": "2026-11-13 15:25:00+05:30",
+   "status": "verified_existing",
+   "missing_sessions_vs_reference": 0,
+   "extra_sessions_vs_reference": 0
+  },
+  "SUNPHARMA": {
+   "bars_5m": 34676,
+   "distinct_sessions": 464,
+   "first": "2025-01-01 09:15:00+05:30",
+   "last": "2026-11-13 15:25:00+05:30",
+   "status": "verified_existing",
+   "missing_sessions_vs_reference": 0,
+   "extra_sessions_vs_reference": 0
+  },
+  "TITAN": {
+   "bars_5m": 34676,
+   "distinct_sessions": 464,
+   "first": "2025-01-01 09:15:00+05:30",
+   "last": "2026-11-13 15:25:00+05:30",
+   "status": "verified_existing",
+   "missing_sessions_vs_reference": 0,
+   "extra_sessions_vs_reference": 0
+  }
+ }
+}

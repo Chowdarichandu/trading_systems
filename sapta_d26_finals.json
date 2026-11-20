@@ -1,0 +1,237 @@
+{
+ "audit_clean": true,
+ "issues": [],
+ "checked": {
+  "trades": 293,
+  "names": 69
+ },
+ "c26a_independent": {
+  "2025": {
+   "audit": {
+    "trades": 74,
+    "total": 42954.6,
+    "wr": 71.62
+   },
+   "published": {
+    "trades": 74,
+    "total": 42954.6,
+    "wr": 71.62
+   },
+   "match": true
+  },
+  "2026": {
+   "audit": {
+    "trades": 102,
+    "total": 141328.4,
+    "wr": 62.75
+   },
+   "published": {
+    "trades": 102,
+    "total": 141328.4,
+    "wr": 62.75
+   },
+   "match": true
+  }
+ },
+ "c26a_independent_ok": true,
+ "books": {
+  "EKAM-2c": {
+   "summary": {
+    "2025": {
+     "trades": 58,
+     "gross_inr": 39002.1,
+     "net_inr": 36682.1
+    },
+    "2026": {
+     "trades": 53,
+     "gross_inr": 29703.0,
+     "net_inr": 27583.0
+    }
+   },
+   "november_2026": {
+    "entries": 0,
+    "closed_trades": 0,
+    "closed_net": 0,
+    "open_marked": 0,
+    "open_marked_net": 0,
+    "earlier_open_marked": 3,
+    "earlier_open_marked_net": -10720.0
+   },
+   "full_window_net": 64355.1,
+   "gate_legs_audit": {
+    "leg1_net_pos_both": true,
+    "leg3_extop3_pos_both": false,
+    "leg4_month_floor": false,
+    "leg5_ekam_bar": false
+   },
+   "gate_detail_audit": {
+    "net": {
+     "2025": 36682.1,
+     "2026": 27583.0
+    },
+    "ex_top3": {
+     "2025": -4962.9,
+     "2026": -17.0
+    },
+    "worst_month": {
+     "exit": {
+      "month": "2025-04",
+      "net": -88181.5
+     },
+     "entry": {
+      "month": "2025-01",
+      "net": -62320.0
+     }
+    }
+   },
+   "placebo_audit": {
+    "2025": {
+     "real_net": 36682.1,
+     "pct": 1.0,
+     "draw_mean": 118010.67
+    },
+    "2026": {
+     "real_net": 27583.0,
+     "pct": 4.5,
+     "draw_mean": 60198.25
+    }
+   },
+   "placebo_leg2_audit": false,
+   "run_placebo_matches_d25_diagnostic": true,
+   "trades_checked": 121,
+   "all_five_pass_audit": false
+  },
+  "BB-REV-D": {
+   "summary": {
+    "2025": {
+     "trades": 63,
+     "gross_inr": 55300.0,
+     "net_inr": 52780.0
+    },
+    "2026": {
+     "trades": 57,
+     "gross_inr": 31842.0,
+     "net_inr": 29562.0
+    }
+   },
+   "november_2026": {
+    "entries": 0,
+    "closed_trades": 0,
+    "closed_net": 0,
+    "open_marked": 0,
+    "open_marked_net": 0,
+    "earlier_open_marked": 0,
+    "earlier_open_marked_net": 0
+   },
+   "full_window_net": 79852.0,
+   "gate_legs_audit": {
+    "leg1_net_pos_both": true,
+    "leg3_extop3_pos_both": true,
+    "leg4_month_floor": false,
+    "leg5_ekam_bar": false
+   },
+   "gate_detail_audit": {
+    "net": {
+     "2025": 52780.0,
+     "2026": 29562.0
+    },
+    "ex_top3": {
+     "2025": 2425.0,
+     "2026": 6762.0
+    },
+    "worst_month": {
+     "exit": {
+      "month": "2025-02",
+      "net": -30396.0
+     },
+     "entry": {
+      "month": "2025-02",
+      "net": -32750.0
+     }
+    }
+   },
+   "placebo_audit": {
+    "2025": {
+     "real_net": 52780.0,
+     "pct": 16.0,
+     "draw_mean": 81367.96
+    },
+    "2026": {
+     "real_net": 29562.0,
+     "pct": 1.0,
+     "draw_mean": 69155.41
+    }
+   },
+   "placebo_leg2_audit": false,
+   "run_placebo_matches_d25_diagnostic": true,
+   "trades_checked": 130,
+   "all_five_pass_audit": false
+  },
+  "RSI-REV": {
+   "summary": {
+    "2025": {
+     "trades": 28,
+     "gross_inr": 58803.0,
+     "net_inr": 57683.0
+    },
+    "2026": {
+     "trades": 13,
+     "gross_inr": 49044.5,
+     "net_inr": 48524.5
+    }
+   },
+   "november_2026": {
+    "entries": 0,
+    "closed_trades": 0,
+    "closed_net": 0,
+    "open_marked": 0,
+    "open_marked_net": 0,
+    "earlier_open_marked": 2,
+    "earlier_open_marked_net": 6730.0
+   },
+   "full_window_net": 104587.5,
+   "gate_legs_audit": {
+    "leg1_net_pos_both": true,
+    "leg3_extop3_pos_both": true,
+    "leg4_month_floor": false,
+    "leg5_ekam_bar": false
+   },
+   "gate_detail_audit": {
+    "net": {
+     "2025": 57683.0,
+     "2026": 48524.5
+    },
+    "ex_top3": {
+     "2025": 6998.0,
+     "2026": 16354.5
+    },
+    "worst_month": {
+     "exit": {
+      "month": "2025-05",
+      "net": -34024.0
+     },
+     "entry": {
+      "month": "2025-01",
+      "net": -42401.0
+     }
+    }
+   },
+   "placebo_audit": {
+    "2025": {
+     "real_net": 57683.0,
+     "pct": 0.0,
+     "draw_mean": 130915.67
+    },
+    "2026": {
+     "real_net": 48524.5,
+     "pct": 21.5,
+     "draw_mean": 57809.73
+    }
+   },
+   "placebo_leg2_audit": false,
+   "run_placebo_matches_d25_diagnostic": true,
+   "trades_checked": 42,
+   "all_five_pass_audit": false
+  }
+ }
+}

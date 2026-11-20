@@ -1,0 +1,558 @@
+{
+ "date": "2026-11-17",
+ "universe_enlarged": 37,
+ "additions": [
+  "ULTRACEMCO",
+  "LT",
+  "SBILIFE",
+  "APOLLOHOSP",
+  "ICICIBANK",
+  "SBIN",
+  "RELIANCE",
+  "INFY",
+  "M&M",
+  "BHARTIARTL",
+  "SUNPHARMA",
+  "TITAN"
+ ],
+ "books": {
+  "EKAM-CAND-T5": {
+   "control25": {
+    "2025": {
+     "trades": 1035,
+     "net": 62164.57,
+     "wr": 35.56,
+     "ex_top3": 29064.57,
+     "max_drawdown": -26599.28
+    },
+    "2026": {
+     "trades": 1025,
+     "net": 63883.6,
+     "wr": 35.71,
+     "ex_top3": 39713.6,
+     "max_drawdown": -37574.55
+    }
+   },
+   "enlarged37": {
+    "2025": {
+     "stats": {
+      "trades": 1035,
+      "net": 82251.41,
+      "wr": 36.52,
+      "ex_top3": 19551.41,
+      "max_drawdown": -48516.97
+     },
+     "added": {
+      "trades": 259,
+      "net": 31518.95,
+      "names_traded": 7,
+      "names": [
+       "APOLLOHOSP",
+       "BHARTIARTL",
+       "ICICIBANK",
+       "INFY",
+       "LT",
+       "RELIANCE",
+       "TITAN"
+      ],
+      "by_name": {
+       "ICICIBANK": 1070.0,
+       "APOLLOHOSP": 19525.3,
+       "BHARTIARTL": 15530.75,
+       "LT": -1325.0,
+       "INFY": 125.0,
+       "RELIANCE": 30.0,
+       "TITAN": -3437.1
+      }
+     }
+    },
+    "2026": {
+     "stats": {
+      "trades": 1025,
+      "net": 101550.9,
+      "wr": 36.78,
+      "ex_top3": 20720.9,
+      "max_drawdown": -57846.75
+     },
+     "added": {
+      "trades": 258,
+      "net": 17206.9,
+      "names_traded": 6,
+      "names": [
+       "APOLLOHOSP",
+       "BHARTIARTL",
+       "ICICIBANK",
+       "INFY",
+       "LT",
+       "SBILIFE"
+      ],
+      "by_name": {
+       "APOLLOHOSP": 14570.0,
+       "BHARTIARTL": 9011.7,
+       "ICICIBANK": -621.1,
+       "INFY": -1190.0,
+       "SBILIFE": -520.0,
+       "LT": -4043.7
+      }
+     }
+    }
+   },
+   "verdicts": {
+    "2025": {
+     "verdict": "DEGRADES",
+     "net_change_pct": 32.3,
+     "dd_ratio": 1.82,
+     "failed_on": "drawdown"
+    },
+    "2026": {
+     "verdict": "DEGRADES",
+     "net_change_pct": 59.0,
+     "dd_ratio": 1.54,
+     "failed_on": "drawdown"
+    }
+   },
+   "november": {
+    "control25": {
+     "trades": 45,
+     "net": 24528.65,
+     "wr": 48.89,
+     "ex_top3": 6783.65,
+     "max_drawdown": -5843.45
+    },
+    "enlarged37": {
+     "trades": 45,
+     "net": 25797.6,
+     "wr": 51.11,
+     "ex_top3": 3447.6,
+     "max_drawdown": -10718.1
+    },
+    "added": {
+     "trades": 11,
+     "net": 2510.0,
+     "names_traded": 4,
+     "names": [
+      "APOLLOHOSP",
+      "BHARTIARTL",
+      "ICICIBANK",
+      "LT"
+     ],
+     "by_name": {
+      "APOLLOHOSP": 5390.0,
+      "BHARTIARTL": 2726.9,
+      "LT": -4096.9,
+      "ICICIBANK": -1510.0
+     }
+    }
+   }
+  },
+  "EKAM-S2": {
+   "control25": {
+    "2025": {
+     "trades": 621,
+     "net": 45300.64,
+     "wr": 34.94,
+     "ex_top3": 12200.64,
+     "max_drawdown": -27976.77
+    },
+    "2026": {
+     "trades": 615,
+     "net": 72605.3,
+     "wr": 36.75,
+     "ex_top3": 49415.3,
+     "max_drawdown": -25974.35
+    }
+   },
+   "enlarged37": {
+    "2025": {
+     "stats": {
+      "trades": 621,
+      "net": 92519.57,
+      "wr": 39.45,
+      "ex_top3": 29819.57,
+      "max_drawdown": -48196.3
+     },
+     "added": {
+      "trades": 215,
+      "net": 36255.3,
+      "names_traded": 6,
+      "names": [
+       "APOLLOHOSP",
+       "BHARTIARTL",
+       "ICICIBANK",
+       "INFY",
+       "LT",
+       "RELIANCE"
+      ],
+      "by_name": {
+       "APOLLOHOSP": 19525.3,
+       "BHARTIARTL": 18215.0,
+       "ICICIBANK": -145.0,
+       "INFY": -350.0,
+       "LT": -1020.0,
+       "RELIANCE": 30.0
+      }
+     }
+    },
+    "2026": {
+     "stats": {
+      "trades": 615,
+      "net": 106756.6,
+      "wr": 39.02,
+      "ex_top3": 25926.6,
+      "max_drawdown": -46834.85
+     },
+     "added": {
+      "trades": 209,
+      "net": 28897.0,
+      "names_traded": 3,
+      "names": [
+       "APOLLOHOSP",
+       "BHARTIARTL",
+       "ICICIBANK"
+      ],
+      "by_name": {
+       "APOLLOHOSP": 14570.0,
+       "BHARTIARTL": 14447.0,
+       "ICICIBANK": -120.0
+      }
+     }
+    }
+   },
+   "verdicts": {
+    "2025": {
+     "verdict": "DEGRADES",
+     "net_change_pct": 104.2,
+     "dd_ratio": 1.72,
+     "failed_on": "drawdown"
+    },
+    "2026": {
+     "verdict": "DEGRADES",
+     "net_change_pct": 47.0,
+     "dd_ratio": 1.8,
+     "failed_on": "drawdown"
+    }
+   },
+   "november": {
+    "control25": {
+     "trades": 27,
+     "net": 20662.6,
+     "wr": 55.56,
+     "ex_top3": 2917.6,
+     "max_drawdown": -6320.0
+    },
+    "enlarged37": {
+     "trades": 27,
+     "net": 27519.5,
+     "wr": 59.26,
+     "ex_top3": 5169.5,
+     "max_drawdown": -5878.1
+    },
+    "added": {
+     "trades": 9,
+     "net": 8116.9,
+     "names_traded": 2,
+     "names": [
+      "APOLLOHOSP",
+      "BHARTIARTL"
+     ],
+     "by_name": {
+      "APOLLOHOSP": 5390.0,
+      "BHARTIARTL": 2726.9
+     }
+    }
+   }
+  },
+  "Stock Book": {
+   "control25": {
+    "2025": {
+     "trades": 694,
+     "net": 30816.98,
+     "wr": 39.77,
+     "ex_top3": 19628.26,
+     "max_drawdown": -14151.22
+    },
+    "2026": {
+     "trades": 629,
+     "net": 211780.49,
+     "wr": 54.37,
+     "ex_top3": 193534.94,
+     "max_drawdown": -9218.96
+    }
+   },
+   "enlarged37": {
+    "2025": {
+     "stats": {
+      "trades": 880,
+      "net": 51061.89,
+      "wr": 41.14,
+      "ex_top3": 1907.89,
+      "max_drawdown": -46770.02
+     },
+     "added": {
+      "trades": 186,
+      "net": 20244.91,
+      "names_traded": 12,
+      "by_name": {
+       "SBIN": -5615.92,
+       "SUNPHARMA": 295.0,
+       "INFY": 1316.17,
+       "BHARTIARTL": 13272.17,
+       "M&M": 38979.11,
+       "RELIANCE": -1989.58,
+       "APOLLOHOSP": -20967.62,
+       "ULTRACEMCO": -4715.6,
+       "ICICIBANK": -3726.4,
+       "LT": -11471.91,
+       "TITAN": 7777.05,
+       "SBILIFE": 7092.44
+      }
+     }
+    },
+    "2026": {
+     "stats": {
+      "trades": 884,
+      "net": 185847.46,
+      "wr": 52.6,
+      "ex_top3": 137175.96,
+      "max_drawdown": -26750.85
+     },
+     "added": {
+      "trades": 255,
+      "net": -25933.03,
+      "names_traded": 12,
+      "by_name": {
+       "M&M": -18503.6,
+       "RELIANCE": 4479.78,
+       "SUNPHARMA": 6453.98,
+       "ICICIBANK": 1768.23,
+       "ULTRACEMCO": -27828.1,
+       "APOLLOHOSP": -13276.31,
+       "SBIN": 832.32,
+       "INFY": 1963.93,
+       "TITAN": 5770.73,
+       "BHARTIARTL": -2182.71,
+       "SBILIFE": 6050.82,
+       "LT": 8537.9
+      }
+     }
+    }
+   },
+   "verdicts": {
+    "2025": {
+     "verdict": "DEGRADES",
+     "net_change_pct": 65.7,
+     "dd_ratio": 3.31,
+     "failed_on": "drawdown"
+    },
+    "2026": {
+     "verdict": "DEGRADES",
+     "net_change_pct": -12.2,
+     "dd_ratio": 2.9,
+     "failed_on": "net+drawdown"
+    }
+   },
+   "november": {
+    "control25": {
+     "trades": 32,
+     "net": 7517.94,
+     "wr": 50.0,
+     "ex_top3": -1866.18,
+     "max_drawdown": -2626.4
+    },
+    "enlarged37": {
+     "trades": 38,
+     "net": 8923.84,
+     "wr": 52.63,
+     "ex_top3": -2774.98,
+     "max_drawdown": -9393.15
+    },
+    "added": {
+     "trades": 6,
+     "net": 1405.9,
+     "names_traded": 5
+    }
+   },
+   "control_crosscheck": "sector25w (data/wide100 root) reproduces the sarvaritu-root sb25 run exactly on every window \u2014 2025 +30,816.98, 2026 +2,11,780.49, Nov +7,517.94, identical drawdowns"
+  },
+  "EKAM-Daily": {
+   "control25": {
+    "2025": {
+     "trades": 79,
+     "net": 63621.5,
+     "wr": 77.22,
+     "ex_top3": 20301.5,
+     "max_drawdown": -41990.1,
+     "distinct_names": 25
+    },
+    "2026": {
+     "trades": 102,
+     "net": 150777.4,
+     "wr": 64.71,
+     "ex_top3": 77116.4,
+     "max_drawdown": -35540.0,
+     "distinct_names": 25
+    }
+   },
+   "enlarged37": {
+    "2025": {
+     "stats": {
+      "trades": 115,
+      "net": 595974.0,
+      "wr": 81.74,
+      "ex_top3": 323971.5,
+      "max_drawdown": -40930.0,
+      "distinct_names": 37
+     },
+     "added": {
+      "trades": 36,
+      "net": 532352.5,
+      "wr": 91.67,
+      "names_traded": 12,
+      "by_name": {
+       "ULTRACEMCO": 252600.0,
+       "LT": -7555.0,
+       "SBILIFE": 4045.0,
+       "APOLLOHOSP": 147757.5,
+       "ICICIBANK": 11690.0,
+       "SBIN": 2560.0,
+       "RELIANCE": 17045.0,
+       "INFY": -27710.0,
+       "M&M": 37725.0,
+       "BHARTIARTL": 16420.0,
+       "SUNPHARMA": 24645.0,
+       "TITAN": 53130.0
+      }
+     }
+    },
+    "2026": {
+     "stats": {
+      "trades": 142,
+      "net": 190240.4,
+      "wr": 62.68,
+      "ex_top3": 18865.4,
+      "max_drawdown": -201058.0,
+      "distinct_names": 37
+     },
+     "added": {
+      "trades": 40,
+      "net": 39463.0,
+      "wr": 57.5,
+      "names_traded": 12,
+      "by_name": {
+       "ULTRACEMCO": -32780.0,
+       "LT": 11300.0,
+       "SBILIFE": 90.0,
+       "APOLLOHOSP": 70125.0,
+       "ICICIBANK": 16090.0,
+       "SBIN": 530.0,
+       "RELIANCE": -2070.0,
+       "INFY": -17292.0,
+       "M&M": -4250.0,
+       "BHARTIARTL": -4650.0,
+       "SUNPHARMA": 8180.0,
+       "TITAN": -5810.0
+      }
+     }
+    }
+   },
+   "verdicts": {
+    "2025": {
+     "verdict": "IMPROVES",
+     "net_change_pct": 836.7,
+     "dd_ratio": 0.97,
+     "failed_on": null
+    },
+    "2026": {
+     "verdict": "DEGRADES",
+     "net_change_pct": 26.2,
+     "dd_ratio": 5.66,
+     "failed_on": "drawdown"
+    }
+   },
+   "control_check": "PASS \u2014 raw 25 reproduces the published official-close control exactly; the screened 25 is identical (the liquidity screen never binds on the 25)",
+   "november": {
+    "control25": {
+     "entries": 1,
+     "closed": 0,
+     "closed_net": 0,
+     "open_at_nov13": 1,
+     "open_marked_net": -3140.0,
+     "open_positions": [
+      {
+       "sym": "ASTRAL",
+       "comps": "BB",
+       "entry_date": "2026-11-11",
+       "entry": 1285.0,
+       "mark": 1254.0,
+       "marked_net": -3140.0,
+       "upgrade_date": null
+      }
+     ],
+     "entered_earlier_still_open": 8,
+     "earlier_open_marked_net": -23547.0
+    },
+    "enlarged37": {
+     "entries": 1,
+     "closed": 0,
+     "closed_net": 0,
+     "open_at_nov13": 1,
+     "open_marked_net": -3140.0,
+     "open_positions": [
+      {
+       "sym": "ASTRAL",
+       "comps": "BB",
+       "entry_date": "2026-11-11",
+       "entry": 1285.0,
+       "mark": 1254.0,
+       "marked_net": -3140.0,
+       "upgrade_date": null
+      }
+     ],
+     "entered_earlier_still_open": 8,
+     "earlier_open_marked_net": -23547.0
+    }
+   }
+  }
+ },
+ "overall": {
+  "fit_to_join_live_as_a_set": false,
+  "degraded_cells": [
+   [
+    "EKAM-CAND-T5",
+    "2025",
+    "DEGRADES"
+   ],
+   [
+    "EKAM-CAND-T5",
+    "2026",
+    "DEGRADES"
+   ],
+   [
+    "EKAM-S2",
+    "2025",
+    "DEGRADES"
+   ],
+   [
+    "EKAM-S2",
+    "2026",
+    "DEGRADES"
+   ],
+   [
+    "Stock Book",
+    "2025",
+    "DEGRADES"
+   ],
+   [
+    "Stock Book",
+    "2026",
+    "DEGRADES"
+   ],
+   [
+    "EKAM-Daily",
+    "2026",
+    "DEGRADES"
+   ]
+  ],
+  "summary": "NOT FIT as a set: 7 of 8 book-years DEGRADES under the frozen bar, every one on the drawdown leg (Stock Book 2026 also fails the net leg). Headline nets rose in 7 of 8 cells, but max drawdowns deepened to 1.54x-5.66x of control and ex-top-3 fell in 6 of 8 cells \u2014 the enlarged books are more top-heavy and deeper-tailed. Nothing live changes; live addition waits for the owner's word."
+ }
+}

@@ -1,0 +1,15 @@
+RESUM SAPTA2-14 2025: csv=-26927.00 engine=-26927.00 n=62 closed_csv=-26927.00 closed_engine=-26927.00
+RESUM SAPTA2-14 2026: csv=69875.00 engine=69875.00 n=73 closed_csv=32340.00 closed_engine=32340.00
+RESUM SAPTA2-21 2025: csv=4635.00 engine=4635.00 n=89 closed_csv=4635.00 closed_engine=4635.00
+RESUM SAPTA2-21 2026: csv=72547.00 engine=72547.00 n=94 closed_csv=28115.00 closed_engine=28115.00
+RESUM_MATCH True
+AUDIT {'violations': 0, 'checks': 1441, 'viol_profit': 0.0, 'notes': []}
+GATE_OPEN_SHARE {'Nifty Bank': 0.56, 'Nifty IT': 0.476, 'Nifty Pharma': 0.517, 'Nifty Auto': 0.621, 'Nifty Metal': 0.662, 'Nifty FMCG': 0.489, 'Nifty Realty': 0.33}
+SAPTA2-14 VERDICT NO PASS KILL True diag {'gate_blocked_signals': 256}
+  2025 net -26927.0 trades 62 wr 0.43548387096774194 exTop3 -97857.0 closedOnly -26927.0 pA90 49917.9 pB90 32957.7 pctA 27.0 pctB 41.5 legs {'net_positive': False, 'beats_a': False, 'beats_b': False, 'ex_top3_positive': False}
+  2026 net 69875.0 trades 73 wr 0.3561643835616438 exTop3 -12375.0 closedOnly 32340.0 pA90 64441.0 pB90 123352.5 pctA 92.5 pctB 75.5 legs {'net_positive': True, 'beats_a': True, 'beats_b': False, 'ex_top3_positive': False}
+  worst month -80250.0 apr2025 -80250.0 maxDD -174336.0 nov {'net': 22240.000000000022, 'trades': 8}
+SAPTA2-21 VERDICT NO PASS KILL True diag {'gate_blocked_signals': 358}
+  2025 net 4635.0 trades 89 wr 0.4157303370786517 exTop3 -78195.0 closedOnly 4635.0 pA90 51981.4 pB90 48936.2 pctA 54.50000000000001 pctB 72.0 legs {'net_positive': True, 'beats_a': False, 'beats_b': False, 'ex_top3_positive': False}
+  2026 net 72547.0 trades 94 wr 0.3404255319148936 exTop3 -9703.0 closedOnly 28115.0 pA90 40544.2 pB90 137226.6 pctA 97.5 pctB 66.5 legs {'net_positive': True, 'beats_a': True, 'beats_b': False, 'ex_top3_positive': False}
+  worst month -82805.0 apr2025 -82805.0 maxDD -130970.0 nov {'net': 34116.00000000001, 'trades': 7}

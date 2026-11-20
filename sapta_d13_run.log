@@ -1,0 +1,103 @@
+intraday-ready 69/69; daily-ready 69
+
+
+# SAPTA Design 13 — registry section (sapta_d13_SPEC.md)
+
+CONTROL C-1: building EKAM frozen-25 stocks ...
+CONTROL C-1 CAND-T5: reproduced=True (2025 {'trades': 1035, 'total': 62164.57, 'wr': 35.56, 'expectancy': 60.06}, 2026 {'trades': 1025, 'total': 63883.6, 'wr': 35.71, 'expectancy': 62.33})
+CONTROL C-1 S2: reproduced=True (2025 {'trades': 621, 'total': 45300.64, 'wr': 34.94, 'expectancy': 72.95}, 2026 {'trades': 615, 'total': 72605.3, 'wr': 36.75, 'expectancy': 118.06})
+CONTROL C-2 exit prices: 53820 cells, 0 mismatches
+CONTROL C-3a frozen-25 votes: 314 checked, 0 mismatches
+CONTROL C-3b SAPTA votes: 204 sampled of 7541, 0 mismatches
+CONTROL C-4 daily: BB+RSI lists True, stats True, MACD-only lists True (218 trades)
+C-12a EKAM machinery control ...
+C-13a/C-13b T25-C + TRAIL reproduction (prepping 127 names) ...
+
+## D13 BOOK DAILY-BASKET-NATIVE [no signal: first selected day of month, native governed exits TIME/CAP/BAND]: trades 351 | net25 +80,814 net26 +62,296 nov +20,483 | pct 72.5/17.0 | extop +41,198/+35,366 | trades 351 WR 62.4% DD -49,346 | legs 2/4 FAIL
+## D13 intraday data notes
+- ADANIENSOL: 5m verified vs reference 34676 bars, 0 mismatches
+- ADANIGREEN: 5m verified vs reference 34676 bars, 0 mismatches
+- ADANIPOWER: 5m verified vs reference 34676 bars, 0 mismatches
+- APLAPOLLO: 5m store /home/hatch/workspace/trading/data/sapta_vol/APLAPOLLO/spot_5m_vol.csv (no reference store)
+- ASHOKLEY: 5m store /home/hatch/workspace/trading/data/sapta_vol/ASHOKLEY/spot_5m_vol.csv (no reference store)
+- AUBANK: 5m store /home/hatch/workspace/trading/data/sapta_vol/AUBANK/spot_5m_vol.csv (no reference store)
+- AUROPHARMA: 5m store /home/hatch/workspace/trading/data/sapta_vol/AUROPHARMA/spot_5m_vol.csv (no reference store)
+- BAJFINANCE: 5m verified vs reference 34676 bars, 0 mismatches
+- BANKINDIA: 5m store /home/hatch/workspace/trading/data/sapta_vol/BANKINDIA/spot_5m_vol.csv (no reference store)
+- BHARATFORG: 5m store /home/hatch/workspace/trading/data/sapta_vol/BHARATFORG/spot_5m_vol.csv (no reference store)
+- BHEL: 5m verified vs reference 34676 bars, 0 mismatches
+- BIOCON: 5m store /home/hatch/workspace/trading/data/sapta_vol/BIOCON/spot_5m_vol.csv (no reference store)
+- BPCL: 5m store /home/hatch/workspace/trading/data/sapta_vol/BPCL/spot_5m_vol.csv (no reference store)
+- BSE: 5m verified vs reference 34676 bars, 0 mismatches
+- CANBK: 5m verified vs reference 34676 bars, 0 mismatches
+- CGPOWER: 5m store /home/hatch/workspace/trading/data/sapta_vol/CGPOWER/spot_5m_vol.csv (no reference store)
+- COALINDIA: 5m verified vs reference 34676 bars, 0 mismatches
+- COFORGE: 5m verified vs reference 34676 bars, 0 mismatches
+- DLF: 5m store /home/hatch/workspace/trading/data/sapta_vol/DLF/spot_5m_vol.csv (no reference store)
+- FEDERALBNK: 5m verified vs reference 34676 bars, 0 mismatches
+- FORTIS: 5m store /home/hatch/workspace/trading/data/sapta_vol/FORTIS/spot_5m_vol.csv (no reference store)
+- GAIL: 5m store /home/hatch/workspace/trading/data/sapta_vol/GAIL/spot_5m_vol.csv (no reference store)
+- GLENMARK: 5m verified vs reference 34676 bars, 0 mismatches
+- GODFRYPHLP: 5m store /home/hatch/workspace/trading/data/sapta_vol/GODFRYPHLP/spot_5m_vol.csv (no reference store)
+- HAVELLS: 5m store /home/hatch/workspace/trading/data/sapta_vol/HAVELLS/spot_5m_vol.csv (no reference store)
+- HCLTECH: 5m verified vs reference 34676 bars, 0 mismatches
+- HDFCBANK: 5m verified vs reference 34676 bars, 0 mismatches
+- HINDALCO: 5m verified vs reference 34676 bars, 0 mismatches
+- HINDZINC: 5m verified vs reference 34676 bars, 0 mismatches
+- ICICIBANK: 5m verified vs reference 34676 bars, 0 mismatches
+- INDIANB: 5m store /home/hatch/workspace/trading/data/sapta_vol/INDIANB/spot_5m_vol.csv (no reference store)
+- INDUSTOWER: 5m verified vs reference 34676 bars, 0 mismatches
+- INFY: 5m verified vs reference 34676 bars, 0 mismatches
+- IOC: 5m store /home/hatch/workspace/trading/data/sapta_vol/IOC/spot_5m_vol.csv (no reference store)
+- ITC: 5m verified vs reference 34672 bars, 0 mismatches
+- JINDALSTEL: 5m store /home/hatch/workspace/trading/data/sapta_vol/JINDALSTEL/spot_5m_vol.csv (no reference store)
+- JIOFIN: 5m verified vs reference 34676 bars, 0 mismatches
+- JSWSTEEL: 5m verified vs reference 34676 bars, 0 mismatches
+- KALYANKJIL: 5m verified vs reference 34676 bars, 0 mismatches
+- KOTAKBANK: 5m verified vs reference 34676 bars, 0 mismatches
+- LAURUSLABS: 5m verified vs reference 34676 bars, 0 mismatches
+- LODHA: 5m store /home/hatch/workspace/trading/data/sapta_vol/LODHA/spot_5m_vol.csv (no reference store)
+- MARICO: 5m store /home/hatch/workspace/trading/data/sapta_vol/MARICO/spot_5m_vol.csv (no reference store)
+- MAXHEALTH: 5m verified vs reference 34676 bars, 0 mismatches
+- MFSL: 5m store /home/hatch/workspace/trading/data/sapta_vol/MFSL/spot_5m_vol.csv (no reference store)
+- MOTHERSON: 5m store /home/hatch/workspace/trading/data/sapta_vol/MOTHERSON/spot_5m_vol.csv (no reference store)
+- NATIONALUM: 5m verified vs reference 34676 bars, 0 mismatches
+- NESTLEIND: 5m verified vs reference 34676 bars, 0 mismatches
+- OIL: 5m verified vs reference 34676 bars, 0 mismatches
+- ONGC: 5m store /home/hatch/workspace/trading/data/sapta_vol/ONGC/spot_5m_vol.csv (no reference store)
+- PATANJALI: 5m store /home/hatch/workspace/trading/data/sapta_vol/PATANJALI/spot_5m_vol.csv (no reference store)
+- PETRONET: 5m store /home/hatch/workspace/trading/data/sapta_vol/PETRONET/spot_5m_vol.csv (no reference store)
+- PHOENIXLTD: 5m store /home/hatch/workspace/trading/data/sapta_vol/PHOENIXLTD/spot_5m_vol.csv (no reference store)
+- RELIANCE: 5m verified vs reference 34676 bars, 0 mismatches
+- SAIL: 5m verified vs reference 34676 bars, 0 mismatches
+- SBICARD: 5m store /home/hatch/workspace/trading/data/sapta_vol/SBICARD/spot_5m_vol.csv (no reference store)
+- SBILIFE: 5m verified vs reference 34676 bars, 0 mismatches
+- SUNPHARMA: 5m verified vs reference 34676 bars, 0 mismatches
+- TATACONSUM: 5m store /home/hatch/workspace/trading/data/sapta_vol/TATACONSUM/spot_5m_vol.csv (no reference store)
+- TATASTEEL: 5m verified vs reference 34676 bars, 0 mismatches
+- UNIONBANK: 5m verified vs reference 34676 bars, 0 mismatches
+- UNITDSPR: 5m verified vs reference 34676 bars, 0 mismatches
+- UNOMINDA: 5m store /home/hatch/workspace/trading/data/sapta_vol/UNOMINDA/spot_5m_vol.csv (no reference store)
+- VBL: 5m store /home/hatch/workspace/trading/data/sapta_vol/VBL/spot_5m_vol.csv (no reference store)
+- VEDL: 5m verified vs reference 34667 bars, 0 mismatches
+- VOLTAS: 5m store /home/hatch/workspace/trading/data/sapta_vol/VOLTAS/spot_5m_vol.csv (no reference store)
+- WIPRO: 5m verified vs reference 34676 bars, 0 mismatches
+- YESBANK: 5m store /home/hatch/workspace/trading/data/sapta_vol/YESBANK/spot_5m_vol.csv (no reference store)
+- ZYDUSLIFE: 5m store /home/hatch/workspace/trading/data/sapta_vol/ZYDUSLIFE/spot_5m_vol.csv (no reference store)
+
+## D13 BOOK INTRADAY-GAPFADE-TRAIL [T25-C+TRAIL frozen, SAPTA rotating universe]: candidates 297 -> trades 278 | net25 +70,322 net26 +21,826 nov -1,261 | pct 100.0/98.5 | extop +42,957/+7,021 | trades 278 WR 32.4% DD -9,891 | legs 4/4 PASS
+## D13 GAPFADE-TRAIL SLEEVE Nifty Auto: trades 17 | net25 -109 net26 +1,207 nov -1,340 | pct 59.5/77.5 | extop -332/-2,395 | trades 17 WR 17.6% DD -2,006 | legs 1/4 FAIL
+## D13 GAPFADE-TRAIL SLEEVE Nifty Bank: trades 28 | net25 +7,364 net26 +2,442 nov +0 | pct 100.0/76.0 | extop +1,444/-3,868 | trades 28 WR 32.1% DD -3,643 | legs 2/4 FAIL
+## D13 GAPFADE-TRAIL SLEEVE Nifty Consumer Durables: trades 5 | net25 +6,373 net26 +0 nov +0 | pct 98.0/0.0 | extop +843/+0 | trades 5 WR 40.0% DD -2,192 | legs 1/4 FAIL
+## D13 GAPFADE-TRAIL SLEEVE Nifty Energy: trades 11 | net25 -583 net26 +5,841 nov +0 | pct 21.5/99.0 | extop -408/+2,081 | trades 11 WR 36.4% DD -1,077 | legs 1/4 FAIL
+## D13 GAPFADE-TRAIL SLEEVE Nifty FMCG: trades 22 | net25 +18,305 net26 +0 nov +0 | pct 100.0/0.0 | extop -1,665/+0 | trades 22 WR 50.0% DD -5,808 | legs 1/4 FAIL
+## D13 GAPFADE-TRAIL SLEEVE Nifty Financial Services: trades 21 | net25 +17,560 net26 +0 nov +0 | pct 100.0/0.0 | extop -8,544/+0 | trades 21 WR 33.3% DD -5,508 | legs 1/4 FAIL
+## D13 GAPFADE-TRAIL SLEEVE Nifty Healthcare: trades 13 | net25 +10,319 net26 -40 nov +0 | pct 99.5/51.0 | extop +244/+0 | trades 13 WR 38.5% DD -1,279 | legs 1/4 FAIL
+## D13 GAPFADE-TRAIL SLEEVE Nifty IT: trades 16 | net25 -5,168 net26 +0 nov +0 | pct 8.0/0.0 | extop -12,378/+0 | trades 16 WR 25.0% DD -10,066 | legs 1/4 FAIL
+## D13 GAPFADE-TRAIL SLEEVE Nifty Infrastructure: trades 20 | net25 +2,985 net26 -289 nov +0 | pct 98.5/58.5 | extop -395/-7,404 | trades 20 WR 30.0% DD -6,694 | legs 1/4 FAIL
+## D13 GAPFADE-TRAIL SLEEVE Nifty Metal: trades 64 | net25 -4,276 net26 +17,047 nov +0 | pct 12.0/99.5 | extop -7,793/+7,232 | trades 64 WR 34.4% DD -6,985 | legs 1/4 FAIL
+## D13 GAPFADE-TRAIL SLEEVE Nifty Oil & Gas: trades 11 | net25 +1,065 net26 +1,560 nov +239 | pct 87.5/73.5 | extop +420/-495 | trades 11 WR 54.5% DD -994 | legs 2/4 FAIL
+## D13 GAPFADE-TRAIL SLEEVE Nifty PSU Bank: trades 16 | net25 +0 net26 -5,938 nov +0 | pct 0.0/0.5 | extop +0/-5,818 | trades 16 WR 0.0% DD -5,737 | legs 1/4 FAIL
+## D13 GAPFADE-TRAIL SLEEVE Nifty Pharma: trades 25 | net25 +13,056 net26 +116 nov -40 | pct 100.0/61.0 | extop -2,594/-6,624 | trades 25 WR 36.0% DD -6,464 | legs 2/4 FAIL
+## D13 GAPFADE-TRAIL SLEEVE Nifty Realty: trades 9 | net25 +3,430 net26 -120 nov -120 | pct 90.5/54.0 | extop +750/-80 | trades 9 WR 22.2% DD -170 | legs 1/4 FAIL
+MAIN RUN COMPLETE (verdict + audit run separately)

@@ -1,0 +1,561 @@
+{
+ "strategy": "TARANG Design 27 \u2014 TRAIL forward pack (WS1, separate files) + T25-A asymmetric thresholds (WS2, book TARANG-T27-A-ASYM)",
+ "spec": "tarang27_SPEC.md (pre-registered 2026-11-17)",
+ "basis": "equity cash, PROVISIONAL per 100 shares, Rs 40/trade, paper only, real money Rs 0",
+ "ekam_machinery_control": {
+  "CAND-T5": {
+   "2025": {
+    "trades": 1035,
+    "net": 62164.57,
+    "published": 62164.57,
+    "diff": 0.0
+   },
+   "2026": {
+    "trades": 1025,
+    "net": 63883.6,
+    "published": 63883.6,
+    "diff": -0.0
+   }
+  },
+  "S2": {
+   "2025": {
+    "trades": 621,
+    "net": 45300.64,
+    "published": 45300.64,
+    "diff": 0.0
+   },
+   "2026": {
+    "trades": 615,
+    "net": 72605.3,
+    "published": 72605.3,
+    "diff": -0.0
+   }
+  },
+  "reproduced": true
+ },
+ "candidate_pool_parity": {
+  "validator": {
+   "GAP-FADE-UP-15": {
+    "engine": 2181,
+    "validator": 2181,
+    "match": true
+   },
+   "GAP-FADE-20": {
+    "engine": 2408,
+    "validator": 2408,
+    "match": true
+   }
+  },
+  "vs_d24_published_trades_mismatches": 0,
+  "subpool_identity_vs_d25_counts": {
+   "GAP-FADE-UP-15": true,
+   "GAP-FADE-20": true
+  },
+  "d25_published_candidate_counts": {
+   "GAP-FADE-UP-15": 2181,
+   "GAP-FADE-20": 2408,
+   "GAP-FADE-15": 4111
+  },
+  "union_disjoint": true,
+  "skipped_first_store_days": 127,
+  "unfilled": 0,
+  "clean": true
+ },
+ "book": {
+  "label": "TARANG-T27-A-ASYM",
+  "construction": "GAP-FADE-UP-15 (SHORT, up-gap >= +1.5%) UNION GAP-FADE-20 LONG side (down-gap <= -2.0%); entries/exits/caps/allocation exactly as T25-A",
+  "candidates_short": 2181,
+  "candidates_long": 1140,
+  "candidates_union": 3321,
+  "candidate_days": 397,
+  "cap_bound_days": 53,
+  "vol_key_decisive_days": 0,
+  "vol_key_sensitivity_diff_trades": 0,
+  "taken_trades": 1705,
+  "summary": {
+   "trades": 1705,
+   "net": 313056.17,
+   "wr_pct": 34.8,
+   "long_trades": 621,
+   "short_trades": 1084,
+   "long_net": 112160.82,
+   "short_net": 200895.35,
+   "max_dd": -806128.38,
+   "years": {
+    "2025": {
+     "trades": 827,
+     "net": 283180.72,
+     "wr_pct": 38.2,
+     "long_trades": 274,
+     "short_trades": 553,
+     "long_net": 134171.97,
+     "short_net": 149008.75,
+     "h1_net": 177572.62,
+     "h2_net": 105608.1,
+     "ex_top3_net": 230820.72,
+     "monthly_pace": 23598.39,
+     "months_present": 12,
+     "max_dd": -394123.53,
+     "profitable_names": 76,
+     "names_traded": 126
+    },
+    "2026": {
+     "trades": 878,
+     "net": 29875.45,
+     "wr_pct": 31.5,
+     "long_trades": 347,
+     "short_trades": 531,
+     "long_net": -22011.15,
+     "short_net": 51886.6,
+     "h1_net": 5319.43,
+     "h2_net": 24556.02,
+     "ex_top3_net": -2914.55,
+     "monthly_pace": 2715.95,
+     "months_present": 11,
+     "max_dd": -412004.85,
+     "profitable_names": 54,
+     "names_traded": 123
+    }
+   },
+   "months": {
+    "2025-01": -3751.52,
+    "2025-02": 31998.71,
+    "2025-03": 39771.57,
+    "2025-04": 87289.07,
+    "2025-05": 16659.79,
+    "2025-06": 5605.0,
+    "2025-07": 7479.49,
+    "2025-08": 39298.18,
+    "2025-09": 26759.42,
+    "2025-10": -8087.65,
+    "2025-11": 24750.41,
+    "2025-12": 15408.25,
+    "2026-01": -12933.89,
+    "2026-02": -2681.6,
+    "2026-03": -7506.89,
+    "2026-04": 11990.4,
+    "2026-05": 4938.42,
+    "2026-06": 11512.99,
+    "2026-07": -6693.45,
+    "2026-08": 14047.96,
+    "2026-09": -6934.19,
+    "2026-10": 14498.23,
+    "2026-11": 9637.47
+   },
+   "november_2026": {
+    "trades": 52,
+    "net": 9637.47
+   }
+  },
+  "side_anatomy": {
+   "2025": {
+    "trades": 827,
+    "gross_inr": 316260.72,
+    "gross_per_trade": 382.42,
+    "net_inr": 283180.72,
+    "net_per_trade": 342.42,
+    "win_rate": 0.3821,
+    "long_gross_per_trade": 529.68,
+    "short_gross_per_trade": 309.46,
+    "stop_share": 0.5732,
+    "squareoff_gross_per_trade": 1960.46
+   },
+   "2026": {
+    "trades": 878,
+    "gross_inr": 64995.45,
+    "gross_per_trade": 74.03,
+    "net_inr": 29875.45,
+    "net_per_trade": 34.03,
+    "win_rate": 0.3155,
+    "long_gross_per_trade": -23.43,
+    "short_gross_per_trade": 137.71,
+    "stop_share": 0.6139,
+    "squareoff_gross_per_trade": 1344.39
+   }
+  },
+  "resolution_mix_by_year": {
+   "2025": {
+    "stop": {
+     "trades": 474,
+     "share_pct": 57.3,
+     "net": -394740.28,
+     "per_trade": -832.79,
+     "gross_per_trade": -792.79
+    },
+    "squareoff": {
+     "trades": 353,
+     "share_pct": 42.7,
+     "net": 677921.0,
+     "per_trade": 1920.46,
+     "gross_per_trade": 1960.46
+    }
+   },
+   "2026": {
+    "stop": {
+     "trades": 539,
+     "share_pct": 61.4,
+     "net": -412313.55,
+     "per_trade": -764.96,
+     "gross_per_trade": -724.96
+    },
+    "squareoff": {
+     "trades": 339,
+     "share_pct": 38.6,
+     "net": 442189.0,
+     "per_trade": 1304.39,
+     "gross_per_trade": 1344.39
+    }
+   }
+  },
+  "cost_anatomy": {
+   "all": {
+    "trades": 1705,
+    "gross_inr": 381256.17,
+    "cost_inr": 68200.0,
+    "net_inr": 313056.17,
+    "gross_per_trade": 223.61,
+    "cost_per_trade": 40.0,
+    "net_per_trade": 183.61
+   },
+   "2025": {
+    "trades": 827,
+    "gross_inr": 316260.72,
+    "cost_inr": 33080.0,
+    "net_inr": 283180.72,
+    "gross_per_trade": 382.42,
+    "cost_per_trade": 40.0,
+    "net_per_trade": 342.42
+   },
+   "2026": {
+    "trades": 878,
+    "gross_inr": 64995.45,
+    "cost_inr": 35120.0,
+    "net_inr": 29875.45,
+    "gross_per_trade": 74.03,
+    "cost_per_trade": 40.0,
+    "net_per_trade": 34.03
+   }
+  },
+  "placebo_direction_flip_net_by_year": {
+   "2025": -158382.44,
+   "2026": -22253.12
+  },
+  "placebo_random_entry": {
+   "2025": {
+    "p90": 139.01,
+    "median": -34968.12,
+    "draws": 200
+   },
+   "2026": {
+    "p90": 2139.81,
+    "median": -30906.44,
+    "draws": 200
+   }
+  },
+  "placebo_percentile_by_year": {
+   "2025": 100.0,
+   "2026": 100.0
+  },
+  "timing_audit": {
+   "exit_parity_mismatch": 0,
+   "entry_not_first_bar": 0,
+   "entry_price_mismatch": 0,
+   "gap_mismatch": 0,
+   "first_store_day_trade": 0,
+   "net_mismatch": 0,
+   "cap_day_breach": 0,
+   "cap_nameday_breach": 0,
+   "allocation_rebuild_mismatch": 0,
+   "total_violations": 0
+  },
+  "capped_vs_stream": {
+   "2025": {
+    "stream_trades": 1469,
+    "stream_gross_inr": 668979.4,
+    "stream_gross_per_trade": 455.4,
+    "book_trades": 827,
+    "book_gross_inr": 316260.72,
+    "book_gross_per_trade": 382.42,
+    "share_of_stream_gross_kept_pct": 47.3
+   },
+   "2026": {
+    "stream_trades": 1852,
+    "stream_gross_inr": 205372.16,
+    "stream_gross_per_trade": 110.89,
+    "book_trades": 878,
+    "book_gross_inr": 64995.45,
+    "book_gross_per_trade": 74.03,
+    "share_of_stream_gross_kept_pct": 31.6
+   }
+  },
+  "named_comparisons_vs_t25a": {
+   "leg_ex_top3_2026": {
+    "t25a": -11205.18,
+    "asym": -2914.55
+   },
+   "leg_worst_month": {
+    "t25a": {
+     "month": "2026-01",
+     "net": -15840.99
+    },
+    "asym": {
+     "month": "2026-01",
+     "net": -12933.89
+    },
+    "asym_jan_2026": -12933.89,
+    "asym_sep_2026": -6934.19
+   },
+   "long_net_by_year": {
+    "t25a": {
+     "2025": 153920.81,
+     "2026": -27227.78
+    },
+    "asym": {
+     "2025": 134171.97,
+     "2026": -22011.15
+    }
+   },
+   "short_net_by_year": {
+    "t25a": {
+     "2025": 150702.55,
+     "2026": 48812.6
+    },
+    "asym": {
+     "2025": 149008.75,
+     "2026": 51886.6
+    }
+   },
+   "long_trades_by_year": {
+    "t25a": {
+     "2025": 412,
+     "2026": 543
+    },
+    "asym": {
+     "2025": 274,
+     "2026": 347
+    }
+   }
+  },
+  "gate_legs": {
+   "net_positive_2025": true,
+   "net_positive_2026": true,
+   "beats_random_p90_2025": true,
+   "beats_random_p90_2026": true,
+   "ex_top3_positive_2025": true,
+   "ex_top3_positive_2026": false,
+   "no_month_worse_than_-15000": true,
+   "timing_audit_clean": true,
+   "november_slice_not_worse_than_-3000": true
+  },
+  "worst_month": {
+   "month": "2026-01",
+   "net": -12933.89
+  },
+  "verdict": "NO PASS",
+  "trading_days": 397,
+  "top10_contributors": {
+   "2025": [
+    {
+     "symbol": "BLUESTARCO",
+     "net": 69701.5,
+     "trades": 12
+    },
+    {
+     "symbol": "SBICARD",
+     "net": 19698.0,
+     "trades": 10
+    },
+    {
+     "symbol": "MAXHEALTH",
+     "net": 18133.4,
+     "trades": 15
+    },
+    {
+     "symbol": "KALYANKJIL",
+     "net": 17009.95,
+     "trades": 8
+    },
+    {
+     "symbol": "PREMIERENE",
+     "net": 13598.01,
+     "trades": 17
+    },
+    {
+     "symbol": "BDL",
+     "net": 13359.25,
+     "trades": 10
+    },
+    {
+     "symbol": "MFSL",
+     "net": 13211.7,
+     "trades": 6
+    },
+    {
+     "symbol": "SWIGGY",
+     "net": 12743.9,
+     "trades": 20
+    },
+    {
+     "symbol": "SBILIFE",
+     "net": 11896.3,
+     "trades": 4
+    },
+    {
+     "symbol": "UNITDSPR",
+     "net": 11278.0,
+     "trades": 7
+    }
+   ],
+   "2026": [
+    {
+     "symbol": "ADANIPORTS",
+     "net": 17106.1,
+     "trades": 9
+    },
+    {
+     "symbol": "AUBANK",
+     "net": 15318.0,
+     "trades": 8
+    },
+    {
+     "symbol": "ADANIGREEN",
+     "net": 9892.2,
+     "trades": 8
+    },
+    {
+     "symbol": "GODREJPROP",
+     "net": 9471.5,
+     "trades": 5
+    },
+    {
+     "symbol": "PIDILITIND",
+     "net": 9350.0,
+     "trades": 3
+    },
+    {
+     "symbol": "TECHM",
+     "net": 8044.1,
+     "trades": 14
+    },
+    {
+     "symbol": "SUNPHARMA",
+     "net": 6845.0,
+     "trades": 6
+    },
+    {
+     "symbol": "ADANIENSOL",
+     "net": 6707.3,
+     "trades": 9
+    },
+    {
+     "symbol": "HINDUNILVR",
+     "net": 6189.5,
+     "trades": 3
+    },
+    {
+     "symbol": "ICICIBANK",
+     "net": 6020.0,
+     "trades": 3
+    }
+   ]
+  }
+ },
+ "t25a_reference": {
+  "source": "tarang25_trades_TARANG-T25-A.csv (published)",
+  "summary": {
+   "trades": 2028,
+   "net": 326208.18,
+   "wr_pct": 35.4,
+   "long_trades": 955,
+   "short_trades": 1073,
+   "long_net": 126693.03,
+   "short_net": 199515.15,
+   "max_dd": -960382.37,
+   "years": {
+    "2025": {
+     "trades": 962,
+     "net": 304623.36,
+     "wr_pct": 38.9,
+     "long_trades": 412,
+     "short_trades": 550,
+     "long_net": 153920.81,
+     "short_net": 150702.55,
+     "h1_net": 191673.6,
+     "h2_net": 112949.76,
+     "ex_top3_net": 252263.36,
+     "monthly_pace": 25385.28,
+     "months_present": 12,
+     "max_dd": -460282.89,
+     "profitable_names": 78,
+     "names_traded": 126
+    },
+    "2026": {
+     "trades": 1066,
+     "net": 21584.82,
+     "wr_pct": 32.3,
+     "long_trades": 543,
+     "short_trades": 523,
+     "long_net": -27227.78,
+     "short_net": 48812.6,
+     "h1_net": -5909.49,
+     "h2_net": 27494.31,
+     "ex_top3_net": -11205.18,
+     "monthly_pace": 1962.26,
+     "months_present": 11,
+     "max_dd": -500099.48,
+     "profitable_names": 52,
+     "names_traded": 125
+    }
+   },
+   "months": {
+    "2025-01": 1907.39,
+    "2025-02": 35272.32,
+    "2025-03": 42904.97,
+    "2025-04": 81770.82,
+    "2025-05": 22758.99,
+    "2025-06": 7059.11,
+    "2025-07": 8084.3,
+    "2025-08": 41814.93,
+    "2025-09": 28240.52,
+    "2025-10": -8087.65,
+    "2025-11": 24320.41,
+    "2025-12": 18577.25,
+    "2026-01": -15840.99,
+    "2026-02": -1957.71,
+    "2026-03": -14694.59,
+    "2026-04": 16438.4,
+    "2026-05": 1843.32,
+    "2026-06": 8302.08,
+    "2026-07": 6142.55,
+    "2026-08": 16518.51,
+    "2026-09": -15733.29,
+    "2026-10": 11088.73,
+    "2026-11": 9477.81
+   },
+   "november_2026": {
+    "trades": 56,
+    "net": 9477.81
+   }
+  },
+  "long_net_by_year": {
+   "2025": 153920.81,
+   "2026": -27227.78
+  },
+  "short_net_by_year": {
+   "2025": 150702.55,
+   "2026": 48812.6
+  },
+  "ex_top3_2026": -11205.18,
+  "jan_2026_net": -15840.99,
+  "sep_2026_net": -15733.29,
+  "worst_month": {
+   "month": "2026-01",
+   "net": -15840.99
+  }
+ },
+ "audits": {
+  "truncation_spotcheck_n": 30,
+  "truncation_spotcheck_misses": 0,
+  "resum_ok": true
+ }
+}

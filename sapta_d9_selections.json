@@ -1,0 +1,383 @@
+{
+ "spec": "sapta_d9_SPEC.md s.3/s.4",
+ "pool": [
+  "ASTRAL",
+  "BDL",
+  "GLENMARK",
+  "GODREJCP",
+  "HDFCBANK",
+  "HINDALCO",
+  "HINDCOPPER",
+  "HINDUNILVR",
+  "HINDZINC",
+  "INDUSTOWER",
+  "IRCTC",
+  "ITC",
+  "KALYANKJIL",
+  "NATIONALUM",
+  "NHPC",
+  "NTPC",
+  "OBEROIRLTY",
+  "OIL",
+  "PFC",
+  "RECLTD",
+  "TATASTEEL",
+  "TVSMOTOR",
+  "UNITDSPR",
+  "VEDL",
+  "WIPRO"
+ ],
+ "quarters": {
+  "0": {
+   "quarter_index": 0,
+   "ranking_date": "2025-01-01",
+   "top7": [
+    "Nifty Pharma",
+    "Nifty IT",
+    "Nifty Consumer Durables",
+    "Nifty Healthcare",
+    "Nifty Realty",
+    "Nifty Media",
+    "Nifty FMCG"
+   ],
+   "entities": {
+    "Nifty Pharma": {
+     "picks": [
+      "GLENMARK"
+     ],
+     "eligible_ranked": [
+      "GLENMARK"
+     ],
+     "excluded_pool": [],
+     "pool_members": [
+      "GLENMARK"
+     ]
+    },
+    "Nifty IT": {
+     "picks": [
+      "WIPRO"
+     ],
+     "eligible_ranked": [
+      "WIPRO"
+     ],
+     "excluded_pool": [],
+     "pool_members": [
+      "WIPRO"
+     ]
+    },
+    "Nifty Consumer Durables": {
+     "picks": [
+      "KALYANKJIL"
+     ],
+     "eligible_ranked": [
+      "KALYANKJIL"
+     ],
+     "excluded_pool": [],
+     "pool_members": [
+      "KALYANKJIL"
+     ]
+    },
+    "Nifty Healthcare": {
+     "picks": [
+      "GLENMARK"
+     ],
+     "eligible_ranked": [
+      "GLENMARK"
+     ],
+     "excluded_pool": [],
+     "pool_members": [
+      "GLENMARK"
+     ]
+    },
+    "Nifty Realty": {
+     "picks": [],
+     "eligible_ranked": [],
+     "excluded_pool": [
+      {
+       "sym": "OBEROIRLTY",
+       "ret126": 0.309075,
+       "last_close": 2311.5,
+       "why": [
+        "price_above_2000"
+       ]
+      }
+     ],
+     "pool_members": [
+      "OBEROIRLTY"
+     ]
+    },
+    "Nifty Media": {
+     "picks": [],
+     "eligible_ranked": [],
+     "excluded_pool": [],
+     "pool_members": []
+    },
+    "Nifty FMCG": {
+     "picks": [
+      "UNITDSPR",
+      "ITC",
+      "GODREJCP"
+     ],
+     "eligible_ranked": [
+      "UNITDSPR",
+      "ITC",
+      "GODREJCP"
+     ],
+     "excluded_pool": [
+      {
+       "sym": "HINDUNILVR",
+       "ret126": -0.059117,
+       "last_close": 2326.85,
+       "why": [
+        "price_above_2000"
+       ]
+      }
+     ],
+     "pool_members": [
+      "GODREJCP",
+      "HINDUNILVR",
+      "ITC",
+      "UNITDSPR"
+     ]
+    }
+   }
+  },
+  "4": {
+   "quarter_index": 4,
+   "ranking_date": "2026-01-01",
+   "top7": [
+    "Nifty Metal",
+    "Nifty Auto",
+    "Nifty Bank",
+    "Nifty PSU Bank",
+    "Nifty Pharma",
+    "Nifty Infrastructure",
+    "Nifty Healthcare"
+   ],
+   "entities": {
+    "Nifty Metal": {
+     "picks": [
+      "NATIONALUM",
+      "HINDZINC",
+      "VEDL"
+     ],
+     "eligible_ranked": [
+      "NATIONALUM",
+      "HINDZINC",
+      "VEDL",
+      "HINDALCO",
+      "TATASTEEL"
+     ],
+     "excluded_pool": [
+      {
+       "sym": "HINDCOPPER",
+       "ret126": 0.855711,
+       "last_close": 518.3,
+       "why": [
+        "not_in_fno"
+       ]
+      }
+     ],
+     "pool_members": [
+      "HINDALCO",
+      "HINDCOPPER",
+      "HINDZINC",
+      "NATIONALUM",
+      "TATASTEEL",
+      "VEDL"
+     ]
+    },
+    "Nifty Auto": {
+     "picks": [],
+     "eligible_ranked": [],
+     "excluded_pool": [
+      {
+       "sym": "TVSMOTOR",
+       "ret126": 0.274777,
+       "last_close": 3719.8,
+       "why": [
+        "price_above_2000"
+       ]
+      }
+     ],
+     "pool_members": [
+      "TVSMOTOR"
+     ]
+    },
+    "Nifty Bank": {
+     "picks": [
+      "HDFCBANK"
+     ],
+     "eligible_ranked": [
+      "HDFCBANK"
+     ],
+     "excluded_pool": [],
+     "pool_members": [
+      "HDFCBANK"
+     ]
+    },
+    "Nifty PSU Bank": {
+     "picks": [],
+     "eligible_ranked": [],
+     "excluded_pool": [],
+     "pool_members": []
+    },
+    "Nifty Pharma": {
+     "picks": [],
+     "eligible_ranked": [],
+     "excluded_pool": [
+      {
+       "sym": "GLENMARK",
+       "ret126": 0.160452,
+       "last_close": 2035.2,
+       "why": [
+        "price_above_2000"
+       ]
+      }
+     ],
+     "pool_members": [
+      "GLENMARK"
+     ]
+    },
+    "Nifty Infrastructure": {
+     "picks": [
+      "INDUSTOWER",
+      "NTPC"
+     ],
+     "eligible_ranked": [
+      "INDUSTOWER",
+      "NTPC"
+     ],
+     "excluded_pool": [],
+     "pool_members": [
+      "INDUSTOWER",
+      "NTPC"
+     ]
+    },
+    "Nifty Healthcare": {
+     "picks": [],
+     "eligible_ranked": [],
+     "excluded_pool": [
+      {
+       "sym": "GLENMARK",
+       "ret126": 0.160452,
+       "last_close": 2035.2,
+       "why": [
+        "price_above_2000"
+       ]
+      }
+     ],
+     "pool_members": [
+      "GLENMARK"
+     ]
+    }
+   }
+  }
+ },
+ "frozen": {
+  "2025": {
+   "source_quarter": 0,
+   "ranking_date": "2025-01-01",
+   "picks": {
+    "Nifty Pharma": [
+     "GLENMARK"
+    ],
+    "Nifty IT": [
+     "WIPRO"
+    ],
+    "Nifty Consumer Durables": [
+     "KALYANKJIL"
+    ],
+    "Nifty Healthcare": [
+     "GLENMARK"
+    ],
+    "Nifty Realty": [],
+    "Nifty Media": [],
+    "Nifty FMCG": [
+     "UNITDSPR",
+     "ITC",
+     "GODREJCP"
+    ]
+   },
+   "distinct_names": [
+    "GLENMARK",
+    "GODREJCP",
+    "ITC",
+    "KALYANKJIL",
+    "UNITDSPR",
+    "WIPRO"
+   ]
+  },
+  "2026": {
+   "source_quarter": 4,
+   "ranking_date": "2026-01-01",
+   "picks": {
+    "Nifty Metal": [
+     "NATIONALUM",
+     "HINDZINC",
+     "VEDL"
+    ],
+    "Nifty Auto": [],
+    "Nifty Bank": [
+     "HDFCBANK"
+    ],
+    "Nifty PSU Bank": [],
+    "Nifty Pharma": [],
+    "Nifty Infrastructure": [
+     "INDUSTOWER",
+     "NTPC"
+    ],
+    "Nifty Healthcare": []
+   },
+   "distinct_names": [
+    "HDFCBANK",
+    "HINDZINC",
+    "INDUSTOWER",
+    "NATIONALUM",
+    "NTPC",
+    "VEDL"
+   ]
+  }
+ },
+ "home_universe": {
+  "GLENMARK": {
+   "days": 464
+  },
+  "HDFCBANK": {
+   "days": 464
+  },
+  "HINDALCO": {
+   "days": 464
+  },
+  "HINDZINC": {
+   "days": 464
+  },
+  "INDUSTOWER": {
+   "days": 464
+  },
+  "ITC": {
+   "days": 464
+  },
+  "KALYANKJIL": {
+   "days": 464
+  },
+  "NATIONALUM": {
+   "days": 464
+  },
+  "OIL": {
+   "days": 464
+  },
+  "TATASTEEL": {
+   "days": 464
+  },
+  "UNITDSPR": {
+   "days": 464
+  },
+  "VEDL": {
+   "days": 464
+  },
+  "WIPRO": {
+   "days": 464
+  }
+ }
+}

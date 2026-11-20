@@ -1,0 +1,710 @@
+{
+ "root": "/home/hatch/workspace/trading/data/wide100",
+ "n_symbols": 37,
+ "windows": {
+  "2025_jan_oct": {
+   "trades": 880,
+   "net": 51061.89,
+   "wr": 41.14,
+   "ex_top3": 1907.89,
+   "max_drawdown": -46770.02,
+   "months": {
+    "2025-01": {
+     "trades": 226,
+     "net": 30263.87
+    },
+    "2025-02": {
+     "trades": 183,
+     "net": 20003.46
+    },
+    "2025-03": {
+     "trades": 133,
+     "net": 16360.9
+    },
+    "2025-04": {
+     "trades": 89,
+     "net": 8955.58
+    },
+    "2025-05": {
+     "trades": 71,
+     "net": -1454.44
+    },
+    "2025-06": {
+     "trades": 7,
+     "net": -955.92
+    },
+    "2025-07": {
+     "trades": 33,
+     "net": -20145.15
+    },
+    "2025-08": {
+     "trades": 71,
+     "net": -16627.4
+    },
+    "2025-09": {
+     "trades": 48,
+     "net": 19810.94
+    },
+    "2025-10": {
+     "trades": 19,
+     "net": -5149.95
+    }
+   },
+   "by_comp": {
+    "F4": {
+     "trades": 408,
+     "net": -3733.42
+    },
+    "INV-ABOVE": {
+     "trades": 145,
+     "net": 11217.74
+    },
+    "INV-LONG": {
+     "trades": 239,
+     "net": 31096.86
+    },
+    "N4-V3": {
+     "trades": 43,
+     "net": 4671.64
+    },
+    "P2F": {
+     "trades": 22,
+     "net": 14430.12
+    },
+    "P2F-R2": {
+     "trades": 21,
+     "net": -4988.8
+    },
+    "R2-LOWBAND": {
+     "trades": 2,
+     "net": -1632.25
+    }
+   },
+   "top5_names": [
+    [
+     "M&M",
+     38979.11
+    ],
+    [
+     "OBEROIRLTY",
+     25598.3
+    ],
+    [
+     "BHARTIARTL",
+     13272.17
+    ],
+    [
+     "TITAN",
+     7777.05
+    ],
+    [
+     "ASTRAL",
+     7561.61
+    ]
+   ],
+   "top5_share_pct": 182.5,
+   "names_traded": 37
+  },
+  "2025_full": {
+   "trades": 931,
+   "net": 47724.15,
+   "wr": 41.14,
+   "ex_top3": -1429.85,
+   "max_drawdown": -46770.02,
+   "months": {
+    "2025-01": {
+     "trades": 226,
+     "net": 30263.87
+    },
+    "2025-02": {
+     "trades": 183,
+     "net": 20003.46
+    },
+    "2025-03": {
+     "trades": 133,
+     "net": 16360.9
+    },
+    "2025-04": {
+     "trades": 89,
+     "net": 8955.58
+    },
+    "2025-05": {
+     "trades": 71,
+     "net": -1454.44
+    },
+    "2025-06": {
+     "trades": 7,
+     "net": -955.92
+    },
+    "2025-07": {
+     "trades": 33,
+     "net": -20145.15
+    },
+    "2025-08": {
+     "trades": 71,
+     "net": -16627.4
+    },
+    "2025-09": {
+     "trades": 48,
+     "net": 19810.94
+    },
+    "2025-10": {
+     "trades": 19,
+     "net": -5149.95
+    },
+    "2025-11": {
+     "trades": 39,
+     "net": -4545.69
+    },
+    "2025-12": {
+     "trades": 12,
+     "net": 1207.95
+    }
+   },
+   "by_comp": {
+    "F4": {
+     "trades": 408,
+     "net": -3733.42
+    },
+    "INV-ABOVE": {
+     "trades": 175,
+     "net": 10787.55
+    },
+    "INV-LONG": {
+     "trades": 239,
+     "net": 31096.86
+    },
+    "N4-V3": {
+     "trades": 52,
+     "net": 2522.4
+    },
+    "P2F": {
+     "trades": 28,
+     "net": 14365.77
+    },
+    "P2F-R2": {
+     "trades": 27,
+     "net": -5682.76
+    },
+    "R2-LOWBAND": {
+     "trades": 2,
+     "net": -1632.25
+    }
+   },
+   "top5_names": [
+    [
+     "M&M",
+     38979.11
+    ],
+    [
+     "OBEROIRLTY",
+     25598.3
+    ],
+    [
+     "BHARTIARTL",
+     13272.17
+    ],
+    [
+     "TITAN",
+     7777.05
+    ],
+    [
+     "ASTRAL",
+     7561.61
+    ]
+   ],
+   "top5_share_pct": 195.3,
+   "names_traded": 37
+  },
+  "2026_jan_oct": {
+   "trades": 884,
+   "net": 185847.46,
+   "wr": 52.6,
+   "ex_top3": 137175.96,
+   "max_drawdown": -26750.85,
+   "months": {
+    "2026-01": {
+     "trades": 97,
+     "net": 34230.68
+    },
+    "2026-02": {
+     "trades": 108,
+     "net": 22190.42
+    },
+    "2026-03": {
+     "trades": 145,
+     "net": 42912.51
+    },
+    "2026-04": {
+     "trades": 125,
+     "net": 10017.61
+    },
+    "2026-05": {
+     "trades": 91,
+     "net": 10538.7
+    },
+    "2026-06": {
+     "trades": 62,
+     "net": 4145.55
+    },
+    "2026-07": {
+     "trades": 20,
+     "net": 8486.54
+    },
+    "2026-08": {
+     "trades": 27,
+     "net": 4218.06
+    },
+    "2026-09": {
+     "trades": 72,
+     "net": 24905.34
+    },
+    "2026-10": {
+     "trades": 137,
+     "net": 24202.05
+    }
+   },
+   "by_comp": {
+    "F4": {
+     "trades": 572,
+     "net": 65089.39
+    },
+    "INV-ABOVE": {
+     "trades": 41,
+     "net": 10046.66
+    },
+    "INV-LONG": {
+     "trades": 168,
+     "net": 49775.55
+    },
+    "N4-V3": {
+     "trades": 35,
+     "net": 25271.54
+    },
+    "P2F": {
+     "trades": 32,
+     "net": 19416.63
+    },
+    "P2F-R2": {
+     "trades": 33,
+     "net": 14964.33
+    },
+    "R2-LOWBAND": {
+     "trades": 3,
+     "net": 1283.36
+    }
+   },
+   "top5_names": [
+    [
+     "TVSMOTOR",
+     76670.26
+    ],
+    [
+     "ASTRAL",
+     27835.94
+    ],
+    [
+     "OBEROIRLTY",
+     23992.94
+    ],
+    [
+     "GLENMARK",
+     22346.85
+    ],
+    [
+     "BDL",
+     11840.72
+    ]
+   ],
+   "top5_share_pct": 87.5,
+   "names_traded": 37
+  },
+  "november": {
+   "trades": 38,
+   "net": 8923.84,
+   "wr": 52.63,
+   "ex_top3": -2774.98,
+   "max_drawdown": -9393.15,
+   "months": {
+    "2026-11": {
+     "trades": 38,
+     "net": 8923.84
+    }
+   },
+   "by_comp": {
+    "F4": {
+     "trades": 5,
+     "net": -6155.1
+    },
+    "INV-ABOVE": {
+     "trades": 12,
+     "net": 2183.77
+    },
+    "INV-LONG": {
+     "trades": 1,
+     "net": 465.19
+    },
+    "N4-V3": {
+     "trades": 8,
+     "net": 5611.13
+    },
+    "P2F": {
+     "trades": 6,
+     "net": 4793.52
+    },
+    "P2F-R2": {
+     "trades": 4,
+     "net": 2677.18
+    },
+    "R2-LOWBAND": {
+     "trades": 2,
+     "net": -651.85
+    }
+   },
+   "top5_names": [
+    [
+     "M&M",
+     8501.32
+    ],
+    [
+     "GLENMARK",
+     5400.62
+    ],
+    [
+     "RELIANCE",
+     1819.25
+    ],
+    [
+     "KALYANKJIL",
+     1763.05
+    ],
+    [
+     "HINDCOPPER",
+     1296.43
+    ]
+   ],
+   "top5_share_pct": 210.5,
+   "names_traded": 19
+  }
+ },
+ "november_epoch_buildup_rows": [
+  {
+   "date": "2026-10-26",
+   "comp": "N4-V3",
+   "stock": "INFY",
+   "net": -950.16
+  },
+  {
+   "date": "2026-10-26",
+   "comp": "INV-LONG",
+   "stock": "HINDCOPPER",
+   "net": 461.44
+  },
+  {
+   "date": "2026-10-26",
+   "comp": "INV-LONG",
+   "stock": "WIPRO",
+   "net": -134.3
+  },
+  {
+   "date": "2026-10-26",
+   "comp": "F4",
+   "stock": "BHARTIARTL",
+   "net": 1060.0
+  },
+  {
+   "date": "2026-10-26",
+   "comp": "F4",
+   "stock": "M&M",
+   "net": -400.0
+  },
+  {
+   "date": "2026-10-26",
+   "comp": "F4",
+   "stock": "OIL",
+   "net": 220.0
+  },
+  {
+   "date": "2026-10-26",
+   "comp": "F4",
+   "stock": "RELIANCE",
+   "net": 830.0
+  },
+  {
+   "date": "2026-10-26",
+   "comp": "F4",
+   "stock": "WIPRO",
+   "net": 7.0
+  },
+  {
+   "date": "2026-10-26",
+   "comp": "INV-LONG",
+   "stock": "HINDCOPPER",
+   "net": -243.15
+  },
+  {
+   "date": "2026-10-26",
+   "comp": "F4",
+   "stock": "TVSMOTOR",
+   "net": 2430.0
+  },
+  {
+   "date": "2026-10-26",
+   "comp": "F4",
+   "stock": "HINDUNILVR",
+   "net": -80.0
+  },
+  {
+   "date": "2026-10-26",
+   "comp": "F4",
+   "stock": "LT",
+   "net": 1430.0
+  },
+  {
+   "date": "2026-10-26",
+   "comp": "F4",
+   "stock": "SBIN",
+   "net": -335.0
+  },
+  {
+   "date": "2026-10-27",
+   "comp": "N4-V3",
+   "stock": "RECLTD",
+   "net": 392.68
+  },
+  {
+   "date": "2026-10-27",
+   "comp": "F4",
+   "stock": "APOLLOHOSP",
+   "net": -7534.55
+  },
+  {
+   "date": "2026-10-27",
+   "comp": "F4",
+   "stock": "BHARTIARTL",
+   "net": 2879.75
+  },
+  {
+   "date": "2026-10-27",
+   "comp": "F4",
+   "stock": "UNITDSPR",
+   "net": 1837.85
+  },
+  {
+   "date": "2026-10-27",
+   "comp": "F4",
+   "stock": "KALYANKJIL",
+   "net": -513.1
+  },
+  {
+   "date": "2026-10-27",
+   "comp": "F4",
+   "stock": "INFY",
+   "net": -1114.36
+  },
+  {
+   "date": "2026-10-28",
+   "comp": "P2F",
+   "stock": "RECLTD",
+   "net": -183.0
+  },
+  {
+   "date": "2026-10-28",
+   "comp": "N4-V3",
+   "stock": "LT",
+   "net": -3117.6
+  },
+  {
+   "date": "2026-10-28",
+   "comp": "N4-V3",
+   "stock": "VEDL",
+   "net": 303.2
+  },
+  {
+   "date": "2026-10-28",
+   "comp": "INV-LONG",
+   "stock": "NATIONALUM",
+   "net": 356.38
+  },
+  {
+   "date": "2026-10-28",
+   "comp": "INV-LONG",
+   "stock": "WIPRO",
+   "net": -132.57
+  },
+  {
+   "date": "2026-10-28",
+   "comp": "F4",
+   "stock": "GLENMARK",
+   "net": 30.0
+  },
+  {
+   "date": "2026-10-28",
+   "comp": "F4",
+   "stock": "NATIONALUM",
+   "net": 437.52
+  },
+  {
+   "date": "2026-10-28",
+   "comp": "F4",
+   "stock": "NHPC",
+   "net": 69.42
+  },
+  {
+   "date": "2026-10-28",
+   "comp": "F4",
+   "stock": "WIPRO",
+   "net": -86.0
+  },
+  {
+   "date": "2026-10-28",
+   "comp": "F4",
+   "stock": "TVSMOTOR",
+   "net": 6164.0
+  },
+  {
+   "date": "2026-10-29",
+   "comp": "P2F",
+   "stock": "INDUSTOWER",
+   "net": -227.0
+  },
+  {
+   "date": "2026-10-29",
+   "comp": "P2F",
+   "stock": "LT",
+   "net": -1944.0
+  },
+  {
+   "date": "2026-10-29",
+   "comp": "P2F-R2",
+   "stock": "RECLTD",
+   "net": -185.0
+  },
+  {
+   "date": "2026-10-29",
+   "comp": "P2F",
+   "stock": "TVSMOTOR",
+   "net": -2181.5
+  },
+  {
+   "date": "2026-10-29",
+   "comp": "P2F",
+   "stock": "UNITDSPR",
+   "net": -654.1
+  },
+  {
+   "date": "2026-10-29",
+   "comp": "P2F",
+   "stock": "VEDL",
+   "net": -158.0
+  },
+  {
+   "date": "2026-10-29",
+   "comp": "INV-LONG",
+   "stock": "HINDCOPPER",
+   "net": 175.0
+  },
+  {
+   "date": "2026-10-29",
+   "comp": "F4",
+   "stock": "BHARTIARTL",
+   "net": -1893.93
+  },
+  {
+   "date": "2026-10-29",
+   "comp": "F4",
+   "stock": "HINDUNILVR",
+   "net": 2723.15
+  },
+  {
+   "date": "2026-10-29",
+   "comp": "F4",
+   "stock": "TITAN",
+   "net": 4060.0
+  },
+  {
+   "date": "2026-10-29",
+   "comp": "F4",
+   "stock": "GODREJCP",
+   "net": 1195.25
+  },
+  {
+   "date": "2026-10-29",
+   "comp": "F4",
+   "stock": "HINDZINC",
+   "net": 565.0
+  },
+  {
+   "date": "2026-10-29",
+   "comp": "F4",
+   "stock": "VEDL",
+   "net": -264.91
+  },
+  {
+   "date": "2026-10-30",
+   "comp": "P2F-R2",
+   "stock": "INDUSTOWER",
+   "net": -231.05
+  },
+  {
+   "date": "2026-10-30",
+   "comp": "P2F-R2",
+   "stock": "LT",
+   "net": -1958.55
+  },
+  {
+   "date": "2026-10-30",
+   "comp": "P2F-R2",
+   "stock": "UNITDSPR",
+   "net": -685.55
+  },
+  {
+   "date": "2026-10-30",
+   "comp": "P2F-R2",
+   "stock": "VEDL",
+   "net": -157.28
+  },
+  {
+   "date": "2026-10-30",
+   "comp": "N4-V3",
+   "stock": "GODREJCP",
+   "net": -686.36
+  },
+  {
+   "date": "2026-10-30",
+   "comp": "N4-V3",
+   "stock": "SUNPHARMA",
+   "net": -1475.76
+  },
+  {
+   "date": "2026-10-30",
+   "comp": "INV-LONG",
+   "stock": "WIPRO",
+   "net": 202.39
+  },
+  {
+   "date": "2026-10-30",
+   "comp": "F4",
+   "stock": "NATIONALUM",
+   "net": 135.0
+  },
+  {
+   "date": "2026-10-30",
+   "comp": "F4",
+   "stock": "NTPC",
+   "net": -334.12
+  },
+  {
+   "date": "2026-10-30",
+   "comp": "F4",
+   "stock": "VEDL",
+   "net": 50.0
+  },
+  {
+   "date": "2026-10-30",
+   "comp": "F4",
+   "stock": "WIPRO",
+   "net": 251.25
+  }
+ ]
+}

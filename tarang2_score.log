@@ -1,0 +1,15 @@
+data loaded
+TARANG-A: 4640 trades, net 583374.04
+TARANG-A NO-TVSMOTOR: 4640 trades, net 462679.81
+TARANG-A FLIP: {2025: 188731.04, 2026: 76196.21}
+TARANG-A RANDOM: {2025: {'p90': 260464.32, 'median': 206679.05, 'draws': 200}, 2026: {'p90': 243002.69, 'median': 197746.14, 'draws': 200}}
+TARANG-A AUDIT: {'entry_not_after_signal': 0, 'entry_before_0945': 0, 'entry_not_next_bar': 0, 'exit_inconsistent': 0, 'signal_invalid': 0, 'cap_name_day': 0, 'cap_book_day': 0, 'overlap_same_name': 0, 'net_mismatch': 0, 'total_violations': 0} | spot: {'checked': 30, 'mismatches': 0}
+TARANG-A VERDICT: NO PASS | legs: {'net_positive_2025': True, 'net_positive_2026': True, 'beats_random_p90_2025': False, 'beats_random_p90_2026': True, 'ex_top3_positive_2025': True, 'ex_top3_positive_2026': True, 'no_month_worse_than_-15000': True, 'timing_audit_clean': True, 'november_slice_not_worse_than_-3000': True}
+TARANG-B: 4640 trades, net 371692.48
+TARANG-B NO-TVSMOTOR: 4640 trades, net 337314.84
+TARANG-B FLIP: {2025: 280147.4, 2026: 209841.67}
+TARANG-B RANDOM: {2025: {'p90': 260464.32, 'median': 206679.05, 'draws': 200}, 2026: {'p90': 243002.69, 'median': 197746.14, 'draws': 200}}
+TARANG-B AUDIT: {'entry_not_after_signal': 0, 'entry_before_0945': 0, 'entry_not_next_bar': 0, 'exit_inconsistent': 0, 'signal_invalid': 0, 'cap_name_day': 0, 'cap_book_day': 0, 'overlap_same_name': 0, 'net_mismatch': 0, 'total_violations': 0} | spot: {'checked': 30, 'mismatches': 0}
+TARANG-B VERDICT: NO PASS | legs: {'net_positive_2025': True, 'net_positive_2026': True, 'beats_random_p90_2025': False, 'beats_random_p90_2026': False, 'ex_top3_positive_2025': True, 'ex_top3_positive_2026': True, 'no_month_worse_than_-15000': True, 'timing_audit_clean': True, 'november_slice_not_worse_than_-3000': True}
+RE-SUM: {'TARANG-A': {2025: 239391.25, 2026: 343982.79, 'match': True}, 'TARANG-B': {2025: 165753.98, 2026: 205938.5, 'match': True}}
+ROUND 2 SCORING DONE

@@ -1,0 +1,3 @@
+date,row_type,book,status,sym,side,gap_pct,entry_time,entry_price,exit_time,exit_price,exit_reason,net_inr,fwd_running_total_inr,notes
+2026-11-20,LIVE,TARANG-C1,TRADED,MAXHEALTH,SHORT,+0.023399,09:15,1065.00,09:20,1075.65,stop,-1105.00,-1105.00,"live-shadow (announced intraday from completed bars); per 100 shares provisional, Rs40/trade; the 20:10 EOD runner (forward_candidates_runner.py) is the official record"
+2026-11-20,LIVE,TARANG-C2,TRADED,MAXHEALTH,SHORT,+0.023399,09:15,1065.00,09:20,1068.90,trailstop,-430.00,-430.00,"live-shadow (announced intraday from completed bars); per 100 shares provisional, Rs40/trade; the 20:10 EOD runner (forward_candidates_runner.py) is the official record"

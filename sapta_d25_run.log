@@ -1,0 +1,18 @@
+
+
+# SAPTA Design 25 — registry section (sapta_d25_SPEC.md)
+
+intraday-ready 69/69; daily-ready 69
+C-1..C-4 programme controls (sapta_d3_run.controls) ...
+CONTROL C-1: building EKAM frozen-25 stocks ...
+CONTROL C-1 CAND-T5: reproduced=True (2025 {'trades': 1035, 'total': 62164.57, 'wr': 35.56, 'expectancy': 60.06}, 2026 {'trades': 1025, 'total': 63883.6, 'wr': 35.71, 'expectancy': 62.33})
+CONTROL C-1 S2: reproduced=True (2025 {'trades': 621, 'total': 45300.64, 'wr': 34.94, 'expectancy': 72.95}, 2026 {'trades': 615, 'total': 72605.3, 'wr': 36.75, 'expectancy': 118.06})
+CONTROL C-2 exit prices: 53820 cells, 0 mismatches
+CONTROL C-3a frozen-25 votes: 314 checked, 0 mismatches
+CONTROL C-3b SAPTA votes: 204 sampled of 7541, 0 mismatches
+CONTROL C-4 daily: BB+RSI lists True, stats True, MACD-only lists True (218 trades)
+C-25a EKAM home anchor (sim2c + components on EKAM data) ...
+C-25b gated-clone parity (active=None vs the originals) ...
+C-25c Design 16 anchor reproduction ...
+## D25 CONTROLS PASS: C-1..C-4 verbatim; C-25a EKAM home anchor exact (EKAM-2c 74/+42,954.60 · 102/+1,41,328.40 and both component anchors); C-25b gated clones identical with the gate open; C-25c D16 union anchor exact (424 trades, +1,36,826.29/+24,893.52).
+CONTROLS ONLY — stopping before scoring
