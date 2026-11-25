@@ -32,8 +32,12 @@ Paper only, real money Rs0. No frozen book touched.
 """
 import csv, json, random, sys, time
 import urllib.request, urllib.error
+from datetime import datetime
 from pathlib import Path
 from urllib.parse import quote
+from zoneinfo import ZoneInfo
+
+IST = ZoneInfo("Asia/Kolkata")
 
 TR = Path.home() / "workspace/trading"
 OI = TR / "oi_history"
@@ -154,8 +158,19 @@ def store_bars(idx, exp, strike, typ, day):
     return None, None
 
 _key_cache = {}
+_live_key_cache = {}
 def fetch_bars(idx, exp, strike, typ, day):
-    if exp < "2026-11-13":
+    """Fetch 5-min option candles for (idx, exp, strike, typ, day).
+    Fixes (2026-11-25):
+      1. Dynamic expiry check (`exp < today_s`) instead of hardcoded 2026-11-13.
+      2. For live contracts (`exp >= today_s`), fall back to the Upstox
+         /v2/option/contract endpoint when a strike is absent from the static
+         daily2leg/instruments_cache.json (e.g. after large index moves).
+      3. For `day == today_s`, fall back to /v3/historical-candle/intraday/
+         when the v3 range route lags by one day."""
+    today_s = datetime.now(IST).date().isoformat()
+    is_expired = exp < today_s
+    if is_expired:
         ck = (idx, exp)
         if ck not in _key_cache:
             body = get(f"{API}/v2/expired-instruments/option/contract"
@@ -170,12 +185,29 @@ def fetch_bars(idx, exp, strike, typ, day):
         url = (f"{API}/v2/expired-instruments/historical-candle/"
                f"{quote(key, safe='')}/5minute/{day}/{day}")
     else:
-        rows = json.loads((TR / "daily2leg/instruments_cache.json")
-                          .read_text())["rows"]
-        key = next((r["key"] for r in rows if r["name"] == idx
-                    and r["expiry"] == exp
-                    and int(float(r["strike"])) == int(strike)
-                    and r["option_type"] == typ), None)
+        key = None
+        cache_path = TR / "daily2leg/instruments_cache.json"
+        if cache_path.exists():
+            rows = json.loads(cache_path.read_text()).get("rows", [])
+            key = next((r["key"] for r in rows if r["name"] == idx
+                        and r["expiry"] == exp
+                        and int(float(r["strike"])) == int(strike)
+                        and r["option_type"] == typ), None)
+        if not key:
+            ck = (idx, exp)
+            if ck not in _live_key_cache:
+                try:
+                    body = get(f"{API}/v2/option/contract"
+                               f"?instrument_key={quote(IDXKEY[idx], safe='')}"
+                               f"&expiry_date={exp}")
+                except urllib.error.HTTPError as e:
+                    if e.code == 429:
+                        raise RateLimited()
+                    body = {}
+                _live_key_cache[ck] = {
+                    (int(float(c["strike_price"])), c["instrument_type"]):
+                    c["instrument_key"] for c in ((body or {}).get("data") or [])}
+            key = _live_key_cache[ck].get((int(strike), typ))
         if not key:
             return None
         url = (f"{API}/v3/historical-candle/{quote(key, safe='')}"
@@ -185,9 +217,20 @@ def fetch_bars(idx, exp, strike, typ, day):
     except urllib.error.HTTPError as e:
         if e.code == 429:
             raise RateLimited()
-        return None
-    cd = [c for c in ((body.get("data") or {}).get("candles") or [])
+        body = None
+    cd = [c for c in (((body or {}).get("data") or {}).get("candles") or [])
           if c[0][:10] == day]
+    if not cd and not is_expired and day == today_s:
+        intraday_url = (f"{API}/v3/historical-candle/intraday/"
+                        f"{quote(key, safe='')}/minutes/5")
+        try:
+            body = get(intraday_url)
+        except urllib.error.HTTPError as e:
+            if e.code == 429:
+                raise RateLimited()
+            return None
+        cd = [c for c in (((body or {}).get("data") or {}).get("candles") or [])
+              if c[0][:10] == day]
     if not cd:
         return None
     fn = FETCH_DIR / f"candles_{idx}_{int(strike)}{typ}_{exp}_{day}.json"

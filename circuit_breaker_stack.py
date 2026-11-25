@@ -144,7 +144,9 @@ def main(argv):
                  hwm_inr=last.get("hwm") if last else None,
                  hwm_dd_inr=last.get("hwm_dd") if last else None,
                  losing_streak=last["streak"] if last else 0,
-                 currently_paused=bool(last and last["paused"]),
+                 currently_paused=bool(summary.get("next_day_paused", False)),
+                 pause_kind=summary.get("next_pause_kind", ""),
+                 last_day_was_paused=bool(last and last["paused"]),
                  trips=summary["trips"],
                  total_hypothetical=summary["total_hypothetical"],
                  total_realised=summary["total_realised"],
@@ -157,6 +159,8 @@ def main(argv):
         STATE.write_text(json.dumps(state, indent=1))
     print(f"CIRCUIT BREAKER (stack) through {state['last_date']}: "
           f"MTD={state['mtd_inr']:+.2f} streak={state['losing_streak']} "
+          f"paused_next={state['currently_paused']}"
+          f"{'(' + state['pause_kind'] + ')' if state['pause_kind'] else ''} "
           f"trips={len(summary['trips'])} paused_days="
           f"{summary['paused_days']} total={summary['total_realised']:+.2f}"
           f"{' (DRY RUN — nothing written)' if a.dry_run else ''}")

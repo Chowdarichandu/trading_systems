@@ -191,11 +191,18 @@ def _csv_spot_915(fn):
 
 
 def _fetch_spot_915(day):
+    """Fetch 09:15 Bank Nifty spot close with same-day v3 intraday fallback
+    (fix 2026-11-25)."""
     ikey = quote(obs.IDXKEY["BANKNIFTY"], safe="")
+    today_s = datetime.now(IST).date().isoformat()
     body = get(f"{API}/v3/historical-candle/{ikey}"
                f"/minutes/5/{day}/{day}")
     cd = [c for c in ((body or {}).get("data") or {}).get("candles")
           or [] if c[0][:10] == day]
+    if not cd and day == today_s:
+        body = get(f"{API}/v3/historical-candle/intraday/{ikey}/minutes/5")
+        cd = [c for c in ((body or {}).get("data") or {}).get("candles")
+              or [] if c[0][:10] == day]
     bars = {c[0][11:16]: float(c[4]) for c in cd}
     if "09:15" not in bars:
         return None

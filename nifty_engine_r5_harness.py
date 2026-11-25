@@ -20,10 +20,18 @@ TR = Path.home() / "workspace/trading"
 COST, LOT = 220.0, 65
 BOOK_GEOM = dict(lock=50.0, tgt2=175.0, arm=50.0, sq="15:10")
 
-def replay_r5(cs, entry_time, lock=50.0, tgt2=175.0, arm=50.0, sq="15:10", delay_bars=0):
+def replay_r5(cs, entry_time, lock=50.0, tgt2=175.0, arm=50.0, sq="15:10",
+              delay_bars=0, gap_stop_open=False, min_stop_px=None):
     """Adopted-book geometry with per-leg lock/tgt2/arm/square-off.
     stop -50, BE arm -> entry, tgt1 +90 -> runner (lock, tgt2), stop before
-    target on every bar incl. entry bar, terminal square-off at sq close."""
+    target on every bar incl. entry bar, terminal square-off at sq close.
+
+    Opt-in realism guards (2026-11-25; default False/None to preserve exact
+    reproduction of frozen Jan-Oct control anchors):
+      - min_stop_px: e.g. 0.05 prevents negative stop prices on low-premium
+        expiry options (such as 2026-11-17 CE @ 38.80 -> stop -11.20).
+      - gap_stop_open: if True, a bar opening at/below the active stop fills
+        at that bar's open (`o`) instead of the idealized stop level."""
     if not cs: return None
     idxs = [i for i, b in enumerate(cs) if b[0] >= entry_time]
     if not idxs: return None
@@ -32,7 +40,10 @@ def replay_r5(cs, entry_time, lock=50.0, tgt2=175.0, arm=50.0, sq="15:10", delay
     bars = cs[i0:]
     if bars[0][0] > sq: return None
     entry = bars[0][1]
-    stop, target = entry - 50.0, entry + 90.0
+    stop = entry - 50.0
+    if min_stop_px is not None:
+        stop = max(stop, float(min_stop_px))
+    target = entry + 90.0
     def out(net_pts, reason, t, ft, exit_px):
         return dict(net=round(net_pts * LOT - COST, 2), exit_reason=reason,
                     exit_time=t, ft=ft, entry=entry, exit=exit_px)
@@ -40,6 +51,9 @@ def replay_r5(cs, entry_time, lock=50.0, tgt2=175.0, arm=50.0, sq="15:10", delay
     for i, b in enumerate(bars):
         t, o, h, l, cl, v = b
         if t > sq: break
+        if gap_stop_open and o <= cur_stop:
+            rsn = "be_stop" if cur_stop == entry else "stop"
+            return out(o - entry, rsn, t, 0, o)
         if l <= cur_stop:
             rsn = "be_stop" if cur_stop == entry else "stop"
             return out(cur_stop - entry, rsn, t, 0, cur_stop)
@@ -48,6 +62,8 @@ def replay_r5(cs, entry_time, lock=50.0, tgt2=175.0, arm=50.0, sq="15:10", delay
             for b2 in bars[i + 1:]:
                 t2, o2, h2, l2, cl2, v2 = b2
                 if t2 > sq: break
+                if gap_stop_open and o2 <= stop2:
+                    return out(o2 - entry, "runner_stop", t2, 1, o2)
                 if l2 <= stop2: return out(stop2 - entry, "runner_stop", t2, 1, stop2)
                 if h2 >= target2: return out(target2 - entry, "runner_target", t2, 1, target2)
                 if t2 == sq: return out(cl2 - entry, "runner_square_off", t2, 1, cl2)

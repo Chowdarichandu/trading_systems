@@ -325,14 +325,26 @@ def spot_0920_open(day):
     url = (f"{obs.API}/v3/historical-candle/"
            f"{quote(obs.IDXKEY['BANKNIFTY'], safe='')}"
            f"/minutes/5/{day}/{day}")
+    today_s = datetime.now(IST).date().isoformat()
     try:
         body = obs.get(url)
     except urllib.error.HTTPError as e:
         if e.code == 429:
             raise obs.RateLimited()
-        return None, None
-    cd = [c for c in ((body.get("data") or {}).get("candles") or [])
+        body = None
+    cd = [c for c in (((body or {}).get("data") or {}).get("candles") or [])
           if c[0][:10] == day]
+    if not cd and day == today_s:
+        intraday_url = (f"{obs.API}/v3/historical-candle/intraday/"
+                        f"{quote(obs.IDXKEY['BANKNIFTY'], safe='')}/minutes/5")
+        try:
+            body = obs.get(intraday_url)
+        except urllib.error.HTTPError as e:
+            if e.code == 429:
+                raise obs.RateLimited()
+            return None, None
+        cd = [c for c in (((body or {}).get("data") or {}).get("candles") or [])
+              if c[0][:10] == day]
     if not cd:
         return None, None
     fn.write_text(json.dumps(body))
@@ -412,12 +424,25 @@ def score_day(T, dry):
     srow = rows[S]
     row["oi_row_source"] = srow.get("_source", "dataset")
     # spot-close cross-check vs the November machinery's daily store
+    # Fix (2026-11-25): progressive spot_daily.csv stores the 15:25 5-min bar
+    # close, whereas the pre-open option-chain archive carries the exchange
+    # official weighted close. On Bank Nifty those legitimately differ by
+    # ~40-250 pts (0.07%-0.40%), so a 0.05-rupee tolerance falsely NC'd 100%
+    # of live days. Keep a 1.5% corruption/wrong-date guard and record the
+    # exact official-vs-15:25 difference in `notes`.
     pclose = _prog_spot_close(S)
-    if pclose is not None and abs(pclose - float(srow["spot_close"])) > 0.05:
-        row.update(status="NC",
-                   reason=f"oi_row_spot_mismatch:{srow['spot_close']}"
-                          f"_vs_progressive_{pclose}")
-        return row
+    spot_diff_note = ""
+    if pclose is not None and pclose > 0:
+        sclose = float(srow["spot_close"])
+        rel_diff = abs(pclose - sclose) / pclose
+        if rel_diff > 0.015:
+            row.update(status="NC",
+                       reason=f"oi_row_spot_mismatch:{srow['spot_close']}"
+                              f"_vs_progressive_{pclose}")
+            return row
+        if abs(pclose - sclose) > 0.05:
+            spot_diff_note = (f"official_vs_1525_diff="
+                              f"{sclose - pclose:+.2f}pts")
     sstat, snet = stack_status(T)
     row["stack_status"] = sstat
     if snet is not None:
@@ -467,13 +492,16 @@ def score_day(T, dry):
         row.update(status="NC", reason="rate_limited")
         return row
     assert S < T, "timing violation: signal day not before trade day"
+    note_parts = [f"premium store={bsrc}", f"spot src={ssrc}"]
+    if spot_diff_note:
+        note_parts.append(spot_diff_note)
     row.update(status="TRADED", reason="scored",
                entry_time="09:20", entry_premium=f"{r['entry']:.2f}",
                exit_time=r["exit_time"],
                exit_premium=f"{r['exit']:.2f}",
                exit_reason=r["exit_reason"],
                net_inr=f"{r['net']:.2f}",
-               notes=f"premium store={bsrc}; spot src={ssrc}")
+               notes="; ".join(note_parts))
     return row
 
 

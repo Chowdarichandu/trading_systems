@@ -203,14 +203,22 @@ def get(url):
 def _fetch_spot_day(day):
     """(state, bars): state 'ok' (bars = {time: (o,h,l,c)}),
     'empty' (successful response, zero candles — a non-trading
-    day), 'fail' (no usable response). Raises RateLimited."""
+    day), 'fail' (no usable response). Raises RateLimited.
+    Fix (2026-11-25): for day == today (IST), fall back to the v3
+    intraday endpoint because the v3 historical range endpoint lags
+    by one day for the newest session."""
     ikey = quote(obs.IDXKEY["BANKNIFTY"], safe="")
+    today_s = datetime.now(IST).date().isoformat()
     body = get(f"{API}/v3/historical-candle/{ikey}"
                f"/minutes/5/{day}/{day}")
+    cd = [c for c in (((body or {}).get("data") or {}).get("candles")
+                      or []) if c[0][:10] == day]
+    if not cd and day == today_s:
+        body = get(f"{API}/v3/historical-candle/intraday/{ikey}/minutes/5")
+        cd = [c for c in (((body or {}).get("data") or {}).get("candles")
+                          or []) if c[0][:10] == day]
     if body is None:
         return "fail", None
-    cd = [c for c in ((body.get("data") or {}).get("candles")
-                      or []) if c[0][:10] == day]
     if not cd:
         return "empty", None
     return "ok", {c[0][11:16]: (float(c[1]), float(c[2]),
@@ -288,11 +296,16 @@ def _refresh_fut_keys(uni, dry):
     return uni
 
 
-def _fetch_fut_day(key, route, day):
+def _fetch_fut_day(key, route, day, exp=None):
     """{time: (o,h,l,c,v)} or None. Raises RateLimited on 429.
-    A live contract that has since expired is read on the v2
-    expired route (r4d1's rule)."""
-    if route == "live" and day < datetime.now(IST).date().isoformat():
+    Fix (2026-11-25):
+      1. Only switch a live contract to the v2 expired route when the
+         CONTRACT EXPIRY (`exp`) < today (previously checked `day < today`,
+         which broke catch-up fetches on unexpired contracts).
+      2. For day == today on a live contract, fall back to the v3 intraday
+         route because the v3 historical range route lags by one day."""
+    today_s = datetime.now(IST).date().isoformat()
+    if route == "live" and exp is not None and exp < today_s:
         route = "expired"
     enc = quote(key, safe="")
     if route == "expired":
@@ -302,10 +315,12 @@ def _fetch_fut_day(key, route, day):
         url = (f"{API}/v3/historical-candle/{enc}/minutes/5/"
                f"{day}/{day}")
     body = get(url)
-    if body is None:
-        return None
-    cd = [c for c in ((body.get("data") or {}).get("candles")
+    cd = [c for c in (((body or {}).get("data") or {}).get("candles")
                       or []) if c[0][:10] == day]
+    if not cd and route != "expired" and day == today_s:
+        body = get(f"{API}/v3/historical-candle/intraday/{enc}/minutes/5")
+        cd = [c for c in (((body or {}).get("data") or {}).get("candles")
+                          or []) if c[0][:10] == day]
     if not cd:
         return None
     return {c[0][11:16]: (float(c[1]), float(c[2]), float(c[3]),
@@ -359,7 +374,7 @@ def fut_day_ext(exp, day, dry, allow_fetch):
     if exp not in uni:
         return None
     key, route = uni[exp]
-    bars = _fetch_fut_day(key, route, day)  # may raise RateLimited
+    bars = _fetch_fut_day(key, route, day, exp=exp)  # may raise RateLimited
     if not bars or len(bars) < MIN_DAY_BARS:
         return None
     if not dry:

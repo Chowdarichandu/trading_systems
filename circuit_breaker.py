@@ -182,6 +182,9 @@ def simulate(days, hypothetical, roll10_floor=None,
     tot_r = round(sum(r["realised_net"] for r in records), 2)
     suppressed = round(sum(r["hypothetical_net"] for r in records
                            if r["paused"]), 2)
+    next_paused = bool(mtd_paused or pause_left > 0)
+    next_kind = (rom_src if mtd_paused
+                 else ((pause_src or "STREAK") if pause_left > 0 else ""))
     summary = dict(days=len(records), total_hypothetical=tot_h,
                    total_realised=tot_r,
                    breaker_effect=round(tot_r - tot_h, 2),
@@ -189,5 +192,8 @@ def simulate(days, hypothetical, roll10_floor=None,
                    paused_days=sum(1 for r in records if r["paused"]),
                    roll10_enabled=roll10_floor is not None,
                    hwmdd_enabled=hwmdd_drop is not None,
+                   next_day_paused=next_paused,
+                   next_pause_kind=next_kind,
+                   next_pause_days_left=pause_left,
                    trips=trips)
     return records, summary

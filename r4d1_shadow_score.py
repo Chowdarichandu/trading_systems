@@ -237,13 +237,18 @@ def _prog_spot(day):
 
 
 def _fetch_spot_day(day):
-    """v3 intraday route (round 4's November-tail route). Returns
-    {time: (o,h,l,c)} or None. Raises RateLimited on 429."""
+    """v3 spot route with same-day intraday fallback (fix 2026-11-25).
+    Returns {time: (o,h,l,c)} or None. Raises RateLimited on 429."""
     ikey = quote(obs.IDXKEY["BANKNIFTY"], safe="")
+    today_s = datetime.now(IST).date().isoformat()
     body = get(f"{API}/v3/historical-candle/{ikey}"
                f"/minutes/5/{day}/{day}")
     cd = [c for c in ((body or {}).get("data") or {}).get("candles")
           or [] if c[0][:10] == day]
+    if not cd and day == today_s:
+        body = get(f"{API}/v3/historical-candle/intraday/{ikey}/minutes/5")
+        cd = [c for c in ((body or {}).get("data") or {}).get("candles")
+              or [] if c[0][:10] == day]
     if not cd:
         return None
     return {c[0][11:16]: (float(c[1]), float(c[2]), float(c[3]),
@@ -334,9 +339,11 @@ def in_force(day, dry):
 
 
 def _fetch_fut_day(key, route, day):
-    """Round 4 fetch_range URL shapes, single day. Returns
+    """Round 4 fetch_range URL shapes, single day, with same-day v3
+    intraday fallback for live contracts (fix 2026-11-25). Returns
     {time: close} or None. Raises RateLimited on 429."""
     enc = quote(key, safe="")
+    today_s = datetime.now(IST).date().isoformat()
     if route == "expired":
         url = (f"{API}/v2/expired-instruments/historical-candle/{enc}"
                f"/5minute/{day}/{day}")
@@ -345,6 +352,10 @@ def _fetch_fut_day(key, route, day):
     body = get(url)
     cd = [c for c in ((body or {}).get("data") or {}).get("candles")
           or [] if c[0][:10] == day]
+    if not cd and route != "expired" and day == today_s:
+        body = get(f"{API}/v3/historical-candle/intraday/{enc}/minutes/5")
+        cd = [c for c in ((body or {}).get("data") or {}).get("candles")
+              or [] if c[0][:10] == day]
     if not cd:
         return None
     return {c[0][11:16]: float(c[4]) for c in cd}

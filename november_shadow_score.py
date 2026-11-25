@@ -1095,12 +1095,17 @@ def score_nifty_decs1(day, st):
                         f"(fetch: {fetch_rep.get((l['strike'], l['direction']), 'n/a')}); "
                         f"excluded from all totals · {base_note}"])
         else:
+            raw_stop = r["entry"] - 50.0
+            stop_px = max(raw_stop, 0.05)
+            note_out = (base_note + f" · WARN: entry {r['entry']:.2f} <= 50, "
+                        f"stop floored at 0.05 (raw {raw_stop:.2f})"
+                        if raw_stop < 0.05 else base_note)
             out.append([day, "SHADOW", f"DEC-S1 {comp}", l["direction"],
                         l["strike"], l["expiry"], "", l["entry_time"],
-                        f"{r['entry']:.2f}", f"{r['entry'] - 50:.2f}",
+                        f"{r['entry']:.2f}", f"{stop_px:.2f}",
                         f"{r['entry'] + 90:.2f}", r["exit_time"],
                         f"{r['exit']:.2f}", r["exit_reason"],
-                        f"{r['net']:.2f}", base_note])
+                        f"{r['net']:.2f}", note_out])
     if not out:
         out.append([day, "SHADOW", "none", "", "", "", "", "", "", "", "",
                     "", "", "", "",
@@ -1177,12 +1182,17 @@ def score_skill_standalone(sym, day, st):
                         f"{base_note}"])
         else:
             res.append(r)
+            raw_stop = r["entry"] - 50.0
+            stop_px = max(raw_stop, 0.05)
+            note_out = (base_note + f" · WARN: entry {r['entry']:.2f} <= 50, "
+                        f"stop floored at 0.05 (raw {raw_stop:.2f})"
+                        if raw_stop < 0.05 else base_note)
             out.append([day, "SHADOW", "Skill V3 standalone",
                         l["direction"], strike, expiry, l["signal_time"],
-                        et, f"{r['entry']:.2f}", f"{r['entry'] - 50:.2f}",
+                        et, f"{r['entry']:.2f}", f"{stop_px:.2f}",
                         f"{r['entry'] + 90:.2f}", r["exit_time"],
                         f"{r['exit']:.2f}", r["exit_reason"],
-                        f"{r['net']:.2f}", base_note])
+                        f"{r['net']:.2f}", note_out])
     if not out:
         out.append([day, "SHADOW", "none", "", "", "", "", "", "", "", "",
                     "", "", "", "",

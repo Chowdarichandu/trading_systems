@@ -74,10 +74,14 @@ def store_path(sym):
 
 def refresh(names, target):
     """Append missing bars (store's last date .. target) per name.
-    Returns (updated_names, names_with_target_bars)."""
+    Returns (updated_names, names_with_target_bars).
+    Fix (2026-11-25, feed_fix_report FIX 2): when target == today (IST) and
+    the v3 historical range route omits today (1-day publication lag), fall
+    back to /v3/historical-candle/intraday/{enc}/minutes/5 and merge."""
     uni = {r['symbol']: r['instrument_key'] for r in
            csv.DictReader(open(os.path.join(WS, 'universe_daily',
                                             'universe.csv')))}
+    today_s = datetime.now().astimezone().strftime('%Y-%m-%d')
     updated, have = [], 0
     for sym in names:
         path = store_path(sym)
@@ -100,6 +104,12 @@ def refresh(names, target):
             rows = SF.candles(payload)
             for row in rows:
                 bars[row[0]] = [str(x) for x in row]
+            if target == today_s and not any(k[:10] == target for k in bars):
+                time.sleep(0.35)
+                ip = SF.call(f'/v3/historical-candle/intraday/{enc}/minutes/5')
+                for row in SF.candles(ip):
+                    if str(row[0])[:10] == target:
+                        bars[row[0]] = [str(x) for x in row]
             os.makedirs(os.path.dirname(path), exist_ok=True)
             SF.write_csv_atomic(path, HEADER,
                                 [bars[k] for k in sorted(bars)])
