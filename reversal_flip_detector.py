@@ -69,7 +69,7 @@ import urllib.error
 import urllib.parse
 import urllib.request
 from collections import deque
-from datetime import date as ddate, datetime, time as dtime
+from datetime import date as ddate, datetime, time as dtime, timedelta
 from pathlib import Path
 from typing import Any, Deque, Dict, List, Optional, Sequence, Tuple
 from zoneinfo import ZoneInfo
@@ -224,21 +224,25 @@ class IndexReversalMonitor:
     """Tracks rolling 10-15 min intraday OI, Futures, Order Flow & Heavyweight
     velocity for one index and outputs real-time Green<->Red flip directives."""
 
-    def __init__(self, index_name: str, window_sec: int = 900):
+    def __init__(self, index_name: str, window_sec: int = 900, fast_window_sec: int = 300):
         self.index_name = index_name
         self.spec = INDEX_SPECS[index_name]
-        self.window_sec = window_sec  # 15-min lookback window for sudden-turn velocity
-        self.history: Deque[Dict[str, Any]] = deque(maxlen=120)
+        self.window_sec = window_sec          # 15-min structural velocity window
+        self.fast_window_sec = fast_window_sec  # 5-min fast shock turn window (BEFORE zero cross!)
+        self.history: Deque[Dict[str, Any]] = deque(maxlen=400)
         self.prev_color: Optional[str] = None
         self.prev_intraday_color: Optional[str] = None
+        self.session_high: float = -1e18
+        self.session_low: float = 1e18
         self.last_alert_ts: Dict[str, float] = {}
-        self.recent_events: Deque[Dict[str, Any]] = deque(maxlen=25)
+        self.recent_events: Deque[Dict[str, Any]] = deque(maxlen=40)
 
-    def _baseline_obs(self, now_epoch: float) -> Optional[Dict[str, Any]]:
-        """Return observation closest to `window_sec` ago (or oldest available if >= 2 obs)."""
+    def _baseline_obs(self, now_epoch: float, lookback_sec: Optional[int] = None) -> Optional[Dict[str, Any]]:
+        """Return observation closest to `lookback_sec` ago (or oldest available)."""
         if not self.history:
             return None
-        target = now_epoch - self.window_sec
+        lb = self.window_sec if lookback_sec is None else lookback_sec
+        target = now_epoch - lb
         best = self.history[0]
         for obs in self.history:
             if obs["epoch"] <= target:
@@ -311,13 +315,19 @@ class IndexReversalMonitor:
         color = "GREEN" if spot >= prev_close else "RED"
         intraday_color = "GREEN" if spot >= day_open else "RED"
 
-        base = self._baseline_obs(obs["epoch"])
+        self.session_high = max(self.session_high, spot)
+        self.session_low = min(self.session_low, spot)
+
+        base = self._baseline_obs(obs["epoch"], self.window_sec)
+        fast_base = self._baseline_obs(obs["epoch"], self.fast_window_sec)
         bear_score = 0
         bull_score = 0
         bear_reasons: List[str] = []
         bull_reasons: List[str] = []
         bear_pillars: set = set()
         bull_pillars: set = set()
+        fast_top_turn = False
+        fast_bottom_turn = False
 
         oi_interp = "INITIALIZING"
         fut_quad = "FLAT"
@@ -513,6 +523,46 @@ class IndexReversalMonitor:
             bull_pillars.add("STRUCTURE")
             bull_reasons.append(f"Testing Red->Green line ({chg_prev_pct:+.2f}% vs prev close)")
 
+        # --- FAST 3-5 MIN SHOCK CHANNEL (Catches Peak/Trough Turns BEFORE Zero Cross!) ---
+        if fast_base is not None and fast_base is not base or (fast_base is not None and len(self.history) >= 1):
+            fb_spot = float(fast_base.get("spot_ltp") or spot)
+            d_spot_5m_pct = ((spot - fb_spot) / fb_spot) * 100.0 if fb_spot > 0 else 0.0
+            d_fut_5m = fut_ltp - float(fast_base.get("fut_ltp") or fut_ltp)
+            d_oi_5m = fut_oi - float(fast_base.get("fut_oi") or fut_oi)
+            d_bas_5m = basis - float(fast_base.get("basis") or basis)
+            d_cvd_5m = fut_cvd - float(fast_base.get("fut_cvd") or fut_cvd)
+            fb_hw = fast_base.get("heavyweights") or {}
+            fbull_hw, fbear_hw, _ = self._compute_heavyweight_lead(obs.get("heavyweights") or {}, fb_hw)
+            q5 = classify_futures_quadrant(d_fut_5m, d_oi_5m)
+            fb_cm = fast_base.get("chain_metrics") or {"valid": False}
+            f_oi_bear = bool(cm.get("valid") and fb_cm.get("valid") and (cm["ce_oi"] > fb_cm["ce_oi"]) and (cm["pe_oi"] < fb_cm["pe_oi"]))
+            f_oi_bull = bool(cm.get("valid") and fb_cm.get("valid") and (cm["ce_oi"] < fb_cm["ce_oi"]) and (cm["pe_oi"] > fb_cm["pe_oi"]))
+
+            fast_bear_hits = sum([
+                q5 in ("SHORT_BUILDUP", "LONG_UNWINDING"),
+                d_bas_5m <= -(self.spec["basis_shift_thresh"] * 0.5),
+                fbear_hw >= 0.50,
+                d_cvd_5m <= -100 or fut_obi <= -0.20,
+                f_oi_bear,
+            ])
+            fast_bull_hits = sum([
+                q5 in ("SHORT_COVERING", "LONG_BUILDUP"),
+                d_bas_5m >= (self.spec["basis_shift_thresh"] * 0.5),
+                fbull_hw >= 0.50,
+                d_cvd_5m >= 100 or fut_obi >= 0.20,
+                f_oi_bull,
+            ])
+            if d_spot_5m_pct <= -0.14 and fast_bear_hits >= 2:
+                fast_top_turn = True
+                bear_score += 20
+                bear_pillars.add("FAST_5M_SHOCK")
+                bear_reasons.insert(0, f"FAST 5m top-reversal shock ({d_spot_5m_pct:+.2f}%, {fast_bear_hits}/5 fast signals)")
+            if d_spot_5m_pct >= 0.14 and fast_bull_hits >= 2:
+                fast_bottom_turn = True
+                bull_score += 20
+                bull_pillars.add("FAST_5M_SHOCK")
+                bull_reasons.insert(0, f"FAST 5m bottom-reversal shock ({d_spot_5m_pct:+.2f}%, {fast_bull_hits}/5 fast signals)")
+
         bear_score = min(100, bear_score)
         bull_score = min(100, bull_score)
 
@@ -575,6 +625,20 @@ class IndexReversalMonitor:
                 directives.update(
                     block_pe_entries=True, tighten_pe_stop=True, exit_pe_now=True,
                     summary_action="EXIT_PE_BEFORE_SQUEEZE / PREPARE_GREEN_FLIP",
+                )
+            elif (color == "GREEN" or intraday_color == "GREEN") and fast_top_turn and bear_score >= 45:
+                alert_level, flip_type = "EARLY_WARNING", "TOP_REVERSAL_FORMING"
+                active_score, active_reasons = bear_score, bear_reasons
+                directives.update(
+                    block_ce_entries=True, tighten_ce_stop=True,
+                    summary_action="TOP_TURN_BEFORE_RED / TRAIL_CE_TO_BE / PAUSE_CE",
+                )
+            elif (color == "RED" or intraday_color == "RED") and fast_bottom_turn and bull_score >= 45:
+                alert_level, flip_type = "EARLY_WARNING", "BOTTOM_REVERSAL_FORMING"
+                active_score, active_reasons = bull_score, bull_reasons
+                directives.update(
+                    block_pe_entries=True, tighten_pe_stop=True,
+                    summary_action="BOTTOM_TURN_BEFORE_GREEN / TRAIL_PE_TO_BE / PAUSE_PE",
                 )
             elif (color == "GREEN" or intraday_color == "GREEN") and bear_score >= 45 and len(bear_pillars) >= 2:
                 alert_level, flip_type = "EARLY_WARNING", "PRE_GREEN_TO_RED"
@@ -1217,9 +1281,173 @@ def run_selftest() -> int:
     return 0
 
 
+def _fetch_1m_bars(ikey: str, day_s: str, token: str) -> List[Dict[str, Any]]:
+    today_s = datetime.now(IST).strftime("%Y-%m-%d")
+    enc = urllib.parse.quote(ikey, safe="")
+    url = (
+        f"/v3/historical-candle/intraday/{enc}/minutes/1"
+        if day_s == today_s else
+        f"/v3/historical-candle/{enc}/minutes/1/{day_s}/{day_s}"
+    )
+    rows = (api_get(url, token).get("data") or {}).get("candles") or []
+    out = [
+        {"time": str(r[0])[11:16], "open": float(r[1]), "high": float(r[2]),
+         "low": float(r[3]), "close": float(r[4]),
+         "volume": float(r[5]) if len(r) > 5 and r[5] is not None else 0.0,
+         "oi": float(r[6]) if len(r) > 6 and r[6] is not None else 0.0}
+        for r in rows if str(r[0])[:10] == day_s and "09:15" <= str(r[0])[11:16] <= "15:25"
+    ]
+    out.sort(key=lambda b: b["time"])
+    return out
+
+
+def _load_archived_chain_by_bucket(root: Path, day_s: str, idx: str) -> Dict[str, List[Dict[str, Any]]]:
+    """Load 5-min option chain snapshots from option_chain_archive/ if archived on `day_s`."""
+    out: Dict[str, List[Dict[str, Any]]] = {}
+    for cand in (
+        root / "option_chain_archive" / f"chain_{day_s}.csv",
+        root / "option_chain_archive" / f"{day_s}.csv",
+    ):
+        if not cand.exists():
+            continue
+        with open(cand, newline="") as f:
+            for r in csv.DictReader(f):
+                if (r.get("index") or "").upper() != idx:
+                    continue
+                b = (r.get("bucket_ist") or r.get("timestamp_ist") or "")[11:16]
+                if b:
+                    out.setdefault(b, []).append(r)
+        if out:
+            break
+    return out
+
+
+def run_prove_days(root: Path, days: Sequence[str]) -> int:
+    """Replay past/recent sessions (e.g. yesterday & today) causally minute-by-minute
+    using real Upstox 1-min Spot + Futures + Heavyweights (+ archived option chain
+    if present) and measure EXACT LEAD TIME BEFORE Green<->Red zero-line crosses."""
+    token = load_token(root)
+    master = load_nse_master(root)
+
+    for day_s in days:
+        res = resolve_live_instruments(root, master, day_s)
+        print(f"\n================ REVERSAL LEAD-TIME PROOF ({day_s}) ================")
+        for idx, spec in INDEX_SPECS.items():
+            spot_1m = _fetch_1m_bars(spec["spot_key"], day_s, token)
+            if not spot_1m:
+                print(f"  [{idx}] No 1-min spot bars served for {day_s}")
+                continue
+            time.sleep(0.20)
+            # Fetch prior trading day's official close for exact Green/Red zero line
+            enc_s = urllib.parse.quote(spec["spot_key"], safe="")
+            d_prev_to = (ddate.fromisoformat(day_s) - timedelta(days=1)).isoformat()
+            d_prev_frm = (ddate.fromisoformat(day_s) - timedelta(days=10)).isoformat()
+            d_rows = (api_get(f"/v3/historical-candle/{enc_s}/days/1/{d_prev_to}/{d_prev_frm}", token).get("data") or {}).get("candles") or []
+            d_rows.sort(key=lambda r: str(r[0]))
+            prev_close = float(d_rows[-1][4]) if d_rows else spot_1m[0]["open"]
+            day_open = spot_1m[0]["open"]
+            time.sleep(0.20)
+
+            fk = res["futs"].get(idx, (None, None))[0]
+            fut_1m = {b["time"]: b for b in (_fetch_1m_bars(fk, day_s, token) if fk else [])}
+            time.sleep(0.20)
+
+            hw_1m: Dict[str, Dict[str, Dict[str, Any]]] = {}
+            for sym in spec["heavyweights"]:
+                ek = res["eq_keys"].get(sym, (None, None))[0]
+                if ek:
+                    hw_1m[sym] = {b["time"]: b for b in _fetch_1m_bars(ek, day_s, token)}
+                    time.sleep(0.15)
+
+            arch_chain = _load_archived_chain_by_bucket(root, day_s, idx)
+            mon = IndexReversalMonitor(idx, window_sec=900, fast_window_sec=300)
+
+            # Causal running VWAP & proxy CVD on 1-min Futures bars
+            fut_pv = fut_v = fut_cvd = 0.0
+            hw_pv = {s: 0.0 for s in hw_1m}
+            hw_v = {s: 0.0 for s in hw_1m}
+            prev_color = None
+            zero_crosses: List[Tuple[str, str, float]] = []
+            alerts: List[Tuple[str, str, int, float, str]] = []
+            last_cm: Dict[str, Any] = {"valid": False}
+
+            for b in spot_1m:
+                t = b["time"]
+                hh, mm = int(t[:2]), int(t[3:5])
+                ep = hh * 3600.0 + mm * 60.0
+                spot_px = b["close"]
+                fb = fut_1m.get(t)
+                if fb:
+                    fut_px = fb["close"]
+                    fut_oi = fb["oi"]
+                    tp = (fb["high"] + fb["low"] + fb["close"]) / 3.0
+                    fv = fb["volume"]
+                    fut_pv += tp * fv
+                    fut_v += fv
+                    fut_vwap = fut_pv / fut_v if fut_v > 0 else fut_px
+                    # Causal 1-min candle close-location proxy delta
+                    rng = fb["high"] - fb["low"]
+                    clv = ((fb["close"] - fb["low"]) - (fb["high"] - fb["close"])) / rng if rng > 0 else 0.0
+                    fut_cvd += fv * clv
+                else:
+                    fut_px, fut_oi, fut_vwap = spot_px, 0.0, spot_px
+
+                hw_snap = {}
+                for sym, hmap in hw_1m.items():
+                    hb = hmap.get(t)
+                    if hb:
+                        tp_h = (hb["high"] + hb["low"] + hb["close"]) / 3.0
+                        hw_pv[sym] += tp_h * hb["volume"]
+                        hw_v[sym] += hb["volume"]
+                        hw_snap[sym] = {
+                            "ltp": hb["close"],
+                            "atp": (hw_pv[sym] / hw_v[sym]) if hw_v[sym] > 0 else hb["close"],
+                        }
+
+                b5 = f"{hh:02d}:{(mm // 5) * 5:02d}"
+                if b5 in arch_chain:
+                    last_cm = extract_near_atm_chain_metrics(arch_chain[b5], spot_px, spec["step"])
+
+                cur_color = "GREEN" if spot_px >= prev_close else "RED"
+                if prev_color is not None and cur_color != prev_color:
+                    zero_crosses.append((t, f"{prev_color}->{cur_color}", spot_px))
+                prev_color = cur_color
+
+                st = mon.evaluate({
+                    "index": idx, "timestamp_ist": f"{day_s}T{t}:00+05:30", "epoch": ep,
+                    "spot_ltp": spot_px, "prev_close": prev_close, "day_open": day_open,
+                    "fut_ltp": fut_px, "fut_oi": fut_oi, "fut_atp": fut_vwap,
+                    "fut_obi_l5": 0.0, "fut_cvd": fut_cvd,
+                    "chain_metrics": last_cm, "heavyweights": hw_snap,
+                })
+                if st["alert_level"] in ("EARLY_WARNING", "IMMINENT_FLIP", "CONFIRMED_FLIP"):
+                    if not alerts or alerts[-1][1] != st["flip_type"] or (ep - (int(alerts[-1][0][:2]) * 3600 + int(alerts[-1][0][3:5]) * 60)) >= 600:
+                        alerts.append((t, st["flip_type"], st["active_score"], spot_px, st["directives"]["summary_action"]))
+
+            hi_b = max(spot_1m, key=lambda x: x["high"])
+            lo_b = min(spot_1m, key=lambda x: x["low"])
+            print(
+                f"\n  [{idx}] PrevClose={prev_close:.1f} Open={day_open:.1f} | "
+                f"High={hi_b['high']:.1f}@{hi_b['time']} Low={lo_b['low']:.1f}@{lo_b['time']} Close={spot_1m[-1]['close']:.1f} | "
+                f"ArchivedChainBuckets={len(arch_chain)}"
+            )
+            print(f"    Actual Zero-Line Crosses (prev_close={prev_close:.1f}): {zero_crosses or 'NONE'}")
+            print(f"    Detector Alerts Fired ({len(alerts)}):")
+            for at, ft, sc, sp, act in alerts[:8]:
+                lead_note = ""
+                for ct, cdir, cpx in zero_crosses:
+                    amin = int(at[:2]) * 60 + int(at[3:5])
+                    cmin = int(ct[:2]) * 60 + int(ct[3:5])
+                    if amin < cmin and (("RED" in ft and cdir == "GREEN->RED") or ("GREEN" in ft and cdir == "RED->GREEN") or ("TOP" in ft and cdir == "GREEN->RED") or ("BOTTOM" in ft and cdir == "RED->GREEN")):
+                        lead_note = f"  <-- {cmin - amin} MIN BEFORE {cdir} @ {ct} (saved {abs(sp - cpx):.1f} pts!)"
+                        break
+                print(f"      {at} IST | {ft:<25} ({sc:>3}/100) @ Spot {sp:.1f} | {act}{lead_note}")
+    return 0
+
+
 def main(argv: Optional[List[str]] = None) -> int:
     ap = argparse.ArgumentParser(description=__doc__)
-    ap.add_argument("--mode", choices=("selftest", "live", "replay"), default="live")
+    ap.add_argument("--mode", choices=("selftest", "live", "replay", "prove-days"), default="live")
     ap.add_argument("--root", default=str(default_root()))
     ap.add_argument("--interval", type=float, default=20.0, help="Live poll interval in seconds (>= 10)")
     ap.add_argument("--window-sec", type=int, default=900, help="Rolling velocity lookback in seconds (default 900 = 15m)")
@@ -1228,11 +1456,16 @@ def main(argv: Optional[List[str]] = None) -> int:
     ap.add_argument("--cooldown-sec", type=int, default=180, help="Minimum seconds between duplicate push alerts")
     ap.add_argument("--max-cycles", type=int, default=0, help="Stop after N cycles (0 = run until 15:32 IST)")
     ap.add_argument("--file", dest="replay_file", help="JSONL file for --mode replay")
+    ap.add_argument("--dates", nargs="*", default=[], help="Dates YYYY-MM-DD for --mode prove-days")
     a = ap.parse_args(argv)
 
     if a.mode == "selftest":
         return run_selftest()
     root = Path(a.root)
+    if a.mode == "prove-days":
+        today = datetime.now(IST).date()
+        days = a.dates or [(today - timedelta(days=1)).isoformat(), today.isoformat()]
+        return run_prove_days(root, days)
     if a.mode == "replay":
         if not a.replay_file:
             print("--file is required for --mode replay", file=sys.stderr)
