@@ -1350,6 +1350,17 @@ def run_live_shadow(
                 const_bars[sym] = [b for b in raw_b if target_day != now_ist.strftime("%Y-%m-%d") or b["time"] < cur_slot]
                 time.sleep(0.20)
 
+    # Load fresh reversal-radar action bridge if reversal_flip_detector.py is running
+    rev_indices: Dict[str, Any] = {}
+    rev_p = root / "data" / "reversal_alerts" / "reversal_state.json"
+    if rev_p.exists():
+        try:
+            rd = json.loads(rev_p.read_text())
+            if (now_ist - datetime.fromisoformat(rd["updated_at"])).total_seconds() <= 90.0:
+                rev_indices = rd.get("indices") or {}
+        except Exception:
+            pass
+
     directives: List[Dict[str, Any]] = []
     for idx in indices:
         cfg = INDEX_CFG[idx]
@@ -1385,6 +1396,14 @@ def run_live_shadow(
                 sig = signal_squeeze_orb(idx, completed, daily_rows, prior_5m, prior_or15, const_bars if idx == "BANKNIFTY" else None)
             print(f"[{idx} | {strat} | {target_day}] {sig['decision']} ({sig.get('reason', 'ok')}) -> {sig}")
             if sig["decision"] == "SIGNAL":
+                rev_dir = ((rev_indices.get(idx) or {}).get("directives") or {})
+                d_side = sig.get("direction")
+                if d_side == "CE" and rev_dir.get("block_ce_entries"):
+                    print(f"[{idx} | {strat}] BLOCKED BY REVERSAL RADAR: {rev_dir.get('summary_action')}")
+                    continue
+                if d_side == "PE" and rev_dir.get("block_pe_entries"):
+                    print(f"[{idx} | {strat}] BLOCKED BY REVERSAL RADAR: {rev_dir.get('summary_action')}")
+                    continue
                 directives.append({"timestamp_ist": now_ist.isoformat(), "date": target_day, "gate_verdict": verdict_26, "paper_only": True, **sig})
 
     if not dry_run and directives:
