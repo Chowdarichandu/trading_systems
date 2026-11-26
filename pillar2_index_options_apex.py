@@ -337,6 +337,7 @@ def fetch_live_option_quote(
 # ---------------------------------------------------------------------------
 def load_local_5m_by_day(root: Path, sym: str) -> Dict[str, List[Dict[str, Any]]]:
     candidates = [
+        root / "data" / "breadth_5m" / sym / "spot_5m_vol.csv",
         root / "data" / "progressive" / sym / "spot_5m.csv",
         root / "data" / "sarvaritu_fwd" / sym / "spot_5m.csv",
         root / "data" / "tarang_vol" / sym / "spot_5m_vol.csv",
@@ -549,28 +550,35 @@ def evaluate_day_signal(
             "direction": direction, "signal_time": sig_time,
         }
 
-    # Rule 2: Bank Nifty Top-5 Constituent Breadth
+    # Rule 2: Bank Nifty Top-5 Constituent Breadth (FAIL-CLOSED: never degrade silently!)
     breadth_frac: Optional[float] = None
     breadth_votes: Dict[str, int] = {}
     if index == "BANKNIFTY" and use_breadth:
-        if constituent_bars:
-            breadth_votes = score_constituent_votes(constituent_bars, sig_time)
-            avail_w = sum(
-                ERU.BANKNIFTY_TOP5_WEIGHTS[s]
-                for s in breadth_votes
-                if s in ERU.BANKNIFTY_TOP5_WEIGHTS
-            )
-            if avail_w >= 0.40:
-                ok_b, breadth_frac = ERU.banknifty_breadth_aligned(
-                    breadth_votes, direction, min_weight_share=min_breadth_share
-                )
-                if not ok_b:
-                    return {
-                        "decision": "BLOCKED",
-                        "reason": f"breadth_disagree_{breadth_frac:.2f}",
-                        "direction": direction, "signal_time": sig_time,
-                        "breadth_frac": breadth_frac, "breadth_votes": breadth_votes,
-                    }
+        if not constituent_bars:
+            return {
+                "decision": "NC",
+                "reason": "breadth_unavailable_0_of_5",
+                "direction": direction, "signal_time": sig_time,
+            }
+        breadth_votes = score_constituent_votes(constituent_bars, sig_time)
+        present_cnt = sum(1 for s in ERU.BANKNIFTY_TOP5_WEIGHTS if s in breadth_votes)
+        if present_cnt < 4:
+            return {
+                "decision": "NC",
+                "reason": f"breadth_incomplete_{present_cnt}_of_5",
+                "direction": direction, "signal_time": sig_time,
+                "breadth_votes": breadth_votes,
+            }
+        ok_b, breadth_frac = ERU.banknifty_breadth_aligned(
+            breadth_votes, direction, min_weight_share=min_breadth_share
+        )
+        if not ok_b:
+            return {
+                "decision": "BLOCKED",
+                "reason": f"breadth_disagree_{breadth_frac:.2f}",
+                "direction": direction, "signal_time": sig_time,
+                "breadth_frac": breadth_frac, "breadth_votes": breadth_votes,
+            }
 
     # Rule 3: Signal-Candle Exhaustion Guard
     atr_5m = compute_5m_atr(prior_5m_bars, today_bars[:sig_idx], period=14)
