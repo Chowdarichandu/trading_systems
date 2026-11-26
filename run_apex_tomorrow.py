@@ -66,6 +66,7 @@ def main(argv: list[str] | None = None) -> int:
     p2 = str(THIS_DIR / "pillar2_index_options_apex.py")
     lab = str(THIS_DIR / "index_apex_lab.py")
     bf = str(THIS_DIR / "backfill_index_2025_2026.py")
+    of = str(THIS_DIR / "orderflow_footprint_engine.py")
     wd = str(THIS_DIR / "pipeline_watchdog.py")
     cb = str(THIS_DIR / "circuit_breaker_stack.py")
 
@@ -74,11 +75,12 @@ def main(argv: list[str] | None = None) -> int:
         rc2 = _run([py, p2, "--mode", "selftest"], "Pillar 2 self-test")
         rc3 = _run([py, lab, "--mode", "selftest"], "Index Apex Lab self-test + leak audit")
         rc4 = _run([py, bf, "--selftest"], "Index Backfill self-test")
+        rc5 = _run([py, of, "--mode", "selftest"], "Order Flow / VP / Footprint self-test")
         env_p = root / "upstox_refresh" / ".env"
         tok_ok = env_p.exists() and "UPSTOX_ACCESS_TOKEN=" in env_p.read_text()
         print(f"\n>>> [Upstox token check] {env_p} -> {'OK' if tok_ok else 'MISSING (expected on live machine ~/workspace/trading)'}")
         _run([py, wd, "--root", str(root)], "Pipeline watchdog")
-        return 0 if (rc1 == 0 and rc2 == 0 and rc3 == 0 and rc4 == 0) else 1
+        return 0 if (rc1 == 0 and rc2 == 0 and rc3 == 0 and rc4 == 0 and rc5 == 0) else 1
 
     if a.index_gate:
         rc_lk = _run([py, lab, "--mode", "leakaudit"], "Index Apex Lab leak audit")
