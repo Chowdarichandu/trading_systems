@@ -1,0 +1,173 @@
+{
+  "paper_only": true,
+  "benchmark_nifty_2019_2026": {
+    "days": 1870,
+    "tot_pct": 121.09,
+    "cagr_pct": 11.28,
+    "vol_pct": 18.1,
+    "sharpe": 0.68,
+    "sortino": 0.65,
+    "max_dd_pct": -37.77,
+    "calmar": 0.3,
+    "win_months_pct": 59.3,
+    "ex_top3_months_tot_pct": 57.47
+  },
+  "pillar1_resid_mom_2019_2026": {
+    "days": 1904,
+    "tot_pct": 284.82,
+    "cagr_pct": 19.53,
+    "vol_pct": 16.57,
+    "sharpe": 1.16,
+    "sortino": 1.07,
+    "max_dd_pct": -21.87,
+    "calmar": 0.89,
+    "win_months_pct": 64.5,
+    "ex_top3_months_tot_pct": 192.85
+  },
+  "pillar2_options_vrp_2023_2026": {
+    "days": 824,
+    "tot_pct": 83.73,
+    "cagr_pct": 20.45,
+    "vol_pct": 23.64,
+    "sharpe": 0.91,
+    "sortino": 0.76,
+    "max_dd_pct": -21.21,
+    "calmar": 0.96,
+    "win_months_pct": 61.7,
+    "ex_top3_months_tot_pct": 35.24
+  },
+  "pillar3_futures_carry_2023_2026": {
+    "days": 757,
+    "tot_pct": 15.65,
+    "cagr_pct": 4.96,
+    "vol_pct": 6.5,
+    "sharpe": 0.78,
+    "sortino": 0.86,
+    "max_dd_pct": -7.12,
+    "calmar": 0.7,
+    "win_months_pct": 59.0,
+    "ex_top3_months_tot_pct": 2.62
+  },
+  "pillar4_sip_tom_2019_2026": {
+    "days": 1870,
+    "tot_pct": 62.82,
+    "cagr_pct": 6.79,
+    "vol_pct": 8.58,
+    "sharpe": 0.81,
+    "sortino": 0.51,
+    "max_dd_pct": -18.91,
+    "calmar": 0.36,
+    "win_months_pct": 63.7,
+    "ex_top3_months_tot_pct": 34.94
+  },
+  "core_3pillar_2019_2026": {
+    "days": 1950,
+    "tot_pct": 201.71,
+    "cagr_pct": 15.34,
+    "vol_pct": 11.4,
+    "sharpe": 1.31,
+    "sortino": 1.19,
+    "max_dd_pct": -14.12,
+    "calmar": 1.09,
+    "win_months_pct": 69.5,
+    "ex_top3_months_tot_pct": 148.25
+  },
+  "core_3pillar_2023_2026": {
+    "days": 957,
+    "tot_pct": 76.49,
+    "cagr_pct": 16.14,
+    "vol_pct": 11.19,
+    "sharpe": 1.39,
+    "sortino": 1.21,
+    "max_dd_pct": -14.12,
+    "calmar": 1.14,
+    "win_months_pct": 70.2,
+    "ex_top3_months_tot_pct": 47.93
+  },
+  "full_4pillar_2023_2026": {
+    "days": 957,
+    "tot_pct": 86.1,
+    "cagr_pct": 17.77,
+    "vol_pct": 9.61,
+    "sharpe": 1.75,
+    "sortino": 1.57,
+    "max_dd_pct": -8.53,
+    "calmar": 2.08,
+    "win_months_pct": 72.3,
+    "ex_top3_months_tot_pct": 57.55
+  },
+  "core_3pillar_2x_cost_2023_2026": {
+    "days": 957,
+    "tot_pct": 68.44,
+    "cagr_pct": 14.72,
+    "vol_pct": 11.19,
+    "sharpe": 1.28,
+    "sortino": 1.12,
+    "max_dd_pct": -14.52,
+    "calmar": 1.01,
+    "win_months_pct": 68.1,
+    "ex_top3_months_tot_pct": 41.67
+  },
+  "full_4pillar_2x_cost_2023_2026": {
+    "days": 957,
+    "tot_pct": 75.61,
+    "cagr_pct": 15.98,
+    "vol_pct": 9.63,
+    "sharpe": 1.59,
+    "sortino": 1.42,
+    "max_dd_pct": -9.15,
+    "calmar": 1.75,
+    "win_months_pct": 72.3,
+    "ex_top3_months_tot_pct": 49.14
+  },
+  "blind_2025_2026_full_4pillar": {
+    "days": 462,
+    "tot_pct": 18.27,
+    "cagr_pct": 9.58,
+    "vol_pct": 9.36,
+    "sharpe": 1.02,
+    "sortino": 0.93,
+    "max_dd_pct": -8.04,
+    "calmar": 1.19,
+    "win_months_pct": 65.2,
+    "ex_top3_months_tot_pct": 6.48
+  },
+  "blind_2025_2026_core_3pillar": {
+    "days": 462,
+    "tot_pct": 8.12,
+    "cagr_pct": 4.35,
+    "vol_pct": 10.26,
+    "sharpe": 0.47,
+    "sortino": 0.4,
+    "max_dd_pct": -9.29,
+    "calmar": 0.47,
+    "win_months_pct": 56.5,
+    "ex_top3_months_tot_pct": -2.28
+  },
+  "correlation_matrix": {
+    "pillar1_resid_mom": {
+      "pillar1_resid_mom": 1.0,
+      "pillar2_options_vrp": -0.082,
+      "pillar3_futures_carry": -0.102,
+      "pillar4_sip_tom": 0.512
+    },
+    "pillar2_options_vrp": {
+      "pillar1_resid_mom": -0.082,
+      "pillar2_options_vrp": 1.0,
+      "pillar3_futures_carry": -0.007,
+      "pillar4_sip_tom": -0.099
+    },
+    "pillar3_futures_carry": {
+      "pillar1_resid_mom": -0.102,
+      "pillar2_options_vrp": -0.007,
+      "pillar3_futures_carry": 1.0,
+      "pillar4_sip_tom": -0.031
+    },
+    "pillar4_sip_tom": {
+      "pillar1_resid_mom": 0.512,
+      "pillar2_options_vrp": -0.099,
+      "pillar3_futures_carry": -0.031,
+      "pillar4_sip_tom": 1.0
+    }
+  }
+}
