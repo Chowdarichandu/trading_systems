@@ -1,0 +1,363 @@
+{
+  "mode": "PAPER_ONLY",
+  "broker_orders_placed": 0,
+  "total_capital_inr": 1000000.0,
+  "pillar1_residual_momentum": {
+    "as_of_date": "2026-09-03",
+    "ann_turnover": 7.33,
+    "vol_target_exposure_pct": 100.0,
+    "cash_buffer_pct": 0.0,
+    "picks": [
+      {
+        "symbol": "LAURUSLABS",
+        "resid_sharpe_12m": 0.1855,
+        "close": 1868.5,
+        "vol60_ann_pct": 28.6,
+        "weight_pct": 6.96,
+        "alloc_inr_core45": 31320.0,
+        "shares_core45": 16
+      },
+      {
+        "symbol": "BHARATFORG",
+        "resid_sharpe_12m": 0.1727,
+        "close": 1981.0,
+        "vol60_ann_pct": 28.6,
+        "weight_pct": 6.94,
+        "alloc_inr_core45": 31230.0,
+        "shares_core45": 15
+      },
+      {
+        "symbol": "FEDERALBNK",
+        "resid_sharpe_12m": 0.1616,
+        "close": 344.6,
+        "vol60_ann_pct": 24.7,
+        "weight_pct": 8.06,
+        "alloc_inr_core45": 36270.0,
+        "shares_core45": 105
+      },
+      {
+        "symbol": "BHEL",
+        "resid_sharpe_12m": 0.1512,
+        "close": 431.8,
+        "vol60_ann_pct": 32.9,
+        "weight_pct": 6.04,
+        "alloc_inr_core45": 27180.0,
+        "shares_core45": 62
+      },
+      {
+        "symbol": "ADANIENSOL",
+        "resid_sharpe_12m": 0.1491,
+        "close": 1385.7,
+        "vol60_ann_pct": 34.5,
+        "weight_pct": 5.76,
+        "alloc_inr_core45": 25920.0,
+        "shares_core45": 18
+      },
+      {
+        "symbol": "SHRIRAMFIN",
+        "resid_sharpe_12m": 0.1417,
+        "close": 1044.2,
+        "vol60_ann_pct": 33.6,
+        "weight_pct": 5.92,
+        "alloc_inr_core45": 26640.0,
+        "shares_core45": 25
+      },
+      {
+        "symbol": "SONACOMS",
+        "resid_sharpe_12m": 0.1359,
+        "close": 800.0,
+        "vol60_ann_pct": 28.2,
+        "weight_pct": 7.05,
+        "alloc_inr_core45": 31725.0,
+        "shares_core45": 39
+      },
+      {
+        "symbol": "NATIONALUM",
+        "resid_sharpe_12m": 0.1289,
+        "close": 374.0,
+        "vol60_ann_pct": 42.1,
+        "weight_pct": 4.73,
+        "alloc_inr_core45": 21285.0,
+        "shares_core45": 56
+      },
+      {
+        "symbol": "VEDL",
+        "resid_sharpe_12m": 0.1237,
+        "close": 270.5,
+        "vol60_ann_pct": 33.7,
+        "weight_pct": 5.91,
+        "alloc_inr_core45": 26595.0,
+        "shares_core45": 98
+      },
+      {
+        "symbol": "AUROPHARMA",
+        "resid_sharpe_12m": 0.1197,
+        "close": 1637.3,
+        "vol60_ann_pct": 27.7,
+        "weight_pct": 7.18,
+        "alloc_inr_core45": 32310.0,
+        "shares_core45": 19
+      },
+      {
+        "symbol": "TORNTPHARM",
+        "resid_sharpe_12m": 0.1137,
+        "close": 4905.5,
+        "vol60_ann_pct": 25.3,
+        "weight_pct": 7.88,
+        "alloc_inr_core45": 35460.0,
+        "shares_core45": 7
+      },
+      {
+        "symbol": "MOTHERSON",
+        "resid_sharpe_12m": 0.1057,
+        "close": 162.0,
+        "vol60_ann_pct": 29.5,
+        "weight_pct": 6.73,
+        "alloc_inr_core45": 30285.0,
+        "shares_core45": 186
+      },
+      {
+        "symbol": "ABB",
+        "resid_sharpe_12m": 0.105,
+        "close": 7432.0,
+        "vol60_ann_pct": 27.2,
+        "weight_pct": 7.3,
+        "alloc_inr_core45": 32850.0,
+        "shares_core45": 4
+      },
+      {
+        "symbol": "HINDALCO",
+        "resid_sharpe_12m": 0.1005,
+        "close": 1010.0,
+        "vol60_ann_pct": 24.5,
+        "weight_pct": 8.12,
+        "alloc_inr_core45": 36540.0,
+        "shares_core45": 36
+      },
+      {
+        "symbol": "MCX",
+        "resid_sharpe_12m": 0.0953,
+        "close": 3170.2,
+        "vol60_ann_pct": 36.8,
+        "weight_pct": 5.41,
+        "alloc_inr_core45": 24345.0,
+        "shares_core45": 7
+      }
+    ]
+  },
+  "pillar2_monthly_options_vrp": {
+    "margin_per_1lot_suite_inr": 350000.0,
+    "sleeves": [
+      {
+        "sleeve": "P2A_BNF_MO_IC",
+        "symbol": "BANKNIFTY",
+        "as_of_date": "2026-11-12",
+        "spot_close": 61324.45,
+        "rv20_pct": 17.8,
+        "target_expiry": "2026-12-29",
+        "dte": 47,
+        "bias": "NEUTRAL_IRON_CONDOR",
+        "legs": [
+          "SELL 56400 PE / BUY 54400 PE",
+          "SELL 66200 CE / BUY 68200 CE"
+        ],
+        "tp_pct": 75,
+        "sl_mult": 2.0
+      },
+      {
+        "sleeve": "P2B_BNF_MO_TREND_SPR",
+        "symbol": "BANKNIFTY",
+        "as_of_date": "2026-11-12",
+        "spot_close": 61324.45,
+        "rv20_pct": 17.8,
+        "target_expiry": "2026-12-29",
+        "dte": 47,
+        "bias": "BULLISH (SMA20=56243.0) -> PUT CREDIT SPREAD",
+        "legs": [
+          "SELL 57400 PE / BUY 55900 PE"
+        ],
+        "tp_pct": 75,
+        "sl_mult": 2.0
+      },
+      {
+        "sleeve": "P2C_NIFTY_MO_TREND_SPR",
+        "symbol": "NIFTY",
+        "as_of_date": "2026-11-12",
+        "spot_close": 25284.5,
+        "rv20_pct": 15.1,
+        "target_expiry": "2026-12-01",
+        "dte": 19,
+        "bias": "BULLISH (SMA50=23326.7) -> PUT CREDIT SPREAD",
+        "legs": [
+          "SELL 24650 PE / BUY 24050 PE"
+        ],
+        "tp_pct": "HOLD_EXPIRY",
+        "sl_mult": "DEFINED_WING_MAX_RISK"
+      }
+    ]
+  },
+  "pillar3_futures_carry_optional": {
+    "as_of_date": "2026-09-03",
+    "ann_turnover": 25.3,
+    "long_backwardation_top": [
+      {
+        "symbol": "IREDA",
+        "roll_spread_pct": -1.806
+      },
+      {
+        "symbol": "LODHA",
+        "roll_spread_pct": -1.555
+      },
+      {
+        "symbol": "DIXON",
+        "roll_spread_pct": -0.955
+      },
+      {
+        "symbol": "NMDC",
+        "roll_spread_pct": -0.624
+      },
+      {
+        "symbol": "JUBLFOOD",
+        "roll_spread_pct": -0.593
+      },
+      {
+        "symbol": "NHPC",
+        "roll_spread_pct": -0.558
+      },
+      {
+        "symbol": "SAIL",
+        "roll_spread_pct": -0.456
+      },
+      {
+        "symbol": "ASTRAL",
+        "roll_spread_pct": -0.37
+      },
+      {
+        "symbol": "LTM",
+        "roll_spread_pct": -0.356
+      },
+      {
+        "symbol": "HCLTECH",
+        "roll_spread_pct": -0.347
+      },
+      {
+        "symbol": "PIIND",
+        "roll_spread_pct": -0.336
+      },
+      {
+        "symbol": "BLUESTARCO",
+        "roll_spread_pct": -0.33
+      },
+      {
+        "symbol": "NAM-INDIA",
+        "roll_spread_pct": -0.286
+      },
+      {
+        "symbol": "KFINTECH",
+        "roll_spread_pct": -0.265
+      },
+      {
+        "symbol": "SHREECEM",
+        "roll_spread_pct": -0.257
+      }
+    ],
+    "short_contango_top": [
+      {
+        "symbol": "PGEL",
+        "roll_spread_pct": 0.643
+      },
+      {
+        "symbol": "TIINDIA",
+        "roll_spread_pct": 0.629
+      },
+      {
+        "symbol": "RBLBANK",
+        "roll_spread_pct": 0.628
+      },
+      {
+        "symbol": "IDEA",
+        "roll_spread_pct": 0.617
+      },
+      {
+        "symbol": "NBCC",
+        "roll_spread_pct": 0.608
+      },
+      {
+        "symbol": "GODREJPROP",
+        "roll_spread_pct": 0.608
+      },
+      {
+        "symbol": "BANKINDIA",
+        "roll_spread_pct": 0.604
+      },
+      {
+        "symbol": "ALKEM",
+        "roll_spread_pct": 0.603
+      },
+      {
+        "symbol": "YESBANK",
+        "roll_spread_pct": 0.603
+      },
+      {
+        "symbol": "CROMPTON",
+        "roll_spread_pct": 0.602
+      },
+      {
+        "symbol": "GMRAIRPORT",
+        "roll_spread_pct": 0.6
+      },
+      {
+        "symbol": "360ONE",
+        "roll_spread_pct": 0.598
+      },
+      {
+        "symbol": "DABUR",
+        "roll_spread_pct": 0.598
+      },
+      {
+        "symbol": "INOXWIND",
+        "roll_spread_pct": 0.589
+      },
+      {
+        "symbol": "INDHOTEL",
+        "roll_spread_pct": 0.589
+      }
+    ]
+  },
+  "pillar4_sip_turn_of_month": {
+    "indices": [
+      {
+        "symbol": "NIFTY",
+        "as_of_date": "2026-07-17",
+        "close": 24334.3,
+        "rv20_pct": 12.4,
+        "tom_window_active": false,
+        "vol_scale": 1.13
+      },
+      {
+        "symbol": "BANKNIFTY",
+        "as_of_date": "2026-07-17",
+        "close": 58521.4,
+        "rv20_pct": 16.3,
+        "tom_window_active": false,
+        "vol_scale": 0.86
+      },
+      {
+        "symbol": "FINNIFTY",
+        "as_of_date": "2026-07-17",
+        "close": 26903.35,
+        "rv20_pct": 15.1,
+        "tom_window_active": false,
+        "vol_scale": 0.93
+      },
+      {
+        "symbol": "NIFTYNXT50",
+        "as_of_date": "2026-07-17",
+        "close": 71828.4,
+        "rv20_pct": 12.4,
+        "tom_window_active": false,
+        "vol_scale": 1.13
+      }
+    ]
+  }
+}
